@@ -17,6 +17,8 @@ Codex と異なるルールをここに追加しないでください。両方�
 
 担当によって成果物の置き場所や形式を変えません（解析は `analysis/*.yaml`、生成記録は `.prompt.yaml`、レビューは `review.md`）。
 
+4経路の同時進行は行わず、まずCodexとClaude Codeのすみ分けで運用します。着手前に同じファイルの作業が重ならないか確認し、マージは原則セッション終了時に人間へ提案します（AGENTS.md §2・§10、system/rules/git-workflow.md）。
+
 ## Claude Code 固有の注意
 
 - **環境準備**: Claude Code on the web では `.claude/settings.json` の SessionStart フックが `system/scripts/setup.sh --quiet` を自動実行します（リモートセッションのみ。失敗してもセッションは止まりません）。ローカルの CLI では自動実行されないので、必要なら `npm run setup` を実行します
