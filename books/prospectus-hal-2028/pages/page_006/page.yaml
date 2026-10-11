@@ -1,10 +1,6 @@
 id: page_006
 title: 学びのサイクル
 type: other
-background:
-  image: books/prospectus-hal-2028/backgrounds/red-circuit.png
-  fit: cover
-  position: center
-  opacity: 1
 status: review
 notes: 24ページ版の15ページを再構成。2028年4月入学向け12ページ案。新パーツ使用は人間の指示。
+  HAL原本の写真大小・帯・段組・図表密度を参考に構成を個別化。参考資料の画素・固有コピーは使用しない。

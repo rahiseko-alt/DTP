@@ -302,3 +302,81 @@
 .neon.overview .node-b,.neon.overview .node-c {top:37mm;}
 .neon.overview .course-core {top:132mm;height:100mm;}
 .neon.overview .overview-policy {top:244mm;}
+/* 紙面のリズム：扉・コラージュ・学科図解・写真・編集記事を交互に */
+.neon.editorial .chapter-bar {position:absolute;top:15mm;left:16mm;right:16mm;border-bottom:.5mm solid var(--color-primary);padding-bottom:3mm;font-size:8pt;font-weight:900;letter-spacing:.12em;}
+.neon.editorial .chapter-bar::after {content:'';position:absolute;right:0;bottom:0;width:24mm;height:4mm;background:var(--color-primary);clip-path:polygon(12% 0,100% 0,88% 100%,0 100%);}
+.neon.outputs .output-title {position:absolute;top:31mm;left:16mm;right:16mm;}
+.neon.outputs .output-title>span {position:absolute;right:0;top:-6mm;font-size:120pt;line-height:1;font-weight:900;color:#e2eaf1;}
+.neon.outputs .output-title h1 {position:relative;font-size:30pt;line-height:1.15;}
+.neon.outputs .output-title p {position:relative;font-size:10pt;margin-top:5mm;}
+.neon .output-core {position:absolute;right:-18mm;top:39mm;width:80mm;opacity:.85;}
+.neon .output-grid {position:absolute;top:100mm;left:16mm;right:16mm;display:grid;grid-template-columns:1.08fr 1fr;gap:5mm;}
+.neon .sample {position:relative;height:72mm;overflow:hidden;padding:5mm;background:#e9f0f5;}
+.neon .sample-tag {font-size:7pt;font-weight:900;letter-spacing:.1em;display:block;}
+.neon .sample h2 {font-size:12pt;}
+.neon .sample p {font-size:8.5pt;line-height:1.6;}
+.neon .sample-web {background:#1264a3;color:#fff;border-left:none;}
+.neon .sample-web strong {font-size:28pt;margin:6mm 0 4mm;}
+.neon .sample-visual {transform:translateY(8mm);background:#071321;color:#fff;}
+.neon .sample-art {position:absolute;top:10mm;left:0;width:100%;height:57mm;object-fit:cover;}
+.neon .sample-visual h2 {position:absolute;bottom:0;left:0;right:0;padding:4mm;background:#071321;}
+.neon .sample-data {height:64mm;}
+.neon .data-bars {height:32mm;display:flex;align-items:flex-end;gap:5mm;margin:2mm 0 4mm;}
+.neon .data-bars i {height:12mm;width:10mm;background:#1264a3;}
+.neon .data-bars i:nth-child(2){height:22mm;background:#07a0a7;}.neon .data-bars i:nth-child(3){height:17mm;background:#a93452;}.neon .data-bars i:nth-child(4){height:30mm;}
+.neon .sample-present {height:64mm;transform:translateY(8mm);background:#a93452;color:#fff;}
+.neon .sample-present strong {font-size:31pt;line-height:1;font-weight:900;display:block;margin:5mm 0;}
+.neon .course-ribbon {position:absolute;top:37mm;right:15mm;writing-mode:vertical-rl;font-size:9pt;letter-spacing:.16em;font-weight:900;color:var(--color-primary);}
+.neon .ai-title {position:absolute;top:37mm;left:16mm;}
+.neon .mega-ai {display:block;font-size:145pt;line-height:.85;font-weight:900;letter-spacing:-.08em;color:#fff;}
+.neon .ai-title h1 {font-size:27pt;margin-top:8mm;line-height:1.2;}.neon .ai-title p {font-size:9pt;margin-top:4mm;}
+.neon .ai-main-art {position:absolute;right:-22mm;top:117mm;width:157mm;opacity:.85;}
+.neon .ai-learning {position:absolute;top:149mm;left:16mm;width:111mm;display:grid;gap:5mm;}
+.neon .ai-learning section {position:relative;background:#071321e8;padding:4mm 5mm 4mm 18mm;border-left:.6mm solid var(--color-primary);}
+.neon .ai-learning section>span {position:absolute;top:5mm;left:4mm;font-size:12pt;font-weight:900;color:var(--color-primary);}
+.neon .ai-learning h2 {font-size:17pt;line-height:1.2;margin-bottom:2mm;}.neon .ai-learning p {font-size:8.5pt;}
+.neon .ai-school-copy {position:absolute;top:246mm;left:16mm;right:16mm;}.neon .ai-school-copy p {font-size:9pt;line-height:1.65;}
+.neon .vertical-business {position:absolute;top:34mm;right:18mm;writing-mode:vertical-rl;font-weight:900;font-size:42pt;line-height:1;letter-spacing:-.04em;color:#dde7ef;}
+.neon .general-title {position:absolute;top:36mm;left:23mm;right:28mm;}
+.neon .general-title>p:first-child {font-size:9pt;color:var(--color-primary);font-weight:900;}
+.neon .general-title h1 {font-size:28pt;line-height:1.2;margin-top:4mm;}
+.neon .general-title h2 {font-size:21pt;margin:9mm 0 3mm;color:var(--color-primary);}
+.neon .general-title .course-meta {font-size:9pt;}
+.neon .field-map {position:absolute;top:139mm;left:26mm;width:158mm;height:84mm;background:radial-gradient(ellipse,#eaf1f6 40%,transparent 41%);}
+.neon .field {position:absolute;padding:3mm 5mm;font-size:13pt;font-weight:900;background:#1264a3;color:#fff;}
+.neon .f1 {top:0;left:11mm;}.neon .f2 {top:5mm;right:0;background:#07868d;}.neon .f3 {top:43mm;left:0;background:#a93452;}.neon .f4 {top:46mm;right:8mm;}.neon .f5 {bottom:0;left:35mm;background:#314b70;}
+.neon .field-center {position:absolute;left:43mm;top:25mm;text-align:center;font-size:18pt;line-height:1.3;font-weight:900;}
+.neon .general-description {position:absolute;top:237mm;left:26mm;right:26mm;}.neon .general-description p {font-size:9.5pt;line-height:1.7;}
+.neon .life-title {position:absolute;top:34mm;left:16mm;right:16mm;}.neon .life-title p {font-size:8pt;color:#1264a3;font-weight:900;letter-spacing:.12em;}.neon .life-title h1 {font-size:31pt;line-height:1.15;margin-top:5mm;}
+.neon .classroom-photo {position:absolute;top:94mm;left:16mm;width:178mm;height:102mm;margin:0;overflow:hidden;}
+.neon .classroom-image {width:320mm;max-width:none;height:auto;transform:translate(-130mm,-18mm);}
+.neon .classroom-photo figcaption {position:absolute;bottom:2mm;right:3mm;padding:1mm 2mm;background:#ffffffdf;font-size:7pt;}
+.neon .life-strip {position:absolute;top:185mm;left:16mm;right:16mm;display:flex;align-items:center;gap:7mm;background:#1264a3;color:#fff;padding:4mm 6mm;}.neon .life-strip strong {font-size:40pt;font-weight:900;line-height:1;}.neon .life-strip p {font-size:9pt;line-height:1.6;}
+.neon .cycle-editorial {position:absolute;top:222mm;left:16mm;right:16mm;display:grid;grid-template-columns:repeat(4,1fr);gap:4mm;}
+.neon .cycle-editorial section {border-top:.6mm solid #1264a3;padding-top:3mm;}.neon .cycle-editorial span {font-size:8pt;color:#1264a3;font-weight:900;}.neon .cycle-editorial h2 {font-size:16pt;margin:2mm 0;}.neon .cycle-editorial p {font-size:8pt;}
+.neon .language-heading {position:absolute;top:36mm;left:16mm;}.neon .language-heading p {font-size:9pt;font-weight:900;letter-spacing:.1em;color:#1264a3;}.neon .language-heading h1 {font-size:31pt;line-height:1.15;margin-top:5mm;}
+.neon .student-photo {position:absolute;top:99mm;left:16mm;right:16mm;height:99mm;margin:0;overflow:hidden;}.neon .student-image {width:100%;height:100%;object-fit:cover;object-position:center 42%;}.neon .student-photo figcaption {position:absolute;bottom:2mm;right:3mm;background:#ffffffdf;padding:1mm 2mm;font-size:7pt;}
+.neon .language-note {position:absolute;top:207mm;left:16mm;width:99mm;}.neon .language-note span {font-size:8pt;color:#1264a3;font-weight:900;}.neon .language-note h2 {font-size:20pt;line-height:1.2;margin:4mm 0;}.neon .language-note p {font-size:8.5pt;}
+.neon .language-mini {position:absolute;top:207mm;right:16mm;width:65mm;border-left:.5mm solid #1264a3;padding-left:5mm;}.neon .language-mini p {font-size:8pt;margin-bottom:4mm;}.neon .language-mini strong {display:block;font-size:12pt;margin-bottom:1mm;}
+.neon .faculty-title {position:absolute;top:35mm;left:26mm;}.neon .faculty-title>span {font-size:47pt;font-weight:900;color:#dce6ee;line-height:1;}.neon .faculty-title h1 {font-size:28pt;line-height:1.2;margin-top:5mm;}
+.neon .cert-block {position:absolute;top:117mm;left:26mm;right:26mm;display:grid;grid-template-columns:14mm 1fr;gap:6mm;}.neon .cert-side {writing-mode:vertical-rl;font-size:9pt;font-weight:900;border-right:.6mm solid #1264a3;padding-right:3mm;}.neon .cert-block section {position:relative;border-bottom:.3mm solid #ccd9e4;padding:6mm 0 6mm 10mm;}.neon .cert-block h2 {font-size:17pt;line-height:1.4;}.neon .cert-symbol {position:absolute;left:0;top:7mm;color:#1264a3;font-size:16pt;}
+.neon .faculty-questions {position:absolute;top:204mm;left:26mm;right:26mm;display:grid;grid-template-columns:61mm 1fr;gap:6mm;}.neon .faculty-questions h2 {font-size:20pt;line-height:1.35;}.neon .faculty-questions dl {margin:0;}.neon .faculty-questions dl div {display:grid;grid-template-columns:12mm 1fr;gap:3mm;margin-bottom:4mm;}.neon .faculty-questions dt {font-size:9pt;font-weight:900;color:#1264a3;}.neon .faculty-questions dd {font-size:8pt;line-height:1.6;margin:0;}
+.neon .next-giant {position:absolute;top:36mm;left:10mm;font-size:115pt;line-height:1;font-weight:900;letter-spacing:-.07em;}.neon .next-giant span {font-size:72pt;color:var(--color-primary);}
+.neon .next-statement {position:absolute;top:109mm;left:16mm;right:16mm;}.neon .next-statement h2 {font-size:31pt;line-height:1.15;}.neon .next-statement p {font-size:12pt;margin-top:8mm;}
+.neon .next-skills {position:absolute;top:203mm;left:16mm;right:16mm;display:flex;gap:3mm;flex-wrap:wrap;}.neon .next-skills span {font-size:8pt;font-weight:900;background:#071321;padding:3mm 4mm;border-left:.7mm solid var(--color-primary);}
+.neon .next-policy {position:absolute;top:231mm;left:16mm;right:16mm;}.neon .next-policy p:last-child {font-size:9pt;line-height:1.65;margin-top:3mm;}
+.neon .parent-guide-art {position:absolute;top:115mm;right:-15mm;width:151mm;opacity:.17;z-index:-1;}
+.neon .parent-guide-title {position:absolute;top:36mm;left:16mm;}.neon .parent-guide-title p {font-size:9pt;font-weight:900;color:#1264a3;}.neon .parent-guide-title h1 {font-size:31pt;line-height:1.15;margin-top:5mm;}
+.neon .parent-editorial {position:absolute;top:107mm;left:16mm;right:16mm;display:grid;gap:8mm;}
+.neon .parent-question {display:grid;grid-template-columns:20mm 1fr;gap:5mm;}.neon .parent-question>span {font-size:36pt;font-weight:900;color:#1264a3;line-height:1;}.neon .parent-question h2 {font-size:17pt;margin-bottom:3mm;line-height:1.3;}.neon .parent-question p {font-size:9pt;line-height:1.7;}
+.neon .parent-bottom {position:absolute;top:248mm;left:16mm;right:16mm;border-top:.6mm solid #1264a3;padding-top:4mm;display:grid;grid-template-columns:1fr 1fr;gap:2mm;}.neon .parent-bottom span {font-size:9pt;font-weight:900;}.neon .parent-bottom strong {font-size:20pt;text-align:right;}.neon .parent-bottom p {font-size:8pt;text-align:right;grid-column:2;}
+/* 写真は人物のいる範囲へ、ビジュアル面は文字の明度を確保 */
+.neon .classroom-image {transform:translate(-130mm,-55mm);}
+.neon.language-photo .student-photo {left:104mm;right:16mm;top:94mm;height:142mm;}
+.neon.language-photo .student-image {object-position:47% center;}
+.neon.language-photo .language-note {top:117mm;left:16mm;width:78mm;}
+.neon.language-photo .language-note h2 {font-size:22pt;}
+.neon.language-photo .language-mini {top:245mm;left:16mm;right:16mm;width:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:5mm;border-left:none;border-top:.5mm solid #1264a3;padding:3mm 0 0;}
+.neon.language-photo .language-mini p {font-size:7.5pt;}
+.neon.next-stage::before {content:'';position:absolute;inset:-3mm;z-index:-1;background:linear-gradient(90deg,#020611dd,#02061155),linear-gradient(180deg,transparent 18%,#020611cc 85%);}
+.neon .field-map::before {content:'';position:absolute;inset:13mm 21mm;border:.4mm dashed #aac3d7;border-radius:50%;}
