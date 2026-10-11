@@ -12,6 +12,10 @@ AIビジネス専門学校のパンフレット・募集要項・チラシ・ポ
 
 ## 2. セッションの流れ
 
+**GitHub標準運用（2026-10-11 人間の指定）**: 現在状態は各フォルダのコード・実データ、未完了課題・判断待ちはIssue、変更理由・レビュー・承認・検証結果はPR/commitへ記録する。担当ノートは再開位置・注意点・次の一手と関連Issue/PRリンクだけの引継ぎとする。ノートへ判断履歴や状態台帳を複製し続けない。以下の過去の詳細記録の指定はこの方針に従って最小限にする。Issue/PRを登録できない場合は未登録と報告し、ノートを代替台帳にしない。
+
+**状態と引継ぎの共通入口（両エージェント必須）**: 開始・事実回答・編集・マージ提案の直前に `python3 system/scripts/sync-context.py` を実行する。manifestのSHA/時刻/成功状態を確認し、`state-context.md` のコード・実データから状態を把握、別の `handoff.md` の両担当引継ぎと突き合わせる。状態の根拠はcompany-data/books/references/sharedの実体のみ。ノート・READMEから現在状態を推測せず、反映済み・未反映・矛盾を区別する。[詳細](docs/fresh-context.md)。失敗やofflineを最新確認済みと扱わない。
+
 GitHub を唯一の正本とし、会話履歴に依存しません。「セッションを継続する」のではなく「GitHub を継続する」（docs/concept.md §11）。
 
 ```text
@@ -51,6 +55,8 @@ GitHub 最新状態取得 → Linux 作業環境の準備 → AGENTS.md / CLAUDE
 4. 環境を診断し、対象の `notes` / `review.md` を読む。開始報告は「今回の作業・相手との重複・未確認事項」を短く伝える。
 5. 自分のノートに今回の作業範囲・ブランチを記録する。作業中は範囲が変わる場合や衝突が判明した場合に確認する。細かな相互報告は必須にしない。各担当は別ワークスペース・別ブランチで作業する。
 
+状態は該当フォルダのコード・実データに保存する。学校事実はcompany-data、BOOK構成・制作状態はbooks、出典・分析はreferences、素材・生成記録はshared。引継ぎノートには作業理由・未完了・検証・次の一手を書く。別の状態管理ノート・手動現況台帳は作らない。相手ノートは代理編集しない。コードと引継ぎを突き合わせ、未マージ・未反映を明記する。
+
 **終了時**: `f`、「終了」「今日は終わり」「引継ぎして」など終了の意図が示されたら、新しい制作を始めず、この終了処理を行う。
 
 1. 作業を安全な区切りで止め、変更と検証結果を確認する。未実行・失敗・未確認を合格扱いしない。
@@ -69,16 +75,16 @@ GitHub 最新状態取得 → Linux 作業環境の準備 → AGENTS.md / CLAUDE
 | Phase 2 | 環境をテンプレート化（会社・BOOK ごとに複製せず、このモノレポに BOOK と参考資料を追加していく） | 方針として適用中 |
 | Phase 3 | 参考資料投入（`references/` へ PDF とページ画像を格納） | **完了**（3 校・14 資料・157 ページ） |
 | Phase 4 | 参考資料解析（`analysis/*.yaml`） | **完了**（14 資料・157 ページ。候補一覧は references/README.md） |
-| Phase 5 | 完コピ検証（代表ページを 2 ラウンド以上比較・修正） | **作業中**（各資料の第一候補 12 ページを 3 ラウンドずつ比較・修正済み。Layer 1 は生成指示を作成済み（9 BOOK・64 件）で、画像生成は Codex が担当・未着手。【要確認】の判断が残り） |
+| Phase 5 | 完コピ検証と素材制作 | **作業中**。現在の素材・別ブランチの自社冊子・採用状態は 実コード・メタデータと両引継ぎを参照 |
 | Phase 6 | BASELINE 確定 | 未着手 |
 | Phase 7 | 保護機構（Filesystem Permission / PreToolUse Hook / Git 差分チェック） | 計画のみ・**未導入**（system/rules/protection.md） |
 | Phase 8 | 自社版への変換 | 未着手 |
 | Phase 9 | 日常編集 | 未着手 |
 
-- `company-data/` は学校の基本情報・学科・入学事務局・募集要項（`facts/admissions.yaml`。2027 年度 4 月入学）を学校の資料から記入済み。教員・実績・共通コピー・写真・ロゴなどは `"TODO: ..."` のプレースホルダ、ブランドカラーは仮の値（`status: provisional`）
+- `company-data/` は学校基本情報・2学科・入学事務局・2027年募集要項・実写真を登録済み。認定講師の取得と学生SNS/HP運営の予定も登録済み。未記入項目と現在の状態は各フォルダのコード・正本を参照する。
 - `references/` は 3 校分（`HAL-nagoya`・`nagoya-iryo-hisho-it`・`kokusai-igaku-gijutsu`）の PDF とページ画像（JPEG）。`source.yaml` の `forbidden_terms` 記入済み。`analysis/` は全資料の解析済み（Phase 5 の候補は references/README.md と各 `book.yaml`）
-- `books/` は Phase 5 の完コピ検証用の `books/replica/`（12 BOOK・各 1 ページ。一覧は references/README.md。文字はダミー、写真は枠のみ。状態と【要確認】は各 `review.md`）だけ。自社の BOOK はまだない
-- Phase 5 の次の作業（Codex）: Layer 1 の生成。対象は `npm run validate` の「Layer 1 が未生成」の警告（`books/replica/*/backgrounds/layer1-orders.yaml`）。手順は system/prompts/generate-background.md「生成指示から生成する」。人物を含む素材（40 件）も全件使用可（2026-10-08 に人間が決定。system/rules/image-generation.md §2）
+- mainの `books/replica/` は12 BOOK各1ページ。自社HAL風24ページBOOKは別ブランチに作成済みで未マージ。医専風原本と文字なし素材はmainに保存済み。今回の冊子の構成・ページ数は別途相談する。
+- Phase 5の未生成指示はvalidateで確認。自社GPT原本からのパーツ制作も進行済みであり、すべての画像生成が未着手ではない。対象と次の作業は実コード・BOOK定義と両引継ぎを照合する。
 - フェーズが進んだら、この表を同じコミットで更新する
 
 ## 4. ディレクトリマップ

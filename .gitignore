@@ -8,6 +8,7 @@ node_modules
 .DS_Store
 .vite
 coverage
+__pycache__
 # テスト用フィクスチャの出力は追跡しない
 system/fixtures/**/output
 system/fixtures/**/reviews
