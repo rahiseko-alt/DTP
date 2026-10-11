@@ -21,6 +21,8 @@ Codex と異なるルールをここに追加しないでください。両方�
 
 ## Claude Code 固有の注意
 
+- **最新情報**: Codexと同じく `python3 system/scripts/sync-context.py` を実行し、生成manifestとcontextを読む（[共通手順](docs/fresh-context.md)）。SessionStartのsetup成功だけで最新情報を把握したとは扱わない。取得が失敗した場合、古いノートやキャッシュで事実を確定しない。
+
 - **環境準備**: Claude Code on the web では `.claude/settings.json` の SessionStart フックが `system/scripts/setup.sh --quiet` を自動実行します（リモートセッションのみ。失敗してもセッションは止まりません）。ローカルの CLI では自動実行されないので、必要なら `npm run setup` を実行します
 - **画像の目視**: 参考ページ画像・出力 PNG・比較出力（`side-by-side.png` など）は Read ツールで画像として開いて確認します。HTML やテキスト抽出の結果だけで見た目を判断しません。大きな PNG は `--dpi 150 --out /tmp/<確認用ディレクトリ>` で一時ディレクトリに出力した確認用画像を見ると扱いやすくなります（低解像度の確認用出力は `books/<id>/output/` に置かない。system/rules/output.md §4）
 - **保護機構**: `.claude/settings.json` に PreToolUse フックや権限制限はまだありません（Phase 7 で導入予定。system/rules/protection.md）。フックがないことは、保護対象を自由に変更してよいという意味ではありません
