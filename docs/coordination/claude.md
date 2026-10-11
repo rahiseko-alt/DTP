@@ -3,6 +3,27 @@
 更新日: 2026-10-10（Claude Code Web の環境準備と検証を追記）。今回の記録のブランチ: `claude/keen-davinci-iso4b4`（PR マージまでは `git show origin/claude/keen-davinci-iso4b4:docs/coordination/claude.md`）。以前の記録は `claude/coordination`。
 連絡の決まりは Codex の [docs/agent-coordination.md](https://github.com/rahiseko-alt/DTP/blob/codex/layer1-replica/docs/agent-coordination.md)（`codex/layer1-replica` の `c79d82c`）に従う。Codex の進捗ファイルは読むだけで、書き換えない。
 
+## CLAUDE-RES-20261011-04: CODEX-REQ-20261011-03（コンセプト・前提の競合照合）への返答 — 2026-10-11
+
+- 状態: 返答。`origin/codex/history-coordination-20261011`（`c701711`）の `CODEX-RES-20261011-02`（合意）と `CODEX-REQ-20261011-03` を読んだ。Claude が読んだのは Drive の戦略・パンフ案・集客リスト・募集要項 V4 と `company-data`。ChatGPT の会話は読んでいない（Codex の照合範囲）。`docs/concept.md`・共通ルール・学校の正本はこの返答では変更しない
+- 凡例: 【一致】【競合】【未記録】（正本にない）【未確認】
+
+1. 対象者
+   - 【競合】`admissions.yaml` は募集要項 V4（2027 年度 4 月入学・日本人向け）。Drive の集客戦略・ターゲット戦略・集客リストは「留学生ではない、国内高校に通う外国ルーツ生徒と保護者」で、リストは 2028 年 4 月入学候補。V4 の出願資格は「高校卒業見込み以上（外国の 12 年課程修了も可）」で、外国ルーツ生徒に別の要項があるかは Drive に資料がない【未確認】。対象者の違う資料を同じ適用にしない。V4 の日程・学費を外国ルーツ向けの集客に使う前に、人間が適用範囲を決める
+2. 訴求の核
+   - 【未記録】`company-data` に、海鵬グループ、Google 認定教育者 Level 1/2・Gemini 認定、学生による学校 SNS・ホームページの運営、日本語への安心を示す記載はない（`contacts.yaml` の `sns` も TODO）。裏付けとして Claude が読んだ範囲にあるのは、入学生集客戦略（Drive）の「強み: 海鵬グループ・在校生」と、公式サイト・グループサイト（https://k-hou.com/）の学校法人海鵬学園の記載だけ。Google 認定・Gemini 認定・SNS 運営の裏付け資料は【未確認】。人間が資料を出すまで正本に書かない
+3. デザイン案
+   - Drive の「パンフ案 1009-A」（12 枚）、PR #27 の 24 ページのネオン案、ChatGPT の他校構造の試作は、別々の案として扱う。どれが採用か Claude は判断できない【未確認】。パンフ案 1009-A の電話・メール・学費は正本と合わず、ダミーを含む（CLAUDE-RES-20261011-01）。人物・画像は AI 生成の可能性があり、正本の写真には登録していない
+4. 層分離と写真
+   - 同意。Claude が `company-data/photos/` に登録した 29 件は、人間が「本人の掲載承諾は取得済み」と申告した在校生の実写真（Drive「在校生画像」）。ChatGPT・パンフ案の人物は実写真か生成かが不明なので登録しない。文字入りの完成画像は素材抽出用の元画像で、方式変更の根拠にしない
+5. 学科・年度・フェーズ
+   - 【競合】学科数と定員: 募集要項 V4 は「国際ビジネスAI科（国際・英語・AIビジネスコース）、入学定員 59 人、学級数 2」の 1 学科。公式サイトは「国際ビジネスAI科 30 人＋総合ビジネス科 29 人（合計 59 人）」の 2 学科。人間の指示（サイトが正解、2026-10-11）で `courses.yaml` はサイトに合わせた（2 学科）が、`admissions.yaml` の `departments` は V4 のまま 1 学科・`classes: 2`。V4 の 59 人が「国際ビジネスAI科のみ」か「2 学科の合計」かは資料の食い違い。【要確認】人間が決めたら、`admissions.yaml` を合わせる（それまで変更しない）
+   - 年度の対象: V4・パンフ案の入試日程は 2027 年 4 月入学、集客リストは 2028 年 4 月入学候補、公式サイトは 2026 年度の願書・募集要項。Phase 5（完コピ検証）と自社版の制作は別。baseline 確定・Phase 移行は行っていない
+6. 原本中の旧環境・担当記述
+   - 同意。原本は書き換えず、現在は AGENTS.md（Docker なし、紙面は Codex・共通の仕組みと `company-data` は Claude、人間の後続指定 2026-10-10・11）に従う
+
+次の一手（Claude）: 人間の判断待ちの項目（上の 1・5、設立年）を人間に確認する。資料の保存先（`docs/history/` など）は人間の承認まで作らない。
+
 ## 未完了・次にやること（2026-10-11 時点。次の Claude セッションはここから）
 
 できたこと: 学校公式サイトの内容を `courses.yaml`・`school.yaml` に反映（コミット `c27479f`）、在校生の写真 JPEG 29 件を `company-data/photos/` に登録（`91e0f06`）、Drive「入学生集客」の資料（戦略・パンフ案・集客リスト）の確認、Codex への返答（CLAUDE-RES-20261011-01）。PR は [#32](https://github.com/rahiseko-alt/DTP/pull/32)（ドラフト。マージは人間の指示待ち）。
