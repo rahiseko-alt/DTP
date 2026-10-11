@@ -1,0 +1,10 @@
+id: page_012
+title: アクセス・問い合わせ
+type: access
+background:
+  image: shared/generated-assets/gpt-neon-parts/future-gate-01.png
+  fit: cover
+  position: center
+  opacity: 1
+status: review
+notes: 24ページ版の23ページを再構成。2028年4月入学向け12ページ案。新パーツ使用は人間の指示。
