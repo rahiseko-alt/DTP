@@ -1,0 +1,38 @@
+# ターゲット層。原本照合済みと二次記録を区別する。
+# 現在、Drive原本はこのcheckout/関連ブランチに保存されていない。
+booklet_intake:
+  value: 2028年4月入学
+  verification: user_confirmed
+  source: 人間の明示指示（2026-10-11、このチャット）
+target:
+  value: 国内の高校に通う外国ルーツの生徒と、その保護者
+  verification: secondary_record_only
+  source:
+    file: docs/coordination/claude.md
+    section: CLAUDE-RES-20261011-04・CLAUDE-RES-20261011-01
+    inspected_main_commit: 7131c5970da73591a6da890f88d7b5baf99bf56e
+    basis: ClaudeがDrive原本を読了したという引継ぎ記録。Codexによる原本再照合は未完了
+  distinction: 海外から来日する留学生の募集とは区別されている（二次記録による）
+primary_sources:
+  location: Google Drive「入学生集客」
+  documents:
+    - ターゲット戦略 1008
+    - 外国人学生集客ターゲットリスト（xlsx）
+    - 入学生集客戦略
+  direct_urls: []
+  local_originals: []
+  access_in_this_chat: unavailable
+  verification: not_inspected
+  checked_scope: mainとClaude最新ブランチ、Codex履歴照合ブランチの追跡ファイル・記録を調査
+dimensions_requiring_primary_check:
+  - 国籍・出身国
+  - 母語・使用言語
+  - 日本語力
+  - 居住地域・通学圏
+  - 学年・卒業時期
+  - 家庭の経済状況・学費負担
+  - 進学動機・不安・求める支援
+limits:
+  - 上の詳細項目は原本を未照合。原本に記載がないとは断定しない
+  - 生徒本人・保護者の具体的な心理は前回答の編集上の解釈であり、原本からの確認事実として記録しない
+  - 募集要項の適用年度はadmissions.yamlを参照。今回の冊子対象年度と別
