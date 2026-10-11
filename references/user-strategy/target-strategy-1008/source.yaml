@@ -1,0 +1,12 @@
+{
+  "source": "user-strategy",
+  "kind": "target-strategy-1008",
+  "title": "ターゲット戦略1008.pdf",
+  "obtained": "2026-10-11",
+  "original": "references/user-strategy/target-strategy-1008/original/ターゲット戦略1008.pdf",
+  "pages": 7,
+  "usage": "reference-only",
+  "forbidden_terms": [],
+  "notes": "ユーザー添付原本。資料内の提案・仮説・年度違いを学校の確定情報として自動採用しない。",
+  "sha256": "9fc4f0fbc1882778156f7104d29208dfc6875dca4e5f718a4aadea33898a5e37"
+}

@@ -1,38 +1,98 @@
-# ターゲット層。原本照合済みと二次記録を区別する。
-# 現在、Drive原本はこのcheckout/関連ブランチに保存されていない。
-booklet_intake:
-  value: 2028年4月入学
-  verification: user_confirmed
-  source: 人間の明示指示（2026-10-11、このチャット）
-target:
-  value: 国内の高校に通う外国ルーツの生徒と、その保護者
-  verification: secondary_record_only
-  source:
-    file: docs/coordination/claude.md
-    section: CLAUDE-RES-20261011-04・CLAUDE-RES-20261011-01
-    inspected_main_commit: 7131c5970da73591a6da890f88d7b5baf99bf56e
-    basis: ClaudeがDrive原本を読了したという引継ぎ記録。Codexによる原本再照合は未完了
-  distinction: 海外から来日する留学生の募集とは区別されている（二次記録による）
-primary_sources:
-  location: Google Drive「入学生集客」
-  documents:
-    - ターゲット戦略 1008
-    - 外国人学生集客ターゲットリスト（xlsx）
-    - 入学生集客戦略
-  direct_urls: []
-  local_originals: []
-  access_in_this_chat: unavailable
-  verification: not_inspected
-  checked_scope: mainとClaude最新ブランチ、Codex履歴照合ブランチの追跡ファイル・記録を調査
-dimensions_requiring_primary_check:
-  - 国籍・出身国
-  - 母語・使用言語
-  - 日本語力
-  - 居住地域・通学圏
-  - 学年・卒業時期
-  - 家庭の経済状況・学費負担
-  - 進学動機・不安・求める支援
-limits:
-  - 上の詳細項目は原本を未照合。原本に記載がないとは断定しない
-  - 生徒本人・保護者の具体的な心理は前回答の編集上の解釈であり、原本からの確認事実として記録しない
-  - 募集要項の適用年度はadmissions.yamlを参照。今回の冊子対象年度と別
+# ユーザー添付の募集戦略原本との照合。仮説と学校の確定制度を区別。
+{
+  "booklet_intake": {
+    "value": "2028年4月入学",
+    "verification": "user_confirmed_and_primary_document_checked",
+    "source": "人間の明示指示、および外国人学生集客_ターゲットリスト_修正版.xlsx「統合一覧」A2"
+  },
+  "target": {
+    "value": "日本の高校に通う外国ルーツの高校生と、その保護者",
+    "verification": "primary_document_checked",
+    "source": "references/user-strategy/target-strategy-1008/original/ターゲット戦略1008.pdf 物理2–4ページ、およびターゲットリスト「統合一覧」A2",
+    "distinction": "海外から来日する留学生の募集とは区別（リストA2「留学生ではない」）"
+  },
+  "student": {
+    "source_pages": [
+      2,
+      3
+    ],
+    "conditions": [
+      "日本語に不安がある",
+      "大学進学が難しい",
+      "就職を強く希望していない、または就職が難しい",
+      "AI・ビジネスに興味を持てる可能性がある"
+    ],
+    "appeal": [
+      "ここなら自分でもできそう",
+      "AIが面白そう",
+      "大学以外の選択肢",
+      "将来のスキル",
+      "友達・先輩による安心"
+    ],
+    "limits": "日本語能力の数値基準、対象国籍、母語、対象学年は資料で規定されていない。訴求案は募集戦略であり教育サービス提供の証明ではない。"
+  },
+  "parent": {
+    "source_pages": [
+      2,
+      4
+    ],
+    "role": "意思決定者・支払者",
+    "conditions": [
+      "対象の子どもがいる",
+      "初年度約95万円と別途費用を検討できる",
+      "子どもの卒業後に不安がある",
+      "学校・費用・支援に納得する必要がある"
+    ],
+    "decision_materials": [
+      "学ぶ内容と身につくスキル",
+      "卒業後の進路",
+      "日本語への支援",
+      "支払時期と金額",
+      "学校の信頼性と支援"
+    ]
+  },
+  "recruitment_hypotheses": {
+    "verification": "source_explicitly_hypothetical_not_confirmed_demographics",
+    "source": "ターゲット戦略1008.pdf 物理5ページ（番号04）",
+    "employment": "親の安定就労・共働き世帯を優先",
+    "household_annual_income_yen": {
+      "range": [
+        6000000,
+        8000000
+      ],
+      "status": "仮説レンジ"
+    },
+    "industry": "製造業（自動車部品・機械・金属・食品）を優先",
+    "regions": {
+      "priority": [
+        "愛知県三河",
+        "愛知県東三河"
+      ],
+      "next": [
+        "岐阜県可児・美濃加茂",
+        "三重県北勢"
+      ]
+    },
+    "required_verification": "資料自体が自治体統計・労働局統計で要検証と明記"
+  },
+  "primary_sources": {
+    "verification": "attached_originals_checked",
+    "originals": [
+      "references/user-strategy/target-strategy-1008/source.yaml",
+      "references/user-strategy/target-list-revised/source.yaml",
+      "references/user-strategy/price-strategy-1008/source.yaml"
+    ],
+    "checked_scope": "PDF各7ページの本文と全ページ画像、xlsx全4シートの非空セルを抽出。リンク先統計・掲載連絡先の外部再検証は未実施。",
+    "additional_document": "以前の引継ぎにある「入学生集客戦略」は今回の3添付と同一原本か未確認"
+  },
+  "price_source_limits": {
+    "source": "価格戦略1008.pdf 物理2ページ（番号01）",
+    "declared_year": "2026年度募集要項ベース（会話内確認値）",
+    "difference": "company-data/facts/admissions.yamlの2027年募集要項、および冊子対象2028年とは年度が異なる",
+    "status": "2028年の学費確定資料として扱わない。AO免除・奨学金は提案であり未承認。admissions.yamlを変更していない"
+  },
+  "provenance_limits": [
+    "ターゲットリストには前チャットの確定内容を統合したとの記載があるが、チャット全文の保存ではない",
+    "候補機関の国籍別支援は集客経路の情報であり、入学対象者の国籍制限ではない"
+  ]
+}
