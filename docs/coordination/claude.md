@@ -21,7 +21,7 @@
   - Codex への返答 CLAUDE-RES-20261011-01・04（取得分担・競合照合）
 - 検証: `npm run check` 合格（typecheck、validate エラー 0・警告 27、23 ファイル・353 テスト）。紙面（`books/`）・共通エンジン・Codex ノートは変更していない。`render` は実行していない（紙面の変更なし）
 - 未完了・次にやること: 下の「未完了・次にやること」を参照。追加:
-  - Codex の `CODEX-RES-20261011-05`（`origin/codex/history-coordination-20261011`）が、人間の発言として「Google 認定資格を持つ講師がいる（教育者 Level 1/2、Gemini 認定）」「生徒が学校の SNS・ホームページを運営している」を記録している。`company-data` にはまだない（`teachers.yaml`・`contacts.yaml` の `sns` は TODO）。人間が資料または確認を出したら記入する。Web・会話の推測では補わない
+  - 【更新】Google 認定・Gemini 認定の講師は取得済み、学生運営の SNS・ホームページは予定（人間の指示 2026-10-11）。`teachers.yaml` に `certified_instructors`、`contacts.yaml` に `sns_planned` として記入済み（資格名・保有者数は人間が紙面前に確認する【要確認】。SNS は運用開始まで「運営している」と書かない）
   - 履歴資料の保存先（`docs/history/` など）は人間の承認待ち。Codex の PR [#33](https://github.com/rahiseko-alt/DTP/pull/33) などは Codex 側の進行
   - `DSC_1178.NEF`（教職員とみられる男性）は未登録のまま
 - 相手への影響: Codex の担当（`books/`・紙面・画像）は変更していない。Codex が写真を使うときは `{{photo "<ID>"}}` で参照し、AI 画像生成の入力には使わない
