@@ -1,0 +1,20 @@
+tool: image_gen
+model: unspecified-built-in
+created: 2026-10-11
+author: codex
+seed: null
+size: 1316x1195
+prompt: |
+  Create ONE reusable AI-core and luminous network visual asset with genuine transparent background. Use attached armor image ONLY as reference for extremely polished precise white-silver angular metal, faceted crystal glass, deep cobalt reflective materials, cinematic cyan and violet light. No person, face, portrait or humanoid form. Main subject: one sophisticated floating technological core, a faceted translucent glass polyhedron nested in a few sculptural white-silver metallic rings and angular armor segments, with a brilliant but controlled cyan center. Sparse curved filaments of blue-violet light and small luminous connection nodes radiate around it, suggesting an AI network without words, icons or diagrams. Rich three-dimensional depth, realistic CGI, refined reflections and precision equal to the existing cover armor. Center the core, retain generous transparent clearance around the entire object, avoid clipping rays at canvas edges. A compact clean silhouette that can be placed beside a curriculum description or centrally among coded explanatory text. No giant enclosing circle frame, no page panels or mockups. Background must be true transparent alpha; do not bake black or white rectangle or checkerboard. No text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption. One image only.
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption
+reference_inputs:
+  - path: .cache/hal-baseline/cover-armor.png
+    usage: style
+    note: 既存表紙アーマーの金属・ガラス・発光の質感を参照。
+source_refs: []
+notes: |
+  AI活用・カリキュラム用。金属・ガラスの立体コアと青紫の光のネットワーク。背景透過。
+  入力正本: origin/codex/neon-prospectus-2027 の books/prospectus-neon-2027/backgrounds/cover-armor.png。
+  入力SHA256: 86399a72a8effba7932b950c5a3671e4243125ebb02c93a649ed840f04c0510a。
+  文字・数字・ロゴ・人物なしを生成画像の目視で確認。生成後の画素加工なし。
+  パーツ完成、採否の明示確認は未了。BOOK組込み・文字可読性・印刷サイズは未確認。

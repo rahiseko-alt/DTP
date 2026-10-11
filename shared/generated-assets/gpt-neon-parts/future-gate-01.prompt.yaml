@@ -1,0 +1,20 @@
+tool: image_gen
+model: unspecified-built-in
+created: 2026-10-11
+author: codex
+seed: null
+size: 1055x1491
+prompt: |
+  Create ONE high-end portrait technological brochure background, using the attached armor image only as a material and visual-quality reference. Subject: a monumental architectural gate made of angular polished white-silver armor plates and beveled crystal glass, framing a luminous futuristic city in the distance. Perspective draws the viewer through the gate toward the future. No people or faces. Main metallic gate structures occupy left and right outer thirds with precise intricate surfaces, cyan-blue illuminated seams, subtle violet reflections. The middle corridor and upper-middle skyline have a broad bright, calm low-detail atmospheric area suitable for typography later added in code. City buildings elegant and futuristic, no legible signs. Strong depth, dramatic yet controlled light, sophisticated realistic CGI finish equal to the reference armor; avoid cartoon art. Portrait full bleed, no mockup, no paper margins, no cards, ruled frame, panels or page layout. Palette white-silver, cobalt/cyan, navy accents with restrained violet; no dominant red. No text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption. One image only.
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption
+reference_inputs:
+  - path: .cache/hal-baseline/cover-armor.png
+    usage: style
+    note: 既存表紙アーマーの金属・ガラス・発光の質感を参照。
+source_refs: []
+notes: |
+  巻頭・学科紹介の扉用。白銀装甲のゲートと遠景の未来都市。中央の空は文字配置候補。
+  入力正本: origin/codex/neon-prospectus-2027 の books/prospectus-neon-2027/backgrounds/cover-armor.png。
+  入力SHA256: 86399a72a8effba7932b950c5a3671e4243125ebb02c93a649ed840f04c0510a。
+  文字・数字・ロゴ・人物なしを生成画像の目視で確認。生成後の画素加工なし。
+  パーツ完成、採否の明示確認は未了。BOOK組込み・文字可読性・印刷サイズは未確認。

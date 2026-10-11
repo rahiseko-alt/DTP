@@ -1,0 +1,19 @@
+tool: image_gen
+model: unspecified-built-in
+created: 2026-10-11
+author: codex
+seed: null
+size: 1700x925
+prompt: |
+  Correct this asset by cropping it to ONLY the upper classroom photograph. Remove the entire blue rectangular band and the entire white lower area from the canvas, not replace them. Output one wide landscape photograph, approximately 1055:574 aspect ratio, bounded exactly by the original top, left, right edges and the horizontal photograph/blue-band boundary. Keep the existing photograph, four foreground people, background classroom, laptop, faces, clothing, expressions and framing unchanged as closely as possible. No extrapolation, no new scene, no blue graphic panels, no white margins, no page layout. No text, letters, numbers, logos, QR, captions, watermarks. This is a photo-only reusable part.
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption
+reference_inputs:
+  - path: .cache/gpt-parts-trial/teacher-left-textless-v1.png
+    usage: img2img
+source_refs: [references/user-gpt/lecturer-spread/page_001.png]
+notes: |
+  人間の青帯除去指示に基づくv2。青帯・白余白なし、写真部分のみ。目視確認済み。
+  built-in ImageGenによる編集のため、元画像と画素一致ではなく人物や画角の細部に変化がある。
+  本校の実写真として登録しない。未採用の確認用素材として.cacheに保存。
+  2026-10-11 人間が修正版を「おｋ」と承認。再利用する生成写真パーツとして保存。本校の実写真ではない。
+  reference_inputsのv1は実際の中間入力。不採用のためGitに保存せず、元のGPT画像をsource_refsに保管。

@@ -1,0 +1,23 @@
+tool: image_gen
+model: unspecified-built-in
+created: 2026-10-11
+author: codex
+seed: null
+size: 1055x1491
+prompt: |
+  Edit the provided cover-armor image into ONE subtle watermark illustration overlay for a white brochure page. Preserve the existing centered fictional woman's face, distinctive angular crown/helmet, shoulders and crystalline armor composition closely. Remove the dark outer background and all surrounding laser beams, starbursts and floating debris. Make the entire retained portrait and armor a very pale cool-gray and icy-blue translucent ghost image, low contrast, delicate details, approximately 8–15 percent visible when composited onto pure white. No dark blacks, no saturated reds, no bright neon. Softly fade the outer shoulders and lower bust into genuine transparent alpha, with no hard cutout edge. Keep face and helmet recognizable but subdued enough for black body text to read over them. Output a portrait PNG with a genuinely transparent background AND low-opacity translucent subject; do not bake a white rectangle or checkerboard into the pixels. This is a reusable Layer 1 visual part. No text, letters, typography, words, numbers, logo, watermark text, signature, QR code, caption, page border, panels, cards or bands. One output only.
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption
+reference_inputs:
+  - path: .cache/hal-baseline/cover-armor.png
+    usage: img2img
+    note: PR27の既存生成パーツcover-armor.pngをLFS実体から無加工でコピーして入力。
+source_refs: []
+notes: |
+  人間の「表紙用アーマーの透かし」「白ページなどの背景」指定で作成。
+  入力の正本: origin/codex/neon-prospectus-2027 の books/prospectus-neon-2027/backgrounds/cover-armor.png。
+  入力SHA256: 86399a72a8effba7932b950c5a3671e4243125ebb02c93a649ed840f04c0510a。
+  黒背景・赤い発光を除去、淡い青灰色、外周の透過とぼかし。文字・数字・ロゴなしを目視確認。
+  RGBAのalpha範囲0～254。主体全体が均一な低alphaではなく、淡色化と外周透過の仕上げ。
+  白いページでさらに薄くする場合は配置側のopacityで調整。文字配置での可読性・印刷サイズは未確認。
+  ImageGenの生成編集のため顔や装甲の細部に変化がある。本校の実写真ではない。
+  2026-10-11 人間が「採用」と明示。白ページ用の透かしパーツとして採用済み。

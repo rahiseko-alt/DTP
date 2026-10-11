@@ -1,0 +1,14 @@
+source: user-gpt
+kind: lecturer-spread
+title: GPT制作案・講師とAI活用の見開き（画像パーツ抽出元）
+obtained: 2026-10-11
+original: null
+pages: 1
+usage: reference-only
+forbidden_terms: []
+notes: |
+  人間が指定したRoad to Dragon「人物置換指示」のGPT生成画像。
+  https://chatgpt.com/g/g-p-6ac6af9515f0819197a762da7b14aaab-road-to-dragon/c/6ac8b973-c588-83e8-b6ce-9a985a45cb47
+  Google認定資格保持の講師について人間が述べた後の「やれ」に対する生成画像を、ブラウザのダウンロードで取得。
+  他校資料ではないため禁止語は空。画像中の文章・資格ロゴ・人物は学校の確定事実や実写真の正本ではない。
+  生成した写真パーツから文字・ロゴ・帯・枠を除く作業の出典用。元画像をページに直接貼らない。
