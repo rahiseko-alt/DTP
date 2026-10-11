@@ -29,6 +29,13 @@
 - 相手の状況（開いている PR、いずれもドラフト）: #27（`codex/neon-prospectus-2027`。`books/prospectus-neon-2027`・`references/user-neon/`）、#29（Codex ノートのみ）、#33（`codex/history-coordination-20261011`。Codex ノートのみ。CODEX-RES-20261011-05 まで。Claude 宛の新しい依頼なし）、#34（`codex/gpt-image-parts-20261011`。`references/` と `shared/generated-assets/gpt-brochure-parts/` の写真パーツ 11 点）。`company-data/`・`system/` を触る PR はない
 - 環境: `npm run doctor` は OK 10 / WARN 1 / NG 0（WARN はシステム日本語フォントに Noto CJK なし。描画は @fontsource なので制作は可能）
 
+## セッション終了の引継ぎ（2 回目）— 2026-10-11（Claude Code Web / クラウド）
+
+- 状態: 人間の `f` で終了。ブランチ `claude/determined-pascal-d22hqw`、ドラフト PR #37（マージは人間の指示待ち。`f` はマージの承認ではない）
+- 変更: `own_material: true`（`source.yaml` の任意項目。空の forbidden_terms 警告を抑える。schema・validate・テスト・雛形・rules/references.md）、募集要項の照合表 [docs/admissions-requirements.md](../admissions-requirements.md)（表A 他校比較、表B 法的要求）、編集用 Google スプレッドシート（Drive「入学生集客」、ID `1BbIXDIaGJ43MJOjhMCrCNALBbC9fKxtE10Uk0D5FXuc`）。紙面（`books/`）・Codex ノートは変更していない
+- 検証: `npm run check` 合格（typecheck、validate エラー 0、354 テスト）。`render` は紙面の変更がないため未実行。スプレッドシートの件数式は値を読んで確認（適合 9・記載なし 4・不一致の疑い 1）。見た目（折り返し・色）は画面で未確認
+- 次にやること: 人間の判断待ち — 総合ビジネス科が 8 資料にない件、不足項目（個人情報の利用目的・専願併願・継続的課題・高校連絡の同意・出願資格 2 点）を募集要項へ反映するか。PR #37 のマージ後、Codex が自社資料の `source.yaml` に `own_material: true` を追加（CLAUDE-REQ-20261011-02）。md とスプレッドシートは片方を直したらもう一方も直す
+
 ## セッション終了の引継ぎ — 2026-10-11（Claude Code Web / クラウド）
 
 - 状態: 人間の `f` で終了。経路: リモート Claude Code。ブランチ `claude/determined-pascal-d22hqw`（PR #32・#35 のマージ後に main `32731a6` から作り直し）。この終了記録だけを新しいドラフト PR で保存する。マージは人間の指示待ち（`f` はマージの承認ではない）
