@@ -28,12 +28,11 @@
 
 ## 未完了・次にやること（2026-10-11 時点。次の Claude セッションはここから）
 
-できたこと: 学校公式サイトの内容を `courses.yaml`・`school.yaml` に反映（コミット `c27479f`）、在校生の写真 JPEG 29 件（`91e0f06`）と HEIC 24 件を `company-data/photos/` に登録、Drive「入学生集客」の資料（戦略・パンフ案・集客リスト）の確認、Codex への返答（CLAUDE-RES-20261011-01）。PR は [#32](https://github.com/rahiseko-alt/DTP/pull/32)（ドラフト。マージは人間の指示待ち）。
+できたこと: 学校公式サイトの内容を `courses.yaml`・`school.yaml` に反映（コミット `c27479f`）、在校生の写真 JPEG 29 件（`91e0f06`）、HEIC 24 件、大容量 JPEG 26 件（計 79 件）を `company-data/photos/` に登録、Drive「入学生集客」の資料（戦略・パンフ案・集客リスト）の確認、Codex への返答（CLAUDE-RES-20261011-01）。PR は [#32](https://github.com/rahiseko-alt/DTP/pull/32)（ドラフト。マージは人間の指示待ち）。
 
 できなかったこと（覚えておく）:
 
-1. 在校生画像のうち未登録の 27 件（Drive フォルダ「在校生画像」。フォルダ ID `1lptZ66y5z2KTy5472oI0RGRljIz0syT-`）
-   - 大きい JPEG 26 件と NEF 1 件（DSC_1178）: Drive 接続の転送上限（約 5MB）を超えて取得できない。人間が小さい JPEG に書き出すか、Codex のログイン済みブラウザで取得する案を人間に確認する。登録済みは JPEG 29 件＋HEIC 24 件（HEIC は作業用の一時 venv に pillow-heif を入れて JPEG に変換。システムは変更していない）
+1. 在校生画像のうち未登録の 1 件: `DSC_1178.NEF`（Drive フォルダ「在校生画像」、フォルダ ID `1lptZ66y5z2KTy5472oI0RGRljIz0syT-`）。芝生で眠るスーツ姿の男性（教職員とみられる）のスナップで、在校生の掲載承諾の対象外。登録していない。使うなら本人の同意を人間が確認する。登録済みは JPEG 29 件＋HEIC 24 件＋大容量 JPEG 26 件（大きいファイルは Drive の共有リンク `https://drive.usercontent.google.com/download?id=<ID>&export=download&confirm=t` を curl で取得。MCP の転送上限は約 5MB。HEIC は作業用の一時 venv に pillow-heif を入れて JPEG に変換。システムは変更していない）
 2. 略称・FAX・建物名・授業科目・資格・職種・実績・教員、（総合ビジネス科の昼夜別・学級数・コース名は、2 学科とも「ない」と人間が指示。TODO を削除済み）`established` は開校の 2026 で記入済み（人間の指定）
 3. 以前からの人間の確認待ち 5 点（コース名の正式表記は「ない」と人間が指示したので不要。残りは学費の注記など）（下の「引継ぎ（2026-10-09）」）
 4. 写真の `rights` に「使用媒体・期限の制限は未確認」【要確認】と書いてある。人間の確認後に更新する。写り込んだ他の人物（背景の通行人・教職員）は、紙面に使う前にトリミングかぼかしで確認する（例: 写真 `student-dsc-1220` の背景の男性。`student-img-5468` は公道の通行人・街並みが写る）
