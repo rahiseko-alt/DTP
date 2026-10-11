@@ -66,6 +66,24 @@ describe('validate', () => {
     expect(r.out).toContain('shared/components/stat-card.hbs:');
   });
 
+  it('own_material: true の参考資料は forbidden_terms が空でも警告しない（他の資料は警告のまま）', async () => {
+    const root = copyFixture();
+    const base = 'source: Mine\ntitle: 自社の原本\nkind: draft\nusage: reference-only\nforbidden_terms: []\n';
+    writeFile(root, 'references/Mine/draft/source.yaml', base);
+    const warn = await run(validateCommand, ['--root', root]);
+    expect(warn.code, warn.text).toBe(0);
+    expect(warn.out).toContain('references/Mine/draft/source.yaml: forbidden_terms が空です');
+
+    writeFile(root, 'references/Mine/draft/source.yaml', `${base}own_material: true\n`);
+    const ok = await run(validateCommand, ['--root', root]);
+    expect(ok.code, ok.text).toBe(0);
+    expect(ok.out).not.toContain('references/Mine/draft/source.yaml: forbidden_terms が空です');
+
+    writeFile(root, 'references/Mine/draft/source.yaml', `${base}own_material: "はい"\n`);
+    const bad = await run(validateCommand, ['--root', root]);
+    expect(bad.code).toBe(1);
+  });
+
   it('references/<source>/... のパスとしての出現は禁止語にしない', async () => {
     const root = copyFixture();
     writeFile(

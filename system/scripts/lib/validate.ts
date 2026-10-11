@@ -372,7 +372,7 @@ function checkReferences(root: string, s: CheckSection): Array<{ dir: string; so
     if (source.source !== srcName) push(s.warnings, `${dir}/source.yaml: source "${source.source}" がディレクトリ名 "${srcName}" と一致しません`);
     if (source.kind !== kindName) push(s.warnings, `${dir}/source.yaml: kind "${source.kind}" がディレクトリ名 "${kindName}" と一致しません`);
     const terms = source.forbidden_terms.filter((t) => t.trim() !== '' && !t.startsWith('TODO'));
-    if (terms.length === 0) push(s.warnings, `${dir}/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）`);
+    if (terms.length === 0 && source.own_material !== true) push(s.warnings, `${dir}/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する。自社が用意した資料なら own_material: true）`);
     if (source.original && !exists(root, source.original)) push(s.errors, `${dir}/source.yaml: original のファイルがありません: ${source.original}`);
     const prepDir = path.join(root, dir, 'prep');
     if (fs.existsSync(prepDir)) {

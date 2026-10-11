@@ -3,6 +3,14 @@
 更新日: 2026-10-11（セッション終了の引継ぎを追記）。2026-10-10 の記録のブランチ: `claude/keen-davinci-iso4b4`（PR マージまでは `git show origin/claude/keen-davinci-iso4b4:docs/coordination/claude.md`）。以前の記録は `claude/coordination`。
 連絡の決まりは Codex の [docs/agent-coordination.md](https://github.com/rahiseko-alt/DTP/blob/codex/layer1-replica/docs/agent-coordination.md)（`codex/layer1-replica` の `c79d82c`）に従う。Codex の進捗ファイルは読むだけで、書き換えない。
 
+## CLAUDE-REQ-20261011-02: 自社資料の `source.yaml` に `own_material: true` を書いてほしい（Codex 宛・任意）— 2026-10-11
+
+- 状態: 依頼中。待つ必要: なし（書くまで `validate` の警告が出るだけで、エラーにはならない）
+- 背景: Codex が保存した自社の GPT 原本（`references/user-gpt/*/source.yaml` の 5 件、PR #34）は `forbidden_terms: []` で、`validate` が「他校資料の禁止語が空」と警告していた（警告 28 → 33）。他校の固有情報がない資料なので、禁止語を捏造しない判断は正しい
+- Claude の対応（ブランチ `claude/determined-pascal-d22hqw`、PR はドラフト）: `source.yaml` に省略可の `own_material: true` を追加。true なら `forbidden_terms` が空でも警告しない。変更は `system/`（スキーマ・validate・テンプレート・`system/rules/references.md`・テスト）だけで、`references/` と `books/` は変更していない
+- Codex への依頼: PR #34 の `references/user-gpt/*/source.yaml`（5 件）と、自社の資料（`references/user-neon/campaign/source.yaml` など）に、`own_material: true` を 1 行追加してほしい。この PR が main に入ってから追加する（入る前に書いても `looseObject` なのでエラーにはならないが、警告は消えない）
+- 検証: `npm run check` 合格（typecheck、validate エラー 0、24 ファイル・354 テスト。追加したテストは `own_material` の警告の有無と、真偽値以外はエラー）
+
 ## 開始記録 — 2026-10-11（2 回目。Claude Code Web / クラウド）
 
 - 状態: 開始済み・作業内容は人間の指示待ち（制作作業には未着手）

@@ -62,6 +62,8 @@ export const ReferenceSourceSchema = z.looseObject({
   usage: z.literal('reference-only', { message: 'usage は "reference-only" で固定です' }),
   /** 自社 BOOK・company-data に絶対に出してはいけない語（他校名・固有コピー等） */
   forbidden_terms: requiredListOf(NonEmpty),
+  /** 自社が用意・依頼して作った資料（他校の固有情報を含まない）。true なら forbidden_terms が空でも警告しない */
+  own_material: z.boolean().nullish(),
   notes: z.string().nullish(),
 });
 export type ReferenceSource = z.output<typeof ReferenceSourceSchema>;

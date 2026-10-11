@@ -46,10 +46,15 @@ forbidden_terms:                # 自社の BOOK・company-data・shared に絶�
   - "（他校の学校名）"
   - "（他校の略称・英語名）"
   - "（固有のキャッチコピー）"
+own_material: false             # 省略可。自社が用意・依頼して作った資料なら true（下の「自社が用意した資料」）
 notes: "入手経路・利用上の注意"
 ```
 
 テンプレート: `system/templates/reference/`。スキーマ: `system/design-engine/src/schemas/references.ts`。
+
+### 自社が用意した資料（own_material）
+
+自社（人間）が用意・依頼して作った資料（例: 人間の指示で作った生成画像の原本、自社の下書き）には、他校の固有情報がないので `forbidden_terms` を登録できません。このような資料は `source.yaml` に `own_material: true` を書きます。`forbidden_terms: []` でも `npm run validate` が警告しません。他校・他社の資料には使いません（迷ったら `forbidden_terms` を埋めます）。`own_material: true` でも、画像の中の事実・人物・ロゴを学校の正本として採用しない決まりは変わりません（`company-data/` にない情報は人間の確認が必要）。
 
 ### forbidden_terms（禁止語）
 
