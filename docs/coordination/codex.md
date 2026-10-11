@@ -1,5 +1,10 @@
 # Codex ノート
 
+## 引継ぎ — GitHub方式への統一（2026-10-11）
+
+- ブランチ: `codex/fresh-context-20261011`。利用手順: [fresh-context.md](../fresh-context.md)。状態はコード、課題はIssue、理由・レビューはPR、ノートは引継ぎだけに限定する人間の指示を反映。以下の長い記録は過去履歴であり現在状態の正本ではない。
+- 次: 作業ブランチのレビューとmain反映。GitHub API403でPR未作成、main未マージ。Chromium修復は保留。独自台帳/ADRを追加しない。
+
 ## 設計訂正と作り直し — 2026-10-11（Codex cloud）
 
 - 新設計の再検証: Python9件、独立鮮度7群、意味敵対、コード未読スモークが合格。実データ-only更新はstateのみ、note-only虚偽更新はhandoffのみへ反映する後続変更通電を両checkoutで確認。実GitHub fetch/HTML本文取得も成功。型チェック/validate合格、既存テスト327成功/19失敗/7skip（Chromium）。結果は改善計画へ記録。ブランチへpushして保存し、mainへの共有開始は未実施。ノートに実データを代わりに管理しない。
