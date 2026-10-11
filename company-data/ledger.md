@@ -1,4 +1,4 @@
-# 正式記録台帳
+# 確定台帳
 
 最新の最有力情報をこの表に記載する。情報がない項目は空欄とする。更新は人間の明確な指示によって行う。経緯・履歴・採否の状態欄は設けない。
 
@@ -87,3 +87,17 @@
 | 多言語版の対象言語 | |
 | ターゲット戦略原本 | references/user-strategy/target-strategy-1008/original/ターゲット戦略1008.pdf |
 | 価格戦略原本 | references/user-strategy/price-strategy-1008/original/価格戦略1008.pdf |
+| 制作段階 | 完コピ検証と素材制作。BASELINEの確定はこれから |
+| mainのBOOK | books/replica/ に12BOOK、各1ページ |
+| 別案の冊子 | HAL風24ページ案（books/prospectus-neon-2027/、PR #27） |
+| 参考資料 | references/ の他校14資料・157ページ |
+| 実写真 | company-data/photos/ と photos.yaml |
+| GPT生成原本 | references/user-gpt/ |
+| 再利用する生成素材 | shared/generated-assets/gpt-brochure-parts/、shared/generated-assets/gpt-neon-parts/ |
+| WEB確認用デプロイ先 | |
+| このクラウドの描画環境 | 指定版Chromiumは未取得 |
+| メインキャッチコピー | |
+| リード文 | |
+| タグライン | |
+| 締めの文 | |
+| ロゴ | |

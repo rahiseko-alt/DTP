@@ -3,30 +3,9 @@
 GitHub を唯一の正本とします（docs/concept.md §11）。「セッションを継続する」のではなく「GitHub を継続する」。
 毎回、新しい PC・新しい Codex / Claude Code セッションから作業を始められることを前提にします。標準運用は Docker を使わず、PC は WSL Ubuntu、Web / クラウドは提供環境で共通の setup.sh を実行します（docs/environment.md）。
 
-## 1. 1 セッションの流れ
+## 1. 共通運用
 
-S・開始・再開時に `python3 system/scripts/read-ledger.py` で最新mainの正式記録台帳を全文読む。会話中は更新を認識した時、または全文がコンテキストから失われた時だけ再読する。経緯・履歴・引継ぎは必要時のみ参照する。正式台帳の更新指示を受けたら作業ブランチで台帳を書き換え、マージで共通版に反映する。更新の指示とマージの承認は区別する。[詳細](../../docs/fresh-context.md)。
-
-2026-10-11 の人間の指定: 4経路を同時に動かす管理は行わず、CodexとClaude Codeのすみ分けで運用する。別ワークスペース・別ブランチで作業し、着手前に相手と同じファイルを触らないか確認する。マージは原則セッション終了時に行う。
-
-開始・終了の具体的なトリガー、担当別ノート、必須記録項目は [AGENTS.md §2](../../AGENTS.md#2-セッションの流れ) を正本とする。AGENTS.md から両ノートを読み、各担当は自分のノートへ直接書く。main だけでなく未完了 PR・作業ブランチの最新記録も確認する。保存失敗を引継ぎ完了と報告しない。PR はドラフトで作り、マージは人間の明示指示があるときだけ行う。
-
-```text
-GitHub 最新状態取得 → Linux 作業環境の準備 → AGENTS.md / CLAUDE.md 確認 → 対象 BOOK 確認
-→ 作業 → render / test → commit → push → セッション終了
-```
-
-| 手順 | やること |
-| --- | --- |
-| 1. 最新状態取得 | `git fetch origin` → 作業ブランチを最新にする（`git pull --ff-only`）。新規 clone でもよい |
-| 2. 環境準備 | `bash system/scripts/setup.sh`（Git LFS の取得・`npm ci`・Chromium 確認・`npm run doctor`）。PC は WSL、Web / クラウドは提供環境で実行する。Docker の起動は不要 |
-| 3. ルール確認 | `AGENTS.md` → 作業に関係する `system/rules/*.md` → 使う `system/prompts/*.md` |
-| 4. 対象確認 | `books/<id>/config/book.yaml`（`notes`）、各 `page.yaml`（`status` / `notes`）、`reviews/<pageId>/review.md` の「次にやること」 |
-| 5. 作業 | ルールとプロンプトに従う。状態はファイルに書く |
-| 6. 検証 | `npm run doctor`（環境診断）、`npm run check`（型チェック・validate・テスト）、変更した BOOK の `npm run render` と出力 PNG の目視 |
-| 7. commit | 下記の規則で、作業単位ごとにコミット |
-| 8. push | リモートに push。push できない場合は理由と未 push の内容を人間に伝える |
-| 9. 終了 | 未完了の作業を `review.md` の「次にやること」や `notes` に書いてからコミット・push して終える |
+開始・終了・台帳更新・マージの手順は [運用ルール台帳](../../company-data/rules-ledger.md) に集約する。引継ぎは [引継ぎ台帳](../../company-data/handoff-ledger.md) の担当欄に記載し、旧担当ノートには追記しない。
 
 ## 2. ブランチ
 

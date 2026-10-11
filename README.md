@@ -14,7 +14,7 @@ AIビジネス専門学校のパンフレット・募集要項・チラシ・ポ
 | [system/rules/](system/rules/README.md) | 制作ルール |
 | [system/prompts/](system/prompts/README.md) | 作業用プロンプト |
 
-**現在の状態**: 学校基本情報・2学科・募集要項・実写真・生成素材を登録済み。一部は未記入・採用待ちです。古い状態説明を参照せず、[共通の最新情報取得](docs/fresh-context.md)を実行し、各フォルダの実コード・データと別の引継ぎを確認してください。
+**記録の入口**: [確定台帳](company-data/ledger.md)・[引継ぎ台帳](company-data/handoff-ledger.md)・[経緯台帳](company-data/history-ledger.md)・[運用ルール台帳](company-data/rules-ledger.md)。現在情報をこのREADMEに複製しません。
 
 ## しくみの概要
 
