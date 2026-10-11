@@ -1,0 +1,21 @@
+{
+  "source": "research",
+  "kind": "coga-reading",
+  "title": "短文・見出し・視覚支援による読みやすさの公的指針",
+  "obtained": "2026-10-12",
+  "original": null,
+  "pages": 0,
+  "usage": "reference-only",
+  "forbidden_terms": [],
+  "notes": "公式公開リポジトリから原文取得。医療・認知アクセシビリティ領域の指針であり、日本の外国ルーツ高校生向け募集冊子の直接比較実験ではない。採用方針は人間が判断。",
+  "url": "https://github.com/w3c/coga",
+  "source_commit": "f15bbd18d18f2acc32b94fe9b54f4519e2781ec5",
+  "inspected_files": [
+    "design-guide/o3p01-clear-words.html",
+    "design-guide/o3p05-succinct-text.html",
+    "design-guide/o3p08-summary-provided.html",
+    "design-guide/o3p10-whitespace.html",
+    "design-guide/o3p13-numerical-alternatives.html",
+    "design-guide/o7p02-alternative-content.html"
+  ]
+}

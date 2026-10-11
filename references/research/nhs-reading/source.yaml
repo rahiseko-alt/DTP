@@ -1,0 +1,18 @@
+{
+  "source": "research",
+  "kind": "nhs-reading",
+  "title": "短文・見出し・視覚支援による読みやすさの公的指針",
+  "obtained": "2026-10-12",
+  "original": null,
+  "pages": 0,
+  "usage": "reference-only",
+  "forbidden_terms": [],
+  "notes": "公式公開リポジトリから原文取得。医療・認知アクセシビリティ領域の指針であり、日本の外国ルーツ高校生向け募集冊子の直接比較実験ではない。採用方針は人間が判断。",
+  "url": "https://github.com/nhsuk/nhsuk-service-manual",
+  "source_commit": "80c5c02048bccd771f78e1572b12e9e5962f3c25",
+  "inspected_files": [
+    "app/views/content/health-literacy.njk",
+    "app/views/content/how-we-write.njk",
+    "app/views/content/formatting.njk"
+  ]
+}
