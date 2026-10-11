@@ -101,3 +101,7 @@
 | タグライン | |
 | 締めの文 | |
 | ロゴ | |
+| 冊子制作体制 | 編集・制作、独立レビュアー、編集長の3役 |
+| パーツ制作担当 | 冊子ライン外のパーツデザイナー |
+| 紙面制作の起動スキル | .agents/skills/dtp-production/SKILL.md |
+| パーツ制作の起動スキル | .agents/skills/dtp-parts/SKILL.md |

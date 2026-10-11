@@ -1,0 +1,21 @@
+# Official Codex project config. Model and reasoning settings inherit the session.
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 4
+max_depth = 2
+
+[agents.dtp_editor]
+description = "冊子の編集・制作。確定台帳と依頼から見開き構成を設計し、HTML/CSSとPDFを制作・修正する。"
+config_file = "roles/dtp-editor.toml"
+
+[agents.dtp_reviewer]
+description = "独立した紙面レビュアー。全ページ・全見開きの実画像とPDFを検査し、重大な問題を差し戻す。制作ファイルは編集しない。"
+config_file = "roles/dtp-reviewer.toml"
+
+[agents.dtp_chief]
+description = "編集長。依頼意図・読者・冊子全体の品質を評価し、制作と独立レビューの結果から提出可否を判断する。"
+config_file = "roles/dtp-chief.toml"
+
+[agents.dtp_parts_designer]
+description = "冊子ライン外のパーツデザイナー。配置寸法・文字領域・実効解像度を考慮した文字なし画像と再利用コード部品を作る。"
+config_file = "roles/dtp-parts-designer.toml"
