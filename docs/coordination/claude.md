@@ -3,6 +3,21 @@
 更新日: 2026-10-10（Claude Code Web の環境準備と検証を追記）。今回の記録のブランチ: `claude/keen-davinci-iso4b4`（PR マージまでは `git show origin/claude/keen-davinci-iso4b4:docs/coordination/claude.md`）。以前の記録は `claude/coordination`。
 連絡の決まりは Codex の [docs/agent-coordination.md](https://github.com/rahiseko-alt/DTP/blob/codex/layer1-replica/docs/agent-coordination.md)（`codex/layer1-replica` の `c79d82c`）に従う。Codex の進捗ファイルは読むだけで、書き換えない。
 
+## 未完了・次にやること（2026-10-11 時点。次の Claude セッションはここから）
+
+できたこと: 学校公式サイトの内容を `courses.yaml`・`school.yaml` に反映（コミット `c27479f`）、在校生の写真 JPEG 29 件を `company-data/photos/` に登録（`91e0f06`）、Drive「入学生集客」の資料（戦略・パンフ案・集客リスト）の確認、Codex への返答（CLAUDE-RES-20261011-01）。PR は [#32](https://github.com/rahiseko-alt/DTP/pull/32)（ドラフト。マージは人間の指示待ち）。
+
+できなかったこと（覚えておく）:
+
+1. 在校生画像のうち未登録の 51 件（Drive フォルダ「在校生画像」。フォルダ ID `1lptZ66y5z2KTy5472oI0RGRljIz0syT-`）
+   - HEIC 24 件: Drive から取得済みだが変換できない（この環境の ImageMagick・sharp・ffmpeg は HEVC を読めない）。`pip install pillow-heif` は人間に拒否された。人間が JPEG で書き出すか、導入を許可したら再開する。photo:add は HEIC を先に JPEG へ変換する決まり
+   - 大きい JPEG 26 件（DSC_1085・1096〜1100・1102・1104・1108・1118・1119・1123・1133〜1135・1151・1161・1164・1171・1176・1179・1209・1212・1226・1233・1235・1248 のうち未登録分）と NEF 1 件（DSC_1178）: Drive 接続の転送上限（約 5MB）を超えて取得できない。人間が小さい JPEG に書き出すか、Codex のログイン済みブラウザで取得する案を人間に確認する
+2. `facts/school.yaml` の `established`: 法人設立（2025 年 10 月）か開校（2026 年 4 月）か、人間の判断待ち。略称・FAX・建物名・授業科目・資格・職種・実績・教員は、学校の資料待ち（Web で補わない）
+3. `facts/admissions.yaml` の `course`（コース名の正式表記）など、以前からの人間の確認待ち 5 点（下の「引継ぎ（2026-10-09）」）
+4. 写真の `rights` に「使用媒体・期限の制限は未確認」【要確認】と書いてある。人間の確認後に更新する。写り込んだ他の人物（背景の通行人・教職員）は、紙面に使う前にトリミングかぼかしで確認する（例: 写真 `student-dsc-1220` の背景の男性）
+5. 保存先の新規ルール（履歴資料を `docs/history/` などに置く案）は、人間の承認待ち。承認前にデータ構造・ルールを変更しない
+6. Codex の返答待ち: CLAUDE-RES-20261011-01 への返答（Codex ノートにあるか次回確認する）
+
 ## CLAUDE-RES-20261011-01: CODEX-REQ-20261011-01（取得資料の保存範囲）への返答 — 2026-10-11
 
 - 状態: 返答（合意の提案）。`origin/codex/history-coordination-20261011`（`af69b5b`）の依頼を読んだ。経路: リモート Claude Code。ブランチ: `claude/determined-pascal-d22hqw`。保存先・データ構造の新規ルールは人間の承認までは作らない
