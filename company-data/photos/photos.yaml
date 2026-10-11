@@ -17,4 +17,198 @@
 #     tags: [campus]
 # ルール: system/rules/company-data.md
 
-photos: []
+photos:
+  - id: student-dsc-1095
+    file: company-data/photos/student-dsc-1095.jpg
+    caption: 屋外で料理を持ち寄る様子（手元）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - outing
+      - food
+  - id: student-d0943f11
+    file: company-data/photos/student-d0943f11.jpg
+    caption: 芝生の公園で輪になって座る在校生
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - outing
+      - group
+  - id: student-img-3291
+    file: company-data/photos/student-img-3291.jpg
+    caption: 入学式の受付（新入生と教職員）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - ceremony
+      - staff
+  - id: student-img-3293
+    file: company-data/photos/student-img-3293.jpg
+    caption: 入学式の受付（新入生と教職員）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - ceremony
+      - staff
+  - id: student-dsc-1140
+    file: company-data/photos/student-dsc-1140.jpg
+    caption: 屋外に並べた手作り料理
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - outing
+      - food
+  - id: student-dsc-1220
+    file: company-data/photos/student-dsc-1220.jpg
+    caption: 公園で笑顔の在校生
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - outing
+      - portrait
+  - id: student-360
+    file: company-data/photos/student-360.jpg
+    caption: 建物前の歩道に集まる在校生
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - group
+  - id: student-dsc-1264
+    file: company-data/photos/student-dsc-1264.jpg
+    caption: 民族衣装の在校生ふたり
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - portrait
+  - id: student-att-6bsigv97
+    file: company-data/photos/student-att-6bsigv97.jpg
+    caption: 公園での在校生の自撮り
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - outing
+      - portrait
+  - id: student-dsc-1139
+    file: company-data/photos/student-dsc-1139.jpg
+    caption: 公園に立つ在校生
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - outing
+      - portrait
+  - id: student-img-3283
+    file: company-data/photos/student-img-3283.jpg
+    caption: 入学式で起立する新入生
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - ceremony
+  - id: student-064efa2b
+    file: company-data/photos/student-064efa2b.jpg
+    caption: 芝生の公園で輪になって座る在校生（遠景）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - outing
+      - group
+  - id: student-9
+    file: company-data/photos/student-9.jpg
+    caption: 入学式で起立する新入生
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - ceremony
+  - id: student-8
+    file: company-data/photos/student-8.jpg
+    caption: 入学式の様子（式次第を読む新入生）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - ceremony
+  - id: student-17
+    file: company-data/photos/student-17.jpg
+    caption: 入学式後の集合写真（新入生と教職員）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - ceremony
+      - group
+      - staff
+  - id: student-356
+    file: company-data/photos/student-356.jpg
+    caption: 教室での授業の様子
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - classroom
+  - id: student-img-3288
+    file: company-data/photos/student-img-3288.jpg
+    caption: 入学式で書類を受け取る新入生
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - ceremony
+      - staff
+  - id: student-dsc-1232
+    file: company-data/photos/student-dsc-1232.jpg
+    caption: 公園で笑顔の在校生（バストアップ）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - outing
+      - portrait
+  - id: student-c395b904
+    file: company-data/photos/student-c395b904.jpg
+    caption: 芝生に座って談笑する在校生
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - outing
+      - group
+  - id: student-14
+    file: company-data/photos/student-14.jpg
+    caption: 入学式後の集合写真
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - ceremony
+      - group
+  - id: student-6
+    file: company-data/photos/student-6.jpg
+    caption: 入学式会場の全景
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - ceremony
+  - id: student-dsc-1263
+    file: company-data/photos/student-dsc-1263.jpg
+    caption: 民族衣装の在校生ふたり（正面）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - portrait
+  - id: student-img-3282
+    file: company-data/photos/student-img-3282.jpg
+    caption: 入学式で読み上げをする新入生
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - ceremony
+  - id: student-img-3289
+    file: company-data/photos/student-img-3289.jpg
+    caption: 入学式で書類を受け取る新入生
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - ceremony
+      - staff
+  - id: student-img-3294
+    file: company-data/photos/student-img-3294.jpg
+    caption: 入学式で書類を受け取る新入生
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - ceremony
+      - staff
+  - id: student-dsc-1142
+    file: company-data/photos/student-dsc-1142.jpg
+    caption: 手作り料理のクローズアップ
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - outing
+      - food
+  - id: student-dsc-1215
+    file: company-data/photos/student-dsc-1215.jpg
+    caption: 笑顔の在校生（クローズアップ）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - outing
+      - portrait
+  - id: student-c36395ce
+    file: company-data/photos/student-c36395ce.jpg
+    caption: 芝生の公園で食事を囲む在校生（遠景）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - outing
+      - group
+  - id: student-dsc-1262
+    file: company-data/photos/student-dsc-1262.jpg
+    caption: 民族衣装の在校生ふたり（全身）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - portrait
