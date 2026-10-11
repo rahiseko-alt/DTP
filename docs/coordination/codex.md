@@ -1,5 +1,12 @@
 # Codex ノート
 
+## PR34マージ前検証 — 2026-10-11（Codex Desktop）
+
+- 終了後、人間が「マージ」と明示承認。対象PR34、`codex/gpt-image-parts-20261011`。最新main `7a42083` を取り込み、衝突なし（統合コミット `1338d0d`）。Claude最新ノートを読取り、学校正本・共通機能への追加変更なし。
+- WSL Ubuntuの別検証worktree `/root/work/dtp-merge34-20261011` でsetup実行。Linux Node22、doctor11項目合格、check合格（型チェック・validate・23ファイル353テスト）。既存WSL作業の未保存ノートは保全した。
+- PR差分はGPT原本30点（医専29＋HAL結晶1）、生成パーツ15点（医専11＋HAL4）、出典・生成記録・Codexノート。BOOKソース・構造は変更なし、対象BOOKの追加renderは該当なし。生成画像は作成時に全点目視確認。採否未確認の3案や印刷用解像度・組込みの残作業は上記引継ぎどおり。
+- PR説明を最終範囲へ更新し、検証済みPR34をmainへマージする。PR27の既存HAL冊子とPR33の履歴照合は別PRのまま。今回それらをマージしない。
+
 ## セッション終了 — 2026-10-11（日本時間・Codex Desktop、このPC）
 
 - 人間の単独「ｆ」で終了。ブランチ `codex/gpt-image-parts-20261011`、ドラフトPR https://github.com/rahiseko-alt/DTP/pull/34 。mainへのマージ承認なし。
