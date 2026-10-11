@@ -212,3 +212,154 @@ photos:
     rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
     tags:
       - portrait
+  - id: student-img-5234
+    file: company-data/photos/student-img-5234.jpg
+    caption: 授業でホワイトボードに書く様子（教室）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - classroom
+  - id: student-img-5069
+    file: company-data/photos/student-img-5069.jpg
+    caption: 教室で課題に取り組む在校生
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - classroom
+  - id: student-img-5493
+    file: company-data/photos/student-img-5493.jpg
+    caption: 笑顔でポーズをとる在校生（自撮り）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - portrait
+      - group
+  - id: student-img-5076
+    file: company-data/photos/student-img-5076.jpg
+    caption: 教室で課題に取り組む在校生（全景）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - classroom
+  - id: student-img-5088
+    file: company-data/photos/student-img-5088.jpg
+    caption: 壁の短冊飾りの前に集まる在校生
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - event
+      - group
+  - id: student-img-5074
+    file: company-data/photos/student-img-5074.jpg
+    caption: 机で書き取りをする在校生
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - classroom
+  - id: student-img-5072
+    file: company-data/photos/student-img-5072.jpg
+    caption: 机で書き取りをする在校生（近景）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - classroom
+  - id: student-img-5119
+    file: company-data/photos/student-img-5119.jpg
+    caption: 教室でのグループ活動（全景）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - classroom
+      - group
+  - id: student-img-5107
+    file: company-data/photos/student-img-5107.jpg
+    caption: 短冊を飾った壁
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - event
+  - id: student-img-5070
+    file: company-data/photos/student-img-5070.jpg
+    caption: 机で書き取りをする在校生
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - classroom
+  - id: student-img-3272
+    file: company-data/photos/student-img-3272.jpg
+    caption: 入学式の壁飾り（入学おめでとう）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - ceremony
+  - id: student-img-5238
+    file: company-data/photos/student-img-5238.jpg
+    caption: 教室でのグループ活動（ホワイトボード前）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - classroom
+      - group
+  - id: student-img-5533
+    file: company-data/photos/student-img-5533.jpg
+    caption: 民族衣装の在校生ふたり（撮影の様子）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - portrait
+  - id: student-img-5073
+    file: company-data/photos/student-img-5073.jpg
+    caption: 机で書き取りをする手元（近景）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - classroom
+  - id: student-img-5235
+    file: company-data/photos/student-img-5235.jpg
+    caption: 教室でのグループ活動
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - classroom
+      - group
+  - id: student-img-5556
+    file: company-data/photos/student-img-5556.jpg
+    caption: 民族衣装の在校生ふたり
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - portrait
+  - id: student-img-5468
+    file: company-data/photos/student-img-5468.jpg
+    caption: 高架の歩道から見た通り（通行人・街並み）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない。公道の通行人・周辺の建物が写る（第三者の顔・街並み）。使用前に必ずトリミングかぼかしで外す【要確認】
+    tags:
+      - street
+  - id: student-img-3269
+    file: company-data/photos/student-img-3269.jpg
+    caption: 入学式の壁飾り（入学おめでとう）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - ceremony
+  - id: student-img-5089
+    file: company-data/photos/student-img-5089.jpg
+    caption: 短冊飾りの前で作業する在校生
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - event
+      - group
+  - id: student-img-5731
+    file: company-data/photos/student-img-5731.jpg
+    caption: ヘナ（手の装飾）をする手元
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - portrait
+  - id: student-img-5104
+    file: company-data/photos/student-img-5104.jpg
+    caption: 短冊を飾った壁（近景）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - event
+  - id: student-img-5094
+    file: company-data/photos/student-img-5094.jpg
+    caption: 教室で書き取りをする在校生たち
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - classroom
+      - group
+  - id: student-img-3258
+    file: company-data/photos/student-img-3258.jpg
+    caption: 入学式の壁飾り（時計付き）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - ceremony
+  - id: student-img-5692
+    file: company-data/photos/student-img-5692.jpg
+    caption: ソファにいる白い犬（人物なし）
+    rights: 在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限は未確認【要確認】。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない
+    tags:
+      - other

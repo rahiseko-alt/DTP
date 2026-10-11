@@ -12,12 +12,10 @@ audience: 日本人学生
 
 # 募集学科（修業年限・入学定員は facts/courses.yaml）
 departments:
-  # 昼夜別・学級数・コース名は 2 学科ともに追加の資料・確認事項はない（人間の指示 2026-10-11）。TODO にしない
-  # 国際ビジネスAI科の昼・学級数 2 は募集要項 V4 の記載。V4 の入学定員 59 人は 2 学科の合計（人間の確認 2026-10-11）
+  # 昼夜別・学級数・コース名は載せない（人間の指示 2026-10-11。2 学科とも不要）
+  # 募集要項 V4 の入学定員 59 人は 2 学科の合計（人間の確認 2026-10-11）
   - course_id: international-business-ai
     program: 商業実務専門課程
-    schedule: 昼
-    classes: 2
   # 出典（2026-10-11 追記）: 学校公式サイト https://kaihougakuen.my.canva.site/ （分野課程「商業実務」・専門課程、修業年限 2 年、入学定員 29 人）
   - course_id: general-business
     program: 商業実務専門課程
