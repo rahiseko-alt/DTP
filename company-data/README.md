@@ -6,12 +6,9 @@ AIビジネス専門学校の情報（学校名・住所・学科・教員・実
 
 ルールの詳細: system/rules/company-data.md
 
-## 現在の状態
+## 記録の入口
 
-学校の基本情報（`facts/school.yaml`）・学科（`facts/courses.yaml`）・入学事務局（`facts/contacts.yaml`）・募集要項の内容（`facts/admissions.yaml`。2027 年度 4 月入学・日本人向け）は、学校の資料（募集要項 V4・願書類。2026-10-08 記入）にもとづいて記入済みです。
-実写真・学科紹介・認定講師の取得情報・学生SNS/HP運営の予定は登録済みです。一部の教員詳細・実績・コピー・ロゴ等は未記入です。現在の値は各正本YAMLを読み、[共通情報取得](../docs/fresh-context.md)で最新mainの実データと別の引継ぎを突き合わせてください。
-ブランドカラーは描画確認用の仮の値（`status: provisional`）です。
-**推測や Web 検索で埋めないでください。** 学校から受け取った資料にもとづいて記入します。
+記録は [確定台帳](ledger.md)・[引継ぎ台帳](handoff-ledger.md)・[経緯台帳](history-ledger.md)・[運用ルール台帳](rules-ledger.md) の4つ。facts・brand・photos・copyは制作で使う実データ。現在情報は確定台帳で把握する。
 
 ## 構成
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Print the complete official ledger once at session start; no history or notes."""
+"""Print the complete confirmed ledger once at session start; no history or notes."""
 import argparse
 import hashlib
 from pathlib import Path
@@ -18,7 +18,7 @@ def git(*args):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--local', action='store_true', help='未マージ作業版の確認専用。共通正式記録の読込には使わない')
+    parser.add_argument('--local', action='store_true', help='未マージ作業版の確認専用。共通確定台帳の読込には使わない')
     args = parser.parse_args()
     try:
         root = Path(git('rev-parse', '--show-toplevel').strip())
@@ -33,9 +33,9 @@ def main():
             source = git('rev-parse', 'origin/main^{commit}').strip()
             mode = git('ls-tree', source, '--', PATH).split()
             if not mode or mode[0] != '100644':
-                raise RuntimeError('mainの正式台帳が欠落、または通常ファイルではありません')
+                raise RuntimeError('mainの確定台帳が欠落、または通常ファイルではありません')
             text = git('show', source + ':' + PATH)
-        if not text.startswith('# 正式記録台帳\n') or '| 項目 | 記録 |' not in text:
+        if not text.startswith('# 確定台帳\n') or '| 項目 | 記録 |' not in text:
             raise RuntimeError('台帳の形式が不正です')
         rows = [line for line in text.splitlines() if line.startswith('| ')]
         if len(rows) < 3 or any(line.count('|') != 3 for line in rows):
