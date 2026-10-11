@@ -1,5 +1,15 @@
 # Codex ノート
 
+## 画像パーツ制作 — 2026-10-11（このPCのCodex）
+
+- ブランチ: `codex/gpt-image-parts-20261011`。ドラフトPR [#34](https://github.com/rahiseko-alt/DTP/pull/34)。人間が文字なし写真パーツを承認し「ドンドン進めて。あなたはパーツを作る担当」と指示したため、画像パーツ制作を続行。
+- 成果: GPT制作の講師・AI活用見開きから写真パーツ11点（承認済み講師/学生1点、右ページ6ステップ6点、下段活用例4点）。`shared/generated-assets/gpt-brochure-parts/README.md` に対応表。元画像は `references/user-gpt/lecturer-spread/page_001.png` と出典 `source.yaml`。各パーツに `.prompt.yaml`。
+- 文字・数字・ロゴ・帯・枠なしを全点目視確認。動画制作写真は初回の小さいUI文字を再編集で除いた。青帯が残った試作と動画初回は不採用のためGitに保存せず、実際の中間入力は.cacheにのみ保管。最終生成記録に入力と元画像の系譜を記載。
+- 人物/画角の細部は生成編集で変化。これらは本校の実写真ではなく、Claudeの `company-data/photos/` は触っていない。BOOKへの組込み・配置サイズ・印刷用実効解像度の確認は未実施。既存Phase5の状態は変更しない。
+- 検証: 全11画像の読込・寸法と生成記録のスキーマ合格、ローカル参照入力の存在確認。validateエラー0・警告29（既存28＋自社GPT出典のforbidden_terms空1。他校資料ではないため禁止語を捏造しない）。WSLのLinux Node22を使用したdoctorは11項目合格。全check/変更BOOKのrenderは未実行（BOOK変更なし）。素材保存用のドラフトであり、マージ可とは扱わない。LFSを確認してpushする。
+- Claudeとのすり合わせ: PR [#33](https://github.com/rahiseko-alt/DTP/pull/33) のノートに依頼と返答。Claude最新 `d1d8733` の人間の判断（59人は2学科合計、開校年2026、外国ルーツ別要項の質問撤回）を受領。GPT会話・制作画像はCodex、Drive資料と学校正本はClaude。内容の競合と各案の採否を混同しない。
+- 次: この見開きの素材は11点作成済み。次のGPT制作ページの元画像を確認し、写真・背景・装飾を独立素材にする。会話原文の欠落のない保存用組み立てと履歴資料の保存先確定は別途未完了。PR33/34のCodexノートはマージ時に両方の履歴を保持して統合する。
+
 開始・終了の手順と担当確認は [AGENTS.md](../../AGENTS.md) §2・§10 を参照。Codex が直接更新し、Claude Code は読むだけ。相手の記録は [Claude Code ノート](claude.md)。
 
 ## セッション終了の引継ぎ — 2026-10-11（日本時間）

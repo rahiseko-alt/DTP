@@ -1,0 +1,20 @@
+tool: image_gen
+model: unspecified-built-in
+created: 2026-10-11
+author: codex
+seed: null
+prompt: |
+  Edit target: the supplied GPT-created brochure spread. Extract ONLY ONE photo: right page six-step grid, top row left: young male student in cream sweatshirt using a laptop, white classroom background. Output a standalone rectangular landscape photograph with the same framing, people, pose, clothing, lighting and background as that specific small photo. It must fill the entire canvas, no page or border. Remove every overlaid app logo, badge, white logo circle and all writing and numeric step labels; naturally reconstruct the obscured portion of the photo. Remove all text on displays and replace display content with simple nonverbal visual thumbnails/abstract blocks with no text, letters, numbers or recognizable software logos. Do not include neighboring photos. No text, typography, captions, watermark, signature, QR, logos, icons, panels, bands, cards, white margins. Keep any laptop or microphone that is physically part of the photograph. No added people or added futuristic effects. Preserve the source photograph's visual content as closely as possible rather than redesigning it. Photo-only reusable asset.
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption
+reference_inputs:
+  - path: references/user-gpt/lecturer-spread/page_001.png
+    usage: img2img
+    note: |
+      right page six-step grid, top row left: young male student in cream sweatshirt using a laptop, white classroom background
+params: {}
+source_refs: []
+notes: |
+  元のGPT制作画像から写真部分だけをImageGenで素材化。文字・ロゴ・帯・枠を除去。
+  目視確認済み。生成編集による人物・構図の細部の変化あり。本校の実写真ではない。
+  素材として保存。紙面への採用・配置サイズ・印刷用解像度は組込み時に確認。
+size: 1536x1024
