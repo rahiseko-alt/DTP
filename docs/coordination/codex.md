@@ -1,5 +1,11 @@
 # Codex ノート
 
+## HAL白銀装甲フレーム — 2026-10-11
+
+- 人間が新パーツ案③を選択。白銀・青い発光の装甲装飾を左上・右下へ寄せ、中央を空けた透過PNGを1点作成。`shared/generated-assets/gpt-neon-parts/silver-armor-frame-01.png` と生成記録、README。
+- 状態: パーツ完成。白地の学費・募集要項・FAQ用。1055×1491px、alpha 0～255、文字・ロゴ・人物なしを目視確認。BOOK組込み・印刷サイズは未確認。
+- validateエラー0・既存警告34。BOOK変更なし、全check/renderは未実行。ブランチ `codex/gpt-image-parts-20261011`、ドラフトPR #34。他担当のファイル変更なし。
+
 ## HAL表紙アーマー透かし — 2026-10-11
 
 - 人間の指示で既存表紙アーマーから白ページ用の淡い青灰色・透過PNGを1点作成。`shared/generated-assets/gpt-neon-parts/` に画像・生成記録・README。1055×1491px、文字なしを目視確認、alpha 0～254。配置側のopacityで濃度を調整できる。BOOKへの組込み・印刷サイズは未確認。

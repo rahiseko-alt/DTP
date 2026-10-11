@@ -1,0 +1,21 @@
+tool: image_gen
+model: unspecified-built-in
+created: 2026-10-11
+author: codex
+seed: null
+size: 1055x1491
+prompt: |
+  Create ONE reusable portrait decorative edge asset for a white editorial brochure page, using the reference image ONLY for its angular white-silver crystalline armor materials and cool cyan-blue lighting. No person, face, head, body or portrait. Composition: wide empty transparent central area covering at least 75 percent of the canvas width and 80 percent of its height. Sparse sculptural armor shards hug the extreme outer corners and edges, most elaborate at lower-right corner and lightly echoed at upper-left. Thin bevelled white-silver metallic facets, subtle polished glass inserts, small icy-blue luminous seams; rich precise realistic material quality like the original cover armor. Elegant technological feel, restrained visual weight, naturally tapered edge clusters. Avoid a continuous enclosing rectangular border: this is asymmetrical dimensional decorative armor at the edges, not a ruled graphic frame. Keep almost all top and bottom central areas clear for running headers and page numbers. No black background, no saturated red, no heavy dark blocks, no laser rays traversing the central text area. Genuine transparent alpha everywhere except edge decorations, no white background rectangle, no checkerboard baked into pixels. Portrait A4-like proportion. No text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption, cards or panels. One image only.
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption
+reference_inputs:
+  - path: .cache/hal-baseline/cover-armor.png
+    usage: style
+    note: 既存表紙アーマーの白銀装甲・青い発光の素材感を参照。人物は含めない。
+source_refs: []
+notes: |
+  人間が提案③を選択したため作成。白ページの外周に使う再利用可能な装甲装飾。
+  入力正本: origin/codex/neon-prospectus-2027 の books/prospectus-neon-2027/backgrounds/cover-armor.png。
+  入力SHA256: 86399a72a8effba7932b950c5a3671e4243125ebb02c93a649ed840f04c0510a。
+  左上・右下を中心に非対称の立体装飾。中央は透過。文字・数字・ロゴ・人物なしを目視確認。
+  HTML/CSSの罫線や枠ではなく、複雑な装甲質感を持つLayer1装飾。文字領域に合わせ配置する。
+  ページ組込み・印刷サイズの確認は未実施。画像生成後の加工なし。
