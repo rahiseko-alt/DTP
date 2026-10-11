@@ -1,7 +1,30 @@
 # Claude Code の進捗・Codex 宛の連絡
 
-更新日: 2026-10-10（Claude Code Web の環境準備と検証を追記）。今回の記録のブランチ: `claude/keen-davinci-iso4b4`（PR マージまでは `git show origin/claude/keen-davinci-iso4b4:docs/coordination/claude.md`）。以前の記録は `claude/coordination`。
+更新日: 2026-10-11（セッション終了の引継ぎを追記）。2026-10-10 の記録のブランチ: `claude/keen-davinci-iso4b4`（PR マージまでは `git show origin/claude/keen-davinci-iso4b4:docs/coordination/claude.md`）。以前の記録は `claude/coordination`。
 連絡の決まりは Codex の [docs/agent-coordination.md](https://github.com/rahiseko-alt/DTP/blob/codex/layer1-replica/docs/agent-coordination.md)（`codex/layer1-replica` の `c79d82c`）に従う。Codex の進捗ファイルは読むだけで、書き換えない。
+
+## 開始記録 — 2026-10-11（2 回目。Claude Code Web / クラウド）
+
+- 状態: 開始済み・作業内容は人間の指示待ち（制作作業には未着手）
+- ブランチ: `claude/determined-pascal-d22hqw`（`04fe168`＝ドラフト PR [#36](https://github.com/rahiseko-alt/DTP/pull/36) の終了記録）。main は `32731a6`（PR #35 のマージ）で、ブランチは main に未マージの終了記録 1 件だけ先行。未保存変更なし
+- 今回の変更対象: 未定（指示を受けてから追記。担当外なら §10 の確認を先に行う）
+- 相手の状況（開いている PR、いずれもドラフト）: #27（`codex/neon-prospectus-2027`。`books/prospectus-neon-2027`・`references/user-neon/`）、#29（Codex ノートのみ）、#33（`codex/history-coordination-20261011`。Codex ノートのみ。CODEX-RES-20261011-05 まで。Claude 宛の新しい依頼なし）、#34（`codex/gpt-image-parts-20261011`。`references/` と `shared/generated-assets/gpt-brochure-parts/` の写真パーツ 11 点）。`company-data/`・`system/` を触る PR はない
+- 環境: `npm run doctor` は OK 10 / WARN 1 / NG 0（WARN はシステム日本語フォントに Noto CJK なし。描画は @fontsource なので制作は可能）
+
+## セッション終了の引継ぎ — 2026-10-11（Claude Code Web / クラウド）
+
+- 状態: 人間の `f` で終了。経路: リモート Claude Code。ブランチ `claude/determined-pascal-d22hqw`（PR #32・#35 のマージ後に main `32731a6` から作り直し）。この終了記録だけを新しいドラフト PR で保存する。マージは人間の指示待ち（`f` はマージの承認ではない）
+- 今日の変更（すべて main にマージ済み）: PR [#32](https://github.com/rahiseko-alt/DTP/pull/32)・[#35](https://github.com/rahiseko-alt/DTP/pull/35)
+  - `company-data/facts/courses.yaml`: 国際ビジネスAI科の入学定員 30 人・紹介文、総合ビジネス科（入学定員 29 人）を追加（学校公式サイト。人間の承認済み）
+  - `facts/school.yaml`: 代表メール、`established: 2026`（開校年。人間の指定）。`facts/admissions.yaml`: 募集学科に総合ビジネス科を追加、コース名・昼夜別・学級数は載せない（人間の指示）
+  - `company-data/photos/`: 在校生の写真 79 件を登録（JPEG 29＋HEIC 24＋大容量 JPEG 26）。本人の掲載承諾は取得済みと人間が申告、使用媒体・期限の制限はなし（人間の確認）。写り込んだ他の人物はトリミングで確認する
+  - Codex への返答 CLAUDE-RES-20261011-01・04（取得分担・競合照合）
+- 検証: `npm run check` 合格（typecheck、validate エラー 0・警告 27、23 ファイル・353 テスト）。紙面（`books/`）・共通エンジン・Codex ノートは変更していない。`render` は実行していない（紙面の変更なし）
+- 未完了・次にやること: 下の「未完了・次にやること」を参照。追加:
+  - 【更新】Google 認定・Gemini 認定の講師は取得済み、学生運営の SNS・ホームページは予定（人間の指示 2026-10-11）。`teachers.yaml` に `certified_instructors`、`contacts.yaml` に `sns_planned` として記入済み（資格名・保有者数は人間が紙面前に確認する【要確認】。SNS は運用開始まで「運営している」と書かない）
+  - 履歴資料の保存先（`docs/history/` など）は人間の承認待ち。Codex の PR [#33](https://github.com/rahiseko-alt/DTP/pull/33) などは Codex 側の進行
+  - `DSC_1178.NEF`（教職員とみられる男性）は未登録のまま
+- 相手への影響: Codex の担当（`books/`・紙面・画像）は変更していない。Codex が写真を使うときは `{{photo "<ID>"}}` で参照し、AI 画像生成の入力には使わない
 
 ## CLAUDE-RES-20261011-04: CODEX-REQ-20261011-03（コンセプト・前提の競合照合）への返答 — 2026-10-11
 
