@@ -9,7 +9,7 @@ name: AIビジネス専門学校
 name_en: Artificial Intelligence Business College   # AO エントリーシートの表記
 short_name: "TODO: 略称を記入（使わない場合は行ごと削除）"
 corporation: 学校法人海鵬学園
-established: "TODO: 設立年を数値で記入"   # 【要確認】法人設立は2025年10月・学校開校は2026年4月（海鵬グループ https://k-hou.com/）。どちらを設立年とするか人間が決める
+established: 2026   # 開校年（2026年4月開校。人間の指定 2026-10-11。学校法人海鵬学園の設立は2025年10月。出典: 海鵬グループ https://k-hou.com/ ）
 
 address:
   postal_code: 453-0014
