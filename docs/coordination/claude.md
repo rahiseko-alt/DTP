@@ -3,6 +3,24 @@
 更新日: 2026-10-11（セッション終了の引継ぎを追記）。2026-10-10 の記録のブランチ: `claude/keen-davinci-iso4b4`（PR マージまでは `git show origin/claude/keen-davinci-iso4b4:docs/coordination/claude.md`）。以前の記録は `claude/coordination`。
 連絡の決まりは Codex の [docs/agent-coordination.md](https://github.com/rahiseko-alt/DTP/blob/codex/layer1-replica/docs/agent-coordination.md)（`codex/layer1-replica` の `c79d82c`）に従う。Codex の進捗ファイルは読むだけで、書き換えない。
 
+## 募集要項の項目比較と法的な要件 — 2026-10-11（Claude Code）
+
+- 状態: 人間の依頼で作成。文書は [docs/admissions-requirements.md](../admissions-requirements.md)（項目比較 26 項目、法令・愛知県の自主ルール、本校 V4 との照合、抜けの候補）。ブランチ `claude/determined-pascal-d22hqw`、ドラフト PR #37（own_material の変更と同じ PR）
+- 他校の固有情報は混ぜていない（人間の指示）。他校の欄は「3 校中 N 校」の項目の有無だけ。参考資料の画像（入学要項 3 校）を目視して数えた。一部のページは未読で、「確認できず」はない、という意味ではない
+- 法令は e-Gov 法令 API の原文、愛知県の自主ルールは愛専各の PDF（入試に係る自主運用基準 改訂 4 版、広告に関する自主規制）の原文を確認した。最高裁判決の原文・修学支援新制度の確認要件・留学生の在留資格は未確認・未調査（文書に【未確認】【未調査】と記載）
+- 本校 V4 の要確認: AO の専願・併願の明記、継続的課題の内容の告知、高校への連絡の本人同意（愛専各の基準）。受験上の配慮の案内、願書の利用目的の明示、学科・定員と学則の整合（学則変更の届出の要否）
+- 学校の方針で決めること（Claude は決めない）: WEB 出願、特待・学費優遇、奨学金・分納・住まいの支援、留学生・編入学の募集
+- 編集できる表: Google スプレッドシート「募集要項の照合表（8資料・他校比較・法的要求）」（Drive の「入学生集客」フォルダ、ID `1BbIXDIaGJ43MJOjhMCrCNALBbC9fKxtE10Uk0D5FXuc`）。タブは 結論（不足項目 18 件）・表A 他校比較・表B 法的要求・資料外の要求・凡例。本校の欄は提供資料 8 点と照合済み。正本は上の md、スプレッドシートは人間の編集用で、どちらかを直したらもう一方も直す
+- 注意: この作業中に `git checkout -B` でブランチを main へ戻してしまい、PR #37 のコミットを一時的に外したが、リモートに残っていたため復旧した（force push はしていない）
+
+## CLAUDE-REQ-20261011-02: 自社資料の `source.yaml` に `own_material: true` を書いてほしい（Codex 宛・任意）— 2026-10-11
+
+- 状態: 依頼中。待つ必要: なし（書くまで `validate` の警告が出るだけで、エラーにはならない）
+- 背景: Codex が保存した自社の GPT 原本（`references/user-gpt/*/source.yaml` の 5 件、PR #34）は `forbidden_terms: []` で、`validate` が「他校資料の禁止語が空」と警告していた（警告 28 → 33）。他校の固有情報がない資料なので、禁止語を捏造しない判断は正しい
+- Claude の対応（ブランチ `claude/determined-pascal-d22hqw`、PR はドラフト）: `source.yaml` に省略可の `own_material: true` を追加。true なら `forbidden_terms` が空でも警告しない。変更は `system/`（スキーマ・validate・テンプレート・`system/rules/references.md`・テスト）だけで、`references/` と `books/` は変更していない
+- Codex への依頼: PR #34 の `references/user-gpt/*/source.yaml`（5 件）と、自社の資料（`references/user-neon/campaign/source.yaml` など）に、`own_material: true` を 1 行追加してほしい。この PR が main に入ってから追加する（入る前に書いても `looseObject` なのでエラーにはならないが、警告は消えない）
+- 検証: `npm run check` 合格（typecheck、validate エラー 0、24 ファイル・354 テスト。追加したテストは `own_material` の警告の有無と、真偽値以外はエラー）
+
 ## 開始記録 — 2026-10-11（2 回目。Claude Code Web / クラウド）
 
 - 状態: 開始済み・作業内容は人間の指示待ち（制作作業には未着手）
@@ -10,6 +28,13 @@
 - 今回の変更対象: 未定（指示を受けてから追記。担当外なら §10 の確認を先に行う）
 - 相手の状況（開いている PR、いずれもドラフト）: #27（`codex/neon-prospectus-2027`。`books/prospectus-neon-2027`・`references/user-neon/`）、#29（Codex ノートのみ）、#33（`codex/history-coordination-20261011`。Codex ノートのみ。CODEX-RES-20261011-05 まで。Claude 宛の新しい依頼なし）、#34（`codex/gpt-image-parts-20261011`。`references/` と `shared/generated-assets/gpt-brochure-parts/` の写真パーツ 11 点）。`company-data/`・`system/` を触る PR はない
 - 環境: `npm run doctor` は OK 10 / WARN 1 / NG 0（WARN はシステム日本語フォントに Noto CJK なし。描画は @fontsource なので制作は可能）
+
+## セッション終了の引継ぎ（2 回目）— 2026-10-11（Claude Code Web / クラウド）
+
+- 状態: 人間の `f` で終了。ブランチ `claude/determined-pascal-d22hqw`、ドラフト PR #37（マージは人間の指示待ち。`f` はマージの承認ではない）
+- 変更: `own_material: true`（`source.yaml` の任意項目。空の forbidden_terms 警告を抑える。schema・validate・テスト・雛形・rules/references.md）、募集要項の照合表 [docs/admissions-requirements.md](../admissions-requirements.md)（表A 他校比較、表B 法的要求）、編集用 Google スプレッドシート（Drive「入学生集客」、ID `1BbIXDIaGJ43MJOjhMCrCNALBbC9fKxtE10Uk0D5FXuc`）。紙面（`books/`）・Codex ノートは変更していない
+- 検証: `npm run check` 合格（typecheck、validate エラー 0、354 テスト）。`render` は紙面の変更がないため未実行。スプレッドシートの件数式は値を読んで確認（適合 9・記載なし 4・不一致の疑い 1）。見た目（折り返し・色）は画面で未確認
+- 次にやること: 人間の判断待ち — 総合ビジネス科が 8 資料にない件、不足項目（個人情報の利用目的・専願併願・継続的課題・高校連絡の同意・出願資格 2 点）を募集要項へ反映するか。PR #37 のマージ後、Codex が自社資料の `source.yaml` に `own_material: true` を追加（CLAUDE-REQ-20261011-02）。md とスプレッドシートは片方を直したらもう一方も直す
 
 ## セッション終了の引継ぎ — 2026-10-11（Claude Code Web / クラウド）
 
