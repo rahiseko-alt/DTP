@@ -2,7 +2,30 @@
 
 開始・終了の手順と担当確認は [AGENTS.md](../../AGENTS.md) §2・§10 を参照。Codex が直接更新し、Claude Code は読むだけ。相手の記録は [Claude Code ノート](claude.md)。
 
-## 現在のリモート環境の復旧作業 — 2026-10-11 09:03 JST
+## セッション終了の引継ぎ — 2026-10-11（日本時間）
+
+- 状態: 人間の指示により終了。大体作業できればよいとの了承に従い、未解消の環境問題を残して安全な区切りで停止する。新しい制作・通知監視・環境修復・公開再試行・PRマージは行わない。
+- 作業経路: リモートCodex。現在環境は `39f93ad4b64081919da0c0f3f2f07c4e`（ツールID `ccarenv_b64_Y2NhcmVudl8zOWY5M2FkNGI2NDA4MTkxOWRhMGMwZjNmMmYwN2M0ZQ`）。ブランチ `codex/cloud-session-start`、保存先は既存PR [#29](https://github.com/rahiseko-alt/DTP/pull/29)。今回の終了記録前の保存済みコミットは `a96e3e7`。
+- 目的・対象: 現環境のDTP制作・検証の復旧調査とその引継ぎ。変更はCodexノートのみ。紙面・共通エンジン・テスト・lockfile・Claudeノートは変更していない。
+
+### 完了したこと・実際の検証
+
+- Node22.23.3、npm依存、Playwrightパッケージ1.56.1、LFS全183件、sharp0.35.5、Poppler26.05.0を確認。Git fetch・push・リモートHEAD照合は成功。
+- 現環境でsetup.sh、doctor、checkを実行。型チェック合格、validateエラー0・既存警告28。doctor OK8 / WARN0 / NG3、23ファイルのうち16合格・7失敗、353テスト中327合格・19失敗・7skip。指定版Chromium実行ファイル不在が失敗出力に記録されている。
+- 代表BOOKのPNG/PDF一時出力を試みたが指定版ブラウザ不在で失敗。現在環境のPNG目視は未実施。別インスタンス `96208e7b...` の全11項目・353テスト・PNG/PDF合格は過去の実績であり、現環境の成功として扱わない。
+- 昇格実行でも公式配布は403、確認可能な標準キャッシュと共有downloadsに指定版を発見できなかった。ネットワーク迂回や代替ブラウザを指定版と偽る対応は行っていない。
+- 最新の実通信確認時はspec_revision / observed_spec_revision 21 / 21、追加許可ドメインなし。実機ポリシーにもapi.github.com・cdn.playwright.dev・playwright.download.prss.microsoft.comがなく、公式配布先へのHTTPSは403。保存済み下書きには3件あるが反映は未確認。
+- configuration_idは `4145fa41-b2fe-4b22-af13-7b2ecb4689eb~cecfg_6ac989a4e95881968a0f53ccd756e9eb`、draft_idは `4145fa41-b2fe-4b22-af13-7b2ecb4689eb~cecfgdraft_d550d59d817c81969d805b37a393a322`、下書きrevision2。状態APIには公開operation/approval/lock/競合理由のキーがなく、UIエラー以上の競合理由は未取得。名前が同じ別環境は操作していない。
+
+### 未完了・保存・次回手順
+
+- 未完了: 指定版headless shell build1194の現環境への導入、doctor全11項目、全353テスト、PNG/PDF出力・PNG目視。公開エラーと通信許可未反映も未解消。ユーザーUIの保存と公開試行が行われたが、公開成功とは報告しない。
+- この終了記録をcommit・pushし、リモートHEAD一致を確認して最終報告する。mainへの反映・PRマージ・相手の既読は別であり未実施/未確認。
+- ローカル検証ログ: `/tmp/dtp-current-setup.log`、`/tmp/dtp-current-doctor.log`、`/tmp/dtp-current-check.log`、`/tmp/dtp-current-render.log`。一時ログはこの環境のみ。重要な結果は本ノートへ記録済み。
+- 次回は人間から新しい作業指示を受けてから開始する。最新AGENTS.md・両ノート・ブランチ状態を確認し、指定版ブラウザと通信許可の現在状態を診断する。環境修復を依頼された場合だけ、許可反映後にsetup→doctor→check→代表PNG/PDF出力・PNG目視を実行する。新規環境では再セットアップが必要になる可能性がある。
+- 相手への影響: Codexノートの追記のみ。今回のリモートセッションは終了するが、他セッションの終了を意味しない。
+
+## 終了前のリモート環境の復旧作業 — 2026-10-11 09:03 JST
 
 - 状態: 復旧を実行したが指定版配布先の通信許可反映待ち。WSLと同じ制作・検証ができるという目標は未達。前回の一区切り・再導入停止は新しいユーザー指示で置き換えた。
 - 作業経路: リモートCodex。確認した環境ID: `ccarenv_b64_Y2NhcmVudl8zOWY5M2FkNGI2NDA4MTkxOWRhMGMwZjNmMmYwN2M0ZQ`（実体ID末尾39f93ad4b64081919da0c0f3f2f07c4e）。ブランチ `codex/cloud-session-start`、リモート基準 `028a751`、既存PR29。変更対象はこのノートのみ。
