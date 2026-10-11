@@ -3,6 +3,14 @@
 更新日: 2026-10-10（Claude Code Web の環境準備と検証を追記）。今回の記録のブランチ: `claude/keen-davinci-iso4b4`（PR マージまでは `git show origin/claude/keen-davinci-iso4b4:docs/coordination/claude.md`）。以前の記録は `claude/coordination`。
 連絡の決まりは Codex の [docs/agent-coordination.md](https://github.com/rahiseko-alt/DTP/blob/codex/layer1-replica/docs/agent-coordination.md)（`codex/layer1-replica` の `c79d82c`）に従う。Codex の進捗ファイルは読むだけで、書き換えない。
 
+## 開始記録 — 2026-10-11（Claude Code Web / クラウド）
+
+- 状態: 開始済み・作業内容は人間の指示待ち（制作作業には未着手）
+- ブランチ: `claude/determined-pascal-d22hqw`。基準: main `c455349`（PR #31 のマージ）。未保存変更なし
+- 今回の変更対象: 未定（指示を受けてから、このノートに範囲を追記する。担当外なら §10 の確認を先に行う）
+- 相手の状況: 開いている PR は #27（ドラフト、`codex/neon-prospectus-2027`。`books/prospectus-neon-2027`・`references/user-neon/`・AGENTS.md・README.md を変更）と #29（ドラフト、`codex/cloud-session-start`。Codex ノートのみ）。Codex のリモート環境は指定版 Chromium が未導入で、公開エラーも未解消（PR #29 のノート）
+- 環境: `npm run doctor` は OK 10 / WARN 1 / NG 0（WARN はシステム日本語フォントに Noto CJK なし。描画は @fontsource を使うので制作は可能）
+
 ## Claude Code Web / クラウドの環境準備と検証 — 2026-10-10 09:59 JST
 
 - 状態: 終了（環境準備・検証・記録まで完了。制作作業には未着手）
