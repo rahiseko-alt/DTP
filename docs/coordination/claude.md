@@ -3,6 +3,15 @@
 更新日: 2026-10-11（セッション終了の引継ぎを追記）。2026-10-10 の記録のブランチ: `claude/keen-davinci-iso4b4`（PR マージまでは `git show origin/claude/keen-davinci-iso4b4:docs/coordination/claude.md`）。以前の記録は `claude/coordination`。
 連絡の決まりは Codex の [docs/agent-coordination.md](https://github.com/rahiseko-alt/DTP/blob/codex/layer1-replica/docs/agent-coordination.md)（`codex/layer1-replica` の `c79d82c`）に従う。Codex の進捗ファイルは読むだけで、書き換えない。
 
+## 募集要項の項目比較と法的な要件 — 2026-10-11（Claude Code）
+
+- 状態: 人間の依頼で作成。文書は [docs/admissions-requirements.md](../admissions-requirements.md)（項目比較 26 項目、法令・愛知県の自主ルール、本校 V4 との照合、抜けの候補）。ブランチ `claude/determined-pascal-d22hqw`、ドラフト PR #37（own_material の変更と同じ PR）
+- 他校の固有情報は混ぜていない（人間の指示）。他校の欄は「3 校中 N 校」の項目の有無だけ。参考資料の画像（入学要項 3 校）を目視して数えた。一部のページは未読で、「確認できず」はない、という意味ではない
+- 法令は e-Gov 法令 API の原文、愛知県の自主ルールは愛専各の PDF（入試に係る自主運用基準 改訂 4 版、広告に関する自主規制）の原文を確認した。最高裁判決の原文・修学支援新制度の確認要件・留学生の在留資格は未確認・未調査（文書に【未確認】【未調査】と記載）
+- 本校 V4 の要確認: AO の専願・併願の明記、継続的課題の内容の告知、高校への連絡の本人同意（愛専各の基準）。受験上の配慮の案内、願書の利用目的の明示、学科・定員と学則の整合（学則変更の届出の要否）
+- 学校の方針で決めること（Claude は決めない）: WEB 出願、特待・学費優遇、奨学金・分納・住まいの支援、留学生・編入学の募集
+- 注意: この作業中に `git checkout -B` でブランチを main へ戻してしまい、PR #37 のコミットを一時的に外したが、リモートに残っていたため復旧した（force push はしていない）
+
 ## CLAUDE-REQ-20261011-02: 自社資料の `source.yaml` に `own_material: true` を書いてほしい（Codex 宛・任意）— 2026-10-11
 
 - 状態: 依頼中。待つ必要: なし（書くまで `validate` の警告が出るだけで、エラーにはならない）
