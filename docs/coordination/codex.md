@@ -2,7 +2,35 @@
 
 開始・終了の手順と担当確認は [AGENTS.md](../../AGENTS.md) §2・§10 を参照。Codex が直接更新し、Claude Code は読むだけ。相手の記録は [Claude Code ノート](claude.md)。
 
-## 今回の環境準備の区切り — 2026-10-11（日本時間・ユーザー表示日付）
+## 現在のリモート環境の復旧作業 — 2026-10-11 09:03 JST
+
+- 状態: 復旧を実行したが指定版配布先の通信許可反映待ち。WSLと同じ制作・検証ができるという目標は未達。前回の一区切り・再導入停止は新しいユーザー指示で置き換えた。
+- 作業経路: リモートCodex。確認した環境ID: `ccarenv_b64_Y2NhcmVudl8zOWY5M2FkNGI2NDA4MTkxOWRhMGMwZjNmMmYwN2M0ZQ`（実体ID末尾39f93ad4b64081919da0c0f3f2f07c4e）。ブランチ `codex/cloud-session-start`、リモート基準 `028a751`、既存PR29。変更対象はこのノートのみ。
+- 人間の指示: 現在環境で指定版Chromiumを導入し、setup・doctor・check・代表PNG/PDF出力・PNG目視を実証する。Docker、公開不具合調査、削除・初期化、新規タスク作成、マージ、新規制作は行わない。ネットワーク制限を迂回せず、代替Chromiumで合格を偽らない。
+
+### 今回進めた復旧と照合
+
+- Git fetch、mainのAGENTS.mdと両ノートを確認。main `797f2ff` とcheckoutのAGENTS.mdに差分なし。PR29のリモートとローカルは `028a751` で一致、開始時未保存変更なし。
+- `codex/simple-session-workflow` の新しいノートも確認。同ノートはPR29のブランチを編集せず、ノートのマージ競合は履歴を保って調整すると記録。今回は依頼どおりPR29だけを継続し、main・相手のノートを変更しない。
+- 正規の昇格実行権限で `npx --no playwright install chromium` を実行。許可レビューは通ったが、公式配布先2ドメインからの取得はいずれも403 Domain forbidden。既存プロキシ・TLS検証を維持し、直接接続や別ホストへの偽装は行っていない。
+- アクセス可能な標準キャッシュ（home/agent/.cache、opt、usr/local/share、workspace、tmp）、共有downloadsを探索。build1194のheadless_shellまたは公式ZIPは見つからず。rootのキャッシュとms-playwrightは存在/アクセスを確認できず、検索の失敗をキャッシュが絶対に存在しない証拠とは扱わない。ブラウザランタイムの私有プロファイル・秘密情報は読まない。
+- 保存済み下書きの許可はapi.github.com・cdn.playwright.dev・playwright.download.prss.microsoft.com。実行環境のallowed_hostsは空、観測spec_revision16。実際のcdnへのHTTPS応答は403。下書き保存と現在の許可反映は別であり、同じ設定の書き直しは行っていない。
+
+### 今回の現在環境での実行結果
+
+- 道具: Node22.23.3、Playwrightパッケージ1.56.1、sharp0.35.5、GitLFS3.6.1、Poppler26.05.0。指定版headless shell141.0.7390.37/build1194は未導入。
+- bash system/scripts/setup.shを実行、指定ブラウザの取得で失敗。npm run doctorを明示実行しOK8 / WARN0 / NG3（ブラウザ不在・Sans/Serif日本語描画未確認）。
+- npm run checkを実行し終了コード1。typecheck合格、validateエラー0・既存警告28。23ファイルのうち16合格・7失敗、353テスト中327合格・19失敗・7skip。失敗/セットアップ失敗の出力はブラウザ実行ファイル不在を示す。指定版導入後の全件成功はまだ確認できない。
+- 代表replica/a-brochureのPNG/PDF出力を一時ディレクトリへ実行したが、ブラウザ不在で失敗。出力PNGは生成されず、PNG目視は未実施。旧環境の成功を流用しない。
+- ログ: /tmp/dtp-current-setup.log、/tmp/dtp-current-doctor.log、/tmp/dtp-current-check.log、/tmp/dtp-current-render.log。この環境限りであり復元保証はない。
+
+### 必要な再開手順
+
+- ユーザー操作が必要な残る前提は、現在環境への公式配布先2ドメインの許可反映。環境設定の「追加の許可ドメイン」右の鉛筆を開き、保存済みの3件を維持してユーザーUIから保存する。公開操作には戻らない。この操作の反映が成功するかは実通信で確認する必要がある。
+- 通信許可反映後に `export PATH=/workspace/.dtp-tools/node_modules/node/bin:$PATH npm_config_cache=/workspace/.dtp-npm-cache PLAYWRIGHT_BROWSERS_PATH=/workspace/.dtp-browsers`、STUDIO_CHROMIUM_PATHを外し、/workspace/DTPでsetup→doctor→checkを再実行。代表BOOKを `--format both --dpi 72 --out /tmp/dtp-current-render` へ出力してPNGを画像として確認する。
+- 今回の失敗結果は隠さずノートへ保存し、PR29のブランチへpushする。準備完了・全353件合格・正式出力可とは報告しない。共通エンジン・テスト・lockfile・紙面・Claudeノートは変更していない。
+
+## 前回の環境準備の区切り — 2026-10-11（日本時間・ユーザー表示日付）
 
 - 状態: 今回の環境準備は一区切り。ユーザー判断により環境公開は未実施だが必須ではない。新規タスクでは再セットアップが必要になる可能性がある。現在環境の全機能が使えるという意味ではない。
 - 作業経路: リモートCodex。ユーザーの指示によるローカルチャットからの連絡を受けて記録。ブランチ `codex/cloud-session-start`、既存PR [#29](https://github.com/rahiseko-alt/DTP/pull/29)、リモート基準 `1de96c9`。変更対象はCodexノートのみ。
