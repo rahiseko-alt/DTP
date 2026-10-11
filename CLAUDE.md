@@ -21,7 +21,7 @@ Codex と異なるルールをここに追加しないでください。両方�
 
 ## Claude Code 固有の注意
 
-- **最新情報**: Codexと同じく `python3 system/scripts/sync-context.py` を実行し、生成manifestとstate-contextから状態を把握し、別のhandoffを読む（[共通手順](docs/fresh-context.md)）。SessionStartのsetup成功だけで最新情報を把握したとは扱わない。取得が失敗した場合、古いノートやキャッシュで状態を確定しない。
+- **正式記録**: S・開始・再開時に `python3 system/scripts/read-ledger.py` の台帳全文を必ず読む。開始と終了マーカーを確認する。会話中は更新を認識した時、または全文がコンテキストから失われた時だけ再読する。毎回答・毎編集での再読は不要。詳細は [共通手順](docs/fresh-context.md)。
 
 - **環境準備**: Claude Code on the web では `.claude/settings.json` の SessionStart フックが `system/scripts/setup.sh --quiet` を自動実行します（リモートセッションのみ。失敗してもセッションは止まりません）。ローカルの CLI では自動実行されないので、必要なら `npm run setup` を実行します
 - **画像の目視**: 参考ページ画像・出力 PNG・比較出力（`side-by-side.png` など）は Read ツールで画像として開いて確認します。HTML やテキスト抽出の結果だけで見た目を判断しません。大きな PNG は `--dpi 150 --out /tmp/<確認用ディレクトリ>` で一時ディレクトリに出力した確認用画像を見ると扱いやすくなります（低解像度の確認用出力は `books/<id>/output/` に置かない。system/rules/output.md §4）

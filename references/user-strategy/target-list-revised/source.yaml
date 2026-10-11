@@ -1,0 +1,12 @@
+{
+  "source": "user-strategy",
+  "kind": "target-list-revised",
+  "title": "外国人学生集客_ターゲットリスト_修正版.xlsx",
+  "obtained": "2026-10-11",
+  "original": "references/user-strategy/target-list-revised/original/外国人学生集客_ターゲットリスト_修正版.xlsx",
+  "pages": null,
+  "usage": "reference-only",
+  "forbidden_terms": [],
+  "notes": "ユーザー添付原本。資料内の提案・仮説・年度違いを学校の確定情報として自動採用しない。",
+  "sha256": "d5ab1bcf22293e221e9b63584f33340ac2b16d4ddf1808624df31731e2b7c63a"
+}
