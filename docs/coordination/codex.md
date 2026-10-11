@@ -1,5 +1,12 @@
 # Codex ノート
 
+## 共通情報取得の環境改善 — 2026-10-11（Codex cloud）
+
+- 人間が改善計画・サブによる構築・3視点敵対・コード未読スモーク・通電を明示依頼。今回の共通機能/ルール改善を実施。ブランチ `codex/fresh-context-20261011`。計画と実施結果は [environment-improvement-plan.md](../environment-improvement-plan.md)、利用手順は [fresh-context.md](../fresh-context.md)。
+- 最新mainを固定SHAで取得するPython/Gitのみの共通CLI、現在判断/材料所在の索引 current.yaml、Codex/Claude共通入口を構築。学校事実の値は正本に保持。過去ノートを代理編集せず、入口README/AGENTSの古い状態を訂正。Chromium修復は保留。
+- 3視点検証・コード未読の後続マージ取得通電は合格。Python8件合格、独立鮮度攻撃3件合格、意味検証合格。実GitHub main fetch成功。型チェック/validate合格、既存全テスト327成功/19失敗/7skip（Chromium不在）。全check合格とは扱わない。
+- 作業ブランチへのpush/remote SHA照合済み。PR作成はGitHub API403で失敗。main反映は未実施。人間の明示マージ承認後、実mainを両担当が再取得してから共有運用開始とする。開始記録と材料棚卸しも同ブランチへ保存した。相手の既読や他環境での実行を確認済みとは扱わない。
+
 ## 冊子材料の照合と誤報原因 — 2026-10-11（Codex cloud）
 
 - 人間の指摘: 既存情報を何度も「未確認」と戻さず、材料の所在と状態を把握する。今回、Codexは開始時に読んだターゲット記録を制作条件一覧に反映せず「未確定」と回答した。資料不足ではなく確認・要約の不備。古いREADME/過去ノートと最新正本・後続回答の照合不足、mainと別ブランチの区別不足もある。
