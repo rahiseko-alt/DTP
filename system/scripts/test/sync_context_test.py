@@ -53,7 +53,7 @@ class SyncContextTest(unittest.TestCase):
         head = self.git(self.client, 'rev-parse', 'HEAD')
         (self.client / 'AGENTS.md').write_text('local unsaved work')
         (self.author / 'AGENTS.md').write_text('new merged rules')
-        (self.author / module.CURRENT).write_text('format_version: 1\n')
+        (self.author / 'company-data/facts/school.yaml').write_text('new merged facts')
         self.commit('later merged information')
         self.git(self.author, 'push', 'origin', 'main')
         p = self.run_cli()
@@ -64,8 +64,8 @@ class SyncContextTest(unittest.TestCase):
         self.assertTrue(m['checkout_dirty'])
         self.assertEqual(self.git(self.client, 'rev-parse', 'HEAD'), head)
         self.assertEqual((self.client / 'AGENTS.md').read_text(), 'local unsaved work')
-        self.assertIn('new merged rules', (self.client / '.cache/session-context/context.md').read_text())
-        self.assertTrue(m['current_summary_present'])
+        self.assertIn('new merged facts', (self.client / '.cache/session-context/state-context.md').read_text())
+        self.assertEqual(m['information_status'], 'code_content_review_required')
 
     def test_fetch_failure_invalidates_previous_success(self):
         self.assertEqual(self.run_cli().returncode, 0)
@@ -73,7 +73,7 @@ class SyncContextTest(unittest.TestCase):
         p = self.run_cli()
         self.assertEqual(p.returncode, 1)
         self.assertFalse(self.manifest()['ready'])
-        self.assertFalse((self.client / '.cache/session-context/context.md').exists())
+        self.assertFalse((self.client / '.cache/session-context/state-context.md').exists())
 
     def test_missing_required_source_invalidates(self):
         self.assertEqual(self.run_cli().returncode, 0)
@@ -82,7 +82,7 @@ class SyncContextTest(unittest.TestCase):
         self.git(self.author, 'push', 'origin', 'main')
         self.assertEqual(self.run_cli().returncode, 1)
         self.assertFalse(self.manifest()['ready'])
-        self.assertFalse((self.client / '.cache/session-context/context.md').exists())
+        self.assertFalse((self.client / '.cache/session-context/state-context.md').exists())
 
     def test_lfs_pointer_canonical_text_is_not_usable(self):
         self.assertEqual(self.run_cli().returncode, 0)
@@ -94,19 +94,49 @@ class SyncContextTest(unittest.TestCase):
         self.assertEqual(p.returncode, 1)
         self.assertIn('Git LFS pointer', p.stderr)
         self.assertFalse(self.manifest()['ready'])
-        self.assertFalse((self.client / '.cache/session-context/context.md').exists())
+        self.assertFalse((self.client / '.cache/session-context/state-context.md').exists())
 
     def test_offline_is_never_ready(self):
         p = self.run_cli('--offline')
         self.assertEqual(p.returncode, 2)
         self.assertFalse(self.manifest()['ready'])
         self.assertEqual(self.manifest()['retrieval_status'], 'unverified_offline')
-        self.assertIn('NOT READY', (self.client / '.cache/session-context/context.md').read_text())
+        self.assertIn('NOT READY', (self.client / '.cache/session-context/state-context.md').read_text())
 
-    def test_bootstrap_information_summary_missing(self):
+    def test_state_and_handoff_are_separate_same_commit(self):
+        (self.author / module.NOTES[0]).write_text('FALSE_NOTE_YEAR_2099')
+        (self.author / 'company-data/facts/school.yaml').write_text('REAL_CODE_YEAR_2028')
+        (self.author / 'README.md').write_text('FALSE_README_YEAR_2099')
+        (self.author / 'AGENTS.md').write_text('FALSE_AGENTS_YEAR_2099')
+        self.commit('false handoff and current code')
+        self.git(self.author, 'push', 'origin', 'main')
         self.assertEqual(self.run_cli().returncode, 0)
-        self.assertEqual(self.manifest()['information_status'], 'summary_missing')
-        self.assertIn('編集開始用の確定情報整備は未完了', (self.client / '.cache/session-context/context.md').read_text())
+        cache = self.client / '.cache/session-context'
+        state = (cache / 'state-context.md').read_text()
+        handoff = (cache / 'handoff.md').read_text()
+        self.assertIn('REAL_CODE_YEAR_2028', state)
+        self.assertNotIn('FALSE_NOTE_YEAR_2099', state)
+        self.assertNotIn('FALSE_README_YEAR_2099', state)
+        self.assertNotIn('FALSE_AGENTS_YEAR_2099', state)
+        self.assertIn('FALSE_NOTE_YEAR_2099', handoff)
+        sha = self.manifest()['merged_main_sha']
+        self.assertIn(sha, state)
+        self.assertIn(sha, handoff)
+        self.assertEqual(self.manifest()['category_counts']['company_yaml'], 1)
+        (self.author / 'company-data/facts/school.yaml').write_text('REAL_CODE_YEAR_2029')
+        self.commit('code update without note update')
+        self.git(self.author, 'push', 'origin', 'main')
+        self.assertEqual(self.run_cli().returncode, 0)
+        self.assertIn('REAL_CODE_YEAR_2029', (cache / 'state-context.md').read_text())
+        self.assertIn('FALSE_NOTE_YEAR_2099', (cache / 'handoff.md').read_text())
+
+    def test_source_path_safe_and_tracks_code_at_main(self):
+        self.assertEqual(self.run_cli('--source', 'company-data/facts/school.yaml').returncode, 0)
+        self.assertIn('old fixture', (self.client / '.cache/session-context/source.txt').read_text())
+        for path in ['../../etc/passwd', 'docs/coordination/codex.md', 'not-found.yaml']:
+            self.assertEqual(self.run_cli('--source', path).returncode, 1)
+            self.assertFalse(self.manifest()['ready'])
+            self.assertFalse((self.client / '.cache/session-context/source.txt').exists())
 
     def test_parallel_writer_does_not_corrupt_previous_snapshot(self):
         self.assertEqual(self.run_cli().returncode, 0)
@@ -118,7 +148,7 @@ class SyncContextTest(unittest.TestCase):
             self.assertEqual(p.returncode, 1)
             self.assertIn('another context writer', p.stderr)
             self.assertEqual((cache / 'manifest.json').read_bytes(), before)
-            self.assertTrue((cache / 'context.md').exists())
+            self.assertTrue((cache / 'state-context.md').exists())
 
     def test_symlink_cache_cannot_write_outside_checkout(self):
         outside = self.base / 'outside'

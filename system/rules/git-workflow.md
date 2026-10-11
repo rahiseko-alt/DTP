@@ -5,7 +5,7 @@ GitHub を唯一の正本とします（docs/concept.md §11）。「セッシ�
 
 ## 1. 1 セッションの流れ
 
-開始・事実回答・編集・マージ提案の直前には `python3 system/scripts/sync-context.py` で最新mainの固定SHAから共通情報を取得し、manifest/contextを読む（[詳細](../../docs/fresh-context.md)）。作業ブランチをpullしたことだけで最新mainを把握したとは扱わない。正本・素材・確定判断の更新PRは `docs/coordination/current.yaml` の該当状態・根拠も更新する。両担当ともマージ後に再取得する。
+開始・事実回答・編集・マージ提案の直前には `python3 system/scripts/sync-context.py` で最新mainの固定SHAから取得し、manifest→state-context（実コード/データの状態）→handoff（引継ぎ）を読んで突き合わせる（[詳細](../../docs/fresh-context.md)）。作業ブランチをpullしたことだけで最新mainを把握したとは扱わない。状態は該当フォルダへ、理由・未反映・次の一手は自分の引継ぎノートへ保存する。マージ後は再取得する。手動現況台帳は作らない。
 
 2026-10-11 の人間の指定: 4経路を同時に動かす管理は行わず、CodexとClaude Codeのすみ分けで運用する。別ワークスペース・別ブランチで作業し、着手前に相手と同じファイルを触らないか確認する。マージは原則セッション終了時に行う。
 

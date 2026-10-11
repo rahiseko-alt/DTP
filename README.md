@@ -14,7 +14,7 @@ AIビジネス専門学校のパンフレット・募集要項・チラシ・ポ
 | [system/rules/](system/rules/README.md) | 制作ルール |
 | [system/prompts/](system/prompts/README.md) | 作業用プロンプト |
 
-**現在の状態**: 学校基本情報・2学科・募集要項・実写真・生成素材を登録済み。一部は未記入・採用待ちです。古い状態説明を参照せず、[共通の最新情報取得](docs/fresh-context.md)を実行し、[現在情報の索引](docs/coordination/current.yaml)とcompany-data正本を確認してください。
+**現在の状態**: 学校基本情報・2学科・募集要項・実写真・生成素材を登録済み。一部は未記入・採用待ちです。古い状態説明を参照せず、[共通の最新情報取得](docs/fresh-context.md)を実行し、各フォルダの実コード・データと別の引継ぎを確認してください。
 
 ## しくみの概要
 
