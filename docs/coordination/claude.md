@@ -9,6 +9,7 @@
 - ブランチ: `claude/determined-pascal-d22hqw`。基準: main `c455349`（PR #31 のマージ）。未保存変更なし
 - 今回の変更対象: 未定（指示を受けてから、このノートに範囲を追記する。担当外なら §10 の確認を先に行う）
 - 相手の状況: 開いている PR は #27（ドラフト、`codex/neon-prospectus-2027`。`books/prospectus-neon-2027`・`references/user-neon/`・AGENTS.md・README.md を変更）と #29（ドラフト、`codex/cloud-session-start`。Codex ノートのみ）。Codex のリモート環境は指定版 Chromium が未導入で、公開エラーも未解消（PR #29 のノート）
+- 2026-10-11 追記（人間の承認済み。AGENTS.md「Web で補わない」ルールの例外）: `company-data/facts/courses.yaml`（国際ビジネスAI科の定員 59→30・紹介文、総合ビジネス科 29 人を追加）と `school.yaml`（代表メール）を学校公式サイトの内容で更新。`established` は TODO のまま（法人設立 2025 年 10 月／開校 2026 年 4 月のどちらにするか人間の判断待ち）。Drive フォルダ「入学生集客」は、願書・募集要項など以前のセッションで読んだ分以外（戦略資料・パンフ案・集客リスト・在校生画像の全件）は未確認
 - 環境: `npm run doctor` は OK 10 / WARN 1 / NG 0（WARN はシステム日本語フォントに Noto CJK なし。描画は @fontsource を使うので制作は可能）
 
 ## Claude Code Web / クラウドの環境準備と検証 — 2026-10-10 09:59 JST
