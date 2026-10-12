@@ -1,0 +1,20 @@
+tool: image_gen
+model: unspecified-built-in
+created: '2026-10-12'
+author: codex
+seed: null
+prompt: Create a single landscape watercolor illustration, approximately 3:2 aspect
+  ratio, depicting a small seaside town at sunset. Foreground low white and warm ochre
+  houses with simple terracotta rooftops descending toward a calm blue harbor; distant
+  boats as minimal silhouettes; a clear warm peach sky and golden sunset light reflected
+  on water. Hand-painted watercolor washes with visible soft pigment edges and paper
+  grain, playful yet legible concrete scenery, no science-fiction, crystals, chrome,
+  people, faces, schools, signage, typography, letters, numbers, logo, watermark,
+  signature, captions, border, page mockup. Compose the town on the left and lower
+  middle with harbor water on the right; show whole scene without important subjects
+  cut by edges. Image only, no written content.
+reference_inputs: []
+params:
+  transparent_background: false
+source_refs: []
+notes: 画像生成の仕組みを示す説明用生成イメージ。学校や学生の作品・授業実績ではない。紙面の短語は入力イメージで、モデル入力全文は上記prompt。配置91×61mm。目視/寸法/合成確認はreviewsに記録。

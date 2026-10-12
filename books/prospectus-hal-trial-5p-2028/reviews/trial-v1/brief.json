@@ -1,0 +1,38 @@
+{
+  "request": "5ページの試作",
+  "year": "2028年4月入学",
+  "purpose": "本人の行きたいと保護者の払える・払うを成立させ、入学手続きと入金につなげる",
+  "readers": "日本の高校に通う外国ルーツ高校生と保護者",
+  "structure": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "design": "HAL風。女性主役、巨大文字との重なり、大小の実写真・意味のある情報群。クリスタルは背景透かし。短文を理由に視覚内容を減らさない。",
+  "topics": {
+    "1": "生成女性の表紙、学校名、2028",
+    "2–3": "在校生とAIの具体的学び、2学科",
+    "4–5": "総合ビジネス5分野、2027参考学費の条件、2028未確定、親子相談と連絡先"
+  },
+  "reference_images": [
+    "references/HAL-nagoya/brochure-1/page_001.jpg",
+    "references/HAL-nagoya/brochure-1/page_004.jpg",
+    "references/HAL-nagoya/brochure-1/page_005.jpg",
+    "references/HAL-nagoya/brochure-1/page_014.jpg",
+    "references/HAL-nagoya/brochure-2/page_001.jpg"
+  ],
+  "role_selection": "system/prompts/role-candidates/selection.json",
+  "editor": "/root/trial5_editor",
+  "reviewer": "/root/trial5_reviewer",
+  "chief": "/root/trial5_chief",
+  "host": "登録役割直接選択は不可。各TOML全文を別エージェントに読み込ませるフォールバック。",
+  "scope": "正式12pや確定台帳のページ数は変更しない。5pは正式面付けではない。"
+}

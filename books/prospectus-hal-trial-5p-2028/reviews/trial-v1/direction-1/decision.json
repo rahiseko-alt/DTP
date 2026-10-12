@@ -1,0 +1,29 @@
+{
+  "stage": "direction",
+  "pdf_sha256": "0c0ba95238c3efd22f472eefd978c646a2bce28c5874d4cfc6d0cc40734d342f",
+  "chief_session": "/root/trial5_chief",
+  "decision": "revise",
+  "findings": [
+    {
+      "severity": "major",
+      "pages": [
+        2
+      ],
+      "issue": "濃紺見出しの末尾が写真の暗部に同化",
+      "evidence": "ここから、/未来へ。の右側が緑や髪と重なる",
+      "required_fix": "文字形を背景から分離して全文可読にする。重なりは維持可"
+    },
+    {
+      "severity": "major",
+      "pages": [
+        3
+      ],
+      "issue": "画像生成を説明する視覚群がなく手書き写真との関係が弱い",
+      "evidence": "赤の画像生成見出しに、ことば→画像や例示結果が伴わない",
+      "required_fix": "学校実績と誤認しない説明用イメージと具体入力例を組み合わせる"
+    }
+  ],
+  "additional_fix": "p2の2学科に画像生成・翻訳AI/販売・サービスなどの学びを各1行添える",
+  "independence": "制作自己評価・技術結果・レビュアー結果を読む前に初見固定",
+  "record": "サブの返答から統合担当が保存。"
+}

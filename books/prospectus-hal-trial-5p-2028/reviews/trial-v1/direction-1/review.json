@@ -1,0 +1,47 @@
+{
+  "stage": "direction-visual-only",
+  "pdf_sha256": "0c0ba95238c3efd22f472eefd978c646a2bce28c5874d4cfc6d0cc40734d342f",
+  "reviewer_session": "/root/trial5_reviewer",
+  "decision": "revise",
+  "pages_seen": [
+    1,
+    2,
+    3
+  ],
+  "spreads_seen": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "code_read": false,
+  "technical_results_read": false,
+  "findings": [
+    {
+      "severity": "major",
+      "pages": [
+        2
+      ],
+      "issue": "濃紺見出しの末尾が写真の暗部に同化",
+      "evidence": "ここから、/未来へ。の右側が緑や髪と重なる",
+      "required_fix": "文字形を背景から分離して全文可読にする。重なりは維持可"
+    },
+    {
+      "severity": "major",
+      "pages": [
+        3
+      ],
+      "issue": "画像生成を説明する視覚群がなく手書き写真との関係が弱い",
+      "evidence": "赤の画像生成見出しに、ことば→画像や例示結果が伴わない",
+      "required_fix": "学校実績と誤認しない説明用イメージと具体入力例を組み合わせる"
+    }
+  ],
+  "evidence": [
+    "保存済みpng/page_001.png,page_002.png,page_003.png,spreads/cover.png,spread-02-03.pngを独立目視",
+    "HAL brochure-1 page_001/page_004、brochure-2 page_001との比較"
+  ],
+  "record": "サブの返答から統合担当が保存。正式全冊レビューではない。"
+}
