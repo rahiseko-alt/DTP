@@ -88,7 +88,7 @@
 | 多言語版の対象言語 | |
 | ターゲット戦略原本 | references/user-strategy/target-strategy-1008/original/ターゲット戦略1008.pdf |
 | 価格戦略原本 | references/user-strategy/price-strategy-1008/original/価格戦略1008.pdf |
-| 制作段階 | HAL風12ページを女性人物主役・クリスタル背景透かし・見開き別構成で再制作した確認用PDF。入稿用出力はこれから |
+| 制作段階 | HAL風12ページの再制作確認PDFあり。人間が紙面の密度不足を指摘。制作役割の具体プロンプト原文を収集中 |
 | mainのBOOK | books/replica/ に12BOOK、各1ページ |
 | 別案の冊子 | HAL風24ページ案（books/prospectus-neon-2027/、PR #27） |
 | 参考資料 | references/ の他校14資料・157ページ |

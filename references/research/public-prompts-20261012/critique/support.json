@@ -1,0 +1,22 @@
+[
+  {
+    "repo": "pbakaus/impeccable",
+    "url": "https://github.com/pbakaus/impeccable",
+    "retrieved_at_utc": "2026-10-12T12:16:13.357376+00:00",
+    "stars": 80100,
+    "extraction": "embedded JSON stargazerCount",
+    "file": "impeccable-github.html",
+    "sha256": "035e0d1a999e4dcc4249526dbb33065a711a5cc699d38a51918a1b0102d7e058",
+    "license": "Apache-2.0"
+  },
+  {
+    "repo": "Leonxlnx/taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "retrieved_at_utc": "2026-10-12T12:16:13.357376+00:00",
+    "stars": 94949,
+    "extraction": "embedded JSON stargazerCount",
+    "file": "taste-skill-github.html",
+    "sha256": "85661a5af4acd0f036e9a692695f0fd8fdb6a493a5cd1050d6cdd80d1a6414a3",
+    "license": "MIT"
+  }
+]

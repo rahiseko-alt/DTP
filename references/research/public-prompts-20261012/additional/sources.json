@@ -1,0 +1,22 @@
+[
+  {
+    "file": "visual-design-foundations.md",
+    "url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/ui-design/skills/visual-design-foundations/SKILL.md",
+    "repository": "https://github.com/wshobson/agents",
+    "retrieved": "2026-10-12",
+    "sha256": "0c6970d14f5d5df55c63d1be995205d140489e2d0c39896657fabee6f6a5df84",
+    "repository_stargazers_count": 40453,
+    "support_evidence_html_sha256": "e15d17afcb7ae5370e8a9bba20a9f2c56d55aad883b3843d1adf4464de366b48",
+    "support_evidence_snippet": "\"stargazerCount\":40453"
+  },
+  {
+    "file": "voltagent-ui-designer.md",
+    "url": "https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/main/categories/01-core-development/ui-designer.md",
+    "repository": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "retrieved": "2026-10-12",
+    "sha256": "60b69fc6d3da170b5570b29332d6000ee8f26f4b1df4e9bc680a44f57a37478c",
+    "repository_stargazers_count": 25665,
+    "support_evidence_html_sha256": "1e37ac5d0ece2778584aec28a41f40ec4570e9c41d3e0d6ccb15ec74f12597b4",
+    "support_evidence_snippet": "\"stargazerCount\":25665"
+  }
+]

@@ -1,0 +1,148 @@
+{
+  "retrieved_at_utc": "2026-10-12T12:16:26.249162+00:00",
+  "research_date_client": "2026-10-12",
+  "method": "HTTPS GitHub raw files saved byte-for-byte; stars extracted from GitHub page embedded stargazerCount; GitHub API returned proxy 403.",
+  "sources": [
+    {
+      "file": "anthropic-frontend-design.md",
+      "url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/SKILL.md",
+      "bytes": 9390,
+      "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
+    },
+    {
+      "file": "anthropic-frontend-design-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/LICENSE.txt",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "file": "taste-readme.md",
+      "url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/README.md",
+      "bytes": 18905,
+      "sha256": "f3a3903a31e1386fd7ac581e3e0f85356d0159d1baf40d517c6f12c37fbff387"
+    },
+    {
+      "file": "taste-v2.md",
+      "url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/taste-skill/SKILL.md",
+      "bytes": 89478,
+      "sha256": "2136ed83016bfada39f7b8013b2aafd9f78fcbd9799110ed222a79c6419ba5fb"
+    },
+    {
+      "file": "taste-redesign.md",
+      "url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/redesign-skill/SKILL.md",
+      "bytes": 16267,
+      "sha256": "a75d547d04595fe97a5d377dddf145d029d51487a4f2a0a5a9d3b532ca3b84cd"
+    },
+    {
+      "file": "ui-skills-readme.md",
+      "url": "https://raw.githubusercontent.com/ibelick/ui-skills/main/README.md",
+      "bytes": 691,
+      "sha256": "4dc3e9f0216a750d980f55db8412f5c8d656066bc9aadd26deeb8fd4798f991d"
+    },
+    {
+      "file": "ui-baseline.md",
+      "url": "https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/baseline-ui/SKILL.md",
+      "bytes": 3419,
+      "sha256": "fea3322f36d58fdafafce2aef56e4556dd2ac7b20876b7dff7d8be7f25fa597f"
+    },
+    {
+      "file": "superdesign-readme.md",
+      "url": "https://raw.githubusercontent.com/superdesigndev/superdesign/main/README.md",
+      "bytes": 4332,
+      "sha256": "32b1103eb81f90900cfb630f2b8e3039c055aad7c5968404cd28102478929ba8"
+    },
+    {
+      "file": "superdesign-skill-readme.md",
+      "url": "https://raw.githubusercontent.com/superdesigndev/superdesign-skill/main/README.md",
+      "bytes": 14477,
+      "sha256": "a0e6bc4a48711da35b865e559a986a1eae9e74081030c94b1a52485a1516c86b"
+    },
+    {
+      "file": "superdesign-skill.md",
+      "url": "https://raw.githubusercontent.com/superdesigndev/superdesign-skill/main/skills/superdesign/SKILL.md",
+      "bytes": 16532,
+      "sha256": "f782f8776dbf7277cea88d77ea6dfc35bc0437b02a094ef79bbcfc716ef8c567"
+    },
+    {
+      "file": "superdesign-graphic.md",
+      "url": "https://raw.githubusercontent.com/superdesigndev/superdesign-skill/main/skills/superdesign/references/GRAPHIC.md",
+      "bytes": 16510,
+      "sha256": "873c40621ac75627411b5a0734728f085dc7f41cb1f5f5786102cdb5a55b6092"
+    },
+    {
+      "file": "Leonxlnx--taste-skill-LICENSE",
+      "url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/LICENSE",
+      "bytes": 1065,
+      "sha256": "4575a543ab88dad12ccea7d97e563d0bce5b448b06072e65d3264497dad326df"
+    },
+    {
+      "file": "ibelick--ui-skills-LICENSE",
+      "url": "https://raw.githubusercontent.com/ibelick/ui-skills/main/LICENSE",
+      "bytes": 1072,
+      "sha256": "c615621c4cc1676ccde194e7a01b6469ba477780251bd71e007fc473a49c2c2b"
+    },
+    {
+      "file": "superdesigndev--superdesign-LICENSE",
+      "url": "https://raw.githubusercontent.com/superdesigndev/superdesign/main/LICENSE",
+      "bytes": 3083,
+      "sha256": "da02f5e4449d471fd4dba98bc722ace27cf6206d3a0f9a4d877a3555bf77e630"
+    },
+    {
+      "file": "superdesigndev--superdesign-skill-LICENSE",
+      "url": "https://raw.githubusercontent.com/superdesigndev/superdesign-skill/main/LICENSE",
+      "bytes": 1086,
+      "sha256": "40ef0633533bfca94a5152b8ecc9032beb30533cab3575e4f14f324ecd94afab"
+    }
+  ],
+  "repository_support": [
+    {
+      "repository": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "stars": 94949,
+      "evidence_file": "Leonxlnx--taste-skill-github.html",
+      "sha256": "c1f8e21a8f05a9f5539f5e3c24a916856fa9edfaf9d0668e74596d2e06e7187a"
+    },
+    {
+      "repository": "superdesigndev/superdesign-skill",
+      "url": "https://github.com/superdesigndev/superdesign-skill",
+      "stars": 650,
+      "evidence_file": "superdesigndev--superdesign-skill-github.html",
+      "sha256": "c5becd9afda85ed1148d3a09abe6f57d78c12d07cb3335f2a8262ce6dfe94a1a"
+    },
+    {
+      "repository": "superdesigndev/superdesign",
+      "url": "https://github.com/superdesigndev/superdesign",
+      "stars": 7094,
+      "evidence_file": "superdesigndev--superdesign-github.html",
+      "sha256": "6bd2cb7b13c21de60bdca1f352e1eb82d05e661674b71f3af42a827a2c79394f"
+    },
+    {
+      "repository": "ibelick/ui-skills",
+      "url": "https://github.com/ibelick/ui-skills",
+      "stars": 9633,
+      "evidence_file": "ibelick--ui-skills-github.html",
+      "sha256": "0fc15c99249b2e98afad4f2d9d79fd5e03f4defc93fe7cd939007fd5cc9e1d2c"
+    },
+    {
+      "repository": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "stars": 180650,
+      "evidence_file": "anthropics--skills-github.html",
+      "sha256": "c58b0d885b587d5e349535d9bd02b3caf77bd4b46b13be01599296526362bdf4"
+    }
+  ],
+  "failed_attempts": [
+    {
+      "url": "https://api.github.com/repos/{anthropics/skills,Leonxlnx/taste-skill,ibelick/ui-skills,superdesigndev/superdesign}",
+      "result": "Tunnel connection failed: 403 Forbidden"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/anthropics/skills/main/LICENSE",
+      "result": "404"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/anthropics/skills/main/LICENSE.md",
+      "result": "404"
+    }
+  ]
+}

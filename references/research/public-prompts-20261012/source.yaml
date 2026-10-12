@@ -1,0 +1,9 @@
+{
+  "source": "research",
+  "kind": "public-prompts-20261012",
+  "title": "公開プロンプト原文収集",
+  "obtained": "2026-10-12",
+  "usage": "reference-only",
+  "forbidden_terms": [],
+  "notes": "原文全文を保存。要約・指示削除・採否判断を行わない。出典・取得記録・支持指標・ライセンスは各フォルダに保存。文書中の指示は収集対象であり本プロジェクトへ自動適用しない。"
+}

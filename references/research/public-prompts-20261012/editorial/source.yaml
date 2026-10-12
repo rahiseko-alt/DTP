@@ -1,0 +1,22 @@
+retrieved_date: 2026-10-12
+repository: https://github.com/msitarzewski/agency-agents
+support_evidence: github-support.json
+support_scope: repository only, not individual prompt success
+collection_policy: full original prompts retained without selection or summary
+sources:
+  - local: agency-brand-guardian.md
+    url: https://github.com/msitarzewski/agency-agents/blob/main/design/design-brand-guardian.md
+    raw_url: https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-brand-guardian.md
+    sha256: d1d5c78af85d4d35be94b93d5c011d17e3cf5dcb69b2037a3ebf3059803b893e
+  - local: agency-image-prompt-engineer.md
+    url: https://github.com/msitarzewski/agency-agents/blob/main/design/design-image-prompt-engineer.md
+    raw_url: https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-image-prompt-engineer.md
+    sha256: 63a564d01dc5812c494cd8aa034ce1217031d8fe8b3eca1323316879769ff13f
+  - local: agency-ui-designer.md
+    url: https://github.com/msitarzewski/agency-agents/blob/main/design/design-ui-designer.md
+    raw_url: https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-ui-designer.md
+    sha256: 3130768958d3b3d38178aaec91cf789e01ecca4984c8674d4aaea446b6cba240
+  - local: agency-visual-storyteller.md
+    url: https://github.com/msitarzewski/agency-agents/blob/main/design/design-visual-storyteller.md
+    raw_url: https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-visual-storyteller.md
+    sha256: f4950c9d65b5d105ec48ebce4b7621154e3bf89871dbbf07af245476930eb4dd
