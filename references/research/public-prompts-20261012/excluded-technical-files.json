@@ -1,0 +1,11 @@
+{
+  "instruction": "技術資料は捨てろ",
+  "removed_files": [
+    "additional/visual-design-foundations.md",
+    "critique/impeccable-audit.md",
+    "production/ui-baseline.md",
+    "production/superdesign-skill.md",
+    "production/superdesign-graphic.md"
+  ],
+  "date": "2026-10-12"
+}

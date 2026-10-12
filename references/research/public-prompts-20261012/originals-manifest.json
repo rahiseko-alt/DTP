@@ -1,21 +1,9 @@
 [
   {
-    "file": "additional/visual-design-foundations.md",
-    "type": "指示原文",
-    "bytes": 7218,
-    "sha256": "0c6970d14f5d5df55c63d1be995205d140489e2d0c39896657fabee6f6a5df84"
-  },
-  {
     "file": "additional/voltagent-ui-designer.md",
     "type": "指示原文",
     "bytes": 5048,
     "sha256": "60b69fc6d3da170b5570b29332d6000ee8f26f4b1df4e9bc680a44f57a37478c"
-  },
-  {
-    "file": "critique/impeccable-audit.md",
-    "type": "指示原文",
-    "bytes": 7854,
-    "sha256": "d2aa90f30ba7a0082d242ab69a2a9d46298abb5f36b43308fe7e3c36fa9a9056"
   },
   {
     "file": "critique/impeccable-bolder.md",
@@ -90,12 +78,6 @@
     "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
   },
   {
-    "file": "production/superdesign-graphic.md",
-    "type": "指示原文",
-    "bytes": 16510,
-    "sha256": "873c40621ac75627411b5a0734728f085dc7f41cb1f5f5786102cdb5a55b6092"
-  },
-  {
     "file": "production/superdesign-readme.md",
     "type": "README原文",
     "bytes": 4332,
@@ -106,12 +88,6 @@
     "type": "README原文",
     "bytes": 14477,
     "sha256": "a0e6bc4a48711da35b865e559a986a1eae9e74081030c94b1a52485a1516c86b"
-  },
-  {
-    "file": "production/superdesign-skill.md",
-    "type": "指示原文",
-    "bytes": 16532,
-    "sha256": "f782f8776dbf7277cea88d77ea6dfc35bc0437b02a094ef79bbcfc716ef8c567"
   },
   {
     "file": "production/taste-readme.md",
@@ -130,12 +106,6 @@
     "type": "指示原文",
     "bytes": 89478,
     "sha256": "2136ed83016bfada39f7b8013b2aafd9f78fcbd9799110ed222a79c6419ba5fb"
-  },
-  {
-    "file": "production/ui-baseline.md",
-    "type": "指示原文",
-    "bytes": 3419,
-    "sha256": "fea3322f36d58fdafafce2aef56e4556dd2ac7b20876b7dff7d8be7f25fa597f"
   },
   {
     "file": "production/ui-skills-readme.md",

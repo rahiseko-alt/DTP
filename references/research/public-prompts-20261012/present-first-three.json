@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-12",
+  "support_scope": "リポジトリ全体のGitHub Stars。個別プロンプトの得票ではない。",
+  "present_first": [
+    {
+      "file": "production/anthropic-frontend-design.md",
+      "name": "Frontend Design",
+      "repository": "anthropics/skills",
+      "repository_stars": 180650
+    },
+    {
+      "file": "editorial/agency-visual-storyteller.md",
+      "name": "Visual Storyteller",
+      "repository": "msitarzewski/agency-agents",
+      "repository_stars": 159283
+    },
+    {
+      "file": "editorial/agency-image-prompt-engineer.md",
+      "name": "Image Prompt Engineer",
+      "repository": "msitarzewski/agency-agents",
+      "repository_stars": 159283
+    }
+  ]
+}
