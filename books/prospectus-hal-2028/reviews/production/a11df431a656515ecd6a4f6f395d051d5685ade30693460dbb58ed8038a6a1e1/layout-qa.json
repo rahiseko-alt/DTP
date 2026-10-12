@@ -1,0 +1,77 @@
+{
+  "resourceProblems": [],
+  "referenceRequests": [],
+  "printFindings": [],
+  "observations": [
+    {
+      "page": "page_001",
+      "textOverlaps": [
+        [
+          "AIビジネス専門学校",
+          "Artificial Intelligence Business College"
+        ]
+      ],
+      "gutterTexts": []
+    },
+    {
+      "page": "page_002",
+      "textOverlaps": [
+        [
+          "AIと",
+          "ビジネス。"
+        ]
+      ],
+      "gutterTexts": []
+    },
+    {
+      "page": "page_003",
+      "textOverlaps": [],
+      "gutterTexts": []
+    },
+    {
+      "page": "page_004",
+      "textOverlaps": [],
+      "gutterTexts": []
+    },
+    {
+      "page": "page_005",
+      "textOverlaps": [],
+      "gutterTexts": []
+    },
+    {
+      "page": "page_006",
+      "textOverlaps": [],
+      "gutterTexts": []
+    },
+    {
+      "page": "page_007",
+      "textOverlaps": [],
+      "gutterTexts": []
+    },
+    {
+      "page": "page_008",
+      "textOverlaps": [],
+      "gutterTexts": []
+    },
+    {
+      "page": "page_009",
+      "textOverlaps": [],
+      "gutterTexts": []
+    },
+    {
+      "page": "page_010",
+      "textOverlaps": [],
+      "gutterTexts": []
+    },
+    {
+      "page": "page_011",
+      "textOverlaps": [],
+      "gutterTexts": []
+    },
+    {
+      "page": "page_012",
+      "textOverlaps": [],
+      "gutterTexts": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "asset": "books/prospectus-hal-2028/backgrounds/cover-armor.png",
+  "pixel_dimensions": [
+    1055,
+    1491
+  ],
+  "placement_mm": [
+    216,
+    303
+  ],
+  "effective_ppi": [
+    124.06018518518518,
+    124.9881188118812
+  ],
+  "mode": "preview",
+  "note": "拡大配置。印刷用350ppiの合格とは扱わない。"
+}

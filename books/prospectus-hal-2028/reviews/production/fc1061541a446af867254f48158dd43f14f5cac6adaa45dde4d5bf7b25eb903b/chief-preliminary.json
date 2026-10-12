@@ -1,0 +1,50 @@
+{
+  "chief_session": "/root/redesign_chief",
+  "pdf_sha256": "fc1061541a446af867254f48158dd43f14f5cac6adaa45dde4d5bf7b25eb903b",
+  "decision": "revise",
+  "scope": "独立レビューの完了前に現物から編集長が指示した差し戻し。最終decision.jsonとは別。",
+  "findings": [
+    {
+      "severity": "major",
+      "pages": [
+        5
+      ],
+      "issue": "クリスタルの高彩度ゲートを前景教材に使用。背景限定指定違反。",
+      "required_fix": "除去し非クリスタル比較図へ。"
+    },
+    {
+      "severity": "major",
+      "pages": [
+        4,
+        5
+      ],
+      "issue": "青左/白右と写真に接する巨字、右縦3段。2–3配分を引き継ぎ、HAL原本の画像・巨字の重なりや色面交差が不十分。",
+      "required_fix": "画像と巨字の重なり、横入力/出力/確認へ構成を変更。"
+    },
+    {
+      "severity": "major",
+      "pages": [
+        7
+      ],
+      "issue": "同じ強さの5語を左右へずらした羅列。",
+      "required_fix": "内容の関係で主従・写真接続を設計。"
+    },
+    {
+      "severity": "major",
+      "pages": [
+        12
+      ],
+      "issue": "QR下部が切断。",
+      "required_fix": "寸法・安全域と最終PDF復号の再検証。"
+    },
+    {
+      "severity": "minor",
+      "pages": [
+        7,
+        9
+      ],
+      "issue": "同じグループ画像を連続見開きで再使用。",
+      "required_fix": "別許諾写真への変更または主補の役割理由。"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "pdf_sha256": "a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1",
+  "review_sha256": "e5c1af5db35747696d8758c0da7747c591ada982437850b614301efb13d627c3",
+  "mode": "preview",
+  "chief_session": "/root/redesign_chief",
+  "decision": "submit",
+  "quality": {
+    "intent": "pass",
+    "coherence": "pass",
+    "design": "pass",
+    "usable": "pass"
+  },
+  "reason": "全7面を実画像で目視し、独立レビュー全文と実PDF・レビューのSHAを照合。HAL表紙の大きな女性の顔と身体への巨大白文字を反映し目は隠さない。2–3は実女性の表情と巨字を入口に白地の翻訳・分析・生成で具体化。4–5は巨AIが写真へ跨ぐ学科扉と横方向の言葉→図→確認。6–7は教室全景、販売/サービスを主、活動写真と経営/マーケ/事務を補にして等強度の羅列を解消。8–9は大人物・赤帯・小写真・親子質問、10–11は金額と行動、12は静かな連絡先へ変化。クリスタルは3の薄い背景だけ、5前景ゲート撤去。表紙装甲は女性原素材の衣装で独立クリスタル追加なし。初稿重大4件の解消を実画像で確認。2027日本人向け参考額、2028未確定、別途費用、学科・定員・次の行動が読める。表紙約124ppiと既存Chromium154はpreview制約として許容し入稿合格にはしない。4/8同手元は学科大主役/人物面小補助で目的と面積が異なり同型反復を生まないため許容。読者・実機QR・実印刷テスト未実施。確認用候補として提出可であり人間の採用・公開・マージ・入稿承認ではない。",
+  "evidence": [
+    "books/prospectus-hal-2028/output/spreads/",
+    "books/prospectus-hal-2028/output/pdf/prospectus-hal-2028.pdf",
+    "books/prospectus-hal-2028/reviews/production/a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1/review.json",
+    "references/HAL-nagoya/brochure-1/page_001.jpg",
+    "references/HAL-nagoya/brochure-1/page_016.jpg",
+    "references/HAL-nagoya/brochure-1/page_017.jpg",
+    "references/HAL-nagoya/brochure-2/page_019.jpg",
+    "company-data/ledger.md"
+  ]
+}

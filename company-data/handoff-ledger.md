@@ -6,15 +6,16 @@
 
 | 項目 | 引継ぎ |
 | --- | --- |
-| 担当・作業 | 人間のデザイン差し戻しを受け、AI臭さ排除、公式役割設計、HAL構成比較の3調査をサブで並行実施。役割優先順位・証拠・差し戻し条件を具体化 |
-| 保存先 | codex/hal-spread-production-20261012。今回の冊子・設定変更を人間の承認でmainへ統合。紙面はデザイン差し戻し後の再制作待ち |
-| 現冊子 | books/prospectus-hal-2028/output/ に旧確認版あり。過去の提出可判断を最新の人間指示に対する合格とは扱わない |
-| 設定実体 | .codex/roles/*.toml、.agents/skills/dtp-production/design-contract.md。Claude定義は同期スクリプトで生成済み |
-| 調査実体 | references/research/anti-ai-editorial-20261012/、agent-role-official-20261012/、hal-direction-20261012/ |
-| 次の一手 | 女性人物・巨大文字・クリスタル背景透かしの主従が分かる代表面を再制作し、原本比較の独立審査と編集長判断を受けてから全体へ展開 |
-| 素材 | 女性キャラクターは既存原本・透過パーツ・旧24ページ案のLFS実体に存在。HAL調査の素材一覧から選定する。生成キャラクターを実在校生と扱わない |
-| 検証 | 役割TOML構文、Claude生成同期、既存品質ゲート10試験に合格。独立設定検証の適用範囲と代表面選択の抜け穴を修正。新紙面の制作・審査は未実施。統合時は型検査・validate・比較表6試験・品質ゲート10試験・12ページ確認描画に成功。全Vitestは340成功・6失敗・7skip、失敗は指定版Chromium依存 |
-| 制約 | 現ホストはagent_type未対応のため役割本文を別エージェントへ渡す。設定sandbox適用やClaudeランタイム実行を装わない。機械ゲートは審美的達成を保証しない |
+| 担当・作業 | HAL風12ページを女性人物主役・巨大文字と画像の重なり・クリスタル背景透かし・見開き別構成で再制作。3役で代表方向審査、全体差し戻し、修正、再審査を実施 |
+| 保存先 | codex/hal-redesign-20261012。今回の再制作はmain未反映。前回の冊子・役割具体化とClaude参考校比較はmain f66c23bに統合済み |
+| 制作物 | books/prospectus-hal-2028/output/pdf/prospectus-hal-2028.pdf、output/png/、output/spreads/、output/overview.png |
+| PDF sha256 | a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1 |
+| 審査 | 代表表紙・2–3の方向承認後に全体展開。初稿の重大4件を差し戻して修正。独立再レビューでは全12ページ・全7面・7項目pass、major/blockingなし。編集長が同版の確認用提出可を判断 |
+| 検証 | validateエラー0警告46、12ページ描画、文字安全域・ノド12mm・素材配信・参考素材アクセス検査に問題なし。DOM矩形候補p1/p2は実グリフ衝突なしと目視。最終PDF12ページから学校URLのQR復号成功。比較表も再生成・整合検査成功 |
+| 審査の実体 | books/prospectus-hal-2028/reviews/redesign-20261012/に代表審査、reviews/production/に各PDF版の審査と証跡。旧確認PDFの実体も保存し旧承認を新PDFへ流用しない |
+| 次の一手 | 人間が最終確認用PDFを確認。マージは明示指示を得て実施。2028年度学費・条件、入稿用素材・指定ブラウザ、実印刷・読者理解テストは別途必要 |
+| 制約 | 150dpi確認出力、表紙1055×1491pxを全面配置で約124ppi、既存Chromium154。p4/p8手元写真は大主役/小補助として再使用。実機QR・サイト到達・実印刷・対象読者テスト未実施 |
+| 役割実行 | editor=/root/redesign_editor、reviewer=/root/redesign_reviewer、chief=/root/redesign_chief。agent_type未対応のため各役割本文を別エージェントで読み適用。設定sandbox強制やClaudeランタイム確認とは区別 |
 
 ## 冊子制作を再開するとき
 

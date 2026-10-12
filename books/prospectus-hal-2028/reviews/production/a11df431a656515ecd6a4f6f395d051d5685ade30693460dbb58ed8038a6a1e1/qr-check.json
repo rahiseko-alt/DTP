@@ -1,0 +1,8 @@
+{
+  "method": "最終PDF12ページを150dpiPNG化しzxingcppで復号",
+  "decoded": [
+    "https://kaihougakuen.my.canva.site/"
+  ],
+  "result": "pass",
+  "scope": "PDF画素の復号。実機・印刷・サイト到達の確認ではない。"
+}

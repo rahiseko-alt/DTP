@@ -1,0 +1,24 @@
+render: BOOK prospectus-hal-2028（ルート: /workspace/DTP）
+  PNG  /tmp/dtp-redesign-full1/png/page_001.png（1276×1789px）
+  PNG  /tmp/dtp-redesign-full1/png/page_002.png（1276×1789px）
+  PNG  /tmp/dtp-redesign-full1/png/page_003.png（1276×1789px）
+  PNG  /tmp/dtp-redesign-full1/png/page_004.png（1276×1789px）
+  PNG  /tmp/dtp-redesign-full1/png/page_005.png（1276×1789px）
+  PNG  /tmp/dtp-redesign-full1/png/page_006.png（1276×1789px）
+  PNG  /tmp/dtp-redesign-full1/png/page_007.png（1276×1789px）
+  PNG  /tmp/dtp-redesign-full1/png/page_008.png（1276×1789px）
+  PNG  /tmp/dtp-redesign-full1/png/page_009.png（1276×1789px）
+  PNG  /tmp/dtp-redesign-full1/png/page_010.png（1276×1789px）
+  PNG  /tmp/dtp-redesign-full1/png/page_011.png（1276×1789px）
+  PNG  /tmp/dtp-redesign-full1/png/page_012.png（1276×1789px）
+  PDF  /tmp/dtp-redesign-full1/pdf/prospectus-hal-2028.pdf（12 ページ）
+
+判型: A4 portrait 仕上がり 210×297mm + 塗り足し 3mm = 216×303mm
+PNG: 12 ページ・150dpi・1276×1789px → /tmp/dtp-redesign-full1/png/
+PDF: 12 ページ → /tmp/dtp-redesign-full1/pdf/prospectus-hal-2028.pdf
+
+警告（2 件）:
+  - Playwright 指定版ではない Chromium（STUDIO_CHROMIUM_PATH=/usr/bin/chromium、154.0.8037.57）で描画しています。字形・行送りが指定版とわずかに違うことがあります
+  - page_012: 安全領域の外の文字が 1 か所（「学校ホームページ」x 44.7・y 328.6mm・39.9mm はみ出し）。仕上がり線から 5mm の内側に置く（system/rules/page-layers.md）
+
+完了: 13 ファイルを書き出しました（26.9 秒）

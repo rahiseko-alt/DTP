@@ -1,0 +1,14 @@
+{
+  "pdf_sha256": "fc1061541a446af867254f48158dd43f14f5cac6adaa45dde4d5bf7b25eb903b",
+  "review_sha256": "4acb38bfc4a28ed20cfb396d45192ccccaad458732b8419fcdb84b6dc69cd083",
+  "mode": "preview",
+  "chief_session": "/root/redesign_chief",
+  "decision": "revise",
+  "quality": {
+    "intent": "fail",
+    "coherence": "fail",
+    "design": "fail",
+    "usable": "fail"
+  },
+  "reason": "編集長は全7面を目視。独立レビューのmajor4と目視判断が一致。QR欠落、クリスタル前景、文字画像分離、5分野同強度配置が残るため提出不可。表紙・2–3の方向は維持して修正後に全体を再審査。"
+}

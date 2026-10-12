@@ -1,0 +1,138 @@
+{
+  "pdf_sha256": "a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1",
+  "mode": "preview",
+  "page_count": 12,
+  "binding": "left",
+  "editor_session": "/root/redesign_editor",
+  "reviewer_session": "/root/redesign_reviewer",
+  "pages_seen": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "spreads_seen": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      12
+    ]
+  ],
+  "dimensions": {
+    "content": "pass",
+    "audience": "pass",
+    "spreads": "pass",
+    "rhythm": "pass",
+    "legibility": "pass",
+    "assets": "pass",
+    "output": "pass"
+  },
+  "checks": {
+    "validate": "pass",
+    "render": "pass",
+    "visual_pages": "pass",
+    "visual_spreads": "pass",
+    "qr_pdf_decode": "pass"
+  },
+  "findings": [
+    {
+      "severity": "minor",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "issue": "確認用出力。表紙1055×1491pxは約124ppi、既存Chromium154で描画。",
+      "evidence": "backgrounds/cover-armor.prompt.yaml、対象PDFのCreator、150dpiPNG。parts-check.jsonとrender.log。",
+      "required_fix": "preview用途限定。入稿前に実効解像度・指定ブラウザ・印刷寸法を確認。読者/実機QR/実印刷テスト済みと扱わない。"
+    },
+    {
+      "severity": "minor",
+      "pages": [
+        4,
+        8
+      ],
+      "issue": "同じ手元写真student-img-5073が学科扉と人物面の補助写真で反復。",
+      "evidence": "/tmp/dtp-redesign-full2/png/page_004.pngとpage_008.png（同一画素をoutput/png/へ保存）。",
+      "required_fix": "役割・面積が異なり全体同型反復を生まないため確認用許容可能。実写真補充時に学校生活面の補助を別場面へ。"
+    }
+  ],
+  "evidence": {
+    "見開き画像": [
+      "/tmp/dtp-redesign-full2/spreads/cover.png",
+      "/tmp/dtp-redesign-full2/spreads/spread-02-03.png",
+      "/tmp/dtp-redesign-full2/spreads/spread-04-05.png",
+      "/tmp/dtp-redesign-full2/spreads/spread-06-07.png",
+      "/tmp/dtp-redesign-full2/spreads/spread-08-09.png",
+      "/tmp/dtp-redesign-full2/spreads/spread-10-11.png",
+      "/tmp/dtp-redesign-full2/spreads/back.png"
+    ],
+    "保存された同版": [
+      "books/prospectus-hal-2028/output/pdf/prospectus-hal-2028.pdf",
+      "books/prospectus-hal-2028/output/png/",
+      "books/prospectus-hal-2028/output/spreads/"
+    ],
+    "検証": [
+      "独立レビュアーがsha256sum/pdfinfoで同版SHA、12ページ、612×858.96ptを確認し、全12単ページPNGと全7面を新たに開いた。旧pass転用なし。",
+      "親の同版検査：validate0error46warning、resource0/reference0/printFindings0/gutterTexts0。bbox候補のp1校名/英文、p2見出しの実グリフ衝突なしを目視。",
+      "qr-check.json：同PDF12ページを150dpi化して学校URLの復号pass。実機/印刷/サイト到達検査ではない。",
+      "photos.yamlの使用7写真IDの本人掲載承諾、媒体/期限制限なしを照合。写真は一般課題・グループ活動と表示し特定AI実習を断定しない。",
+      "cover-armor.prompt.yamlの生成由来・入力・size・文字除去・実在校生ではない旨と紙面イメージ表示を照合。",
+      "学科・2年制・定員30/29、950000=930000+20000、1780000=1760000+20000を正本照合。2027日本人向け参考/2028未確定/別途実費の表示を目視。"
+    ],
+    "参照構成比較": [
+      "HAL brochure-1/page_001.jpg→表紙：正面女性の大きな顔・肩と身体への巨大字。自校保存生成を使い、原本固有文字/人物画素は直接転載なし。局所暗化で校名可読性確保。",
+      "HAL brochure-2/page_001.jpg、page_019.jpg→2–3：女性二人の表情と巨字、具体学習3領域・教室・学科。濃色人物と白地情報の役割分担。",
+      "HAL brochure-1/page_016.jpg→4–5：AIが写真上辺を越え画像と一体化。顔/手元を隠さない。右は非クリスタル説明図と横手順。",
+      "HAL brochure-2/page_001.jpg→6–7：全景写真と字、販売/サービスを主、中央活動写真、経営/マーケ/補事務へ強弱。実習写真と断定せず、等強度の5語配置を解消。",
+      "HAL brochure-1/page_017.jpg、brochure-2/page_019.jpg→8–9：大人物・色帯・小写真・親子確認。9は別5235で近距離同一活動写真反復解消。",
+      "10–11：金額主役と相談手順。5の横図解と11の縦行動が異なる役割、同階段構成反復を解消。",
+      "裏：自校連絡先、QR全体・余白・captionが安全域内に収まり重大欠陥解消。"
+    ],
+    "依頼条件照合": [
+      "女性主役は表紙顔/目と2ページ実女性の表情。巨字は表紙/2/4/6で画像・身体と重なり、顔/目/ノド保護。",
+      "3クリスタルは薄い背景透かし。5前景ゲート撤去。表紙の装甲表現は独立前景クリスタルを追加していない。",
+      "翻訳/生成/分析、5分野、学科/年限/定員、費用と次行動が読める。説明図を実授業/学生作品扱いしない。",
+      "顔→入口説明→学科図解→教室分野→人物相談→数字行動で配置・主役が異なる。カード色替えで変化を装わない。",
+      "本人/保護者への入口、費用条件、相談先を示す。未確認支援/実績の約束なし。previewでデザイン指示を緩和していない。読者/印刷テスト未実施。"
+    ]
+  }
+}

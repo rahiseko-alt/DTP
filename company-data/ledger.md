@@ -83,12 +83,12 @@
 | 冊子の部数 | |
 | 冊子の納期 | |
 | 採用するデザイン | HAL風。女性人物を主役に、巨大文字との重なり・大胆な構図・見開きの変化を取り入れる。大きな実写真・具体語・短文。クリスタル系は背景透かし |
-| 冊子のページ構成 | 表紙／2–3 学校とAIの入口／4–5 国際ビジネスAI科と画像生成例／6–7 総合ビジネス科／8–9 学生・講師・親子の相談／10–11 参考学費と次の行動／裏表紙 |
-| 掲載写真の選定 | student-img-5074、student-img-5069、student-dsc-1264（company-data/photos/photos.yaml） |
+| 冊子のページ構成 | 女性キャラクター表紙／2–3 在校生とAIの学び／4–5 国際ビジネスAI科と画像生成の考え方／6–7 総合ビジネス科と5分野／8–9 学校の人と親子の相談／10–11 参考学費と次の行動／連絡先・QRの裏表紙 |
+| 掲載写真の選定 | student-dsc-1164、student-img-5074、student-img-5073、student-img-5069、student-img-5238、student-dsc-1264、student-img-5235（company-data/photos/photos.yaml） |
 | 多言語版の対象言語 | |
 | ターゲット戦略原本 | references/user-strategy/target-strategy-1008/original/ターゲット戦略1008.pdf |
 | 価格戦略原本 | references/user-strategy/price-strategy-1008/original/価格戦略1008.pdf |
-| 制作段階 | HAL風12ページの確認用PDFあり。人間が人物の扱い・装飾の主役化・定型構成を指摘し、デザインの再制作が必要 |
+| 制作段階 | HAL風12ページを女性人物主役・クリスタル背景透かし・見開き別構成で再制作した確認用PDF。入稿用出力はこれから |
 | mainのBOOK | books/replica/ に12BOOK、各1ページ |
 | 別案の冊子 | HAL風24ページ案（books/prospectus-neon-2027/、PR #27） |
 | 参考資料 | references/ の他校14資料・157ページ |

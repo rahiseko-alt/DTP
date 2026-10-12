@@ -1,0 +1,172 @@
+{
+  "pdf_sha256": "fc1061541a446af867254f48158dd43f14f5cac6adaa45dde4d5bf7b25eb903b",
+  "mode": "preview",
+  "page_count": 12,
+  "binding": "left",
+  "editor_session": "/root/redesign_editor",
+  "reviewer_session": "/root/redesign_reviewer",
+  "pages_seen": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "spreads_seen": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      12
+    ]
+  ],
+  "dimensions": {
+    "content": "pass",
+    "audience": "fail",
+    "spreads": "fail",
+    "rhythm": "fail",
+    "legibility": "fail",
+    "assets": "fail",
+    "output": "fail"
+  },
+  "checks": {
+    "validate": "pass",
+    "render": "pass",
+    "visual_pages": "fail",
+    "visual_spreads": "fail",
+    "qr_pdf_decode": "uninspected"
+  },
+  "findings": [
+    {
+      "severity": "major",
+      "pages": [
+        12
+      ],
+      "issue": "QR下部切断、安全域と余白不足",
+      "evidence": "visual/png/page_012.pngとlayout-qa.json",
+      "required_fix": "QR全体を安全域へ収め、最終PDFから復号する"
+    },
+    {
+      "severity": "major",
+      "pages": [
+        5
+      ],
+      "issue": "クリスタル未来ゲートが高濃度の前景教材となり、背景透かし指定違反",
+      "evidence": "visual/png/page_005.png右下",
+      "required_fix": "撤去し非クリスタルの具体図へ。教材という説明で指示違反を免除しない"
+    },
+    {
+      "severity": "major",
+      "pages": [
+        4,
+        5
+      ],
+      "issue": "巨大学科文字と写真が分離し、指定原本の画像と文字の一体化が未達",
+      "evidence": "visual/spreads/spread-04-05.png、HAL brochure-1/page_016.jpg",
+      "required_fix": "巨大文字と画像が一体の主役領域となる重なり構成へ"
+    },
+    {
+      "severity": "major",
+      "pages": [
+        7
+      ],
+      "issue": "5分野が同強度で散らされ、写真との対応がなく位置ずらしが編集の代わり",
+      "evidence": "visual/png/page_007.png",
+      "required_fix": "写真・具体例・分野の関係と主従を設計"
+    },
+    {
+      "severity": "minor",
+      "pages": [
+        5,
+        11
+      ],
+      "issue": "数字1–3の縦階段構成が反復",
+      "evidence": "visual/png/page_005.pngとpage_011.png",
+      "required_fix": "学習は図解中心、11は行動順維持"
+    },
+    {
+      "severity": "minor",
+      "pages": [
+        8,
+        9
+      ],
+      "issue": "近距離で活動写真・手元写真が再使用され人物紹介の情報量が少ない",
+      "evidence": "visual/spreads/spread-06-07.pngとspread-08-09.png",
+      "required_fix": "役割の異なる写真または再使用の意味が分かる対応へ"
+    },
+    {
+      "severity": "minor",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "issue": "確認用ブラウザと解像度、入稿・読者テスト未確認",
+      "evidence": "render.log",
+      "required_fix": "確認用制約を明記しデザイン未達の許容に使わない"
+    }
+  ],
+  "evidence": {
+    "見開き画像": [
+      "books/prospectus-hal-2028/reviews/production/fc1061541a446af867254f48158dd43f14f5cac6adaa45dde4d5bf7b25eb903b/visual/spreads/cover.png",
+      "books/prospectus-hal-2028/reviews/production/fc1061541a446af867254f48158dd43f14f5cac6adaa45dde4d5bf7b25eb903b/visual/spreads/spread-02-03.png",
+      "books/prospectus-hal-2028/reviews/production/fc1061541a446af867254f48158dd43f14f5cac6adaa45dde4d5bf7b25eb903b/visual/spreads/spread-04-05.png",
+      "books/prospectus-hal-2028/reviews/production/fc1061541a446af867254f48158dd43f14f5cac6adaa45dde4d5bf7b25eb903b/visual/spreads/spread-06-07.png",
+      "books/prospectus-hal-2028/reviews/production/fc1061541a446af867254f48158dd43f14f5cac6adaa45dde4d5bf7b25eb903b/visual/spreads/spread-08-09.png",
+      "books/prospectus-hal-2028/reviews/production/fc1061541a446af867254f48158dd43f14f5cac6adaa45dde4d5bf7b25eb903b/visual/spreads/spread-10-11.png",
+      "books/prospectus-hal-2028/reviews/production/fc1061541a446af867254f48158dd43f14f5cac6adaa45dde4d5bf7b25eb903b/visual/spreads/back.png"
+    ],
+    "検証": [
+      "独立レビュアーはsha照合、全12単ページと全7面を開いた",
+      "validate0error46warning/resource0/reference0/gutter0、printQAはp12",
+      "学科・2年・定員30/29とfacts照合",
+      "2027参考学費、950000=930000+20000、1780000=1760000+20000、別途費用・2028未確定を照合"
+    ],
+    "参照構成比較": [
+      "HAL p1表紙の顔・肩と巨大字重なりは反映、学校名暗化改善",
+      "入口は大人物と具体学習、学科は重なり未達、5分野は同強度語配置",
+      "人物面は大写真と帯・補助小写真を反映、費用面は金額主役として妥当、裏QR欠落"
+    ],
+    "依頼条件照合": [
+      "女性主役・顔保護・イメージ区別達成",
+      "3クリスタル背景は達成、5前景は不達",
+      "未確定支援や年度条件を創作していない。読者/印刷テスト未実施"
+    ]
+  }
+}

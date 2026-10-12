@@ -1,0 +1,35 @@
+{
+  "request": "女性キャラクターを主役、クリスタルは背景透かし。HAL原本の構成を取り入れ、定型配置を避けて12ページを再制作。",
+  "book": "prospectus-hal-2028",
+  "format": "A4縦・左綴じ・12ページ・2028年4月入学",
+  "ledger": "company-data/ledger.md",
+  "role_sources": [
+    ".codex/roles/dtp-editor.toml",
+    ".codex/roles/dtp-reviewer.toml",
+    ".codex/roles/dtp-chief.toml"
+  ],
+  "contract": ".agents/skills/dtp-production/design-contract.md",
+  "sessions": {
+    "editor": "/root/redesign_editor",
+    "reviewer": "/root/redesign_reviewer",
+    "chief": "/root/redesign_chief"
+  },
+  "execution": "agent_type未対応のホスト。各役割の本文全文を読み適用する別エージェントで実行。設定sandboxの強制適用とは区別。",
+  "chief_brief": {
+    "1": "女性の顔・両肩を大きく、目を隠さず下側巨大文字を肩・胴に重ねる。",
+    "2-3": "白と濃青の面積差、左外側の大人物と帯見出し、右は翻訳/データ分析/画像生成の大小差ある短記事。",
+    "4-5": "学科扉。教材画像・巨大学科文字・濃色面の重なり。",
+    "6-7": "明るい実写真群と5分野の横断短語。",
+    "8-9": "大小の実人物写真モザイクと親子相談。",
+    "10-11": "大金額のデータ面と行動順の面。年度・対象・別途費用を明記。",
+    "12": "余白を持った連絡先・QR。"
+  },
+  "sequence": "表紙+2–3を独立審査し編集長が方向を判断してから4–12を展開。",
+  "fact_constraints": [
+    "2027年参考学費と2028年未確定を区別",
+    "生成人物は実在学生扱いしない",
+    "他校固有情報・画像の転載禁止",
+    "未確定支援・実績を創作しない"
+  ],
+  "output_mode": "preview（既存Chromium、150dpi確認出力。印刷入稿可を意味しない）"
+}
