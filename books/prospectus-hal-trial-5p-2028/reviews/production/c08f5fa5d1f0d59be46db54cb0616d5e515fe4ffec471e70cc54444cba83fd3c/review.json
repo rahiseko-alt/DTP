@@ -1,0 +1,119 @@
+{
+  "pdf_sha256": "c08f5fa5d1f0d59be46db54cb0616d5e515fe4ffec471e70cc54444cba83fd3c",
+  "mode": "preview",
+  "page_count": 5,
+  "binding": "left",
+  "editor_session": "/root/remove_port_editor",
+  "reviewer_session": "/root/port_removal_reviewer",
+  "review_stage": "visual_first_with_specified_reference_followup",
+  "pages_seen": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "spreads_seen": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "dimensions": {
+    "content": "uninspected",
+    "audience": "fail",
+    "spreads": "pass",
+    "rhythm": "fail",
+    "legibility": "pass",
+    "assets": "uninspected",
+    "output": "uninspected"
+  },
+  "checks": {
+    "validate": "uninspected",
+    "render": "uninspected",
+    "visual_pages": "pass",
+    "visual_spreads": "pass",
+    "port_absent_in_pages": "pass",
+    "port_removed_from_stock": "uninspected",
+    "specified_reference_comparison": "fail",
+    "pdf_identity": "pass"
+  },
+  "findings": [
+    {
+      "severity": "major",
+      "pages": [
+        3
+      ],
+      "issue": "画像生成の説明が工程名の文字列だけで、入力と画像結果の関係を見せない。",
+      "evidence": "ことば→生成→見比べるに具体入力・生成結果・変更結果がない。書き取り写真は画像生成の説明には対応しない。",
+      "required_fix": "一般的な説明例として入力と対応画像、言葉変更の違いを示す。学校授業・学生作品と称さず港素材は戻さない。"
+    },
+    {
+      "severity": "major",
+      "pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "issue": "写真反復と巨大語が各面固有の学ぶ内容の視覚説明を代替している。",
+      "evidence": "手元がp2/p3、学習写真がp3/p5で同一。p4五分野は巨大語列で、写真・図・何を体験するかとの対応がない。",
+      "required_fix": "写真の役割を選び各面を別の情報構成へ。既知内容の関係を説明し、未確認授業・実習・進路を追加しない。文字拡大や写真増加だけにしない。"
+    },
+    {
+      "severity": "minor",
+      "pages": [
+        2
+      ],
+      "issue": "学科名の改行がまとまりを分断",
+      "evidence": "総合ビジネス/科の改行で科だけが次行。",
+      "required_fix": "局所的な欄幅・サイズ・改行調整。"
+    }
+  ],
+  "evidence": {
+    "単ページ画像": [
+      "books/prospectus-hal-trial-5p-2028/reviews/port-removal/after/page_001.png",
+      "books/prospectus-hal-trial-5p-2028/reviews/port-removal/after/page_002.png",
+      "books/prospectus-hal-trial-5p-2028/reviews/port-removal/after/page_003.png",
+      "books/prospectus-hal-trial-5p-2028/reviews/port-removal/after/page_004.png",
+      "books/prospectus-hal-trial-5p-2028/reviews/port-removal/after/page_005.png"
+    ],
+    "見開き画像": [
+      "books/prospectus-hal-trial-5p-2028/reviews/port-removal/after/cover.png",
+      "books/prospectus-hal-trial-5p-2028/reviews/port-removal/after/spread-02-03.png",
+      "books/prospectus-hal-trial-5p-2028/reviews/port-removal/after/spread-04-05.png"
+    ],
+    "評価隔離": [
+      "初回評価に制作コード・技術結果・旧passを使用せず全5pとパネルを開いた。"
+    ],
+    "指定原本目視": [
+      "HAL-nagoya/brochure-1/page_001.jpg,page_004.jpg,page_005.jpg,page_014.jpg、brochure-2/page_001.jpgを追加で開いた。初回の指定原本未提供記述をこの確認で置換。"
+    ],
+    "参照構成比較": [
+      "表紙：原本の大女性顔/装甲/身体上巨大字を反映。",
+      "2–3：紺色面/人物/大字/補助写真はあるが、原本の人物・講義・制作物・段階の異なる証拠の組合せに対し、p3書き取り中心で入力と生成結果を見せない。",
+      "4–5：原本p14は地図と場所活動、brochure2p1は制作物と段階を接続。p4巨大語に写真/説明の対応がない。p5年度・費用・相談は具体。"
+    ],
+    "技術独立確認": [
+      "sha256sumで実PDF SHA一致、pdfinfoで5p/612x858.96pt/Chrome154を確認。"
+    ],
+    "親から受領・未独立検査": [
+      "港素材と生成元PNG削除・p3参照0。",
+      "render成功代替Chrome警告、validate0errors50warnings。"
+    ],
+    "未確認": [
+      "ストック削除の独立検索",
+      "権利・実効解像度・全画素整合",
+      "授業料前後期390000円ずつの原本再照合",
+      "対象読者テスト"
+    ]
+  },
+  "visual_conclusion": "港の除去は目視確認。冊子全体のデザイン合格とはしない。指定原本追加確認後もmajorを維持。"
+}

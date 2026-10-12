@@ -1,1 +1,26 @@
-/* Layout is in BOOK stylesheet. */
+/* Page 3: school photographs and an explanatory Layer 2 process. */
+.learn-title{left:11mm;top:23mm;width:196mm;font-size:142pt;z-index:4}
+.learn-title em{font-size:91pt}
+.learn-main{left:76mm;top:109mm;width:137mm;height:83mm;z-index:1}
+.learn-main img{object-position:58% 44%}
+.learn-main figcaption{left:auto;right:10mm;bottom:3mm;font-size:8pt;padding:1mm 2mm}
+.image-learning{left:14mm;right:auto;top:185mm;width:106mm;height:92mm;z-index:3}
+.image-learning h2{left:0;top:0;font-size:34pt;background:none;padding:0;color:#ef344b}
+.image-purpose{left:0;top:19mm;width:112mm;font-size:10.5pt!important;line-height:1.5!important;background:none;padding:0}
+.generation-flow{position:absolute;left:0;top:33mm;width:106mm;display:flex;align-items:center;gap:2mm;white-space:nowrap;font-size:13pt;font-weight:900;color:#102655}
+.generation-flow span{border-bottom:1mm solid #ef344b;padding-bottom:1.5mm}
+.generation-flow b{font-size:13pt;color:#ef344b}
+.generation-description{position:absolute;left:0;top:48mm;width:107mm}
+.generation-description p{font-size:8.5pt;line-height:1.65}
+.generation-description p+p{margin-top:3mm}
+.learn-detail{display:block;position:absolute;left:130mm;top:202mm;width:83mm;height:52mm;z-index:2}
+.learn-detail img{width:100%;height:100%;object-fit:cover;object-position:54% 58%}
+.learn-detail figcaption{position:absolute;left:3mm;bottom:3mm;max-width:74mm;background:#fff;padding:1mm 1.5mm;color:#102655;font-size:7pt}
+.translate-learning{left:14mm;right:auto;top:127mm;width:61mm;z-index:3}
+.translate-learning h2{font-size:24pt}
+.translate-learning p{font-size:8.5pt;line-height:1.55;margin-top:2mm}
+.data-learning{left:14mm;right:auto;top:158mm;width:58mm;z-index:3}
+.data-learning h2{font-size:20pt;white-space:nowrap}
+.data-learning p{font-size:8.5pt;line-height:1.55;margin-top:2mm}
+.learn-intro{left:130mm;right:11mm;top:261mm;font-size:7.5pt!important;line-height:1.6!important}
+.crystal-watermark{left:40mm;top:199mm;width:170mm;height:92mm;opacity:.027}

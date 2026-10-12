@@ -1,0 +1,7 @@
+{
+  "user_instruction": "港の絵はストックから消す",
+  "deleted_asset": "books/prospectus-hal-trial-5p-2028/backgrounds/seaside-watercolor-example.png",
+  "deleted_generated_original": "/workspace/generated_images/exec-3945bdb0-a50e-4ca1-ab1a-eb6b892d183b.png",
+  "image_sha256": "5f4524e5484a1c5aa3af6cd3cd39e462818e9dbeb03e5c8bf0992de927f3db6e",
+  "retained": "旧紙面の検証履歴と生成指示のみ。素材・切り出し元として再使用しない。"
+}

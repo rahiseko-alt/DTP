@@ -117,3 +117,5 @@ python3 system/scripts/read-ledger.py
 - 詳細な保存場所・初回の選出根拠・差し替え手順は [候補運用](../system/prompts/role-candidates/README.md) を参照する。マージは人間の明示指示による。
 
 - 人間の最新指示により、余白拡大・短文化・分かりやすさへの一律の優先を解除した。役割候補v2と更新済み判断契約を使い、停止されたv1へ自動復帰しない。
+
+- 港の水彩生成画像 `seaside-watercolor-example.png`（SHA256 `5f4524e5484a1c5aa3af6cd3cd39e462818e9dbeb03e5c8bf0992de927f3db6e`）は人間の明示指示で制作ストックから削除。旧紙面の検証履歴に含まれていても、素材や切り出し元として再利用しない。

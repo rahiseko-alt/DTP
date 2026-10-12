@@ -12,7 +12,7 @@
 | 評価の場所 | references/research/prompt-evaluation-20261012/。各役JSON/MDに全件読了・候補比較・根拠引用、integrated.mdに統合。支持数値は評価軸に使わない |
 | 提案 | 制作/密度審査はLayout、独立性と統合手順はCritique、制作前照合はFrontend Design。Storytellerは編集構成補助、Image Prompt Engineerはパーツ。前回のStoryteller中心案から変更 |
 | 紙面 | books/prospectus-hal-2028/output/pdf/prospectus-hal-2028.pdfはa11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1。人間が密度不足を指摘した版。人間のデザイン承認済みとは扱わない |
-| 次の一手 | 人間の「再度作れ」で5ページ試作を役割候補v2から再制作。books/prospectus-hal-trial-5p-2028/output/pdf/prospectus-hal-trial-5p-2028.pdf、SHA878fe9c95726c729e437bbe4ce1e448471446645f919f1f7a946660a4aec1b26。表紙/2–3/4–5の5p、正式12pを変更せず確認用。制作/root/remake5_editor、独立/root/remake5_final_reviewer、編集長/root/remake5_chief。レビューはreviews/production/同SHA、過程はreviews/trial-v2/。調査原文・旧候補・v2を保存。独立レビュー7項目pass、2minor。編集長の最終判断は同フォルダdecision.jsonを参照。保存先はcodex/hal-redesign-20261012、main未反映。次は人間の紙面評価に基づく修正、必要な実データ追加、または明示マージ指示への対応 |
+| 次の一手 | 人間の指示で港の生成画像をストック/元生成PNG/紙面から除去。現PDF c08f5fa5d1f0d59be46db54cb0616d5e515fe4ffec471e70cc54444cba83fd3c、5ページ。全ページを新たにブラウザ撮影し親も自己目視。港除去は完了、紙面全体は差し戻し。p3の画像生成入力/結果の視覚対応、p4の5分野と写真・説明の対応、写真反復、p2学科名改行が残る。証拠はbooks/prospectus-hal-trial-5p-2028/reviews/port-removal/self-check.md、before/after/after-first、reviews/production/現SHA。旧提出可を流用しない。今回は削除と検査までで全体再制作はしていない。次は人間の制作指示に従って残る課題を再編集。保存はcodex/hal-redesign-20261012、main未反映 |
 | 残る制約 | 紙面密度の再設計、2028年度学費、入稿用素材/指定ブラウザ、読者・印刷テストは別途必要 |
 
 ## 冊子制作を再開するとき

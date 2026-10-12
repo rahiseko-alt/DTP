@@ -1,0 +1,67 @@
+validate: /workspace/DTP
+
+[1] company-data（スキーマ・TODO・ID の参照・全角英数字）: OK・警告 8（TODO 33 件（--strict ではエラー）、12 ファイル）
+  [警告] company-data/copy/main.yaml: 未記入の "TODO" が 4 件（tagline, catchphrase, lead, closing）
+  [警告] company-data/facts/contacts.yaml: 未記入の "TODO" が 5 件（contacts.0.url, contacts.0.hours, contacts.0.note, sns.0.service, sns.0.url）
+  [警告] company-data/facts/courses.yaml: 未記入の "TODO" が 5 件（courses.0.name_en, courses.0.tags.0, courses.0.curriculum.0, courses.0.qualifications.0, courses.0.careers.0）
+  [警告] company-data/facts/results.yaml: 未記入の "TODO" が 12 件（metrics.0.label, metrics.0.value, metrics.0.unit, metrics.0.as_of, metrics.0.source, metrics.0.note 他 6 件）
+  [警告] company-data/facts/school.yaml: 未記入の "TODO" が 3 件（short_name, address.line2, fax）
+  [警告] company-data/facts/teachers.yaml: 未記入の "TODO" が 4 件（teachers.0.name, teachers.0.name_kana, teachers.0.title, teachers.0.profile）
+  [警告] company-data/brand/colors/colors.yaml: ブランドカラーは暫定（status: provisional）です
+  [警告] company-data/facts/teachers.yaml: teachers.0.course_ids.0: 記入例のプレースホルダ "course-todo" を指しています。company-data/facts/courses.yaml の実際の id に置き換えるか、記入例ごと削除してください（system/rules/naming.md §6）
+
+[2] BOOK の設定（book.yaml・ページ・背景・styles・references.yaml）: OK（BOOK 14 件・ページ 29 件）
+
+[3] 参考資料（source.yaml・analysis）: OK・警告 17（参考資料 31 件）
+  [警告] references/project-history/ledger-migration-20261012/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）
+  [警告] references/research/agent-role-official-20261012/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）
+  [警告] references/research/anti-ai-editorial-20261012/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）
+  [警告] references/research/coga-reading/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）
+  [警告] references/research/hal-direction-20261012/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）
+  [警告] references/research/nhs-reading/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）
+  [警告] references/research/prompt-evaluation-20261012/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）
+  [警告] references/research/public-prompts-20261012/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）
+  [警告] references/user-gpt/general-business-spread/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）
+  [警告] references/user-gpt/international-ai-spread/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）
+  [警告] references/user-gpt/isen-draft/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）
+  [警告] references/user-gpt/lecturer-spread/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）
+  [警告] references/user-gpt/student-pr-spread/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）
+  [警告] references/user-neon/composition-20261011/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）
+  [警告] references/user-strategy/price-strategy-1008/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）
+  [警告] references/user-strategy/target-list-revised/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）
+  [警告] references/user-strategy/target-strategy-1008/source.yaml: forbidden_terms が空です（他校の学校名・固有コピーなどを必ず登録する）
+
+[4] ページの試し合成（テンプレート・アセット）: OK・警告 11（29 ページを合成）
+  [警告] books/prospectus-hal-trial-5p-2028/pages/page_003/page.css: 共通 CSS（shared/layouts/grid.css・shared/layouts/typography.css・books/prospectus-hal-trial-5p-2028/layout.css）と同じクラス名 .crystal-watermark・.data-learning・.image-learning・.image-purpose・.learn-detail・.learn-intro・.learn-main・.learn-title・.translate-learning を、ページで書いた要素に使って装飾しています。共通の装飾・位置も同時にかかるため、意図した上書きでなければページ固有の名前にしてください（system/prompts/replicate-page.md）
+  [警告] replica/a-course/page_001: 本文に "TODO" が含まれています
+  [警告] books/replica/b-adm-cover/pages/page_001/page.css: 共通 CSS（shared/layouts/grid.css・shared/layouts/typography.css・shared/layouts/components.css）と同じクラス名 .panel を、ページで書いた要素に使って装飾しています。共通の装飾・位置も同時にかかるため、意図した上書きでなければページ固有の名前にしてください（system/prompts/replicate-page.md）
+  [警告] replica/b-course/page_001: 本文に "TODO" が含まれています
+  [警告] books/replica/b-course/pages/page_001/page.css: 共通 CSS（shared/layouts/grid.css・shared/layouts/typography.css・shared/layouts/components.css）と同じクラス名 .folio・.folio__number・.panel を、ページで書いた要素に使って装飾しています。共通の装飾・位置も同時にかかるため、意図した上書きでなければページ固有の名前にしてください（system/prompts/replicate-page.md）
+  [警告] replica/b-data/page_001: 本文に "TODO" が含まれています
+  [警告] replica/b-flyer/page_001: 本文に "TODO" が含まれています
+  [警告] replica/b-living/page_001: 本文に "TODO" が含まれています
+  [警告] replica/b-web-it/page_001: 本文に "TODO" が含まれています
+  [警告] replica/c-course/page_001: 本文に "TODO" が含まれています
+  [警告] replica/c-flyer/page_001: 本文に "TODO" が含まれています
+
+[5] 事実の直書き: OK・警告 5（48 ファイル・事実 102 件を照合）
+  [警告] books/prospectus-hal-2028/pages/page_009/page.html:1: 事実「入学事務局」が直接書かれています。{{facts.contacts.contacts.0.label}} を使ってください
+  [警告] books/prospectus-hal-2028/pages/page_010/page.html:1: 事実「入学検定料」が直接書かれています。{{facts.admissions.documents.1.name}} を使ってください
+  [警告] books/prospectus-hal-2028/pages/page_011/page.html:1: 事実「入学事務局」が直接書かれています。{{facts.contacts.contacts.0.label}} を使ってください
+  [警告] books/prospectus-hal-2028/pages/page_012/page.html:1: 事実「入学事務局」が直接書かれています。{{facts.contacts.contacts.0.label}} を使ってください
+  [警告] books/prospectus-hal-trial-5p-2028/pages/page_005/page.html:1: 事実「入学検定料」が直接書かれています。{{facts.admissions.documents.1.name}} を使ってください
+
+[6] 禁止語（forbidden_terms）: OK（禁止語 1122 語 × 312 ファイル）
+
+[7] 背景画像の生成記録（.prompt.yaml）: OK・警告 9（背景画像 1 枚、Layer 1 の生成指示 64 件）
+  [警告] books/replica/a-brochure/backgrounds/layer1-orders.yaml: Layer 1 が未生成 1 件（必須 0・任意 1）: page_001-badge-plate
+  [警告] books/replica/a-course/backgrounds/layer1-orders.yaml: Layer 1 が未生成 7 件（必須 7・任意 0）: page_001-lect-1, page_001-lect-2, page_001-lect-3-cutout, page_001-lect-4, page_001-lect-5, page_001-pick-1, page_001-pick-2
+  [警告] books/replica/b-course/backgrounds/layer1-orders.yaml: Layer 1 が未生成 5 件（必須 4・任意 1）: page_001-hero, page_001-class-1, page_001-class-2, page_001-class-3, page_001-butterflies
+  [警告] books/replica/b-data/backgrounds/layer1-orders.yaml: Layer 1 が未生成 7 件（必須 7・任意 0）: page_001-disc-c1, page_001-disc-c2, page_001-disc-c3, page_001-disc-c4, page_001-disc-c5, page_001-disc-c6, page_001-person
+  [警告] books/replica/b-flyer/backgrounds/layer1-orders.yaml: Layer 1 が未生成 19 件（必須 17・任意 2）: page_001-photo-l1, page_001-photo-l2, page_001-photo-l3, page_001-photo-r1, page_001-photo-r2, page_001-photo-r3, page_001-person-pointing, page_001-person-front, page_001-illust-juice, page_001-illust-cookies, page_001-illust-teacup, page_001-illust-building-tower, page_001-illust-building-school, page_001-illust-bottle, page_001-illust-card-burger, page_001-illust-card-ribbon, page_001-illust-card-coffee, page_001-icon-cookie, page_001-icon-drink
+  [警告] books/replica/b-living/backgrounds/layer1-orders.yaml: Layer 1 が未生成 5 件（必須 5・任意 0）: page_001-photo-room, page_001-photo-group, page_001-photo-event-wide, page_001-photo-event-small, page_001-app-screen
+  [警告] books/replica/b-web-it/backgrounds/layer1-orders.yaml: Layer 1 が未生成 8 件（必須 8・任意 0）: page_001-memo-c1, page_001-memo-c2, page_001-memo-c6, page_001-memo-c7, page_001-grad-l, page_001-grad-r, page_001-cutout-tr, page_001-cutout-bl
+  [警告] books/replica/c-course/backgrounds/layer1-orders.yaml: Layer 1 が未生成 3 件（必須 3・任意 0）: page_001-header, page_001-wrap-1, page_001-wrap-2
+  [警告] books/replica/c-flyer/backgrounds/layer1-orders.yaml: Layer 1 が未生成 9 件（必須 9・任意 0）: page_001-bottom-photo, page_001-feat1-reformer, page_001-feat1-barrel, page_001-feat2-vr, page_001-feat3-illust, page_001-feat3-photo, page_001-feat4-illust, page_001-feat4-photo, page_001-title-deco
+
+結果: エラー 0 件・警告 50 件 → OK
