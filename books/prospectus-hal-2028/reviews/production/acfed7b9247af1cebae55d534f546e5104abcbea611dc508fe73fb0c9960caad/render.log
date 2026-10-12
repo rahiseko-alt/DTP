@@ -1,0 +1,23 @@
+render: BOOK prospectus-hal-2028（ルート: /workspace/DTP）
+  PNG  /tmp/dtp-hal-spread-run3/png/page_001.png（1276×1789px）
+  PNG  /tmp/dtp-hal-spread-run3/png/page_002.png（1276×1789px）
+  PNG  /tmp/dtp-hal-spread-run3/png/page_003.png（1276×1789px）
+  PNG  /tmp/dtp-hal-spread-run3/png/page_004.png（1276×1789px）
+  PNG  /tmp/dtp-hal-spread-run3/png/page_005.png（1276×1789px）
+  PNG  /tmp/dtp-hal-spread-run3/png/page_006.png（1276×1789px）
+  PNG  /tmp/dtp-hal-spread-run3/png/page_007.png（1276×1789px）
+  PNG  /tmp/dtp-hal-spread-run3/png/page_008.png（1276×1789px）
+  PNG  /tmp/dtp-hal-spread-run3/png/page_009.png（1276×1789px）
+  PNG  /tmp/dtp-hal-spread-run3/png/page_010.png（1276×1789px）
+  PNG  /tmp/dtp-hal-spread-run3/png/page_011.png（1276×1789px）
+  PNG  /tmp/dtp-hal-spread-run3/png/page_012.png（1276×1789px）
+  PDF  /tmp/dtp-hal-spread-run3/pdf/prospectus-hal-2028.pdf（12 ページ）
+
+判型: A4 portrait 仕上がり 210×297mm + 塗り足し 3mm = 216×303mm
+PNG: 12 ページ・150dpi・1276×1789px → /tmp/dtp-hal-spread-run3/png/
+PDF: 12 ページ → /tmp/dtp-hal-spread-run3/pdf/prospectus-hal-2028.pdf
+
+警告（1 件）:
+  - Playwright 指定版ではない Chromium（STUDIO_CHROMIUM_PATH=/usr/bin/chromium、154.0.8037.57）で描画しています。字形・行送りが指定版とわずかに違うことがあります
+
+完了: 13 ファイルを書き出しました（21.2 秒）
