@@ -1,0 +1,123 @@
+{
+  "pdf_sha256": "878fe9c95726c729e437bbe4ce1e448471446645f919f1f7a946660a4aec1b26",
+  "mode": "preview",
+  "page_count": 5,
+  "binding": "left",
+  "editor_session": "/root/remake5_editor",
+  "reviewer_session": "/root/remake5_final_reviewer",
+  "pages_seen": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "spreads_seen": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "dimensions": {
+    "content": "pass",
+    "audience": "pass",
+    "spreads": "pass",
+    "rhythm": "pass",
+    "legibility": "pass",
+    "assets": "pass",
+    "output": "pass"
+  },
+  "checks": {
+    "validate": "pass",
+    "render": "pass",
+    "visual_pages": "pass",
+    "visual_spreads": "pass"
+  },
+  "findings": [
+    {
+      "severity": "minor",
+      "pages": [
+        2
+      ],
+      "issue": "右上の学科名で総合ビジネス科の科が独立した行になり、名称を一続きで読む際に引っ掛かる。",
+      "evidence": "final-proof/page_002.jpgの右上学科群。字の欠損はないが総合ビジネス/科の改行。",
+      "required_fix": "学科名の局所的な字サイズ・幅・改行位置を調整しビジネス科を同じ行で読めるようにする。写真や情報群を削って全体を単純化する必要はない。"
+    },
+    {
+      "severity": "minor",
+      "pages": [
+        4
+      ],
+      "issue": "5分野の大きな単語に対し、下の実写真は教室全体・グループ活動の紹介に留まり各分野との関係は示されていない。",
+      "evidence": "final-proof/page_004.jpgの5分野と中段2写真。原本brochure-2/page_001とbrochure-1/page_014は画像と個別説明が対応。現物は分野別の理解が名称までに留まる。",
+      "required_fix": "次段制作では学校正本に具体情報が揃った範囲で分野と写真・説明の対応を追加。創作した授業や成果で埋めない。5ページ方向試作の許容可否は編集長が判断。"
+    }
+  ],
+  "evidence": {
+    "評価隔離": [
+      "制作コード・技術結果・他者判定を読む前に指定参考5画像と最終5単ページ・3パネルを目視し最初の視覚所見を親へ送信した。",
+      "技術証拠確認後も最初の視覚所見を維持した。",
+      "登録roleを直接選択できずTOML全文読込フォールバック。ホストのsandboxがread-onlyへ変更されたとは扱わず制作物・台帳・レビュー保存ファイルを変更していない。"
+    ],
+    "単ページ画像": [
+      "books/prospectus-hal-trial-5p-2028/reviews/trial-v2/final-proof/page_001.jpg",
+      "books/prospectus-hal-trial-5p-2028/reviews/trial-v2/final-proof/page_002.jpg",
+      "books/prospectus-hal-trial-5p-2028/reviews/trial-v2/final-proof/page_003.jpg",
+      "books/prospectus-hal-trial-5p-2028/reviews/trial-v2/final-proof/page_004.jpg",
+      "books/prospectus-hal-trial-5p-2028/reviews/trial-v2/final-proof/page_005.jpg"
+    ],
+    "見開き画像": [
+      "books/prospectus-hal-trial-5p-2028/reviews/trial-v2/final-proof/cover.jpg",
+      "books/prospectus-hal-trial-5p-2028/reviews/trial-v2/final-proof/spread-02-03.jpg",
+      "books/prospectus-hal-trial-5p-2028/reviews/trial-v2/final-proof/spread-04-05.jpg"
+    ],
+    "参照構成比較": [
+      "HAL-nagoya/brochure-1/page_001.jpg→cover.jpg：女性顔・装甲・前景巨大字を女性顔と鎧上のAIで再構成。学校名は下の色面。原本巨大PROよりAIは左寄りだが重なりは明確。",
+      "HAL-nagoya/brochure-1/page_004.jpg/page_005.jpg→spread-02-03.jpg：主写真と大小補助写真・情報群を左在校生大写真、下の教室・人物・手元、右生成例と学科で再構成。他校企業・人物群は持ち込まず2学科と3AI領域に置換。巨大文字は生成例に重なり実人物と説明イメージが対照。",
+      "HAL-nagoya/brochure-1/page_014.jpg、brochure-2/page_001.jpg→spread-04-05.jpg：色面、大小画像、特徴と詳細群を左総合学科・5分野・教室、右参考金額・内訳・相談へ変換。情報群の粒度は少ないが学びから保護者向け費用と行動へ切替。5分野と写真の個別対応の弱さはminor。"
+    ],
+    "依頼条件照合": [
+      "2028年4月入学、5ページ試作の表紙1/2–3/4–5を確認。",
+      "女性主役は生成表紙とp2実在校生。巨大文字は表紙鎧とp3生成例に重なる。",
+      "p2主人物と3補助写真、p4大小教室写真、学科・AI・費用内訳・相談群を確認。",
+      "p3低コントラスト透かしは後景。表紙多面体は鎧の一部で顔より主役となる独立装飾配置ではない。",
+      "表紙顔→実人物と生成例→分野文字と費用相談の変化。色変更だけの同型反復ではない。",
+      "密度の高さを欠陥扱いせず、重大文字欠損・ノド跨ぎ本文を目視で検出しなかった。"
+    ],
+    "学校情報照合": [
+      "ledger全文とfacts/school,courses,admissions,booklet,contacts.yamlを照合。学校/法人/2学科/2年/定員30・29/AI3領域/ビジネス5分野/住所/電話/メール/アクセスは一致。",
+      "950000=930000+検定20000、入学金100000、授業料390000ずつ、年間諸経費50000、2年次830000、2年間+検定1780000は正本一致。",
+      "2027年度4月入学・日本人向け参考額、2028の確定額ではないと明示。別途実費と金額未定を明示。",
+      "日本語支援内容・就職実績・学生成果の創作は検出せず、日本語の不安は相談事項。"
+    ],
+    "素材照合": [
+      "photos.yamlのstudent-dsc-1164、img-5238、img-5073、dsc-1264、img-5074、img-5069、img-5235に本人掲載承諾・媒体期限制限なしの記載を確認。",
+      "実写真を在校のひとこま/学習風景/手元として表示。生成を在校生写真扱いしていない。",
+      "books/prospectus-hal-2028/backgrounds/cover-armor.prompt.yamlを確認。文字なし生成女性、現物にイメージビジュアル表示。",
+      "shared/generated-assets/gpt-neon-parts/ai-core-network-01.prompt.yamlを確認。3ページの実使用素材はai-core-network-01.png。既存生成表紙アーマーを質感参照として制作した透明背景の金属・多面体ガラスのコアと青紫ネットワーク。人物・学校実写真入力や文字生成を指定しない。最終紙面では下部低コントラスト透かしで本文・実写真・生成例より後景。素材単体の旧採否未確認記載をBOOK承認証拠とは扱わない。",
+      "seaside-watercolor-example.prompt.yaml確認。海辺町/夕日/水彩の説明用生成例、学生作品ではないと現物明示。学校写真の生成入力は記録なし。",
+      "他校名・企業ロゴ・人物画素・固有コピーの転載形跡を目視で検出しなかった。"
+    ],
+    "検証": [
+      "レビュアーがsha256sum/pdfinfoを独立実行。PDFのSHAは指定と一致、5p/612x858.96pt/Chromium154確認。",
+      "render.logは全5PNGと同じrenderのPDF、216x303mm、150dpi、代替Chrome警告のみ。",
+      "validate.logは0errors49warnings、今回の字句警告は入学検定料という表示名。金額の誤りなし。",
+      "layout-qaはresourceProblems/referenceRequests/printFindings空、行ボックス交差は画像の文字欠損を伴わない。12mmノド補助警告を正式5mm安全域違反と混同しない。",
+      "technical-evidenceのPDFラスタQR検査は学校URLdecode。レビュアー自身によるdecode再実行はなし。",
+      "5p試作のため正式偶数gate不適用。SHA/全5p/全3パネルを別途照合。"
+    ],
+    "制限": [
+      "確認用5pに限定。正式12p構成・入稿品質の承認ではない。",
+      "指定ブラウザrelease、印刷、対象読者テストは未実施。",
+      "表紙原素材実効解像度は記録上約124ppi、正式入稿前の確認が必要。",
+      "read-ledger.pyはfetch失敗。台帳直接全文読込、開始終了マーカー成功と扱わない。"
+    ]
+  }
+}

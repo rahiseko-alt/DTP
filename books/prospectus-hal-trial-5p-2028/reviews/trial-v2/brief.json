@@ -1,0 +1,49 @@
+{
+  "request": "再度作れ：5ページの試作をv2役割で再制作",
+  "structure": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "year": "2028年4月入学",
+  "purpose": "本人の行きたいと保護者の払える・払うを成立させる",
+  "readers": "日本の高校に通う外国ルーツ高校生と保護者",
+  "constraints": [
+    "女性主役",
+    "巨大文字と人物の重なり",
+    "クリスタルは背景透かし",
+    "短文化・余白量・単純化を初期条件にしない",
+    "指定参考の構図・密度・写真と文字の大小・周縁情報群を編集する",
+    "原本の画素・固有情報転用禁止",
+    "学校事実・学生実績の創作禁止",
+    "5ページは試作で正式12ページは変更しない"
+  ],
+  "topics": {
+    "1": "人物主役と巨大字、年度と学校名",
+    "2–3": "女性在校生大写真と具体学び、大小の写真群、説明用生成イメージ",
+    "4–5": "濃色学科説明と実写真帯、既知参考学費・相談情報群"
+  },
+  "references": [
+    "references/HAL-nagoya/brochure-1/page_001.jpg",
+    "references/HAL-nagoya/brochure-1/page_004.jpg",
+    "references/HAL-nagoya/brochure-1/page_005.jpg",
+    "references/HAL-nagoya/brochure-1/page_014.jpg",
+    "references/HAL-nagoya/brochure-2/page_001.jpg"
+  ],
+  "roles": {
+    "editor": "/root/remake5_editor",
+    "reviewer": "/root/remake5_reviewer",
+    "chief": "/root/remake5_chief"
+  },
+  "role_version": "system/prompts/role-candidates/v2/",
+  "host": "役割選択引数なし。各TOML指示全文読込フォールバック。sandbox設定の適用を主張しない。",
+  "review_method": "初回はコードなし画像スモーク。視覚所見固定前に技術結果・自己評価・過去passを渡さない。"
+}

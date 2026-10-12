@@ -1,0 +1,28 @@
+{
+  "stage": "direction2-visual-only",
+  "pdf_sha256": "94f4f996dc35646e04d48684b567f92fc2f6ca29c38a10e5bf5fb87b3e311d2a",
+  "reviewer_session": "/root/remake5_reviewer",
+  "direction": "submit",
+  "scope": "代表1–3の方向承認、全5p承認ではない",
+  "pages_seen": [
+    1,
+    2,
+    3
+  ],
+  "spreads_seen": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "code_seen": false,
+  "technical_results_seen": false,
+  "findings": [],
+  "evidence": [
+    "人物と巨大文字の関係、大小の具体群と人物→学科→AI例の読み順を画像で確認",
+    "原本より群数は少ないが、資料にない成果を捏造して密度を増やす必要はない"
+  ]
+}

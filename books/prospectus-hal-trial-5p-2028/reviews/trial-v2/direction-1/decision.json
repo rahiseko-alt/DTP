@@ -1,0 +1,29 @@
+{
+  "stage": "direction",
+  "pdf_sha256": "370e40e552a34ddebe364c8016b98a6826855282f4cd26d37dc481b58175d2f5",
+  "chief_session": "/root/remake5_chief",
+  "decision": "revise",
+  "independence": "独立レビュー・制作自己評価・技術結果未読で初見固定",
+  "reason": "写真面積が増えても、大画像と横帯の積層が残り原本の主役を囲む大小情報群と見開き接続が未実現。再設計。",
+  "findings": [
+    {
+      "severity": "major",
+      "pages": [
+        2
+      ],
+      "issue": "左在校生の顔を見出しが覆う",
+      "evidence": "ここから/自分の未来へが両目から鼻に重なる",
+      "required_fix": "顔の主役スケールを保ち、文字を服または境界へ移す"
+    },
+    {
+      "severity": "major",
+      "pages": [
+        2,
+        3
+      ],
+      "issue": "各ページの横帯積層に止まり、見開きを結ぶ主題・情報群の関係が未設計",
+      "evidence": "p2大写真/濃色帯/2学科とp3見出し/生成例/横帯/写真と2説明が独立",
+      "required_fix": "中心主題・非対称の写真群・周縁の説明群を関連付けた見開きに再設計"
+    }
+  ]
+}

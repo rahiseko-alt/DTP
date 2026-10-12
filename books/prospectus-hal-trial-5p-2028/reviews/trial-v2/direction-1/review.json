@@ -1,0 +1,47 @@
+{
+  "stage": "direction-visual-only",
+  "pdf_sha256": "370e40e552a34ddebe364c8016b98a6826855282f4cd26d37dc481b58175d2f5",
+  "reviewer_session": "/root/remake5_reviewer",
+  "direction": "revise",
+  "pages_seen": [
+    1,
+    2,
+    3
+  ],
+  "spreads_seen": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "code_seen": false,
+  "technical_results_seen": false,
+  "findings": [
+    {
+      "severity": "major",
+      "pages": [
+        2
+      ],
+      "issue": "左在校生の顔を見出しが覆う",
+      "evidence": "ここから/自分の未来へが両目から鼻に重なる",
+      "required_fix": "顔の主役スケールを保ち、文字を服または境界へ移す"
+    },
+    {
+      "severity": "major",
+      "pages": [
+        2,
+        3
+      ],
+      "issue": "各ページの横帯積層に止まり、見開きを結ぶ主題・情報群の関係が未設計",
+      "evidence": "p2大写真/濃色帯/2学科とp3見出し/生成例/横帯/写真と2説明が独立",
+      "required_fix": "中心主題・非対称の写真群・周縁の説明群を関連付けた見開きに再設計"
+    }
+  ],
+  "uninspected": [
+    "p4–5",
+    "PDF技術/写真権利/学校事実原本"
+  ]
+}

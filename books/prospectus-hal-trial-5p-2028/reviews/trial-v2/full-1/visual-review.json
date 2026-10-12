@@ -1,0 +1,51 @@
+{
+  "stage": "full1-visual-fixed",
+  "pdf_sha256": "55e5a59f785ddc4b25ba14d11780478011ed78710129a2fccbbea9c49b2d54a6",
+  "reviewer_session": "/root/remake5_reviewer",
+  "pages_seen": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "spreads_seen": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "code_seen": false,
+  "technical_results_seen": false,
+  "visual_dimensions": {
+    "audience": "pass",
+    "spreads": "pass",
+    "rhythm": "pass",
+    "legibility": "pass",
+    "assets": "pass"
+  },
+  "findings": [
+    {
+      "severity": "minor",
+      "pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "issue": "短い試作で実写真の反復が目立つ",
+      "evidence": "p2の教室と2人写真をp4で、p3の学習写真をp5で再使用",
+      "required_fix": "可能な別許諾写真へ差し替え、または編集長が試作限定の許容理由を示す"
+    }
+  ],
+  "uninspected": [
+    "PDF版・技術検査・事実原本・写真権利"
+  ]
+}

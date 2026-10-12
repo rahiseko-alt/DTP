@@ -1,0 +1,45 @@
+{
+  "pdf_sha256": "878fe9c95726c729e437bbe4ce1e448471446645f919f1f7a946660a4aec1b26",
+  "page_count": 5,
+  "pdf_size_pt": [
+    612,
+    858.96
+  ],
+  "trim_mm": [
+    210,
+    297
+  ],
+  "bleed_mm": 3,
+  "browser": "既存Chromium154、確認用途のみ",
+  "png_dimensions": [
+    1276,
+    1789
+  ],
+  "validate": {
+    "errors": 0,
+    "warnings": 49,
+    "note": "48件は既存警告、1件は入学検定料という表示名の字句一致警告。金額はfacts参照。"
+  },
+  "render": "成功、ブラウザ差異以外の組版警告なし",
+  "resourceProblems": [],
+  "referenceRequests": [],
+  "printFindings": [],
+  "extra_layout_scan": "DOMの行ボックス交差は巨大文字・行間の光学配置に伴う。画像で文字の欠損なしを確認。12mmノド補助検査の警告は5mm安全域とは別。5pは製本/入稿版ではない。",
+  "pdf_qr": "PDFの5ページをpdftoppmでラスタ化してzxingcppで学校URLをデコード",
+  "qr_url": "https://kaihougakuen.my.canva.site/",
+  "fonts": "Noto Sans JP、pdffontsで埋め込み確認",
+  "formal_gate": "既存dtp-quality-gate.pyは偶数冊子用。人間指定の5ページ試作には不適用。別途SHA・全ページと全3パネル・独立3役・重大指摘の有無・reviewハッシュを照合する。",
+  "preview_limits": [
+    "指定ブラウザでのrelease検証未実施",
+    "生成女性表紙の実効解像度は入稿用途の確認が必要",
+    "読者テスト・印刷テスト未実施"
+  ],
+  "checks_from_prior_run": "共通checkは340pass/6fail/7skip、別途2suite error。指定Chromium未取得とreleaseブラウザ条件による既知失敗。今回テスト変更・ダウンロードなし。",
+  "images": {
+    "output/png/page_001.png": "ba371b2579a9c91960ad4afa50d708711d9d21da5676db9c5e2bf39ca67d91a5",
+    "output/png/page_002.png": "97998079b573839d52c7eb1704dc1a9ecccf3bc30e06896d4b4b9b143c462b1d",
+    "output/png/page_003.png": "f86894c5ca241541cbecc6b5a059c775d6e23c3b1edab4f7397325cfa13c4822",
+    "output/png/page_004.png": "d9f0bdc0736ccea51c076d2d380f50eaa02872c6c9b3379bf52cb7b1fb79c3a0",
+    "output/png/page_005.png": "472b2534c5e0e41438d9cbdf0301e5f18b9a5dcd8ea73fddae7eb6462edefb42"
+  }
+}

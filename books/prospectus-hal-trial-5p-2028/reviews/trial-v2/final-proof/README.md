@@ -1,0 +1,1 @@
+このフォルダは最終出力PNGを縮小した審査用画像です。PDFラスタ化画像ではありません。PDF現物のページ数・サイズ・QR・フォントはtechnical-evidence.jsonで別途確認します。原寸PNGと見開きはoutputに保持。

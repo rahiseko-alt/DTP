@@ -1,0 +1,37 @@
+{
+  "scope": "人間指定の5ページ試作、正式偶数冊子gateの成功ではない",
+  "result": "pass",
+  "pdf_sha256": "878fe9c95726c729e437bbe4ce1e448471446645f919f1f7a946660a4aec1b26",
+  "review_sha256": "f897a45781ef0df574c5d80297254539a1d02904e92f7339ceeb3254c7fc4552",
+  "page_count": 5,
+  "panels": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "independent_roles": [
+    "/root/remake5_editor",
+    "/root/remake5_final_reviewer",
+    "/root/remake5_chief"
+  ],
+  "major_or_blocking": 0,
+  "minor": 2,
+  "decision": "submit",
+  "verified": [
+    "実PDF SHA",
+    "実PDFページ数",
+    "レビュー版",
+    "全ページ/全パネル目視報告",
+    "3役独立",
+    "判定/検証記録",
+    "重大指摘なし・minor許容理由"
+  ]
+}

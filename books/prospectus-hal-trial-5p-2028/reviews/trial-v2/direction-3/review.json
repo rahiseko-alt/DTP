@@ -1,0 +1,36 @@
+{
+  "stage": "direction3-local-reinspection",
+  "pdf_sha256": "7c108fc5e2d84ef28ae2140aa6f11b329be9553d4123709dc12ed58ab9d5bdf8",
+  "reviewer_session": "/root/remake5_reviewer",
+  "direction": "submit",
+  "scope": "代表1–3のみ、全5p承認ではない",
+  "pages_seen": [
+    1,
+    2,
+    3
+  ],
+  "spreads_seen": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "pages_reopened": [
+    2,
+    3
+  ],
+  "code_seen": false,
+  "technical_results_seen": false,
+  "findings": [],
+  "resolved": [
+    "生成例の区別注記が実写真に隠れず全文読める",
+    "p2folioが写真内容と重ならない"
+  ],
+  "evidence": [
+    "女性と巨大文字、大小写真群、非対称の構成と背景透かしが維持",
+    "指定原本の主役と周縁群を自社確定内容で再構成"
+  ]
+}
