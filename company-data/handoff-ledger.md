@@ -12,7 +12,7 @@
 | 評価の場所 | references/research/prompt-evaluation-20261012/。各役JSON/MDに全件読了・候補比較・根拠引用、integrated.mdに統合。支持数値は評価軸に使わない |
 | 提案 | 制作/密度審査はLayout、独立性と統合手順はCritique、制作前照合はFrontend Design。Storytellerは編集構成補助、Image Prompt Engineerはパーツ。前回のStoryteller中心案から変更 |
 | 紙面 | books/prospectus-hal-2028/output/pdf/prospectus-hal-2028.pdfはa11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1。人間が密度不足を指摘した版。人間のデザイン承認済みとは扱わない |
-| 次の一手 | 全候補評価をこのチャットで人間へ提示。原文と評価を分離。役割設定・冊子は今回変更していない |
+| 次の一手 | 共通型はmainの1968b88に反映済み。人間の指示により、有望な方法を4役の型に当てはめたv1を作成しCodex/Claude設定を同期。原文は全件SHA一致、旧設定はsystem/prompts/role-candidates/baseline/、初回候補と出典はv1/とselection.json。詳細運用は同READMEと運用ルール台帳§8。実紙面での効果は未検証で、冊子自体は変更していない。次は共通型の検証手順で実紙面の判断を試し、不適合なら候補を差し替える |
 | 残る制約 | 紙面密度の再設計、2028年度学費、入稿用素材/指定ブラウザ、読者・印刷テストは別途必要 |
 
 ## 冊子制作を再開するとき

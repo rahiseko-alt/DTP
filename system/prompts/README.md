@@ -16,6 +16,8 @@ Codex・Claude Code のどちらでも使える、作業単位の指示書です
 | [convert-to-company.md](convert-to-company.md) | 再現ページを自社版へ変換 | Phase 8 |
 | [visual-review.md](visual-review.md) | 出力の視覚レビュー | 全フェーズ |
 | [daily-edit.md](daily-edit.md) | 文章・数字・写真の差し替えなどの日常編集 | Phase 9 |
+| [agent-role-template.md](agent-role-template.md) | 専門家の役割プロンプトを設計する共通型 | 役割設計 |
+| [role-candidates/README.md](role-candidates/README.md) | 調査原文の保全、候補の選出・検証・差し替え | 役割運用 |
 
 すべての作業で `AGENTS.md` と `system/rules/00-principles.md` が前提です。
 プロンプトを改善したら、同じコミットで関連するルールも更新してください。
