@@ -1,0 +1,164 @@
+{
+  "pdf_sha256": "acfed7b9247af1cebae55d534f546e5104abcbea611dc508fe73fb0c9960caad",
+  "mode": "preview",
+  "page_count": 12,
+  "binding": "left",
+  "editor_session": "/root/editor_booklet",
+  "reviewer_session": "/root/reviewer_booklet",
+  "pages_seen": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "spreads_seen": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      12
+    ]
+  ],
+  "dimensions": {
+    "content": "pass",
+    "audience": "pass",
+    "spreads": "pass",
+    "rhythm": "pass",
+    "legibility": "pass",
+    "assets": "pass",
+    "output": "pass"
+  },
+  "checks": {
+    "validate": "pass",
+    "render": "pass",
+    "visual_pages": "pass",
+    "visual_spreads": "pass",
+    "qr_pdf_decode": "pass"
+  },
+  "findings": [
+    {
+      "severity": "minor",
+      "pages": [
+        1,
+        3,
+        4,
+        9,
+        11,
+        12
+      ],
+      "issue": "生成パーツの配置解像度と代替ブラウザによる描画は、確認用の範囲に限られる。",
+      "evidence": "core1316×1195、他1055×1491。大配置は約128–173dpi。150dpi/Chromium154のrender.log。",
+      "required_fix": "確認用PDFとして提出。入稿前に必要解像度・指定ブラウザ・印刷仕様で再出力と再レビュー。"
+    },
+    {
+      "severity": "minor",
+      "pages": [
+        5,
+        7,
+        9,
+        11
+      ],
+      "issue": "右ページの横罫線と項目列には構成上の反復が残る。",
+      "evidence": "ただし新4–5は具体例と工程で内容重複を解消。7は分野比較、9は質問、11は行動手順で役割が異なる。現版では重大な単調さとは判定しない。",
+      "required_fix": "今回の確認用では許容可能。今後個性を強めるなら分野比較や相談面を図版・小写真へ。短文と読み順は維持。"
+    }
+  ],
+  "resolved_findings": [
+    {
+      "pages": [
+        4,
+        5
+      ],
+      "resolution": "具体的な生成画像と目的→言葉→確認の工程へ変更。一般例と実績を分離。"
+    },
+    {
+      "pages": [
+        9
+      ],
+      "resolution": "具体的な資格名を外し、ユーザー申告の保有範囲と学校への確認案内。"
+    },
+    {
+      "pages": [
+        10
+      ],
+      "resolution": "950000円/1780000円を併記、2027参考と2028未確定を維持。字形重なりなし。"
+    },
+    {
+      "pages": [
+        12
+      ],
+      "resolution": "最終PDFから学校URLのQRをデコード。実機・印刷・サイト到達は未実施。"
+    }
+  ],
+  "evidence": {
+    "single_pages": [
+      "books/prospectus-hal-2028/output/png/page_001.png",
+      "books/prospectus-hal-2028/output/png/page_002.png",
+      "books/prospectus-hal-2028/output/png/page_003.png",
+      "books/prospectus-hal-2028/output/png/page_004.png",
+      "books/prospectus-hal-2028/output/png/page_005.png",
+      "books/prospectus-hal-2028/output/png/page_006.png",
+      "books/prospectus-hal-2028/output/png/page_007.png",
+      "books/prospectus-hal-2028/output/png/page_008.png",
+      "books/prospectus-hal-2028/output/png/page_009.png",
+      "books/prospectus-hal-2028/output/png/page_010.png",
+      "books/prospectus-hal-2028/output/png/page_011.png",
+      "books/prospectus-hal-2028/output/png/page_012.png"
+    ],
+    "spreads": [
+      "books/prospectus-hal-2028/output/spreads/back.png",
+      "books/prospectus-hal-2028/output/spreads/cover.png",
+      "books/prospectus-hal-2028/output/spreads/spread-02-03.png",
+      "books/prospectus-hal-2028/output/spreads/spread-04-05.png",
+      "books/prospectus-hal-2028/output/spreads/spread-06-07.png",
+      "books/prospectus-hal-2028/output/spreads/spread-08-09.png",
+      "books/prospectus-hal-2028/output/spreads/spread-10-11.png"
+    ],
+    "checks": [
+      "books/prospectus-hal-2028/reviews/production/acfed7b9247af1cebae55d534f546e5104abcbea611dc508fe73fb0c9960caad/render.log",
+      "books/prospectus-hal-2028/reviews/production/acfed7b9247af1cebae55d534f546e5104abcbea611dc508fe73fb0c9960caad/validate.log",
+      "books/prospectus-hal-2028/reviews/production/acfed7b9247af1cebae55d534f546e5104abcbea611dc508fe73fb0c9960caad/layout-qa.json",
+      "books/prospectus-hal-2028/reviews/production/acfed7b9247af1cebae55d534f546e5104abcbea611dc508fe73fb0c9960caad/layout-qa-observation.txt",
+      "books/prospectus-hal-2028/reviews/production/acfed7b9247af1cebae55d534f546e5104abcbea611dc508fe73fb0c9960caad/qr-check.json"
+    ],
+    "source_checks": [
+      "company-data/ledger.md",
+      "company-data/facts/school.yaml",
+      "company-data/facts/contacts.yaml",
+      "company-data/facts/courses.yaml",
+      "company-data/facts/teachers.yaml",
+      "company-data/photos/photos.yaml"
+    ],
+    "limitations": [
+      "対象者理解テスト・実寸印刷・スマートフォンQR読取は未実施。preview限定。独立レビューは親の検証ログを検査、再実行せず。"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+id: prospectus-hal-2028
+title: 2028年4月入学 学校案内 — HAL風12ページ
+kind: brochure
+description: 写真と具体的キーワードを中心に、5つの見開きを補完設計した2028年向け確認用冊子。新パーツ4点を使用。
+format:
+  size: A4
+  orientation: portrait
+  bleed_mm: 3
+  safe_mm: 5
+  margins_mm:
+    top: 16
+    bottom: 17
+    inside: 16
+    outside: 16
+  columns: 12
+  gutter_mm: 4
+  binding: left
+styles:
+  - shared/layouts/grid.css
+  - shared/layouts/typography.css
+  - books/prospectus-hal-2028/layout.css
+theme:
+  --color-primary: "#33c8ff"
+  --color-secondary: "#ff304e"
+  --color-accent: "#ff37bb"
+  --color-text: "#ffffff"
+  --color-muted: "#b7ccdf"
+  --color-background: "#020611"
+  --color-surface: "#071321"
+  --color-neutral: "#ffffff"
+  --fs-body: 10.5pt
+pages:
+  - page_001
+  - page_002
+  - page_003
+  - page_004
+  - page_005
+  - page_006
+  - page_007
+  - page_008
+  - page_009
+  - page_010
+  - page_011
+  - page_012
+output:
+  png_dpi: 350
+  preview_dpi: 150
+notes: "人間の指定:
+  12ページ・新パーツ使用・2028年4月入学向け。2027年度学費は参考値として年度を明示。2028入試日程は転用しない。背景の実解像度と入稿条件は別確認\
+  。"

@@ -1,0 +1,14 @@
+{
+  "pdf_sha256": "fb2e633f4d8604cb6e54d064513426308595e57236ffebf6c7b40c5371eb5a01",
+  "review_sha256": "40beb1650e113017aba06b4d2fc7a3dd6f5ad213af7475f12240d5d766f4705c",
+  "mode": "preview",
+  "chief_session": "/root/chief_booklet",
+  "decision": "revise",
+  "quality": {
+    "intent": "fail",
+    "coherence": "pass",
+    "design": "fail",
+    "usable": "fail"
+  },
+  "reason": "4–5は表紙と入口の繰返しで情報が前進しない。具体的成果と短い工程へ修正を指示。"
+}

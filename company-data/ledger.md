@@ -78,17 +78,17 @@
 | AO特典・減免・奨学金 | |
 | オープンキャンパス日程 | |
 | オープンキャンパス体験内容 | AIの成果物を作る体験、先輩・仲間による安心、費用と進路・支援の説明 |
-| 冊子のページ数 | |
-| 冊子の判型 | |
+| 冊子のページ数 | 12ページ |
+| 冊子の判型 | A4縦・左綴じ、塗り足し3mm |
 | 冊子の部数 | |
 | 冊子の納期 | |
-| 採用するデザイン | |
-| 冊子のページ構成 | |
-| 掲載写真の選定 | |
+| 採用するデザイン | HAL風。大胆な構図と見開きの変化、大きな実写真・具体語・短文。新パーツ4点を使用 |
+| 冊子のページ構成 | 表紙／2–3 学校とAIの入口／4–5 国際ビジネスAI科と画像生成例／6–7 総合ビジネス科／8–9 学生・講師・親子の相談／10–11 参考学費と次の行動／裏表紙 |
+| 掲載写真の選定 | student-img-5074、student-img-5069、student-dsc-1264（company-data/photos/photos.yaml） |
 | 多言語版の対象言語 | |
 | ターゲット戦略原本 | references/user-strategy/target-strategy-1008/original/ターゲット戦略1008.pdf |
 | 価格戦略原本 | references/user-strategy/price-strategy-1008/original/価格戦略1008.pdf |
-| 制作段階 | 完コピ検証と素材制作。BASELINEの確定はこれから |
+| 制作段階 | HAL風12ページの見開き制作、独立レビュー・修正・編集長確認を経た確認用PDFあり。入稿用出力はこれから |
 | mainのBOOK | books/replica/ に12BOOK、各1ページ |
 | 別案の冊子 | HAL風24ページ案（books/prospectus-neon-2027/、PR #27） |
 | 参考資料 | references/ の他校14資料・157ページ |
@@ -96,7 +96,7 @@
 | GPT生成原本 | references/user-gpt/ |
 | 再利用する生成素材 | shared/generated-assets/gpt-brochure-parts/、shared/generated-assets/gpt-neon-parts/ |
 | WEB確認用デプロイ先 | |
-| このクラウドの描画環境 | 指定版Chromiumは未取得 |
+| このクラウドの描画環境 | 既存Chromium 154で確認用PNG/PDFを描画。Playwright指定版は未取得 |
 | メインキャッチコピー | |
 | リード文 | |
 | タグライン | |

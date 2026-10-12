@@ -1,0 +1,28 @@
+{
+  "designer_session": "/root/parts_booklet",
+  "dimensions_px": {
+    "future-gate": [
+      1055,
+      1491
+    ],
+    "silver-frame": [
+      1055,
+      1491
+    ],
+    "cover-watermark": [
+      1055,
+      1491
+    ],
+    "ai-core": [
+      1316,
+      1195
+    ]
+  },
+  "alpha": {
+    "future-gate": false,
+    "silver-frame": true,
+    "cover-watermark": true,
+    "ai-core": true
+  },
+  "scope": "素材実測、全4素材の目視。preview配置の制限を提供。新画像生成なし。"
+}
