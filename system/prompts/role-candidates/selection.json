@@ -4,8 +4,8 @@
   "roles": {
     "editor": {
       "active_file": ".codex/roles/dtp-editor.toml",
-      "selected_variant": "system/prompts/role-candidates/v1/dtp-editor.toml",
-      "fallback_variant": "system/prompts/role-candidates/baseline/dtp-editor.toml",
+      "selected_variant": "system/prompts/role-candidates/v2/dtp-editor.toml",
+      "fallback_variant": "system/prompts/role-candidates/v1/dtp-editor.toml",
       "sources": [
         {
           "file": "references/research/public-prompts-20261012/critique/impeccable-layout.md",
@@ -20,13 +20,13 @@
           "sha256": "f4950c9d65b5d105ec48ebce4b7621154e3bf89871dbbf07af245476930eb4dd"
         }
       ],
-      "adaptation": "原文の専門的方法を冊子用に編集。従来のプロジェクト固有条件を保持。",
-      "verification": "構文・同期・保存整合のみ。実紙面での効果は未検証。"
+      "adaptation": "v1の参照方法を保持し、旧条件の余白・分かりやすさ優先を解除。人間が停止したv1へ自動復帰しない。",
+      "verification": "旧条件の偏りを人間の指摘に基づき解除。構文・同期のみ確認。実紙面未検証。"
     },
     "reviewer": {
       "active_file": ".codex/roles/dtp-reviewer.toml",
-      "selected_variant": "system/prompts/role-candidates/v1/dtp-reviewer.toml",
-      "fallback_variant": "system/prompts/role-candidates/baseline/dtp-reviewer.toml",
+      "selected_variant": "system/prompts/role-candidates/v2/dtp-reviewer.toml",
+      "fallback_variant": "system/prompts/role-candidates/v1/dtp-reviewer.toml",
       "sources": [
         {
           "file": "references/research/public-prompts-20261012/critique/impeccable-critique.md",
@@ -37,34 +37,34 @@
           "sha256": "14ba132b6168bf0a7498f8c3fbbb41b73ff704da5dc3688fd842807446e54a05"
         }
       ],
-      "adaptation": "原文の専門的方法を冊子用に編集。従来のプロジェクト固有条件を保持。",
-      "verification": "構文・同期・保存整合のみ。実紙面での効果は未検証。"
+      "adaptation": "v1の参照方法を保持し、旧条件の余白・分かりやすさ優先を解除。人間が停止したv1へ自動復帰しない。",
+      "verification": "旧条件の偏りを人間の指摘に基づき解除。構文・同期のみ確認。実紙面未検証。"
     },
     "chief": {
       "active_file": ".codex/roles/dtp-chief.toml",
-      "selected_variant": "system/prompts/role-candidates/v1/dtp-chief.toml",
-      "fallback_variant": "system/prompts/role-candidates/baseline/dtp-chief.toml",
+      "selected_variant": "system/prompts/role-candidates/v2/dtp-chief.toml",
+      "fallback_variant": "system/prompts/role-candidates/v1/dtp-chief.toml",
       "sources": [
         {
           "file": "references/research/public-prompts-20261012/critique/impeccable-critique.md",
           "sha256": "8d2cdf4f583a0caf7685620069069354b4fb81582fb63c349783298454140a0e"
         }
       ],
-      "adaptation": "原文の専門的方法を冊子用に編集。従来のプロジェクト固有条件を保持。",
-      "verification": "構文・同期・保存整合のみ。実紙面での効果は未検証。"
+      "adaptation": "v1の参照方法を保持し、旧条件の余白・分かりやすさ優先を解除。人間が停止したv1へ自動復帰しない。",
+      "verification": "旧条件の偏りを人間の指摘に基づき解除。構文・同期のみ確認。実紙面未検証。"
     },
     "parts-designer": {
       "active_file": ".codex/roles/dtp-parts-designer.toml",
-      "selected_variant": "system/prompts/role-candidates/v1/dtp-parts-designer.toml",
-      "fallback_variant": "system/prompts/role-candidates/baseline/dtp-parts-designer.toml",
+      "selected_variant": "system/prompts/role-candidates/v2/dtp-parts-designer.toml",
+      "fallback_variant": "system/prompts/role-candidates/v1/dtp-parts-designer.toml",
       "sources": [
         {
           "file": "references/research/public-prompts-20261012/editorial/agency-image-prompt-engineer.md",
           "sha256": "63a564d01dc5812c494cd8aa034ce1217031d8fe8b3eca1323316879769ff13f"
         }
       ],
-      "adaptation": "原文の専門的方法を冊子用に編集。従来のプロジェクト固有条件を保持。",
-      "verification": "構文・同期・保存整合のみ。実紙面での効果は未検証。"
+      "adaptation": "v1の参照方法を保持し、旧条件の余白・分かりやすさ優先を解除。人間が停止したv1へ自動復帰しない。",
+      "verification": "旧条件の偏りを人間の指摘に基づき解除。構文・同期のみ確認。実紙面未検証。"
     }
   }
 }
