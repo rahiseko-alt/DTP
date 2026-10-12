@@ -1,0 +1,212 @@
+{
+  "perspective": "パーツデザイナー・写真アートディレクション・素材設計",
+  "reviewer": "/root/evaluate_parts_all",
+  "considered_files": 14,
+  "unique_texts": 12,
+  "method": "14指示原文の全文を読了。長文は行範囲で分割、重複2対はSHAとバイト同一を確認。支持指標を評価に使わない。原文は変更しない。",
+  "candidates": [
+    {
+      "file": "additional/voltagent-ui-designer.md",
+      "sha256": "60b69fc6d3da170b5570b29332d6000ee8f26f4b1df4e9bc680a44f57a37478c",
+      "bytes": 5048,
+      "full_text_read": true,
+      "verdict": "補助",
+      "reason": "仕様と素材引継ぎを担当する指示は有益。UIの状態/操作/性能が中心で、人物切抜き・写真ディレクション・冊子密度は具体化していない。"
+    },
+    {
+      "file": "critique/impeccable-bolder.md",
+      "sha256": "a4e4d986f74ef5f3c8218dfcfd5b04fe103b47182cf1e16aeb979e5703d5cd87",
+      "bytes": 3457,
+      "full_text_read": true,
+      "verdict": "推奨補助",
+      "reason": "既存の視覚世界の強い表現を増幅し、素材には役目と証拠を求める。空白を画像で埋めるだけにしない、素材だけで全冊を変更しない責務境界に有効。"
+    },
+    {
+      "file": "critique/impeccable-critique.md",
+      "sha256": "8d2cdf4f583a0caf7685620069069354b4fb81582fb63c349783298454140a0e",
+      "bytes": 45216,
+      "full_text_read": true,
+      "verdict": "審査へ",
+      "reason": "意匠判断と機械検査を独立させ、具体的問題/理由/修正を返す。制作素材の具体仕様はない。パーツ担当の主プロンプトより独立審査向け。"
+    },
+    {
+      "file": "critique/impeccable-distill.md",
+      "sha256": "048e5a7671024592cba6cd4ede70b6c535db0c1be84d6837638e40f51fb3fad7",
+      "bytes": 5610,
+      "full_text_read": true,
+      "verdict": "今回の主軸には不適",
+      "reason": "情報・装飾を削減する指示。必要情報を消さない保護条項はあるが、今回の薄い紙面を増強する素材設計の主軸にはならない。"
+    },
+    {
+      "file": "critique/impeccable-layout.md",
+      "sha256": "14ba132b6168bf0a7498f8c3fbbb41b73ff704da5dc3688fd842807446e54a05",
+      "bytes": 5161,
+      "full_text_read": true,
+      "verdict": "推奨補助",
+      "reason": "主役と脇役、意図した密度、詰まった間隔と広い間隔のリズムを制作前に決める。パーツの寸法・役目の受注条件と審査に有効。"
+    },
+    {
+      "file": "critique/taste-SKILL.md",
+      "sha256": "2136ed83016bfada39f7b8013b2aafd9f78fcbd9799110ed222a79c6419ba5fb",
+      "bytes": 89478,
+      "full_text_read": true,
+      "verdict": "部分的に有益/原文一括採用不可",
+      "reason": "実画像を要求し、反復構図を点検する。生成優先、写真上のラベル禁止、雑誌=余白広めという既定値、架空の端数推奨が今回の実写真・文字重なり・密度・事実に衝突。"
+    },
+    {
+      "file": "critique/taste-redesign-SKILL.md",
+      "sha256": "a75d547d04595fe97a5d377dddf145d029d51487a4f2a0a5a9d3b532ca3b84cd",
+      "bytes": 16267,
+      "full_text_read": true,
+      "verdict": "部分的に有益/原文一括採用不可",
+      "reason": "重なりや奥行き、実写真の採用、空白だけの面の不完成を指摘する。ただし余白倍増、端数データへの置換、架空名・日付の変更の指示が実冊子に危険。"
+    },
+    {
+      "file": "editorial/agency-brand-guardian.md",
+      "sha256": "d1d5c78af85d4d35be94b93d5c011d17e3cf5dcb69b2037a3ebf3059803b893e",
+      "bytes": 11641,
+      "full_text_read": true,
+      "verdict": "補助",
+      "reason": "素材ライブラリ、ロゴ使用規則、ブランド一貫性を整える。ブランド再設計・監視まで拡張するため、今回の限定パーツ制作役を超える。"
+    },
+    {
+      "file": "editorial/agency-image-prompt-engineer.md",
+      "sha256": "63a564d01dc5812c494cd8aa034ce1217031d8fe8b3eca1323316879769ff13f",
+      "bytes": 11160,
+      "full_text_read": true,
+      "verdict": "パーツ主候補",
+      "reason": "参照分解、主役の位置/大きさ/背景との関係、構図/縦横比/照明を具体的な生成指示へ落とす。候補中で素材の指示手順が最も具体的。実写真選定・透明切抜き・文字を載せる領域・生成と実在の区別・印刷解像度の実測は別途不足。"
+    },
+    {
+      "file": "editorial/agency-ui-designer.md",
+      "sha256": "3130768958d3b3d38178aaec91cf789e01ecca4984c8674d4aaea446b6cba240",
+      "bytes": 13339,
+      "full_text_read": true,
+      "verdict": "補助",
+      "reason": "精密な仕様と複数形式の素材供給を明示。UI部品の再利用・数学的間隔が中心で、誌面の非均一な写真と文字の構成を担当する原文ではない。"
+    },
+    {
+      "file": "editorial/agency-visual-storyteller.md",
+      "sha256": "f4950c9d65b5d105ec48ebce4b7621154e3bf89871dbbf07af245476930eb4dd",
+      "bytes": 7416,
+      "full_text_read": true,
+      "verdict": "写真方針の補助",
+      "reason": "写真アートディレクション、写真のスタイリング、コンセプト開発を明示。物語のリズムから素材の役目を決められるが、具体的な切抜き/構図検証/納品仕様はImage Prompt Engineerほど明示しない。全冊編集向けの責務も混在。"
+    },
+    {
+      "file": "production/anthropic-frontend-design.md",
+      "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+      "bytes": 9390,
+      "full_text_read": true,
+      "verdict": "意匠の補助",
+      "reason": "依頼の指示を優先、題材固有の表現、文字を視覚要素として使う、画像を見て批評する。素材の制作手順ではなく意匠全体。静かにする/削るを余白増加と解釈しない条件が必要。"
+    },
+    {
+      "file": "production/taste-redesign.md",
+      "sha256": "a75d547d04595fe97a5d377dddf145d029d51487a4f2a0a5a9d3b532ca3b84cd",
+      "bytes": 16267,
+      "full_text_read": true,
+      "verdict": "部分的に有益/原文一括採用不可",
+      "reason": "critique/taste-redesign-SKILL.mdと同内容。独立候補として加点しない。"
+    },
+    {
+      "file": "production/taste-v2.md",
+      "sha256": "2136ed83016bfada39f7b8013b2aafd9f78fcbd9799110ed222a79c6419ba5fb",
+      "bytes": 89478,
+      "full_text_read": true,
+      "verdict": "部分的に有益/原文一括採用不可",
+      "reason": "critique/taste-SKILL.mdと同内容。独立候補として加点しない。"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "editorial/agency-image-prompt-engineer.md",
+      "start_line": 45,
+      "end_line": 45,
+      "quote": "- Consider aspect ratio and composition in every prompt"
+    },
+    {
+      "file": "editorial/agency-image-prompt-engineer.md",
+      "start_line": 61,
+      "end_line": 62,
+      "quote": "- **Subject Interaction**: Relationship with environment or other elements\n- **Scale & Proportion**: Size relationships and spatial positioning"
+    },
+    {
+      "file": "editorial/agency-image-prompt-engineer.md",
+      "start_line": 138,
+      "end_line": 151,
+      "quote": "\n### Step 1: Concept Intake\n- Understand the visual goal and intended use case\n- Identify target AI platform and its prompt syntax preferences\n- Clarify style references, mood, and brand requirements\n- Determine technical requirements (aspect ratio, resolution intent)\n\n### Step 2: Reference Analysis\n- Analyze visual references for lighting, composition, and style elements\n- Identify key photographers or photographic movements to reference\n- Extract specific technical details that create the desired effect\n- Note color palettes, textures, and atmospheric qualities\n\n### Step 3: Prompt Construction"
+    },
+    {
+      "file": "editorial/agency-visual-storyteller.md",
+      "start_line": 27,
+      "end_line": 31,
+      "quote": "### Multimedia Design Excellence\n- Create video content, animations, interactive media, and motion graphics\n- Design infographics, data visualizations, and complex information simplification\n- Provide photography art direction, photo styling, and visual concept development\n- Develop custom illustrations, iconography, and visual metaphor creation"
+    },
+    {
+      "file": "editorial/agency-visual-storyteller.md",
+      "start_line": 55,
+      "end_line": 60,
+      "quote": "- **Visual Pacing**: Rhythm and timing of visual elements for optimal engagement\n\n### Multimedia Content Creation\n- **Video Storytelling**: Storyboard development, shot selection, visual pacing\n- **Animation & Motion Graphics**: Principle animation, micro-interactions, explainer animations\n- **Photography Direction**: Concept development, mood boards, styling direction"
+    },
+    {
+      "file": "critique/impeccable-bolder.md",
+      "start_line": 18,
+      "end_line": 24,
+      "quote": "- **Keep content true.** Existing claims are part of the scope: preserve them unless the user supplies replacements. If real evidence is essential to the direction but absent, ask for it.\n- **Commit, then clarify.** Half-measures read as noise. Make the one decisive move completely, then quiet everything around it so the move is legible. If every element got louder, the section got flatter.\n- **Give it its own rhythm.** The target should read as a peak in the scroll, a shift in density or pace from what surrounds it, not simply more of the same.\n\n## The skeleton test\n\nStrip the copy out of your planned section and study the bare structure. Does the skeleton still say what this section is and why it matters, through hierarchy and the system's devices alone? If it only works once the words return, the boldness is in the text size, not the design. A placeholder for an image or artifact names a job, an anchor and a piece of evidence, not a cue to drop in a decorative photo; fill that job with whatever the subject actually has."
+    },
+    {
+      "file": "critique/impeccable-layout.md",
+      "start_line": 18,
+      "end_line": 23,
+      "quote": "   - **Reading order:** Apply the squint test. With detail blurred, can you still identify the primary element, the secondary element, and the major groups in order?\n   - **Grouping:** Are related items close and distinct groups separated, or are containers compensating for weak proximity?\n   - **Rhythm:** Do tight and generous intervals create a deliberate cadence, or is one spacing value repeated until everything has equal weight?\n   - **Structure:** Does the topology match the content and task? Are repeated cards, columns, or sections genuinely equivalent, or merely a framework default?\n   - **Density:** Does the amount of information per region fit use frequency, decision complexity, and visitor mode?\n   - **Adaptation:** At narrow, intermediate, wide, zoomed, and localized states, what reorders, collapses, wraps, scrolls, or remains fixed? Does DOM and focus order still agree with the visual order?"
+    },
+    {
+      "file": "critique/impeccable-layout.md",
+      "start_line": 35,
+      "end_line": 41,
+      "quote": "Before editing, name:\n\n- the primary reading or task path;\n- what belongs together and what must separate;\n- which element leads and which supports;\n- the intended density and spacing rhythm;\n- how the structure changes across containers, viewports, input modes, and content extremes."
+    },
+    {
+      "file": "critique/taste-redesign-SKILL.md",
+      "start_line": 58,
+      "end_line": 58,
+      "quote": "- **Missing whitespace.** Double the spacing. Let the design breathe. Dense layouts work for data dashboards, not for marketing pages."
+    },
+    {
+      "file": "critique/taste-redesign-SKILL.md",
+      "start_line": 82,
+      "end_line": 82,
+      "quote": "- **Fake round numbers like `99.99%`, `50%`, `$100.00`.** Use organic, messy data: `47.2%`, `$99.00`, `+1 (312) 847-1928`."
+    },
+    {
+      "file": "critique/taste-SKILL.md",
+      "start_line": 267,
+      "end_line": 267,
+      "quote": "1. **Image-generation tool first.** If ANY image-gen tool is available in the environment (`generate_image`, MCP image tool, IDE-integrated gen, OpenAI image tools, etc.) you MUST use it to create section-specific assets: hero photography, product shots, texture backgrounds, mood images. Generate at the right aspect ratio for the section. Do not skip this step because hand-rolled CSS feels faster."
+    },
+    {
+      "file": "critique/taste-SKILL.md",
+      "start_line": 689,
+      "end_line": 689,
+      "quote": "* **NO pills/labels/tags overlaid on images.** No `<span>` overlays on photos with tags like `Brand · 02`, `PLATE · BRAND`, `Field notes - journal`. Either let the image speak alone, or add a caption directly below (outside the image)."
+    }
+  ],
+  "recommendation": {
+    "primary": "Image Prompt Engineer",
+    "support": [
+      "Impeccable Bolder",
+      "Impeccable Layout",
+      "Visual Storyteller"
+    ],
+    "wholebook_boundary": "主役/密度/視線/重なりの全冊方針は編集長・編集者が決め、パーツ担当は指定された役目と配置に合う素材を供給する。パーツの出来栄えだけで全冊を合格にしない。",
+    "missing": [
+      "既存人物・実写真の棚卸しと生成素材との区別",
+      "透過切抜き、文字が重なる領域、背景透かしとしての供給",
+      "配置後の実寸トリミング、顔・手・文字の干渉確認",
+      "実使用サイズでの解像度と権利の確認",
+      "架空の数値・実績・学生像を事実として創作しない"
+    ]
+  },
+  "overall": "パーツ用途ではImage Prompt Engineerが主候補。ただし今回の最大問題の紙面密度をパーツだけで直せない。主役・脇役・密度・疎密を具体化するImpeccable Layoutと、素材に役目を求めるBolderの方が全体制作の欠陥には直接効く。"
+}
