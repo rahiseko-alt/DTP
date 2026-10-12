@@ -75,18 +75,17 @@ def esc(s):
     return s.replace("|", "／").replace("\n", " ")
 
 
-def main():
-    own = read_table(OWN)
-    ref = read_table(REF)
+def render(own, ref):
+    """自社台帳(own)と参考校台帳(ref)の表から比較表の本文を作る。"""
     out = [
         "# 学校比較表（自社 × 参考校3校）",
         "",
-        "自動生成: `python3 system/scripts/build-school-comparison.py`。手で編集しない。",
+        "自動生成: `python3 system/scripts/build-school-comparison.py`。手で編集しない。検査: `python3 system/scripts/check-school-comparison.py`。",
         "",
         "- 自社列は [確定台帳](../company-data/ledger.md) の記録をそのまま読み込む（空欄は未確定）。値の正本は確定台帳。",
         "- 参考校列は [参考校台帳](reference-ledger.md) の記録（画像で目視した内容のみ。空欄は未確認を含む）。",
         "- 参考校の学校名・数字・固有コピーを自社の BOOK・company-data・shared へ転記しない（AGENTS.md §7）。",
-        "- 参考校の適用年度は2027年度。自社の学費は2027年度4月入学・日本人向け募集要項V4（確定台帳）で、2028年度の条件ではない。",
+        "- 参考校の適用年度は2027年度。自社の学費は確定台帳の「学費資料の適用年度」に従う（2028年度の条件ではない）。",
         "",
         "| 項目 | AIビジネス専門学校（自社） | HAL名古屋 | 国際医学技術専門学校 | 名古屋医療秘書福祉&IT専門学校 |",
         "| --- | --- | --- | --- | --- |",
@@ -98,7 +97,11 @@ def main():
         own_cell = esc("<br>".join(parts) if len(parts) > 1 else "".join(parts))
         r = ref.get(rl, ["", "", ""]) + ["", "", ""]
         out.append("| " + " | ".join([label, own_cell] + [esc(x) for x in r[:3]]) + " |")
-    OUT.write_text("\n".join(out) + "\n", encoding="utf-8")
+    return "\n".join(out) + "\n"
+
+
+def main():
+    OUT.write_text(render(read_table(OWN), read_table(REF)), encoding="utf-8")
     print(f"wrote {OUT.relative_to(ROOT)} ({len(ROWS)} rows)")
 
 
