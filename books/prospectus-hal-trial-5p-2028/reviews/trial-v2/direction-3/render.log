@@ -1,0 +1,14 @@
+render: BOOK prospectus-hal-trial-5p-2028（ルート: /workspace/DTP）
+  PNG  books/prospectus-hal-trial-5p-2028/output/png/page_001.png（1276×1789px）
+  PNG  books/prospectus-hal-trial-5p-2028/output/png/page_002.png（1276×1789px）
+  PNG  books/prospectus-hal-trial-5p-2028/output/png/page_003.png（1276×1789px）
+  PDF  books/prospectus-hal-trial-5p-2028/output/pdf/prospectus-hal-trial-5p-2028-page_001-page_002-page_003.pdf（3 ページ）
+
+判型: A4 portrait 仕上がり 210×297mm + 塗り足し 3mm = 216×303mm
+PNG: 3 ページ・150dpi・1276×1789px → books/prospectus-hal-trial-5p-2028/output/png/
+PDF: 3 ページ → books/prospectus-hal-trial-5p-2028/output/pdf/prospectus-hal-trial-5p-2028-page_001-page_002-page_003.pdf
+
+警告（1 件）:
+  - Playwright 指定版ではない Chromium（STUDIO_CHROMIUM_PATH=/usr/bin/chromium、154.0.8037.57）で描画しています。字形・行送りが指定版とわずかに違うことがあります
+
+完了: 4 ファイルを書き出しました（18.8 秒）
