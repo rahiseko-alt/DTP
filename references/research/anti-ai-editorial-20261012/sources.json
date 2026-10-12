@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/SKILL.md",
+    "file": "sources/anthropic-frontend-design.md",
+    "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+    "kind": "Anthropic公式、現行原文",
+    "retrieved": "2026-10-12",
+    "version": "main取得時点。immutable commitは未特定"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/pbakaus/impeccable/main/README.md",
+    "file": "sources/impeccable-readme.md",
+    "sha256": "1c6a2cae65fc381ea2dd7989de5b3e7d78baaef4a79c5f7eb343fe14b0b15d93",
+    "kind": "コミュニティの実務指針。効果実証ではない",
+    "retrieved": "2026-10-12",
+    "version": "main取得時点。immutable commitは未特定"
+  }
+]

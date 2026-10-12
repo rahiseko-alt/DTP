@@ -48,3 +48,5 @@ python3 system/scripts/dtp-quality-gate.py --pdf <PDF> --review <review.json> --
 重大指摘、未検査、見開き不足、版の不一致、自己レビュー、編集長差し戻しでは非zero終了。minorは編集長が用途に対して許容する理由を判断に残す。
 
 ゲートは実PDFのページ数とハッシュを確認する。報告内容が本当か、IDが実際の起動者か、紙面が美しいかを単独で証明する機能ではない。親が起動IDとツール実行/目視の証拠を確認する。人間の最終採用・マージ・入稿承認とは別。
+
+デザイン審査ではdesign-contract.mdに従い、evidenceに「参照構成比較」「依頼条件照合」を追加する。原本と出力の具体的画像パス・比較結果を記載し、spreads/rhythm/assets/audienceの合否と一致させる。必須指示違反をminorとして許容しない。

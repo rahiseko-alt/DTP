@@ -24,3 +24,9 @@
 モデルはinherit。レビューと編集長はRead/Grep/Globのみで制作を書き換えない。コマンドによるPDFハッシュ・検証結果は統合担当が取得して渡す。制作とパーツは既存のツール・承認設定を継承する。permissionModeの値を推測で設定しない。
 
 Claudeファイルは `python3 system/scripts/sync-dtp-agent-configs.py` で共通の役割TOML/スキルから生成。`--check` で二重編集によるずれを検出する。Claude CLIはこの環境にないためClaudeの実ランタイム試験は未実施。
+
+## 役割の具体化に関する再調査
+
+2026-10-12、[公式再調査](../../../references/research/agent-role-official-20261012/findings.md)の取得原文を確認。Anthropic公式リポジトリの [system-prompt-design.md](https://github.com/anthropics/claude-code/blob/main/plugins/plugin-dev/skills/agent-development/references/system-prompt-design.md) は「Be specific, not vague」「Give concrete steps」とし、責務・手順・品質基準・出力・例外対応を示す。これは公式の開発助言であり、HALの具体的な審査基準は人間の依頼に基づく本プロジェクト設定。
+
+役割本文に優先順位・役別成果・観測する証拠・差し戻し条件を設定し、design-contract.mdで同じ判断条件を共有する。descriptionだけで起動しない。構文・同期確認は実ランタイムへの設定適用確認と区別する。

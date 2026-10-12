@@ -6,15 +6,15 @@
 
 | 項目 | 引継ぎ |
 | --- | --- |
-| 担当・作業 | HAL風12ページ・2028年4月入学向け冊子を見開き単位で制作。編集制作、独立レビュー、編集長の3役で差し戻しと修正、再レビューを実施 |
-| 保存先 | codex/hal-spread-production-20261012。今回の冊子はmain未反映。制作ハーネスはmainの3005490に反映済み |
-| 制作物 | books/prospectus-hal-2028/output/pdf/prospectus-hal-2028.pdf、output/png/、output/spreads/、output/overview.png |
-| PDF sha256 | acfed7b9247af1cebae55d534f546e5104abcbea611dc508fe73fb0c9960caad |
-| 検証 | 12ページ描画・単ページと全見開きの目視、validateエラー0・警告43、文字安全域・素材配信の検査、最終PDFからのQR復号に成功。preview品質ゲートSUBMIT_READY |
-| 審査記録 | books/prospectus-hal-2028/reviews/production/。初回の差し戻しPDFと証跡、最終PDFと一致する独立レビュー・編集長判断を保存 |
-| 次の一手 | 人間が確認用PDFを確認。マージは明示指示を得て実施。2028年度学費・入試条件の確定と高解像度素材・指定ブラウザによる入稿出力は別途必要 |
-| 制約 | 150dpi確認出力、大配置素材の実効解像度約128–173ppi。対象読者の理解テスト・実寸印刷・実機QR読み取りは未実施 |
-| 役割の実行方法 | spawn_agentにagent_typeがないため、登録役割の指示を別エージェントへ渡して実行。登録設定のsandbox適用やClaudeランタイムの実行確認とは区別する |
+| 担当・作業 | 人間のデザイン差し戻しを受け、AI臭さ排除、公式役割設計、HAL構成比較の3調査をサブで並行実施。役割優先順位・証拠・差し戻し条件を具体化 |
+| 保存先 | codex/hal-spread-production-20261012。今回の冊子・設定変更はmain未反映 |
+| 現冊子 | books/prospectus-hal-2028/output/ に旧確認版あり。過去の提出可判断を最新の人間指示に対する合格とは扱わない |
+| 設定実体 | .codex/roles/*.toml、.agents/skills/dtp-production/design-contract.md。Claude定義は同期スクリプトで生成済み |
+| 調査実体 | references/research/anti-ai-editorial-20261012/、agent-role-official-20261012/、hal-direction-20261012/ |
+| 次の一手 | 女性人物・巨大文字・クリスタル背景透かしの主従が分かる代表面を再制作し、原本比較の独立審査と編集長判断を受けてから全体へ展開 |
+| 素材 | 女性キャラクターは既存原本・透過パーツ・旧24ページ案のLFS実体に存在。HAL調査の素材一覧から選定する。生成キャラクターを実在校生と扱わない |
+| 検証 | 役割TOML構文、Claude生成同期、既存品質ゲート10試験に合格。独立設定検証の適用範囲と代表面選択の抜け穴を修正。新紙面の制作・審査は未実施 |
+| 制約 | 現ホストはagent_type未対応のため役割本文を別エージェントへ渡す。設定sandbox適用やClaudeランタイム実行を装わない。機械ゲートは審美的達成を保証しない |
 
 ## 冊子制作を再開するとき
 
