@@ -1,26 +1,11 @@
-/* Page 3: school photographs and an explanatory Layer 2 process. */
-.learn-title{left:11mm;top:23mm;width:196mm;font-size:142pt;z-index:4}
-.learn-title em{font-size:91pt}
-.learn-main{left:76mm;top:109mm;width:137mm;height:83mm;z-index:1}
-.learn-main img{object-position:58% 44%}
-.learn-main figcaption{left:auto;right:10mm;bottom:3mm;font-size:8pt;padding:1mm 2mm}
-.image-learning{left:14mm;right:auto;top:185mm;width:106mm;height:92mm;z-index:3}
-.image-learning h2{left:0;top:0;font-size:34pt;background:none;padding:0;color:#ef344b}
-.image-purpose{left:0;top:19mm;width:112mm;font-size:10.5pt!important;line-height:1.5!important;background:none;padding:0}
-.generation-flow{position:absolute;left:0;top:33mm;width:106mm;display:flex;align-items:center;gap:2mm;white-space:nowrap;font-size:13pt;font-weight:900;color:#102655}
-.generation-flow span{border-bottom:1mm solid #ef344b;padding-bottom:1.5mm}
-.generation-flow b{font-size:13pt;color:#ef344b}
-.generation-description{position:absolute;left:0;top:48mm;width:107mm}
-.generation-description p{font-size:8.5pt;line-height:1.65}
-.generation-description p+p{margin-top:3mm}
-.learn-detail{display:block;position:absolute;left:130mm;top:202mm;width:83mm;height:52mm;z-index:2}
-.learn-detail img{width:100%;height:100%;object-fit:cover;object-position:54% 58%}
-.learn-detail figcaption{position:absolute;left:3mm;bottom:3mm;max-width:74mm;background:#fff;padding:1mm 1.5mm;color:#102655;font-size:7pt}
-.translate-learning{left:14mm;right:auto;top:127mm;width:61mm;z-index:3}
-.translate-learning h2{font-size:24pt}
-.translate-learning p{font-size:8.5pt;line-height:1.55;margin-top:2mm}
-.data-learning{left:14mm;right:auto;top:158mm;width:58mm;z-index:3}
-.data-learning h2{font-size:20pt;white-space:nowrap}
-.data-learning p{font-size:8.5pt;line-height:1.55;margin-top:2mm}
-.learn-intro{left:130mm;right:11mm;top:261mm;font-size:7.5pt!important;line-height:1.6!important}
-.crystal-watermark{left:40mm;top:199mm;width:170mm;height:92mm;opacity:.027}
+/* Actual AI editing comparison replaces repeated school photographs. */
+.learn-title{left:11mm;top:23mm;width:196mm;font-size:142pt;z-index:4}.learn-title em{font-size:91pt}
+.image-learning{left:14mm;right:11mm;top:105mm;width:auto;height:137mm;z-index:3}
+.image-learning h2{left:112mm;top:0;font-size:20pt;background:none;padding:0;color:#ef344b}
+.image-purpose{left:auto;right:0;top:11mm;width:auto;font-size:9pt!important;background:none;padding:0}
+.image-comparison{position:absolute;left:0;right:0;top:17mm;height:84mm;display:flex;gap:8mm}.image-comparison figure{position:relative;flex:1;min-width:0;height:84mm;overflow:hidden}.image-comparison img{width:100%;height:100%;object-fit:cover;object-position:50% 43%}.image-comparison figcaption{position:absolute;left:2mm;top:2mm;background:#f6f3eb;color:#102655;padding:1mm 2mm;font-size:9pt;font-weight:900}.edit-arrow{position:absolute;left:calc(50% - 4mm);top:35mm;width:8mm;font-size:19pt;text-align:center;color:#ef344b}
+.edit-instruction{position:absolute;left:0;top:105mm;width:113mm}.edit-instruction span{font-size:8pt;font-weight:700}.edit-instruction strong{display:block;font-size:20pt;line-height:1.2;color:#ef344b;margin:1mm 0 2mm}.edit-instruction p{font-size:8.5pt;line-height:1.55}
+.example-disclaimer{position:absolute;left:121mm;right:0;top:111mm;font-size:8pt!important;line-height:1.6!important}
+.translate-learning{left:14mm;right:auto;top:251mm;width:88mm;z-index:3}.translate-learning h2{font-size:24pt}.translate-learning p{font-size:8.5pt;line-height:1.55;margin-top:2mm}
+.data-learning{left:112mm;right:11mm;top:251mm;width:auto;z-index:3}.data-learning h2{font-size:24pt;white-space:nowrap}.data-learning p{font-size:8.5pt;line-height:1.55;margin-top:2mm}
+.learn-intro{left:14mm;right:11mm;top:280mm;font-size:7.5pt!important;line-height:1.6!important}.crystal-watermark{left:40mm;top:199mm;width:170mm;height:92mm;opacity:.027}

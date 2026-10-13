@@ -1,0 +1,11 @@
+{
+  "result": "TRIAL_VERIFIED",
+  "pdf_sha256": "46c1109310c26f5f041a2d162729e52f2be42db2b7ac7e94c1ab9b6c856a480a",
+  "review_sha256": "9f8511562761c8a247b186e6ff314d1028bca4c258d63167fac952e42fd72851",
+  "page_count": 5,
+  "distinct_roles": true,
+  "all_pages_and_spreads_seen": true,
+  "major_findings": 0,
+  "chief_decision": "submit",
+  "scope": "人間指定5p preview。正式偶数冊子gate・release入稿ではない。"
+}

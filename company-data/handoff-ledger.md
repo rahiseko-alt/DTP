@@ -12,7 +12,7 @@
 | 評価の場所 | references/research/prompt-evaluation-20261012/。各役JSON/MDに全件読了・候補比較・根拠引用、integrated.mdに統合。支持数値は評価軸に使わない |
 | 提案 | 制作/密度審査はLayout、独立性と統合手順はCritique、制作前照合はFrontend Design。Storytellerは編集構成補助、Image Prompt Engineerはパーツ。前回のStoryteller中心案から変更 |
 | 紙面 | books/prospectus-hal-2028/output/pdf/prospectus-hal-2028.pdfはa11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1。人間が密度不足を指摘した版。人間のデザイン承認済みとは扱わない |
-| 次の一手 | 人間の指示で港の生成画像をストック/元生成PNG/紙面から除去。現PDF c08f5fa5d1f0d59be46db54cb0616d5e515fe4ffec471e70cc54444cba83fd3c、5ページ。全ページを新たにブラウザ撮影し親も自己目視。港除去は完了、紙面全体は差し戻し。p3の画像生成入力/結果の視覚対応、p4の5分野と写真・説明の対応、写真反復、p2学科名改行が残る。証拠はbooks/prospectus-hal-trial-5p-2028/reviews/port-removal/self-check.md、before/after/after-first、reviews/production/現SHA。旧提出可を流用しない。今回は削除と検査までで全体再制作はしていない。次は人間の制作指示に従って残る課題を再編集。保存はcodex/hal-redesign-20261012、main未反映 |
+| 次の一手 | 5ページ試作の残る指摘を修正。p2学科名改行、p3同女性CGの実編集前後と指示要旨、p4一般場面での5分野関係図、写真反復を修正。全5ページPNG・見開き・PDFを同版に統一。PDF SHA256=46c1109310c26f5f041a2d162729e52f2be42db2b7ac7e94c1ab9b6c856a480a。証拠はbooks/prospectus-hal-trial-5p-2028/reviews/fix-20261013/。previewであり人間採用・正式入稿版ではない。港はストックから除去したまま。保存はcodex/hal-redesign-20261012、main未反映 |
 | 残る制約 | 紙面密度の再設計、2028年度学費、入稿用素材/指定ブラウザ、読者・印刷テストは別途必要 |
 
 ## 冊子制作を再開するとき

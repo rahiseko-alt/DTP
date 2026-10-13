@@ -1,0 +1,14 @@
+{
+  "pdf_sha256": "46c1109310c26f5f041a2d162729e52f2be42db2b7ac7e94c1ab9b6c856a480a",
+  "review_sha256": "9f8511562761c8a247b186e6ff314d1028bca4c258d63167fac952e42fd72851",
+  "mode": "preview",
+  "chief_session": "/root/fix5_chief",
+  "decision": "submit",
+  "quality": {
+    "intent": "pass",
+    "coherence": "pass",
+    "design": "pass",
+    "usable": "pass"
+  },
+  "reason": "編集長が全5単ページ・更新後全見開きを実見し同版独立レビューと照合。前major/minorを現物で解消確認。女性主役、巨大文字、大小写真、背景透かし、見開きの変化を維持。p3実編集比較と指示要旨が対応、p4一般的5分野の関係が対応。写真反復と科孤立を解消、港なし。2027参考/2028未確定を区別。5p試作確認PDFとして提出可。読者テスト・QR実機・release未実施。人間の採用/公開/入稿/マージ承認ではない。"
+}

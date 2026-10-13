@@ -1,1 +1,2 @@
-/* Layout is in BOOK stylesheet. */
+/* Local correction: keep 科 with the course name. */
+.course-pair h2{font-size:12.8pt;line-height:1.45;overflow-wrap:normal;word-break:normal}

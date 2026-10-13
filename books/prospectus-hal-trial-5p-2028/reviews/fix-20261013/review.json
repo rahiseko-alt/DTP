@@ -1,0 +1,81 @@
+{
+  "pdf_sha256": "46c1109310c26f5f041a2d162729e52f2be42db2b7ac7e94c1ab9b6c856a480a",
+  "mode": "preview",
+  "page_count": 5,
+  "binding": "left",
+  "editor_session": "/root/fix5_editor",
+  "reviewer_session": "/root/fix5_reviewer",
+  "pages_seen": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "spreads_seen": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "dimensions": {
+    "content": "pass",
+    "audience": "pass",
+    "spreads": "pass",
+    "rhythm": "pass",
+    "legibility": "pass",
+    "assets": "pass",
+    "output": "pass"
+  },
+  "checks": {
+    "validate": "pass",
+    "render": "pass",
+    "visual_pages": "pass",
+    "visual_spreads": "pass"
+  },
+  "findings": [],
+  "evidence": {
+    "independence": "全5p画像で所見固定後にコード・技術結果・事実記録を照合。旧見開きを検出し更新後再目視。",
+    "fixes": [
+      "p2科孤立なし",
+      "p3同人物/構図の赤桃光→青シアン比較は編集指示要旨に対応。肌色維持。学生作品ではない説明例表示。巨大字干渉なし。",
+      "p3実写真除去によりp2/p3、p3/p5反復解消。",
+      "p4マーケティング→販売→サービスと事務/経営の支援を図と説明に接続。一般例表示。",
+      "全5p港なし。女性主役・巨大字・大小写真・クリスタル透かし維持。"
+    ],
+    "facts": "台帳全文と学科/年度/定員/費用/連絡先照合。2027参考、2028未確定の注記一致。写真承諾/生成prompt記録確認。",
+    "verification": "独立sha256sum/pdfinfo/pdftotext確認。全5p PNGと新見開き/PDF本文一致。render成功、validateエラー0警告52。",
+    "limits": "preview。release、入稿解像度、読者テスト、QR実機未実施。",
+    "参照構成比較": [
+      {
+        "reference": "references/HAL-nagoya/brochure-1/page_001.jpg",
+        "output": "books/prospectus-hal-trial-5p-2028/output/png/page_001.png",
+        "comparison": "女性顔主役、巨大白文字を身体へ重ね、全面画像と学校名帯に主従。"
+      },
+      {
+        "reference": "references/HAL-nagoya/brochure-1/page_004.jpg / page_005.jpg、references/HAL-nagoya/brochure-2/page_001.jpg",
+        "output": "books/prospectus-hal-trial-5p-2028/output/spreads/spread-02-03.png",
+        "comparison": "人物・大小写真群・大訴求・補足群を左の在校生大写真/小写真と右の巨大見出し/実編集比較へ再構成。画像が編集指示に対応。"
+      },
+      {
+        "reference": "references/HAL-nagoya/brochure-1/page_014.jpg",
+        "output": "books/prospectus-hal-trial-5p-2028/output/spreads/spread-04-05.png",
+        "comparison": "大関係図と周辺説明/写真を左5分野関係図と大小教室写真へ再構成。右費用相談は金額主役へ変化。固有実績転載なし。"
+      }
+    ],
+    "依頼条件照合": [
+      "p2科孤立なし",
+      "p3同人物/構図の赤桃光→青シアン比較は編集指示要旨に対応。肌色維持。学生作品ではない説明例表示。巨大字干渉なし。",
+      "p3実写真除去によりp2/p3、p3/p5反復解消。",
+      "p4マーケティング→販売→サービスと事務/経営の支援を図と説明に接続。一般例表示。",
+      "全5p港なし。女性主役・巨大字・大小写真・クリスタル透かし維持。"
+    ]
+  }
+}

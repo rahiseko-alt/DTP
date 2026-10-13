@@ -1,1 +1,15 @@
-/* Layout is in BOOK stylesheet. */
+/* Unequal type and connecting lines explain roles; not five equal cards. */
+.business-relations{position:absolute;left:117mm;right:11mm;top:24mm;height:123mm}
+.relations-label{font-size:8pt!important;line-height:1.4!important;color:#ffd633}.relations-label b{font-weight:500;color:#fff}
+.field{position:absolute}.field strong{display:block;line-height:1.15;font-weight:900}.field span{display:block;margin-top:1mm;font-size:8.5pt;font-weight:700;color:#ffd633}
+.marketing{left:0;top:15mm}.marketing strong{font-size:20pt;white-space:nowrap}
+.sales{left:0;top:39mm}.sales strong{font-size:34pt}
+.service{left:34mm;top:43mm}.service strong{font-size:22pt}
+.relation-arrow{position:absolute;color:#ffd633;font-size:15pt;line-height:1}.arrow-one{left:8mm;top:31mm}.arrow-two{left:25mm;top:47mm}
+.office{left:0;top:68mm;padding-top:3mm;border-top:.4mm solid #ffffff70;width:41mm}.office strong{font-size:25pt}.office span{font-size:7.5pt;white-space:nowrap}
+.management{left:49mm;top:65mm;padding-top:6mm;border-top:.4mm solid #ffffff70;width:33mm}.management strong{font-size:30pt}
+.relations-note{position:absolute;left:0;right:0;top:93mm;font-size:8pt!important;line-height:1.6!important}
+.relations-scope{position:absolute;left:0;right:0;top:111mm;font-size:7pt!important;line-height:1.5!important;color:#d1deef}
+.courses-action figcaption{font-size:7pt}.courses-people figcaption{font-size:6.5pt}
+
+.support-link{position:absolute;left:8mm;right:15mm;top:64mm;height:6mm;border-top:.35mm solid #ffd633;border-left:.35mm solid #ffd633;border-right:.35mm solid #ffd633}.support-link:before{content:"";position:absolute;left:28mm;top:-6mm;height:6mm;border-left:.35mm solid #ffd633}

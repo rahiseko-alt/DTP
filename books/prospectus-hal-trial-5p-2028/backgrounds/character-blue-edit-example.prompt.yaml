@@ -1,0 +1,20 @@
+tool: image_gen
+model: unspecified-built-in
+created: '2026-10-13'
+author: codex
+seed: null
+prompt: Edit this existing synthetic illustration for a clearly visible before-and-after
+  AI image-editing demonstration. Keep the same woman, face, pose, armor geometry,
+  framing and composition. Change all red, magenta, pink and warm light accents in
+  the armor jewels, glowing edges and background to cool cyan and blue, so the entire
+  lighting palette becomes distinctly blue and cyan. Keep skin natural, do not make
+  skin blue. Preserve dark hair, metallic silver armor and the woman's identity. Do
+  not add or remove scene elements. No text, numbers, captions, logo, signature or
+  watermark. Return the edited image only.
+reference_inputs:
+- path: books/prospectus-hal-2028/backgrounds/cover-armor.png
+  usage: img2img
+  note: 既存の自社生成女性CG、学校実写真ではない
+params:
+  transparent_background: false
+notes: AI画像編集の一般的説明例。学校授業・学生作品・在校生写真ではない。紙面の日本語指示は要旨、実入力全文はprompt。
