@@ -1,0 +1,19 @@
+{
+  "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/hero-restoration-candidate.png",
+  "width": 1566,
+  "height": 1005,
+  "alpha": false,
+  "sha256": "34a06eb4fee8139e26a339824ec578b323116166a993c627ed0cf72fbf40996e",
+  "status": "candidate_not_approved",
+  "visual_inspection": {
+    "handwriting_removed": true,
+    "badge_retained": true,
+    "whole_image_pixel_identical": false,
+    "whole_image_replacement_allowed": false
+  },
+  "limitations": [
+    "Generated image changes texture, facial details and some geometry.",
+    "Only aligned lettering-mask patches can be considered; original pixels outside mask must be retained.",
+    "No claim of final mask-composite verification."
+  ]
+}

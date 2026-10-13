@@ -1,0 +1,67 @@
+{
+  "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+  "source_sha256": "34f2673f7a143efa0ecaae6c52cf6c45465bec07eea81fc5c01dbd71d15473b3",
+  "original_dimensions": {
+    "width": 1491,
+    "height": 1055
+  },
+  "method": "Decoded raw RGB bytes, source rect versus delivered PNG, exact equality",
+  "count": 9,
+  "all_exact": true,
+  "checks": [
+    {
+      "id": "hero-original",
+      "exact_raw_rgb": true,
+      "compared_bytes": 1068330,
+      "output_sha256": "584e1a1d4c95af45706069639b126d4a4890278028fd0d45eb4115c1ad77e6e7"
+    },
+    {
+      "id": "learning-01-generative-ai",
+      "exact_raw_rgb": true,
+      "compared_bytes": 86982,
+      "output_sha256": "d8b084b7770873c606c8296d20aa9f783ab42ceb7414e2f11515b4b03d3cc6c0"
+    },
+    {
+      "id": "learning-02-international-business",
+      "exact_raw_rgb": true,
+      "compared_bytes": 86982,
+      "output_sha256": "7473ddf4b9cc7448c5f4c3d111ef6850e027340c0c9d74c44698a0b6dca3b72e"
+    },
+    {
+      "id": "learning-03-marketing",
+      "exact_raw_rgb": true,
+      "compared_bytes": 86982,
+      "output_sha256": "2fdfa54ee2415d92eb02bd2920b03f618c04d4f122a35b8803488eab59e9e947"
+    },
+    {
+      "id": "learning-04-cultural-communication",
+      "exact_raw_rgb": true,
+      "compared_bytes": 146970,
+      "output_sha256": "16bea47bf82f5d23e981688005e50c053bbbe385cffae9b8f340b4e3e58050f4"
+    },
+    {
+      "id": "learning-05-presentation",
+      "exact_raw_rgb": true,
+      "compared_bytes": 128754,
+      "output_sha256": "81aa289a2cf2f432295a6c1fe45c3cbc9829983d8193d620d9eb190a8c1d5732"
+    },
+    {
+      "id": "feature-01-practical-ai",
+      "exact_raw_rgb": true,
+      "compared_bytes": 84366,
+      "output_sha256": "6117c748100ae6bbb48d939ac1dfb0e4c98c6130f4a336d0c9d6583eac0993de"
+    },
+    {
+      "id": "feature-02-collaboration",
+      "exact_raw_rgb": true,
+      "compared_bytes": 82431,
+      "output_sha256": "fe4496195f81497e5f61aacc7bfd01ff8675d272ae4330770b070ee8454d49dc"
+    },
+    {
+      "id": "feature-03-pbl",
+      "exact_raw_rgb": true,
+      "compared_bytes": 80109,
+      "output_sha256": "47f4fc8b3a2e47fa5e9f8eee858bb9e2117d628f0a40bd30a3f063c0fb9f005e"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+[
+  {
+    "id": "hero",
+    "label": "七夕の集合メイン写真",
+    "source": "references/user-gpt/faithful-parts-20261013/multicultural.png",
+    "rect": {
+      "left": 60,
+      "top": 17,
+      "width": 724,
+      "height": 603
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/multicultural/hero.png",
+    "width": 724,
+    "height": 603,
+    "status": "restoration_required",
+    "issues": [
+      "下半分に紙面見出し・本文・緑色帯と白フェードが融合。除去前の原画素保存版。",
+      "元画像は冊子モックアップであり、遠近・紙面湾曲を含む画素を無補正で維持。",
+      "A4見開き420×297mmを画像全域に仮定した実効dpiは150未満。原寸相当の入稿用高解像度ではない。"
+    ],
+    "placement_mm": {
+      "width": 193.929,
+      "height": 161.5182140883978
+    },
+    "effective_dpi": {
+      "x": 94.8264571054355,
+      "y": 94.8264571054355
+    },
+    "alpha": false,
+    "pixel_verification": {
+      "exact": true,
+      "decoded_rgb_sha256": "8a90a1ee6d30cdabfeb8e6886d03b402bcb39fab0076cd8e679c98f49dbcebe8",
+      "source_crop_sha256": "8a90a1ee6d30cdabfeb8e6886d03b402bcb39fab0076cd8e679c98f49dbcebe8",
+      "output_sha256": "8a90a1ee6d30cdabfeb8e6886d03b402bcb39fab0076cd8e679c98f49dbcebe8"
+    },
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "8a90a1ee6d30cdabfeb8e6886d03b402bcb39fab0076cd8e679c98f49dbcebe8",
+    "group": "multicultural"
+  },
+  {
+    "id": "classroom",
+    "label": "授業",
+    "source": "references/user-gpt/faithful-parts-20261013/multicultural.png",
+    "rect": {
+      "left": 822,
+      "top": 625,
+      "width": 292,
+      "height": 131
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/multicultural/classroom.png",
+    "width": 292,
+    "height": 131,
+    "status": "ready_exact",
+    "issues": [
+      "元画像は冊子モックアップであり、遠近・紙面湾曲を含む画素を無補正で維持。",
+      "A4見開き420×297mmを画像全域に仮定した実効dpiは150未満。原寸相当の入稿用高解像度ではない。"
+    ],
+    "placement_mm": {
+      "width": 78.214,
+      "height": 35.089157534246574
+    },
+    "effective_dpi": {
+      "x": 94.82701306671439,
+      "y": 94.82701306671439
+    },
+    "alpha": false,
+    "pixel_verification": {
+      "exact": true,
+      "decoded_rgb_sha256": "f0ffe57f42eeb5122b60ab2ae1076ebb5500d4b93c6273c8140475659529783d",
+      "source_crop_sha256": "f0ffe57f42eeb5122b60ab2ae1076ebb5500d4b93c6273c8140475659529783d",
+      "output_sha256": "f0ffe57f42eeb5122b60ab2ae1076ebb5500d4b93c6273c8140475659529783d"
+    },
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "f0ffe57f42eeb5122b60ab2ae1076ebb5500d4b93c6273c8140475659529783d",
+    "group": "multicultural"
+  },
+  {
+    "id": "school-life",
+    "label": "学校生活",
+    "source": "references/user-gpt/faithful-parts-20261013/multicultural.png",
+    "rect": {
+      "left": 1128,
+      "top": 625,
+      "width": 369,
+      "height": 131
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/multicultural/school-life.png",
+    "width": 369,
+    "height": 131,
+    "status": "ready_exact",
+    "issues": [
+      "元画像は冊子モックアップであり、遠近・紙面湾曲を含む画素を無補正で維持。",
+      "A4見開き420×297mmを画像全域に仮定した実効dpiは150未満。原寸相当の入稿用高解像度ではない。"
+    ],
+    "placement_mm": {
+      "width": 98.839,
+      "height": 35.08918428184282
+    },
+    "effective_dpi": {
+      "x": 94.82694078248464,
+      "y": 94.82694078248464
+    },
+    "alpha": false,
+    "pixel_verification": {
+      "exact": true,
+      "decoded_rgb_sha256": "6cc548fecafe2434a871e2f02de356c020ded5dc516130bdec0edce0eb83c7a5",
+      "source_crop_sha256": "6cc548fecafe2434a871e2f02de356c020ded5dc516130bdec0edce0eb83c7a5",
+      "output_sha256": "6cc548fecafe2434a871e2f02de356c020ded5dc516130bdec0edce0eb83c7a5"
+    },
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "6cc548fecafe2434a871e2f02de356c020ded5dc516130bdec0edce0eb83c7a5",
+    "group": "multicultural"
+  },
+  {
+    "id": "exchange",
+    "label": "交流",
+    "source": "references/user-gpt/faithful-parts-20261013/multicultural.png",
+    "rect": {
+      "left": 823,
+      "top": 809,
+      "width": 291,
+      "height": 129
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/multicultural/exchange.png",
+    "width": 291,
+    "height": 129,
+    "status": "ready_exact",
+    "issues": [
+      "衣服上の元画像の英文は保持。",
+      "元画像は冊子モックアップであり、遠近・紙面湾曲を含む画素を無補正で維持。",
+      "A4見開き420×297mmを画像全域に仮定した実効dpiは150未満。原寸相当の入稿用高解像度ではない。",
+      "画面内のUI・衣服文字・成果物の文字は被写体の一部として保持。最新の変更禁止指示に従い除去対象としない。"
+    ],
+    "placement_mm": {
+      "width": 77.946,
+      "height": 34.55338144329897
+    },
+    "effective_dpi": {
+      "x": 94.82718805326763,
+      "y": 94.82718805326763
+    },
+    "alpha": false,
+    "pixel_verification": {
+      "exact": true,
+      "decoded_rgb_sha256": "a1a7bc717904e9175f15fa70d91ddf863df912cb2a7582be5696296f97f7052d",
+      "source_crop_sha256": "a1a7bc717904e9175f15fa70d91ddf863df912cb2a7582be5696296f97f7052d",
+      "output_sha256": "a1a7bc717904e9175f15fa70d91ddf863df912cb2a7582be5696296f97f7052d"
+    },
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "a1a7bc717904e9175f15fa70d91ddf863df912cb2a7582be5696296f97f7052d",
+    "group": "multicultural"
+  },
+  {
+    "id": "event",
+    "label": "行事",
+    "source": "references/user-gpt/faithful-parts-20261013/multicultural.png",
+    "rect": {
+      "left": 1129,
+      "top": 809,
+      "width": 366,
+      "height": 130
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/multicultural/event.png",
+    "width": 366,
+    "height": 130,
+    "status": "ready_exact",
+    "issues": [
+      "元画像は冊子モックアップであり、遠近・紙面湾曲を含む画素を無補正で維持。",
+      "A4見開き420×297mmを画像全域に仮定した実効dpiは150未満。原寸相当の入稿用高解像度ではない。"
+    ],
+    "placement_mm": {
+      "width": 98.036,
+      "height": 34.82153005464481
+    },
+    "effective_dpi": {
+      "x": 94.82639030560202,
+      "y": 94.82639030560202
+    },
+    "alpha": false,
+    "pixel_verification": {
+      "exact": true,
+      "decoded_rgb_sha256": "cb23a0e2fb97c63517059472d611a23e43bdb2ae07e654d568c89b5c38b414ff",
+      "source_crop_sha256": "cb23a0e2fb97c63517059472d611a23e43bdb2ae07e654d568c89b5c38b414ff",
+      "output_sha256": "cb23a0e2fb97c63517059472d611a23e43bdb2ae07e654d568c89b5c38b414ff"
+    },
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "cb23a0e2fb97c63517059472d611a23e43bdb2ae07e654d568c89b5c38b414ff",
+    "group": "multicultural"
+  }
+]

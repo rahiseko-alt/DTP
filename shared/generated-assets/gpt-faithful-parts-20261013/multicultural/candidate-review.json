@@ -1,0 +1,33 @@
+{
+  "status": "candidate_only",
+  "file": "hero-text-removal-candidate-v1.png",
+  "width": 1375,
+  "height": 1144,
+  "alpha": false,
+  "original": "hero.png",
+  "edit_tool": "image_gen.imagegen",
+  "model": "undisclosed-built-in",
+  "observations": [
+    "黒い紙面文字と緑の下線は候補内で除去済み。",
+    "元原本より電話の細部や手と服の輪郭が異なるため候補全体の採用不可。",
+    "人物を残した白フェードを保持する編集方針。ただし境界の一致は未証明。"
+  ],
+  "whole_image_adoption": "prohibited; original pixels must be preserved outside explicit editorial-text masks",
+  "original_crop_pixel_exact": true,
+  "candidate_pixel_exact": false,
+  "suggested_overlay_bbox_in_hero_pixels": [
+    {
+      "left": 20,
+      "top": 346,
+      "width": 690,
+      "height": 165
+    },
+    {
+      "left": 25,
+      "top": 511,
+      "width": 505,
+      "height": 85
+    }
+  ],
+  "mask_note": "粗い位置参考。bbox全面を差替える許可ではない。文字の実画素からマスクを親が定義し輪郭と色差を検証する。"
+}

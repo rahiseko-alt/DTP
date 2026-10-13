@@ -1,0 +1,691 @@
+{
+  "created": "2026-10-13",
+  "asset_count": 57,
+  "identical_count": 57,
+  "assets": [
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/cover-2028/group-photo-exact.png",
+      "source": "references/user-gpt/faithful-parts-20261013/cover-2028.png",
+      "rect": {
+        "left": 89,
+        "top": 326,
+        "width": 912,
+        "height": 730
+      },
+      "identical": true,
+      "raw_pixel_sha256": "0e8b798f513ec07deaaac0fd3b6025859a8e322dfe982eded4dd4c21e707c497"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/multicultural/hero.png",
+      "source": "references/user-gpt/faithful-parts-20261013/multicultural.png",
+      "rect": {
+        "left": 60,
+        "top": 17,
+        "width": 724,
+        "height": 603
+      },
+      "identical": true,
+      "raw_pixel_sha256": "8a90a1ee6d30cdabfeb8e6886d03b402bcb39fab0076cd8e679c98f49dbcebe8"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/multicultural/classroom.png",
+      "source": "references/user-gpt/faithful-parts-20261013/multicultural.png",
+      "rect": {
+        "left": 822,
+        "top": 625,
+        "width": 292,
+        "height": 131
+      },
+      "identical": true,
+      "raw_pixel_sha256": "f0ffe57f42eeb5122b60ab2ae1076ebb5500d4b93c6273c8140475659529783d"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/multicultural/school-life.png",
+      "source": "references/user-gpt/faithful-parts-20261013/multicultural.png",
+      "rect": {
+        "left": 1128,
+        "top": 625,
+        "width": 369,
+        "height": 131
+      },
+      "identical": true,
+      "raw_pixel_sha256": "6cc548fecafe2434a871e2f02de356c020ded5dc516130bdec0edce0eb83c7a5"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/multicultural/exchange.png",
+      "source": "references/user-gpt/faithful-parts-20261013/multicultural.png",
+      "rect": {
+        "left": 823,
+        "top": 809,
+        "width": 291,
+        "height": 129
+      },
+      "identical": true,
+      "raw_pixel_sha256": "a1a7bc717904e9175f15fa70d91ddf863df912cb2a7582be5696296f97f7052d"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/multicultural/event.png",
+      "source": "references/user-gpt/faithful-parts-20261013/multicultural.png",
+      "rect": {
+        "left": 1129,
+        "top": 809,
+        "width": 366,
+        "height": 130
+      },
+      "identical": true,
+      "raw_pixel_sha256": "cb23a0e2fb97c63517059472d611a23e43bdb2ae07e654d568c89b5c38b414ff"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-overview/hero.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-overview.png",
+      "rect": {
+        "left": 39,
+        "top": 44,
+        "width": 685,
+        "height": 628
+      },
+      "identical": true,
+      "raw_pixel_sha256": "7ae59d51dc287a24b64e76ef639abc04e6e1eb7b4174594dbfbbc4045f9b3812"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-overview/ai-practice.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-overview.png",
+      "rect": {
+        "left": 1126,
+        "top": 317,
+        "width": 261,
+        "height": 111
+      },
+      "identical": true,
+      "raw_pixel_sha256": "756120fcf6d2135598ef5659d6b8ffee48072d48dc2de7b84e13e202a7d57e1d"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-overview/multicultural-learning.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-overview.png",
+      "rect": {
+        "left": 1126,
+        "top": 456,
+        "width": 261,
+        "height": 111
+      },
+      "identical": true,
+      "raw_pixel_sha256": "bac9feec73b79d2a224016a934031d48f8985e3c81044affdf013ae37a99a11a"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-overview/presentation.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-overview.png",
+      "rect": {
+        "left": 1126,
+        "top": 597,
+        "width": 261,
+        "height": 113
+      },
+      "identical": true,
+      "raw_pixel_sha256": "f5dff65c085f6f71dc854a2b5565e8f8e7e20d34df0f2c59a59c4734b46a37de"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/hero-original.png",
+      "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+      "rect": {
+        "left": 0,
+        "top": 0,
+        "width": 745,
+        "height": 478
+      },
+      "identical": true,
+      "raw_pixel_sha256": "c90e16d673e25eef26178e951c8c87e28f714ca8640d37b0af73034bdb47d2cf"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/learning-01-generative-ai.png",
+      "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+      "rect": {
+        "left": 780,
+        "top": 239,
+        "width": 218,
+        "height": 133
+      },
+      "identical": true,
+      "raw_pixel_sha256": "ed1bb6565d8501d21e7b2f5292ecacb2031448feb2abe90054665efa480b0527"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/learning-02-international-business.png",
+      "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+      "rect": {
+        "left": 1012,
+        "top": 239,
+        "width": 218,
+        "height": 133
+      },
+      "identical": true,
+      "raw_pixel_sha256": "4c572bcc9b8b6c77d235ba72a7233127c68a0ac3875cf2d95cd54ec078e4f395"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/learning-03-marketing.png",
+      "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+      "rect": {
+        "left": 1243,
+        "top": 239,
+        "width": 218,
+        "height": 133
+      },
+      "identical": true,
+      "raw_pixel_sha256": "ebbab1f3b5d242ed3536ae054cc0b00e8cafdda9a5f09be6e286646b688c80ff"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/learning-04-cultural-communication.png",
+      "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+      "rect": {
+        "left": 780,
+        "top": 472,
+        "width": 355,
+        "height": 138
+      },
+      "identical": true,
+      "raw_pixel_sha256": "46a50c49bac112422187cf79c216543ffef65dfac43095dc7adfa33d9de306c5"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/learning-05-presentation.png",
+      "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+      "rect": {
+        "left": 1150,
+        "top": 472,
+        "width": 311,
+        "height": 138
+      },
+      "identical": true,
+      "raw_pixel_sha256": "1604ba3078df0ae6e9c1096aed25eb833461551bb7bb0e14f5ee886e29f93743"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/feature-01-practical-ai.png",
+      "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+      "rect": {
+        "left": 780,
+        "top": 868,
+        "width": 218,
+        "height": 129
+      },
+      "identical": true,
+      "raw_pixel_sha256": "9fb6142012297fe5844a959fdcbd67ff4968aa0007d151783579efb09b63ad2e"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/feature-02-collaboration.png",
+      "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+      "rect": {
+        "left": 1018,
+        "top": 868,
+        "width": 213,
+        "height": 129
+      },
+      "identical": true,
+      "raw_pixel_sha256": "37bbcd6d41175bc731a104a66c3200ece6b8a2c8301587d34107d54861af1a55"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/feature-03-pbl.png",
+      "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+      "rect": {
+        "left": 1254,
+        "top": 868,
+        "width": 207,
+        "height": 129
+      },
+      "identical": true,
+      "raw_pixel_sha256": "6b6eb9416916192df0b83cf320869f62def6c7329b48ef68ae8c4f8f0a516970"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/hero-original.png",
+      "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+      "rect": {
+        "left": 0,
+        "top": 0,
+        "width": 745,
+        "height": 455
+      },
+      "identical": true,
+      "raw_pixel_sha256": "d64720e46592c63b8c5174ec4dadd0e1df4ceb66071a9854d0558da636c6ca20"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/learning-01-sales-service.png",
+      "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+      "rect": {
+        "left": 780,
+        "top": 240,
+        "width": 216,
+        "height": 131
+      },
+      "identical": true,
+      "raw_pixel_sha256": "f0441509fcf14f7a6a3bc911c816881e7e9426a84f03bdbeb401b1e9195bae0e"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/learning-02-management.png",
+      "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+      "rect": {
+        "left": 1012,
+        "top": 240,
+        "width": 216,
+        "height": 131
+      },
+      "identical": true,
+      "raw_pixel_sha256": "0eddfaf755882255398e53526970837a1e3337925562130366314e38354afe7e"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/learning-03-office.png",
+      "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+      "rect": {
+        "left": 1244,
+        "top": 240,
+        "width": 217,
+        "height": 131
+      },
+      "identical": true,
+      "raw_pixel_sha256": "37976f8d6fd33b489a89ef9ae4fc9ea2c5e8d4525558e84928f644d05d51a234"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/learning-04-marketing.png",
+      "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+      "rect": {
+        "left": 780,
+        "top": 483,
+        "width": 216,
+        "height": 131
+      },
+      "identical": true,
+      "raw_pixel_sha256": "0742ae9b30401ad37904ffb2d147805b3d6a98a64955b383263d47ca5ad382a1"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/learning-05-computer.png",
+      "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+      "rect": {
+        "left": 1012,
+        "top": 483,
+        "width": 216,
+        "height": 131
+      },
+      "identical": true,
+      "raw_pixel_sha256": "bc7a70f1a356024e86038e097cddad34b6cedc34bcf93ee78f2aaa07ab5cced7"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/learning-06-practice.png",
+      "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+      "rect": {
+        "left": 1244,
+        "top": 483,
+        "width": 217,
+        "height": 131
+      },
+      "identical": true,
+      "raw_pixel_sha256": "e356c71b315e46989a38cde80f9dd435f8f1a02744556683309f9e7654d005de"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/feature-01-work-skills.png",
+      "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+      "rect": {
+        "left": 780,
+        "top": 878,
+        "width": 216,
+        "height": 134
+      },
+      "identical": true,
+      "raw_pixel_sha256": "3d470bc18f3407b78296ca5830202bcf039336b2ab8bb101f128daa6340043ec"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/feature-02-curriculum.png",
+      "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+      "rect": {
+        "left": 1017,
+        "top": 878,
+        "width": 211,
+        "height": 134
+      },
+      "identical": true,
+      "raw_pixel_sha256": "1318968fa8a922c47f7bf051a7f2a81929d26d67f4bf030d04fa2fddbfd02a7e"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/feature-03-career-support.png",
+      "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+      "rect": {
+        "left": 1250,
+        "top": 878,
+        "width": 211,
+        "height": 134
+      },
+      "identical": true,
+      "raw_pixel_sha256": "5766aff2ee873caf5a3e41a7898a04b4ec4a4c2d51a245f48a32240e62a374b8"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/hero.png",
+      "source": "references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+      "rect": {
+        "left": 0,
+        "top": 0,
+        "width": 746,
+        "height": 401
+      },
+      "identical": true,
+      "raw_pixel_sha256": "78385c3755f1996ccaf54c267172fc3930edb07d88c1c027fa6319a7d88910d1"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-01-use.png",
+      "source": "references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+      "rect": {
+        "left": 779,
+        "top": 156,
+        "width": 214,
+        "height": 111
+      },
+      "identical": true,
+      "raw_pixel_sha256": "f917349fb44625a47e3f8cc4fe0b05d72a1f5bccfe1574eaa73ed20f0ad1e90a"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-02-research.png",
+      "source": "references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+      "rect": {
+        "left": 1018,
+        "top": 156,
+        "width": 212,
+        "height": 111
+      },
+      "identical": true,
+      "raw_pixel_sha256": "350ed90845232769fc8be6d2efc41edc3160043185dded74dc1f991aae1e0b01"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-03-create.png",
+      "source": "references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+      "rect": {
+        "left": 1255,
+        "top": 156,
+        "width": 211,
+        "height": 111
+      },
+      "identical": true,
+      "raw_pixel_sha256": "61a512c354a5fe12bb1d3cb092268bad9d2144e9ad0ffab01a873c58acc115d9"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-04-analyze.png",
+      "source": "references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+      "rect": {
+        "left": 779,
+        "top": 415,
+        "width": 214,
+        "height": 119
+      },
+      "identical": true,
+      "raw_pixel_sha256": "e0159789669eb8be46c31be594f2863dc05e320dffdc961545032e7e6c82f46e"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-05-present.png",
+      "source": "references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+      "rect": {
+        "left": 1018,
+        "top": 415,
+        "width": 212,
+        "height": 119
+      },
+      "identical": true,
+      "raw_pixel_sha256": "0d3d988fcc7e2125ceb77077b4a79903c960a9cc0af34d584fd4e8bf0cc3be0a"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-06-work.png",
+      "source": "references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+      "rect": {
+        "left": 1255,
+        "top": 415,
+        "width": 211,
+        "height": 119
+      },
+      "identical": true,
+      "raw_pixel_sha256": "8c0164faa933e95d322546daddf6e64a98688068b9f40301d545e16dd67016e2"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/activity-01-marketing.png",
+      "source": "references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+      "rect": {
+        "left": 778,
+        "top": 687,
+        "width": 159,
+        "height": 129
+      },
+      "identical": true,
+      "raw_pixel_sha256": "5df5dd3a09f2583a751c87dca5ba3af9998eb9b254a4614ba09beb5a5a425257"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/activity-02-website.png",
+      "source": "references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+      "rect": {
+        "left": 952,
+        "top": 687,
+        "width": 162,
+        "height": 129
+      },
+      "identical": true,
+      "raw_pixel_sha256": "64f7c1854cda4a19277977429e0dcb050e243889dfe1e59419b3013e819a7fbe"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/activity-03-report.png",
+      "source": "references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+      "rect": {
+        "left": 1129,
+        "top": 687,
+        "width": 162,
+        "height": 129
+      },
+      "identical": true,
+      "raw_pixel_sha256": "ad7cae7feb3136056447ff4d8bc26fb989d4935529705b3a5777265a086adc18"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/activity-04-video.png",
+      "source": "references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+      "rect": {
+        "left": 1307,
+        "top": 687,
+        "width": 160,
+        "height": 129
+      },
+      "identical": true,
+      "raw_pixel_sha256": "152a535a2e70ca916ec40b4bd5f907fad6d3d665413ff3ff1fe8ce9cd0ffc74c"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/hero.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "rect": {
+        "left": 0,
+        "top": 0,
+        "width": 746,
+        "height": 437
+      },
+      "identical": true,
+      "raw_pixel_sha256": "d0c5b3ce15998686b1f696134c630938a66829da67333d453c27f8b7fda90a00"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/step-01-plan.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "rect": {
+        "left": 779,
+        "top": 137,
+        "width": 131,
+        "height": 136
+      },
+      "identical": true,
+      "raw_pixel_sha256": "2c901207c7bcb89c13488030f2159df27a20a0ec70dfd178aa9179fbee66fa38"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/step-02-create.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "rect": {
+        "left": 918,
+        "top": 137,
+        "width": 131,
+        "height": 136
+      },
+      "identical": true,
+      "raw_pixel_sha256": "c507c891312546840ed2e9dded77e3295b84708864773d87fc9dc72a60d36f3e"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/step-03-post.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "rect": {
+        "left": 1057,
+        "top": 137,
+        "width": 131,
+        "height": 136
+      },
+      "identical": true,
+      "raw_pixel_sha256": "b2c8c2c32bd1939f13f76468e8655213aa79e096b69ce7336651c4c2ae0fd8d1"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/step-04-analyze.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "rect": {
+        "left": 1196,
+        "top": 137,
+        "width": 131,
+        "height": 136
+      },
+      "identical": true,
+      "raw_pixel_sha256": "a71c442e19d0b6d9b162dd4069ae5d0bb1ffdccc5d95b3e5bfe422f7f196190f"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/step-05-improve.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "rect": {
+        "left": 1337,
+        "top": 137,
+        "width": 130,
+        "height": 136
+      },
+      "identical": true,
+      "raw_pixel_sha256": "4f26ddf9bb287e09d28cc0aff51544b0f6adf79fc3c3f0ae8acca10699021824"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/activity-01-plan.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "rect": {
+        "left": 779,
+        "top": 606,
+        "width": 167,
+        "height": 114
+      },
+      "identical": true,
+      "raw_pixel_sha256": "05a0bd18ca4ba509dc685ff5e45920edaf8e497a528418f923b12986e69a405d"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/activity-02-content.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "rect": {
+        "left": 955,
+        "top": 606,
+        "width": 165,
+        "height": 114
+      },
+      "identical": true,
+      "raw_pixel_sha256": "618ac8e637d9c72ba0d816c6d624fe40c8fdb2629c88228f1b85119118cb7f3e"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/activity-03-filming.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "rect": {
+        "left": 1129,
+        "top": 606,
+        "width": 167,
+        "height": 114
+      },
+      "identical": true,
+      "raw_pixel_sha256": "1e52401ae62c73060d2b061add59f6db1e30849aa6fd21b95ed7ff4472a4f4bb"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/activity-04-operation.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "rect": {
+        "left": 1305,
+        "top": 606,
+        "width": 162,
+        "height": 114
+      },
+      "identical": true,
+      "raw_pixel_sha256": "c352fd6e4e1862015cb414a2c2d4de82df708bf80ff7ada8a52ee51abc503e26"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/example-01-instagram.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "rect": {
+        "left": 30,
+        "top": 789,
+        "width": 149,
+        "height": 153
+      },
+      "identical": true,
+      "raw_pixel_sha256": "a205a61b1e102f1c4941b908fde63da4b741d1af32cbfd2f087f690e356b15ed"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/example-02-x.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "rect": {
+        "left": 192,
+        "top": 792,
+        "width": 167,
+        "height": 150
+      },
+      "identical": true,
+      "raw_pixel_sha256": "7cc58bd887ca16ced93b50a4a23ab5d9138b5c3baede39a10ac24fd2f615225e"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/example-03-youtube.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "rect": {
+        "left": 374,
+        "top": 793,
+        "width": 166,
+        "height": 148
+      },
+      "identical": true,
+      "raw_pixel_sha256": "4f6fc0315c2300ea8b7de6ae5a3d97bd02cce2c1823dfe238968f3b4aabece0b"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/example-04-website.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "rect": {
+        "left": 555,
+        "top": 792,
+        "width": 160,
+        "height": 149
+      },
+      "identical": true,
+      "raw_pixel_sha256": "3b2284909e034f7de4662594920f3a6fb8814274f9482969e91eecca6444888d"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/outcome-01-poster.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "rect": {
+        "left": 793,
+        "top": 868,
+        "width": 190,
+        "height": 107
+      },
+      "identical": true,
+      "raw_pixel_sha256": "9e0fbd1ec776094e839318863228c3f8c2ce47c339f527b07569c54fece6db3c"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/outcome-02-video.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "rect": {
+        "left": 1009,
+        "top": 869,
+        "width": 206,
+        "height": 106
+      },
+      "identical": true,
+      "raw_pixel_sha256": "5460101a87ba0596feb2bc02dbb88a675a47afb9fe1b1d6fbaffb482afabac20"
+    },
+    {
+      "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/outcome-03-website.png",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "rect": {
+        "left": 1244,
+        "top": 869,
+        "width": 207,
+        "height": 106
+      },
+      "identical": true,
+      "raw_pixel_sha256": "3e0c3cec8c8a52278a115dda7fca540dfbbc3988d4f75e109de222946841364d"
+    }
+  ]
+}

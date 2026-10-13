@@ -1,0 +1,20 @@
+tool: sharp/source-extraction
+model: none
+prompt: "指定原本の矩形を画素変更なしで切り出す。補完・再生成なし。"
+negative_prompt: null
+seed: null
+size: 190x107
+created: 2026-10-13
+author: codex/parts_teaching_pr
+reference_inputs:
+  - path: references/user-gpt/faithful-parts-20261013/school-pr.png
+    usage: other
+    note: pixel-identical source extraction
+source_refs:
+  - references/user-gpt/faithful-parts-20261013/school-pr.png
+rect: {"left":793,"top":868,"width":190,"height":107}
+status: restoration_required
+alpha: false
+placement_mm: {"width":53.5211,"height":30.1223}
+effective_dpi: {"x":90.17,"y":90.226}
+notes: "画素一致を検証。色調整・拡大なし。原本A4見開き仮定で約90dpi、印刷解像度未達。告知ポスターの文字・数字・イラスト・人物が一体化している。"

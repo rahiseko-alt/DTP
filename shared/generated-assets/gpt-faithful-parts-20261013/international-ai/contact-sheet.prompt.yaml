@@ -1,0 +1,7 @@
+tool: sharp/contact-sheet
+model: none
+seed: null
+created: 2026-10-13
+size: 840x645
+source_refs: ["references/user-gpt/faithful-parts-20261013/international-ai.png"]
+notes: "QA thumbnail montage only. Resized thumbnails; not production assets."

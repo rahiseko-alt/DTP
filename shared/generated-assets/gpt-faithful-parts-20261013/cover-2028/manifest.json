@@ -1,0 +1,37 @@
+[
+  {
+    "id": "group-photo-exact",
+    "label": "表紙・集合人物写真（原画の矩形範囲）",
+    "source": "references/user-gpt/faithful-parts-20261013/cover-2028.png",
+    "rect": {
+      "left": 89,
+      "top": 326,
+      "width": 912,
+      "height": 730
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/cover-2028/group-photo-exact.png",
+    "width": 912,
+    "height": 730,
+    "status": "ready_exact",
+    "issues": [
+      "原画の冊子モックアップの遠近感を保持。透過切抜きではない。",
+      "上部見出し・下部キャッチコピーを含まない原画範囲。背景も含む。",
+      "原画の下部コピーとの重なりを避けた矩形範囲。集合人物の完全な全身・透過シルエットではない。"
+    ],
+    "placement_mm": {
+      "width": 176.353591160221,
+      "height": 141.16022099447514
+    },
+    "effective_dpi": {
+      "x": 131.3542857142857,
+      "y": 131.3542857142857
+    },
+    "alpha": false,
+    "pixel_identity": true,
+    "pixel_sha256": "0e8b798f513ec07deaaac0fd3b6025859a8e322dfe982eded4dd4c21e707c497",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "0e8b798f513ec07deaaac0fd3b6025859a8e322dfe982eded4dd4c21e707c497",
+    "group": "cover-2028"
+  }
+]

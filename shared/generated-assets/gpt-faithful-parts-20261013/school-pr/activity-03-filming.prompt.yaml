@@ -1,0 +1,20 @@
+tool: sharp/source-extraction
+model: none
+prompt: "指定原本の矩形を画素変更なしで切り出す。補完・再生成なし。"
+negative_prompt: null
+seed: null
+size: 167x114
+created: 2026-10-13
+author: codex/parts_teaching_pr
+reference_inputs:
+  - path: references/user-gpt/faithful-parts-20261013/school-pr.png
+    usage: other
+    note: pixel-identical source extraction
+source_refs:
+  - references/user-gpt/faithful-parts-20261013/school-pr.png
+rect: {"left":1129,"top":606,"width":167,"height":114}
+status: ready_exact
+alpha: false
+placement_mm: {"width":47.0423,"height":32.0929}
+effective_dpi: {"x":90.17,"y":90.226}
+notes: "画素一致を検証。色調整・拡大なし。原本A4見開き仮定で約90dpi、印刷解像度未達。"

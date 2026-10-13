@@ -1,0 +1,11 @@
+tool: sharp/contact-sheet
+model: none
+seed: null
+prompt: "検査用縮小一覧。納品写真ではない。"
+size: 720x580
+created: 2026-10-13
+author: codex-parts-school
+reference_inputs: []
+source_refs:
+  - references/user-gpt/faithful-parts-20261013/school-overview.png
+notes: "一覧だけ縮小。写真パーツ本体は原画素と一致。"
