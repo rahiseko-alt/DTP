@@ -12,9 +12,9 @@
     "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/hero.png",
     "width": 746,
     "height": 437,
-    "status": "restoration_required",
+    "status": "ready_composite",
     "issues": [
-      "左上に手書きコピー・青下線。下端に原本の白フェザーが含まれる。"
+      "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。"
     ],
     "placement_mm": {
       "width": 210.1408,
@@ -30,7 +30,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "d0c5b3ce15998686b1f696134c630938a66829da67333d453c27f8b7fda90a00",
-    "group": "school-pr"
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "step-01-plan",
@@ -61,7 +62,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "2c901207c7bcb89c13488030f2159df27a20a0ec70dfd178aa9179fbee66fa38",
-    "group": "school-pr"
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "step-02-create",
@@ -95,7 +97,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "c507c891312546840ed2e9dded77e3295b84708864773d87fc9dc72a60d36f3e",
-    "group": "school-pr"
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "step-03-post",
@@ -126,7 +129,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "b2c8c2c32bd1939f13f76468e8655213aa79e096b69ce7336651c4c2ae0fd8d1",
-    "group": "school-pr"
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "step-04-analyze",
@@ -160,7 +164,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "a71c442e19d0b6d9b162dd4069ae5d0bb1ffdccc5d95b3e5bfe422f7f196190f",
-    "group": "school-pr"
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "step-05-improve",
@@ -191,7 +196,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "4f26ddf9bb287e09d28cc0aff51544b0f6adf79fc3c3f0ae8acca10699021824",
-    "group": "school-pr"
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "activity-01-plan",
@@ -222,7 +228,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "05a0bd18ca4ba509dc685ff5e45920edaf8e497a528418f923b12986e69a405d",
-    "group": "school-pr"
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "activity-02-content",
@@ -256,7 +263,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "618ac8e637d9c72ba0d816c6d624fe40c8fdb2629c88228f1b85119118cb7f3e",
-    "group": "school-pr"
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "activity-03-filming",
@@ -287,7 +295,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "1e52401ae62c73060d2b061add59f6db1e30849aa6fd21b95ed7ff4472a4f4bb",
-    "group": "school-pr"
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "activity-04-operation",
@@ -318,7 +327,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "c352fd6e4e1862015cb414a2c2d4de82df708bf80ff7ada8a52ee51abc503e26",
-    "group": "school-pr"
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "example-01-instagram",
@@ -352,7 +362,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "a205a61b1e102f1c4941b908fde63da4b741d1af32cbfd2f087f690e356b15ed",
-    "group": "school-pr"
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "example-02-x",
@@ -386,7 +397,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "7cc58bd887ca16ced93b50a4a23ab5d9138b5c3baede39a10ac24fd2f615225e",
-    "group": "school-pr"
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "example-03-youtube",
@@ -420,7 +432,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "4f6fc0315c2300ea8b7de6ae5a3d97bd02cce2c1823dfe238968f3b4aabece0b",
-    "group": "school-pr"
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "example-04-website",
@@ -454,7 +467,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "3b2284909e034f7de4662594920f3a6fb8814274f9482969e91eecca6444888d",
-    "group": "school-pr"
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "outcome-01-poster",
@@ -488,7 +502,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "9e0fbd1ec776094e839318863228c3f8c2ce47c339f527b07569c54fece6db3c",
-    "group": "school-pr"
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "outcome-02-video",
@@ -521,7 +536,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "5460101a87ba0596feb2bc02dbb88a675a47afb9fe1b1d6fbaffb482afabac20",
-    "group": "school-pr"
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "outcome-03-website",
@@ -555,6 +571,7 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "3e0c3cec8c8a52278a115dda7fca540dfbbc3988d4f75e109de222946841364d",
-    "group": "school-pr"
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   }
 ]

@@ -12,9 +12,9 @@
     "file": "shared/generated-assets/gpt-faithful-parts-20261013/multicultural/hero.png",
     "width": 724,
     "height": 603,
-    "status": "restoration_required",
+    "status": "ready_composite",
     "issues": [
-      "下半分に紙面見出し・本文・緑色帯と白フェードが融合。除去前の原画素保存版。",
+      "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。",
       "元画像は冊子モックアップであり、遠近・紙面湾曲を含む画素を無補正で維持。",
       "A4見開き420×297mmを画像全域に仮定した実効dpiは150未満。原寸相当の入稿用高解像度ではない。"
     ],
@@ -36,7 +36,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "8a90a1ee6d30cdabfeb8e6886d03b402bcb39fab0076cd8e679c98f49dbcebe8",
-    "group": "multicultural"
+    "group": "multicultural",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "classroom",
@@ -74,7 +75,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "f0ffe57f42eeb5122b60ab2ae1076ebb5500d4b93c6273c8140475659529783d",
-    "group": "multicultural"
+    "group": "multicultural",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "school-life",
@@ -112,7 +114,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "6cc548fecafe2434a871e2f02de356c020ded5dc516130bdec0edce0eb83c7a5",
-    "group": "multicultural"
+    "group": "multicultural",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "exchange",
@@ -152,7 +155,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "a1a7bc717904e9175f15fa70d91ddf863df912cb2a7582be5696296f97f7052d",
-    "group": "multicultural"
+    "group": "multicultural",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "event",
@@ -190,6 +194,7 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "cb23a0e2fb97c63517059472d611a23e43bdb2ae07e654d568c89b5c38b414ff",
-    "group": "multicultural"
+    "group": "multicultural",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   }
 ]

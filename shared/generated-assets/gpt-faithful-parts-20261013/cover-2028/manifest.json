@@ -32,6 +32,7 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "0e8b798f513ec07deaaac0fd3b6025859a8e322dfe982eded4dd4c21e707c497",
-    "group": "cover-2028"
+    "group": "cover-2028",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   }
 ]

@@ -12,9 +12,9 @@
     "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-overview/hero.png",
     "width": 685,
     "height": 628,
-    "status": "restoration_required",
+    "status": "ready_composite",
     "issues": [
-      "紙面見出し・本文・緑色59名バッジが人物に重なる。白フェードも融合。除去前の原画素保存版。",
+      "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。",
       "元画像は冊子モックアップであり、遠近・紙面湾曲を含む画素を無補正で維持。",
       "A4見開き420×297mmを画像全域に仮定した実効dpiは150未満。原寸相当の入稿用高解像度ではない。"
     ],
@@ -36,7 +36,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "7ae59d51dc287a24b64e76ef639abc04e6e1eb7b4174594dbfbbc4045f9b3812",
-    "group": "school-overview"
+    "group": "school-overview",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "ai-practice",
@@ -76,7 +77,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "756120fcf6d2135598ef5659d6b8ffee48072d48dc2de7b84e13e202a7d57e1d",
-    "group": "school-overview"
+    "group": "school-overview",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "multicultural-learning",
@@ -114,7 +116,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "bac9feec73b79d2a224016a934031d48f8985e3c81044affdf013ae37a99a11a",
-    "group": "school-overview"
+    "group": "school-overview",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "presentation",
@@ -152,6 +155,7 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "f5dff65c085f6f71dc854a2b5565e8f8e7e20d34df0f2c59a59c4734b46a37de",
-    "group": "school-overview"
+    "group": "school-overview",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   }
 ]

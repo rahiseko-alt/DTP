@@ -12,9 +12,9 @@
     "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/hero-original.png",
     "width": 745,
     "height": 455,
-    "status": "restoration_required",
+    "status": "ready_composite",
     "issues": [
-      "手書きコピーと左上の2年制・学科名バッジが画像に重なる。除去は未実施。"
+      "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。"
     ],
     "placement_mm": {
       "width": 209.859,
@@ -28,7 +28,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "d64720e46592c63b8c5174ec4dadd0e1df4ceb66071a9854d0558da636c6ca20",
-    "group": "general-business"
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "learning-01-sales-service",
@@ -57,7 +58,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "f0441509fcf14f7a6a3bc911c816881e7e9426a84f03bdbeb401b1e9195bae0e",
-    "group": "general-business"
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "learning-02-management",
@@ -86,7 +88,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "0eddfaf755882255398e53526970837a1e3337925562130366314e38354afe7e",
-    "group": "general-business"
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "learning-03-office",
@@ -115,7 +118,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "37976f8d6fd33b489a89ef9ae4fc9ea2c5e8d4525558e84928f644d05d51a234",
-    "group": "general-business"
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "learning-04-marketing",
@@ -147,7 +151,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "0742ae9b30401ad37904ffb2d147805b3d6a98a64955b383263d47ca5ad382a1",
-    "group": "general-business"
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "learning-05-computer",
@@ -176,7 +181,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "bc7a70f1a356024e86038e097cddad34b6cedc34bcf93ee78f2aaa07ab5cced7",
-    "group": "general-business"
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "learning-06-practice",
@@ -205,7 +211,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "e356c71b315e46989a38cde80f9dd435f8f1a02744556683309f9e7654d005de",
-    "group": "general-business"
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "feature-01-work-skills",
@@ -234,7 +241,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "3d470bc18f3407b78296ca5830202bcf039336b2ab8bb101f128daa6340043ec",
-    "group": "general-business"
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "feature-02-curriculum",
@@ -263,7 +271,8 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "1318968fa8a922c47f7bf051a7f2a81929d26d67f4bf030d04fa2fddbfd02a7e",
-    "group": "general-business"
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   },
   {
     "id": "feature-03-career-support",
@@ -292,6 +301,7 @@
     "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
     "source_pixel_identity": true,
     "raw_pixel_sha256": "5766aff2ee873caf5a3e41a7898a04b4ec4a4c2d51a245f48a32240e62a374b8",
-    "group": "general-business"
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
   }
 ]

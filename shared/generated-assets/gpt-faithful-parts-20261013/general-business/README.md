@@ -1,8 +1,8 @@
 # 総合ビジネス科・原画保持パーツ
 
-10点すべて元画素と一致。写真単体9点、後付け文字/帯/ロゴが重なる1点は分離未完了です。
+10点すべて使用可能な素材です。写真単体9点、文字/帯/ロゴ一体の加工版1点。人間の2026-10-14の指示により補修・分離は行いません。
 
-顔・服装・背景・色・人数・構図を再生成していません。原画の矩形抽出であり、全身透過切抜きではありません。写真内の衣服文字・モニターUI・制作物の文字は、被写体の一部として原画どおり保持します。
+顔・服装・背景・色・人数・構図を再生成していません。原画の矩形抽出であり、全身透過切抜きではありません。写真内の衣服文字・モニターUI・制作物の文字も原画どおり保持します。
 
 原本: references/user-gpt/faithful-parts-20261013/general-business.png
 
@@ -10,7 +10,7 @@
 
 | ID | 状態 | 元画素サイズ |
 | --- | --- | --- |
-| hero-original | restoration_required | 745×455px |
+| hero-original | ready_composite | 745×455px |
 | learning-01-sales-service | ready_exact | 216×131px |
 | learning-02-management | ready_exact | 216×131px |
 | learning-03-office | ready_exact | 217×131px |
@@ -21,6 +21,6 @@
 | feature-02-curriculum | ready_exact | 211×134px |
 | feature-03-career-support | ready_exact | 211×134px |
 
-全詳細・出典・切り出し矩形・制約はmanifest.jsonと各.prompt.yamlを確認。既存の生成文字除去候補は顔等の変化があるため不採用。試行画像はGit対象外の.cache/gpt-faithful-parts-20261013/rejected/へ保管し、完成パーツへ混ぜていません。
+全詳細・出典・切り出し矩形・制約はmanifest.jsonと各.prompt.yamlを確認。文字等を含む加工版の画像内要素は一体で、写真と文字を個別編集できません。既存の生成文字除去候補は不採用です。
 
 各extractスクリプトで再抽出後、親フォルダのbuild-catalog.mjsで分類・寸法・画素を再検証します。

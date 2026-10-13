@@ -40,7 +40,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "0e8b798f513ec07deaaac0fd3b6025859a8e322dfe982eded4dd4c21e707c497",
-          "group": "cover-2028"
+          "group": "cover-2028",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         }
       ]
     },
@@ -62,9 +63,9 @@
           "file": "shared/generated-assets/gpt-faithful-parts-20261013/multicultural/hero.png",
           "width": 724,
           "height": 603,
-          "status": "restoration_required",
+          "status": "ready_composite",
           "issues": [
-            "下半分に紙面見出し・本文・緑色帯と白フェードが融合。除去前の原画素保存版。",
+            "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。",
             "元画像は冊子モックアップであり、遠近・紙面湾曲を含む画素を無補正で維持。",
             "A4見開き420×297mmを画像全域に仮定した実効dpiは150未満。原寸相当の入稿用高解像度ではない。"
           ],
@@ -86,7 +87,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "8a90a1ee6d30cdabfeb8e6886d03b402bcb39fab0076cd8e679c98f49dbcebe8",
-          "group": "multicultural"
+          "group": "multicultural",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "classroom",
@@ -124,7 +126,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "f0ffe57f42eeb5122b60ab2ae1076ebb5500d4b93c6273c8140475659529783d",
-          "group": "multicultural"
+          "group": "multicultural",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "school-life",
@@ -162,7 +165,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "6cc548fecafe2434a871e2f02de356c020ded5dc516130bdec0edce0eb83c7a5",
-          "group": "multicultural"
+          "group": "multicultural",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "exchange",
@@ -202,7 +206,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "a1a7bc717904e9175f15fa70d91ddf863df912cb2a7582be5696296f97f7052d",
-          "group": "multicultural"
+          "group": "multicultural",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "event",
@@ -240,7 +245,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "cb23a0e2fb97c63517059472d611a23e43bdb2ae07e654d568c89b5c38b414ff",
-          "group": "multicultural"
+          "group": "multicultural",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         }
       ]
     },
@@ -262,9 +268,9 @@
           "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-overview/hero.png",
           "width": 685,
           "height": 628,
-          "status": "restoration_required",
+          "status": "ready_composite",
           "issues": [
-            "紙面見出し・本文・緑色59名バッジが人物に重なる。白フェードも融合。除去前の原画素保存版。",
+            "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。",
             "元画像は冊子モックアップであり、遠近・紙面湾曲を含む画素を無補正で維持。",
             "A4見開き420×297mmを画像全域に仮定した実効dpiは150未満。原寸相当の入稿用高解像度ではない。"
           ],
@@ -286,7 +292,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "7ae59d51dc287a24b64e76ef639abc04e6e1eb7b4174594dbfbbc4045f9b3812",
-          "group": "school-overview"
+          "group": "school-overview",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "ai-practice",
@@ -326,7 +333,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "756120fcf6d2135598ef5659d6b8ffee48072d48dc2de7b84e13e202a7d57e1d",
-          "group": "school-overview"
+          "group": "school-overview",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "multicultural-learning",
@@ -364,7 +372,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "bac9feec73b79d2a224016a934031d48f8985e3c81044affdf013ae37a99a11a",
-          "group": "school-overview"
+          "group": "school-overview",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "presentation",
@@ -402,7 +411,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "f5dff65c085f6f71dc854a2b5565e8f8e7e20d34df0f2c59a59c4734b46a37de",
-          "group": "school-overview"
+          "group": "school-overview",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         }
       ]
     },
@@ -424,9 +434,9 @@
           "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/hero-original.png",
           "width": 745,
           "height": 478,
-          "status": "restoration_required",
+          "status": "ready_composite",
           "issues": [
-            "白い手書きコピーと左上の2年制・学科名バッジが画像に重なる。除去は未実施。"
+            "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。"
           ],
           "placement_mm": {
             "width": 209.859,
@@ -440,7 +450,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "c90e16d673e25eef26178e951c8c87e28f714ca8640d37b0af73034bdb47d2cf",
-          "group": "international-ai"
+          "group": "international-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "learning-01-generative-ai",
@@ -469,7 +480,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "ed1bb6565d8501d21e7b2f5292ecacb2031448feb2abe90054665efa480b0527",
-          "group": "international-ai"
+          "group": "international-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "learning-02-international-business",
@@ -498,7 +510,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "4c572bcc9b8b6c77d235ba72a7233127c68a0ac3875cf2d95cd54ec078e4f395",
-          "group": "international-ai"
+          "group": "international-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "learning-03-marketing",
@@ -527,7 +540,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "ebbab1f3b5d242ed3536ae054cc0b00e8cafdda9a5f09be6e286646b688c80ff",
-          "group": "international-ai"
+          "group": "international-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "learning-04-cultural-communication",
@@ -559,7 +573,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "46a50c49bac112422187cf79c216543ffef65dfac43095dc7adfa33d9de306c5",
-          "group": "international-ai"
+          "group": "international-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "learning-05-presentation",
@@ -591,7 +606,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "1604ba3078df0ae6e9c1096aed25eb833461551bb7bb0e14f5ee886e29f93743",
-          "group": "international-ai"
+          "group": "international-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "feature-01-practical-ai",
@@ -620,7 +636,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "9fb6142012297fe5844a959fdcbd67ff4968aa0007d151783579efb09b63ad2e",
-          "group": "international-ai"
+          "group": "international-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "feature-02-collaboration",
@@ -649,7 +666,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "37bbcd6d41175bc731a104a66c3200ece6b8a2c8301587d34107d54861af1a55",
-          "group": "international-ai"
+          "group": "international-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "feature-03-pbl",
@@ -681,7 +699,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "6b6eb9416916192df0b83cf320869f62def6c7329b48ef68ae8c4f8f0a516970",
-          "group": "international-ai"
+          "group": "international-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         }
       ]
     },
@@ -703,9 +722,9 @@
           "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/hero-original.png",
           "width": 745,
           "height": 455,
-          "status": "restoration_required",
+          "status": "ready_composite",
           "issues": [
-            "手書きコピーと左上の2年制・学科名バッジが画像に重なる。除去は未実施。"
+            "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。"
           ],
           "placement_mm": {
             "width": 209.859,
@@ -719,7 +738,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "d64720e46592c63b8c5174ec4dadd0e1df4ceb66071a9854d0558da636c6ca20",
-          "group": "general-business"
+          "group": "general-business",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "learning-01-sales-service",
@@ -748,7 +768,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "f0441509fcf14f7a6a3bc911c816881e7e9426a84f03bdbeb401b1e9195bae0e",
-          "group": "general-business"
+          "group": "general-business",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "learning-02-management",
@@ -777,7 +798,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "0eddfaf755882255398e53526970837a1e3337925562130366314e38354afe7e",
-          "group": "general-business"
+          "group": "general-business",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "learning-03-office",
@@ -806,7 +828,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "37976f8d6fd33b489a89ef9ae4fc9ea2c5e8d4525558e84928f644d05d51a234",
-          "group": "general-business"
+          "group": "general-business",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "learning-04-marketing",
@@ -838,7 +861,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "0742ae9b30401ad37904ffb2d147805b3d6a98a64955b383263d47ca5ad382a1",
-          "group": "general-business"
+          "group": "general-business",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "learning-05-computer",
@@ -867,7 +891,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "bc7a70f1a356024e86038e097cddad34b6cedc34bcf93ee78f2aaa07ab5cced7",
-          "group": "general-business"
+          "group": "general-business",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "learning-06-practice",
@@ -896,7 +921,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "e356c71b315e46989a38cde80f9dd435f8f1a02744556683309f9e7654d005de",
-          "group": "general-business"
+          "group": "general-business",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "feature-01-work-skills",
@@ -925,7 +951,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "3d470bc18f3407b78296ca5830202bcf039336b2ab8bb101f128daa6340043ec",
-          "group": "general-business"
+          "group": "general-business",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "feature-02-curriculum",
@@ -954,7 +981,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "1318968fa8a922c47f7bf051a7f2a81929d26d67f4bf030d04fa2fddbfd02a7e",
-          "group": "general-business"
+          "group": "general-business",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "feature-03-career-support",
@@ -983,7 +1011,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "5766aff2ee873caf5a3e41a7898a04b4ec4a4c2d51a245f48a32240e62a374b8",
-          "group": "general-business"
+          "group": "general-business",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         }
       ]
     },
@@ -1005,9 +1034,9 @@
           "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/hero.png",
           "width": 746,
           "height": 401,
-          "status": "restoration_required",
+          "status": "ready_composite",
           "issues": [
-            "左上に手書きコピー。顔・身体を変えず文字の下だけ復元が必要。"
+            "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。"
           ],
           "placement_mm": {
             "width": 210.1408,
@@ -1023,7 +1052,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "78385c3755f1996ccaf54c267172fc3930edb07d88c1c027fa6319a7d88910d1",
-          "group": "lecturer-ai"
+          "group": "lecturer-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "step-01-use",
@@ -1038,9 +1068,9 @@
           "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-01-use.png",
           "width": 214,
           "height": 111,
-          "status": "restoration_required",
+          "status": "ready_composite",
           "issues": [
-            "Geminiロゴの白円が背景に重なる。"
+            "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。"
           ],
           "placement_mm": {
             "width": 60.2817,
@@ -1056,7 +1086,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "f917349fb44625a47e3f8cc4fe0b05d72a1f5bccfe1574eaa73ed20f0ad1e90a",
-          "group": "lecturer-ai"
+          "group": "lecturer-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "step-02-research",
@@ -1071,9 +1102,9 @@
           "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-02-research.png",
           "width": 212,
           "height": 111,
-          "status": "restoration_required",
+          "status": "ready_composite",
           "issues": [
-            "NotebookLMロゴの白円が背景に重なる。"
+            "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。"
           ],
           "placement_mm": {
             "width": 59.7183,
@@ -1089,7 +1120,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "350ed90845232769fc8be6d2efc41edc3160043185dded74dc1f991aae1e0b01",
-          "group": "lecturer-ai"
+          "group": "lecturer-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "step-03-create",
@@ -1104,9 +1136,9 @@
           "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-03-create.png",
           "width": 211,
           "height": 111,
-          "status": "restoration_required",
+          "status": "ready_composite",
           "issues": [
-            "Canvaロゴの白円が背景に重なる。"
+            "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。"
           ],
           "placement_mm": {
             "width": 59.4366,
@@ -1122,7 +1154,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "61a512c354a5fe12bb1d3cb092268bad9d2144e9ad0ffab01a873c58acc115d9",
-          "group": "lecturer-ai"
+          "group": "lecturer-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "step-04-analyze",
@@ -1137,9 +1170,9 @@
           "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-04-analyze.png",
           "width": 214,
           "height": 119,
-          "status": "restoration_required",
+          "status": "ready_composite",
           "issues": [
-            "Google Sheetsロゴの白円が背景に重なる。"
+            "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。"
           ],
           "placement_mm": {
             "width": 60.2817,
@@ -1155,7 +1188,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "e0159789669eb8be46c31be594f2863dc05e320dffdc961545032e7e6c82f46e",
-          "group": "lecturer-ai"
+          "group": "lecturer-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "step-05-present",
@@ -1170,9 +1204,9 @@
           "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-05-present.png",
           "width": 212,
           "height": 119,
-          "status": "restoration_required",
+          "status": "ready_composite",
           "issues": [
-            "Google Slidesロゴの白円が背景に重なる。"
+            "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。"
           ],
           "placement_mm": {
             "width": 59.7183,
@@ -1188,7 +1222,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "0d3d988fcc7e2125ceb77077b4a79903c960a9cc0af34d584fd4e8bf0cc3be0a",
-          "group": "lecturer-ai"
+          "group": "lecturer-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "step-06-work",
@@ -1203,9 +1238,9 @@
           "file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-06-work.png",
           "width": 211,
           "height": 119,
-          "status": "restoration_required",
+          "status": "ready_composite",
           "issues": [
-            "Google Driveロゴの白円が背景に重なる。"
+            "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。"
           ],
           "placement_mm": {
             "width": 59.4366,
@@ -1221,7 +1256,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "8c0164faa933e95d322546daddf6e64a98688068b9f40301d545e16dd67016e2",
-          "group": "lecturer-ai"
+          "group": "lecturer-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "activity-01-marketing",
@@ -1255,7 +1291,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "5df5dd3a09f2583a751c87dca5ba3af9998eb9b254a4614ba09beb5a5a425257",
-          "group": "lecturer-ai"
+          "group": "lecturer-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "activity-02-website",
@@ -1289,7 +1326,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "64f7c1854cda4a19277977429e0dcb050e243889dfe1e59419b3013e819a7fbe",
-          "group": "lecturer-ai"
+          "group": "lecturer-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "activity-03-report",
@@ -1320,7 +1358,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "ad7cae7feb3136056447ff4d8bc26fb989d4935529705b3a5777265a086adc18",
-          "group": "lecturer-ai"
+          "group": "lecturer-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "activity-04-video",
@@ -1354,7 +1393,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "152a535a2e70ca916ec40b4bd5f907fad6d3d665413ff3ff1fe8ce9cd0ffc74c",
-          "group": "lecturer-ai"
+          "group": "lecturer-ai",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         }
       ]
     },
@@ -1376,9 +1416,9 @@
           "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/hero.png",
           "width": 746,
           "height": 437,
-          "status": "restoration_required",
+          "status": "ready_composite",
           "issues": [
-            "左上に手書きコピー・青下線。下端に原本の白フェザーが含まれる。"
+            "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。"
           ],
           "placement_mm": {
             "width": 210.1408,
@@ -1394,7 +1434,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "d0c5b3ce15998686b1f696134c630938a66829da67333d453c27f8b7fda90a00",
-          "group": "school-pr"
+          "group": "school-pr",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "step-01-plan",
@@ -1425,7 +1466,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "2c901207c7bcb89c13488030f2159df27a20a0ec70dfd178aa9179fbee66fa38",
-          "group": "school-pr"
+          "group": "school-pr",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "step-02-create",
@@ -1459,7 +1501,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "c507c891312546840ed2e9dded77e3295b84708864773d87fc9dc72a60d36f3e",
-          "group": "school-pr"
+          "group": "school-pr",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "step-03-post",
@@ -1490,7 +1533,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "b2c8c2c32bd1939f13f76468e8655213aa79e096b69ce7336651c4c2ae0fd8d1",
-          "group": "school-pr"
+          "group": "school-pr",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "step-04-analyze",
@@ -1524,7 +1568,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "a71c442e19d0b6d9b162dd4069ae5d0bb1ffdccc5d95b3e5bfe422f7f196190f",
-          "group": "school-pr"
+          "group": "school-pr",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "step-05-improve",
@@ -1555,7 +1600,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "4f26ddf9bb287e09d28cc0aff51544b0f6adf79fc3c3f0ae8acca10699021824",
-          "group": "school-pr"
+          "group": "school-pr",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "activity-01-plan",
@@ -1586,7 +1632,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "05a0bd18ca4ba509dc685ff5e45920edaf8e497a528418f923b12986e69a405d",
-          "group": "school-pr"
+          "group": "school-pr",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "activity-02-content",
@@ -1620,7 +1667,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "618ac8e637d9c72ba0d816c6d624fe40c8fdb2629c88228f1b85119118cb7f3e",
-          "group": "school-pr"
+          "group": "school-pr",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "activity-03-filming",
@@ -1651,7 +1699,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "1e52401ae62c73060d2b061add59f6db1e30849aa6fd21b95ed7ff4472a4f4bb",
-          "group": "school-pr"
+          "group": "school-pr",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "activity-04-operation",
@@ -1682,7 +1731,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "c352fd6e4e1862015cb414a2c2d4de82df708bf80ff7ada8a52ee51abc503e26",
-          "group": "school-pr"
+          "group": "school-pr",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "example-01-instagram",
@@ -1716,7 +1766,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "a205a61b1e102f1c4941b908fde63da4b741d1af32cbfd2f087f690e356b15ed",
-          "group": "school-pr"
+          "group": "school-pr",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "example-02-x",
@@ -1750,7 +1801,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "7cc58bd887ca16ced93b50a4a23ab5d9138b5c3baede39a10ac24fd2f615225e",
-          "group": "school-pr"
+          "group": "school-pr",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "example-03-youtube",
@@ -1784,7 +1836,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "4f6fc0315c2300ea8b7de6ae5a3d97bd02cce2c1823dfe238968f3b4aabece0b",
-          "group": "school-pr"
+          "group": "school-pr",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "example-04-website",
@@ -1818,7 +1871,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "3b2284909e034f7de4662594920f3a6fb8814274f9482969e91eecca6444888d",
-          "group": "school-pr"
+          "group": "school-pr",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "outcome-01-poster",
@@ -1852,7 +1906,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "9e0fbd1ec776094e839318863228c3f8c2ce47c339f527b07569c54fece6db3c",
-          "group": "school-pr"
+          "group": "school-pr",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "outcome-02-video",
@@ -1885,7 +1940,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "5460101a87ba0596feb2bc02dbb88a675a47afb9fe1b1d6fbaffb482afabac20",
-          "group": "school-pr"
+          "group": "school-pr",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         },
         {
           "id": "outcome-03-website",
@@ -1919,7 +1975,8 @@
           "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
           "source_pixel_identity": true,
           "raw_pixel_sha256": "3e0c3cec8c8a52278a115dda7fca540dfbbc3988d4f75e109de222946841364d",
-          "group": "school-pr"
+          "group": "school-pr",
+          "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
         }
       ]
     }
