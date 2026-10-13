@@ -1,0 +1,1475 @@
+{
+  "date": "2026-10-14",
+  "url": "http://127.0.0.1:8766/shared/generated-assets/gpt-faithful-parts-20261013/index.html",
+  "browser": "playwright pinned Chromium",
+  "sequence": [
+    "cover-2028",
+    "multicultural",
+    "school-overview",
+    "international-ai",
+    "general-business",
+    "lecturer-ai",
+    "school-pr"
+  ],
+  "checks": [
+    {
+      "name": "booklet-not-old-catalog",
+      "passed": true,
+      "details": "学校案内を読む"
+    },
+    {
+      "name": "desktop-7-thumbnails",
+      "passed": true,
+      "details": 7
+    },
+    {
+      "name": "desktop-sequence-0",
+      "passed": true,
+      "details": "../../../references/user-gpt/faithful-parts-20261013/cover-2028.png"
+    },
+    {
+      "name": "desktop-uncropped-aspect-0",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/cover-2028.png",
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "width": 507,
+        "height": 676,
+        "left": 466.5,
+        "right": 973.5,
+        "top": 67.5,
+        "bottom": 743.5,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-no-horizontal-overflow-0",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/cover-2028.png",
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "width": 507,
+        "height": 676,
+        "left": 466.5,
+        "right": 973.5,
+        "top": 67.5,
+        "bottom": 743.5,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-image-on-screen-0",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/cover-2028.png",
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "width": 507,
+        "height": 676,
+        "left": 466.5,
+        "right": 973.5,
+        "top": 67.5,
+        "bottom": 743.5,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-image-bytes-0",
+      "passed": true,
+      "details": {
+        "original_sha256": "b072493c2d51a39eafd54e26ac718924314fda39a3f7296ff8b974d6dd026458",
+        "delivered_sha256": "b072493c2d51a39eafd54e26ac718924314fda39a3f7296ff8b974d6dd026458"
+      }
+    },
+    {
+      "name": "desktop-position-0",
+      "passed": true,
+      "details": "表紙"
+    },
+    {
+      "name": "desktop-first-prev-disabled",
+      "passed": true
+    },
+    {
+      "name": "desktop-first-arrow-bound",
+      "passed": true
+    },
+    {
+      "name": "desktop-sequence-1",
+      "passed": true,
+      "details": "../../../references/user-gpt/faithful-parts-20261013/multicultural.png"
+    },
+    {
+      "name": "desktop-uncropped-aspect-1",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/multicultural.png",
+        "naturalWidth": 1568,
+        "naturalHeight": 1003,
+        "width": 1056.796875,
+        "height": 675.984375,
+        "left": 191.59375,
+        "right": 1248.390625,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-no-horizontal-overflow-1",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/multicultural.png",
+        "naturalWidth": 1568,
+        "naturalHeight": 1003,
+        "width": 1056.796875,
+        "height": 675.984375,
+        "left": 191.59375,
+        "right": 1248.390625,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-image-on-screen-1",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/multicultural.png",
+        "naturalWidth": 1568,
+        "naturalHeight": 1003,
+        "width": 1056.796875,
+        "height": 675.984375,
+        "left": 191.59375,
+        "right": 1248.390625,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-image-bytes-1",
+      "passed": true,
+      "details": {
+        "original_sha256": "ac79bc51c099f5ea85ef8e516d74c8b2c67625242cd216202ae826cfecfc55e0",
+        "delivered_sha256": "ac79bc51c099f5ea85ef8e516d74c8b2c67625242cd216202ae826cfecfc55e0"
+      }
+    },
+    {
+      "name": "desktop-position-1",
+      "passed": true,
+      "details": "見開き1/6 · 多文化の学び"
+    },
+    {
+      "name": "desktop-sequence-2",
+      "passed": true,
+      "details": "../../../references/user-gpt/faithful-parts-20261013/school-overview.png"
+    },
+    {
+      "name": "desktop-uncropped-aspect-2",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/school-overview.png",
+        "naturalWidth": 1448,
+        "naturalHeight": 1086,
+        "width": 901.328125,
+        "height": 675.984375,
+        "left": 269.328125,
+        "right": 1170.65625,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-no-horizontal-overflow-2",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/school-overview.png",
+        "naturalWidth": 1448,
+        "naturalHeight": 1086,
+        "width": 901.328125,
+        "height": 675.984375,
+        "left": 269.328125,
+        "right": 1170.65625,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-image-on-screen-2",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/school-overview.png",
+        "naturalWidth": 1448,
+        "naturalHeight": 1086,
+        "width": 901.328125,
+        "height": 675.984375,
+        "left": 269.328125,
+        "right": 1170.65625,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-image-bytes-2",
+      "passed": true,
+      "details": {
+        "original_sha256": "8a094ec0cc82ad83df98c77f008725e57cfc99ef5f4677c3429d812e3419dbd7",
+        "delivered_sha256": "8a094ec0cc82ad83df98c77f008725e57cfc99ef5f4677c3429d812e3419dbd7"
+      }
+    },
+    {
+      "name": "desktop-position-2",
+      "passed": true,
+      "details": "見開き2/6 · 学校の教育紹介"
+    },
+    {
+      "name": "desktop-sequence-3",
+      "passed": true,
+      "details": "../../../references/user-gpt/faithful-parts-20261013/international-ai.png"
+    },
+    {
+      "name": "desktop-uncropped-aspect-3",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/international-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 955.359375,
+        "height": 675.984375,
+        "left": 242.3125,
+        "right": 1197.671875,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-no-horizontal-overflow-3",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/international-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 955.359375,
+        "height": 675.984375,
+        "left": 242.3125,
+        "right": 1197.671875,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-image-on-screen-3",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/international-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 955.359375,
+        "height": 675.984375,
+        "left": 242.3125,
+        "right": 1197.671875,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-image-bytes-3",
+      "passed": true,
+      "details": {
+        "original_sha256": "34f2673f7a143efa0ecaae6c52cf6c45465bec07eea81fc5c01dbd71d15473b3",
+        "delivered_sha256": "34f2673f7a143efa0ecaae6c52cf6c45465bec07eea81fc5c01dbd71d15473b3"
+      }
+    },
+    {
+      "name": "desktop-position-3",
+      "passed": true,
+      "details": "見開き3/6 · 国際ビジネスAI科"
+    },
+    {
+      "name": "desktop-sequence-4",
+      "passed": true,
+      "details": "../../../references/user-gpt/faithful-parts-20261013/general-business.png"
+    },
+    {
+      "name": "desktop-uncropped-aspect-4",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/general-business.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 955.359375,
+        "height": 675.984375,
+        "left": 242.3125,
+        "right": 1197.671875,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-no-horizontal-overflow-4",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/general-business.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 955.359375,
+        "height": 675.984375,
+        "left": 242.3125,
+        "right": 1197.671875,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-image-on-screen-4",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/general-business.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 955.359375,
+        "height": 675.984375,
+        "left": 242.3125,
+        "right": 1197.671875,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-image-bytes-4",
+      "passed": true,
+      "details": {
+        "original_sha256": "37a566563a7bd322550a026a9001e97b21bc3ec314a4ff8332db88001ecd5ebd",
+        "delivered_sha256": "37a566563a7bd322550a026a9001e97b21bc3ec314a4ff8332db88001ecd5ebd"
+      }
+    },
+    {
+      "name": "desktop-position-4",
+      "passed": true,
+      "details": "見開き4/6 · 総合ビジネス科"
+    },
+    {
+      "name": "desktop-sequence-5",
+      "passed": true,
+      "details": "../../../references/user-gpt/faithful-parts-20261013/lecturer-ai.png"
+    },
+    {
+      "name": "desktop-uncropped-aspect-5",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 955.359375,
+        "height": 675.984375,
+        "left": 242.3125,
+        "right": 1197.671875,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-no-horizontal-overflow-5",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 955.359375,
+        "height": 675.984375,
+        "left": 242.3125,
+        "right": 1197.671875,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-image-on-screen-5",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 955.359375,
+        "height": 675.984375,
+        "left": 242.3125,
+        "right": 1197.671875,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-image-bytes-5",
+      "passed": true,
+      "details": {
+        "original_sha256": "3421f663c21e3aeb0ecca04392691f54560ed2dff8218219179fd275e18b834e",
+        "delivered_sha256": "3421f663c21e3aeb0ecca04392691f54560ed2dff8218219179fd275e18b834e"
+      }
+    },
+    {
+      "name": "desktop-position-5",
+      "passed": true,
+      "details": "見開き5/6 · 講師・AI教育"
+    },
+    {
+      "name": "desktop-sequence-6",
+      "passed": true,
+      "details": "../../../references/user-gpt/faithful-parts-20261013/school-pr.png"
+    },
+    {
+      "name": "desktop-uncropped-aspect-6",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/school-pr.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 955.359375,
+        "height": 675.984375,
+        "left": 242.3125,
+        "right": 1197.671875,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-no-horizontal-overflow-6",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/school-pr.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 955.359375,
+        "height": 675.984375,
+        "left": 242.3125,
+        "right": 1197.671875,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-image-on-screen-6",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/school-pr.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 955.359375,
+        "height": 675.984375,
+        "left": 242.3125,
+        "right": 1197.671875,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-image-bytes-6",
+      "passed": true,
+      "details": {
+        "original_sha256": "963365cabaccdea4b8b54bb1d774c56faec47fb0a87d8e7f25dc2e343ef0b1c7",
+        "delivered_sha256": "963365cabaccdea4b8b54bb1d774c56faec47fb0a87d8e7f25dc2e343ef0b1c7"
+      }
+    },
+    {
+      "name": "desktop-position-6",
+      "passed": true,
+      "details": "見開き6/6 · 学校広報"
+    },
+    {
+      "name": "desktop-last-next-disabled",
+      "passed": true
+    },
+    {
+      "name": "desktop-last-arrow-bound",
+      "passed": true
+    },
+    {
+      "name": "desktop-prev-click",
+      "passed": true
+    },
+    {
+      "name": "desktop-arrow-left",
+      "passed": true
+    },
+    {
+      "name": "desktop-arrow-right",
+      "passed": true
+    },
+    {
+      "name": "desktop-thumb-cover",
+      "passed": true
+    },
+    {
+      "name": "desktop-sequence-3",
+      "passed": true,
+      "details": "../../../references/user-gpt/faithful-parts-20261013/international-ai.png"
+    },
+    {
+      "name": "desktop-uncropped-aspect-3",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/international-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 955.359375,
+        "height": 675.984375,
+        "left": 242.3125,
+        "right": 1197.671875,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-no-horizontal-overflow-3",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/international-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 955.359375,
+        "height": 675.984375,
+        "left": 242.3125,
+        "right": 1197.671875,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-image-on-screen-3",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/international-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 955.359375,
+        "height": 675.984375,
+        "left": 242.3125,
+        "right": 1197.671875,
+        "top": 67.5,
+        "bottom": 743.484375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 1440,
+        "viewportHeight": 950
+      }
+    },
+    {
+      "name": "desktop-image-bytes-3",
+      "passed": true,
+      "details": {
+        "original_sha256": "34f2673f7a143efa0ecaae6c52cf6c45465bec07eea81fc5c01dbd71d15473b3",
+        "delivered_sha256": "34f2673f7a143efa0ecaae6c52cf6c45465bec07eea81fc5c01dbd71d15473b3"
+      }
+    },
+    {
+      "name": "desktop-position-3",
+      "passed": true,
+      "details": "見開き3/6 · 国際ビジネスAI科"
+    },
+    {
+      "name": "desktop-thumbnail-click-0",
+      "passed": true
+    },
+    {
+      "name": "desktop-thumbnail-click-1",
+      "passed": true
+    },
+    {
+      "name": "desktop-thumbnail-click-2",
+      "passed": true
+    },
+    {
+      "name": "desktop-thumbnail-click-3",
+      "passed": true
+    },
+    {
+      "name": "desktop-thumbnail-click-4",
+      "passed": true
+    },
+    {
+      "name": "desktop-thumbnail-click-5",
+      "passed": true
+    },
+    {
+      "name": "desktop-thumbnail-click-6",
+      "passed": true
+    },
+    {
+      "name": "desktop-zoom-opens",
+      "passed": true
+    },
+    {
+      "name": "desktop-zoom-original",
+      "passed": true
+    },
+    {
+      "name": "desktop-zoom-closes",
+      "passed": true
+    },
+    {
+      "name": "desktop-link-parts.html",
+      "passed": true,
+      "details": {
+        "url": "http://127.0.0.1:8766/shared/generated-assets/gpt-faithful-parts-20261013/parts.html",
+        "status": 200
+      }
+    },
+    {
+      "name": "desktop-link-school-pr.png",
+      "passed": true,
+      "details": {
+        "url": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/school-pr.png",
+        "status": 200
+      }
+    },
+    {
+      "name": "desktop-parts-catalog-link",
+      "passed": true,
+      "details": [
+        "http://127.0.0.1:8766/shared/generated-assets/gpt-faithful-parts-20261013/parts.html",
+        "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/school-pr.png"
+      ]
+    },
+    {
+      "name": "desktop-runtime-clean",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "mobile-7-thumbnails",
+      "passed": true,
+      "details": 7
+    },
+    {
+      "name": "mobile-sequence-0",
+      "passed": true,
+      "details": "../../../references/user-gpt/faithful-parts-20261013/cover-2028.png"
+    },
+    {
+      "name": "mobile-uncropped-aspect-0",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/cover-2028.png",
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "width": 366,
+        "height": 488,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 556,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-no-horizontal-overflow-0",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/cover-2028.png",
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "width": 366,
+        "height": 488,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 556,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-image-on-screen-0",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/cover-2028.png",
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "width": 366,
+        "height": 488,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 556,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-image-bytes-0",
+      "passed": true,
+      "details": {
+        "original_sha256": "b072493c2d51a39eafd54e26ac718924314fda39a3f7296ff8b974d6dd026458",
+        "delivered_sha256": "b072493c2d51a39eafd54e26ac718924314fda39a3f7296ff8b974d6dd026458"
+      }
+    },
+    {
+      "name": "mobile-position-0",
+      "passed": true,
+      "details": "表紙"
+    },
+    {
+      "name": "mobile-first-prev-disabled",
+      "passed": true
+    },
+    {
+      "name": "mobile-first-arrow-bound",
+      "passed": true
+    },
+    {
+      "name": "mobile-sequence-1",
+      "passed": true,
+      "details": "../../../references/user-gpt/faithful-parts-20261013/multicultural.png"
+    },
+    {
+      "name": "mobile-uncropped-aspect-1",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/multicultural.png",
+        "naturalWidth": 1568,
+        "naturalHeight": 1003,
+        "width": 366,
+        "height": 234.109375,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 302.109375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-no-horizontal-overflow-1",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/multicultural.png",
+        "naturalWidth": 1568,
+        "naturalHeight": 1003,
+        "width": 366,
+        "height": 234.109375,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 302.109375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-image-on-screen-1",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/multicultural.png",
+        "naturalWidth": 1568,
+        "naturalHeight": 1003,
+        "width": 366,
+        "height": 234.109375,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 302.109375,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-image-bytes-1",
+      "passed": true,
+      "details": {
+        "original_sha256": "ac79bc51c099f5ea85ef8e516d74c8b2c67625242cd216202ae826cfecfc55e0",
+        "delivered_sha256": "ac79bc51c099f5ea85ef8e516d74c8b2c67625242cd216202ae826cfecfc55e0"
+      }
+    },
+    {
+      "name": "mobile-position-1",
+      "passed": true,
+      "details": "見開き1/6 · 多文化の学び"
+    },
+    {
+      "name": "mobile-sequence-2",
+      "passed": true,
+      "details": "../../../references/user-gpt/faithful-parts-20261013/school-overview.png"
+    },
+    {
+      "name": "mobile-uncropped-aspect-2",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/school-overview.png",
+        "naturalWidth": 1448,
+        "naturalHeight": 1086,
+        "width": 366,
+        "height": 274.5,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 342.5,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-no-horizontal-overflow-2",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/school-overview.png",
+        "naturalWidth": 1448,
+        "naturalHeight": 1086,
+        "width": 366,
+        "height": 274.5,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 342.5,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-image-on-screen-2",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/school-overview.png",
+        "naturalWidth": 1448,
+        "naturalHeight": 1086,
+        "width": 366,
+        "height": 274.5,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 342.5,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-image-bytes-2",
+      "passed": true,
+      "details": {
+        "original_sha256": "8a094ec0cc82ad83df98c77f008725e57cfc99ef5f4677c3429d812e3419dbd7",
+        "delivered_sha256": "8a094ec0cc82ad83df98c77f008725e57cfc99ef5f4677c3429d812e3419dbd7"
+      }
+    },
+    {
+      "name": "mobile-position-2",
+      "passed": true,
+      "details": "見開き2/6 · 学校の教育紹介"
+    },
+    {
+      "name": "mobile-sequence-3",
+      "passed": true,
+      "details": "../../../references/user-gpt/faithful-parts-20261013/international-ai.png"
+    },
+    {
+      "name": "mobile-uncropped-aspect-3",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/international-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 366,
+        "height": 258.96875,
+        "left": 14.30164909362793,
+        "right": 380.30164909362793,
+        "top": 68,
+        "bottom": 326.96875,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-no-horizontal-overflow-3",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/international-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 366,
+        "height": 258.96875,
+        "left": 14.30164909362793,
+        "right": 380.30164909362793,
+        "top": 68,
+        "bottom": 326.96875,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-image-on-screen-3",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/international-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 366,
+        "height": 258.96875,
+        "left": 14.30164909362793,
+        "right": 380.30164909362793,
+        "top": 68,
+        "bottom": 326.96875,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-image-bytes-3",
+      "passed": true,
+      "details": {
+        "original_sha256": "34f2673f7a143efa0ecaae6c52cf6c45465bec07eea81fc5c01dbd71d15473b3",
+        "delivered_sha256": "34f2673f7a143efa0ecaae6c52cf6c45465bec07eea81fc5c01dbd71d15473b3"
+      }
+    },
+    {
+      "name": "mobile-position-3",
+      "passed": true,
+      "details": "見開き3/6 · 国際ビジネスAI科"
+    },
+    {
+      "name": "mobile-sequence-4",
+      "passed": true,
+      "details": "../../../references/user-gpt/faithful-parts-20261013/general-business.png"
+    },
+    {
+      "name": "mobile-uncropped-aspect-4",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/general-business.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 366,
+        "height": 258.96875,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 326.96875,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-no-horizontal-overflow-4",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/general-business.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 366,
+        "height": 258.96875,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 326.96875,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-image-on-screen-4",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/general-business.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 366,
+        "height": 258.96875,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 326.96875,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-image-bytes-4",
+      "passed": true,
+      "details": {
+        "original_sha256": "37a566563a7bd322550a026a9001e97b21bc3ec314a4ff8332db88001ecd5ebd",
+        "delivered_sha256": "37a566563a7bd322550a026a9001e97b21bc3ec314a4ff8332db88001ecd5ebd"
+      }
+    },
+    {
+      "name": "mobile-position-4",
+      "passed": true,
+      "details": "見開き4/6 · 総合ビジネス科"
+    },
+    {
+      "name": "mobile-sequence-5",
+      "passed": true,
+      "details": "../../../references/user-gpt/faithful-parts-20261013/lecturer-ai.png"
+    },
+    {
+      "name": "mobile-uncropped-aspect-5",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 366,
+        "height": 258.96875,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 326.96875,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-no-horizontal-overflow-5",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 366,
+        "height": 258.96875,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 326.96875,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-image-on-screen-5",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 366,
+        "height": 258.96875,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 326.96875,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-image-bytes-5",
+      "passed": true,
+      "details": {
+        "original_sha256": "3421f663c21e3aeb0ecca04392691f54560ed2dff8218219179fd275e18b834e",
+        "delivered_sha256": "3421f663c21e3aeb0ecca04392691f54560ed2dff8218219179fd275e18b834e"
+      }
+    },
+    {
+      "name": "mobile-position-5",
+      "passed": true,
+      "details": "見開き5/6 · 講師・AI教育"
+    },
+    {
+      "name": "mobile-sequence-6",
+      "passed": true,
+      "details": "../../../references/user-gpt/faithful-parts-20261013/school-pr.png"
+    },
+    {
+      "name": "mobile-uncropped-aspect-6",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/school-pr.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 366,
+        "height": 258.96875,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 326.96875,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-no-horizontal-overflow-6",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/school-pr.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 366,
+        "height": 258.96875,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 326.96875,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-image-on-screen-6",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/school-pr.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 366,
+        "height": 258.96875,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 326.96875,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-image-bytes-6",
+      "passed": true,
+      "details": {
+        "original_sha256": "963365cabaccdea4b8b54bb1d774c56faec47fb0a87d8e7f25dc2e343ef0b1c7",
+        "delivered_sha256": "963365cabaccdea4b8b54bb1d774c56faec47fb0a87d8e7f25dc2e343ef0b1c7"
+      }
+    },
+    {
+      "name": "mobile-position-6",
+      "passed": true,
+      "details": "見開き6/6 · 学校広報"
+    },
+    {
+      "name": "mobile-last-next-disabled",
+      "passed": true
+    },
+    {
+      "name": "mobile-last-arrow-bound",
+      "passed": true
+    },
+    {
+      "name": "mobile-prev-click",
+      "passed": true
+    },
+    {
+      "name": "mobile-arrow-left",
+      "passed": true
+    },
+    {
+      "name": "mobile-arrow-right",
+      "passed": true
+    },
+    {
+      "name": "mobile-thumb-cover",
+      "passed": true
+    },
+    {
+      "name": "mobile-sequence-3",
+      "passed": true,
+      "details": "../../../references/user-gpt/faithful-parts-20261013/international-ai.png"
+    },
+    {
+      "name": "mobile-uncropped-aspect-3",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/international-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 366,
+        "height": 258.96875,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 326.96875,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-no-horizontal-overflow-3",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/international-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 366,
+        "height": 258.96875,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 326.96875,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-image-on-screen-3",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/international-ai.png",
+        "naturalWidth": 1491,
+        "naturalHeight": 1055,
+        "width": 366,
+        "height": 258.96875,
+        "left": 12,
+        "right": 378,
+        "top": 68,
+        "bottom": 326.96875,
+        "objectFit": "contain",
+        "overflow": false,
+        "viewportWidth": 390,
+        "viewportHeight": 844
+      }
+    },
+    {
+      "name": "mobile-image-bytes-3",
+      "passed": true,
+      "details": {
+        "original_sha256": "34f2673f7a143efa0ecaae6c52cf6c45465bec07eea81fc5c01dbd71d15473b3",
+        "delivered_sha256": "34f2673f7a143efa0ecaae6c52cf6c45465bec07eea81fc5c01dbd71d15473b3"
+      }
+    },
+    {
+      "name": "mobile-position-3",
+      "passed": true,
+      "details": "見開き3/6 · 国際ビジネスAI科"
+    },
+    {
+      "name": "mobile-swipe-next",
+      "passed": true
+    },
+    {
+      "name": "mobile-swipe-prev",
+      "passed": true
+    },
+    {
+      "name": "mobile-swipe-first-bound",
+      "passed": true
+    },
+    {
+      "name": "mobile-swipe-last-bound",
+      "passed": true
+    },
+    {
+      "name": "mobile-thumbnail-click-0",
+      "passed": true
+    },
+    {
+      "name": "mobile-thumbnail-click-1",
+      "passed": true
+    },
+    {
+      "name": "mobile-thumbnail-click-2",
+      "passed": true
+    },
+    {
+      "name": "mobile-thumbnail-click-3",
+      "passed": true
+    },
+    {
+      "name": "mobile-thumbnail-click-4",
+      "passed": true
+    },
+    {
+      "name": "mobile-thumbnail-click-5",
+      "passed": true
+    },
+    {
+      "name": "mobile-thumbnail-click-6",
+      "passed": true
+    },
+    {
+      "name": "mobile-zoom-opens",
+      "passed": true
+    },
+    {
+      "name": "mobile-zoom-original",
+      "passed": true
+    },
+    {
+      "name": "mobile-zoom-closes",
+      "passed": true
+    },
+    {
+      "name": "mobile-link-parts.html",
+      "passed": true,
+      "details": {
+        "url": "http://127.0.0.1:8766/shared/generated-assets/gpt-faithful-parts-20261013/parts.html",
+        "status": 200
+      }
+    },
+    {
+      "name": "mobile-link-school-pr.png",
+      "passed": true,
+      "details": {
+        "url": "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/school-pr.png",
+        "status": 200
+      }
+    },
+    {
+      "name": "mobile-parts-catalog-link",
+      "passed": true,
+      "details": [
+        "http://127.0.0.1:8766/shared/generated-assets/gpt-faithful-parts-20261013/parts.html",
+        "http://127.0.0.1:8766/references/user-gpt/faithful-parts-20261013/school-pr.png"
+      ]
+    },
+    {
+      "name": "mobile-runtime-clean",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "old-catalog-accessible",
+      "passed": true,
+      "details": {
+        "url": "http://127.0.0.1:8766/shared/generated-assets/gpt-faithful-parts-20261013/parts.html",
+        "status": 200
+      }
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\.cache\\booklet-viewer-qa\\desktop-cover.png",
+    "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\.cache\\booklet-viewer-qa\\desktop-spread.png",
+    "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\.cache\\booklet-viewer-qa\\mobile-cover.png",
+    "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\.cache\\booklet-viewer-qa\\mobile-spread.png"
+  ],
+  "passed": true,
+  "index_sha256": "54db798633b7235c18e887847a942c24d6cbfb473837bc381e673cd823987921",
+  "visual_review": {
+    "inspected": true,
+    "viewports": [
+      "1440x950",
+      "390x844"
+    ],
+    "screenshots": 4,
+    "result": "coverportrait and completeuncroppedspreads; no page overflow; originalcomposition retained; mobile compact layout verified"
+  }
+}
