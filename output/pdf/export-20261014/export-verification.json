@@ -1,0 +1,82 @@
+{
+  "path": "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\output\\pdf\\AIビジネス専門学校_加工版冊子_20261014.pdf",
+  "page_count": 7,
+  "paper_pages_equivalent": 13,
+  "scope": "existing cover plus six spreads",
+  "excludes": "six newly analyzed images",
+  "sha256": "6f69d2c14897d1790f5311d66fe30d572d3ba327e76952a4e64847a23f629911",
+  "file_size_bytes": 19310387,
+  "all_embedded_rgb_identical": true,
+  "pages": [
+    {
+      "index": 0,
+      "label": "表紙",
+      "source": "references/user-gpt/faithful-parts-20261013/cover-2028.png",
+      "source_sha256": "b072493c2d51a39eafd54e26ac718924314fda39a3f7296ff8b974d6dd026458",
+      "embedded_rgb_identical": true,
+      "page_width_pt": 815.03998,
+      "page_height_pt": 1086.0,
+      "ratio_relative_error": 0.0006629588704727407
+    },
+    {
+      "index": 1,
+      "label": "多文化の学び",
+      "source": "references/user-gpt/faithful-parts-20261013/multicultural.png",
+      "source_sha256": "ac79bc51c099f5ea85ef8e516d74c8b2c67625242cd216202ae826cfecfc55e0",
+      "embedded_rgb_identical": true,
+      "page_width_pt": 1176.0,
+      "page_height_pt": 751.91998,
+      "ratio_relative_error": 0.0004389030864693222
+    },
+    {
+      "index": 2,
+      "label": "学校の教育紹介",
+      "source": "references/user-gpt/faithful-parts-20261013/school-overview.png",
+      "source_sha256": "8a094ec0cc82ad83df98c77f008725e57cfc99ef5f4677c3429d812e3419dbd7",
+      "embedded_rgb_identical": true,
+      "page_width_pt": 1086.0,
+      "page_height_pt": 815.03998,
+      "ratio_relative_error": 0.0006625196471957695
+    },
+    {
+      "index": 3,
+      "label": "国際ビジネスAI科",
+      "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+      "source_sha256": "34f2673f7a143efa0ecaae6c52cf6c45465bec07eea81fc5c01dbd71d15473b3",
+      "embedded_rgb_identical": true,
+      "page_width_pt": 1117.91992,
+      "page_height_pt": 791.03998,
+      "ratio_relative_error": 2.975527525250765e-05
+    },
+    {
+      "index": 4,
+      "label": "総合ビジネス科",
+      "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+      "source_sha256": "37a566563a7bd322550a026a9001e97b21bc3ec314a4ff8332db88001ecd5ebd",
+      "embedded_rgb_identical": true,
+      "page_width_pt": 1117.91992,
+      "page_height_pt": 791.03998,
+      "ratio_relative_error": 2.975527525250765e-05
+    },
+    {
+      "index": 5,
+      "label": "講師・AI教育",
+      "source": "references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+      "source_sha256": "3421f663c21e3aeb0ecca04392691f54560ed2dff8218219179fd275e18b834e",
+      "embedded_rgb_identical": true,
+      "page_width_pt": 1117.91992,
+      "page_height_pt": 791.03998,
+      "ratio_relative_error": 2.975527525250765e-05
+    },
+    {
+      "index": 6,
+      "label": "学校広報",
+      "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+      "source_sha256": "963365cabaccdea4b8b54bb1d774c56faec47fb0a87d8e7f25dc2e343ef0b1c7",
+      "embedded_rgb_identical": true,
+      "page_width_pt": 1117.91992,
+      "page_height_pt": 791.03998,
+      "ratio_relative_error": 2.975527525250765e-05
+    }
+  ]
+}

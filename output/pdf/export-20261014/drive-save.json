@@ -1,0 +1,28 @@
+{
+  "saved_at": "2026-10-14",
+  "local_pdf": "output/pdf/AIビジネス専門学校_加工版冊子_20261014.pdf",
+  "sha256": "6f69d2c14897d1790f5311d66fe30d572d3ba327e76952a4e64847a23f629911",
+  "scope": "existing cover plus six spreads",
+  "new_six_images_included": false,
+  "upload_success": true,
+  "metadata_readback": {
+    "id": "1G-Y5E5jo-L0oNh3qwvRRCiLC_cAxdPrw",
+    "title": "AIビジネス専門学校_加工版冊子_20261014.pdf",
+    "mime_type": "application/pdf",
+    "size": "19310387",
+    "url": "https://drive.google.com/file/d/1G-Y5E5jo-L0oNh3qwvRRCiLC_cAxdPrw/view?usp=drivesdk",
+    "display_url": "https://drive.google.com/file/d/1G-Y5E5jo-L0oNh3qwvRRCiLC_cAxdPrw/view?usp=drivesdk",
+    "file_or_folder": "file",
+    "created_time": null,
+    "modified_time": null,
+    "parent_ids": [
+      "1_ndByV9rp8W8TZ8Es--OKO02GLtRjpMF"
+    ],
+    "drive_id": null,
+    "current_user_can_share": null,
+    "has_augmented_permissions": null,
+    "shared": null,
+    "permissions": null,
+    "source_visibility_status": "access_not_verified"
+  }
+}

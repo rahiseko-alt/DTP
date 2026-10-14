@@ -1,0 +1,415 @@
+{
+  "scope": "analysis_only",
+  "created": "2026-10-14",
+  "source_files": [
+    "C:/Users/user/Downloads/保護者の皆さまへ、安心の学び案内.png",
+    "C:/Users/user/Downloads/教員・支援体制の安心サポート.png"
+  ],
+  "source_ownership": "User identifies these as GPT-generated. Faces, campus building, depicted counselling desks and implied dialogue are not evidence of actual students, teachers, buildings or services.",
+  "confirmed_sources": [
+    "company-data/ledger.md",
+    "company-data/facts/teachers.yaml"
+  ],
+  "visible_page_ids": [
+    {
+      "file": "教員・支援体制の安心サポート.png",
+      "page": 17,
+      "position": "右下"
+    },
+    {
+      "file": "保護者の皆さまへ、安心の学び案内.png",
+      "page": 19,
+      "position": "右下"
+    }
+  ],
+  "continuity": "18は未提供。17と19を連続見開きと断定しない。既存12ページBOOKの採用/採番を変更しない。",
+  "target_fit": {
+    "confirmed": "日本の高校に通う外国ルーツの高校生と保護者。海外来日留学生募集とは区別。",
+    "strength": "親子相談と日本語不安の図示は対象に合う。保護者への安心訴求を写真で具体化。",
+    "limits": [
+      "衣装・外見で国籍・母語・来日状況を推定しない。",
+      "住まい/在留手続きは全対象の共通ニーズと断定しない。",
+      "日本での就職を全生徒の希望と固定しない。",
+      "保護者19には学費の疑問があるが費用/支払時期の回答がない。2028学費未確定、2027参考値のみ確認済み。"
+    ]
+  },
+  "hierarchy": {
+    "teachers17": [
+      "巨大見出し『教員・支援体制』",
+      "学生一人ひとりの支援を示すサブ見出し・本文",
+      "教員と4人の学生のメイン相談写真＋手書きコピー＋円の吹出し",
+      "5領域：専門教員・日本語・生活進路・多文化・学習、各1写真",
+      "保護者向けの下段帯、3円の支援概念、校舎イメージ",
+      "校名・タグライン・17"
+    ],
+    "parents19": [
+      "巨大見出し『保護者の方へ』",
+      "未来と学び生活進路のサブ見出し・本文",
+      "親子と教員の相談写真＋手書きコピー",
+      "4つの不安の吹出しと人物イメージ",
+      "4つの支援領域と色別アイコン・本文",
+      "4つの理由と番号・説明写真",
+      "将来コピー・相談文・校舎イメージ",
+      "校名・タグライン・19"
+    ]
+  },
+  "duplication": {
+    "overlap": [
+      "日本語不安を支える",
+      "一人ひとりの学習サポート",
+      "生活と進路の相談",
+      "多文化の安心",
+      "教員/スタッフと保護者の連携",
+      "同系色・同系生成教員/学生・似た校舎締め"
+    ],
+    "specific_difference": "17は誰が/何を支えるかという5領域の紹介。19は親の4不安→4支援→4選択理由という保護者側の読み筋。19は医療/住まい/補習/企業連携という具体的な未確認約束をさらに追加している。",
+    "preservation": "重複を理由に削除/統合/順序変更しない。100%近い再現に従い現物見出しと構成を保持したうえで、採用判断を別途求める。"
+  },
+  "style": {
+    "description": "白を基調に濃紺の巨大日本語見出し、淡青の下線、明るい相談写真、青/桃/緑/橙/紫の色別支援領域、丸アイコン、手書き風応援コピー、薄い丸角カード、青空校舎の締め。未来的装飾ではなく対面の安心を主役にする。",
+    "strengths": [
+      "大見出しと人物を上下左右に重ねることで入口が明確。",
+      "不安を4種の表情と吹出しで具体化し、親が読み始めやすい。",
+      "支援領域と写真の内容が対応し、説明を場面で補う。",
+      "同一シリーズと分かる青・書体・余白・ページ端処理。"
+    ],
+    "limitations": [
+      "生成人物と建物を実学校写真として認証できない。",
+      "細部の現在実施の断定と支援実績は視覚品質から確認できない。",
+      "二枚の同系相談写真・下段校舎が反復するが、今回は勝手な造形変更は禁止。"
+    ]
+  },
+  "reusable_parts_analysis_only": {
+    "teachers17": [
+      "メイン相談場面1（吹出し/手書きコピーの重なりあり）",
+      "支援紹介の小写真5（うち相談掲示は在留支援の暗示を含む）",
+      "下部校舎背景1（文字・円図・人物の重なりとフェードがある）",
+      "色円アイコン5、下部3円図は構造レイヤー候補"
+    ],
+    "parents19": [
+      "メイン親子相談場面1（コピーの重なりあり）",
+      "不安の人物場面4（吹出しや線画記号の分離が必要）",
+      "選択理由の小写真4",
+      "下部校舎背景1（締めコピーや校名との重なりあり）",
+      "支援アイコン4、理由番号4、吹出しは構造レイヤー候補"
+    ],
+    "rule": "抽出・生成は未実施。パーツ化に進む場合も、元の人物・構図・比率・色・フェードを維持し、写真内掲示や固有の場面文字は一律削除しない。"
+  },
+  "claims": [
+    {
+      "id": "common-school-name",
+      "page": "17,19",
+      "area": "下端校名",
+      "literal": "AIビジネス専門学校",
+      "status": "confirmed",
+      "confirmed_data_relation": "ledger.md 学校名と一致",
+      "information_needed": []
+    },
+    {
+      "id": "common-english",
+      "page": "17,19",
+      "area": "左上英語ヘッダー",
+      "literal": "AI BUSINESS VOCATIONAL SCHOOL",
+      "status": "naming_needs_confirmation",
+      "confirmed_data_relation": "ledger.md 学校英語名はArtificial Intelligence Business College。原画像の表記を勝手に変更しない。",
+      "information_needed": "正式英語名として使うのか、一般的なデザイン用表現か"
+    },
+    {
+      "id": "common-tagline",
+      "page": "17,19",
+      "area": "右上／下端",
+      "literal": "多様な仲間と、ともに学び、未来をつくる／学ぶ人の、未来をともに。",
+      "status": "aspirational_copy",
+      "confirmed_data_relation": "公式タグライン欄は未記入。対象の外国ルーツ高校生と親へ向けた多文化の方向は適合。",
+      "information_needed": "採用するコピーの確認"
+    },
+    {
+      "id": "teachers-main",
+      "page": "17",
+      "area": "上部左大見出し",
+      "literal": "教員・支援体制",
+      "status": "section_heading",
+      "confirmed_data_relation": "教員氏名・支援体制の具体事項は未記入。見出し自体は章名。",
+      "information_needed": "この章で紹介する実際の教員・支援スタッフ"
+    },
+    {
+      "id": "teachers-subhead",
+      "page": "17",
+      "area": "大見出し直下",
+      "literal": "学生一人ひとりを支える、安心のサポート体制",
+      "status": "unverified_support",
+      "confirmed_data_relation": "具体的な日本語・就職支援内容が台帳で空欄。",
+      "information_needed": "担当、対象、実施方法、相談窓口"
+    },
+    {
+      "id": "teachers-lead",
+      "page": "17",
+      "area": "左上本文",
+      "literal": "AIビジネス専門学校では、専門的な学びはもちろん、日本での生活や将来の進路まで、教員と支援スタッフが連携して学生一人ひとりを丁寧に支えます。",
+      "status": "mixed",
+      "confirmed_data_relation": "AI・ビジネスの教育は確認済み。生活・進路の連携体制は未確認。",
+      "information_needed": "教員と支援スタッフの職務分担・連絡方法"
+    },
+    {
+      "id": "teachers-handwriting",
+      "page": "17",
+      "area": "右上手書き風コピー",
+      "literal": "いつでも相談できる先生がいる。だから、がんばれる。",
+      "status": "unverified_availability",
+      "confirmed_data_relation": "teachers.yamlはteacher-todoのみ。実在の学生の発言としての確認なし。",
+      "information_needed": "相談時間・方法・担当、引用として使う場合は話者・同意"
+    },
+    {
+      "id": "teachers-balloon",
+      "page": "17",
+      "area": "メイン写真右下円",
+      "literal": "どんな小さなことでも、気軽に相談できます。",
+      "status": "unverified_support",
+      "confirmed_data_relation": "個別相談の具体的運用は未確認。",
+      "information_needed": "相談対象と窓口"
+    },
+    {
+      "id": "teachers-expert",
+      "page": "17",
+      "area": "支援カード第1列",
+      "literal": "専門分野の教員／AI・ビジネス・ITの基礎から丁寧に指導します。",
+      "status": "mixed",
+      "confirmed_data_relation": "AI/ビジネス教育と講師認定資格は台帳にある。IT基礎担当者・指導運用は未登録。",
+      "information_needed": "実際の担当教員、担当科目、経歴、掲載同意"
+    },
+    {
+      "id": "teachers-japanese",
+      "page": "17",
+      "area": "支援カード第2列",
+      "literal": "日本語サポート／日本語に不安がある学生にも、やさしくわかりやすく支えます。",
+      "status": "unverified_support",
+      "confirmed_data_relation": "読者の日本語不安は台帳確認済み。日本語支援の具体的内容は空欄。",
+      "information_needed": "授業外相談・語学指導の内容、担当、頻度"
+    },
+    {
+      "id": "teachers-life",
+      "page": "17",
+      "area": "支援カード第3列",
+      "literal": "生活・進路相談／学校生活、進路、就職などを相談できます。",
+      "status": "unverified_support",
+      "confirmed_data_relation": "就職支援具体内容は空欄。",
+      "information_needed": "窓口、相談予約、進学/就職/生活各領域の支援範囲"
+    },
+    {
+      "id": "teachers-visa",
+      "page": "17",
+      "area": "第3列相談窓口写真の掲示",
+      "literal": "進学／就職／生活相談／在留手続き",
+      "status": "unverified_depicted_service",
+      "confirmed_data_relation": "在留支援の確定記載なし。写真上の掲示もGPT生成のためサービス実在の根拠にならない。",
+      "information_needed": "実際に在留相談を扱うか、対象と対応範囲。読者が在留支援を必要とするかは個別"
+    },
+    {
+      "id": "teachers-multicultural",
+      "page": "17",
+      "area": "支援カード第4列",
+      "literal": "多文化に配慮した対応／やさしい日本語と多文化理解を大切にします。",
+      "status": "unverified_support",
+      "confirmed_data_relation": "読者は外国ルーツ高校生と保護者。多文化対応方針の具体的運用は未記入。",
+      "information_needed": "対応方針、担当スタッフ、対応言語。母語の指定は未確定"
+    },
+    {
+      "id": "teachers-learning",
+      "page": "17",
+      "area": "支援カード第5列",
+      "literal": "学習サポート／勉強につまずいた時も、一人で悩まない環境です。",
+      "status": "unverified_support",
+      "confirmed_data_relation": "学習支援運用の確定資料なし。",
+      "information_needed": "つまずきの把握方法、担当、対応方法"
+    },
+    {
+      "id": "teachers-parent-label",
+      "page": "17",
+      "area": "下部青色帯",
+      "literal": "保護者の皆さまへ",
+      "status": "section_heading",
+      "confirmed_data_relation": "台帳の保護者は意思決定者・支払者。",
+      "information_needed": []
+    },
+    {
+      "id": "teachers-parent-main",
+      "page": "17",
+      "area": "下部青色帯の大コピー",
+      "literal": "学習面だけでなく、生活面・進路面まで、教員と支援スタッフが連携して学生一人ひとりを支えます。",
+      "status": "unverified_support",
+      "confirmed_data_relation": "連携の実際の運用は未確認。",
+      "information_needed": "具体的なチーム構成・分担・連絡体制"
+    },
+    {
+      "id": "teachers-parent-body",
+      "page": "17",
+      "area": "下部青色帯の本文",
+      "literal": "本校では、学生が安心して学び、充実した学校生活を送れるよう、教員・支援スタッフが日常的にコミュニケーションを取り、きめ細やかな支援を行っています。保護者の皆さまにも、安心してお子さまをお預けいただける環境づくりに努めています。",
+      "status": "unverified_current_practice",
+      "confirmed_data_relation": "『行っています』は現在実施の断定。実施記録や運用は台帳にない。",
+      "information_needed": "実施頻度・連絡方法、保護者との接続"
+    },
+    {
+      "id": "teachers-parent-diagram",
+      "page": "17",
+      "area": "下部右の3円図",
+      "literal": "学習のサポート／生活のサポート／進路のサポート／教員と支援スタッフがチームで支えます",
+      "status": "unverified_support",
+      "confirmed_data_relation": "3領域が同じチームで提供される事実は未確認。",
+      "information_needed": "3領域それぞれの担当と対応できる範囲"
+    },
+    {
+      "id": "parents-main",
+      "page": "19",
+      "area": "上部左大見出し",
+      "literal": "保護者の方へ",
+      "status": "section_heading",
+      "confirmed_data_relation": "意思決定者・支払者への専用章として適合。",
+      "information_needed": []
+    },
+    {
+      "id": "parents-subheads",
+      "page": "19",
+      "area": "上部左大見出し直下",
+      "literal": "お子さまの未来を、一緒に支えます。／学び・生活・進路まで、学校全体で安心を支えます。",
+      "status": "unverified_support",
+      "confirmed_data_relation": "支援の方向は対象と合うが学校全体の支援運用は未確認。",
+      "information_needed": "支援領域、学校としての責任担当"
+    },
+    {
+      "id": "parents-lead",
+      "page": "19",
+      "area": "左上本文",
+      "literal": "AIビジネス専門学校は、学生一人ひとりの可能性を大切にし、学習・生活・進路のすべての面で支える学校です。保護者の皆さまと連携し、安心してお子さまを預けていただける環境づくりに努めています。",
+      "status": "unverified_support",
+      "confirmed_data_relation": "保護者向け安心・支援の説明は台帳目的と合う。『すべての面』『連携』の具体運用は未確定。",
+      "information_needed": "対応範囲、保護者連絡・面談体制"
+    },
+    {
+      "id": "parents-handwriting",
+      "page": "19",
+      "area": "右上手書き風コピー",
+      "literal": "お子さまの夢をこれからも一緒に応援します。",
+      "status": "aspirational_copy",
+      "confirmed_data_relation": "応援の姿勢を示すコピー。実保護者の証言ではない。",
+      "information_needed": "このコピーの採用確認"
+    },
+    {
+      "id": "parents-worries",
+      "page": "19",
+      "area": "中段4つの心配",
+      "literal": "こんな心配はありませんか？／日本語がまだ十分ではないけれど、授業についていけるかな？／途中であきらめてしまわないか心配…／卒業後に日本で働けるのかな？／学費は払えるだろうか？",
+      "status": "audience_question_not_guarantee",
+      "confirmed_data_relation": "日本語・卒業後・費用不安は台帳対象と合う。日本での就職は全員の希望と断定しない。",
+      "information_needed": "費用・支払条件を別章に接続する情報、各不安の実際の対応"
+    },
+    {
+      "id": "parents-support-heading",
+      "page": "19",
+      "area": "中段支援4列の上",
+      "literal": "AIビジネス専門学校のサポート体制／学びも、生活も、進路も。学校全体でしっかりサポートします。",
+      "status": "unverified_support",
+      "confirmed_data_relation": "支援実施内容の確定欄は未記入。",
+      "information_needed": "実際の支援一覧"
+    },
+    {
+      "id": "parents-easy-japanese",
+      "page": "19",
+      "area": "支援第1列",
+      "literal": "やさしい日本語での授業／日本語レベルに合わせたわかりやすい授業で、基礎から丁寧に学べます。",
+      "status": "unverified_support",
+      "confirmed_data_relation": "日本語に不安がある読者は確認済み。レベル別/やさしい日本語授業の実施は未確認。",
+      "information_needed": "授業の運用、レベル把握と対応、担当教員"
+    },
+    {
+      "id": "parents-remedial",
+      "page": "19",
+      "area": "支援第2列",
+      "literal": "学習サポート／授業の理解を深めるための補習や個別相談で、学習をしっかりサポートします。",
+      "status": "unverified_support",
+      "confirmed_data_relation": "補習・個別相談の記録なし。",
+      "information_needed": "実施有無、頻度、対象、担当、追加費用の有無"
+    },
+    {
+      "id": "parents-life",
+      "page": "19",
+      "area": "支援第3列",
+      "literal": "生活サポート／住まいの相談、生活ルール、健康・医療のサポートなど日本での生活を安心して送れるよう支援します。",
+      "status": "unverified_support",
+      "confirmed_data_relation": "住まい・健康医療支援の具体記載なし。海外から来日する留学生対象とは区別が必要。",
+      "information_needed": "住居・医療の相談範囲、紹介/同行/直接提供の区別、担当と対象"
+    },
+    {
+      "id": "parents-career",
+      "page": "19",
+      "area": "支援第4列",
+      "literal": "進路・就職サポート／進路相談、就職活動のサポート、ビジネスマナー指導など、卒業後のキャリア形成を支援します。",
+      "status": "unverified_support",
+      "confirmed_data_relation": "就職支援の具体内容、職種・実績は未記入。",
+      "information_needed": "実施内容、相談窓口、支援担当、卒業後対応の範囲"
+    },
+    {
+      "id": "parents-chosen-heading",
+      "page": "19",
+      "area": "下段4理由の見出し・説明",
+      "literal": "保護者の方に選ばれる4つの理由／多くの保護者の皆さまに選ばれている、安心のポイントです。",
+      "status": "unverified_track_record",
+      "confirmed_data_relation": "『多くの』と『選ばれている』は実績表現。保護者の選択/評価の記録は台帳にない。",
+      "information_needed": "保護者から選ばれた根拠、記録、集計対象と期間"
+    },
+    {
+      "id": "parents-reason-01",
+      "page": "19",
+      "area": "理由第1列",
+      "literal": "日本語に不安があっても学べる環境／日本語レベルに合わせた指導で、安心して学べます。",
+      "status": "unverified_support",
+      "confirmed_data_relation": "日本語支援の具体内容は未記入。",
+      "information_needed": "日本語レベル対応の実施方法"
+    },
+    {
+      "id": "parents-reason-02",
+      "page": "19",
+      "area": "理由第2列",
+      "literal": "先生・スタッフが一人ひとりをサポート／学習・生活・進路まで、いつでも相談できる体制です。",
+      "status": "unverified_availability",
+      "confirmed_data_relation": "相談可能時間・職務担当が未登録。",
+      "information_needed": "『いつでも』の実際の受付時間と経路"
+    },
+    {
+      "id": "parents-reason-03",
+      "page": "19",
+      "area": "理由第3列",
+      "literal": "多文化の仲間と安心して学べる／さまざまな国や地域の仲間と、互いに支え合いながら学べます。",
+      "status": "unverified_environment",
+      "confirmed_data_relation": "外国ルーツ対象と整合。実際の学生構成と支え合い運用は未登録。",
+      "information_needed": "学生構成の確認、実際の交流/共同学習内容"
+    },
+    {
+      "id": "parents-reason-04",
+      "page": "19",
+      "area": "理由第4列",
+      "literal": "日本での仕事につながる実践的な学び／企業との連携や実践的な授業で、日本で働く力を身につけられます。",
+      "status": "mixed",
+      "confirmed_data_relation": "実践AI教育・ビジネス体験は台帳で確認済み。企業連携具体内容は空欄。就職保証と同一視しない。",
+      "information_needed": "企業名・連携内容・実施時期、授業との関係"
+    },
+    {
+      "id": "parents-closing-main",
+      "page": "19",
+      "area": "最下段大コピー",
+      "literal": "お子さまの可能性は、ここから広がります。",
+      "status": "aspirational_copy",
+      "confirmed_data_relation": "本人の可能性と保護者の安心に合う未来コピー。",
+      "information_needed": "採用コピーの確認"
+    },
+    {
+      "id": "parents-closing-body",
+      "page": "19",
+      "area": "最下段本文",
+      "literal": "AIビジネス専門学校は、学生と保護者の皆さまと共に歩み、お子さまの夢の実現に向けて全力でサポートします。どんなことでも、お気軽にご相談ください。私たちは、いつでも皆さまのそばにいます。",
+      "status": "unverified_support_with_aspiration",
+      "confirmed_data_relation": "応援の姿勢はコピー。『どんなことでも』『いつでも』の無制限な支援を確定事実としては扱えない。",
+      "information_needed": "実際の相談窓口・受付時間・対応領域"
+    }
+  ]
+}
