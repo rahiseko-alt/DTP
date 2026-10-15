@@ -1,7 +1,7 @@
 {{!-- page_002 目次・教育方針・募集学科と定員（左ページ） --}}
 <div class="p2-band" aria-hidden="true"></div>
 <header class="p2-head">
-  <p class="p2-head__kicker">{{facts.admissions.as_of}}・{{facts.admissions.audience}}</p>
+  <p class="p2-head__kicker">{{facts.admissions.as_of}}</p>
   <h1 class="p2-head__title">募集要項</h1>
   <p class="p2-head__sub">まず全体をつかんでから、願書へ進みます。</p>
 </header>
@@ -54,7 +54,7 @@
       <p class="p2-course__meta">{{facts.admissions.departments.0.program}}</p>
     </article>
   </div>
-  <ul class="p2-notes">{{#each facts.admissions.exam_notes}}<li>{{this}}</li>{{/each}}</ul>
+  <ul class="p2-notes"><li>{{lookup facts.admissions.exam_notes 0}}</li></ul>
 </section>
 
 <footer class="page-folio" data-side="{{page.side}}">

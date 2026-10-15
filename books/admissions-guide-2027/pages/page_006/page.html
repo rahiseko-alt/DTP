@@ -1,44 +1,31 @@
-{{!--
-  page_006「本文ページ」（雛形から 2026-10-15 に作成）
-
-  3 層構造（system/rules/page-layers.md）
-    Layer 1 BASE VISUAL : page.yaml の background（books/admissions-guide-2027/backgrounds/page_006.png と同名の .prompt.yaml）
-    Layer 2 STRUCTURE   : 色面・枠・罫線・パネル（このファイルの要素 + page.css）。文章量で大きさが変わる枠は画像にしない
-    Layer 3 CONTENT     : 見出し・本文・数字・ページ番号。事実（学校名・数字・連絡先など）は必ず {{facts...}} で参照する
-
-  - 座標は .trim（仕上がり線の左上が原点、mm）。仕上がり線まで届く面は .bleed-top などで塗り足しまで伸ばす
-  - 厳格モード: 存在しないキーを参照するとエラー。任意項目は {{#if ...}} で囲む
-  - "TODO" を含む仮テキストが残っていると npm run render -- --release が失敗する（入稿前に置き換える）
-  - 確認: npm run dev → /preview/admissions-guide-2027/page_006?guides=1
---}}
-
-{{!-- Layer 2: 上部の色面（上・左・右は塗り足しまで伸ばす） --}}
-<div class="band bleed-top bleed-left bleed-right" aria-hidden="true"></div>
-
-{{!-- Layer 3: 見出し（学校名は company-data の正本から） --}}
-<header class="head">
-  <p class="head__school">{{facts.school.name}}</p>
-  <h1 class="head__title">{{page.title}}</h1>
+{{!-- page_006 出願書類一覧とチェック表・注意事項（左ページ） --}}
+<div class="p6-tab" aria-hidden="true"><span>出願書類チェック表</span></div>
+<header class="p6-head">
+  <h1>出願書類</h1>
+  <p>以下の書類を本校所定の封筒に入れて提出してください。提出前に□へチェックを入れて確認できます。</p>
 </header>
 
-<div class="body">
-  {{!-- Layer 3: リード文（仮テキスト） --}}
-  <p class="lead">TODO: リード文を入力する</p>
+<ol class="p6-check">
+  {{#each facts.admissions.documents}}
+  <li>
+    <i class="p6-check__box"></i>
+    <b class="p6-check__no num"></b>
+    <div class="p6-check__name"><h2>{{name}}</h2></div>
+    <div class="p6-check__note">
+      {{#if note}}<p>{{note}}</p>{{/if}}
+      {{#if options}}<ul>{{#each options}}<li><i class="p6-check__box p6-check__box--s"></i>{{this}}</li>{{/each}}</ul>{{/if}}
+      {{#if guarantor}}<p class="p6-check__sub">{{guarantor}}</p>{{/if}}
+    </div>
+  </li>
+  {{/each}}
+</ol>
 
-  {{!-- Layer 2 + 3: パネル（枠と色面は CSS、文字は HTML。文章量に合わせて枠が伸びる） --}}
-  <div class="cards">
-    <section class="card">
-      <h2 class="card__title">TODO: 見出しテキスト</h2>
-      <p class="card__text">TODO: 本文テキストを入力する。学校名・数字・連絡先などの事実は直接書かず、company-data の値を参照する。</p>
-    </section>
-    <section class="card">
-      <h2 class="card__title">TODO: 見出しテキスト</h2>
-      <p class="card__text">TODO: 本文テキストを入力する。</p>
-    </section>
-  </div>
-</div>
+<section class="p6-warn">
+  <div class="p6-warn__icon" aria-hidden="true"><b>!</b></div>
+  <h2>出願時の注意事項</h2>
+  <ul>{{#each facts.admissions.document_notes}}<li>{{this}}</li>{{/each}}</ul>
+</section>
 
-{{!-- Layer 3: ノンブル（ページ番号は book.yaml の pages の並び順から自動で決まる） --}}
 <footer class="page-folio" data-side="{{page.side}}">
   <span class="page-folio__number num">{{page.number}}</span>
   <span class="page-folio__school">{{facts.school.name}}</span>

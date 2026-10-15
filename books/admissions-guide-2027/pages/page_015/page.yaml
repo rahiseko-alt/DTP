@@ -1,13 +1,5 @@
-# ページの設定（system/rules/page-layers.md）
 id: page_015
-title: "本文ページ"
-# type: cover | toc | message | course | interview | data | access | back-cover | other
+title: "記入例（願書・誓約書）"
 type: other
-# Layer 1（BASE VISUAL）: 背景画像を置いたらコメントを外す。画像と同じベース名の .prompt.yaml も必須
-# background:
-#   image: books/admissions-guide-2027/backgrounds/page_015.png
-#   fit: cover             # cover | contain
-#   position: center       # CSS の object-position
-#   opacity: 1
-status: draft              # draft | review | approved
-notes: ""
+status: draft
+notes: "記入例。氏名・住所・電話はすべて明らかな架空値。縮小サンプルは print-qa 対象外（実寸の書式は P9・P11）"

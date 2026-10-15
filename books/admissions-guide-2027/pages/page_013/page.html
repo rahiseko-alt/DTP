@@ -1,44 +1,45 @@
-{{!--
-  page_013「本文ページ」（雛形から 2026-10-15 に作成）
+{{!-- page_013 AO入試エントリーシート（右ページ・切り取り式） --}}
+{{> book/form-head title="AO入試エントリーシート" office=true}}
+<div class="f-body"><div class="fm fm--ao">
+  <div class="r r--oc"><div class="lab">オープンキャンパス参加日</div><div class="c">年　　　　月　　　　日</div></div>
 
-  3 層構造（system/rules/page-layers.md）
-    Layer 1 BASE VISUAL : page.yaml の background（books/admissions-guide-2027/backgrounds/page_013.png と同名の .prompt.yaml）
-    Layer 2 STRUCTURE   : 色面・枠・罫線・パネル（このファイルの要素 + page.css）。文章量で大きさが変わる枠は画像にしない
-    Layer 3 CONTENT     : 見出し・本文・数字・ページ番号。事実（学校名・数字・連絡先など）は必ず {{facts...}} で参照する
-
-  - 座標は .trim（仕上がり線の左上が原点、mm）。仕上がり線まで届く面は .bleed-top などで塗り足しまで伸ばす
-  - 厳格モード: 存在しないキーを参照するとエラー。任意項目は {{#if ...}} で囲む
-  - "TODO" を含む仮テキストが残っていると npm run render -- --release が失敗する（入稿前に置き換える）
-  - 確認: npm run dev → /preview/admissions-guide-2027/page_013?guides=1
---}}
-
-{{!-- Layer 2: 上部の色面（上・左・右は塗り足しまで伸ばす） --}}
-<div class="band bleed-top bleed-left bleed-right" aria-hidden="true"></div>
-
-{{!-- Layer 3: 見出し（学校名は company-data の正本から） --}}
-<header class="head">
-  <p class="head__school">{{facts.school.name}}</p>
-  <h1 class="head__title">{{page.title}}</h1>
-</header>
-
-<div class="body">
-  {{!-- Layer 3: リード文（仮テキスト） --}}
-  <p class="lead">TODO: リード文を入力する</p>
-
-  {{!-- Layer 2 + 3: パネル（枠と色面は CSS、文字は HTML。文章量に合わせて枠が伸びる） --}}
-  <div class="cards">
-    <section class="card">
-      <h2 class="card__title">TODO: 見出しテキスト</h2>
-      <p class="card__text">TODO: 本文テキストを入力する。学校名・数字・連絡先などの事実は直接書かず、company-data の値を参照する。</p>
-    </section>
-    <section class="card">
-      <h2 class="card__title">TODO: 見出しテキスト</h2>
-      <p class="card__text">TODO: 本文テキストを入力する。</p>
-    </section>
+  <div class="bar">志願者情報</div>
+  <div class="gx">
+    <div class="r r--s1"><div class="lab">フリガナ</div><div class="c"></div><div class="lab">性別</div><div class="c">男　・　女　・　その他</div></div>
+    <div class="r r--s1"><div class="lab">氏名</div><div class="c"></div><div class="lab">生年月日</div><div class="c">年　　　月　　　日</div></div>
+    <div class="r r--s2"><div class="lab">現住所</div><div class="c">〒　　　　　－</div></div>
+    <div class="r r--s3"><div class="lab">電話番号</div><div class="c">自宅：</div><div class="lab">携帯電話</div><div class="c"></div></div>
+    <div class="r r--s2"><div class="lab">Eメール</div><div class="c"></div></div>
   </div>
-</div>
+  <div class="bar">最終学歴</div>
+  <div class="gx">
+    <div class="r r--s1"><div class="lab">学校名</div><div class="c"></div><div class="lab">学科・専攻</div><div class="c"></div></div>
+    <div class="r r--s1"><div class="lab">卒業年月</div><div class="c">年　　月　卒業見込み・卒業</div><div class="lab">区分</div><div class="c c--kubun">高等学校・専門学校・短期大学・大学</div></div>
+  </div>
+  <div class="bar">志望学科</div>
+  <div class="gx"><div class="r r--s2 r--one"><div class="c c--opts">{{#each facts.courses.courses}}<span class="cb"></span>{{name}}{{/each}}</div></div></div>
 
-{{!-- Layer 3: ノンブル（ページ番号は book.yaml の pages の並び順から自動で決まる） --}}
+  <div class="ta"><div class="ta__h">この学科を選んだ理由　（250文字程度）</div><div class="ta__b" style="--lh:5.5mm;height:22mm"></div></div>
+  <div class="ta"><div class="ta__h">今まで力を入れてきたこと　（学業・課外活動・仕事・趣味など）　（300文字程度）</div><div class="ta__b" style="--lh:5.5mm;height:24.2mm"></div></div>
+  <div class="ta"><div class="ta__h">将来のビジョン・目標　（卒業後の進路・なりたい姿など）　（300文字程度）</div><div class="ta__b" style="--lh:5.5mm;height:24.2mm"></div></div>
+
+  <div class="bar">現役高校生の方へ（保護者または担任の署名）</div>
+  <p class="small" style="padding:1mm 2mm">{{lookup facts.admissions.ao_entry_notes 0}}</p>
+  <div class="gx"><div class="r r--s2 r--sig"><div class="lab">署名された方</div><div class="c c--opts" style="font-weight:900"><span class="cb"></span>担任<span class="cb"></span>保護者</div><div class="lab">ご署名</div><div class="c"></div></div></div>
+</div></div>
+
+<ol class="ao-notes">
+  <li class="ao-notes__h">記入上の注意事項</li>
+  <li>黒ボールペンまたは印刷にてご記入ください。訂正する場合は二重線を引いて訂正印を押してください。</li>
+  <li>提出いただいた個人情報は、AO入試における選考および統計集計のみに利用いたします。</li>
+  <li>{{lookup facts.admissions.ao_entry_notes 1}}</li>
+  <li>{{lookup facts.admissions.ao_entry_notes 2}}</li>
+  <li>{{lookup facts.admissions.ao_entry_notes 3}}</li>
+</ol>
+<aside class="f-send f-send--ao">
+  <p class="f-send__h">送付先</p>
+  <p>〒{{facts.school.address.postal_code}}　{{facts.school.address.prefecture}}{{facts.school.address.city}}{{facts.school.address.line1}}<br>{{facts.school.name}}　{{facts.contacts.contacts.0.label}}　TEL：{{facts.school.tel}}</p>
+</aside>
 <footer class="page-folio" data-side="{{page.side}}">
   <span class="page-folio__number num">{{page.number}}</span>
   <span class="page-folio__school">{{facts.school.name}}</span>

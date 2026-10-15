@@ -1,101 +1,27 @@
-/*
- * page_016 専用のスタイル（compose が @scope でこのページだけに限定する）
- * - 寸法は mm、文字サイズは pt
- * - 色・書体は CSS 変数（var(--color-*) / var(--font-*)）を使い、値を直書きしない
- * - 版面: var(--margin-top) / --margin-bottom / --margin-left / --margin-right（左右はページの左右で自動的に入れ替わる）
- */
-
-/* Layer 2: 上部の色面 */
-.band {
-  position: absolute;
-  height: calc(var(--margin-top) + 44mm);
-  background: var(--color-primary);
-}
-
-/* Layer 3: 見出し */
-.head {
-  position: absolute;
-  top: calc(var(--margin-top) + 8mm);
-  left: var(--margin-left);
-  right: var(--margin-right);
-  color: var(--color-background);
-}
-
-.head__school {
-  font-size: 9pt;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-}
-
-.head__title {
-  margin-top: 3mm;
-  font-size: 26pt;
-}
-
-/* 本文エリア（版面の内側） */
-.body {
-  position: absolute;
-  top: calc(var(--margin-top) + 58mm);
-  left: var(--margin-left);
-  right: var(--margin-right);
-  bottom: calc(var(--margin-bottom) + 10mm);
-}
-
-.lead {
-  padding-left: 4mm;
-  border-left: 1.2mm solid var(--color-accent);
-  font-size: 11pt;
-  font-weight: 500;
-  line-height: 1.8;
-}
-
-/* Layer 2: パネル（2 段） */
-.cards {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  column-gap: var(--gutter);
-  margin-top: 10mm;
-}
-
-.card {
-  padding: 6mm;
-  background: var(--color-surface);
-  border-top: 1mm solid var(--color-primary);
-}
-
-.card__title {
-  font-size: 13pt;
-  color: var(--color-primary);
-}
-
-.card__text {
-  margin-top: 3mm;
-  font-size: 9.5pt;
-  line-height: 1.75;
-}
-
-/* Layer 3: ノンブル（小口側・安全領域の内側） */
-.page-folio {
-  position: absolute;
-  bottom: calc(var(--safe) + 4mm);
-  display: flex;
-  align-items: baseline;
-  gap: 3mm;
-  font-size: 7.5pt;
-  color: var(--color-muted);
-}
-
-.page-folio[data-side='right'] {
-  right: var(--margin-outside);
-  flex-direction: row-reverse;
-}
-
-.page-folio[data-side='left'] {
-  left: var(--margin-outside);
-}
-
-.page-folio__number {
-  font-size: 10pt;
-  font-weight: 700;
-  color: var(--color-primary);
-}
+.p16-bg{position:absolute;left:-3mm;right:-3mm;top:-3mm;bottom:-3mm;background:var(--color-primary)}
+.p16-photo{position:absolute;left:-3mm;right:-3mm;top:-3mm;height:118mm;margin:0;overflow:hidden}
+.p16-photo img{display:block;width:100%;height:100%;object-fit:cover}
+.p16-slash{position:absolute;left:-3mm;right:-3mm;top:96mm;height:22mm;background:var(--color-primary);clip-path:polygon(0 100%,100% 0,100% 100%)}
+.p16-access{position:absolute;left:var(--margin-left);right:var(--margin-right);top:130mm;color:var(--color-background)}
+.p16-access h1{margin:0 0 4mm;font-size:24pt;font-weight:900;line-height:1.2}
+.p16-route{display:flex;align-items:center;gap:0}
+.p16-route__node{flex:0 0 auto;padding:3mm 4mm;background:var(--color-background);color:var(--color-primary)}
+.p16-route__node b{font-size:12pt;font-weight:900}
+.p16-route__node--school{background:var(--color-accent);color:var(--color-text)}
+.p16-route__walk{flex:1;display:flex;align-items:center;gap:2mm;color:var(--color-accent);font-size:13pt;font-weight:900;white-space:nowrap}
+.p16-route__walk i{flex:1;border-top:.7mm dashed var(--color-accent)}
+.p16-addr{margin:4mm 0 0;font-size:9.5pt;line-height:1.7;font-weight:500;text-align:left}
+.p16-contact{position:absolute;left:var(--margin-left);right:var(--margin-right);top:186mm;display:flex;justify-content:space-between;align-items:flex-start;color:var(--color-background);border-top:.5mm solid var(--color-accent);padding-top:5mm}
+.p16-contact p{margin:0;text-align:left}
+.p16-contact__lab{font-size:11pt;font-weight:900}
+.p16-contact__tel{font-size:32pt;font-weight:900;line-height:1.3;letter-spacing:.01em}
+.p16-contact__tel span{font-size:12pt;margin-right:3mm;color:var(--color-accent)}
+.p16-contact dl{margin:2mm 0 0;display:grid;grid-template-columns:16mm 1fr;row-gap:1mm}
+.p16-contact dt{font-size:8pt;font-weight:700;color:var(--color-accent)}
+.p16-contact dd{margin:0;font-size:9pt;font-weight:500;text-align:left}
+.p16-qr{background:var(--color-background);padding:2.5mm;color:var(--color-text)}
+.p16-qr svg{display:block;width:24mm;height:24mm}
+.p16-qr p{margin:1mm 0 0!important;font-size:7pt;font-weight:700;text-align:center!important}
+.p16-foot{position:absolute;left:var(--margin-left);right:var(--margin-right);top:250mm;display:flex;align-items:center;gap:6mm;color:var(--color-background)}
+.p16-foot img{width:84mm;height:auto;display:block;outline:.4mm solid var(--color-accent)}
+.p16-foot p{margin:0;font-size:8.5pt;font-weight:700;letter-spacing:.08em}

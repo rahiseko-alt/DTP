@@ -1,44 +1,25 @@
-{{!--
-  page_014「本文ページ」（雛形から 2026-10-15 に作成）
-
-  3 層構造（system/rules/page-layers.md）
-    Layer 1 BASE VISUAL : page.yaml の background（books/admissions-guide-2027/backgrounds/page_014.png と同名の .prompt.yaml）
-    Layer 2 STRUCTURE   : 色面・枠・罫線・パネル（このファイルの要素 + page.css）。文章量で大きさが変わる枠は画像にしない
-    Layer 3 CONTENT     : 見出し・本文・数字・ページ番号。事実（学校名・数字・連絡先など）は必ず {{facts...}} で参照する
-
-  - 座標は .trim（仕上がり線の左上が原点、mm）。仕上がり線まで届く面は .bleed-top などで塗り足しまで伸ばす
-  - 厳格モード: 存在しないキーを参照するとエラー。任意項目は {{#if ...}} で囲む
-  - "TODO" を含む仮テキストが残っていると npm run render -- --release が失敗する（入稿前に置き換える）
-  - 確認: npm run dev → /preview/admissions-guide-2027/page_014?guides=1
---}}
-
-{{!-- Layer 2: 上部の色面（上・左・右は塗り足しまで伸ばす） --}}
-<div class="band bleed-top bleed-left bleed-right" aria-hidden="true"></div>
-
-{{!-- Layer 3: 見出し（学校名は company-data の正本から） --}}
-<header class="head">
-  <p class="head__school">{{facts.school.name}}</p>
-  <h1 class="head__title">{{page.title}}</h1>
-</header>
-
-<div class="body">
-  {{!-- Layer 3: リード文（仮テキスト） --}}
-  <p class="lead">TODO: リード文を入力する</p>
-
-  {{!-- Layer 2 + 3: パネル（枠と色面は CSS、文字は HTML。文章量に合わせて枠が伸びる） --}}
-  <div class="cards">
-    <section class="card">
-      <h2 class="card__title">TODO: 見出しテキスト</h2>
-      <p class="card__text">TODO: 本文テキストを入力する。学校名・数字・連絡先などの事実は直接書かず、company-data の値を参照する。</p>
-    </section>
-    <section class="card">
-      <h2 class="card__title">TODO: 見出しテキスト</h2>
-      <p class="card__text">TODO: 本文テキストを入力する。</p>
-    </section>
+{{!-- page_014 推薦書（左ページ・切り取り式）。出身高校が記入する書類 --}}
+{{> book/form-head title="推薦書" examonly=true}}
+<div class="f-body"><div class="fm fm--rec">
+  <p class="fd">年　　　　　月　　　　　日</p>
+  <p class="to">{{facts.school.corporation}}<br>{{facts.school.name}}<br>学校長　様</p>
+  <div class="sch">
+    <p><span>学校名</span><i></i></p>
+    <p><span>代表者名</span><i></i><em>印</em></p>
   </div>
-</div>
-
-{{!-- Layer 3: ノンブル（ページ番号は book.yaml の pages の並び順から自動で決まる） --}}
+  <p class="stmt stmt--b">下記の者は、貴校を第一志望とし、推薦に相応しい者と認められたので、推薦いたします。</p>
+  <div class="tbl">
+    <div class="r r--rec0"><div class="lab">フリガナ</div><div class="c c--dots"></div></div>
+    <div class="r r--rec1 r--rec1b"><div class="lab">名前</div><div class="c"></div><div class="lab">性別</div><div class="c c--opts" style="justify-content:center;font-weight:500!important">男　・　女　・　その他</div></div>
+    <div class="r r--rec2"><div class="lab">卒業見込日</div><div class="c">年　　　月　　　日　卒業見込み</div><div class="lab">生年月日</div><div class="c">年　　　月　　　日</div></div>
+    <div class="r r--rec3"><div class="lab">志望学科</div><div class="c c--opts">{{#each facts.courses.courses}}<span class="cb"></span>{{name}}{{/each}}</div></div>
+  </div>
+  <div class="box">
+    <div class="box__h"><b>推薦理由</b></div>
+    <div class="lines" style="--lh:8mm;height:100mm;margin-top:2mm"></div>
+    <div style="height:2mm"></div>
+  </div>
+</div></div>
 <footer class="page-folio" data-side="{{page.side}}">
   <span class="page-folio__number num">{{page.number}}</span>
   <span class="page-folio__school">{{facts.school.name}}</span>

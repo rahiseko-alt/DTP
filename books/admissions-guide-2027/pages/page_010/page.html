@@ -1,44 +1,22 @@
-{{!--
-  page_010「本文ページ」（雛形から 2026-10-15 に作成）
-
-  3 層構造（system/rules/page-layers.md）
-    Layer 1 BASE VISUAL : page.yaml の background（books/admissions-guide-2027/backgrounds/page_010.png と同名の .prompt.yaml）
-    Layer 2 STRUCTURE   : 色面・枠・罫線・パネル（このファイルの要素 + page.css）。文章量で大きさが変わる枠は画像にしない
-    Layer 3 CONTENT     : 見出し・本文・数字・ページ番号。事実（学校名・数字・連絡先など）は必ず {{facts...}} で参照する
-
-  - 座標は .trim（仕上がり線の左上が原点、mm）。仕上がり線まで届く面は .bleed-top などで塗り足しまで伸ばす
-  - 厳格モード: 存在しないキーを参照するとエラー。任意項目は {{#if ...}} で囲む
-  - "TODO" を含む仮テキストが残っていると npm run render -- --release が失敗する（入稿前に置き換える）
-  - 確認: npm run dev → /preview/admissions-guide-2027/page_010?guides=1
---}}
-
-{{!-- Layer 2: 上部の色面（上・左・右は塗り足しまで伸ばす） --}}
-<div class="band bleed-top bleed-left bleed-right" aria-hidden="true"></div>
-
-{{!-- Layer 3: 見出し（学校名は company-data の正本から） --}}
-<header class="head">
-  <p class="head__school">{{facts.school.name}}</p>
-  <h1 class="head__title">{{page.title}}</h1>
-</header>
-
-<div class="body">
-  {{!-- Layer 3: リード文（仮テキスト） --}}
-  <p class="lead">TODO: リード文を入力する</p>
-
-  {{!-- Layer 2 + 3: パネル（枠と色面は CSS、文字は HTML。文章量に合わせて枠が伸びる） --}}
-  <div class="cards">
-    <section class="card">
-      <h2 class="card__title">TODO: 見出しテキスト</h2>
-      <p class="card__text">TODO: 本文テキストを入力する。学校名・数字・連絡先などの事実は直接書かず、company-data の値を参照する。</p>
-    </section>
-    <section class="card">
-      <h2 class="card__title">TODO: 見出しテキスト</h2>
-      <p class="card__text">TODO: 本文テキストを入力する。</p>
-    </section>
+{{!-- page_010 様式2 志望理由書（左ページ・切り取り式） --}}
+{{> book/form-head title="志望理由書" no="【様式2】"}}
+<div class="f-body"><div class="fm">
+  <p class="fd">記入日：（西暦）　　　　　　年　　　　月　　　　日</p>
+  <div class="tbl tbl--tag">
+    <div class="tag">受験者情報</div>
+    <div>
+      <div class="r r--6"><div class="lab lab--s">ふりがな</div><div class="c c--dots"></div></div>
+      <div class="r r--14"><div class="lab">氏　名</div><div class="c"></div></div>
+      <div class="r r--9"><div class="lab">生年月日</div><div class="c c--birth">（西暦）<i class="gap g2"></i>年<i class="gap g0"></i>月<i class="gap g0"></i>日生</div></div>
+    </div>
   </div>
-</div>
-
-{{!-- Layer 3: ノンブル（ページ番号は book.yaml の pages の並び順から自動で決まる） --}}
+  <div class="box">
+    <div class="box__h"><b>【志望理由】</b><span>・在学中に頑張りたいこと、卒業後の予定や希望など、を書いて、本校を志望する理由を説明してください</span><span>・本人の直筆でお願いします</span></div>
+    <div class="lines" style="--lh:8.4mm;height:176mm;margin-top:3mm"></div>
+    <div style="height:3mm"></div>
+  </div>
+  <p class="sign">{{facts.school.name}}</p>
+</div></div>
 <footer class="page-folio" data-side="{{page.side}}">
   <span class="page-folio__number num">{{page.number}}</span>
   <span class="page-folio__school">{{facts.school.name}}</span>
