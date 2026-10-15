@@ -7,22 +7,25 @@
 .ao-notes li:not(.ao-notes__h)::before{content:counter(a);position:absolute;left:0;font-weight:700}
 .ao-notes__h{counter-increment:none!important;padding-left:0!important;font-size:8pt;font-weight:900;color:var(--color-primary);border-bottom:.3mm solid var(--color-primary);margin-bottom:.8mm}
 .f-send--ao p{font-size:7pt}
-.f-band{height:31mm}
-.f-head{top:5mm}
+.f-band{height:27mm}
+.f-head{top:4mm}
 .f-head__logo{width:32mm}
-.f-head__title{left:36mm;top:3mm}
+.f-head__title{left:36mm;top:1mm}
 .f-head h1{font-size:19pt}
 .f-office{top:6mm}
 .f-office td{height:5mm}
-.f-body{top:30mm}
-.ao-notes{top:263mm;line-height:1.4!important}
-.f-send--ao{top:263mm}
-.fm--ao .bar{padding:.2mm;margin-top:.7mm}
-.fm--ao .ta{margin-top:.7mm}
+.f-body{top:26mm}
+.fm--ao .bar{padding:.2mm;margin-top:.8mm}
+.fm--ao .ta{margin-top:.8mm}
 .fm--ao .ta__h{padding:.3mm 3mm!important}
-.fm--ao .r--s1,.fm--ao .r--s3{height:5.0mm}
-.fm--ao .r--s2{height:5.2mm}
-.fm--ao .r--oc{height:5.2mm}
+.fm--ao .r--oc{height:6mm}
+.fm--ao .gp .r:nth-child(1){height:6.5mm}
+.fm--ao .gp .r:nth-child(2){height:7.5mm}
+.fm--ao .gp .r:nth-child(3){height:8mm}
+.fm--ao .gp .r:nth-child(4){height:7mm}
+.fm--ao .gp .r:nth-child(5){height:7.5mm}
+.fm--ao .ge .r{height:6.5mm}
+.fm--ao .gd .r,.fm--ao .gs .r{height:6.5mm}
 .ao-notes{top:260mm}
 .f-send--ao{top:260mm;left:auto;right:var(--fr);width:62mm;padding:1.6mm 2.6mm}
 .f-send--ao p{font-size:7pt}
