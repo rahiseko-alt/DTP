@@ -325,5 +325,39 @@
       "path": "shared/components/brochure-kit/README.md",
       "sha256": "1538cd17e2d3c1199805ddefc19311b60d6e342c1479d043b02808d9c2eee6e9"
     }
-  ]
+  ],
+  "handoff_gate": [
+    {
+      "status": "pass",
+      "condition": "作業票L01が許可ファイル内で完結",
+      "evidence": "commit 9d7a172: L01の4許可ファイルに加え、親記録2件のみ"
+    },
+    {
+      "status": "pass",
+      "condition": "既存5部品の厳格モードと表示確認",
+      "evidence": "verify.tsの既存26ケースを維持し、PC/mobile確認画像で既存例も確認"
+    },
+    {
+      "status": "pass",
+      "condition": "原画6面の需要と実写真候補/不足の記録",
+      "evidence": "parts-demand.yamlに6面と任意見開き、photo-candidates.yamlに18点の実見記録（17候補/1保留）と不足"
+    },
+    {
+      "status": "pass",
+      "condition": "独立確認で未定義の設計判断がL01に残っていない",
+      "evidence": "独立実装レビューPASS。固定DOM/CSS/API、エスケープ、2テーマ、表示ケースを確認"
+    },
+    {
+      "status": "pass",
+      "condition": "親がcommit/pushし、現ブランチと再開位置を記録",
+      "evidence": "commit 9d7a172 pushed to codex/gpt-faithful-parts-20261013; handoff-ledger.md updated; draft PR #40"
+    }
+  ],
+  "independent_code_review": {
+    "reviewer": "/root/parts_teaching_pr",
+    "scope": "L01 contract, allowlist, Handlebars escaping, CSS scope/theme differences, verification coverage, desktop/mobile visual review",
+    "decision": "pass",
+    "follow_up": "README verification count changed from 26 to 37 as reviewer recommended",
+    "findings": []
+  }
 }
