@@ -22,3 +22,4 @@
 .cv-tear{position:absolute;right:12mm;top:259mm;width:62mm;padding:2.5mm 4mm;border:.5mm dashed var(--color-accent);color:var(--color-background);display:flex;align-items:center;gap:3mm}
 .cv-tear b{font-size:22pt;font-weight:900;color:var(--color-accent);line-height:1;white-space:nowrap}
 .cv-tear p{margin:0;font-size:8pt;line-height:1.5;font-weight:700;text-align:left}
+.cv-school__logo{display:block;width:86mm;height:auto;margin-top:1.5mm;outline:.4mm solid var(--color-accent)}

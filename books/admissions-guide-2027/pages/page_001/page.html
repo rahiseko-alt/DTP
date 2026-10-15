@@ -20,8 +20,7 @@
 
 <footer class="cv-school">
   <p class="cv-school__corp">{{facts.school.corporation}}</p>
-  <p class="cv-school__name">{{facts.school.name}}</p>
-  <p class="cv-school__en">{{facts.school.name_en}}</p>
+  <img class="cv-school__logo" src="{{asset brand.logo.logo-horizontal.file}}" alt="{{facts.school.name}}（{{facts.school.name_en}}）">
 </footer>
 <aside class="cv-tear"><b>9-14</b><p>願書・各様式は<br>切り取って提出できます</p></aside>
 <p class="cv-contact">〒{{facts.school.address.postal_code}} {{facts.school.address.prefecture}}{{facts.school.address.city}}{{facts.school.address.line1}}<br>{{#each facts.school.access}}{{this}}{{/each}}　TEL {{facts.school.tel}}</p>

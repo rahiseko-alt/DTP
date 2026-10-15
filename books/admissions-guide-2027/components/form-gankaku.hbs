@@ -1,0 +1,49 @@
+{{!-- 様式1 入学願書の記入表。sample=true で記入例（架空の見本値）を入れる --}}
+<div class="fm">
+  <section class="sec">
+    <div class="sec__tag">志願者</div>
+    <div class="sec__body">
+      <div class="top">
+        <div class="top__main">
+          <div class="r r--9"><div class="lab">出願種別</div><div class="c c--opts"><span class="cb{{#if sample}} cb--on{{/if}}"></span>{{facts.admissions.exam_types.0.name}}<span class="cb"></span>推薦<span class="cb"></span>一般</div></div>
+          <div class="r r--9"><div class="lab">志望学科</div><div class="c c--opts">{{#each facts.courses.courses}}<span class="cb{{#if @root.sample}}{{#if @first}} cb--on{{/if}}{{/if}}"></span>{{name}}{{/each}}</div></div>
+          <div class="r r--6"><div class="lab lab--s">ふりがな</div><div class="c c--dots">{{#if sample}}<span class="hw hw--s">ミホン　ハナコ</span>{{/if}}</div></div>
+          <div class="r r--17 r--sex"><div class="lab">氏　名</div><div class="c">{{#if sample}}<span class="hw">見本　花子</span>{{/if}}</div><div class="c c--sex"><span><i class="cb"></i>男</span><span><i class="cb{{#if sample}} cb--on{{/if}}"></i>女</span></div></div>
+        </div>
+        <div class="photo"><i></i></div>
+      </div>
+
+      <div class="r r--9"><div class="lab">生年月日</div><div class="c c--birth">昭和・平成・令和<i class="gap g1">{{#if sample}}<span class="hw hw--s">12</span>{{/if}}</i>年（西暦<i class="gap g2">{{#if sample}}<span class="hw hw--s">2000</span>{{/if}}</i>年）<i class="gap g0">{{#if sample}}<span class="hw hw--s">4</span>{{/if}}</i>月<i class="gap g0">{{#if sample}}<span class="hw hw--s">1</span>{{/if}}</i>日生（満<i class="gap g0">{{#if sample}}<span class="hw hw--s">25</span>{{/if}}</i>才）</div></div>
+      <div class="r r--14"><div class="lab">現住所</div><div class="c c--addr">〒（{{#if sample}}<span class="hw hw--s">000－0000</span>{{else}}　　　　　　－　　　　　　{{/if}}）{{#if sample}}<span class="hw hw--s" style="margin-left:3mm">愛知県○○市△△町1丁目2番3号</span>{{/if}}</div></div>
+      <div class="r r--9 r--tel"><div class="lab">電話番号</div><div class="c">{{#if sample}}<span class="hw hw--s">000-0000-0000</span>{{/if}}</div><div class="lab">携帯電話</div><div class="c">{{#if sample}}<span class="hw hw--s">090-0000-0000</span>{{/if}}</div></div>
+      <div class="r r--9"><div class="lab">E-Mail</div><div class="c">{{#if sample}}<span class="hw hw--s">sample@example.com</span>{{/if}}</div></div>
+
+      <div class="edu">
+        <div class="lab edu__lab">学　歴</div>
+        <div class="c edu__n">小学校</div><div class="c edu__y">{{#if sample}}<span class="hw hw--s">2012</span>{{/if}}年</div><div class="c edu__m">{{#if sample}}<span class="hw hw--s">3</span>{{/if}}月</div><div class="c edu__x">{{#if sample}}<span class="hw hw--s" style="margin-right:3mm">○○市立△△小学校</span>{{/if}}卒業</div>
+        <div class="c edu__n">中学校</div><div class="c edu__y">{{#if sample}}<span class="hw hw--s">2015</span>{{/if}}年</div><div class="c edu__m">{{#if sample}}<span class="hw hw--s">3</span>{{/if}}月</div><div class="c edu__x">{{#if sample}}<span class="hw hw--s" style="margin-right:3mm">○○市立△△中学校</span>{{/if}}卒業</div>
+        <div class="c edu__n">高　校</div><div class="c edu__y">{{#if sample}}<span class="hw hw--s">2018</span>{{/if}}年</div><div class="c edu__m">{{#if sample}}<span class="hw hw--s">3</span>{{/if}}月</div><div class="c edu__x edu__x--st">{{#if sample}}<span class="hw hw--s" style="margin-right:3mm">愛知県立△△高等学校</span>{{/if}}<span><i class="cb{{#if sample}} cb--on{{/if}}"></i>卒業</span><span><i class="cb"></i>卒業見込み</span><span><i class="cb"></i>中退</span></div>
+        <div class="c edu__n edu__n--s">大学<br>短期大学<br>専門学校</div><div class="c edu__y"></div><div class="c edu__m"></div><div class="c edu__x edu__x--univ"><div class="u1"><em>学部</em><em>学科</em></div><div class="u2"><span><i class="cb"></i>卒業</span><span><i class="cb"></i>卒業見込み</span><span><i class="cb"></i>中退</span></div></div>
+      </div>
+
+      <div class="work">
+        <div class="lab work__lab">職　歴<small>（※ない場合は記入の必要なし）</small></div>
+        <div class="c work__h work__h1">勤務先名</div><div class="c work__h work__h2">就職年月日<br>離職年月日</div>
+        <div class="c work__n">{{#if sample}}<span class="hw hw--s">なし（記入の必要なし）</span>{{/if}}</div><div class="c work__d"><span>年　　月</span><span>年　　月</span></div>
+        <div class="c work__n"></div><div class="c work__d"><span>年　　月</span><span>年　　月</span></div>
+        <div class="c work__n"></div><div class="c work__d"><span>年　　月</span><span>年　　月</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec--g">
+    <div class="sec__tag sec__tag--g">保護者または保証人</div>
+    <div class="sec__body">
+      <div class="r r--6 r--g1"><div class="lab lab--s">ふりがな</div><div class="c c--dots">{{#if sample}}<span class="hw hw--s">ミホン　タロウ</span>{{/if}}</div><div class="lab lab--s lab--rel">志願者との続柄</div><div class="lab lab--s lab--job">職　業</div></div>
+      <div class="r r--12 r--g1"><div class="lab">氏　名</div><div class="c">{{#if sample}}<span class="hw">見本　太郎</span>{{/if}}</div><div class="c">{{#if sample}}<span class="hw hw--s">父</span>{{/if}}</div><div class="c">{{#if sample}}<span class="hw hw--s">会社員</span>{{/if}}</div></div>
+      <div class="r r--14"><div class="lab">住　所</div><div class="c c--addr">〒{{#if sample}}<span class="hw hw--s" style="margin-left:2mm">000－0000　愛知県○○市△△町1丁目2番3号</span>{{/if}}</div></div>
+      <div class="r r--9 r--tel"><div class="lab">自宅電話</div><div class="c">{{#if sample}}<span class="hw hw--s">000-0000-0000</span>{{/if}}</div><div class="lab">携帯電話</div><div class="c">{{#if sample}}<span class="hw hw--s">090-0000-0000</span>{{/if}}</div></div>
+      <div class="r r--12 r--work"><div class="lab">勤務先名</div><div class="c">{{#if sample}}<span class="hw hw--s">株式会社見本商事</span>{{/if}}</div><div class="lab lab--s">所在地</div><div class="c c--tel">TEL　　　　　　　　－　　　　　　　　－</div></div>
+    </div>
+  </section>
+</div>

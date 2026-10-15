@@ -1,0 +1,18 @@
+{{!-- 様式ページ共通ヘッダー。title 必須。no=様式番号, aud=true で対象表記, office=true で学校記入欄 --}}
+<div class="f-cut" aria-hidden="true"><span>キリトリ線</span></div>
+<div class="f-band" aria-hidden="true"></div>
+<header class="f-head">
+  <img class="f-head__logo" src="{{asset brand.logo.logo-horizontal.file}}" alt="{{facts.school.name}}">
+  {{#if no}}<p class="f-head__form">{{no}}</p>{{/if}}
+  <div class="f-head__title">
+    <h1>{{title}}</h1>
+    {{#if aud}}<p class="f-head__sub">{{facts.admissions.audience}}用</p>{{/if}}
+  </div>
+  {{#if office}}
+  <table class="f-office">
+    <caption>※学校記入欄</caption>
+    <tr><th>受付年月日</th><th>受験番号</th></tr>
+    <tr><td></td><td></td></tr>
+  </table>
+  {{/if}}
+</header>

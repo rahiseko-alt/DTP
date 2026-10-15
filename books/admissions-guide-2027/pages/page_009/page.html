@@ -1,76 +1,12 @@
 {{!-- page_009 様式1 入学願書（切り取り式の書き込み用紙）。記入項目は原本（日本人用願書 様式1）に忠実。 --}}
-<div class="f-cut" aria-hidden="true"><span>キリトリ線</span></div>
-
-<div class="f-band" aria-hidden="true"></div>
-<header class="f-head">
-  <div class="f-head__title">
-    <p class="f-head__sub">{{facts.admissions.audience}}用</p>
-    <h1>入学願書</h1>
-    <p class="f-head__en">Application for Admission</p>
-  </div>
-  <p class="f-head__form">【様式1】</p>
-  <table class="f-office">
-    <caption>※学校記入欄</caption>
-    <tr><th>受付年月日</th><th>受験番号</th></tr>
-    <tr><td></td><td></td></tr>
-  </table>
-</header>
-
-<div class="f-body">
-  <section class="sec">
-    <div class="sec__tag">志願者</div>
-    <div class="sec__body">
-      <div class="top">
-        <div class="top__main">
-          <div class="r r--9"><div class="lab">出願種別</div><div class="c c--opts"><span class="cb"></span>{{facts.admissions.exam_types.0.name}}<span class="cb"></span>推薦<span class="cb"></span>一般</div></div>
-          <div class="r r--9"><div class="lab">志望学科</div><div class="c c--opts">{{#each facts.courses.courses}}<span class="cb"></span>{{name}}{{/each}}</div></div>
-          <div class="r r--6"><div class="lab lab--s">ふりがな</div><div class="c c--dots"></div></div>
-          <div class="r r--18 r--sex"><div class="lab">氏　名</div><div class="c"></div><div class="c c--sex"><span><i class="cb"></i>男</span><span><i class="cb"></i>女</span></div></div>
-        </div>
-        <div class="photo"><b>写真貼付欄</b><ul><li>上半身・脱帽</li><li>縦4cm×横3cm</li><li>写真の裏に氏名を記入し貼付する</li></ul></div>
-      </div>
-
-      <div class="r r--9"><div class="lab">生年月日</div><div class="c c--birth">昭和・平成・令和<i class="gap g1"></i>年（西暦<i class="gap g2"></i>年）<i class="gap g0"></i>月<i class="gap g0"></i>日生（満<i class="gap g0"></i>才）</div></div>
-      <div class="r r--16"><div class="lab">現住所</div><div class="c c--addr">〒（　　　　　　－　　　　　　）</div></div>
-      <div class="r r--9 r--tel"><div class="lab">電話番号</div><div class="c"></div><div class="lab">携帯電話</div><div class="c"></div></div>
-      <div class="r r--9"><div class="lab">E-Mail</div><div class="c"></div></div>
-
-      <div class="edu">
-        <div class="lab edu__lab">学　歴</div>
-        <div class="c edu__n">小学校</div><div class="c edu__y">年</div><div class="c edu__m">月</div><div class="c edu__x">卒業</div>
-        <div class="c edu__n">中学校</div><div class="c edu__y">年</div><div class="c edu__m">月</div><div class="c edu__x">卒業</div>
-        <div class="c edu__n">高　校</div><div class="c edu__y">年</div><div class="c edu__m">月</div><div class="c edu__x edu__x--st"><span><i class="cb"></i>卒業</span><span><i class="cb"></i>卒業見込み</span><span><i class="cb"></i>中退</span></div>
-        <div class="c edu__n edu__n--s">大学<br>短期大学<br>専門学校</div><div class="c edu__y">年</div><div class="c edu__m">月</div><div class="c edu__x edu__x--univ"><em>学部</em><em>学科</em><span class="stack"><span><i class="cb"></i>卒業</span><span><i class="cb"></i>卒業見込み</span><span><i class="cb"></i>中退</span></span></div>
-      </div>
-
-      <div class="work">
-        <div class="lab work__lab">職　歴<small>（※ない場合は記入の必要なし）</small></div>
-        <div class="c work__h work__h1">勤務先名</div><div class="c work__h work__h2">就職年月日<br>離職年月日</div>
-        <div class="c work__n"></div><div class="c work__d"><span>年　　月</span><span>年　　月</span></div>
-        <div class="c work__n"></div><div class="c work__d"><span>年　　月</span><span>年　　月</span></div>
-        <div class="c work__n"></div><div class="c work__d"><span>年　　月</span><span>年　　月</span></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="sec sec--g">
-    <div class="sec__tag sec__tag--g">保護者または保証人</div>
-    <div class="sec__body">
-      <div class="r r--6 r--g1"><div class="lab lab--s">ふりがな</div><div class="c c--dots"></div><div class="lab lab--s lab--rel">志願者との続柄</div><div class="lab lab--s lab--job">職　業</div></div>
-      <div class="r r--12 r--g1"><div class="lab">氏　名</div><div class="c"></div><div class="c"></div><div class="c"></div></div>
-      <div class="r r--16"><div class="lab">住　所</div><div class="c c--addr">〒</div></div>
-      <div class="r r--9 r--tel"><div class="lab">自宅電話</div><div class="c"></div><div class="lab">携帯電話</div><div class="c"></div></div>
-      <div class="r r--13 r--work"><div class="lab">勤務先名</div><div class="c"></div><div class="lab lab--s">所在地</div><div class="c c--tel">TEL　　　　　　　　－　　　　　　　　－</div></div>
-    </div>
-  </section>
-</div>
-
+{{> book/form-head title="入学願書" no="【様式1】" aud=true office=true}}
+<div class="f-body">{{> book/form-gankaku}}</div>
 <aside class="f-send">
   <p class="f-send__h">送付先</p>
   <p>〒{{facts.school.address.postal_code}}<br>{{facts.school.address.prefecture}}{{facts.school.address.city}}{{facts.school.address.line1}}</p>
   <p>{{facts.school.name}}　{{facts.contacts.contacts.0.label}}<br>TEL：{{facts.school.tel}}</p>
 </aside>
-<p class="f-note">黒ボールペンで記入してください。</p>
+<p class="f-note">写真は縦4cm×横3cm（上半身・脱帽）。写真の裏に氏名を記入して貼付してください。黒ボールペンで記入してください。</p>
 
 <footer class="page-folio" data-side="{{page.side}}">
   <span class="page-folio__number num">{{page.number}}</span>

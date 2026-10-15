@@ -23,6 +23,7 @@ styles:
   - shared/layouts/grid.css
   - shared/layouts/typography.css
   - shared/layouts/components.css
+  - books/admissions-guide-2027/layout.css
 # CSS 変数の上書き（例: "--color-accent": "#d9a21b"、"--fs-body": "9pt"）。色は原則 company-data/brand/colors/colors.yaml の値を使う
 theme: {}
 # ページの並び順（ページ ID は識別子。並べ替えても ID は付け直さない）。追加は npm run new:page -- --book admissions-guide-2027 --after <pageId>
