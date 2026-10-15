@@ -1,0 +1,5 @@
+{{!-- 必須 items: [{label}]。任意 title、各itemのdetail。内容は呼出元から受け取る。 --}}
+{{#if title}}<h3 class="bk-checklist__title">{{title}}</h3>{{/if}}
+<ul class="bk-checklist">
+{{#each items}}<li><span class="bk-checklist__mark" aria-hidden="true"></span><div><strong>{{label}}</strong>{{#if detail}}<p>{{detail}}</p>{{/if}}</div></li>{{/each}}
+</ul>

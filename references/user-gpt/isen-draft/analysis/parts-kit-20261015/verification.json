@@ -1,9 +1,9 @@
 {
   "date": "2026-10-15",
-  "scope": "parts handoff preparation only",
+  "scope": "L01 checklist component implementation and handoff verification",
   "created_by": "parent; not the verify.ts automatic output",
   "compile": {
-    "check_count": 26,
+    "check_count": 37,
     "checks": [
       {
         "theme": "hal",
@@ -49,6 +49,36 @@
       },
       {
         "theme": "hal",
+        "partial": "checklist-minimal",
+        "variant": 7,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "checklist-title-details",
+        "variant": 8,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "checklist-2-items",
+        "variant": 9,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "checklist-6-items",
+        "variant": 10,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "checklist-long-label",
+        "variant": 11,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
         "partial": "icon",
         "kind": "people",
         "compiled": true
@@ -127,6 +157,36 @@
       },
       {
         "theme": "isen",
+        "partial": "checklist-minimal",
+        "variant": 7,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "checklist-title-details",
+        "variant": 8,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "checklist-2-items",
+        "variant": 9,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "checklist-6-items",
+        "variant": 10,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "checklist-long-label",
+        "variant": 11,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
         "partial": "icon",
         "kind": "people",
         "compiled": true
@@ -160,6 +220,11 @@
         "partial": "icon",
         "kind": "chat",
         "compiled": true
+      },
+      {
+        "partial": "checklist-escaping",
+        "compiled": true,
+        "escaped": true
       }
     ]
   },
@@ -175,20 +240,21 @@
       }
     ],
     "themes": 2,
-    "examples": 14,
+    "examples": 24,
     "overflow": false,
     "mobile_overflow": false
   },
   "parent_images_seen": [
-    "references/user-gpt/isen-draft/analysis/parts-kit-20261015/reviews/desktop.png",
-    "references/user-gpt/isen-draft/analysis/parts-kit-20261015/reviews/mobile.png"
+    ".cache/parts-kit-20261015/desktop.png",
+    ".cache/parts-kit-20261015/mobile.png"
   ],
   "commands": {
-    "component_compile": "pass (26 cases)",
+    "component_compile": "pass (37 checks: existing 26 + 10 theme display cases + 1 escaping case)",
     "typecheck": "pass",
     "validate": "pass (0 errors / 53 warnings)",
-    "yaml_parse": "pass (3 files)",
     "diff_check": "pass",
+    "visual_preview": "pass (desktop/mobile screenshots opened; no clipped/overlapping checklist text or document overflow)",
+    "independent_review": "pass; one README count note corrected",
     "full_test_suite": "not rerun; previous Windows failures are outside this parts-only check"
   },
   "not_approved": [
@@ -196,7 +262,7 @@
     "school facts",
     "photo final crop",
     "print release",
-    "model switch"
+    "reader test"
   ],
   "files": [
     {
@@ -217,11 +283,11 @@
     },
     {
       "path": "shared/components/brochure-kit/verify.ts",
-      "sha256": "8111fc74b9440219ab7d1e7401e75fd28f682c919c373525df17e9fbffc41498"
+      "sha256": "c3f6c07c5dfca12cdd49a1369c5b776569f41937fed85bdd0c7b5f523ea2265f"
     },
     {
       "path": "shared/layouts/brochure-kit.css",
-      "sha256": "290efdafd8199a44efa6b1601d6250a88e1c83d912fed9930d183835f73dcf3c"
+      "sha256": "33538e0e9f6053681c3767765c60775dda440c112c0c592bbe3147515e34c7f5"
     },
     {
       "path": "shared/components/brochure-kit/data-table.hbs",
@@ -250,6 +316,14 @@
     {
       "path": "references/user-gpt/isen-draft/analysis/parts-kit-20261015/reviews/mobile.png",
       "sha256": "45323de3c109833728b8a38556cf4893821a23d323c37ac6c831b11240582766"
+    },
+    {
+      "path": "shared/components/brochure-kit/checklist.hbs",
+      "sha256": "0c86d128a615abc2ee2e368b114bb8bc005d3e101a7b544146d74df0d3fcb7ee"
+    },
+    {
+      "path": "shared/components/brochure-kit/README.md",
+      "sha256": "1538cd17e2d3c1199805ddefc19311b60d6e342c1479d043b02808d9c2eee6e9"
     }
   ]
 }

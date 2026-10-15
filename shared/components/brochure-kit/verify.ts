@@ -16,19 +16,37 @@ const context={title:'見出しの部品',body:'本文を差し替えるため�
   steps:Array.from({length:6},(_,i)=>({title:`手順 ${i+1}`,body:'内容は呼出元から渡します。'})),
   columns:['項目','内容','備考'],rows:[{label:'サンプル行',values:['表示内容','確認用']}],
   note:'この表には実際の学校の金額・制度は入力していません。'};
+const checklistTitle='確認項目';
+const checklistDetail='部品確認用の説明文です';
+const longChecklistLabel='入学前に確認する内容が複数行になった場合の見出し表示を確かめます';
+const checklistItems=[
+  {label:'確認項目'},
+  {label:'確認項目',detail:checklistDetail},
+  {label:'確認項目 2'},
+  {label:'確認項目 3'},
+  {label:'確認項目 4'},
+  {label:'確認項目 5'},
+  {label:'確認項目 6'},
+];
 const examples=[
   ['icon',Object.fromEntries(['kind'].map(k=>[k,'people']))],
   ['info-card',{title:context.title,body:context.body}],
   ['info-card',context],
   ['flow',context],['data-table',context],['speech',context],['speech',{text:context.text}],
+  ['checklist-minimal',{items:[{label:checklistTitle}]}],
+  ['checklist-title-details',{title:checklistTitle,items:[{label:checklistTitle,detail:checklistDetail}]}],
+  ['checklist-2-items',{items:checklistItems.slice(0,2)}],
+  ['checklist-6-items',{title:checklistTitle,items:checklistItems.slice(0,6)}],
+  ['checklist-long-label',{items:[{label:longChecklistLabel}]}],
 ] as const;
 const checks:Record<string,unknown>[]=[];
 let blocks='';
 for(const theme of ['hal','isen']){
   let inner='';
   for(const [i,[name,data]] of examples.entries()){
-    const source=`{{> brochure-kit/${name}}}`;
-    const result=env.render(source,data,{file:`shared/components/brochure-kit/${name}.hbs`});
+    const partial=name.startsWith('checklist-')?'checklist':name;
+    const source=`{{> brochure-kit/${partial}}}`;
+    const result=env.render(source,data,{file:`shared/components/brochure-kit/${partial}.hbs`});
     checks.push({theme,partial:name,variant:i,compiled:true});
     inner+=`<section class="example" data-example="${name}-${i}"><small>${name}</small>${result}</section>`;
   }
@@ -38,6 +56,10 @@ for(const theme of ['hal','isen']){
   }
   blocks+=`<article class="bk-kit" data-theme="${theme}"><h2>${theme==='hal'?'HAL方向の構造':'医専方向の構造'}</h2>${inner}</article>`;
 }
+const escapedChecklist=env.render('{{> brochure-kit/checklist}}',{items:[{label:'確認項目 <script>alert("x")</script>',detail:'部品確認用の説明文です <script>bad()</script>'}]},{file:'shared/components/brochure-kit/checklist.hbs'});
+if(escapedChecklist.includes('<script>')||!escapedChecklist.includes('&lt;script&gt;'))throw new Error('Checklist text was not HTML-escaped');
+if(fs.readFileSync(path.join(root,'shared/components/brochure-kit/checklist.hbs'),'utf8').includes('{{{'))throw new Error('Checklist must not use triple braces');
+checks.push({partial:'checklist-escaping',compiled:true,escaped:true});
 const vars=Object.entries(company.brand.colors).map(([k,v])=>`--color-${k}:${v};`).join('');
 const fonts=Object.entries(company.brand.fonts).map(([k,v])=>`--font-${k}:${v};`).join('');
 const css=fs.readFileSync(path.join(root,'shared/layouts/brochure-kit.css'),'utf8');
