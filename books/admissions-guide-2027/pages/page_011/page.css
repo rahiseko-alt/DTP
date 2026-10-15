@@ -1,0 +1,4 @@
+.page-folio{position:absolute;bottom:calc(var(--safe) + 2mm);display:flex;align-items:baseline;gap:3mm;font-size:7.5pt;font-weight:500;color:var(--color-text);z-index:3}
+.page-folio[data-side='right']{right:var(--margin-outside);flex-direction:row-reverse}
+.page-folio[data-side='left']{left:var(--margin-outside)}
+.page-folio__number{font-size:10pt;font-weight:700;color:var(--color-primary)}

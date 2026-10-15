@@ -1,0 +1,5 @@
+id: page_001
+title: "表紙"
+type: cover
+status: draft
+notes: "第1段階の代表面。ロゴは company-data/brand/logo 未登録のため文字の学校名のみ（親へロゴ登録依頼）。"

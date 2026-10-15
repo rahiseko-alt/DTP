@@ -1,0 +1,58 @@
+{{!-- page_007 学費・納期・振込先・返還（右ページ）。金額を主役にした左主面＋小口側の濃紺カラム --}}
+<aside class="p7-side bleed-right bleed-top bleed-bottom">
+  <section class="p7-pay">
+    <h2>振込先</h2>
+    <p class="p7-pay__note">入学検定料・学費とも同じ口座です。</p>
+    <dl>
+      <dt>銀行名</dt><dd>{{facts.admissions.payment_account.bank}}</dd>
+      <dt>支店</dt><dd>{{facts.admissions.payment_account.branch}}<br>（店番：{{facts.admissions.payment_account.branch_code}}）</dd>
+      <dt>口座</dt><dd>{{facts.admissions.payment_account.type}}　{{facts.admissions.payment_account.number}}</dd>
+      <dt>名義</dt><dd>{{facts.admissions.payment_account.holder}}<br>（{{facts.admissions.payment_account.holder_kana}}）</dd>
+    </dl>
+    <ul>{{#each facts.admissions.payment_notes}}<li>{{this}}</li>{{/each}}</ul>
+  </section>
+  <section class="p7-refund">
+    <h2>入学を辞退する場合</h2>
+    <p>{{facts.admissions.withdrawal_refund}}</p>
+  </section>
+</aside>
+
+<header class="p7-head">
+  <p class="p7-head__no num">5</p>
+  <h1>学費・納期</h1>
+</header>
+
+<section class="p7-hero">
+  <p class="p7-hero__lab">初年度納付金（入学金を含む）</p>
+  <p class="p7-hero__num"><span class="num">{{num facts.admissions.tuition.years.0.total}}</span>円</p>
+  <div class="p7-hero__sub">
+    <p><b>2年次</b><span class="num">{{num facts.admissions.tuition.years.1.total}}</span>円</p>
+    <p><b>2年間の総額</b><span class="num">{{num facts.admissions.tuition.grand_total}}</span>円</p>
+    <p class="p7-hero__fee"><b>入学検定料（出願時）</b><span class="num">{{num facts.admissions.exam_fee}}</span>円</p>
+  </div>
+</section>
+
+<table class="p7-table">
+  <thead><tr><th></th><th>授業料</th><th>諸経費</th><th>合計</th></tr></thead>
+  <tbody>
+    <tr class="p7-table__ent"><th>入学金</th><td></td><td></td><td class="num">{{num facts.admissions.tuition.entrance_fee}}円</td></tr>
+    {{#each facts.admissions.tuition.years}}
+    {{#each terms}}<tr><th>{{../year}}年次　{{term}}</th><td class="num">{{#if tuition}}{{num tuition}}円{{else}}－{{/if}}</td><td class="num">{{#if expenses}}{{num expenses}}円{{else}}－{{/if}}</td><td class="num">{{num total}}円</td></tr>{{/each}}
+    <tr class="p7-table__sum"><th>{{year}}年次合計</th><td></td><td></td><td class="num">{{num total}}円</td></tr>
+    {{/each}}
+    <tr class="p7-table__grand"><th>総額</th><td></td><td></td><td class="num">{{num facts.admissions.tuition.grand_total}}円</td></tr>
+  </tbody>
+</table>
+
+<section class="p7-due">
+  <h2>納入の期日</h2>
+  <ol>{{#each facts.admissions.tuition.deadlines}}<li><b class="num"></b>{{this}}</li>{{/each}}</ol>
+  <p class="p7-due__ext">{{lookup facts.admissions.tuition.notes 1}}</p>
+</section>
+
+<figure class="p7-photo"><img src="{{photo "student-img-3289"}}" alt="入学式で書類を受け取る新入生" style="object-position: 50% 55%"><figcaption>入学式で書類を受け取る新入生</figcaption></figure>
+
+<footer class="page-folio" data-side="{{page.side}}">
+  <span class="page-folio__number num">{{page.number}}</span>
+  <span class="page-folio__school">{{facts.school.name}}</span>
+</footer>

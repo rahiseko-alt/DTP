@@ -1,0 +1,24 @@
+{{!-- page_001 表紙: 実写真(student-dsc-1164)を上部に大きく、境界をまたぐ巨大な年度数字、斜めの紺面に題字 --}}
+<div class="cv-photo">
+  <img src="{{photo "student-dsc-1164"}}" alt="笑顔でポーズをとる在校生ふたり" style="object-position: 50% 30%">
+</div>
+<div class="cv-shade" aria-hidden="true"></div>
+<div class="cv-navy" aria-hidden="true"></div>
+
+<p class="cv-year num" data-print-qa="ignore">2027</p>
+<p class="cv-intake">{{facts.admissions.as_of}}</p>
+
+<h1 class="cv-title">募集要項<span>＋</span>願書</h1>
+<p class="cv-lead">出願資格・日程・学費から、切り取って提出できる願書まで。手続きを間違えずに進めるための1冊です。</p>
+
+<ul class="cv-courses">
+  {{#each facts.courses.courses}}
+  <li><b>{{name}}</b><span>修業年限{{years}}年 ／ 入学定員{{capacity}}人</span></li>
+  {{/each}}
+</ul>
+
+<footer class="cv-school">
+  <p class="cv-school__corp">{{facts.school.corporation}}</p>
+  <img class="cv-school__logo" src="{{asset brand.logo.logo-horizontal.file}}" alt="{{facts.school.name}}（{{facts.school.name_en}}）">
+</footer>
+<aside class="cv-tear"><b>9-14</b><p>願書・各様式は<br>切り取って提出できます</p></aside>

@@ -1,0 +1,23 @@
+{{!-- page_010 様式2 志望理由書（左ページ・切り取り式） --}}
+{{> book/form-head title="志望理由書" no="【様式2】"}}
+<div class="f-body"><div class="fm">
+  <p class="fd">記入日：（西暦）　　　　　　年　　　　月　　　　日</p>
+  <div class="tbl tbl--tag">
+    <div class="tag">受験者情報</div>
+    <div>
+      <div class="r r--6"><div class="lab lab--s">ふりがな</div><div class="c c--dots"></div></div>
+      <div class="r r--14"><div class="lab">氏　名</div><div class="c"></div></div>
+      <div class="r r--9"><div class="lab">生年月日</div><div class="c c--birth">（西暦）<i class="gap g2"></i>年<i class="gap g0"></i>月<i class="gap g0"></i>日生</div></div>
+    </div>
+  </div>
+  <div class="box">
+    <div class="box__h"><b>【志望理由】</b><span>・在学中に頑張りたいこと、卒業後の予定や希望など、を書いて、本校を志望する理由を説明してください</span><span>・本人の直筆でお願いします</span></div>
+    <div class="lines" style="--lh:8.4mm;height:176mm;margin-top:3mm"></div>
+    <div style="height:3mm"></div>
+  </div>
+  <p class="sign">{{facts.school.name}}</p>
+</div></div>
+<footer class="page-folio" data-side="{{page.side}}">
+  <span class="page-folio__number num">{{page.number}}</span>
+  <span class="page-folio__school">{{facts.school.name}}</span>
+</footer>

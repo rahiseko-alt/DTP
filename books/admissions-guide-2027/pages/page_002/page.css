@@ -1,0 +1,51 @@
+.p2-band{position:absolute;top:-3mm;left:-3mm;right:-3mm;height:41mm;background:var(--color-primary)}
+.p2-band::after{content:"";position:absolute;left:0;right:0;bottom:-1.6mm;height:1.6mm;background:var(--color-accent)}
+.p2-head{position:absolute;left:var(--margin-left);right:var(--margin-right);top:11mm;color:var(--color-background)}
+.p2-head p{margin:0;text-align:left}
+.p2-head__kicker{font-size:8.5pt;font-weight:700;letter-spacing:.08em;color:var(--color-accent)}
+.p2-head__title{margin:1mm 0 0;font-size:34pt;font-weight:900;line-height:1.15}
+.p2-head__sub{margin-top:1mm!important;font-size:9.5pt;font-weight:500}
+
+.p2-toc{position:absolute;left:var(--margin-left);top:50mm;width:54mm}
+.p2-toc h2{margin:0 0 2mm;font-size:12pt;font-weight:900;color:var(--color-primary);border-bottom:.6mm solid var(--color-primary);padding-bottom:1.5mm}
+.p2-toc ol{margin:0;padding:0;list-style:none}
+.p2-toc li{display:flex;gap:2.5mm;align-items:baseline;padding:1.3mm 0;border-bottom:.2mm solid var(--color-secondary);font-size:8.5pt;line-height:1.35;font-weight:500}
+.p2-toc b{flex:0 0 9mm;font-size:11pt;font-weight:900;color:var(--color-primary);font-feature-settings:'palt' 1}
+.p2-toc__form{background:var(--color-accent);margin:0 -2mm;padding-left:2mm!important;padding-right:2mm!important;font-weight:700!important}
+.p2-toc__form b{color:var(--color-text)!important}
+
+.p2-policy{position:absolute;left:calc(var(--margin-left) + 62mm);right:var(--margin-right);top:50mm}
+.p2-h{margin:0;font-size:15pt;font-weight:900;color:var(--color-primary);line-height:1.3}
+.p2-h--light{color:var(--color-background)}
+.p2-policy__lead{margin:1.5mm 0 3mm;font-size:8.5pt;line-height:1.6;text-align:left}
+.p2-policy dl{margin:0}
+.p2-policy dl>div{display:flex;gap:3mm;margin-bottom:3mm}
+.p2-policy dt{flex:0 0 21mm;background:var(--color-primary);color:var(--color-background);display:flex;align-items:center;justify-content:center;text-align:center;padding:2mm 1mm;font-size:8.5pt;font-weight:900;line-height:1.35}
+.p2-policy dd{margin:0;flex:1;font-size:8.5pt;line-height:1.7;text-align:left}
+
+.p2-photo img{display:block;width:100%;height:100%;object-fit:cover}
+.p2-photo figcaption{position:absolute;right:0;bottom:0;background:var(--color-background);padding:1mm 3mm;font-size:7pt;font-weight:500}
+
+
+.p2-courses{position:absolute;left:-3mm;right:-3mm;top:168mm;bottom:-3mm;background:var(--color-primary)}
+.p2-courses .p2-h{position:absolute;left:calc(var(--margin-left) + 3mm);top:9mm}
+.p2-courses__grid{position:absolute;left:calc(var(--margin-left) + 3mm);right:calc(var(--margin-right) + 3mm);top:23mm;display:grid;grid-template-columns:1fr 1fr 38mm;gap:4mm}
+.p2-course__desc{margin:3mm 0 0;font-size:8pt;line-height:1.65;text-align:left;font-weight:500}
+.p2-course,.p2-total{background:var(--color-background);padding:4mm 4mm 3mm;border-top:1.2mm solid var(--color-accent)}
+.p2-total{background:var(--color-accent)}
+.p2-course h3{margin:0;font-size:12pt;font-weight:900;color:var(--color-primary)}
+.p2-course__cap{margin:2mm 0 0;font-size:11pt;font-weight:900;text-align:left;color:var(--color-text)}
+.p2-course__cap .num{font-size:44pt;line-height:1;letter-spacing:-.03em;color:var(--color-primary);margin-right:1mm}
+.p2-total .p2-course__cap .num{color:var(--color-text)}
+.p2-course__meta{margin:1mm 0 0;font-size:8pt;font-weight:500;text-align:left}
+.p2-total__label{margin:0;font-size:10pt;font-weight:900;text-align:left}
+
+.page-folio{position:absolute;bottom:calc(var(--safe) + 2mm);display:flex;align-items:baseline;gap:3mm;font-size:7.5pt;font-weight:500;color:var(--color-background);z-index:3}
+.page-folio[data-side='right']{right:var(--margin-outside);flex-direction:row-reverse}
+.page-folio[data-side='left']{left:var(--margin-outside)}
+.page-folio__number{font-size:10pt;font-weight:700;color:var(--color-accent)}
+
+.p2-photo{position:absolute;left:calc(var(--margin-left) + 62mm);right:var(--margin-right);top:131mm;height:32mm;margin:0;overflow:hidden}
+.p2-notes{position:absolute;left:calc(var(--margin-left) + 3mm);right:calc(var(--margin-right) + 3mm);top:101mm;margin:0;padding:0;list-style:none;color:var(--color-background);font-size:8.5pt;font-weight:700;line-height:1.7}.p2-notes li{padding-left:4mm;position:relative}.p2-notes li::before{content:'';position:absolute;left:0;top:2.2mm;width:2mm;height:2mm;background:var(--color-accent)}
+.p2-policy dt small{display:block;margin-top:1mm;font-size:7pt;font-weight:500}
+.p2-policy dt{flex:0 0 26mm!important}

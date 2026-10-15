@@ -1,0 +1,62 @@
+{{!-- page_002 目次・教育方針・募集学科と定員（左ページ） --}}
+<div class="p2-band" aria-hidden="true"></div>
+<header class="p2-head">
+  <p class="p2-head__kicker">{{facts.admissions.as_of}}</p>
+  <h1 class="p2-head__title">募集要項</h1>
+</header>
+
+<nav class="p2-toc" aria-label="目次">
+  <h2>目次</h2>
+  <ol>
+    <li><b>2</b>教育方針・募集学科と定員</li>
+    <li><b>3</b>出願資格・出願の流れ</li>
+    <li><b>4</b>入試区分別の要件</li>
+    <li><b>5</b>日程一覧</li>
+    <li><b>6</b>出願書類・チェック表</li>
+    <li><b>7</b>学費・納期・振込先・返還</li>
+    <li><b>8</b>合否連絡・お問い合わせ</li>
+    <li class="p2-toc__form"><b>9-14</b>願書・各様式（切り取り）</li>
+    <li><b>15</b>記入例</li>
+    <li><b>16</b>アクセス</li>
+  </ol>
+</nav>
+
+<section class="p2-policy">
+  <h2 class="p2-h">本校の教育方針</h2>
+  <p class="p2-policy__lead">本校では、以下のポリシーに基づき入学者選抜を実施します。</p>
+  <dl>
+    <div><dt><span>アドミッション<br>ポリシー<small>求める人物像</small></span></dt><dd>{{facts.admissions.policies.admission}}</dd></div>
+    <div><dt><span>カリキュラム<br>ポリシー<small>教育目標</small></span></dt><dd>{{facts.admissions.policies.curriculum}}</dd></div>
+    <div><dt><span>ディプロマ<br>ポリシー<small>到達目標</small></span></dt><dd>{{facts.admissions.policies.diploma}}</dd></div>
+  </dl>
+</section>
+
+<figure class="p2-photo">
+  <img src="{{photo "student-img-5238"}}" alt="教室でホワイトボードを囲んで話し合う在校生" style="object-position: 50% 45%">
+  <figcaption>教室でのグループ活動</figcaption>
+</figure>
+
+<section class="p2-courses">
+  <h2 class="p2-h p2-h--light">募集学科と定員</h2>
+  <div class="p2-courses__grid">
+    {{#each facts.courses.courses}}
+    <article class="p2-course">
+      <h3>{{name}}</h3>
+      <p class="p2-course__cap"><span class="num">{{capacity}}</span>人</p>
+      <p class="p2-course__meta">入学定員　／　修業年限{{years}}年</p>
+      <p class="p2-course__desc">{{description}}</p>
+    </article>
+    {{/each}}
+    <article class="p2-total">
+      <p class="p2-total__label">合計</p>
+      <p class="p2-course__cap"><span class="num">59</span>人</p>
+      <p class="p2-course__meta">{{facts.admissions.departments.0.program}}</p>
+    </article>
+  </div>
+  <ul class="p2-notes"><li>{{lookup facts.admissions.exam_notes 0}}</li></ul>
+</section>
+
+<footer class="page-folio" data-side="{{page.side}}">
+  <span class="page-folio__number num">{{page.number}}</span>
+  <span class="page-folio__school">{{facts.school.name}}</span>
+</footer>

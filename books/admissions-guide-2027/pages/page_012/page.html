@@ -1,0 +1,23 @@
+{{!-- page_012 様式4 入学検定料振込証明書（左ページ・切り取り式） --}}
+{{> book/form-head title="入学検定料振込証明書" no="【様式4】"}}
+<div class="f-body"><div class="fm">
+  <p class="fd">（西暦）　　　　　　年　　　　月　　　　日</p>
+  <div class="tbl tbl--tag">
+    <div class="tag">受験者情報</div>
+    <div>
+      <div class="r r--6"><div class="lab lab--s">ふりがな</div><div class="c c--dots"></div></div>
+      <div class="r r--14"><div class="lab">氏　名</div><div class="c"></div></div>
+      <div class="r r--9"><div class="lab">生年月日</div><div class="c c--birth">（西暦）<i class="gap g2"></i>年<i class="gap g0"></i>月<i class="gap g0"></i>日生</div></div>
+      <div class="r r--12"><div class="lab">入学検定料</div><div class="c c--fee"><span class="num">{{num facts.admissions.exam_fee}}</span>円</div></div>
+    </div>
+  </div>
+  <div class="box paste">
+    <p>この上に、入学検定料振り込みが確認できるもの（振込み明細票等）を貼り付けてください。</p>
+  </div>
+  <p class="small">振込先：{{facts.admissions.payment_account.bank}}　{{facts.admissions.payment_account.branch}}（店番{{facts.admissions.payment_account.branch_code}}）　{{facts.admissions.payment_account.type}}　{{facts.admissions.payment_account.number}}　{{facts.admissions.payment_account.holder}}<br>{{lookup facts.admissions.payment_notes 1}}</p>
+  <p class="sign">{{facts.school.name}}</p>
+</div></div>
+<footer class="page-folio" data-side="{{page.side}}">
+  <span class="page-folio__number num">{{page.number}}</span>
+  <span class="page-folio__school">{{facts.school.name}}</span>
+</footer>

@@ -1,0 +1,14 @@
+{{!-- page_009 様式1 入学願書（切り取り式の書き込み用紙）。記入項目は原本（日本人用願書 様式1）に忠実。 --}}
+{{> book/form-head title="入学願書" no="【様式1】" office=true}}
+<div class="f-body">{{> book/form-gankaku}}</div>
+<aside class="f-send">
+  <p class="f-send__h">送付先</p>
+  <p>〒{{facts.school.address.postal_code}}<br>{{facts.school.address.prefecture}}{{facts.school.address.city}}{{facts.school.address.line1}}</p>
+  <p>{{facts.school.name}}　{{facts.contacts.contacts.0.label}}<br>TEL：{{facts.school.tel}}</p>
+</aside>
+<p class="f-note">写真は縦4cm×横3cm（上半身・脱帽）。写真の裏に氏名を記入して貼付してください。黒ボールペンで記入してください。</p>
+
+<footer class="page-folio" data-side="{{page.side}}">
+  <span class="page-folio__number num">{{page.number}}</span>
+  <span class="page-folio__school">{{facts.school.name}}</span>
+</footer>

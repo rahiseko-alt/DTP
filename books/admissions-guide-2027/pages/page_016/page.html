@@ -1,0 +1,30 @@
+{{!-- page_016 アクセス・連絡先・裏表紙（左ページ）。写真を上に、濃紺の面に経路図・連絡先・QR --}}
+<div class="p16-bg" aria-hidden="true"></div>
+<figure class="p16-photo">
+  <img src="{{photo "student-img-5493"}}" alt="笑顔でポーズをとる在校生" style="object-position: 50% 40%">
+</figure>
+<div class="p16-slash" aria-hidden="true"></div>
+
+<section class="p16-access">
+  <h1>アクセス</h1>
+  <div class="p16-route">
+    <div class="p16-route__node"><b>JR名古屋駅</b></div>
+    <div class="p16-route__walk"><i></i><span>徒歩10分</span><i></i></div>
+    <div class="p16-route__node p16-route__node--school"><b>{{facts.school.name}}</b></div>
+  </div>
+  <p class="p16-addr">〒{{facts.school.address.postal_code}}　{{facts.school.address.prefecture}}{{facts.school.address.city}}{{facts.school.address.line1}}<br>{{#each facts.school.access}}{{this}}{{/each}}</p>
+</section>
+
+<section class="p16-contact">
+  <div>
+    <p class="p16-contact__lab">{{facts.school.name}}　{{facts.contacts.contacts.0.label}}</p>
+    <p class="p16-contact__tel"><span>TEL</span>{{facts.school.tel}}</p>
+    <dl><dt>E-mail</dt><dd>{{facts.school.email}}</dd><dt>HP</dt><dd>{{facts.school.url}}</dd></dl>
+  </div>
+  <div class="p16-qr">{{qr facts.school.url size=24}}<p>公式サイト</p></div>
+</section>
+
+<footer class="p16-foot">
+  <img src="{{asset brand.logo.logo-horizontal.file}}" alt="{{facts.school.name}}">
+  <p>{{facts.school.corporation}}</p>
+</footer>

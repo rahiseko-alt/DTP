@@ -1,0 +1,32 @@
+{{!-- page_006 出願書類一覧とチェック表・注意事項（左ページ） --}}
+<div class="p6-tab" aria-hidden="true"><span>出願書類チェック表</span></div>
+<header class="p6-head">
+  <h1>出願書類</h1>
+  <p>以下の書類を本校所定の封筒に入れ、提出してください。</p>
+</header>
+
+<ol class="p6-check">
+  {{#each facts.admissions.documents}}
+  <li>
+    <i class="p6-check__box"></i>
+    <b class="p6-check__no num"></b>
+    <div class="p6-check__name"><h2>{{name}}</h2></div>
+    <div class="p6-check__note">
+      {{#if note}}<p>{{note}}</p>{{/if}}
+      {{#if options}}<ul>{{#each options}}<li><i class="p6-check__box p6-check__box--s"></i>{{this}}</li>{{/each}}</ul>{{/if}}
+      {{#if guarantor}}<p class="p6-check__sub">{{guarantor}}</p>{{/if}}
+    </div>
+  </li>
+  {{/each}}
+</ol>
+
+<section class="p6-warn">
+  <div class="p6-warn__icon" aria-hidden="true"><b>!</b></div>
+  <h2>出願時の注意事項</h2>
+  <ul>{{#each facts.admissions.document_notes}}<li>{{this}}</li>{{/each}}</ul>
+</section>
+
+<footer class="page-folio" data-side="{{page.side}}">
+  <span class="page-folio__number num">{{page.number}}</span>
+  <span class="page-folio__school">{{facts.school.name}}</span>
+</footer>

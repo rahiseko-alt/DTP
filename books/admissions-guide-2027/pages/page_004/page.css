@@ -1,0 +1,32 @@
+.p4-bg{position:absolute;left:-3mm;right:-3mm;top:-3mm;bottom:-3mm;background:var(--color-surface)}
+.p4-head{position:absolute;left:var(--margin-left);right:var(--margin-right);top:14mm;display:flex;gap:4mm;align-items:flex-start}
+.p4-head__no{margin:0;font-size:54pt;line-height:.9;font-weight:900;color:var(--color-accent)}
+.p4-head h1{margin:0;font-size:25pt;font-weight:900;color:var(--color-primary);line-height:1.2}
+.p4-head p:not(.p4-head__no){margin:1.5mm 0 0;font-size:9pt;font-weight:500;text-align:left}
+.p4-card{position:absolute;left:var(--margin-left);right:var(--margin-right);display:flex;background:var(--color-background);box-shadow:0 0 0 .25mm var(--color-secondary)}
+.p4-card--ao{top:40mm}
+.p4-card--recommendation{top:117mm}
+.p4-card--general{top:170mm}
+.p4-card__tab{flex:0 0 36mm;padding:4mm 3mm;color:var(--color-background);display:flex;flex-direction:column;justify-content:space-between}
+.p4-card--ao .p4-card__tab{background:var(--color-accent);color:var(--color-text)}
+.p4-card--recommendation .p4-card__tab{background:var(--color-secondary)}
+.p4-card--general .p4-card__tab{background:var(--color-primary)}
+.p4-card__tab b{font-size:30pt;line-height:1;font-weight:900}
+.p4-card__tab h2{margin:2mm 0 0;font-size:14pt;font-weight:900;line-height:1.25}
+.p4-card__tab p{margin:1mm 0 0;font-size:8pt;font-weight:700;text-align:left}
+.p4-card{counter-increment:c}
+.p4-card__tab b::before{content:counter(c)}
+.p4-card__body{flex:1;padding:3mm 4mm}
+.p4-card__desc{margin:0 0 2mm;font-size:8.5pt;line-height:1.6;font-weight:700;text-align:left;color:var(--color-primary)}
+.p4-card dl{margin:0}
+.p4-card dl>div{display:grid;grid-template-columns:30mm 1fr;border-top:.2mm solid var(--color-secondary);padding:1.3mm 0}
+.p4-card dt{font-size:8pt;font-weight:700;color:var(--color-secondary)}
+.p4-card dd{margin:0;font-size:8.5pt;line-height:1.55;font-weight:500;text-align:left}
+.p4-photo{position:absolute;left:-3mm;right:-3mm;top:216mm;height:64mm;margin:0;overflow:hidden}
+.p4-photo img{display:block;width:100%;height:100%;object-fit:cover}
+.p4-photo figcaption{position:absolute;left:var(--margin-left);bottom:0;background:var(--color-background);padding:1mm 3mm;font-size:7pt;font-weight:500}
+.p4-note{position:absolute;left:var(--margin-left);right:var(--margin-right);top:275mm;margin:0;font-size:8pt;font-weight:700;color:var(--color-primary);text-align:left}
+.page-folio{position:absolute;bottom:calc(var(--safe) + 2mm);display:flex;align-items:baseline;gap:3mm;font-size:7.5pt;font-weight:500;color:var(--color-text);z-index:3}
+.page-folio[data-side='right']{right:var(--margin-outside);flex-direction:row-reverse}
+.page-folio[data-side='left']{left:var(--margin-outside)}
+.page-folio__number{font-size:10pt;font-weight:700;color:var(--color-primary)}

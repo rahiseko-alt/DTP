@@ -1,0 +1,31 @@
+# このBOOKが使う参考資料（docs/concept.md §5 ／ system/rules/references.md）
+# - 参考資料はコピーしない。references/<source>/<kind>/ 以下をリポジトリルート相対パスで指定する
+# - ページ単位の指定は「BOOK 側のページ ID」をキーにし、値に「参考資料側のページ画像」を書く
+#     layout_reference      レイアウト（npm run compare の既定の比較対象は先頭の 1 枚）
+#     visual_reference      写真・ビジュアルの見せ方
+#     information_reference 情報（数字・表）の見せ方
+# - 参考画像はページに直接貼らない（背景・{{asset}} に指定しない）。比較・目視・画像生成の参照入力に使う
+#
+# 記入例:
+# references:
+#   - references/HAL/brochure/
+#   - references/A-school/brochure/
+# page_001:
+#   layout_reference: [references/HAL/brochure/page_016.png]
+#   visual_reference: [references/A-school/brochure/page_031.png]
+#   information_reference: [references/B-school/brochure/page_008.png]
+
+references:
+  - references/HAL-nagoya/admissions/
+  - references/nagoya-iryo-hisho-it/admissions/
+  - references/kokusai-igaku-gijutsu/admissions/
+
+# 構造のみの参考（固有情報・画素は転用しない）
+page_003:
+  layout_reference: [references/HAL-nagoya/admissions/page_002.jpg]
+page_009:
+  layout_reference: [references/kokusai-igaku-gijutsu/admissions/page_008.jpg]
+page_014:
+  layout_reference: [references/HAL-nagoya/admissions/page_008.jpg]
+page_015:
+  layout_reference: [references/HAL-nagoya/admissions/page_017.jpg, references/nagoya-iryo-hisho-it/admissions/page_009.jpg]

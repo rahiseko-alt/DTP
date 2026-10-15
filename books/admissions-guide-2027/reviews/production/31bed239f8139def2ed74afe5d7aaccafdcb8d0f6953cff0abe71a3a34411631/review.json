@@ -1,0 +1,133 @@
+{
+  "pdf_sha256": "31bed239f8139def2ed74afe5d7aaccafdcb8d0f6953cff0abe71a3a34411631",
+  "mode": "preview",
+  "page_count": 16,
+  "binding": "left",
+  "editor_session": "a2179980e2461a20d",
+  "reviewer_session": "a9d3f14c5d81c6003",
+  "pages_seen": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "spreads_seen": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      16
+    ]
+  ],
+  "dimensions": {
+    "content": "pass",
+    "audience": "pass",
+    "spreads": "pass",
+    "rhythm": "pass",
+    "legibility": "pass",
+    "assets": "pass",
+    "output": "pass"
+  },
+  "checks": {
+    "validate": "pass",
+    "render": "pass",
+    "visual_pages": "pass",
+    "visual_spreads": "pass"
+  },
+  "findings": [
+    {
+      "severity": "minor",
+      "pages": [
+        16
+      ],
+      "issue": "経路図は事実どおりだが出口・方角・目印がなく情報が少ない（地図素材なし）",
+      "evidence": "output/png/page_016.png",
+      "required_fix": "地図素材の受領後に差し替える"
+    },
+    {
+      "severity": "minor",
+      "pages": [
+        13,
+        15
+      ],
+      "issue": "注意事項約6.5pt、記入例の抜粋ラベル約6pt。判読は可能",
+      "evidence": "output/png/page_013.png; page_015.png",
+      "required_fix": "余裕があれば引き上げを検討"
+    },
+    {
+      "severity": "minor",
+      "pages": [
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "issue": "教室・集合写真の背景人物の写り込み確認の記録が台帳にない",
+      "evidence": "company-data/photos/photos.yaml",
+      "required_fix": "人間が写り込み確認を記録する"
+    }
+  ],
+  "evidence": {
+    "見開き画像": [
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_01.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_02_03.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_04_05.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_06_07.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_08_09.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_10_11.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_12_13.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_14_15.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_16.png"
+    ],
+    "検証": [
+      "親が sha256sum・pdfinfo(16ページ)・pdffonts(全フォント埋め込み)・npm run validate(エラー0)・npm run typecheck(終了0)を実行。独立レビュアーは全16ページ・全9見開きを画像で目視（3回目のレビューでN1〜N5解消を確認）。QR復号・npm test・--releaseは未実施"
+    ],
+    "参照構成比較": [
+      "HAL page_004/012の縦フロー→P3、kokusai page_005・nagoya-iryo page_003の区分対応表→P4・P5。他校固有情報の流用なし"
+    ],
+    "依頼条件照合": [
+      "日本人用区分非表記、本文ルビなし、様式3宛名の学校法人訂正と2学科選択肢、書類番号1〜7、記入欄の書き込み可能性、記入例の可読性、文字切れなし、事実の一致をすべて達成"
+    ]
+  }
+}

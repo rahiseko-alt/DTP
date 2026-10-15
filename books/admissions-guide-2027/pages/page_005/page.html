@@ -1,0 +1,42 @@
+{{!-- page_005 日程一覧表（右ページ）。濃紺全面に3区分の横並び比較表と時間軸 --}}
+<div class="p5-bg" aria-hidden="true"></div>
+<header class="p5-head">
+  <p class="p5-head__no num">4</p>
+  <div><h1>日程一覧</h1><p>{{facts.admissions.as_of}}</p></div>
+</header>
+
+<div class="p5-table">
+  <div class="p5-th p5-th--blank"></div>
+  {{#each facts.admissions.exam_types}}<div class="p5-th p5-th--{{id}}"><b>{{name}}</b><span>{{formal_name}}</span></div>{{/each}}
+
+  <div class="p5-rh">エントリー受付開始</div>
+  <div class="p5-td">{{facts.admissions.exam_types.0.entry_from}}</div><div class="p5-td p5-td--none">－</div><div class="p5-td p5-td--none">－</div>
+  <div class="p5-rh">出願許可</div>
+  <div class="p5-td">{{facts.admissions.exam_types.0.permission}}</div><div class="p5-td p5-td--none">－</div><div class="p5-td p5-td--none">－</div>
+  <div class="p5-rh">出願受付開始</div>
+  <div class="p5-td">{{facts.admissions.exam_types.0.application_from}}</div><div class="p5-td">{{facts.admissions.exam_types.1.application_from}}</div><div class="p5-td">{{facts.admissions.exam_types.2.application_from}}</div>
+  <div class="p5-rh">選考方法</div>
+  <div class="p5-td">{{facts.admissions.exam_types.0.selection}}</div><div class="p5-td">{{facts.admissions.exam_types.1.selection}}</div><div class="p5-td">{{facts.admissions.exam_types.2.selection}}</div>
+  <div class="p5-rh">合格発表</div>
+  <div class="p5-td p5-td--hot">{{facts.admissions.exam_types.0.announcement}}</div><div class="p5-td">{{facts.admissions.exam_types.1.announcement}}</div><div class="p5-td">{{facts.admissions.exam_types.2.announcement}}</div>
+</div>
+
+<section class="p5-line">
+  <h2>AO入試の時間軸</h2>
+  <div class="p5-line__axis" aria-hidden="true">
+    <i class="p5-line__bar"></i>
+    <span class="m" style="left:0%"><u></u>6月</span><span class="m" style="left:10%"><u></u>7月</span><span class="m" style="left:20%"><u></u>8月</span><span class="m" style="left:30%"><u></u>9月</span><span class="m" style="left:40%"><u></u>10月</span><span class="m" style="left:50%"><u></u>11月</span><span class="m" style="left:60%"><u></u>12月</span><span class="m" style="left:70%"><u></u>1月</span><span class="m" style="left:80%"><u></u>2月</span><span class="m" style="left:90%"><u></u>3月</span><span class="m" style="left:100%"><u></u>4月</span>
+  </div>
+  <div class="p5-node p5-node--1" style="left:0%"><b>エントリー受付開始</b>{{facts.admissions.exam_types.0.entry_from}}</div>
+  <div class="p5-node p5-node--2" style="left:30%"><b>出願受付開始</b>{{facts.admissions.exam_types.0.application_from}}</div>
+  <div class="p5-node p5-node--3" style="left:40%"><b>合格発表</b>{{facts.admissions.exam_types.0.announcement}}</div>
+  <div class="p5-node p5-node--4" style="left:100%"><b>入学</b>{{facts.admissions.as_of}}</div>
+</section>
+
+<figure class="p5-photo"><img src="{{photo "student-img-5119"}}" alt="教室でのグループ活動" style="object-position: 50% 45%"></figure>
+<ul class="p5-notes">{{#each facts.admissions.exam_notes}}<li>{{this}}</li>{{/each}}</ul>
+
+<footer class="page-folio" data-side="{{page.side}}">
+  <span class="page-folio__number num">{{page.number}}</span>
+  <span class="page-folio__school">{{facts.school.name}}</span>
+</footer>

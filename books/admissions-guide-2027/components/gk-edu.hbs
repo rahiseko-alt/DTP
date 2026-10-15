@@ -1,0 +1,16 @@
+{{!-- 様式1 学歴・職歴 --}}
+      <div class="edu">
+        <div class="lab edu__lab">学　歴</div>
+        <div class="c edu__n">小学校</div><div class="c edu__y">{{#if sample}}<span class="hw hw--s">2012</span>{{/if}}年</div><div class="c edu__m">{{#if sample}}<span class="hw hw--s">3</span>{{/if}}月</div><div class="c edu__x">{{#if sample}}<span class="hw hw--s" style="margin-right:3mm">○○市立△△小学校</span>{{/if}}卒業</div>
+        <div class="c edu__n">中学校</div><div class="c edu__y">{{#if sample}}<span class="hw hw--s">2015</span>{{/if}}年</div><div class="c edu__m">{{#if sample}}<span class="hw hw--s">3</span>{{/if}}月</div><div class="c edu__x">{{#if sample}}<span class="hw hw--s" style="margin-right:3mm">○○市立△△中学校</span>{{/if}}卒業</div>
+        <div class="c edu__n">高　校</div><div class="c edu__y">{{#if sample}}<span class="hw hw--s">2018</span>{{/if}}年</div><div class="c edu__m">{{#if sample}}<span class="hw hw--s">3</span>{{/if}}月</div><div class="c edu__x edu__x--st">{{#if sample}}<span class="hw hw--s" style="margin-right:3mm">愛知県立△△高等学校</span>{{/if}}<span><i class="cb{{#if sample}} cb--on{{/if}}"></i>卒業</span><span><i class="cb"></i>卒業見込み</span><span><i class="cb"></i>中退</span></div>
+        <div class="c edu__n edu__n--s">大学<br>短期大学<br>専門学校</div><div class="c edu__y"></div><div class="c edu__m"></div><div class="c edu__x edu__x--univ"><div class="u1"><em>学部</em><em>学科</em></div><div class="u2"><span><i class="cb"></i>卒業</span><span><i class="cb"></i>卒業見込み</span><span><i class="cb"></i>中退</span></div></div>
+      </div>
+
+      <div class="work">
+        <div class="lab work__lab">職　歴<small>（※ない場合は記入の必要なし）</small></div>
+        <div class="c work__h work__h1">勤務先名</div><div class="c work__h work__h2">就職年月日<br>離職年月日</div>
+        <div class="c work__n">{{#if sample}}<span class="hw hw--s">なし（記入の必要なし）</span>{{/if}}</div><div class="c work__d"><span>年　　月</span><span>年　　月</span></div>
+        <div class="c work__n"></div><div class="c work__d"><span>年　　月</span><span>年　　月</span></div>
+        <div class="c work__n"></div><div class="c work__d"><span>年　　月</span><span>年　　月</span></div>
+      </div>

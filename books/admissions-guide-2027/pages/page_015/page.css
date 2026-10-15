@@ -1,0 +1,24 @@
+.p15-bg{position:absolute;left:-3mm;right:-3mm;top:-3mm;bottom:-3mm;background:var(--color-surface)}
+.p15-head{position:absolute;left:var(--margin-left);right:var(--margin-right);top:12mm}
+.p15-head h1{margin:0;font-size:28pt;font-weight:900;color:var(--color-primary);line-height:1.15}
+.p15-head p{margin:1mm 0 0;font-size:8.5pt;line-height:1.6;font-weight:500;text-align:left}
+.p15-ex{position:absolute;left:15mm;width:187mm}
+.p15-ex--a{top:46mm}
+.p15-ex--c{top:156mm}
+.p15-tag{position:absolute;left:0;top:-5.4mm;background:var(--color-primary);color:var(--color-background);padding:.6mm 3mm;font-size:8pt;font-weight:900}
+.p15-zoom{width:187mm;zoom:1;background:var(--color-background)}
+.p15-pin{position:absolute;left:8.5mm;width:5mm;height:5mm;margin-top:-2.5mm;border-radius:50%;background:var(--color-accent);color:var(--color-text);font-style:normal;font-size:7.5pt;font-weight:900;display:flex;align-items:center;justify-content:center;z-index:3}
+.p15-pin--r{left:142.5mm}
+.p15-cards{position:absolute;left:15mm;width:187mm;margin:0;padding:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:2mm}
+.p15-cards--a{top:120mm}
+.p15-cards--c{top:253mm}
+.p15-cards li{position:relative;padding:1.8mm 2.4mm 1.8mm 9mm;background:var(--color-background);border-left:1.2mm solid var(--color-accent);font-size:7.5pt;line-height:1.5;font-weight:500;text-align:left}
+.p15-cards .p15-cards__wide{grid-column:1/-1}
+.p15-cards b{position:absolute;left:2mm;top:1.8mm;width:5mm;height:5mm;border-radius:50%;background:var(--color-accent);color:var(--color-text);font-size:7.5pt;font-weight:900;display:flex;align-items:center;justify-content:center}
+.page-folio{position:absolute;bottom:calc(var(--safe) + 2mm);display:flex;align-items:baseline;gap:3mm;font-size:7.5pt;font-weight:500;color:var(--color-text);z-index:3}
+.page-folio[data-side='right']{right:var(--margin-outside);flex-direction:row-reverse}
+.page-folio[data-side='left']{left:var(--margin-outside)}
+.page-folio__number{font-size:10pt;font-weight:700;color:var(--color-primary)}
+.p15-ex--a .sec__body>.r--tel,.p15-ex--a .sec__body>.r--tel+.r{display:none}
+.p15-ex--c .tbl{margin:0}
+.p15-ex--c .tbl+.tbl{border-top:0}

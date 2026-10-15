@@ -1,0 +1,26 @@
+{{!-- page_014 推薦書（左ページ・切り取り式）。出身高校が記入する書類 --}}
+{{> book/form-head title="推薦書" examonly=true}}
+<div class="f-body"><div class="fm fm--rec">
+  <p class="fd">年　　　　　月　　　　　日</p>
+  <p class="to">{{facts.school.corporation}}<br>{{facts.school.name}}<br>学校長　様</p>
+  <div class="sch">
+    <p><span>学校名</span><i></i></p>
+    <p><span>代表者名</span><i></i><em>印</em></p>
+  </div>
+  <p class="stmt stmt--b">下記の者は、貴校を第一志望とし、推薦に相応しい者と認められたので、推薦いたします。</p>
+  <div class="tbl">
+    <div class="r r--rec0"><div class="lab">フリガナ</div><div class="c c--dots"></div></div>
+    <div class="r r--rec1 r--rec1b"><div class="lab">名前</div><div class="c"></div><div class="lab">性別</div><div class="c c--opts" style="justify-content:center;font-weight:500!important">男　・　女　・　その他</div></div>
+    <div class="r r--rec2"><div class="lab">卒業見込日</div><div class="c">年　　　月　　　日　卒業見込み</div><div class="lab">生年月日</div><div class="c">年　　　月　　　日</div></div>
+    <div class="r r--rec3"><div class="lab">志望学科</div><div class="c c--opts">{{#each facts.courses.courses}}<span class="cb"></span>{{name}}{{/each}}</div></div>
+  </div>
+  <div class="box">
+    <div class="box__h"><b>推薦理由</b></div>
+    <div class="lines" style="--lh:8mm;height:100mm;margin-top:2mm"></div>
+    <div style="height:2mm"></div>
+  </div>
+</div></div>
+<footer class="page-folio" data-side="{{page.side}}">
+  <span class="page-folio__number num">{{page.number}}</span>
+  <span class="page-folio__school">{{facts.school.name}}</span>
+</footer>

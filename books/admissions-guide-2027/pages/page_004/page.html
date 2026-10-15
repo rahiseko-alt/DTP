@@ -1,0 +1,33 @@
+{{!-- page_004 入試区分別の要件（左ページ）。3区分を色タブ付きの要件表として縦に積む --}}
+<div class="p4-bg" aria-hidden="true"></div>
+<header class="p4-head">
+  <p class="p4-head__no num">3</p>
+  <div><h1>入試区分別の要件</h1><p>本校の入学試験は以下の3区分で実施します。</p></div>
+</header>
+
+{{#each facts.admissions.exam_types}}
+<section class="p4-card p4-card--{{id}}">
+  <div class="p4-card__tab"><b class="num"></b><h2>{{name}}</h2><p>{{formal_name}}</p></div>
+  <div class="p4-card__body">
+    <p class="p4-card__desc">{{description}}</p>
+    <dl>
+      {{#if requirement}}<div><dt>出願要件</dt><dd>{{requirement}}</dd></div>{{/if}}
+      {{#if entry_from}}<div><dt>エントリー受付開始</dt><dd>{{entry_from}}</dd></div>{{/if}}
+      {{#if permission}}<div><dt>出願許可</dt><dd>{{permission}}</dd></div>{{/if}}
+      {{#if application_from}}<div><dt>出願受付開始</dt><dd>{{application_from}}</dd></div>{{/if}}
+      <div><dt>選考方法</dt><dd>{{selection}}</dd></div>
+      <div><dt>合格発表</dt><dd>{{announcement}}</dd></div>
+    </dl>
+  </div>
+</section>
+{{/each}}
+
+<figure class="p4-photo">
+  <img src="{{photo "student-img-5069"}}" alt="教室で課題に取り組む在校生" style="object-position: 50% 55%">
+  <figcaption>教室で課題に取り組む在校生</figcaption>
+</figure>
+
+<footer class="page-folio" data-side="{{page.side}}">
+  <span class="page-folio__number num">{{page.number}}</span>
+  <span class="page-folio__school">{{facts.school.name}}</span>
+</footer>
