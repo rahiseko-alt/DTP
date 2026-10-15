@@ -1,26 +1,11 @@
 {{!-- 様式3 誓約書・保証書の本体。sample=true で記入例（架空の見本値） --}}
 <div class="fm{{#unless sample}} fm--s{{/unless}}">
-  <p class="fd">（西暦）{{#if sample}}<span class="hw hw--s">　2026　</span>{{else}}　　　　　　{{/if}}年{{#if sample}}<span class="hw hw--s">　4　</span>{{else}}　　　　{{/if}}月{{#if sample}}<span class="hw hw--s">　1　</span>{{else}}　　　　{{/if}}日</p>
+  <p class="fd">（西暦）{{#if sample}}<span class="hw hw--s">　2026　</span>{{else}}　　　　　　{{/if}}年{{#if sample}}<span class="hw hw--s">　10　</span>{{else}}　　　　{{/if}}月{{#if sample}}<span class="hw hw--s">　1　</span>{{else}}　　　　{{/if}}日</p>
   <p class="to">{{facts.school.corporation}}<br>{{facts.school.name}}　学校長殿</p>
   <p class="stmt">私は、貴校の学生として在学中、貴校の教育方針ならびに教育目的を遵守し、貴校の教職員の指導に従い、規則を守ることを誓います。</p>
-  <div class="tbl tbl--tag">
-    <div class="tag">受験者本人</div>
-    <div>
-      <div class="r r--6"><div class="lab lab--s">ふりがな</div><div class="c c--dots">{{#if sample}}<span class="hw hw--s">ミホン　ハナコ</span>{{/if}}</div></div>
-      <div class="r r--14"><div class="lab">氏　名</div><div class="c seal">{{#if sample}}<span class="hw" style="margin-right:auto">見本　花子</span>{{/if}}（印）</div></div>
-      <div class="r r--9"><div class="lab">生年月日</div><div class="c c--birth">（西暦）<i class="gap g2">{{#if sample}}<span class="hw hw--s">2000</span>{{/if}}</i>年<i class="gap g0">{{#if sample}}<span class="hw hw--s">4</span>{{/if}}</i>月<i class="gap g0">{{#if sample}}<span class="hw hw--s">1</span>{{/if}}</i>日生</div></div>
-      <div class="r r--addr"><div class="lab">住所<br>電話番号</div><div class="c c--addr2"><span>〒（{{#if sample}}<span class="hw hw--s">000－0000</span>{{else}}　　　　　　－　　　　　　{{/if}}）{{#if sample}}<span class="hw hw--s" style="margin-left:3mm">愛知県○○市△△町1丁目2番3号</span>{{/if}}</span><span class="tel">TEL　{{#if sample}}<span class="hw hw--s">000-0000-0000</span>{{else}}　　　　　　（　　　　）{{/if}}</span></div></div>
-    </div>
-  </div>
+{{> book/sy-person}}
   <p class="stmt">上記の者の入学に際し、在学中、同人にかかる身元保障等の一切の責任は私が引き受けます。<br>また、上記の者の授業料等の学納金に関し、期日までに納入することの責を連帯して負います。</p>
-  <div class="tbl tbl--tag">
-    <div class="tag">保証人</div>
-    <div>
-      <div class="r r--hf r--6"><div class="lab lab--s">ふりがな</div><div class="c c--dots">{{#if sample}}<span class="hw hw--s">ミホン　タロウ</span>{{/if}}</div><div class="lab lab--s">本人との続柄</div></div>
-      <div class="r r--hf r--14"><div class="lab">氏　名</div><div class="c seal">{{#if sample}}<span class="hw" style="margin-right:auto">見本　太郎</span>{{/if}}（印）</div><div class="c">{{#if sample}}<span class="hw hw--s">父</span>{{/if}}</div></div>
-      <div class="r r--addr"><div class="lab">住所<br>電話番号</div><div class="c c--addr2"><span>〒（{{#if sample}}<span class="hw hw--s">000－0000</span>{{else}}　　　　　　－　　　　　　{{/if}}）{{#if sample}}<span class="hw hw--s" style="margin-left:3mm">愛知県○○市△△町1丁目2番3号</span>{{/if}}</span><span class="tel">TEL　{{#if sample}}<span class="hw hw--s">000-0000-0000</span>{{else}}　　　　　　（　　　　）{{/if}}</span></div></div>
-    </div>
-  </div>
+{{> book/sy-guarantor}}
   <div class="notes">
     <b>補足事項</b>
     <p>1．受験者、および身元保証人のすべての項目について、本人がすべて直筆で記入すること</p>

@@ -4,8 +4,8 @@
 .page[data-side='left']{--fl:7mm;--fr:14mm}
 .f-cut{position:absolute;left:9mm;top:-3mm;bottom:-3mm;width:0;border-left:.3mm dashed var(--color-muted)}
 .page[data-side='left'] .f-cut{left:auto;right:9mm;border-left:0;border-right:.3mm dashed var(--color-muted)}
-.f-cut span{position:absolute;left:-3.4mm;top:140mm;writing-mode:vertical-rl;background:var(--color-background);padding:2mm 0;font-size:6.5pt;font-weight:500;color:var(--color-muted);letter-spacing:.15em}
-.page[data-side='left'] .f-cut span{left:auto;right:-3.4mm}
+.f-cut span{position:absolute;left:-1.9mm;top:140mm;writing-mode:vertical-rl;background:var(--color-background);padding:2mm 0;font-size:6.5pt;font-weight:500;color:var(--color-muted);letter-spacing:.15em}
+.page[data-side='left'] .f-cut span{left:auto;right:-1.9mm}
 .f-band{position:absolute;left:-3mm;right:-3mm;top:-3mm;height:31mm;background:var(--color-primary)}
 .f-head{position:absolute;left:var(--fl);right:var(--fr);top:3mm;height:22mm;color:var(--color-background)}
 .f-head__logo{position:absolute;left:0;top:0;width:44mm;height:auto;display:block;outline:.3mm solid var(--color-accent)}
@@ -63,8 +63,6 @@
 .fm .r--sex{grid-template-columns:20mm 1fr 14mm}
 .fm .c--sex{flex-direction:column;align-items:flex-start;justify-content:center;gap:2mm;padding:0 2mm;font-size:8pt!important;font-weight:700!important}
 .fm .c--sex span{display:flex;align-items:center}
-.fm .photo{flex:0 0 36mm;border-left:.3mm solid var(--color-text);display:flex;align-items:center;justify-content:center}
-.fm .photo i{display:block;width:30mm;height:40mm;border:.3mm dashed var(--color-muted);box-sizing:border-box}
 .fm .c--birth{font-size:8pt!important;white-space:nowrap;gap:0}
 .fm .gap{display:inline-block;border-bottom:.2mm solid var(--color-muted);height:4mm}
 .fm .g0{width:9mm}
@@ -144,7 +142,7 @@
 .fm .c--kubun{font-size:6.5pt!important;padding:0 1mm!important}
 .fm--ao .r:not(.r--oc){border-top:.3mm solid var(--color-text)}
 .fm--ao .gx .r:first-child{border-top:0}
-.fm .ta{border:.4mm solid var(--color-text);margin-top:2mm}
+.fm .ta{border:.4mm solid var(--color-text);margin-top:1.6mm}
 .fm .ta__h{background:var(--color-surface);padding:1mm 3mm;font-size:8pt;font-weight:900;color:var(--color-primary);text-align:center;border-bottom:.3mm solid var(--color-text)}
 .fm .ta__b{background-image:linear-gradient(to bottom,transparent calc(100% - .3mm),var(--color-muted) calc(100% - .3mm));background-size:100% var(--lh,6mm);background-repeat:repeat-y}
 .fm .sch{margin:2mm 0 5mm 70mm}
@@ -159,3 +157,11 @@
 .fm .r--rec3{grid-template-columns:24mm 1fr;height:12mm}
 .f-office--one{width:30mm!important}
 .fm .r--rec0{grid-template-columns:24mm 1fr;height:7mm}
+.fm .r--21{height:21mm}
+.fm .photo{flex:0 0 56mm;border-left:.3mm solid var(--color-text);display:flex;align-items:center;justify-content:space-between;padding:0 2mm 0 2.5mm}
+.fm .photo__t{width:21mm;text-align:left;font-size:6.5pt;line-height:1.45;font-weight:500}
+.fm .photo__t b{display:block;font-size:7.5pt;font-weight:900;color:var(--color-primary);margin-bottom:1mm}
+.fm .photo__t span{display:block;margin-bottom:.6mm}
+.fm .photo i{display:block;flex:0 0 30mm;width:30mm;height:40mm;border:.3mm dashed var(--color-muted);box-sizing:border-box}
+.fm .cir{display:inline-block;border:.3mm solid var(--color-primary);border-radius:50%;padding:0 .8mm;line-height:1.25}
+.f-cut span{font-size:7.5pt!important;font-weight:700!important;color:var(--color-text)!important}

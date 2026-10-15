@@ -35,3 +35,9 @@
 .p5-photo{position:absolute;left:-3mm;right:-3mm;top:238mm;bottom:-3mm;margin:0;overflow:hidden}.p5-photo img{display:block;width:100%;height:100%;object-fit:cover}.p5-photo figcaption{position:absolute;left:var(--margin-left);top:3mm;background:var(--color-background);padding:1mm 3mm;font-size:7pt;font-weight:500;color:var(--color-text)}
 .page-folio{text-shadow:0 0 1.5mm var(--color-primary)}
 .page-folio__number{color:var(--color-background)}
+.p5-photo{left:-3mm!important;right:auto!important;width:112mm;top:240mm!important}
+.p5-photo figcaption{display:none}
+.p5-line__axis .m--up{top:-6.5mm}
+.p5-notes{top:246mm!important;left:128mm!important;right:var(--margin-right)!important;font-size:8pt!important}
+.page-folio{text-shadow:none}
+.page-folio__number{color:var(--color-accent)}

@@ -1,24 +1,31 @@
-{{!-- page_015 記入例（右ページ）。願書（様式1）と誓約書（様式3）の記入済み見本を縮小し、引出し線で要点を説明 --}}
+{{!-- page_015 記入例（右ページ）。願書（様式1）と誓約書（様式3）の要所を実寸近くで抜粋し、番号付きの説明を添える --}}
 <div class="p15-bg" aria-hidden="true"></div>
 <header class="p15-head">
   <h1>記入例</h1>
-  <p>願書（様式1）と誓約書・保証書（様式3）の書き方です。見本の氏名・住所・電話番号などはすべて架空です。</p>
+  <p>願書（様式1）と誓約書・保証書（様式3）の要所を抜粋した記入例です。氏名・住所・電話番号などはすべて架空の見本です。</p>
 </header>
 
-<div class="p15-sheet p15-sheet--1" data-print-qa="ignore"><div class="p15-label">様式1</div><div class="p15-zoom">{{> book/form-gankaku sample=true}}</div></div>
-<div class="p15-sheet p15-sheet--3" data-print-qa="ignore"><div class="p15-label">様式3</div><div class="p15-zoom">{{> book/form-seiyaku sample=true}}</div></div>
+<div class="p15-ex p15-ex--a"><span class="p15-tag">様式1　入学願書</span>
+  <div class="p15-zoom"><div class="fm"><section class="sec"><div class="sec__tag">志願者</div><div class="sec__body">{{> book/gk-top sample=true}}</div></section></div></div>
+</div>
+<i class="p15-pin" style="top:54mm">1</i><i class="p15-pin" style="top:80mm">2</i><i class="p15-pin p15-pin--r" style="top:62mm">3</i><i class="p15-pin" style="top:96mm">4</i>
 
-<ol class="p15-notes">
-  <li style="top:52mm"><b>1</b>出願種別・志望学科は、当てはまる□にチェックします。志望学科は2学科から1つ選びます。</li>
-  <li style="top:67mm"><b>2</b>氏名・ふりがな・性別を記入します。氏名の右の□に性別のチェックを入れます。</li>
-  <li style="top:81mm"><b>3</b>写真貼付欄には、写真の裏に氏名を記入して貼付します。写真は縦4cm×横3cm、正面・無帽・無マスク・無背景のものです。</li>
-  <li style="top:101mm"><b>4</b>生年月日・現住所・電話番号・E-Mailを記入します。</li>
-  <li style="top:122mm"><b>5</b>高校は、卒業・卒業見込み・中退のいずれかにチェックします。</li>
-  <li style="top:136mm"><b>6</b>職歴がない場合は、記入の必要はありません。</li>
-  <li style="top:160mm"><b>7</b>保護者または保証人の氏名・続柄・職業・連絡先を記入します。</li>
-  <li style="top:194mm" class="p15-notes__3"><b>8</b>日付は西暦で記入します。宛名は{{facts.school.corporation}}です。</li>
-  <li style="top:211mm" class="p15-notes__3"><b>9</b>受験者本人の氏名を直筆で記入し、（印）の欄に押印します。</li>
-  <li style="top:236mm" class="p15-notes__3"><b>10</b>保証人欄は保証人本人が直筆で記入します。{{facts.admissions.documents.5.guarantor}}</li>
+<ol class="p15-cards p15-cards--a">
+  <li><b>1</b>出願種別と志望学科は、当てはまる□にチェックします。志望学科は2学科から1つを選びます。</li>
+  <li><b>2</b>氏名とふりがな、性別を記入します。性別は当てはまる□にチェックします。</li>
+  <li><b>3</b>写真貼付欄には、写真の裏に氏名を記入して貼付します。写真は縦4cm×横3cmです。</li>
+  <li><b>4</b>生年月日は昭和・平成・令和のいずれかに○をつけ、年月日と満年齢を記入します。現住所は郵便番号から書きます。</li>
+  <li class="p15-cards__wide"><b>5</b>様式1のそのほかの欄：高校は卒業・卒業見込み・中退のいずれかにチェックします。職歴がない場合は、記入の必要はありません。{{facts.admissions.documents.0.note}}。</li>
+</ol>
+
+<div class="p15-ex p15-ex--c"><span class="p15-tag">様式3　誓約書・保証書</span>
+  <div class="p15-zoom"><div class="fm">{{> book/sy-person sample=true}}<div style="height:3mm"></div>{{> book/sy-guarantor sample=true}}</div></div>
+</div>
+<i class="p15-pin" style="top:175mm">6</i><i class="p15-pin" style="top:228mm">7</i>
+
+<ol class="p15-cards p15-cards--c">
+  <li><b>6</b>受験者本人の氏名は直筆で記入し、右端の（印）の欄に押印します。住所・電話番号も記入します。</li>
+  <li><b>7</b>保証人の氏名は直筆で記入し、本人との続柄を書きます。保証人は、経済的に独立した25歳以上の者です。</li>
 </ol>
 
 <footer class="page-folio" data-side="{{page.side}}">

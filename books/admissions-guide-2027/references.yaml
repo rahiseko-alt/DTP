@@ -15,4 +15,17 @@
 #   visual_reference: [references/A-school/brochure/page_031.png]
 #   information_reference: [references/B-school/brochure/page_008.png]
 
-references: []
+references:
+  - references/HAL-nagoya/admissions/
+  - references/nagoya-iryo-hisho-it/admissions/
+  - references/kokusai-igaku-gijutsu/admissions/
+
+# 構造のみの参考（固有情報・画素は転用しない）
+page_003:
+  layout_reference: [references/HAL-nagoya/admissions/page_002.jpg]
+page_009:
+  layout_reference: [references/kokusai-igaku-gijutsu/admissions/page_008.jpg]
+page_014:
+  layout_reference: [references/HAL-nagoya/admissions/page_008.jpg]
+page_015:
+  layout_reference: [references/HAL-nagoya/admissions/page_017.jpg, references/nagoya-iryo-hisho-it/admissions/page_009.jpg]

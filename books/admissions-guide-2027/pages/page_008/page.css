@@ -24,9 +24,9 @@
 .p8-qr svg{display:block;width:22mm;height:22mm}
 .p8-qr p{margin:1mm 0 0;font-size:7pt;font-weight:700;text-align:center!important}
 .p8-next{position:absolute;left:var(--margin-left);right:0;top:271mm;height:11mm;display:flex;align-items:center;gap:3mm}
-.p8-next p{margin:0;flex:1;font-size:8pt;line-height:1.5;text-align:left;padding-right:22mm}
+.p8-next p{margin:0;flex:1;font-size:8pt;line-height:1.5;text-align:left;padding-right:30mm}
 .p8-next b{color:var(--color-primary);font-weight:900}
-.p8-next__tri{position:absolute;right:6mm;top:-3mm;border:7mm solid transparent;border-left:12mm solid var(--color-accent);border-right:0;height:0;width:0}
+.p8-next__tri{position:absolute;right:14mm;top:-3mm;border:7mm solid transparent;border-left:12mm solid var(--color-accent);border-right:0;height:0;width:0}
 .page-folio{position:absolute;bottom:calc(var(--safe) + 2mm);display:flex;align-items:baseline;gap:3mm;font-size:7.5pt;font-weight:500;color:var(--color-background);z-index:3}
 .page-folio[data-side='right']{right:var(--margin-outside);flex-direction:row-reverse}
 .page-folio[data-side='left']{left:var(--margin-outside)}
