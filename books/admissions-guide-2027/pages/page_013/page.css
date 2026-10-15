@@ -8,18 +8,19 @@
 .ao-notes__h{counter-increment:none!important;padding-left:0!important;font-size:7.5pt;font-weight:900;color:var(--color-primary);border-bottom:.3mm solid var(--color-primary);margin-bottom:.8mm}
 .f-send--ao{top:253mm;left:auto;right:var(--fr);width:70mm;padding:1.6mm 3mm}
 .f-send--ao p{font-size:7pt}
-.f-band{height:23mm}
+.f-band{height:26mm}
 .f-head{top:5mm}
 .f-head__logo{width:32mm}
 .f-head__title{left:36mm;top:0}
 .f-head h1{font-size:19pt}
-.f-office{top:6mm}
-.f-office td{height:4mm}
-.f-body{top:22mm}
-.ao-notes{top:257mm}
-.f-send--ao{top:258mm}
-.fm--ao .bar{padding:.3mm;margin-top:1mm}
-.fm--ao .ta{margin-top:1mm}
-.fm--ao .r--s1,.fm--ao .r--s3{height:6.2mm}
-.fm--ao .r--s2{height:6.4mm}
-.fm--ao .r--oc{height:6.2mm}
+.f-office{top:5mm}
+.f-office th{padding:.3mm}
+.f-office td{height:5mm}
+.f-body{top:25mm}
+.ao-notes{top:262mm}
+.f-send--ao{top:263mm}
+.fm--ao .bar{padding:.3mm;margin-top:.9mm}
+.fm--ao .ta{margin-top:.9mm}
+.fm--ao .r--s1,.fm--ao .r--s3{height:5.6mm}
+.fm--ao .r--s2{height:5.8mm}
+.fm--ao .r--oc{height:5.8mm}

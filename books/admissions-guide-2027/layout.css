@@ -158,7 +158,7 @@
 .f-office--one{width:30mm!important}
 .fm .r--rec0{grid-template-columns:24mm 1fr;height:7mm}
 .fm .r--21{height:21mm}
-.fm .photo{flex:0 0 56mm;border-left:.3mm solid var(--color-text);display:flex;align-items:center;justify-content:space-between;padding:0 2mm 0 2.5mm}
+.fm .photo{flex:0 0 61mm;border-left:.3mm solid var(--color-text);display:flex;align-items:center;justify-content:space-between;padding:0 2mm 0 2.5mm}
 .fm .photo__t{width:21mm;text-align:left;font-size:6.5pt;line-height:1.45;font-weight:500}
 .fm .photo__t b{display:block;font-size:7.5pt;font-weight:900;color:var(--color-primary);margin-bottom:1mm}
 .fm .photo__t span{display:block;margin-bottom:.6mm}

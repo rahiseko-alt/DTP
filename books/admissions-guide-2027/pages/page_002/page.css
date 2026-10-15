@@ -45,7 +45,7 @@
 .page-folio[data-side='left']{left:var(--margin-outside)}
 .page-folio__number{font-size:10pt;font-weight:700;color:var(--color-accent)}
 
-.p2-photo{position:absolute;left:calc(var(--margin-left) + 62mm);right:var(--margin-right);top:119mm;height:42mm;margin:0;overflow:hidden}
+.p2-photo{position:absolute;left:calc(var(--margin-left) + 62mm);right:var(--margin-right);top:131mm;height:32mm;margin:0;overflow:hidden}
 .p2-notes{position:absolute;left:calc(var(--margin-left) + 3mm);right:calc(var(--margin-right) + 3mm);top:101mm;margin:0;padding:0;list-style:none;color:var(--color-background);font-size:8.5pt;font-weight:700;line-height:1.7}.p2-notes li{padding-left:4mm;position:relative}.p2-notes li::before{content:'';position:absolute;left:0;top:2.2mm;width:2mm;height:2mm;background:var(--color-accent)}
 .p2-policy dt small{display:block;margin-top:1mm;font-size:7pt;font-weight:500}
 .p2-policy dt{flex:0 0 26mm!important}
