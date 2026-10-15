@@ -13,4 +13,8 @@
 #     note: "TODO: 最小サイズ・余白規定などを記入"
 # ルール: system/rules/company-data.md
 
-logos: []
+logos:
+  - id: logo-horizontal
+    file: company-data/brand/logo/logo-horizontal.png
+    variant: 横組み（紺地・金茶の文字と校章。背景を含む1121x274pxのPNG）
+    note: 出典は自社の募集要項（references/school-own/admissions-2027/original/募集要項2027.docx 表紙）に埋め込まれた画像。SVG・透過版・最小サイズ・余白規定は未受領
