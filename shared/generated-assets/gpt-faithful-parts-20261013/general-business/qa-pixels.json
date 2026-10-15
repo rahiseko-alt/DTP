@@ -1,0 +1,73 @@
+{
+  "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+  "source_sha256": "37a566563a7bd322550a026a9001e97b21bc3ec314a4ff8332db88001ecd5ebd",
+  "original_dimensions": {
+    "width": 1491,
+    "height": 1055
+  },
+  "method": "Decoded raw RGB bytes, source rect versus delivered PNG, exact equality",
+  "count": 10,
+  "all_exact": true,
+  "checks": [
+    {
+      "id": "hero-original",
+      "exact_raw_rgb": true,
+      "compared_bytes": 1016925,
+      "output_sha256": "460f6f020eace9f28a7f42c1ee012a6b2977523a22061e2214e5cda25bedda4e"
+    },
+    {
+      "id": "learning-01-sales-service",
+      "exact_raw_rgb": true,
+      "compared_bytes": 84888,
+      "output_sha256": "07ddcfde01a660f05de1c094bf01f6fb279a7af71a845069c0c42fd93dc890fe"
+    },
+    {
+      "id": "learning-02-management",
+      "exact_raw_rgb": true,
+      "compared_bytes": 84888,
+      "output_sha256": "d38a81ed6d18ebfb856a1c9b516e39fca1aeb5b7f1f815a26ad648d6b061dfba"
+    },
+    {
+      "id": "learning-03-office",
+      "exact_raw_rgb": true,
+      "compared_bytes": 85281,
+      "output_sha256": "a192dabcf5be9431c53ffbf322202024110ee1147c31b1fff0e2b227321015a7"
+    },
+    {
+      "id": "learning-04-marketing",
+      "exact_raw_rgb": true,
+      "compared_bytes": 84888,
+      "output_sha256": "2fcf05cb73603f2ee458475f61ff083fa250657b0ffc25218caee2910a3d1b4c"
+    },
+    {
+      "id": "learning-05-computer",
+      "exact_raw_rgb": true,
+      "compared_bytes": 84888,
+      "output_sha256": "1ee4296a07851a0c045006ab93b1761f968d5dced6748fef1433cd97e2bc61d4"
+    },
+    {
+      "id": "learning-06-practice",
+      "exact_raw_rgb": true,
+      "compared_bytes": 85281,
+      "output_sha256": "79ef3dad35453f9c77123cbdfe5bb7c6178fd6da3f8848056532d8934479eeb0"
+    },
+    {
+      "id": "feature-01-work-skills",
+      "exact_raw_rgb": true,
+      "compared_bytes": 86832,
+      "output_sha256": "cd181b570e62cbf3610287e6f97f15db99d0e985542fbb929101f734878066f4"
+    },
+    {
+      "id": "feature-02-curriculum",
+      "exact_raw_rgb": true,
+      "compared_bytes": 84822,
+      "output_sha256": "7193457f4fde55fda42531cc52aa5252e5e626ffd8f573320ba1fe01f020f11a"
+    },
+    {
+      "id": "feature-03-career-support",
+      "exact_raw_rgb": true,
+      "compared_bytes": 84822,
+      "output_sha256": "639ffc01d56a6d1370110862794a585bca4b924663fde23a6bd29cd49808359d"
+    }
+  ]
+}

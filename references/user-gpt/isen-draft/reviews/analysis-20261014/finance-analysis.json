@@ -1,0 +1,416 @@
+{
+  "mode": "analysis_only",
+  "images": [
+    {
+      "id": "finance-20",
+      "file": "C:\\Users\\user\\Downloads\\AIビジネス専門学校 学費案内.png",
+      "width": 1024,
+      "height": 1536,
+      "page": 20
+    },
+    {
+      "id": "timing-21",
+      "file": "C:\\Users\\user\\Downloads\\支払タイミングとAO入試特典 恒一.png",
+      "width": 1024,
+      "height": 1536,
+      "page": 21
+    }
+  ],
+  "source_scope": {
+    "ledger": "company-data/ledger.md",
+    "facts": "company-data/facts/admissions.yaml",
+    "prior_year": 2027,
+    "prior_audience": "日本人学生",
+    "book_target_year": 2028,
+    "target_fee_confirmed": false,
+    "ao_discount_confirmed": false
+  },
+  "evidence": {
+    "fee_table20": {
+      "image": "finance-20",
+      "rect": {
+        "left": 39,
+        "top": 506,
+        "width": 632,
+        "height": 373
+      }
+    },
+    "fee_table21": {
+      "image": "timing-21",
+      "rect": {
+        "left": 39,
+        "top": 758,
+        "width": 506,
+        "height": 314
+      }
+    },
+    "timeline21": {
+      "image": "timing-21",
+      "rect": {
+        "left": 39,
+        "top": 401,
+        "width": 949,
+        "height": 272
+      }
+    },
+    "ao_banner21": {
+      "image": "timing-21",
+      "rect": {
+        "left": 589,
+        "top": 795,
+        "width": 398,
+        "height": 84
+      }
+    },
+    "ao_table21": {
+      "image": "timing-21",
+      "rect": {
+        "left": 589,
+        "top": 889,
+        "width": 398,
+        "height": 213
+      }
+    },
+    "payment_card20": {
+      "image": "finance-20",
+      "rect": {
+        "left": 270,
+        "top": 1000,
+        "width": 235,
+        "height": 170
+      }
+    },
+    "installment21": {
+      "image": "timing-21",
+      "rect": {
+        "left": 40,
+        "top": 1247,
+        "width": 492,
+        "height": 168
+      }
+    }
+  },
+  "claims": {
+    "tables_repeated_on_both_images": [
+      {
+        "label": "入学金",
+        "year1": 100000,
+        "year2": 0,
+        "two_years": 100000
+      },
+      {
+        "label": "授業料",
+        "year1": 440000,
+        "year2": 440000,
+        "two_years": 880000
+      },
+      {
+        "label": "施設設備費",
+        "year1": 100000,
+        "year2": 100000,
+        "two_years": 200000
+      },
+      {
+        "label": "教材費",
+        "year1": 50000,
+        "year2": 50000,
+        "two_years": 100000
+      },
+      {
+        "label": "その他費用",
+        "year1": 30000,
+        "year2": 30000,
+        "two_years": 60000
+      }
+    ],
+    "printed_year_totals": {
+      "year1": 720000,
+      "year2": 620000,
+      "two_years": 1780000
+    },
+    "timeline": [
+      {
+        "step": 1,
+        "label": "出願",
+        "months": "10〜12月",
+        "item": "選考料",
+        "amount": 20000
+      },
+      {
+        "step": 2,
+        "label": "合格",
+        "months": "12〜2月",
+        "item": "入学金",
+        "amount": 100000
+      },
+      {
+        "step": 3,
+        "label": "1年次前期",
+        "months": "3月",
+        "item": "授業料・施設設備費など",
+        "amount": 440000
+      },
+      {
+        "step": 4,
+        "label": "1年次後期",
+        "months": "9月",
+        "item": "授業料・施設設備費など",
+        "amount": 390000
+      },
+      {
+        "step": 5,
+        "label": "2年次前期",
+        "months": "3月",
+        "item": "授業料・施設設備費など",
+        "amount": 440000
+      },
+      {
+        "step": 6,
+        "label": "2年次後期",
+        "months": "9月",
+        "item": "授業料・施設設備費など",
+        "amount": 390000
+      }
+    ],
+    "ao_comparison": {
+      "ordinary": {
+        "exam": 20000,
+        "entrance": 100000,
+        "total": 120000
+      },
+      "ao": {
+        "exam": 20000,
+        "entrance": 0,
+        "total": 20000
+      },
+      "banner": "入学時の120000円が不要に！"
+    },
+    "installment_examples": [
+      {
+        "payments": [
+          440000
+        ],
+        "months": [
+          3
+        ]
+      },
+      {
+        "payments": [
+          220000,
+          220000
+        ],
+        "months": [
+          3,
+          5
+        ]
+      },
+      {
+        "payments": [
+          110000,
+          110000,
+          110000,
+          110000
+        ],
+        "months": [
+          3,
+          5,
+          7,
+          9
+        ]
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id": "F1",
+      "type": "arithmetic_error",
+      "severity": "blocking_for_numeric_publication",
+      "evidence": [
+        "fee_table20",
+        "fee_table21"
+      ],
+      "observation": "各年度の720000円・620000円は行の足し算として正しいが、2年間合計1780000円は行・年度合計と一致しない。",
+      "calculation": {
+        "year1_sum": 720000,
+        "year2_sum": 620000,
+        "row_two_years_sum": 1340000,
+        "printed_grand_total": 1780000,
+        "difference": 440000
+      }
+    },
+    {
+      "id": "F2",
+      "type": "intra_and_cross_image_conflict",
+      "severity": "blocking_for_numeric_publication",
+      "evidence": [
+        "timeline21",
+        "fee_table21",
+        "fee_table20"
+      ],
+      "observation": "支払タイミングの4期分は1660000円。入学金100000円・選考料20000円を足すと1780000円になり、内訳表の1340000円と両立しない。",
+      "calculation": {
+        "four_terms": 1660000,
+        "entrance_plus_exam": 120000,
+        "timeline_total": 1780000,
+        "year1_excluding_exam": 930000,
+        "year1_including_exam": 950000,
+        "year2": 830000,
+        "table_year1": 720000,
+        "table_year2": 620000
+      }
+    },
+    {
+      "id": "F3",
+      "type": "arithmetic_claim_conflict",
+      "severity": "blocking_for_numeric_publication",
+      "evidence": [
+        "ao_banner21",
+        "ao_table21"
+      ],
+      "observation": "120000円が不要という帯と、一般入試120000円からAO20000円になる比較表は矛盾。表では免除は入学金100000円のみ、選考料20000円は残る。",
+      "calculation": {
+        "ordinary_exam": 20000,
+        "ordinary_entrance": 100000,
+        "ordinary_total": 120000,
+        "ao_exam": 20000,
+        "ao_entrance": 0,
+        "ao_total": 20000,
+        "reduction": 100000,
+        "banner_claim": 120000,
+        "difference": 20000
+      }
+    },
+    {
+      "id": "F4",
+      "type": "prior_source_conflict",
+      "severity": "requires_year_and_policy_confirmation",
+      "evidence": [
+        "fee_table20",
+        "fee_table21"
+      ],
+      "observation": "2027年度日本人向け台帳は年間授業料780000円・年間諸経費50000円。画像の年間授業料440000円・その他3費目計180000円とは異なる。教材費を学費内に含める画像と、教科書・実習費を別途実費とする既存正本も一致しない。2028年度へ既存値を自動転用しない。",
+      "source_lines": {
+        "ledger": [
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          74
+        ],
+        "admissions": [
+          9,
+          11,
+          108,
+          124,
+          129,
+          130,
+          131,
+          133,
+          135,
+          136,
+          140,
+          141,
+          142,
+          144,
+          146,
+          147,
+          148,
+          155
+        ]
+      }
+    },
+    {
+      "id": "F5",
+      "type": "payment_frequency_ambiguity",
+      "severity": "requires_policy_confirmation",
+      "evidence": [
+        "payment_card20",
+        "timeline21"
+      ],
+      "observation": "20頁の年2回払いカードは本文が1年次・2年次それぞれの前期開始時と読める。年2回という見出し、2年で2回という本文、21頁の前後期4回払いの関係が曖昧。"
+    },
+    {
+      "id": "F6",
+      "type": "prior_source_and_unknown_schedule",
+      "severity": "requires_year_and_policy_confirmation",
+      "evidence": [
+        "timeline21"
+      ],
+      "observation": "画像の出願10〜12月・合格12〜2月・納付3月／9月に年度と入試区分がない。2027正本AOは2026年6月エントリー、9月出願、10月1日発表。入学金は合格後10日以内、1年前期授業料は合格後1か月以内、2年納付期限は別途通知。画像の固定月を2028確定日程にしてはならない。",
+      "source_lines": {
+        "ledger": [
+          76,
+          78
+        ],
+        "admissions": [
+          50,
+          52,
+          54,
+          150,
+          151,
+          152
+        ]
+      }
+    },
+    {
+      "id": "F7",
+      "type": "arithmetically_valid_policy_unconfirmed",
+      "severity": "requires_policy_confirmation",
+      "evidence": [
+        "installment21",
+        "timeline21"
+      ],
+      "observation": "分納例は440000円一括（3月）、220000円+220000円（3月・5月）、110000円×4（3月・5月・7月・9月）で全て440000円。一方9月の前期分納110000円と後期390000円が重なる場合の扱い・適用条件・回数上限は不明。",
+      "calculation": {
+        "once": 440000,
+        "twice": 440000,
+        "four_times": 440000
+      }
+    },
+    {
+      "id": "F8",
+      "type": "unknown_policy",
+      "severity": "requires_policy_confirmation",
+      "evidence": [
+        "ao_table21",
+        "payment_card20"
+      ],
+      "observation": "AO入学金免除、年2回／2年分一括／分割払い、奨学金・提携教育ローン、その他費用の内訳（学生活動費・健康診断費・保険料）は画像の主張。既存台帳AO特典欄は空欄で、これらの2028適用・金額・条件は確認できない。"
+    }
+  ],
+  "design": {
+    "dominant_colors": "深青の見出し・水色の情報面・ピンクの合計とAO特典・緑の分納・黄色の早期準備",
+    "structure": "20頁は写真と大見出し→費用表と含まれるもの→支払方法→支援。21頁は写真と大見出し→6段階タイミング→内訳表とAO比較→分納と準備。",
+    "legibility": "20頁の漢字のルビは見出し・表・本文・カードへ小さく散在する。21頁はほぼルビなし。支払額は大きく判別可能だが、文章中の小さなルビは原寸1024pxでも判読しづらい箇所がある。全面のルビ仕様は統一されていない。",
+    "financial_hierarchy_risk": "誤った1780000円合計と120000円不要がピンク帯で最も強く見え、誤数値が主要メッセージになっている。",
+    "reuse_potential": {
+      "finance20": {
+        "hero_photo": 1,
+        "logo_occurrences": 2,
+        "illustrated_card_icon_occurrences": 11
+      },
+      "timing21": {
+        "hero_photo": 1,
+        "logo_occurrences": 2,
+        "timeline_icon_occurrences": 6,
+        "ao_flower": 1,
+        "split_payment_icon": 1,
+        "preparation_clipboard": 1,
+        "pink_check_marks": 3
+      },
+      "notes": "画像と文字は現状一体化。文字下の補修・ロゴ円等の分離は未実施。候補数は見える図形の出現数で納品パーツ数ではない。"
+    }
+  },
+  "questions": [
+    "2028年度・対象読者に適用する正式な費目別学費表はどれか。内訳表1340000円系と支払タイミング1780000円系のどちらを採用するか。",
+    "AOは入学金のみ100000円免除か、選考料も免除し120000円免除か。適用条件と年度は何か。",
+    "出願・合格・各期納付の確定日と、合格後10日／1か月の期限との関係は何か。",
+    "年間2回払い、一括2年分、分納回数・月・手数料、教科書・実習費・保険料・提携ローン等の含む／別途・適用条件は何か。"
+  ],
+  "changes_made": "Cache analysis only. No image extraction/generation, viewer edits, fact/ledger/BOOK edits, or Git operations."
+}

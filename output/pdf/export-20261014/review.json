@@ -1,0 +1,308 @@
+{
+  "date": "2026-10-14",
+  "reviewer": "parts_teaching_pr",
+  "mode": "independent_reading_pdf_fidelity_review",
+  "pdf_path": "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\output\\pdf\\AIビジネス専門学校_加工版冊子_20261014.pdf",
+  "pdf_sha256": "6f69d2c14897d1790f5311d66fe30d572d3ba327e76952a4e64847a23f629911",
+  "expected_sha256": "6f69d2c14897d1790f5311d66fe30d572d3ba327e76952a4e64847a23f629911",
+  "file_bytes": 19310387,
+  "page_count": 7,
+  "scope": "existing cover plus six complete spreads; six newly analyzed images excluded",
+  "page_count_expected": 7,
+  "all_embedded_decoded_rgb_identical": true,
+  "all_7_poppler_pngs_visually_inspected": true,
+  "maximum_relative_page_ratio_error": 0.0006629588704727407,
+  "pages": [
+    {
+      "page": 1,
+      "label": "表紙",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\references\\user-gpt\\faithful-parts-20261013\\cover-2028.png",
+      "source_sha256": "b072493c2d51a39eafd54e26ac718924314fda39a3f7296ff8b974d6dd026458",
+      "source_size_px": [
+        1086,
+        1448
+      ],
+      "image_count": 1,
+      "embedded_size_px": [
+        1086,
+        1448
+      ],
+      "embedded_decoded_rgb_identical": true,
+      "page_size_pt": [
+        815.03998,
+        1086.0
+      ],
+      "page_size_mm": [
+        287.5279929444444,
+        383.1166666666666
+      ],
+      "relative_page_ratio_error": 0.0006629588704727407,
+      "rotation": 0,
+      "separate_text_characters": 0,
+      "render_path": "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\.cache\\gpt-drive-booklet-20261014\\final-page-1.png",
+      "render_size_px": [
+        1087,
+        1448
+      ],
+      "visual_review": {
+        "full_image": true,
+        "order_correct": true,
+        "visible_content_clipping": false,
+        "people_clothing_poses_preserved": true,
+        "editorial_text_and_artwork_preserved": true,
+        "new_legibility_defect": false
+      }
+    },
+    {
+      "page": 2,
+      "label": "多文化の学び",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\references\\user-gpt\\faithful-parts-20261013\\multicultural.png",
+      "source_sha256": "ac79bc51c099f5ea85ef8e516d74c8b2c67625242cd216202ae826cfecfc55e0",
+      "source_size_px": [
+        1568,
+        1003
+      ],
+      "image_count": 1,
+      "embedded_size_px": [
+        1568,
+        1003
+      ],
+      "embedded_decoded_rgb_identical": true,
+      "page_size_pt": [
+        1176.0,
+        751.91998
+      ],
+      "page_size_mm": [
+        414.8666666666666,
+        265.2606596111111
+      ],
+      "relative_page_ratio_error": 0.0004389030864693222,
+      "rotation": 0,
+      "separate_text_characters": 0,
+      "render_path": "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\.cache\\gpt-drive-booklet-20261014\\final-page-2.png",
+      "render_size_px": [
+        1568,
+        1003
+      ],
+      "visual_review": {
+        "full_image": true,
+        "order_correct": true,
+        "visible_content_clipping": false,
+        "people_clothing_poses_preserved": true,
+        "editorial_text_and_artwork_preserved": true,
+        "new_legibility_defect": false
+      }
+    },
+    {
+      "page": 3,
+      "label": "学校の教育紹介",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\references\\user-gpt\\faithful-parts-20261013\\school-overview.png",
+      "source_sha256": "8a094ec0cc82ad83df98c77f008725e57cfc99ef5f4677c3429d812e3419dbd7",
+      "source_size_px": [
+        1448,
+        1086
+      ],
+      "image_count": 1,
+      "embedded_size_px": [
+        1448,
+        1086
+      ],
+      "embedded_decoded_rgb_identical": true,
+      "page_size_pt": [
+        1086.0,
+        815.03998
+      ],
+      "page_size_mm": [
+        383.1166666666666,
+        287.5279929444444
+      ],
+      "relative_page_ratio_error": 0.0006625196471957695,
+      "rotation": 0,
+      "separate_text_characters": 0,
+      "render_path": "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\.cache\\gpt-drive-booklet-20261014\\final-page-3.png",
+      "render_size_px": [
+        1448,
+        1087
+      ],
+      "visual_review": {
+        "full_image": true,
+        "order_correct": true,
+        "visible_content_clipping": false,
+        "people_clothing_poses_preserved": true,
+        "editorial_text_and_artwork_preserved": true,
+        "new_legibility_defect": false
+      }
+    },
+    {
+      "page": 4,
+      "label": "国際ビジネスAI科",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\references\\user-gpt\\faithful-parts-20261013\\international-ai.png",
+      "source_sha256": "34f2673f7a143efa0ecaae6c52cf6c45465bec07eea81fc5c01dbd71d15473b3",
+      "source_size_px": [
+        1491,
+        1055
+      ],
+      "image_count": 1,
+      "embedded_size_px": [
+        1491,
+        1055
+      ],
+      "embedded_decoded_rgb_identical": true,
+      "page_size_pt": [
+        1117.91992,
+        791.03998
+      ],
+      "page_size_mm": [
+        394.3773051111111,
+        279.06132627777777
+      ],
+      "relative_page_ratio_error": 2.975527525250765e-05,
+      "rotation": 0,
+      "separate_text_characters": 0,
+      "render_path": "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\.cache\\gpt-drive-booklet-20261014\\final-page-4.png",
+      "render_size_px": [
+        1491,
+        1055
+      ],
+      "visual_review": {
+        "full_image": true,
+        "order_correct": true,
+        "visible_content_clipping": false,
+        "people_clothing_poses_preserved": true,
+        "editorial_text_and_artwork_preserved": true,
+        "new_legibility_defect": false
+      }
+    },
+    {
+      "page": 5,
+      "label": "総合ビジネス科",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\references\\user-gpt\\faithful-parts-20261013\\general-business.png",
+      "source_sha256": "37a566563a7bd322550a026a9001e97b21bc3ec314a4ff8332db88001ecd5ebd",
+      "source_size_px": [
+        1491,
+        1055
+      ],
+      "image_count": 1,
+      "embedded_size_px": [
+        1491,
+        1055
+      ],
+      "embedded_decoded_rgb_identical": true,
+      "page_size_pt": [
+        1117.91992,
+        791.03998
+      ],
+      "page_size_mm": [
+        394.3773051111111,
+        279.06132627777777
+      ],
+      "relative_page_ratio_error": 2.975527525250765e-05,
+      "rotation": 0,
+      "separate_text_characters": 0,
+      "render_path": "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\.cache\\gpt-drive-booklet-20261014\\final-page-5.png",
+      "render_size_px": [
+        1491,
+        1055
+      ],
+      "visual_review": {
+        "full_image": true,
+        "order_correct": true,
+        "visible_content_clipping": false,
+        "people_clothing_poses_preserved": true,
+        "editorial_text_and_artwork_preserved": true,
+        "new_legibility_defect": false
+      }
+    },
+    {
+      "page": 6,
+      "label": "講師・AI教育",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\references\\user-gpt\\faithful-parts-20261013\\lecturer-ai.png",
+      "source_sha256": "3421f663c21e3aeb0ecca04392691f54560ed2dff8218219179fd275e18b834e",
+      "source_size_px": [
+        1491,
+        1055
+      ],
+      "image_count": 1,
+      "embedded_size_px": [
+        1491,
+        1055
+      ],
+      "embedded_decoded_rgb_identical": true,
+      "page_size_pt": [
+        1117.91992,
+        791.03998
+      ],
+      "page_size_mm": [
+        394.3773051111111,
+        279.06132627777777
+      ],
+      "relative_page_ratio_error": 2.975527525250765e-05,
+      "rotation": 0,
+      "separate_text_characters": 0,
+      "render_path": "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\.cache\\gpt-drive-booklet-20261014\\final-page-6.png",
+      "render_size_px": [
+        1491,
+        1055
+      ],
+      "visual_review": {
+        "full_image": true,
+        "order_correct": true,
+        "visible_content_clipping": false,
+        "people_clothing_poses_preserved": true,
+        "editorial_text_and_artwork_preserved": true,
+        "new_legibility_defect": false
+      }
+    },
+    {
+      "page": 7,
+      "label": "学校広報",
+      "source": "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\references\\user-gpt\\faithful-parts-20261013\\school-pr.png",
+      "source_sha256": "963365cabaccdea4b8b54bb1d774c56faec47fb0a87d8e7f25dc2e343ef0b1c7",
+      "source_size_px": [
+        1491,
+        1055
+      ],
+      "image_count": 1,
+      "embedded_size_px": [
+        1491,
+        1055
+      ],
+      "embedded_decoded_rgb_identical": true,
+      "page_size_pt": [
+        1117.91992,
+        791.03998
+      ],
+      "page_size_mm": [
+        394.3773051111111,
+        279.06132627777777
+      ],
+      "relative_page_ratio_error": 2.975527525250765e-05,
+      "rotation": 0,
+      "separate_text_characters": 0,
+      "render_path": "C:\\Users\\user\\Documents\\ChatGPT\\DTP\\.cache\\gpt-drive-booklet-20261014\\final-page-7.png",
+      "render_size_px": [
+        1491,
+        1055
+      ],
+      "visual_review": {
+        "full_image": true,
+        "order_correct": true,
+        "visible_content_clipping": false,
+        "people_clothing_poses_preserved": true,
+        "editorial_text_and_artwork_preserved": true,
+        "new_legibility_defect": false
+      }
+    }
+  ],
+  "finding": "PASS for faithful viewing export",
+  "qualifications": [
+    "MediaBox contains Chromium dimension rounding: maximum relative page ratio error approximately0.0663%; this does not change the embedded RGB source pixels.",
+    "Sources remain composite images: handwriting, logos, copy, mockup perspective and pre-existing small text all retained; no restoration adopted.",
+    "PDF physical page sizes are custom and mixed, not a standardized print-ready A4 booklet.",
+    "This review confirms existing processed-original viewing PDF fidelity only. It does not adopt school claims or approve print production.",
+    "Each page is image content; no newly added editable text layer. Original raster resolution limits remain."
+  ],
+  "defects": [],
+  "sha256_match": true,
+  "passed": true
+}

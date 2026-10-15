@@ -1,0 +1,577 @@
+[
+  {
+    "id": "hero",
+    "label": "学校広報の制作チーム メイン写真",
+    "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "rect": {
+      "left": 0,
+      "top": 0,
+      "width": 746,
+      "height": 437
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/hero.png",
+    "width": 746,
+    "height": 437,
+    "status": "ready_composite",
+    "issues": [
+      "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。"
+    ],
+    "placement_mm": {
+      "width": 210.1408,
+      "height": 123.0985651474531
+    },
+    "effective_dpi": {
+      "x": 90.17001933941432,
+      "y": 90.17001933941432
+    },
+    "alpha": false,
+    "decoded_pixel_equality": true,
+    "decoded_sha256": "d0c5b3ce15998686b1f696134c630938a66829da67333d453c27f8b7fda90a00",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "d0c5b3ce15998686b1f696134c630938a66829da67333d453c27f8b7fda90a00",
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "step-01-plan",
+    "label": "1 企画する",
+    "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "rect": {
+      "left": 779,
+      "top": 137,
+      "width": 131,
+      "height": 136
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/step-01-plan.png",
+    "width": 131,
+    "height": 136,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 36.9014,
+      "height": 38.30985038167939
+    },
+    "effective_dpi": {
+      "x": 90.17002064962304,
+      "y": 90.17002064962304
+    },
+    "alpha": false,
+    "decoded_pixel_equality": true,
+    "decoded_sha256": "2c901207c7bcb89c13488030f2159df27a20a0ec70dfd178aa9179fbee66fa38",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "2c901207c7bcb89c13488030f2159df27a20a0ec70dfd178aa9179fbee66fa38",
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "step-02-create",
+    "label": "2 つくる",
+    "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "rect": {
+      "left": 918,
+      "top": 137,
+      "width": 131,
+      "height": 136
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/step-02-create.png",
+    "width": 131,
+    "height": 136,
+    "status": "ready_exact",
+    "issues": [
+      "モニター内に文字・制作UIが含まれる。",
+      "画面内のUI・衣服文字・成果物の文字は被写体の一部として保持。最新の変更禁止指示に従い除去対象としない。"
+    ],
+    "placement_mm": {
+      "width": 36.9014,
+      "height": 38.30985038167939
+    },
+    "effective_dpi": {
+      "x": 90.17002064962304,
+      "y": 90.17002064962304
+    },
+    "alpha": false,
+    "decoded_pixel_equality": true,
+    "decoded_sha256": "c507c891312546840ed2e9dded77e3295b84708864773d87fc9dc72a60d36f3e",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "c507c891312546840ed2e9dded77e3295b84708864773d87fc9dc72a60d36f3e",
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "step-03-post",
+    "label": "3 投稿する",
+    "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "rect": {
+      "left": 1057,
+      "top": 137,
+      "width": 131,
+      "height": 136
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/step-03-post.png",
+    "width": 131,
+    "height": 136,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 36.9014,
+      "height": 38.30985038167939
+    },
+    "effective_dpi": {
+      "x": 90.17002064962304,
+      "y": 90.17002064962304
+    },
+    "alpha": false,
+    "decoded_pixel_equality": true,
+    "decoded_sha256": "b2c8c2c32bd1939f13f76468e8655213aa79e096b69ce7336651c4c2ae0fd8d1",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "b2c8c2c32bd1939f13f76468e8655213aa79e096b69ce7336651c4c2ae0fd8d1",
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "step-04-analyze",
+    "label": "4 分析する",
+    "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "rect": {
+      "left": 1196,
+      "top": 137,
+      "width": 131,
+      "height": 136
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/step-04-analyze.png",
+    "width": 131,
+    "height": 136,
+    "status": "ready_exact",
+    "issues": [
+      "モニター内に文字・チャートの軸が含まれる。",
+      "画面内のUI・衣服文字・成果物の文字は被写体の一部として保持。最新の変更禁止指示に従い除去対象としない。"
+    ],
+    "placement_mm": {
+      "width": 36.9014,
+      "height": 38.30985038167939
+    },
+    "effective_dpi": {
+      "x": 90.17002064962304,
+      "y": 90.17002064962304
+    },
+    "alpha": false,
+    "decoded_pixel_equality": true,
+    "decoded_sha256": "a71c442e19d0b6d9b162dd4069ae5d0bb1ffdccc5d95b3e5bfe422f7f196190f",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "a71c442e19d0b6d9b162dd4069ae5d0bb1ffdccc5d95b3e5bfe422f7f196190f",
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "step-05-improve",
+    "label": "5 改善する",
+    "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "rect": {
+      "left": 1337,
+      "top": 137,
+      "width": 130,
+      "height": 136
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/step-05-improve.png",
+    "width": 130,
+    "height": 136,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 36.6197,
+      "height": 38.30984
+    },
+    "effective_dpi": {
+      "x": 90.17004508502254,
+      "y": 90.17004508502254
+    },
+    "alpha": false,
+    "decoded_pixel_equality": true,
+    "decoded_sha256": "4f26ddf9bb287e09d28cc0aff51544b0f6adf79fc3c3f0ae8acca10699021824",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "4f26ddf9bb287e09d28cc0aff51544b0f6adf79fc3c3f0ae8acca10699021824",
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "activity-01-plan",
+    "label": "企画会議",
+    "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "rect": {
+      "left": 779,
+      "top": 606,
+      "width": 167,
+      "height": 114
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/activity-01-plan.png",
+    "width": 167,
+    "height": 114,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 47.0423,
+      "height": 32.11270778443114
+    },
+    "effective_dpi": {
+      "x": 90.16991090996825,
+      "y": 90.16991090996825
+    },
+    "alpha": false,
+    "decoded_pixel_equality": true,
+    "decoded_sha256": "05a0bd18ca4ba509dc685ff5e45920edaf8e497a528418f923b12986e69a405d",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "05a0bd18ca4ba509dc685ff5e45920edaf8e497a528418f923b12986e69a405d",
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "activity-02-content",
+    "label": "コンテンツ制作",
+    "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "rect": {
+      "left": 955,
+      "top": 606,
+      "width": 165,
+      "height": 114
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/activity-02-content.png",
+    "width": 165,
+    "height": 114,
+    "status": "ready_exact",
+    "issues": [
+      "モニター内に文字・Web UIが含まれる。",
+      "画面内のUI・衣服文字・成果物の文字は被写体の一部として保持。最新の変更禁止指示に従い除去対象としない。"
+    ],
+    "placement_mm": {
+      "width": 46.4789,
+      "height": 32.112694545454545
+    },
+    "effective_dpi": {
+      "x": 90.16994808396927,
+      "y": 90.16994808396927
+    },
+    "alpha": false,
+    "decoded_pixel_equality": true,
+    "decoded_sha256": "618ac8e637d9c72ba0d816c6d624fe40c8fdb2629c88228f1b85119118cb7f3e",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "618ac8e637d9c72ba0d816c6d624fe40c8fdb2629c88228f1b85119118cb7f3e",
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "activity-03-filming",
+    "label": "撮影・編集",
+    "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "rect": {
+      "left": 1129,
+      "top": 606,
+      "width": 167,
+      "height": 114
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/activity-03-filming.png",
+    "width": 167,
+    "height": 114,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 47.0423,
+      "height": 32.11270778443114
+    },
+    "effective_dpi": {
+      "x": 90.16991090996825,
+      "y": 90.16991090996825
+    },
+    "alpha": false,
+    "decoded_pixel_equality": true,
+    "decoded_sha256": "1e52401ae62c73060d2b061add59f6db1e30849aa6fd21b95ed7ff4472a4f4bb",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "1e52401ae62c73060d2b061add59f6db1e30849aa6fd21b95ed7ff4472a4f4bb",
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "activity-04-operation",
+    "label": "投稿・運用",
+    "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "rect": {
+      "left": 1305,
+      "top": 606,
+      "width": 162,
+      "height": 114
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/activity-04-operation.png",
+    "width": 162,
+    "height": 114,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 45.6338,
+      "height": 32.11267407407407
+    },
+    "effective_dpi": {
+      "x": 90.17000556604972,
+      "y": 90.17000556604972
+    },
+    "alpha": false,
+    "decoded_pixel_equality": true,
+    "decoded_sha256": "c352fd6e4e1862015cb414a2c2d4de82df708bf80ff7ada8a52ee51abc503e26",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "c352fd6e4e1862015cb414a2c2d4de82df708bf80ff7ada8a52ee51abc503e26",
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "example-01-instagram",
+    "label": "制作物 Instagram",
+    "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "rect": {
+      "left": 30,
+      "top": 789,
+      "width": 149,
+      "height": 153
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/example-01-instagram.png",
+    "width": 149,
+    "height": 153,
+    "status": "ready_exact",
+    "issues": [
+      "SNS UI・学校名・OPEN CAMPUS文字が一体化した紙面画像。部品化用の画像と文字の分離が必要。",
+      "画面内のUI・衣服文字・成果物の文字は被写体の一部として保持。最新の変更禁止指示に従い除去対象としない。"
+    ],
+    "placement_mm": {
+      "width": 41.9718,
+      "height": 43.098559731543624
+    },
+    "effective_dpi": {
+      "x": 90.17006656850552,
+      "y": 90.17006656850552
+    },
+    "alpha": false,
+    "decoded_pixel_equality": true,
+    "decoded_sha256": "a205a61b1e102f1c4941b908fde63da4b741d1af32cbfd2f087f690e356b15ed",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "a205a61b1e102f1c4941b908fde63da4b741d1af32cbfd2f087f690e356b15ed",
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "example-02-x",
+    "label": "制作物 X",
+    "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "rect": {
+      "left": 192,
+      "top": 792,
+      "width": 167,
+      "height": 150
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/example-02-x.png",
+    "width": 167,
+    "height": 150,
+    "status": "ready_exact",
+    "issues": [
+      "SNS UI・文字・数値が一体化した紙面画像。部品化用の画像と文字の分離が必要。",
+      "画面内のUI・衣服文字・成果物の文字は被写体の一部として保持。最新の変更禁止指示に従い除去対象としない。"
+    ],
+    "placement_mm": {
+      "width": 47.0423,
+      "height": 42.25356287425149
+    },
+    "effective_dpi": {
+      "x": 90.16991090996825,
+      "y": 90.16991090996825
+    },
+    "alpha": false,
+    "decoded_pixel_equality": true,
+    "decoded_sha256": "7cc58bd887ca16ced93b50a4a23ab5d9138b5c3baede39a10ac24fd2f615225e",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "7cc58bd887ca16ced93b50a4a23ab5d9138b5c3baede39a10ac24fd2f615225e",
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "example-03-youtube",
+    "label": "制作物 YouTube",
+    "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "rect": {
+      "left": 374,
+      "top": 793,
+      "width": 166,
+      "height": 148
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/example-03-youtube.png",
+    "width": 166,
+    "height": 148,
+    "status": "ready_exact",
+    "issues": [
+      "動画サムネイルの文字・長さUIが人物写真に重なる。",
+      "画面内のUI・衣服文字・成果物の文字は被写体の一部として保持。最新の変更禁止指示に従い除去対象としない。"
+    ],
+    "placement_mm": {
+      "width": 46.7606,
+      "height": 41.6901734939759
+    },
+    "effective_dpi": {
+      "x": 90.16992938499506,
+      "y": 90.16992938499506
+    },
+    "alpha": false,
+    "decoded_pixel_equality": true,
+    "decoded_sha256": "4f6fc0315c2300ea8b7de6ae5a3d97bd02cce2c1823dfe238968f3b4aabece0b",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "4f6fc0315c2300ea8b7de6ae5a3d97bd02cce2c1823dfe238968f3b4aabece0b",
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "example-04-website",
+    "label": "制作物 ホームページ",
+    "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "rect": {
+      "left": 555,
+      "top": 792,
+      "width": 160,
+      "height": 149
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/example-04-website.png",
+    "width": 160,
+    "height": 149,
+    "status": "ready_exact",
+    "issues": [
+      "ホームページ文字・UIが人物写真に重なる。",
+      "画面内のUI・衣服文字・成果物の文字は被写体の一部として保持。最新の変更禁止指示に従い除去対象としない。"
+    ],
+    "placement_mm": {
+      "width": 45.0704,
+      "height": 41.97181
+    },
+    "effective_dpi": {
+      "x": 90.17004508502254,
+      "y": 90.17004508502254
+    },
+    "alpha": false,
+    "decoded_pixel_equality": true,
+    "decoded_sha256": "3b2284909e034f7de4662594920f3a6fb8814274f9482969e91eecca6444888d",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "3b2284909e034f7de4662594920f3a6fb8814274f9482969e91eecca6444888d",
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "outcome-01-poster",
+    "label": "成果 ポスター",
+    "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "rect": {
+      "left": 793,
+      "top": 868,
+      "width": 190,
+      "height": 107
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/outcome-01-poster.png",
+    "width": 190,
+    "height": 107,
+    "status": "ready_exact",
+    "issues": [
+      "告知ポスターの文字・数字・イラスト・人物が一体化している。",
+      "画面内のUI・衣服文字・成果物の文字は被写体の一部として保持。最新の変更禁止指示に従い除去対象としない。"
+    ],
+    "placement_mm": {
+      "width": 53.5211,
+      "height": 30.14083
+    },
+    "effective_dpi": {
+      "x": 90.17004508502255,
+      "y": 90.17004508502255
+    },
+    "alpha": false,
+    "decoded_pixel_equality": true,
+    "decoded_sha256": "9e0fbd1ec776094e839318863228c3f8c2ce47c339f527b07569c54fece6db3c",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "9e0fbd1ec776094e839318863228c3f8c2ce47c339f527b07569c54fece6db3c",
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "outcome-02-video",
+    "label": "成果 学校紹介動画",
+    "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "rect": {
+      "left": 1009,
+      "top": 869,
+      "width": 206,
+      "height": 106
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/outcome-02-video.png",
+    "width": 206,
+    "height": 106,
+    "status": "ready_exact",
+    "issues": [
+      "動画のコピー・YouTube再生マークが人物写真に重なる。"
+    ],
+    "placement_mm": {
+      "width": 58.0282,
+      "height": 29.859170873786407
+    },
+    "effective_dpi": {
+      "x": 90.16995185099658,
+      "y": 90.16995185099658
+    },
+    "alpha": false,
+    "decoded_pixel_equality": true,
+    "decoded_sha256": "5460101a87ba0596feb2bc02dbb88a675a47afb9fe1b1d6fbaffb482afabac20",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "5460101a87ba0596feb2bc02dbb88a675a47afb9fe1b1d6fbaffb482afabac20",
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "outcome-03-website",
+    "label": "成果 ホームページ",
+    "source": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "rect": {
+      "left": 1244,
+      "top": 869,
+      "width": 207,
+      "height": 106
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/outcome-03-website.png",
+    "width": 207,
+    "height": 106,
+    "status": "ready_exact",
+    "issues": [
+      "ホームページの文字・UIが人物写真に重なる。",
+      "画面内のUI・衣服文字・成果物の文字は被写体の一部として保持。最新の変更禁止指示に従い除去対象としない。"
+    ],
+    "placement_mm": {
+      "width": 58.3099,
+      "height": 29.85917584541063
+    },
+    "effective_dpi": {
+      "x": 90.16993683748386,
+      "y": 90.16993683748386
+    },
+    "alpha": false,
+    "decoded_pixel_equality": true,
+    "decoded_sha256": "3e0c3cec8c8a52278a115dda7fca540dfbbc3988d4f75e109de222946841364d",
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "3e0c3cec8c8a52278a115dda7fca540dfbbc3988d4f75e109de222946841364d",
+    "group": "school-pr",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  }
+]

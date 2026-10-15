@@ -1,0 +1,51 @@
+[
+  {
+    "id": "cover-2028",
+    "file": "references/user-gpt/faithful-parts-20261013/cover-2028.png",
+    "sha256": "b072493c2d51a39eafd54e26ac718924314fda39a3f7296ff8b974d6dd026458",
+    "width": 1086,
+    "height": 1448
+  },
+  {
+    "id": "multicultural",
+    "file": "references/user-gpt/faithful-parts-20261013/multicultural.png",
+    "sha256": "ac79bc51c099f5ea85ef8e516d74c8b2c67625242cd216202ae826cfecfc55e0",
+    "width": 1568,
+    "height": 1003
+  },
+  {
+    "id": "school-overview",
+    "file": "references/user-gpt/faithful-parts-20261013/school-overview.png",
+    "sha256": "8a094ec0cc82ad83df98c77f008725e57cfc99ef5f4677c3429d812e3419dbd7",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "id": "international-ai",
+    "file": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+    "sha256": "34f2673f7a143efa0ecaae6c52cf6c45465bec07eea81fc5c01dbd71d15473b3",
+    "width": 1491,
+    "height": 1055
+  },
+  {
+    "id": "general-business",
+    "file": "references/user-gpt/faithful-parts-20261013/general-business.png",
+    "sha256": "37a566563a7bd322550a026a9001e97b21bc3ec314a4ff8332db88001ecd5ebd",
+    "width": 1491,
+    "height": 1055
+  },
+  {
+    "id": "lecturer-ai",
+    "file": "references/user-gpt/faithful-parts-20261013/lecturer-ai.png",
+    "sha256": "3421f663c21e3aeb0ecca04392691f54560ed2dff8218219179fd275e18b834e",
+    "width": 1491,
+    "height": 1055
+  },
+  {
+    "id": "school-pr",
+    "file": "references/user-gpt/faithful-parts-20261013/school-pr.png",
+    "sha256": "963365cabaccdea4b8b54bb1d774c56faec47fb0a87d8e7f25dc2e343ef0b1c7",
+    "width": 1491,
+    "height": 1055
+  }
+]

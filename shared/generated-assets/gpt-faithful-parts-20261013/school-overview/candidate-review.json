@@ -1,0 +1,39 @@
+{
+  "status": "candidate_only",
+  "file": "hero-text-removal-candidate-v1.png",
+  "width": 1310,
+  "height": 1201,
+  "alpha": false,
+  "original": "hero.png",
+  "edit_tool": "image_gen.imagegen",
+  "model": "undisclosed-built-in",
+  "observations": [
+    "紙面文字と59名バッジは候補内で除去済み。",
+    "左男性の衣服・下半身をはじめ元の文字に隠れていた部分は推定復元。顔の原画素一致なし。",
+    "原本のモックアップ湾曲が候補で弱まり、人物全域が描き直されているため候補全体採用不可。"
+  ],
+  "whole_image_adoption": "prohibited; original pixels must be preserved outside explicit editorial-text masks",
+  "original_crop_pixel_exact": true,
+  "candidate_pixel_exact": false,
+  "suggested_overlay_bbox_in_hero_pixels": [
+    {
+      "left": 18,
+      "top": 194,
+      "width": 360,
+      "height": 234
+    },
+    {
+      "left": 22,
+      "top": 427,
+      "width": 240,
+      "height": 154
+    },
+    {
+      "left": 458,
+      "top": 380,
+      "width": 203,
+      "height": 234
+    }
+  ],
+  "mask_note": "粗い位置参考。bbox全面を差替える許可ではない。文字の実画素からマスクを親が定義し輪郭と色差を検証する。"
+}

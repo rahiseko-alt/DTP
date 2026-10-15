@@ -1,0 +1,4 @@
+{{!-- 必須 steps: [{title,body}]。任意 label。表示順だけを表し日程・金額は呼出元の正本参照。 --}}
+<ol class="bk-flow"{{#if label}} aria-label="{{label}}"{{/if}}>
+{{#each steps}}<li class="bk-flow__step"><h3>{{title}}</h3><p>{{body}}</p></li>{{/each}}
+</ol>

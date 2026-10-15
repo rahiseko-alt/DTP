@@ -1,0 +1,19 @@
+tool: sharp/source-extraction
+model: null
+prompt: 人間の100%に近い再現・勝手な変更禁止の指示に従い、原画の指定矩形を元画素のまま抽出。生成・補修・拡大・色変更なし。
+negative_prompt: text, letters, typography, words, numbers, logo, watermark,
+  signature, QR code, caption
+seed: null
+size: 912x730
+created: 2026-10-13
+author: codex
+reference_inputs: []
+source_refs:
+  - references/user-gpt/faithful-parts-20261013/cover-2028.png
+params:
+  rect:
+    left: 89
+    top: 326
+    width: 912
+    height: 730
+notes: 元画像のデコード画素と全画素一致。元写真ではなく人間が提示したGPT生成画像からの抽出。実在在校生写真として登録しない。

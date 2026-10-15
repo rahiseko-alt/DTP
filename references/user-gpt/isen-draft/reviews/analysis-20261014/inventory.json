@@ -1,0 +1,62 @@
+[
+  {
+    "name": "教員・支援体制の安心サポート.png",
+    "file": "C:\\Users\\user\\Downloads\\教員・支援体制の安心サポート.png",
+    "width": 1055,
+    "height": 1491,
+    "sha256": "06a580af8f895fd78715fc8a24486b11870602d49a108213a96c8acfe8416549",
+    "existing_matches": [
+      "references/user-gpt/isen-draft/page_020.png"
+    ]
+  },
+  {
+    "name": "保護者の皆さまへ、安心の学び案内.png",
+    "file": "C:\\Users\\user\\Downloads\\保護者の皆さまへ、安心の学び案内.png",
+    "width": 1055,
+    "height": 1491,
+    "sha256": "ae55e7afc6f5094402c42958c4187d7d46745ba015b701ae04877fbb793e41ae",
+    "existing_matches": [
+      "references/user-gpt/isen-draft/page_021.png"
+    ]
+  },
+  {
+    "name": "AIビジネス専門学校 学費案内.png",
+    "file": "C:\\Users\\user\\Downloads\\AIビジネス専門学校 学費案内.png",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "48fc7f97ab69cfa177389774a81cdbd1a4a5b30ee0b3689473550ec20e130346",
+    "existing_matches": [
+      "references/user-gpt/isen-draft/page_022.png"
+    ]
+  },
+  {
+    "name": "支払タイミングとAO入試特典 恒一.png",
+    "file": "C:\\Users\\user\\Downloads\\支払タイミングとAO入試特典 恒一.png",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "c2b0071ef1e739f2467acf3300cff4daaa078825d8d4441260894d15d067002d",
+    "existing_matches": [
+      "references/user-gpt/isen-draft/page_023.png"
+    ]
+  },
+  {
+    "name": "AIビジネス専門学校 入試ガイド.png",
+    "file": "C:\\Users\\user\\Downloads\\AIビジネス専門学校 入試ガイド.png",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "ce72c272623cdd429290b4e34c7dd9f3a676350de69ce4ed9284629d0a23178c",
+    "existing_matches": [
+      "references/user-gpt/isen-draft/page_024.png"
+    ]
+  },
+  {
+    "name": "学習環境・施設・アクセス.png",
+    "file": "C:\\Users\\user\\Downloads\\学習環境・施設・アクセス.png",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "cc6633d5a9a217c9cf8157868abea0194108cd9768b76159ddb29f0d369c2c66",
+    "existing_matches": [
+      "references/user-gpt/isen-draft/page_025.png"
+    ]
+  }
+]

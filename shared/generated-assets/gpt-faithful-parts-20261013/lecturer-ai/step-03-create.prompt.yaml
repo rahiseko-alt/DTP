@@ -1,0 +1,20 @@
+tool: sharp/source-extraction
+model: none
+prompt: "指定原本の矩形を画素変更なしで切り出す。補完・再生成なし。"
+negative_prompt: null
+seed: null
+size: 211x111
+created: 2026-10-13
+author: codex/parts_teaching_pr
+reference_inputs:
+  - path: references/user-gpt/faithful-parts-20261013/lecturer-ai.png
+    usage: other
+    note: pixel-identical source extraction
+source_refs:
+  - references/user-gpt/faithful-parts-20261013/lecturer-ai.png
+rect: {"left":1255,"top":156,"width":211,"height":111}
+status: restoration_required
+alpha: false
+placement_mm: {"width":59.4366,"height":31.2483}
+effective_dpi: {"x":90.17,"y":90.226}
+notes: "画素一致を検証。色調整・拡大なし。原本A4見開き仮定で約90dpi、印刷解像度未達。Canvaロゴの白円が背景に重なる。"

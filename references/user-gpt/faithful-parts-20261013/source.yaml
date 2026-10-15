@@ -1,0 +1,9 @@
+source: user-gpt
+kind: faithful-parts-20261013
+title: 人間指定のGPT生成原画7枚・変更禁止のパーツ制作正本
+obtained: 2026-10-13
+original: null
+pages: 7
+usage: reference-only
+forbidden_terms: []
+notes: 人間がこの会話に添付し、GPT生成であると明示。100%に近い再現、勝手な変更禁止を指示。原画は無変更コピーしmanifest.jsonにSHA256を記録。元画素の矩形抽出は今回の明示指示に基づく。画像内の学校事実・ロゴ・人物を正本事実や実写真とは扱わない。

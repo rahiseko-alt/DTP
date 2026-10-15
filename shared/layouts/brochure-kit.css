@@ -1,0 +1,54 @@
+/* 部品の構造とテーマ差分。学校のブランド色はBOOK/brandの --color-* から受ける。 */
+.bk-kit { color: var(--color-text); font-family: var(--font-body); --bk-radius: 0mm; --bk-pad: 4mm; }
+.bk-icon { width: 8mm; height: 8mm; flex: 0 0 auto; }
+.bk-card { border: .3mm solid var(--color-primary); background: var(--color-background); padding: var(--bk-pad); border-radius: var(--bk-radius); break-inside: avoid; }
+.bk-card__heading { display: flex; align-items: center; gap: 3mm; color: var(--color-primary); }
+.bk-card h3 { margin: 0; font-size: 12pt; font-weight: 800; line-height: 1.35; }
+.bk-card__body { margin: 3mm 0 0; font-size: 9.5pt; line-height: 1.65; }
+.bk-card__caption,.bk-table__note { font-size: 8pt; line-height: 1.5; margin: 2mm 0 0; color: var(--color-muted); }
+.bk-card__photo { margin: calc(-1 * var(--bk-pad)) calc(-1 * var(--bk-pad)) 4mm; overflow: hidden; border-radius: var(--bk-radius) var(--bk-radius) 0 0; }
+.bk-card__photo .photo-frame { aspect-ratio: 5/3; margin: 0; }
+.bk-card__photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.bk-flow { margin: 0; padding: 0; display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0,1fr); gap: 3mm; list-style: none; counter-reset: bk-step; }
+.bk-flow__step { position: relative; counter-increment: bk-step; padding: 4mm; border-top: 1.2mm solid var(--color-primary); background: var(--color-surface); border-radius: var(--bk-radius); }
+.bk-flow__step::before { content: counter(bk-step); display: block; margin-bottom: 3mm; font-size: 22pt; line-height: 1; font-weight: 900; color: var(--color-primary); }
+.bk-flow__step h3 { margin: 0 0 2mm; font-size: 10pt; line-height: 1.4; }
+.bk-flow__step p { margin: 0; font-size: 8.5pt; line-height: 1.6; }
+.bk-table { width: 100%; border-collapse: collapse; font-size: 9pt; line-height: 1.5; font-variant-numeric: tabular-nums; }
+.bk-table caption { font-size: 13pt; font-weight: 800; text-align: left; color: var(--color-primary); padding: 0 0 3mm; }
+.bk-table th,.bk-table td { padding: 3mm; border: .2mm solid var(--color-secondary); text-align: left; }
+.bk-table thead { background: var(--color-primary); color: var(--color-background); }
+.bk-table tbody th { font-weight: 600; background: var(--color-surface); }
+.bk-speech { position: relative; margin: 0 0 4mm; border: .3mm solid var(--color-primary); padding: 4mm; background: var(--color-background); border-radius: var(--bk-radius); }
+.bk-speech::after { content: ''; position: absolute; bottom: -2mm; left: 7mm; width: 4mm; height: 4mm; background: var(--color-background); border-right: .3mm solid var(--color-primary); border-bottom: .3mm solid var(--color-primary); transform: rotate(45deg); }
+.bk-speech p { margin: 0; font-size: 10pt; line-height: 1.6; }
+.bk-speech .bk-speech__label { color: var(--color-primary); font-weight: 700; font-size: 8pt; margin-bottom: 1.5mm; }
+.bk-checklist { display: flex; flex-direction: column; row-gap: 2.5mm; margin: 0; padding: 0; list-style: none; break-inside: avoid; }
+.bk-checklist__title { margin: 0 0 2.5mm; font-size: 12pt; line-height: 1.4; font-weight: 800; }
+.bk-checklist > li { display: flex; flex-direction: row; align-items: flex-start; gap: 2.5mm; padding: 3mm; }
+.bk-checklist > li > div { min-width: 0; flex: 1; overflow-wrap: anywhere; }
+.bk-checklist strong { font-size: 9.5pt; line-height: 1.6; font-weight: 700; }
+.bk-checklist p { margin: 1mm 0 0; font-size: 8.5pt; line-height: 1.6; overflow-wrap: anywhere; }
+.bk-checklist__mark { position: relative; flex: 0 0 4mm; width: 4mm; height: 4mm; margin-top: .6mm; background: var(--color-primary); }
+.bk-checklist__mark::after { content: ''; position: absolute; left: 1mm; top: 1.1mm; width: 2mm; height: 1mm; border-left: .35mm solid var(--color-background); border-bottom: .35mm solid var(--color-background); transform: rotate(-45deg); }
+/* HAL方向: 大きい数字・太い側線・角のある情報群。色替えに限定しない。 */
+.bk-kit[data-theme="hal"] .bk-card { border-width: .3mm .3mm .3mm 1.6mm; }
+.bk-kit[data-theme="hal"] .bk-card h3 { font-size: 14pt; font-weight: 900; letter-spacing: -.04em; }
+.bk-kit[data-theme="hal"] .bk-flow__step { border-top: 0; border-bottom: 1.4mm solid var(--color-accent); }
+.bk-kit[data-theme="hal"] .bk-flow__step::before { font-size: 32pt; letter-spacing: -.08em; }
+.bk-kit[data-theme="hal"] .bk-table caption { font-size: 18pt; letter-spacing: -.05em; }
+.bk-kit[data-theme="hal"] .bk-speech { border-width: 0 0 1.2mm 0; background: var(--color-surface); }
+.bk-kit[data-theme="hal"] .bk-speech::after { background: var(--color-surface); border: 0; }
+.bk-kit[data-theme="hal"] .bk-checklist > li { border-left: 1mm solid var(--color-primary); border-radius: 0; background: var(--color-background); }
+.bk-kit[data-theme="hal"] .bk-checklist__mark { border-radius: 0; }
+/* 医専方向: 丸い見出しアイコン・淡い面・読み筋を区切る細罫。 */
+.bk-kit[data-theme="isen"] { --bk-radius: 3mm; }
+.bk-kit[data-theme="isen"] .bk-card { background: var(--color-surface); border: 0; }
+.bk-kit[data-theme="isen"] .bk-card__heading > .bk-icon { background: var(--color-primary); color: var(--color-background); border-radius: 50%; padding: 2mm; width: 12mm; height: 12mm; }
+.bk-kit[data-theme="isen"] .bk-flow__step { border-top: .3mm solid var(--color-primary); border-left: .3mm solid var(--color-primary); }
+.bk-kit[data-theme="isen"] .bk-flow__step::before { font-size: 16pt; width: 10mm; height: 10mm; line-height: 10mm; text-align: center; border-radius: 50%; color: var(--color-background); background: var(--color-primary); }
+.bk-kit[data-theme="isen"] .bk-table thead { background: var(--color-surface); color: var(--color-primary); }
+.bk-kit[data-theme="isen"] .bk-table th,.bk-kit[data-theme="isen"] .bk-table td { border-color: var(--color-secondary); }
+.bk-kit[data-theme="isen"] .bk-checklist > li { border-left: 0; background: var(--color-surface); border-radius: 3mm; }
+.bk-kit[data-theme="isen"] .bk-checklist__mark { border-radius: 50%; }
+@media print { .bk-card,.bk-flow,.bk-table-wrap,.bk-speech { break-inside: avoid; } }

@@ -1,0 +1,363 @@
+{
+  "date": "2026-10-15",
+  "scope": "L01 checklist component implementation and handoff verification",
+  "created_by": "parent; not the verify.ts automatic output",
+  "compile": {
+    "check_count": 37,
+    "checks": [
+      {
+        "theme": "hal",
+        "partial": "icon",
+        "variant": 0,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "info-card",
+        "variant": 1,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "info-card",
+        "variant": 2,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "flow",
+        "variant": 3,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "data-table",
+        "variant": 4,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "speech",
+        "variant": 5,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "speech",
+        "variant": 6,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "checklist-minimal",
+        "variant": 7,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "checklist-title-details",
+        "variant": 8,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "checklist-2-items",
+        "variant": 9,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "checklist-6-items",
+        "variant": 10,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "checklist-long-label",
+        "variant": 11,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "icon",
+        "kind": "people",
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "icon",
+        "kind": "book",
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "icon",
+        "kind": "document",
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "icon",
+        "kind": "calendar",
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "icon",
+        "kind": "pin",
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "icon",
+        "kind": "chat",
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "icon",
+        "variant": 0,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "info-card",
+        "variant": 1,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "info-card",
+        "variant": 2,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "flow",
+        "variant": 3,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "data-table",
+        "variant": 4,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "speech",
+        "variant": 5,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "speech",
+        "variant": 6,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "checklist-minimal",
+        "variant": 7,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "checklist-title-details",
+        "variant": 8,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "checklist-2-items",
+        "variant": 9,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "checklist-6-items",
+        "variant": 10,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "checklist-long-label",
+        "variant": 11,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "icon",
+        "kind": "people",
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "icon",
+        "kind": "book",
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "icon",
+        "kind": "document",
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "icon",
+        "kind": "calendar",
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "icon",
+        "kind": "pin",
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "icon",
+        "kind": "chat",
+        "compiled": true
+      },
+      {
+        "partial": "checklist-escaping",
+        "compiled": true,
+        "escaped": true
+      }
+    ]
+  },
+  "visual_checks": {
+    "images": [
+      {
+        "src": "company-data/photos/student-img-5235.jpg",
+        "loaded": true
+      },
+      {
+        "src": "company-data/photos/student-img-5235.jpg",
+        "loaded": true
+      }
+    ],
+    "themes": 2,
+    "examples": 24,
+    "overflow": false,
+    "mobile_overflow": false
+  },
+  "parent_images_seen": [
+    ".cache/parts-kit-20261015/desktop.png",
+    ".cache/parts-kit-20261015/mobile.png"
+  ],
+  "commands": {
+    "component_compile": "pass (37 checks: existing 26 + 10 theme display cases + 1 escaping case)",
+    "typecheck": "pass",
+    "validate": "pass (0 errors / 53 warnings)",
+    "diff_check": "pass",
+    "visual_preview": "pass (desktop/mobile screenshots opened; no clipped/overlapping checklist text or document overflow)",
+    "independent_review": "pass; one README count note corrected",
+    "full_test_suite": "not rerun; previous Windows failures are outside this parts-only check"
+  },
+  "not_approved": [
+    "complete brochure",
+    "school facts",
+    "photo final crop",
+    "print release",
+    "reader test"
+  ],
+  "files": [
+    {
+      "path": "references/user-gpt/isen-draft/analysis/parts-kit-20261015/handoff.md",
+      "sha256": "a8e8c477ce0927a1614ca5cdac06abea17946c1311753ece2e01b058fa67a20b"
+    },
+    {
+      "path": "references/user-gpt/isen-draft/analysis/parts-kit-20261015/jobs.yaml",
+      "sha256": "3675e87907a59275f25ce8d43e4a16b18aa731aaea4048c36f27004a3f72a0ff"
+    },
+    {
+      "path": "references/user-gpt/isen-draft/analysis/parts-kit-20261015/parts-demand.yaml",
+      "sha256": "abbe4e7f1aec651c1018e69ca5e7a3da6e15d7cad5df7e4b06755947c0f6d017"
+    },
+    {
+      "path": "references/user-gpt/isen-draft/analysis/parts-kit-20261015/photo-candidates.yaml",
+      "sha256": "189bae03bcbb5f5bc80e178961f1696deeaf204701a70e4da9a33e6089b1fa5d"
+    },
+    {
+      "path": "shared/components/brochure-kit/verify.ts",
+      "sha256": "c3f6c07c5dfca12cdd49a1369c5b776569f41937fed85bdd0c7b5f523ea2265f"
+    },
+    {
+      "path": "shared/layouts/brochure-kit.css",
+      "sha256": "33538e0e9f6053681c3767765c60775dda440c112c0c592bbe3147515e34c7f5"
+    },
+    {
+      "path": "shared/components/brochure-kit/data-table.hbs",
+      "sha256": "6fb779f74418186787ed5fa67468fd4f20e6a66678ea5cc4ac673e7ea1789f24"
+    },
+    {
+      "path": "shared/components/brochure-kit/flow.hbs",
+      "sha256": "2bb8eed1b4ea8264e6a7b2b964027e21572a1c4ed693d1a6c1a390be7129a4a3"
+    },
+    {
+      "path": "shared/components/brochure-kit/icon.hbs",
+      "sha256": "ea9153b3fe7a08e80efd7e1c837f7fa073b068183cd33e39e8813cf2ff543ab9"
+    },
+    {
+      "path": "shared/components/brochure-kit/info-card.hbs",
+      "sha256": "555ed60e4d20c92687426974e3d2846b49aff5feed42c9a6f72f6753c452d04a"
+    },
+    {
+      "path": "shared/components/brochure-kit/speech.hbs",
+      "sha256": "137ac8b44f43690c369a60ca7a88219aa79e7dee09122319958b246580b0a19f"
+    },
+    {
+      "path": "references/user-gpt/isen-draft/analysis/parts-kit-20261015/reviews/desktop.png",
+      "sha256": "e79b4d02506a2019ca2f578a8e01a93a6200dc5b6d30f688b45c25783b159e2b"
+    },
+    {
+      "path": "references/user-gpt/isen-draft/analysis/parts-kit-20261015/reviews/mobile.png",
+      "sha256": "45323de3c109833728b8a38556cf4893821a23d323c37ac6c831b11240582766"
+    },
+    {
+      "path": "shared/components/brochure-kit/checklist.hbs",
+      "sha256": "0c86d128a615abc2ee2e368b114bb8bc005d3e101a7b544146d74df0d3fcb7ee"
+    },
+    {
+      "path": "shared/components/brochure-kit/README.md",
+      "sha256": "1538cd17e2d3c1199805ddefc19311b60d6e342c1479d043b02808d9c2eee6e9"
+    }
+  ],
+  "handoff_gate": [
+    {
+      "status": "pass",
+      "condition": "作業票L01が許可ファイル内で完結",
+      "evidence": "commit 9d7a172: L01の4許可ファイルに加え、親記録2件のみ"
+    },
+    {
+      "status": "pass",
+      "condition": "既存5部品の厳格モードと表示確認",
+      "evidence": "verify.tsの既存26ケースを維持し、PC/mobile確認画像で既存例も確認"
+    },
+    {
+      "status": "pass",
+      "condition": "原画6面の需要と実写真候補/不足の記録",
+      "evidence": "parts-demand.yamlに6面と任意見開き、photo-candidates.yamlに18点の実見記録（17候補/1保留）と不足"
+    },
+    {
+      "status": "pass",
+      "condition": "独立確認で未定義の設計判断がL01に残っていない",
+      "evidence": "独立実装レビューPASS。固定DOM/CSS/API、エスケープ、2テーマ、表示ケースを確認"
+    },
+    {
+      "status": "pass",
+      "condition": "親がcommit/pushし、現ブランチと再開位置を記録",
+      "evidence": "commit 9d7a172 pushed to codex/gpt-faithful-parts-20261013; handoff-ledger.md updated; draft PR #40"
+    }
+  ],
+  "independent_code_review": {
+    "reviewer": "/root/parts_teaching_pr",
+    "scope": "L01 contract, allowlist, Handlebars escaping, CSS scope/theme differences, verification coverage, desktop/mobile visual review",
+    "decision": "pass",
+    "follow_up": "README verification count changed from 26 to 37 as reviewer recommended",
+    "findings": []
+  }
+}

@@ -1,0 +1,307 @@
+[
+  {
+    "id": "hero-original",
+    "label": "男性学生メイン写真（文字付き原本）",
+    "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+    "rect": {
+      "left": 0,
+      "top": 0,
+      "width": 745,
+      "height": 455
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/hero-original.png",
+    "width": 745,
+    "height": 455,
+    "status": "ready_composite",
+    "issues": [
+      "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。"
+    ],
+    "placement_mm": {
+      "width": 209.859,
+      "height": 128.16891946308726
+    },
+    "effective_dpi": {
+      "x": 90.17006656850552,
+      "y": 90.17006656850552
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "d64720e46592c63b8c5174ec4dadd0e1df4ceb66071a9854d0558da636c6ca20",
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "learning-01-sales-service",
+    "label": "販売・サービス",
+    "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+    "rect": {
+      "left": 780,
+      "top": 240,
+      "width": 216,
+      "height": 131
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/learning-01-sales-service.png",
+    "width": 216,
+    "height": 131,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 60.845,
+      "height": 36.90136574074074
+    },
+    "effective_dpi": {
+      "x": 90.17010436354671,
+      "y": 90.17010436354671
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "f0441509fcf14f7a6a3bc911c816881e7e9426a84f03bdbeb401b1e9195bae0e",
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "learning-02-management",
+    "label": "経営",
+    "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+    "rect": {
+      "left": 1012,
+      "top": 240,
+      "width": 216,
+      "height": 131
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/learning-02-management.png",
+    "width": 216,
+    "height": 131,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 60.845,
+      "height": 36.90136574074074
+    },
+    "effective_dpi": {
+      "x": 90.17010436354671,
+      "y": 90.17010436354671
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "0eddfaf755882255398e53526970837a1e3337925562130366314e38354afe7e",
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "learning-03-office",
+    "label": "事務",
+    "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+    "rect": {
+      "left": 1244,
+      "top": 240,
+      "width": 217,
+      "height": 131
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/learning-03-office.png",
+    "width": 217,
+    "height": 131,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 61.127,
+      "height": 36.90155299539171
+    },
+    "effective_dpi": {
+      "x": 90.16964680092266,
+      "y": 90.16964680092266
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "37976f8d6fd33b489a89ef9ae4fc9ea2c5e8d4525558e84928f644d05d51a234",
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "learning-04-marketing",
+    "label": "マーケティング",
+    "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+    "rect": {
+      "left": 780,
+      "top": 483,
+      "width": 216,
+      "height": 131
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/learning-04-marketing.png",
+    "width": 216,
+    "height": 131,
+    "status": "ready_exact",
+    "issues": [
+      "人物のTシャツに元画像内の英文がある。衣服の一部として原画素のまま保持。",
+      "画面内のUI・衣服文字・成果物の文字は被写体の一部として保持。最新の変更禁止指示に従い除去対象としない。"
+    ],
+    "placement_mm": {
+      "width": 60.845,
+      "height": 36.90136574074074
+    },
+    "effective_dpi": {
+      "x": 90.17010436354671,
+      "y": 90.17010436354671
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "0742ae9b30401ad37904ffb2d147805b3d6a98a64955b383263d47ca5ad382a1",
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "learning-05-computer",
+    "label": "コンピュータ",
+    "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+    "rect": {
+      "left": 1012,
+      "top": 483,
+      "width": 216,
+      "height": 131
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/learning-05-computer.png",
+    "width": 216,
+    "height": 131,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 60.845,
+      "height": 36.90136574074074
+    },
+    "effective_dpi": {
+      "x": 90.17010436354671,
+      "y": 90.17010436354671
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "bc7a70f1a356024e86038e097cddad34b6cedc34bcf93ee78f2aaa07ab5cced7",
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "learning-06-practice",
+    "label": "実務演習",
+    "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+    "rect": {
+      "left": 1244,
+      "top": 483,
+      "width": 217,
+      "height": 131
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/learning-06-practice.png",
+    "width": 217,
+    "height": 131,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 61.127,
+      "height": 36.90155299539171
+    },
+    "effective_dpi": {
+      "x": 90.16964680092266,
+      "y": 90.16964680092266
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "e356c71b315e46989a38cde80f9dd435f8f1a02744556683309f9e7654d005de",
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "feature-01-work-skills",
+    "label": "日本の職場で必要な実践スキル",
+    "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+    "rect": {
+      "left": 780,
+      "top": 878,
+      "width": 216,
+      "height": 134
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/feature-01-work-skills.png",
+    "width": 216,
+    "height": 134,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 60.845,
+      "height": 37.746435185185184
+    },
+    "effective_dpi": {
+      "x": 90.17010436354671,
+      "y": 90.17010436354671
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "3d470bc18f3407b78296ca5830202bcf039336b2ab8bb101f128daa6340043ec",
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "feature-02-curriculum",
+    "label": "幅広い選択肢に対応できるカリキュラム",
+    "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+    "rect": {
+      "left": 1017,
+      "top": 878,
+      "width": 211,
+      "height": 134
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/feature-02-curriculum.png",
+    "width": 211,
+    "height": 134,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 59.437,
+      "height": 37.74672037914692
+    },
+    "effective_dpi": {
+      "x": 90.16942308662954,
+      "y": 90.16942308662954
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "1318968fa8a922c47f7bf051a7f2a81929d26d67f4bf030d04fa2fddbfd02a7e",
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "feature-03-career-support",
+    "label": "資格取得・就職支援",
+    "source": "references/user-gpt/faithful-parts-20261013/general-business.png",
+    "rect": {
+      "left": 1250,
+      "top": 878,
+      "width": 211,
+      "height": 134
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/general-business/feature-03-career-support.png",
+    "width": 211,
+    "height": 134,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 59.437,
+      "height": 37.74672037914692
+    },
+    "effective_dpi": {
+      "x": 90.16942308662954,
+      "y": 90.16942308662954
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "5766aff2ee873caf5a3e41a7898a04b4ec4a4c2d51a245f48a32240e62a374b8",
+    "group": "general-business",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  }
+]

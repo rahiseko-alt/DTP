@@ -1,0 +1,20 @@
+tool: sharp/source-extraction
+model: none
+seed: null
+created: 2026-10-13
+author: codex-parts-business
+size: 745x478
+source: "references/user-gpt/faithful-parts-20261013/international-ai.png"
+source_dimensions: [1491, 1055]
+source_sha256: 34f2673f7a143efa0ecaae6c52cf6c45465bec07eea81fc5c01dbd71d15473b3
+bounds: { left: 0, top: 0, width: 745, height: 478 }
+prompt: |
+  User-owned GPT image. Extract only the recorded rectangular scene, preserving every source pixel.
+  No generation, resizing, rotation, color adjustment, text removal, or background changes.
+negative_prompt: "text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption"
+reference_inputs: []
+source_refs: ["references/user-gpt/faithful-parts-20261013/international-ai.png"]
+notes: |
+  Rectangular lossless PNG extraction explicitly follows latest user near-100% reproduction instruction.
+  白い手書きコピーと左上の2年制・学科名バッジが画像に重なる。除去は未実施。
+  status=restoration_required; RGB equality verified=true; alpha=false. Original A4 spread placement estimate only; approximately90dpi, unsuitable as print-ready at original size.

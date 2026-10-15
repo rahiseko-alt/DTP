@@ -1,0 +1,20 @@
+tool: sharp/source-extraction
+model: none
+seed: null
+prompt: "ユーザー自身のGPT生成原本から、指定矩形の画素を無変更で切り出す。"
+negative_prompt: "text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption"
+size: 261x111
+created: 2026-10-13
+author: codex-parts-school
+reference_inputs: []
+source_refs:
+  - references/user-gpt/faithful-parts-20261013/school-overview.png
+params:
+  rect: {left: 1126, top: 456, width: 261, height: 111}
+notes: |
+  原本はユーザーのGPT生成画像。学校実写真としての認証なし。
+  RGB画素が原本の矩形と100%一致。リサイズ・色変更・遠近補正・フェード除去なし。
+  status: ready_exact; alpha: false。
+  元画像は冊子モックアップであり、遠近・紙面湾曲を含む画素を無補正で維持。
+  A4見開き420×297mmを画像全域に仮定した実効dpiは150未満。原寸相当の入稿用高解像度ではない。
+  実効dpi概算 x=87.57, y=92.88; 配置概算 75.704×30.356mm。

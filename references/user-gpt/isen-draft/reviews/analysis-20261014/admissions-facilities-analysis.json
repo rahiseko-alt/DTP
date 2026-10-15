@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-14",
+  "mode": "analysis_only",
+  "actual_sources_inspected": [
+    {"path":"C:/Users/user/Downloads/AIビジネス専門学校 入試ガイド.png","width":1024,"height":1536,"page_number":22},
+    {"path":"C:/Users/user/Downloads/学習環境・施設・アクセス.png","width":1024,"height":1536,"page_number":23}
+  ],
+  "local_evidence": ["company-data/ledger.md","company-data/facts/admissions.yaml","company-data/facts/school.yaml","company-data/facts/contacts.yaml"],
+  "evidence_scope": {"booklet_entry_year":"2028年4月","admissions_facts":"2027年度4月入学・日本人向け","web_fact_fill":false,"source_image_changes":false,"source_image_copies":false,"part_creation":false,"viewer_insertion":false},
+  "admissions": {
+    "hierarchy": [
+      {"region_y_px":[0,345],"content":"巨大青見出し、左白フェード、右4人の学生メイン写真、ロゴ"},
+      {"region_y_px":[345,635],"content":"横6段階の番号・図柄・矢印による流れ"},
+      {"region_y_px":[643,918],"content":"必要書類6項目、選考方法3項目"},
+      {"region_y_px":[927,1240],"content":"入試2区分、2027予定日程表"},
+      {"region_y_px":[1250,1437],"content":"注意事項と資料請求・連絡先・QR"}
+    ],
+    "flow_literal": ["募集要項の確認","出願書類の提出","選考","合格発表","入学手続き","入学"],
+    "documents_literal": ["入学願書","最終学歴の証明書","在留資格の証明書（外国籍の方）","パスポートのコピー","写真（3cm×4cm）","その他（必要に応じて）"],
+    "selection_literal": ["書類選考","面接","日本語テスト（必要に応じて）"],
+    "exam_types_literal": ["AO入試（早期出願）","一般入試"],
+    "schedule_literal": {"heading":"2027年度 入試スケジュール（予定）","ao":{"application":"2026年6月〜10月","selection":"書類・面接（必要に応じて日本語テスト）","announcement":"出願後 約2週間","procedure":"指定の期限まで","entry":"2027年4月"},"general":{"application":"2026年11月〜2027年2月","selection":"書類・面接（必要に応じて日本語テスト）","announcement":"出願後 約2週間","procedure":"指定の期限まで","entry":"2027年4月"}},
+    "findings": [
+      {"region":"入試種類 左下","claim":"2つの入試方法","status":"conflicts_confirmed","confirmed":"AO、推薦、一般の3区分","issue":"推薦入試が欠落"},
+      {"region":"日程表 AO出願期間","claim":"2026年6月〜10月","status":"conflicts_confirmed","confirmed":"エントリー6月1日以降／出願9月1日以降","issue":"エントリーと正式出願の混同、終了月の根拠なし"},
+      {"region":"日程表 一般出願期間","claim":"2026年11月〜2027年2月","status":"conflicts_confirmed","confirmed":"2026年10月1日〜","issue":"開始月が異なり終了月も未確認"},
+      {"region":"日程表 合格発表","claim":"出願後 約2週間","status":"conflicts_confirmed","confirmed":"AO2026年10月1日／一般選考実施日より3日以上空けて随時","issue":"出願起算の2週間は確定していない"},
+      {"region":"選考方法・一般入試カード","claim":"日本語テスト","status":"unsourced_for_current_audience","confirmed":"一般は筆記試験（学力検査）、AO・推薦は課題提出等の総合評価","issue":"日本語試験として一律置換不可"},
+      {"region":"必要書類","claim":"在留資格の証明書・パスポートのコピー","status":"unsourced_for_current_audience","issue":"2027日本人向け正本にない。外国ルーツ＝海外留学生条件とはしない"},
+      {"region":"必要書類 写真","claim":"3cm×4cm","status":"ambiguous_orientation","confirmed":"縦4cm×横3cm","issue":"縦横と添付・撮影条件を省略"},
+      {"region":"必要書類一覧","status":"incomplete","missing_confirmed":["検定料の振込確認","志望理由書【様式2】","誓約書・保証書【様式3】","入学検定料振込証明書【様式4】"]},
+      {"region":"AO入試カード","claim":"入学時の費用が軽減されます。","status":"unsourced","confirmed":"AO特典・減免・奨学金は確定台帳空欄"},
+      {"region":"2027日程表全体","status":"wrong_year_for_current_booklet","confirmed":"冊子対象2028年4月入学。2028日程・出願条件は未確定"},
+      {"region":"右下 問い合わせ","claim":"052-000-0000","status":"dummy_and_conflict","confirmed":"052-451-3821"},
+      {"region":"右下 問い合わせ","claim":"info@ai-bs.ac.jp","status":"conflicts_confirmed","confirmed":"ai-nyushi@jp-academy.net"},
+      {"region":"右下 受付時間","claim":"9:00〜17:00","status":"unsourced","confirmed":"受付時間未確定"},
+      {"region":"上下ロゴ","claim":"AI BUSINESS VOCATIONAL SCHOOL","status":"conflicts_confirmed","confirmed":"Artificial Intelligence Business College"}
+    ],
+    "qr": {"region":"右下公式サイト欄","method":"OpenCV QRCodeDetector direct full-file read; no image crop/edit and no URL visit","detected":false,"decoded_text":"","status":"unverified","official_homepage":"https://kaihougakuen.my.canva.site/","request_form_url":"unconfirmed"},
+    "potential_parts_only": {"hero_photo":1,"flow_cards":6,"document_cards":6,"selection_rows":3,"exam_cards":2,"schedule_table":1,"notice_panel":1,"contact_columns":3,"formal_logo_qr":"requires confirmed data"}
+  },
+  "facilities": {
+    "hierarchy":[
+      {"region_y_px":[0,434],"content":"同じ4人のPC学習場面、巨大青見出し、左白フェード、右上ロゴ"},
+      {"region_y_px":[434,815],"content":"主設備4写真・重なった丸アイコン・本文"},
+      {"region_y_px":[823,1144],"content":"その他設備4点、右に駅景観と徒歩時間バッジ・経路図"},
+      {"region_y_px":[1156,1428],"content":"周辺環境3写真、学生の声2点"}
+    ],
+    "claims_literal":[
+      {"label":"PC教室","text":"最新のパソコンを完備。AI・IT・ビジネスの実習を快適に学べます。","status":"unsourced_school_facility"},
+      {"label":"グループ学習スペース","text":"グループワークや課題制作ができるオープンスペースです。","status":"unsourced_school_facility"},
+      {"label":"図書・学習資料","text":"専門書や資格対策の教材など、学習に役立つ資料を利用できます。","status":"unsourced_school_facility"},
+      {"label":"ラウンジ・休憩スペース","text":"授業の合間にリラックスできる、明るく快適なスペースです。","status":"unsourced_school_facility"},
+      {"label":"Wi-Fi完備","text":"校内はWi-Fi環境が整っており、授業や自習で利用できます。","status":"unsourced_school_facility"},
+      {"label":"自動販売機","text":"飲み物や軽食を購入できます。","status":"unsourced_school_facility"},
+      {"label":"ロッカー","text":"個人の荷物を安全に保管できます。","status":"unsourced_school_facility"},
+      {"label":"清潔なトイレ","text":"清潔で快適に利用できます。","status":"unsourced_school_facility"},
+      {"label":"コンビニ","text":"学校の近くにコンビニがあります。","status":"unsourced_location"},
+      {"label":"飲食店","text":"カフェや飲食店が充実。ランチや休憩に便利です。","status":"unsourced_location"},
+      {"label":"商業施設","text":"駅周辺には、買い物や生活に便利な施設があります。","status":"unsourced_location"}
+    ],
+    "access": {"region":"右中央 アクセス","claim":"名古屋駅から徒歩約5分","status":"conflicts_confirmed","confirmed_walk":"JR名古屋駅から徒歩10分","confirmed_address":"〒453-0014 愛知県名古屋市中村区則武1丁目30-17","map_labels":["名古屋駅（桜通口）","JRゲートタワー","桜通","ミッドランドスクエア","地下鉄名古屋駅（東山線）","名駅通","AIビジネス専門学校"],"map_observation":"駅の右側の市街地へピンク点線と学校地点。桜通口側の図として見える","map_status":"requires_address_route_verification; no webroutecomputed","confirmed_exit":"not stated in ledger"},
+    "voices": [
+      {"region":"右下 女性ポートレート","text":"学校は駅から近くて、通学がとても便利です。教室もきれいで、快適に勉強できます。","status":"unsourced_testimonial","identity":"unverified_generated_person"},
+      {"region":"右下 男性ポートレート","text":"PCやWi-Fiなどの設備が整っていて、授業や課題制作がスムーズにできます。","status":"unsourced_testimonial","identity":"unverified_generated_person"}
+    ],
+    "potential_parts_only": {"photographic_scene_count":15,"breakdown":{"hero":1,"main_facilities":4,"other_equipment":4,"surroundings":3,"station_skyline":1,"voice_portraits":2},"map_diagram":1,"note":"circle icons overlap lower photo edges; no separation or restoration performed"}
+  },
+  "limits": ["原画像の見た目と学校情報の正しさを分ける","GPT施設・人物画像は実施設・在校生の証拠にしない","2027日本人向け条件を2028や外国籍全員へ拡張しない","現在は分析のみ。画像・台帳・facts・Git・冊子は未変更"]
+}

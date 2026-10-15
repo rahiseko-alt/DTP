@@ -1,0 +1,7 @@
+{{!-- 必須 title/body。任意 icon、photo_id、position、caption。photo_idを渡す場合altも必須。写真・原稿を固定しない。 --}}
+<section class="bk-card">
+  {{#if photo_id}}<div class="bk-card__photo">{{#if position}}{{> photo-frame id=photo_id alt=alt position=position caption=false}}{{else}}{{> photo-frame id=photo_id alt=alt caption=false}}{{/if}}</div>{{/if}}
+  <header class="bk-card__heading">{{#if icon}}{{> brochure-kit/icon kind=icon}}{{/if}}<h3>{{title}}</h3></header>
+  <p class="bk-card__body">{{body}}</p>
+  {{#if caption}}<p class="bk-card__caption">{{caption}}</p>{{/if}}
+</section>

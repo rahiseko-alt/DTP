@@ -1,0 +1,161 @@
+[
+  {
+    "id": "hero",
+    "label": "学生4人のメイン写真",
+    "source": "references/user-gpt/faithful-parts-20261013/school-overview.png",
+    "rect": {
+      "left": 39,
+      "top": 44,
+      "width": 685,
+      "height": 628
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-overview/hero.png",
+    "width": 685,
+    "height": 628,
+    "status": "ready_composite",
+    "issues": [
+      "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。",
+      "元画像は冊子モックアップであり、遠近・紙面湾曲を含む画素を無補正で維持。",
+      "A4見開き420×297mmを画像全域に仮定した実効dpiは150未満。原寸相当の入稿用高解像度ではない。"
+    ],
+    "placement_mm": {
+      "width": 198.688,
+      "height": 182.15483795620437
+    },
+    "effective_dpi": {
+      "x": 87.56945562892575,
+      "y": 87.56945562892575
+    },
+    "alpha": false,
+    "pixel_verification": {
+      "exact": true,
+      "decoded_rgb_sha256": "7ae59d51dc287a24b64e76ef639abc04e6e1eb7b4174594dbfbbc4045f9b3812",
+      "source_crop_sha256": "7ae59d51dc287a24b64e76ef639abc04e6e1eb7b4174594dbfbbc4045f9b3812",
+      "output_sha256": "7ae59d51dc287a24b64e76ef639abc04e6e1eb7b4174594dbfbbc4045f9b3812"
+    },
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "7ae59d51dc287a24b64e76ef639abc04e6e1eb7b4174594dbfbbc4045f9b3812",
+    "group": "school-overview",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "ai-practice",
+    "label": "AIを使った実務学習",
+    "source": "references/user-gpt/faithful-parts-20261013/school-overview.png",
+    "rect": {
+      "left": 1126,
+      "top": 317,
+      "width": 261,
+      "height": 111
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-overview/ai-practice.png",
+    "width": 261,
+    "height": 111,
+    "status": "ready_exact",
+    "issues": [
+      "画面内の元画像の表示は保持。",
+      "元画像は冊子モックアップであり、遠近・紙面湾曲を含む画素を無補正で維持。",
+      "A4見開き420×297mmを画像全域に仮定した実効dpiは150未満。原寸相当の入稿用高解像度ではない。",
+      "画面内のUI・衣服文字・成果物の文字は被写体の一部として保持。最新の変更禁止指示に従い除去対象としない。"
+    ],
+    "placement_mm": {
+      "width": 75.704,
+      "height": 32.1959540229885
+    },
+    "effective_dpi": {
+      "x": 87.570009510726,
+      "y": 87.570009510726
+    },
+    "alpha": false,
+    "pixel_verification": {
+      "exact": true,
+      "decoded_rgb_sha256": "756120fcf6d2135598ef5659d6b8ffee48072d48dc2de7b84e13e202a7d57e1d",
+      "source_crop_sha256": "756120fcf6d2135598ef5659d6b8ffee48072d48dc2de7b84e13e202a7d57e1d",
+      "output_sha256": "756120fcf6d2135598ef5659d6b8ffee48072d48dc2de7b84e13e202a7d57e1d"
+    },
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "756120fcf6d2135598ef5659d6b8ffee48072d48dc2de7b84e13e202a7d57e1d",
+    "group": "school-overview",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "multicultural-learning",
+    "label": "多国籍な学びの環境",
+    "source": "references/user-gpt/faithful-parts-20261013/school-overview.png",
+    "rect": {
+      "left": 1126,
+      "top": 456,
+      "width": 261,
+      "height": 111
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-overview/multicultural-learning.png",
+    "width": 261,
+    "height": 111,
+    "status": "ready_exact",
+    "issues": [
+      "元画像は冊子モックアップであり、遠近・紙面湾曲を含む画素を無補正で維持。",
+      "A4見開き420×297mmを画像全域に仮定した実効dpiは150未満。原寸相当の入稿用高解像度ではない。"
+    ],
+    "placement_mm": {
+      "width": 75.704,
+      "height": 32.1959540229885
+    },
+    "effective_dpi": {
+      "x": 87.570009510726,
+      "y": 87.570009510726
+    },
+    "alpha": false,
+    "pixel_verification": {
+      "exact": true,
+      "decoded_rgb_sha256": "bac9feec73b79d2a224016a934031d48f8985e3c81044affdf013ae37a99a11a",
+      "source_crop_sha256": "bac9feec73b79d2a224016a934031d48f8985e3c81044affdf013ae37a99a11a",
+      "output_sha256": "bac9feec73b79d2a224016a934031d48f8985e3c81044affdf013ae37a99a11a"
+    },
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "bac9feec73b79d2a224016a934031d48f8985e3c81044affdf013ae37a99a11a",
+    "group": "school-overview",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "presentation",
+    "label": "プレゼンテーションと発表",
+    "source": "references/user-gpt/faithful-parts-20261013/school-overview.png",
+    "rect": {
+      "left": 1126,
+      "top": 597,
+      "width": 261,
+      "height": 113
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/school-overview/presentation.png",
+    "width": 261,
+    "height": 113,
+    "status": "ready_exact",
+    "issues": [
+      "元画像は冊子モックアップであり、遠近・紙面湾曲を含む画素を無補正で維持。",
+      "A4見開き420×297mmを画像全域に仮定した実効dpiは150未満。原寸相当の入稿用高解像度ではない。"
+    ],
+    "placement_mm": {
+      "width": 75.704,
+      "height": 32.77606130268199
+    },
+    "effective_dpi": {
+      "x": 87.570009510726,
+      "y": 87.570009510726
+    },
+    "alpha": false,
+    "pixel_verification": {
+      "exact": true,
+      "decoded_rgb_sha256": "f5dff65c085f6f71dc854a2b5565e8f8e7e20d34df0f2c59a59c4734b46a37de",
+      "source_crop_sha256": "f5dff65c085f6f71dc854a2b5565e8f8e7e20d34df0f2c59a59c4734b46a37de",
+      "output_sha256": "f5dff65c085f6f71dc854a2b5565e8f8e7e20d34df0f2c59a59c4734b46a37de"
+    },
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "f5dff65c085f6f71dc854a2b5565e8f8e7e20d34df0f2c59a59c4734b46a37de",
+    "group": "school-overview",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  }
+]

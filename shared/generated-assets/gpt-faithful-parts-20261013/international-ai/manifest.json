@@ -1,0 +1,283 @@
+[
+  {
+    "id": "hero-original",
+    "label": "女性学生メイン写真（文字付き原本）",
+    "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+    "rect": {
+      "left": 0,
+      "top": 0,
+      "width": 745,
+      "height": 478
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/hero-original.png",
+    "width": 745,
+    "height": 478,
+    "status": "ready_composite",
+    "issues": [
+      "後付け文字・帯・ロゴも含めた加工版素材として使用可能。画像内の文字等は写真と一体で、個別編集はできません。"
+    ],
+    "placement_mm": {
+      "width": 209.859,
+      "height": 134.6477879194631
+    },
+    "effective_dpi": {
+      "x": 90.17006656850552,
+      "y": 90.17006656850552
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "c90e16d673e25eef26178e951c8c87e28f714ca8640d37b0af73034bdb47d2cf",
+    "group": "international-ai",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "learning-01-generative-ai",
+    "label": "生成AI活用",
+    "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+    "rect": {
+      "left": 780,
+      "top": 239,
+      "width": 218,
+      "height": 133
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/learning-01-generative-ai.png",
+    "width": 218,
+    "height": 133,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 61.408,
+      "height": 37.46451376146789
+    },
+    "effective_dpi": {
+      "x": 90.17066180302241,
+      "y": 90.17066180302241
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "ed1bb6565d8501d21e7b2f5292ecacb2031448feb2abe90054665efa480b0527",
+    "group": "international-ai",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "learning-02-international-business",
+    "label": "国際ビジネス",
+    "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+    "rect": {
+      "left": 1012,
+      "top": 239,
+      "width": 218,
+      "height": 133
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/learning-02-international-business.png",
+    "width": 218,
+    "height": 133,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 61.408,
+      "height": 37.46451376146789
+    },
+    "effective_dpi": {
+      "x": 90.17066180302241,
+      "y": 90.17066180302241
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "4c572bcc9b8b6c77d235ba72a7233127c68a0ac3875cf2d95cd54ec078e4f395",
+    "group": "international-ai",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "learning-03-marketing",
+    "label": "マーケティング",
+    "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+    "rect": {
+      "left": 1243,
+      "top": 239,
+      "width": 218,
+      "height": 133
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/learning-03-marketing.png",
+    "width": 218,
+    "height": 133,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 61.408,
+      "height": 37.46451376146789
+    },
+    "effective_dpi": {
+      "x": 90.17066180302241,
+      "y": 90.17066180302241
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "ebbab1f3b5d242ed3536ae054cc0b00e8cafdda9a5f09be6e286646b688c80ff",
+    "group": "international-ai",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "learning-04-cultural-communication",
+    "label": "日本語・異文化コミュニケーション",
+    "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+    "rect": {
+      "left": 780,
+      "top": 472,
+      "width": 355,
+      "height": 138
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/learning-04-cultural-communication.png",
+    "width": 355,
+    "height": 138,
+    "status": "ready_exact",
+    "issues": [
+      "人物のTシャツに元画像内の英文がある。衣服の一部として原画素のまま保持。",
+      "画面内のUI・衣服文字・成果物の文字は被写体の一部として保持。最新の変更禁止指示に従い除去対象としない。"
+    ],
+    "placement_mm": {
+      "width": 100,
+      "height": 38.87323943661972
+    },
+    "effective_dpi": {
+      "x": 90.16999999999999,
+      "y": 90.16999999999999
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "46a50c49bac112422187cf79c216543ffef65dfac43095dc7adfa33d9de306c5",
+    "group": "international-ai",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "learning-05-presentation",
+    "label": "プレゼン・ビジネス実務",
+    "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+    "rect": {
+      "left": 1150,
+      "top": 472,
+      "width": 311,
+      "height": 138
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/learning-05-presentation.png",
+    "width": 311,
+    "height": 138,
+    "status": "ready_exact",
+    "issues": [
+      "教室の投影画面内の文字が元画像にある。授業場面の一部として原画素のまま保持。",
+      "画面内のUI・衣服文字・成果物の文字は被写体の一部として保持。最新の変更禁止指示に従い除去対象としない。"
+    ],
+    "placement_mm": {
+      "width": 87.606,
+      "height": 38.873401929260446
+    },
+    "effective_dpi": {
+      "x": 90.16962308517681,
+      "y": 90.16962308517681
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "1604ba3078df0ae6e9c1096aed25eb833461551bb7bb0e14f5ee886e29f93743",
+    "group": "international-ai",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "feature-01-practical-ai",
+    "label": "AIを仕事で使う実践力",
+    "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+    "rect": {
+      "left": 780,
+      "top": 868,
+      "width": 218,
+      "height": 129
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/feature-01-practical-ai.png",
+    "width": 218,
+    "height": 129,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 61.408,
+      "height": 36.33776146788991
+    },
+    "effective_dpi": {
+      "x": 90.17066180302241,
+      "y": 90.17066180302241
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "9fb6142012297fe5844a959fdcbd67ff4968aa0007d151783579efb09b63ad2e",
+    "group": "international-ai",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "feature-02-collaboration",
+    "label": "外国人と日本人が一緒に働くための力",
+    "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+    "rect": {
+      "left": 1018,
+      "top": 868,
+      "width": 213,
+      "height": 129
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/feature-02-collaboration.png",
+    "width": 213,
+    "height": 129,
+    "status": "ready_exact",
+    "issues": [],
+    "placement_mm": {
+      "width": 60,
+      "height": 36.33802816901409
+    },
+    "effective_dpi": {
+      "x": 90.16999999999999,
+      "y": 90.16999999999999
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "37bbcd6d41175bc731a104a66c3200ece6b8a2c8301587d34107d54861af1a55",
+    "group": "international-ai",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  },
+  {
+    "id": "feature-03-pbl",
+    "label": "発表・制作・PBL中心の実践授業",
+    "source": "references/user-gpt/faithful-parts-20261013/international-ai.png",
+    "rect": {
+      "left": 1254,
+      "top": 868,
+      "width": 207,
+      "height": 129
+    },
+    "file": "shared/generated-assets/gpt-faithful-parts-20261013/international-ai/feature-03-pbl.png",
+    "width": 207,
+    "height": 129,
+    "status": "ready_exact",
+    "issues": [
+      "背景の投影画面に元画像内の文字がある。授業場面の一部として原画素のまま保持。",
+      "画面内のUI・衣服文字・成果物の文字は被写体の一部として保持。最新の変更禁止指示に従い除去対象としない。"
+    ],
+    "placement_mm": {
+      "width": 58.31,
+      "height": 36.33811594202899
+    },
+    "effective_dpi": {
+      "x": 90.16978219859371,
+      "y": 90.16978219859371
+    },
+    "alpha": false,
+    "placement_estimate": "幅のみ原画全域をA4相当として参考推定。高さは元画像の縦横比を維持。実配置寸法未指定。",
+    "source_pixel_identity": true,
+    "raw_pixel_sha256": "6b6eb9416916192df0b83cf320869f62def6c7329b48ef68ae8c4f8f0a516970",
+    "group": "international-ai",
+    "usage_approval": "2026-10-14 人間が、補修せず加工版としてそのまま使用する方針を指定。"
+  }
+]

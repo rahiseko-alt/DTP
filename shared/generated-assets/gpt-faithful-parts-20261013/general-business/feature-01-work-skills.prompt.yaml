@@ -1,0 +1,20 @@
+tool: sharp/source-extraction
+model: none
+seed: null
+created: 2026-10-13
+author: codex-parts-business
+size: 216x134
+source: "references/user-gpt/faithful-parts-20261013/general-business.png"
+source_dimensions: [1491, 1055]
+source_sha256: 37a566563a7bd322550a026a9001e97b21bc3ec314a4ff8332db88001ecd5ebd
+bounds: { left: 780, top: 878, width: 216, height: 134 }
+prompt: |
+  User-owned GPT image. Extract only the recorded rectangular scene, preserving every source pixel.
+  No generation, resizing, rotation, color adjustment, text removal, or background changes.
+negative_prompt: "text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption"
+reference_inputs: []
+source_refs: ["references/user-gpt/faithful-parts-20261013/general-business.png"]
+notes: |
+  Rectangular lossless PNG extraction explicitly follows latest user near-100% reproduction instruction.
+
+  status=ready_exact; RGB equality verified=true; alpha=false. Original A4 spread placement estimate only; approximately90dpi, unsuitable as print-ready at original size.

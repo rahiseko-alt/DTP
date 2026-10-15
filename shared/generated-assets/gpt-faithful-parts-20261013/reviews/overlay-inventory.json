@@ -1,0 +1,388 @@
+{
+  "created": "2026-10-14",
+  "author": "codex-parts-school-independent-audit",
+  "scope": [
+    "lecturer-ai",
+    "school-pr"
+  ],
+  "user_priority": "100%に近い原本再現。勝手な変更禁止。写真内の文字やUIも元場面内容なら保持。",
+  "candidate_generation": "none; parent confirmation pending",
+  "review_basis": "manifest原矩形、contact sheets、6ステップの原寸パーツ、outcome-02-video原寸パーツを目視。赤い再生ボタンの色画素bboxをsharpで測定。",
+  "coordinate_system": "各asset_file自身の元ピクセル座標。元見開き全体座標ではない。",
+  "global_constraints": [
+    "すべてROIは局所検討範囲。mask確定前の編集承認ではない。",
+    "修復を実施するなら文字/円/ボタン実マスク外の原画素をbyte単位で保持し検証する。",
+    "ロゴ分離後は原ロゴ形状・位置・色を別レイヤーで復帰し、ページの見え方を変えない。",
+    "画面内文字・衣服文字・制作物例の文字を理由に消去するのは禁止。",
+    "顔の原画素を生成画像へ置換しない。",
+    "画面文字だけを理由とするrestoration_required判定は最新版の依頼に沿ってready_exactへ再評価（幾何やdpiの制限は残す）。"
+  ],
+  "assets": [
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-01-use.png",
+      "rect_roi": {
+        "left": 142,
+        "top": 16,
+        "width": 66,
+        "height": 66
+      },
+      "action": "separate_editorial_overlay_only",
+      "reason": "Gemini白円は写真上の独立した編集用図版。原本と同じ図版を別レイヤーで戻す目的だけに局所背景修復。",
+      "intrinsic_text_to_preserve": [
+        "写真内の画面表示・衣服・室内看板等の元画素すべて"
+      ],
+      "mask_requirement": "ROIは外接範囲。円のアンチエイリアス境界を含む実形状マスクだけを使う。矩形全面の置換は禁止。",
+      "circle_geometry_hint": {
+        "cx": 175,
+        "cy": 49,
+        "rx": 32,
+        "ry": 32
+      },
+      "face_constraint": "ROI内に顔なしと目視確認。ROI外の顔・髪・手・服・背景は原画素完全保持。",
+      "context": "laptop overlap in lower circle",
+      "pixel_scope": "crop-local coordinates, original pixel size"
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-02-research.png",
+      "rect_roi": {
+        "left": 140,
+        "top": 17,
+        "width": 66,
+        "height": 66
+      },
+      "action": "separate_editorial_overlay_only",
+      "reason": "NotebookLM白円は写真上の独立した編集用図版。原本と同じ図版を別レイヤーで戻す目的だけに局所背景修復。",
+      "intrinsic_text_to_preserve": [
+        "写真内の画面表示・衣服・室内看板等の元画素すべて"
+      ],
+      "mask_requirement": "ROIは外接範囲。円のアンチエイリアス境界を含む実形状マスクだけを使う。矩形全面の置換は禁止。",
+      "circle_geometry_hint": {
+        "cx": 173,
+        "cy": 50,
+        "rx": 32,
+        "ry": 32
+      },
+      "face_constraint": "ROI内に顔なしと目視確認。ROI外の顔・髪・手・服・背景は原画素完全保持。",
+      "context": "wall and laptop edge",
+      "pixel_scope": "crop-local coordinates, original pixel size"
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-03-create.png",
+      "rect_roi": {
+        "left": 133,
+        "top": 18,
+        "width": 73,
+        "height": 72
+      },
+      "action": "separate_editorial_overlay_only",
+      "reason": "Canva白円は写真上の独立した編集用図版。原本と同じ図版を別レイヤーで戻す目的だけに局所背景修復。",
+      "intrinsic_text_to_preserve": [
+        "写真内の画面表示・衣服・室内看板等の元画素すべて"
+      ],
+      "mask_requirement": "ROIは外接範囲。円のアンチエイリアス境界を含む実形状マスクだけを使う。矩形全面の置換は禁止。",
+      "circle_geometry_hint": {
+        "cx": 169.5,
+        "cy": 54,
+        "rx": 35.5,
+        "ry": 35
+      },
+      "face_constraint": "ROI内に顔なしと目視確認。ROI外の顔・髪・手・服・背景は原画素完全保持。",
+      "context": "wall and laptop edge",
+      "pixel_scope": "crop-local coordinates, original pixel size"
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-04-analyze.png",
+      "rect_roi": {
+        "left": 141,
+        "top": 17,
+        "width": 67,
+        "height": 67
+      },
+      "action": "separate_editorial_overlay_only",
+      "reason": "Google Sheets白円は写真上の独立した編集用図版。原本と同じ図版を別レイヤーで戻す目的だけに局所背景修復。",
+      "intrinsic_text_to_preserve": [
+        "写真内の画面表示・衣服・室内看板等の元画素すべて"
+      ],
+      "mask_requirement": "ROIは外接範囲。円のアンチエイリアス境界を含む実形状マスクだけを使う。矩形全面の置換は禁止。",
+      "circle_geometry_hint": {
+        "cx": 174.5,
+        "cy": 50.5,
+        "rx": 32.5,
+        "ry": 32.5
+      },
+      "face_constraint": "ROI内に顔なしと目視確認。ROI外の顔・髪・手・服・背景は原画素完全保持。",
+      "context": "wall and laptop edge",
+      "pixel_scope": "crop-local coordinates, original pixel size"
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-05-present.png",
+      "rect_roi": {
+        "left": 139,
+        "top": 17,
+        "width": 67,
+        "height": 67
+      },
+      "action": "separate_editorial_overlay_only",
+      "reason": "Google Slides白円は写真上の独立した編集用図版。原本と同じ図版を別レイヤーで戻す目的だけに局所背景修復。",
+      "intrinsic_text_to_preserve": [
+        "写真内の画面表示・衣服・室内看板等の元画素すべて"
+      ],
+      "mask_requirement": "ROIは外接範囲。円のアンチエイリアス境界を含む実形状マスクだけを使う。矩形全面の置換は禁止。",
+      "circle_geometry_hint": {
+        "cx": 172.5,
+        "cy": 50.5,
+        "rx": 32.5,
+        "ry": 32.5
+      },
+      "face_constraint": "ROI内に顔なしと目視確認。ROI外の顔・髪・手・服・背景は原画素完全保持。",
+      "context": "projection background; avoid face to left",
+      "pixel_scope": "crop-local coordinates, original pixel size"
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/step-06-work.png",
+      "rect_roi": {
+        "left": 136,
+        "top": 17,
+        "width": 67,
+        "height": 67
+      },
+      "action": "separate_editorial_overlay_only",
+      "reason": "Google Drive白円は写真上の独立した編集用図版。原本と同じ図版を別レイヤーで戻す目的だけに局所背景修復。",
+      "intrinsic_text_to_preserve": [
+        "写真内の画面表示・衣服・室内看板等の元画素すべて"
+      ],
+      "mask_requirement": "ROIは外接範囲。円のアンチエイリアス境界を含む実形状マスクだけを使う。矩形全面の置換は禁止。",
+      "circle_geometry_hint": {
+        "cx": 169.5,
+        "cy": 50.5,
+        "rx": 32.5,
+        "ry": 32.5
+      },
+      "face_constraint": "ROI内に顔なしと目視確認。ROI外の顔・髪・手・服・背景は原画素完全保持。",
+      "context": "cafe backdrop; avoid head to left",
+      "pixel_scope": "crop-local coordinates, original pixel size"
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/activity-01-marketing.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "画面内のポスター・UIは被写体の制作作業を示す写真内容。紙面の独立した見出しではない。",
+      "intrinsic_text_to_preserve": [
+        "モニター上のポスター文字・色面・UI"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/activity-02-website.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "画面内のWebサイトは作業場面の被写体である。",
+      "intrinsic_text_to_preserve": [
+        "モニター上のWebサイト全文・画像・ナビゲーション・ブラウザUI"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/activity-03-report.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "写真内に後付け紙面図版なし。",
+      "intrinsic_text_to_preserve": [
+        "PC・机上資料の元画素"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/activity-04-video.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "動画編集UIは制作場面の被写体である。",
+      "intrinsic_text_to_preserve": [
+        "モニター内の動画・編集画面・タイムライン・文字"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/lecturer-ai/hero.png",
+      "rect_roi": null,
+      "action": "existing_hero_restoration_plan_only",
+      "reason": "左上の手書きコピーは紙面編集文字。正確なマスクは親の既存計画に委ねる。",
+      "intrinsic_text_to_preserve": [
+        "ホワイトボードや背景画面の元表示",
+        "IDカード表示"
+      ],
+      "mask_requirement": "文字ストロークの外を再描画しない。"
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/step-01-plan.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "付箋の記載は写真内の企画作業内容。",
+      "intrinsic_text_to_preserve": [
+        "付箋に写る原本記載"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/step-02-create.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "画面上の動画と文字は作業場面内容。",
+      "intrinsic_text_to_preserve": [
+        "モニター内の文字・動画・制作UI"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/step-03-post.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "スマートフォンは撮影場面の被写体。",
+      "intrinsic_text_to_preserve": [
+        "端末の原画素"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/step-04-analyze.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "グラフ・画面UIは分析作業内容。",
+      "intrinsic_text_to_preserve": [
+        "モニター内のグラフ・数値・UI"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/step-05-improve.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "衣服等の表示は写真内容。",
+      "intrinsic_text_to_preserve": [
+        "服の模様や印字"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/activity-01-plan.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "会議場面に後付け編集図版なし。",
+      "intrinsic_text_to_preserve": [
+        "写真内の資料や服の表示"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/activity-02-content.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "Web制作画面は撮影場面内容。",
+      "intrinsic_text_to_preserve": [
+        "モニター内のサイト文字・画像・ブラウザUI"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/activity-03-filming.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "撮影場面に後付け編集図版なし。",
+      "intrinsic_text_to_preserve": [
+        "カメラ・衣服表示"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/activity-04-operation.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "作業場面に後付け編集図版なし。",
+      "intrinsic_text_to_preserve": [
+        "PCや衣服の表示"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/example-01-instagram.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "Instagramの画面そのものが制作物例であり被写体。",
+      "intrinsic_text_to_preserve": [
+        "OPEN CAMPUS・開催しました等の作品文字",
+        "Instagram全UI・アカウント文字・反応アイコン"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/example-02-x.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "X投稿画面そのものが制作物例であり被写体。",
+      "intrinsic_text_to_preserve": [
+        "投稿文・アカウント名・ハッシュタグ・画像内表示・反応数・UI"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/example-03-youtube.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "YouTubeサムネと画面全体が制作物例。",
+      "intrinsic_text_to_preserve": [
+        "AIでつくる私たちの…等のサムネ文字",
+        "5:12などの長さ表示",
+        "YouTube画面のUI・タイトル文字"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/example-04-website.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "Webサイト画面そのものが制作物例。",
+      "intrinsic_text_to_preserve": [
+        "学校名・AIで未来をつくる等のサイト文字",
+        "ブラウザ・ナビゲーション・画像・ロゴ"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/outcome-01-poster.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "ポスター全体が学生制作物を紹介する被写体。",
+      "intrinsic_text_to_preserve": [
+        "OPEN CAMPUS・年月日・時刻等のポスター全内容"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/outcome-03-website.png",
+      "rect_roi": null,
+      "action": "preserve_exact",
+      "reason": "Webサイト全体が学生制作物を紹介する被写体。",
+      "intrinsic_text_to_preserve": [
+        "サイト全文・ナビゲーション・写真・UI"
+      ]
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/outcome-02-video.png",
+      "rect_roi": null,
+      "optional_separation_roi": {
+        "left": 136,
+        "top": 34,
+        "width": 26,
+        "height": 23
+      },
+      "action": "preserve_exact_by_default",
+      "reason": "動画サムネの赤い再生ボタンは画面作品表示の一部。100%再現では原則保持。別レイヤー化する場合だけ、原位置・原形・原画素のボタンを戻す目的の局所処理を検討。",
+      "intrinsic_text_to_preserve": [
+        "AIで広がる私たちの未来というサムネ文字",
+        "赤い再生ボタンと白い三角マーク",
+        "映像の人物・背景"
+      ],
+      "red_pixels_measured_bbox": {
+        "left": 138,
+        "top": 36,
+        "width": 22,
+        "height": 19
+      },
+      "mask_requirement": "任意ROIは顔に接近している。単純矩形置換は禁止。ボタンの角丸形状実マスクだけで、顔・髪は完全保持。",
+      "source_intrinsic_editorial_overlay_distinction": "6ステップのツールロゴは教材上の注釈。ここは動画作品を表す複合素材で、既定では作品全体が1パーツ。"
+    },
+    {
+      "asset_file": "shared/generated-assets/gpt-faithful-parts-20261013/school-pr/hero.png",
+      "rect_roi": null,
+      "action": "existing_hero_restoration_plan_only",
+      "reason": "左上の手書きコピー・青下線は紙面編集文字。親の既存計画だけで処理。下端白フェザーは原本の合成表現として保存。",
+      "intrinsic_text_to_preserve": [
+        "教室背景の元表示",
+        "服・PC・カメラの元画素"
+      ],
+      "mask_requirement": "文字・下線の実画素のみ。白フェザーを独断で除去しない。"
+    }
+  ]
+}

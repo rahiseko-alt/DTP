@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-14",
+  "judge": "parts_school",
+  "verdict": "PASS",
+  "delivery_decision": "提出可：既存原画の閲覧用冊子PDF",
+  "scope": "表紙1画像＋見開き6画像を全域保持してまとめた7表示ページの閲覧用PDF。紙面相当は13。新6枚の分析画像は除外。",
+  "pdf_path": "C:/Users/user/Documents/ChatGPT/DTP/output/pdf/AIビジネス専門学校_加工版冊子_20261014.pdf",
+  "pdf_sha256": "6f69d2c14897d1790f5311d66fe30d572d3ba327e76952a4e64847a23f629911",
+  "file_size_bytes": 19310387,
+  "sha256_independently_recomputed_by_judge": true,
+  "display_page_count": 7,
+  "paper_pages_equivalent": 13,
+  "order": [
+    "表紙",
+    "多文化の学び",
+    "学校の教育紹介",
+    "国際ビジネスAI科",
+    "総合ビジネス科",
+    "講師・AI教育",
+    "学校広報"
+  ],
+  "evidence": {
+    "judge_visual_inspection": {
+      "all_7_poppler_pngs": true,
+      "files": [
+        ".cache/gpt-drive-booklet-20261014/final-page-1.png",
+        ".cache/gpt-drive-booklet-20261014/final-page-2.png",
+        ".cache/gpt-drive-booklet-20261014/final-page-3.png",
+        ".cache/gpt-drive-booklet-20261014/final-page-4.png",
+        ".cache/gpt-drive-booklet-20261014/final-page-5.png",
+        ".cache/gpt-drive-booklet-20261014/final-page-6.png",
+        ".cache/gpt-drive-booklet-20261014/final-page-7.png"
+      ],
+      "results": [
+        "表紙が最初。以後は現在ビューアーの6見開き順と一致。",
+        "全7ページで人物・コピー・図版・端・外周余白・見開き中央を目視。",
+        "新たな欠落、見える切断、紙面に重なる別UI、生成候補への差し替えを認めない。",
+        "原本由来のモックアップ遠近・フェード・細字・ロゴ・重複採番は変更されていない。"
+      ]
+    },
+    "independent_technical_qa": {
+      "path": ".cache/gpt-drive-booklet-20261014/review.json",
+      "reviewer": "parts_teaching_pr",
+      "verdict": "PASS",
+      "sha256_matches": true,
+      "embedded_decoded_rgb_identical": "7/7",
+      "embedded_size_matches_sources": "7/7",
+      "one_image_per_page": true,
+      "maximum_relative_mediabox_ratio_error": 0.0006629588704727407,
+      "ratio_note": "最大約0.0663%のChromium容器寸法丸め。原画像RGBの完全一致と別項目として扱う。目視上の重大な切断なし。"
+    },
+    "export_manifest": ".cache/gpt-drive-booklet-20261014/manifest.json"
+  },
+  "blockers": [],
+  "limitations": [
+    "判定は既存原画像の閲覧用書出し。学校情報・学校写真の真正性・制度や実績は承認しない。",
+    "新BOOK、新しいレイアウト、13ページの単ページ組版、学校事実の更新は行っていない。",
+    "PDFは縦表紙と横見開きのカスタム混在サイズ。A4・350dpi・塗り足し・入稿用仕様としては承認しない。",
+    "原画の5–6、7–8等のページ番号重複/前後は保持。完成冊子の新採番の正しさとしては判定しない。",
+    "画像PDFであり原画のラスター解像度と細字の限界は残る。編集可能本文・検索可能文字層の保証なし。"
+  ],
+  "what_judge_changed": [
+    ".cache/gpt-drive-booklet-20261014/decision.md",
+    ".cache/gpt-drive-booklet-20261014/decision.json"
+  ],
+  "drive_actions_by_judge": "none",
+  "git_actions_by_judge": "none"
+}
