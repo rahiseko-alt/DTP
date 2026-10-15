@@ -17,7 +17,7 @@
 .f-head__en{font-size:7pt;font-weight:500;letter-spacing:.06em;white-space:nowrap}
 .f-office{position:absolute;right:0;top:9mm;width:54mm;border-collapse:collapse;background:var(--color-background);color:var(--color-text);table-layout:fixed}
 .f-office caption{position:absolute;top:-4mm;left:0;font-size:7pt;font-weight:700;color:var(--color-background);caption-side:top;text-align:left;white-space:nowrap}
-.f-office th,.f-office td{border:.3mm solid var(--color-text);font-size:6.5pt;font-weight:700;padding:.6mm;text-align:center}
+.f-office th,.f-office td{border:.3mm solid var(--color-text);font-size:7pt;font-weight:700;padding:.6mm;text-align:center}
 .f-office td{height:8mm}
 .f-body{position:absolute;left:var(--fl);right:var(--fr);top:33mm}
 .f-send{position:absolute;left:var(--fl);top:264mm;width:84mm;border:.35mm solid var(--color-text);padding:2mm 3mm;font-size:7.5pt;line-height:1.45;font-weight:500}
@@ -91,7 +91,7 @@
 .fm .work{grid-template-columns:20mm 1fr 34mm;grid-template-rows:9mm 10mm 10mm 10mm}
 .fm .work>*{border-left:.3mm solid var(--color-text);border-top:.3mm solid var(--color-text);display:flex;padding:0 2mm;font-size:8pt;font-weight:500;align-items:center;text-align:left}
 .fm .work__lab{grid-row:1/span 4;flex-direction:column;justify-content:center;border-top:0!important;border-left:0!important;letter-spacing:.3em;text-align:center}
-.fm .work__lab small{display:block;font-size:6.5pt;letter-spacing:0;font-weight:500;margin-top:1.5mm;line-height:1.4;color:var(--color-text)}
+.fm .work__lab small{display:block;font-size:7pt;letter-spacing:0;font-weight:500;margin-top:1.5mm;line-height:1.4;color:var(--color-text)}
 .fm .work__h{background:var(--color-surface);justify-content:center;font-weight:700;color:var(--color-primary);font-size:7.5pt}
 .fm .work__h1,.fm .work__h2{border-top:0!important}
 .fm .work__d{flex-direction:column;align-items:flex-start;justify-content:space-around;padding:1mm 2mm;font-size:8pt}
@@ -139,7 +139,7 @@
 .fm .r--one{grid-template-columns:1fr}.fm .r--sig{grid-template-columns:24mm 56mm 20mm 1fr}
 .fm--ao .lab{font-size:7pt;letter-spacing:0}
 .fm--ao .r>*{font-size:7.5pt}
-.fm .c--kubun{font-size:6.5pt!important;padding:0 1mm!important}
+.fm .c--kubun{font-size:7pt!important;padding:0 1mm!important}
 .fm--ao .r:not(.r--oc){border-top:.3mm solid var(--color-text)}
 .fm--ao .gx .r:first-child{border-top:0}
 .fm .ta{border:.4mm solid var(--color-text);margin-top:1.6mm}
@@ -159,7 +159,7 @@
 .fm .r--rec0{grid-template-columns:24mm 1fr;height:7mm}
 .fm .r--21{height:21mm}
 .fm .photo{flex:0 0 61mm;border-left:.3mm solid var(--color-text);display:flex;align-items:center;justify-content:space-between;padding:0 2mm 0 2.5mm}
-.fm .photo__t{width:21mm;text-align:left;font-size:6.5pt;line-height:1.45;font-weight:500}
+.fm .photo__t{width:22mm;text-align:left;font-size:7pt;line-height:1.45;font-weight:500}
 .fm .photo__t b{display:block;font-size:7.5pt;font-weight:900;color:var(--color-primary);margin-bottom:1mm}
 .fm .photo__t span{display:block;margin-bottom:.6mm}
 .fm .photo i{display:block;flex:0 0 30mm;width:30mm;height:40mm;border:.3mm dashed var(--color-muted);box-sizing:border-box}
