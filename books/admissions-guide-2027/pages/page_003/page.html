@@ -1,0 +1,53 @@
+{{!-- page_003 出願資格・出願の流れ（右ページ）。矢印の流れ図：AO / 推薦・一般 の2系統が共通の手続きへ合流 --}}
+<header class="p3-head">
+  <p class="p3-head__no num">1</p>
+  <div>
+    <h1>出願資格</h1>
+    <p>{{facts.admissions.eligibility.lead}}</p>
+  </div>
+</header>
+<ol class="p3-elig">
+  {{#each facts.admissions.eligibility.conditions}}
+  <li><b class="num"></b><span>{{this}}</span></li>
+  {{/each}}
+</ol>
+
+<section class="p3-flow">
+  <h2 class="p3-flow__title"><span class="num">2</span>出願の流れ</h2>
+
+  <div class="lane lane--ao">
+    <p class="lane__tag">{{facts.admissions.exam_types.0.name}}</p>
+    <ol>
+      <li><h3>体験入学・説明会に参加</h3><p>{{facts.admissions.exam_types.0.requirement}}</p></li>
+      <li><h3>エントリー</h3><p>受付：{{facts.admissions.exam_types.0.entry_from}}</p></li>
+      <li><h3>面接・出願許可証の交付</h3><p>{{facts.admissions.exam_types.0.permission}}</p></li>
+      <li><h3>出願</h3><p>受付：{{facts.admissions.exam_types.0.application_from}}</p></li>
+      <li><h3>選考</h3><p>{{facts.admissions.exam_types.0.selection}}</p></li>
+    </ol>
+  </div>
+
+  <div class="lane lane--gen">
+    <p class="lane__tag">{{facts.admissions.exam_types.1.name}}・{{facts.admissions.exam_types.2.name}}</p>
+    <ol>
+      <li><h3>推薦の確認</h3><p>{{facts.admissions.exam_types.1.name}}：{{facts.admissions.exam_types.1.requirement}}<br>{{facts.admissions.exam_types.2.name}}：上の出願資格を満たすこと</p></li>
+      <li><h3>出願</h3><p>受付：{{facts.admissions.exam_types.1.application_from}}</p></li>
+      <li><h3>選考</h3><p>推薦：{{facts.admissions.exam_types.1.selection}}<br>一般：{{facts.admissions.exam_types.2.selection}}</p></li>
+    </ol>
+  </div>
+
+  <div class="merge" aria-hidden="true"><i class="m1"></i><i class="m2"></i></div>
+  <p class="p3-flow__bar">3つの入試に共通：合格してから入学手続きの完了まで</p>
+
+  <ol class="common">
+    <li><h3>合格発表</h3><p>{{facts.admissions.important_notes.0.text}}</p></li>
+    <li><h3>入学金の納入</h3><p>{{lookup facts.admissions.tuition.deadlines 0}}</p></li>
+    <li><h3>授業料の納入</h3><p>{{lookup facts.admissions.tuition.deadlines 1}}</p></li>
+    <li class="common__end"><h3>入学許可</h3><p>{{lookup facts.admissions.tuition.notes 0}}</p></li>
+  </ol>
+  <p class="p3-flow__note">{{lookup facts.admissions.exam_notes 1}}</p>
+</section>
+
+<footer class="page-folio" data-side="{{page.side}}">
+  <span class="page-folio__number num">{{page.number}}</span>
+  <span class="page-folio__school">{{facts.school.name}}</span>
+</footer>

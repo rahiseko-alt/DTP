@@ -1,0 +1,38 @@
+{{!-- page_008 合否連絡・入学前教育・お問い合わせ（左ページ）。右ページ(P9)の願書へ矢印でつなぐ --}}
+<header class="p8-head">
+  <p class="p8-head__kicker">出願および入学に関する注意事項（重要）</p>
+  <h1>合格のあとにも、<br>続きがあります。</h1>
+</header>
+
+<figure class="p8-photo">
+  <img src="{{photo "student-17"}}" alt="入学式後に集まる新入生と教職員" style="object-position: 50% 55%">
+  <figcaption>入学式後の集合写真（新入生と教職員）</figcaption>
+</figure>
+
+<ol class="p8-notes">
+  {{#each facts.admissions.important_notes}}
+  <li><b class="num"></b><div><h2>{{title}}</h2><p>{{text}}</p></div></li>
+  {{/each}}
+</ol>
+
+<section class="p8-contact">
+  <h2>お問い合わせ先</h2>
+  <p class="p8-contact__name">{{facts.school.name}}　{{facts.contacts.contacts.0.label}}</p>
+  <p class="p8-contact__tel"><span>TEL</span>{{facts.school.tel}}</p>
+  <dl>
+    <dt>E-mail</dt><dd>{{facts.school.email}}</dd>
+    <dt>HP</dt><dd>{{facts.school.url}}</dd>
+    <dt>所在地</dt><dd>〒{{facts.school.address.postal_code}} {{facts.school.address.prefecture}}{{facts.school.address.city}}{{facts.school.address.line1}}（{{#each facts.school.access}}{{this}}{{/each}}）</dd>
+  </dl>
+  <div class="p8-qr">{{qr facts.school.url size=22}}<p>公式サイト</p></div>
+</section>
+
+<aside class="p8-next">
+  <div class="p8-next__tri" aria-hidden="true"></div>
+  <p><b>次のページから願書です。</b>{{facts.admissions.documents.0.note}}。記入漏れがないか、送付前に必ず確認してください。</p>
+</aside>
+
+<footer class="page-folio" data-side="{{page.side}}">
+  <span class="page-folio__number num">{{page.number}}</span>
+  <span class="page-folio__school">{{facts.school.name}}</span>
+</footer>

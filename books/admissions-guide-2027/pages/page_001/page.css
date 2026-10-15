@@ -1,0 +1,24 @@
+/* 表紙。座標は .trim（210x297mm）基準 */
+.cv-photo{position:absolute;left:-3mm;top:-3mm;width:216mm;height:184mm;overflow:hidden}
+.cv-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.cv-shade{position:absolute;left:-3mm;top:-3mm;width:216mm;height:184mm;background:linear-gradient(180deg,color-mix(in srgb,var(--color-primary) 55%,transparent) 0,transparent 22%,transparent 62%,color-mix(in srgb,var(--color-primary) 85%,transparent) 100%)}
+.cv-navy{position:absolute;left:-3mm;right:-3mm;top:150mm;bottom:-3mm;background:var(--color-primary);clip-path:polygon(0 17%,100% 0,100% 100%,0 100%)}
+.cv-audience{position:absolute;left:12mm;top:12mm;padding:1.6mm 4mm;background:var(--color-background);color:var(--color-primary);font-size:9pt;font-weight:700;letter-spacing:.1em}
+.cv-year{position:absolute;left:8mm;top:121mm;font-size:132pt;line-height:1;font-weight:900;letter-spacing:-.04em;color:var(--color-accent);text-shadow:0 0 5mm color-mix(in srgb,var(--color-primary) 70%,transparent);font-feature-settings:'palt' 1}
+.cv-intake{position:absolute;right:12mm;top:158mm;padding:2mm 5mm;background:var(--color-accent);color:var(--color-primary);font-size:13pt;font-weight:900;letter-spacing:.06em}
+.cv-title{position:absolute;left:12mm;top:187mm;color:var(--color-background);font-size:50pt;line-height:1.1;font-weight:900;letter-spacing:-.02em}
+.cv-title span{color:var(--color-accent);font-size:34pt;margin:0 1mm;vertical-align:.12em}
+.cv-lead{position:absolute;left:12mm;top:213mm;width:132mm;color:var(--color-background);font-size:10pt;line-height:1.75;font-weight:500;text-align:left}
+.cv-courses{position:absolute;left:12mm;right:12mm;top:233mm;margin:0;padding:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:5mm}
+.cv-courses li{border-top:.5mm solid var(--color-accent);padding-top:2mm;color:var(--color-background)}
+.cv-courses b{display:block;font-size:14pt;font-weight:900}
+.cv-courses span{display:block;margin-top:1mm;font-size:8.5pt;font-weight:500}
+.cv-school{position:absolute;left:12mm;right:12mm;top:259mm;color:var(--color-background)}
+.cv-school p{margin:0;text-align:left}
+.cv-school__corp{font-size:8pt;font-weight:500;letter-spacing:.1em}
+.cv-school__name{font-size:21pt;font-weight:900;line-height:1.3}
+.cv-school__en{font-size:7.5pt;font-weight:500;letter-spacing:.04em}
+.cv-contact{position:absolute;left:12mm;right:12mm;top:281mm;margin:0;color:var(--color-background);font-size:7.5pt;line-height:1.5;font-weight:500;text-align:left}
+.cv-tear{position:absolute;right:12mm;top:259mm;width:62mm;padding:2.5mm 4mm;border:.5mm dashed var(--color-accent);color:var(--color-background);display:flex;align-items:center;gap:3mm}
+.cv-tear b{font-size:22pt;font-weight:900;color:var(--color-accent);line-height:1;white-space:nowrap}
+.cv-tear p{margin:0;font-size:8pt;line-height:1.5;font-weight:700;text-align:left}
