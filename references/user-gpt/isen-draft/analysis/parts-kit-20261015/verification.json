@@ -1,0 +1,255 @@
+{
+  "date": "2026-10-15",
+  "scope": "parts handoff preparation only",
+  "created_by": "parent; not the verify.ts automatic output",
+  "compile": {
+    "check_count": 26,
+    "checks": [
+      {
+        "theme": "hal",
+        "partial": "icon",
+        "variant": 0,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "info-card",
+        "variant": 1,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "info-card",
+        "variant": 2,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "flow",
+        "variant": 3,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "data-table",
+        "variant": 4,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "speech",
+        "variant": 5,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "speech",
+        "variant": 6,
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "icon",
+        "kind": "people",
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "icon",
+        "kind": "book",
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "icon",
+        "kind": "document",
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "icon",
+        "kind": "calendar",
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "icon",
+        "kind": "pin",
+        "compiled": true
+      },
+      {
+        "theme": "hal",
+        "partial": "icon",
+        "kind": "chat",
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "icon",
+        "variant": 0,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "info-card",
+        "variant": 1,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "info-card",
+        "variant": 2,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "flow",
+        "variant": 3,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "data-table",
+        "variant": 4,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "speech",
+        "variant": 5,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "speech",
+        "variant": 6,
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "icon",
+        "kind": "people",
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "icon",
+        "kind": "book",
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "icon",
+        "kind": "document",
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "icon",
+        "kind": "calendar",
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "icon",
+        "kind": "pin",
+        "compiled": true
+      },
+      {
+        "theme": "isen",
+        "partial": "icon",
+        "kind": "chat",
+        "compiled": true
+      }
+    ]
+  },
+  "visual_checks": {
+    "images": [
+      {
+        "src": "company-data/photos/student-img-5235.jpg",
+        "loaded": true
+      },
+      {
+        "src": "company-data/photos/student-img-5235.jpg",
+        "loaded": true
+      }
+    ],
+    "themes": 2,
+    "examples": 14,
+    "overflow": false,
+    "mobile_overflow": false
+  },
+  "parent_images_seen": [
+    "references/user-gpt/isen-draft/analysis/parts-kit-20261015/reviews/desktop.png",
+    "references/user-gpt/isen-draft/analysis/parts-kit-20261015/reviews/mobile.png"
+  ],
+  "commands": {
+    "component_compile": "pass (26 cases)",
+    "typecheck": "pass",
+    "validate": "pass (0 errors / 53 warnings)",
+    "yaml_parse": "pass (3 files)",
+    "diff_check": "pass",
+    "full_test_suite": "not rerun; previous Windows failures are outside this parts-only check"
+  },
+  "not_approved": [
+    "complete brochure",
+    "school facts",
+    "photo final crop",
+    "print release",
+    "model switch"
+  ],
+  "files": [
+    {
+      "path": "references/user-gpt/isen-draft/analysis/parts-kit-20261015/handoff.md",
+      "sha256": "a8e8c477ce0927a1614ca5cdac06abea17946c1311753ece2e01b058fa67a20b"
+    },
+    {
+      "path": "references/user-gpt/isen-draft/analysis/parts-kit-20261015/jobs.yaml",
+      "sha256": "3675e87907a59275f25ce8d43e4a16b18aa731aaea4048c36f27004a3f72a0ff"
+    },
+    {
+      "path": "references/user-gpt/isen-draft/analysis/parts-kit-20261015/parts-demand.yaml",
+      "sha256": "abbe4e7f1aec651c1018e69ca5e7a3da6e15d7cad5df7e4b06755947c0f6d017"
+    },
+    {
+      "path": "references/user-gpt/isen-draft/analysis/parts-kit-20261015/photo-candidates.yaml",
+      "sha256": "189bae03bcbb5f5bc80e178961f1696deeaf204701a70e4da9a33e6089b1fa5d"
+    },
+    {
+      "path": "shared/components/brochure-kit/verify.ts",
+      "sha256": "8111fc74b9440219ab7d1e7401e75fd28f682c919c373525df17e9fbffc41498"
+    },
+    {
+      "path": "shared/layouts/brochure-kit.css",
+      "sha256": "290efdafd8199a44efa6b1601d6250a88e1c83d912fed9930d183835f73dcf3c"
+    },
+    {
+      "path": "shared/components/brochure-kit/data-table.hbs",
+      "sha256": "6fb779f74418186787ed5fa67468fd4f20e6a66678ea5cc4ac673e7ea1789f24"
+    },
+    {
+      "path": "shared/components/brochure-kit/flow.hbs",
+      "sha256": "2bb8eed1b4ea8264e6a7b2b964027e21572a1c4ed693d1a6c1a390be7129a4a3"
+    },
+    {
+      "path": "shared/components/brochure-kit/icon.hbs",
+      "sha256": "ea9153b3fe7a08e80efd7e1c837f7fa073b068183cd33e39e8813cf2ff543ab9"
+    },
+    {
+      "path": "shared/components/brochure-kit/info-card.hbs",
+      "sha256": "555ed60e4d20c92687426974e3d2846b49aff5feed42c9a6f72f6753c452d04a"
+    },
+    {
+      "path": "shared/components/brochure-kit/speech.hbs",
+      "sha256": "137ac8b44f43690c369a60ca7a88219aa79e7dee09122319958b246580b0a19f"
+    },
+    {
+      "path": "references/user-gpt/isen-draft/analysis/parts-kit-20261015/reviews/desktop.png",
+      "sha256": "e79b4d02506a2019ca2f578a8e01a93a6200dc5b6d30f688b45c25783b159e2b"
+    },
+    {
+      "path": "references/user-gpt/isen-draft/analysis/parts-kit-20261015/reviews/mobile.png",
+      "sha256": "45323de3c109833728b8a38556cf4893821a23d323c37ac6c831b11240582766"
+    }
+  ]
+}

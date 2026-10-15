@@ -1,0 +1,6 @@
+{{!-- 必須 caption/columns[]/rows[{label,values[]}]。値を再計算せず渡された内容を表示。任意note。 --}}
+<div class="bk-table-wrap"><table class="bk-table">
+  <caption>{{caption}}</caption>
+  <thead><tr>{{#each columns}}<th scope="col">{{this}}</th>{{/each}}</tr></thead>
+  <tbody>{{#each rows}}<tr><th scope="row">{{label}}</th>{{#each values}}<td>{{this}}</td>{{/each}}</tr>{{/each}}</tbody>
+</table>{{#if note}}<p class="bk-table__note">{{note}}</p>{{/if}}</div>

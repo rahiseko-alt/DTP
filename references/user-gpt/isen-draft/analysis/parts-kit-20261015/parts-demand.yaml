@@ -1,0 +1,77 @@
+version: 1
+date: 2026-10-15
+analysis_source: references/user-gpt/isen-draft/reviews/analysis-20261014/integrated-analysis.md
+scope: 原画の構成意図を部品へ分解する。完成ページは作らない
+existing:
+  components: [photo-frame, section-heading, stat-card, qr-block, folio]
+  styles: [shared/layouts/grid.css, shared/layouts/typography.css, shared/layouts/components.css]
+  actual_photos: company-data/photos/photos.yaml
+  generated_processed: shared/generated-assets/gpt-faithful-parts-20261013/manifest.json
+  generated_other: [shared/generated-assets/gpt-brochure-parts/, shared/generated-assets/gpt-neon-parts/]
+new_parts:
+  implemented: [brochure-kit/icon, brochure-kit/info-card, brochure-kit/flow, brochure-kit/data-table, brochure-kit/speech]
+  styles: shared/layouts/brochure-kit.css
+  status: 部品の表示確認用。実際の学校原稿・本番テーマは未入力
+pages:
+  - source: references/user-gpt/isen-draft/page_020.png
+    printed_page: 17
+    role: 誰が何を支えるかを見せ、本人と親の相談不安を下げる
+    structure: 大相談写真→5支援カード→保護者向け帯と3円図
+    required_parts: [hero, icon, info-card, speech, support-diagram, folio]
+    source_photo_slots: 7
+    actual_photo_candidates: [student-img-5076, student-img-5234, student-img-5074]
+    limitation: 学習場面はあるが、役割確認済み教員・保護者相談・支援制度の現物は不足
+  - source: references/user-gpt/isen-draft/page_021.png
+    printed_page: 19
+    role: 日本語・継続・進路・費用という4不安を、相談と支援の理解につなぐ
+    structure: 親子相談→4不安→4支援→4理由→締め
+    required_parts: [hero, speech, icon, info-card, folio]
+    source_photo_slots: 10
+    actual_photo_candidates: [student-img-5235, student-dsc-1164, student-dsc-1264]
+    limitation: 学生の実場面は使えるが、保護者面談・親の声・支援実績に読み替えない
+  - source: references/user-gpt/isen-draft/page_022.png
+    printed_page: 20
+    role: 支払者が総額・内訳・含まれるもの・支払方法を判断する
+    structure: 大写真→学費表と4説明→支払方法4→支援3
+    required_parts: [hero, data-table, icon, info-card, folio]
+    source_photo_slots: 1
+    actual_photo_candidates: [student-img-5235]
+    limitation: 学生写真は補助。原画の134万円/178万円不整合を部品の既定値にしない。2028金額は未確定
+  - source: references/user-gpt/isen-draft/page_023.png
+    printed_page: 21
+    role: いつ必要な資金を用意し、何の制度を使えるかを判断する
+    structure: 大写真→6段階時系列→内訳とAO比較→分納と準備
+    required_parts: [hero, payment-timeline, data-table, icon, checklist, folio]
+    source_photo_slots: 1
+    actual_photo_candidates: [student-img-5074]
+    limitation: flowは支払時系列の代替にしない。AO帯/表の差、期日・分納条件の確定が必要
+  - source: references/user-gpt/isen-draft/page_024.png
+    printed_page: 22
+    role: 検討から募集要項確認・準備・出願・相談という行動へ移す
+    structure: 大写真→6手順→書類と選考→区分と日程→注意と問い合わせ
+    required_parts: [hero, flow, document-list, data-table, checklist, contact-panel, qr-block, folio]
+    source_photo_slots: 1
+    actual_photo_candidates: [student-img-3291, student-img-3288, student-17]
+    limitation: 入学式写真を出願受付/AO面接へ読み替えない。日程/書類は年度と対象を確認。ダミー連絡先と生成QRは流用しない
+  - source: references/user-gpt/isen-draft/page_025.png
+    printed_page: 23
+    role: 通う場所・設備・通学と生活を具体化する
+    structure: 学習大写真→主要設備4→その他4とアクセス→周辺3と声2
+    required_parts: [hero, info-card, icon, access-panel, testimonial, folio]
+    source_photo_slots: 15
+    actual_photo_candidates: [student-img-5076, student-img-5235]
+    limitation: 実教室以外の設備/校舎/近隣写真/正しい経路/学生取材が不足。原画の徒歩時間は採用しない
+optional_unit:
+  id: foreign-student-companions
+  pages: 2
+  mode: 見開き全体を足す/引く
+  intent: 外国人の仲間がいる学校生活を主訴求にする
+  photo_candidates: [student-img-5088, student-img-5089, student-img-5238, student-dsc-1164, student-dsc-1171, student-dsc-1097]
+  required_parts: [photo-frame, section-heading, hero, info-card, folio]
+  constraints: [日本人学生を加えない, 顔から国籍や友人関係を断定しない, 公園を校庭に見せない, 掲載位置と採番は上位判断]
+photo_occurrences: 35
+photo_occurrence_note: 原画6面における出現箇所数。同じ被写体の再使用を含み、独立した原素材35点という意味ではない
+deferred:
+  - hero/support-diagram/payment-timeline等の未定義APIを低モデルに発明させない
+  - 6面の本番原稿採否・写真採否・代表配置は上位担当
+  - 既存57点の加工版と実写真の正本を混同しない

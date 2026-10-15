@@ -1,0 +1,9 @@
+{{!-- 必須: kind（people/book/document/calendar/pin/chat）。装飾アイコンで学校の設備・制度の存在は示さない。 --}}
+<svg class="bk-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+{{#if (eq kind "people")}}<circle cx="12" cy="10" r="4"/><path d="M4 28v-6a8 8 0 0 1 16 0v6M23 6a4 4 0 0 1 0 8m1 4a7 7 0 0 1 4 6v4"/>{{/if}}
+{{#if (eq kind "book")}}<path d="M16 8v20M3 5c5-1 9 0 13 3 4-3 8-4 13-3v20c-5-1-9 0-13 3-4-3-8-4-13-3Z"/>{{/if}}
+{{#if (eq kind "document")}}<path d="M7 3h12l7 7v19H7ZM19 3v8h7M11 16h10m-10 5h10m-10 4h6"/>{{/if}}
+{{#if (eq kind "calendar")}}<rect x="4" y="6" width="24" height="23" rx="2"/><path d="M10 3v7M22 3v7M4 14h24M10 19h3m6 0h3m-12 5h3m6 0h3"/>{{/if}}
+{{#if (eq kind "pin")}}<path d="M26 13c0 8-10 17-10 17S6 21 6 13a10 10 0 1 1 20 0Z"/><circle cx="16" cy="13" r="3.5"/>{{/if}}
+{{#if (eq kind "chat")}}<path d="M28 14c0 7-6 11-13 11h-3l-8 5 2-9a10 10 0 0 1-3-7C3 7 9 3 16 3s12 4 12 11Z"/><path d="M10 14h1m5 0h1m5 0h1"/>{{/if}}
+</svg>

@@ -2,6 +2,16 @@
 
 再開位置・次の作業・注意点をこの台帳に集約する。現在有効な情報は確定台帳、判断や変更の理由は経緯台帳、読み書きの手順は運用ルール台帳を参照する。原本・制作物の実体は各フォルダに置く。
 
+## 2026-10-15 パーツ先行・低コストモデルへの引継ぎ準備
+
+- 人間は「構成意図→現冊子との整合→実学生写真で再構成」の順を指定。その後、冊子全体制作よりパーツ先行を承認し、仮ゴールを「低コストモデルへ交代できる範囲までの計画確定」に限定した。モデル交代自体は未実行。
+- 2パターンは外国人の仲間の多さを主訴求にする任意2ページの追加/除外。実写真/デジタル表現、HAL/医専テイストはそれぞれ別軸。日本人学生は現在0人という人間申告を制作条件に保持。日本人の友人を望む保護者のニーズを実績へ変えない。撮影した冊子モックアップを最終印刷紙面として貼る方式は終了し、正本・参考として残す。
+- 既存構成を維持。実写真79点はcompany-data/photos、生成57点はshared/generated-assets、構造はshared/components、CSSはshared/layouts、後段の配置はbooks。写真を複写/生成入力しない。追加6原画の必要パーツと写真18点実見（17候補/1保留）の用途制限・不足を保存。
+- 引継ぎ実体は `references/user-gpt/isen-draft/analysis/parts-kit-20261015/` のhandoff.md/jobs.yaml/parts-demand.yaml/photo-candidates.yaml。作業ブランチcodex/gpt-faithful-parts-20261013、PR #40はドラフト継続。
+- 着手済みはshared/components/brochure-kitのicon/info-card/flow/data-table/speechの5種とshared/layouts/brochure-kit.css。既存エンジンの厳格描画26条件、PC/mobileの画像読込と表示確認、typecheck・validateエラー0、diffcheckを実施。警告53は未確定学校情報等。新BOOK・冊子PDF・学校facts・実写真本体は変更なし。最終紙面/印刷適合の承認とはしない。
+- 次の一手はjobs.yamlのL01「チェックリスト部品1種」だけを指定した低コストモデルへ渡すこと。許可4ファイル、API/DOM/CSS/確認ケース/拒否条件が固定されている。写真採否、内容確定、未定義API、任意見開きの位置/採番/面付けは上位担当。独立点検と引継ぎ判定の結果は同フォルダーreviewsを参照。仮ゴール達成後に冊子全体へ自動展開しない。
+- 独立確認2名が初回の曖昧さ（チェックリストの具体配置、検証成果名）を指摘し、親が修正。再確認でL01のみready。対象jobs.yaml SHA256は `3675e87907a59275f25ce8d43e4a16b18aa731aaea4048c36f27004a3f72a0ff`。仮ゴールの引継ぎ準備は完了。証拠はreviews/readiness.jsonとverification.json。
+
 ## 2026-10-14 GPT原画7枚の忠実パーツ制作
 
 ### Drive保存と追加6枚の分析（2026-10-14）

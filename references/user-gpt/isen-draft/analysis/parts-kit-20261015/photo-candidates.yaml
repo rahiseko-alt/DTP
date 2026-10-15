@@ -1,0 +1,127 @@
+date: 2026-10-15
+reviewer: /root/parts_business
+registry: company-data/photos/photos.yaml
+inspected: 18
+candidates: 17
+status: 実見済みの配置候補。写真の採用・トリム・冊子組込みは未実施
+provenance: 登録写真の元データを読取り、AI生成/編集を使用していない
+common:
+  - 原画像と登録情報を変更・複製しない。実写真はAI入力禁止
+  - 在校生本人の掲載承諾は登録上取得済み。職員/第三者や画面/資料の扱いは配置ごとに確認
+  - 役職/国籍/母語/個人的な友人関係を外見から推定しない
+  - positionは指定枠を想定した候補で、最終クロップの承認ではない
+  - dpiは元画素から計算。ピント/圧縮/印刷品質の合格を意味しない
+placements_mm:
+  large: [100, 60]
+  small: [45, 35]
+photos:
+  - id: student-img-3291
+    scene: 入学式の受付
+    use: 入学後の様子を示す補助
+    large_position: 50% 55%
+    small_fit: contain
+    limits: 職員肖像・机上書類を確認。保護者/学費相談やAO面接に読み替えない。2026年表示を改変しない
+  - id: student-img-3288
+    scene: 入学式で書類を受け取る場面
+    use: 入学場面の補助
+    large_position: 45% 55%
+    small_fit: contain
+    limits: 職員/書類を確認。合格通知・学費納入・個別指導と説明しない
+  - id: student-17
+    scene: 入学式後の集合
+    use: 仲間/学校全体の補助
+    large_position: 50% 70%
+    small_fit: contain
+    limits: 全員の顔と職員条件を確認。人物名/役職/国籍を割り振らない
+  - id: student-356
+    scene: 教室後方からの授業
+    use: 実教室/学ぶ様子の予備候補
+    large_position: 50% 50%
+    small_fit: contain
+    limits: モニター映像の権利と説明者条件の確認待ち。AI授業と断定しない
+  - id: student-img-5076
+    scene: 教室で短冊やノートへ書く学生たち
+    use: 学習/同じ場で過ごす様子の主候補
+    large_position: 50% 30%
+    small_fit: contain
+    limits: 立つ人を教員と断定せず、ノート/画面を確認。個別補習/AI授業の証拠にはしない
+  - id: student-img-5234
+    scene: ホワイトボードに書く人物と周囲の学生
+    use: 共同学習/教室
+    large_position: 50% 25%
+    small_fit: contain
+    limits: 人物の役割とボード記載を確認。記載された活動案を実施実績にしない
+  - id: student-img-5238
+    scene: ボード前で説明し向き合う学生たち
+    use: 仲間/共同活動の主候補
+    large_position: 50% 0%
+    small_fit: contain
+    limits: 教師/個別相談/企業連携/日本人交流と説明しない。頭の上端を保護
+  - id: student-img-5235
+    scene: 机を囲み大きな資料を見せて話す学生たち
+    use: 仲間/共同作業の主候補
+    large_position: 50% 40%
+    small_fit: contain
+    limits: 資料・背景人物の条件を確認。保護者相談・学費説明へ読み替えない
+  - id: student-img-5074
+    scene: 机で書く学生の近景
+    use: 学習の補助
+    large_position: 60% 10%
+    small_fit: contain
+    limits: 顔・手・ノート/画面を確認。願書/学費書類の記入と説明しない
+  - id: student-img-5073
+    scene: 青い短冊へ書く手元
+    use: 学習/行事準備の小写真
+    large_position: 50% 55%
+    small_fit: contain
+    limits: スマートフォン/記載を確認。出願やAI利用の証拠にはしない
+  - id: student-img-5088
+    scene: 短冊の前で笑顔の学生たち
+    use: 仲間見開きの主候補
+    large_crop_candidate_px: [180, 600, 3500, 2100]
+    small_crop_candidate_px: [320, 520, 3200, 2489]
+    limits: 右端の別人物と掲示/短冊を確認し、候補枠で全員の顔と手を再検査。未合成
+  - id: student-img-5089
+    scene: 短冊をひもに取り付ける共同作業
+    use: 仲間見開きの補助
+    large_position: 60% 45%
+    small_fit: contain
+    limits: 手/短冊を残す。相談や本人の証言写真にしない
+  - id: student-dsc-1151
+    scene: 芝生で食事中の学生たち
+    use: 仲間/屋外で過ごす様子
+    large_position: 50% 100%
+    small_fit: contain
+    limits: 左端人物を確認。学内食堂・食事提供制度と説明しない
+  - id: student-dsc-1171
+    scene: 公園での集合
+    use: 仲間見開きの主候補
+    large_position: 50% 100%
+    small_fit: contain
+    limits: 登録captionは8人、実見では7人。人数コピーを使わず上位で再照合。公園をキャンパスと説明しない
+  - id: student-dsc-1164
+    scene: 公園で笑顔の学生ふたり
+    use: 大きな人物写真候補
+    large_position: 50% 0%
+    small_fit: contain
+    limits: 頭と指を切らない。架空の発言/氏名/国籍/友人獲得実績を加えない
+  - id: student-dsc-1264
+    scene: 壁の前で顔を見合わせる学生ふたり
+    use: 仲間/学生紹介の候補
+    large_position: 55% 45%
+    small_fit: contain
+    limits: 衣装から国籍/宗教を断定しない。親子/支援面談に読み替えない
+  - id: student-dsc-1097
+    scene: 芝生で料理を囲む学生たち
+    use: 仲間/屋外での食事
+    large_position: 50% 55%
+    small_fit: contain
+    limits: 商品表示と背景を確認。食費込み/学校の食事制度/校庭を示す写真にしない
+held:
+  - id: student-img-5468
+    reason: 公道通行人と街並みがあり除外範囲未検証。校舎外観/通学経路の証拠として採用しない
+gaps:
+  - 実際の保護者相談/学費相談/AO面接
+  - 役割と掲載条件を確認した教員/支援スタッフ
+  - 実校舎/図書室/ラウンジ/ロッカー/販売機と正しい経路資料
+  - 掲載同意/出典付きの学生コメント
