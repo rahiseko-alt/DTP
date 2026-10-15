@@ -1,0 +1,44 @@
+{
+  "source": "school-own",
+  "kind": "admissions-2027",
+  "title": "2027年度 募集要項・願書類（日本人向け）",
+  "obtained": "2026-10-15",
+  "usage": "own-material",
+  "own_material": true,
+  "notes": "自社の現行正式書類として人間が保管を指示。適用は2027年度4月入学。2028年度の条件へ自動転用しない。確定台帳は未更新。xlsの中身は未確認。",
+  "forbidden_terms": [],
+  "files": [
+    {
+      "path": "original/AO入試エントリーシート.pdf",
+      "sha256": "53ed218eff2dedb653c4ac44d68b928b38c6b07ad5ad0ff878b587ffce8bb86a"
+    },
+    {
+      "path": "original/募集要項2027.docx",
+      "sha256": "a5edd74bed822ce4680f12ee342a3f245618d351e2d09450041182c64304fd6d"
+    },
+    {
+      "path": "original/推薦書.pdf",
+      "sha256": "f1ea9c066cf4927617265c3ab174b771e9b6bf4598fa1aa5419075800443a168"
+    },
+    {
+      "path": "original/日本人用願書.xls",
+      "sha256": "377c93abc2ef3b82b99a754c5a0bfe55d8d8cc24627553bd9e5a8fe10d2ccb55"
+    },
+    {
+      "path": "original/日本人用願書_様式1_入学願書.pdf",
+      "sha256": "5d90bb0c9d16cdcd9fc5cf4010c13b1f59632a9596ca01f5dbe56ab610ba25f0"
+    },
+    {
+      "path": "original/日本人用願書_様式2_志望理由書.pdf",
+      "sha256": "031334b7db0da7c5389bc7145f1ba69862b9966de44c04ee00e5af06d0a92abb"
+    },
+    {
+      "path": "original/日本人用願書_様式3_誓約書保証書.pdf",
+      "sha256": "9e435556b42f804dd6e7e796182c757db796275a50b56291325eeca6ee9358c5"
+    },
+    {
+      "path": "original/日本人用願書_様式4_入学検定料振込証明書.pdf",
+      "sha256": "78e48c62ed37e7d7cb8b4e1b6dd94935faa59ea6316298e4b04d93b2f6a78570"
+    }
+  ]
+}
