@@ -2,15 +2,21 @@ version: 1
 date: 2026-10-15
 root: C:/Users/user/Documents/ChatGPT/DTP
 mode: parts-only
+mode_scope: '本ファイルは下位担当に切り出す部品作業票の状態。全冊制作ロードマップはimplementation-plan.mdが正本であり、このmodeは全体計画の範囲をparts-onlyへ制限しない。'
+implementation_plan: references/user-gpt/isen-draft/analysis/parts-kit-20261015/implementation-plan.md
 handoff_ready_means: 入力・成果・編集範囲・確認方法が固定され、設計再判断なしで最初の1件を実装できる
-current_components: [icon, info-card, flow, data-table, speech]
+current_components: [icon, info-card, flow, data-table, speech, checklist]
 shared_api: shared/components/brochure-kit/README.md
 verify_command: npx tsx shared/components/brochure-kit/verify.ts
 common_forbidden_paths: [company-data, system, books, .codex, .claude, references/user-gpt/isen-draft/page_020.png, references/user-gpt/isen-draft/page_021.png, references/user-gpt/isen-draft/page_022.png, references/user-gpt/isen-draft/page_023.png, references/user-gpt/isen-draft/page_024.png, references/user-gpt/isen-draft/page_025.png]
 jobs:
   - id: L01
     title: チェックリスト部品1種を固定仕様で追加
-    status: ready_after_parent_handoff_check
+    status: completed
+    readiness_status: ready_after_parent_handoff_check
+    execution_status: completed
+    completion_commit: bee601d
+    completion_evidence: references/user-gpt/isen-draft/analysis/parts-kit-20261015/verification.json
     owner: lower-cost-worker
     allowed_files:
       - shared/components/brochure-kit/checklist.hbs
@@ -28,7 +34,7 @@ jobs:
       mark: 'span.bk-checklist__markはposition:relative/flex:0 0 4mm/width:4mm/height:4mm/margin-top:.6mm/background:var(--color-primary)。::afterはcontent空文字/position:absolute/left:1mm/top:1.1mm/width:2mm/height:1mm/border-left:.35mm solid var(--color-background)/border-bottom同値/transform:rotate(-45deg)。画像・文字グリフは使わない'
       hal: '.bk-kit[data-theme="hal"] .bk-checklist>liにborder-left:1mm solid var(--color-primary)、border-radius:0、background:var(--color-background)。markはborder-radius:0。ulに太線を付けない'
       isen: '.bk-kit[data-theme="isen"] .bk-checklist>liにborder-left:0、background:var(--color-surface)、border-radius:3mm。markはborder-radius:50%。paddingは共通3mm。ulに太線を付けない'
-      restrictions: '新部品のセレクターだけ追加。既存5部品の見た目・API・photos/factsは変更しない'
+    restrictions: 'この実装時点での既存5部品の見た目・API・photos/factsは変更しない。現在はchecklistを含め6部品が実装済み'
     acceptance:
       - '任意title/detailなしのケースが厳格モードで描画できる'
       - 'title/detailあり・2項目・6項目・長いlabelの4ケースをHAL/医専で確認する'
@@ -42,6 +48,7 @@ jobs:
   - id: L02
     title: 指定された写真ID・寸法の一覧を更新
     status: needs_parent_selected_ids
+    execution_status: not_started
     allowed_files: [shared/components/brochure-kit/photo-metrics.json]
     input: '親が確定したphoto id配列のみ。photos.yamlは読取専用'
     output: 'id、実ファイル存在、sha256、px、想定枠mm、cover/contain実効dpi。画像は変更しない'
@@ -49,20 +56,23 @@ jobs:
   - id: H01
     title: 代表配置とテイストを判断
     status: upper-model-only
+    execution_status: planned_in_implementation_plan
     reason: '写真の意味、情報階層、参照密度、トリム、HAL/医専の構成判断は機械的な実装ではない'
   - id: H02
     title: 未実装パーツのAPIと採否を決める
     status: upper-model-only
+    execution_status: planned_in_implementation_plan
     candidates: [editorial-hero, payment-timeline, support-diagram, document-list, contact-panel, access-panel, testimonial]
     reason: '支払timelineと手順flowを混同しない。施設/取材/制度の不足を先に確認。低モデルへ未定義のまま渡さない'
   - id: H03
     title: 任意2ページの実冊子への組込み
     status: upper-model-only
+    execution_status: planned_in_implementation_plan
     requirements: ['見開き全体ON/OFF', '親が対象BOOKと位置を指定', '採番/対向面/製本を確認', '日本人の友人獲得を約束しない']
     reason: '今回の部品作業にBOOK順の機能追加は含めない'
 handoff_gate:
   - 作業票L01が許可ファイル内で完結する
-  - 既存5部品の厳格モードと表示確認が完了する
+  - 実装時点の既存5部品と新checklist部品の厳格モード・表示確認が完了する
   - 原画6面の需要と実写真候補/不足が記録されている
   - 独立確認で未定義の設計判断がL01に残っていない
   - 親がcommit/pushし、現ブランチと再開位置を記録する
