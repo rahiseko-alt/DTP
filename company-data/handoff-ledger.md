@@ -2,6 +2,7 @@
 
 ## 2026-10-15 全体実行計画の確定
 
+- 終了確認: branch `codex/gpt-faithful-parts-20261013` は `origin` と一致し作業ツリーはclean。PR #40はGitHub上でDraft。origin/mainは `3890d93` で、merge-base以降の変更が `company-data/handoff-ledger.md` と `company-data/history-ledger.md` に重なる。衝突/内容統合を行っていないためPRはドラフトのまま保持し、mainへはマージしない。コンテナ終了に必要な成果・状態はpush済み。
 - 追加6面と「外国人の仲間」を主訴求する任意2面について、ページ差替え×全冊テイスト×ページ別画像表現を独立選択できる実行計画を作成。根拠・依存・担当・受入条件・完了条件まで `references/user-gpt/isen-draft/analysis/parts-kit-20261015/implementation-plan.md` に記録。
 - 基準案は `prospectus-hal-2028` の既存p8–11の役割を印刷17/19/20/21へ置換し、22/23を追加、裏表紙を維持する14ページ。任意見開きは学費の前へ一体挿入して16ページとする。これは制作計画上の提案で、採用・物理面付け・印刷会社承認は未了。出力時にfolioを再採番する。
 - 8通りを複製せず、版manifestが見開きON/OFFとページ順を決め、HAL/医療系の完全なスタイルプロファイルを切替え、実写真/明示的デジタル表現をページごとに選ぶ。既存のrendererと部品テーマ差分だけでは全冊の掛け算が実現しないため、マニフェスト/schema/検証機能の実装を計画に含めた。
