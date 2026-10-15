@@ -1,0 +1,129 @@
+{
+  "pdf_sha256": "2277fb358c3537ac77a9f67b7babea3abd11ba6a7189449c04fb88bd8301b696",
+  "mode": "preview",
+  "page_count": 16,
+  "binding": "left",
+  "editor_session": "a2179980e2461a20d",
+  "reviewer_session": "a9d3f14c5d81c6003",
+  "pages_seen": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "spreads_seen": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      16
+    ]
+  ],
+  "dimensions": {
+    "content": "pass",
+    "audience": "pass",
+    "spreads": "pass",
+    "rhythm": "pass",
+    "legibility": "pass",
+    "assets": "pass",
+    "output": "pass"
+  },
+  "checks": {
+    "validate": "pass",
+    "render": "pass",
+    "visual_pages": "pass",
+    "visual_spreads": "pass"
+  },
+  "findings": [
+    {
+      "severity": "minor",
+      "pages": [
+        15
+      ],
+      "issue": "マーカー3が表の枠線に重なり他のマーカーと配置が不揃い。薄い白帯が残る",
+      "evidence": "output/png/page_015.png",
+      "required_fix": "余裕があれば整える"
+    },
+    {
+      "severity": "minor",
+      "pages": [
+        16
+      ],
+      "issue": "経路図は事実どおりだが情報が少ない（地図素材なし）",
+      "evidence": "output/png/page_016.png",
+      "required_fix": "地図素材の受領後に差し替える"
+    },
+    {
+      "severity": "minor",
+      "pages": [
+        13
+      ],
+      "issue": "記入欄が原本約39mmに対し約37.8mm。実害なし",
+      "evidence": "output/png/page_013.png",
+      "required_fix": "余裕があれば高さを合わせる"
+    }
+  ],
+  "evidence": {
+    "見開き画像": [
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_01.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_02_03.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_04_05.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_06_07.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_08_09.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_10_11.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_12_13.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_14_15.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_16.png"
+    ],
+    "検証": [
+      "親が sha256sum・pdfinfo(16ページ)・npm run validate(エラー0)・npm run typecheck(終了0)を実行。制作担当がpdffontsで全フォント埋め込みを確認。QR復号: P8: https://kaihougakuen.my.canva.site/ / P16: https://kaihougakuen.my.canva.site/",
+      "独立レビュアーは全16ページ・全9見開きを画像で目視（4回目、7pt引き上げ後）。npm test・--releaseは未実施"
+    ],
+    "参照構成比較": [
+      "HAL page_004/012の縦フロー→P3、kokusai page_005・nagoya-iryo page_003の区分対応表→P4・P5。他校固有情報の流用なし"
+    ],
+    "依頼条件照合": [
+      "日本人用区分非表記、本文ルビなし、様式3宛名の学校法人訂正と2学科選択肢、書類番号1〜7、記入欄の書き込み可能性、文字切れなし、事実の一致、7pt以上への引き上げ、写り込み問題なし、学費は募集要項優先を反映"
+    ]
+  }
+}
