@@ -14,10 +14,6 @@
   <div class="box paste">
     <p>この上に、入学検定料振り込みが確認できるもの（振込み明細票等）を貼り付けてください。</p>
   </div>
-  <p class="small">振込先：{{facts.admissions.payment_account.bank}}　{{facts.admissions.payment_account.branch}}（店番{{facts.admissions.payment_account.branch_code}}）　{{facts.admissions.payment_account.type}}　{{facts.admissions.payment_account.number}}　{{facts.admissions.payment_account.holder}}<br>{{lookup facts.admissions.payment_notes 1}}</p>
+  <p class="small">振込先：{{facts.admissions.payment_account.bank}}　{{facts.admissions.payment_account.branch}}（店番：{{facts.admissions.payment_account.branch_code}}）　{{facts.admissions.payment_account.type}}　{{facts.admissions.payment_account.number}}　{{facts.admissions.payment_account.holder}}<br>{{lookup facts.admissions.payment_notes 1}}</p>
   <p class="sign">{{facts.school.name}}</p>
 </div></div>
-<footer class="page-folio" data-side="{{page.side}}">
-  <span class="page-folio__number num">{{page.number}}</span>
-  <span class="page-folio__school">{{facts.school.name}}</span>
-</footer>

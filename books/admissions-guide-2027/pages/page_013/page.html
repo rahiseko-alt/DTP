@@ -19,9 +19,9 @@
   <div class="bar">志望学科</div>
   <div class="gx gd"><div class="r r--s2 r--one"><div class="c c--opts">{{#each facts.courses.courses}}<span class="cb"></span>{{name}}{{/each}}</div></div></div>
 
-  <div class="ta"><div class="ta__h" style="padding:.5mm 3mm">この学科を選んだ理由　（250文字程度）</div><div class="ta__b" style="--lh:6.05mm;height:36.3mm"></div></div>
-  <div class="ta"><div class="ta__h" style="padding:.5mm 3mm">今まで力を入れてきたこと　（学業・課外活動・仕事・趣味など）　（300文字程度）</div><div class="ta__b" style="--lh:6.05mm;height:36.3mm"></div></div>
-  <div class="ta"><div class="ta__h" style="padding:.5mm 3mm">将来のビジョン・目標　（卒業後の進路・なりたい姿など）　（300文字程度）</div><div class="ta__b" style="--lh:6.05mm;height:36.3mm"></div></div>
+  <div class="ta"><div class="ta__h" style="padding:.5mm 3mm">この学科を選んだ理由　（250文字程度）</div><div class="ta__b" style="--lh:5.95mm;height:35.7mm"></div></div>
+  <div class="ta"><div class="ta__h" style="padding:.5mm 3mm">今まで力を入れてきたこと　（学業・課外活動・仕事・趣味など）　（300文字程度）</div><div class="ta__b" style="--lh:5.95mm;height:35.7mm"></div></div>
+  <div class="ta"><div class="ta__h" style="padding:.5mm 3mm">将来のビジョン・目標　（卒業後の進路・なりたい姿など）　（300文字程度）</div><div class="ta__b" style="--lh:5.95mm;height:35.7mm"></div></div>
 
   <div class="bar">現役高校生の方へ（保護者または担任の署名）</div>
   <p class="small" style="padding:1mm 2mm">{{lookup facts.admissions.ao_entry_notes 0}}</p>
@@ -40,7 +40,3 @@
   <p class="f-send__h">送付先</p>
   <p>〒{{facts.school.address.postal_code}}<br>{{facts.school.address.prefecture}}{{facts.school.address.city}}{{facts.school.address.line1}}<br>{{facts.school.name}}　{{facts.contacts.contacts.0.label}}<br>TEL：{{facts.school.tel}}</p>
 </aside>
-<footer class="page-folio" data-side="{{page.side}}">
-  <span class="page-folio__number num">{{page.number}}</span>
-  <span class="page-folio__school">{{facts.school.name}}</span>
-</footer>

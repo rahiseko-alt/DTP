@@ -1,0 +1,76 @@
+{
+  "pdf_sha256": "5353c7944fbe6829c7a1746ad365229d54d65ec756973a842a8af5548673a469",
+  "mode": "preview",
+  "page_count": 2,
+  "binding": "left",
+  "editor_session": "d4d88b34-8741-4b83-a47d-0ded8f34e84d",
+  "reviewer_session": "a88c63a1-5197-4eb0-bad9-26872857f526",
+  "pages_seen": [
+    1,
+    2
+  ],
+  "spreads_seen": [
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "dimensions": {
+    "content": "pass",
+    "audience": "pass",
+    "spreads": "pass",
+    "rhythm": "pass",
+    "legibility": "pass",
+    "assets": "pass",
+    "output": "pass"
+  },
+  "checks": {
+    "validate": "pass",
+    "render": "pass",
+    "visual_pages": "pass",
+    "visual_spreads": "pass"
+  },
+  "findings": [
+    {
+      "severity": "minor",
+      "pages": [
+        1
+      ],
+      "issue": "表面メインビジュアル（books/prospectus-hal-2028/backgrounds/cover-armor.png、元サイズ1055×1491px）を244mm×214mmで拡大配置しているため、実効解像度が約110〜124ppi相当となり印刷用release基準（350dpi）には満たない（previewモードでは許容範囲）。",
+      "evidence": "books/prospectus-hal-2028/backgrounds/cover-armor.prompt.yaml の size: 1055x1491 記載および books/avatar-oc-2028/layout.css の .hero-character（width: 244mm; height: 214mm）を確認。page_001.png 目視ではディテール破綻や文字焼込みはなくpreview用途として十分な品質。",
+      "required_fix": "preview提出では修正不要。将来 --release（印刷入稿本番）へ進める際には、高解像度化（アップスケールまたは350dpi相当のネイティブ生成素材への差し替え）を行うこと。"
+    }
+  ],
+  "evidence": {
+    "見開き画像": [
+      "books/avatar-oc-2028/output/spreads/spread-01-02.png"
+    ],
+    "単ページ画像": [
+      "books/avatar-oc-2028/output/png/page_001.png",
+      "books/avatar-oc-2028/output/png/page_002.png"
+    ],
+    "参照構成比較": [
+      "原本 references/HAL-nagoya/brochure-1/page_001.jpg と出力 books/avatar-oc-2028/output/png/page_001.png（上部〜中段）を比較：共通点として、紙面を大きく支配する精緻な女性キャラクターのクローズアップに対し、極太・高コントラストの巨大タイポグラフィ（『自分主演のAIミュージックビデオを作ろう！』および背面ストローク文字『>MY MV』）がキャラクターの装甲・肩部と大胆にオーバーラップする構図と濃紺×シアン×マゼンタ×イエローの強い明暗対比を反映している。相違点として、他校固有の『>PRO』『HAL NAGOYA '27』等の文字や人物画素は一切使わず、自社の生成資産 cover-armor.png（実在の在校生ではない旨を明記）と今回のOC企画主題で再構成されており、高校生を一瞬で惹きつける主役性が成立している。",
+      "原本 references/HAL-nagoya/brochure-1/page_004.jpg と出力 books/avatar-oc-2028/output/png/page_001.png（左縦レール・中段MV合成比較図・下段開催情報枠）および page_002.png（上部導入帯）を比較：共通点として、縦書きサイドレール（『AI × MY VOICE × MV』）と横組み大見出しの方向変化、斜めカッティング（clip-path polygon）を用いたバッジ、および『要素① BASE × 要素② ACTION（2分割画像） × 要素③ VOICE & MUSIC ＝ COMPLETE!』の各ブロックを広い余白で逃がさず高密度に噛み合わせる構成を反映している。相違点として、単調な均等カードの反復を避け、要素②の2画面分割と完成ブロックの強調配色で『ただのAI動画生成ではなく自分の分身×非日常アクション×自分の声＋AI音楽で家族に見せられるMVになる』という変化プロセスを視覚化している。",
+      "原本 references/HAL-nagoya/brochure-1/page_005.jpg と出力 books/avatar-oc-2028/output/png/page_002.png（上段4ステップ解説・中段左の在校生実写真コラージュ）を比較：共通点として、番号付きの動的ステップ解説と、複数枚の実写真を大小のコントラスト（笑顔の在校生2人 student-dsc-1164 を54.5mm×49mmの大判主役に置き、グループワーク student-img-5238 と授業風景 student-img-5074 を36.2mm×24mmで右側に2段配置）をつけて高密度に組み上げるエディトリアル構成を反映している。相違点として、4ステップ（44.5mm / 47.5mm / 50mm / 1fr）に非均等幅と上下段差（translateY）をつけ、AI臭い均等カード並びを回避しつつ、外国ルーツの高校生に教室の温かい空気感と『自分でもできそう』な手順を同時に伝えている。",
+      "原本 references/HAL-nagoya/brochure-1/page_014.jpg と出力 books/avatar-oc-2028/output/png/page_002.png（中段右の2学科＆講師資格・下段の2027年度参考学費・最下段の親子相談＆連絡先QR）を比較：共通点として、黒・濃紺帯見出し、大きく強調された金額数字（930,000円 / 1,760,000円）、構造化された内訳テーブル、納入時期リスト、連絡先・QRブロックを組み合わせ、紙面下端まで情報密度と秩序を維持する設計を反映している。相違点として、保護者（カーちゃん）の意思決定に直結する学費・納入時期・別途費用を小さな脚注に押し込まず76mm高の独立セクションで明快に提示し、表面のダーク＆ネオン主役面との強い表裏リズム変化を実現している。"
+    ],
+    "依頼条件照合": [
+      "女性キャラクター主役とクリスタル背景透かしの主従（brief.json / design-contract.md）：表面は cover-armor.png を主役として大きく配置し、『※メインビジュアルはAI生成キャラクターによる制作イメージです（実在の在校生ではありません）』と明記。クリスタル素材（cover-armor-watermark-01.png）は表面 opacity: 0.055、裏面 opacity: 0.032、z-index: -1 の背面透かしのみに厳格限定され、人物・実写真・文字を邪魔していないことを確認（pass）。",
+      "体験企画の核（本人＆カーちゃん訴求）：『自分主演のAIミュージックビデオを作ろう』を軸に、①自分の分身（2DでもリアルでもOK）× ②現実ではできない非日常アクション（cover-armor.png と character-blue-edit-example.png / future-gate-01.png の対比）× ③自分の声＋AI音楽合成 ＝ ④10〜20秒のショートMVをスマホに保存して即日持ち帰り、家族（お母さん・カーちゃん）に見せられる体験価値が表面・裏面4ステップの双方で具体的に図解されていることを確認（pass）。",
+      "オープンキャンパス開催情報の未定枠明示：2028年4月入学向けの開催日程・開催時間・参加費を推測で埋めず『【未定】』と明示し、日程記入欄・時間記入欄・持ち物（スマートフォン）・定員目安（1回あたり10人程度）・会場アクセス（JR名古屋駅から徒歩10分）を誠実に記載していることを確認（pass）。",
+      "在校生実写真・2学科・禁止事項の遵守：裏面で登録済み実写真3点（student-dsc-1164, student-img-5238, student-img-5074）を『（実写真）』表記付きで大小配置。国際ビジネスAI科（定員30人）・総合ビジネス科（定員29人）・合計59人・2年制・商業実務専門課程、Google認定教育者 Level 1・2／Gemini認定講師を正確に記載。日本人学生0人のため『日本人の友人ができる』等の表現はなく、学生による学校SNS・HP運営は『予定しています』と明記されていることを確認（pass）。",
+      "保護者向け2027年度参考学費と連絡先QR：『2027年度4月入学（募集要項V4・日本人学生向け）の参考実績額』『2028年4月入学の学費・入試日程等は現在未確定』と明記したうえで、入学検定料20,000円、初年度930,000円（検定料込950,000円）、2年次830,000円、2年間合計1,760,000円（検定料込1,780,000円）、納入時期（入学金10日以内、前期授業料1か月以内、2年次別途通知）、別途費用（教科書代・実習費等は実費負担）を表とカードで明示。親子相談歓迎・連絡先・公式WebサイトQRコード（https://kaihougakuen.my.canva.site/）が正確に配置されていることを確認（pass）。"
+    ],
+    "検証": [
+      "対象PDF books/avatar-oc-2028/output/pdf/avatar-oc-2028.pdf（SHA256: 5353c7944fbe6829c7a1746ad365229d54d65ec756973a842a8af5548673a469、実ページ数: 2）および page_001.png, page_002.png, spread-01-02.png の整合を目視確認",
+      "books/avatar-oc-2028/pages/page_001/page.html, page_002/page.html, layout.css, config/book.yaml と company-data/ledger.md, company-data/facts/*.yaml, photos.yaml, 各 .prompt.yaml の完全照合を実施"
+    ]
+  }
+}

@@ -36,15 +36,23 @@ pages:
   - page_006
   - page_007
   - page_008
-  - page_009
-  - page_010
-  - page_011
-  - page_012
-  - page_013
-  - page_014
   - page_015
+  - page_017
+  - page_009
+  - page_018
+  - page_010
+  - page_019
+  - page_011
+  - page_020
+  - page_012
+  - page_021
+  - page_013
+  - page_022
+  - page_014
+  - page_023
   - page_016
+  - page_024
 output:
   png_dpi: 350                  # 印刷用 PNG の解像度（npm run render の既定）
   preview_dpi: 150              # 作業確認用の目安（npm run render -- --dpi 150 --out /tmp/<確認用>。output/ には置かない）
-notes: ""
+notes: "数字・表記の修正記録: reviews/fix-20261016/changes.md"

@@ -1,6 +1,7 @@
 {{!-- page_006 出願書類一覧とチェック表・注意事項（左ページ） --}}
 <div class="p6-tab" aria-hidden="true"><span>出願書類チェック表</span></div>
 <header class="p6-head">
+  <p class="p6-head__no"><small>第</small><span class="num">5</span><small>章</small></p>
   <h1>出願書類</h1>
   <p>以下の書類を本校所定の封筒に入れ、提出してください。</p>
 </header>
@@ -10,7 +11,7 @@
   <li>
     <i class="p6-check__box"></i>
     <b class="p6-check__no num"></b>
-    <div class="p6-check__name"><h2>{{name}}</h2></div>
+    <div class="p6-check__name"><h2>{{name}}</h2>{{#if pageref}}<span class="p6-pref">{{pageref}}</span>{{/if}}{{#if only}}<span class="p6-only">{{only}}</span>{{/if}}</div>
     <div class="p6-check__note">
       {{#if note}}<p>{{note}}</p>{{/if}}
       {{#if options}}<ul>{{#each options}}<li><i class="p6-check__box p6-check__box--s"></i>{{this}}</li>{{/each}}</ul>{{/if}}

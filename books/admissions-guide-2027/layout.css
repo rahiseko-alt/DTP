@@ -2,8 +2,8 @@
 /* admissions-guide-2027 共通CSS。書き込み用紙（様式）の部品。.fm 配下は様式の罫線表、.f-* は様式ページの帯・切り取り線・送付先 */
 .page{--fl:14mm;--fr:7mm}
 .page[data-side='left']{--fl:7mm;--fr:14mm}
-.f-cut{position:absolute;left:9mm;top:-3mm;bottom:-3mm;width:0;border-left:.3mm dashed var(--color-muted)}
-.page[data-side='left'] .f-cut{left:auto;right:9mm;border-left:0;border-right:.3mm dashed var(--color-muted)}
+.f-cut{position:absolute;left:9mm;top:-3mm;bottom:-3mm;width:.3mm;z-index:4;background:repeating-linear-gradient(to bottom,var(--color-muted) 0 1.6mm,transparent 1.6mm 3.2mm)}
+.f-cut::before{content:'';position:absolute;left:0;top:0;width:.3mm;height:31mm;background:repeating-linear-gradient(to bottom,var(--color-background) 0 1.6mm,transparent 1.6mm 3.2mm)}
 .f-cut span{position:absolute;left:-1.9mm;top:140mm;writing-mode:vertical-rl;background:var(--color-background);padding:2mm 0;font-size:6.5pt;font-weight:500;color:var(--color-muted);letter-spacing:.15em}
 .page[data-side='left'] .f-cut span{left:auto;right:-1.9mm}
 .f-band{position:absolute;left:-3mm;right:-3mm;top:-3mm;height:31mm;background:var(--color-primary)}
@@ -59,7 +59,7 @@
 .fm .c--opts .cb:first-child{margin-left:0}
 .fm .cb{display:inline-block;flex:0 0 auto;width:3.6mm;height:3.6mm;border:.35mm solid var(--color-text);background:var(--color-background)}
 .fm i.cb{margin-right:1mm}
-.fm .c--dots{border-bottom:0;background-image:radial-gradient(circle,var(--color-text) .2mm,transparent .25mm);background-size:1.4mm 100%;background-repeat:repeat-x;background-position:0 62%}
+.fm .c--dots{align-items:flex-start!important;border-bottom:0;background-image:radial-gradient(circle,var(--color-text) .2mm,transparent .25mm);background-size:1.4mm 100%;background-repeat:repeat-x;background-position:0 92%}
 .fm .r--sex{grid-template-columns:20mm 1fr 14mm}
 .fm .c--sex{flex-direction:column;align-items:flex-start;justify-content:center;gap:2mm;padding:0 2mm;font-size:8pt!important;font-weight:700!important}
 .fm .c--sex span{display:flex;align-items:center}
@@ -165,3 +165,6 @@
 .fm .photo i{display:block;flex:0 0 30mm;width:30mm;height:40mm;border:.3mm dashed var(--color-muted);box-sizing:border-box}
 .fm .cir{display:inline-block;border:.3mm solid var(--color-primary);border-radius:50%;padding:0 .8mm;line-height:1.25}
 .f-cut span{font-size:7.5pt!important;font-weight:700!important;color:var(--color-text)!important}
+.f-office--one caption{left:auto;right:0;text-align:right}
+.fm .c--dots .hw{margin-top:.9mm;line-height:1.1}
+.p15-work1 .work{grid-template-rows:9mm 10mm}.p15-work1 .work>*:nth-child(n+7){display:none}.p15-work1 .work__lab{grid-row:1/span 2}
