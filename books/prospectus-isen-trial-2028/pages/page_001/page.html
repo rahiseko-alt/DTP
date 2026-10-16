@@ -1,0 +1,205 @@
+<div class="bk-kit isen-tuition-page" data-theme="isen">
+  <!-- ヘッダー・ノンブル表示 -->
+  <header class="page-header">
+    <div class="header-left">
+      <span class="page-badge">16</span>
+      <span class="header-section-title"><ruby>学費<rt>がくひ</rt></ruby>のご<ruby>案内<rt>あんない</rt></ruby></span>
+    </div>
+    <div class="header-right">
+      <div class="header-school-name">{{facts.school.name}}</div>
+      <div class="header-school-en">AI BUSINESS VOCATIONAL SCHOOL</div>
+    </div>
+  </header>
+
+  <!-- ヒーロー領域（写真＋フェード＋見出し） -->
+  <section class="hero-section">
+    <div class="hero-photo-wrap">
+      <img src="{{photo "student-img-5076"}}" alt="授業に取り組む学生たち" class="hero-photo">
+      <div class="hero-gradient-overlay"></div>
+    </div>
+    <div class="hero-text-content">
+      <h1 class="hero-title"><ruby>学費<rt>がくひ</rt></ruby>のご<ruby>案内<rt>あんない</rt></ruby></h1>
+      <p class="hero-subtitle"><ruby>学<rt>まな</rt></ruby>びに<ruby>集中<rt>しゅうちゅう</rt></ruby>できるように、わかりやすい<ruby>学費<rt>がくひ</rt></ruby><ruby>設定<rt>せってい</rt></ruby>です。</p>
+      <p class="hero-lead">
+        {{facts.school.name}}では、<ruby>専門的<rt>せんもんてき</rt></ruby>な<ruby>学<rt>まな</rt></ruby>びから<ruby>生活<rt>せいかつ</rt></ruby>・<ruby>進路<rt>しんろ</rt></ruby>までサポートする<ruby>環境<rt>かんきょう</rt></ruby>を、<br>
+        できるだけ<ruby>多<rt>おお</rt></ruby>くの<ruby>方<rt>かた</rt></ruby>に<ruby>提供<rt>ていきょう</rt></ruby>したいと<ruby>考<rt>かんが</rt></ruby>え、わかりやすく<ruby>納得<rt>なっとく</rt></ruby>できる<ruby>学費<rt>がくひ</rt></ruby><ruby>設定<rt>せってい</rt></ruby>にしています。
+      </p>
+    </div>
+  </section>
+
+  <!-- 中段グリッド（学費表 ＋ 含まれるもの） -->
+  <div class="middle-grid">
+    <!-- 左側：学費内訳表 -->
+    <section class="tuition-table-block">
+      <h2 class="block-title"><ruby>学費<rt>がくひ</rt></ruby>（2<ruby>年間<rt>ねんかん</rt></ruby>の<ruby>合計<rt>ごうけい</rt></ruby>）</h2>
+      <table class="bk-table tuition-table">
+        <thead>
+          <tr>
+            <th><ruby>項目<rt>こうもく</rt></ruby></th>
+            <th>1<ruby>年次<rt>ねんじ</rt></ruby></th>
+            <th>2<ruby>年次<rt>ねんじ</rt></ruby></th>
+            <th>2<ruby>年間<rt>ねんかん</rt></ruby>の<ruby>合計<rt>ごうけい</rt></ruby></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="item-name"><ruby>入学金<rt>にゅうがくきん</rt></ruby></td>
+            <td>{{num facts.admissions.tuition.entrance_fee}}円</td>
+            <td>—</td>
+            <td>{{num facts.admissions.tuition.entrance_fee}}円</td>
+          </tr>
+          <tr>
+            <td class="item-name"><ruby>授業料<rt>じゅぎょうりょう</rt></ruby></td>
+            <td>780,000円</td>
+            <td>780,000円</td>
+            <td>1,560,000円</td>
+          </tr>
+          <tr>
+            <td class="item-name"><ruby>年間諸経費<rt>ねんかんしょけいひ</rt></ruby></td>
+            <td>50,000円</td>
+            <td>50,000円</td>
+            <td>100,000円</td>
+          </tr>
+          <tr class="total-row">
+            <td class="total-name"><ruby>合計<rt>ごうけい</rt></ruby></td>
+            <td class="total-col-1">930,000円</td>
+            <td class="total-col-2">830,000円</td>
+            <td class="grand-total">1,760,000円</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="tuition-note">※その他費用：教科書代・実習費等の実費が別途必要となります。{{facts.admissions.documents.1.name}}は20,000円です。</p>
+    </section>
+
+    <!-- 右側：学費に含まれるもの -->
+    <section class="included-block">
+      <h2 class="block-title"><ruby>学費<rt>がくひ</rt></ruby>に<ruby>含<rt>ふく</rt></ruby>まれるもの</h2>
+      <div class="included-list">
+        <div class="included-item">
+          <div class="item-icon-wrap icon-blue">
+            <svg class="item-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          </div>
+          <div class="item-content">
+            <strong class="item-heading"><ruby>授業<rt>じゅぎょう</rt></ruby>・<ruby>実習<rt>じっしゅう</rt></ruby></strong>
+            <p class="item-desc">AI・ビジネス・ITの<ruby>授業<rt>じゅぎょう</rt></ruby>、<ruby>実践的<rt>じっせんてき</rt></ruby>な<ruby>演習<rt>えんしゅう</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>みます。</p>
+          </div>
+        </div>
+
+        <div class="included-item">
+          <div class="item-icon-wrap icon-cyan">
+            <svg class="item-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          </div>
+          <div class="item-content">
+            <strong class="item-heading"><ruby>施設<rt>しせつ</rt></ruby>・<ruby>設備<rt>せつび</rt></ruby>の<ruby>利用<rt>りよう</rt></ruby></strong>
+            <p class="item-desc">パソコン・ソフトウェア・<ruby>学内<rt>がくない</rt></ruby>Wi-Fi・<ruby>設備環境<rt>せつびかんきょう</rt></ruby>など。</p>
+          </div>
+        </div>
+
+        <div class="included-item">
+          <div class="item-icon-wrap icon-green">
+            <svg class="item-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+          </div>
+          <div class="item-content">
+            <strong class="item-heading"><ruby>教材<rt>きょうざい</rt></ruby></strong>
+            <p class="item-desc"><ruby>授業<rt>じゅぎょう</rt></ruby>で<ruby>使用<rt>しよう</rt></ruby>するテキスト・デジタル<ruby>教材<rt>きょうざい</rt></ruby>の<ruby>一部<rt>いちぶ</rt></ruby>。</p>
+          </div>
+        </div>
+
+        <div class="included-item">
+          <div class="item-icon-wrap icon-navy">
+            <svg class="item-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <div class="item-content">
+            <strong class="item-heading"><ruby>学校<rt>がっこう</rt></ruby>のサポート</strong>
+            <p class="item-desc"><ruby>日本語<rt>にほんご</rt></ruby>サポート、<ruby>生活<rt>せいかつ</rt></ruby>・<ruby>進路相談<rt>しんろそうだん</rt></ruby>、キャリア<ruby>支援<rt>しえん</rt></ruby>など。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- 下段ブロック1：学費の支払い方法 -->
+  <section class="payment-method-block">
+    <div class="block-header-wrap">
+      <h2 class="block-title"><ruby>学費<rt>がくひ</rt></ruby>の<ruby>支払<rt>しはら</rt></ruby>い<ruby>方法<rt>ほうほう</rt></ruby></h2>
+      <p class="block-header-sub">ご<ruby>家庭<rt>かてい</rt></ruby>の<ruby>状況<rt>じょうきょう</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わせて、<ruby>無理<rt>むり</rt></ruby>なくお<ruby>支払<rt>しはら</rt></ruby>いいただける<ruby>方法<rt>ほうほう</rt></ruby>をご<ruby>用意<rt>ようい</rt></ruby>しています。</p>
+    </div>
+    <div class="method-card-grid">
+      <div class="method-card">
+        <div class="method-card-title">
+          <span class="method-badge badge-blue"></span>
+          <strong><ruby>一括払<rt>いっかつばら</rt></ruby>い</strong>
+        </div>
+        <p class="method-desc"><ruby>入学時<rt>にゅうがくじ</rt></ruby>または<ruby>各年度<rt>かくねんど</rt></ruby><ruby>開始時<rt>かいしじ</rt></ruby>にまとめてお<ruby>支払<rt>しはら</rt></ruby>いいただく<ruby>方法<rt>ほうほう</rt></ruby>です。</p>
+      </div>
+
+      <div class="method-card">
+        <div class="method-card-title">
+          <span class="method-badge badge-cyan"></span>
+          <strong><ruby>年<rt>ねん</rt></ruby>2<ruby>回払<rt>かいばら</rt></ruby>い</strong>
+        </div>
+        <p class="method-desc"><ruby>前期<rt>ぜんき</rt></ruby>と<ruby>後期<rt>こうき</rt></ruby>の<ruby>各学期<rt>かくがっき</rt></ruby><ruby>開始前<rt>かいしまえ</rt></ruby>に2<ruby>回<rt>かい</rt></ruby>に<ruby>分<rt>わ</rt></ruby>けてお<ruby>支払<rt>しはら</rt></ruby>いいただけます。</p>
+      </div>
+
+      <div class="method-card">
+        <div class="method-card-title">
+          <span class="method-badge badge-orange"></span>
+          <strong><ruby>分割払<rt>ぶんかつばら</rt></ruby>い</strong>
+        </div>
+        <p class="method-desc">ご<ruby>家庭<rt>かてい</rt></ruby>の<ruby>事情<rt>じじょう</rt></ruby>に<ruby>配慮<rt>はいりょ</rt></ruby>した<ruby>分割払<rt>ぶんかつばら</rt></ruby>いにも<ruby>個別<rt>こべつ</rt></ruby>にご<ruby>相談<rt>そうだん</rt></ruby>に応じます。</p>
+      </div>
+
+      <div class="method-card">
+        <div class="method-card-title">
+          <span class="method-badge badge-navy"></span>
+          <strong><ruby>銀行振込<rt>ぎんこうふりこみ</rt></ruby></strong>
+        </div>
+        <p class="method-desc"><ruby>指定口座<rt>していこうざ</rt></ruby>へのお<ruby>振込<rt>ふりこみ</rt></ruby>となります。<br>（{{facts.admissions.payment_account.bank}} {{facts.admissions.payment_account.branch}}）</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 下段ブロック2：経済的な支援制度 -->
+  <section class="support-system-block">
+    <div class="block-header-wrap">
+      <h2 class="block-title"><ruby>経済的<rt>けいざいてき</rt></ruby>な<ruby>支援制度<rt>しえんせいど</rt></ruby></h2>
+      <p class="block-header-sub"><ruby>学<rt>まな</rt></ruby>びたい<ruby>気持<rt>きも</rt></ruby>ちを<ruby>応援<rt>おうえん</rt></ruby>するための<ruby>制度<rt>せいど</rt></ruby>があります。</p>
+    </div>
+    <div class="support-card-grid">
+      <div class="support-card">
+        <div class="support-icon-area">
+          <span class="support-pill pill-pink">AO特典</span>
+        </div>
+        <strong class="support-card-title">AO<ruby>入試特典<rt>にゅうしとくてん</rt></ruby></strong>
+        <p class="support-card-desc">AO<ruby>入試<rt>にゅうし</rt></ruby>で<ruby>出願<rt>しゅつがん</rt></ruby>し、<ruby>条件<rt>じょうけん</rt></ruby>を<ruby>満<rt>み</rt></ruby>たした<ruby>方<rt>かた</rt></ruby>は<ruby>選考料<rt>せんこうりょう</rt></ruby>などの<ruby>減免特典<rt>げんめんとくてん</rt></ruby>を<ruby>受<rt>う</rt></ruby>けることができます。</p>
+      </div>
+
+      <div class="support-card">
+        <div class="support-icon-area">
+          <span class="support-pill pill-green">分納相談</span>
+        </div>
+        <strong class="support-card-title"><ruby>分納相談<rt>ぶんのうそうだん</rt></ruby></strong>
+        <p class="support-card-desc"><ruby>家庭<rt>かてい</rt></ruby>の<ruby>事情<rt>じじょう</rt></ruby>に<ruby>応<rt>おう</rt></ruby>じて、<ruby>学費<rt>がくひ</rt></ruby>の<ruby>分納<rt>ぶんのう</rt></ruby>などに<ruby>柔軟<rt>じゅうなん</rt></ruby>に<ruby>対応<rt>たいおう</rt></ruby>します。お<ruby>気軽<rt>きがる</rt></ruby>にご<ruby>相談<rt>そうだん</rt></ruby>ください。</p>
+      </div>
+
+      <div class="support-card">
+        <div class="support-icon-area">
+          <span class="support-pill pill-purple">その他</span>
+        </div>
+        <strong class="support-card-title">その<ruby>他<rt>ほか</rt></ruby>の<ruby>支援<rt>しえん</rt></ruby></strong>
+        <p class="support-card-desc"><ruby>対象<rt>たいしょう</rt></ruby>となる<ruby>方<rt>かた</rt></ruby>には、<ruby>提携<rt>ていけい</rt></ruby>する<ruby>教育<rt>きょういく</rt></ruby>ローンのご<ruby>案内<rt>あんない</rt></ruby>や<ruby>奨学金<rt>しょうがくきん</rt></ruby>などの<ruby>活用相談<rt>かつようそうだん</rt></ruby>も<ruby>行<rt>おこな</rt></ruby>っています。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="page-footer">
+    <div class="footer-left">
+      <span class="footer-logo">{{facts.school.name}}</span>
+      <span class="footer-tagline">学（まな）びを、未来（みらい）の力（ちから）に。</span>
+    </div>
+    <div class="footer-right">
+      <span class="footer-page-num">16</span>
+    </div>
+  </footer>
+</div>

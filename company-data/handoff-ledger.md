@@ -1,5 +1,16 @@
 # 引継ぎ台帳
 
+## 2026-10-16 医専スタイル（白版）全20ページ完全平面冊子PDFの完成と統合
+
+- 人間の「マージしろ」指示により、見開きモックアップ特有のノド（中央折り目）・影・斜めパースを完全排除した「正面・完全平面（A4・300dpi規格）」の全20ページ冊子PDF作成成果をmainへ統合。
+- 成果物:
+  - `output/pdf/AIビジネス専門学校_学校案内_2028_白版_20P.pdf`（全20ページ高解像度冊子PDF、A4規格、約186MB）。表紙集合写真から裏表紙まで正面完全平面。
+  - `system/scripts/build_full_booklet_pdf.mjs`（全20ページの結合・Playwrightレンダリングスクリプト）。
+  - `books/prospectus-isen-trial-2028/`（学費案内の平面DTP再構成試作BOOK。350dpi PNGレンダリング・目視確認完了）。
+- 構成: P01表紙（集合写真）／P02-03多文化／P04-05概要理念／P06-07国際AI／P08-09総合ビジネス／P10-11講師AI／P12-13学校広報／P14-15教員支援・保護者／P16-17学費・納付時期／P18-19入試・施設／P20裏表紙（公式確定連絡先・アクセス）。
+- 検証: `npm run typecheck`（エラー0）、`npm run validate`（エラー0）、試作BOOKのPNG出力目視完了。
+- 次の一手: 本版PDFへの人間レビュー、および各ページのHTML/CSS（Layer 2/3）コード完全分離・自社事実への差し替え作業へ順次展開。
+
 ## 2026-10-15 全体実行計画の確定
 
 - 終了確認: branch `codex/gpt-faithful-parts-20261013` は `origin` と一致し作業ツリーはclean。PR #40はGitHub上でDraft。origin/mainは `3890d93` で、merge-base以降の変更が `company-data/handoff-ledger.md` と `company-data/history-ledger.md` に重なる。衝突/内容統合を行っていないためPRはドラフトのまま保持し、mainへはマージしない。コンテナ終了に必要な成果・状態はpush済み。
