@@ -1,0 +1,34 @@
+tags:
+  - id: campus
+    label: キャンパス
+    aliases: [校舎]
+  - id: outing
+    label: 屋外・校外
+    aliases: [屋外]
+  - id: food
+    label: 食事・料理
+    aliases: [料理]
+  - id: ceremony
+    label: 式典・行事
+    aliases: [式典]
+  - id: staff
+    label: 教職員
+    aliases: [先生]
+  - id: portrait
+    label: 人物ポートレート
+    aliases: [人物]
+  - id: classroom
+    label: 教室
+    aliases: []
+  - id: event
+    label: イベント
+    aliases: [イベント]
+  - id: group
+    label: 集合・複数人
+    aliases: [集合]
+  - id: street
+    label: 街・通学路
+    aliases: [街]
+  - id: other
+    label: その他
+    aliases: []

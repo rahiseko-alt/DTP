@@ -20,6 +20,14 @@ describe('validate', () => {
     for (const n of [1, 2, 3, 4, 5, 6, 7]) expect(r.out).toContain(`[${n}]`);
   });
 
+  it('写真台帳の未登録タグを検出し、辞書とのずれを防ぐ', async () => {
+    const root = copyFixture();
+    edit(root, 'company-data/photos/photos.yaml', (s) => s.replace('tags: [campus]', 'tags: [unknown-tag]'));
+    const r = await run(validateCommand, ['--root', root]);
+    expect(r.code).toBe(1);
+    expect(r.out).toContain('写真 "campus" のタグ "unknown-tag" は company-data/photos/tags.yaml にありません');
+  });
+
   it('book.yaml の pages にあるページがないとエラー', async () => {
     const root = copyFixture();
     edit(root, 'books/smoke/config/book.yaml', (s) => s.replace('pages: [page_001, page_002]', 'pages: [page_001, page_002, page_003]'));

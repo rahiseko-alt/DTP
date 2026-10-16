@@ -18,6 +18,7 @@
     "ref:prep": "tsx system/scripts/ref-prep.ts",
     "gen:inputs": "tsx system/scripts/gen-inputs.ts",
     "photo:add": "tsx system/scripts/photo-add.ts",
+    "photo:search": "tsx system/scripts/photo-search.ts",
     "doctor": "tsx system/scripts/doctor.ts",
     "setup": "bash system/scripts/setup.sh",
     "typecheck": "tsc -p tsconfig.json",

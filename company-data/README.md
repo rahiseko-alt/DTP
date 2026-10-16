@@ -63,7 +63,9 @@ company-data/
 
 `file` などのパスはすべてリポジトリルート相対（`/` 区切り、先頭スラッシュなし）で書きます。例: `company-data/photos/campus-exterior.jpg`。
 
-写真は `npm run photo:add -- --file <画像> --id <写真ID> --rights "<使用条件・肖像の同意>"` で登録します。向きを補正し、EXIF（撮影位置・機種・日時など）を消して `company-data/photos/` に書き出し、`photos.yaml` に追記します。権利と、写っている人の掲載同意が確認できた写真だけを登録します（`--rights` は必須で、`TODO` は不可）。HEIC は先に JPEG へ書き出してください。
+写真は `npm run photo:add -- --file <画像> --id <写真ID> --rights "<使用条件・肖像の同意>" --tags classroom,lesson,student` で登録します。場面・活動・人物のタグを2つ以上付けます（目安3つ。書き方は [TAGS.md](photos/TAGS.md)）。画像の向きを補正し、EXIF（撮影位置・機種・日時など）を消して `company-data/photos/` に書き出し、`photos.yaml` に追記します。権利と掲載同意が確認できた写真だけを登録します（`--rights` は必須、`TODO` 不可）。HEIC は先に JPEG へ書き出してください。
+
+検索は `npm run photo:search -- --tag classroom,group` または `npm run photo:search -- --query "授業"` を使います。ID・キャプション・タグを先に絞り、一致写真だけのコンタクトシートを `.cache/photo-search/` に出力します。詳細は [写真検索手順](photos/SEARCH.md) を参照。
 スキーマの定義: `system/design-engine/src/schemas/company.ts`。
 
 ## BOOK からの参照
