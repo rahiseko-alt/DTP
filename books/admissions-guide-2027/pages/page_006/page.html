@@ -11,7 +11,7 @@
   <li>
     <i class="p6-check__box"></i>
     <b class="p6-check__no num"></b>
-    <div class="p6-check__name"><h2>{{name}}</h2>{{#if only}}<span class="p6-only">{{only}}</span>{{/if}}</div>
+    <div class="p6-check__name"><h2>{{name}}</h2>{{#if pageref}}<span class="p6-pref">{{pageref}}</span>{{/if}}{{#if only}}<span class="p6-only">{{only}}</span>{{/if}}</div>
     <div class="p6-check__note">
       {{#if note}}<p>{{note}}</p>{{/if}}
       {{#if options}}<ul>{{#each options}}<li><i class="p6-check__box p6-check__box--s"></i>{{this}}</li>{{/each}}</ul>{{/if}}

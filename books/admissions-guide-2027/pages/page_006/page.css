@@ -38,3 +38,5 @@
 .p6-head__no .num{font-size:44pt}
 .p6-head h1{margin-top:3mm!important}
 .p6-check{top:48mm!important}
+.p6-pref{display:inline-block;margin:1mm 0 0 2mm;padding:.3mm 1.6mm;border:.3mm solid var(--color-primary);color:var(--color-primary);font-size:8pt;font-weight:900}
+.p6-check>li{padding:1.9mm 0!important}.p6-pref{margin:.4mm 0 0 0!important}.p6-warn{top:204mm!important;padding-top:4mm!important;padding-bottom:3mm!important}.p6-warn li{margin-bottom:1.2mm!important}
