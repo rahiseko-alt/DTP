@@ -165,3 +165,4 @@
 .fm .photo i{display:block;flex:0 0 30mm;width:30mm;height:40mm;border:.3mm dashed var(--color-muted);box-sizing:border-box}
 .fm .cir{display:inline-block;border:.3mm solid var(--color-primary);border-radius:50%;padding:0 .8mm;line-height:1.25}
 .f-cut span{font-size:7.5pt!important;font-weight:700!important;color:var(--color-text)!important}
+.f-office--one caption{left:auto;right:0;text-align:right}
