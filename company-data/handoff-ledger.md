@@ -1,5 +1,13 @@
 # 引継ぎ台帳
 
+## 2026-10-16 アバター体験オープンキャンパスA4両面チラシ（books/avatar-oc-2028）制作・3役審査完了
+
+- 前セッションで途中停止・未pushとなっていた「自分主演のAIミュージックビデオを作ろう」オープンキャンパスA4両面チラシ（`books/avatar-oc-2028`、全2ページ）を、`dtp-production` スキル（編集長 `dtp_chief`・制作 `dtp_editor`・独立レビュアー `dtp_reviewer` の3役分離）で制作・描画・審査完了。作業ブランチは `codex/avatar-oc-2028`。確定台帳・学校factsは変更なし。
+- 表面（`page_001`）はHAL名古屋表紙・見開きの構成原理を参照し、AI生成女性キャラクター（`cover-armor.png`、実在校生ではない旨を明記）と超極太タイポグラフィの重なり、3要素合成図解（①分身×②非日常アクション×③自分の声＋AI音楽＝家族・カーちゃんに見せられる10〜20秒のMV即日持ち帰り）、および開催情報枠（開催日程・時間・参加費は推測せず【未定】＋手書き記入欄、定員1回10人程度、名古屋駅徒歩10分）を高密度に配置。
+- 裏面（`page_002`）は当日の体験4ステップ（非均等幅・段差配置）、登録済み在校生実写真3点（`student-dsc-1164`・`student-img-5238`・`student-img-5074`）の大小コラージュ、2学科（国際ビジネスAI科30人・総合ビジネス科29人、合計59人・2年制）と認定講師資格、保護者向けの2027年度参考学費（初年度93万円［検定料込95万円］・2年次83万円・2年間176万円［検定料込178万円］・納入時期・別途実費、2028年度未確定の明記）、親子相談・連絡先・公式Web QRを配置。クリスタル素材（`cover-armor-watermark-01.png`）は背面透かしのみに限定。
+- 成果物: `books/avatar-oc-2028/output/pdf/avatar-oc-2028.pdf`（互換パス `books/avatar-oc-2028/output/preview-v3/pdf/avatar-oc-2028.pdf`、SHA256 `5353c7944fbe6829c7a1746ad365229d54d65ec756973a842a8af5548673a469`）、単ページPNG（`page_001.png`, `page_002.png`）、表裏並列見開き画像（`output/spreads/spread-01-02.png`）。独立レビュー・編集長判断（`submit`）は `books/avatar-oc-2028/reviews/production/5353c7944fbe6829c7a1746ad365229d54d65ec756973a842a8af5548673a469/`。
+- 検証・残課題: `typecheck` エラー0、`validate` エラー0（`avatar-oc-2028` の警告0）、`render` 警告0（ローカルChrome 154使用の案内のみ）。次の一手は人間による紙面確認、オープンキャンパス日程・時間・参加費確定後の反映、および本番入稿（`--release`）時のメインビジュアル高解像度化・指定版Chromium描画・読者テスト。
+
 ## 2026-10-15 全体実行計画の確定
 
 - 終了確認: branch `codex/gpt-faithful-parts-20261013` は `origin` と一致し作業ツリーはclean。PR #40はGitHub上でDraft。origin/mainは `3890d93` で、merge-base以降の変更が `company-data/handoff-ledger.md` と `company-data/history-ledger.md` に重なる。衝突/内容統合を行っていないためPRはドラフトのまま保持し、mainへはマージしない。コンテナ終了に必要な成果・状態はpush済み。
