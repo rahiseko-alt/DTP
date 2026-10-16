@@ -1,0 +1,9 @@
+# QR コードの記録（コードで生成した QR。画像生成 AI は使っていない）
+file: shared/generated-assets/qr/qr-mailto-aibusiness-kaihougakuen.svg
+content: "mailto:aibusiness.kaihougakuen@gmail.com"
+address: aibusiness.kaihougakuen@gmail.com
+generator: "npm パッケージ qrcode（system/design-engine の {{qr}} ヘルパーと同じ。誤り訂正レベル M、余白 4 モジュール）"
+created: 2026-10-16
+instruction: "人間の指示（2026-10-16）。このメールアドレスの QR を作って格納する"
+verified: "PNG 化して OpenCV で復号し、content と一致することを確認"
+note: "紙面に使うときは、アドレスを facts へ登録して {{qr ...}} で生成するか、この SVG を 15mm 以上で配置する。用途（問い合わせ窓口か等）は未確認"
