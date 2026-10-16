@@ -39,6 +39,7 @@ import {
 import { consoleIo, parseCli, resolveRoot, runCommand, type Command, type Io } from './cli.ts';
 import { pxAt } from './gen-inputs.ts';
 import { LFS_PULL_HINT, isLfsPointer, lfsPointerMessage } from './images.ts';
+import { loadPhotoTagRegistry } from './photo-tags.ts';
 import { charLength, lineAt, stripHandlebars } from './text.ts';
 
 export const VALIDATE_USAGE = `使い方: npm run validate -- [--strict] [--root <dir>]
@@ -178,6 +179,18 @@ function checkCompanyData(root: string, strict: boolean, s: CheckSection): Compa
   }
   if (company) {
     checkCompanyRefs(company, strict, s);
+    try {
+      const registry = loadPhotoTagRegistry(root);
+      for (const photo of Object.values(company.photos)) {
+        for (const tag of photo.tags ?? []) {
+          if (!registry.canonical.has(tag)) {
+            push(s.errors, `company-data/photos/photos.yaml: 写真 "${photo.id}" のタグ "${tag}" は company-data/photos/tags.yaml にありません`);
+          }
+        }
+      }
+    } catch (err) {
+      push(s.errors, errorMessage(err));
+    }
     s.info.push(`${company.files.length} ファイル`);
   }
   return company;

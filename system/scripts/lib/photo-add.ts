@@ -9,8 +9,9 @@ import { isMap, isScalar, isSeq, parseDocument, stringify, type Node, type Pair 
 import { PhotosFileSchema, isInside, isReferencePath, loadYamlWithSchema, toPosix } from '../../design-engine/src/index.ts';
 import { CliError, UsageError, consoleIo, parseCli, resolveRoot, runCommand, show, userPath, type Command, type Io } from './cli.ts';
 import { readImageMetadata } from './images.ts';
+import { loadPhotoTagRegistry } from './photo-tags.ts';
 
-export const PHOTO_ADD_USAGE = `使い方: npm run photo:add -- --file <画像> --id <写真ID> --rights "<使用条件・肖像の同意>" [--caption "..."] [--credit "..."] [--tags a,b] [--max-px 6000] [--root <dir>]
+export const PHOTO_ADD_USAGE = `使い方: npm run photo:add -- --file <画像> --id <写真ID> --rights "<使用条件・肖像の同意>" --tags タグ1,タグ2 [--caption "..."] [--credit "..."] [--max-px 6000] [--root <dir>]
 
   学校の写真を company-data/photos/<写真ID>.jpg（透過があれば .png）に取り込み、photos.yaml に登録する。
   向きを補正して EXIF（撮影位置・機種・日時など）を消し、長辺を --max-px 以下に縮める（拡大はしない）。
@@ -22,11 +23,12 @@ export const PHOTO_ADD_USAGE = `使い方: npm run photo:add -- --file <画像> 
   --rights "..."    使用条件（媒体・期限の制限、写っている人の掲載同意の状況など）
   --caption "..."   キャプション（省略可）
   --credit "..."    撮影者・提供元（省略可）
-  --tags a,b        タグ（カンマ区切り。省略可）
+  --tags a,b        用途・場面・人物など検索用タグ（2つ以上推奨。タグの付け方は company-data/photos/TAGS.md）
   --max-px <N>      長辺の上限（既定 6000。350dpi で約 435mm）
   --root <dir>      スタジオのルート（既定: リポジトリルート）`;
 
 export const PHOTO_ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+export const PHOTO_TAG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const DEFAULT_MAX_PX = 6000;
 const PRINT_DPI = 350;
 const INPUT_RE = /\.(jpe?g|png|webp|tiff?)$/i;
@@ -38,7 +40,7 @@ export interface PhotoAddOptions {
   rights: string;
   caption?: string;
   credit?: string;
-  tags?: string[];
+  tags: string[];
   maxPx?: number;
 }
 
@@ -148,6 +150,13 @@ export async function addPhoto(opts: PhotoAddOptions): Promise<PhotoAddResult> {
   const text = fs.existsSync(yamlFile) ? fs.readFileSync(yamlFile, 'utf8') : 'photos: []\n';
   const current = fs.existsSync(yamlFile) ? (loadYamlWithSchema(yamlFile, PhotosFileSchema, yamlRel).photos ?? []) : [];
   if (current.some((p) => p.id === opts.id)) throw new CliError(`写真 ID "${opts.id}" はすでに ${yamlRel} にあります`);
+  const tags = [...new Set((opts.tags ?? []).map((tag) => tag.trim().toLocaleLowerCase()).filter(Boolean))];
+  if (tags.length < 2) throw new UsageError('--tags は2つ以上必要です。company-data/photos/TAGS.md を参考に付けてください');
+  const invalidTag = tags.find((tag) => !PHOTO_TAG_RE.test(tag));
+  if (invalidTag) throw new UsageError(`タグは小文字英数字とハイフンで指定してください: ${invalidTag}`);
+  const registry = loadPhotoTagRegistry(root);
+  const unknownTag = tags.find((tag) => !registry.canonical.has(tag));
+  if (unknownTag) throw new UsageError(`未登録のタグです: ${unknownTag}。company-data/photos/tags.yaml に正規タグを追加してから登録してください`);
 
   const maxPx = opts.maxPx ?? DEFAULT_MAX_PX;
   // Git LFS のポインタ・壊れた画像は、ファイル名と対処の付いたエラーにする
@@ -167,7 +176,7 @@ export async function addPhoto(opts: PhotoAddOptions): Promise<PhotoAddResult> {
   if (opts.caption) entry.caption = opts.caption;
   if (opts.credit) entry.credit = opts.credit;
   entry.rights = rights;
-  if (opts.tags && opts.tags.length > 0) entry.tags = opts.tags;
+  entry.tags = tags;
   const next = appendPhotoEntry(text, entry, yamlRel);
   fs.mkdirSync(photosDir, { recursive: true });
   // 画像と YAML を両方とも一時ファイルに書いてから置き換える（どちらかで失敗したら何も残さない）
@@ -224,7 +233,7 @@ export const photoAddCommand: Command = (argv, io: Io = consoleIo) =>
     }
     const root = resolveRoot(values.root);
     const tags = values.tags?.split(',').map((t) => t.trim()).filter(Boolean);
-    const r = await addPhoto({ root, file: userPath(values.file), id: values.id, rights: values.rights, caption: values.caption, credit: values.credit, tags, maxPx });
+    const r = await addPhoto({ root, file: userPath(values.file), id: values.id, rights: values.rights, caption: values.caption, credit: values.credit, tags: tags ?? [], maxPx });
     io.log(`photo:add: ${show(root, r.file)}（${r.width}×${r.height}px、350dpi で ${r.printMm[0]}×${r.printMm[1]}mm まで）`);
     io.log(`  company-data/photos/photos.yaml に "${values.id}" を登録しました。BOOK からは {{photo "${values.id}"}} で参照します`);
     return 0;

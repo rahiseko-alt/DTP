@@ -1,0 +1,38 @@
+# 写真検索の正規タグ。新語を増やす前に既存語で表現できないか確認する。
+tags:
+  - id: outing
+    label: 屋外・校外
+    aliases: [outdoor, park, picnic, 屋外, 公園, 校外]
+  - id: food
+    label: 食事・料理
+    aliases: [meal, cooking, 食事, 料理, 食べ物]
+  - id: group
+    label: 集合・複数人
+    aliases: [classmates, 集合, 複数人, グループ]
+  - id: ceremony
+    label: 式典・行事
+    aliases: [entrance-ceremony, 入学式, 式典]
+  - id: staff
+    label: 教職員
+    aliases: [teacher, faculty, 教職員, 先生]
+  - id: portrait
+    label: 人物ポートレート
+    aliases: [person, people, 人物, ポートレート]
+  - id: classroom
+    label: 教室
+    aliases: [教室]
+  - id: lesson
+    label: 授業・学習
+    aliases: [class, study, 授業, 勉強]
+  - id: student
+    label: 在校生・学生
+    aliases: [students, learner, 学生, 生徒, 在校生]
+  - id: event
+    label: イベント
+    aliases: [イベント, 行事]
+  - id: street
+    label: 街・通学路
+    aliases: [city, 街, 通学路]
+  - id: other
+    label: その他
+    aliases: [その他]

@@ -23,6 +23,16 @@ async function exifJpeg(file: string): Promise<void> {
 }
 
 describe('photo:add', () => {
+  it('タグ辞書にない語は写真を取り込む前に拒否する', async () => {
+    const root = copyFixture();
+    const src = path.join(tempDir(), 'tag-test.png');
+    await sharp({ create: { width: 12, height: 12, channels: 3, background: '#336699' } }).png().toFile(src);
+    const r = await run(photoAddCommand, ['--file', src, '--id', 'tag-check-01', '--rights', RIGHTS, '--tags', 'event, unknown-tag', '--root', root]);
+    expect(r.code).toBe(1);
+    expect(r.text).toContain('未登録のタグです: unknown-tag');
+    expect(fs.existsSync(path.join(root, 'company-data/photos/tag-check-01.jpg'))).toBe(false);
+  });
+
   it('向きを補正し EXIF を消して取り込み、photos.yaml の末尾に登録する（コメント・既存の行はそのまま）', async () => {
     const root = copyFixture();
     const src = path.join(tempDir(), 'IMG_0001.JPG');
@@ -30,7 +40,7 @@ describe('photo:add', () => {
     const before = readFile(root, 'company-data/photos/photos.yaml');
     writeFile(root, 'company-data/photos/photos.yaml', `# 写真（正本）\n${before}`);
 
-    const r = await run(photoAddCommand, ['--file', src, '--id', 'campus-event-01', '--rights', RIGHTS, '--caption', '新入生の交流会', '--tags', 'event, students', '--root', root]);
+    const r = await run(photoAddCommand, ['--file', src, '--id', 'campus-event-01', '--rights', RIGHTS, '--caption', '新入生の交流会', '--tags', 'event, group', '--root', root]);
     expect(r.code, r.text).toBe(0);
     expect(r.out).toContain('company-data/photos/campus-event-01.jpg（20×40px');
 
@@ -45,7 +55,7 @@ describe('photo:add', () => {
     expect(yaml.startsWith(`# 写真（正本）\n${before.trimEnd()}\n  - id: campus-event-01\n`)).toBe(true);
     expect(yaml).toContain('    file: company-data/photos/campus-event-01.jpg\n    caption: 新入生の交流会\n');
     expect(yaml).toContain(`    rights: ${RIGHTS}\n`);
-    expect(yaml).toContain('    tags:\n      - event\n      - students\n');
+    expect(yaml).toContain('    tags:\n      - event\n      - group\n');
     const v = await run(validateCommand, ['--root', root]);
     expect(v.code, v.text).toBe(0);
   });
@@ -55,14 +65,14 @@ describe('photo:add', () => {
     const dir = tempDir();
     const png = path.join(dir, 'logo-like.png');
     await sharp({ create: { width: 400, height: 300, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } }).png().toFile(png);
-    const r = await run(photoAddCommand, ['--file', png, '--id', 'cutout-01', '--rights', RIGHTS, '--max-px', '100', '--root', root]);
+    const r = await run(photoAddCommand, ['--file', png, '--id', 'cutout-01', '--rights', RIGHTS, '--tags', 'group,classroom', '--max-px', '100', '--root', root]);
     expect(r.code, r.text).toBe(0);
     const meta = await sharp(path.join(root, 'company-data/photos/cutout-01.png')).metadata();
     expect([meta.width, meta.height, meta.hasAlpha]).toEqual([100, 75, true]);
 
     const small = path.join(dir, 'small.jpg');
     await sharp({ create: { width: 60, height: 40, channels: 3, background: '#00cc00' } }).jpeg().toFile(small);
-    expect((await run(photoAddCommand, ['--file', small, '--id', 'small-01', '--rights', RIGHTS, '--max-px', '100', '--root', root])).code).toBe(0);
+    expect((await run(photoAddCommand, ['--file', small, '--id', 'small-01', '--rights', RIGHTS, '--tags', 'group,portrait', '--max-px', '100', '--root', root])).code).toBe(0);
     expect((await sharp(path.join(root, 'company-data/photos/small-01.jpg')).metadata()).width).toBe(60);
   });
 
@@ -106,7 +116,7 @@ describe('photo:add（レビュー指摘）', () => {
     const src = path.join(tempDir(), 'p3-16bit.png');
     // #3366cc を P3 のプロファイル付き 16bit PNG にする（sharp は 16bit を内部で P3 として扱う）
     await sharp({ create: { width: 20, height: 20, channels: 3, background: '#3366cc' } }).toColourspace('rgb16').withIccProfile('p3').png().toFile(src);
-    const r = await run(photoAddCommand, ['--file', src, '--id', 'color-01', '--rights', RIGHTS, '--root', root]);
+    const r = await run(photoAddCommand, ['--file', src, '--id', 'color-01', '--rights', RIGHTS, '--tags', 'group,classroom', '--root', root]);
     expect(r.code, r.text).toBe(0);
     const out = path.join(root, 'company-data/photos/color-01.jpg');
     const { data } = await sharp(out).raw().toBuffer({ resolveWithObject: true });
@@ -140,7 +150,7 @@ describe('photo:add（レビュー指摘）', () => {
     const saved = process.env.INIT_CWD;
     process.env.INIT_CWD = dir;
     try {
-      const r = await run(photoAddCommand, ['--file', 'opaque.png', '--id', 'opaque-01', '--rights', RIGHTS, '--root', root]);
+      const r = await run(photoAddCommand, ['--file', 'opaque.png', '--id', 'opaque-01', '--rights', RIGHTS, '--tags', 'group,portrait', '--root', root]);
       expect(r.code, r.text).toBe(0);
     } finally {
       if (saved === undefined) delete process.env.INIT_CWD;
@@ -168,7 +178,7 @@ describe('photo:add（レビュー指摘）', () => {
       spy.mockRestore();
     }
     expect(readFile(root, 'company-data/photos/photos.yaml')).toBe(yaml);
-    expect(fs.readdirSync(path.join(root, 'company-data/photos')).sort()).toEqual(['campus.svg', 'photos.yaml']);
+    expect(fs.readdirSync(path.join(root, 'company-data/photos')).sort()).toEqual(['campus.svg', 'photos.yaml', 'tags.yaml']);
   });
 });
 
