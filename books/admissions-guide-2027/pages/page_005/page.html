@@ -1,7 +1,7 @@
 {{!-- page_005 日程一覧表（右ページ）。濃紺全面に3区分の横並び比較表と時間軸 --}}
 <div class="p5-bg" aria-hidden="true"></div>
 <header class="p5-head">
-  <p class="p5-head__no num">4</p>
+  <p class="p5-head__no"><small>第</small><span class="num">4</span><small>章</small></p>
   <div><h1>日程一覧</h1><p>{{facts.admissions.as_of}}</p></div>
 </header>
 
@@ -9,6 +9,8 @@
   <div class="p5-th p5-th--blank"></div>
   {{#each facts.admissions.exam_types}}<div class="p5-th p5-th--{{id}}"><b>{{name}}</b><span>{{formal_name}}</span></div>{{/each}}
 
+  <div class="p5-rh">出願要件</div>
+  <div class="p5-td">{{facts.admissions.exam_types.0.requirement}}</div><div class="p5-td">{{facts.admissions.exam_types.1.requirement}}</div><div class="p5-td p5-td--none">－</div>
   <div class="p5-rh">エントリー受付開始</div>
   <div class="p5-td">{{facts.admissions.exam_types.0.entry_from}}</div><div class="p5-td p5-td--none">－</div><div class="p5-td p5-td--none">－</div>
   <div class="p5-rh">出願許可</div>

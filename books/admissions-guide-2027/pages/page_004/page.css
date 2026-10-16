@@ -30,3 +30,8 @@
 .page-folio[data-side='right']{right:var(--margin-outside);flex-direction:row-reverse}
 .page-folio[data-side='left']{left:var(--margin-outside)}
 .page-folio__number{font-size:10pt;font-weight:700;color:var(--color-primary)}
+.p4-head__no small{font-size:13pt;font-weight:900;margin:0 .5mm}
+.p4-head__no .num{font-size:44pt}
+.p4-head__no{white-space:nowrap}
+.p4-card dl>div{grid-template-columns:25mm 1fr!important}
+.p4-card dt{font-size:7.5pt!important;white-space:nowrap}

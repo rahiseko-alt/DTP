@@ -1,0 +1,151 @@
+{
+  "pdf_sha256": "0c422bac3efc72262a65e32912f0096cf3d0db7702c977b070b0e47b60139eab",
+  "mode": "preview",
+  "page_count": 16,
+  "binding": "left",
+  "editor_session": "a2179980e2461a20d",
+  "reviewer_session": "a9d3f14c5d81c6003",
+  "pages_seen": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "spreads_seen": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      16
+    ]
+  ],
+  "dimensions": {
+    "content": "pass",
+    "audience": "pass",
+    "spreads": "pass",
+    "rhythm": "pass",
+    "legibility": "pass",
+    "assets": "pass",
+    "output": "pass"
+  },
+  "checks": {
+    "validate": "pass",
+    "render": "pass",
+    "visual_pages": "pass",
+    "visual_spreads": "pass"
+  },
+  "findings": [
+    {
+      "severity": "minor",
+      "pages": [
+        6,
+        7
+      ],
+      "issue": "「提出書類確認表」を案内しているが本BOOKにその名の様式がない（人間確認待ち）",
+      "evidence": "output/png/page_006.png; page_007.png",
+      "required_fix": "確認表の実体を人間に確認する"
+    },
+    {
+      "severity": "minor",
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "issue": "推薦入試の「本校を第一志望とすること」は推薦書原本の文言が根拠で、募集要項docxの出願要件欄にはない（人間確認待ち）",
+      "evidence": "output/png/page_003.png; original/推薦書.pdf",
+      "required_fix": "提出前に人間が可否を判断する"
+    },
+    {
+      "severity": "minor",
+      "pages": [
+        12,
+        13
+      ],
+      "issue": "P13ヘッダーがP12より短く見開きのノドで段差に見える。別の紙の表裏で機能影響なし",
+      "evidence": "output/spreads/spread_12_13.png",
+      "required_fix": "許容判断を記録"
+    },
+    {
+      "severity": "minor",
+      "pages": [
+        16
+      ],
+      "issue": "経路図は事実どおりだが情報が少ない（地図素材なし）",
+      "evidence": "output/png/page_016.png",
+      "required_fix": "地図素材の受領後に差し替える"
+    },
+    {
+      "severity": "minor",
+      "pages": [
+        4
+      ],
+      "issue": "AO入試の「エントリー受付開始」と値の間隔が狭い。判読は可能",
+      "evidence": "output/png/page_004.png",
+      "required_fix": "余裕があれば間隔を戻す"
+    }
+  ],
+  "evidence": {
+    "見開き画像": [
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_01.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_02_03.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_04_05.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_06_07.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_08_09.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_10_11.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_12_13.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_14_15.png",
+      "/home/user/DTP/books/admissions-guide-2027/output/spreads/spread_16.png"
+    ],
+    "検証": [
+      "親が sha256sum・pdfinfo(16ページ)・npm run validate(エラー0)を実行。制作担当が typecheck(終了0)・pdffonts(全フォント埋め込み)を確認。QR復号: P8: https://kaihougakuen.my.canva.site/ / P16: https://kaihougakuen.my.canva.site/",
+      "独立レビュアーは全16ページ・全9見開きを画像で目視（修正反映を確認）。npm test・--releaseは未実施"
+    ],
+    "参照構成比較": [
+      "HAL page_004/012の縦フロー→P3、kokusai page_005・nagoya-iryo page_003の区分対応表→P4・P5。他校固有情報の流用なし"
+    ],
+    "依頼条件照合": [
+      "日本人用区分非表記、本文ルビなし、様式3宛名の学校法人訂正と2学科選択肢、書類番号1〜7＋該当者のみ8・9、記入欄の書き込み可能性、文字切れなし、数字・表記不一致の修正（#1〜#4,#6,#8,#9,#11）と記録（reviews/fix-20261016/changes.md）"
+    ]
+  }
+}

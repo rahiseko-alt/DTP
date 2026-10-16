@@ -48,3 +48,7 @@
 .p5-node--4{left:auto!important;right:5.4mm;text-align:right;border-left:0;border-right:.6mm solid var(--color-accent);padding:0 2mm 0 0}
 .p5-node--4::before{left:auto;right:-.6mm;border-left:0;border-right:.6mm solid var(--color-accent)}
 .p5-line{height:66mm!important}
+.p5-head__no small{font-size:13pt;font-weight:900;margin:0 .5mm}
+.p5-head__no .num{font-size:44pt}
+.p5-head__no{white-space:nowrap}
+.p5-td{min-height:15.5mm!important}.p5-table{top:38mm!important}.p5-th{min-height:14mm!important}.p5-td{font-size:8pt!important}.p5-line{top:178mm!important}.p5-photo{top:244mm!important}.p5-notes{top:250mm!important}
