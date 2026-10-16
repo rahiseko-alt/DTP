@@ -44,3 +44,10 @@
 .page-folio[data-side='right'] .page-folio__number{color:var(--color-accent)}
 .page-folio{color:var(--color-background)}
 .p7-photo{position:absolute;left:var(--margin-left);width:127mm;top:243mm;height:34mm;margin:0;overflow:hidden}.p7-photo img{display:block;width:100%;height:100%;object-fit:cover}.p7-photo figcaption{position:absolute;right:0;bottom:0;background:var(--color-background);padding:1mm 3mm;font-size:7pt;font-weight:500}
+.p7-head__no small{font-size:13pt;font-weight:900;margin:0 .5mm}
+.p7-head__no .num{font-size:44pt}
+.p7-head__no{white-space:nowrap}
+.p7-feenote{position:absolute;left:var(--margin-left);width:127mm;top:170mm;margin:0;font-size:8pt;font-weight:700;color:var(--color-primary);text-align:left}
+.p7-feenote{top:177mm!important}
+.p7-due{top:187mm!important}
+.p7-photo{top:249mm!important;height:29mm!important}
