@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "document": "oc-approved-20261017",
+  "fingerprint": "3f33bc354fad2e49d0cd52a7aae53eac26e0fd0eba63d15dcb4fcbf207718323",
+  "inputs": [
+    {
+      "id": "editable-copy",
+      "role": "copy",
+      "media": "text",
+      "revision": "5468d86e914d18b851543148820f703430db91269707c576ee5783465f514bcf",
+      "path": "books/oc-approved-20261017/text/content.json"
+    },
+    {
+      "id": "layout-flyer-template",
+      "role": "layout",
+      "media": "text",
+      "revision": "429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183",
+      "path": "books/oc-approved-20261017/source/flyer.template.html"
+    },
+    {
+      "id": "layout-layout",
+      "role": "layout",
+      "media": "text",
+      "revision": "a7a99e5a2293f27a45cfe0752a43662aabc837dc1492503e25ba492c8030088c",
+      "path": "books/oc-approved-20261017/source/layout.css"
+    },
+    {
+      "id": "support-parts-photos-map-json",
+      "role": "support",
+      "media": "text",
+      "revision": "d8db48499235878d5a1ebf86cc4080eaf1e3cb4f7a975c9721219452161dfd57",
+      "path": "books/oc-approved-20261017/parts/photos-map.json"
+    },
+    {
+      "id": "front-hero",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb",
+      "path": "company-data/photos/student-img-5235.jpg"
+    },
+    {
+      "id": "front-class",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793",
+      "path": "company-data/photos/student-img-5070.jpg"
+    },
+    {
+      "id": "front-exchange",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+      "path": "company-data/photos/student-dsc-1164.jpg"
+    },
+    {
+      "id": "front-people",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7",
+      "path": "company-data/photos/student-img-3291.jpg"
+    },
+    {
+      "id": "back-course-ai",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+      "path": "company-data/photos/student-img-5238.jpg"
+    },
+    {
+      "id": "back-course-business",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+      "path": "company-data/photos/student-img-5074.jpg"
+    },
+    {
+      "id": "back-class",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+      "path": "company-data/photos/student-img-5069.jpg"
+    },
+    {
+      "id": "back-exchange",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b",
+      "path": "company-data/photos/student-img-5088.jpg"
+    },
+    {
+      "id": "back-event",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165",
+      "path": "company-data/photos/student-17.jpg"
+    },
+    {
+      "id": "support-parts-brand-logo-horizontal-png",
+      "role": "support",
+      "media": "image",
+      "revision": "700bb302dde389f7deb314a6a3fd6bb44b2ab15dfa78d9248b3663ab1e32dbd3",
+      "path": "books/oc-approved-20261017/parts/brand/logo-horizontal.png"
+    },
+    {
+      "id": "support-parts-official-site-qr-png",
+      "role": "support",
+      "media": "image",
+      "revision": "d80b0b015c12c941671a66ee19d6b1226b1a7e58de944466c3e1c3b217e0a33a",
+      "path": "books/oc-approved-20261017/parts/official-site-qr.png"
+    },
+    {
+      "id": "support-parts-icons-consult-svg",
+      "role": "support",
+      "media": "image",
+      "revision": "2a3a5d02403619e336fe2f9759a82194c191dd35dd9627619fbcb1e0627efe80",
+      "path": "books/oc-approved-20261017/parts/icons/consult.svg"
+    },
+    {
+      "id": "support-parts-icons-laptop-svg",
+      "role": "support",
+      "media": "image",
+      "revision": "025c692f76a824add5198ba1c3f060bbbc105894567e09667d6dc567798d23fd",
+      "path": "books/oc-approved-20261017/parts/icons/laptop.svg"
+    },
+    {
+      "id": "support-parts-icons-people-svg",
+      "role": "support",
+      "media": "image",
+      "revision": "151864363772e231484a633b3c7ce205777e006cc937eba926e34cd14cfdca58",
+      "path": "books/oc-approved-20261017/parts/icons/people.svg"
+    },
+    {
+      "id": "support-parts-icons-school-svg",
+      "role": "support",
+      "media": "image",
+      "revision": "ee9d9dca31dca9649d7f7ccf1d6be95a6cfb59241c807fe05a25ad314ded1dc4",
+      "path": "books/oc-approved-20261017/parts/icons/school.svg"
+    }
+  ],
+  "external": [
+    {
+      "path": "company-data/facts/school.yaml",
+      "sha256": "341824979ce3eef4169fb1269649d54e31dbe16181c94393fa4dc3497bde7f3e"
+    },
+    {
+      "path": "system/scripts/lib/assets.ts",
+      "sha256": "284674903acc55fa7d4ba484dd0124aed986ea0776ef4911911e34348cffaa20"
+    },
+    {
+      "path": "books/oc-approved-20261017/rebuild.py",
+      "sha256": "b39e5ac965f99a76de6cf0e82e413d5337b3166c67bd35791df7c2d6c5fcaa63"
+    },
+    {
+      "path": "books/oc-approved-20261017/render.mjs",
+      "sha256": "bb6972fea83e03a952d7247dba5178879e48064c0496ba4ddcf5d81955020aac"
+    }
+  ],
+  "html": {
+    "path": ".cache/asset-rebuild/flyer.html",
+    "sha256": "f66e93eb36cc4228757e70427836b2198c89ce83895c2409edcba26aab6a0425"
+  },
+  "outputs": [
+    {
+      "path": "/tmp/dtp-identity-final-render/実写真版_OCチラシ_両面.pdf",
+      "role": "reconstructed-preview",
+      "sha256": "f82b78b7cadcc4efec342ef4357aac5d878a1e4c75d5e49867cfd53cb63c2f65",
+      "size": 22292848
+    },
+    {
+      "path": "/tmp/dtp-identity-final-render/page-1.png",
+      "role": "preview",
+      "sha256": "44f470d37f12b4e3ee180a0a25c5fa0dc64e06f650024a09682453405adc01ca",
+      "size": 797474
+    },
+    {
+      "path": "/tmp/dtp-identity-final-render/page-2.png",
+      "role": "preview",
+      "sha256": "80cefc484098bf12f78c10da9ee58b82a83048ec2d18e4cdee4d3b4c3d68eed3",
+      "size": 553592
+    }
+  ]
+}

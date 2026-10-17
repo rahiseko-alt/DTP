@@ -34,3 +34,13 @@ HTMLはローカルHTTPまたは画像/CSSを埋め込んだブラウザ出力�
 ## 制作上の確認
 
 原本2面・実写真を目視した。原本の大写真/見出し/青黄ピンク/情報群を組み合わせ版で再構成し、実写真の上に文字を焼き込まず、コピー・写真・ロゴ・QR・アイコンを別ファイルで保管した。写真コピーと黄帯の重なりを調整し、写真の配置情報を各枠へ反映した。ページ1の高さ超過を修正し、両面のページ枠が794×1123pxに収まり、配置画像16点がすべて読み込まれることを再描画時に検査する。9点の写真は登録済み原本とのSHA-256一致を検証した。学校実写真を画像生成に入力していない。
+
+## ファイル識別（2026-10-17）
+
+対象の正本は `config/document.yaml`、部品と版・役割は `parts/catalog.yaml`。原本からの抽出画像と差し替え実写真を区別する。現在の9点は後者で、原本から抽出した画像ではない。登録済みPDFは再構成プレビュー。
+
+取り出しは `npm run asset:search -- --document oc-approved-20261017 --variant real-photo-rebuild --role replacement-photo`。原本画像で代用しない。取得は `asset:get`、検査は `asset:check`。検査はmanifestや期待ハッシュを上書きしない。
+
+`rebuild.py` は `.cache/asset-rebuild/flyer.html` に確認用HTMLを出す。`render.mjs` は生成HTMLの `DTP_ASSET_INPUT_HTML` と新規出力先 `DTP_ASSET_OUTPUT_DIR` を別々に必須指定し、既存出力を上書きしない。以前の本文にある既存output上書きの再構築手順は使用しない。写真コピーは保存状態legacy-mirrorとして残し、再構築では学校写真台帳のIDを参照する。
+
+現行入力は共通 `asset:build-inputs` で解決し、`.cache/asset-rebuild/flyer.html.inputs.json` に19入力と学校factsの版を記録する。再構築と描画の間に変更があれば停止する。本文・CSS・写真スロットの新しい登録版も固定パスではなくcurrentから読む。
