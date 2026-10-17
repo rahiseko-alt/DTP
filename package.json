@@ -23,7 +23,16 @@
     "setup": "bash system/scripts/setup.sh",
     "typecheck": "tsc -p tsconfig.json",
     "test": "vitest run",
-    "check": "npm run typecheck && npm run validate && npm run test"
+    "check": "npm run typecheck && npm run validate && npm run test",
+    "asset:resolve": "tsx system/scripts/assets.ts resolve",
+    "asset:search": "tsx system/scripts/assets.ts search",
+    "asset:get": "tsx system/scripts/assets.ts get",
+    "asset:register": "tsx system/scripts/assets.ts register",
+    "asset:check": "tsx system/scripts/assets.ts check",
+    "asset:index": "tsx system/scripts/assets.ts index",
+    "asset:photo": "tsx system/scripts/assets.ts photo",
+    "asset:extract": "tsx system/scripts/assets.ts extract",
+    "asset:recover": "tsx system/scripts/assets.ts recover"
   },
   "dependencies": {
     "@fontsource/noto-sans-jp": "^5.3.0",

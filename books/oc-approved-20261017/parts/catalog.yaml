@@ -1,0 +1,730 @@
+{
+  "schema_version": 1,
+  "document": "oc-approved-20261017",
+  "current": {
+    "approved-original": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a",
+    "original-page-1": "196ad661f61df4df2251ba12a7f14995e4ab39b5f33baf7da2030023907c26ec",
+    "original-page-2": "2af59d1ad74cca44430503a4f55203f9d3586a1a7080bfb3c00e17cfb53123a2",
+    "front-hero": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb",
+    "mirror-student-img-5235": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb",
+    "front-class": "abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793",
+    "mirror-student-img-5070": "abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793",
+    "front-exchange": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+    "mirror-student-dsc-1164": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+    "front-people": "b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7",
+    "mirror-student-img-3291": "b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7",
+    "back-course-ai": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+    "mirror-student-img-5238": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+    "back-course-business": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+    "mirror-student-img-5074": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+    "back-class": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+    "mirror-student-img-5069": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+    "back-exchange": "2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b",
+    "mirror-student-img-5088": "2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b",
+    "back-event": "c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165",
+    "mirror-student-17": "c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165",
+    "support-readme-md": "cee536855eae4a3043e0f2c51c5e8257315bf9754ebbc8bf3f0a78bdf4467c9b",
+    "support-output-dom-check-json": "a777842b030e9069ce0fe8a8910dd7b5df6069394c03f321fb277538d6d6248c",
+    "preview-page-1": "44f470d37f12b4e3ee180a0a25c5fa0dc64e06f650024a09682453405adc01ca",
+    "preview-page-2": "80cefc484098bf12f78c10da9ee58b82a83048ec2d18e4cdee4d3b4c3d68eed3",
+    "combined-preview": "3651568ada148faa2afa4bd639eb5f84ec071045d19da2cfbc0a88cac76553cd",
+    "support-parts-brand-logo-horizontal-png": "700bb302dde389f7deb314a6a3fd6bb44b2ab15dfa78d9248b3663ab1e32dbd3",
+    "support-parts-icons-consult-svg": "2a3a5d02403619e336fe2f9759a82194c191dd35dd9627619fbcb1e0627efe80",
+    "support-parts-icons-laptop-svg": "025c692f76a824add5198ba1c3f060bbbc105894567e09667d6dc567798d23fd",
+    "support-parts-icons-people-svg": "151864363772e231484a633b3c7ce205777e006cc937eba926e34cd14cfdca58",
+    "support-parts-icons-school-svg": "ee9d9dca31dca9649d7f7ccf1d6be95a6cfb59241c807fe05a25ad314ded1dc4",
+    "support-parts-manifest-json": "2ba8ac9f9ed30fa75e07cb4a7e73bec1ab32b28520ee9e77400c742080740497",
+    "support-parts-official-site-qr-png": "d80b0b015c12c941671a66ee19d6b1226b1a7e58de944466c3e1c3b217e0a33a",
+    "support-parts-official-site-qr-svg": "232ce9735d208c547ebb612807e225c0402ecd85567efb624e15719d2e82d662",
+    "support-parts-photos-map-json": "d8db48499235878d5a1ebf86cc4080eaf1e3cb4f7a975c9721219452161dfd57",
+    "support-rebuild-py": "9c5004054594d7c66b00967a12c7def852fea02d2a2552d7c9121a2c83a72f4f",
+    "support-render-mjs": "b250d37e52b05ba1558da2e8da2c5364317d7ec574fe67b2900ff2cf8eb7ec2e",
+    "support-source-bind-copy-py": "0319503dc84bf999c4d88d937498f64957066daeab4fd2682fff9768e702f587",
+    "layout-flyer": "03fdb46520b1bc6498718a92a23f4811c8b462478ab730c584dfa046e080d545",
+    "layout-flyer-template": "429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183",
+    "preview-layout-check": "072af5b6b4ee2bad7d77ad51f1ad7c89d78dbfa788d65827aea1e909d52fdf15",
+    "layout-layout": "a7a99e5a2293f27a45cfe0752a43662aabc837dc1492503e25ba492c8030088c",
+    "editable-copy": "5468d86e914d18b851543148820f703430db91269707c576ee5783465f514bcf",
+    "support-verify-parts-py": "4239d1477a71b6563c035d8045430f509a4f6f65ce7477884f56e4d45908f294",
+    "support-approved-content-json": "c4b186fc3cdfcb08e51de584a62a9e64b7f52a4077bce1fa9a5319ba9b9165ef",
+    "support-approved-transcript-md": "352465b7d7d9f901a6845234a275b81c2a53f1a1c2186be718b73be5862423f7",
+    "support-source-json": "7294230c5367425e71bf3a3b68167a21ec0e609235d1071841b7be7e85b32add",
+    "support-source-yaml": "24aabae3152ce1ee1652570b904cb6aedd5ff03e064770657e8910d982422bc8"
+  },
+  "assets": [
+    {
+      "id": "approved-original",
+      "variant": "approved-original",
+      "role": "original",
+      "media": "pdf",
+      "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a",
+      "file": "references/school-own/oc-approved-20261017/original/approved.pdf",
+      "sha256": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a",
+      "size": 3538475,
+      "confirmation": "verified",
+      "relation": "root"
+    },
+    {
+      "id": "original-page-1",
+      "variant": "approved-original",
+      "role": "source-page",
+      "media": "image",
+      "revision": "196ad661f61df4df2251ba12a7f14995e4ab39b5f33baf7da2030023907c26ec",
+      "file": "references/school-own/oc-approved-20261017/pages/page-01.png",
+      "sha256": "196ad661f61df4df2251ba12a7f14995e4ab39b5f33baf7da2030023907c26ec",
+      "size": 1524911,
+      "confirmation": "verified",
+      "relation": "rendered-from",
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      }
+    },
+    {
+      "id": "original-page-2",
+      "variant": "approved-original",
+      "role": "source-page",
+      "media": "image",
+      "revision": "2af59d1ad74cca44430503a4f55203f9d3586a1a7080bfb3c00e17cfb53123a2",
+      "file": "references/school-own/oc-approved-20261017/pages/page-02.png",
+      "sha256": "2af59d1ad74cca44430503a4f55203f9d3586a1a7080bfb3c00e17cfb53123a2",
+      "size": 1304731,
+      "confirmation": "verified",
+      "relation": "rendered-from",
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      }
+    },
+    {
+      "id": "front-hero",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb",
+      "photo_ref": "student-img-5235",
+      "sha256": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb",
+      "size": 2413058,
+      "confirmation": "verified",
+      "relation": "uses"
+    },
+    {
+      "id": "mirror-student-img-5235",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5235.jpg",
+      "sha256": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb",
+      "size": 2413058,
+      "confirmation": "verified",
+      "relation": "uses",
+      "storage": "legacy-mirror",
+      "mirror_of": "student-img-5235"
+    },
+    {
+      "id": "front-class",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793",
+      "photo_ref": "student-img-5070",
+      "sha256": "abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793",
+      "size": 2348505,
+      "confirmation": "verified",
+      "relation": "uses"
+    },
+    {
+      "id": "mirror-student-img-5070",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5070.jpg",
+      "sha256": "abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793",
+      "size": 2348505,
+      "confirmation": "verified",
+      "relation": "uses",
+      "storage": "legacy-mirror",
+      "mirror_of": "student-img-5070"
+    },
+    {
+      "id": "front-exchange",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+      "photo_ref": "student-dsc-1164",
+      "sha256": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+      "size": 4707440,
+      "confirmation": "verified",
+      "relation": "uses"
+    },
+    {
+      "id": "mirror-student-dsc-1164",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+      "file": "books/oc-approved-20261017/parts/photos/student-dsc-1164.jpg",
+      "sha256": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+      "size": 4707440,
+      "confirmation": "verified",
+      "relation": "uses",
+      "storage": "legacy-mirror",
+      "mirror_of": "student-dsc-1164"
+    },
+    {
+      "id": "front-people",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7",
+      "photo_ref": "student-img-3291",
+      "sha256": "b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7",
+      "size": 1168446,
+      "confirmation": "verified",
+      "relation": "uses"
+    },
+    {
+      "id": "mirror-student-img-3291",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-3291.jpg",
+      "sha256": "b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7",
+      "size": 1168446,
+      "confirmation": "verified",
+      "relation": "uses",
+      "storage": "legacy-mirror",
+      "mirror_of": "student-img-3291"
+    },
+    {
+      "id": "back-course-ai",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+      "photo_ref": "student-img-5238",
+      "sha256": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+      "size": 2454424,
+      "confirmation": "verified",
+      "relation": "uses"
+    },
+    {
+      "id": "mirror-student-img-5238",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5238.jpg",
+      "sha256": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+      "size": 2454424,
+      "confirmation": "verified",
+      "relation": "uses",
+      "storage": "legacy-mirror",
+      "mirror_of": "student-img-5238"
+    },
+    {
+      "id": "back-course-business",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+      "photo_ref": "student-img-5074",
+      "sha256": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+      "size": 3100678,
+      "confirmation": "verified",
+      "relation": "uses"
+    },
+    {
+      "id": "mirror-student-img-5074",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5074.jpg",
+      "sha256": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+      "size": 3100678,
+      "confirmation": "verified",
+      "relation": "uses",
+      "storage": "legacy-mirror",
+      "mirror_of": "student-img-5074"
+    },
+    {
+      "id": "back-class",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+      "photo_ref": "student-img-5069",
+      "sha256": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+      "size": 2676415,
+      "confirmation": "verified",
+      "relation": "uses"
+    },
+    {
+      "id": "mirror-student-img-5069",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5069.jpg",
+      "sha256": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+      "size": 2676415,
+      "confirmation": "verified",
+      "relation": "uses",
+      "storage": "legacy-mirror",
+      "mirror_of": "student-img-5069"
+    },
+    {
+      "id": "back-exchange",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b",
+      "photo_ref": "student-img-5088",
+      "sha256": "2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b",
+      "size": 2434658,
+      "confirmation": "verified",
+      "relation": "uses"
+    },
+    {
+      "id": "mirror-student-img-5088",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5088.jpg",
+      "sha256": "2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b",
+      "size": 2434658,
+      "confirmation": "verified",
+      "relation": "uses",
+      "storage": "legacy-mirror",
+      "mirror_of": "student-img-5088"
+    },
+    {
+      "id": "back-event",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165",
+      "photo_ref": "student-17",
+      "sha256": "c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165",
+      "size": 461112,
+      "confirmation": "verified",
+      "relation": "uses"
+    },
+    {
+      "id": "mirror-student-17",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165",
+      "file": "books/oc-approved-20261017/parts/photos/student-17.jpg",
+      "sha256": "c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165",
+      "size": 461112,
+      "confirmation": "verified",
+      "relation": "uses",
+      "storage": "legacy-mirror",
+      "mirror_of": "student-17"
+    },
+    {
+      "id": "support-readme-md",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "text",
+      "revision": "cee536855eae4a3043e0f2c51c5e8257315bf9754ebbc8bf3f0a78bdf4467c9b",
+      "file": "books/oc-approved-20261017/README.md",
+      "sha256": "cee536855eae4a3043e0f2c51c5e8257315bf9754ebbc8bf3f0a78bdf4467c9b",
+      "size": 6543,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "support-output-dom-check-json",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "text",
+      "revision": "a777842b030e9069ce0fe8a8910dd7b5df6069394c03f321fb277538d6d6248c",
+      "file": "books/oc-approved-20261017/output/dom-check.json",
+      "sha256": "a777842b030e9069ce0fe8a8910dd7b5df6069394c03f321fb277538d6d6248c",
+      "size": 746,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "preview-page-1",
+      "variant": "real-photo-rebuild",
+      "role": "preview",
+      "media": "image",
+      "revision": "44f470d37f12b4e3ee180a0a25c5fa0dc64e06f650024a09682453405adc01ca",
+      "file": "books/oc-approved-20261017/output/page-1.png",
+      "sha256": "44f470d37f12b4e3ee180a0a25c5fa0dc64e06f650024a09682453405adc01ca",
+      "size": 797474,
+      "confirmation": "verified",
+      "relation": "authored",
+      "built_from": [
+        {
+          "id": "layout-flyer",
+          "revision": "03fdb46520b1bc6498718a92a23f4811c8b462478ab730c584dfa046e080d545"
+        },
+        {
+          "id": "layout-flyer-template",
+          "revision": "429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183"
+        },
+        {
+          "id": "layout-layout",
+          "revision": "a7a99e5a2293f27a45cfe0752a43662aabc837dc1492503e25ba492c8030088c"
+        },
+        {
+          "id": "editable-copy",
+          "revision": "5468d86e914d18b851543148820f703430db91269707c576ee5783465f514bcf"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-2",
+      "variant": "real-photo-rebuild",
+      "role": "preview",
+      "media": "image",
+      "revision": "80cefc484098bf12f78c10da9ee58b82a83048ec2d18e4cdee4d3b4c3d68eed3",
+      "file": "books/oc-approved-20261017/output/page-2.png",
+      "sha256": "80cefc484098bf12f78c10da9ee58b82a83048ec2d18e4cdee4d3b4c3d68eed3",
+      "size": 553592,
+      "confirmation": "verified",
+      "relation": "authored",
+      "built_from": [
+        {
+          "id": "layout-flyer",
+          "revision": "03fdb46520b1bc6498718a92a23f4811c8b462478ab730c584dfa046e080d545"
+        },
+        {
+          "id": "layout-flyer-template",
+          "revision": "429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183"
+        },
+        {
+          "id": "layout-layout",
+          "revision": "a7a99e5a2293f27a45cfe0752a43662aabc837dc1492503e25ba492c8030088c"
+        },
+        {
+          "id": "editable-copy",
+          "revision": "5468d86e914d18b851543148820f703430db91269707c576ee5783465f514bcf"
+        }
+      ]
+    },
+    {
+      "id": "combined-preview",
+      "variant": "real-photo-rebuild",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "3651568ada148faa2afa4bd639eb5f84ec071045d19da2cfbc0a88cac76553cd",
+      "file": "books/oc-approved-20261017/output/実写真版_OCチラシ_両面.pdf",
+      "sha256": "3651568ada148faa2afa4bd639eb5f84ec071045d19da2cfbc0a88cac76553cd",
+      "size": 22292848,
+      "confirmation": "verified",
+      "relation": "authored",
+      "built_from": [
+        {
+          "id": "layout-flyer",
+          "revision": "03fdb46520b1bc6498718a92a23f4811c8b462478ab730c584dfa046e080d545"
+        },
+        {
+          "id": "layout-flyer-template",
+          "revision": "429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183"
+        },
+        {
+          "id": "layout-layout",
+          "revision": "a7a99e5a2293f27a45cfe0752a43662aabc837dc1492503e25ba492c8030088c"
+        },
+        {
+          "id": "editable-copy",
+          "revision": "5468d86e914d18b851543148820f703430db91269707c576ee5783465f514bcf"
+        }
+      ]
+    },
+    {
+      "id": "support-parts-brand-logo-horizontal-png",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "image",
+      "revision": "700bb302dde389f7deb314a6a3fd6bb44b2ab15dfa78d9248b3663ab1e32dbd3",
+      "file": "books/oc-approved-20261017/parts/brand/logo-horizontal.png",
+      "sha256": "700bb302dde389f7deb314a6a3fd6bb44b2ab15dfa78d9248b3663ab1e32dbd3",
+      "size": 42457,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "support-parts-icons-consult-svg",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "image",
+      "revision": "2a3a5d02403619e336fe2f9759a82194c191dd35dd9627619fbcb1e0627efe80",
+      "file": "books/oc-approved-20261017/parts/icons/consult.svg",
+      "sha256": "2a3a5d02403619e336fe2f9759a82194c191dd35dd9627619fbcb1e0627efe80",
+      "size": 290,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "support-parts-icons-laptop-svg",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "image",
+      "revision": "025c692f76a824add5198ba1c3f060bbbc105894567e09667d6dc567798d23fd",
+      "file": "books/oc-approved-20261017/parts/icons/laptop.svg",
+      "sha256": "025c692f76a824add5198ba1c3f060bbbc105894567e09667d6dc567798d23fd",
+      "size": 258,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "support-parts-icons-people-svg",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "image",
+      "revision": "151864363772e231484a633b3c7ce205777e006cc937eba926e34cd14cfdca58",
+      "file": "books/oc-approved-20261017/parts/icons/people.svg",
+      "sha256": "151864363772e231484a633b3c7ce205777e006cc937eba926e34cd14cfdca58",
+      "size": 348,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "support-parts-icons-school-svg",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "image",
+      "revision": "ee9d9dca31dca9649d7f7ccf1d6be95a6cfb59241c807fe05a25ad314ded1dc4",
+      "file": "books/oc-approved-20261017/parts/icons/school.svg",
+      "sha256": "ee9d9dca31dca9649d7f7ccf1d6be95a6cfb59241c807fe05a25ad314ded1dc4",
+      "size": 307,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "support-parts-manifest-json",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "text",
+      "revision": "2ba8ac9f9ed30fa75e07cb4a7e73bec1ab32b28520ee9e77400c742080740497",
+      "file": "books/oc-approved-20261017/parts/manifest.json",
+      "sha256": "2ba8ac9f9ed30fa75e07cb4a7e73bec1ab32b28520ee9e77400c742080740497",
+      "size": 11844,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "support-parts-official-site-qr-png",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "image",
+      "revision": "d80b0b015c12c941671a66ee19d6b1226b1a7e58de944466c3e1c3b217e0a33a",
+      "file": "books/oc-approved-20261017/parts/official-site-qr.png",
+      "sha256": "d80b0b015c12c941671a66ee19d6b1226b1a7e58de944466c3e1c3b217e0a33a",
+      "size": 3640,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "support-parts-official-site-qr-svg",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "image",
+      "revision": "232ce9735d208c547ebb612807e225c0402ecd85567efb624e15719d2e82d662",
+      "file": "books/oc-approved-20261017/parts/official-site-qr.svg",
+      "sha256": "232ce9735d208c547ebb612807e225c0402ecd85567efb624e15719d2e82d662",
+      "size": 1509,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "support-parts-photos-map-json",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "text",
+      "revision": "d8db48499235878d5a1ebf86cc4080eaf1e3cb4f7a975c9721219452161dfd57",
+      "file": "books/oc-approved-20261017/parts/photos-map.json",
+      "sha256": "d8db48499235878d5a1ebf86cc4080eaf1e3cb4f7a975c9721219452161dfd57",
+      "size": 11531,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "support-rebuild-py",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "text",
+      "revision": "9c5004054594d7c66b00967a12c7def852fea02d2a2552d7c9121a2c83a72f4f",
+      "file": "books/oc-approved-20261017/rebuild.py",
+      "sha256": "9c5004054594d7c66b00967a12c7def852fea02d2a2552d7c9121a2c83a72f4f",
+      "size": 2966,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "support-render-mjs",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "text",
+      "revision": "b250d37e52b05ba1558da2e8da2c5364317d7ec574fe67b2900ff2cf8eb7ec2e",
+      "file": "books/oc-approved-20261017/render.mjs",
+      "sha256": "b250d37e52b05ba1558da2e8da2c5364317d7ec574fe67b2900ff2cf8eb7ec2e",
+      "size": 3230,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "support-source-bind-copy-py",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "text",
+      "revision": "0319503dc84bf999c4d88d937498f64957066daeab4fd2682fff9768e702f587",
+      "file": "books/oc-approved-20261017/source/bind-copy.py",
+      "sha256": "0319503dc84bf999c4d88d937498f64957066daeab4fd2682fff9768e702f587",
+      "size": 82,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "layout-flyer",
+      "variant": "real-photo-rebuild",
+      "role": "layout",
+      "media": "text",
+      "revision": "03fdb46520b1bc6498718a92a23f4811c8b462478ab730c584dfa046e080d545",
+      "file": "books/oc-approved-20261017/source/flyer.html",
+      "sha256": "03fdb46520b1bc6498718a92a23f4811c8b462478ab730c584dfa046e080d545",
+      "size": 5159,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "layout-flyer-template",
+      "variant": "real-photo-rebuild",
+      "role": "layout",
+      "media": "text",
+      "revision": "429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183",
+      "file": "books/oc-approved-20261017/source/flyer.template.html",
+      "sha256": "429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183",
+      "size": 4174,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "preview-layout-check",
+      "variant": "real-photo-rebuild",
+      "role": "preview",
+      "media": "image",
+      "revision": "072af5b6b4ee2bad7d77ad51f1ad7c89d78dbfa788d65827aea1e909d52fdf15",
+      "file": "books/oc-approved-20261017/source/layout-check.png",
+      "sha256": "072af5b6b4ee2bad7d77ad51f1ad7c89d78dbfa788d65827aea1e909d52fdf15",
+      "size": 1368964,
+      "confirmation": "verified",
+      "relation": "authored",
+      "built_from": [
+        {
+          "id": "layout-flyer",
+          "revision": "03fdb46520b1bc6498718a92a23f4811c8b462478ab730c584dfa046e080d545"
+        },
+        {
+          "id": "layout-flyer-template",
+          "revision": "429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183"
+        },
+        {
+          "id": "layout-layout",
+          "revision": "a7a99e5a2293f27a45cfe0752a43662aabc837dc1492503e25ba492c8030088c"
+        },
+        {
+          "id": "editable-copy",
+          "revision": "5468d86e914d18b851543148820f703430db91269707c576ee5783465f514bcf"
+        }
+      ]
+    },
+    {
+      "id": "layout-layout",
+      "variant": "real-photo-rebuild",
+      "role": "layout",
+      "media": "text",
+      "revision": "a7a99e5a2293f27a45cfe0752a43662aabc837dc1492503e25ba492c8030088c",
+      "file": "books/oc-approved-20261017/source/layout.css",
+      "sha256": "a7a99e5a2293f27a45cfe0752a43662aabc837dc1492503e25ba492c8030088c",
+      "size": 7692,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "editable-copy",
+      "variant": "real-photo-rebuild",
+      "role": "copy",
+      "media": "text",
+      "revision": "5468d86e914d18b851543148820f703430db91269707c576ee5783465f514bcf",
+      "file": "books/oc-approved-20261017/text/content.json",
+      "sha256": "5468d86e914d18b851543148820f703430db91269707c576ee5783465f514bcf",
+      "size": 3407,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "support-verify-parts-py",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "text",
+      "revision": "4239d1477a71b6563c035d8045430f509a4f6f65ce7477884f56e4d45908f294",
+      "file": "books/oc-approved-20261017/verify-parts.py",
+      "sha256": "4239d1477a71b6563c035d8045430f509a4f6f65ce7477884f56e4d45908f294",
+      "size": 292,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "support-approved-content-json",
+      "variant": "approved-original",
+      "role": "support",
+      "media": "text",
+      "revision": "c4b186fc3cdfcb08e51de584a62a9e64b7f52a4077bce1fa9a5319ba9b9165ef",
+      "file": "references/school-own/oc-approved-20261017/approved-content.json",
+      "sha256": "c4b186fc3cdfcb08e51de584a62a9e64b7f52a4077bce1fa9a5319ba9b9165ef",
+      "size": 3859,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "support-approved-transcript-md",
+      "variant": "approved-original",
+      "role": "support",
+      "media": "text",
+      "revision": "352465b7d7d9f901a6845234a275b81c2a53f1a1c2186be718b73be5862423f7",
+      "file": "references/school-own/oc-approved-20261017/approved-transcript.md",
+      "sha256": "352465b7d7d9f901a6845234a275b81c2a53f1a1c2186be718b73be5862423f7",
+      "size": 7409,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "support-source-json",
+      "variant": "approved-original",
+      "role": "support",
+      "media": "text",
+      "revision": "7294230c5367425e71bf3a3b68167a21ec0e609235d1071841b7be7e85b32add",
+      "file": "references/school-own/oc-approved-20261017/source.json",
+      "sha256": "7294230c5367425e71bf3a3b68167a21ec0e609235d1071841b7be7e85b32add",
+      "size": 806,
+      "confirmation": "verified",
+      "relation": "authored"
+    },
+    {
+      "id": "support-source-yaml",
+      "variant": "approved-original",
+      "role": "support",
+      "media": "text",
+      "revision": "24aabae3152ce1ee1652570b904cb6aedd5ff03e064770657e8910d982422bc8",
+      "file": "references/school-own/oc-approved-20261017/source.yaml",
+      "sha256": "24aabae3152ce1ee1652570b904cb6aedd5ff03e064770657e8910d982422bc8",
+      "size": 572,
+      "confirmation": "verified",
+      "relation": "authored"
+    }
+  ]
+}

@@ -35,6 +35,10 @@ S・開始・再開時は `python3 system/scripts/read-ledger.py` で確定台�
 
 現在情報は確定台帳、再開事項は引継ぎ台帳を読む。このファイルに進捗表を複製しない。
 
+## 管理済み資料の格納・取り出し
+
+`system/assets/policy.json` の管理対象は、`asset:resolve` → `asset:search` → `asset:get` で同定・取得する。手動検索した原本画像や類似資料を部品として代用しない。格納は役割別の登録コマンド、検査は `asset:check` を使用する。対象不明・複数候補・NO_MATCH・実体未取得は停止して報告する。詳細は `system/assets/README.md`。未移行資料を管理済みと報告しない。
+
 ## 4. ディレクトリマップ
 
 ```text

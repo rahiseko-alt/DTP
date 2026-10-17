@@ -3,17 +3,24 @@
 import { chromium } from 'playwright';
 import path from 'node:path';
 import fs from 'node:fs/promises';
+import YAML from 'yaml';
 import { fileURLToPath } from 'node:url';
 const book=path.dirname(fileURLToPath(import.meta.url));
-let html=await fs.readFile(path.join(book,'source/flyer.html'),'utf8');
+const input=process.env.DTP_ASSET_INPUT_HTML; if(!input)throw new Error('Set DTP_ASSET_INPUT_HTML to the rebuilt HTML');
+let html=await fs.readFile(input,'utf8');
 html=html.replace('<link rel="stylesheet" href="layout.css">',`<style>${await fs.readFile(path.join(book,'source/layout.css'),'utf8')}</style>`);
+const root=path.resolve(book,'../..');
+const map=JSON.parse(await fs.readFile(path.join(book,'parts/photos-map.json'),'utf8'));
+const photos=YAML.parse(await fs.readFile(path.join(root,'company-data/photos/photos.yaml'),'utf8')).photos;
+for(const slot of map.slots){const canonical=photos.find(p=>p.id===slot.id);if(!canonical)throw new Error('Missing photo ID: '+slot.id);html=html.replaceAll(path.relative(path.join(book,'source'),path.join(root,slot.file)),path.relative(path.join(book,'source'),path.join(root,canonical.file)));}
 for(const match of [...html.matchAll(/src="([^"]+)"/g)]) {
   if(match[1].startsWith('data:'))continue;
   const file=path.resolve(book,'source',match[1]);
   const type=file.endsWith('.svg')?'image/svg+xml':/\.jpe?g$/i.test(file)?'image/jpeg':'image/png';
   html=html.replace(match[0],`src="data:${type};base64,${(await fs.readFile(file)).toString('base64')}"`);
 }
-const output=path.join(book,'output');await fs.mkdir(output,{recursive:true});
+const output=process.env.DTP_ASSET_OUTPUT_DIR; if(!output)throw new Error('Set DTP_ASSET_OUTPUT_DIR to a new output directory; registered outputs are immutable');
+if(await fs.stat(output).then(()=>true,()=>false))throw new Error('Output directory already exists');await fs.mkdir(output,{recursive:true});
 const browser=await chromium.launch({executablePath:process.env.STUDIO_CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});
 try {
   const page=await browser.newPage({viewport:{width:794,height:1123},deviceScaleFactor:1});

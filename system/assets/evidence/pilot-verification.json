@@ -1,0 +1,113 @@
+{
+  "source_commit": "0c0d45d1c2eebe08681bfcf1dcbb4aaa29e5f577",
+  "document_id": "oc-approved-20261017",
+  "attachment_sha256": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a",
+  "attachment_size": 3538475,
+  "pages": 2,
+  "photo_usage_ids": [
+    "front-hero",
+    "front-class",
+    "front-exchange",
+    "front-people",
+    "back-course-ai",
+    "back-course-business",
+    "back-class",
+    "back-exchange",
+    "back-event"
+  ],
+  "extracted_images": 0,
+  "replacement_photos": 9,
+  "source_files_moved_or_deleted": false,
+  "typecheck": "passed",
+  "targeted_tests": {
+    "passed": 75,
+    "new_identity_tests": 37
+  },
+  "validate": {
+    "errors": 0,
+    "warnings": 105,
+    "note": "既存の未記入・LFS未取得等の警告を含む"
+  },
+  "adversarial_reviews": {
+    "reviewer_a": "PASS; no unresolved P0/P1",
+    "reviewer_b": "PASS; no unresolved major blocker"
+  },
+  "render": {
+    "rebuilt_html": ".cache/asset-rebuild/flyer.html",
+    "output_directory": "/tmp/dtp-identity-render-rebuilt-20261017",
+    "checks": {
+      "images": [
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        },
+        {
+          "loaded": true
+        }
+      ],
+      "pages": [
+        {
+          "width": 794,
+          "height": 1123,
+          "scrollHeight": 1123
+        },
+        {
+          "width": 794,
+          "height": 1123,
+          "scrollHeight": 1123
+        }
+      ]
+    },
+    "pdf_sha256": "9b4ce16890cb1dcac9e079587819ffe7925e6f2882749b2b428b4dbb1590e719"
+  },
+  "github_enforcement": {
+    "state": "blocked",
+    "ruleset_create_http_status": 403,
+    "branch_protection_read_http_status": 403,
+    "reason": "Resource not accessible by integration"
+  },
+  "fresh_checkout": "pending",
+  "negative_ci": "pending",
+  "overall_achievement": "NOT_COMPLETE"
+}

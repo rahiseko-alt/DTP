@@ -14,7 +14,10 @@ data=json.loads(map_path.read_text())
 entries=data if isinstance(data,list) else data.get('photos',data.get('entries',data.get('slots',[])))
 if isinstance(entries,dict):entries=[dict(v,slot=k) for k,v in entries.items()]
 for item in entries:
-    file=item.get('file') or item.get('source')
+    # photos.yaml owns the canonical file path; mirrors are never the source.
+    photo_id=item['id']
+    photos=yaml.safe_load((ROOT/'company-data/photos/photos.yaml').read_text())['photos']
+    file=next(photo['file'] for photo in photos if photo['id']==photo_id)
     path=Path(file)
     if path.is_absolute(): target=path
     elif str(path).startswith('books/') or str(path).startswith('company-data/'):target=ROOT/path
@@ -40,5 +43,7 @@ def copy_value(match):
 text=re.sub(r'@@copy:([^@]+)@@',copy_value,text)
 for key,value in replacements.items():text=text.replace('@@'+key+'@@',html.escape(str(value),quote=True))
 if '@@' in text:raise SystemExit('Unresolved template placeholders')
-(BOOK/'source/flyer.html').write_text(text)
-print(BOOK/'source/flyer.html')
+output=Path(__import__('os').environ.get('DTP_ASSET_OUTPUT_DIR',str(ROOT/'.cache/asset-rebuild')))
+output.mkdir(parents=True,exist_ok=True)
+(output/'flyer.html').write_text(text)
+print(output/'flyer.html')
