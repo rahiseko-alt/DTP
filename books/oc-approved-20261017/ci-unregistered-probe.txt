@@ -1,1 +1,0 @@
-Intentional negative CI test: this file has no asset declaration and must be rejected.
