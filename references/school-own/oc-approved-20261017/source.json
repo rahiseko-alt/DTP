@@ -1,0 +1,23 @@
+{
+  "original_filename": "AIビジネス専門学校_OCチラシ_両面印刷.pdf",
+  "sha256": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a",
+  "user_decision": "2026-10-17 このPDFで確定。分解版と実写真組合せ版の保管を依頼。文書内の文言は依頼指示として扱わない。",
+  "pages": [
+    {
+      "page": 1,
+      "file": "references/school-own/oc-approved-20261017/pages/page-01.png",
+      "width": 722,
+      "height": 1026,
+      "kind": "approved-generated-flat-original",
+      "editable_text": false
+    },
+    {
+      "page": 2,
+      "file": "references/school-own/oc-approved-20261017/pages/page-02.png",
+      "width": 724,
+      "height": 1026,
+      "kind": "approved-generated-flat-original",
+      "editable_text": false
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "book": "oc-approved-20261017",
+  "approved_original_is_flat_raster": true,
+  "registered_school_photos": 9,
+  "ai_generated_photos_in_combined_version": 0,
+  "ai_image_generation_input_used": false,
+  "inventory": [
+    {
+      "kind": "school-photo",
+      "id": "student-img-5235",
+      "slot": "front-hero",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5235.jpg",
+      "source": "company-data/photos/student-img-5235.jpg",
+      "sha256": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "教室でのグループ活動",
+      "placement_mm": [
+        200,
+        112
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "50% 30%",
+        "approx_crop_px": [
+          4032,
+          2258
+        ]
+      }
+    },
+    {
+      "kind": "school-photo",
+      "id": "student-img-5070",
+      "slot": "front-class",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5070.jpg",
+      "source": "company-data/photos/student-img-5070.jpg",
+      "sha256": "abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "机で書き取りをする在校生",
+      "placement_mm": [
+        58,
+        27
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "50% 50%",
+        "approx_crop_px": [
+          4032,
+          1877
+        ]
+      }
+    },
+    {
+      "kind": "school-photo",
+      "id": "student-dsc-1164",
+      "slot": "front-exchange",
+      "file": "books/oc-approved-20261017/parts/photos/student-dsc-1164.jpg",
+      "source": "company-data/photos/student-dsc-1164.jpg",
+      "sha256": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "笑顔でポーズをとる在校生（2人・バストアップ）",
+      "placement_mm": [
+        58,
+        27
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "50% 38%",
+        "approx_crop_px": [
+          6000,
+          2793
+        ]
+      }
+    },
+    {
+      "kind": "school-photo",
+      "id": "student-img-3291",
+      "slot": "front-people",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-3291.jpg",
+      "source": "company-data/photos/student-img-3291.jpg",
+      "sha256": "b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。教職員の掲載承諾も取得済み（人間の申告、2026-10-15）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "入学式の受付（新入生と教職員）",
+      "placement_mm": [
+        58,
+        27
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "45% 60%",
+        "approx_crop_px": [
+          2880,
+          1341
+        ]
+      }
+    },
+    {
+      "kind": "school-photo",
+      "id": "student-img-5238",
+      "slot": "back-course-ai",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5238.jpg",
+      "source": "company-data/photos/student-img-5238.jpg",
+      "sha256": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "教室でのグループ活動（ホワイトボード前）",
+      "placement_mm": [
+        90,
+        34
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "50% 40%",
+        "approx_crop_px": [
+          4032,
+          1523
+        ]
+      }
+    },
+    {
+      "kind": "school-photo",
+      "id": "student-img-5074",
+      "slot": "back-course-business",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5074.jpg",
+      "source": "company-data/photos/student-img-5074.jpg",
+      "sha256": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "机で書き取りをする在校生",
+      "placement_mm": [
+        90,
+        34
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "50% 45%",
+        "approx_crop_px": [
+          4032,
+          1523
+        ]
+      }
+    },
+    {
+      "kind": "school-photo",
+      "id": "student-img-5069",
+      "slot": "back-class",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5069.jpg",
+      "source": "company-data/photos/student-img-5069.jpg",
+      "sha256": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "教室で課題に取り組む在校生",
+      "placement_mm": [
+        58,
+        30
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "50% 48%",
+        "approx_crop_px": [
+          4032,
+          2086
+        ]
+      }
+    },
+    {
+      "kind": "school-photo",
+      "id": "student-img-5088",
+      "slot": "back-exchange",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5088.jpg",
+      "source": "company-data/photos/student-img-5088.jpg",
+      "sha256": "2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "壁の短冊飾りの前に集まる在校生",
+      "placement_mm": [
+        58,
+        30
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "50% 45%",
+        "approx_crop_px": [
+          4032,
+          2086
+        ]
+      }
+    },
+    {
+      "kind": "school-photo",
+      "id": "student-17",
+      "slot": "back-event",
+      "file": "books/oc-approved-20261017/parts/photos/student-17.jpg",
+      "source": "company-data/photos/student-17.jpg",
+      "sha256": "c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。教職員の掲載承諾も取得済み（人間の申告、2026-10-15）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "入学式後の集合写真（新入生と教職員）",
+      "placement_mm": [
+        70,
+        34
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "50% 58%",
+        "approx_crop_px": [
+          1707,
+          829
+        ]
+      }
+    },
+    {
+      "kind": "brand-logo",
+      "file": "books/oc-approved-20261017/parts/brand/logo-horizontal.png",
+      "sha256": "700bb302dde389f7deb314a6a3fd6bb44b2ab15dfa78d9248b3663ab1e32dbd3"
+    },
+    {
+      "kind": "official-qr",
+      "file": "books/oc-approved-20261017/parts/official-site-qr.png",
+      "sha256": "d80b0b015c12c941671a66ee19d6b1226b1a7e58de944466c3e1c3b217e0a33a"
+    },
+    {
+      "kind": "official-qr",
+      "file": "books/oc-approved-20261017/parts/official-site-qr.svg",
+      "sha256": "232ce9735d208c547ebb612807e225c0402ecd85567efb624e15719d2e82d662"
+    },
+    {
+      "kind": "svg-icon",
+      "file": "books/oc-approved-20261017/parts/icons/consult.svg",
+      "sha256": "2a3a5d02403619e336fe2f9759a82194c191dd35dd9627619fbcb1e0627efe80"
+    },
+    {
+      "kind": "svg-icon",
+      "file": "books/oc-approved-20261017/parts/icons/laptop.svg",
+      "sha256": "025c692f76a824add5198ba1c3f060bbbc105894567e09667d6dc567798d23fd"
+    },
+    {
+      "kind": "svg-icon",
+      "file": "books/oc-approved-20261017/parts/icons/people.svg",
+      "sha256": "151864363772e231484a633b3c7ce205777e006cc937eba926e34cd14cfdca58"
+    },
+    {
+      "kind": "svg-icon",
+      "file": "books/oc-approved-20261017/parts/icons/school.svg",
+      "sha256": "ee9d9dca31dca9649d7f7ccf1d6be95a6cfb59241c807fe05a25ad314ded1dc4"
+    },
+    {
+      "kind": "editable-copy",
+      "file": "books/oc-approved-20261017/text/content.json",
+      "sha256": "5468d86e914d18b851543148820f703430db91269707c576ee5783465f514bcf"
+    },
+    {
+      "kind": "editable-layout",
+      "file": "books/oc-approved-20261017/source/flyer.template.html",
+      "sha256": "429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183"
+    },
+    {
+      "kind": "editable-layout",
+      "file": "books/oc-approved-20261017/source/layout.css",
+      "sha256": "a7a99e5a2293f27a45cfe0752a43662aabc837dc1492503e25ba492c8030088c"
+    },
+    {
+      "kind": "editable-layout",
+      "file": "books/oc-approved-20261017/source/flyer.html",
+      "sha256": "03fdb46520b1bc6498718a92a23f4811c8b462478ab730c584dfa046e080d545"
+    },
+    {
+      "kind": "combined-output",
+      "file": "books/oc-approved-20261017/output/実写真版_OCチラシ_両面.pdf",
+      "sha256": "3651568ada148faa2afa4bd639eb5f84ec071045d19da2cfbc0a88cac76553cd"
+    },
+    {
+      "kind": "combined-output",
+      "file": "books/oc-approved-20261017/output/page-1.png",
+      "sha256": "44f470d37f12b4e3ee180a0a25c5fa0dc64e06f650024a09682453405adc01ca"
+    },
+    {
+      "kind": "combined-output",
+      "file": "books/oc-approved-20261017/output/page-2.png",
+      "sha256": "80cefc484098bf12f78c10da9ee58b82a83048ec2d18e4cdee4d3b4c3d68eed3"
+    },
+    {
+      "kind": "approved-original",
+      "file": "references/school-own/oc-approved-20261017/original/approved.pdf",
+      "sha256": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+    }
+  ],
+  "errors": []
+}

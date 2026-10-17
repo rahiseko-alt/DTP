@@ -1,0 +1,12 @@
+tool: sharp/source-extraction
+model: null
+prompt: 既存heroの矩形画素を変更せず独立サムネイルへ分解。新規生成・補修・拡大なし。
+reference_inputs: []
+source_refs:
+- books/avatar-oc-2028/backgrounds/avatar-flight-example.png
+params:
+  rect:
+    left: 370
+    top: 70
+    width: 760
+    height: 258

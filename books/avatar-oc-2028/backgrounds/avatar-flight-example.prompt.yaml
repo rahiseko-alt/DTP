@@ -1,0 +1,14 @@
+tool: image_gen
+id: avatar-flight-example
+kind: generated
+purpose: 分身動画体験の完成例。実学生ではない架空成人女性。
+generated_at: 2026-10-15
+model: image_gen
+prompt: >-
+  Completely fictitious 20-year-old adult woman, dark short hair, white blue orange casual outfit,
+  flying above clouds and a city. Same identity as portrait card on left and phone video on right.
+  Voice waveform and music notes. Parent-friendly educational blue and white visual.
+  No text, no logos, no magazine mockup.
+reference_inputs: []
+source_file: /workspace/generated_images/exec-18f84a83-ef11-4cfb-81ae-92c00f4ed4ef.png
+notes: 親エージェントによる新規生成、実学生写真を入力していない。生成例であり実施内容・完成品質の保証ではない。

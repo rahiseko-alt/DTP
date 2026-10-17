@@ -1,0 +1,18 @@
+{
+  "result": "preview_submit_ready",
+  "pdf_sha256": "6ab8a731a5e7644fd2103c09654736b0888a5c8408a9f285918d937165110be5",
+  "review_sha256": "822c5809d6b0e2f0d95504937a64a966c0475ae292a9c73204557a01ab3ebbb4",
+  "decision_sha256": "575c00cb105bf96cea2e52682d37ab2a566453f215e68136faa057ef4831fa9e",
+  "page_count": 1,
+  "binding": "none",
+  "independent_roles": true,
+  "major_findings_remaining": 0,
+  "minor_findings": 2,
+  "present_image": "books/avatar-oc-2028/output/preview-v3/print-preview.png",
+  "image_source": "same PDF via pdftoppm150dpi; standard screenshot is unstable and not final",
+  "typecheck": "pass",
+  "validate": "error0/warn67",
+  "legacy_gate": "4p左綴じ冊子用のため適用外。1面未綴じの版/独立役/全ページ/指摘と判断を具体assertで照合。",
+  "mode": "preview",
+  "release": false
+}

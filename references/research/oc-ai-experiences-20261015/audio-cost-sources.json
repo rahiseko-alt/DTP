@@ -1,0 +1,78 @@
+{
+  "retrieved_date_jst": "2026-10-15",
+  "sources": [
+    {
+      "id": "eleven-pricing",
+      "url": "https://elevenlabs.io/pricing",
+      "retrieved_date_jst": "2026-10-15",
+      "raw_html": "raw-audio-cost/eleven-pricing.html",
+      "raw_text": "raw-audio-cost/eleven-pricing.txt",
+      "sha256": "e6e86efc694fb3edb934fff617f314a477bda49d2dfa3bc1941158fd6448115e"
+    },
+    {
+      "id": "eleven-terms",
+      "url": "https://elevenlabs.io/terms-of-use",
+      "retrieved_date_jst": "2026-10-15",
+      "raw_html": "raw-audio-cost/eleven-terms.html",
+      "raw_text": "raw-audio-cost/eleven-terms.txt",
+      "sha256": "c6c29253fb986b04210ac940c919505839816b38228bd5a22e2a9f40ffc81c6e"
+    },
+    {
+      "id": "eleven-pvc",
+      "url": "https://help.elevenlabs.io/hc/en-us/articles/36842751624209-Can-I-create-a-Professional-Voice-Clone-of-someone-else-s-voice",
+      "retrieved_date_jst": "2026-10-15",
+      "raw_html": "raw-audio-cost/eleven-pvc.html",
+      "raw_text": "raw-audio-cost/eleven-pvc.txt",
+      "sha256": "78092300d1f6ae4f8a996ebb6c3ec5584ed766a7518d524380d0ba0d1694708d"
+    },
+    {
+      "id": "eleven-service-terms",
+      "url": "https://elevenlabs.io/service-specific-terms",
+      "retrieved_date_jst": "2026-10-15",
+      "raw_html": "raw-audio-cost/eleven-service-terms.html",
+      "raw_text": "raw-audio-cost/eleven-service-terms.txt",
+      "sha256": "05ecc26723e7a4649393f7ee4325d978b6a591a2087aed7d7a1466607be92f94"
+    },
+    {
+      "id": "eleven-prohibited",
+      "url": "https://elevenlabs.io/use-policy",
+      "retrieved_date_jst": "2026-10-15",
+      "raw_html": "raw-audio-cost/eleven-prohibited.html",
+      "raw_text": "raw-audio-cost/eleven-prohibited.txt",
+      "sha256": "b0da31b02fdf09fb805415f680caccbe8d0147d1cc8dd47795c719b313bd7624"
+    },
+    {
+      "id": "suno-pricing",
+      "url": "https://suno.com/pricing",
+      "retrieved_date_jst": "2026-10-15",
+      "raw_html": "raw-audio-cost/suno-pricing.html",
+      "raw_text": "raw-audio-cost/suno-pricing.txt",
+      "sha256": "f716b6bc80a1e307f81b2a462fe0f5b22f2dc8d5339fa03ca8002e3cf7011648"
+    },
+    {
+      "id": "suno-terms",
+      "url": "https://suno.com/terms",
+      "retrieved_date_jst": "2026-10-15",
+      "raw_html": "raw-audio-cost/suno-terms.html",
+      "raw_text": "raw-audio-cost/suno-terms.txt",
+      "sha256": "7c930b5b54e5cfb654d3061102e1c35de1fd65138662ecb76b4c75ec5aaa9e9c"
+    },
+    {
+      "id": "suno-ownership",
+      "url": "https://help.suno.com/en/articles/2416769",
+      "retrieved_date_jst": "2026-10-15",
+      "raw_html": "raw-audio-cost/suno-ownership.html",
+      "raw_text": "raw-audio-cost/suno-ownership.txt",
+      "sha256": "fcaf86f56ce72bdf86c8b50ef978bb7b736d89f80a549b066af195aa85489a5d"
+    },
+    {
+      "id": "suno-plans",
+      "url": "https://help.suno.com/en/articles/2410049",
+      "retrieved_date_jst": "2026-10-15",
+      "raw_html": "raw-audio-cost/suno-plans.html",
+      "raw_text": "raw-audio-cost/suno-plans.txt",
+      "sha256": "958683b75d4b765889af0657064f12e11376f87034146814e39504abe9942e4c"
+    }
+  ],
+  "method": "通常HTTPS、継承proxy・TLS検証保持。urllibの403後curl標準UAによる正規ページ取得成功。認証/決済/生成なし。"
+}

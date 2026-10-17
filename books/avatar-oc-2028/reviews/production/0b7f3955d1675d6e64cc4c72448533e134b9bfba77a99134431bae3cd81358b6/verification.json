@@ -1,0 +1,25 @@
+{
+  "result": "preview_submit_ready",
+  "pdf_sha256": "0b7f3955d1675d6e64cc4c72448533e134b9bfba77a99134431bae3cd81358b6",
+  "review_sha256": "84d6ebc8fcba53eb48b357b9a06b45024e09306eb320673f11cd122e4aad3ee8",
+  "decision_sha256": "7db3d71fc1db4a27b10e60eed4cf243879671a1f2f8329413b9dc8e4e338ad8c",
+  "independent_roles": true,
+  "page_count": 1,
+  "major_remaining": 0,
+  "minor_remaining": 2,
+  "designer_score_before_after": [
+    70,
+    84
+  ],
+  "chief_score_before_after": [
+    67,
+    83
+  ],
+  "copy_checks": "6/6 verified by separate avatar_event agent",
+  "validate": "0 errors,68 warnings",
+  "render": "pass; safety/font size warnings0, alternative browser/local CJK warnings",
+  "final_image": "output/preview-v8/display-preview.png",
+  "pixel_visibility": "whole100dpi and blue ROI verified;150dpi full tool artifact distinguished",
+  "legacy_gate": "4p左綴じ用のため1面版は同SHA/全1面/独立役/指摘/判断を具体assert照合",
+  "release": false
+}

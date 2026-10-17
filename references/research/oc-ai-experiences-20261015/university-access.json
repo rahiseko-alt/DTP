@@ -1,0 +1,45 @@
+{
+  "policy": "restricted; runtime state unknown; no listed university hosts",
+  "checks": [
+    {
+      "host": "www.meijo-u.ac.jp",
+      "url": "https://www.meijo-u.ac.jp/",
+      "exit_code": 56,
+      "response": "HTTP/1.1 403 Forbidden\ncontent-length: 16\ncontent-type: text/plain\ndate: Thu, 15 Oct 2026 12:49:34 GMT\nserver: envoy\nconnection: close\n\n",
+      "error": "curl: (56) CONNECT tunnel failed, response 403\n",
+      "checked_at": "2026-10-15T12:49:34.606152+00:00"
+    },
+    {
+      "host": "www.nucba.ac.jp",
+      "url": "https://www.nucba.ac.jp/",
+      "exit_code": 56,
+      "response": "HTTP/1.1 403 Forbidden\ncontent-length: 16\ncontent-type: text/plain\ndate: Thu, 15 Oct 2026 12:49:34 GMT\nserver: envoy\nconnection: close\n\n",
+      "error": "curl: (56) CONNECT tunnel failed, response 403\n",
+      "checked_at": "2026-10-15T12:49:34.604306+00:00"
+    },
+    {
+      "host": "www.ait.ac.jp",
+      "url": "https://www.ait.ac.jp/",
+      "exit_code": 56,
+      "response": "HTTP/1.1 403 Forbidden\ncontent-length: 16\ncontent-type: text/plain\ndate: Thu, 15 Oct 2026 12:49:34 GMT\nserver: envoy\nconnection: close\n\n",
+      "error": "curl: (56) CONNECT tunnel failed, response 403\n",
+      "checked_at": "2026-10-15T12:49:34.605169+00:00"
+    },
+    {
+      "host": "www.tuis.ac.jp",
+      "url": "https://www.tuis.ac.jp/",
+      "exit_code": 56,
+      "response": "HTTP/1.1 403 Forbidden\ncontent-length: 16\ncontent-type: text/plain\ndate: Thu, 15 Oct 2026 12:49:34 GMT\nserver: envoy\nconnection: close\n\n",
+      "error": "curl: (56) CONNECT tunnel failed, response 403\n",
+      "checked_at": "2026-10-15T12:49:34.604460+00:00"
+    },
+    {
+      "host": "www.it-chiba.ac.jp",
+      "url": "https://www.it-chiba.ac.jp/",
+      "exit_code": 56,
+      "response": "HTTP/1.1 403 Forbidden\ncontent-length: 16\ncontent-type: text/plain\ndate: Thu, 15 Oct 2026 12:49:34 GMT\nserver: envoy\nconnection: close\n\n",
+      "error": "curl: (56) CONNECT tunnel failed, response 403\n",
+      "checked_at": "2026-10-15T12:49:34.607830+00:00"
+    }
+  ]
+}

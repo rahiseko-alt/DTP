@@ -1,0 +1,29 @@
+// Render the editable separated source without file:// navigation.
+// Run from repository root: node books/oc-approved-20261017/render.mjs
+import { chromium } from 'playwright';
+import path from 'node:path';
+import fs from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+const book=path.dirname(fileURLToPath(import.meta.url));
+let html=await fs.readFile(path.join(book,'source/flyer.html'),'utf8');
+html=html.replace('<link rel="stylesheet" href="layout.css">',`<style>${await fs.readFile(path.join(book,'source/layout.css'),'utf8')}</style>`);
+for(const match of [...html.matchAll(/src="([^"]+)"/g)]) {
+  if(match[1].startsWith('data:'))continue;
+  const file=path.resolve(book,'source',match[1]);
+  const type=file.endsWith('.svg')?'image/svg+xml':/\.jpe?g$/i.test(file)?'image/jpeg':'image/png';
+  html=html.replace(match[0],`src="data:${type};base64,${(await fs.readFile(file)).toString('base64')}"`);
+}
+const output=path.join(book,'output');await fs.mkdir(output,{recursive:true});
+const browser=await chromium.launch({executablePath:process.env.STUDIO_CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});
+try {
+  const page=await browser.newPage({viewport:{width:794,height:1123},deviceScaleFactor:1});
+  await page.setContent(html,{waitUntil:'load'});await page.evaluate(()=>document.fonts.ready);
+  await page.evaluate(()=>Promise.all([...document.images].map(i=>i.decode())));
+  for(let i=0;i<2;i++) await page.locator('.page').nth(i).screenshot({path:path.join(output,`page-${i+1}.png`)});
+  await page.emulateMedia({media:'print'});
+  await page.pdf({path:path.join(output,'実写真版_OCチラシ_両面.pdf'),format:'A4',printBackground:true,preferCSSPageSize:true});
+  const checks=await page.evaluate(()=>({images:[...document.images].map(i=>({loaded:i.complete&&i.naturalWidth>0})),pages:[...document.querySelectorAll('.page')].map(p=>({width:p.offsetWidth,height:p.offsetHeight,scrollHeight:p.scrollHeight}))}));
+  if(checks.images.some(i=>!i.loaded)||checks.pages.length!==2||checks.pages.some(p=>p.scrollHeight>p.height))throw new Error('Missing image, wrong HTML page count, or content overflow');
+  await fs.writeFile(path.join(output,'dom-check.json'),JSON.stringify(checks,null,2)+'\n');
+  console.log('Saved two-page PDF and page previews. No bleed or release approval.');
+}finally{await browser.close();}
