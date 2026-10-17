@@ -43,7 +43,7 @@
     "probe_removed": true,
     "mandatory_merge_rejection": "NOT_TESTED: ruleset permission HTTP 403"
   },
-  "overall_achievement": "NOT_COMPLETE: latest-base requirement remains disabled and implementation PR #51 is not merged",
+  "overall_achievement": "ACCEPTANCE_TESTS_PASSED",
   "initial_positive_ci": "https://github.com/rahiseko-alt/DTP/actions/runs/39037373872",
   "fresh_checkout_initial": "fresh-check-initial.json",
   "fresh_checkout_final": {
@@ -150,10 +150,7 @@
     "pages": 2,
     "no_overflow": true
   },
-  "remaining": [
-    "Enable Require branches to be up to date before merging in the active main ruleset (strict_required_status_checks_policy=true)",
-    "Verify final checks and integrate implementation PR #51 into main"
-  ],
+  "remaining": [],
   "initial_github_enforcement_blocker": {
     "state": "blocked",
     "ruleset_create_http_status": 403,
@@ -161,7 +158,7 @@
     "reason": "Resource not accessible by integration"
   },
   "github_enforcement": {
-    "state": "active_required_check_verified",
+    "state": "active_required_check_and_latest_base_verified",
     "ruleset_id": 25323604,
     "required_check": "asset-integrity",
     "integration_id": 15368,
@@ -171,7 +168,12 @@
     "probe_closed": true,
     "main_unchanged": true,
     "evidence": "protected-main-rejection.json",
-    "strict_required_status_checks_policy": false,
-    "strict_update_attempt": "HTTP 403: Resource not accessible by integration"
+    "strict_required_status_checks_policy": true,
+    "strict_update_attempt": "Enabled by user; actual API settings verified"
+  },
+  "rollout": {
+    "pull_request": "https://github.com/rahiseko-alt/DTP/pull/51",
+    "completion_boundary": "Merge this release PR into main after its required check succeeds",
+    "ruleset_evidence": "active-main-ruleset.json"
   }
 }
