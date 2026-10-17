@@ -30,7 +30,7 @@ npm run asset:extract -- --document oc-approved-20261017 --id crop-01 --parent a
 
 `--dry-run`なしで確定する。保存先は役割・ID・内容SHAから決定され、任意の出力パスは指定できない。抽出はPopplerの版・ページ・切出し矩形を保存し、再現照合する。写真の新規登録は`photo:add`、その資料での使用登録は`asset:photo`。新規資料や未移行写真を無条件に管理済みにする操作はない。今回以外への展開は別の登録・審査が必要。
 
-PDF/確認画像の登録には`--built-from '[{"id":"<ソースID>","revision":"<SHA>"}]'`が必要。依存ソースの現行版と鮮度を検査する。旧版は履歴に残し、古い出力はSTALE_OUTPUTとして取得を拒否する。
+通常の依存付き素材は`--built-from '[{"id":"<ソースID>","revision":"<SHA>"}]'`が必要。依存ソースの現行版と鮮度を検査する。旧版は履歴に残し、古い出力はSTALE_OUTPUTとして取得を拒否する。
 
 ## 失敗と復旧
 
@@ -43,3 +43,21 @@ PDF/確認画像の登録には`--built-from '[{"id":"<ソースID>","revision":
 `asset:check`はvalidateとCIに組み込む。未登録ファイルを直接コピーすれば検出するが、cpそのものは止めない。mainへの統合拒否にはGitHub側の必須チェック設定も必要。workflow追加だけでは強制化完了ではない。
 
 初回の意味付け自体や、利用者が専用経路を使わず違うファイルを手で回答する行為を、SHAで防げるとは説明しない。タグの数も資料の同一性の代わりにはしない。
+
+## 現行版からの再構築
+
+`python3 books/oc-approved-20261017/rebuild.py` は、共通 `asset:build-inputs` で本文・テンプレート・CSS・写真9枠・トリム・ロゴ・QR・アイコンの現行版を解決し、`.cache/asset-rebuild/flyer.html` と `.inputs.json` を生成する。学校factsのSHAも入力記録へ含める。
+
+`DTP_ASSET_INPUT_HTML="$PWD/.cache/asset-rebuild/flyer.html" DTP_ASSET_OUTPUT_DIR=/tmp/新規出力先 node books/oc-approved-20261017/render.mjs` は同じ入力記録を検証し、そのCSSと画像で描画する。入力が変わっていれば停止する。登録済み出力を上書きしない。描画は成果物の実パス・SHA・サイズ・役割を記録したreceiptを `.cache/asset-render-receipts/` に保存する。PDF/確認画像の登録は `--build-snapshot .cache/asset-render-receipts/<描画時表示のID>.json` が必須。再構築だけの入力proofや別PDFでは登録できない。実際の19入力、学校factsとアダプター実装を依存元として自動記録する。
+
+この固定アダプターは未登録の画像パス、インライン画像、動的スクリプト、外部CSSリソースを拒否する。新しい紙面表現を追加する場合は参照する素材とアダプター仕様を明示的に拡張する。
+
+## main必須チェックの未完了設定
+
+この実装時のGitHub認証は、保護設定の取得・ruleset作成がHTTP 403だった。設定案は `system/assets/main-ruleset.json`。実際の成功runで確認したGitHub Actions app ID 15368の `asset-integrity` を必須にする。権限のある認証で適用後、mainへの統合拒否を実試験して初めて達成とする。
+
+```bash
+gh api --method POST repos/rahiseko-alt/DTP/rulesets --input system/assets/main-ruleset.json
+```
+
+既存rulesetを上書きする操作ではない。適用後は有効なmainルールとチェック名を実設定から再確認する。現在の状態・試験証跡は `system/assets/evidence/pilot-verification.json`。

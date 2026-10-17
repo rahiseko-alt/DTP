@@ -32,7 +32,9 @@
     "asset:index": "tsx system/scripts/assets.ts index",
     "asset:photo": "tsx system/scripts/assets.ts photo",
     "asset:extract": "tsx system/scripts/assets.ts extract",
-    "asset:recover": "tsx system/scripts/assets.ts recover"
+    "asset:recover": "tsx system/scripts/assets.ts recover",
+    "asset:build-inputs": "tsx system/scripts/assets.ts build-inputs",
+    "asset:build-check": "tsx system/scripts/assets.ts build-check"
   },
   "dependencies": {
     "@fontsource/noto-sans-jp": "^5.3.0",

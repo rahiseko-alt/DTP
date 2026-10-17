@@ -255,7 +255,7 @@ describe("identity and fail-closed retrieval", () => {
         media: "image",
         confirmation: "verified",
       }),
-    ).rejects.toThrow("Output dependencies");
+    ).rejects.toMatchObject({ code: "BUILD_SNAPSHOT" });
   });
   it("rejects same asset ID changing role across revisions", () => {
     const c = catalog();

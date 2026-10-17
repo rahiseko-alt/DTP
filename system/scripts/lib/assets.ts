@@ -56,6 +56,9 @@ export const AssetSchema = z
     storage: z.enum(["canonical", "legacy-mirror"]).default("canonical"),
     confirmation: z.enum(["verified", "unverified"]),
     recipe: Recipe.optional(),
+    external_inputs: z
+      .array(z.object({ path: z.string(), sha256: SHA }).strict())
+      .default([]),
     built_from: z
       .array(z.object({ id: ID, revision: SHA }).strict())
       .default([]),
@@ -432,6 +435,7 @@ export function fingerprint(root: string) {
     "system/assets/policy.json",
     "system/assets/legacy-baseline.json",
     "company-data/photos/photos.yaml",
+    "company-data/facts/school.yaml",
     ...documents(root).flatMap((d) => [d.declaration, d.catalog]),
   ];
   return digest(
@@ -484,6 +488,9 @@ function assertFresh(
   if (seen.has(key)) fail("CYCLE", key);
   seen = new Set([...seen, key]);
   if (a.confirmation !== "verified") fail("UNVERIFIED", a.id);
+  for (const external of a.external_inputs)
+    if (digest(read(root, external.path)) !== external.sha256)
+      fail("STALE_OUTPUT", a.id);
   for (const source of a.built_from) {
     const dependency = doc.catalogData.assets.find(
       (x) => x.id === source.id && x.revision === source.revision,
@@ -814,6 +821,7 @@ export type RegisterOptions = {
   dryRun?: boolean;
   confirmation: "verified" | "unverified";
   built_from?: { id: string; revision: string }[];
+  buildSnapshot?: string;
 };
 export async function registerAsset(root: string, opts: RegisterOptions) {
   assertUnlocked(root);
@@ -852,6 +860,39 @@ export async function registerAsset(root: string, opts: RegisterOptions) {
   const ext = path.extname(source).toLowerCase();
   if (!/^[.][a-z0-9]{1,8}$/.test(ext)) fail("EXTENSION", source);
   const rel = `books/${doc.id}/${folder}/${opts.id}/${opts.sha256}/${opts.id}${ext}`;
+  let externalInputs: { path: string; sha256: string }[] = [];
+  if (["preview", "reconstructed-preview"].includes(opts.role)) {
+    if (!opts.buildSnapshot)
+      fail(
+        "BUILD_SNAPSHOT",
+        "Verified renderer input snapshot required for output registration",
+      );
+    const snapshot = await verifyBuildSnapshot(root, opts.buildSnapshot);
+    if (snapshot.document !== doc.id)
+      fail("DOCUMENT_ID", "Build belongs to another document");
+    opts = {
+      ...opts,
+      built_from: snapshot.inputs.map(
+        (i: { id: string; revision: string }) => ({
+          id: i.id,
+          revision: i.revision,
+        }),
+      ),
+    };
+    const output = (snapshot.outputs ?? []).find(
+      (o: { path: string; sha256: string; size: number; role: string }) =>
+        o.path === source &&
+        o.sha256 === opts.sha256 &&
+        o.size === bytes.length &&
+        o.role === opts.role,
+    );
+    if (!output)
+      fail(
+        "RENDER_RECEIPT",
+        "Source file is not an output of this render receipt",
+      );
+    externalInputs = snapshot.external;
+  }
   const a = AssetSchema.parse({
     id: opts.id,
     variant: opts.variant,
@@ -864,6 +905,7 @@ export async function registerAsset(root: string, opts: RegisterOptions) {
     confirmation: opts.confirmation,
     relation: "authored",
     built_from: opts.built_from ?? [],
+    external_inputs: externalInputs,
   });
   permitted(doc, a, rel);
   if (
@@ -1083,4 +1125,94 @@ export function contentIdentity(bytes: Buffer) {
       /^version https:\/\/git-lfs.github.com\/spec\/v1\noid sha256:([a-f0-9]{64})\nsize (\d+)\s*$/,
     );
   return p ? p[1]! : digest(bytes);
+}
+
+/** The pilot adapter resolves current inputs once; renderers must not reselect fixed files. */
+export async function buildInputs(root: string, document: string) {
+  const before = fingerprint(root),
+    doc = resolveDocument(root, document);
+  if (doc.id !== "oc-approved-20261017")
+    fail("BUILD_ADAPTER", "Only the enrolled OC adapter is implemented");
+  const specs: [string, Role][] = [
+    ["editable-copy", "copy"],
+    ["layout-flyer-template", "layout"],
+    ["layout-layout", "layout"],
+    ["support-parts-photos-map-json", "support"],
+    ...[
+      "front-hero",
+      "front-class",
+      "front-exchange",
+      "front-people",
+      "back-course-ai",
+      "back-course-business",
+      "back-class",
+      "back-exchange",
+      "back-event",
+    ].map((id) => [id, "replacement-photo"] as [string, Role]),
+    ...[
+      "brand-logo-horizontal-png",
+      "official-site-qr-png",
+      "icons-consult-svg",
+      "icons-laptop-svg",
+      "icons-people-svg",
+      "icons-school-svg",
+    ].map((id) => ["support-parts-" + id, "support"] as [string, Role]),
+  ];
+  const inputs = [];
+  for (const [id, role] of specs) {
+    const asset = currentAssets(doc).find((a) => a.id === id);
+    if (!asset || asset.role !== role || asset.variant !== "real-photo-rebuild")
+      fail("BUILD_ROLE", id);
+    assertFresh(root, doc, asset);
+    availability(root, asset);
+    inputs.push({
+      id,
+      role,
+      media: asset.media,
+      revision: asset.revision,
+      path: assetPath(root, asset),
+    });
+  }
+  const external = [
+    {
+      path: "company-data/facts/school.yaml",
+      sha256: digest(read(root, "company-data/facts/school.yaml")),
+    },
+  ];
+  for (const file of [
+    "system/scripts/lib/assets.ts",
+    `books/${doc.id}/rebuild.py`,
+    `books/${doc.id}/render.mjs`,
+  ])
+    external.push({ path: file, sha256: digest(read(root, file)) });
+  stable(root, before);
+  return {
+    schema_version: 1,
+    document: doc.id,
+    fingerprint: digest(JSON.stringify({ inputs, external })),
+    inputs,
+    external,
+  };
+}
+export async function verifyBuildSnapshot(root: string, file: string) {
+  const snapshot = JSON.parse(read(root, file));
+  const current = await buildInputs(root, snapshot.document);
+  if (
+    JSON.stringify(current) !==
+    JSON.stringify({
+      schema_version: snapshot.schema_version,
+      document: snapshot.document,
+      fingerprint: snapshot.fingerprint,
+      inputs: snapshot.inputs,
+      external: snapshot.external,
+    })
+  )
+    fail("STALE_BUILD", "Build inputs changed; rebuild first");
+  if (
+    !snapshot.html ||
+    digest(fs.readFileSync(safePath(root, snapshot.html.path))) !==
+      snapshot.html.sha256
+  )
+    fail("BUILD_HTML", "Rebuilt HTML changed");
+  return snapshot;
 }

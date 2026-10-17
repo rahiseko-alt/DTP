@@ -1,6 +1,8 @@
 import { parseArgs } from "node:util";
 import path from "node:path";
 import {
+  buildInputs,
+  verifyBuildSnapshot,
   registerPhotoUsage,
   extractAsset,
   recoverRegistration,
@@ -34,6 +36,8 @@ const { values: v, positionals } = parseArgs({
     dpi: { type: "string" },
     rect: { type: "string" },
     "catalog-sha256": { type: "string" },
+    "build-snapshot": { type: "string" },
+    snapshot: { type: "string" },
     "built-from": { type: "string" },
     "dry-run": { type: "boolean" },
     "metadata-only": { type: "boolean" },
@@ -72,7 +76,11 @@ try {
   else if (cmd === "check") {
     result = await checkAssets(root, { metadataOnly: v["metadata-only"] });
     if ((result as { errors: string[] }).errors.length) process.exitCode = 1;
-  } else if (cmd === "index") result = buildIndex(root);
+  } else if (cmd === "build-inputs")
+    result = await buildInputs(root, required("document"));
+  else if (cmd === "build-check")
+    result = await verifyBuildSnapshot(root, required("snapshot"));
+  else if (cmd === "index") result = buildIndex(root);
   else if (cmd === "photo")
     result = await registerPhotoUsage(root, {
       document: required("document"),
@@ -112,6 +120,7 @@ try {
       media: media as "image" | "pdf" | "text",
       confirmation: confirmation as "verified" | "unverified",
       dryRun: v["dry-run"],
+      buildSnapshot: v["build-snapshot"],
       built_from: v["built-from"] ? JSON.parse(v["built-from"]) : [],
     });
   } else

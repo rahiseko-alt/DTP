@@ -42,3 +42,5 @@ HTMLはローカルHTTPまたは画像/CSSを埋め込んだブラウザ出力�
 取り出しは `npm run asset:search -- --document oc-approved-20261017 --variant real-photo-rebuild --role replacement-photo`。原本画像で代用しない。取得は `asset:get`、検査は `asset:check`。検査はmanifestや期待ハッシュを上書きしない。
 
 `rebuild.py` は `.cache/asset-rebuild/flyer.html` に確認用HTMLを出す。`render.mjs` は生成HTMLの `DTP_ASSET_INPUT_HTML` と新規出力先 `DTP_ASSET_OUTPUT_DIR` を別々に必須指定し、既存出力を上書きしない。以前の本文にある既存output上書きの再構築手順は使用しない。写真コピーは保存状態legacy-mirrorとして残し、再構築では学校写真台帳のIDを参照する。
+
+現行入力は共通 `asset:build-inputs` で解決し、`.cache/asset-rebuild/flyer.html.inputs.json` に19入力と学校factsの版を記録する。再構築と描画の間に変更があれば停止する。本文・CSS・写真スロットの新しい登録版も固定パスではなくcurrentから読む。
