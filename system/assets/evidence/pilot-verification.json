@@ -34,7 +34,52 @@
     "reviewer_a": "PASS; no unresolved P0/P1",
     "reviewer_b": "PASS; no unresolved major blocker"
   },
-  "render": {
+  "github_enforcement": {
+    "state": "blocked",
+    "ruleset_create_http_status": 403,
+    "branch_protection_read_http_status": 403,
+    "reason": "Resource not accessible by integration"
+  },
+  "fresh_checkout": "pending",
+  "negative_ci": {
+    "result": "expected failure",
+    "commit": "2fe401687d22883b23e39aad4835b218d3129f69",
+    "run": "https://github.com/rahiseko-alt/DTP/actions/runs/39037483635",
+    "detected": "UNREGISTERED: books/oc-approved-20261017/ci-unregistered-probe.txt",
+    "probe_removed": true,
+    "mandatory_merge_rejection": "NOT_TESTED: ruleset permission HTTP 403"
+  },
+  "overall_achievement": "NOT_COMPLETE: main required-check enforcement and protected merge rejection unavailable (HTTP 403)",
+  "initial_positive_ci": "https://github.com/rahiseko-alt/DTP/actions/runs/39037373872",
+  "fresh_checkout_initial": "fresh-check-initial.json",
+  "fresh_checkout_final": {
+    "state": "passed",
+    "head": "c114a4b1f3ab337b45414e5e37c835f339a92cd5",
+    "evidence": "fresh-check-final.json",
+    "clean": true
+  },
+  "final_positive_ci": {
+    "state": "success",
+    "code_commit": "c114a4b1f3ab337b45414e5e37c835f339a92cd5",
+    "run": "https://github.com/rahiseko-alt/DTP/actions/runs/39038633154"
+  },
+  "build_integration": {
+    "current_copy_css_photo_reflected": true,
+    "registered_original_outputs_unchanged": true,
+    "same_receipt_three_outputs_registered": true,
+    "old_pdf_rejected_against_new_receipt": true,
+    "wrong_html_rejected": true,
+    "undeclared_images_rejected": true,
+    "test_source": "system/scripts/test/asset-build.test.ts"
+  },
+  "tested_source_hashes": {
+    "system/scripts/lib/assets.ts": "284674903acc55fa7d4ba484dd0124aed986ea0776ef4911911e34348cffaa20",
+    "system/scripts/test/assets.test.ts": "66f2ee6a4689e44621df167fe35bcb5ed2a8903d10e8f4a0c165ffcdc8ae7a47",
+    "system/scripts/test/asset-build.test.ts": "f6d64bb6b2ea396dd9f6e8d233f022d3040b98b5fa0a95994a7e03130e76b96d",
+    "books/oc-approved-20261017/rebuild.py": "b39e5ac965f99a76de6cf0e82e413d5337b3166c67bd35791df7c2d6c5fcaa63",
+    "books/oc-approved-20261017/render.mjs": "bb6972fea83e03a952d7247dba5178879e48064c0496ba4ddcf5d81955020aac"
+  },
+  "initial_render_probe": {
     "rebuilt_html": ".cache/asset-rebuild/flyer.html",
     "output_directory": "/tmp/dtp-identity-render-rebuilt-20261017",
     "checks": {
@@ -103,40 +148,17 @@
     },
     "pdf_sha256": "9b4ce16890cb1dcac9e079587819ffe7925e6f2882749b2b428b4dbb1590e719"
   },
-  "github_enforcement": {
-    "state": "blocked",
-    "ruleset_create_http_status": 403,
-    "branch_protection_read_http_status": 403,
-    "reason": "Resource not accessible by integration"
+  "current_render": {
+    "state": "passed",
+    "evidence": "render-receipt.json",
+    "outputs_directory": "/tmp/dtp-identity-final-render",
+    "images_loaded": 16,
+    "pages": 2,
+    "no_overflow": true
   },
-  "fresh_checkout": "pending",
-  "negative_ci": {
-    "result": "expected failure",
-    "commit": "2fe401687d22883b23e39aad4835b218d3129f69",
-    "run": "https://github.com/rahiseko-alt/DTP/actions/runs/39037483635",
-    "detected": "UNREGISTERED: books/oc-approved-20261017/ci-unregistered-probe.txt",
-    "probe_removed": true,
-    "mandatory_merge_rejection": "NOT_TESTED: ruleset permission HTTP 403"
-  },
-  "overall_achievement": "NOT_COMPLETE",
-  "initial_positive_ci": "https://github.com/rahiseko-alt/DTP/actions/runs/39037373872",
-  "fresh_checkout_initial": "fresh-check-initial.json",
-  "fresh_checkout_final": "pending",
-  "final_positive_ci": "pending",
-  "build_integration": {
-    "current_copy_css_photo_reflected": true,
-    "registered_original_outputs_unchanged": true,
-    "same_receipt_three_outputs_registered": true,
-    "old_pdf_rejected_against_new_receipt": true,
-    "wrong_html_rejected": true,
-    "undeclared_images_rejected": true,
-    "test_source": "system/scripts/test/asset-build.test.ts"
-  },
-  "tested_source_hashes": {
-    "system/scripts/lib/assets.ts": "284674903acc55fa7d4ba484dd0124aed986ea0776ef4911911e34348cffaa20",
-    "system/scripts/test/assets.test.ts": "66f2ee6a4689e44621df167fe35bcb5ed2a8903d10e8f4a0c165ffcdc8ae7a47",
-    "system/scripts/test/asset-build.test.ts": "f6d64bb6b2ea396dd9f6e8d233f022d3040b98b5fa0a95994a7e03130e76b96d",
-    "books/oc-approved-20261017/rebuild.py": "b39e5ac965f99a76de6cf0e82e413d5337b3166c67bd35791df7c2d6c5fcaa63",
-    "books/oc-approved-20261017/render.mjs": "bb6972fea83e03a952d7247dba5178879e48064c0496ba4ddcf5d81955020aac"
-  }
+  "remaining": [
+    "Apply and verify the main required asset-integrity check with authorized GitHub administration",
+    "Test that an invalid PR is refused by protected main",
+    "PR #51 is open; not merged"
+  ]
 }

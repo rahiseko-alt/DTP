@@ -1,0 +1,972 @@
+{
+  "head": "c114a4b1f3ab337b45414e5e37c835f339a92cd5",
+  "setup_commands": [
+    {
+      "command": "GIT_LFS_SKIP_SMUDGE=1 git clone --branch codex/asset-identity-20261017 --single-branch https://github.com/rahiseko-alt/DTP.git /tmp/DTP-identity-fresh",
+      "exitcode": 0
+    },
+    {
+      "command": "npm ci --cache /tmp/dtp-npm-cache",
+      "exitcode": 0
+    },
+    {
+      "command": "git lfs pull --include=<books,reference,9 source paths> --exclude=",
+      "exitcode": 0,
+      "note": "checkout skipped: repository LFS not installed; manually smudged 27 selected files, each exitcode 0"
+    },
+    {
+      "command": "initial asset:search replacement-photo before manual smudge",
+      "exitcode": 1,
+      "note": "LFS_UNAVAILABLE correctly rejected"
+    },
+    {
+      "command": "git fetch origin codex/asset-identity-20261017 && git merge --ff-only origin/codex/asset-identity-20261017",
+      "exitcode": 0
+    }
+  ],
+  "commands": [
+    {
+      "label": "resolve alias",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:resolve",
+        "--",
+        "--name",
+        "医専チラシ"
+      ],
+      "exitcode": 0,
+      "stdout": "{\n  \"id\": \"oc-approved-20261017\",\n  \"title\": \"AIビジネス専門学校OCチラシ\",\n  \"original_sha256\": \"53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "search original",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:search",
+        "--",
+        "--document",
+        "oc-approved-20261017",
+        "--variant",
+        "approved-original",
+        "--role",
+        "original"
+      ],
+      "exitcode": 0,
+      "stdout": "{\n  \"context\": {\n    \"root\": \"/tmp/DTP-identity-fresh\",\n    \"head\": \"c114a4b1f3ab337b45414e5e37c835f339a92cd5\",\n    \"branch\": \"codex/asset-identity-20261017\",\n    \"dirty\": false,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"matches\": [\n    {\n      \"asset_id\": \"approved-original\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"approved-original\",\n      \"role\": \"original\",\n      \"media\": \"pdf\",\n      \"revision\": \"53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a\",\n      \"path\": \"references/school-own/oc-approved-20261017/original/approved.pdf\",\n      \"relation\": \"root\",\n      \"availability\": \"available\"\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "get original",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:get",
+        "--",
+        "--document",
+        "oc-approved-20261017",
+        "--id",
+        "approved-original",
+        "--revision",
+        "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      ],
+      "exitcode": 0,
+      "stdout": "{\n  \"context\": {\n    \"root\": \"/tmp/DTP-identity-fresh\",\n    \"head\": \"c114a4b1f3ab337b45414e5e37c835f339a92cd5\",\n    \"branch\": \"codex/asset-identity-20261017\",\n    \"dirty\": false,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"approved-original\",\n    \"variant\": \"approved-original\",\n    \"role\": \"original\",\n    \"media\": \"pdf\",\n    \"revision\": \"53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a\",\n    \"file\": \"references/school-own/oc-approved-20261017/original/approved.pdf\",\n    \"sha256\": \"53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a\",\n    \"size\": 3538475,\n    \"relation\": \"root\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"references/school-own/oc-approved-20261017/original/approved.pdf\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "search replacement photos",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:search",
+        "--",
+        "--document",
+        "oc-approved-20261017",
+        "--variant",
+        "real-photo-rebuild",
+        "--role",
+        "replacement-photo"
+      ],
+      "exitcode": 0,
+      "stdout": "{\n  \"context\": {\n    \"root\": \"/tmp/DTP-identity-fresh\",\n    \"head\": \"c114a4b1f3ab337b45414e5e37c835f339a92cd5\",\n    \"branch\": \"codex/asset-identity-20261017\",\n    \"dirty\": false,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"matches\": [\n    {\n      \"asset_id\": \"front-hero\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb\",\n      \"path\": \"company-data/photos/student-img-5235.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-img-5235\",\n      \"availability\": \"available\"\n    },\n    {\n      \"asset_id\": \"front-class\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793\",\n      \"path\": \"company-data/photos/student-img-5070.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-img-5070\",\n      \"availability\": \"available\"\n    },\n    {\n      \"asset_id\": \"front-exchange\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633\",\n      \"path\": \"company-data/photos/student-dsc-1164.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-dsc-1164\",\n      \"availability\": \"available\"\n    },\n    {\n      \"asset_id\": \"front-people\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7\",\n      \"path\": \"company-data/photos/student-img-3291.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-img-3291\",\n      \"availability\": \"available\"\n    },\n    {\n      \"asset_id\": \"back-course-ai\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696\",\n      \"path\": \"company-data/photos/student-img-5238.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-img-5238\",\n      \"availability\": \"available\"\n    },\n    {\n      \"asset_id\": \"back-course-business\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba\",\n      \"path\": \"company-data/photos/student-img-5074.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-img-5074\",\n      \"availability\": \"available\"\n    },\n    {\n      \"asset_id\": \"back-class\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6\",\n      \"path\": \"company-data/photos/student-img-5069.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-img-5069\",\n      \"availability\": \"available\"\n    },\n    {\n      \"asset_id\": \"back-exchange\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b\",\n      \"path\": \"company-data/photos/student-img-5088.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-img-5088\",\n      \"availability\": \"available\"\n    },\n    {\n      \"asset_id\": \"back-event\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165\",\n      \"path\": \"company-data/photos/student-17.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-17\",\n      \"availability\": \"available\"\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "get front-hero",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:get",
+        "--",
+        "--document",
+        "oc-approved-20261017",
+        "--id",
+        "front-hero",
+        "--revision",
+        "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb"
+      ],
+      "exitcode": 0,
+      "stdout": "{\n  \"context\": {\n    \"root\": \"/tmp/DTP-identity-fresh\",\n    \"head\": \"c114a4b1f3ab337b45414e5e37c835f339a92cd5\",\n    \"branch\": \"codex/asset-identity-20261017\",\n    \"dirty\": false,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"front-hero\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb\",\n    \"photo_ref\": \"student-img-5235\",\n    \"sha256\": \"2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb\",\n    \"size\": 2413058,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-img-5235.jpg\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "get front-class",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:get",
+        "--",
+        "--document",
+        "oc-approved-20261017",
+        "--id",
+        "front-class",
+        "--revision",
+        "abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793"
+      ],
+      "exitcode": 0,
+      "stdout": "{\n  \"context\": {\n    \"root\": \"/tmp/DTP-identity-fresh\",\n    \"head\": \"c114a4b1f3ab337b45414e5e37c835f339a92cd5\",\n    \"branch\": \"codex/asset-identity-20261017\",\n    \"dirty\": false,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"front-class\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793\",\n    \"photo_ref\": \"student-img-5070\",\n    \"sha256\": \"abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793\",\n    \"size\": 2348505,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-img-5070.jpg\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "get front-exchange",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:get",
+        "--",
+        "--document",
+        "oc-approved-20261017",
+        "--id",
+        "front-exchange",
+        "--revision",
+        "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633"
+      ],
+      "exitcode": 0,
+      "stdout": "{\n  \"context\": {\n    \"root\": \"/tmp/DTP-identity-fresh\",\n    \"head\": \"c114a4b1f3ab337b45414e5e37c835f339a92cd5\",\n    \"branch\": \"codex/asset-identity-20261017\",\n    \"dirty\": false,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"front-exchange\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633\",\n    \"photo_ref\": \"student-dsc-1164\",\n    \"sha256\": \"a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633\",\n    \"size\": 4707440,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-dsc-1164.jpg\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "get front-people",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:get",
+        "--",
+        "--document",
+        "oc-approved-20261017",
+        "--id",
+        "front-people",
+        "--revision",
+        "b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7"
+      ],
+      "exitcode": 0,
+      "stdout": "{\n  \"context\": {\n    \"root\": \"/tmp/DTP-identity-fresh\",\n    \"head\": \"c114a4b1f3ab337b45414e5e37c835f339a92cd5\",\n    \"branch\": \"codex/asset-identity-20261017\",\n    \"dirty\": false,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"front-people\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7\",\n    \"photo_ref\": \"student-img-3291\",\n    \"sha256\": \"b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7\",\n    \"size\": 1168446,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-img-3291.jpg\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "get back-course-ai",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:get",
+        "--",
+        "--document",
+        "oc-approved-20261017",
+        "--id",
+        "back-course-ai",
+        "--revision",
+        "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696"
+      ],
+      "exitcode": 0,
+      "stdout": "{\n  \"context\": {\n    \"root\": \"/tmp/DTP-identity-fresh\",\n    \"head\": \"c114a4b1f3ab337b45414e5e37c835f339a92cd5\",\n    \"branch\": \"codex/asset-identity-20261017\",\n    \"dirty\": false,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"back-course-ai\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696\",\n    \"photo_ref\": \"student-img-5238\",\n    \"sha256\": \"256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696\",\n    \"size\": 2454424,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-img-5238.jpg\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "get back-course-business",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:get",
+        "--",
+        "--document",
+        "oc-approved-20261017",
+        "--id",
+        "back-course-business",
+        "--revision",
+        "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba"
+      ],
+      "exitcode": 0,
+      "stdout": "{\n  \"context\": {\n    \"root\": \"/tmp/DTP-identity-fresh\",\n    \"head\": \"c114a4b1f3ab337b45414e5e37c835f339a92cd5\",\n    \"branch\": \"codex/asset-identity-20261017\",\n    \"dirty\": false,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"back-course-business\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba\",\n    \"photo_ref\": \"student-img-5074\",\n    \"sha256\": \"b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba\",\n    \"size\": 3100678,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-img-5074.jpg\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "get back-class",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:get",
+        "--",
+        "--document",
+        "oc-approved-20261017",
+        "--id",
+        "back-class",
+        "--revision",
+        "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6"
+      ],
+      "exitcode": 0,
+      "stdout": "{\n  \"context\": {\n    \"root\": \"/tmp/DTP-identity-fresh\",\n    \"head\": \"c114a4b1f3ab337b45414e5e37c835f339a92cd5\",\n    \"branch\": \"codex/asset-identity-20261017\",\n    \"dirty\": false,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"back-class\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6\",\n    \"photo_ref\": \"student-img-5069\",\n    \"sha256\": \"f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6\",\n    \"size\": 2676415,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-img-5069.jpg\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "get back-exchange",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:get",
+        "--",
+        "--document",
+        "oc-approved-20261017",
+        "--id",
+        "back-exchange",
+        "--revision",
+        "2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b"
+      ],
+      "exitcode": 0,
+      "stdout": "{\n  \"context\": {\n    \"root\": \"/tmp/DTP-identity-fresh\",\n    \"head\": \"c114a4b1f3ab337b45414e5e37c835f339a92cd5\",\n    \"branch\": \"codex/asset-identity-20261017\",\n    \"dirty\": false,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"back-exchange\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b\",\n    \"photo_ref\": \"student-img-5088\",\n    \"sha256\": \"2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b\",\n    \"size\": 2434658,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-img-5088.jpg\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "get back-event",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:get",
+        "--",
+        "--document",
+        "oc-approved-20261017",
+        "--id",
+        "back-event",
+        "--revision",
+        "c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165"
+      ],
+      "exitcode": 0,
+      "stdout": "{\n  \"context\": {\n    \"root\": \"/tmp/DTP-identity-fresh\",\n    \"head\": \"c114a4b1f3ab337b45414e5e37c835f339a92cd5\",\n    \"branch\": \"codex/asset-identity-20261017\",\n    \"dirty\": false,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"back-event\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165\",\n    \"photo_ref\": \"student-17\",\n    \"sha256\": \"c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165\",\n    \"size\": 461112,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-17.jpg\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "extracted must refuse",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:search",
+        "--",
+        "--document",
+        "oc-approved-20261017",
+        "--variant",
+        "original-extracted",
+        "--role",
+        "extracted-image"
+      ],
+      "exitcode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"oc-approved-20261017/original-extracted/extracted-image: no matching assets; no fallback\",\"code\":\"NO_MATCH\"}\n"
+    },
+    {
+      "label": "asset check",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:check"
+      ],
+      "exitcode": 0,
+      "stdout": "{\n  \"documents\": [\n    \"oc-approved-20261017\"\n  ],\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "build current inputs",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:build-inputs",
+        "--",
+        "--document",
+        "oc-approved-20261017"
+      ],
+      "exitcode": 0,
+      "stdout": "{\n  \"schema_version\": 1,\n  \"document\": \"oc-approved-20261017\",\n  \"fingerprint\": \"3f33bc354fad2e49d0cd52a7aae53eac26e0fd0eba63d15dcb4fcbf207718323\",\n  \"inputs\": [\n    {\n      \"id\": \"editable-copy\",\n      \"role\": \"copy\",\n      \"media\": \"text\",\n      \"revision\": \"5468d86e914d18b851543148820f703430db91269707c576ee5783465f514bcf\",\n      \"path\": \"books/oc-approved-20261017/text/content.json\"\n    },\n    {\n      \"id\": \"layout-flyer-template\",\n      \"role\": \"layout\",\n      \"media\": \"text\",\n      \"revision\": \"429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183\",\n      \"path\": \"books/oc-approved-20261017/source/flyer.template.html\"\n    },\n    {\n      \"id\": \"layout-layout\",\n      \"role\": \"layout\",\n      \"media\": \"text\",\n      \"revision\": \"a7a99e5a2293f27a45cfe0752a43662aabc837dc1492503e25ba492c8030088c\",\n      \"path\": \"books/oc-approved-20261017/source/layout.css\"\n    },\n    {\n      \"id\": \"support-parts-photos-map-json\",\n      \"role\": \"support\",\n      \"media\": \"text\",\n      \"revision\": \"d8db48499235878d5a1ebf86cc4080eaf1e3cb4f7a975c9721219452161dfd57\",\n      \"path\": \"books/oc-approved-20261017/parts/photos-map.json\"\n    },\n    {\n      \"id\": \"front-hero\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb\",\n      \"path\": \"company-data/photos/student-img-5235.jpg\"\n    },\n    {\n      \"id\": \"front-class\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793\",\n      \"path\": \"company-data/photos/student-img-5070.jpg\"\n    },\n    {\n      \"id\": \"front-exchange\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633\",\n      \"path\": \"company-data/photos/student-dsc-1164.jpg\"\n    },\n    {\n      \"id\": \"front-people\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7\",\n      \"path\": \"company-data/photos/student-img-3291.jpg\"\n    },\n    {\n      \"id\": \"back-course-ai\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696\",\n      \"path\": \"company-data/photos/student-img-5238.jpg\"\n    },\n    {\n      \"id\": \"back-course-business\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba\",\n      \"path\": \"company-data/photos/student-img-5074.jpg\"\n    },\n    {\n      \"id\": \"back-class\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6\",\n      \"path\": \"company-data/photos/student-img-5069.jpg\"\n    },\n    {\n      \"id\": \"back-exchange\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b\",\n      \"path\": \"company-data/photos/student-img-5088.jpg\"\n    },\n    {\n      \"id\": \"back-event\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165\",\n      \"path\": \"company-data/photos/student-17.jpg\"\n    },\n    {\n      \"id\": \"support-parts-brand-logo-horizontal-png\",\n      \"role\": \"support\",\n      \"media\": \"image\",\n      \"revision\": \"700bb302dde389f7deb314a6a3fd6bb44b2ab15dfa78d9248b3663ab1e32dbd3\",\n      \"path\": \"books/oc-approved-20261017/parts/brand/logo-horizontal.png\"\n    },\n    {\n      \"id\": \"support-parts-official-site-qr-png\",\n      \"role\": \"support\",\n      \"media\": \"image\",\n      \"revision\": \"d80b0b015c12c941671a66ee19d6b1226b1a7e58de944466c3e1c3b217e0a33a\",\n      \"path\": \"books/oc-approved-20261017/parts/official-site-qr.png\"\n    },\n    {\n      \"id\": \"support-parts-icons-consult-svg\",\n      \"role\": \"support\",\n      \"media\": \"image\",\n      \"revision\": \"2a3a5d02403619e336fe2f9759a82194c191dd35dd9627619fbcb1e0627efe80\",\n      \"path\": \"books/oc-approved-20261017/parts/icons/consult.svg\"\n    },\n    {\n      \"id\": \"support-parts-icons-laptop-svg\",\n      \"role\": \"support\",\n      \"media\": \"image\",\n      \"revision\": \"025c692f76a824add5198ba1c3f060bbbc105894567e09667d6dc567798d23fd\",\n      \"path\": \"books/oc-approved-20261017/parts/icons/laptop.svg\"\n    },\n    {\n      \"id\": \"support-parts-icons-people-svg\",\n      \"role\": \"support\",\n      \"media\": \"image\",\n      \"revision\": \"151864363772e231484a633b3c7ce205777e006cc937eba926e34cd14cfdca58\",\n      \"path\": \"books/oc-approved-20261017/parts/icons/people.svg\"\n    },\n    {\n      \"id\": \"support-parts-icons-school-svg\",\n      \"role\": \"support\",\n      \"media\": \"image\",\n      \"revision\": \"ee9d9dca31dca9649d7f7ccf1d6be95a6cfb59241c807fe05a25ad314ded1dc4\",\n      \"path\": \"books/oc-approved-20261017/parts/icons/school.svg\"\n    }\n  ],\n  \"external\": [\n    {\n      \"path\": \"company-data/facts/school.yaml\",\n      \"sha256\": \"341824979ce3eef4169fb1269649d54e31dbe16181c94393fa4dc3497bde7f3e\"\n    },\n    {\n      \"path\": \"system/scripts/lib/assets.ts\",\n      \"sha256\": \"284674903acc55fa7d4ba484dd0124aed986ea0776ef4911911e34348cffaa20\"\n    },\n    {\n      \"path\": \"books/oc-approved-20261017/rebuild.py\",\n      \"sha256\": \"b39e5ac965f99a76de6cf0e82e413d5337b3166c67bd35791df7c2d6c5fcaa63\"\n    },\n    {\n      \"path\": \"books/oc-approved-20261017/render.mjs\",\n      \"sha256\": \"bb6972fea83e03a952d7247dba5178879e48064c0496ba4ddcf5d81955020aac\"\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "unknown similar brochure",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:resolve",
+        "--",
+        "--name",
+        "AIビジネス専門学校パンフレット"
+      ],
+      "exitcode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"[]\",\"code\":\"UNKNOWN_DOCUMENT\"}\n"
+    },
+    {
+      "label": "register temporary copy",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:register",
+        "--",
+        "--document",
+        "oc-approved-20261017",
+        "--id",
+        "final-verification-copy-c114a4b",
+        "--variant",
+        "real-photo-rebuild",
+        "--role",
+        "copy",
+        "--media",
+        "text",
+        "--source",
+        "/tmp/dtp-fresh-copy-test.txt",
+        "--sha256",
+        "24f320c97ce9bd69a685f01e74707e40932ce3cc395324aca7f18cf33cbf0ca8",
+        "--confirmation",
+        "verified"
+      ],
+      "exitcode": 0,
+      "stdout": "{\n  \"asset\": {\n    \"id\": \"final-verification-copy-c114a4b\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"copy\",\n    \"media\": \"text\",\n    \"revision\": \"24f320c97ce9bd69a685f01e74707e40932ce3cc395324aca7f18cf33cbf0ca8\",\n    \"file\": \"books/oc-approved-20261017/text/final-verification-copy-c114a4b/24f320c97ce9bd69a685f01e74707e40932ce3cc395324aca7f18cf33cbf0ca8/final-verification-copy-c114a4b.txt\",\n    \"sha256\": \"24f320c97ce9bd69a685f01e74707e40932ce3cc395324aca7f18cf33cbf0ca8\",\n    \"size\": 47,\n    \"relation\": \"authored\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "get temporary copy",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:get",
+        "--",
+        "--document",
+        "oc-approved-20261017",
+        "--id",
+        "final-verification-copy-c114a4b"
+      ],
+      "exitcode": 0,
+      "stdout": "{\n  \"context\": {\n    \"root\": \"/tmp/DTP-identity-fresh\",\n    \"head\": \"c114a4b1f3ab337b45414e5e37c835f339a92cd5\",\n    \"branch\": \"codex/asset-identity-20261017\",\n    \"dirty\": true,\n    \"fingerprint\": \"be1a6e04ee1b68372147837784b09b19db56ae01d57bbaf98b26ea5b726f0c2a\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"final-verification-copy-c114a4b\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"copy\",\n    \"media\": \"text\",\n    \"revision\": \"24f320c97ce9bd69a685f01e74707e40932ce3cc395324aca7f18cf33cbf0ca8\",\n    \"file\": \"books/oc-approved-20261017/text/final-verification-copy-c114a4b/24f320c97ce9bd69a685f01e74707e40932ce3cc395324aca7f18cf33cbf0ca8/final-verification-copy-c114a4b.txt\",\n    \"sha256\": \"24f320c97ce9bd69a685f01e74707e40932ce3cc395324aca7f18cf33cbf0ca8\",\n    \"size\": 47,\n    \"relation\": \"authored\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"books/oc-approved-20261017/text/final-verification-copy-c114a4b/24f320c97ce9bd69a685f01e74707e40932ce3cc395324aca7f18cf33cbf0ca8/final-verification-copy-c114a4b.txt\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitcode": 0
+    }
+  ],
+  "photos": [
+    {
+      "id": "front-hero",
+      "role": "replacement-photo",
+      "path": "company-data/photos/student-img-5235.jpg",
+      "revision": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb",
+      "sha256": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb",
+      "get": {
+        "context": {
+          "root": "/tmp/DTP-identity-fresh",
+          "head": "c114a4b1f3ab337b45414e5e37c835f339a92cd5",
+          "branch": "codex/asset-identity-20261017",
+          "dirty": false,
+          "fingerprint": "a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67"
+        },
+        "document_id": "oc-approved-20261017",
+        "asset": {
+          "id": "front-hero",
+          "variant": "real-photo-rebuild",
+          "role": "replacement-photo",
+          "media": "image",
+          "revision": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb",
+          "photo_ref": "student-img-5235",
+          "sha256": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb",
+          "size": 2413058,
+          "relation": "uses",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "external_inputs": [],
+          "built_from": []
+        },
+        "path": "company-data/photos/student-img-5235.jpg"
+      },
+      "match": true,
+      "get_identity_match": true
+    },
+    {
+      "id": "front-class",
+      "role": "replacement-photo",
+      "path": "company-data/photos/student-img-5070.jpg",
+      "revision": "abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793",
+      "sha256": "abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793",
+      "get": {
+        "context": {
+          "root": "/tmp/DTP-identity-fresh",
+          "head": "c114a4b1f3ab337b45414e5e37c835f339a92cd5",
+          "branch": "codex/asset-identity-20261017",
+          "dirty": false,
+          "fingerprint": "a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67"
+        },
+        "document_id": "oc-approved-20261017",
+        "asset": {
+          "id": "front-class",
+          "variant": "real-photo-rebuild",
+          "role": "replacement-photo",
+          "media": "image",
+          "revision": "abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793",
+          "photo_ref": "student-img-5070",
+          "sha256": "abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793",
+          "size": 2348505,
+          "relation": "uses",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "external_inputs": [],
+          "built_from": []
+        },
+        "path": "company-data/photos/student-img-5070.jpg"
+      },
+      "match": true,
+      "get_identity_match": true
+    },
+    {
+      "id": "front-exchange",
+      "role": "replacement-photo",
+      "path": "company-data/photos/student-dsc-1164.jpg",
+      "revision": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+      "sha256": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+      "get": {
+        "context": {
+          "root": "/tmp/DTP-identity-fresh",
+          "head": "c114a4b1f3ab337b45414e5e37c835f339a92cd5",
+          "branch": "codex/asset-identity-20261017",
+          "dirty": false,
+          "fingerprint": "a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67"
+        },
+        "document_id": "oc-approved-20261017",
+        "asset": {
+          "id": "front-exchange",
+          "variant": "real-photo-rebuild",
+          "role": "replacement-photo",
+          "media": "image",
+          "revision": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+          "photo_ref": "student-dsc-1164",
+          "sha256": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+          "size": 4707440,
+          "relation": "uses",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "external_inputs": [],
+          "built_from": []
+        },
+        "path": "company-data/photos/student-dsc-1164.jpg"
+      },
+      "match": true,
+      "get_identity_match": true
+    },
+    {
+      "id": "front-people",
+      "role": "replacement-photo",
+      "path": "company-data/photos/student-img-3291.jpg",
+      "revision": "b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7",
+      "sha256": "b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7",
+      "get": {
+        "context": {
+          "root": "/tmp/DTP-identity-fresh",
+          "head": "c114a4b1f3ab337b45414e5e37c835f339a92cd5",
+          "branch": "codex/asset-identity-20261017",
+          "dirty": false,
+          "fingerprint": "a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67"
+        },
+        "document_id": "oc-approved-20261017",
+        "asset": {
+          "id": "front-people",
+          "variant": "real-photo-rebuild",
+          "role": "replacement-photo",
+          "media": "image",
+          "revision": "b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7",
+          "photo_ref": "student-img-3291",
+          "sha256": "b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7",
+          "size": 1168446,
+          "relation": "uses",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "external_inputs": [],
+          "built_from": []
+        },
+        "path": "company-data/photos/student-img-3291.jpg"
+      },
+      "match": true,
+      "get_identity_match": true
+    },
+    {
+      "id": "back-course-ai",
+      "role": "replacement-photo",
+      "path": "company-data/photos/student-img-5238.jpg",
+      "revision": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+      "sha256": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+      "get": {
+        "context": {
+          "root": "/tmp/DTP-identity-fresh",
+          "head": "c114a4b1f3ab337b45414e5e37c835f339a92cd5",
+          "branch": "codex/asset-identity-20261017",
+          "dirty": false,
+          "fingerprint": "a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67"
+        },
+        "document_id": "oc-approved-20261017",
+        "asset": {
+          "id": "back-course-ai",
+          "variant": "real-photo-rebuild",
+          "role": "replacement-photo",
+          "media": "image",
+          "revision": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+          "photo_ref": "student-img-5238",
+          "sha256": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+          "size": 2454424,
+          "relation": "uses",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "external_inputs": [],
+          "built_from": []
+        },
+        "path": "company-data/photos/student-img-5238.jpg"
+      },
+      "match": true,
+      "get_identity_match": true
+    },
+    {
+      "id": "back-course-business",
+      "role": "replacement-photo",
+      "path": "company-data/photos/student-img-5074.jpg",
+      "revision": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+      "sha256": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+      "get": {
+        "context": {
+          "root": "/tmp/DTP-identity-fresh",
+          "head": "c114a4b1f3ab337b45414e5e37c835f339a92cd5",
+          "branch": "codex/asset-identity-20261017",
+          "dirty": false,
+          "fingerprint": "a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67"
+        },
+        "document_id": "oc-approved-20261017",
+        "asset": {
+          "id": "back-course-business",
+          "variant": "real-photo-rebuild",
+          "role": "replacement-photo",
+          "media": "image",
+          "revision": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+          "photo_ref": "student-img-5074",
+          "sha256": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+          "size": 3100678,
+          "relation": "uses",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "external_inputs": [],
+          "built_from": []
+        },
+        "path": "company-data/photos/student-img-5074.jpg"
+      },
+      "match": true,
+      "get_identity_match": true
+    },
+    {
+      "id": "back-class",
+      "role": "replacement-photo",
+      "path": "company-data/photos/student-img-5069.jpg",
+      "revision": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+      "sha256": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+      "get": {
+        "context": {
+          "root": "/tmp/DTP-identity-fresh",
+          "head": "c114a4b1f3ab337b45414e5e37c835f339a92cd5",
+          "branch": "codex/asset-identity-20261017",
+          "dirty": false,
+          "fingerprint": "a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67"
+        },
+        "document_id": "oc-approved-20261017",
+        "asset": {
+          "id": "back-class",
+          "variant": "real-photo-rebuild",
+          "role": "replacement-photo",
+          "media": "image",
+          "revision": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+          "photo_ref": "student-img-5069",
+          "sha256": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+          "size": 2676415,
+          "relation": "uses",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "external_inputs": [],
+          "built_from": []
+        },
+        "path": "company-data/photos/student-img-5069.jpg"
+      },
+      "match": true,
+      "get_identity_match": true
+    },
+    {
+      "id": "back-exchange",
+      "role": "replacement-photo",
+      "path": "company-data/photos/student-img-5088.jpg",
+      "revision": "2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b",
+      "sha256": "2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b",
+      "get": {
+        "context": {
+          "root": "/tmp/DTP-identity-fresh",
+          "head": "c114a4b1f3ab337b45414e5e37c835f339a92cd5",
+          "branch": "codex/asset-identity-20261017",
+          "dirty": false,
+          "fingerprint": "a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67"
+        },
+        "document_id": "oc-approved-20261017",
+        "asset": {
+          "id": "back-exchange",
+          "variant": "real-photo-rebuild",
+          "role": "replacement-photo",
+          "media": "image",
+          "revision": "2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b",
+          "photo_ref": "student-img-5088",
+          "sha256": "2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b",
+          "size": 2434658,
+          "relation": "uses",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "external_inputs": [],
+          "built_from": []
+        },
+        "path": "company-data/photos/student-img-5088.jpg"
+      },
+      "match": true,
+      "get_identity_match": true
+    },
+    {
+      "id": "back-event",
+      "role": "replacement-photo",
+      "path": "company-data/photos/student-17.jpg",
+      "revision": "c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165",
+      "sha256": "c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165",
+      "get": {
+        "context": {
+          "root": "/tmp/DTP-identity-fresh",
+          "head": "c114a4b1f3ab337b45414e5e37c835f339a92cd5",
+          "branch": "codex/asset-identity-20261017",
+          "dirty": false,
+          "fingerprint": "a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67"
+        },
+        "document_id": "oc-approved-20261017",
+        "asset": {
+          "id": "back-event",
+          "variant": "real-photo-rebuild",
+          "role": "replacement-photo",
+          "media": "image",
+          "revision": "c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165",
+          "photo_ref": "student-17",
+          "sha256": "c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165",
+          "size": 461112,
+          "relation": "uses",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "external_inputs": [],
+          "built_from": []
+        },
+        "path": "company-data/photos/student-17.jpg"
+      },
+      "match": true,
+      "get_identity_match": true
+    }
+  ],
+  "resolution": {
+    "id": "oc-approved-20261017",
+    "title": "AIビジネス専門学校OCチラシ",
+    "original_sha256": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+  },
+  "original": {
+    "context": {
+      "root": "/tmp/DTP-identity-fresh",
+      "head": "c114a4b1f3ab337b45414e5e37c835f339a92cd5",
+      "branch": "codex/asset-identity-20261017",
+      "dirty": false,
+      "fingerprint": "a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67"
+    },
+    "document_id": "oc-approved-20261017",
+    "asset": {
+      "id": "approved-original",
+      "variant": "approved-original",
+      "role": "original",
+      "media": "pdf",
+      "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a",
+      "file": "references/school-own/oc-approved-20261017/original/approved.pdf",
+      "sha256": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a",
+      "size": 3538475,
+      "relation": "root",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    "path": "references/school-own/oc-approved-20261017/original/approved.pdf"
+  },
+  "build_inputs": {
+    "schema_version": 1,
+    "document": "oc-approved-20261017",
+    "fingerprint": "3f33bc354fad2e49d0cd52a7aae53eac26e0fd0eba63d15dcb4fcbf207718323",
+    "inputs": [
+      {
+        "id": "editable-copy",
+        "role": "copy",
+        "media": "text",
+        "revision": "5468d86e914d18b851543148820f703430db91269707c576ee5783465f514bcf",
+        "path": "books/oc-approved-20261017/text/content.json"
+      },
+      {
+        "id": "layout-flyer-template",
+        "role": "layout",
+        "media": "text",
+        "revision": "429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183",
+        "path": "books/oc-approved-20261017/source/flyer.template.html"
+      },
+      {
+        "id": "layout-layout",
+        "role": "layout",
+        "media": "text",
+        "revision": "a7a99e5a2293f27a45cfe0752a43662aabc837dc1492503e25ba492c8030088c",
+        "path": "books/oc-approved-20261017/source/layout.css"
+      },
+      {
+        "id": "support-parts-photos-map-json",
+        "role": "support",
+        "media": "text",
+        "revision": "d8db48499235878d5a1ebf86cc4080eaf1e3cb4f7a975c9721219452161dfd57",
+        "path": "books/oc-approved-20261017/parts/photos-map.json"
+      },
+      {
+        "id": "front-hero",
+        "role": "replacement-photo",
+        "media": "image",
+        "revision": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb",
+        "path": "company-data/photos/student-img-5235.jpg"
+      },
+      {
+        "id": "front-class",
+        "role": "replacement-photo",
+        "media": "image",
+        "revision": "abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793",
+        "path": "company-data/photos/student-img-5070.jpg"
+      },
+      {
+        "id": "front-exchange",
+        "role": "replacement-photo",
+        "media": "image",
+        "revision": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+        "path": "company-data/photos/student-dsc-1164.jpg"
+      },
+      {
+        "id": "front-people",
+        "role": "replacement-photo",
+        "media": "image",
+        "revision": "b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7",
+        "path": "company-data/photos/student-img-3291.jpg"
+      },
+      {
+        "id": "back-course-ai",
+        "role": "replacement-photo",
+        "media": "image",
+        "revision": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+        "path": "company-data/photos/student-img-5238.jpg"
+      },
+      {
+        "id": "back-course-business",
+        "role": "replacement-photo",
+        "media": "image",
+        "revision": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+        "path": "company-data/photos/student-img-5074.jpg"
+      },
+      {
+        "id": "back-class",
+        "role": "replacement-photo",
+        "media": "image",
+        "revision": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+        "path": "company-data/photos/student-img-5069.jpg"
+      },
+      {
+        "id": "back-exchange",
+        "role": "replacement-photo",
+        "media": "image",
+        "revision": "2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b",
+        "path": "company-data/photos/student-img-5088.jpg"
+      },
+      {
+        "id": "back-event",
+        "role": "replacement-photo",
+        "media": "image",
+        "revision": "c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165",
+        "path": "company-data/photos/student-17.jpg"
+      },
+      {
+        "id": "support-parts-brand-logo-horizontal-png",
+        "role": "support",
+        "media": "image",
+        "revision": "700bb302dde389f7deb314a6a3fd6bb44b2ab15dfa78d9248b3663ab1e32dbd3",
+        "path": "books/oc-approved-20261017/parts/brand/logo-horizontal.png"
+      },
+      {
+        "id": "support-parts-official-site-qr-png",
+        "role": "support",
+        "media": "image",
+        "revision": "d80b0b015c12c941671a66ee19d6b1226b1a7e58de944466c3e1c3b217e0a33a",
+        "path": "books/oc-approved-20261017/parts/official-site-qr.png"
+      },
+      {
+        "id": "support-parts-icons-consult-svg",
+        "role": "support",
+        "media": "image",
+        "revision": "2a3a5d02403619e336fe2f9759a82194c191dd35dd9627619fbcb1e0627efe80",
+        "path": "books/oc-approved-20261017/parts/icons/consult.svg"
+      },
+      {
+        "id": "support-parts-icons-laptop-svg",
+        "role": "support",
+        "media": "image",
+        "revision": "025c692f76a824add5198ba1c3f060bbbc105894567e09667d6dc567798d23fd",
+        "path": "books/oc-approved-20261017/parts/icons/laptop.svg"
+      },
+      {
+        "id": "support-parts-icons-people-svg",
+        "role": "support",
+        "media": "image",
+        "revision": "151864363772e231484a633b3c7ce205777e006cc937eba926e34cd14cfdca58",
+        "path": "books/oc-approved-20261017/parts/icons/people.svg"
+      },
+      {
+        "id": "support-parts-icons-school-svg",
+        "role": "support",
+        "media": "image",
+        "revision": "ee9d9dca31dca9649d7f7ccf1d6be95a6cfb59241c807fe05a25ad314ded1dc4",
+        "path": "books/oc-approved-20261017/parts/icons/school.svg"
+      }
+    ],
+    "external": [
+      {
+        "path": "company-data/facts/school.yaml",
+        "sha256": "341824979ce3eef4169fb1269649d54e31dbe16181c94393fa4dc3497bde7f3e"
+      },
+      {
+        "path": "system/scripts/lib/assets.ts",
+        "sha256": "284674903acc55fa7d4ba484dd0124aed986ea0776ef4911911e34348cffaa20"
+      },
+      {
+        "path": "books/oc-approved-20261017/rebuild.py",
+        "sha256": "b39e5ac965f99a76de6cf0e82e413d5337b3166c67bd35791df7c2d6c5fcaa63"
+      },
+      {
+        "path": "books/oc-approved-20261017/render.mjs",
+        "sha256": "bb6972fea83e03a952d7247dba5178879e48064c0496ba4ddcf5d81955020aac"
+      }
+    ]
+  },
+  "build_inputs_count_19": true,
+  "school_external_sha_match": true,
+  "registration": {
+    "asset": {
+      "id": "final-verification-copy-c114a4b",
+      "variant": "real-photo-rebuild",
+      "role": "copy",
+      "media": "text",
+      "revision": "24f320c97ce9bd69a685f01e74707e40932ce3cc395324aca7f18cf33cbf0ca8",
+      "file": "books/oc-approved-20261017/text/final-verification-copy-c114a4b/24f320c97ce9bd69a685f01e74707e40932ce3cc395324aca7f18cf33cbf0ca8/final-verification-copy-c114a4b.txt",
+      "sha256": "24f320c97ce9bd69a685f01e74707e40932ce3cc395324aca7f18cf33cbf0ca8",
+      "size": 47,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  "removed_test_files": [
+    "books/oc-approved-20261017/text/final-verification-copy-c114a4b/24f320c97ce9bd69a685f01e74707e40932ce3cc395324aca7f18cf33cbf0ca8/final-verification-copy-c114a4b.txt"
+  ],
+  "catalog_restored_sha256": "4302283abcbe4492c35654dd198707649f598ccf0e002a98c00d367b3cc06cef",
+  "final_status": "",
+  "clean": true,
+  "all_nine_match": true,
+  "retry_history": [
+    {
+      "label": "register temporary copy",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:register",
+        "--",
+        "--document",
+        "oc-approved-20261017",
+        "--id",
+        "fresh-verification-copy",
+        "--variant",
+        "real-photo-rebuild",
+        "--role",
+        "copy",
+        "--media",
+        "text",
+        "--source",
+        "/tmp/dtp-fresh-copy-test.txt",
+        "--sha256",
+        "24f320c97ce9bd69a685f01e74707e40932ce3cc395324aca7f18cf33cbf0ca8",
+        "--confirmation",
+        "verified"
+      ],
+      "exitcode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"/tmp/DTP-identity-fresh/books/oc-approved-20261017/text/fresh-verification-copy/24f320c97ce9bd69a685f01e74707e40932ce3cc395324aca7f18cf33cbf0ca8\",\"code\":\"DUPLICATE_FILE\"}\n"
+    },
+    {
+      "label": "get temporary copy",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "asset:get",
+        "--",
+        "--document",
+        "oc-approved-20261017",
+        "--id",
+        "fresh-verification-copy"
+      ],
+      "exitcode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"fresh-verification-copy\",\"code\":\"NO_MATCH\"}\n"
+    }
+  ],
+  "retry_explanation": "Previous initial-run test left an empty directory; same ID/content refused DUPLICATE_FILE. Final retry used a new unique ID and succeeded.",
+  "original_actual_sha256": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a",
+  "original_expected_match": true,
+  "staged_diff": ""
+}
