@@ -1,5 +1,18 @@
 # 引継ぎ台帳
 
+## 2026-10-17 作業整理と成果物の保管（完了）
+
+- DTP制作時のサブ自動起動を止め、親が制作・点検を担当する運用を既定に変更。人間が明示した場合のみサブを使用する。コミット `f65bc43`。
+- 承認OCチラシの原本、実写真9点・文字・レイアウト等の編集可能素材、両面PDFと確認画像を `references/school-own/oc-approved-20261017/` と `books/oc-approved-20261017/` に保管。アバター案・調査資料も所定のBOOK・research配下に保管。コミット `540fd6a`、カバー素材の由来メタデータは `8c3085f`。
+- 医専ドラフト画像4枚は人間の削除指示に従い削除を記録。復元不要。コミット `18b97f1`。
+- `npm run validate` はエラー0件。チラシ部品検証は実写真9点を含めエラー0件。写真9点は正本の写真台帳に既登録で、各タグ・正本とのSHA-256一致を確認済み。
+
+## 2026-10-17 写真タグ・検索の共通化（完了）
+
+- `photo:add` の正規タグ辞書、別名を使う `photo:search`、photos.yamlとの整合を確認する `validate` を実装し、PR #48（merge commit `695a025`）でmainへ反映済み。再開作業なし。
+- 型チェックと写真関連38テストは成功。全体テストはこの環境のChromium未導入・LFS素材不足で失敗が残り、最新mainの全体validateにも既存の禁止語エラー8件がある。これらは写真タグ変更とは別。
+- 操作手順は `company-data/photos/TAGS.md` と `company-data/photos/SEARCH.md`。辞書は `company-data/photos/tags.yaml`。
+
 ## 2026-10-15 全体実行計画の確定
 
 - 終了確認: branch `codex/gpt-faithful-parts-20261013` は `origin` と一致し作業ツリーはclean。PR #40はGitHub上でDraft。origin/mainは `3890d93` で、merge-base以降の変更が `company-data/handoff-ledger.md` と `company-data/history-ledger.md` に重なる。衝突/内容統合を行っていないためPRはドラフトのまま保持し、mainへはマージしない。コンテナ終了に必要な成果・状態はpush済み。
