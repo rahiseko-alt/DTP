@@ -29,7 +29,7 @@ S・開始・再開時は `python3 system/scripts/read-ledger.py` で確定台�
 
 ## 紙面制作の起動
 
-「紙面を作れ」「冊子を作れ」や紙面品質の改善依頼では [dtp-productionスキル](.agents/skills/dtp-production/SKILL.md) を適用し、編集制作・独立レビュー・編集長を別エージェントで行う。これは人間が指定した制作体制。部品の生成・編集依頼では [dtp-partsスキル](.agents/skills/dtp-parts/SKILL.md) を適用する。登録役割とホストの対応はスキルの公式設定説明を確認する。
+紙面・冊子の依頼では親エージェントが [dtp-productionスキル](.agents/skills/dtp-production/SKILL.md) を読み、制作から点検まで一貫して行う。部品作業も親が [dtp-partsスキル](.agents/skills/dtp-parts/SKILL.md) を読む。サブや登録役割は人間が明示的に求めた場合のみ使う。
 
 ## 3. 制作の現在情報
 
