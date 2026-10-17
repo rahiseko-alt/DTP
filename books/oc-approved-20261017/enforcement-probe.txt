@@ -1,0 +1,1 @@
+Intentional unregistered asset for protected-main rejection verification. Do not merge.
