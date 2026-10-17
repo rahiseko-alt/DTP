@@ -151,3 +151,9 @@
 - `asset:resolve/search/get/register/photo/extract/check`、宣言スキーマ、readonly検査、current入力から再構築・描画、成果物receipt照合を実装。既存写真・原本・PDFは移動削除なし。手順は `system/assets/README.md`。
 - 型検査・関連82試験成功。新規コンテキストのクリーンクローン試験成功、未登録ファイルを入れたGitHub CIの失敗確認済み。最終版CIと再試験の詳細は `system/assets/evidence/pilot-verification.json` を参照する。
 - GitHub main保護設定の取得とruleset作成は認証APIが403。workflow追加とCI成功だけではmain統合を強制拒否できる保証はない。必須化と統合拒否の実試験が残るため全体完了とは扱わない。設定案は `system/assets/main-ruleset.json`。他の既存資料はlegacy-unverifiedのまま、横展開しない。
+
+## 2026-10-18 main必須チェック再試行・拒否実試験
+
+- ユーザーがGitHub画面でruleset `DTP file identity`（25323604）をActiveに設定。mainにGitHub Actions app15368の `asset-integrity` が必須、bypassなしをAPIで確認。
+- 試験用PR #52で未登録ファイルによりCI失敗後、通常のmerge APIが405（必須チェック失敗）で拒否。main SHA不変を確認してPR #52をcloseした。証跡は `system/assets/evidence/protected-main-rejection.json`。
+- `Require branches to be up to date before merging` は未だoff。設定更新APIは403で、ユーザーへ同項目の有効化を依頼中。PR #51は未マージ。最新main基準の検査を要求する設定とmain反映が残るため、全体完了としない。

@@ -61,3 +61,5 @@ gh api --method POST repos/rahiseko-alt/DTP/rulesets --input system/assets/main-
 ```
 
 既存rulesetを上書きする操作ではない。適用後は有効なmainルールとチェック名を実設定から再確認する。現在の状態・試験証跡は `system/assets/evidence/pilot-verification.json`。
+
+2026-10-18再確認：ユーザー操作でruleset25323604が有効化され、失敗PRのmergeが405で拒否されることを実試験済み（証跡 `evidence/protected-main-rejection.json`）。ただし「Require branches to be up to date before merging」はoffで、同項目のAPI更新は403。ユーザー操作による有効化と実装PR #51のmain反映が残る。

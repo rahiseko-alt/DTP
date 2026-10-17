@@ -34,12 +34,6 @@
     "reviewer_a": "PASS; no unresolved P0/P1",
     "reviewer_b": "PASS; no unresolved major blocker"
   },
-  "github_enforcement": {
-    "state": "blocked",
-    "ruleset_create_http_status": 403,
-    "branch_protection_read_http_status": 403,
-    "reason": "Resource not accessible by integration"
-  },
   "fresh_checkout": "pending",
   "negative_ci": {
     "result": "expected failure",
@@ -49,7 +43,7 @@
     "probe_removed": true,
     "mandatory_merge_rejection": "NOT_TESTED: ruleset permission HTTP 403"
   },
-  "overall_achievement": "NOT_COMPLETE: main required-check enforcement and protected merge rejection unavailable (HTTP 403)",
+  "overall_achievement": "NOT_COMPLETE: latest-base requirement remains disabled and implementation PR #51 is not merged",
   "initial_positive_ci": "https://github.com/rahiseko-alt/DTP/actions/runs/39037373872",
   "fresh_checkout_initial": "fresh-check-initial.json",
   "fresh_checkout_final": {
@@ -157,8 +151,27 @@
     "no_overflow": true
   },
   "remaining": [
-    "Apply and verify the main required asset-integrity check with authorized GitHub administration",
-    "Test that an invalid PR is refused by protected main",
-    "PR #51 is open; not merged"
-  ]
+    "Enable Require branches to be up to date before merging in the active main ruleset (strict_required_status_checks_policy=true)",
+    "Verify final checks and integrate implementation PR #51 into main"
+  ],
+  "initial_github_enforcement_blocker": {
+    "state": "blocked",
+    "ruleset_create_http_status": 403,
+    "branch_protection_read_http_status": 403,
+    "reason": "Resource not accessible by integration"
+  },
+  "github_enforcement": {
+    "state": "active_required_check_verified",
+    "ruleset_id": 25323604,
+    "required_check": "asset-integrity",
+    "integration_id": 15368,
+    "bypass_actors": [],
+    "protected_merge_rejection": "PASS: HTTP 405, required status check is failing",
+    "probe_pr": "https://github.com/rahiseko-alt/DTP/pull/52",
+    "probe_closed": true,
+    "main_unchanged": true,
+    "evidence": "protected-main-rejection.json",
+    "strict_required_status_checks_policy": false,
+    "strict_update_attempt": "HTTP 403: Resource not accessible by integration"
+  }
 }

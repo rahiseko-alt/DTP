@@ -1,0 +1,19 @@
+asset-integrity	Run npm run asset:check	﻿2026-10-17T23:34:26.7888415Z ##[group]Run npm run asset:check
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:26.7888669Z [36;1mnpm run asset:check[0m
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:26.7942965Z shell: /usr/bin/bash -e {0}
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:26.7943169Z env:
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:26.7943528Z   STUDIO_CHROMIUM_PATH: /usr/bin/google-chrome
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:26.7943766Z ##[endgroup]
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:26.8728979Z
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:26.8729589Z > publishing-studio@0.1.0 asset:check
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:26.8730001Z > tsx system/scripts/assets.ts check
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:26.8730157Z
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:28.3666489Z {
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:28.3666858Z   "documents": [
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:28.3667197Z     "oc-approved-20261017"
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:28.3667506Z   ],
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:28.3667734Z   "errors": [
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:28.3668231Z     "UNREGISTERED: AssetError: books/oc-approved-20261017/enforcement-probe.txt"
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:28.3668722Z   ]
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:28.3668925Z }
+asset-integrity	Run npm run asset:check	2026-10-17T23:34:28.4029176Z ##[error]Process completed with exit code 1.
