@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-15",
+  "file": "shared/generated-assets/gpt-faithful-parts-20261013/cover-2028/group-photo-exact.png",
+  "source": "references/user-gpt/faithful-parts-20261013/cover-2028.png",
+  "rect": {
+    "left": 89,
+    "top": 326,
+    "width": 912,
+    "height": 730
+  },
+  "width": 912,
+  "height": 730,
+  "alpha": false,
+  "pixel_identity": true,
+  "raw_sha256": "0e8b798f513ec07deaaac0fd3b6025859a8e322dfe982eded4dd4c21e707c497",
+  "visual_check": "原画と独立PNGを目視。表紙タイトル・学校名・下部コピー・帯・ロゴなし。顔/服/人数/背景は原画画素一致。下辺は下部コピーを避けるため前列の足先等が部分カット。",
+  "use": "背景付き矩形写真としてチラシに配置可能。透過全身素材ではない。",
+  "max_mm_at_300dpi": {
+    "width": 77.216,
+    "height": 61.80666666666666
+  },
+  "example_mm": {
+    "width": 160,
+    "height": 128.0701754385965,
+    "effective_dpi": 144.78
+  },
+  "composition_check": "チラシ未組版のため紙面合成未確認。",
+  "role": "dtp-parts-designer v2 の役割指示を適用。ホストの役割selectorは使用不可。"
+}
