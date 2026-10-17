@@ -1,0 +1,17 @@
+asset-integrity	Run npm run asset:check	﻿2026-10-17T13:40:27.3981462Z ##[group]Run npm run asset:check
+asset-integrity	Run npm run asset:check	2026-10-17T13:40:27.3981813Z [36;1mnpm run asset:check[0m
+asset-integrity	Run npm run asset:check	2026-10-17T13:40:27.4044103Z shell: /usr/bin/bash -e {0}
+asset-integrity	Run npm run asset:check	2026-10-17T13:40:27.4044413Z ##[endgroup]
+asset-integrity	Run npm run asset:check	2026-10-17T13:40:27.5116861Z
+asset-integrity	Run npm run asset:check	2026-10-17T13:40:27.5117570Z > publishing-studio@0.1.0 asset:check
+asset-integrity	Run npm run asset:check	2026-10-17T13:40:27.5118192Z > tsx system/scripts/assets.ts check
+asset-integrity	Run npm run asset:check	2026-10-17T13:40:27.5118448Z
+asset-integrity	Run npm run asset:check	2026-10-17T13:40:29.3786806Z {
+asset-integrity	Run npm run asset:check	2026-10-17T13:40:29.3787244Z   "documents": [
+asset-integrity	Run npm run asset:check	2026-10-17T13:40:29.3787618Z     "oc-approved-20261017"
+asset-integrity	Run npm run asset:check	2026-10-17T13:40:29.3788060Z   ],
+asset-integrity	Run npm run asset:check	2026-10-17T13:40:29.3788369Z   "errors": [
+asset-integrity	Run npm run asset:check	2026-10-17T13:40:29.3789074Z     "UNREGISTERED: AssetError: books/oc-approved-20261017/ci-unregistered-probe.txt"
+asset-integrity	Run npm run asset:check	2026-10-17T13:40:29.3790075Z   ]
+asset-integrity	Run npm run asset:check	2026-10-17T13:40:29.3790372Z }
+asset-integrity	Run npm run asset:check	2026-10-17T13:40:29.4170729Z ##[error]Process completed with exit code 1.

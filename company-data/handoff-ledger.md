@@ -144,3 +144,22 @@
 人間の指摘「切り取る様式は裏面が白」により、BOOKを24ページ（中綴じ）に再構成した。切り取り様式6点（様式1〜4、AOエントリーシート、推薦書）は右ページ11・13・15・17・19・21、裏の12・14・16・18・20・22は完全な白紙。記入例はP9・P10、アクセスはP23、裏表紙はP24。確認用PDFは `books/admissions-guide-2027/output/pdf/admissions-guide-2027.pdf`（sha256 f2364cce…、24ページ）。独立レビュー・編集長・品質ゲート（preview）は同PDFで通過（記録は `reviews/production/f2364cce…/`）。ページIDと冊子順は一致しない（`config/book.yaml` の `pages` の順が冊子順）。
 面付け（`output/imposed/`）: `saddle.pdf`（A3横・12面＝紙6枚）、`saddle-a4-trial.pdf`（A4試し刷り用。約70.7%に縮小済み、プリンターは実際のサイズ）、`spreads.pdf`（見開き13面）、`guide.pdf`（面の並びと印刷の仕方）。作成は `python3 system/scripts/impose-booklet.py --mode spreads|saddle [--a4-trial]`。両面印刷は短辺とじ（短辺で反転）、印刷順に重ねて真ん中で折り、折り目（左側）を止める。トンボ・CMYK・PDF/Xは付けていない。
 人間の確認待ち: 提出書類確認表という名の様式の実体、推薦入試の「第一志望」要件、体験入学・説明会とオープンキャンパスの同一性。入稿前の軽微な修正候補: 記入例のふりがな点線の見え方、吹き出しFの「連絡先」と抜粋の不一致、学歴欄の縦線の太さ、P23の地図素材。実物の試し刷りの結果（並び・向き・折り目）は未確認。
+
+## 2026-10-17 ファイル取り違え防止・OCチラシ先行実装（強制化は未達）
+
+- branch `codex/asset-identity-20261017`、PR #51。管理対象は添付OCチラシID `oc-approved-20261017`。原本SHAと表裏、差し替え写真9点、原本からの抽出画像0点、再構成版を明示区別。別のパンフレットを代用しない。
+- `asset:resolve/search/get/register/photo/extract/check`、宣言スキーマ、readonly検査、current入力から再構築・描画、成果物receipt照合を実装。既存写真・原本・PDFは移動削除なし。手順は `system/assets/README.md`。
+- 型検査・関連82試験成功。新規コンテキストのクリーンクローン試験成功、未登録ファイルを入れたGitHub CIの失敗確認済み。最終版CIと再試験の詳細は `system/assets/evidence/pilot-verification.json` を参照する。
+- GitHub main保護設定の取得とruleset作成は認証APIが403。workflow追加とCI成功だけではmain統合を強制拒否できる保証はない。必須化と統合拒否の実試験が残るため全体完了とは扱わない。設定案は `system/assets/main-ruleset.json`。他の既存資料はlegacy-unverifiedのまま、横展開しない。
+
+## 2026-10-18 main必須チェック再試行・拒否実試験
+
+- ユーザーがGitHub画面でruleset `DTP file identity`（25323604）をActiveに設定。mainにGitHub Actions app15368の `asset-integrity` が必須、bypassなしをAPIで確認。
+- 試験用PR #52で未登録ファイルによりCI失敗後、通常のmerge APIが405（必須チェック失敗）で拒否。main SHA不変を確認してPR #52をcloseした。証跡は `system/assets/evidence/protected-main-rejection.json`。
+- `Require branches to be up to date before merging` は未だoff。設定更新APIは403で、ユーザーへ同項目の有効化を依頼中。PR #51は未マージ。最新main基準の検査を要求する設定とmain反映が残るため、全体完了としない。
+
+## 2026-10-18 ファイル識別・先行導入の達成条件試験完了
+
+- ユーザーが最新main基準の必須検査設定を有効化。ruleset25323604はActive、bypassなし、GitHub Actions app15368のasset-integrity必須、strict_required_status_checks_policy=trueをAPIで確認。保護mainの405拒否実試験、関連82試験、独立クリーン環境での格納/検索/取得、サブ2名の敵対審査は成功済み。
+- この記録を含むPR #51の正常CI後のマージをmain共通運用の反映点とする。成果物の原本・写真は移動削除なし。管理範囲はOCチラシ1件のみで、既存他資料はlegacy-unverified。
+- 現在結果は `system/assets/evidence/pilot-verification.json`、適用済み設定は `active-main-ruleset.json`。以前の未達記録は上記作業前の履歴。次のセッションではmainのPR #51反映を確認して `asset:resolve/search/get` を使う。

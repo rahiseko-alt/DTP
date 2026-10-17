@@ -120,3 +120,7 @@ python3 system/scripts/read-ledger.py
 - 人間の最新指示により、余白拡大・短文化・分かりやすさへの一律の優先を解除した。役割候補v2と更新済み判断契約を使い、停止されたv1へ自動復帰しない。
 
 - 港の水彩生成画像 `seaside-watercolor-example.png`（SHA256 `5f4524e5484a1c5aa3af6cd3cd39e462818e9dbeb03e5c8bf0992de927f3db6e`）は人間の明示指示で制作ストックから削除。旧紙面の検証履歴に含まれていても、素材や切り出し元として再利用しない。
+
+## 管理済み資料の識別経路
+
+`system/assets/policy.json` に列挙した資料は `asset:resolve/search/get` を使用し、原本・抽出画像・差し替え写真・再構成プレビューの役割を区別する。格納は専用登録、検査は `asset:check`。対象不明や実体不足で原本や別資料を代用しない。未移行はlegacy-unverifiedであり確定検索対象外。詳細手順は `system/assets/README.md`。
