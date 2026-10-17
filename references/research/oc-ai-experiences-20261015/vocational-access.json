@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-10-15T21:49:54+09:00",
+  "method": "curl --head --silent --show-error --max-time 20; inherited HTTPS proxy; TLS verification enabled",
+  "runtime_policy": {
+    "mode": "restricted",
+    "state": "unknown",
+    "observations_current": true,
+    "custom_allowed_hosts": []
+  },
+  "snapshot": "/etc/codex/network-policy.json version 1; candidate hosts absent; vpn_configured false",
+  "confirmed_experience_count": 0,
+  "candidates": [
+    {
+      "school": "HAL名古屋",
+      "url": "https://www.hal.ac.jp/",
+      "host": "www.hal.ac.jp",
+      "status": "blocked_before_official_content",
+      "http_connect_status": 403,
+      "curl_exit_code": 56,
+      "error": "CONNECT tunnel failed, response 403",
+      "quote": null,
+      "official_body_retrieved": false
+    },
+    {
+      "school": "名古屋情報メディア専門学校",
+      "url": "https://www.ncs.ac.jp/",
+      "host": "www.ncs.ac.jp",
+      "status": "blocked_before_official_content",
+      "http_connect_status": 403,
+      "curl_exit_code": 56,
+      "error": "CONNECT tunnel failed, response 403",
+      "quote": null,
+      "official_body_retrieved": false
+    },
+    {
+      "school": "東京電子専門学校",
+      "url": "https://www.tokyo-ec.ac.jp/",
+      "host": "www.tokyo-ec.ac.jp",
+      "status": "blocked_before_official_content",
+      "http_connect_status": 403,
+      "curl_exit_code": 56,
+      "error": "CONNECT tunnel failed, response 403",
+      "quote": null,
+      "official_body_retrieved": false
+    },
+    {
+      "school": "日本電子専門学校",
+      "url": "https://www.jec.ac.jp/",
+      "host": "www.jec.ac.jp",
+      "status": "blocked_before_official_content",
+      "http_connect_status": 403,
+      "curl_exit_code": 56,
+      "error": "CONNECT tunnel failed, response 403",
+      "quote": null,
+      "official_body_retrieved": false
+    },
+    {
+      "school": "名古屋工学院専門学校",
+      "url": "https://www.denpa.ac.jp/",
+      "host": "www.denpa.ac.jp",
+      "status": "blocked_before_official_content",
+      "http_connect_status": 403,
+      "curl_exit_code": 56,
+      "error": "CONNECT tunnel failed, response 403",
+      "quote": null,
+      "official_body_retrieved": false
+    }
+  ],
+  "required_host_additions": [
+    "www.hal.ac.jp",
+    "www.ncs.ac.jp",
+    "www.tokyo-ec.ac.jp",
+    "www.jec.ac.jp",
+    "www.denpa.ac.jp"
+  ],
+  "next_step": "Use supported environment network settings to add these hosts, apply settings, then retry HTTPS. Follow official redirects only after observing them; no alternate proxy/cache/GitHub relay."
+}

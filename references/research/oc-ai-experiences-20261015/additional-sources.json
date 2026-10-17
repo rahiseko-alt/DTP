@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://www.dhw.ac.jp/news/esoc2026/",
+    "retrieved_date_jst": "2026-10-15",
+    "file": "references/research/oc-ai-experiences-20261015/raw-additional/dhw-esoc2026.html",
+    "sha256": "f4876ccf8b8fdad36c6048686f10b1856bb047ad9c62734feefe168f64f59d00"
+  },
+  {
+    "url": "https://www.t-kougei.ac.jp/admission/engineering/activity/archives/2026/article_86687.html",
+    "retrieved_date_jst": "2026-10-15",
+    "file": "references/research/oc-ai-experiences-20261015/raw-additional/tokyo-kougei-ai-course.html",
+    "sha256": "a59e53fd4031e8910301bec55ddfec7d46608d91062974163b39279f2521dfbf"
+  },
+  {
+    "url": "https://sak.ac/lp/summer-super-oc",
+    "retrieved_date_jst": "2026-10-15",
+    "file": "references/research/oc-ai-experiences-20261015/raw-additional/sak-summer-oc.html",
+    "sha256": "0d213cf3fbec666c5b3ed9684e58f1ea8b8ba91610a8706195861e7ef9882dbe"
+  }
+]

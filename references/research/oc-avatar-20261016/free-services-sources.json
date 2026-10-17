@@ -1,0 +1,111 @@
+[
+  {
+    "url": "https://www.adobe.com/express/feature/video/animation/audio",
+    "retrieved": "2026-10-16",
+    "file": "free-services-sources/1.html",
+    "sha256": "42dbbc42c8b175de3a225731781f1826e5ebfc3ce7404ca772ccfa852e3801a7",
+    "status": "HTML retrieved; no registration or generation"
+  },
+  {
+    "url": "https://vroid.com/en/studio",
+    "retrieved": "2026-10-16",
+    "file": "free-services-sources/2.html",
+    "sha256": "2ee893d59ea74fe93ab66cebf5d7621e077b88a9c50c43d4bc9d01bbf8df5ef6",
+    "status": "HTML retrieved; no registration or generation"
+  },
+  {
+    "url": "https://runwayml.com/pricing",
+    "retrieved": "2026-10-16",
+    "file": "free-services-sources/runway.html",
+    "sha256": "2c75aa65880320bac2b6f0a91e013915012e19d50c1afdf881eed7c64a5383c9",
+    "status": "HTML retrieved; no registration or generation"
+  },
+  {
+    "url": "https://www.d-id.com/pricing/",
+    "retrieved": "2026-10-16",
+    "file": "free-services-sources/did.html",
+    "sha256": "52b0353992051d24a67e9188d1c2558f179b76ec4957dc05552a82b58c380b52",
+    "status": "HTML retrieved; no registration or generation"
+  },
+  {
+    "url": "https://www.capcut.com/tools/ai-avatar",
+    "retrieved": "2026-10-16",
+    "file": "free-services-sources/capcut.html",
+    "sha256": "00daa80d1cf7637b9d9b4d9d11a85b7caf1f12e24a384bc6d8d255cc54f2a9e0",
+    "status": "HTML retrieved; no registration or generation"
+  },
+  {
+    "url": "https://app.klingai.com/global/membership/membership-plan",
+    "retrieved": "2026-10-16",
+    "file": "free-services-sources/kling.html",
+    "sha256": "a46ce3ffdc53223c330939e6e4154d06276336123da4e1382380cdf58d30e1b5",
+    "status": "HTML retrieved; no registration or generation"
+  },
+  {
+    "url": "https://shotcut.org/",
+    "retrieved": "2026-10-16",
+    "file": "free-services-sources/shotcut.html",
+    "sha256": "f6fb3c0852fb0711a6686466652f9d8b627ac3f92dc2686a11a0d03e4f956078",
+    "status": "HTML retrieved; no registration or generation"
+  },
+  {
+    "url": "https://www.audacityteam.org/",
+    "retrieved": "2026-10-16",
+    "file": "free-services-sources/audacity.html",
+    "sha256": "21b52b96d0afb31bf587653919672e227942cff63c37838de7d36602aba7b746",
+    "status": "HTML retrieved; no registration or generation"
+  },
+  {
+    "url": "https://www.adobe.com/legal/terms.html",
+    "retrieved": "2026-10-16",
+    "file": "free-services-sources/adobeterms.html",
+    "sha256": "22e4474a2fec8d3706065fcce0bee89bc56a387d7847692a5f0f213d9f569e9e",
+    "status": "HTML retrieved; no registration or generation"
+  },
+  {
+    "url": "https://www.capcut.com/clause/terms-of-service",
+    "retrieved": "2026-10-16",
+    "file": "free-services-sources/capcutterms.html",
+    "sha256": "e65733e88266b58793ef8e0af391878fd9c49381d567ba9d643ab0d653ad4284",
+    "status": "HTML retrieved; no registration or generation"
+  },
+  {
+    "url": "https://vroid.com/en/studio/guidelines",
+    "retrieved": "2026-10-16",
+    "file": "free-services-sources/vroidterms.html",
+    "sha256": "ab3975cbe59e6065c9ce707ce2a10ccdbf5c0aa971e3ac02b503e5323871eedf",
+    "status": "HTML retrieved; no registration or generation"
+  },
+  {
+    "url": "https://shotcut.org/features/",
+    "retrieved": "2026-10-16",
+    "file": "free-services-sources/shotcutfeatures.html",
+    "sha256": "dbc9b17024245f7dcc6ea675171b39d57833da789b768aa68c4253ea5634b50b",
+    "status": "HTML retrieved; no registration or generation"
+  },
+  {
+    "url": "https://readyplayer.me/",
+    "retrieved": "2026-10-16",
+    "status": "proxy tunnel 403"
+  },
+  {
+    "url": "https://www.heygen.com/pricing",
+    "retrieved": "2026-10-16",
+    "status": "403"
+  },
+  {
+    "url": "https://www.canva.com/features/ai-avatar/",
+    "retrieved": "2026-10-16",
+    "status": "403"
+  },
+  {
+    "url": "https://www.blender.org/about/license/",
+    "retrieved": "2026-10-16",
+    "status": "403"
+  },
+  {
+    "url": "https://www.heygen.com/tool/free-ai-avatar-generator",
+    "retrieved": "2026-10-16",
+    "status": "403"
+  }
+]

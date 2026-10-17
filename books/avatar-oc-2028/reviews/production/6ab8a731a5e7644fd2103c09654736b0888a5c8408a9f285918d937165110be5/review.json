@@ -1,0 +1,33 @@
+{
+  "pdf_sha256":"6ab8a731a5e7644fd2103c09654736b0888a5c8408a9f285918d937165110be5",
+  "mode":"preview","page_count":1,"binding":"none",
+  "editor_session":"/root/flyer_research/editor","reviewer_session":"/root/flyer_research/reviewer",
+  "pages_seen":[1],"spreads_seen":[[1]],
+  "dimensions":{"content":"pass","audience":"pass","spreads":"pass","rhythm":"pass","legibility":"pass","assets":"pass","output":"pass"},
+  "checks":{"validate":"pass","render":"pass","visual_pages":"pass","visual_spreads":"pass"},
+  "findings":[
+    {"severity":"minor","pages":[1],"issue":"変換前もアニメ人物で本人写真から分身への変化は画像だけでは弱い。","evidence":"左肖像・中央飛行・右スマホは同アニメ人物。下部の本人写真/2D・リアル調の説明が補う。","required_fix":"企画確認用では説明と併せ許容可能。次の図像調整で架空の写真調beforeと分身の対比を検討。実学生写真を無断入力しない。"},
+    {"severity":"minor","pages":[1],"issue":"標準screenshot PNGの文字欠落不安定による確認画像取り違えを防ぐ必要。","evidence":"editor-check.mdに青帯/工程文字欠落記録。実見したPDF由来pngとPDFtextには全主要コピー/4工程/連絡先が存在。","required_fix":"同じSHAのPDF由来画像だけを提出確認画像として案内し、標準screenshotを最終画像としない。"}
+  ],
+  "evidence":{
+    "視覚評価の順序":["技術合否前にv1全1面を実見し方向を固定。v3 PDF由来全1面を技術照合前に実見しmajorなしと固定。その後PDF/HTML/生成記録/制作者記録を照合。"],
+    "ページ画像":["books/avatar-oc-2028/output/preview-v3/png/pdf-preview.png"],
+    "見開き画像":["books/avatar-oc-2028/output/preview-v3/png/pdf-preview.png"],
+    "参照構成比較":[
+      "references/user-gpt/faithful-parts-20261013/cover-2028.png → v3 PDF由来画像: 青大見出し/大人物の階層を継承、今回集合でなく飛行分身が主役。校名と連絡先が学校認識を担う。",
+      "references/user-gpt/faithful-parts-20261013/lecturer-ai.png → 同出力: 主画像/青太帯/具体工程の群を継承、番号は写真/分身/声と音楽/保存の実際の順序。",
+      "references/user-gpt/faithful-parts-20261013/general-business.png → 同出力: 橙を主題文字/秒数/工程に使い青階層と区別。",
+      "references/user-gpt/faithful-parts-20261013/school-overview.png → 同出力: 緑学校情報を下部へ集約、体験が主役で学校情報は行動先。"
+    ],
+    "依頼条件照合":[
+      "AI/分身ムービー大見出し、左肖像→中央飛行→右スマホ/音符/波形、声と音楽/スマホ保存/家族へが連結。",
+      "本人写真→2D/リアル分身→飛行→本人録音と音楽→保存をHTMLで説明。10〜20秒は完成動画長で体験時間とはしない。",
+      "企画確認用/体験企画案/日程・会場・参加費・申込方法調整中、無料/受付/実所要時間の創作なし。",
+      "架空完成イメージと実際の作品/画面と異なる表示、本人写真は当日任意撮影/提供、生成記録reference_inputs空で実学生写真を使わない記録と整合。",
+      "校名/年度/窓口/電話メールURL/QRはfacts参照。QRは学校情報で予約先表示なし。外国人特化なし、旧チラシ復元なし。"
+    ],
+    "検証":["独立sha256sum/PDFinfoで同SHA/1ページ612x858.96pt/Chromium154を確認。","独立pdftotextで全主要コピー/4工程/未定情報/連絡先確認。HTML文字/QRコード参照確認。","backgrounds/avatar-flight-example.prompt.yamlは架空成人20歳/文字ロゴなし/実学生参照なし。","editor-check.mdに最終SHA/render終了0/文字安全域0/代替ブラウザ警告/validate0error67warn。typecheckログも照合。"],
+    "用途と制約":["企画構成previewのみ。指定版/入稿解像度/外部到達/実機QR/実動画制作/参加者テスト未確認。全体テスト合格や実施成功保証・入稿公開承認ではない。"],
+    "保存形式":["独立reviewer返答を統合担当が同義に整理し、比較オブジェクトをreport-format文字列配列へ正規化。判定とminor2件は変更なし。"]
+  }
+}

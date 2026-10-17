@@ -1,0 +1,5 @@
+edits renew daily (10 songs)\\nCreate up to 4 songs at once\\nNo commercial use\\nNo credit top ups\\nShared generation queue\",\"monthly_price_usd\":0,\"annual_price_usd\":0,\"usage_plan_features\":[{\"name\":\"tag_upsample\"}],\"prices\":[]},{\"id\":\"3eaebef3-ef46-446a-931c-3d50cd1514f1\",\"level
+
+\nCreate up to 10 songs at once\\nEarly access to new features\\nPriority creation queue\\nAbility to purchase add-on credits\",\"monthly_price_usd\":10,\"annual_price_usd\":96,\"usage_plan_features\":[{\"name\":\"v4\"},{\"name\":\"cover\"},{\"name\":\"edit_mode\"},{\"name\":\"persona\"},{\"name\":\
+
+\nCreate up to 10 songs at once\\nEarly access to new features\\nPriority creation queue\\nAbility to purchase add-on credits\",\"monthly_price_usd\":30,\"annual_price_usd\":288,\"usage_plan_features\":[{\"name\":\"v4\"},{\"name\":\"cover\"},{\"name\":\"edit_mode\"},{\"name\":\"persona\"},{\"name\":

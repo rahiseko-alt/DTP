@@ -1,0 +1,284 @@
+{
+  "status": "actual school photos selected; final layout crop must be checked",
+  "slots": [
+    {
+      "slot": "front-hero",
+      "id": "student-img-5235",
+      "source": "company-data/photos/student-img-5235.jpg",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5235.jpg",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "教室でのグループ活動",
+      "purpose": "教室のグループ活動を主役に。顔と机上の資料を残す。",
+      "px": [
+        4032,
+        3024
+      ],
+      "sha256": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb",
+      "placement_mm": [
+        200,
+        112
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "50% 30%",
+        "approx_crop_px": [
+          4032,
+          2258
+        ]
+      },
+      "effective_dpi_at_placement": 512.1,
+      "alpha": false,
+      "ai_input_prohibited": true
+    },
+    {
+      "slot": "front-class",
+      "id": "student-img-5070",
+      "source": "company-data/photos/student-img-5070.jpg",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5070.jpg",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "机で書き取りをする在校生",
+      "purpose": "授業で課題に取り組む在校生。AI授業と特定しない。",
+      "px": [
+        4032,
+        3024
+      ],
+      "sha256": "abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793",
+      "placement_mm": [
+        58,
+        27
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "50% 50%",
+        "approx_crop_px": [
+          4032,
+          1877
+        ]
+      },
+      "effective_dpi_at_placement": 1765.7,
+      "alpha": false,
+      "ai_input_prohibited": true
+    },
+    {
+      "slot": "front-exchange",
+      "id": "student-dsc-1164",
+      "source": "company-data/photos/student-dsc-1164.jpg",
+      "file": "books/oc-approved-20261017/parts/photos/student-dsc-1164.jpg",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "笑顔でポーズをとる在校生（2人・バストアップ）",
+      "purpose": "在校生の笑顔・交流の紹介。",
+      "px": [
+        6000,
+        4000
+      ],
+      "sha256": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+      "placement_mm": [
+        58,
+        27
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "50% 38%",
+        "approx_crop_px": [
+          6000,
+          2793
+        ]
+      },
+      "effective_dpi_at_placement": 2627.6,
+      "alpha": false,
+      "ai_input_prohibited": true
+    },
+    {
+      "slot": "front-people",
+      "id": "student-img-3291",
+      "source": "company-data/photos/student-img-3291.jpg",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-3291.jpg",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。教職員の掲載承諾も取得済み（人間の申告、2026-10-15）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "入学式の受付（新入生と教職員）",
+      "purpose": "学校の人：入学式の受付。相談風景と表示しない。",
+      "px": [
+        2880,
+        2160
+      ],
+      "sha256": "b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7",
+      "placement_mm": [
+        58,
+        27
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "45% 60%",
+        "approx_crop_px": [
+          2880,
+          1341
+        ]
+      },
+      "effective_dpi_at_placement": 1261.2,
+      "alpha": false,
+      "ai_input_prohibited": true
+    },
+    {
+      "slot": "back-course-ai",
+      "id": "student-img-5238",
+      "source": "company-data/photos/student-img-5238.jpg",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5238.jpg",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "教室でのグループ活動（ホワイトボード前）",
+      "purpose": "グループ活動の実写真。AI実習そのものとの断定はしない。",
+      "px": [
+        4032,
+        3024
+      ],
+      "sha256": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+      "placement_mm": [
+        90,
+        34
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "50% 40%",
+        "approx_crop_px": [
+          4032,
+          1523
+        ]
+      },
+      "effective_dpi_at_placement": 1137.9,
+      "alpha": false,
+      "ai_input_prohibited": true
+    },
+    {
+      "slot": "back-course-business",
+      "id": "student-img-5074",
+      "source": "company-data/photos/student-img-5074.jpg",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5074.jpg",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "机で書き取りをする在校生",
+      "purpose": "教室の課題取組の実写真。学科所属を断定しない。",
+      "px": [
+        4032,
+        3024
+      ],
+      "sha256": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+      "placement_mm": [
+        90,
+        34
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "50% 45%",
+        "approx_crop_px": [
+          4032,
+          1523
+        ]
+      },
+      "effective_dpi_at_placement": 1137.9,
+      "alpha": false,
+      "ai_input_prohibited": true
+    },
+    {
+      "slot": "back-class",
+      "id": "student-img-5069",
+      "source": "company-data/photos/student-img-5069.jpg",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5069.jpg",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "教室で課題に取り組む在校生",
+      "purpose": "学校生活・授業の全景。",
+      "px": [
+        4032,
+        3024
+      ],
+      "sha256": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+      "placement_mm": [
+        58,
+        30
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "50% 48%",
+        "approx_crop_px": [
+          4032,
+          2086
+        ]
+      },
+      "effective_dpi_at_placement": 1765.7,
+      "alpha": false,
+      "ai_input_prohibited": true
+    },
+    {
+      "slot": "back-exchange",
+      "id": "student-img-5088",
+      "source": "company-data/photos/student-img-5088.jpg",
+      "file": "books/oc-approved-20261017/parts/photos/student-img-5088.jpg",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "壁の短冊飾りの前に集まる在校生",
+      "purpose": "学校生活・短冊の前に集まる交流風景。",
+      "px": [
+        4032,
+        3024
+      ],
+      "sha256": "2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b",
+      "placement_mm": [
+        58,
+        30
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "50% 45%",
+        "approx_crop_px": [
+          4032,
+          2086
+        ]
+      },
+      "effective_dpi_at_placement": 1765.7,
+      "alpha": false,
+      "ai_input_prohibited": true
+    },
+    {
+      "slot": "back-event",
+      "id": "student-17",
+      "source": "company-data/photos/student-17.jpg",
+      "file": "books/oc-approved-20261017/parts/photos/student-17.jpg",
+      "rights": "在校生本人の掲載承諾は取得済み（人間の申告、2026-10-11）。使用媒体・期限の制限なし（人間の確認 2026-10-11）。教職員の掲載承諾も取得済み（人間の申告、2026-10-15）。他の人物の写り込みは使用前にトリミング・ぼかしで確認する。AI 画像生成の入力には使わない",
+      "caption": "入学式後の集合写真（新入生と教職員）",
+      "purpose": "学校行事：入学式後の集合写真（新入生と教職員）。",
+      "px": [
+        1707,
+        1280
+      ],
+      "sha256": "c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165",
+      "placement_mm": [
+        70,
+        34
+      ],
+      "crop": {
+        "method": "CSS object-fit:cover; no image manipulation",
+        "object_position": "50% 58%",
+        "approx_crop_px": [
+          1707,
+          829
+        ]
+      },
+      "effective_dpi_at_placement": 619.4,
+      "alpha": false,
+      "ai_input_prohibited": true
+    }
+  ],
+  "notes": [
+    "Registered school photographs only. Original pixels copied without modification.",
+    "Photo of ceremony staff is not a consultation photograph.",
+    "No generated background/AI tool input/cutout.",
+    "Contact sheet is inspection artifact, not print asset."
+  ],
+  "inspection": {
+    "reference_images": [
+      "/tmp/approved-oc-1.png",
+      "/tmp/approved-oc-2.png"
+    ],
+    "all_registered_photos_contactsheet": "/tmp/oc-photos-contactsheet.jpg",
+    "selected_nine_contactsheet": "/tmp/oc-selected-nine.jpg",
+    "viewed": true,
+    "face_and_edge_check": "All nine seen in contact sheet; hero5235/group5238/staff3291/event17 additionally opened full. Final CSS crops require layout review.",
+    "text": "No text added to delivered originals. Actual classroom whiteboard/ceremony signage remains photographed; do not transcribe it as current facts.",
+    "transparent_background": false
+  }
+}

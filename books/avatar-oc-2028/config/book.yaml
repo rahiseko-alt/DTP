@@ -1,0 +1,21 @@
+id: avatar-oc-2028
+title: 自分の分身で、空を飛ぼう。体験企画チラシ
+kind: flyer
+format:
+  size: A4
+  orientation: portrait
+  bleed_mm: 3
+  safe_mm: 5
+  margins_mm: {top: 5, bottom: 5, inside: 5, outside: 5}
+  columns: 12
+  gutter_mm: 3
+  binding: none
+styles:
+- shared/layouts/grid.css
+- shared/layouts/typography.css
+- shared/layouts/components.css
+- books/avatar-oc-2028/layout.css
+theme: {}
+pages: [page_001]
+output: {png_dpi: 350, preview_dpi: 150}
+notes: 企画確認用。日程・実施条件調整中。描画は代替ブラウザによる確認用。

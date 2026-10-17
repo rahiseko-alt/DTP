@@ -1,0 +1,12 @@
+source: research
+kind: oc-ai-experiences-20261015
+title: 専門学校・大学OCのAI体験の公式情報調査
+obtained: 2026-10-15
+usage: reference-only
+forbidden_terms: []
+notes: |
+  ユーザー指定による外部OCのAI体験実例調査。専門学校と大学を別サブに分担。
+  初回は公式10hostと検索3hostでCONNECT 403。設定変更後はunrestricted/enforcedを確認し再開。
+  専門学校AI関連5企画・大学5校・短大2企画の公式本文を取得。開催報告と開催案内、実習と講義を区別する。
+  根拠URL・取得日・短引用はreport.md/vocational.md/university.md/additional.md、原本とハッシュは各sources.json/raw-*。
+  外部校の情報は参考用途で、自社の実施事実・AO条件・集客効果として転用しない。

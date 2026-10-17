@@ -1,0 +1,92 @@
+[
+  {
+    "id": "openai-image",
+    "url": "https://developers.openai.com/api/docs/guides/image-generation",
+    "final_url": "https://developers.openai.com/api/docs/guides/image-generation",
+    "retrieved_date": "2026-10-15",
+    "status": 200,
+    "sha256": "c4e2577f70aa6778d8ee7709ee70c2b8a93756cd114470ad35b3ed7baeeaffe8",
+    "raw_html": "raw-video-api-cost/openai-image.html",
+    "text": "raw-video-api-cost/openai-image.txt"
+  },
+  {
+    "id": "openai-pricing",
+    "url": "https://platform.openai.com/docs/pricing",
+    "final_url": "https://developers.openai.com/api/docs/pricing",
+    "retrieved_date": "2026-10-15",
+    "status": 200,
+    "sha256": "02ec39c9463bbb3204d44b250d19973e08b1987e871e06ff90b91c5705b76a6c",
+    "raw_html": "raw-video-api-cost/openai-pricing.html",
+    "text": "raw-video-api-cost/openai-pricing.txt"
+  },
+  {
+    "id": "openai-sora-closed",
+    "url": "https://developers.openai.com/api/docs/models/sora-2",
+    "final_url": "https://developers.openai.com/api/docs/models/sora-2",
+    "retrieved_date": "2026-10-15",
+    "status": 200,
+    "sha256": "d9806c790db44a58ffc4899aacb2629aae87d3da62c8854b90c8f65825cb418d",
+    "raw_html": "raw-video-api-cost/openai-sora-closed.html",
+    "text": "raw-video-api-cost/openai-sora-closed.txt"
+  },
+  {
+    "id": "openai-video-history",
+    "url": "https://developers.openai.com/api/docs/guides/video-generation",
+    "final_url": "https://developers.openai.com/api/docs/guides/video-generation",
+    "retrieved_date": "2026-10-15",
+    "status": 200,
+    "sha256": "c45036fe5be9b5165ad92183750951b012de0e6bf122618c1eab073b16f59b28",
+    "raw_html": "raw-video-api-cost/openai-video-history.html",
+    "text": "raw-video-api-cost/openai-video-history.txt"
+  },
+  {
+    "id": "gemini-pricing",
+    "url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "final_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "retrieved_date": "2026-10-15",
+    "status": 200,
+    "sha256": "81d8b3d74070191e2fecfc0dd14008a0e4d6dfc29615e2a5a5d1cc6363ec8b69",
+    "raw_html": "raw-video-api-cost/gemini-pricing.html",
+    "text": "raw-video-api-cost/gemini-pricing.txt"
+  },
+  {
+    "id": "gemini-terms",
+    "url": "https://ai.google.dev/gemini-api/terms",
+    "final_url": "https://ai.google.dev/gemini-api/terms",
+    "retrieved_date": "2026-10-15",
+    "status": 200,
+    "sha256": "154b239ff2abf956849d2b2cce3cf90e0317b38a6d61c35c2427db9a7baec910",
+    "raw_html": "raw-video-api-cost/gemini-terms.html",
+    "text": "raw-video-api-cost/gemini-terms.txt"
+  },
+  {
+    "id": "vertex-pricing",
+    "url": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+    "final_url": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+    "retrieved_date": "2026-10-15",
+    "status": 200,
+    "sha256": "780ffe6e0261b7e78c36575dacc131ce611d191f8a22ed0198c5fd9ab7548f28",
+    "raw_html": "raw-video-api-cost/vertex-pricing.html",
+    "text": "raw-video-api-cost/vertex-pricing.txt"
+  },
+  {
+    "id": "vertex-veo-model",
+    "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/veo/3-1-generate",
+    "final_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate",
+    "retrieved_date": "2026-10-15",
+    "status": 200,
+    "sha256": "9a7afacaaffd1e7cb9de0c20012e3e62dd89ca30523345c08087fb6bd91b7824",
+    "raw_html": "raw-video-api-cost/vertex-veo-model.html",
+    "text": "raw-video-api-cost/vertex-veo-model.txt"
+  },
+  {
+    "id": "vertex-image-video",
+    "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/video/generate-videos-from-an-image",
+    "final_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/generate-videos-from-an-image",
+    "retrieved_date": "2026-10-15",
+    "status": 200,
+    "sha256": "61d6f77ed8bea4f6deb9265b7b256225ada3ba6c2bc9044e68052e215237a2b8",
+    "raw_html": "raw-video-api-cost/vertex-image-video.html",
+    "text": "raw-video-api-cost/vertex-image-video.txt"
+  }
+]

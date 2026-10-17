@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://runwayml.com/pricing",
+    "retrieved_date_jst": "2026-10-15",
+    "file": "references/research/oc-ai-experiences-20261015/raw-runway-cost/web-pricing.html",
+    "sha256": "2a2f64ab36db77b5e3d31ede996efb628cd307e570a6b1ba7e1eb3455e96f04f"
+  },
+  {
+    "url": "https://docs.dev.runwayml.com/guides/pricing/",
+    "retrieved_date_jst": "2026-10-15",
+    "file": "references/research/oc-ai-experiences-20261015/raw-runway-cost/api-pricing.html",
+    "sha256": "dd2e743cc0b711f8cdd6804ac03d255f29e6a4488da20105d0b43012a7e49b47"
+  },
+  {
+    "url": "https://runwayml.com/terms-of-use/",
+    "retrieved_date_jst": "2026-10-15",
+    "file": "references/research/oc-ai-experiences-20261015/raw-runway-cost/terms.html",
+    "sha256": "579326113b126e3e5240a117444688d9b6f0328f9ed828c6ca9d573f5ef49f44"
+  },
+  {
+    "url": "https://runwayml.com/team-plan",
+    "retrieved_date_jst": "2026-10-15",
+    "file": "references/research/oc-ai-experiences-20261015/raw-runway-cost/team.html",
+    "sha256": "3ced7678b6331d074a7a83b953ca22e7cafa723b9c37353e8a3b436dd0e5e65b"
+  },
+  {
+    "url": "https://docs.dev.runwayml.com/usage/tiers/",
+    "retrieved_date_jst": "2026-10-15",
+    "file": "references/research/oc-ai-experiences-20261015/raw-runway-cost/tiers.html",
+    "sha256": "0e8c9a6dd13d80f3766a90e40478f39a0cfceb70401dbd30b12a9337ef0862b5"
+  },
+  {
+    "url": "https://docs.dev.runwayml.com/usage/organizations-and-roles/",
+    "retrieved_date_jst": "2026-10-15",
+    "file": "references/research/oc-ai-experiences-20261015/raw-runway-cost/roles.html",
+    "sha256": "ffa395c176489cc753a18ee54aca6e16c3975f16c7c38f80774c355af8526b42"
+  },
+  {
+    "url": "https://docs.dev.runwayml.com/usage/autobilling/",
+    "retrieved_date_jst": "2026-10-15",
+    "file": "references/research/oc-ai-experiences-20261015/raw-runway-cost/autobilling.html",
+    "sha256": "8ff27fb95698fe83eb24525483c7a70140730c72500ae606c9a9fe27910524c9"
+  },
+  {
+    "url": "https://runwayml.com/coc",
+    "retrieved_date_jst": "2026-10-15",
+    "file": "references/research/oc-ai-experiences-20261015/raw-runway-cost/usage-policy.html",
+    "sha256": "c0503591b11f78b58e829e9c502ba8a6f2e1502b70ebe361315fa856c90ec135"
+  },
+  {
+    "url": "https://docs.dev.runwayml.com/api-details/moderation/",
+    "retrieved_date_jst": "2026-10-15",
+    "file": "references/research/oc-ai-experiences-20261015/raw-runway-cost/moderation.html",
+    "sha256": "3bddf72d73e4586029701f798d4804c0fde760f9a4a3193f62913e1fd6c81302"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "denpa-face",
+    "url": "https://www.denpa.ac.jp/experience/report/report_computer/orientation_02.html",
+    "final_url": "https://www.denpa.ac.jp/experience/report/report_computer/orientation_02.html",
+    "retrieved_date": "2026-10-15",
+    "http_status": 200,
+    "sha256": "d1c7e9e0848ad15455aca683f9c83834ac3af30bede78c095baf60eb11ceb55a",
+    "raw_html": "raw-vocational/denpa-face.html",
+    "extracted_text": "raw-vocational/denpa-face.txt"
+  },
+  {
+    "id": "ncs-face",
+    "url": "https://www.ncs.ac.jp/event/",
+    "final_url": "https://www.ncs.ac.jp/event/",
+    "retrieved_date": "2026-10-15",
+    "http_status": 200,
+    "sha256": "be98fd793227a7dec77e5c22724537753ca0d2968c521e444ccc05aa33f94325",
+    "raw_html": "raw-vocational/ncs-face.html",
+    "extracted_text": "raw-vocational/ncs-face.txt"
+  },
+  {
+    "id": "jec-ai",
+    "url": "https://www.jec.ac.jp/event/oc/",
+    "final_url": "https://www.jec.ac.jp/event/oc/",
+    "retrieved_date": "2026-10-15",
+    "http_status": 200,
+    "sha256": "9a7fa8ede8247db08dc814d5a7e69d5164b64b26a0b9a6d6c7bcc6b96a488894",
+    "raw_html": "raw-vocational/jec-ai.html",
+    "extracted_text": "raw-vocational/jec-ai.txt"
+  },
+  {
+    "id": "denpa-kintone",
+    "url": "https://www.denpa.ac.jp/news/all_topics/course_news/2026/it_20.html",
+    "final_url": "https://www.denpa.ac.jp/news/all_topics/course_news/2026/it_20.html",
+    "retrieved_date": "2026-10-15",
+    "http_status": 200,
+    "sha256": "3663a1e6bfb6d45e49da5e01da7513c6cd42d8e19e39691529d3e86399808e6d",
+    "raw_html": "raw-vocational/denpa-kintone.html",
+    "extracted_text": "raw-vocational/denpa-kintone.txt"
+  },
+  {
+    "id": "tsb-ai-it",
+    "url": "https://www.tsb-yyg.ac.jp/opencampus/ai-it/",
+    "final_url": "https://www.tsb-yyg.ac.jp/opencampus/ai-it/",
+    "http_status": 200,
+    "retrieved_date": "2026-10-15",
+    "sha256": "7ffe12e76b6f02573ac8052e7c47fece6730057926742310823ca2b3ded6e429",
+    "raw_html": "raw-vocational/tsb-ai-it.html",
+    "extracted_text": "raw-vocational/tsb-ai-it.txt"
+  }
+]

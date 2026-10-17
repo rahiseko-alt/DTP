@@ -1,0 +1,22 @@
+{
+  "pdf_sha256":"0b7f3955d1675d6e64cc4c72448533e134b9bfba77a99134431bae3cd81358b6",
+  "mode":"preview","page_count":1,"binding":"none",
+  "editor_session":"/root/flyer_research/editor","reviewer_session":"/root/flyer_research/reviewer",
+  "pages_seen":[1],"spreads_seen":[[1]],
+  "dimensions":{"content":"pass","audience":"pass","spreads":"pass","rhythm":"pass","legibility":"pass","assets":"pass","output":"pass"},
+  "checks":{"validate":"pass","render":"pass","visual_pages":"pass","visual_spreads":"pass"},
+  "findings":[
+    {"severity":"minor","pages":[1],"issue":"写真から分身の変化は画像だけでは十分でない。","evidence":"工程1肖像と2飛行がともにアニメ。本人写真/2Dリアル調の本文が補完。","required_fix":"企画確認用では許容。今後架空の写真調beforeとの対比を検討。"},
+    {"severity":"minor","pages":[1],"issue":"任意提供注記が緑帯境界に近い。","evidence":"独立PDF再描画で全文読めるが注記下間隔が小さい。","required_fix":"次回改訂で局所数mm間隔を確保。全体を疎に戻さない。"}
+  ],
+  "evidence":{
+    "視覚評価の順序":["v3原寸で70点固定、v6を技術合否と独立に同配点84点。最終v8全1面と独立PDF再描画で4図/青帯全文を実見。全ページtoolの無文字表示は独立再描画と原画素cropで確認し画像欠陥とはしない。"],
+    "ページ画像":["books/avatar-oc-2028/output/preview-v8/print-preview.png","books/avatar-oc-2028/output/preview-v8/takeaway-proof.png","/tmp/avatar-review-v8.png"],
+    "見開き画像":["books/avatar-oc-2028/output/preview-v8/print-preview.png"],
+    "参照構成比較":["references/user-gpt/faithful-parts-20261013/cover-2028.png → v8: 青大見出し/大人物階層を継承、飛行分身が主役、校名と窓口は下部。","references/user-gpt/faithful-parts-20261013/lecturer-ai.png → v8: 大画像/青太帯/図像説明近接。文字だけの工程から肖像/飛行/録音/スマホへ改善。","references/user-gpt/faithful-parts-20261013/general-business.png → v8: 橙を体験名/秒数/工程に使い青と区別。","references/user-gpt/faithful-parts-20261013/school-overview.png → v8: 緑学校群を下へ集約、問い合わせと大電話を近接、QRは副導線。"],
+    "依頼条件照合":["同配点20/20/15/15/15/10/5で70→84、技術は加点しない。右上補助情報/工程対応図/問い合わせ群で余白のだれ改善。","本人写真/分身/非日常/本人録音/音楽/保存/家族が主題。10〜20秒は作る動画長。架空例と実画面相違、写真任意、開催4条件調整中を維持。","MP4表記除去し家族へ。外国人特化なし、学校窓口と公式site維持。開催申込未定は未解決。"],
+    "検証":["独立sha256sum/PDFinfoで同SHA/1ページ612x858.96pt/Chromium154確認。","独立pdftotextとpdftoppm再描画で主要コピー/全4図/任意提供/未定/連絡先確認。takeaway-proofも実見。","editor-check-v8.mdで同SHA/render安全域文字警告0/validate0error68warn照合。代替ブラウザ/ローカルCJK書体はpreview制限。全体tests合格とはしない。"],
+    "用途と制約":["企画紙面構成previewのみ。開催/申込未定で予約CTA未完成。実体験/参加者test/外部到達/実機QR/入稿品質未検証。人間採用・実施公開入稿を承認しない。"],
+    "保存形式":["独立返答を統合担当が同義整理し比較オブジェクトを文字列配列へ正規化。判定/指摘/84点は変更なし。"]
+  }
+}
