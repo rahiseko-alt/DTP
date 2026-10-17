@@ -18,7 +18,7 @@
 .cv-school__name{font-size:21pt;font-weight:900;line-height:1.3}
 .cv-school__en{font-size:7.5pt;font-weight:500;letter-spacing:.04em}
 .cv-contact{position:absolute;left:12mm;right:12mm;top:282mm;margin:0;color:var(--color-background);font-size:7.5pt;line-height:1.5;font-weight:500;text-align:left}
-.cv-tear{position:absolute;right:12mm;top:256mm;width:62mm;padding:2.5mm 4mm;border:.5mm dashed var(--color-accent);color:var(--color-background);display:flex;align-items:center;gap:3mm}
+.cv-tear{position:absolute;right:12mm;top:256mm;width:70mm;padding:2.5mm 4mm;border:.5mm dashed var(--color-accent);color:var(--color-background);display:flex;align-items:center;gap:3mm}
 .cv-tear b{font-size:22pt;font-weight:900;color:var(--color-accent);line-height:1;white-space:nowrap}
 .cv-tear p{margin:0;font-size:8pt;line-height:1.5;font-weight:700;text-align:left}
 .cv-school__logo{display:block;width:86mm;height:auto;margin-top:1.5mm;outline:.4mm solid var(--color-accent)}

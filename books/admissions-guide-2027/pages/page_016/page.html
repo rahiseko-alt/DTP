@@ -1,12 +1,9 @@
-{{!-- page_016 アクセス・連絡先・裏表紙（左ページ）。写真を上に、濃紺の面に経路図・連絡先・QR --}}
+{{!-- page_023 アクセス・連絡先（右ページ）。濃紺の面に経路・住所・連絡先・QR --}}
 <div class="p16-bg" aria-hidden="true"></div>
-<figure class="p16-photo">
-  <img src="{{photo "student-img-5493"}}" alt="笑顔でポーズをとる在校生" style="object-position: 50% 40%">
-</figure>
-<div class="p16-slash" aria-hidden="true"></div>
-
+<div class="p16-stripe" aria-hidden="true"></div>
 <section class="p16-access">
-  <h1>アクセス</h1>
+  <p class="p16-access__kicker">ACCESS</p>
+  <h1>アクセス・連絡先</h1>
   <div class="p16-route">
     <div class="p16-route__node"><b>JR名古屋駅</b></div>
     <div class="p16-route__walk"><i></i><span>徒歩10分</span><i></i></div>
@@ -23,8 +20,3 @@
   </div>
   <div class="p16-qr">{{qr facts.school.url size=24}}<p>公式サイト</p></div>
 </section>
-
-<footer class="p16-foot">
-  <img src="{{asset brand.logo.logo-horizontal.file}}" alt="{{facts.school.name}}">
-  <p>{{facts.school.corporation}}</p>
-</footer>

@@ -1,0 +1,17 @@
+# このBOOKが使う参考資料（docs/concept.md §5 ／ system/rules/references.md）
+references:
+  - references/HAL-nagoya/brochure-1/
+
+page_001:
+  layout_reference:
+    - references/HAL-nagoya/brochure-1/page_001.jpg
+    - references/HAL-nagoya/brochure-1/page_004.jpg
+  visual_reference:
+    - references/HAL-nagoya/brochure-1/page_001.jpg
+
+page_002:
+  layout_reference:
+    - references/HAL-nagoya/brochure-1/page_005.jpg
+    - references/HAL-nagoya/brochure-1/page_014.jpg
+  information_reference:
+    - references/HAL-nagoya/brochure-1/page_014.jpg

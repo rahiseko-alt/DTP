@@ -1,7 +1,162 @@
-<article class="avatar-flyer">
-<header><p><b>オープンキャンパス｜企画案</b><span>{{facts.booklet.intake}}</span></p><h1>自分が主役。<br><em>AIでつくる、分身ムービー。</em></h1><h2>声も自分。音楽をつけて、短い動画に。</h2><div class="header-badges"><div class="duration"><b>10〜20秒</b><span>つくる動画の長さ</span></div><div class="carry">スマホへ保存<span>家族に見せよう</span></div></div></header>
-<section class="experience"><img class="flight-example" src="{{asset "books/avatar-oc-2028/backgrounds/avatar-flight-example.png"}}" alt="架空成人女性の分身が飛行し、同じ人物のスマホ動画になる体験完成イメージ">
-<p class="hero-tag">自分の分身で、空を飛ぼう。</p><p class="illustration-note">体験完成イメージ（架空人物）。実際の作品・画面とは異なります。</p></section>
-<section class="takeaway"><h2>できた動画は、スマホへ。<br><strong>家族にも見せよう。</strong></h2><p>自分の写真<br>× 自分の声 × 音楽</p></section>
-<section class="steps"><h2>写真から、声つき動画になるまで</h2><ol><li><div class="step-image portrait"><img src="{{asset "books/avatar-oc-2028/backgrounds/avatar-flight-example.png"}}" alt="架空人物の分身ポートレート例"></div><b>1<span>写真を用意</span></b><p>本人の写真を<br>分身のもとに。</p></li><li><div class="step-image flight"><img src="{{asset "books/avatar-oc-2028/backgrounds/step-flight-crop.png"}}" alt="分身が飛ぶ完成イメージ"></div><b>2<span>分身が飛ぶ</span></b><p>2D・リアル調の分身で、<br>空を飛ぶ動画へ。</p></li><li><div class="step-image sound"><svg viewBox="0 0 240 82" role="img" aria-label="本人の声を録音し音楽をつける図"><rect width="240" height="82" fill="#eaf3f9"/><rect x="27" y="15" width="21" height="35" rx="10" fill="#00599c"/><path d="M19 38V44Q19 61 38 61Q57 61 57 44V38M38 61V72M25 72H51" fill="none" stroke="#00599c" stroke-width="4"/><path d="M77 42H87M95 28V56M106 18V66M117 33V51M128 24V60M139 36V48M150 15V69M161 29V55M172 39H181" stroke="#ed5700" stroke-width="5"/><path d="M202 48V20L225 15V43M202 20V29L225 24" fill="none" stroke="#326b2f" stroke-width="4"/><ellipse cx="195" cy="52" rx="8" ry="6" fill="#326b2f"/><ellipse cx="218" cy="47" rx="8" ry="6" fill="#326b2f"/></svg></div><b>3<span>声と音楽</span></b><p>本人が録音した声と<br>音楽をつける。</p></li><li><div class="step-image phone"><img src="{{asset "books/avatar-oc-2028/backgrounds/step-phone-crop.png"}}" alt="スマホで動画を再生するイメージ"></div><b>4<span>スマホへ保存</span></b><p>自分のスマホで再生。</p></li></ol><p class="photo-note">写真の撮影・提供は任意です。</p></section>
-<footer><div class="footer-main"><h2>{{facts.school.name}}</h2><p class="contact-invite">企画のお問い合わせは{{facts.contacts.contacts.0.label}}へ</p><p class="contact-detail">{{#each facts.contacts.contacts}}{{#if (eq id "admissions-office")}}<strong>{{tel}}</strong><span>{{email}}</span>{{/if}}{{/each}}</p><p class="pending">日程・会場・参加費・申込方法：調整中</p></div><div class="qr"><b>学校情報は公式サイトへ</b>{{qr facts.school.url size=22}}<a href="{{facts.school.url}}">{{facts.school.url}}</a></div></footer></article>
+<article class="oc-page oc-front">
+  <img class="bg-crystal-watermark front-watermark" src="{{asset "shared/generated-assets/gpt-neon-parts/cover-armor-watermark-01.png"}}" alt="">
+
+  <section class="hero-stage">
+    <img class="hero-character" src="{{asset "books/prospectus-hal-2028/backgrounds/cover-armor.png"}}" alt="AI生成女性キャラクター（メインビジュアル）">
+    <div class="hero-shade"></div>
+
+    <header class="front-top-bar">
+      <div class="top-intake-badge">{{facts.booklet.intake}} 対象｜体験型オープンキャンパス特別企画</div>
+      <div class="top-school-id">{{facts.school.corporation}} <strong>{{facts.school.name}}</strong></div>
+    </header>
+
+    <div class="hero-side-rail" aria-hidden="true">AI × MY VOICE × MV</div>
+
+    <p class="hero-model-note">※メインビジュアルはAI生成キャラクターによる制作イメージです（実在の在校生ではありません）</p>
+
+    <div class="hero-typo-cluster">
+      <div class="hero-kicker-row">
+        <span class="kicker-tag">2DでもリアルでもOK！</span>
+        <span class="kicker-tag accent">声は自分・主役も自分！</span>
+        <span class="kicker-tag">10〜20秒のショートMVをスマホ持ち帰り！</span>
+      </div>
+      <div class="hero-giant-en" aria-hidden="true">&gt;MY MV</div>
+      <h1 class="hero-main-title">
+        <span class="line-lead">自分主演の<em>AI</em></span>
+        <span class="line-main">ミュージックビデオ</span>
+        <span class="line-tail">を作ろう<i>!</i></span>
+      </h1>
+    </div>
+
+    <div class="hero-takeaway-pill">
+      <strong>スマホで即日持ち帰りOK！</strong>
+      <span>作ったショートMVはその場で保存＆家族に見せよう！</span>
+    </div>
+
+    <div class="hero-value-panel">
+      <div class="value-badge">ただのAI動画生成じゃない！家族（お母さん・カーちゃん）が驚く理由</div>
+      <p class="value-lead">
+        自分の特徴やなりたい姿から<strong>「自分の分身（アバター）」</strong>を生成し、空を飛ぶなど<strong>現実ではできない非日常アクション映像</strong>へ！さらに<strong>「自分の声」</strong>と<strong>「AI生成音楽」</strong>を重ねて、その日のうちにスマホで持ち帰れる体験です。
+      </p>
+    </div>
+  </section>
+
+  <section class="mv-synthesis-section" aria-label="自分主演AIミュージックビデオの合成・変化プロセス">
+    <div class="synthesis-header">
+      <span class="syn-num">VISUAL SYNTHESIS</span>
+      <h2>「分身」×「非日常アクション」×「自分の声＋AI音楽」＝ 家族に見せられる自分主演MV！</h2>
+    </div>
+
+    <div class="synthesis-grid">
+      <article class="syn-step syn-base">
+        <div class="syn-step-head">
+          <span class="syn-badge">要素 ① BASE</span>
+          <h3>普段の自分を「分身化」</h3>
+        </div>
+        <figure class="syn-visual">
+          <img src="{{asset "books/prospectus-hal-2028/backgrounds/cover-armor.png"}}" alt="ベースとなる分身キャラクター生成例">
+          <figcaption>2Dキャラもリアル風もOK</figcaption>
+        </figure>
+        <p class="syn-desc">自分の特徴やなりたい姿から、主役となる<strong>「自分の分身（アバター）」</strong>を生成。顔出しが苦手でも2Dや未来風キャラで主役になれる！</p>
+      </article>
+
+      <div class="syn-operator op-1" aria-hidden="true">×</div>
+
+      <article class="syn-step syn-action">
+        <div class="syn-step-head">
+          <span class="syn-badge cyan">要素 ② ACTION</span>
+          <h3>現実ではできない動きへ変化！</h3>
+        </div>
+        <div class="syn-dual-visual">
+          <figure class="syn-visual-main">
+            <img src="{{asset "books/prospectus-hal-trial-5p-2028/backgrounds/character-blue-edit-example.png"}}" alt="非日常アクション・光とステージの変化例">
+            <figcaption>光・動きの変化</figcaption>
+          </figure>
+          <figure class="syn-visual-sub">
+            <img src="{{asset "shared/generated-assets/gpt-neon-parts/future-gate-01.png"}}" alt="未来都市ステージ背景例">
+            <figcaption>未来ステージ演出</figcaption>
+          </figure>
+        </div>
+        <p class="syn-desc">普段の日常では絶対にできない<strong>「空を飛ぶ」「未来ステージを駆ける」</strong>などのダイナミックな映像表現へAIで変化！</p>
+      </article>
+
+      <div class="syn-operator op-2" aria-hidden="true">×</div>
+
+      <article class="syn-step syn-voice">
+        <div class="syn-step-head">
+          <span class="syn-badge yellow">要素 ③ VOICE &amp; MUSIC</span>
+          <h3>自分の声＋AI音楽を合成</h3>
+        </div>
+        <figure class="syn-visual">
+          <img src="{{asset "shared/generated-assets/gpt-brochure-parts/video-production.png"}}" alt="音声と映像タイムライン編集イメージ">
+          <figcaption>自分の声×AI音楽をミックス</figcaption>
+        </figure>
+        <p class="syn-desc">ここが決定的な違い！録音した<strong>「自分の声（フレーズ・歌声）」</strong>と、AIで作ったオリジナルBGMを映像に重ねて編集！</p>
+      </article>
+
+      <div class="syn-operator op-eq" aria-hidden="true">＝</div>
+
+      <article class="syn-result">
+        <div class="result-crown">COMPLETE! スマホで即日お持ち帰り</div>
+        <h3><em>10〜20秒</em>の自分主演ショートMV完成！</h3>
+        <div class="result-points">
+          <div class="rp-item">
+            <strong>帰ってすぐ「カーちゃん」に見せられる！</strong>
+            <span>単なるAI動画ではなく「自分の声・自分の分身」だから、家族が見た瞬間に凄さと楽しさが一目で伝わる！</span>
+          </div>
+          <div class="rp-item">
+            <strong>パソコン・AI初心者でも1回で完成！</strong>
+            <span>少人数制で先生や先輩が隣でサポート。日本語に少し不安がある高校生も安心して挑戦できます。</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="oc-schedule-section" aria-label="オープンキャンパス開催情報と会場案内">
+    <div class="schedule-title-col">
+      <span class="sched-eyebrow">OPEN CAMPUS INFO</span>
+      <h2>オープンキャンパス<br>開催情報・会場案内</h2>
+      <p class="sched-honest-note">※{{facts.booklet.intake}}向けの開催日程・時間・参加費は現在<strong>【未定】</strong>です。決定次第、公式Webサイト等でご案内します。</p>
+    </div>
+
+    <div class="schedule-table-col">
+      <div class="sched-grid">
+        <div class="sched-cell">
+          <span class="sched-label">開催日程</span>
+          <strong class="sched-status">【未定】<small>決定次第Web等で案内</small></strong>
+          <div class="sched-memo-box">日程記入欄：____月____日（____）</div>
+        </div>
+        <div class="sched-cell">
+          <span class="sched-label">開催時間</span>
+          <strong class="sched-status">【未定】<small>体験＋個別相談 想定</small></strong>
+          <div class="sched-memo-box">時間記入欄：____:____〜____:____</div>
+        </div>
+        <div class="sched-cell">
+          <span class="sched-label">参加費</span>
+          <strong class="sched-status">【未定】<small>決定次第ご案内します</small></strong>
+          <p class="sched-sub">※持ち物：スマートフォン（完成したMVの保存・持ち帰り用）</p>
+        </div>
+        <div class="sched-cell highlight">
+          <span class="sched-label">定員目安</span>
+          <strong class="sched-cap">1回あたり<em>10</em>人程度</strong>
+          <p class="sched-sub">少人数で先生・先輩が一人ひとり丁寧にサポート！</p>
+        </div>
+      </div>
+
+      <div class="venue-bar">
+        <div class="venue-main">
+          <span class="venue-tag">会場・アクセス</span>
+          <strong>{{facts.school.corporation}} {{facts.school.name}}</strong>
+          <span class="venue-addr">〒{{facts.school.address.postal_code}} {{facts.school.address.prefecture}}{{facts.school.address.city}}{{facts.school.address.line1}}（<strong>{{facts.school.access.[0]}}</strong>）</span>
+        </div>
+        <div class="venue-tel">
+          <span>{{facts.contacts.contacts.[0].label}}</span>
+          <strong>TEL {{facts.school.tel}}</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <p class="page-folio front-folio">01 — FRONT</p>
+</article>

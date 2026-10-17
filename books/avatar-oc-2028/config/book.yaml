@@ -1,21 +1,38 @@
 id: avatar-oc-2028
-title: 自分の分身で、空を飛ぼう。体験企画チラシ
+title: 2028年4月入学 オープンキャンパスチラシ — 自分主演のAIミュージックビデオ体験
 kind: flyer
+description: 表面は女性キャラクター主役と巨大文字の重なり・MV変化比較図・開催情報枠、裏面は体験4ステップ・在校生実写真群・2学科・2027年度参考学費・親子相談と連絡先QRで構成したA4両面チラシ。
 format:
   size: A4
   orientation: portrait
   bleed_mm: 3
   safe_mm: 5
-  margins_mm: {top: 5, bottom: 5, inside: 5, outside: 5}
+  margins_mm:
+    top: 12
+    bottom: 12
+    inside: 12
+    outside: 12
   columns: 12
-  gutter_mm: 3
-  binding: none
+  gutter_mm: 4
+  binding: left
 styles:
-- shared/layouts/grid.css
-- shared/layouts/typography.css
-- shared/layouts/components.css
-- books/avatar-oc-2028/layout.css
-theme: {}
-pages: [page_001]
-output: {png_dpi: 350, preview_dpi: 150}
-notes: 企画確認用。日程・実施条件調整中。描画は代替ブラウザによる確認用。
+  - shared/layouts/grid.css
+  - shared/layouts/typography.css
+  - books/avatar-oc-2028/layout.css
+theme:
+  --color-primary: "#00e5ff"
+  --color-secondary: "#ff2a6d"
+  --color-accent: "#ffe600"
+  --color-text: "#ffffff"
+  --color-muted: "#b7ccdf"
+  --color-background: "#040814"
+  --color-surface: "#0a162c"
+  --color-neutral: "#ffffff"
+  --fs-body: 9.5pt
+pages:
+  - page_001
+  - page_002
+output:
+  png_dpi: 350
+  preview_dpi: 150
+notes: オープンキャンパスA4両面チラシ（全2ページ）。2028年度日程・学費は未定として明示し、学費は2027年度参考実績を表示。クリスタル素材は背景透かしに限定。

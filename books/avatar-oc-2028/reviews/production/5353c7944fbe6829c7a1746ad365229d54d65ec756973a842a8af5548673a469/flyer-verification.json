@@ -1,0 +1,15 @@
+{
+  "result": "FLYER_2P_PREVIEW_VERIFIED",
+  "pdf_sha256": "5353c7944fbe6829c7a1746ad365229d54d65ec756973a842a8af5548673a469",
+  "review_sha256": "2d572b0dd0296e3657c863e9b0658d72796300fbfffda5eb28ab66affcf50b72",
+  "page_count": 2,
+  "distinct_roles": true,
+  "editor_session": "d4d88b34-8741-4b83-a47d-0ded8f34e84d",
+  "reviewer_session": "a88c63a1-5197-4eb0-bad9-26872857f526",
+  "chief_session": "ffd51246-8b06-4ff7-b045-147ab1ef03f5",
+  "all_pages_and_spreads_seen": true,
+  "major_findings": 0,
+  "minor_findings": 1,
+  "chief_decision": "submit",
+  "scope": "A4両面チラシ（2p）preview。4ページ以上冊子用dtp-quality-gate.pyおよびpoppler未導入のWindows環境制約を記録し、PDF/review/decisionのSHA整合と3役独立審査を確認。"
+}
