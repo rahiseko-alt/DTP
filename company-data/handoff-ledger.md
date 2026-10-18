@@ -1,5 +1,23 @@
 # 引継ぎ台帳
 
+## 現在の引継ぎ：2026-10-18 DTP不足箇所の事実調査＋Step 1〜5 mainマージ完了＋「根本解決」計画書（Phase R1〜R4）
+
+- **最優先の再開入口**: **[DTP根本解決計画書（Phase R1〜R4）](../docs/audits/file-identity-20261018/resolution-plan.md)**、[段階的実装計画書（Step 1〜5 完了済）](../docs/audits/file-identity-20261018/implementation-plan-steps.md)、[不足箇所一覧](../docs/audits/file-identity-20261018/不足箇所一覧.md)、[調査引継ぎREADME](../docs/audits/file-identity-20261018/README.md)。
+- 人間の「まず現状をマージしろ」「ゴールは解決する事であって対策を完了する事ではない」指示に従い、`codex/audit-handoff-20261018`（Step 1〜Step 5のバグ修正・監査補完および根本解決計画書）を `main` へマージ・push済み。
+- **完了した対策（Step 1〜Step 5：CLI・再構築スクリプト・4台帳文書のバグ修正）**:
+  - **Step 1（`A08` 解消、commit `f61e9c6`）**: `read-ledger.py`, `rebuild.py`, `render.mjs`, `sync-dtp-agent-configs.py`, `dtp-quality-gate.py`, `sync-context.py` のWindows UTF-8・POSIX相対パス正規化・`fcntl` フォールバック対応。
+  - **Step 2（`A01`, `A02`, `A04`, `A05`, `A10`, `B32` 解消、commit `7c2a11a`）**: `asset:get` セレクタ検証、破損PNGヘッダの `MEDIA_MISMATCH` 拒否、`photoMap`/rightsの `UNVERIFIED_RIGHTS` 拒否、`checkAssets` での出力 `STALE_OUTPUT` 鮮度検査、`pdftoppmVersion` 安全化、`recoverRegistration` 空フォルダ回収。
+  - **Step 3（`B28` 解消、commit `67a541c`＋`5f95c2f`）**: `photo:search` の `--limit` 先行切り詰め、欠損ファイルの `missing_files` 記録とCLI警告、`tags.yaml` の日本語 `label` 検索対応。
+  - **Step 4（`A06`, `A07` 解消、commit `e5436d6`）**: `flyer.template.html` の `@@copy:back.flow.3.body@@` 修正、`rebuild.py` の動的曜日バッジ対応、`catalog.yaml` の `preview-layout-check` の `role: support` 化。
+  - **Step 5（`C01`, `C07` 解消、commit `0b0cc76`＋`5f95c2f`）**: `README.md:21`・`sync-context.py`・`sync_context_test.py`・`system/prompts/README.md` の4台帳整合化、`system/assets/README.md` の `--id editable-copy` 修正、`AGENTS.md` §5 への `asset:*` 10コマンド追記。
+- **未解決の根本問題と次作業（`docs/audits/file-identity-20261018/resolution-plan.md` に従って進めること）**:
+  1. **Phase R1（Goal 1：写真が正しく引けるようにする / `A03, B02〜B04`）**: `company-data/photos/photos.yaml` の人数誤記3件訂正、`lesson`（授業）・`food`（食事4件）・`group`（複数人）・`student`（学生）タグ付与、`legacy-baseline.json` 更新、実検索での検証。
+  2. **Phase R2（Goal 3：通常制作・写真追加が `LEGACY_CHANGED` で止まらないようにする / `B01, B30`）**: 正規手順での `legacy-baseline.json` 更新コマンド（`asset:baseline-sync`）と標準BOOKでの写真権利チェックの実装。
+  3. **Phase R3（Goal 2：1資料パイロットから主要BOOK全体への展開 / `B05, B20`）**: `avatar-oc-2028`, `prospectus-hal-2028`, `prospectus-isen-trial-2028`, `admissions-guide-2027` の `asset:resolve` / `search` / `get` 対応。
+  4. **Phase R4（Goal 4：確定台帳 `ledger.md` と `company-data/facts/` の完全同期 / `B09, D01, A09`）**: 学校・コース正本YAMLの更新と `build_full_booklet_pdf.mjs` の相対パス化。
+- チラシID `oc-approved-20261017`。別の医専パンフレットを代用しない。原本・学校確定台帳（`company-data/ledger.md`）・写真は未変更。
+
+
 ## 2026-10-17 作業整理と成果物の保管（完了）
 
 - DTP制作時のサブ自動起動を止め、親が制作・点検を担当する運用を既定に変更。人間が明示した場合のみサブを使用する。

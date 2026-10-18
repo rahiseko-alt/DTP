@@ -1,0 +1,23 @@
+
+> publishing-studio@0.1.0 asset:check
+> tsx system/scripts/assets.ts check --metadata-only
+
+{
+  "documents": [
+    "oc-approved-20261017"
+  ],
+  "errors": [
+    "LEGACY_NEW: books/audit-book/references.yaml",
+    "LEGACY_NEW: books/audit-book/backgrounds/README.md",
+    "LEGACY_NEW: books/audit-book/components/README.md",
+    "LEGACY_NEW: books/audit-book/config/book.yaml",
+    "LEGACY_NEW: books/audit-book/reviews/README.md",
+    "LEGACY_NEW: books/audit-book/pages/page_001/page.css",
+    "LEGACY_NEW: books/audit-book/pages/page_001/page.html",
+    "LEGACY_NEW: books/audit-book/pages/page_001/page.yaml",
+    "LEGACY_NEW: references/audit-school/brochure/page_001.png",
+    "LEGACY_NEW: references/audit-school/brochure/source.yaml",
+    "LEGACY_NEW: references/audit-school/brochure/analysis/book.yaml",
+    "LEGACY_CHANGED: company-data/photos/photos.yaml"
+  ]
+}

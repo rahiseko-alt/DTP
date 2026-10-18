@@ -1,0 +1,30 @@
+
+> publishing-studio@0.1.0 doctor
+> tsx system/scripts/doctor.ts
+
+publishing-studio 環境診断（root: /workspace/DTP-asset-identity）
+
+状態  項目                           詳細
+----  -----------------------------  --------------------
+OK    Node.js                        v24.19.0（必要: 22 以上）
+OK    playwright パッケージ          1.56.1（package.json: 1.56.1）
+OK    @fontsource フォント           noto-sans-jp 5.3.0（400/500/700/900）, noto-serif-jp 5.3.0（400/700）
+WARN  Chromium 起動 (Playwright)     Chromium 154.0.8037.57（STUDIO_CHROMIUM_PATH=/usr/bin/chromium。Playwright 指定版ではありません）
+OK    日本語描画: Noto Sans JP       fonts.check=true, 読込 9 面, 描画: Noto Sans JP（@fontsource）
+OK    日本語描画: Noto Serif JP      fonts.check=true, 読込 9 面, 描画: Noto Serif JP（@fontsource）
+OK    システム日本語フォント         15 ファミリー（Noto Sans CJK HK, Noto Sans CJK JP, Noto Sans CJK KR など）
+OK    sharp（画像処理）              sharp 0.35.5 / libvips 8.18.7
+OK    git-lfs                        git-lfs/3.6.1 (GitHub; linux amd64; go 1.24.4)
+WARN  LFS 実体                       655 件中 628 件がポインタのまま
+OK    poppler（pdfinfo / pdftoppm）  pdftoppm version 26.05.0
+
+対処:
+  - Chromium 起動 (Playwright): 出力の字形・行送りが指定版とわずかに違うことがあります。render --release は指定版でだけ出力できます（STUDIO_CHROMIUM_PATH を外して npx playwright install chromium）
+  - LFS 実体: git lfs pull を実行してください
+
+doctor: OK 9 / WARN 2 / NG 0 — 制作環境は利用可能です
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

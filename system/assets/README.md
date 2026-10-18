@@ -23,10 +23,12 @@ npm run asset:check
 最後の抽出画像検索は現在NO_MATCHで停止する。現在9点の実写真は差し替え写真であり、原本から抽出した写真ではない。原本ページや他資料で代用しない。検索結果の役割・版・availabilityをそのまま報告する。未確認、欠損、LFS未取得、古い出力を成功扱いしない。
 
 ```bash
-npm run asset:register -- --document oc-approved-20261017 --id new-copy --variant real-photo-rebuild --role copy --media text --source /absolute/input.json --sha256 <入力のSHA256> --confirmation verified --dry-run
+npm run asset:register -- --document oc-approved-20261017 --id editable-copy --variant real-photo-rebuild --role copy --media text --source /absolute/input.json --sha256 <入力のSHA256> --confirmation verified --dry-run
 npm run asset:photo -- --document oc-approved-20261017 --id new-slot --variant real-photo-rebuild --photo <既存写真ID> --sha256 <実体SHA256>
 npm run asset:extract -- --document oc-approved-20261017 --id crop-01 --parent approved-original --page 1 --dpi 144 --rect '[0,0,200,200]'
 ```
+
+※ `oc-approved-20261017` の再構築入力を更新する場合は、既存の入力ID（本文は `editable-copy`、CSSは `layout-layout`、テンプレートは `layout-flyer-template`、写真9枠は `front-hero` 等）を指定して新リビジョンを登録します（`rebuild.py` が依存する19入力の構成）。
 
 `--dry-run`なしで確定する。保存先は役割・ID・内容SHAから決定され、任意の出力パスは指定できない。抽出はPopplerの版・ページ・切出し矩形を保存し、再現照合する。写真の新規登録は`photo:add`、その資料での使用登録は`asset:photo`。新規資料や未移行写真を無条件に管理済みにする操作はない。今回以外への展開は別の登録・審査が必要。
 

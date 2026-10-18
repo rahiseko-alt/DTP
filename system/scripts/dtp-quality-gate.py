@@ -92,9 +92,9 @@ def main():
             raise ValueError('通常ファイルのPDF・レビュー・判断が必要')
         if not a.pdf.read_bytes().startswith(b'%PDF-'):
             raise ValueError('PDFではありません')
-        info = subprocess.run(['pdfinfo', str(a.pdf.resolve())], capture_output=True, text=True, check=True, timeout=30).stdout
+        info = subprocess.run(['pdfinfo', str(a.pdf.resolve())], capture_output=True, text=True, encoding='utf-8', check=True, timeout=30).stdout
         count = next(int(line.split(':', 1)[1].strip()) for line in info.splitlines() if line.startswith('Pages:'))
-        digest = validate(a.pdf, json.loads(a.review.read_text()), json.loads(a.decision.read_text()), sha(a.review), count, a.mode)
+        digest = validate(a.pdf, json.loads(a.review.read_text(encoding='utf-8')), json.loads(a.decision.read_text(encoding='utf-8')), sha(a.review), count, a.mode)
         print(f'SUBMIT_READY mode={a.mode} pages={count} pdf_sha256={digest}')
         return 0
     except (ValueError, OSError, StopIteration, subprocess.SubprocessError) as e:

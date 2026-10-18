@@ -306,7 +306,11 @@ describe("identity and fail-closed retrieval", () => {
       path.join(root, b + "/text"),
       path.join(root, b + "/text-old"),
     );
-    fs.symlinkSync("text-old", path.join(root, b + "/text"));
+    fs.symlinkSync(
+      path.join(root, b + "/text-old"),
+      path.join(root, b + "/text"),
+      process.platform === "win32" ? "junction" : "dir",
+    );
     await expect(getAsset(root, id, "copy")).rejects.toMatchObject({
       code: "SYMLINK",
     });
@@ -581,6 +585,20 @@ describe("review regressions", () => {
     );
     d.original_sha256 = a.sha256;
     write(b + "/config/document.yaml", d);
+    const hasPdftoppm = !spawnSync("pdftoppm", ["-v"]).error;
+    if (!hasPdftoppm) {
+      await expect(
+        extractAsset(root, {
+          document: id,
+          id: "crop",
+          parent: "original",
+          page: 1,
+          dpi: 72,
+          rect: [0, 0, 20, 20],
+        }),
+      ).rejects.toMatchObject({ code: "EXTRACTION_ENGINE" });
+      return;
+    }
     await extractAsset(root, {
       document: id,
       id: "crop",
@@ -608,7 +626,11 @@ describe("review regressions", () => {
 
 it("rejects legacy directory symlink bypass", async () => {
   fs.mkdirSync(path.join(root, "shared"), { recursive: true });
-  fs.symlinkSync(os.tmpdir(), path.join(root, "shared/leak"));
+  fs.symlinkSync(
+    os.tmpdir(),
+    path.join(root, "shared/leak"),
+    process.platform === "win32" ? "junction" : "dir",
+  );
   expect((await checkAssets(root)).errors.join()).toContain("SYMLINK");
 });
 
@@ -625,4 +647,81 @@ it("rejects images classified as editable copy even with matching media", async 
       confirmation: "verified",
     }),
   ).rejects.toThrow("role/media mismatch");
+});
+
+describe("Step 2 gap fixes (A01, A02, A04, A05, B32)", () => {
+  it("A01: getAsset rejects mismatched role, variant, or media selector", async () => {
+    await expect(
+      getAsset(root, id, "copy", { role: "layout" }),
+    ).rejects.toMatchObject({ code: "SELECTOR" });
+    await expect(
+      getAsset(root, id, "copy", { variant: "original" }),
+    ).rejects.toMatchObject({ code: "SELECTOR" });
+    await expect(
+      getAsset(root, id, "copy", { media: "image" }),
+    ).rejects.toMatchObject({ code: "SELECTOR" });
+  });
+
+  it("A02: rejects truncated/corrupt PNG with valid 8-byte header", async () => {
+    const corruptPng = Buffer.from([
+      137, 80, 78, 71, 13, 10, 26, 10, 0, 0, 0, 4,
+    ]);
+    const file = path.join(root, "corrupt.png");
+    fs.writeFileSync(file, corruptPng);
+    await expect(
+      registerAsset(root, {
+        document: id,
+        id: "corrupt-img",
+        variant: "rebuild",
+        role: "support",
+        source: file,
+        sha256: digest(corruptPng),
+        media: "image",
+        confirmation: "verified",
+      }),
+    ).rejects.toMatchObject({ code: "MEDIA_MISMATCH" });
+  });
+
+  it("A04: registerPhotoUsage rejects photos with unverified/TODO rights", async () => {
+    write("company-data/photos/photos.yaml", {
+      photos: [
+        {
+          id: "p",
+          file: "company-data/photos/p.jpg",
+          tags: ["classroom"],
+          rights: "学校提供写真（広報利用【要確認】）",
+        },
+      ],
+    });
+    await expect(
+      registerPhotoUsage(root, {
+        document: id,
+        id: "unverified-slot",
+        variant: "rebuild",
+        photo: "p",
+        sha256: digest(png),
+      }),
+    ).rejects.toMatchObject({ code: "UNVERIFIED_RIGHTS" });
+  });
+
+  it("A05: checkAssets reports STALE_OUTPUT when current output dependency changes", async () => {
+    const c = catalog(),
+      old = c.assets.find((a: Asset) => a.id === "copy");
+    const next = {
+      ...old,
+      id: "copy",
+      revision: "a".repeat(64),
+      sha256: "a".repeat(64),
+    };
+    write(b + "/text/copy-v2.json", "v2");
+    next.file = b + "/text/copy-v2.json";
+    next.revision = next.sha256 = digest("v2");
+    next.size = 2;
+    c.assets.push(next);
+    c.current.copy = next.revision;
+    save(c);
+    expect((await checkAssets(root)).errors.join("\n")).toContain(
+      "STALE_OUTPUT",
+    );
+  });
 });

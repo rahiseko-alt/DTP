@@ -21,6 +21,10 @@ export function loadPhotoTagRegistry(root: string): PhotoTagRegistry {
       if (!key || aliases.has(key)) throw new Error(`写真タグ別名が重複しています: ${alias}`);
       aliases.set(key, tag.id);
     }
+    const labelKey = tag.label.trim().toLocaleLowerCase();
+    if (labelKey && !aliases.has(labelKey)) {
+      aliases.set(labelKey, tag.id);
+    }
   }
   return { canonical, aliases };
 }

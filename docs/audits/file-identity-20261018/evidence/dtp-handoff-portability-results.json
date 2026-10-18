@@ -1,0 +1,38 @@
+[
+  {
+    "label": "baseline-same-path",
+    "exit": 0,
+    "stdout": "9627619fbcb1e0627efe80\"\n      },\n      {\n        \"id\": \"support-parts-icons-laptop-svg\",\n        \"revision\": \"025c692f76a824add5198ba1c3f060bbbc105894567e09667d6dc567798d23fd\"\n      },\n      {\n        \"id\": \"support-parts-icons-people-svg\",\n        \"revision\": \"151864363772e231484a633b3c7ce205777e006cc937eba926e34cd14cfdca58\"\n      },\n      {\n        \"id\": \"support-parts-icons-school-svg\",\n        \"revision\": \"ee9d9dca31dca9649d7f7ccf1d6be95a6cfb59241c807fe05a25ad314ded1dc4\"\n      }\n    ]\n  }\n}\n",
+    "stderr": ""
+  },
+  {
+    "label": "copied-output-new-path",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "{\"error\":\"Source file is not an output of this render receipt\",\"code\":\"RENDER_RECEIPT\"}\n"
+  },
+  {
+    "label": "cache-html-missing",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "{\"error\":\"ENOENT: no such file or directory, open '/tmp/dtp-handoff-smoke/.cache/asset-rebuild/flyer.html'\",\"code\":\"ENOENT\"}\n"
+  },
+  {
+    "label": "other-checkout-same-output",
+    "exit": 0,
+    "stdout": "9627619fbcb1e0627efe80\"\n      },\n      {\n        \"id\": \"support-parts-icons-laptop-svg\",\n        \"revision\": \"025c692f76a824add5198ba1c3f060bbbc105894567e09667d6dc567798d23fd\"\n      },\n      {\n        \"id\": \"support-parts-icons-people-svg\",\n        \"revision\": \"151864363772e231484a633b3c7ce205777e006cc937eba926e34cd14cfdca58\"\n      },\n      {\n        \"id\": \"support-parts-icons-school-svg\",\n        \"revision\": \"ee9d9dca31dca9649d7f7ccf1d6be95a6cfb59241c807fe05a25ad314ded1dc4\"\n      }\n    ]\n  }\n}\n",
+    "stderr": ""
+  },
+  {
+    "label": "other-checkout-moved-output",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "{\"error\":\"Source file is not an output of this render receipt\",\"code\":\"RENDER_RECEIPT\"}\n"
+  },
+  {
+    "label": "retained-output-receipt-without-html-cache",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "{\"error\":\"ENOENT: no such file or directory, open '/tmp/dtp-handoff-other-checkout/.cache/asset-rebuild/flyer.html'\",\"code\":\"ENOENT\"}\n"
+  }
+]

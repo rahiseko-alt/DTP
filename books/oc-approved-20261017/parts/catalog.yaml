@@ -37,11 +37,11 @@
     "support-parts-official-site-qr-png": "d80b0b015c12c941671a66ee19d6b1226b1a7e58de944466c3e1c3b217e0a33a",
     "support-parts-official-site-qr-svg": "232ce9735d208c547ebb612807e225c0402ecd85567efb624e15719d2e82d662",
     "support-parts-photos-map-json": "d8db48499235878d5a1ebf86cc4080eaf1e3cb4f7a975c9721219452161dfd57",
-    "support-rebuild-py": "b39e5ac965f99a76de6cf0e82e413d5337b3166c67bd35791df7c2d6c5fcaa63",
-    "support-render-mjs": "bb6972fea83e03a952d7247dba5178879e48064c0496ba4ddcf5d81955020aac",
+    "support-rebuild-py": "74b216f44d147d55230aa8293d667c1bcb71986e04a81dd3bf351a58ec28f22b",
+    "support-render-mjs": "b1dfe24936957baf3a04b3b90104065bd7c2766343cc2a0875d9d70fc863292d",
     "support-source-bind-copy-py": "0319503dc84bf999c4d88d937498f64957066daeab4fd2682fff9768e702f587",
     "layout-flyer": "03fdb46520b1bc6498718a92a23f4811c8b462478ab730c584dfa046e080d545",
-    "layout-flyer-template": "429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183",
+    "layout-flyer-template": "166194b5f1b94d5221934db6d59a7915cd399d1d9747e775da07530545b6c153",
     "preview-layout-check": "072af5b6b4ee2bad7d77ad51f1ad7c89d78dbfa788d65827aea1e909d52fdf15",
     "layout-layout": "a7a99e5a2293f27a45cfe0752a43662aabc837dc1492503e25ba492c8030088c",
     "editable-copy": "5468d86e914d18b851543148820f703430db91269707c576ee5783465f514bcf",
@@ -432,7 +432,7 @@
         },
         {
           "id": "layout-flyer-template",
-          "revision": "429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183"
+          "revision": "166194b5f1b94d5221934db6d59a7915cd399d1d9747e775da07530545b6c153"
         },
         {
           "id": "layout-layout",
@@ -528,7 +528,7 @@
         },
         {
           "id": "layout-flyer-template",
-          "revision": "429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183"
+          "revision": "166194b5f1b94d5221934db6d59a7915cd399d1d9747e775da07530545b6c153"
         },
         {
           "id": "layout-layout",
@@ -624,7 +624,7 @@
         },
         {
           "id": "layout-flyer-template",
-          "revision": "429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183"
+          "revision": "166194b5f1b94d5221934db6d59a7915cd399d1d9747e775da07530545b6c153"
         },
         {
           "id": "layout-layout",
@@ -755,10 +755,10 @@
       "variant": "real-photo-rebuild",
       "role": "support",
       "media": "text",
-      "revision": "b39e5ac965f99a76de6cf0e82e413d5337b3166c67bd35791df7c2d6c5fcaa63",
+      "revision": "74b216f44d147d55230aa8293d667c1bcb71986e04a81dd3bf351a58ec28f22b",
       "file": "books/oc-approved-20261017/rebuild.py",
-      "sha256": "b39e5ac965f99a76de6cf0e82e413d5337b3166c67bd35791df7c2d6c5fcaa63",
-      "size": 3423,
+      "sha256": "74b216f44d147d55230aa8293d667c1bcb71986e04a81dd3bf351a58ec28f22b",
+      "size": 3957,
       "confirmation": "verified",
       "relation": "authored"
     },
@@ -767,10 +767,10 @@
       "variant": "real-photo-rebuild",
       "role": "support",
       "media": "text",
-      "revision": "bb6972fea83e03a952d7247dba5178879e48064c0496ba4ddcf5d81955020aac",
+      "revision": "b1dfe24936957baf3a04b3b90104065bd7c2766343cc2a0875d9d70fc863292d",
       "file": "books/oc-approved-20261017/render.mjs",
-      "sha256": "bb6972fea83e03a952d7247dba5178879e48064c0496ba4ddcf5d81955020aac",
-      "size": 6296,
+      "sha256": "b1dfe24936957baf3a04b3b90104065bd7c2766343cc2a0875d9d70fc863292d",
+      "size": 6340,
       "confirmation": "verified",
       "relation": "authored"
     },
@@ -803,108 +803,24 @@
       "variant": "real-photo-rebuild",
       "role": "layout",
       "media": "text",
-      "revision": "429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183",
+      "revision": "166194b5f1b94d5221934db6d59a7915cd399d1d9747e775da07530545b6c153",
       "file": "books/oc-approved-20261017/source/flyer.template.html",
-      "sha256": "429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183",
-      "size": 4174,
+      "sha256": "166194b5f1b94d5221934db6d59a7915cd399d1d9747e775da07530545b6c153",
+      "size": 4169,
       "confirmation": "verified",
       "relation": "authored"
     },
     {
       "id": "preview-layout-check",
       "variant": "real-photo-rebuild",
-      "role": "preview",
+      "role": "support",
       "media": "image",
       "revision": "072af5b6b4ee2bad7d77ad51f1ad7c89d78dbfa788d65827aea1e909d52fdf15",
       "file": "books/oc-approved-20261017/source/layout-check.png",
       "sha256": "072af5b6b4ee2bad7d77ad51f1ad7c89d78dbfa788d65827aea1e909d52fdf15",
       "size": 1368964,
       "confirmation": "verified",
-      "relation": "authored",
-      "built_from": [
-        {
-          "id": "front-hero",
-          "revision": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb"
-        },
-        {
-          "id": "front-class",
-          "revision": "abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793"
-        },
-        {
-          "id": "front-exchange",
-          "revision": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633"
-        },
-        {
-          "id": "front-people",
-          "revision": "b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7"
-        },
-        {
-          "id": "back-course-ai",
-          "revision": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696"
-        },
-        {
-          "id": "back-course-business",
-          "revision": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba"
-        },
-        {
-          "id": "back-class",
-          "revision": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6"
-        },
-        {
-          "id": "back-exchange",
-          "revision": "2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b"
-        },
-        {
-          "id": "back-event",
-          "revision": "c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165"
-        },
-        {
-          "id": "support-parts-brand-logo-horizontal-png",
-          "revision": "700bb302dde389f7deb314a6a3fd6bb44b2ab15dfa78d9248b3663ab1e32dbd3"
-        },
-        {
-          "id": "support-parts-icons-consult-svg",
-          "revision": "2a3a5d02403619e336fe2f9759a82194c191dd35dd9627619fbcb1e0627efe80"
-        },
-        {
-          "id": "support-parts-icons-laptop-svg",
-          "revision": "025c692f76a824add5198ba1c3f060bbbc105894567e09667d6dc567798d23fd"
-        },
-        {
-          "id": "support-parts-icons-people-svg",
-          "revision": "151864363772e231484a633b3c7ce205777e006cc937eba926e34cd14cfdca58"
-        },
-        {
-          "id": "support-parts-icons-school-svg",
-          "revision": "ee9d9dca31dca9649d7f7ccf1d6be95a6cfb59241c807fe05a25ad314ded1dc4"
-        },
-        {
-          "id": "support-parts-official-site-qr-png",
-          "revision": "d80b0b015c12c941671a66ee19d6b1226b1a7e58de944466c3e1c3b217e0a33a"
-        },
-        {
-          "id": "support-parts-photos-map-json",
-          "revision": "d8db48499235878d5a1ebf86cc4080eaf1e3cb4f7a975c9721219452161dfd57"
-        },
-        {
-          "id": "layout-flyer-template",
-          "revision": "429555e46857d8c506c359a053e34e01fcfa7042a374224dbb7faf46ac629183"
-        },
-        {
-          "id": "layout-layout",
-          "revision": "a7a99e5a2293f27a45cfe0752a43662aabc837dc1492503e25ba492c8030088c"
-        },
-        {
-          "id": "editable-copy",
-          "revision": "5468d86e914d18b851543148820f703430db91269707c576ee5783465f514bcf"
-        }
-      ],
-      "external_inputs": [
-        {
-          "path": "company-data/facts/school.yaml",
-          "sha256": "341824979ce3eef4169fb1269649d54e31dbe16181c94393fa4dc3497bde7f3e"
-        }
-      ]
+      "relation": "authored"
     },
     {
       "id": "layout-layout",

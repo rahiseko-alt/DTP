@@ -88,6 +88,16 @@ S・開始・再開時は `python3 system/scripts/read-ledger.py` で確定台�
 | `npm run typecheck` | TypeScript の型チェック |
 | `npm run test` | テスト（vitest） |
 | `npm run check` | `typecheck` → `validate` → `test` |
+| `npm run asset:resolve -- --name "<資料俗称>"` | 資料名・別名から確定資料IDを同定 |
+| `npm run asset:search -- --document <id> [--variant <v>] [--role <r>]` | 管理済みパーツ・出力を検索・一覧 |
+| `npm run asset:get -- --document <id> --id <assetId> [--role <r>]` | 特定パーツの実体ファイルパスを取得 |
+| `npm run asset:register -- --document <id> --id <assetId> --source <file> ...` | 素材・成果物をカタログに新版登録 |
+| `npm run asset:photo -- --document <id> --id <slot> --photo <photoId>` | 正本写真の使用を資料パーツとして登録 |
+| `npm run asset:extract -- --document <id> --id <cropId> --parent <id> --page N ...` | 原本PDFから部品画像を再現切り出し |
+| `npm run asset:build-inputs -- --document <id>` | 再構築に必要な固定入力一覧とスナップショットを取得 |
+| `npm run asset:build-check -- --snapshot <file>` | 再構築出力の入力整合性と鮮度を検証 |
+| `npm run asset:recover -- --catalog-sha256 <sha>` | 中断・クラッシュした登録トランザクションの安全回復 |
+| `npm run asset:check` | 全管理済み資料のメタデータ・実体・鮮度・ベースライン検査 |
 
 よく使う例:
 

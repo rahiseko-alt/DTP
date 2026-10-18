@@ -317,12 +317,14 @@ export function documents(root: string): Doc[] {
     }
   return docs;
 }
-function photoMap(root: string): Map<string, { file: string }> {
+function photoMap(
+  root: string,
+): Map<string, { file: string; rights?: string }> {
   const p = safePath(root, "company-data/photos/photos.yaml");
   const list = fs.existsSync(p)
     ? parse(root, "company-data/photos/photos.yaml").photos
     : [];
-  const map = new Map<string, { file: string }>();
+  const map = new Map<string, { file: string; rights?: string }>();
   for (const photo of list) {
     if (map.has(photo.id)) fail("DUPLICATE_PHOTO", photo.id);
     map.set(photo.id, photo);
@@ -368,9 +370,9 @@ function verifyMedia(bytes: Buffer, media: string, rel: string) {
     bytes
       .subarray(0, 8)
       .equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10])) ||
-    (bytes[0] === 255 && bytes[1] === 216) ||
-    header.includes("<svg") ||
-    (header.startsWith("RIFF") && header.slice(8, 12) === "WEBP");
+      (bytes[0] === 255 && bytes[1] === 216) ||
+      header.includes("<svg") ||
+      (header.startsWith("RIFF") && header.slice(8, 12) === "WEBP");
   if (
     (media === "pdf" && !header.startsWith("%PDF-")) ||
     (media === "image" && !isImage) ||
@@ -378,6 +380,18 @@ function verifyMedia(bytes: Buffer, media: string, rel: string) {
       (isImage || header.startsWith("%PDF-") || bytes.includes(0)))
   )
     fail("MEDIA_MISMATCH", rel);
+}
+async function verifyImageDecode(bytes: Buffer, media: string, rel: string) {
+  if (media !== "image") return;
+  const header = bytes.toString("utf8", 0, 256);
+  if (header.includes("<svg")) return;
+  try {
+    const meta = await sharp(bytes).metadata();
+    if (!meta.width || !meta.height) fail("MEDIA_MISMATCH", rel);
+  } catch (e) {
+    if (e instanceof AssetError) throw e;
+    fail("MEDIA_MISMATCH", rel);
+  }
 }
 export function availability(root: string, a: Asset, metadataOnly = false) {
   const rel = assetPath(root, a),
@@ -576,8 +590,20 @@ export async function getAsset(
   root: string,
   document: string,
   id: string,
-  revision?: string,
+  revisionOrOpts?:
+    | string
+    | {
+        revision?: string;
+        variant?: string;
+        role?: Role;
+        media?: "image" | "pdf" | "text";
+      },
 ) {
+  const opts =
+    typeof revisionOrOpts === "string"
+      ? { revision: revisionOrOpts }
+      : (revisionOrOpts ?? {});
+  const revision = opts.revision;
   const before = fingerprint(root),
     doc = resolveDocument(root, document),
     list = (revision ? doc.catalogData.assets : currentAssets(doc)).filter(
@@ -586,8 +612,18 @@ export async function getAsset(
   if (list.length !== 1)
     fail(list.length ? "AMBIGUOUS_REVISION" : "NO_MATCH", id);
   const a = list[0]!;
+  if (
+    (opts.variant && a.variant !== opts.variant) ||
+    (opts.role && a.role !== opts.role) ||
+    (opts.media && a.media !== opts.media)
+  )
+    fail("SELECTOR", `${id}: selector mismatch`);
   assertFresh(root, doc, a);
-  availability(root, a);
+  const state = availability(root, a);
+  if (state === "available" && a.media === "image") {
+    const rel = assetPath(root, a);
+    await verifyImageDecode(fs.readFileSync(safePath(root, rel)), a.media, rel);
+  }
   await verifyExtraction(root, doc, a);
   stable(root, before);
   return {
@@ -597,14 +633,19 @@ export async function getAsset(
     path: assetPath(root, a),
   };
 }
+function pdftoppmVersion(): string {
+  const proc = spawnSync("pdftoppm", ["-v"], { encoding: "utf8" });
+  const line = (proc.stderr ?? "").split("\n")[0]?.trim();
+  if (proc.error || !line)
+    fail("EXTRACTION_ENGINE", "pdftoppm is not available");
+  return line;
+}
 async function extractedBytes(
   root: string,
   parent: Asset,
   recipe: z.infer<typeof Recipe>,
 ) {
-  const version = spawnSync("pdftoppm", ["-v"], { encoding: "utf8" })
-    .stderr.split("\n")[0]
-    ?.trim();
+  const version = pdftoppmVersion();
   if (version !== recipe.version)
     fail("EXTRACTION_ENGINE", "Poppler version differs from extraction recipe");
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), "dtp-extract-"));
@@ -651,7 +692,16 @@ export async function checkAssets(
         const rel = assetPath(root, a);
         permitted(doc, a, rel);
         registered.add(rel);
-        availability(root, a, opts.metadataOnly);
+        const state = availability(root, a, opts.metadataOnly);
+        if (state === "available" && !opts.metadataOnly && a.media === "image") {
+          await verifyImageDecode(fs.readFileSync(safePath(root, rel)), a.media, rel);
+        }
+        if (
+          doc.catalogData.current[a.id] === a.revision &&
+          ["preview", "reconstructed-preview"].includes(a.role)
+        ) {
+          assertFresh(root, doc, a);
+        }
         if (a.parent) {
           const p = doc.catalogData.assets.find(
             (x) => x.id === a.parent!.id && x.revision === a.parent!.revision,
@@ -925,7 +975,10 @@ async function publishAsset(
   dryRun = false,
 ) {
   const old = doc.catalogData.assets;
-  if (bytes) verifyMedia(bytes, a.media, a.file!);
+  if (bytes) {
+    verifyMedia(bytes, a.media, a.file!);
+    await verifyImageDecode(bytes, a.media, a.file!);
+  }
   for (const dep of a.built_from) {
     const source = old.find(
       (x) => x.id === dep.id && x.revision === dep.revision,
@@ -1012,6 +1065,8 @@ export async function registerPhotoUsage(
   const doc = resolveDocument(root, opts.document),
     photo = photoMap(root).get(opts.photo);
   if (!photo) fail("PHOTO_REFERENCE", opts.photo);
+  if (photo.rights && /TODO|要確認|未確認/i.test(photo.rights))
+    fail("UNVERIFIED_RIGHTS", opts.photo);
   const bytes = fs.readFileSync(safePath(root, photo.file));
   if (digest(bytes) !== opts.sha256) fail("HASH_MISMATCH", opts.photo);
   const a = AssetSchema.parse({
@@ -1048,9 +1103,7 @@ export async function extractAsset(
   if (parents.length !== 1) fail("PARENT", "Explicit original required");
   const parent = parents[0]!;
   availability(root, parent);
-  const version = spawnSync("pdftoppm", ["-v"], { encoding: "utf8" })
-    .stderr.split("\n")[0]!
-    .trim();
+  const version = pdftoppmVersion();
   const recipe = Recipe.parse({
     page: opts.page,
     dpi: opts.dpi,
@@ -1111,7 +1164,10 @@ export function recoverRegistration(root: string, expectedCatalogHash: string) {
       if (digest(fs.readFileSync(target)) !== a.sha256)
         fail("RECOVERY_HASH", a.file);
       fs.unlinkSync(target);
-      fs.rmdirSync(path.dirname(target));
+    }
+    const dir = path.dirname(target);
+    if (fs.existsSync(dir) && fs.readdirSync(dir).length === 0) {
+      fs.rmdirSync(dir);
     }
   }
   fs.rmSync(lock, { recursive: true, force: true });

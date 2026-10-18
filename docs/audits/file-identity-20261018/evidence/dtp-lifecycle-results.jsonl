@@ -1,0 +1,16 @@
+{"label":"baseline-check","result":[]}
+{"label":"同意撤回：全媒体で使用禁止-check","result":["LEGACY_CHANGED: company-data/photos/photos.yaml"]}
+{"label":"同意撤回：全媒体で使用禁止-get-replacement","result":"company-data/photos/p.jpg"}
+{"label":"同意撤回：全媒体で使用禁止-get-preview","result":"books/flyer/output/preview.png"}
+{"label":"同意撤回：全媒体で使用禁止-get-preview-two","result":"books/flyer/output/preview-two.png"}
+{"label":"用途変更：校内掲示のみ、募集広告は禁止-check","result":["LEGACY_CHANGED: company-data/photos/photos.yaml"]}
+{"label":"用途変更：校内掲示のみ、募集広告は禁止-get-replacement","result":"company-data/photos/p.jpg"}
+{"label":"用途変更：校内掲示のみ、募集広告は禁止-get-preview","result":"books/flyer/output/preview.png"}
+{"label":"用途変更：校内掲示のみ、募集広告は禁止-get-preview-two","result":"books/flyer/output/preview-two.png"}
+{"label":"photo-slot-update","result":{"id":"replacement","variant":"rebuild","role":"replacement-photo","media":"image","revision":"b8c29f710689b894a55899a5aeb1d4607a605de126879072abf6d63c2d987307","photo_ref":"q","sha256":"b8c29f710689b894a55899a5aeb1d4607a605de126879072abf6d63c2d987307","size":92,"relation":"uses","storage":"canonical","confirmation":"verified","external_inputs":[],"built_from":[]}}
+{"label":"updated-get-replacement","result":"company-data/photos/q.jpg"}
+{"label":"updated-get-preview","error":"STALE_OUTPUT"}
+{"label":"updated-get-preview-two","error":"STALE_OUTPUT"}
+{"label":"updated-get-old-photo-revision","result":"company-data/photos/p.jpg"}
+{"label":"updated-check","result":["LEGACY_CHANGED: company-data/photos/photos.yaml"]}
+{"fixture":"/tmp/dtp-lifecycle-JAj5U2"}

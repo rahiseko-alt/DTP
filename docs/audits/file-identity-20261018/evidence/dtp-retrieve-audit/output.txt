@@ -1,0 +1,69 @@
+baseline "copy"
+missing-parent-source-page ["available","available"]
+missing-parent-get "page-1"
+missing-policy-resolve "flyer"
+missing-policy-get "copy"
+contradictory-get-flags 0 copy
+traversal UNSAFE_PATH ../outside
+missing-selected MISSING books/flyer/text/missing.json
+unrelated-malformed-document undefined [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "title"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  },
+  {
+    "expected": "array",
+    "code": "invalid_type",
+    "path": [
+      "aliases"
+    ],
+    "message": "Invalid input: expected array, received undefined"
+  },
+  {
+    "code": "invalid_value",
+    "values": [
+      "oc-approved-html"
+    ],
+    "path": [
+      "renderer"
+    ],
+    "message": "Invalid input: expected \"oc-approved-html\""
+  },
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "catalog"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  },
+  {
+    "expected": "array",
+    "code": "invalid_type",
+    "path": [
+      "managed_roots"
+    ],
+    "message": "Invalid input: expected array, received undefined"
+  },
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "original_sha256"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  },
+  {
+    "expected": "object",
+    "code": "invalid_type",
+    "path": [
+      "evidence"
+    ],
+    "message": "Invalid input: expected object, received undefined"
+  }
+]
+FIXTURE /tmp/dtp-retrieve-fixture-ILtXev

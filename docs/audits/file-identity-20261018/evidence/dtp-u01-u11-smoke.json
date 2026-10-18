@@ -1,0 +1,69 @@
+{
+  "target_main": "4bb7c205a461b222fade10466cb4107ca61c0bfb",
+  "checked_at": "2026-10-18T09:47:27+09:00",
+  "github_ruleset_25323604": {
+    "id": 25323604,
+    "name": "DTP file identity",
+    "enforcement": "active",
+    "bypass_actors": [],
+    "current_user_can_bypass": "never",
+    "strict_required_status_checks_policy": true,
+    "required_status_checks": [
+      {
+        "context": "asset-integrity",
+        "integration_id": 15368
+      }
+    ]
+  },
+  "logoEffectivePpi": {
+    "widthPx": 1121,
+    "heightPx": 274,
+    "cssBoxMm": [
+      125,
+      25
+    ],
+    "renderedMm": [
+      102.28,
+      25
+    ],
+    "effectivePpi": 278.4
+  },
+  "photoSearchFixture": {
+    "missingSkipMatches": 1,
+    "labelQueryRes": {
+      "ok": false,
+      "message": "条件に合う写真はありません"
+    },
+    "pointerBeyondLimit1Res": {
+      "ok": false,
+      "message": "company-data/photos/pointer.jpg は Git LFS のポインタです（実体が未取得）",
+      "hint": "git lfs pull を実行してください"
+    }
+  },
+  "rebuildWindows": {
+    "defaultEncodingStatus": 1,
+    "defaultEncodingError": "UnicodeDecodeError: 'cp932' codec can't decode byte 0x85 in position 19: illegal multibyte sequence",
+    "utf8ModeStatus": 1,
+    "utf8ModeStderr": [
+      "{\"error\":\".cache\\\\asset-rebuild\\\\flyer.html.inputs.json\",\"code\":\"UNSAFE_PATH\"}"
+    ]
+  },
+  "syncContextWin": {
+    "status": 1,
+    "stderrLastLine": "ModuleNotFoundError: No module named 'fcntl'"
+  },
+  "previewLayoutCheckStale": [
+    {
+      "id": "preview-page-1",
+      "availability": "available"
+    },
+    {
+      "id": "preview-page-2",
+      "availability": "available"
+    },
+    {
+      "id": "preview-layout-check",
+      "availability": "STALE_OUTPUT"
+    }
+  ]
+}

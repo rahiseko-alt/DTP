@@ -136,7 +136,7 @@ describe('photo:add（レビュー指摘）', () => {
     }
     // --root をシンボリックリンクで渡し、画像は実体のパスで渡す
     const link = path.join(tempDir(), 'studio-link');
-    fs.symlinkSync(root, link);
+    fs.symlinkSync(root, link, process.platform === 'win32' ? 'junction' : 'dir');
     const refImg = path.join(root, 'references/Sample/brochure/photo.jpg');
     await exifJpeg(refImg);
     const viaLink = await run(photoAddCommand, ['--file', refImg, '--id', 'ref-02', '--rights', RIGHTS, '--root', link]);

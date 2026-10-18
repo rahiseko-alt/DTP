@@ -19,5 +19,5 @@ Codex・Claude Code のどちらでも使える、作業単位の指示書です
 | [agent-role-template.md](agent-role-template.md) | 専門家の役割プロンプトを設計する共通型 | 役割設計 |
 | [role-candidates/README.md](role-candidates/README.md) | 調査原文の保全、候補の選出・検証・差し替え | 役割運用 |
 
-すべての作業で `AGENTS.md` と `system/rules/00-principles.md` が前提です。
+すべての作業で `AGENTS.md` と `system/rules/00-principles.md` が前提です。作業開始時は `AGENTS.md` §2 に従い、確定台帳（`company-data/ledger.md`）と引継ぎ台帳（`company-data/handoff-ledger.md`）を確認してください。
 プロンプトを改善したら、同じコミットで関連するルールも更新してください。

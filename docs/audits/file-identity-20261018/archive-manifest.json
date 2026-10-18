@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "audited_commit": "4bb7c205a461b222fade10466cb4107ca61c0bfb",
+  "note": "Reports have relative links rewritten. Original and stored hashes differ only where reporting links were normalized. Scripts/logs preserve historical /tmp paths; do not execute scripts in primary checkout. Not every historical /tmp artifact is archived.",
+  "files": [
+    {
+      "source": "/tmp/dtp-gap-photo-semantics.md",
+      "stored": "details/dtp-gap-photo-semantics.md",
+      "sha256_original": "6e62d9e70122a2e7f539e49d41e145db2ec2bbccb08ba738008181d9b7bef366",
+      "bytes_original": 6155,
+      "sha256_stored": "6e62d9e70122a2e7f539e49d41e145db2ec2bbccb08ba738008181d9b7bef366",
+      "bytes_stored": 6155
+    },
+    {
+      "source": "/tmp/dtp-gap-handoff-recovery.md",
+      "stored": "details/dtp-gap-handoff-recovery.md",
+      "sha256_original": "4fe0abc4da6c914cf4f2789bc69757115866b9b6e2c96ed547ddfbac814f0a82",
+      "bytes_original": 7208,
+      "sha256_stored": "4fe0abc4da6c914cf4f2789bc69757115866b9b6e2c96ed547ddfbac814f0a82",
+      "bytes_stored": 7208
+    },
+    {
+      "source": "/tmp/dtp-gap-coverage.md",
+      "stored": "details/dtp-gap-coverage.md",
+      "sha256_original": "f7b4a71e46099cc85e64bbd7dcd76a36021311e2023c7868d899e42054ad7853",
+      "bytes_original": 11221,
+      "sha256_stored": "f7b4a71e46099cc85e64bbd7dcd76a36021311e2023c7868d899e42054ad7853",
+      "bytes_stored": 11221
+    },
+    {
+      "source": "/tmp/dtp-gap-visual-output.md",
+      "stored": "details/dtp-gap-visual-output.md",
+      "sha256_original": "a49283660f71ffc3dadd639dae563d5e8fb5c6849646a627a4f87966257d120c",
+      "bytes_original": 5417,
+      "sha256_stored": "a49283660f71ffc3dadd639dae563d5e8fb5c6849646a627a4f87966257d120c",
+      "bytes_stored": 5417
+    },
+    {
+      "source": "/tmp/dtp-gap-lifecycle.md",
+      "stored": "details/dtp-gap-lifecycle.md",
+      "sha256_original": "250349879f73e6b49b2fdafcb79fca61e31f14247be21e912404ada8b34e1bb0",
+      "bytes_original": 4749,
+      "sha256_stored": "250349879f73e6b49b2fdafcb79fca61e31f14247be21e912404ada8b34e1bb0",
+      "bytes_stored": 4749
+    },
+    {
+      "source": "/tmp/dtp-gap-review.md",
+      "stored": "details/dtp-gap-review.md",
+      "sha256_original": "7c42387134accad888d528969f23840d2dab9834e482851d66b70fb96e7b8814",
+      "bytes_original": 10738,
+      "sha256_stored": "7c42387134accad888d528969f23840d2dab9834e482851d66b70fb96e7b8814",
+      "bytes_stored": 10738
+    },
+    {
+      "source": "/tmp/dtp-gap-build.md",
+      "stored": "details/dtp-gap-build.md",
+      "sha256_original": "db00e8bc26e341d4776ef7259a4264b86b87734fbbb0a61bb97635511a723634",
+      "bytes_original": 7161,
+      "sha256_stored": "db00e8bc26e341d4776ef7259a4264b86b87734fbbb0a61bb97635511a723634",
+      "bytes_stored": 7161
+    },
+    {
+      "source": "/tmp/dtp-gap-operating.md",
+      "stored": "details/dtp-gap-operating.md",
+      "sha256_original": "de27d4351a239b2cbda5eeb65085ed7baa3f68a07c90d199edc3db3f7f34c04c",
+      "bytes_original": 8842,
+      "sha256_stored": "de27d4351a239b2cbda5eeb65085ed7baa3f68a07c90d199edc3db3f7f34c04c",
+      "bytes_stored": 8842
+    },
+    {
+      "source": "/tmp/dtp-gap-checks.md",
+      "stored": "details/dtp-gap-checks.md",
+      "sha256_original": "d075c7b62b727273a1579f4b13286049b3e93a94d09d7c97f0256e135e18f467",
+      "bytes_original": 6861,
+      "sha256_stored": "d075c7b62b727273a1579f4b13286049b3e93a94d09d7c97f0256e135e18f467",
+      "bytes_stored": 6861
+    },
+    {
+      "source": "/tmp/dtp-gap-deliverable.md",
+      "stored": "details/dtp-gap-deliverable.md",
+      "sha256_original": "533a3e3e94367cc8f61bee8fbd3d58f40cf8b4cda792ae9bb3fc95765fdbade4",
+      "bytes_original": 7339,
+      "sha256_stored": "533a3e3e94367cc8f61bee8fbd3d58f40cf8b4cda792ae9bb3fc95765fdbade4",
+      "bytes_stored": 7339
+    },
+    {
+      "source": "/tmp/dtp-gap-ingest.md",
+      "stored": "details/dtp-gap-ingest.md",
+      "sha256_original": "d9a140bcce3f85faffc28ccf60d287086936d0d101f553903ab3d4fa331c0c2b",
+      "bytes_original": 5737,
+      "sha256_stored": "d9a140bcce3f85faffc28ccf60d287086936d0d101f553903ab3d4fa331c0c2b",
+      "bytes_stored": 5737
+    },
+    {
+      "source": "/tmp/dtp-gap-retrieve.md",
+      "stored": "details/dtp-gap-retrieve.md",
+      "sha256_original": "3a51e529d89760e371b1ad9de04978d7a1f1b1659ed0138eda7fc1171838c986",
+      "bytes_original": 5140,
+      "sha256_stored": "3a51e529d89760e371b1ad9de04978d7a1f1b1659ed0138eda7fc1171838c986",
+      "bytes_stored": 5140
+    },
+    {
+      "source": "/tmp/dtp-retrospective-code-audit.md",
+      "stored": "details/dtp-retrospective-code-audit.md",
+      "sha256_original": "b93a0aeeedbe7628a456bacc9b3946771f9d8c47531183d106417997271aa5c3",
+      "bytes_original": 6482,
+      "sha256_stored": "b93a0aeeedbe7628a456bacc9b3946771f9d8c47531183d106417997271aa5c3",
+      "bytes_stored": 6482
+    },
+    {
+      "source": "/tmp/DTP_不足箇所_全体表_20261018.md",
+      "stored": "不足箇所一覧.md",
+      "sha256_original": "18ca7d7b0face30623654e616f1e3f4698840e1de30de29c095f07edabc4ea9b",
+      "bytes_original": 23859,
+      "sha256_stored": "3853ed3bb19c90f259bb7223e16f961e1eb8267a14e9c1067e2436867594bf37",
+      "bytes_stored": 23895
+    },
+    {
+      "source": "/tmp/dtp-coverage-doctor-fallback.log",
+      "stored": "evidence/dtp-coverage-doctor-fallback.log",
+      "sha256_original": "b10e2435ca60e8b75554a90616afb049fafd12f9006e127c1b3666680ba51cf2",
+      "bytes_original": 1902,
+      "sha256_stored": "b10e2435ca60e8b75554a90616afb049fafd12f9006e127c1b3666680ba51cf2",
+      "bytes_stored": 1902
+    },
+    {
+      "source": "/tmp/dtp-coverage-python-tests.log",
+      "stored": "evidence/dtp-coverage-python-tests.log",
+      "sha256_original": "2e0dd3683f5b4b724637f8092c6fe2b73b0fe32d4984754059972e15c1cbba71",
+      "bytes_original": 3348,
+      "sha256_stored": "2e0dd3683f5b4b724637f8092c6fe2b73b0fe32d4984754059972e15c1cbba71",
+      "bytes_stored": 3348
+    },
+    {
+      "source": "/tmp/dtp-coverage-0.log",
+      "stored": "evidence/dtp-coverage-0.log",
+      "sha256_original": "c095869ee338251596fd761677c3a251d8aaa33fab790ec6898b98f6381ce7d7",
+      "bytes_original": 2024,
+      "sha256_stored": "c095869ee338251596fd761677c3a251d8aaa33fab790ec6898b98f6381ce7d7",
+      "bytes_stored": 2024
+    },
+    {
+      "source": "/tmp/dtp-coverage-2.log",
+      "stored": "evidence/dtp-coverage-2.log",
+      "sha256_original": "b06d23b996a51a62865fa6a754e02804ae3aeb09e3002438e7984183cdd842cc",
+      "bytes_original": 27215,
+      "sha256_stored": "b06d23b996a51a62865fa6a754e02804ae3aeb09e3002438e7984183cdd842cc",
+      "bytes_stored": 27215
+    },
+    {
+      "source": "/tmp/dtp-coverage-1.log",
+      "stored": "evidence/dtp-coverage-1.log",
+      "sha256_original": "1af8956ca4241b3c099b99e60e0e0aa2a4e4dcf6650711f4a4529637afecee92",
+      "bytes_original": 269,
+      "sha256_stored": "1af8956ca4241b3c099b99e60e0e0aa2a4e4dcf6650711f4a4529637afecee92",
+      "bytes_stored": 269
+    },
+    {
+      "source": "/tmp/dtp-ingest-results.json",
+      "stored": "evidence/dtp-ingest-results.json",
+      "sha256_original": "a1190cafceb44b346304ec931a219bfeb05dc5ca216b162e0d3731927e909670",
+      "bytes_original": 2471,
+      "sha256_stored": "a1190cafceb44b346304ec931a219bfeb05dc5ca216b162e0d3731927e909670",
+      "bytes_stored": 2471
+    },
+    {
+      "source": "/tmp/dtp-ingest-cli-check.json",
+      "stored": "evidence/dtp-ingest-cli-check.json",
+      "sha256_original": "03958da06b1aab9f56fe79ff1ca99d5806fafdfe94749db29aa5cd64ff41f110",
+      "bytes_original": 874,
+      "sha256_stored": "03958da06b1aab9f56fe79ff1ca99d5806fafdfe94749db29aa5cd64ff41f110",
+      "bytes_stored": 874
+    },
+    {
+      "source": "/tmp/dtp-gap-smoke.json",
+      "stored": "evidence/dtp-gap-smoke.json",
+      "sha256_original": "5463ed89febbb1ef95f24b3f0a1541ae6d6a41bbd0a88ec4929d11a3bbd348d1",
+      "bytes_original": 4007,
+      "sha256_stored": "5463ed89febbb1ef95f24b3f0a1541ae6d6a41bbd0a88ec4929d11a3bbd348d1",
+      "bytes_stored": 4007
+    },
+    {
+      "source": "/tmp/dtp-gap-extra.json",
+      "stored": "evidence/dtp-gap-extra.json",
+      "sha256_original": "705bb493d3a08c589cde12e628deeff6b9f5dbffc2ace772e608266a45a168db",
+      "bytes_original": 424,
+      "sha256_stored": "705bb493d3a08c589cde12e628deeff6b9f5dbffc2ace772e608266a45a168db",
+      "bytes_stored": 424
+    },
+    {
+      "source": "/tmp/dtp-lifecycle-results.jsonl",
+      "stored": "evidence/dtp-lifecycle-results.jsonl",
+      "sha256_original": "c842b90e752f3a7742e29911415bae4036f675a184fd43219af9778fbda217bd",
+      "bytes_original": 1799,
+      "sha256_stored": "c842b90e752f3a7742e29911415bae4036f675a184fd43219af9778fbda217bd",
+      "bytes_stored": 1799
+    },
+    {
+      "source": "/tmp/dtp-photo-rows.json",
+      "stored": "evidence/dtp-photo-rows.json",
+      "sha256_original": "4c55bb0e7928c3fdabe5a6e43460ddbf681260a76640f7c3615559a3ef3f18a7",
+      "bytes_original": 40174,
+      "sha256_stored": "4c55bb0e7928c3fdabe5a6e43460ddbf681260a76640f7c3615559a3ef3f18a7",
+      "bytes_stored": 40174
+    },
+    {
+      "source": "/tmp/dtp-handoff-portability-results.json",
+      "stored": "evidence/dtp-handoff-portability-results.json",
+      "sha256_original": "2f17c3b15a8f892133cf6147f045d717e080aca8f715d02fba1947d7448c90f4",
+      "bytes_original": 2166,
+      "sha256_stored": "2f17c3b15a8f892133cf6147f045d717e080aca8f715d02fba1947d7448c90f4",
+      "bytes_stored": 2166
+    },
+    {
+      "source": "/tmp/dtp-handoff-lock-results.json",
+      "stored": "evidence/dtp-handoff-lock-results.json",
+      "sha256_original": "75bb23cc638aca16a0c1db8cd35de79acfc37617ef5b51640c6d9329684bfdb1",
+      "bytes_original": 1543,
+      "sha256_stored": "75bb23cc638aca16a0c1db8cd35de79acfc37617ef5b51640c6d9329684bfdb1",
+      "bytes_stored": 1543
+    },
+    {
+      "source": "/tmp/dtp-handoff-restored-result.json",
+      "stored": "evidence/dtp-handoff-restored-result.json",
+      "sha256_original": "17855f7e96d2821a2eceae1762c343bc7a215f8cadc60062dc3b784ff7cab822",
+      "bytes_original": 4349,
+      "sha256_stored": "17855f7e96d2821a2eceae1762c343bc7a215f8cadc60062dc3b784ff7cab822",
+      "bytes_stored": 4349
+    },
+    {
+      "source": "/tmp/dtp-retrospective-smoke.json",
+      "stored": "evidence/dtp-retrospective-smoke.json",
+      "sha256_original": "226066a2d48851bdce91cb8e10d73a9de8c71c4a48c1063142ee482cd20487f3",
+      "bytes_original": 41623,
+      "sha256_stored": "226066a2d48851bdce91cb8e10d73a9de8c71c4a48c1063142ee482cd20487f3",
+      "bytes_stored": 41623
+    },
+    {
+      "source": "/tmp/smoke-photo-counterexample.json",
+      "stored": "evidence/smoke-photo-counterexample.json",
+      "sha256_original": "5d3ec90c3efcfd1e6c7c97ddc4166cbebdb570265dd2c4974176dda7331f1e43",
+      "bytes_original": 1320,
+      "sha256_stored": "5d3ec90c3efcfd1e6c7c97ddc4166cbebdb570265dd2c4974176dda7331f1e43",
+      "bytes_stored": 1320
+    },
+    {
+      "source": "/tmp/dtp-lifecycle-smoke.ts",
+      "stored": "evidence/dtp-lifecycle-smoke.ts",
+      "sha256_original": "471ad58abaef282fa69d5546596daa070259a867ee64ba11c20d5301c66ba990",
+      "bytes_original": 6109,
+      "sha256_stored": "471ad58abaef282fa69d5546596daa070259a867ee64ba11c20d5301c66ba990",
+      "bytes_stored": 6109
+    },
+    {
+      "source": "/tmp/dtp-handoff-portability.py",
+      "stored": "evidence/dtp-handoff-portability.py",
+      "sha256_original": "e0e3e0c5c2af26cd6003c10efe71808c7b29fd858352c156411a493e0acf09b3",
+      "bytes_original": 1960,
+      "sha256_stored": "e0e3e0c5c2af26cd6003c10efe71808c7b29fd858352c156411a493e0acf09b3",
+      "bytes_stored": 1960
+    },
+    {
+      "source": "/tmp/dtp-handoff-run.py",
+      "stored": "evidence/dtp-handoff-run.py",
+      "sha256_original": "b110655ae5d1f0d1a693b954f5d9e901b5513ee6acb6baafbb8683bd88c72501",
+      "bytes_original": 1812,
+      "sha256_stored": "b110655ae5d1f0d1a693b954f5d9e901b5513ee6acb6baafbb8683bd88c72501",
+      "bytes_stored": 1812
+    },
+    {
+      "source": "/tmp/dtp-retrieve-audit/smoke.mts",
+      "stored": "evidence/dtp-retrieve-audit/smoke.mts",
+      "sha256_original": "914f0d4dcabe7cb7c6a86d3cbd243e39f2153076e42f53c51a7dbc1371de98f3",
+      "bytes_original": 5220,
+      "sha256_stored": "914f0d4dcabe7cb7c6a86d3cbd243e39f2153076e42f53c51a7dbc1371de98f3",
+      "bytes_stored": 5220
+    },
+    {
+      "source": "/tmp/dtp-retrieve-audit/output.txt",
+      "stored": "evidence/dtp-retrieve-audit/output.txt",
+      "sha256_original": "3a89670a9dda13c9db8443d7913a3b197ccb6216ef3c75892a22dbdcc8cf1a6e",
+      "bytes_original": 1559,
+      "sha256_stored": "3a89670a9dda13c9db8443d7913a3b197ccb6216ef3c75892a22dbdcc8cf1a6e",
+      "bytes_stored": 1559
+    },
+    {
+      "source": "/tmp/dtp-ingest-audit/audit-run.ts",
+      "stored": "evidence/dtp-ingest-audit/audit-run.ts",
+      "sha256_original": "3c0db159a53a5dcc525dcb5283a1e22587061b4a50fa1f136d45cce0cb5a5e9b",
+      "bytes_original": 1907,
+      "sha256_stored": "3c0db159a53a5dcc525dcb5283a1e22587061b4a50fa1f136d45cce0cb5a5e9b",
+      "bytes_stored": 1907
+    },
+    {
+      "source": "/tmp/dtp-gap-checks/smoke.mts",
+      "stored": "evidence/dtp-gap-checks/smoke.mts",
+      "sha256_original": "e705af56148d6d4e75f06ced47ef3090bd525936962046315224221419dbe5d3",
+      "bytes_original": 1606,
+      "sha256_stored": "e705af56148d6d4e75f06ced47ef3090bd525936962046315224221419dbe5d3",
+      "bytes_stored": 1606
+    },
+    {
+      "source": "/tmp/dtp-gap-checks/stale.mts",
+      "stored": "evidence/dtp-gap-checks/stale.mts",
+      "sha256_original": "1e1a02706a15c0600ffa24fc955572407c975ab20f2ac69f8cad0566574432ee",
+      "bytes_original": 616,
+      "sha256_stored": "1e1a02706a15c0600ffa24fc955572407c975ab20f2ac69f8cad0566574432ee",
+      "bytes_stored": 616
+    },
+    {
+      "source": "/tmp/dtp-gap-checks/extra.mts",
+      "stored": "evidence/dtp-gap-checks/extra.mts",
+      "sha256_original": "4467ed779dd5bf6e494ba8734df670ed63695219c8b8975ffcb2802ff09ee4dc",
+      "bytes_original": 1788,
+      "sha256_stored": "4467ed779dd5bf6e494ba8734df670ed63695219c8b8975ffcb2802ff09ee4dc",
+      "bytes_stored": 1788
+    }
+  ]
+}
