@@ -1,0 +1,76 @@
+[
+  {
+    "name": "control",
+    "errors": []
+  },
+  {
+    "name": "legacy page edit",
+    "errors": [
+      "LEGACY_CHANGED: books/avatar-oc-2028/pages/page_001/page.html"
+    ]
+  },
+  {
+    "name": "same edit plus baseline update",
+    "errors": []
+  },
+  {
+    "name": "photo metadata update",
+    "errors": [
+      "LEGACY_CHANGED: company-data/photos/photos.yaml"
+    ]
+  },
+  {
+    "name": "required policy emptied and document declaration removed",
+    "errors": [
+      "LEGACY_NEW: books/oc-approved-20261017/README.md",
+      "LEGACY_NEW: books/oc-approved-20261017/rebuild.py",
+      "LEGACY_NEW: books/oc-approved-20261017/render.mjs",
+      "LEGACY_NEW: books/oc-approved-20261017/verify-parts.py",
+      "LEGACY_NEW: books/oc-approved-20261017/output/dom-check.json",
+      "LEGACY_NEW: books/oc-approved-20261017/output/page-1.png",
+      "LEGACY_NEW: books/oc-approved-20261017/output/page-2.png",
+      "LEGACY_NEW: books/oc-approved-20261017/output/実写真版_OCチラシ_両面.pdf",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/catalog.yaml",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/manifest.json",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/official-site-qr.png",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/official-site-qr.svg",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/photos-map.json",
+      "LEGACY_NEW: books/oc-approved-20261017/source/bind-copy.py",
+      "LEGACY_NEW: books/oc-approved-20261017/source/flyer.html",
+      "LEGACY_NEW: books/oc-approved-20261017/source/flyer.template.html",
+      "LEGACY_NEW: books/oc-approved-20261017/source/layout-check.png",
+      "LEGACY_NEW: books/oc-approved-20261017/source/layout.css",
+      "LEGACY_NEW: books/oc-approved-20261017/text/content.json",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/brand/logo-horizontal.png",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/icons/consult.svg",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/icons/laptop.svg",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/icons/people.svg",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/icons/school.svg",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/photos/student-17.jpg",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/photos/student-dsc-1164.jpg",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/photos/student-img-3291.jpg",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/photos/student-img-5069.jpg",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/photos/student-img-5070.jpg",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/photos/student-img-5074.jpg",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/photos/student-img-5088.jpg",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/photos/student-img-5235.jpg",
+      "LEGACY_NEW: books/oc-approved-20261017/parts/photos/student-img-5238.jpg",
+      "LEGACY_NEW: references/school-own/oc-approved-20261017/approved-content.json",
+      "LEGACY_NEW: references/school-own/oc-approved-20261017/approved-transcript.md",
+      "LEGACY_NEW: references/school-own/oc-approved-20261017/source.json",
+      "LEGACY_NEW: references/school-own/oc-approved-20261017/source.yaml",
+      "LEGACY_NEW: references/school-own/oc-approved-20261017/original/approved.pdf",
+      "LEGACY_NEW: references/school-own/oc-approved-20261017/pages/page-01.png",
+      "LEGACY_NEW: references/school-own/oc-approved-20261017/pages/page-02.png",
+      "LEGACY_NEW: company-data/photos/student-17.jpg",
+      "LEGACY_NEW: company-data/photos/student-dsc-1164.jpg",
+      "LEGACY_NEW: company-data/photos/student-img-3291.jpg",
+      "LEGACY_NEW: company-data/photos/student-img-5069.jpg",
+      "LEGACY_NEW: company-data/photos/student-img-5070.jpg",
+      "LEGACY_NEW: company-data/photos/student-img-5074.jpg",
+      "LEGACY_NEW: company-data/photos/student-img-5088.jpg",
+      "LEGACY_NEW: company-data/photos/student-img-5235.jpg",
+      "LEGACY_NEW: company-data/photos/student-img-5238.jpg"
+    ]
+  }
+]

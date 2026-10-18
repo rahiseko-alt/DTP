@@ -1,0 +1,19 @@
+[
+  {
+    "name": "policy emptied + declaration deleted + baseline expanded",
+    "result": {
+      "documents": [],
+      "errors": []
+    }
+  },
+  {
+    "name": "registered non-student photo pointer",
+    "metadataOnly": true,
+    "result": "lfs-unavailable"
+  },
+  {
+    "name": "registered non-student photo pointer",
+    "metadataOnly": false,
+    "error": "AssetError: company-data/photos/new-id-not-student.jpg"
+  }
+]

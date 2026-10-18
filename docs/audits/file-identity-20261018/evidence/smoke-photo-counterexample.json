@@ -1,0 +1,32 @@
+[
+  {
+    "command": [
+      "node",
+      "node_modules/tsx/dist/cli.mjs",
+      "system/scripts/assets.ts",
+      "photo",
+      "--document",
+      "oc-approved-20261017",
+      "--id",
+      "smoke-legal-slot",
+      "--variant",
+      "real-photo-rebuild",
+      "--photo",
+      "smoke-legal-photo",
+      "--sha256",
+      "a71f2a8e5698a8a9139c1242f7d93d39f4aa15ea09bbb9c97f44b867af106124"
+    ],
+    "exitcode": 0,
+    "output": "{\n  \"asset\": {\n    \"id\": \"smoke-legal-slot\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"a71f2a8e5698a8a9139c1242f7d93d39f4aa15ea09bbb9c97f44b867af106124\",\n    \"photo_ref\": \"smoke-legal-photo\",\n    \"sha256\": \"a71f2a8e5698a8a9139c1242f7d93d39f4aa15ea09bbb9c97f44b867af106124\",\n    \"size\": 459599,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  }\n}\n"
+  },
+  {
+    "command": [
+      "node",
+      "node_modules/tsx/dist/cli.mjs",
+      "system/scripts/assets.ts",
+      "check"
+    ],
+    "exitcode": 1,
+    "output": "{\n  \"documents\": [\n    \"oc-approved-20261017\"\n  ],\n  \"errors\": [\n    \"LEGACY_CHANGED: company-data/photos/photos.yaml\"\n  ]\n}\n"
+  }
+]

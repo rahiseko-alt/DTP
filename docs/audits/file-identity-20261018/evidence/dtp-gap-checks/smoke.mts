@@ -1,0 +1,21 @@
+import fs from 'node:fs';
+import {checkAssets,contentIdentity} from './system/scripts/lib/assets.ts';
+const root=process.cwd();
+const result=[];
+async function run(name){try{const r=await checkAssets(root,{metadataOnly:true});result.push({name,errors:r.errors});}catch(e){result.push({name,throw:String(e)});}}
+await run('control');
+const file='books/avatar-oc-2028/pages/page_001/page.html',old=fs.readFileSync(file);
+fs.appendFileSync(file,'\n<!-- legitimate copy/layout update -->\n');
+await run('legacy page edit');
+const bfile='system/assets/legacy-baseline.json', b=JSON.parse(fs.readFileSync(bfile,'utf8')),borig=fs.readFileSync(bfile);
+b.files[file]=contentIdentity(fs.readFileSync(file));fs.writeFileSync(bfile,JSON.stringify(b));
+await run('same edit plus baseline update');
+fs.writeFileSync(file,old);fs.writeFileSync(bfile,borig);
+const pfile='company-data/photos/photos.yaml',p=fs.readFileSync(pfile);fs.appendFileSync(pfile,'\n# new photo registration metadata\n');
+await run('photo metadata update');fs.writeFileSync(pfile,p);
+const policy='system/assets/policy.json',po=fs.readFileSync(policy);fs.writeFileSync(policy,'{"required_documents":[]}');
+const d='books/oc-approved-20261017/config/document.yaml',db=fs.readFileSync(d);fs.unlinkSync(d);
+await run('required policy emptied and document declaration removed');
+fs.writeFileSync(d,db);fs.writeFileSync(policy,po);
+fs.writeFileSync('/tmp/dtp-gap-smoke.json',JSON.stringify(result,null,2));
+console.log(JSON.stringify(result.map(x=>({...x,errors:x.errors?.length>6?{count:x.errors.length,first:x.errors.slice(0,6)}:x.errors})),null,2));

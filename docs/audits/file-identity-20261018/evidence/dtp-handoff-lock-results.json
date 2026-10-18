@@ -1,0 +1,51 @@
+[
+  {
+    "label": "kill-after-target-publish",
+    "exit": -9,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "journal-and-published-file",
+    "journal": true,
+    "target": [
+      "/tmp/dtp-handoff-smoke/books/oc-approved-20261017/parts/interrupted-probe/550280f19053c87177493b0233c6b3a9b561a3eaf295a4b8f5ed5e1421cbc1e5/interrupted-probe.txt"
+    ]
+  },
+  {
+    "label": "resolve-blocked",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "{\"error\":\"Registration in progress; do not remove a lock without recovery inspection\",\"code\":\"LOCKED\"}\n"
+  },
+  {
+    "label": "recover-dead-pid",
+    "exit": 0,
+    "stdout": "{\n  \"recovered\": true,\n  \"committed\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "label": "resolve-after-recover",
+    "exit": 0,
+    "stdout": "{\n  \"id\": \"oc-approved-20261017\",\n  \"title\": \"AIビジネス専門学校OCチラシ\",\n  \"original_sha256\": \"53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "label": "kill-before-owner-json",
+    "exit": -9,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "label": "recover-no-journal",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "{\"error\":\"ENOENT: no such file or directory, open '/tmp/dtp-handoff-smoke/.cache/asset-write.lock/owner.json'\",\"code\":\"ENOENT\"}\n"
+  },
+  {
+    "label": "resolve-no-journal",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "{\"error\":\"Registration in progress; do not remove a lock without recovery inspection\",\"code\":\"LOCKED\"}\n"
+  }
+]

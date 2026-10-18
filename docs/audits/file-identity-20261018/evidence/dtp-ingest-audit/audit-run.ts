@@ -1,0 +1,15 @@
+import fs from 'node:fs';import path from 'node:path';import sharp from 'sharp';import YAML from 'yaml';
+import {checkAssets,registerPhotoUsage,registerAsset,digest} from './system/scripts/lib/assets.ts';
+import {addPhoto} from './system/scripts/lib/photo-add.ts';import {createBook} from './system/scripts/lib/new-book.ts';import {ingestReference} from './system/scripts/lib/ingest.ts';
+const root=process.cwd(); const doc='oc-approved-20261017';
+const report:any={before:(await checkAssets(root,{metadataOnly:true})).errors};
+await sharp({create:{width:20,height:20,channels:3,background:'red'}}).png().toFile('/tmp/dtp-audit-input.png');
+report.add=await addPhoto({root,file:'/tmp/dtp-audit-input.png',id:'audit-new',rights:'学校提供・掲載同意確認済',tags:['student','portrait']});
+report.afterAdd=(await checkAssets(root,{metadataOnly:true})).errors;
+let photos=YAML.parse(fs.readFileSync('company-data/photos/photos.yaml','utf8'));let p=photos.photos.find((p:any)=>p.id==='audit-new');p.rights='TODO: 同意未確認';fs.writeFileSync('company-data/photos/photos.yaml',YAML.stringify(photos));
+report.unconfirmedPhoto=await registerPhotoUsage(root,{document:doc,id:'audit-slot',variant:'real-photo-rebuild',photo:'audit-new',sha256:digest(fs.readFileSync(p.file))});
+const fake=Buffer.from([137,80,78,71,13,10,26,10]);fs.writeFileSync('/tmp/dtp-audit-invalid.png',fake);
+report.fakeImage=await registerAsset(root,{document:doc,id:'audit-broken-image',variant:'real-photo-rebuild',role:'support',source:'/tmp/dtp-audit-invalid.png',sha256:digest(fake),media:'image',confirmation:'verified'});
+report.book=createBook({root,bookId:'audit-book',pages:1}).composeErrors;
+report.ingest=await ingestReference({root,source:'audit-school',kind:'brochure',images:'/tmp/dtp-audit-inputs'});
+report.after=(await checkAssets(root,{metadataOnly:true})).errors;console.log(JSON.stringify(report,null,2));

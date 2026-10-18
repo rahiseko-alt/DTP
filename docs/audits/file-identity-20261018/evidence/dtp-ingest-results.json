@@ -1,0 +1,75 @@
+{
+  "before": [],
+  "add": {
+    "file": "/tmp/dtp-ingest-audit/company-data/photos/audit-new.jpg",
+    "width": 20,
+    "height": 20,
+    "printMm": [
+      1,
+      1
+    ]
+  },
+  "afterAdd": [
+    "LEGACY_NEW: company-data/photos/audit-new.jpg",
+    "LEGACY_CHANGED: company-data/photos/photos.yaml"
+  ],
+  "unconfirmedPhoto": {
+    "asset": {
+      "id": "audit-slot",
+      "variant": "real-photo-rebuild",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "ee245565be0722c8d3768fada0ca5933a0ceb8de27496dacdb5d3d087c6bc2dc",
+      "photo_ref": "audit-new",
+      "sha256": "ee245565be0722c8d3768fada0ca5933a0ceb8de27496dacdb5d3d087c6bc2dc",
+      "size": 826,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  "fakeImage": {
+    "asset": {
+      "id": "audit-broken-image",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "image",
+      "revision": "4c4b6a3be1314ab86138bef4314dde022e600960d8689a2c8f8631802d20dab6",
+      "file": "books/oc-approved-20261017/parts/audit-broken-image/4c4b6a3be1314ab86138bef4314dde022e600960d8689a2c8f8631802d20dab6/audit-broken-image.png",
+      "sha256": "4c4b6a3be1314ab86138bef4314dde022e600960d8689a2c8f8631802d20dab6",
+      "size": 8,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  "book": [],
+  "ingest": {
+    "dir": "/tmp/dtp-ingest-audit/references/audit-school/brochure",
+    "pages": [
+      "page_001.png"
+    ],
+    "original": null,
+    "createdSource": true,
+    "createdAnalysis": true,
+    "warnings": []
+  },
+  "after": [
+    "LEGACY_NEW: books/audit-book/references.yaml",
+    "LEGACY_NEW: books/audit-book/backgrounds/README.md",
+    "LEGACY_NEW: books/audit-book/components/README.md",
+    "LEGACY_NEW: books/audit-book/config/book.yaml",
+    "LEGACY_NEW: books/audit-book/reviews/README.md",
+    "LEGACY_NEW: books/audit-book/pages/page_001/page.css",
+    "LEGACY_NEW: books/audit-book/pages/page_001/page.html",
+    "LEGACY_NEW: books/audit-book/pages/page_001/page.yaml",
+    "LEGACY_NEW: references/audit-school/brochure/page_001.png",
+    "LEGACY_NEW: references/audit-school/brochure/source.yaml",
+    "LEGACY_NEW: references/audit-school/brochure/analysis/book.yaml",
+    "LEGACY_CHANGED: company-data/photos/photos.yaml"
+  ]
+}

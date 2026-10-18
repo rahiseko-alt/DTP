@@ -1,0 +1,618 @@
+{
+  "head": "4bb7c205a461b222fade10466cb4107ca61c0bfb",
+  "clone": "/tmp/dtp-retrospective-smoke",
+  "source_repository_modified": false,
+  "lfs": {
+    "copied_oid_verified": 27,
+    "source_photos": 9,
+    "paths": [
+      "books/oc-approved-20261017/output/page-1.png",
+      "books/oc-approved-20261017/output/page-2.png",
+      "books/oc-approved-20261017/output/実写真版_OCチラシ_両面.pdf",
+      "books/oc-approved-20261017/parts/brand/logo-horizontal.png",
+      "books/oc-approved-20261017/parts/official-site-qr.png",
+      "books/oc-approved-20261017/parts/photos/student-17.jpg",
+      "books/oc-approved-20261017/parts/photos/student-dsc-1164.jpg",
+      "books/oc-approved-20261017/parts/photos/student-img-3291.jpg",
+      "books/oc-approved-20261017/parts/photos/student-img-5069.jpg",
+      "books/oc-approved-20261017/parts/photos/student-img-5070.jpg",
+      "books/oc-approved-20261017/parts/photos/student-img-5074.jpg",
+      "books/oc-approved-20261017/parts/photos/student-img-5088.jpg",
+      "books/oc-approved-20261017/parts/photos/student-img-5235.jpg",
+      "books/oc-approved-20261017/parts/photos/student-img-5238.jpg",
+      "books/oc-approved-20261017/source/layout-check.png",
+      "company-data/photos/student-17.jpg",
+      "company-data/photos/student-dsc-1164.jpg",
+      "company-data/photos/student-img-3291.jpg",
+      "company-data/photos/student-img-5069.jpg",
+      "company-data/photos/student-img-5070.jpg",
+      "company-data/photos/student-img-5074.jpg",
+      "company-data/photos/student-img-5088.jpg",
+      "company-data/photos/student-img-5235.jpg",
+      "company-data/photos/student-img-5238.jpg",
+      "references/school-own/oc-approved-20261017/original/approved.pdf",
+      "references/school-own/oc-approved-20261017/pages/page-01.png",
+      "references/school-own/oc-approved-20261017/pages/page-02.png"
+    ]
+  },
+  "install": {
+    "command": "npm ci --cache /tmp/dtp-npm-cache",
+    "exitcode": 0,
+    "log": "/tmp/smoke-npm.log"
+  },
+  "cli": [
+    {
+      "command": "assets.ts resolve --name 医専チラシ",
+      "exitcode": 0,
+      "expected": 0,
+      "output": "{\n  \"id\": \"oc-approved-20261017\",\n  \"title\": \"AIビジネス専門学校OCチラシ\",\n  \"original_sha256\": \"53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a\"\n}\n"
+    },
+    {
+      "command": "assets.ts get --document oc-approved-20261017 --id approved-original",
+      "exitcode": 0,
+      "expected": 0,
+      "output": "{\n  \"context\": {\n    \"root\": \"/tmp/dtp-retrospective-smoke\",\n    \"head\": \"4bb7c205a461b222fade10466cb4107ca61c0bfb\",\n    \"branch\": \"main\",\n    \"dirty\": true,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"approved-original\",\n    \"variant\": \"approved-original\",\n    \"role\": \"original\",\n    \"media\": \"pdf\",\n    \"revision\": \"53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a\",\n    \"file\": \"references/school-own/oc-approved-20261017/original/approved.pdf\",\n    \"sha256\": \"53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a\",\n    \"size\": 3538475,\n    \"relation\": \"root\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"references/school-own/oc-approved-20261017/original/approved.pdf\"\n}\n"
+    },
+    {
+      "command": "assets.ts search --document oc-approved-20261017 --variant real-photo-rebuild --role replacement-photo",
+      "exitcode": 0,
+      "expected": 0,
+      "output": "{\n  \"context\": {\n    \"root\": \"/tmp/dtp-retrospective-smoke\",\n    \"head\": \"4bb7c205a461b222fade10466cb4107ca61c0bfb\",\n    \"branch\": \"main\",\n    \"dirty\": true,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"matches\": [\n    {\n      \"asset_id\": \"front-hero\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb\",\n      \"path\": \"company-data/photos/student-img-5235.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-img-5235\",\n      \"availability\": \"available\"\n    },\n    {\n      \"asset_id\": \"front-class\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793\",\n      \"path\": \"company-data/photos/student-img-5070.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-img-5070\",\n      \"availability\": \"available\"\n    },\n    {\n      \"asset_id\": \"front-exchange\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633\",\n      \"path\": \"company-data/photos/student-dsc-1164.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-dsc-1164\",\n      \"availability\": \"available\"\n    },\n    {\n      \"asset_id\": \"front-people\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7\",\n      \"path\": \"company-data/photos/student-img-3291.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-img-3291\",\n      \"availability\": \"available\"\n    },\n    {\n      \"asset_id\": \"back-course-ai\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696\",\n      \"path\": \"company-data/photos/student-img-5238.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-img-5238\",\n      \"availability\": \"available\"\n    },\n    {\n      \"asset_id\": \"back-course-business\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba\",\n      \"path\": \"company-data/photos/student-img-5074.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-img-5074\",\n      \"availability\": \"available\"\n    },\n    {\n      \"asset_id\": \"back-class\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6\",\n      \"path\": \"company-data/photos/student-img-5069.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-img-5069\",\n      \"availability\": \"available\"\n    },\n    {\n      \"asset_id\": \"back-exchange\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b\",\n      \"path\": \"company-data/photos/student-img-5088.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-img-5088\",\n      \"availability\": \"available\"\n    },\n    {\n      \"asset_id\": \"back-event\",\n      \"document_id\": \"oc-approved-20261017\",\n      \"title\": \"AIビジネス専門学校OCチラシ\",\n      \"variant\": \"real-photo-rebuild\",\n      \"role\": \"replacement-photo\",\n      \"media\": \"image\",\n      \"revision\": \"c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165\",\n      \"path\": \"company-data/photos/student-17.jpg\",\n      \"relation\": \"uses\",\n      \"photo_ref\": \"student-17\",\n      \"availability\": \"available\"\n    }\n  ]\n}\n"
+    },
+    {
+      "command": "assets.ts get --document oc-approved-20261017 --id front-hero",
+      "exitcode": 0,
+      "expected": 0,
+      "output": "{\n  \"context\": {\n    \"root\": \"/tmp/dtp-retrospective-smoke\",\n    \"head\": \"4bb7c205a461b222fade10466cb4107ca61c0bfb\",\n    \"branch\": \"main\",\n    \"dirty\": true,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"front-hero\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb\",\n    \"photo_ref\": \"student-img-5235\",\n    \"sha256\": \"2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb\",\n    \"size\": 2413058,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-img-5235.jpg\"\n}\n"
+    },
+    {
+      "command": "assets.ts get --document oc-approved-20261017 --id front-class",
+      "exitcode": 0,
+      "expected": 0,
+      "output": "{\n  \"context\": {\n    \"root\": \"/tmp/dtp-retrospective-smoke\",\n    \"head\": \"4bb7c205a461b222fade10466cb4107ca61c0bfb\",\n    \"branch\": \"main\",\n    \"dirty\": true,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"front-class\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793\",\n    \"photo_ref\": \"student-img-5070\",\n    \"sha256\": \"abdd39cfe1cf1c31aa3f737aadefa5a760aafae1ce25a5a41393fe8cd548b793\",\n    \"size\": 2348505,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-img-5070.jpg\"\n}\n"
+    },
+    {
+      "command": "assets.ts get --document oc-approved-20261017 --id front-exchange",
+      "exitcode": 0,
+      "expected": 0,
+      "output": "{\n  \"context\": {\n    \"root\": \"/tmp/dtp-retrospective-smoke\",\n    \"head\": \"4bb7c205a461b222fade10466cb4107ca61c0bfb\",\n    \"branch\": \"main\",\n    \"dirty\": true,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"front-exchange\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633\",\n    \"photo_ref\": \"student-dsc-1164\",\n    \"sha256\": \"a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633\",\n    \"size\": 4707440,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-dsc-1164.jpg\"\n}\n"
+    },
+    {
+      "command": "assets.ts get --document oc-approved-20261017 --id front-people",
+      "exitcode": 0,
+      "expected": 0,
+      "output": "{\n  \"context\": {\n    \"root\": \"/tmp/dtp-retrospective-smoke\",\n    \"head\": \"4bb7c205a461b222fade10466cb4107ca61c0bfb\",\n    \"branch\": \"main\",\n    \"dirty\": true,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"front-people\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7\",\n    \"photo_ref\": \"student-img-3291\",\n    \"sha256\": \"b28901d428357a0fff087f16c674c1d9f7d39b9c6afbbe9091cf586de37ccfc7\",\n    \"size\": 1168446,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-img-3291.jpg\"\n}\n"
+    },
+    {
+      "command": "assets.ts get --document oc-approved-20261017 --id back-course-ai",
+      "exitcode": 0,
+      "expected": 0,
+      "output": "{\n  \"context\": {\n    \"root\": \"/tmp/dtp-retrospective-smoke\",\n    \"head\": \"4bb7c205a461b222fade10466cb4107ca61c0bfb\",\n    \"branch\": \"main\",\n    \"dirty\": true,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"back-course-ai\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696\",\n    \"photo_ref\": \"student-img-5238\",\n    \"sha256\": \"256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696\",\n    \"size\": 2454424,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-img-5238.jpg\"\n}\n"
+    },
+    {
+      "command": "assets.ts get --document oc-approved-20261017 --id back-course-business",
+      "exitcode": 0,
+      "expected": 0,
+      "output": "{\n  \"context\": {\n    \"root\": \"/tmp/dtp-retrospective-smoke\",\n    \"head\": \"4bb7c205a461b222fade10466cb4107ca61c0bfb\",\n    \"branch\": \"main\",\n    \"dirty\": true,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"back-course-business\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba\",\n    \"photo_ref\": \"student-img-5074\",\n    \"sha256\": \"b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba\",\n    \"size\": 3100678,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-img-5074.jpg\"\n}\n"
+    },
+    {
+      "command": "assets.ts get --document oc-approved-20261017 --id back-class",
+      "exitcode": 0,
+      "expected": 0,
+      "output": "{\n  \"context\": {\n    \"root\": \"/tmp/dtp-retrospective-smoke\",\n    \"head\": \"4bb7c205a461b222fade10466cb4107ca61c0bfb\",\n    \"branch\": \"main\",\n    \"dirty\": true,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"back-class\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6\",\n    \"photo_ref\": \"student-img-5069\",\n    \"sha256\": \"f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6\",\n    \"size\": 2676415,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-img-5069.jpg\"\n}\n"
+    },
+    {
+      "command": "assets.ts get --document oc-approved-20261017 --id back-exchange",
+      "exitcode": 0,
+      "expected": 0,
+      "output": "{\n  \"context\": {\n    \"root\": \"/tmp/dtp-retrospective-smoke\",\n    \"head\": \"4bb7c205a461b222fade10466cb4107ca61c0bfb\",\n    \"branch\": \"main\",\n    \"dirty\": true,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"back-exchange\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b\",\n    \"photo_ref\": \"student-img-5088\",\n    \"sha256\": \"2c0ea38526d766ce802600e49fe7c3879f27acbf7dcd99f2b8ff6383c129c94b\",\n    \"size\": 2434658,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-img-5088.jpg\"\n}\n"
+    },
+    {
+      "command": "assets.ts get --document oc-approved-20261017 --id back-event",
+      "exitcode": 0,
+      "expected": 0,
+      "output": "{\n  \"context\": {\n    \"root\": \"/tmp/dtp-retrospective-smoke\",\n    \"head\": \"4bb7c205a461b222fade10466cb4107ca61c0bfb\",\n    \"branch\": \"main\",\n    \"dirty\": true,\n    \"fingerprint\": \"a21c45c1b57b6d910c3ba7c53b2d84460220fa66e752e33c51923f4816507d67\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"back-event\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165\",\n    \"photo_ref\": \"student-17\",\n    \"sha256\": \"c06022c365cd32917d6b7a31e7065fda4e12b123d0fa26808fde4949d4918165\",\n    \"size\": 461112,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"company-data/photos/student-17.jpg\"\n}\n"
+    },
+    {
+      "command": "assets.ts search --document oc-approved-20261017 --variant original-extracted --role extracted-image",
+      "exitcode": 1,
+      "expected": 1,
+      "output": "{\"error\":\"oc-approved-20261017/original-extracted/extracted-image: no matching assets; no fallback\",\"code\":\"NO_MATCH\"}\n"
+    },
+    {
+      "command": "assets.ts search --document oc-approved-20261017 --variant real-photo-rebuild --role bogus",
+      "exitcode": 1,
+      "expected": 1,
+      "output": "{\"error\":\"Invalid role\",\"code\":\"INVALID_INPUT\"}\n"
+    },
+    {
+      "command": "assets.ts get --document oc-approved-20261017 --id front-hero",
+      "exitcode": 1,
+      "expected": 1,
+      "output": "{\"error\":\"company-data/photos/student-img-5235.jpg\",\"code\":\"MISSING\"}\n"
+    },
+    {
+      "command": "assets.ts get --document oc-approved-20261017 --id front-hero",
+      "exitcode": 1,
+      "expected": 1,
+      "output": "{\"error\":\"company-data/photos/student-img-5235.jpg\",\"code\":\"LFS_UNAVAILABLE\"}\n"
+    },
+    {
+      "command": "assets.ts get --document oc-approved-20261017 --id front-hero",
+      "exitcode": 1,
+      "expected": 1,
+      "output": "{\"error\":\"company-data/photos/student-img-5235.jpg\",\"code\":\"HASH_MISMATCH\"}\n"
+    },
+    {
+      "command": "assets.ts check",
+      "exitcode": 0,
+      "expected": 0,
+      "output": "{\n  \"documents\": [\n    \"oc-approved-20261017\"\n  ],\n  \"errors\": []\n}\n"
+    },
+    {
+      "command": "assets.ts check",
+      "exitcode": 1,
+      "expected": 1,
+      "output": "{\n  \"documents\": [\n    \"oc-approved-20261017\"\n  ],\n  \"errors\": [\n    \"UNREGISTERED: AssetError: books/oc-approved-20261017/parts/unregistered-copy.json\"\n  ]\n}\n"
+    },
+    {
+      "command": "assets.ts register --document oc-approved-20261017 --id smoke-copy --variant real-photo-rebuild --role copy --media text --source /tmp/smoke-copy.json --sha256 62bde339504329d13bda68c4c0d9e0378a5bd0fde990c112a5bc2aa14784a33a --confirmation verified",
+      "exitcode": 0,
+      "expected": 0,
+      "output": "{\n  \"asset\": {\n    \"id\": \"smoke-copy\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"copy\",\n    \"media\": \"text\",\n    \"revision\": \"62bde339504329d13bda68c4c0d9e0378a5bd0fde990c112a5bc2aa14784a33a\",\n    \"file\": \"books/oc-approved-20261017/text/smoke-copy/62bde339504329d13bda68c4c0d9e0378a5bd0fde990c112a5bc2aa14784a33a/smoke-copy.json\",\n    \"sha256\": \"62bde339504329d13bda68c4c0d9e0378a5bd0fde990c112a5bc2aa14784a33a\",\n    \"size\": 22,\n    \"relation\": \"authored\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  }\n}\n"
+    },
+    {
+      "command": "assets.ts get --document oc-approved-20261017 --id smoke-copy",
+      "exitcode": 0,
+      "expected": 0,
+      "output": "{\n  \"context\": {\n    \"root\": \"/tmp/dtp-retrospective-smoke\",\n    \"head\": \"4bb7c205a461b222fade10466cb4107ca61c0bfb\",\n    \"branch\": \"main\",\n    \"dirty\": true,\n    \"fingerprint\": \"dc6022c8d8b6c0d9e330356ab168f40350f019af5b551674a2acc04c84e73d76\"\n  },\n  \"document_id\": \"oc-approved-20261017\",\n  \"asset\": {\n    \"id\": \"smoke-copy\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"copy\",\n    \"media\": \"text\",\n    \"revision\": \"62bde339504329d13bda68c4c0d9e0378a5bd0fde990c112a5bc2aa14784a33a\",\n    \"file\": \"books/oc-approved-20261017/text/smoke-copy/62bde339504329d13bda68c4c0d9e0378a5bd0fde990c112a5bc2aa14784a33a/smoke-copy.json\",\n    \"sha256\": \"62bde339504329d13bda68c4c0d9e0378a5bd0fde990c112a5bc2aa14784a33a\",\n    \"size\": 22,\n    \"relation\": \"authored\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  },\n  \"path\": \"books/oc-approved-20261017/text/smoke-copy/62bde339504329d13bda68c4c0d9e0378a5bd0fde990c112a5bc2aa14784a33a/smoke-copy.json\"\n}\n"
+    }
+  ],
+  "photo_add_counterexample": {
+    "photo_add_exitcode": 0,
+    "photo_add_log": "/tmp/smoke-photo-add.log",
+    "steps": [
+      {
+        "command": [
+          "node",
+          "node_modules/tsx/dist/cli.mjs",
+          "system/scripts/assets.ts",
+          "photo",
+          "--document",
+          "oc-approved-20261017",
+          "--id",
+          "smoke-legal-slot",
+          "--variant",
+          "real-photo-rebuild",
+          "--photo",
+          "smoke-legal-photo",
+          "--sha256",
+          "a71f2a8e5698a8a9139c1242f7d93d39f4aa15ea09bbb9c97f44b867af106124"
+        ],
+        "exitcode": 0,
+        "output": "{\n  \"asset\": {\n    \"id\": \"smoke-legal-slot\",\n    \"variant\": \"real-photo-rebuild\",\n    \"role\": \"replacement-photo\",\n    \"media\": \"image\",\n    \"revision\": \"a71f2a8e5698a8a9139c1242f7d93d39f4aa15ea09bbb9c97f44b867af106124\",\n    \"photo_ref\": \"smoke-legal-photo\",\n    \"sha256\": \"a71f2a8e5698a8a9139c1242f7d93d39f4aa15ea09bbb9c97f44b867af106124\",\n    \"size\": 459599,\n    \"relation\": \"uses\",\n    \"storage\": \"canonical\",\n    \"confirmation\": \"verified\",\n    \"external_inputs\": [],\n    \"built_from\": []\n  }\n}\n"
+      },
+      {
+        "command": [
+          "node",
+          "node_modules/tsx/dist/cli.mjs",
+          "system/scripts/assets.ts",
+          "check"
+        ],
+        "exitcode": 1,
+        "output": "{\n  \"documents\": [\n    \"oc-approved-20261017\"\n  ],\n  \"errors\": [\n    \"LEGACY_CHANGED: company-data/photos/photos.yaml\"\n  ]\n}\n"
+      }
+    ],
+    "restored_clone_changes": true
+  },
+  "tests_initial": [
+    {
+      "command": "STUDIO_CHROMIUM_PATH=/usr/bin/chromium npm test -- system/scripts/test/assets.test.ts system/scripts/test/asset-build.test.ts",
+      "exitcode": 0,
+      "total": 44,
+      "passed": 44,
+      "failed": 0,
+      "skipped": 0,
+      "report": "/tmp/smoke-vitest.json"
+    },
+    {
+      "command": "STUDIO_CHROMIUM_PATH=/usr/bin/chromium npm test -- system/scripts/test/validate.test.ts system/scripts/test/photo-add.test.ts system/scripts/test/photo-search.test.ts",
+      "exitcode": 0,
+      "total": 38,
+      "passed": 38,
+      "failed": 0,
+      "skipped": 0,
+      "report": "/tmp/smoke-vitest-existing.json"
+    }
+  ],
+  "problems": [
+    {
+      "problem": "正規photo:add→asset:photoが成功してもasset:checkがLEGACY_CHANGEDで拒否",
+      "proposed_solution": "photos.yamlの正規更新とlegacy baselineの整合を保つ明示的な仕組みを検討。checkでbaselineを無条件自動更新しない",
+      "action": "独立clone内で既存写真コピーを正規登録しcheckを実行、証跡保存後復旧",
+      "change": "photo:add 0 / asset:photo 0 / asset:check 1; LEGACY_CHANGED: company-data/photos/photos.yamlのみ",
+      "resolved": false
+    },
+    {
+      "problem": "コピー済LFS実体がgit statusでstat dirtyに見えた",
+      "proposed_solution": "OID一致を保持してclone内Git LFS cleanフィルタでindex情報を更新",
+      "action": "OID照合後clone内git addで同一pointerを確認",
+      "change": "git status --porcelainが空。実体・tracked内容に差分なし",
+      "resolved": true
+    }
+  ],
+  "limitations": [
+    "今回添付PDFの同一性は既存document宣言の原本SHAと原本取得実体の一致を確認。会話添付そのものを別経路で新規downloadした検証ではない",
+    "mainルール/GitHub統合拒否は親担当"
+  ],
+  "clean_combined_run": {
+    "command": "STUDIO_CHROMIUM_PATH=/usr/bin/chromium npm test -- system/scripts/test/assets.test.ts system/scripts/test/asset-build.test.ts system/scripts/test/validate.test.ts system/scripts/test/photo-add.test.ts system/scripts/test/photo-search.test.ts --reporter=json --outputFile=/tmp/smoke-vitest-clean.json",
+    "exitcode": 0,
+    "clean_before": true,
+    "status_after": "",
+    "total": 82,
+    "passed": 82,
+    "failed": 0,
+    "skipped": 0,
+    "suites": [
+      {
+        "file": "/tmp/dtp-retrospective-smoke/system/scripts/test/asset-build.test.ts",
+        "count": 7,
+        "tests": [
+          {
+            "name": "uses current copy and CSS revisions without modifying existing output",
+            "status": "passed"
+          },
+          {
+            "name": "uses the current photo slot and retains original mirrors",
+            "status": "passed"
+          },
+          {
+            "name": "refuses rendering an input snapshot after current sources change",
+            "status": "passed"
+          },
+          {
+            "name": "records all photo/media/source dependencies and rejects changed school facts",
+            "status": "passed"
+          },
+          {
+            "name": "binds actual render outputs to current inputs and permits three output registrations",
+            "status": "passed"
+          },
+          {
+            "name": "refuses a template that embeds an undeclared legacy photo path",
+            "status": "passed"
+          },
+          {
+            "name": "rejects single-quoted inline image attributes outside the declared set",
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "file": "/tmp/dtp-retrospective-smoke/system/scripts/test/assets.test.ts",
+        "count": 37,
+        "tests": [
+          {
+            "name": "identity and fail-closed retrieval validates pilot and returns replacement photos only",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval does not replace missing extracted parts with originals or photos",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval never uses substring/fuzzy document resolution",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval rejects missing files on get and reports their status in search",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval distinguishes LFS unavailable from missing and checks oid",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval detects replaced bytes",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval rejects original-page disguised as a component on get",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval rejects fabricated extraction without recipe",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval detects source modifications without rebaselining",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval marks old built-from output stale after new source revision",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval requires dependencies for preview registration",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval rejects same asset ID changing role across revisions",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval rejects duplicate evidence pages",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval detects name collisions with similar brochure",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval rejects internal symlinks, not only external escapes",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval detects unmanaged direct copies and new bypass folders",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval requires pilot registration and baseline",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval does not silently pass when required document is deleted",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval check never changes catalog, manifest or expected hashes",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval invalidates cache on uncommitted declaration or photo metadata changes",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval allows the same registered photo in another usage without duplicate bytes",
+            "status": "passed"
+          },
+          {
+            "name": "identity and fail-closed retrieval detects dependency cycles",
+            "status": "passed"
+          },
+          {
+            "name": "registration and recovery registers at a computed immutable path and refuses duplicate",
+            "status": "passed"
+          },
+          {
+            "name": "registration and recovery dry-run writes nothing",
+            "status": "passed"
+          },
+          {
+            "name": "registration and recovery source SHA mismatch does not leave half registration",
+            "status": "passed"
+          },
+          {
+            "name": "registration and recovery never removes a pre-existing revision directory on rollback",
+            "status": "passed"
+          },
+          {
+            "name": "registration and recovery rejects live lock and refuses live-owner recovery",
+            "status": "passed"
+          },
+          {
+            "name": "registration and recovery recovers a dead owner only with catalog CAS and journal content match",
+            "status": "passed"
+          },
+          {
+            "name": "registration and recovery get refuses unverified content",
+            "status": "passed"
+          },
+          {
+            "name": "registration and recovery generic imports cannot claim original/extracted/replacement",
+            "status": "passed"
+          },
+          {
+            "name": "review regressions does not allow a school photo as an original page",
+            "status": "passed"
+          },
+          {
+            "name": "review regressions does not publish PNG bytes as editable text",
+            "status": "passed"
+          },
+          {
+            "name": "review regressions recovers pre-commit orphan and allows retry of the same revision",
+            "status": "passed"
+          },
+          {
+            "name": "review regressions serializes two independent registration processes",
+            "status": "passed"
+          },
+          {
+            "name": "review regressions extracts by declared recipe and rejects a forged output",
+            "status": "passed"
+          },
+          {
+            "name": "rejects legacy directory symlink bypass",
+            "status": "passed"
+          },
+          {
+            "name": "rejects images classified as editable copy even with matching media",
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "file": "/tmp/dtp-retrospective-smoke/system/scripts/test/photo-add.test.ts",
+        "count": 12,
+        "tests": [
+          {
+            "name": "photo:add タグ辞書にない語は写真を取り込む前に拒否する",
+            "status": "passed"
+          },
+          {
+            "name": "photo:add 向きを補正し EXIF を消して取り込み、photos.yaml の末尾に登録する（コメント・既存の行はそのまま）",
+            "status": "passed"
+          },
+          {
+            "name": "photo:add 透過のある画像は PNG のまま、長辺を --max-px に縮める（拡大はしない）",
+            "status": "passed"
+          },
+          {
+            "name": "photo:add 権利が未確認・ID の重複や形式違い・HEIC・参考資料の画像は登録しない（何も書き換えない）",
+            "status": "passed"
+          },
+          {
+            "name": "photo:add（レビュー指摘） 16bit・ICC プロファイル付きの画像も sRGB に変換する（色がずれない。EXIF は残らない）",
+            "status": "passed"
+          },
+          {
+            "name": "photo:add（レビュー指摘） 参考ページの派生物（.cache/・比較出力）と、リンク経由のルートでも参考資料を拒否する",
+            "status": "passed"
+          },
+          {
+            "name": "photo:add（レビュー指摘） 全面不透明の RGBA は JPEG にする。--file の相対パスは実行したディレクトリ基準",
+            "status": "passed"
+          },
+          {
+            "name": "photo:add（レビュー指摘） photos.yaml の書き込みに失敗したら、画像も残さない",
+            "status": "passed"
+          },
+          {
+            "name": "appendPhotoEntry \"photos: []\" をブロック形式にし、後ろのコメントを残す",
+            "status": "passed"
+          },
+          {
+            "name": "appendPhotoEntry \"photos:\"・\"photos: ~\" に足しても、後ろのコメントを残す",
+            "status": "passed"
+          },
+          {
+            "name": "appendPhotoEntry 字下げ 4・字下げなしのリストにも、同じ字下げで足す",
+            "status": "passed"
+          },
+          {
+            "name": "appendPhotoEntry photos がなければ末尾に足す。既存のブロックの後ろに足す",
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "file": "/tmp/dtp-retrospective-smoke/system/scripts/test/photo-search.test.ts",
+        "count": 2,
+        "tests": [
+          {
+            "name": "photo:search 別ルートのスタジオで辞書の別名を正規タグに変換して検索できる",
+            "status": "passed"
+          },
+          {
+            "name": "photo:search 辞書にないタグを検索語として受け付けない",
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "file": "/tmp/dtp-retrospective-smoke/system/scripts/test/validate.test.ts",
+        "count": 24,
+        "tests": [
+          {
+            "name": "validate fixture スタジオはエラー・警告なしで通る（fixture を書き換えない）",
+            "status": "passed"
+          },
+          {
+            "name": "validate 写真台帳の未登録タグを検出し、辞書とのずれを防ぐ",
+            "status": "passed"
+          },
+          {
+            "name": "validate book.yaml の pages にあるページがないとエラー",
+            "status": "passed"
+          },
+          {
+            "name": "validate BOOK ID に使えない名前のディレクトリ（日本語・空白）は飛ばさずエラー",
+            "status": "passed"
+          },
+          {
+            "name": "validate page.html だけ欠けている・pages にないページ・book.yaml の id 不一致",
+            "status": "passed"
+          },
+          {
+            "name": "validate 禁止語（forbidden_terms）が books/・company-data/・shared/ にあるとエラー",
+            "status": "passed"
+          },
+          {
+            "name": "validate references/<source>/... のパスとしての出現は禁止語にしない",
+            "status": "passed"
+          },
+          {
+            "name": "validate references/ のパスの直後に続く日本語の文章は照合から外さない",
+            "status": "passed"
+          },
+          {
+            "name": "validate page.css で共通 CSS（styles）のクラス名をページの要素に使っていたら警告（共通パーシャルの上書きだけなら対象外）",
+            "status": "passed"
+          },
+          {
+            "name": "validate 事実の直書きは警告（{{...}} の中・コメントは対象外）",
+            "status": "passed"
+          },
+          {
+            "name": "validate 事実の直書きは全角・半角の違いがあっても検出する（NFKC）",
+            "status": "passed"
+          },
+          {
+            "name": "validate company-data の TODO は警告、--strict ではエラー",
+            "status": "passed"
+          },
+          {
+            "name": "validate company-data のスキーマ違反はエラー",
+            "status": "passed"
+          },
+          {
+            "name": "validate 実績の数値に出典がない・数値項目に単位つきの文字列を書くとエラー",
+            "status": "passed"
+          },
+          {
+            "name": "validate company-data の ID の参照: 存在しない学科・写真 ID はエラー、*-todo は警告（--strict ではエラー）",
+            "status": "passed"
+          },
+          {
+            "name": "validate ID の参照（course_id）は事実の直書きの照合に使わない",
+            "status": "passed"
+          },
+          {
+            "name": "validate company-data の全角英数字は警告（コメントとトップレベルの source は対象外）",
+            "status": "passed"
+          },
+          {
+            "name": "validate 紙面に出る実績の出典（metrics[].source・certifications[].source）の全角英数字も警告する",
+            "status": "passed"
+          },
+          {
+            "name": "validate 全角英数字の検査で対象外にするのは、資料のファイル名・パスを書く位置（トップレベルの source、photos[].file・logos[].file）だけ",
+            "status": "passed"
+          },
+          {
+            "name": "validate テンプレートの存在しないキーは試し合成でエラー（BOOK・ページ・キー名つき）",
+            "status": "passed"
+          },
+          {
+            "name": "validate 背景: 画像がない・参考資料の画像を使う はエラー、生成記録がない は警告",
+            "status": "passed"
+          },
+          {
+            "name": "validate 参考資料の画像をページの描画に使うと、書き方に関係なくエラー（img src・パーシャル・srcset・style・page.css・styles・asset）",
+            "status": "passed"
+          },
+          {
+            "name": "validate 参考資料: source.yaml がない・スキーマ違反・references.yaml の参照先がないとエラー",
+            "status": "passed"
+          },
+          {
+            "name": "validate 不明なオプションは終了コード 1",
+            "status": "passed"
+          }
+        ]
+      }
+    ]
+  }
+}
