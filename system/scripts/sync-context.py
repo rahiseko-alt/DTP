@@ -2,7 +2,10 @@
 """Read fresh merged context without changing the working checkout (stdlib only)."""
 import argparse
 import datetime
-import fcntl
+try:
+    import fcntl
+except ImportError:
+    fcntl = None
 import hashlib
 import json
 import os
@@ -65,6 +68,10 @@ def cache_dir(root):
 
 
 def main():
+    if hasattr(sys.stdout, 'reconfigure'):
+        sys.stdout.reconfigure(encoding='utf-8')
+    if hasattr(sys.stderr, 'reconfigure'):
+        sys.stderr.reconfigure(encoding='utf-8')
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--offline', action='store_true', help='Read cached remote ref; UNVERIFIED, nonready, exit 2')
     parser.add_argument('--source', help='Read a safe tracked code/data path at the fetched main SHA into source.txt')
@@ -78,11 +85,15 @@ def main():
     try:
         root = Path(git(Path.cwd(), 'rev-parse', '--show-toplevel', timeout=args.timeout).strip()).resolve()
         folder = cache_dir(root)
-        lock = os.open(folder / '.writer.lock', os.O_CREAT | os.O_RDWR | os.O_NOFOLLOW, 0o600)
-        try:
-            fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
-        except BlockingIOError:
-            raise RuntimeError('another context writer is running; retry after it finishes')
+        lock_path = folder / '.writer.lock'
+        if lock_path.is_symlink():
+            raise RuntimeError('lock file must not be a symlink')
+        lock = os.open(lock_path, os.O_CREAT | os.O_RDWR | getattr(os, 'O_NOFOLLOW', 0), 0o600)
+        if fcntl is not None:
+            try:
+                fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+            except BlockingIOError:
+                raise RuntimeError('another context writer is running; retry after it finishes')
         output = folder
         # Invalidate readiness before any network operation; old context is never a fresh result.
         atomic(output / 'manifest.json', json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')

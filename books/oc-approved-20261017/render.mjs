@@ -10,7 +10,7 @@ const book = path.dirname(fileURLToPath(import.meta.url));
 const input = process.env.DTP_ASSET_INPUT_HTML;
 if (!input) throw new Error("Set DTP_ASSET_INPUT_HTML to the rebuilt HTML");
 const root = path.resolve(book, "../..");
-const proof = path.relative(root, input + ".inputs.json");
+const proof = path.relative(root, input + ".inputs.json").replaceAll("\\", "/");
 const checked = () =>
   JSON.parse(
     execFileSync(
@@ -175,7 +175,7 @@ try {
   await fs.writeFile(receipt, JSON.stringify(snapshot, null, 2) + "\n", {
     flag: "wx",
   });
-  console.log("Render receipt: " + path.relative(root, receipt));
+  console.log("Render receipt: " + path.relative(root, receipt).replaceAll("\\", "/"));
   await fs.writeFile(
     path.join(output, "dom-check.json"),
     JSON.stringify(checks, null, 2) + "\n",

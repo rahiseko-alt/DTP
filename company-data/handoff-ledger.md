@@ -1,14 +1,16 @@
 # 引継ぎ台帳
 
-## 現在の引継ぎ：2026-10-18 DTP不足箇所の事実調査（Codex）
+## 現在の引継ぎ：2026-10-18 DTP不足箇所の事実調査＋段階修正（Step 1 完了）
 
-- 最新のユーザー指示は「不足箇所を全て表にする。見つからなければ捏造しない」。対策・実装はまだ行わない。別AIへ続きを渡すための保存。
-- 再開入口: [調査引継ぎREADME](../docs/audits/file-identity-20261018/README.md)、[不足箇所一覧](../docs/audits/file-identity-20261018/不足箇所一覧.md)。詳細・生ログ・保存manifestも同フォルダ。
-- branch `codex/audit-handoff-20261018`、main未マージ。調査対象mainは `4bb7c205a461b222fade10466cb4107ca61c0bfb`（PR #51マージ済み）。過去の「達成条件試験完了」を業務全体の運用合格と扱わない。
-- 確認結果は53行（実装/データ不整合10［A01–10］、業務未整備/制約32［B01–32］、文書7［C01–07］、環境/データ4［D01–04］）。バグ53件ではない。判断保留5（J01–05）、残余の未確認11群（U01–11）。
-- U01–11の追加調査（サブ4名＋独立スモーク実行）を実施し、テンプレート誤参照・曜日固定（A06）、入力更新後の`preview-layout-check` STALE残存（A07）、Windows/異ホストでの文字コード・`\`パス拒否・`fcntl`不在（A08）、20P結合スクリプトの固定パス依存（A09）、`pdftoppm`不在時の`TypeError`（A10）、写真検索境界（B28）、ロゴ278.4ppiと`photos-map`寸法乖離（B29）、全BOOK横断の写真重複参照・逆引き不在（B30）、`layer1-orders`単一ページ制約（B31）、ロック回復・抽出Poppler版境界（B32）、登録ID例示不足（C07）、標準BOOK保存PNG 150dpi不一致（D04）、およびGitHub ruleset 25323604の実API再照会を反映済み。残るU01–11は実機印刷・紙同意書・OS電源断など物理/人間依存の領域。対策実装には進まない。
-- チラシID `oc-approved-20261017`。別の医専パンフレットを代用しない。原本抽出画像0、差替実写真9種類、原本ページ2点。原本ページを部品と呼ばない。
-- 今回型検査成功、`asset:check --metadata-only` 成功、strict検査は15エラー90警告、doctorは既定失敗/既存Chromium指定成功。調査中アプリコード・原本・学校確定台帳は未変更。
+- 再開入口: [調査引継ぎREADME](../docs/audits/file-identity-20261018/README.md)、[不足箇所一覧](../docs/audits/file-identity-20261018/不足箇所一覧.md)、[U01-U11追加調査詳細](../docs/audits/file-identity-20261018/details/dtp-gap-u01-u11-followup.md)。
+- branch `codex/audit-handoff-20261018`、main未マージ。調査対象mainは `4bb7c205a461b222fade10466cb4107ca61c0bfb`（PR #51マージ済み）。
+- 調査完了（commit `f576e01`）：確認結果は53行（実装/データ不整合10［A01–10］、業務未整備/制約32［B01–32］、文書7［C01–07］、環境/データ4［D01–04］）、判断保留5（J01–05）、残余の未確認11群（U01–11）。
+- トークン上限対策として、人間の指示により1ステップずつ細かく修正・検証・commit/pushを進める運用に移行。
+- **完了した修正**:
+  - **Step 1（`A08` 解消）**: `system/scripts/read-ledger.py`（stdout/stderr UTF-8再設定）、`books/oc-approved-20261017/rebuild.py`（`read_text`/`write_text` の `encoding='utf-8'` 明示、画像相対パス・snapshot相対パスのPOSIX `/` 正規化）、`books/oc-approved-20261017/render.mjs`（proof/receipt相対パスのPOSIX `/` 正規化）、`system/scripts/sync-dtp-agent-configs.py`・`system/scripts/dtp-quality-gate.py`（`encoding='utf-8'` 明示）、`system/scripts/sync-context.py`（Windowsでの `fcntl` / `os.O_NOFOLLOW` 非存在時のフォールバック）を修正し、`books/oc-approved-20261017/parts/catalog.yaml` の `support-rebuild-py`・`support-render-mjs` ハッシュを更新。Windows上で `read-ledger.py`・`sync-dtp-agent-configs.py --check`・`rebuild.py`・`npm run asset:check` がエラー0で完走することを確認済み。
+- **次のステップ（Step 2）**:
+  - `system/scripts/lib/assets.ts` の明確な実装不整合（`A01` getのセレクタ検証、`A02` 画像デコード検査、`A05` checkでの出力鮮度検査、`A10` `pdftoppm` 不在時 `AssetError` 化）と単体テスト（`system/scripts/assets.test.ts`）の追加・検証。その後 Step 3（写真検索 `B28` 等）、Step 4（文書・旧ノート参照 `C01`〜`C07`）へ進む。
+- チラシID `oc-approved-20261017`。別の医専パンフレットを代用しない。原本・学校確定台帳（`company-data/ledger.md`）・写真は未変更。
 
 
 ## 2026-10-17 作業整理と成果物の保管（完了）

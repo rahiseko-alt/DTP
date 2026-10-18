@@ -9,19 +9,19 @@ snapshot = json.loads(subprocess.check_output([
     'build-inputs', '--root', str(ROOT), '--document', 'oc-approved-20261017'
 ], cwd=ROOT))
 inputs = {item['id']: ROOT/item['path'] for item in snapshot['inputs']}
-school = yaml.safe_load((ROOT/snapshot['external'][0]['path']).read_text())
+school = yaml.safe_load((ROOT/snapshot['external'][0]['path']).read_text(encoding='utf-8'))
 address = school['address']
 replacements = {key: school[key] for key in ('tel', 'email', 'corporation')}
 replacements.update(school=school['name'], english=school['name_en'],
     address='〒'+str(address['postal_code'])+' '+''.join(str(address[k]) for k in ('prefecture','city','line1')),
     access='・'.join(school['access']) if isinstance(school['access'],list) else school['access'])
-entries = json.loads(inputs['support-parts-photos-map-json'].read_text())['slots']
-text = inputs['layout-flyer-template'].read_text()
+entries = json.loads(inputs['support-parts-photos-map-json'].read_text(encoding='utf-8'))['slots']
+text = inputs['layout-flyer-template'].read_text(encoding='utf-8')
 for item in entries:
-    replacements[item['slot']] = os.path.relpath(inputs[item['slot']], BOOK/'source')
+    replacements[item['slot']] = os.path.relpath(inputs[item['slot']], BOOK/'source').replace('\\', '/')
     pos = item.get('crop', {}).get('object_position', '50% 50%')
     text = text.replace('src="@@'+item['slot']+'@@"', 'src="@@'+item['slot']+'@@" style="object-position:'+html.escape(pos,quote=True)+'"')
-copy = json.loads(inputs['editable-copy'].read_text())
+copy = json.loads(inputs['editable-copy'].read_text(encoding='utf-8'))
 def copy_value(match):
     value = copy
     for key in match.group(1).split('.'):
@@ -44,16 +44,16 @@ for old, asset_id in {
     **{'../parts/icons/'+name+'.svg':'support-parts-icons-'+name+'-svg'
        for name in ('consult','laptop','people','school')}
 }.items():
-    text = text.replace(old, os.path.relpath(inputs[asset_id], BOOK/'source'))
+    text = text.replace(old, os.path.relpath(inputs[asset_id], BOOK/'source').replace('\\', '/'))
 output = Path(os.environ.get('DTP_ASSET_BUILD_DIR', str(ROOT/'.cache/asset-rebuild'))).resolve()
 output.relative_to(ROOT)  # Input snapshots stay inside the repository.
 output.mkdir(parents=True,exist_ok=True)
 file = output/'flyer.html'
-file.write_text(text)
-snapshot['html'] = {'path':str(file.relative_to(ROOT)), 'sha256':hashlib.sha256(file.read_bytes()).hexdigest()}
+file.write_text(text, encoding='utf-8')
+snapshot['html'] = {'path':file.relative_to(ROOT).as_posix(), 'sha256':hashlib.sha256(file.read_bytes()).hexdigest()}
 proof = output/'flyer.html.inputs.json'
-proof.write_text(json.dumps(snapshot,ensure_ascii=False,indent=2)+'\n')
+proof.write_text(json.dumps(snapshot,ensure_ascii=False,indent=2)+'\n', encoding='utf-8')
 # Do not publish a build assembled while declarations/inputs were changing.
 subprocess.check_call(['node','--import','tsx',str(ROOT/'system/scripts/assets.ts'),
-    'build-check','--root',str(ROOT),'--snapshot',str(proof.relative_to(ROOT))],cwd=ROOT,stdout=subprocess.DEVNULL)
+    'build-check','--root',str(ROOT),'--snapshot',proof.relative_to(ROOT).as_posix()],cwd=ROOT,stdout=subprocess.DEVNULL)
 print(file)
