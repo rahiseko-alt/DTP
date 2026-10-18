@@ -446,7 +446,7 @@
       "external_inputs": [
         {
           "path": "company-data/facts/school.yaml",
-          "sha256": "341824979ce3eef4169fb1269649d54e31dbe16181c94393fa4dc3497bde7f3e"
+          "sha256": "1542374cce1534bf98a6d260e3e2542a6857d48da768c0415c71a363d8e043c2"
         }
       ]
     },
@@ -542,7 +542,7 @@
       "external_inputs": [
         {
           "path": "company-data/facts/school.yaml",
-          "sha256": "341824979ce3eef4169fb1269649d54e31dbe16181c94393fa4dc3497bde7f3e"
+          "sha256": "1542374cce1534bf98a6d260e3e2542a6857d48da768c0415c71a363d8e043c2"
         }
       ]
     },
@@ -638,7 +638,7 @@
       "external_inputs": [
         {
           "path": "company-data/facts/school.yaml",
-          "sha256": "341824979ce3eef4169fb1269649d54e31dbe16181c94393fa4dc3497bde7f3e"
+          "sha256": "1542374cce1534bf98a6d260e3e2542a6857d48da768c0415c71a363d8e043c2"
         }
       ]
     },

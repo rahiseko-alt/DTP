@@ -28,9 +28,15 @@
   - `system/assets/policy.json` に上記4資料を追加し、全5資料での `npm run asset:check`（exit 0、errors 0件）をパス。
   - `system/scripts/lib/assets.ts` を汎用化（`renderer: standard-book` 対応、動的ページ数・プレビュー数、`managed_roots` 判定および inScope スコープの整合化）。
   - `.github/workflows/asset-integrity.yml` での CI LFS pull glob を拡張し全管理資料を対象化（B21）。
-- **次の作業（Phase R4：Goal 4 確定台帳（ledger.md）と company-data/facts/ の同期・出力一貫性確立 / B09, D01, D04, A09）**:
-  - 人間の指示に基づき `company-data/ledger.md`（確定台帳）の確定事項と `company-data/facts/{school,courses}.yaml` を同期し、不要な `TODO` による `--strict` エラー（D01）を解消。
-  - `system/scripts/build_full_booklet_pdf.mjs` の過去セッション絶対パス（A09）をリポジトリ相対パス・CLI引数化。
+- **完了したフェーズ（Phase R4：Goal 4 確定台帳（ledger.md）と company-data/facts/ の同期・出力一貫性確立 / B09, D01, D04, A09）**:
+  - `company-data/ledger.md`（確定台帳）の確定事項と `company-data/facts/{school,courses,teachers,contacts,results}.yaml` を同期。開校前で実績未確定の項目を確定台帳と整合化し、不要なプレースホルダ `TODO` を整理して `npm run validate` をエラー0件で通過。
+  - `system/scripts/build_full_booklet_pdf.mjs` のマシン固有絶対パス（A09）を完全撤廃し、CLI引数（`--input-dir`, `--output`, `--work-dir`）およびリポジトリ相対パスへ安全に汎用化。
+  - `books/oc-approved-20261017/parts/catalog.yaml` の `school.yaml` 外部入力SHA-256を同期し、`npm run asset:check` は全5資料でエラー0件を達成。
+- **根本解決計画（Phase R1〜R4：Goal 1〜Goal 4）の全フェーズ完了**:
+  - Goal 1（Phase R1）：写真台帳の意味・人数・権利の完全正常化（PR #54）
+  - Goal 3（Phase R2）：通常編集・写真追加と `legacy-baseline` 更新の安全な接続（PR #55）
+  - Goal 2（Phase R3）：主要BOOKのカタログ管理化と俗称からの横断検索確立（PR #56）
+  - Goal 4（Phase R4）：確定台帳と `facts/` の同期、ビルドスクリプトのパス可搬化、カタログ整合性維持（本PR）
 - チラシID `oc-approved-20261017`。別の医専パンフレットを代用しない。原本・学校確定台帳（`company-data/ledger.md`）・写真は未変更。
 
 

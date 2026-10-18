@@ -7,7 +7,6 @@
 
 name: AIビジネス専門学校
 name_en: Artificial Intelligence Business College   # AO エントリーシートの表記
-short_name: "TODO: 略称を記入（使わない場合は行ごと削除）"
 corporation: 学校法人海鵬学園
 established: 2026   # 開校年（2026年4月開校。人間の指定 2026-10-11。学校法人海鵬学園の設立は2025年10月。出典: 海鵬グループ https://k-hou.com/ ）
 
@@ -16,10 +15,8 @@ address:
   prefecture: 愛知県
   city: 名古屋市中村区
   line1: 則武1丁目30-17
-  line2: "TODO: 建物名を記入（募集要項 V4・願書の住所には記載なし。なければ行ごと削除）"
 
 tel: 052-451-3821
-fax: "TODO: FAX 番号を記入（なければ行ごと削除）"
 email: ai-nyushi@jp-academy.net   # 学校公式サイトの連絡先（2026-10-11 人間の承認済み。窓口別は facts/contacts.yaml）
 url: https://kaihougakuen.my.canva.site/   # 募集要項 V4「お問い合わせ先」の HP
 

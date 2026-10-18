@@ -9,18 +9,9 @@ courses:
   # 出典（2026-10-08 記入）: 募集要項 V4「募集学科・入学定員」。2026-10-11 に定員・紹介文を学校公式サイトで更新（下記）。課程・コース・昼夜・学級数は facts/admissions.yaml の departments
   - id: international-business-ai
     name: 国際ビジネスAI科
-    name_en: "TODO: 学科名の英語表記を記入（なければ行ごと削除）"
     years: 2
     capacity: 30   # 入学定員。総定員は 60 人（公式サイト）
     description: AIを「使う」だけでなく「活かす」力を身につけ、ビジネスに新しい価値を生み出す人材を育成します。データ分析、翻訳AI、画像生成などを実践的に学び、AI時代の即戦力へ。
-    tags:
-      - "TODO: 分類タグを記入（なければ tags ごと削除）"
-    curriculum:
-      - "TODO: 主な授業科目を記入"
-    qualifications:
-      - "TODO: 目標とする資格を記入"
-    careers:
-      - "TODO: 目指す職種を記入"
 
   # 出典（2026-10-11 記入）: 学校公式サイト https://kaihougakuen.my.canva.site/ （人間の承認済み。AGENTS.md「Web で補わない」ルールの例外）
   # 入学定員 総合ビジネス科 29 人・総定員 58 人、2 学科の合計は入学定員 59 人・総定員 118 人。課程は商業実務専門課程、修業年限 2 年
