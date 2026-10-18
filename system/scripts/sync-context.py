@@ -14,7 +14,12 @@ import subprocess
 import sys
 import tempfile
 
-NOTES = ['docs/coordination/codex.md', 'docs/coordination/claude.md']
+NOTES = [
+    'company-data/ledger.md',
+    'company-data/handoff-ledger.md',
+    'company-data/history-ledger.md',
+    'company-data/rules-ledger.md',
+]
 REQUIRED = ['company-data/facts/school.yaml'] + NOTES
 GENERATED = ['context.md', 'state-context.md', 'handoff.md', 'source.txt']
 
