@@ -1,0 +1,30 @@
+
+> publishing-studio@0.1.0 doctor
+> tsx system/scripts/doctor.ts
+
+publishing-studio 環境診断（root: /workspace/DTP-asset-identity）
+
+状態  項目                           詳細
+----  -----------------------------  --------------------
+OK    Node.js                        v24.19.0（必要: 22 以上）
+OK    playwright パッケージ          1.56.1（package.json: 1.56.1）
+OK    @fontsource フォント           noto-sans-jp 5.3.0（400/500/700/900）, noto-serif-jp 5.3.0（400/700）
+NG    Chromium 起動 (Playwright)     browserType.launch: Executable doesn't exist at /home/agent/.cache/ms-playwright/chromium_headless_shell-1194/chrome-linux/headless_shell
+NG    日本語描画: Noto Sans JP       Chromium が起動できないため未確認
+NG    日本語描画: Noto Serif JP      Chromium が起動できないため未確認
+OK    システム日本語フォント         15 ファミリー（Noto Sans CJK HK, Noto Sans CJK JP, Noto Sans CJK KR など）
+OK    sharp（画像処理）              sharp 0.35.5 / libvips 8.18.7
+OK    git-lfs                        git-lfs/3.6.1 (GitHub; linux amd64; go 1.24.4)
+WARN  LFS 実体                       655 件中 628 件がポインタのまま
+OK    poppler（pdfinfo / pdftoppm）  pdftoppm version 26.05.0
+
+対処:
+  - Chromium 起動 (Playwright): npx playwright install chromium を実行してください（共有ライブラリ不足なら sudo npx playwright install-deps chromium）。取得できない環境では、手元の Chromium の実行ファイルを STUDIO_CHROMIUM_PATH に指定できます
+  - LFS 実体: git lfs pull を実行してください
+
+doctor: OK 7 / WARN 1 / NG 3 — 致命的な問題があります: Chromium 起動 (Playwright), 日本語描画: Noto Sans JP, 日本語描画: Noto Serif JP
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
