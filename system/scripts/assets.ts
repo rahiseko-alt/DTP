@@ -66,14 +66,17 @@ try {
       media: v.media,
       revision: v.revision,
     });
-  } else if (cmd === "get")
-    result = await getAsset(
-      root,
-      required("document"),
-      required("id"),
-      v.revision,
-    );
-  else if (cmd === "check") {
+  } else if (cmd === "get") {
+    if (v.role && !roles.includes(v.role as Role)) throw Error("Invalid role");
+    if (v.media && !["image", "pdf", "text"].includes(v.media))
+      throw Error("Invalid media");
+    result = await getAsset(root, required("document"), required("id"), {
+      revision: v.revision,
+      variant: v.variant,
+      role: v.role as Role | undefined,
+      media: v.media as "image" | "pdf" | "text" | undefined,
+    });
+  } else if (cmd === "check") {
     result = await checkAssets(root, { metadataOnly: v["metadata-only"] });
     if ((result as { errors: string[] }).errors.length) process.exitCode = 1;
   } else if (cmd === "build-inputs")
