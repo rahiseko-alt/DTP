@@ -1,0 +1,41 @@
+schema_version: 1
+id: admissions-guide-2027
+title: 2027年度募集要項・出願書類
+aliases:
+  - 募集要項
+  - 募集要項2027
+  - 願書冊子
+renderer: standard-book
+catalog: books/admissions-guide-2027/parts/catalog.yaml
+managed_roots:
+  - books/admissions-guide-2027/parts
+original_sha256: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+evidence:
+  filename: admissions-guide-2027.pdf
+  pages: 24
+  decision: 2027年度募集要項・出願書類（A4縦・24ページ中綴じ冊子、募集学科・出願資格・選考日程・学費・出願書類一式）。
+  previews:
+    - books/admissions-guide-2027/output/png/page_001.png
+    - books/admissions-guide-2027/output/png/page_002.png
+    - books/admissions-guide-2027/output/png/page_003.png
+    - books/admissions-guide-2027/output/png/page_004.png
+    - books/admissions-guide-2027/output/png/page_005.png
+    - books/admissions-guide-2027/output/png/page_006.png
+    - books/admissions-guide-2027/output/png/page_007.png
+    - books/admissions-guide-2027/output/png/page_008.png
+    - books/admissions-guide-2027/output/png/page_009.png
+    - books/admissions-guide-2027/output/png/page_010.png
+    - books/admissions-guide-2027/output/png/page_011.png
+    - books/admissions-guide-2027/output/png/page_012.png
+    - books/admissions-guide-2027/output/png/page_013.png
+    - books/admissions-guide-2027/output/png/page_014.png
+    - books/admissions-guide-2027/output/png/page_015.png
+    - books/admissions-guide-2027/output/png/page_016.png
+    - books/admissions-guide-2027/output/png/page_017.png
+    - books/admissions-guide-2027/output/png/page_018.png
+    - books/admissions-guide-2027/output/png/page_019.png
+    - books/admissions-guide-2027/output/png/page_020.png
+    - books/admissions-guide-2027/output/png/page_021.png
+    - books/admissions-guide-2027/output/png/page_022.png
+    - books/admissions-guide-2027/output/png/page_023.png
+    - books/admissions-guide-2027/output/png/page_024.png

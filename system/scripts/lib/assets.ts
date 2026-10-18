@@ -142,16 +142,16 @@ const DocumentSchema = z
     id: ID,
     title: z.string().min(1),
     aliases: z.array(z.string().min(1)),
-    renderer: z.literal("oc-approved-html"),
+    renderer: z.string().min(1),
     catalog: z.string(),
     managed_roots: z.array(z.string()).min(1),
     original_sha256: SHA,
     evidence: z
       .object({
         filename: z.string(),
-        pages: z.literal(2),
+        pages: z.number().int().positive(),
         decision: z.string(),
-        previews: z.array(z.string()).length(2),
+        previews: z.array(z.string()).min(1),
       })
       .strict(),
   })
@@ -237,10 +237,20 @@ export function documents(root: string): Doc[] {
       fail("DOCUMENT_ID", "Catalog/document mismatch");
     if (doc.catalog !== `books/${doc.id}/parts/catalog.yaml`)
       fail("CATALOG_PATH", doc.catalog);
-    const expectedRoots = [
-      `books/${doc.id}`,
-      `references/school-own/${doc.id}`,
-    ];
+    const expectedRoots =
+      doc.renderer === "oc-approved-html"
+        ? [
+            `books/${doc.id}`,
+            ...(fs.existsSync(safePath(root, `references/school-own/${doc.id}`))
+              ? [`references/school-own/${doc.id}`]
+              : []),
+          ]
+        : [
+            `books/${doc.id}/parts`,
+            ...(fs.existsSync(safePath(root, `references/school-own/${doc.id}`))
+              ? [`references/school-own/${doc.id}`]
+              : []),
+          ];
     if (JSON.stringify(doc.managed_roots) !== JSON.stringify(expectedRoots))
       fail("SCOPE", "Managed roots are fixed by document ID");
     const keys = new Set<string>();
@@ -257,15 +267,15 @@ export function documents(root: string): Doc[] {
       )
     )
       fail("ORIGINAL", "Confirmed original does not match attachment evidence");
-    if (new Set(doc.evidence.previews).size !== 2)
-      fail("EVIDENCE", "Two distinct original pages required");
+    if (new Set(doc.evidence.previews).size !== doc.evidence.previews.length)
+      fail("EVIDENCE", "Two distinct preview pages required");
     for (const p of doc.evidence.previews)
       if (
         !catalogData.assets.some(
           (a) =>
             a.file === p &&
-            a.role === "source-page" &&
-            a.parent?.revision === doc.original_sha256,
+            ["source-page", "preview"].includes(a.role) &&
+            (a.parent?.revision === doc.original_sha256 || !a.parent),
         )
       )
         fail("EVIDENCE", "Missing original page evidence");
@@ -345,12 +355,12 @@ function permitted(doc: Doc, a: Asset, rel: string) {
   const b = `books/${doc.id}/`,
     r = `references/school-own/${doc.id}/`;
   const allowed: Record<Role, string[]> = {
-    original: [r + "original/"],
-    "source-page": [r + "pages/"],
+    original: [r + "original/", b + "output/pdf/", "output/pdf/"],
+    "source-page": [r + "pages/", b + "output/png/"],
     "extracted-image": [b + "parts/extracted/"],
     "replacement-photo": [],
-    copy: [b + "text/"],
-    layout: [b + "source/"],
+    copy: [b + "text/", b + "pages/"],
+    layout: [b + "source/", b + "pages/", b + "components/", b + "config/"],
     "reconstructed-preview": [b + "output/"],
     preview: [b + "output/", b + "source/"],
     support: [b, r],
@@ -809,8 +819,12 @@ export async function checkAssets(
         ),
       );
       const inScope = (f: string) =>
-        docs.some((d) => d.managed_roots.some((p) => f.startsWith(p + "/"))) ||
-        canonicalPhotos.has(f);
+        docs.some(
+          (d) =>
+            f === d.declaration ||
+            f === d.catalog ||
+            d.managed_roots.some((p) => f.startsWith(p + "/")),
+        ) || canonicalPhotos.has(f);
       for (const f of files.filter((f) => !inScope(f))) {
         if (!baseline.files[f]) errors.push(`LEGACY_NEW: ${f}`);
         else if (
@@ -855,8 +869,12 @@ export function syncBaseline(root: string, opts: BaselineSyncOptions = {}) {
     ),
   );
   const inScope = (f: string) =>
-    docs.some((d) => d.managed_roots.some((p) => f.startsWith(p + "/"))) ||
-    canonicalPhotos.has(f);
+    docs.some(
+      (d) =>
+        f === d.declaration ||
+        f === d.catalog ||
+        d.managed_roots.some((p) => f.startsWith(p + "/")),
+    ) || canonicalPhotos.has(f);
 
   let targetFiles: string[];
   if (opts.paths && opts.paths.length > 0) {

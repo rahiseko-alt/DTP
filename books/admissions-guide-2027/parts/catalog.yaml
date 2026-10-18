@@ -1,0 +1,500 @@
+schema_version: 1
+document: admissions-guide-2027
+current:
+  approved-original: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+  preview-page-001: beb64a18db51b1bf97db16ba15f74af9339576b8df2791e5321a744e9e3a4402
+  preview-page-002: 17c9c6da5345a2d3499ee902abaf756d1d250274719b4f00c51646acccb05925
+  preview-page-003: a61c8fcd0232c19f632453cad01d565a566dfbe2882093647d9a77788bc67ee7
+  preview-page-004: 0f014bdf282aa1d0ea4d81cc2c175813f84ff5a9b5069c6ab24e09ea9c691a62
+  preview-page-005: 9b7be3a0c1c8536bf1a0711507066d0b367515a36d09e7091eb83ba2238f320b
+  preview-page-006: 637e94e2247fd38c4f452f2ad694632edccc17fd398b55f1882e834b7147d91a
+  preview-page-007: 8a9070a280a28af60c6eb3b2efdf7d693380210b0521de090e84780aaf63e1ee
+  preview-page-008: bc778af31922ce3a724cf44cb69997e1a0e8a66637fca3d28bb47efd88945659
+  preview-page-009: 09ce4376aedb9ec82d2198ebe91577adf5ed0e7f23cb2248a448dcc64d14860e
+  preview-page-010: defc9c2cb5eed3b570b00e606fcd2a899588f6d698d92f1e47ba28ea86870c8f
+  preview-page-011: c20d038aefc0efb75b74b3f5de4b06747a65266212bb0d8a2069a9acad3fb436
+  preview-page-012: af419c00badca2131ffa37645d80116e53177aba96099a2410685713c452b6a4
+  preview-page-013: 5e13581d6e37487e1872b9293b66d6b0340db409a70c8f0369fabad4e7f10259
+  preview-page-014: d146ae8ce61e286b38172e60e0d745da82a3455f5bfe2f2c9ff052ffee4e6f9f
+  preview-page-015: 0932324bfbfbd3a8bb11a6b24bc93d1622c13981d151ef7b542c4af6c1e89bd8
+  preview-page-016: de787e25aaa57c9737dec817788115949ecb7014adfab8961aa0c68d8bb30c5a
+  preview-page-017: 027273f1f825e15248b0881749982bb92bffbbea028977e51209ea7b94187bc4
+  preview-page-018: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+  preview-page-019: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+  preview-page-020: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+  preview-page-021: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+  preview-page-022: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+  preview-page-023: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+  preview-page-024: f5e2a87a001910f80f599869d5deb07c39cf0b875a5d4f4ce21b1066fd6e97a8
+  student-dsc-1164: a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633
+  student-img-5238: 256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696
+  student-img-5069: f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6
+  student-img-5119: faa5bd59dc9a3519dc29e01bdd2046c2bbcdfe331114ef0c5ccec5cab90eca09
+  student-img-3289: 1814974f906f5870fb01c1bf296babc60a86f6860c3c55b7bf91c2858a5313b6
+  student-dsc-1171: cef9d1e6dcb033e57ebce3bbc6a8fcf49fbc646e3f99c470603439d026ba5a82
+  student-img-5493: 503f3b6999f1499f4b09a92af7663bbf54c0353a625464995bf218f366096364
+assets:
+  - id: approved-original
+    variant: standard-render
+    role: original
+    media: pdf
+    file: books/admissions-guide-2027/output/pdf/admissions-guide-2027.pdf
+    revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    sha256: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    size: 23572507
+    relation: root
+    storage: canonical
+    confirmation: verified
+    built_from: []
+    external_inputs: []
+  - id: preview-page-001
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_001.png
+    revision: beb64a18db51b1bf97db16ba15f74af9339576b8df2791e5321a744e9e3a4402
+    sha256: beb64a18db51b1bf97db16ba15f74af9339576b8df2791e5321a744e9e3a4402
+    size: 3188952
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-002
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_002.png
+    revision: 17c9c6da5345a2d3499ee902abaf756d1d250274719b4f00c51646acccb05925
+    sha256: 17c9c6da5345a2d3499ee902abaf756d1d250274719b4f00c51646acccb05925
+    size: 535160
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-003
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_003.png
+    revision: a61c8fcd0232c19f632453cad01d565a566dfbe2882093647d9a77788bc67ee7
+    sha256: a61c8fcd0232c19f632453cad01d565a566dfbe2882093647d9a77788bc67ee7
+    size: 264268
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-004
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_004.png
+    revision: 0f014bdf282aa1d0ea4d81cc2c175813f84ff5a9b5069c6ab24e09ea9c691a62
+    sha256: 0f014bdf282aa1d0ea4d81cc2c175813f84ff5a9b5069c6ab24e09ea9c691a62
+    size: 1373899
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-005
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_005.png
+    revision: 9b7be3a0c1c8536bf1a0711507066d0b367515a36d09e7091eb83ba2238f320b
+    sha256: 9b7be3a0c1c8536bf1a0711507066d0b367515a36d09e7091eb83ba2238f320b
+    size: 614116
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-006
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_006.png
+    revision: 637e94e2247fd38c4f452f2ad694632edccc17fd398b55f1882e834b7147d91a
+    sha256: 637e94e2247fd38c4f452f2ad694632edccc17fd398b55f1882e834b7147d91a
+    size: 264523
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-007
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_007.png
+    revision: 8a9070a280a28af60c6eb3b2efdf7d693380210b0521de090e84780aaf63e1ee
+    sha256: 8a9070a280a28af60c6eb3b2efdf7d693380210b0521de090e84780aaf63e1ee
+    size: 492096
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-008
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_008.png
+    revision: bc778af31922ce3a724cf44cb69997e1a0e8a66637fca3d28bb47efd88945659
+    sha256: bc778af31922ce3a724cf44cb69997e1a0e8a66637fca3d28bb47efd88945659
+    size: 1545491
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-009
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_009.png
+    revision: 09ce4376aedb9ec82d2198ebe91577adf5ed0e7f23cb2248a448dcc64d14860e
+    sha256: 09ce4376aedb9ec82d2198ebe91577adf5ed0e7f23cb2248a448dcc64d14860e
+    size: 172039
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-010
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_010.png
+    revision: defc9c2cb5eed3b570b00e606fcd2a899588f6d698d92f1e47ba28ea86870c8f
+    sha256: defc9c2cb5eed3b570b00e606fcd2a899588f6d698d92f1e47ba28ea86870c8f
+    size: 82522
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-011
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_011.png
+    revision: c20d038aefc0efb75b74b3f5de4b06747a65266212bb0d8a2069a9acad3fb436
+    sha256: c20d038aefc0efb75b74b3f5de4b06747a65266212bb0d8a2069a9acad3fb436
+    size: 156898
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-012
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_012.png
+    revision: af419c00badca2131ffa37645d80116e53177aba96099a2410685713c452b6a4
+    sha256: af419c00badca2131ffa37645d80116e53177aba96099a2410685713c452b6a4
+    size: 97272
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-013
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_013.png
+    revision: 5e13581d6e37487e1872b9293b66d6b0340db409a70c8f0369fabad4e7f10259
+    sha256: 5e13581d6e37487e1872b9293b66d6b0340db409a70c8f0369fabad4e7f10259
+    size: 201609
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-014
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_014.png
+    revision: d146ae8ce61e286b38172e60e0d745da82a3455f5bfe2f2c9ff052ffee4e6f9f
+    sha256: d146ae8ce61e286b38172e60e0d745da82a3455f5bfe2f2c9ff052ffee4e6f9f
+    size: 98461
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-015
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_015.png
+    revision: 0932324bfbfbd3a8bb11a6b24bc93d1622c13981d151ef7b542c4af6c1e89bd8
+    sha256: 0932324bfbfbd3a8bb11a6b24bc93d1622c13981d151ef7b542c4af6c1e89bd8
+    size: 254770
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-016
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_016.png
+    revision: de787e25aaa57c9737dec817788115949ecb7014adfab8961aa0c68d8bb30c5a
+    sha256: de787e25aaa57c9737dec817788115949ecb7014adfab8961aa0c68d8bb30c5a
+    size: 91630
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-017
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_017.png
+    revision: 027273f1f825e15248b0881749982bb92bffbbea028977e51209ea7b94187bc4
+    sha256: 027273f1f825e15248b0881749982bb92bffbbea028977e51209ea7b94187bc4
+    size: 197477
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-018
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_018.png
+    revision: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+    sha256: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+    size: 10749
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-019
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_019.png
+    revision: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+    sha256: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+    size: 10749
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-020
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_020.png
+    revision: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+    sha256: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+    size: 10749
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-021
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_021.png
+    revision: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+    sha256: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+    size: 10749
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-022
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_022.png
+    revision: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+    sha256: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+    size: 10749
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-023
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_023.png
+    revision: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+    sha256: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+    size: 10749
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: preview-page-024
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/admissions-guide-2027/output/png/page_024.png
+    revision: f5e2a87a001910f80f599869d5deb07c39cf0b875a5d4f4ce21b1066fd6e97a8
+    sha256: f5e2a87a001910f80f599869d5deb07c39cf0b875a5d4f4ce21b1066fd6e97a8
+    size: 2505607
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    external_inputs: []
+  - id: student-dsc-1164
+    variant: standard-render
+    role: replacement-photo
+    media: image
+    photo_ref: student-dsc-1164
+    revision: a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633
+    sha256: a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633
+    size: 4707440
+    relation: uses
+    storage: canonical
+    confirmation: verified
+    built_from: []
+    external_inputs: []
+  - id: student-img-5238
+    variant: standard-render
+    role: replacement-photo
+    media: image
+    photo_ref: student-img-5238
+    revision: 256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696
+    sha256: 256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696
+    size: 2454424
+    relation: uses
+    storage: canonical
+    confirmation: verified
+    built_from: []
+    external_inputs: []
+  - id: student-img-5069
+    variant: standard-render
+    role: replacement-photo
+    media: image
+    photo_ref: student-img-5069
+    revision: f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6
+    sha256: f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6
+    size: 2676415
+    relation: uses
+    storage: canonical
+    confirmation: verified
+    built_from: []
+    external_inputs: []
+  - id: student-img-5119
+    variant: standard-render
+    role: replacement-photo
+    media: image
+    photo_ref: student-img-5119
+    revision: faa5bd59dc9a3519dc29e01bdd2046c2bbcdfe331114ef0c5ccec5cab90eca09
+    sha256: faa5bd59dc9a3519dc29e01bdd2046c2bbcdfe331114ef0c5ccec5cab90eca09
+    size: 2116850
+    relation: uses
+    storage: canonical
+    confirmation: verified
+    built_from: []
+    external_inputs: []
+  - id: student-img-3289
+    variant: standard-render
+    role: replacement-photo
+    media: image
+    photo_ref: student-img-3289
+    revision: 1814974f906f5870fb01c1bf296babc60a86f6860c3c55b7bf91c2858a5313b6
+    sha256: 1814974f906f5870fb01c1bf296babc60a86f6860c3c55b7bf91c2858a5313b6
+    size: 2281283
+    relation: uses
+    storage: canonical
+    confirmation: verified
+    built_from: []
+    external_inputs: []
+  - id: student-dsc-1171
+    variant: standard-render
+    role: replacement-photo
+    media: image
+    photo_ref: student-dsc-1171
+    revision: cef9d1e6dcb033e57ebce3bbc6a8fcf49fbc646e3f99c470603439d026ba5a82
+    sha256: cef9d1e6dcb033e57ebce3bbc6a8fcf49fbc646e3f99c470603439d026ba5a82
+    size: 5035924
+    relation: uses
+    storage: canonical
+    confirmation: verified
+    built_from: []
+    external_inputs: []
+  - id: student-img-5493
+    variant: standard-render
+    role: replacement-photo
+    media: image
+    photo_ref: student-img-5493
+    revision: 503f3b6999f1499f4b09a92af7663bbf54c0353a625464995bf218f366096364
+    sha256: 503f3b6999f1499f4b09a92af7663bbf54c0353a625464995bf218f366096364
+    size: 1893701
+    relation: uses
+    storage: canonical
+    confirmation: verified
+    built_from: []
+    external_inputs: []

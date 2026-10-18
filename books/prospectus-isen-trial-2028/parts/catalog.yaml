@@ -1,0 +1,48 @@
+schema_version: 1
+document: prospectus-isen-trial-2028
+current:
+  approved-original: 1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37
+  preview-page-001: a843ad620b2982c3da72139096bf5fbe023e4e527e4655ef16dd2832711b4365
+  student-img-5076: 0ca846c9aeca9c56b254c7abf1a66efe99bd126f4dfcc91d5b1d296a6feca26c
+assets:
+  - id: approved-original
+    variant: standard-render
+    role: original
+    media: pdf
+    file: output/pdf/AIビジネス専門学校_学校案内_2028_白版_20P.pdf
+    revision: 1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37
+    sha256: 1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37
+    size: 186422025
+    relation: root
+    storage: canonical
+    confirmation: verified
+    built_from: []
+    external_inputs: []
+  - id: preview-page-001
+    variant: standard-render
+    role: preview
+    media: image
+    file: books/prospectus-isen-trial-2028/output/png/page_001.png
+    revision: a843ad620b2982c3da72139096bf5fbe023e4e527e4655ef16dd2832711b4365
+    sha256: a843ad620b2982c3da72139096bf5fbe023e4e527e4655ef16dd2832711b4365
+    size: 2495476
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from:
+      - id: approved-original
+        revision: 1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37
+    external_inputs: []
+  - id: student-img-5076
+    variant: standard-render
+    role: replacement-photo
+    media: image
+    photo_ref: student-img-5076
+    revision: 0ca846c9aeca9c56b254c7abf1a66efe99bd126f4dfcc91d5b1d296a6feca26c
+    sha256: 0ca846c9aeca9c56b254c7abf1a66efe99bd126f4dfcc91d5b1d296a6feca26c
+    size: 2721440
+    relation: uses
+    storage: canonical
+    confirmation: verified
+    built_from: []
+    external_inputs: []

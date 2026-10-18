@@ -1,0 +1,19 @@
+schema_version: 1
+id: avatar-oc-2028
+title: アバター体験オープンキャンパスチラシ
+aliases:
+  - アバターチラシ
+  - アバター体験OCチラシ
+  - アバターOC
+renderer: standard-book
+catalog: books/avatar-oc-2028/parts/catalog.yaml
+managed_roots:
+  - books/avatar-oc-2028/parts
+original_sha256: 5353c7944fbe6829c7a1746ad365229d54d65ec756973a842a8af5548673a469
+evidence:
+  filename: avatar-oc-2028.pdf
+  pages: 2
+  decision: A4両面チラシ初版（表：主役アバターと開催案内、裏：4ステップ体験・実写真コラージュ・学費・相談案内）。
+  previews:
+    - books/avatar-oc-2028/output/png/page_001.png
+    - books/avatar-oc-2028/output/png/page_002.png
