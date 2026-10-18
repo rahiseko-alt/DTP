@@ -1,15 +1,18 @@
 # 引継ぎ台帳
 
-## 現在の引継ぎ：2026-10-18 DTP不足箇所の事実調査＋段階修正（Step 1 完了）
+## 現在の引継ぎ：2026-10-18 DTP不足箇所の事実調査＋段階修正（Step 1 完了・実装計画書作成済）
 
-- 再開入口: [調査引継ぎREADME](../docs/audits/file-identity-20261018/README.md)、[不足箇所一覧](../docs/audits/file-identity-20261018/不足箇所一覧.md)、[U01-U11追加調査詳細](../docs/audits/file-identity-20261018/details/dtp-gap-u01-u11-followup.md)。
+- 再開入口: **[段階的実装計画書（Step 2〜Step 6）](../docs/audits/file-identity-20261018/implementation-plan-steps.md)**、[調査引継ぎREADME](../docs/audits/file-identity-20261018/README.md)、[不足箇所一覧](../docs/audits/file-identity-20261018/不足箇所一覧.md)、[U01-U11追加調査詳細](../docs/audits/file-identity-20261018/details/dtp-gap-u01-u11-followup.md)。
 - branch `codex/audit-handoff-20261018`、main未マージ。調査対象mainは `4bb7c205a461b222fade10466cb4107ca61c0bfb`（PR #51マージ済み）。
 - 調査完了（commit `f576e01`）：確認結果は53行（実装/データ不整合10［A01–10］、業務未整備/制約32［B01–32］、文書7［C01–07］、環境/データ4［D01–04］）、判断保留5（J01–05）、残余の未確認11群（U01–11）。
-- トークン上限対策として、人間の指示により1ステップずつ細かく修正・検証・commit/pushを進める運用に移行。
+- トークン上限対策として、人間の指示により1ステップずつ細かく修正・検証・commit/pushを進める運用に移行。別モデル（Gemini 3.8等）でも迷わず実装・単体テスト・スモークテストを完走できるBefore/Afterコード付き実装計画書を `docs/audits/file-identity-20261018/implementation-plan-steps.md` に保存済み。
 - **完了した修正**:
-  - **Step 1（`A08` 解消）**: `system/scripts/read-ledger.py`（stdout/stderr UTF-8再設定）、`books/oc-approved-20261017/rebuild.py`（`read_text`/`write_text` の `encoding='utf-8'` 明示、画像相対パス・snapshot相対パスのPOSIX `/` 正規化）、`books/oc-approved-20261017/render.mjs`（proof/receipt相対パスのPOSIX `/` 正規化）、`system/scripts/sync-dtp-agent-configs.py`・`system/scripts/dtp-quality-gate.py`（`encoding='utf-8'` 明示）、`system/scripts/sync-context.py`（Windowsでの `fcntl` / `os.O_NOFOLLOW` 非存在時のフォールバック）を修正し、`books/oc-approved-20261017/parts/catalog.yaml` の `support-rebuild-py`・`support-render-mjs` ハッシュを更新。Windows上で `read-ledger.py`・`sync-dtp-agent-configs.py --check`・`rebuild.py`・`npm run asset:check` がエラー0で完走することを確認済み。
-- **次のステップ（Step 2）**:
-  - `system/scripts/lib/assets.ts` の明確な実装不整合（`A01` getのセレクタ検証、`A02` 画像デコード検査、`A05` checkでの出力鮮度検査、`A10` `pdftoppm` 不在時 `AssetError` 化）と単体テスト（`system/scripts/assets.test.ts`）の追加・検証。その後 Step 3（写真検索 `B28` 等）、Step 4（文書・旧ノート参照 `C01`〜`C07`）へ進む。
+  - **Step 1（`A08` 解消、commit `f61e9c6`）**: `system/scripts/read-ledger.py`、`books/oc-approved-20261017/rebuild.py`、`books/oc-approved-20261017/render.mjs`、`system/scripts/sync-dtp-agent-configs.py`、`system/scripts/dtp-quality-gate.py`、`system/scripts/sync-context.py` を修正し、`books/oc-approved-20261017/parts/catalog.yaml` のハッシュを更新。Windows上でエラー0完走を確認済み。
+- **次のステップ（`docs/audits/file-identity-20261018/implementation-plan-steps.md` に従って1ステップずつ実行・commit/pushすること）**:
+  - **Step 2**: `system/scripts/assets.ts`・`system/scripts/lib/assets.ts` の不整合修正（`A01`, `A02`, `A04`, `A05`, `A10`, `B32`）＋単体テスト・スモークテスト
+  - **Step 3**: `system/scripts/lib/photo-search.ts`・`photo-tags.ts` の境界条件修正（`B28`）＋単体テスト・スモークテスト
+  - **Step 4**: `books/oc-approved-20261017/source/flyer.template.html`・`rebuild.py`・`parts/catalog.yaml` の修正（`A06`, `A07`）＋単体テスト・スモークテスト
+  - **Step 5**: `system/scripts/sync-context.py`・`system/assets/README.md`・`AGENTS.md`・`system/prompts/*.md` の4台帳・コマンド表整合化（`C01`, `C06`, `C07`）＋スモークテスト
 - チラシID `oc-approved-20261017`。別の医専パンフレットを代用しない。原本・学校確定台帳（`company-data/ledger.md`）・写真は未変更。
 
 
