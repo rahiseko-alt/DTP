@@ -98,6 +98,7 @@ S・開始・再開時は `python3 system/scripts/read-ledger.py` で確定台�
 | `npm run asset:build-check -- --snapshot <file>` | 再構築出力の入力整合性と鮮度を検証 |
 | `npm run asset:recover -- --catalog-sha256 <sha>` | 中断・クラッシュした登録トランザクションの安全回復 |
 | `npm run asset:check` | 全管理済み資料のメタデータ・実体・鮮度・ベースライン検査 |
+| `npm run asset:baseline-sync [-- --paths <path...>]` | 通常制作・写真追加後のレガシーベースライン安全同期 |
 
 よく使う例:
 

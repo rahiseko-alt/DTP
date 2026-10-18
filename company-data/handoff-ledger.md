@@ -10,7 +10,6 @@
   - **Step 3（`B28` 解消、commit `67a541c`＋`5f95c2f`）**: `photo:search` の `--limit` 先行切り詰め、欠損ファイルの `missing_files` 記録とCLI警告、`tags.yaml` の日本語 `label` 検索対応。
   - **Step 4（`A06`, `A07` 解消、commit `e5436d6`）**: `flyer.template.html` の `@@copy:back.flow.3.body@@` 修正、`rebuild.py` の動的曜日バッジ対応、`catalog.yaml` の `preview-layout-check` の `role: support` 化。
   - **Step 5（`C01`, `C07` 解消、commit `0b0cc76`＋`5f95c2f`）**: `README.md:21`・`sync-context.py`・`sync_context_test.py`・`system/prompts/README.md` の4台帳整合化、`system/assets/README.md` の `--id editable-copy` 修正、`AGENTS.md` §5 への `asset:*` 10コマンド追記。
-- **最優先の再開入口**: **[DTP根本解決計画書（Phase R1〜R4）](../docs/audits/file-identity-20261018/resolution-plan.md)**、[段階的実装計画書（Step 1〜5 完了済）](../docs/audits/file-identity-20261018/implementation-plan-steps.md)、[不足箇所一覧](../docs/audits/file-identity-20261018/不足箇所一覧.md)、[調査引継ぎREADME](../docs/audits/file-identity-20261018/README.md)。
 - **完了したフェーズ（Phase R1：Goal 1 写真台帳の意味・人数・権利の完全正常化）**:
   - `A03` 人数誤記3件訂正（`student-dsc-1171`: 7人, `student-dsc-1176`: 5人, `student-dsc-1248`: 6人）。
   - `B04` 教職員3件のキャプション明記（`student-img-3288, 3289, 3294`：「入学式で教職員から書類を受け取る新入生」）。
@@ -19,9 +18,12 @@
   - `B02` 授業・学習写真12点（`classroom` 全点）へ `lesson` タグを追加（`--tag 授業` で12点一致）。
   - `B03` 複数人写真11点（2人以上）へ `group` タグを追加。
   - `B04` 在校生被写体63点へ `student` タグを追加（`--tag 学生,集合` で38点一致）。
-  - `legacy-baseline.json` の `company-data/photos/photos.yaml` ハッシュを更新し `npm run asset:check` / `validate` ともにエラー0件・実検索実証完了。
-- **次の作業（Phase R2：Goal 3 通常制作・写真追加が LEGACY_CHANGED で止まらないようにする / B01, B30）**:
-  - `npm run asset:baseline-sync` コマンドの実装、および全BOOK横断での写真同意状態検査の実装。
+  - `legacy-baseline.json` の `company-data/photos/photos.yaml` ハッシュを更新し PR #54 で main マージ完了。
+- **完了したフェーズ（Phase R2：Goal 3 通常制作・写真追加と legacy-baseline 更新の接続 / B01, B24, B30）**:
+  - `B01, B24` `npm run asset:baseline-sync [-- --paths <path...>]` を実装。意図して編集・追加・削除されたファイルの baseline 同期正規経路を開設（単体テスト `baseline-sync.test.ts` で新規追加・変更・削除の同期実証完了）。
+  - `B30` `npm run validate` に資料横断の写真権利検査（`checkCrossBookPhotoRights`）を追加。`rights` に `TODO` / `要確認` / `未確認` がある写真が紙面で使われた場合の検知・警告/エラーを実装。
+- **次の作業（Phase R3：Goal 2 主要BOOKのカタログ管理化と横断検索の確立 / B05, B20, B21, B30）**:
+  - `avatar-oc-2028`, `prospectus-hal-2028`, `prospectus-isen-trial-2028`, `admissions-guide-2027` の `asset:resolve` / `search` / `get` 対応。
 - チラシID `oc-approved-20261017`。別の医専パンフレットを代用しない。原本・学校確定台帳（`company-data/ledger.md`）・写真は未変更。
 
 

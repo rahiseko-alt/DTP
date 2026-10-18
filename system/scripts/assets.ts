@@ -14,6 +14,7 @@ import {
   registerAsset,
   buildIndex,
   verifyIndex,
+  syncBaseline,
   type Role,
 } from "./lib/assets.ts";
 const { values: v, positionals } = parseArgs({
@@ -42,6 +43,7 @@ const { values: v, positionals } = parseArgs({
     "dry-run": { type: "boolean" },
     "metadata-only": { type: "boolean" },
     "require-index": { type: "boolean" },
+    paths: { type: "string" },
   },
 });
 try {
@@ -126,9 +128,18 @@ try {
       buildSnapshot: v["build-snapshot"],
       built_from: v["built-from"] ? JSON.parse(v["built-from"]) : [],
     });
+  } else if (cmd === "baseline-sync") {
+    const paths = v.paths
+      ? v.paths.split(/[,\s]+/).map((s) => s.trim()).filter(Boolean)
+      : undefined;
+    result = syncBaseline(root, {
+      paths,
+      cleanMissing: true,
+      dryRun: v["dry-run"],
+    });
   } else
     throw Error(
-      "Commands: resolve, search, get, register, photo, extract, recover, check, index",
+      "Commands: resolve, search, get, register, photo, extract, recover, check, index, baseline-sync",
     );
   if (
     cmd === "search" &&
