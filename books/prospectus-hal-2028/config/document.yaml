@@ -1,0 +1,30 @@
+schema_version: 1
+id: prospectus-hal-2028
+title: HAL風学校案内冊子（2028年度）
+aliases:
+  - HAL風パンフ
+  - HAL風学校案内
+  - HALパンフ
+  - 12P冊子
+renderer: standard-book
+catalog: books/prospectus-hal-2028/parts/catalog.yaml
+managed_roots:
+  - books/prospectus-hal-2028/parts
+original_sha256: a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1
+evidence:
+  filename: prospectus-hal-2028.pdf
+  pages: 12
+  decision: HAL風12ページ学校案内冊子（A4横・見開き構成、サイバーネオン調Layer1＋構造Layer2＋正本factsLayer3）。
+  previews:
+    - books/prospectus-hal-2028/output/png/page_001.png
+    - books/prospectus-hal-2028/output/png/page_002.png
+    - books/prospectus-hal-2028/output/png/page_003.png
+    - books/prospectus-hal-2028/output/png/page_004.png
+    - books/prospectus-hal-2028/output/png/page_005.png
+    - books/prospectus-hal-2028/output/png/page_006.png
+    - books/prospectus-hal-2028/output/png/page_007.png
+    - books/prospectus-hal-2028/output/png/page_008.png
+    - books/prospectus-hal-2028/output/png/page_009.png
+    - books/prospectus-hal-2028/output/png/page_010.png
+    - books/prospectus-hal-2028/output/png/page_011.png
+    - books/prospectus-hal-2028/output/png/page_012.png

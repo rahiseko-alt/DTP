@@ -18,13 +18,13 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci
-      - name: Fetch managed pilot payloads only
+      - name: Fetch managed document payloads
         run: |
           git lfs install --local
-          git lfs pull --include='books/oc-approved-20261017/**,references/school-own/oc-approved-20261017/**,company-data/photos/student-*.jpg'
+          git lfs pull --include='books/**,output/pdf/**,references/school-own/**,company-data/photos/student-*.jpg'
       - run: sudo apt-get update && sudo apt-get install -y poppler-utils fonts-noto-cjk
       - run: npm run typecheck
-      - run: npx vitest run system/scripts/test/assets.test.ts system/scripts/test/asset-build.test.ts
+      - run: npx vitest run system/scripts/test/assets.test.ts system/scripts/test/asset-build.test.ts system/scripts/test/baseline-sync.test.ts
       - run: npm run asset:check
       - name: Preserve test result
         if: always()

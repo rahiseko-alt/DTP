@@ -1,0 +1,18 @@
+schema_version: 1
+id: prospectus-isen-trial-2028
+title: 医専スタイル学校案内試作（2028年度白版）
+aliases:
+  - 医専試作パンフ
+  - 白版20P
+  - 医専スタイル学校案内
+renderer: standard-book
+catalog: books/prospectus-isen-trial-2028/parts/catalog.yaml
+managed_roots:
+  - books/prospectus-isen-trial-2028/parts
+original_sha256: 1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37
+evidence:
+  filename: AIビジネス専門学校_学校案内_2028_白版_20P.pdf
+  pages: 20
+  decision: 医専スタイル学校案内試作（2028年度白版20P冊子、平面DTP・白基調レイアウト）。
+  previews:
+    - books/prospectus-isen-trial-2028/output/png/page_001.png

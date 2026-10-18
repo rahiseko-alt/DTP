@@ -15,7 +15,7 @@
   "evidence": {
     "filename": "AIビジネス専門学校_OCチラシ_両面印刷.pdf",
     "pages": 2,
-    "decision": "ユーザーがこの添付両面チラシを対象と指定。パンフレットとは別資料。",
+    "decision": "ユーザーがこの添付両面チラシを対象と指定。パンフレットとは別資料。原本の人物は生成画像のため原本切り出し画像部品（original-extracted）は作成せず、正本実写真差し替え版（real-photo-rebuild）のみを使用する方針。",
     "previews": [
       "references/school-own/oc-approved-20261017/pages/page-01.png",
       "references/school-own/oc-approved-20261017/pages/page-02.png"

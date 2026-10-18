@@ -22,8 +22,15 @@
 - **完了したフェーズ（Phase R2：Goal 3 通常制作・写真追加と legacy-baseline 更新の接続 / B01, B24, B30）**:
   - `B01, B24` `npm run asset:baseline-sync [-- --paths <path...>]` を実装。意図して編集・追加・削除されたファイルの baseline 同期正規経路を開設（単体テスト `baseline-sync.test.ts` で新規追加・変更・削除の同期実証完了）。
   - `B30` `npm run validate` に資料横断の写真権利検査（`checkCrossBookPhotoRights`）を追加。`rights` に `TODO` / `要確認` / `未確認` がある写真が紙面で使われた場合の検知・警告/エラーを実装。
-- **次の作業（Phase R3：Goal 2 主要BOOKのカタログ管理化と横断検索の確立 / B05, B20, B21, B30）**:
-  - `avatar-oc-2028`, `prospectus-hal-2028`, `prospectus-isen-trial-2028`, `admissions-guide-2027` の `asset:resolve` / `search` / `get` 対応。
+- **完了したフェーズ（Phase R3：Goal 2 主要BOOKのカタログ管理化と横断検索の確立 / B05, B20, B21, B30）**:
+  - `avatar-oc-2028`, `prospectus-hal-2028`, `prospectus-isen-trial-2028`, `admissions-guide-2027` の `config/document.yaml` および `parts/catalog.yaml` を整備。
+  - 各BOOKの俗称（「アバターチラシ」「HAL風パンフ」「募集要項」「医専試作パンフ」等）から `asset:resolve` による確定ID同定、`asset:search` による使用写真・パーツ検索、`asset:get` による最新PDF・写真実体取得を確立。
+  - `system/assets/policy.json` に上記4資料を追加し、全5資料での `npm run asset:check`（exit 0、errors 0件）をパス。
+  - `system/scripts/lib/assets.ts` を汎用化（`renderer: standard-book` 対応、動的ページ数・プレビュー数、`managed_roots` 判定および inScope スコープの整合化）。
+  - `.github/workflows/asset-integrity.yml` での CI LFS pull glob を拡張し全管理資料を対象化（B21）。
+- **次の作業（Phase R4：Goal 4 確定台帳（ledger.md）と company-data/facts/ の同期・出力一貫性確立 / B09, D01, D04, A09）**:
+  - 人間の指示に基づき `company-data/ledger.md`（確定台帳）の確定事項と `company-data/facts/{school,courses}.yaml` を同期し、不要な `TODO` による `--strict` エラー（D01）を解消。
+  - `system/scripts/build_full_booklet_pdf.mjs` の過去セッション絶対パス（A09）をリポジトリ相対パス・CLI引数化。
 - チラシID `oc-approved-20261017`。別の医専パンフレットを代用しない。原本・学校確定台帳（`company-data/ledger.md`）・写真は未変更。
 
 
