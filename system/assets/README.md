@@ -8,7 +8,7 @@
 - 部品：`books/<id>/parts/catalog.yaml`。役割、variant、親の版、期待SHA、現行版を宣言する。写真実体と権利は既存`photos.yaml`のIDから解決する。
 - 索引：`.cache/asset-index.json`。再生成可能なキャッシュ。宣言・写真台帳・実装の指紋が違えば利用を拒否する。
 - `manifest.json`は過去の観測レポート。検査で書き直さず、識別の正本に使わない。
-- `legacy-baseline.json`は既存ファイルの内容指紋。分類確認済みではなく`legacy-unverified`。未移行資料を今回の確定検索に混ぜない。通常checkで更新しない。更新は別変更で差分審査する。
+- `legacy-baseline.json`は既存ファイルの内容指紋。分類確認済みではなく`legacy-unverified`。未移行資料を今回の確定検索に混ぜない。通常checkで更新しない。通常の制作・写真追加（photo:addなど）で意図して更新した差分は `npm run asset:baseline-sync`（または `--paths <path...>`）で安全に `legacy-baseline.json` を同期する。
 
 ## 格納・取り出し
 

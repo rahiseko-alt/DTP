@@ -827,6 +827,105 @@ export async function checkAssets(
   stable(root, before);
   return { documents: docs.map((d) => d.id), errors };
 }
+
+export interface BaselineSyncOptions {
+  paths?: string[];
+  cleanMissing?: boolean;
+  dryRun?: boolean;
+}
+
+export function syncBaseline(root: string, opts: BaselineSyncOptions = {}) {
+  assertUnlocked(root);
+  const baselineFile = "system/assets/legacy-baseline.json";
+  const absBaseline = safePath(root, baselineFile);
+  if (!fs.existsSync(absBaseline)) fail("BASELINE_MISSING", baselineFile);
+
+  const baseline = JSON.parse(read(root, baselineFile)) as {
+    schema_version: number;
+    state: string;
+    files: Record<string, string>;
+  };
+
+  const docs = documents(root);
+  const canonicalPhotos = new Set(
+    docs.flatMap((d) =>
+      d.catalogData.assets
+        .filter((a) => a.photo_ref)
+        .map((a) => assetPath(root, a)),
+    ),
+  );
+  const inScope = (f: string) =>
+    docs.some((d) => d.managed_roots.some((p) => f.startsWith(p + "/"))) ||
+    canonicalPhotos.has(f);
+
+  let targetFiles: string[];
+  if (opts.paths && opts.paths.length > 0) {
+    targetFiles = opts.paths.map((p) => p.replace(/\\/g, "/"));
+  } else {
+    targetFiles = fg.sync(
+      [
+        "books/**/*",
+        "references/**/*",
+        "company-data/photos/**/*",
+        "shared/**/*",
+      ],
+      { cwd: root, onlyFiles: true, followSymbolicLinks: false, dot: true },
+    );
+  }
+
+  let updated = 0;
+  let added = 0;
+  let removed = 0;
+  const changes: Array<{ file: string; action: "add" | "update" | "remove"; sha256?: string }> = [];
+
+  for (const f of targetFiles) {
+    if (inScope(f)) continue;
+    const abs = safePath(root, f);
+    if (!fs.existsSync(abs)) {
+      if (baseline.files[f] && (opts.cleanMissing || !opts.paths)) {
+        delete baseline.files[f];
+        removed++;
+        changes.push({ file: f, action: "remove" });
+      }
+      continue;
+    }
+    const buf = fs.readFileSync(abs);
+    const sha = contentIdentity(buf);
+    if (!baseline.files[f]) {
+      baseline.files[f] = sha;
+      added++;
+      changes.push({ file: f, action: "add", sha256: sha });
+    } else if (baseline.files[f] !== sha) {
+      baseline.files[f] = sha;
+      updated++;
+      changes.push({ file: f, action: "update", sha256: sha });
+    }
+  }
+
+  if (!opts.paths || opts.cleanMissing) {
+    for (const f of Object.keys(baseline.files)) {
+      if (!inScope(f) && !fs.existsSync(safePath(root, f))) {
+        delete baseline.files[f];
+        removed++;
+        changes.push({ file: f, action: "remove" });
+      }
+    }
+  }
+
+  const sortedFiles: Record<string, string> = {};
+  for (const k of Object.keys(baseline.files).sort()) {
+    if (baseline.files[k]) {
+      sortedFiles[k] = baseline.files[k]!;
+    }
+  }
+  baseline.files = sortedFiles;
+
+  if (!opts.dryRun && (added > 0 || updated > 0 || removed > 0)) {
+    atomicJson(absBaseline, baseline);
+  }
+
+  return { added, updated, removed, changes, dryRun: !!opts.dryRun };
+}
 function atomicJson(file: string, data: unknown) {
   const tmp = file + `.tmp-${crypto.randomUUID()}`;
   try {

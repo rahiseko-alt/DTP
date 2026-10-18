@@ -269,6 +269,64 @@ function checkCompanyRefs(company: CompanyData, strict: boolean, s: CheckSection
   }
 }
 
+/**
+ * ページや BOOK で使用されている写真の権利状態・確認事項の検査 (B30)
+ * 写真の rights に TODO / 要確認 / 未確認 がある写真が実際に紙面で使われていないかを検査する。
+ */
+export function checkCrossBookPhotoRights(root: string, company: CompanyData, strict: boolean, s: CheckSection): void {
+  const photoEntries = company.photos ?? {};
+  const bookFiles = fg.sync(['books/**/*.{html,hbs,yaml,yml,json}'], {
+    cwd: root,
+    onlyFiles: true,
+    ignore: ['**/node_modules/**', 'books/**/output/**', 'books/**/.cache/**'],
+  });
+
+  const PHOTO_HELPER_RE = /\{\{\s*photo\s+["']([^"']+)["']/g;
+  const usedPhotos = new Map<string, string[]>();
+
+  for (const rel of bookFiles) {
+    const content = readText(root, rel);
+    if (!content) continue;
+    for (const match of content.matchAll(PHOTO_HELPER_RE)) {
+      const id = match[1];
+      if (!id) continue;
+      if (!usedPhotos.has(id)) usedPhotos.set(id, []);
+      usedPhotos.get(id)!.push(rel);
+    }
+  }
+
+  for (const c of company.facts.courses?.courses ?? []) {
+    if (c.photo && typeof c.photo === 'string') {
+      if (!usedPhotos.has(c.photo)) usedPhotos.set(c.photo, []);
+      usedPhotos.get(c.photo)!.push('company-data/facts/courses.yaml');
+    }
+  }
+  for (const t of company.facts.teachers?.teachers ?? []) {
+    if (t.photo && typeof t.photo === 'string') {
+      if (!usedPhotos.has(t.photo)) usedPhotos.set(t.photo, []);
+      usedPhotos.get(t.photo)!.push('company-data/facts/teachers.yaml');
+    }
+  }
+
+  for (const [id, files] of usedPhotos.entries()) {
+    const photo = photoEntries[id];
+    if (!photo) continue;
+    const rights = photo.rights ?? '';
+    const at = files.slice(0, 3).join(', ') + (files.length > 3 ? ` 他 ${files.length - 3} 件` : '');
+    if (rights.includes('TODO')) {
+      push(
+        strict ? s.errors : s.warnings,
+        `${at}: 使用している写真 "${id}" の権利条件に TODO が残っています（"${rights}"）`,
+      );
+    } else if (rights.includes('要確認') || rights.includes('未確認')) {
+      push(
+        s.warnings,
+        `${at}: 使用している写真 "${id}" は権利条件に使用前の確認事項が指定されています（"${rights}"）`,
+      );
+    }
+  }
+}
+
 // ---------------------------------------------------------------------------
 // 2. BOOK の設定
 
@@ -739,6 +797,9 @@ export async function validateStudio(root: string, opts: { strict?: boolean } = 
   const books = checkBooks(root, bookIds, s2);
   const sources = checkReferences(root, s3);
   checkCompose(root, books, company != null, strict, s4, new Set([...s2.warnings, ...s2.errors]));
+  if (company) {
+    checkCrossBookPhotoRights(root, company, strict, s4);
+  }
   checkHardcodedFacts(root, company, s5);
   checkForbiddenTerms(root, sources, s6);
   await checkBackgrounds(root, bookIds, s7);
