@@ -22,12 +22,19 @@ for item in entries:
     pos = item.get('crop', {}).get('object_position', '50% 50%')
     text = text.replace('src="@@'+item['slot']+'@@"', 'src="@@'+item['slot']+'@@" style="object-position:'+html.escape(pos,quote=True)+'"')
 copy = json.loads(inputs['editable-copy'].read_text(encoding='utf-8'))
+for i, d in enumerate(copy.get('front', {}).get('dates', [])):
+    m = re.match(r'^(.+?)[（(]([^）)]+)[）)]$', str(d).strip())
+    if m:
+        text = text.replace(
+            f'<div class="date"><b>@@copy:front.dates.{i}@@</b><i>日</i></div>',
+            f'<div class="date"><b>{html.escape(m.group(1))}</b><i>{html.escape(m.group(2))}</i></div>',
+        )
 def copy_value(match):
     value = copy
     for key in match.group(1).split('.'):
         value = value[int(key)] if isinstance(value,list) else value[key]
     if match.group(1).startswith('front.dates.'):
-        value = value.replace('（日）','')
+        value = re.sub(r'[（(][^）)]+[）)]', '', str(value))
     result = html.escape(str(value))
     if match.group(1) in ('front.lead', 'front.photo_copy'):
         result = result.replace('、','、<br>',1)

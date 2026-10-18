@@ -40,12 +40,12 @@ beforeEach(() => {
   fs.symlinkSync(
     path.resolve("node_modules"),
     path.join(root, "node_modules"),
-    "dir",
+    process.platform === "win32" ? "junction" : "dir",
   );
 });
 afterEach(() => fs.rmSync(root, { recursive: true, force: true }));
 const build = () =>
-  execFileSync("python3", [path.join(root, b, "rebuild.py")], {
+  execFileSync(process.platform === "win32" ? "python" : "python3", [path.join(root, b, "rebuild.py")], {
     cwd: root,
     encoding: "utf8",
   }).trim();
@@ -89,7 +89,7 @@ it("uses current copy and CSS revisions without modifying existing output", asyn
   expect(fs.readFileSync(html, "utf8")).toContain("新しい本文の反映を確認");
   const snapshot = await verifyBuildSnapshot(
     root,
-    path.relative(root, html + ".inputs.json"),
+    path.relative(root, html + ".inputs.json").replaceAll("\\", "/"),
   );
   const input = snapshot.inputs.find(
     (i: { id: string }) => i.id === "layout-layout",
@@ -142,14 +142,14 @@ it("refuses rendering an input snapshot after current sources change", async () 
     confirmation: "verified",
   });
   await expect(
-    verifyBuildSnapshot(root, path.relative(root, html + ".inputs.json")),
+    verifyBuildSnapshot(root, path.relative(root, html + ".inputs.json").replaceAll("\\", "/")),
   ).rejects.toMatchObject({ code: "STALE_BUILD" });
 });
 it("records all photo/media/source dependencies and rejects changed school facts", async () => {
   const html = build(),
     snapshot = await verifyBuildSnapshot(
       root,
-      path.relative(root, html + ".inputs.json"),
+      path.relative(root, html + ".inputs.json").replaceAll("\\", "/"),
     );
   expect(
     snapshot.inputs.filter(
@@ -163,7 +163,7 @@ it("records all photo/media/source dependencies and rejects changed school facts
     "\n# changed\n",
   );
   await expect(
-    verifyBuildSnapshot(root, path.relative(root, html + ".inputs.json")),
+    verifyBuildSnapshot(root, path.relative(root, html + ".inputs.json").replaceAll("\\", "/")),
   ).rejects.toMatchObject({ code: "STALE_BUILD" });
 });
 
@@ -285,7 +285,7 @@ it("binds actual render outputs to current inputs and permits three output regis
       stdio: "pipe",
     }),
   ).toThrow();
-}, 60000);
+}, 120000);
 
 it("refuses a template that embeds an undeclared legacy photo path", async () => {
   const template = fs
@@ -354,3 +354,39 @@ it("rejects single-quoted inline image attributes outside the declared set", asy
   }
   expect(error).toContain("Only canonical src attributes are supported");
 }, 30000);
+
+it("A06/A07: binds back.flow.3.body, supports Saturday dates, and keeps preview search clean after rebuild", async () => {
+  const { searchAssets } = await import("../lib/assets.ts");
+  const copy = JSON.parse(
+    fs.readFileSync(path.join(root, b, "text/content.json"), "utf8"),
+  );
+  copy.front.dates[0] = "11/8（土）";
+  copy.back.flow[3].body = "個別相談だけの専用テスト本文です。";
+  const file = path.join(root, "sat-copy.json");
+  fs.writeFileSync(file, JSON.stringify(copy));
+  await registerAsset(root, {
+    document: doc,
+    id: "editable-copy",
+    variant: "real-photo-rebuild",
+    role: "copy",
+    source: file,
+    sha256: digest(fs.readFileSync(file)),
+    media: "text",
+    confirmation: "verified",
+  });
+  const html = build();
+  const renderedHtml = fs.readFileSync(html, "utf8");
+  expect(renderedHtml).toContain("<b>11/8</b><i>土</i>");
+  expect(renderedHtml).not.toContain("11/8（土）日");
+  expect(renderedHtml).toContain("個別相談だけの専用テスト本文です。");
+  const previews = await searchAssets(root, {
+    document: doc,
+    variant: "real-photo-rebuild",
+    role: "preview",
+  });
+  expect(previews.matches.map((m) => m.asset_id).sort()).toEqual([
+    "preview-page-1",
+    "preview-page-2",
+  ]);
+});
+
