@@ -21,7 +21,7 @@ const escXml = (s: string) => s.replaceAll('&', '&amp;').replaceAll('<', '&lt;')
 const stamp = () => new Date().toISOString().replaceAll(/[-:.TZ]/g, '').slice(0, 17);
 
 export interface PhotoSearchOptions { root: string; query?: string; tags?: string[]; tagMode: 'all' | 'any'; limit: number }
-export interface PhotoSearchResult { outDir: string; matches: number; sheets: string[] }
+export interface PhotoSearchResult { outDir: string; matches: number; sheets: string[]; missing: string[] }
 
 type Row = { id: string; file: string; caption?: string; tags: string[]; width: number; height: number; abs: string };
 
@@ -54,10 +54,14 @@ export async function searchPhotos(opts: PhotoSearchOptions): Promise<PhotoSearc
   if (selected.length === 0) throw new CliError('条件に合う写真はありません', 'タグ名を company-data/photos/photos.yaml で確認してください');
 
   const shown: Row[] = [];
+  const missing: string[] = [];
   let totalExisting = 0;
   for (const p of selected) {
     const abs = path.resolve(root, p.file);
-    if (!abs.startsWith(root + path.sep) || !fs.existsSync(abs)) continue;
+    if (!abs.startsWith(root + path.sep) || !fs.existsSync(abs)) {
+      missing.push(p.file);
+      continue;
+    }
     totalExisting++;
     if (shown.length < opts.limit) {
       const meta = await readImageMetadata(abs, p.file);
@@ -91,11 +95,12 @@ export async function searchPhotos(opts: PhotoSearchOptions): Promise<PhotoSearc
   const manifest = {
     query: opts.query ?? null, tags, tag_mode: opts.tagMode, total_matches: totalExisting,
     included_in_contact_sheets: shown.length, omitted_by_limit: Math.max(0, totalExisting - shown.length),
+    missing_files: missing,
     matches: shown.map(({ id, file, caption, tags: photoTags, width, height }) => ({ id, file, caption, tags: photoTags, width, height })),
     contact_sheets: sheets.map((f) => path.basename(f)),
   };
   fs.writeFileSync(path.join(outDir, 'matches.json'), JSON.stringify(manifest, null, 2) + '\n');
-  return { outDir, matches: totalExisting, sheets };
+  return { outDir, matches: totalExisting, sheets, missing };
 }
 
 export const photoSearchCommand: Command = (argv, io: Io = consoleIo) => runCommand(io, USAGE, async () => {
@@ -110,6 +115,7 @@ export const photoSearchCommand: Command = (argv, io: Io = consoleIo) => runComm
   const result = await searchPhotos({ root: resolveRoot(values.root), query: values.query, tags: values.tag?.split(','), tagMode: mode, limit });
   io.log(`一致 ${result.matches}枚。${result.sheets.length}枚のコンタクトシートを作成しました: ${result.outDir}`);
   if (result.matches > limit) io.log(`一覧画像は先頭${limit}枚までです。matches.json に省略数を記録しました。`);
+  if (result.missing.length > 0) io.log(`警告: 実ファイルが見つからない写真が ${result.missing.length}件あります: ${result.missing.join(', ')}`);
   for (const sheet of result.sheets) io.log(`  ${sheet}`);
   return 0;
 });

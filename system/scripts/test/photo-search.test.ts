@@ -36,4 +36,16 @@ describe('photo:search', () => {
     expect(result.matches).toBe(2);
     expect(result.sheets).toHaveLength(1);
   });
+
+  it('実ファイルが欠損している登録写真は missing に記録して残りで一覧を作る', async () => {
+    const root = copyFixture();
+    const fs = await import('node:fs');
+    const path = await import('node:path');
+    const yamlPath = path.join(root, 'company-data/photos/photos.yaml');
+    const text = fs.readFileSync(yamlPath, 'utf8');
+    fs.writeFileSync(yamlPath, text + '\n  - id: missing-dummy\n    file: company-data/photos/missing-dummy.jpg\n    caption: 欠損ダミー\n    rights: 確認済\n    tags: [campus]\n');
+    const result = await searchPhotos({ root, tags: ['校舎'], tagMode: 'all', limit: 24 });
+    expect(result.matches).toBe(1);
+    expect(result.missing).toEqual(['company-data/photos/missing-dummy.jpg']);
+  });
 });

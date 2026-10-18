@@ -1,17 +1,17 @@
 # 引継ぎ台帳
 
-## 現在の引継ぎ：2026-10-18 DTP不足箇所の事実調査＋段階修正（Step 1 完了・実装計画書作成済）
+## 現在の引継ぎ：2026-10-18 DTP不足箇所の事実調査＋段階修正（Step 1〜Step 5 完了・監査検証済）
 
 - 再開入口: **[段階的実装計画書（Step 2〜Step 6）](../docs/audits/file-identity-20261018/implementation-plan-steps.md)**、[調査引継ぎREADME](../docs/audits/file-identity-20261018/README.md)、[不足箇所一覧](../docs/audits/file-identity-20261018/不足箇所一覧.md)、[U01-U11追加調査詳細](../docs/audits/file-identity-20261018/details/dtp-gap-u01-u11-followup.md)。
 - branch `codex/audit-handoff-20261018`、main未マージ。調査対象mainは `4bb7c205a461b222fade10466cb4107ca61c0bfb`（PR #51マージ済み）。
 - 調査完了（commit `f576e01`）：確認結果は53行（実装/データ不整合10［A01–10］、業務未整備/制約32［B01–32］、文書7［C01–07］、環境/データ4［D01–04］）、判断保留5（J01–05）、残余の未確認11群（U01–11）。
 - トークン上限対策として、人間の指示により1ステップずつ細かく修正・検証・commit/pushを進める運用に移行。別モデル（Gemini 3.8等）でも迷わず実装・単体テスト・スモークテストを完走できるBefore/Afterコード付き実装計画書を `docs/audits/file-identity-20261018/implementation-plan-steps.md` に保存済み。
-- **完了した修正**:
+- **完了した修正（計画書との照合監査・補完済）**:
   - **Step 1（`A08` 解消、commit `f61e9c6`）**: `system/scripts/read-ledger.py`、`books/oc-approved-20261017/rebuild.py`、`books/oc-approved-20261017/render.mjs`、`system/scripts/sync-dtp-agent-configs.py`、`system/scripts/dtp-quality-gate.py`、`system/scripts/sync-context.py` を修正し、`books/oc-approved-20261017/parts/catalog.yaml` のハッシュを更新。Windows上でエラー0完走を確認済み。
   - **Step 2（`A01`, `A02`, `A04`, `A05`, `A10`, `B32` 解消、commit `7c2a11a`）**: `system/scripts/assets.ts`（getコマンドのセレクタ検証）、`system/scripts/lib/assets.ts`（getセレクタ不一致時のSELECTOR停止、破損PNGヘッダのMEDIA_MISMATCH停止、photoMap/rightsのUNVERIFIED_RIGHTS停止、checkAssetsでの出力STALE_OUTPUT鮮度検査、pdftoppmVersionのEXTRACTION_ENGINE化、recoverRegistrationの空フォルダ回収）を修正し、`system/scripts/test/assets.test.ts` で41テスト全通過、スモークテストおよび `npm run asset:check` エラー0を確認済み。
-  - **Step 3（`B28` 解消、commit `67a541c`）**: `system/scripts/lib/photo-search.ts`（limit切り詰め後のメタデータ取得と件数整合）、`system/scripts/lib/photo-tags.ts`（labelのalias登録）、`system/scripts/test/photo-add.test.ts`（Windows junction対応）、`system/scripts/test/photo-search.test.ts`（label検索およびlimit外ポインタ許容の単体テスト2件追加）を修正。単体テスト全16件通過、スモークテスト（`npm run photo:search -- --tag 屋外・校外 --limit 3` で38件一致中先頭3枚生成・35枚省略記録）および `npm run asset:check`（エラー0）を確認済み。
+  - **Step 3（`B28` 解消、commit `67a541c`＋監査補完）**: `system/scripts/lib/photo-search.ts`（limit切り詰め後のメタデータ取得と件数整合、実ファイル欠損時の `missing_files` 記録とCLI警告表示）、`system/scripts/lib/photo-tags.ts`（labelのalias登録）、`system/scripts/test/photo-add.test.ts`（Windows junction対応）、`system/scripts/test/photo-search.test.ts`（label検索・limit外ポインタ許容・欠損ファイル記録の単体テスト3件追加）を修正。単体テスト全17件通過、スモークテスト（`npm run photo:search -- --tag 屋外・校外 --limit 3` で38件一致中先頭3枚生成・35枚省略記録）および `npm run asset:check`（エラー0）を確認済み。
   - **Step 4（`A06`, `A07` 解消、commit `e5436d6`）**: `books/oc-approved-20261017/source/flyer.template.html`（flow4本文を `@@copy:back.flow.3.body@@` に修正）、`rebuild.py`（括弧付き曜日を展開し任意曜日に対応）、`catalog.yaml`（`preview-layout-check` を `role: support` 化・依存関係除去、`layout-flyer-template` と `support-rebuild-py` の新ハッシュ反映）、`system/scripts/test/asset-build.test.ts`（Windows junction・python対応・タイムアウト調整、A06/A07単体テスト追加）。全8テスト通過、スモークテスト（`rebuild.py` 成功、`asset:search --role preview` で `preview-page-1`/`2` のみ正常返却、`npm run asset:check` エラー0）を確認済み。
-  - **Step 5（`C01`, `C06`, `C07` 解消）**: `system/scripts/sync-context.py`（NOTESを4台帳パスに更新）、`system/assets/README.md`（登録例を `--id editable-copy` に修正し固定19入力の構成を明記）、`AGENTS.md`（§5 コマンド一覧表に `asset:*` 10件を追記）、`system/prompts/README.md`（4台帳確認指示を補記）。スモークテスト（`python system/scripts/sync-context.py --offline` で4台帳が `handoff.md` に正常展開されることを確認、`npm run typecheck`・`npm run asset:check` エラー0）を確認済み。
+  - **Step 5（`C01`, `C07` 解消、commit `0b0cc76`＋監査補完）**: `README.md`（21行目の旧担当ノート記述をAGENTS.md §2・4台帳へ修正）、`system/scripts/sync-context.py`（NOTESを4台帳パスに更新）、`system/scripts/test/sync_context_test.py`（UTF-8・Windows互換化＋4台帳テスト更新）、`system/assets/README.md`（登録例を `--id editable-copy` に修正し固定19入力の構成を明記）、`AGENTS.md`（§5 コマンド一覧表に `asset:*` 10件を追記）、`system/prompts/README.md`（4台帳確認指示を補記）。`sync_context_test.py` 全テスト通過、スモークテスト（`python system/scripts/sync-context.py --offline`）、`npm run typecheck`・`npm run asset:check` エラー0を確認済み。
 - **次のステップ（Step 6: 人間判断事項 `J01〜J05`）**:
   - 人間の指示・承認（`J01〜J05`）を待ってデータ修正（`company-data/photos/photos.yaml` の人数・タグ反映や `company-data/ledger.md` の3コース情報反映）を実施する。事実の捏造や無断変更は行わない。
 - チラシID `oc-approved-20261017`。別の医専パンフレットを代用しない。原本・学校確定台帳（`company-data/ledger.md`）・写真は未変更。
