@@ -53,19 +53,22 @@ export async function searchPhotos(opts: PhotoSearchOptions): Promise<PhotoSearc
   });
   if (selected.length === 0) throw new CliError('条件に合う写真はありません', 'タグ名を company-data/photos/photos.yaml で確認してください');
 
-  const rows: Row[] = [];
+  const shown: Row[] = [];
+  let totalExisting = 0;
   for (const p of selected) {
     const abs = path.resolve(root, p.file);
     if (!abs.startsWith(root + path.sep) || !fs.existsSync(abs)) continue;
-    const meta = await readImageMetadata(abs, p.file);
-    rows.push({ id: p.id, file: p.file, caption: p.caption, tags: p.tags ?? [], width: meta.width ?? 0, height: meta.height ?? 0, abs });
+    totalExisting++;
+    if (shown.length < opts.limit) {
+      const meta = await readImageMetadata(abs, p.file);
+      shown.push({ id: p.id, file: p.file, caption: p.caption, tags: p.tags ?? [], width: meta.width ?? 0, height: meta.height ?? 0, abs });
+    }
   }
-  if (rows.length === 0) throw new CliError('一致写真の画像実体が見つかりません');
+  if (shown.length === 0) throw new CliError('一致写真の画像実体が見つかりません');
 
   const stampId = stamp();
   const outDir = path.join(root, '.cache', 'photo-search', stampId);
   fs.mkdirSync(outDir, { recursive: true });
-  const shown = rows.slice(0, opts.limit);
   const sheets: string[] = [];
   const cols = 4, cardW = 250, cardH = 205, perSheet = 24;
   for (let offset = 0, page = 1; offset < shown.length; offset += perSheet, page++) {
@@ -86,13 +89,13 @@ export async function searchPhotos(opts: PhotoSearchOptions): Promise<PhotoSearc
     sheets.push(path.join(outDir, filename));
   }
   const manifest = {
-    query: opts.query ?? null, tags, tag_mode: opts.tagMode, total_matches: rows.length,
-    included_in_contact_sheets: shown.length, omitted_by_limit: Math.max(0, rows.length - shown.length),
+    query: opts.query ?? null, tags, tag_mode: opts.tagMode, total_matches: totalExisting,
+    included_in_contact_sheets: shown.length, omitted_by_limit: Math.max(0, totalExisting - shown.length),
     matches: shown.map(({ id, file, caption, tags: photoTags, width, height }) => ({ id, file, caption, tags: photoTags, width, height })),
     contact_sheets: sheets.map((f) => path.basename(f)),
   };
   fs.writeFileSync(path.join(outDir, 'matches.json'), JSON.stringify(manifest, null, 2) + '\n');
-  return { outDir, matches: rows.length, sheets };
+  return { outDir, matches: totalExisting, sheets };
 }
 
 export const photoSearchCommand: Command = (argv, io: Io = consoleIo) => runCommand(io, USAGE, async () => {
