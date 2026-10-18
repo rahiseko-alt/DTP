@@ -3,10 +3,30 @@ import path from 'node:path';
 import sharp from 'sharp';
 import { chromium } from 'playwright';
 
-const brainDir = 'C:/Users/user/.gemini/antigravity/brain/6689cedc-bb2a-4cdb-8bf2-514e68d71a0d';
-const flatDir = path.join(brainDir, 'flat_pages');
-const outPdfDir = path.resolve('output/pdf');
+function getArg(name, defaultValue) {
+  const idx = process.argv.indexOf(name);
+  if (idx !== -1 && idx + 1 < process.argv.length) return process.argv[idx + 1];
+  return defaultValue;
+}
+
+const legacyBrainDir = 'C:/Users/user/.gemini/antigravity/brain/6689cedc-bb2a-4cdb-8bf2-514e68d71a0d';
+const workDir = path.resolve(getArg('--work-dir', process.env.BOOKLET_WORK_DIR || '.cache/build_full_booklet_pdf'));
+const flatDir = path.resolve(
+  getArg(
+    '--input-dir',
+    process.env.FLAT_PAGES_DIR ||
+      (fs.existsSync(path.join(legacyBrainDir, 'flat_pages'))
+        ? path.join(legacyBrainDir, 'flat_pages')
+        : path.resolve('.cache/flat_pages')),
+  ),
+);
+const finalPdfPath = path.resolve(
+  getArg('--output', 'output/pdf/AIビジネス専門学校_学校案内_2028_白版_20P.pdf'),
+);
+const outPdfDir = path.dirname(finalPdfPath);
 if (!fs.existsSync(outPdfDir)) fs.mkdirSync(outPdfDir, { recursive: true });
+if (!fs.existsSync(workDir)) fs.mkdirSync(workDir, { recursive: true });
+if (!fs.existsSync(flatDir)) fs.mkdirSync(flatDir, { recursive: true });
 
 async function main() {
   console.log('1. Generating P20 back cover...');
@@ -109,14 +129,16 @@ async function main() {
   }
   html += `</body></html>`;
 
-  const htmlPath = path.join(brainDir, 'booklet_print.html');
+  const htmlPath = path.join(workDir, 'booklet_print.html');
   fs.writeFileSync(htmlPath, html, 'utf-8');
 
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({
+    executablePath: process.env.STUDIO_CHROMIUM_PATH || undefined,
+    headless: true,
+  });
   const page = await browser.newPage();
   await page.goto(`file:///${htmlPath.replace(/\\/g, '/')}`, { waitUntil: 'load' });
 
-  const finalPdfPath = path.join(outPdfDir, 'AIビジネス専門学校_学校案内_2028_白版_20P.pdf');
   await page.pdf({
     path: finalPdfPath,
     format: 'A4',
@@ -124,9 +146,11 @@ async function main() {
     margin: { top: 0, right: 0, bottom: 0, left: 0 }
   });
 
-  // brainディレクトリにもコピー（ユーザー提示用）
-  const brainPdfPath = path.join(brainDir, 'AIビジネス専門学校_学校案内_2028_白版_20P.pdf');
-  fs.copyFileSync(finalPdfPath, brainPdfPath);
+  // ユーザー提示用ディレクトリが環境変数で指定されていればコピー
+  if (process.env.BRAIN_DIR && fs.existsSync(process.env.BRAIN_DIR)) {
+    const brainPdfPath = path.join(process.env.BRAIN_DIR, path.basename(finalPdfPath));
+    fs.copyFileSync(finalPdfPath, brainPdfPath);
+  }
 
   await browser.close();
   console.log('PDF successfully created at:', finalPdfPath);

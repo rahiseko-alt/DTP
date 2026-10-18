@@ -3,17 +3,10 @@
 # - 掲載の同意を得た教員だけを記入する。氏名・肩書・経歴は本人確認済みのものに限る
 # - course_ids には facts/courses.yaml の id を書く
 # - photo を書く場合は company-data/photos/photos.yaml に存在する写真 ID を指定する
-# - 下の teacher-todo は記入例を兼ねたプレースホルダ。実際の教員を記入したら削除する
+# - 専任教員・非常勤講師は現在未定・採用進行中（確定台帳のとおり）。確定後に記入する
 # 書き方: company-data/README.md ／ ルール: system/rules/company-data.md
 
-teachers:
-  - id: teacher-todo
-    name: "TODO: 氏名を記入"
-    name_kana: "TODO: 氏名のふりがなを記入"
-    title: "TODO: 肩書を記入"
-    course_ids:
-      - course-todo
-    profile: "TODO: 経歴・紹介文を記入（本人確認済みの内容のみ）"
+teachers: []
 
 # 講師が保有する認定資格（学校としての記載。氏名・人数・在籍講師ごとの内訳は未確認）
 # 出典: 人間の申告（2026-10-11）「認定講師は取っている」。資格名は人間の発言（教育者 Level 1・2、Gemini 認定）のとおり
