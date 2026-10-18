@@ -10,11 +10,18 @@
   - **Step 3（`B28` 解消、commit `67a541c`＋`5f95c2f`）**: `photo:search` の `--limit` 先行切り詰め、欠損ファイルの `missing_files` 記録とCLI警告、`tags.yaml` の日本語 `label` 検索対応。
   - **Step 4（`A06`, `A07` 解消、commit `e5436d6`）**: `flyer.template.html` の `@@copy:back.flow.3.body@@` 修正、`rebuild.py` の動的曜日バッジ対応、`catalog.yaml` の `preview-layout-check` の `role: support` 化。
   - **Step 5（`C01`, `C07` 解消、commit `0b0cc76`＋`5f95c2f`）**: `README.md:21`・`sync-context.py`・`sync_context_test.py`・`system/prompts/README.md` の4台帳整合化、`system/assets/README.md` の `--id editable-copy` 修正、`AGENTS.md` §5 への `asset:*` 10コマンド追記。
-- **未解決の根本問題と次作業（`docs/audits/file-identity-20261018/resolution-plan.md` に従って進めること）**:
-  1. **Phase R1（Goal 1：写真が正しく引けるようにする / `A03, B02〜B04`）**: `company-data/photos/photos.yaml` の人数誤記3件訂正、`lesson`（授業）・`food`（食事4件）・`group`（複数人）・`student`（学生）タグ付与、`legacy-baseline.json` 更新、実検索での検証。
-  2. **Phase R2（Goal 3：通常制作・写真追加が `LEGACY_CHANGED` で止まらないようにする / `B01, B30`）**: 正規手順での `legacy-baseline.json` 更新コマンド（`asset:baseline-sync`）と標準BOOKでの写真権利チェックの実装。
-  3. **Phase R3（Goal 2：1資料パイロットから主要BOOK全体への展開 / `B05, B20`）**: `avatar-oc-2028`, `prospectus-hal-2028`, `prospectus-isen-trial-2028`, `admissions-guide-2027` の `asset:resolve` / `search` / `get` 対応。
-  4. **Phase R4（Goal 4：確定台帳 `ledger.md` と `company-data/facts/` の完全同期 / `B09, D01, A09`）**: 学校・コース正本YAMLの更新と `build_full_booklet_pdf.mjs` の相対パス化。
+- **最優先の再開入口**: **[DTP根本解決計画書（Phase R1〜R4）](../docs/audits/file-identity-20261018/resolution-plan.md)**、[段階的実装計画書（Step 1〜5 完了済）](../docs/audits/file-identity-20261018/implementation-plan-steps.md)、[不足箇所一覧](../docs/audits/file-identity-20261018/不足箇所一覧.md)、[調査引継ぎREADME](../docs/audits/file-identity-20261018/README.md)。
+- **完了したフェーズ（Phase R1：Goal 1 写真台帳の意味・人数・権利の完全正常化）**:
+  - `A03` 人数誤記3件訂正（`student-dsc-1171`: 7人, `student-dsc-1176`: 5人, `student-dsc-1248`: 6人）。
+  - `B04` 教職員3件のキャプション明記（`student-img-3288, 3289, 3294`：「入学式で教職員から書類を受け取る新入生」）。
+  - `J05` `student-img-5731` の手元装飾から `portrait` を除外し `event` へ適正化。
+  - `B02` 食事写真漏れ4点（`student-c36395ce, dsc-1085, dsc-1097, dsc-1151`）へ `food` タグを追加（計11点一致）。
+  - `B02` 授業・学習写真12点（`classroom` 全点）へ `lesson` タグを追加（`--tag 授業` で12点一致）。
+  - `B03` 複数人写真11点（2人以上）へ `group` タグを追加。
+  - `B04` 在校生被写体63点へ `student` タグを追加（`--tag 学生,集合` で38点一致）。
+  - `legacy-baseline.json` の `company-data/photos/photos.yaml` ハッシュを更新し `npm run asset:check` / `validate` ともにエラー0件・実検索実証完了。
+- **次の作業（Phase R2：Goal 3 通常制作・写真追加が LEGACY_CHANGED で止まらないようにする / B01, B30）**:
+  - `npm run asset:baseline-sync` コマンドの実装、および全BOOK横断での写真同意状態検査の実装。
 - チラシID `oc-approved-20261017`。別の医専パンフレットを代用しない。原本・学校確定台帳（`company-data/ledger.md`）・写真は未変更。
 
 
