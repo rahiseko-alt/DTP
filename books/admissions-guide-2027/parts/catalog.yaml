@@ -1,13 +1,13 @@
 schema_version: 1
 document: admissions-guide-2027
 current:
-  approved-original: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+  approved-original: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
   preview-page-001: beb64a18db51b1bf97db16ba15f74af9339576b8df2791e5321a744e9e3a4402
   preview-page-002: 17c9c6da5345a2d3499ee902abaf756d1d250274719b4f00c51646acccb05925
   preview-page-003: a61c8fcd0232c19f632453cad01d565a566dfbe2882093647d9a77788bc67ee7
   preview-page-004: 0f014bdf282aa1d0ea4d81cc2c175813f84ff5a9b5069c6ab24e09ea9c691a62
   preview-page-005: 9b7be3a0c1c8536bf1a0711507066d0b367515a36d09e7091eb83ba2238f320b
-  preview-page-006: 637e94e2247fd38c4f452f2ad694632edccc17fd398b55f1882e834b7147d91a
+  preview-page-006: 84fd0086afc7ec7e8a555714894366cebdc950cd429eb9399d22962ee2c1092b
   preview-page-007: 8a9070a280a28af60c6eb3b2efdf7d693380210b0521de090e84780aaf63e1ee
   preview-page-008: bc778af31922ce3a724cf44cb69997e1a0e8a66637fca3d28bb47efd88945659
   preview-page-009: 09ce4376aedb9ec82d2198ebe91577adf5ed0e7f23cb2248a448dcc64d14860e
@@ -39,9 +39,9 @@ assets:
     role: original
     media: pdf
     file: books/admissions-guide-2027/output/pdf/admissions-guide-2027.pdf
-    revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
-    sha256: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
-    size: 23572507
+    revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
+    sha256: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
+    size: 23572808
     relation: root
     storage: canonical
     confirmation: verified
@@ -60,7 +60,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-002
     variant: standard-render
@@ -75,7 +75,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-003
     variant: standard-render
@@ -90,7 +90,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-004
     variant: standard-render
@@ -105,7 +105,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-005
     variant: standard-render
@@ -120,22 +120,22 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-006
     variant: standard-render
     role: preview
     media: image
     file: books/admissions-guide-2027/output/png/page_006.png
-    revision: 637e94e2247fd38c4f452f2ad694632edccc17fd398b55f1882e834b7147d91a
-    sha256: 637e94e2247fd38c4f452f2ad694632edccc17fd398b55f1882e834b7147d91a
-    size: 264523
+    revision: 84fd0086afc7ec7e8a555714894366cebdc950cd429eb9399d22962ee2c1092b
+    sha256: 84fd0086afc7ec7e8a555714894366cebdc950cd429eb9399d22962ee2c1092b
+    size: 264255
     relation: authored
     storage: canonical
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-007
     variant: standard-render
@@ -150,7 +150,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-008
     variant: standard-render
@@ -165,7 +165,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-009
     variant: standard-render
@@ -180,7 +180,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-010
     variant: standard-render
@@ -195,7 +195,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-011
     variant: standard-render
@@ -210,7 +210,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-012
     variant: standard-render
@@ -225,7 +225,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-013
     variant: standard-render
@@ -240,7 +240,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-014
     variant: standard-render
@@ -255,7 +255,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-015
     variant: standard-render
@@ -270,7 +270,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-016
     variant: standard-render
@@ -285,7 +285,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-017
     variant: standard-render
@@ -300,7 +300,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-018
     variant: standard-render
@@ -315,7 +315,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-019
     variant: standard-render
@@ -330,7 +330,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-020
     variant: standard-render
@@ -345,7 +345,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-021
     variant: standard-render
@@ -360,7 +360,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-022
     variant: standard-render
@@ -375,7 +375,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-023
     variant: standard-render
@@ -390,7 +390,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: preview-page-024
     variant: standard-render
@@ -405,7 +405,7 @@ assets:
     confirmation: verified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
     external_inputs: []
   - id: student-dsc-1164
     variant: standard-render
