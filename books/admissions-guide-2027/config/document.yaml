@@ -9,7 +9,7 @@ renderer: standard-book
 catalog: books/admissions-guide-2027/parts/catalog.yaml
 managed_roots:
   - books/admissions-guide-2027/parts
-original_sha256: 0a7b0155b26ba6fec1725a9afae76ddff91413d862ff6471dc7ca051a51c89fb
+original_sha256: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
 evidence:
   filename: admissions-guide-2027.pdf
   pages: 24
