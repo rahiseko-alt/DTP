@@ -1,0 +1,27 @@
+.payment-heading { padding:4mm 1mm 5mm;color:#24476b; }
+.payment-heading .eyebrow { font-size:9pt;font-weight:700;margin-bottom:4mm; }
+.payment-heading h1 { font-size:28pt;font-weight:900;line-height:1.6;margin-bottom:3mm; }
+.payment-heading>p:last-child { font-size:9pt;color:#425367;line-height:1.8; }
+.payment-detail { gap:4mm; }
+.payment-steps { display:grid;grid-template-columns:repeat(3,1fr);gap:3mm; }
+.payment-steps>div { background:#f0f4f8;padding:4mm 3mm;border-top:1mm solid #24476b; }
+.step-label { font-size:9pt;font-weight:700;color:#24476b;display:block;margin-bottom:3mm; }
+.payment-steps h3 { font-size:9pt;color:#425367; }
+.payment-steps b { display:block;font-size:20pt;color:#24476b;margin:2mm 0; }
+.payment-steps small { font-size:9pt; }
+.payment-steps p { font-size:8pt;line-height:1.7; }
+.payment-detail .fee-section tbody th { width:30%; }
+.payment-detail .fee-section td { width:auto; }
+.payment-detail .fee-section th,.payment-detail .fee-section td { padding:3mm; }
+.table-note { font-size:8pt;line-height:1.8;margin-top:3mm!important; }
+.confirm-section { background:#fff5e9;border-left:1mm solid #b5651d;padding:4mm; }
+.confirm-section h2 { color:#854612;font-size:12pt;margin-bottom:3mm;line-height:1.8; }
+.confirm-section p { font-size:8.5pt;line-height:1.9;margin-top:2mm; }
+
+.payment-detail { gap:2.5mm; }
+.payment-heading { padding:2mm 1mm; }
+.payment-heading h1 { font-size:23pt;line-height:1.4;margin-bottom:2mm; }
+.payment-heading .eyebrow { margin-bottom:2mm; }
+.payment-steps>div { padding:3mm; }
+.payment-detail .fee-section th,.payment-detail .fee-section td { padding:2mm 3mm; }
+.confirm-section { padding:3mm; }

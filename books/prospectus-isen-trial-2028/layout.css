@@ -1,0 +1,60 @@
+.isen-tuition-page { box-sizing:border-box; width:100%;height:100%;padding:9mm 11mm 8mm;background:#fff;color:#1f2328;font-family:var(--font-body,"Noto Sans JP",sans-serif);display:flex;flex-direction:column;gap:3mm; }
+.isen-tuition-page * { box-sizing:border-box; }
+.isen-tuition-page p,.isen-tuition-page h1,.isen-tuition-page h2,.isen-tuition-page h3 { margin:0; }
+.isen-tuition-page rt { font-size:.52em;font-weight:500; }
+.page-header { display:flex;align-items:center;gap:3mm;border-bottom:.4mm solid #24476b;padding-bottom:2mm;font-size:9pt;color:#24476b; }
+.page-header strong { margin-left:auto;font-size:9pt; }
+.page-badge { background:#24476b;color:#fff;font-weight:800;padding:.7mm 2mm; }
+.hero-section { display:grid;grid-template-columns:1.25fr 1fr;min-height:39mm;height:39mm;overflow:hidden;background:#f0f4f8; }
+.hero-copy { padding:4mm;display:flex;flex-direction:column;justify-content:center;gap:2mm; }
+.hero-copy .eyebrow { color:#24476b;font-size:8pt;font-weight:700; }
+.hero-copy h1 { font-size:24pt;line-height:1.5;color:#24476b;font-weight:900; }
+.hero-copy p { font-size:8.5pt;line-height:1.7; }
+.hero-section img { width:100%;height:39mm;object-fit:cover;object-position:center 25%; }
+.year-notice { display:flex;flex-wrap:wrap;align-items:center;gap:1mm 3mm;background:#fff3e5;border-left:1.2mm solid #ad5710;padding:2.2mm 3mm;font-size:8pt;line-height:1.6; }
+.year-notice strong { font-size:10pt;color:#874008; }
+.fee-section h2,.payment-section h2,.support-section h2 { color:#24476b;font-size:12pt;font-weight:800;line-height:1.7;margin-bottom:2mm;border-left:1mm solid #24476b;padding-left:2.5mm; }
+.fee-section h2 small { float:right;font-size:7.5pt;font-weight:500; }
+.fee-section table { width:100%;border-collapse:collapse;font-size:9pt; }
+.fee-section th,.fee-section td { padding:2mm 3mm;border-bottom:.2mm solid #d9e1ea; }
+.fee-section thead { background:#24476b;color:#fff; }
+.fee-section thead th { text-align:center;font-weight:700; }
+.fee-section tbody th { text-align:left;font-weight:600;background:#f4f6f9;width:47%; }
+.fee-section td { text-align:right;width:26.5%;font-variant-numeric:tabular-nums; }
+.fee-section .total-row th,.fee-section .total-row td { background:#e8eef5;font-weight:900;color:#24476b;font-size:11pt; }
+.total-strip { margin-top:2mm;padding:2mm 3mm;background:#fff1f4;display:grid;grid-template-columns:1fr auto;align-items:center; }
+.total-strip>span { font-size:10pt;font-weight:700;color:#24476b; }
+.total-strip strong { font-size:21pt;color:#ba244c;line-height:1.3; }
+.total-strip small { font-size:10pt;margin-left:1mm; }
+.total-strip p { grid-column:1/-1;font-size:7.2pt;color:#555;margin-top:1mm; }
+.exam-fee { display:flex;justify-content:space-between;align-items:center;padding:2.5mm 3mm;border:.25mm solid #ccd5df;margin-top:2mm; }
+.exam-fee strong { font-size:9pt;display:block;color:#24476b; }
+.exam-fee span { display:block;font-size:7.5pt;margin-top:1mm; }
+.exam-fee b { font-size:13pt;color:#24476b; }
+.deadlines { display:grid;grid-template-columns:1fr 1fr;gap:3mm; }
+.deadlines>div { border-top:.7mm solid #24476b;background:#f0f4f8;padding:2.5mm; }
+.deadlines span { font-size:8pt;display:block;margin-bottom:1.3mm;color:#536477; }
+.deadlines strong { font-size:9pt;color:#24476b;display:block; }
+.payment-note { font-size:7.5pt;line-height:1.7;margin-top:1.5mm!important; }
+.bank-note { font-size:7.5pt;line-height:1.7;margin-top:1mm!important;color:#536477; }
+.support-intro { font-size:8pt;line-height:1.6;margin-bottom:2mm!important; }
+.support-grid { display:grid;grid-template-columns:repeat(3,1fr);gap:2.5mm; }
+.support-grid>div { border:.25mm solid #d7dfe9;padding:2.5mm;background:#f7f9fb; }
+.support-grid h3 { font-size:9pt;line-height:1.8;color:#24476b;margin-bottom:1.5mm; }
+.support-grid p { font-size:7.3pt;line-height:1.7; }
+.contact-strip { display:flex;justify-content:space-between;align-items:center;border-top:.45mm solid #24476b;padding-top:2mm;margin-top:auto; }
+.contact-strip strong { color:#24476b;display:block;font-size:11pt; }
+.contact-strip span { display:block;font-size:7.5pt;line-height:1.8; }
+.contact-strip>div:last-child { text-align:right; }
+.isen-tuition-page footer { border-top:.2mm solid #d5dde6;padding-top:1.5mm;display:flex;justify-content:space-between;align-items:center;font-size:6.8pt;color:#536477; }
+.isen-tuition-page footer b { font-size:10pt;color:#24476b; }
+/* 仕上がり内の安全域と、読み仮名の最小サイズを確保する。 */
+.isen-tuition-page { padding:8mm 11mm 9mm;gap:2mm; }
+.hero-section,.hero-section img { height:34mm;min-height:34mm; }
+.isen-tuition-page rt { font-size:6.5pt;font-weight:600; }
+.fee-section thead rt { font-size:7pt;font-weight:700; }
+.fee-section th,.fee-section td { padding:1.6mm 3mm; }
+.support-grid>div { padding:2mm 2.5mm; }
+
+.hero-copy { padding:3mm 4mm;gap:1mm; }
+.hero-copy h1 { font-size:22pt;line-height:1.3; }

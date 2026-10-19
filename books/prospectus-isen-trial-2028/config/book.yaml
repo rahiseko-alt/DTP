@@ -24,6 +24,7 @@ styles:
   - shared/layouts/typography.css
   - shared/layouts/components.css
   - shared/layouts/brochure-kit.css
+  - books/prospectus-isen-trial-2028/layout.css
 # CSS 変数の上書き（医専スタイル: 白背景・濃紺プライマリ・角丸3mm）
 theme:
   "--color-background": "#ffffff"
@@ -37,6 +38,7 @@ theme:
 # ページの並び順（ページ ID は識別子。並べ替えても ID は付け直さない）。追加は npm run new:page -- --book prospectus-isen-trial-2028 --after <pageId>
 pages:
   - page_001
+  - page_002
 output:
   png_dpi: 350                  # 印刷用 PNG の解像度（npm run render の既定）
   preview_dpi: 150              # 作業確認用の目安（npm run render -- --dpi 150 --out /tmp/<確認用>。output/ には置かない）
