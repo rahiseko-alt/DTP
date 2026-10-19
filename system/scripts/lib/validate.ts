@@ -806,7 +806,7 @@ export async function validateStudio(root: string, opts: { strict?: boolean } = 
 
   const s8 = section(8, 'ファイル識別・格納整合性');
   if(fs.existsSync(path.join(root,'system/scripts/lib/assets.ts'))){
-    try{const report=await checkAssets(root);s8.errors.push(...report.errors);s8.info.push(`${report.documents.length} 資料`);}catch(e){s8.errors.push(String(e));}
+    try{const report=await checkAssets(root);s8.errors.push(...report.errors);s8.warnings.push(...report.warnings);s8.info.push(`${report.documents.length} 資料`);}catch(e){s8.errors.push(String(e));}
   }
   const sections = [s1, s2, s3, s4, s5, s6, s7, s8];
   return {

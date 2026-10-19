@@ -55,10 +55,15 @@ export const AssetSchema = z
       .default("authored"),
     storage: z.enum(["canonical", "legacy-mirror"]).default("canonical"),
     confirmation: z.enum(["verified", "unverified"]),
+    input_provenance: z.enum(["verified", "unverified"]).optional(),
+    retired: z.literal(true).optional(),
     recipe: Recipe.optional(),
     external_inputs: z
       .array(z.object({ path: z.string(), sha256: SHA }).strict())
       .default([]),
+    external_input_globs: z
+      .array(z.object({ pattern: z.string().min(1), sha256: SHA }).strict())
+      .optional(),
     built_from: z
       .array(z.object({ id: ID, revision: SHA }).strict())
       .default([]),
@@ -208,6 +213,32 @@ export function safePath(root: string, rel: string): string {
 function read(root: string, rel: string) {
   return fs.readFileSync(safePath(root, rel), "utf8");
 }
+/** Fingerprint both the file set and its bytes, so additions and removals go stale. */
+export function hashExternalInputGlob(root: string, pattern: string): string {
+  if (
+    !pattern ||
+    path.isAbsolute(pattern) ||
+    pattern.includes("..") ||
+    /[{,(|]\//.test(pattern) ||
+    /[\\\0:!]/.test(pattern) ||
+    pattern.split("/").some((part) => !part || part === ".")
+  )
+    fail("UNSAFE_PATH", pattern);
+  const matches = fg.sync(pattern, {
+    cwd: root,
+    onlyFiles: false,
+    followSymbolicLinks: false,
+    dot: true,
+    unique: true,
+  }).sort();
+  const files: [string, string][] = [];
+  for (const rel of matches) {
+    const absolute = safePath(root, rel);
+    if (fs.statSync(absolute).isFile())
+      files.push([rel, digest(fs.readFileSync(absolute))]);
+  }
+  return digest(JSON.stringify(files));
+}
 function parse(root: string, rel: string) {
   return YAML.parse(read(root, rel));
 }
@@ -292,11 +323,12 @@ export function documents(root: string): Doc[] {
         )
       )
         fail("ASSET_IDENTITY", a.id);
+      const currentRevision = catalogData.current[a.id];
       if (
-        !catalogData.current[a.id] ||
-        !catalogData.assets.some(
-          (b) => b.id === a.id && b.revision === catalogData.current[a.id],
-        )
+        (!currentRevision && !a.retired) ||
+        (currentRevision && !catalogData.assets.some(
+          (b) => b.id === a.id && b.revision === currentRevision && !b.retired,
+        ))
       )
         fail("CURRENT_REVISION", a.id);
       if (a.parent) {
@@ -507,7 +539,10 @@ function assertFresh(
   doc: Doc,
   a: Asset,
   seen = new Set<string>(),
+  unverified = new Set<string>(),
+  globHashes = new Map<string, string>(),
 ) {
+  const topLevel = seen.size === 0;
   const key = a.id + "@" + a.revision;
   if (seen.has(key)) fail("CYCLE", key);
   seen = new Set([...seen, key]);
@@ -515,15 +550,25 @@ function assertFresh(
   for (const external of a.external_inputs)
     if (digest(read(root, external.path)) !== external.sha256)
       fail("STALE_OUTPUT", a.id);
+  for (const external of a.external_input_globs ?? []) {
+    if (!globHashes.has(external.pattern))
+      globHashes.set(external.pattern, hashExternalInputGlob(root, external.pattern));
+    if (globHashes.get(external.pattern) !== external.sha256)
+      fail("STALE_OUTPUT", a.id);
+  }
   for (const source of a.built_from) {
     const dependency = doc.catalogData.assets.find(
       (x) => x.id === source.id && x.revision === source.revision,
     );
     if (!dependency || doc.catalogData.current[source.id] !== source.revision)
       fail("STALE_OUTPUT", a.id);
-    assertFresh(root, doc, dependency, seen);
+    assertFresh(root, doc, dependency, seen, unverified, globHashes);
     availability(root, dependency);
   }
+  if (a.input_provenance === "unverified")
+    unverified.add(a.id);
+  if (topLevel && unverified.size)
+    fail("UNVERIFIED_OUTPUT", [...unverified].join(", "));
 }
 function stable(root: string, before: string) {
   assertUnlocked(root);
@@ -689,6 +734,8 @@ export async function checkAssets(
   assertUnlocked(root);
   const before = fingerprint(root),
     errors: string[] = [],
+    warnings: string[] = [],
+    globHashes = new Map<string, string>(),
     docs = documents(root);
   const policy = JSON.parse(read(root, "system/assets/policy.json")) as {
     required_documents: string[];
@@ -708,9 +755,15 @@ export async function checkAssets(
         }
         if (
           doc.catalogData.current[a.id] === a.revision &&
-          ["preview", "reconstructed-preview"].includes(a.role)
+          (["preview", "reconstructed-preview"].includes(a.role) ||
+            a.input_provenance !== undefined || !!a.external_input_globs?.length)
         ) {
-          assertFresh(root, doc, a);
+          try {
+            assertFresh(root, doc, a, new Set(), new Set(), globHashes);
+          } catch (e) {
+            if (!(e instanceof AssetError) || e.code !== "UNVERIFIED_OUTPUT") throw e;
+            warnings.push(`${doc.id}/${a.id}: UNVERIFIED_OUTPUT: ${String(e)}`);
+          }
         }
         if (a.parent) {
           const p = doc.catalogData.assets.find(
@@ -811,10 +864,9 @@ export async function checkAssets(
         ],
         { cwd: root, onlyFiles: true, followSymbolicLinks: false, dot: true },
       );
-      const canonicalPhotos = new Set(
+      const registeredFiles = new Set(
         docs.flatMap((d) =>
           d.catalogData.assets
-            .filter((a) => a.photo_ref)
             .map((a) => assetPath(root, a)),
         ),
       );
@@ -824,7 +876,7 @@ export async function checkAssets(
             f === d.declaration ||
             f === d.catalog ||
             d.managed_roots.some((p) => f.startsWith(p + "/")),
-        ) || canonicalPhotos.has(f);
+        ) || registeredFiles.has(f);
       for (const f of files.filter((f) => !inScope(f))) {
         if (!baseline.files[f]) errors.push(`LEGACY_NEW: ${f}`);
         else if (
@@ -839,7 +891,7 @@ export async function checkAssets(
     }
   }
   stable(root, before);
-  return { documents: docs.map((d) => d.id), errors };
+  return { documents: docs.map((d) => d.id), errors, warnings };
 }
 
 export interface BaselineSyncOptions {
@@ -848,7 +900,7 @@ export interface BaselineSyncOptions {
   dryRun?: boolean;
 }
 
-export function syncBaseline(root: string, opts: BaselineSyncOptions = {}) {
+export async function syncBaseline(root: string, opts: BaselineSyncOptions = {}) {
   assertUnlocked(root);
   const baselineFile = "system/assets/legacy-baseline.json";
   const absBaseline = safePath(root, baselineFile);
@@ -861,10 +913,9 @@ export function syncBaseline(root: string, opts: BaselineSyncOptions = {}) {
   };
 
   const docs = documents(root);
-  const canonicalPhotos = new Set(
+  const registeredFiles = new Set(
     docs.flatMap((d) =>
       d.catalogData.assets
-        .filter((a) => a.photo_ref)
         .map((a) => assetPath(root, a)),
     ),
   );
@@ -874,7 +925,7 @@ export function syncBaseline(root: string, opts: BaselineSyncOptions = {}) {
         f === d.declaration ||
         f === d.catalog ||
         d.managed_roots.some((p) => f.startsWith(p + "/")),
-    ) || canonicalPhotos.has(f);
+    ) || registeredFiles.has(f);
 
   let targetFiles: string[];
   if (opts.paths && opts.paths.length > 0) {
@@ -890,6 +941,19 @@ export function syncBaseline(root: string, opts: BaselineSyncOptions = {}) {
       { cwd: root, onlyFiles: true, followSymbolicLinks: false, dot: true },
     );
   }
+
+  // Validate content before trusting new hashes. The legacy drift that this
+  // operation reconciles is the only validation error it may disregard.
+  const { validateStudio } = await import("./validate.ts");
+  const { isLfsPointer } = await import("./images.ts");
+  const validation = await validateStudio(root);
+  const errors = validation.sections.flatMap((section) =>
+    section.errors.filter((error) =>
+      !(section.no === 8 && /^LEGACY_(NEW|CHANGED|MISSING): /.test(error)),
+    ),
+  );
+  if (errors.length) fail("BASELINE_VALIDATION", errors.join("\n"));
+  assertUnlocked(root);
 
   let updated = 0;
   let added = 0;
@@ -907,6 +971,7 @@ export function syncBaseline(root: string, opts: BaselineSyncOptions = {}) {
       }
       continue;
     }
+    if (isLfsPointer(abs)) fail("LFS_UNAVAILABLE", f);
     const buf = fs.readFileSync(abs);
     const sha = contentIdentity(buf);
     if (!baseline.files[f]) {

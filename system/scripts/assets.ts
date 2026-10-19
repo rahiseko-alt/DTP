@@ -132,7 +132,7 @@ try {
     const paths = v.paths
       ? v.paths.split(/[,\s]+/).map((s) => s.trim()).filter(Boolean)
       : undefined;
-    result = syncBaseline(root, {
+    result = await syncBaseline(root, {
       paths,
       cleanMissing: true,
       dryRun: v["dry-run"],

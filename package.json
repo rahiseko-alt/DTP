@@ -35,7 +35,8 @@
     "asset:recover": "tsx system/scripts/assets.ts recover",
     "asset:build-inputs": "tsx system/scripts/assets.ts build-inputs",
     "asset:build-check": "tsx system/scripts/assets.ts build-check",
-    "asset:baseline-sync": "tsx system/scripts/assets.ts baseline-sync"
+    "asset:baseline-sync": "tsx system/scripts/assets.ts baseline-sync",
+    "asset:rebuild-standard": "tsx system/scripts/standard-book-rebuild.ts"
   },
   "dependencies": {
     "@fontsource/noto-sans-jp": "^5.3.0",

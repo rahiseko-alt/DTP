@@ -67,3 +67,19 @@ gh api --method POST repos/rahiseko-alt/DTP/rulesets --input system/assets/main-
 2026-10-18再確認：ユーザー操作でruleset25323604が有効化され、失敗PRのmergeが405で拒否されることを実試験済み（証跡 `evidence/protected-main-rejection.json`）。ただし「Require branches to be up to date before merging」はoffで、同項目のAPI更新は403。ユーザー操作による有効化と実装PR #51のmain反映が残る。
 
 2026-10-18 最終確認：mainのrulesetはActive・bypassなし・asset-integrity必須・最新mainとの同期必須を実APIで確認済み。保護によるマージ拒否実試験も成功。最終設定は `evidence/active-main-ruleset.json`。この記録を含むPR #51のマージをmain共通運用への反映点とする。以前の403や未達の記述は初回試行時の履歴であり、現在の検証結果は `evidence/pilot-verification.json` を参照する。
+
+## 通常BOOKの入力鮮度と再生成
+
+HAL風冊子・医専体験版・2027募集要項・アバターOCの既存PDF/PNGは、保存済み実体の同定 (`confirmation: verified`) と、現在入力で描画した証拠 (`input_provenance`) を分ける。移行時に採取した入力集合SHAは生成時の証拠ではないため、既存出力の `input_provenance` は `unverified`。検索では `UNVERIFIED_OUTPUT`、取得は拒否し、資料検査・データ検証では未確認の警告を返す。既知の入力変化・実体破損は引き続きエラーになる。
+
+```bash
+npm run asset:rebuild-standard -- --document prospectus-hal-2028
+npm run asset:baseline-sync
+npm run asset:check
+npm run asset:search -- --document prospectus-hal-2028 --variant standard-render --role reconstructed-preview
+npm run asset:get -- --document prospectus-hal-2028 --id standard-rendered-pdf
+```
+
+再生成は現在入力の集合SHAを採取し、標準rendererで全ページのPDF/PNGを別ディレクトリへ描画する。入力集合の前後一致、実体、カタログの競合を確認してから、新出力を内容SHA別パスに保存しカタログを原子的に更新する。入力の追加・削除も検知する。生成記録は `.cache/standard-render-receipts/`。通常BOOKの新しい出力は従来のベースライン監視範囲にも入るため、描画・登録の成功後に `asset:baseline-sync` と `asset:check` を実行する。受け取った任意のPDFや手で書き換えたSHAだけを最新に昇格させるコマンドではない。
+
+新しいPDFは `standard-rendered-pdf`、確認画像は `standard-rendered-page-001` 等のIDで取得する。旧原本の同定情報・実体・過去版は保持する。生成入力証拠のない旧出力は新出力の登録後も履歴として保持し、取得時の未確認状態は維持する。新版で削除したページは `retired: true` として現行一覧から外し、過去版の実体は残す。

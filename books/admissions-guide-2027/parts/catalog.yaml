@@ -1,3 +1,6 @@
+# 入力集合は依存追跡を導入した時点のスナップショットで、既存PDF/PNGの生成証跡ではない。
+# 既存出力の input_provenance は再描画・入力整合性確認まで unverified。実体確認とSHA/サイズは維持する。
+# プレビューは approved-original の入力集合・写真依存も引き継ぐ。
 schema_version: 1
 document: admissions-guide-2027
 current:
@@ -45,8 +48,36 @@ assets:
     relation: root
     storage: canonical
     confirmation: verified
-    built_from: []
+    input_provenance: unverified
+    built_from:
+      - id: student-dsc-1164
+        revision: a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633
+      - id: student-img-5238
+        revision: 256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696
+      - id: student-img-5069
+        revision: f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6
+      - id: student-img-5119
+        revision: faa5bd59dc9a3519dc29e01bdd2046c2bbcdfe331114ef0c5ccec5cab90eca09
+      - id: student-img-3289
+        revision: 1814974f906f5870fb01c1bf296babc60a86f6860c3c55b7bf91c2858a5313b6
+      - id: student-dsc-1171
+        revision: cef9d1e6dcb033e57ebce3bbc6a8fcf49fbc646e3f99c470603439d026ba5a82
+      - id: student-img-5493
+        revision: 503f3b6999f1499f4b09a92af7663bbf54c0353a625464995bf218f366096364
     external_inputs: []
+    external_input_globs:
+      - pattern: company-data/{facts,brand,copy,photos}/**/*
+        sha256: 7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4
+      - pattern: shared/{components,layouts,generated-assets}/**/*
+        sha256: ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0
+      - pattern: books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}
+        sha256: 2bc07f018fff379cc50dd8994a9e81fac669c99a9701b09b5cccdbbd8b11057f
+      - pattern: system/design-engine/src/**/*
+        sha256: 68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f
+      - pattern: system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}
+        sha256: acbef485643157278f0f65b1c9a50bd3fa0363b76fc7e2fcb04cb0ca82e0afe2
+      - pattern: package{,-lock}.json
+        sha256: dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4
   - id: preview-page-001
     variant: standard-render
     role: preview
@@ -58,6 +89,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -73,6 +105,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -88,6 +121,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -103,6 +137,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -118,6 +153,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -133,6 +169,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -148,6 +185,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -163,6 +201,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -178,6 +217,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -193,6 +233,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -208,6 +249,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -223,6 +265,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -238,6 +281,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -253,6 +297,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -268,6 +313,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -283,6 +329,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -298,6 +345,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -313,6 +361,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -328,6 +377,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -343,6 +393,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -358,6 +409,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -373,6 +425,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -388,6 +441,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
@@ -403,6 +457,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b

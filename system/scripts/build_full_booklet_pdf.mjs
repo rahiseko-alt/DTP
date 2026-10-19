@@ -10,16 +10,9 @@ function getArg(name, defaultValue) {
   return defaultValue;
 }
 
-const legacyBrainDir = 'C:/Users/user/.gemini/antigravity/brain/6689cedc-bb2a-4cdb-8bf2-514e68d71a0d';
 const workDir = path.resolve(getArg('--work-dir', process.env.BOOKLET_WORK_DIR || '.cache/build_full_booklet_pdf'));
 const flatDir = path.resolve(
-  getArg(
-    '--input-dir',
-    process.env.FLAT_PAGES_DIR ||
-      (fs.existsSync(path.join(legacyBrainDir, 'flat_pages'))
-        ? path.join(legacyBrainDir, 'flat_pages')
-        : path.resolve('.cache/flat_pages')),
-  ),
+  getArg('--input-dir', process.env.FLAT_PAGES_DIR || '.cache/flat_pages'),
 );
 const finalPdfPath = path.resolve(
   getArg('--output', 'output/pdf/AIビジネス専門学校_学校案内_2028_白版_20P.pdf'),

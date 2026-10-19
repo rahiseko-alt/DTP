@@ -1,5 +1,15 @@
 # 引継ぎ台帳
 
+## 2026-10-19 指摘3点の限定修正（Codex）
+
+- branch: `fix/asset-validation-freshness-path`。人間の指示範囲は基準更新の内容検証、主要4BOOKの出力鮮度、旧PC固有パス撤廃の3点。6サブで実装・独立確認を分担。
+- `asset:baseline-sync` は更新前に全体検証し、同期対象のレガシー差分以外のエラーとLFSポインタを拒否する。失敗・dry-runでは基準ファイルを保持。
+- 主要4BOOKの既存PDF/PNGは再生成していない。実体の同定は維持し、生成入力証拠は未確認として最新取得を拒否、検査では警告。再生成は `npm run asset:rebuild-standard -- --document <id>`、新版取得は `asset:get -- --document <id> --id standard-rendered-pdf`。入力集合の前後一致・出力検査・競合検査・原子的登録を行い、旧出力と削除ページは明示退役して履歴保存。詳細は `system/assets/README.md`。
+- `build_full_booklet_pdf.mjs` の入力は `--input-dir` → `FLAT_PAGES_DIR` → `.cache/flat_pages`。旧PCパスの自動検出は撤廃。
+- 日本語2ページfixtureを実描画し、新PDFの登録・取得、入力ファイル追加時のSTALE拒否を確認。既存Chromium154を使用した確認用出力であり、入稿用の指定ブラウザ検証とは区別する。指定Chromium不足と既存LFSポインタ試験のタグ引数不整合は今回の修正対象外。
+- mainへのマージは未実施。既存4冊を新版として必要とする時は上記の再生成手順を使い、旧PDFの入力SHAを手書きして確認済みに昇格しない。
+- 最終検証: 型チェック成功、asset:check エラー0、validate エラー0・警告112（旧出力の生成入力証拠未確認43件を含む）。関連97テスト成功。全体は443成功・7失敗・7スキップ、ブラウザ起動前の2suite失敗。失敗は指定Chromium不足と既存タグ引数不整合で、今回対象の関連試験は合格。旧PCパスは構文検査とdefault/env/CLI優先順の実行検証済み。
+
 ## 現在の引継ぎ：2026-10-18 DTP不足箇所の事実調査＋Step 1〜5 mainマージ完了＋「根本解決」計画書（Phase R1〜R4）
 
 - **最優先の再開入口**: **[DTP根本解決計画書（Phase R1〜R4）](../docs/audits/file-identity-20261018/resolution-plan.md)**、[段階的実装計画書（Step 1〜5 完了済）](../docs/audits/file-identity-20261018/implementation-plan-steps.md)、[不足箇所一覧](../docs/audits/file-identity-20261018/不足箇所一覧.md)、[調査引継ぎREADME](../docs/audits/file-identity-20261018/README.md)。

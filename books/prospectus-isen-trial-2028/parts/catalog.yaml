@@ -1,3 +1,6 @@
+# 入力集合は依存追跡を導入した時点のスナップショットで、既存PDF/PNGの生成証跡ではない。
+# 既存出力の input_provenance は再描画・入力整合性確認まで unverified。実体確認とSHA/サイズは維持する。
+# プレビューは approved-original の入力集合・写真依存も引き継ぐ。
 schema_version: 1
 document: prospectus-isen-trial-2028
 current:
@@ -16,8 +19,24 @@ assets:
     relation: root
     storage: canonical
     confirmation: verified
-    built_from: []
+    input_provenance: unverified
+    built_from:
+      - id: student-img-5076
+        revision: 0ca846c9aeca9c56b254c7abf1a66efe99bd126f4dfcc91d5b1d296a6feca26c
     external_inputs: []
+    external_input_globs:
+      - pattern: company-data/{facts,brand,copy,photos}/**/*
+        sha256: 7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4
+      - pattern: shared/{components,layouts,generated-assets}/**/*
+        sha256: ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0
+      - pattern: books/prospectus-isen-trial-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}
+        sha256: feb428261186c31723ceae3afce9c8336bb6d69bdeec92937be49cf54b7521f2
+      - pattern: system/design-engine/src/**/*
+        sha256: 68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f
+      - pattern: system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}
+        sha256: acbef485643157278f0f65b1c9a50bd3fa0363b76fc7e2fcb04cb0ca82e0afe2
+      - pattern: package{,-lock}.json
+        sha256: dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4
   - id: preview-page-001
     variant: standard-render
     role: preview
@@ -29,6 +48,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: 1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37

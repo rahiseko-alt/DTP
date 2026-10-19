@@ -5,6 +5,7 @@ import path from "node:path";
 import { spawnSync } from "node:child_process";
 import {
   digest,
+  hashExternalInputGlob,
   documents,
   resolveDocument,
   checkAssets,
@@ -242,6 +243,84 @@ describe("identity and fail-closed retrieval", () => {
     await expect(getAsset(root, id, "preview")).rejects.toMatchObject({
       code: "STALE_OUTPUT",
     });
+  });
+  it.each(["change", "add", "remove"])("detects glob input %s as stale output", async (mutation) => {
+    write("inputs/school.yaml", "school: original");
+    const c = catalog();
+    c.assets.find((a: Asset) => a.id === "preview").external_input_globs = [{
+      pattern: "inputs/**/*", sha256: hashExternalInputGlob(root, "inputs/**/*"),
+    }];
+    save(c);
+    await expect(getAsset(root, id, "preview")).resolves.toBeTruthy();
+    if (mutation === "change") write("inputs/school.yaml", "school: changed");
+    if (mutation === "add") write("inputs/new.yaml", "new: input");
+    if (mutation === "remove") fs.unlinkSync(path.join(root, "inputs/school.yaml"));
+    await expect(getAsset(root, id, "preview")).rejects.toMatchObject({code: "STALE_OUTPUT"});
+  });
+  it("hashes a sorted path and binary content set, including hidden files and empty sets", () => {
+    expect(hashExternalInputGlob(root, "inputs/**/*")).toBe(digest("[]"));
+    write("inputs/z.bin", Buffer.from([0, 255]));
+    write("inputs/.a", "hidden");
+    expect(hashExternalInputGlob(root, "inputs/**/*")).toBe(digest(JSON.stringify([
+      ["inputs/.a", digest("hidden")],
+      ["inputs/z.bin", digest(Buffer.from([0, 255]))],
+    ])));
+  });
+  it.each(["/tmp/**/*", "../**/*", "{inputs,/tmp}/**/*", "inputs/../../*", "inputs\\*", "!inputs/*"])("rejects unsafe input glob %s", (pattern) => {
+    expect(() => hashExternalInputGlob(root, pattern)).toThrow();
+  });
+  it("rejects glob file and directory symlinks without following them", () => {
+    write("inputs/real.txt", "data");
+    fs.symlinkSync(path.join(root, "inputs/real.txt"), path.join(root, "inputs/link.txt"));
+    expect(() => hashExternalInputGlob(root, "inputs/**/*")).toThrow();
+    fs.unlinkSync(path.join(root, "inputs/link.txt"));
+    fs.symlinkSync("/tmp", path.join(root, "inputs/external"));
+    expect(() => hashExternalInputGlob(root, "inputs/**/*")).toThrow();
+  });
+  it("reports unproven output as a warning while retrieval fails closed", async () => {
+    const c = catalog();
+    c.assets.find((a: Asset) => a.id === "original").input_provenance = "unverified";
+    save(c);
+    await expect(getAsset(root, id, "original")).rejects.toMatchObject({code: "UNVERIFIED_OUTPUT"});
+    const report = await checkAssets(root);
+    expect(report.errors).toEqual([]);
+    expect(report.warnings.some((warning) => warning.includes("flyer/original: UNVERIFIED_OUTPUT"))).toBe(true);
+  });
+  it("requires explicit retirement of every revision before dropping current", async () => {
+    const c = catalog();
+    delete c.current.preview;
+    save(c);
+    expect(() => documents(root)).toThrowError(expect.objectContaining({code: "CURRENT_REVISION"}));
+    c.assets.find((a: Asset) => a.id === "preview").retired = true;
+    save(c);
+    expect(() => documents(root)).not.toThrow();
+    await expect(getAsset(root, id, "preview")).rejects.toMatchObject({code: "NO_MATCH"});
+    c.assets.push({...c.assets.find((a: Asset) => a.id === "preview"), retired: undefined, revision: "a".repeat(64), sha256: "a".repeat(64)});
+    save(c);
+    expect(() => documents(root)).toThrowError(expect.objectContaining({code: "CURRENT_REVISION"}));
+  });
+  it("rejects retired current revisions but allows an active replacement with the same ID", () => {
+    const c = catalog();
+    const old = c.assets.find((a: Asset) => a.id === "preview");
+    old.retired = true;
+    save(c);
+    expect(() => documents(root)).toThrowError(expect.objectContaining({code: "CURRENT_REVISION"}));
+    c.assets.push({...old, retired: undefined, revision: "a".repeat(64), sha256: "a".repeat(64)});
+    c.current.preview = "a".repeat(64);
+    save(c);
+    expect(() => documents(root)).not.toThrow();
+  });
+  it("does not hide stale inputs behind unproven provenance, or cache across checks", async () => {
+    write("inputs/school.yaml", "before");
+    const c = catalog();
+    const original = c.assets.find((a: Asset) => a.id === "original");
+    original.input_provenance = "unverified";
+    original.external_input_globs = [{pattern: "inputs/**/*", sha256: hashExternalInputGlob(root, "inputs/**/*")}];
+    save(c);
+    expect((await checkAssets(root)).errors).toEqual([]);
+    write("inputs/school.yaml", "after");
+    const report = await checkAssets(root);
+    expect(report.errors.some((error) => error.includes("STALE_OUTPUT"))).toBe(true);
   });
   it("requires dependencies for preview registration", async () => {
     await expect(
