@@ -6,6 +6,8 @@ current:
   student-img-5076: 0ca846c9aeca9c56b254c7abf1a66efe99bd126f4dfcc91d5b1d296a6feca26c
   page-selection-18p: be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392
   white-18p-without-group-pages: c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4
+  page-selection-16p: 2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e
+  white-16p-without-group-and-school-pr: aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da
 assets:
   - id: approved-original
     variant: standard-render
@@ -95,4 +97,35 @@ assets:
         revision: 1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37
       - id: page-selection-18p
         revision: be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392
+    external_inputs: []
+  - id: page-selection-16p
+    variant: without-group-and-school-pr
+    role: support
+    media: text
+    file: books/prospectus-isen-trial-2028/parts/page-selection-16p.json
+    revision: 2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e
+    sha256: 2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e
+    size: 1217
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from: []
+    external_inputs: []
+  - id: white-16p-without-group-and-school-pr
+    variant: without-group-and-school-pr
+    role: reconstructed-preview
+    media: pdf
+    file: books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P.pdf
+    revision: aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da
+    sha256: aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da
+    size: 142901838
+    relation: rendered-from
+    storage: canonical
+    confirmation: verified
+    input_provenance: unverified
+    built_from:
+      - id: white-18p-without-group-pages
+        revision: c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4
+      - id: page-selection-16p
+        revision: 2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e
     external_inputs: []
