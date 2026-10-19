@@ -1,5 +1,5 @@
-{{!-- page_007 学費・納期・振込先・返還（右ページ）。金額を主役にした左主面＋小口側の濃紺カラム --}}
-<aside class="p7-side bleed-right bleed-top bleed-bottom">
+{{!-- page_007 学費・納期・振込先・返還・入学に関する注意事項・お問い合わせ（左ページ）。金額を主役にした右主面＋小口側（左）の濃紺カラム。旧P8の注意事項・連絡先を集約 --}}
+<aside class="p7-side bleed-left bleed-top bleed-bottom">
   <section class="p7-pay">
     <h2>振込先</h2>
     <p class="p7-pay__note">入学検定料・学費とも同じ口座です。</p>
@@ -15,10 +15,27 @@
     <h2>入学を辞退する場合</h2>
     <p>{{facts.admissions.withdrawal_refund}}</p>
   </section>
+  <section class="p7-notes">
+    <h2>入学に関する注意事項</h2>
+    <ol>
+      {{#each facts.admissions.important_notes}}
+      <li><b class="num"></b><div><h3>{{title}}</h3><p>{{text}}</p></div></li>
+      {{/each}}
+    </ol>
+  </section>
+  <section class="p7-contact">
+    <h2>お問い合わせ先</h2>
+    <p class="p7-contact__name">{{facts.school.name}}　{{facts.contacts.contacts.0.label}}</p>
+    <p class="p7-contact__tel"><span>TEL</span>{{facts.school.tel}}</p>
+    <dl>
+      <dt>E-mail</dt><dd>{{facts.school.email}}</dd>
+      <dt>HP</dt><dd>{{facts.school.url}}</dd>
+    </dl>
+  </section>
 </aside>
 
 <header class="p7-head">
-  <p class="p7-head__no"><small>第</small><span class="num">6</span><small>章</small></p>
+  <p class="p7-head__no"><small>第</small><span class="num">5</span><small>章</small></p>
   <h1>学費・納期</h1>
 </header>
 
@@ -52,6 +69,11 @@
 </section>
 
 <figure class="p7-photo"><img src="{{photo "student-img-3289"}}" alt="入学式で書類を受け取る新入生" style="object-position: 50% 55%"><figcaption>入学式で書類を受け取る新入生</figcaption></figure>
+
+<aside class="p7-next">
+  <div class="p7-next__tri" aria-hidden="true"></div>
+  <p><b>P9・P10の記入例を見て、P11からの願書に記入します。</b>記入漏れがないか、送付前に必ず確認してください。</p>
+</aside>
 
 <footer class="page-folio" data-side="{{page.side}}">
   <span class="page-folio__number num">{{page.number}}</span>

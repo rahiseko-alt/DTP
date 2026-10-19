@@ -1,5 +1,13 @@
 # 引継ぎ台帳
 
+## 2026-10-19 main改訂を作業ブランチへ統合（Codex）
+
+- 人間の「マージしろ」でPR #60を含むorigin/main `043b5ac` の取り込みを承認。新しい6〜8ページとページ順を保持し、今回の振り仮名点線削除・前期授業料表記修正と統合。旧版のPDF7枚目だった学費は6枚目へ、出願書類は7枚目、8枚目は白紙。
+- 統合PDF: `books/admissions-guide-2027/output/pdf/admissions-guide-2027_ふりがな料金確認_main統合版.pdf`、管理ID `fees-kana-main-merged-pdf`、SHA `42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16`。全24P描画・親による一覧/学費ページ目視・全ページの通貨額列とmain原本の一致・11欄の点線背景なし・7白紙面の純白を確認。代替Chromium154の確認用で独立レビューなし。記録 `parts/main-merge-audit-20261019.json`。
+- 医専版の根拠だった更新前の募集要項は `_参照保存_f2364cce.pdf` として同一バイト/SHAで保全。医専版catalogの該当参照パスのみ保全先へ付け替え、医専版PDFは変更していない。旧募集要項修正版は保存版として退役、新しい統合版を窓口とする。
+- この項が前項のmain統合方針回答待ちを解消する。mainへの反映はPR・保護規則に従って実施する。地図差替えの通信設定待ちは継続。
+- 統合後の正規baseline-sync・validate成功（エラー0・警告122）、diff --check成功。共通コードは追加変更なし、前回全体テストの指定ブラウザ不足等は継続。GitHubのPR一覧REST/GraphQLとも通信proxyのCONNECTで403。`api.github.com` を既存通信許可ドラフトへ追加・保存済み（requires_publish=true）だが未適用。mainはPR必須のため直pushで回避せず、環境設定の保存・Publish後にPR作成/既存PR同定→mainマージを再開する。人間のマージ承認は取得済みで再確認不要。
+
 ## 2026-10-19 募集要項の振り仮名欄・40ページ料金再照合（Codex）
 
 - branch: `fix/asset-validation-freshness-path`。募集要項24Pと医専白版16Pの全40ページを料金照合。正式原本8ファイルのSHA、台帳・facts、各期・各年・検定料込み総額の計算を確認。金額の追加不一致なし。募集要項PDF3・7枚目は390000円を「1年次・前期授業料」と明記。

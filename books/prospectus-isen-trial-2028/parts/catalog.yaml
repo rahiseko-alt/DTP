@@ -298,8 +298,8 @@ assets:
         sha256: 20eadb79e4c19a0109c0ecfcabd008a4abe29815c593bad85e273bdfdced8ade
       - pattern: references/school-own/admissions-2027/original/推薦書.pdf
         sha256: e90a607c3fc92ebdfad3c2a60e78e56b0041846598d43bf5cd839442b35a0ead
-      - pattern: books/admissions-guide-2027/output/pdf/admissions-guide-2027.pdf
-        sha256: b88244b6c5fa8b1d44c1a5c00e9df30f658bec2e2b20fdb9c18f9aae926e005d
+      - pattern: books/admissions-guide-2027/output/pdf/admissions-guide-2027_参照保存_f2364cce.pdf
+        sha256: 02a74036260022b4ed46671d7b34c13b23ae9cf0afe6b0c9c801e35957a640c8
   - id: white-16p-tuition-admissions-revised
     variant: tuition-admissions-revised
     role: reconstructed-preview

@@ -1,15 +1,15 @@
 schema_version: 1
 document: admissions-guide-2027
 current:
-  approved-original: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+  approved-original: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
   preview-page-001: beb64a18db51b1bf97db16ba15f74af9339576b8df2791e5321a744e9e3a4402
-  preview-page-002: 17c9c6da5345a2d3499ee902abaf756d1d250274719b4f00c51646acccb05925
+  preview-page-002: 549c6db7f223bc272149f35fcd8b74de2944531239036812738517ec53af6be5
   preview-page-003: a61c8fcd0232c19f632453cad01d565a566dfbe2882093647d9a77788bc67ee7
   preview-page-004: 0f014bdf282aa1d0ea4d81cc2c175813f84ff5a9b5069c6ab24e09ea9c691a62
   preview-page-005: 9b7be3a0c1c8536bf1a0711507066d0b367515a36d09e7091eb83ba2238f320b
-  preview-page-006: 637e94e2247fd38c4f452f2ad694632edccc17fd398b55f1882e834b7147d91a
-  preview-page-007: 8a9070a280a28af60c6eb3b2efdf7d693380210b0521de090e84780aaf63e1ee
-  preview-page-008: bc778af31922ce3a724cf44cb69997e1a0e8a66637fca3d28bb47efd88945659
+  preview-page-006: 22bfafb2b30c0fe7399c2c74de90b0d006b8b4c4417eb15191f956500b89e179
+  preview-page-007: db21dfb5bf90691ea80af74ae2aa75dee7549b0a4d47b4bb6d00daebd87723c1
+  preview-page-008: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
   preview-page-009: 09ce4376aedb9ec82d2198ebe91577adf5ed0e7f23cb2248a448dcc64d14860e
   preview-page-010: defc9c2cb5eed3b570b00e606fcd2a899588f6d698d92f1e47ba28ea86870c8f
   preview-page-011: c20d038aefc0efb75b74b3f5de4b06747a65266212bb0d8a2069a9acad3fb436
@@ -34,16 +34,18 @@ current:
   student-dsc-1171: cef9d1e6dcb033e57ebce3bbc6a8fcf49fbc646e3f99c470603439d026ba5a82
   student-img-5493: 503f3b6999f1499f4b09a92af7663bbf54c0353a625464995bf218f366096364
   fees-kana-audit-record: 13f5d2c72c49f20ff02b720df77c63c342c66e7582bdab6be91fe271ff7b6658
-  fees-kana-reviewed-pdf: 08a27590057fe37bfe561f71e84455691250473c92c68a695f69a55142dbe521
+  reference-before-pr60: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+  main-merge-audit: 7d367276bbc40dab69ea3c073236d6db1c558307b360cdb981dcc5078ee74850
+  fees-kana-main-merged-pdf: 42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16
 assets:
   - id: approved-original
     variant: standard-render
     role: original
     media: pdf
     file: books/admissions-guide-2027/output/pdf/admissions-guide-2027.pdf
-    revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
-    sha256: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
-    size: 23572507
+    revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
+    sha256: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
+    size: 18533796
     relation: root
     storage: canonical
     confirmation: verified
@@ -73,7 +75,7 @@ assets:
         sha256: ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0
       - &a3
         pattern: books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}
-        sha256: c947c566cf3f0bdee95987e6ba8277e2279ec36b34222e8678e8f6bab33df22d
+        sha256: 9e2483baeaaed1247c8450c67581df878c0d199aef1239952760f7d5fa9d9446
       - &a4
         pattern: system/design-engine/src/**/*
         sha256: 68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f
@@ -97,23 +99,23 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-002
     variant: standard-render
     role: preview
     media: image
     file: books/admissions-guide-2027/output/png/page_002.png
-    revision: 17c9c6da5345a2d3499ee902abaf756d1d250274719b4f00c51646acccb05925
-    sha256: 17c9c6da5345a2d3499ee902abaf756d1d250274719b4f00c51646acccb05925
-    size: 535160
+    revision: 549c6db7f223bc272149f35fcd8b74de2944531239036812738517ec53af6be5
+    sha256: 549c6db7f223bc272149f35fcd8b74de2944531239036812738517ec53af6be5
+    size: 533044
     relation: authored
     storage: canonical
     confirmation: verified
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-003
     variant: standard-render
@@ -129,7 +131,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-004
     variant: standard-render
@@ -145,7 +147,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-005
     variant: standard-render
@@ -161,55 +163,55 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-006
     variant: standard-render
     role: preview
     media: image
     file: books/admissions-guide-2027/output/png/page_006.png
-    revision: 637e94e2247fd38c4f452f2ad694632edccc17fd398b55f1882e834b7147d91a
-    sha256: 637e94e2247fd38c4f452f2ad694632edccc17fd398b55f1882e834b7147d91a
-    size: 264523
+    revision: 22bfafb2b30c0fe7399c2c74de90b0d006b8b4c4417eb15191f956500b89e179
+    sha256: 22bfafb2b30c0fe7399c2c74de90b0d006b8b4c4417eb15191f956500b89e179
+    size: 273074
     relation: authored
     storage: canonical
     confirmation: verified
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-007
     variant: standard-render
     role: preview
     media: image
     file: books/admissions-guide-2027/output/png/page_007.png
-    revision: 8a9070a280a28af60c6eb3b2efdf7d693380210b0521de090e84780aaf63e1ee
-    sha256: 8a9070a280a28af60c6eb3b2efdf7d693380210b0521de090e84780aaf63e1ee
-    size: 492096
+    revision: db21dfb5bf90691ea80af74ae2aa75dee7549b0a4d47b4bb6d00daebd87723c1
+    sha256: db21dfb5bf90691ea80af74ae2aa75dee7549b0a4d47b4bb6d00daebd87723c1
+    size: 477690
     relation: authored
     storage: canonical
     confirmation: verified
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-008
     variant: standard-render
     role: preview
     media: image
     file: books/admissions-guide-2027/output/png/page_008.png
-    revision: bc778af31922ce3a724cf44cb69997e1a0e8a66637fca3d28bb47efd88945659
-    sha256: bc778af31922ce3a724cf44cb69997e1a0e8a66637fca3d28bb47efd88945659
-    size: 1545491
+    revision: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+    sha256: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
+    size: 10749
     relation: authored
     storage: canonical
     confirmation: verified
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-009
     variant: standard-render
@@ -225,7 +227,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-010
     variant: standard-render
@@ -241,7 +243,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-011
     variant: standard-render
@@ -257,7 +259,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-012
     variant: standard-render
@@ -273,7 +275,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-013
     variant: standard-render
@@ -289,7 +291,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-014
     variant: standard-render
@@ -305,7 +307,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-015
     variant: standard-render
@@ -321,7 +323,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-016
     variant: standard-render
@@ -337,7 +339,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-017
     variant: standard-render
@@ -353,7 +355,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-018
     variant: standard-render
@@ -369,7 +371,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-019
     variant: standard-render
@@ -385,7 +387,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-020
     variant: standard-render
@@ -401,7 +403,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-021
     variant: standard-render
@@ -417,7 +419,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-022
     variant: standard-render
@@ -433,7 +435,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-023
     variant: standard-render
@@ -449,7 +451,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: preview-page-024
     variant: standard-render
@@ -465,7 +467,7 @@ assets:
     input_provenance: unverified
     built_from:
       - id: approved-original
-        revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
     external_inputs: []
   - id: student-dsc-1164
     variant: standard-render
@@ -585,6 +587,55 @@ assets:
     built_from:
       - id: fees-kana-audit-record
         revision: 13f5d2c72c49f20ff02b720df77c63c342c66e7582bdab6be91fe271ff7b6658
+    external_input_globs:
+      - *a1
+      - *a2
+      - *a3
+      - *a4
+      - *a5
+      - *a6
+      - pattern: references/school-own/admissions-2027/original/**/*
+        sha256: db54a26a74c02c583ac66487b85486441fa538316fa4bb5b48cb2254aba38040
+    retired: true
+  - id: reference-before-pr60
+    variant: reference-before-pr60
+    role: support
+    media: pdf
+    file: books/admissions-guide-2027/output/pdf/admissions-guide-2027_参照保存_f2364cce.pdf
+    revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    sha256: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
+    size: 23572507
+    confirmation: verified
+    relation: root
+    storage: canonical
+    built_from: []
+  - id: main-merge-audit
+    variant: fees-kana-main-merged
+    role: support
+    media: text
+    file: books/admissions-guide-2027/parts/main-merge-audit-20261019.json
+    revision: 7d367276bbc40dab69ea3c073236d6db1c558307b360cdb981dcc5078ee74850
+    sha256: 7d367276bbc40dab69ea3c073236d6db1c558307b360cdb981dcc5078ee74850
+    size: 6717
+    confirmation: verified
+    relation: authored
+    storage: canonical
+    built_from: []
+  - id: fees-kana-main-merged-pdf
+    variant: fees-kana-main-merged
+    role: reconstructed-preview
+    media: pdf
+    file: books/admissions-guide-2027/output/pdf/admissions-guide-2027_ふりがな料金確認_main統合版.pdf
+    revision: 42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16
+    sha256: 42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16
+    size: 16933928
+    confirmation: verified
+    input_provenance: verified
+    relation: rendered-from
+    storage: canonical
+    built_from:
+      - id: main-merge-audit
+        revision: 7d367276bbc40dab69ea3c073236d6db1c558307b360cdb981dcc5078ee74850
     external_input_globs:
       - *a1
       - *a2
