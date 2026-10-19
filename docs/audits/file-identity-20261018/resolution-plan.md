@@ -12,12 +12,12 @@
 
 ### 「解決した」と言える状態（4つの到達ゴール）
 
-| ゴールID | 解決状態の定義（これが全て YES になって初めて「解決」） | 現状（Step 5完了時点） |
+| ゴールID | 解決状態の定義（これが全て YES になって初めて「解決」） | 現状（Phase R1〜R4 完了時点） |
 | :--- | :--- | :--- |
-| **Goal 1：写真が正しく引ける** | 「授業の写真」「食事の写真」「学生の集合写真」「5人写っている写真」を `photo:search` で探したとき、**該当する全写真が漏れなく・人数誤りなく・権利確認済みの状態で出てくる**こと。 | **未解決**（`lesson` 0件、`student` 0件、食事4件に `food` なし、2〜3人写真に `group` なし、人数誤記3件、権利【要確認】1件が未整理） |
-| **Goal 2：全制作物の正本・パーツが迷わず引ける** | `oc-approved-20261017` だけでなく、現行の主要制作物（`avatar-oc-2028`, `prospectus-hal-2028`, `prospectus-isen-trial-2028`, `admissions-guide-2027`）についても、**俗称から確定IDが引け、最新PDF・使用写真・背景パーツが取り違えなく取得できる**こと。また「原本から切り出した画像部品」が必要な場合は実際に抽出登録されていること。 | **未解決**（`oc-approved-20261017` 1資料のみ管理。他は全て `legacy-unverified` で検索・取得不可。原本抽出部品は0点） |
-| **Goal 3：通常の制作・編集がブロックされない** | 正規の手順（`photo:add` での写真追加、`new:book` / `new:page`、既存BOOKの編集・`render`）を行った際、**`legacy-baseline.json` の凍結によって `validate` / `asset:check` がエラー停止せず、正当な更新として一貫処理できる**こと。 | **未解決**（`books/**` や `photos.yaml` を1箇所でも更新すると `LEGACY_CHANGED` で `asset:check` が失敗する） |
-| **Goal 4：確定台帳と描画用正本データの完全一致** | `company-data/ledger.md`（確定台帳）の確定事項と `company-data/facts/*.yaml` が一致しており、**どのBOOKを `render` しても古い仮データや矛盾した学科・連絡先が出ない**こと。 | **未解決**（`ledger.md` と `facts/{school,courses}.yaml` に差分・TODO残存） |
+| **Goal 1：写真が正しく引ける** | 「授業の写真」「食事の写真」「学生の集合写真」「5人写っている写真」を `photo:search` で探したとき、**該当する全写真が漏れなく・人数誤りなく・権利確認済みの状態で出てくる**こと。 | **解決済**（PR #54：人数誤記3件訂正、`lesson` 12件・`student` 63件・`food` 11件・`group` 38件へ正規化、実検索確認済） |
+| **Goal 2：全制作物の正本・パーツが迷わず引ける** | `oc-approved-20261017` だけでなく、現行の主要制作物（`avatar-oc-2028`, `prospectus-hal-2028`, `prospectus-isen-trial-2028`, `admissions-guide-2027`）についても、**俗称から確定IDが引け、最新PDF・使用写真・背景パーツが取り違えなく取得できる**こと。また「原本から切り出した画像部品」が必要な場合は実際に抽出登録されていること。 | **解決済**（PR #56：主要5資料すべてを `policy.json`・`document.yaml`・`catalog.yaml` に登録し、俗称からの `asset:resolve / search / get / check` を確立） |
+| **Goal 3：通常の制作・編集がブロックされない** | 正規の手順（`photo:add` での写真追加、`new:book` / `new:page`、既存BOOKの編集・`render`）を行った際、**`legacy-baseline.json` の凍結によって `validate` / `asset:check` がエラー停止せず、正当な更新として一貫処理できる**こと。 | **解決済**（PR #55：`npm run asset:baseline-sync` の新設および `validate` でのBOOK横断写真権利検査を追加） |
+| **Goal 4：確定台帳と描画用正本データの完全一致** | `company-data/ledger.md`（確定台帳）の確定事項と `company-data/facts/*.yaml` が一致しており、**どのBOOKを `render` しても古い仮データや矛盾した学科・連絡先が出ない**こと。 | **解決済**（PR #57：`ledger.md` と `facts/*.yaml` を同期、`build_full_booklet_pdf.mjs` の固定パス・連絡先を正本参照化） |
 
 ---
 
@@ -78,7 +78,7 @@
 
 ---
 
-### Phase R3：主要BOOKのカタログ管理化と横断検索の確立（Goal 2 の解決）
+### Phase R3：主要BOOKのカタログ管理化と横断検索の確立（Goal 2 の解決）【完了】
 **対象課題**: `B05`, `B20`, `B21`, `B30`（判断項目 `J01`）
 
 1. **実施内容**:
@@ -100,7 +100,7 @@
 
 ---
 
-### Phase R4：確定台帳（`ledger.md`）と `company-data/facts/` の同期・出力一貫性確立（Goal 4 の解決）
+### Phase R4：確定台帳（`ledger.md`）と `company-data/facts/` の同期・出力一貫性確立（Goal 4 の解決）【完了】
 **対象課題**: `B09`, `D01`, `D04`, `A09`（判断項目 `J04`）
 
 1. **実施内容**:
