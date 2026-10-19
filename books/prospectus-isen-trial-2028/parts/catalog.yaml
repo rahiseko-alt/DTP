@@ -1,12 +1,11 @@
-# 入力集合は依存追跡を導入した時点のスナップショットで、既存PDF/PNGの生成証跡ではない。
-# 既存出力の input_provenance は再描画・入力整合性確認まで unverified。実体確認とSHA/サイズは維持する。
-# プレビューは approved-original の入力集合・写真依存も引き継ぐ。
 schema_version: 1
 document: prospectus-isen-trial-2028
 current:
   approved-original: 1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37
   preview-page-001: a843ad620b2982c3da72139096bf5fbe023e4e527e4655ef16dd2832711b4365
   student-img-5076: 0ca846c9aeca9c56b254c7abf1a66efe99bd126f4dfcc91d5b1d296a6feca26c
+  page-selection-18p: be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392
+  white-18p-without-group-pages: c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4
 assets:
   - id: approved-original
     variant: standard-render
@@ -65,4 +64,35 @@ assets:
     storage: canonical
     confirmation: verified
     built_from: []
+    external_inputs: []
+  - id: page-selection-18p
+    variant: without-group-pages
+    role: support
+    media: text
+    file: books/prospectus-isen-trial-2028/parts/page-selection-18p.json
+    revision: be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392
+    sha256: be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392
+    size: 1047
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from: []
+    external_inputs: []
+  - id: white-18p-without-group-pages
+    variant: without-group-pages
+    role: reconstructed-preview
+    media: pdf
+    file: books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_18P.pdf
+    revision: c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4
+    sha256: c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4
+    size: 165093256
+    relation: rendered-from
+    storage: canonical
+    confirmation: verified
+    input_provenance: unverified
+    built_from:
+      - id: approved-original
+        revision: 1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37
+      - id: page-selection-18p
+        revision: be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392
     external_inputs: []
