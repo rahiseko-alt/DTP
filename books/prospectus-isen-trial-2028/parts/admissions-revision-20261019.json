@@ -1,0 +1,122 @@
+{
+  "request": "入試出願方法を他資料と照合して訂正",
+  "source_pdf": {
+    "id": "white-16p-tuition-revised",
+    "file": "books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_学費改訂.pdf",
+    "sha256": "190466dc9e044309cc87783025091e7db4bd42f9dcdc1c4c807261918e0aa317"
+  },
+  "output": {
+    "file": "books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_学費入試改訂.pdf",
+    "sha256": "23e039f73c7489c5a91825c9b0c7087843edbf7d44edc82ba8e23fe325f59da4",
+    "pages": 16
+  },
+  "replaced_pdf_page": 14,
+  "reference_year": 2027,
+  "intake_year": 2028,
+  "intake_conditions_confirmed": false,
+  "inputs": [
+    {
+      "path": "company-data/ledger.md",
+      "sha256": "19b325cd30ad92525d1d9f0b137c9fd616d34ee0e25ccdba6653d9969ca8e8af"
+    },
+    {
+      "path": "company-data/facts/admissions.yaml",
+      "sha256": "197459aeb33f5cf73e51df886dcc7fb34c974b2e3ac2f75d0b4d292301cdc07d"
+    },
+    {
+      "path": "company-data/facts/booklet.yaml",
+      "sha256": "f999160600a5655dd4138aca2d9742312aaa0288b818d65bdc2508c054e70f1b"
+    },
+    {
+      "path": "books/prospectus-isen-trial-2028/config/book.yaml",
+      "sha256": "3bc661e3f0c5a125cb73611e1f21ac595113dd9ef33b7f368ba60aa06fecc710"
+    },
+    {
+      "path": "books/prospectus-isen-trial-2028/layout.css",
+      "sha256": "6095da9816131d88cab832e57d0ce95d7a208877f8bd6b138abdcddd41522dbe"
+    },
+    {
+      "path": "books/prospectus-isen-trial-2028/pages/page_001/page.html",
+      "sha256": "8cc51e7163e327d7636505dc1c725fe9d70d9d2f9b0a41ebdb4bfc0ce1403623"
+    },
+    {
+      "path": "books/prospectus-isen-trial-2028/pages/page_001/page.css",
+      "sha256": "a0c1434d3c5f4e89d8d1e1210ee8746434abeb34e8405629d01a81d08b0088a3"
+    },
+    {
+      "path": "books/prospectus-isen-trial-2028/pages/page_002/page.html",
+      "sha256": "479c23aa89fa0b7ee9a6f3f99e684acd1988af1e4077193e59986ea58cad1b96"
+    },
+    {
+      "path": "books/prospectus-isen-trial-2028/pages/page_002/page.css",
+      "sha256": "915793d19a5f13b13c10a8048baa11fe29fbf3c8f19f97f8e0cbfe4a906ede03"
+    },
+    {
+      "path": "books/prospectus-isen-trial-2028/pages/page_003/page.html",
+      "sha256": "381269367b83a1ce39ea07e9d85cc6d2d0433bb0479811ed22aa1ed9e64241b8"
+    },
+    {
+      "path": "books/prospectus-isen-trial-2028/pages/page_003/page.css",
+      "sha256": "b87c64fe317c648817a75f79bb00f38268ae4eb4f49653f9c457addd60ae4d4d"
+    }
+  ],
+  "reference_files": [
+    {
+      "path": "references/school-own/admissions-2027/original/募集要項2027.docx",
+      "sha256": "a5edd74bed822ce4680f12ee342a3f245618d351e2d09450041182c64304fd6d"
+    },
+    {
+      "path": "references/school-own/admissions-2027/original/AO入試エントリーシート.pdf",
+      "sha256": "53ed218eff2dedb653c4ac44d68b928b38c6b07ad5ad0ff878b587ffce8bb86a"
+    },
+    {
+      "path": "references/school-own/admissions-2027/original/推薦書.pdf",
+      "sha256": "f1ea9c066cf4927617265c3ab174b771e9b6bf4598fa1aa5419075800443a168"
+    },
+    {
+      "path": "books/admissions-guide-2027/output/pdf/admissions-guide-2027.pdf",
+      "sha256": "f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b"
+    }
+  ],
+  "findings": [
+    {
+      "issue": "推薦入試が未掲載",
+      "correction": "AO/推薦/一般の3区分を正式名称とともに掲載",
+      "basis": "募集要項/確定台帳/2027募集要項BOOK"
+    },
+    {
+      "issue": "一般選考が日本語テスト等に置換",
+      "correction": "書類選考・面接・筆記試験（学力検査）へ",
+      "basis": "正式募集要項/正本facts"
+    },
+    {
+      "issue": "パスポートや在留資格証明を全員必須の書類と表示",
+      "correction": "原本で確認できる願書・検定料振込関係・写真・学歴書類・様式2/3/4と区分別AOエントリー/推薦書へ",
+      "basis": "正式募集要項と各様式"
+    },
+    {
+      "issue": "AOエントリーと出願が混同",
+      "correction": "参加→エントリー→面接等→出願許可証→出願を区別",
+      "basis": "正式募集要項/AOエントリーシート/2027募集要項BOOK"
+    },
+    {
+      "issue": "年度・日程が不整合",
+      "correction": "2027年度の参考情報として原本どおり2026年の受付・発表日を掲載。2028年度は未確定",
+      "basis": "確定台帳/正式募集要項"
+    },
+    {
+      "issue": "未確定の提出様式を補って断定しない",
+      "correction": "原本欠番5・6、確認表様式/添付先、推薦書第一志望、最新年度条件は学校確認と明示",
+      "basis": "原本/引継ぎ/推薦書"
+    }
+  ],
+  "validation": {
+    "financial_pages_render_pixels_unchanged": true,
+    "other_15_pages_pixels_identical": true,
+    "self_review": true,
+    "independent_review": false,
+    "browser": "Chromium154 fallback; preview only",
+    "render_typography_or_safety_warnings": 0
+  },
+  "method": "3ソースページを標準rendererで再描画し、塗り足し3mmを除いた入試ページのみを元16P PDFの14枚目に差替え。再ラスタライズなし。"
+}
