@@ -59,7 +59,7 @@
 .fm .c--opts .cb:first-child{margin-left:0}
 .fm .cb{display:inline-block;flex:0 0 auto;width:3.6mm;height:3.6mm;border:.35mm solid var(--color-text);background:var(--color-background)}
 .fm i.cb{margin-right:1mm}
-.fm .c--dots{align-items:flex-start!important;border-bottom:0;background-image:radial-gradient(circle,var(--color-text) .2mm,transparent .25mm);background-size:1.4mm 100%;background-repeat:repeat-x;background-position:0 92%}
+.fm .c--kana{align-items:flex-start!important;border-bottom:0;background:none}
 .fm .r--sex{grid-template-columns:20mm 1fr 14mm}
 .fm .c--sex{flex-direction:column;align-items:flex-start;justify-content:center;gap:2mm;padding:0 2mm;font-size:8pt!important;font-weight:700!important}
 .fm .c--sex span{display:flex;align-items:center}
@@ -166,5 +166,5 @@
 .fm .cir{display:inline-block;border:.3mm solid var(--color-primary);border-radius:50%;padding:0 .8mm;line-height:1.25}
 .f-cut span{font-size:7.5pt!important;font-weight:700!important;color:var(--color-text)!important}
 .f-office--one caption{left:auto;right:0;text-align:right}
-.fm .c--dots .hw{margin-top:.9mm;line-height:1.1}
+.fm .c--kana .hw{margin-top:.9mm;line-height:1.1}
 .p15-work1 .work{grid-template-rows:9mm 10mm}.p15-work1 .work>*:nth-child(n+7){display:none}.p15-work1 .work__lab{grid-row:1/span 2}

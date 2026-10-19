@@ -47,7 +47,7 @@
 
 <section class="p7-due">
   <h2>納入の期日</h2>
-  <ol>{{#each facts.admissions.tuition.deadlines}}<li><b class="num"></b>{{this}}</li>{{/each}}</ol>
+  <ol>{{#each facts.admissions.tuition.deadlines}}<li><b class="num"></b>{{#if (eq @index 1)}}1年次・前期授業料（{{num @root.facts.admissions.tuition.years.0.terms.0.tuition}}円）は、合格から1か月以内に納入してください。{{else}}{{this}}{{/if}}</li>{{/each}}</ol>
   <p class="p7-due__ext">{{lookup facts.admissions.tuition.notes 1}}</p>
 </section>
 

@@ -1,5 +1,14 @@
 # 引継ぎ台帳
 
+## 2026-10-19 募集要項の振り仮名欄・40ページ料金再照合（Codex）
+
+- branch: `fix/asset-validation-freshness-path`。募集要項24Pと医専白版16Pの全40ページを料金照合。正式原本8ファイルのSHA、台帳・facts、各期・各年・検定料込み総額の計算を確認。金額の追加不一致なし。募集要項PDF3・7枚目は390000円を「1年次・前期授業料」と明記。
+- 募集要項の記入例と提出用様式、振り仮名11欄の点線背景を削除。新PDF `books/admissions-guide-2027/output/pdf/admissions-guide-2027_ふりがな料金確認版.pdf`、管理ID `fees-kana-reviewed-pdf`。全24Pを再描画、全ページ一覧と修正前後を親が自己点検、DOMで旧点線クラス0・11欄の背景なし、金額列の前後一致、裏面6ページ純白を確認。独立レビューなし、Chromium154代替の確認用preview。記録は同BOOKの `parts/fees-and-kana-audit-20261019.json`。
+- 医専白版16PのPDFは今回変更なし。学習環境ページを地図・連絡先へ差替える依頼は未完了。連絡先・本物の公式URL QRのソースを `books/prospectus-isen-trial-2028/drafts/access/` へ保全、QRは紙面PNGから実デコード済み。地図枠は仮置きで冊子に未挿入。
+- typecheck・validate成功（エラー0・警告122）、正規baseline-sync成功、git diff --check成功。全体テストは445成功・7失敗・7skip、2suiteは起動失敗。原因は指定Chromium不足/代替版のrelease拒否と既存photo:addのタグ要件試験。doctorも指定ブラウザ不足でNG。今回の制作変更でこれらを合格とは扱わない。
+- 最新origin/main `043b5ac` はPR #60の募集要項6〜8ページ改訂を含み、このブランチに未統合。学費page_007、catalog、baselineが重なる。今回PDFは旧ページ順での作業ブランチ版（学費PDF7枚目）であり、mainの新しい並び（学費PDF6枚目）を反映しない。運用ルールの同一箇所の並行変更時の分担確認に従い、人間へ統合方針を質問済み。取り込み承認時は旧管理出力の不変性・医専版の参照元PDF依存も保全して統合し、全24Pの再描画・料金再確認・監査記録の新版登録が必要。
+- 学校公式サイトと国土地理院の調査が通信proxy403で停止。環境の通信許可ドラフトへ `kaihougakuen.my.canva.site`, `msearch.gsi.go.jp`, `cyberjapandata.gsi.go.jp`, `maps.gsi.go.jp` を追加済みだが適用待ち。適用後、住所・道路を実調査し、画像生成で地図を制作して差替え・再点検する。未調査の道路を描かない。確定台帳とfactsは変更していない。
+
 ## 2026-10-19 医専白版の入試・出願方法を他資料と整合
 
 - 人間の「入試出願方法は他の資料と整合性が必要だ。調査して直せ」に対応。確定台帳、正本facts/admissions.yaml、正式募集要項DOCX、AOエントリーシート、推薦書、24ページ版募集要項PDFを照合した。

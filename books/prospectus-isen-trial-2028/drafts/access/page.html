@@ -1,0 +1,9 @@
+<div class="bk-kit isen-tuition-page access-page" data-theme="isen">
+<header class="page-header"><span class="page-badge">23</span><span>アクセス・お問い合わせ</span><strong>{{facts.school.name}}</strong></header>
+<section class="access-heading"><h1>アクセス・お<ruby>問<rt>と</rt></ruby>い<ruby>合<rt>あ</rt></ruby>わせ</h1><p>ご来校・入学相談の際は、下記の連絡先をご利用ください。</p></section>
+<section class="location"><h2><ruby>所在地<rt>しょざいち</rt></ruby></h2><strong>{{facts.school.name}}</strong><p>〒{{facts.school.address.postal_code}}<br>{{facts.school.address.prefecture}}{{facts.school.address.city}}{{facts.school.address.line1}}</p><p class="station">{{#each facts.school.access}}{{this}}{{/each}}</p></section>
+<section class="map-area"><h2><ruby>案内地図<rt>あんないちず</rt></ruby></h2><div class="map-draft"><span>地図画像の掲載位置</span></div></section>
+<section class="access-contact"><h2><ruby>入学相談<rt>にゅうがくそうだん</rt></ruby>・ご<ruby>連絡<rt>れんらく</rt></ruby></h2><div class="contact-main"><div><p>{{facts.contacts.contacts.0.label}}</p><a class="phone" href="tel:{{facts.school.tel}}">{{facts.school.tel}}</a><a class="email" href="mailto:{{facts.school.email}}">{{facts.school.email}}</a><p>入試・学費・ご来校についてのお問い合わせはこちらへ。</p></div></div></section>
+<section class="website"><div><h2><ruby>公式<rt>こうしき</rt></ruby>サイト</h2><a href="{{facts.school.url}}">{{facts.school.url}}</a><p>学校の情報をご覧いただけます。</p></div><div class="qr-block">{{qr facts.school.url size=30 ecl="M"}}<strong>公式サイトへ</strong></div></section>
+<footer><span>{{facts.school.corporation}}　{{facts.school.name}}</span><b>23</b></footer>
+</div>

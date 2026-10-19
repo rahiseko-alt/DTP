@@ -1,0 +1,648 @@
+{
+  "date": "2026-10-19",
+  "request": "振り仮名欄の点線削除・全ページ料金再照合",
+  "output": {
+    "file": "books/admissions-guide-2027/output/pdf/admissions-guide-2027_ふりがな料金確認版.pdf",
+    "sha256": "08a27590057fe37bfe561f71e84455691250473c92c68a695f69a55142dbe521",
+    "pages": 24
+  },
+  "scope": {
+    "admissions_pages": 24,
+    "medical_brochure_pages": 16,
+    "total_pages": 40
+  },
+  "sources": [
+    {
+      "path": "company-data/ledger.md",
+      "sha256": "19b325cd30ad92525d1d9f0b137c9fd616d34ee0e25ccdba6653d9969ca8e8af"
+    },
+    {
+      "path": "company-data/facts/admissions.yaml",
+      "sha256": "197459aeb33f5cf73e51df886dcc7fb34c974b2e3ac2f75d0b4d292301cdc07d"
+    },
+    {
+      "path": "references/school-own/admissions-2027/source.yaml",
+      "sha256": "1ee171d8a81e81294043519c3ecd70a90c2634131f23d195d8d7e77a267e8fe2"
+    }
+  ],
+  "source_originals": "正式原本8ファイルのSHAをsource.yamlと照合、一致",
+  "findings": [
+    "金額の追加不一致なし。初年度930000円、2年次830000円、2年間1760000円、検定料20000円、検定料込み1780000円を照合。",
+    "募集要項PDF3・7枚目の390000円を1年次・前期授業料と明記。",
+    "記入例・提出用様式の振り仮名11欄から点線背景を削除。罫線枠は保持。"
+  ],
+  "validation": {
+    "render": "全24ページ、Chromium154代替、確認用preview",
+    "typography_or_safety_warnings": 0,
+    "all_currency_sequences_unchanged": true,
+    "blank_reverse_pages_white": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      22
+    ],
+    "source_hashes_match": 8,
+    "financial_arithmetic": true,
+    "self_review": true,
+    "independent_review": false,
+    "visuals": [
+      "24ページ一覧",
+      "16ページ一覧",
+      "願書欄の修正前後"
+    ],
+    "kana_dom": [
+      {
+        "page": "page_001",
+        "fields": []
+      },
+      {
+        "page": "page_002",
+        "fields": []
+      },
+      {
+        "page": "page_003",
+        "fields": []
+      },
+      {
+        "page": "page_004",
+        "fields": []
+      },
+      {
+        "page": "page_005",
+        "fields": []
+      },
+      {
+        "page": "page_006",
+        "fields": []
+      },
+      {
+        "page": "page_007",
+        "fields": []
+      },
+      {
+        "page": "page_008",
+        "fields": []
+      },
+      {
+        "page": "page_015",
+        "fields": [
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          },
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          }
+        ]
+      },
+      {
+        "page": "page_017",
+        "fields": [
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          },
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          }
+        ]
+      },
+      {
+        "page": "page_009",
+        "fields": [
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          },
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          }
+        ]
+      },
+      {
+        "page": "page_018",
+        "fields": []
+      },
+      {
+        "page": "page_010",
+        "fields": [
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          }
+        ]
+      },
+      {
+        "page": "page_019",
+        "fields": []
+      },
+      {
+        "page": "page_011",
+        "fields": [
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          },
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          }
+        ]
+      },
+      {
+        "page": "page_020",
+        "fields": []
+      },
+      {
+        "page": "page_012",
+        "fields": [
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          }
+        ]
+      },
+      {
+        "page": "page_021",
+        "fields": []
+      },
+      {
+        "page": "page_013",
+        "fields": []
+      },
+      {
+        "page": "page_022",
+        "fields": []
+      },
+      {
+        "page": "page_014",
+        "fields": [
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "フリガナ"
+          }
+        ]
+      },
+      {
+        "page": "page_023",
+        "fields": []
+      },
+      {
+        "page": "page_016",
+        "fields": []
+      },
+      {
+        "page": "page_024",
+        "fields": []
+      }
+    ]
+  },
+  "page_money_mentions": [
+    {
+      "book": "isen",
+      "page": 1,
+      "money_mentions": []
+    },
+    {
+      "book": "isen",
+      "page": 2,
+      "money_mentions": []
+    },
+    {
+      "book": "isen",
+      "page": 3,
+      "money_mentions": []
+    },
+    {
+      "book": "isen",
+      "page": 4,
+      "money_mentions": []
+    },
+    {
+      "book": "isen",
+      "page": 5,
+      "money_mentions": []
+    },
+    {
+      "book": "isen",
+      "page": 6,
+      "money_mentions": []
+    },
+    {
+      "book": "isen",
+      "page": 7,
+      "money_mentions": []
+    },
+    {
+      "book": "isen",
+      "page": 8,
+      "money_mentions": []
+    },
+    {
+      "book": "isen",
+      "page": 9,
+      "money_mentions": []
+    },
+    {
+      "book": "isen",
+      "page": 10,
+      "money_mentions": []
+    },
+    {
+      "book": "isen",
+      "page": 11,
+      "money_mentions": [
+        {
+          "line": 17,
+          "context": "こんな心配はありませんか? / 日本語がまだ十分では        途中であきらめて|          卒業後に日本で              学費は / ないけれど、授業に       しまわないか心配…       働けるのかな?        払えるだろうか?"
+        }
+      ]
+    },
+    {
+      "book": "isen",
+      "page": 12,
+      "money_mentions": [
+        {
+          "line": 6,
+          "context": " / 学費のご案内 / "
+        },
+        {
+          "line": 14,
+          "context": " / | x= 2027年度の参考額 2028年4月入学の学費・納付条件は未確定です。 / "
+        },
+        {
+          "line": 18,
+          "context": " / 100,000                             ー / 390,000                       390,000"
+        },
+        {
+          "line": 19,
+          "context": "100,000                             ー / 390,000                       390,000 / 390,000                       390,000"
+        },
+        {
+          "line": 20,
+          "context": "390,000                       390,000 / 390,000                       390,000 / 50,000                         50,000"
+        },
+        {
+          "line": 21,
+          "context": "390,000                       390,000 / 50,000                         50,000 / 930,000                         830,000"
+        },
+        {
+          "line": 22,
+          "context": "50,000                         50,000 / 930,000                         830,000 / "
+        },
+        {
+          "line": 24,
+          "context": " / EMOMMS EE                                                                1,760,000 5 / "
+        },
+        {
+          "line": 32,
+          "context": " / 20,000円 / 出願時に納める費用。上の納付金とは別です。"
+        },
+        {
+          "line": 39,
+          "context": "合格から10日以内                                         合格から1か月以内 / 入学金 100,000円                                                       1年次・前期授業料 390,000円 / "
+        },
+        {
+          "line": 51,
+          "context": "AO入 試の特典                                 分 納について                                  その他の支援 / 2028年4月入学の減免・特典は未確定です。金 分納の可否・回数・条件は未確認です。希望す 奨学金・教育ローン等の対象制度や利用条件は / HMMA REE         ください。              る場合は、出願前に入学事務局へご相談くださ 。 未確認です。利用を検討する場合は事前にご確"
+        }
+      ]
+    },
+    {
+      "book": "isen",
+      "page": 13,
+      "money_mentions": [
+        {
+          "line": 16,
+          "context": "入学検定料                                       入学金                                            1年次・前期授業料 / 20,0005           100,0005          390,000. / 振込控えを出願書類とともに提出します。          入学金の納付期限です。                            上記の期限が明記されているのは授業料で"
+        },
+        {
+          "line": 22,
+          "context": " / 1年次・前期                                                      390,000                          50,000                            440,000 / 1年次・後期                                                      390,000                                0                            390,000"
+        },
+        {
+          "line": 23,
+          "context": "1年次・前期                                                      390,000                          50,000                            440,000 / 1年次・後期                                                      390,000                                0                            390,000 / 2年次・前期                                                      390,000                          50,000                            440,000"
+        },
+        {
+          "line": 24,
+          "context": "1年次・後期                                                      390,000                                0                            390,000 / 2年次・前期                                                      390,000                          50,000                            440,000 / 2年次・後其                                                      390,000                                0                            390,000"
+        },
+        {
+          "line": 25,
+          "context": "2年次・前期                                                      390,000                          50,000                            440,000 / 2年次・後其                                                      390,000                                0                            390,000 / "
+        },
+        {
+          "line": 33,
+          "context": " / 入学検定料を含む合計                                                             1,780,000 5 / "
+        },
+        {
+          "line": 35,
+          "context": " / 納付金 1.760.000円 入学検定料 20,000円 / "
+        },
+        {
+          "line": 41,
+          "context": " / AO入試による入学金免除・減免の金額や条件は、確定情報を確認できていません。特典を前提にした金額では準備せず、適用条件を学 / 校へご確認ください。"
+        }
+      ]
+    },
+    {
+      "book": "isen",
+      "page": 14,
+      "money_mentions": []
+    },
+    {
+      "book": "isen",
+      "page": 15,
+      "money_mentions": []
+    },
+    {
+      "book": "isen",
+      "page": 16,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 1,
+      "money_mentions": [
+        {
+          "line": 5,
+          "context": "募集要項＋願書 / 出願資格・日程・学費から、切り取って提出できる願書まで。手続きを間違えずに / 進めるための1冊です。"
+        }
+      ]
+    },
+    {
+      "book": "admissions-guide",
+      "page": 2,
+      "money_mentions": [
+        {
+          "line": 15,
+          "context": "P7 / 学費・納期・振込先・返還 / P8"
+        }
+      ]
+    },
+    {
+      "book": "admissions-guide",
+      "page": 3,
+      "money_mentions": [
+        {
+          "line": 35,
+          "context": "受付：2026年9月1日以降 / 入学検定料20,000円を振込み、振込控えを書 / 類に添えて提出（P6・P7）"
+        },
+        {
+          "line": 45,
+          "context": "受付：2026年10月1日～ / 入学検定料20,000円を振込み、振込控えを書 / 類に添えて提出（P6・P7）"
+        },
+        {
+          "line": 58,
+          "context": "入学金の納入 / 入学金（100,000円）につき / ましては、合格から10日以"
+        },
+        {
+          "line": 62,
+          "context": "授業料の納入 / 1年次授業料（390,000円） / につきましては、合格から1"
+        },
+        {
+          "line": 67,
+          "context": "すべての入学手続きが完了 / し、指定期日までに学費が納 / 入された場合にのみ入学が許"
+        }
+      ]
+    },
+    {
+      "book": "admissions-guide",
+      "page": 4,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 5,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 6,
+      "money_mentions": [
+        {
+          "line": 62,
+          "context": "期日までに納入ができない場合は必ず入学事務局までご連絡ください。 / 入学許可書はすべての入学手続きが完了し、指定期日までに学費が納入された場合にのみ発行いたしま / す。"
+        }
+      ]
+    },
+    {
+      "book": "admissions-guide",
+      "page": 7,
+      "money_mentions": [
+        {
+          "line": 2,
+          "context": "振込先 / 入学検定料・学費とも同じ口座です。 / 銀行名"
+        },
+        {
+          "line": 19,
+          "context": "入学を辞退する場合 / 指定期日までに学費等を納入し入学手 / 続きを完了した方が、本校への入学を"
+        },
+        {
+          "line": 23,
+          "context": "本校所定の「入学辞退届」を提出した / 方に限り、納入済みの学費から「入学 / 金」を除いた「授業料および諸経費」"
+        },
+        {
+          "line": 27,
+          "context": "第6章 / 学費・納期 / 初年度納付金（入学金を含む）"
+        },
+        {
+          "line": 29,
+          "context": "初年度納付金（入学金を含む） / 930,000円 / 2年次"
+        },
+        {
+          "line": 31,
+          "context": "2年次 / 830,000円 / 2年間の総額"
+        },
+        {
+          "line": 33,
+          "context": "2年間の総額 / 1,760,000円 / 入学検定料（出願時）"
+        },
+        {
+          "line": 35,
+          "context": "入学検定料（出願時） / 20,000円 / 授業料"
+        },
+        {
+          "line": 40,
+          "context": "入学金 / 100,000円 / 1年次　前期"
+        },
+        {
+          "line": 42,
+          "context": "1年次　前期 / 390,000円 / 50,000円"
+        },
+        {
+          "line": 43,
+          "context": "390,000円 / 50,000円 / 440,000円"
+        },
+        {
+          "line": 44,
+          "context": "50,000円 / 440,000円 / 1年次　後期"
+        },
+        {
+          "line": 46,
+          "context": "1年次　後期 / 390,000円 / －"
+        },
+        {
+          "line": 48,
+          "context": "－ / 390,000円 / 1年次合計"
+        },
+        {
+          "line": 50,
+          "context": "1年次合計 / 930,000円 / 2年次　前期"
+        },
+        {
+          "line": 52,
+          "context": "2年次　前期 / 390,000円 / 50,000円"
+        },
+        {
+          "line": 53,
+          "context": "390,000円 / 50,000円 / 440,000円"
+        },
+        {
+          "line": 54,
+          "context": "50,000円 / 440,000円 / 2年次　後期"
+        },
+        {
+          "line": 56,
+          "context": "2年次　後期 / 390,000円 / －"
+        },
+        {
+          "line": 58,
+          "context": "－ / 390,000円 / 2年次合計"
+        },
+        {
+          "line": 60,
+          "context": "2年次合計 / 830,000円 / 総額"
+        },
+        {
+          "line": 62,
+          "context": "総額 / 1,760,000円 / 総額には入学検定料（20,000円）を含みません。"
+        },
+        {
+          "line": 63,
+          "context": "1,760,000円 / 総額には入学検定料（20,000円）を含みません。 / 納入の期日"
+        },
+        {
+          "line": 66,
+          "context": "1 / 入学金（100,000円）につきましては、合格から10日以内納入ください。 / 2"
+        },
+        {
+          "line": 68,
+          "context": "2 / 1年次授業料（390,000円）につきましては、合格から1か月以内に納入ください。 / 3"
+        }
+      ]
+    },
+    {
+      "book": "admissions-guide",
+      "page": 8,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 9,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 10,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 11,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 12,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 13,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 14,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 15,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 16,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 17,
+      "money_mentions": [
+        {
+          "line": 17,
+          "context": "入学検定料 / 20,000 円 / この上に、入学検定料振り込みが確認できるもの（振込み明細票等）を貼り付け"
+        }
+      ]
+    },
+    {
+      "book": "admissions-guide",
+      "page": 18,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 19,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 20,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 21,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 22,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 23,
+      "money_mentions": []
+    },
+    {
+      "book": "admissions-guide",
+      "page": 24,
+      "money_mentions": []
+    }
+  ],
+  "limitations": [
+    "2027年度原本の参考金額。2028年度の料金を確定するものではない。",
+    "医専版16Pは照合のみでPDF変更なし。",
+    "学習環境ページの地図・連絡先への差替えは未完了。地図調査通信の403によりdrafts/accessへ保全。"
+  ]
+}
