@@ -41,7 +41,7 @@ assets:
       - pattern: system/design-engine/src/**/*
         sha256: 68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f
       - pattern: system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}
-        sha256: acbef485643157278f0f65b1c9a50bd3fa0363b76fc7e2fcb04cb0ca82e0afe2
+        sha256: ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478
       - pattern: package{,-lock}.json
         sha256: dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4
   - id: preview-page-1

@@ -286,6 +286,30 @@ describe("identity and fail-closed retrieval", () => {
     expect(report.errors).toEqual([]);
     expect(report.warnings.some((warning) => warning.includes("flyer/original: UNVERIFIED_OUTPUT"))).toBe(true);
   });
+  it("retrieves a saved edition with unproven inputs but still rejects corrupt bytes", async () => {
+    const c = catalog();
+    const original = c.assets.find((a: Asset) => a.id === "original");
+    original.input_provenance = "unverified";
+    original.external_inputs = [{path: "missing-source.yaml", sha256: "a".repeat(64)}];
+    save(c);
+    const saved = await getAsset(root, id, "original", {saved: true});
+    expect(saved.retrieval).toMatchObject({mode: "saved", integrity: "verified", freshness: "not_checked"});
+    expect(saved.asset.input_provenance).toBe("unverified");
+    fs.appendFileSync(path.join(root, original.file), "tampered");
+    await expect(getAsset(root, id, "original", {saved: true})).rejects.toMatchObject({code: "HASH_MISMATCH"});
+  });
+  it("permits a stale saved edition while latest retrieval still rejects it", async () => {
+    write("inputs/source.txt", "before");
+    const c = catalog();
+    const original = c.assets.find((a: Asset) => a.id === "original");
+    original.external_inputs = [{path: "inputs/source.txt", sha256: digest("before")}];
+    save(c);
+    write("inputs/source.txt", "after");
+    await expect(getAsset(root, id, "original")).rejects.toMatchObject({code: "STALE_OUTPUT"});
+    expect((await getAsset(root, id, "original", {saved: true})).retrieval?.freshness).toBe("not_checked");
+    fs.unlinkSync(path.join(root, original.file));
+    await expect(getAsset(root, id, "original", {saved: true})).rejects.toMatchObject({code: "MISSING"});
+  });
   it("requires explicit retirement of every revision before dropping current", async () => {
     const c = catalog();
     delete c.current.preview;

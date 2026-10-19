@@ -652,6 +652,7 @@ export async function getAsset(
         variant?: string;
         role?: Role;
         media?: "image" | "pdf" | "text";
+        saved?: boolean;
       },
 ) {
   const opts =
@@ -673,7 +674,11 @@ export async function getAsset(
     (opts.media && a.media !== opts.media)
   )
     fail("SELECTOR", `${id}: selector mismatch`);
-  assertFresh(root, doc, a);
+  if (opts.saved) {
+    if (a.confirmation !== "verified") fail("UNVERIFIED", a.id);
+  } else {
+    assertFresh(root, doc, a);
+  }
   const state = availability(root, a);
   if (state === "available" && a.media === "image") {
     const rel = assetPath(root, a);
@@ -686,6 +691,14 @@ export async function getAsset(
     document_id: doc.id,
     asset: a,
     path: assetPath(root, a),
+    ...(opts.saved ? {
+      retrieval: {
+        mode: "saved",
+        integrity: "verified",
+        freshness: "not_checked",
+        notice: "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。",
+      },
+    } : {}),
   };
 }
 function pdftoppmVersion(): string {

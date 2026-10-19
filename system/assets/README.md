@@ -70,7 +70,9 @@ gh api --method POST repos/rahiseko-alt/DTP/rulesets --input system/assets/main-
 
 ## 通常BOOKの入力鮮度と再生成
 
-HAL風冊子・医専体験版・2027募集要項・アバターOCの既存PDF/PNGは、保存済み実体の同定 (`confirmation: verified`) と、現在入力で描画した証拠 (`input_provenance`) を分ける。移行時に採取した入力集合SHAは生成時の証拠ではないため、既存出力の `input_provenance` は `unverified`。検索では `UNVERIFIED_OUTPUT`、取得は拒否し、資料検査・データ検証では未確認の警告を返す。既知の入力変化・実体破損は引き続きエラーになる。
+HAL風冊子・医専体験版・2027募集要項・アバターOCの既存PDF/PNGは、保存済み実体の同定 (`confirmation: verified`) と、現在入力で描画した証拠 (`input_provenance`) を分ける。移行時に採取した入力集合SHAは生成時の証拠ではないため、既存出力の `input_provenance` は `unverified`。検索では `UNVERIFIED_OUTPUT`、最新版としての取得は拒否し、資料検査・データ検証では未確認の警告を返す。既知の入力変化・実体破損は引き続きエラーになる。
+
+保存済み版の確認・共有には `asset:get -- --document <id> --id <assetId> --saved` を使う。実体のSHA・サイズ・形式を検証し、「保存済み版・最新版かは未確認」と明示して取得する。入力の鮮度検証は行わず、確認済みへの昇格やメタデータの書換えもしない。破損・欠損・未取得LFS・実体同定未確認は拒否する。過去の退役版は `--revision <SHA>` も指定する。最新版の保証には従来どおり `--saved` を付けずに取得する。
 
 ```bash
 npm run asset:rebuild-standard -- --document prospectus-hal-2028
