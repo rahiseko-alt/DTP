@@ -19,7 +19,20 @@
         570,
         307,
         581
-      ]
+      ],
+      "material_id": "PAM-ISEN-2028",
+      "display_name": "パンフレット_医専白版_2028表記_16P_現行",
+      "tags": [
+        "種別:パンフレット",
+        "意匠:医専白版",
+        "表記年度:2028",
+        "状態:現行",
+        "用途:日本人版の制作元",
+        "人物:日本人イメージ未統一"
+      ],
+      "binding": "中綴じ・左綴じ",
+      "audience_status": "日本人向けへの内容点検が必要",
+      "year_status": "紙面は2028表記。掲載学費・入試の根拠は2027年度。2028年度確定版とは呼ばない"
     },
     "admissions": {
       "document": "admissions-guide-2027",
@@ -42,7 +55,20 @@
         20,
         22
       ],
-      "saddle_fold_reading_order_verified": true
+      "saddle_fold_reading_order_verified": true,
+      "material_id": "ADM-JP-2027",
+      "display_name": "募集要項_日本人向け_2027年度_24P_現行",
+      "tags": [
+        "種別:募集要項",
+        "対象:日本人向け",
+        "適用年度:2027",
+        "状態:現行",
+        "用途:日本人版の制作元",
+        "人物:日本人イメージ未統一"
+      ],
+      "binding": "中綴じ・左綴じ・願書の裏面は白紙",
+      "audience_status": "日本人向け原本に基づく。人物画像は未統一",
+      "year_status": "2027年度。2028年度への自動繰上げ禁止"
     },
     "flyer": {
       "document": "oc-approved-20261017",
@@ -58,7 +84,20 @@
         "2": [
           "https://kaihougakuen.my.canva.site/"
         ]
-      }
+      },
+      "material_id": "FLY-OC-YELLOW",
+      "display_name": "チラシ_OC黄色帯_年度未確認_2P_現行",
+      "tags": [
+        "種別:チラシ",
+        "意匠:OC黄色帯",
+        "適用年度:未確認",
+        "状態:現行",
+        "用途:日本人版の制作元",
+        "人物:日本人イメージ未統一"
+      ],
+      "binding": "A4両面・長辺反転・折りなし",
+      "audience_status": "日本人向けへの内容・人物画像の調整が必要",
+      "year_status": "原本の開催日の年度・有効性は未確認。2027/2028と推定しない"
     }
   },
   "print_bundle": "downloads/print-pdfs.zip",
@@ -70,5 +109,62 @@
     "admissions-A4.pdf",
     "flyer-A4.pdf"
   ],
-  "deleted_nonadopted_variant": "real-photo-rebuild outputs"
+  "deleted_nonadopted_variant": "real-photo-rebuild outputs",
+  "identity_schema_version": 1,
+  "production_targets": [
+    {
+      "work_id": "PAM-JP-ISEN",
+      "source_material_id": "PAM-ISEN-2028",
+      "display_name": "パンフレット_日本人向け_医専白版_年度要確認_制作予定",
+      "status": "未制作",
+      "tags": [
+        "対象:日本人向け",
+        "人物仕様:日本人イメージ",
+        "状態:未制作"
+      ],
+      "file": null
+    },
+    {
+      "work_id": "ADM-JP-2027-PEOPLE",
+      "source_material_id": "ADM-JP-2027",
+      "display_name": "募集要項_日本人向け_2027年度_人物差替版_制作予定",
+      "status": "未制作",
+      "tags": [
+        "対象:日本人向け",
+        "人物仕様:日本人イメージ",
+        "状態:未制作"
+      ],
+      "file": null
+    },
+    {
+      "work_id": "FLY-JP-OC-YELLOW",
+      "source_material_id": "FLY-OC-YELLOW",
+      "display_name": "チラシ_日本人向け_OC黄色帯_年度未確認_制作予定",
+      "status": "未制作",
+      "tags": [
+        "対象:日本人向け",
+        "人物仕様:日本人イメージ",
+        "状態:未制作"
+      ],
+      "file": null
+    }
+  ],
+  "excluded_variants": [
+    {
+      "document": "avatar-oc-2028",
+      "label": "別案チラシ_アバター体験",
+      "status": "今回の制作対象外"
+    },
+    {
+      "document": "prospectus-hal-2028",
+      "label": "別案パンフレット_HAL風",
+      "status": "今回の制作対象外"
+    },
+    {
+      "document": "oc-approved-20261017",
+      "variant": "real-photo-rebuild",
+      "label": "不採用チラシ_実写真再構成",
+      "status": "誤成果物削除済み・再利用禁止"
+    }
+  ]
 }

@@ -340,3 +340,11 @@ PDF受渡し調査は人間の指示で保留。医専BOOKの地図第2案を画
 ## 2026-10-20 OC版の取り違え訂正・誤成果物削除（優先）
 
 人間が正しいチラシを黄色いOPEN CAMPUS帯の添付原本と確認し、実写真再構成版の削除を指示。アバター/分身ムービー版でもない。正しい資料IDは`oc-approved-20261017`、別名`OC版`。原本SHA53f7353f…は変更なし。原本本文・画像を用い、裏面を縦横同率で縮小して採用地図と正本連絡先を配置。表の未確認申込/LINE QRは公式サイトQRと連絡先へ置換。現行は`latest-original-oc-pdf`、確認画像`latest-original-oc-front/back`、印刷用`latest-print-a4`（いずれもrole support、variant approved-original-map）。再構成した実写真版のPDF・PNG・生成HTML・印刷PDF等12登録を削除し、カタログと配布ZIPから除去。削除記録`nonadopted-output-deletion`。学校正本写真は変更なし。旧アダプター内部ソースは非採用とREADMEに明記し、試験用出力は一時fixture内だけで作成するよう修正。関連9試験成功。最新版参照とZIPは原本OCへ訂正。パンフレット/募集要項は変更なし。原本開催日と曜日の適用年度、現地/実機/入稿は未確認。
+
+## 2026-10-20 名前・タグ整理後の日本人版制作
+
+- ブランチ: `fix/access-map-20261020`。今回の優先作業は人間の「まず名前・タグ」の整理。
+- 配布識別は `downloads/latest-materials.json`、呼び方は `downloads/README.md`。`python3 system/scripts/list-materials.py --tag 状態:現行` で採用3資料、`--tag 状態:未制作` で日本人版の制作予定3件を表示。
+- 現行: PAM-ISEN-2028（医専16P）/ ADM-JP-2027（要項24P）/ FLY-OC-YELLOW（黄色OC2P）。この時点で日本人イメージへの人物差替は未実施。
+- 次: 日本人向けの内容を点検し、人物画像を日本人イメージへ差替。生成人物と実在の在校生は区別。現行画像の一覧・ページ画像は `.cache/japanese-edition/` に準備し、親が全体一覧を目視済み。
+- 新成果物は制作予定ID PAM-JP-ISEN / ADM-JP-2027-PEOPLE / FLY-JP-OC-YELLOW を使い、検証済みの実体ができるまで file:null と未制作を保持。パンフ/要項は中綴じ、OCは両面。元3PDFとZIPの内容は今回変更していない。

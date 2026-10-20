@@ -124,3 +124,7 @@ python3 system/scripts/read-ledger.py
 ## 管理済み資料の識別経路
 
 `system/assets/policy.json` に列挙した資料は `asset:resolve/search/get` を使用し、原本・抽出画像・差し替え写真・再構成プレビューの役割を区別する。格納は専用登録、検査は `asset:check`。対象不明や実体不足で原本や別資料を代用しない。未移行はlegacy-unverifiedであり確定検索対象外。詳細手順は `system/assets/README.md`。
+
+## 資料名とタグの識別（2026-10-20）
+
+人間の指示により、配布資料の表示名・固定ID・用途別タグ・制作予定版は `downloads/latest-materials.json` に集約し、`downloads/README.md` の呼称を使う。`python3 system/scripts/list-materials.py` で確認する。対象（日本人向け）と人物画像仕様（日本人イメージ）は別に扱う。年度、現行/未制作、本文PDF/面付けPDFを混同せず、未制作版はファイルなしとする。内部BOOK ID・アセットID・SHAは変更せず、実体取得は既存asset CLI経路を守る。

@@ -1,12 +1,14 @@
 {
   "schema_version": 1,
   "id": "oc-approved-20261017",
-  "title": "AIビジネス専門学校OCチラシ",
+  "title": "チラシ｜OC黄色帯｜年度未確認",
   "aliases": [
-    "医専チラシ",
+    "チラシ",
     "OC版",
     "OCチラシ",
-    "黄色いOCチラシ"
+    "黄色いOCチラシ",
+    "チラシ_OC黄色帯_現行",
+    "FLY-OC-YELLOW"
   ],
   "renderer": "oc-approved-html",
   "catalog": "books/oc-approved-20261017/parts/catalog.yaml",
