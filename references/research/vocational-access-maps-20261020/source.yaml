@@ -1,0 +1,15 @@
+source: research
+kind: vocational-access-maps-20261020
+title: 専門学校3校のアクセス地図比較
+obtained: 2026-10-20
+usage: reference-only
+notes: 保管済み他校パンフレットの実画像を目視比較。最新版のWeb地図や現地の営業状況を確認したものではない。掲載物へ他校の地名・施設・連絡先・画素を転用しない。
+forbidden_terms:
+  - HAL名古屋
+  - 名古屋医療秘書福祉＆IT専門学校
+  - 国際医学技術専門学校
+  - 総合校舎スパイラルタワーズ
+references:
+  - references/HAL-nagoya/brochure-2/page_023.jpg
+  - references/nagoya-iryo-hisho-it/admissions/page_010.jpg
+  - references/kokusai-igaku-gijutsu/brochure/page_014.jpg

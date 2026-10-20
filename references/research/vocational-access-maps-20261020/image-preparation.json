@@ -1,0 +1,50 @@
+[
+  {
+    "case": "hal",
+    "crop_box_after_clockwise_rotation": [
+      790,
+      1030,
+      1380,
+      1315
+    ],
+    "original_image": "references/HAL-nagoya/brochure-2/page_023.jpg",
+    "original_sha256": "2959118c2e7d79e76dc498d6a52f5d3012761991e25dd98fd687364214baf3a6",
+    "rotation_degrees_clockwise": 90,
+    "prepared_image_sha256": "5a423b8c31493e503a242c005036f4467cc9ab3a3314cbc3dc861c80504c1c59",
+    "output_image": "images/hal-map.jpg"
+  },
+  {
+    "case": "nagoya-it",
+    "crop_box_after_clockwise_rotation": [
+      495,
+      1045,
+      1135,
+      1545
+    ],
+    "original_image": "references/nagoya-iryo-hisho-it/admissions/page_010.jpg",
+    "original_sha256": "89e948219fb859c771a3fc04105fe1104a25048bfcb63902d9b83b0c4bcedf46",
+    "rotation_degrees_clockwise": 90,
+    "prepared_image_sha256": "bb1bbdda50d1734c099cb2d767f143816c40d0405159351cf95705a1f2a898d6",
+    "output_image": "images/nagoya-it-map.jpg"
+  },
+  {
+    "case": "kokusai",
+    "crop_box_after_clockwise_rotation": [
+      650,
+      58,
+      1130,
+      675
+    ],
+    "original_image": "references/kokusai-igaku-gijutsu/brochure/page_014.jpg",
+    "original_sha256": "96db195a42a4708036e4a661c0b1eb274fbef671879761bb9031f03ab7003879",
+    "rotation_degrees_clockwise": 90,
+    "prepared_image_sha256": "9694e2f1ee905711a1a510742dd812087c0564ca4505447561eb53ca762e91e3",
+    "output_image": "images/kokusai-map.jpg"
+  },
+  {
+    "case": "current",
+    "source_image": "books/prospectus-isen-trial-2028/backgrounds/access-map-labeled.png",
+    "crop_box_after_clockwise_rotation": null,
+    "sha256": "e8adada6a16b39122df9e22c8cbf8dbabeda7a7eb7a5cc554847e1ae94cc03a8"
+  }
+]
