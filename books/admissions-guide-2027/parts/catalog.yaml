@@ -40,6 +40,9 @@ current:
   saddle-print-record: a3b0f6c0245983cc52f4aeb0122b2b58a7285d1fba903fc2189c926be41f331a
   saddle-print-a3: 94df79301cba6ee24342d7e607849da1c4cf55487dab7e9e01d70894ddd34645
   saddle-print-a4: c44c675ac28bf297c057432787effad9b06be91f5dc997df1c619e9dcca79060
+  saddle-print-light-record: b31d63aa0ed2ab7ee80ab83d5b31279536227eb1ba558070424eb93e83a83358
+  saddle-print-light-a3: 3361878994068e434cdc2ce2f67038d7a18dd768e3ebe637d166677692af5613
+  saddle-print-light-a4: 63944eda0b52da7b6e9f30b6b15af0d59f317aa437872d3154753dfdfb8018e8
 assets:
   - id: approved-original
     variant: standard-render
@@ -703,3 +706,52 @@ assets:
         revision: 42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16
       - id: saddle-print-record
         revision: a3b0f6c0245983cc52f4aeb0122b2b58a7285d1fba903fc2189c926be41f331a
+  - id: saddle-print-light-record
+    variant: saddle-print-light
+    role: support
+    media: text
+    file: books/admissions-guide-2027/parts/saddle-print-light-20261020.json
+    revision: b31d63aa0ed2ab7ee80ab83d5b31279536227eb1ba558070424eb93e83a83358
+    sha256: b31d63aa0ed2ab7ee80ab83d5b31279536227eb1ba558070424eb93e83a83358
+    size: 2952
+    confirmation: verified
+    relation: authored
+    storage: canonical
+    built_from: []
+    external_inputs:
+      - path: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/optimize.py
+        sha256: 4a17a91167566312decc7e757a449760616431d8365dad59fa40075767400265
+  - id: saddle-print-light-a3
+    variant: saddle-print-light-a3
+    role: reconstructed-preview
+    media: pdf
+    file: books/admissions-guide-2027/output/imposed/print-admissions-A3.pdf
+    revision: 3361878994068e434cdc2ce2f67038d7a18dd768e3ebe637d166677692af5613
+    sha256: 3361878994068e434cdc2ce2f67038d7a18dd768e3ebe637d166677692af5613
+    size: 1939260
+    confirmation: verified
+    relation: rendered-from
+    storage: canonical
+    input_provenance: verified
+    built_from:
+      - id: saddle-print-a3
+        revision: 94df79301cba6ee24342d7e607849da1c4cf55487dab7e9e01d70894ddd34645
+      - id: saddle-print-light-record
+        revision: b31d63aa0ed2ab7ee80ab83d5b31279536227eb1ba558070424eb93e83a83358
+  - id: saddle-print-light-a4
+    variant: saddle-print-light-a4
+    role: reconstructed-preview
+    media: pdf
+    file: books/admissions-guide-2027/output/imposed/print-admissions-A4.pdf
+    revision: 63944eda0b52da7b6e9f30b6b15af0d59f317aa437872d3154753dfdfb8018e8
+    sha256: 63944eda0b52da7b6e9f30b6b15af0d59f317aa437872d3154753dfdfb8018e8
+    size: 1508454
+    confirmation: verified
+    relation: rendered-from
+    storage: canonical
+    input_provenance: verified
+    built_from:
+      - id: saddle-print-a4
+        revision: c44c675ac28bf297c057432787effad9b06be91f5dc997df1c619e9dcca79060
+      - id: saddle-print-light-record
+        revision: b31d63aa0ed2ab7ee80ab83d5b31279536227eb1ba558070424eb93e83a83358

@@ -27,6 +27,10 @@ current:
   saddle-print-builder: c7f326c701cdf3159e009e2eea8398fd651d44b806738152e6200913a1dbfba1
   saddle-print-spec: d8e866696089414471dff8f19b7419d5647ba5aac0cd3995898eecd3a1c31323
   saddle-print-instructions: 445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b
+  saddle-print-light-record: f3d0c66cef9c90819f9926e0ee74b336c5f3e516d0e041ff11be9162a1f8bfaf
+  saddle-print-light-a3: 6c6f07b20e56426202170bb43e2ec9559c7389f213747682b8353fdecd93b411
+  saddle-print-light-a4: 9e60fa41c697dfadbb4913f947d1fbf7c12ef2c3017670e381c46fb40f541b8e
+  saddle-print-optimizer: 4a17a91167566312decc7e757a449760616431d8365dad59fa40075767400265
 assets:
   - id: approved-original
     variant: standard-render
@@ -649,6 +653,67 @@ assets:
     revision: 445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b
     sha256: 445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b
     size: 1598
+    confirmation: verified
+    relation: authored
+    storage: canonical
+    built_from: []
+  - id: saddle-print-light-record
+    variant: saddle-print-light
+    role: support
+    media: text
+    file: books/prospectus-isen-trial-2028/parts/saddle-print-light-20261020.json
+    revision: f3d0c66cef9c90819f9926e0ee74b336c5f3e516d0e041ff11be9162a1f8bfaf
+    sha256: f3d0c66cef9c90819f9926e0ee74b336c5f3e516d0e041ff11be9162a1f8bfaf
+    size: 2984
+    confirmation: verified
+    relation: authored
+    storage: canonical
+    built_from: []
+    external_inputs:
+      - path: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/optimize.py
+        sha256: 4a17a91167566312decc7e757a449760616431d8365dad59fa40075767400265
+  - id: saddle-print-light-a3
+    variant: saddle-print-light-a3
+    role: reconstructed-preview
+    media: pdf
+    file: books/prospectus-isen-trial-2028/output/imposed/print-brochure-A3.pdf
+    revision: 6c6f07b20e56426202170bb43e2ec9559c7389f213747682b8353fdecd93b411
+    sha256: 6c6f07b20e56426202170bb43e2ec9559c7389f213747682b8353fdecd93b411
+    size: 4181969
+    confirmation: verified
+    relation: rendered-from
+    storage: canonical
+    input_provenance: unverified
+    built_from:
+      - id: saddle-print-a3
+        revision: 8115f881a1c3a3080ebe52c254ed9f8173d0d6ad2a67c38094b9c2790a722b45
+      - id: saddle-print-light-record
+        revision: f3d0c66cef9c90819f9926e0ee74b336c5f3e516d0e041ff11be9162a1f8bfaf
+  - id: saddle-print-light-a4
+    variant: saddle-print-light-a4
+    role: reconstructed-preview
+    media: pdf
+    file: books/prospectus-isen-trial-2028/output/imposed/print-brochure-A4.pdf
+    revision: 9e60fa41c697dfadbb4913f947d1fbf7c12ef2c3017670e381c46fb40f541b8e
+    sha256: 9e60fa41c697dfadbb4913f947d1fbf7c12ef2c3017670e381c46fb40f541b8e
+    size: 2856747
+    confirmation: verified
+    relation: rendered-from
+    storage: canonical
+    input_provenance: unverified
+    built_from:
+      - id: saddle-print-a4
+        revision: bbc0ea8f1eaaa16f0b86c7845daec9092086d7c3a2637c124a6063b4019b7df5
+      - id: saddle-print-light-record
+        revision: f3d0c66cef9c90819f9926e0ee74b336c5f3e516d0e041ff11be9162a1f8bfaf
+  - id: saddle-print-optimizer
+    variant: saddle-print-light
+    role: support
+    media: text
+    file: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/optimize.py
+    revision: 4a17a91167566312decc7e757a449760616431d8365dad59fa40075767400265
+    sha256: 4a17a91167566312decc7e757a449760616431d8365dad59fa40075767400265
+    size: 5490
     confirmation: verified
     relation: authored
     storage: canonical

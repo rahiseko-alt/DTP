@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-20",
+  "book": "admissions-guide-2027",
+  "method": "Ghostscriptによるカラー/グレー画像200dpi化・JPEG品質88とフォント圧縮。文字のベクターを保持し、両面短辺反転・縮小なしの設定を再設定。原版は保持。",
+  "ghostscript_version": "10.05.1",
+  "ghostscript_arguments": [
+    "-q",
+    "-dSAFER",
+    "-dBATCH",
+    "-dNOPAUSE",
+    "-sDEVICE=pdfwrite",
+    "-dCompatibilityLevel=1.7",
+    "-dAutoRotatePages=/None",
+    "-dDetectDuplicateImages=true",
+    "-dCompressFonts=true",
+    "-dDownsampleColorImages=true",
+    "-dColorImageResolution=200",
+    "-dColorImageDownsampleType=/Bicubic",
+    "-dAutoFilterColorImages=false",
+    "-dColorImageFilter=/DCTEncode",
+    "-dJPEGQ=88",
+    "-dDownsampleGrayImages=true",
+    "-dGrayImageResolution=200",
+    "-dGrayImageDownsampleType=/Bicubic",
+    "-dDownsampleMonoImages=true",
+    "-dMonoImageResolution=400",
+    "-sColorConversionStrategy=RGB",
+    "-dOverrideICC=true",
+    "-dUseFastColor=true"
+  ],
+  "outputs": [
+    {
+      "paper": "A3",
+      "file": "books/admissions-guide-2027/output/imposed/print-admissions-A3.pdf",
+      "sha256": "3361878994068e434cdc2ce2f67038d7a18dd768e3ebe637d166677692af5613",
+      "bytes": 1939260,
+      "source": "books/admissions-guide-2027/output/imposed/募集要項_24P_A3両面中綴じ_A4仕上がり.pdf",
+      "source_sha256": "94df79301cba6ee24342d7e607849da1c4cf55487dab7e9e01d70894ddd34645",
+      "source_asset_id": "saddle-print-a3",
+      "source_bytes": 16934661,
+      "faces": 12,
+      "dimensions_and_rotation_unchanged": true,
+      "page_order_verified_by_all_face_image_comparison": true,
+      "max_thumbnail_mean_difference": 0.9627811578171092,
+      "native_currency_counts_unchanged": true,
+      "qr_decoded_from_sheet_1_back_at_150dpi": [
+        "https://kaihougakuen.my.canva.site/"
+      ],
+      "duplex": "short-edge",
+      "scaling": "none"
+    },
+    {
+      "paper": "A4",
+      "file": "books/admissions-guide-2027/output/imposed/print-admissions-A4.pdf",
+      "sha256": "63944eda0b52da7b6e9f30b6b15af0d59f317aa437872d3154753dfdfb8018e8",
+      "bytes": 1508454,
+      "source": "books/admissions-guide-2027/output/imposed/募集要項_24P_A4両面中綴じ_A5仕上がり.pdf",
+      "source_sha256": "c44c675ac28bf297c057432787effad9b06be91f5dc997df1c619e9dcca79060",
+      "source_asset_id": "saddle-print-a4",
+      "source_bytes": 16935525,
+      "faces": 12,
+      "dimensions_and_rotation_unchanged": true,
+      "page_order_verified_by_all_face_image_comparison": true,
+      "max_thumbnail_mean_difference": 1.1988477138643068,
+      "native_currency_counts_unchanged": true,
+      "qr_decoded_from_sheet_1_back_at_150dpi": [
+        "https://kaihougakuen.my.canva.site/"
+      ],
+      "duplex": "short-edge",
+      "scaling": "none"
+    }
+  ],
+  "self_review": true,
+  "independent_review": false,
+  "physical_print_test": false
+}

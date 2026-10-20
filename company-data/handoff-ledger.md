@@ -1,5 +1,13 @@
 # 引継ぎ台帳
 
+## 2026-10-20 PDFを開けない問題への配布対応
+
+- 人間の「PDF見れない」に対応。パンフレット原版は約107MiBあり、PDFを開くアプリ連携も接続終了で利用不可。画像を200dpi・JPEG品質88へ最適化し、正確な文字ベクター、面付け、用紙サイズ、短辺両面/縮小なし設定を保持したASCII名の軽量版を4PDF作成。高画質原版は保持。
+- 各BOOKの `output/imposed/print-brochure-A3.pdf` / `print-brochure-A4.pdf`、`print-admissions-A3.pdf` / `print-admissions-A4.pdf`。サイズは順に約4.18MB・2.86MB・1.94MB・1.51MB。管理IDは各BOOKの `saddle-print-light-a3` / `saddle-print-light-a4`。
+- 全面の画像比較・ネイティブ金額表示の一致・ページ数/寸法/回転の一致を確認。両方の冊子の外側用紙裏面を150dpiで描画し、全4PDFの公式サイトQRを実デコード。ICCを含むPDF描画警告なし。親が軽量版の外側面を目視。実機印刷・独立レビューは未実施。
+- `parts/saddle-print-light-20261020.json` に圧縮条件・入力/出力SHA・照合値を保存。再現スクリプトはパンフレットの `parts/print-booklets-20261020/optimize.py`。作業環境の絶対パスリンクに依存せず、push後の公開GitHubのrawダウンロードURLで案内する。GitHubがpublicであることはAPIで確認済み。
+- 別途、本番印刷前の確認事項：既存ラスターの裏表紙にある住所表記が新しいアクセス面と一致しない箇所を目視。所在地の正本（則武1丁目30-17）と裏表紙を照合・修正すること。今回の軽量化では本文を変えていない。
+
 ## 現在の優先作業：2026-10-20 パンフレット・募集要項の中綴じ印刷PDF
 
 - 人間の「先に、印刷して背を留めたら本になる順番でPDFを」に対応。地図の再制作を保留し、現在のパンフレット16P（`white-16p-access-map-revised`）と募集要項24P（`fees-kana-main-merged-pdf`）から左中綴じの面付け版を作成。本文・元のページ番号は変更しない。
