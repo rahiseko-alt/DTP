@@ -46,11 +46,11 @@
     },
     "flyer": {
       "document": "oc-approved-20261017",
-      "asset_id": "combined-preview",
-      "file": "books/oc-approved-20261017/output/combined-preview/f089c1dfee24afa2d5bda0e981331afa6b7cbd6325acee1827ba0b2264fe5e86/combined-preview.pdf",
-      "sha256": "f089c1dfee24afa2d5bda0e981331afa6b7cbd6325acee1827ba0b2264fe5e86",
+      "asset_id": "latest-original-oc-pdf",
+      "file": "books/oc-approved-20261017/parts/latest-original-oc-pdf/2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1/latest-original-oc-pdf.pdf",
+      "sha256": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1",
       "pages": 2,
-      "bytes": 24728385,
+      "variant": "approved-original-map",
       "qr_decoded": {
         "1": [
           "https://kaihougakuen.my.canva.site/"
@@ -62,12 +62,13 @@
     }
   },
   "print_bundle": "downloads/print-pdfs.zip",
-  "bundle_sha256": "a07cf9f19727197cca543b7026d0a74163c821e734668eef1c9e990ce377a7c6",
+  "bundle_sha256": "0df8ee973630975cecfbbd5c37f366b645c28299384619f869aa8fa21021ad4b",
   "bundle_pdf_names": [
     "brochure-A3.pdf",
     "brochure-A4.pdf",
     "admissions-A3.pdf",
     "admissions-A4.pdf",
     "flyer-A4.pdf"
-  ]
+  ],
+  "deleted_nonadopted_variant": "real-photo-rebuild outputs"
 }

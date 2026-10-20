@@ -336,3 +336,7 @@ PDF受渡し調査は人間の指示で保留。医専BOOKの地図第2案を画
 ## 2026-10-20 採用地図を最新3資料へ反映（Codex）
 
 人間の採用・反映指示で完了。最新版は、医専パンフ16P：`prospectus-isen-trial-2028/latest-prospectus-pdf`（role supportの組版用PDF。標準描画4Pと区別）、募集要項24P：`admissions-guide-2027/standard-rendered-pdf`、実写真OCチラシ2P：`oc-approved-20261017/combined-preview`。冊子は各`latest-print-a3/a4`、チラシは`latest-print-a4`。印刷ZIPを5PDFへ更新。取得先・SHA・ページ数は`downloads/latest-materials.json`、検証範囲と制約は`docs/audits/access-map-rollout-20261020.md`。パンフPDF15枚目・募集要項23頁・チラシ裏へ配置し、パンフ裏の旧住所も正本へ訂正。学校事実・学費・入試条件は未変更。型検査・データ/素材検査エラー0、関連34試験成功。全体checkは指定ブラウザ等の既存失敗が残り未合格。Chromium154による確認用、自己点検のみ、入稿/現地/実物試し刷り未確認。ブランチ`fix/access-map-20261020`、PR #62。
+
+## 2026-10-20 OC版の取り違え訂正・誤成果物削除（優先）
+
+人間が正しいチラシを黄色いOPEN CAMPUS帯の添付原本と確認し、実写真再構成版の削除を指示。アバター/分身ムービー版でもない。正しい資料IDは`oc-approved-20261017`、別名`OC版`。原本SHA53f7353f…は変更なし。原本本文・画像を用い、裏面を縦横同率で縮小して採用地図と正本連絡先を配置。表の未確認申込/LINE QRは公式サイトQRと連絡先へ置換。現行は`latest-original-oc-pdf`、確認画像`latest-original-oc-front/back`、印刷用`latest-print-a4`（いずれもrole support、variant approved-original-map）。再構成した実写真版のPDF・PNG・生成HTML・印刷PDF等12登録を削除し、カタログと配布ZIPから除去。削除記録`nonadopted-output-deletion`。学校正本写真は変更なし。旧アダプター内部ソースは非採用とREADMEに明記し、試験用出力は一時fixture内だけで作成するよう修正。関連9試験成功。最新版参照とZIPは原本OCへ訂正。パンフレット/募集要項は変更なし。原本開催日と曜日の適用年度、現地/実機/入稿は未確認。

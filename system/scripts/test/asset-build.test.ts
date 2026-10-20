@@ -14,7 +14,7 @@ import {
 let root: string;
 const doc = "oc-approved-20261017";
 const b = `books/${doc}`;
-beforeEach(() => {
+beforeEach(async () => {
   root = fs.mkdtempSync(path.join(os.tmpdir(), "asset-build-test-"));
   for (const p of [
     b,
@@ -42,6 +42,32 @@ beforeEach(() => {
     path.join(root, "node_modules"),
     process.platform === "win32" ? "junction" : "dir",
   );
+  // The user deleted the non-adopted reconstructed flyer from production.
+  // Create isolated test outputs from the retained original, never restore it in the repo.
+  const outputDir = path.join(root, b, "output");
+  fs.mkdirSync(outputDir, { recursive: true });
+  fs.copyFileSync(path.join(root, `references/school-own/${doc}/original/approved.pdf`),
+    path.join(outputDir, "実写真版_OCチラシ_両面.pdf"));
+  const snapshot = await buildInputs(root, doc);
+  const catalogFile = path.join(root, b, "parts/catalog.yaml");
+  const catalog = JSON.parse(fs.readFileSync(catalogFile, "utf8"));
+  const outputs = [
+    { id: "combined-preview", role: "reconstructed-preview", media: "pdf", file: `${b}/output/実写真版_OCチラシ_両面.pdf` },
+    { id: "access-rollout-front-preview", role: "preview", media: "image", file: `${b}/output/page-1.png` },
+    { id: "preview-page-2", role: "preview", media: "image", file: `${b}/output/page-2.png` },
+  ];
+  for (const [index, output] of outputs.entries()) {
+    if (index) fs.copyFileSync(path.join(root, `references/school-own/${doc}/pages/page-0${index}.png`), path.join(root, output.file));
+    const bytes = fs.readFileSync(path.join(root, output.file));
+    const revision = digest(bytes);
+    catalog.assets.push({ ...output, variant: "real-photo-rebuild", revision, sha256: revision,
+      size: bytes.length, confirmation: "verified", relation: "authored",
+      built_from: snapshot.inputs.map((input: { id: string; revision: string }) => ({ id: input.id, revision: input.revision })),
+      external_inputs: snapshot.external,
+    });
+    catalog.current[output.id] = revision;
+  }
+  fs.writeFileSync(catalogFile, JSON.stringify(catalog, null, 2));
 });
 afterEach(() => fs.rmSync(root, { recursive: true, force: true }));
 const build = () =>

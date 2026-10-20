@@ -1,0 +1,27 @@
+{
+  "approved_original": "references/school-own/oc-approved-20261017/original/approved.pdf",
+  "approved_original_sha256": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a",
+  "adopted_map": "books/prospectus-isen-trial-2028/parts/access-route-map/f22d288efab6e1220898fac2d6d54fe8c014266a748d0637e0153fa7853de27f/access-route-map.png",
+  "adopted_map_sha256": "f22d288efab6e1220898fac2d6d54fe8c014266a748d0637e0153fa7853de27f",
+  "official_qr_sha256": "d80b0b015c12c941671a66ee19d6b1226b1a7e58de944466c3e1c3b217e0a33a",
+  "output_sha256": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1",
+  "pages": 2,
+  "size_mm": [
+    210,
+    297
+  ],
+  "front_change_mm": [
+    108,
+    271,
+    210,
+    297
+  ],
+  "back_original_body_clip_fraction": 0.8947368421052632,
+  "back_original_body_uniform_scale": 0.8095238095238095,
+  "map_display_width_mm": 135,
+  "source_original_untouched": true,
+  "self_review": true,
+  "independent_review": false,
+  "release": false,
+  "note": "正しい黄色いOPEN CAMPUS帯の承認原本を使用。実写真再構成版ではない。表の未確認申込/LINE QRは公式サイトQR・正本連絡先へ置換。裏は原本本文・画像を縦横同率で縮小し、地図と正本連絡先を配置。日付・開催条件は原本を保持し、確定とは扱わない。"
+}
