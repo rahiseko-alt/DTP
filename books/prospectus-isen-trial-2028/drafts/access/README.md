@@ -1,3 +1,3 @@
-アクセスページの作業中ソース。通信制限により地図の所在地・道路調査は未実施。地図は未生成で、地図枠は仮置き。完成版として冊子へ組み込んでいない。
-公式URLのQRは紙面PNGから実デコード済み。作業再開時はこのフォルダをpages/page_004へ移し、book.yamlへ登録して地図の調査・画像生成・目視確認を完了する。
-必要な通信先は設定ドラフトへ追加済み: kaihougakuen.my.canva.site, msearch.gsi.go.jp, cyberjapandata.gsi.go.jp, maps.gsi.go.jp。
+旧アクセスページの作業中ソース。2026-10-20に住所と周辺地理院タイルを取得し、画像生成した地図を使う現行ソースをpages/page_004へ制作。このフォルダの仮置き地図は使用しない。
+現行ソースはpages/page_004とbook.yamlへ登録済み。公式URLのQRは新しい紙面PNGからも実デコード済み。入力画像・出典はparts/access-map-research、生成記録はbackgrounds/access-map-base.prompt.yaml、差替え記録はparts/access-revision-20261020.jsonを参照する。
+学校公式サイト・国土地理院へ実接続でき、住所と地図画像を取得済み。

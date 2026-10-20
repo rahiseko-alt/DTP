@@ -1,0 +1,20 @@
+.access-heading h1{color:#24476b;font-size:23pt;font-weight:900;line-height:1.7}
+.access-heading p{font-size:9pt;line-height:1.8}
+.access-page h2{color:#24476b;font-size:12pt;line-height:1.8;margin-bottom:1.5mm}
+.location{border-top:1mm solid #24476b;background:#f0f4f8;padding:3mm 4mm}
+.location strong{font-size:13pt;color:#24476b}
+.location p{font-size:10pt;line-height:1.8;margin-top:1mm}
+.location .station{font-weight:700}
+.access-map{position:relative;width:100%;aspect-ratio:3/2;margin:0;overflow:hidden;border:.2mm solid #e1e5e9}
+.access-map img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.map-labels{z-index:1}
+.access-contact{display:grid;grid-template-columns:1fr 35mm;gap:4mm;align-items:center;border-top:.5mm solid #24476b;padding:3mm 0 1mm}
+.access-contact p{font-size:8pt;line-height:1.8}
+.phone{display:block;font-size:23pt;font-weight:900;color:#24476b;text-decoration:none;margin:1mm 0}
+.email{display:block;color:#24476b;font-size:11pt;text-decoration:none;margin-bottom:1mm}
+.site-url{margin-top:2mm!important}
+.site-url a{font-size:8pt;color:#24476b}
+.qr-block{text-align:center}
+.qr-block svg{display:block;margin:0 auto 1mm}
+.qr-block strong{display:block;font-size:8pt;color:#24476b}
+.access-page footer{margin-top:auto}

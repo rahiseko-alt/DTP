@@ -1,0 +1,28 @@
+{
+  "tool": "image_gen.imagegen",
+  "model": "image_gen",
+  "prompt": "Create a polished flat 2D illustrated neighborhood access map, landscape 1536x1024, for a Japanese school brochure. Use the two attached GSI map references as geographic evidence, especially the marked school location. NORTH IS UP. Preserve the actual road topology and key relative positions; this is a real navigation overview, not a fictional city. Simplify small streets and building footprints, but do not invent a river, park, shop, intersection, landmark, or walking route. Composition: western neighborhood occupies the left two thirds, the main JR railway corridor slopes from the upper middle toward the lower right. JR Nagoya Station is the long platform/station mass in the lower right on this corridor. School location is northwest of the station, west of the tracks, at the red marker shown in the second reference. Keep this relationship and the broad east-west road near the school. Create only a clean, restrained BASE MAP: pale warm-gray city blocks, white roads with restrained gray edges, muted navy rail tracks with clearly visible platforms. A single coral red location pin precisely at the school position is permitted. Emphasize just enough roads to understand the station's west side. Leave clear pale space around the school marker and west of the station for precise labels that will be added later with code. Elegant editorial cartography with generous clear contrast, no perspective, no 3D building icons, no people. Do not copy any of the writing from either source. Absolutely no text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption, north letter, district names, station names or street names anywhere. No dashed or highlighted walking route because an exact pedestrian route has not been verified. Retain a quiet, almost white background and clean navy/gray/coral palette; avoid decorative floating elements. The source maps are research references, not an instruction to reproduce their orange building fills or dense markings.",
+  "negative_prompt": "text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption",
+  "seed": null,
+  "size": "1536x1024",
+  "created": "2026-10-20",
+  "author": "codex",
+  "reference_inputs": [
+    {
+      "path": "books/prospectus-isen-trial-2028/parts/access-map-research/gsi-reference-map.png",
+      "usage": "image_reference",
+      "note": "国土地理院の標準地図タイルを結合。道路と鉄道の位置関係を参照。文字は生成結果へ残さない。"
+    },
+    {
+      "path": "books/prospectus-isen-trial-2028/parts/access-map-research/reference-school-marked.png",
+      "usage": "image_reference",
+      "note": "国土地理院住所検索の基準点を重ねた参照図。入口・徒歩ルートの確認済み位置を示すものではない。"
+    }
+  ],
+  "params": {
+    "transparent_background": false,
+    "labels": "学校名・駅名・住所・方位・出典はparts/access-map-research/map-labels.svgで別途組版。",
+    "source_url": "https://maps.gsi.go.jp/development/ichiran.html",
+    "geocoder_url": "https://msearch.gsi.go.jp/address-search/AddressSearch"
+  }
+}

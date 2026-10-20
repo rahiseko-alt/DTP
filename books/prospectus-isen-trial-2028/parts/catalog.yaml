@@ -8,9 +8,19 @@ current:
   white-18p-without-group-pages: c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4
   page-selection-16p: 2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e
   white-16p-without-group-and-school-pr: aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da
-  admissions-revision-record: 153372c2dff6fdc147b0102817f5354df5f314c35b894fa517a304f3846fbba2
-  tuition-admissions-revised-pages: 27ca30661d467f65ab084924b3d0e7269d223c2cad5e45635515dd24ef77f5d5
-  white-16p-tuition-admissions-revised: 23e039f73c7489c5a91825c9b0c7087843edbf7d44edc82ba8e23fe325f59da4
+  access-gsi-reference: 9ce300e50a1e18c0c3c6f7c7cc1df1c369cbda72e137e79a5c06023653456e3f
+  access-gsi-school-marked: b324be7a579bc4897c180d455af9b8194462dbe3b06a9c2c725183d189933ad9
+  access-gsi-tile-sources: 78bb1e49fef8011fd7b310dd00fb694ece9b1b16b3fe671a52fce8950d476bf1
+  access-address-source: bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83
+  access-map-generation-prompt: 6bc9b92506f3e02cc0d3192c258bc1dfa677c34f45bd6fa1c3a24493813f5c97
+  access-map-generated-base: ec0b27a2bf44ccc7f6100eaf0399dcd6dd396168e022484e7aab10067b29f02f
+  access-map-labels: 28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f
+  access-map-standalone-layout: 98ca5a5dd1aadc1a2754e15fee12acb577701da648d9fad816afb14e1fb93ea7
+  access-map-labeled: e8adada6a16b39122df9e22c8cbf8dbabeda7a7eb7a5cc554847e1ae94cc03a8
+  access-revision-record: 51880dcd886a6939ff3ec6553e056cb340ca78fdf14777e019011bc27c32414e
+  tuition-admissions-access-pages: 49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f
+  white-16p-access-map-revised: 33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56
+  access-page-preview: b748c3568eda65b3f32cc302b05f59d30a6b3f96c3828295bd7eea2442af23fa
 assets:
   - id: approved-original
     variant: standard-render
@@ -37,7 +47,7 @@ assets:
         sha256: ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0
       - &a14
         pattern: books/prospectus-isen-trial-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}
-        sha256: 9d1dad9575eb6e4f4d5bee3079e21d2e3b2f6518b6c884c4690978e708a8e945
+        sha256: 8c397ffeb6dbb1f8682a1f0748ef7b29ba55f63dcd931c56631c92aaebba1654
       - &a15
         pattern: system/design-engine/src/**/*
         sha256: 68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f
@@ -269,6 +279,7 @@ assets:
         sha256: 381269367b83a1ce39ea07e9d85cc6d2d0433bb0479811ed22aa1ed9e64241b8
       - path: books/prospectus-isen-trial-2028/pages/page_003/page.css
         sha256: b87c64fe317c648817a75f79bb00f38268ae4eb4f49653f9c457addd60ae4d4d
+    retired: true
   - id: tuition-admissions-revised-pages
     variant: tuition-admissions-revised
     role: reconstructed-preview
@@ -300,6 +311,7 @@ assets:
         sha256: e90a607c3fc92ebdfad3c2a60e78e56b0041846598d43bf5cd839442b35a0ead
       - pattern: books/admissions-guide-2027/output/pdf/admissions-guide-2027_参照保存_f2364cce.pdf
         sha256: 02a74036260022b4ed46671d7b34c13b23ae9cf0afe6b0c9c801e35957a640c8
+    retired: true
   - id: white-16p-tuition-admissions-revised
     variant: tuition-admissions-revised
     role: reconstructed-preview
@@ -318,3 +330,229 @@ assets:
       - id: tuition-admissions-revised-pages
         revision: 27ca30661d467f65ab084924b3d0e7269d223c2cad5e45635515dd24ef77f5d5
     external_inputs: []
+    retired: true
+  - id: access-gsi-reference
+    variant: access-map-revised
+    role: support
+    media: image
+    file: books/prospectus-isen-trial-2028/parts/access-map-research/gsi-reference-map.png
+    revision: 9ce300e50a1e18c0c3c6f7c7cc1df1c369cbda72e137e79a5c06023653456e3f
+    sha256: 9ce300e50a1e18c0c3c6f7c7cc1df1c369cbda72e137e79a5c06023653456e3f
+    size: 1069689
+    confirmation: verified
+    relation: authored
+    storage: canonical
+    built_from: []
+  - id: access-gsi-school-marked
+    variant: access-map-revised
+    role: support
+    media: image
+    file: books/prospectus-isen-trial-2028/parts/access-map-research/reference-school-marked.png
+    revision: b324be7a579bc4897c180d455af9b8194462dbe3b06a9c2c725183d189933ad9
+    sha256: b324be7a579bc4897c180d455af9b8194462dbe3b06a9c2c725183d189933ad9
+    size: 1639880
+    confirmation: verified
+    relation: rendered-from
+    storage: canonical
+    built_from:
+      - id: access-gsi-reference
+        revision: 9ce300e50a1e18c0c3c6f7c7cc1df1c369cbda72e137e79a5c06023653456e3f
+  - id: access-gsi-tile-sources
+    variant: access-map-revised
+    role: support
+    media: text
+    file: books/prospectus-isen-trial-2028/parts/access-map-research/tiles-source.json
+    revision: 78bb1e49fef8011fd7b310dd00fb694ece9b1b16b3fe671a52fce8950d476bf1
+    sha256: 78bb1e49fef8011fd7b310dd00fb694ece9b1b16b3fe671a52fce8950d476bf1
+    size: 4866
+    confirmation: verified
+    relation: authored
+    storage: canonical
+    built_from: []
+  - id: access-address-source
+    variant: access-map-revised
+    role: support
+    media: text
+    file: books/prospectus-isen-trial-2028/parts/access-map-research/address-source-20261020.json
+    revision: bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83
+    sha256: bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83
+    size: 839
+    confirmation: verified
+    relation: authored
+    storage: canonical
+    built_from: []
+  - id: access-map-generation-prompt
+    variant: access-map-revised
+    role: support
+    media: text
+    file: books/prospectus-isen-trial-2028/backgrounds/access-map-base.prompt.yaml
+    revision: 6bc9b92506f3e02cc0d3192c258bc1dfa677c34f45bd6fa1c3a24493813f5c97
+    sha256: 6bc9b92506f3e02cc0d3192c258bc1dfa677c34f45bd6fa1c3a24493813f5c97
+    size: 3224
+    confirmation: verified
+    relation: authored
+    storage: canonical
+    built_from: []
+  - id: access-map-generated-base
+    variant: access-map-revised
+    role: support
+    media: image
+    file: books/prospectus-isen-trial-2028/backgrounds/access-map-base.png
+    revision: ec0b27a2bf44ccc7f6100eaf0399dcd6dd396168e022484e7aab10067b29f02f
+    sha256: ec0b27a2bf44ccc7f6100eaf0399dcd6dd396168e022484e7aab10067b29f02f
+    size: 1989599
+    confirmation: verified
+    relation: rendered-from
+    storage: canonical
+    built_from:
+      - id: access-gsi-reference
+        revision: 9ce300e50a1e18c0c3c6f7c7cc1df1c369cbda72e137e79a5c06023653456e3f
+      - id: access-gsi-school-marked
+        revision: b324be7a579bc4897c180d455af9b8194462dbe3b06a9c2c725183d189933ad9
+      - id: access-map-generation-prompt
+        revision: 6bc9b92506f3e02cc0d3192c258bc1dfa677c34f45bd6fa1c3a24493813f5c97
+      - id: access-address-source
+        revision: bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83
+  - id: access-map-labels
+    variant: access-map-revised
+    role: support
+    media: image
+    file: books/prospectus-isen-trial-2028/parts/access-map-research/map-labels.svg
+    revision: 28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f
+    sha256: 28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f
+    size: 1354
+    confirmation: verified
+    relation: rendered-from
+    storage: canonical
+    built_from:
+      - id: access-address-source
+        revision: bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83
+  - id: access-map-standalone-layout
+    variant: access-map-revised
+    role: support
+    media: text
+    file: books/prospectus-isen-trial-2028/parts/access-map-research/map-preview.html
+    revision: 98ca5a5dd1aadc1a2754e15fee12acb577701da648d9fad816afb14e1fb93ea7
+    sha256: 98ca5a5dd1aadc1a2754e15fee12acb577701da648d9fad816afb14e1fb93ea7
+    size: 461
+    confirmation: verified
+    relation: rendered-from
+    storage: canonical
+    built_from:
+      - id: access-map-labels
+        revision: 28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f
+  - id: access-map-labeled
+    variant: access-map-revised
+    role: support
+    media: image
+    file: books/prospectus-isen-trial-2028/backgrounds/access-map-labeled.png
+    revision: e8adada6a16b39122df9e22c8cbf8dbabeda7a7eb7a5cc554847e1ae94cc03a8
+    sha256: e8adada6a16b39122df9e22c8cbf8dbabeda7a7eb7a5cc554847e1ae94cc03a8
+    size: 1553340
+    confirmation: verified
+    relation: rendered-from
+    storage: canonical
+    built_from:
+      - id: access-map-generated-base
+        revision: ec0b27a2bf44ccc7f6100eaf0399dcd6dd396168e022484e7aab10067b29f02f
+      - id: access-map-labels
+        revision: 28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f
+      - id: access-map-standalone-layout
+        revision: 98ca5a5dd1aadc1a2754e15fee12acb577701da648d9fad816afb14e1fb93ea7
+  - id: access-revision-record
+    variant: access-map-revised
+    role: support
+    media: text
+    file: books/prospectus-isen-trial-2028/parts/access-revision-20261020.json
+    revision: 51880dcd886a6939ff3ec6553e056cb340ca78fdf14777e019011bc27c32414e
+    sha256: 51880dcd886a6939ff3ec6553e056cb340ca78fdf14777e019011bc27c32414e
+    size: 2221
+    confirmation: verified
+    relation: rendered-from
+    storage: canonical
+    built_from:
+      - id: access-address-source
+        revision: bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83
+      - id: access-gsi-tile-sources
+        revision: 78bb1e49fef8011fd7b310dd00fb694ece9b1b16b3fe671a52fce8950d476bf1
+    external_inputs: &a18
+      - path: company-data/ledger.md
+        sha256: 19b325cd30ad92525d1d9f0b137c9fd616d34ee0e25ccdba6653d9969ca8e8af
+      - path: company-data/facts/school.yaml
+        sha256: 1542374cce1534bf98a6d260e3e2542a6857d48da768c0415c71a363d8e043c2
+      - path: company-data/facts/admissions.yaml
+        sha256: 197459aeb33f5cf73e51df886dcc7fb34c974b2e3ac2f75d0b4d292301cdc07d
+      - path: company-data/facts/booklet.yaml
+        sha256: f999160600a5655dd4138aca2d9742312aaa0288b818d65bdc2508c054e70f1b
+  - id: tuition-admissions-access-pages
+    variant: access-map-revised
+    role: reconstructed-preview
+    media: pdf
+    file: books/prospectus-isen-trial-2028/output/pdf/学費入試アクセス_改訂4ページ.pdf
+    revision: 49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f
+    sha256: 49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f
+    size: 5241507
+    confirmation: verified
+    relation: rendered-from
+    storage: canonical
+    built_from:
+      - id: access-revision-record
+        revision: 51880dcd886a6939ff3ec6553e056cb340ca78fdf14777e019011bc27c32414e
+      - id: access-map-generated-base
+        revision: ec0b27a2bf44ccc7f6100eaf0399dcd6dd396168e022484e7aab10067b29f02f
+      - id: access-map-labels
+        revision: 28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f
+    input_provenance: verified
+    external_inputs: *a18
+    external_input_globs:
+      - pattern: company-data/{facts,brand,copy,photos}/**/*
+        sha256: 7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4
+      - pattern: shared/{components,layouts,generated-assets}/**/*
+        sha256: ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0
+      - pattern: books/prospectus-isen-trial-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}
+        sha256: 8c397ffeb6dbb1f8682a1f0748ef7b29ba55f63dcd931c56631c92aaebba1654
+      - pattern: system/design-engine/src/**/*
+        sha256: 68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f
+      - pattern: system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}
+        sha256: ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478
+      - pattern: package{,-lock}.json
+        sha256: dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4
+      - pattern: books/prospectus-isen-trial-2028/parts/access-map-research/**/*
+        sha256: 5bd92501ce08b99ab14fb824effdb28f66aa4b3face77e09a2cf452237be39ee
+      - pattern: references/school-own/admissions-2027/original/**/*
+        sha256: db54a26a74c02c583ac66487b85486441fa538316fa4bb5b48cb2254aba38040
+  - id: white-16p-access-map-revised
+    variant: access-map-revised
+    role: reconstructed-preview
+    media: pdf
+    file: books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_地図連絡先改訂.pdf
+    revision: 33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56
+    sha256: 33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56
+    size: 111425684
+    confirmation: verified
+    relation: rendered-from
+    storage: canonical
+    built_from:
+      - id: white-16p-without-group-and-school-pr
+        revision: aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da
+      - id: tuition-admissions-access-pages
+        revision: 49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f
+    parent:
+      id: white-16p-tuition-admissions-revised
+      revision: 23e039f73c7489c5a91825c9b0c7087843edbf7d44edc82ba8e23fe325f59da4
+    input_provenance: unverified
+  - id: access-page-preview
+    variant: access-map-revised
+    role: preview
+    media: image
+    file: books/prospectus-isen-trial-2028/output/png/アクセス案内_改訂.png
+    revision: b748c3568eda65b3f32cc302b05f59d30a6b3f96c3828295bd7eea2442af23fa
+    sha256: b748c3568eda65b3f32cc302b05f59d30a6b3f96c3828295bd7eea2442af23fa
+    size: 1039337
+    confirmation: verified
+    relation: rendered-from
+    storage: canonical
+    built_from:
+      - id: tuition-admissions-access-pages
+        revision: 49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f
+    input_provenance: verified
