@@ -1,5 +1,5 @@
 series_id: JP4-R01
-display_name: 日本人イメージ_男女4人_自然な写真調_r01
+display_name: A案_日本人イメージ_男女4人_自然な写真調_r01
 status: 方向確認用・未採用
 tags:
 - 素材:生成人物
@@ -8,6 +8,7 @@ tags:
 - 人物固定:JP4-R01
 - 表現:自然な写真調
 - 用途:差替前のベース確認
+- 提案:A
 people:
   A: 男性・紺シャツ＋白T
   B: 男性・灰スウェット
@@ -24,3 +25,4 @@ scenes:
   display_name: ベース03_校内で談笑
   file: JP4-R01-S03.png
 usage: 全員架空の成人。実在の在校生や実際の校内を撮影した写真とは扱わない。冊子へ未反映。
+proposal: A

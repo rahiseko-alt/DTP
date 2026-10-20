@@ -1,0 +1,35 @@
+{
+  "document": "prospectus-isen-trial-2028",
+  "asset": "latest-prospectus-pdf",
+  "sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+  "source_status": "保存済み掲載版。宣言の改名後の再描画は未実施。",
+  "crops": [
+    {
+      "page": 2,
+      "normalized_rect": [
+        0,
+        0,
+        1,
+        0.58
+      ]
+    },
+    {
+      "page": 8,
+      "normalized_rect": [
+        0,
+        0,
+        1,
+        0.49
+      ]
+    },
+    {
+      "page": 11,
+      "normalized_rect": [
+        0.4,
+        0,
+        1,
+        0.38
+      ]
+    }
+  ]
+}

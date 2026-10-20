@@ -1,0 +1,37 @@
+id: B-PHOTO-R01-S01
+proposal: B
+model: image_gen
+prompt: 'Create B01, a carefully edited photographic variant of the supplied CURRENT
+  brochure photo. KEEP the exact four-person arrangement, same camera height, framing,
+  poses, relative head positions, background and casual clothing: man with white T-shirt
+  and beige backpack at left, woman with dark collar and patterned short sleeves second,
+  woman in white/pink windbreaker third, white shirt man at right. Same ages and gender
+  presentation. Subtly adjust facial features toward a natural Japanese/East Asian
+  and mixed-heritage Japanese visual casting, while retaining individual differences
+  and warm medium/tan skin tones on some individuals. The desired result sits between
+  Japanese, East Asian, and Japanese mixed-heritage appearance; do not make everyone
+  pale, identical, fashion-model perfect, or heavily retouched. This is fictional
+  casting, no claim about actual nationality. Preserve relaxed expressions, real skin
+  texture and natural hair. Keep the leftmost man''s warm brown skin but make facial
+  adjustments restrained and believable, softly dark eyebrows, short black hair, less
+  pronounced stubble. Do not overdo ethnic stereotypes. IMPORTANT: remove ALL overlaid
+  brochure typography, school copy, colored information panels, numerals and logos
+  entirely; recover the photographic bodies and neutral setting underneath. Output
+  only the clean photograph suitable as a replacement image layer, same composition
+  of four closely standing people against the pale wall. No design, text, letters,
+  typography, words, numbers, logo, watermark, signature, QR code, caption. Realistic
+  hands, no extra people. One full photo, not a collage.'
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+created: '2026-10-21'
+author: codex
+reference_inputs:
+- path: shared/generated-assets/jp-existing-photo-b-r01/reference-inputs/current-brochure-page-02.png
+  usage: image_reference
+  note: 保存済み掲載パンフPDF2ページの上部。構図・服装・姿勢を保持する参照。
+params:
+  transparent_background: false
+notes: 生成編集した人物画像の方向確認用。未採用、紙面未反映。実写記録として使用しない。
+size: 1385x1136
+sha256: bfde16071d133dc5cf8c47bd93a1660f43d086ad20d7b3afa8be1002492934da

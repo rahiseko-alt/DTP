@@ -1,0 +1,38 @@
+id: B-PHOTO-R01-S03
+proposal: B
+model: image_gen
+prompt: 'Create B03 by carefully editing the supplied school brochure consultation
+  photo. Preserve the exact composition of the PHOTO area: father seated at lower-left
+  in light blue button shirt facing right, younger woman seated center in cream knit,
+  older woman standing behind center looking down warmly, female school adviser seated
+  at right in beige blazer and blue lanyard with one open hand naturally gesturing;
+  same relative head positions, body postures, eye lines, desk, laptop at lower-right,
+  greenery and bright office background. Subtle plausible Japanese/East Asian and
+  Japanese mixed-heritage visual casting, with varied warm medium/tan complexions
+  rather than universally pale faces. Natural individual faces and hair, real skin
+  texture, no model perfection or stereotypes. Keep father''s skin gently tanned and
+  hair short/dark with restrained facial hair. The two center women should have natural
+  visible black/dark brown everyday hair instead of head coverings: young woman shoulder-length
+  dark hair, older woman slightly longer tied back dark hair; maintain head positions
+  and otherwise modest ordinary clothing in corresponding soft mauve and beige colors.
+  Adviser appearance stays mostly unchanged. This is a fictional photographic variation,
+  no claim about actual people or nationalities. Remove ALL surrounding and overlaid
+  brochure text, captions, speech panels, cards and logos. Return only the clean photo
+  area, no page design or titles. Preserve original photo''s composition, camera angle
+  and framing; all four visible. No text, letters, typography, words, numbers, logo,
+  watermark, signature, QR code, caption. Correct hands, natural smiles, no extra
+  people, not a collage.'
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+created: '2026-10-21'
+author: codex
+reference_inputs:
+- path: shared/generated-assets/jp-existing-photo-b-r01/reference-inputs/current-brochure-page-11.png
+  usage: image_reference
+  note: 保存済み掲載パンフPDF11ページ。家族と相談員の配置・目線・動作を参照。
+params:
+  transparent_background: false
+notes: 生成編集した人物画像の方向確認用。未採用、紙面未反映。実写記録として使用しない。
+size: 1326x1186
+sha256: ebb21ada74b1f5742c42e2636e3954cf78f8af0c001fddd761f224b8b00873ca
