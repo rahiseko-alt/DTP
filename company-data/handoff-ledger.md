@@ -1,5 +1,11 @@
 # 引継ぎ台帳
 
+## 2026-10-20 PR #61のマージ再開・地図用住所確認
+
+- GitHub APIへ接続できることを実操作で確認し、PR #61（https://github.com/rahiseko-alt/DTP/pull/61）を作成。競合なし。必須asset-integrityのテスト部分は成功、最終asset:checkが失敗。生成入力globsに含まれるロゴ・共有素材81個のLFS実体が検査環境の取得対象外だったため、取得範囲へcompany-data/**・shared/**を追加。検証基準・保護規則は緩めない。main反映完了はPRのmergedAtで確認する。
+- 地図用住所は確定台帳・school.yaml・正式募集要項DOCXの3点で一致：〒453-0014 愛知県名古屋市中村区則武1丁目30-17。国土地理院住所検索（https://msearch.gsi.go.jp/address-search/AddressSearch）でも「愛知県名古屋市中村区則武一丁目３０番１７号」を確認。基準点は緯度35.173653・経度136.874008。建物入口・道路・徒歩経路はまだ調査していない。応答記録は `.cache/access-map/address-source-20261020.json`。
+- 上記の住所確認により、以前のGitHub API・住所検索への通信403は実操作上解消。地図は未生成、学習環境ページの差替えは未完了。
+
 ## 現在の再開位置：2026-10-19 Codex
 
 | 項目 | 現在の状態 |

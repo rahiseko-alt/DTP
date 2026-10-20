@@ -21,7 +21,9 @@ jobs:
       - name: Fetch managed document payloads
         run: |
           git lfs install --local
-          git lfs pull --include='books/**,output/pdf/**,references/school-own/**,company-data/photos/student-*.jpg'
+          # Freshness fingerprints include brand and shared generated assets too.
+          # Hydrate every source payload before hashing; pointers are not inputs.
+          git lfs pull --include='books/**,output/pdf/**,references/school-own/**,company-data/**,shared/**'
       - run: sudo apt-get update && sudo apt-get install -y poppler-utils fonts-noto-cjk
       - run: npm run typecheck
       - run: npx vitest run system/scripts/test/assets.test.ts system/scripts/test/asset-build.test.ts system/scripts/test/baseline-sync.test.ts
