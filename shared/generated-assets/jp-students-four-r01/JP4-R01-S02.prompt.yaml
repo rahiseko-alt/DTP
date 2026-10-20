@@ -1,0 +1,24 @@
+id: JP4-R01-S02
+model: image_gen
+prompt: Use scene 01 as exact identity reference for the same four fictional Japanese
+  adults, matching faces, hair and clothing. Candid scene in a bright ordinary vocational
+  computer lab. Bob-haired woman types at desktop computer, navy shirt man sits alongside,
+  gray sweatshirt man and ponytail woman lean behind to discuss a visual assignment.
+  All faces visible, natural concentrated expressions, correct anatomy, realistic
+  skin. Different arrangement and angle from scene 01. Abstract shapes only on screens,
+  no text or branding. Landscape 3:2.
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+size: 1536x1024
+created: '2026-10-21'
+author: codex
+reference_inputs:
+- path: shared/generated-assets/jp-students-four-r01/JP4-R01-S01.png
+  usage: image_reference
+  note: 同一4人の顔・髪型・服装の参照
+params:
+  transparent_background: false
+source_refs: []
+notes: 生成指示の要約を記録。画像未加工。方向確認候補、紙面未反映。
+sha256: 68bb7209ecf899efc3c24c75845d954146852df4ba3da7bc8c54475fa23e1d2b

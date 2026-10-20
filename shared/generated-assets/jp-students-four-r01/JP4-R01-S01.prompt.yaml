@@ -1,0 +1,21 @@
+id: JP4-R01-S01
+model: image_gen
+prompt: Exactly four fictional Japanese vocational college students aged 19–21, two
+  men and two women. Navy overshirt man, gray sweatshirt man, pale blue shirt bob-haired
+  woman, cream cardigan low-ponytail woman. Candid natural editorial school photograph
+  in a bright modest classroom, discussing an assignment around joined desks with
+  laptop and notebook. All four faces visible, natural subtle smiles and attentive
+  expressions, realistic skin, hands and hair. No posing at camera, no beauty retouching,
+  no readable screen text or branding. Landscape 3:2.
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+size: 1536x1024
+created: '2026-10-21'
+author: codex
+reference_inputs: []
+params:
+  transparent_background: false
+source_refs: []
+notes: 人間の注文で生成したベース画像候補。架空人物。未採用・紙面未反映。プロンプト欄は生成指示の要約。画像未加工。後続2枚の人物参照に使用。
+sha256: b459d01259176e838b174801d5e8c8239540953a6173c24545b6101a6f38ba0b
