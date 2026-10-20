@@ -21,6 +21,12 @@ current:
   tuition-admissions-access-pages: 49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f
   white-16p-access-map-revised: 33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56
   access-page-preview: b748c3568eda65b3f32cc302b05f59d30a6b3f96c3828295bd7eea2442af23fa
+  saddle-print-record: 39d3e911e5c03b4532b01a1648732979b3386b41b843ad738d2aa6bb4c7f3f2b
+  saddle-print-a3: 8115f881a1c3a3080ebe52c254ed9f8173d0d6ad2a67c38094b9c2790a722b45
+  saddle-print-a4: bbc0ea8f1eaaa16f0b86c7845daec9092086d7c3a2637c124a6063b4019b7df5
+  saddle-print-builder: c7f326c701cdf3159e009e2eea8398fd651d44b806738152e6200913a1dbfba1
+  saddle-print-spec: d8e866696089414471dff8f19b7419d5647ba5aac0cd3995898eecd3a1c31323
+  saddle-print-instructions: 445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b
 assets:
   - id: approved-original
     variant: standard-render
@@ -556,3 +562,94 @@ assets:
       - id: tuition-admissions-access-pages
         revision: 49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f
     input_provenance: verified
+  - id: saddle-print-record
+    variant: saddle-print
+    role: support
+    media: text
+    file: books/prospectus-isen-trial-2028/parts/saddle-print-20261020.json
+    revision: 39d3e911e5c03b4532b01a1648732979b3386b41b843ad738d2aa6bb4c7f3f2b
+    sha256: 39d3e911e5c03b4532b01a1648732979b3386b41b843ad738d2aa6bb4c7f3f2b
+    size: 2779
+    confirmation: verified
+    relation: authored
+    storage: canonical
+    built_from: []
+    external_inputs:
+      - path: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/build.py
+        sha256: c7f326c701cdf3159e009e2eea8398fd651d44b806738152e6200913a1dbfba1
+      - path: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/spec.json
+        sha256: d8e866696089414471dff8f19b7419d5647ba5aac0cd3995898eecd3a1c31323
+      - path: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/印刷方法.md
+        sha256: 445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b
+      - path: system/scripts/impose-booklet.py
+        sha256: 2c67d4aaf4b3c25a1df383e7660af9cd323ede37f3102e827d7a805244a38186
+  - id: saddle-print-a3
+    variant: saddle-print-a3
+    role: reconstructed-preview
+    media: pdf
+    file: books/prospectus-isen-trial-2028/output/imposed/パンフレット_16P_A3両面中綴じ_A4仕上がり.pdf
+    revision: 8115f881a1c3a3080ebe52c254ed9f8173d0d6ad2a67c38094b9c2790a722b45
+    sha256: 8115f881a1c3a3080ebe52c254ed9f8173d0d6ad2a67c38094b9c2790a722b45
+    size: 111456219
+    confirmation: verified
+    relation: rendered-from
+    storage: canonical
+    input_provenance: unverified
+    built_from:
+      - id: white-16p-access-map-revised
+        revision: 33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56
+      - id: saddle-print-record
+        revision: 39d3e911e5c03b4532b01a1648732979b3386b41b843ad738d2aa6bb4c7f3f2b
+  - id: saddle-print-a4
+    variant: saddle-print-a4
+    role: reconstructed-preview
+    media: pdf
+    file: books/prospectus-isen-trial-2028/output/imposed/パンフレット_16P_A4両面中綴じ_A5仕上がり.pdf
+    revision: bbc0ea8f1eaaa16f0b86c7845daec9092086d7c3a2637c124a6063b4019b7df5
+    sha256: bbc0ea8f1eaaa16f0b86c7845daec9092086d7c3a2637c124a6063b4019b7df5
+    size: 111456795
+    confirmation: verified
+    relation: rendered-from
+    storage: canonical
+    input_provenance: unverified
+    built_from:
+      - id: white-16p-access-map-revised
+        revision: 33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56
+      - id: saddle-print-record
+        revision: 39d3e911e5c03b4532b01a1648732979b3386b41b843ad738d2aa6bb4c7f3f2b
+  - id: saddle-print-builder
+    variant: saddle-print
+    role: support
+    media: text
+    file: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/build.py
+    revision: c7f326c701cdf3159e009e2eea8398fd651d44b806738152e6200913a1dbfba1
+    sha256: c7f326c701cdf3159e009e2eea8398fd651d44b806738152e6200913a1dbfba1
+    size: 5833
+    confirmation: verified
+    relation: authored
+    storage: canonical
+    built_from: []
+  - id: saddle-print-spec
+    variant: saddle-print
+    role: support
+    media: text
+    file: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/spec.json
+    revision: d8e866696089414471dff8f19b7419d5647ba5aac0cd3995898eecd3a1c31323
+    sha256: d8e866696089414471dff8f19b7419d5647ba5aac0cd3995898eecd3a1c31323
+    size: 924
+    confirmation: verified
+    relation: authored
+    storage: canonical
+    built_from: []
+  - id: saddle-print-instructions
+    variant: saddle-print
+    role: support
+    media: text
+    file: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/印刷方法.md
+    revision: 445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b
+    sha256: 445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b
+    size: 1598
+    confirmation: verified
+    relation: authored
+    storage: canonical
+    built_from: []

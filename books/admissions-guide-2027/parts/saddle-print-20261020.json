@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-20",
+  "book": "admissions-guide-2027",
+  "source_asset_id": "fees-kana-main-merged-pdf",
+  "source": "books/admissions-guide-2027/output/pdf/admissions-guide-2027_ふりがな料金確認_main統合版.pdf",
+  "source_sha256": "42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16",
+  "source_pages": 24,
+  "trim_bleed_mm": 3,
+  "binding": "left saddle stitch",
+  "faces": [
+    {
+      "sheet": 1,
+      "side": "front",
+      "left": 24,
+      "right": 1
+    },
+    {
+      "sheet": 1,
+      "side": "back",
+      "left": 2,
+      "right": 23
+    },
+    {
+      "sheet": 2,
+      "side": "front",
+      "left": 22,
+      "right": 3
+    },
+    {
+      "sheet": 2,
+      "side": "back",
+      "left": 4,
+      "right": 21
+    },
+    {
+      "sheet": 3,
+      "side": "front",
+      "left": 20,
+      "right": 5
+    },
+    {
+      "sheet": 3,
+      "side": "back",
+      "left": 6,
+      "right": 19
+    },
+    {
+      "sheet": 4,
+      "side": "front",
+      "left": 18,
+      "right": 7
+    },
+    {
+      "sheet": 4,
+      "side": "back",
+      "left": 8,
+      "right": 17
+    },
+    {
+      "sheet": 5,
+      "side": "front",
+      "left": 16,
+      "right": 9
+    },
+    {
+      "sheet": 5,
+      "side": "back",
+      "left": 10,
+      "right": 15
+    },
+    {
+      "sheet": 6,
+      "side": "front",
+      "left": 14,
+      "right": 11
+    },
+    {
+      "sheet": 6,
+      "side": "back",
+      "left": 12,
+      "right": 13
+    }
+  ],
+  "folded_reading_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "all_source_pages_used_once": true,
+  "outputs": [
+    {
+      "paper": "A3",
+      "finished_size": "A4",
+      "file": "books/admissions-guide-2027/output/imposed/募集要項_24P_A3両面中綴じ_A4仕上がり.pdf",
+      "sha256": "94df79301cba6ee24342d7e607849da1c4cf55487dab7e9e01d70894ddd34645",
+      "faces": 12,
+      "sheets": 6,
+      "size_mm": [
+        420.0,
+        297.0
+      ],
+      "max_thumbnail_mean_difference": 0.24933816758747698,
+      "all_half_sheets_compared": 24,
+      "print_preferences": {
+        "duplex": "short-edge",
+        "scaling": "none",
+        "driver_booklet_mode": false
+      }
+    },
+    {
+      "paper": "A4",
+      "finished_size": "A5",
+      "file": "books/admissions-guide-2027/output/imposed/募集要項_24P_A4両面中綴じ_A5仕上がり.pdf",
+      "sha256": "c44c675ac28bf297c057432787effad9b06be91f5dc997df1c619e9dcca79060",
+      "faces": 12,
+      "sheets": 6,
+      "size_mm": [
+        297.0,
+        210.0
+      ],
+      "max_thumbnail_mean_difference": 0.4038760359116022,
+      "all_half_sheets_compared": 24,
+      "print_preferences": {
+        "duplex": "short-edge",
+        "scaling": "none",
+        "driver_booklet_mode": false
+      }
+    }
+  ],
+  "self_review": true,
+  "independent_review": false,
+  "purpose": "現在の確認版を家庭・学校のプリンターで両面印刷して中綴じするための面付け。商業印刷入稿用のreleaseではない。"
+}

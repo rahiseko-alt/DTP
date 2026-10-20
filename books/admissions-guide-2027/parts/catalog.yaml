@@ -37,6 +37,9 @@ current:
   reference-before-pr60: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
   main-merge-audit: 7d367276bbc40dab69ea3c073236d6db1c558307b360cdb981dcc5078ee74850
   fees-kana-main-merged-pdf: 42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16
+  saddle-print-record: a3b0f6c0245983cc52f4aeb0122b2b58a7285d1fba903fc2189c926be41f331a
+  saddle-print-a3: 94df79301cba6ee24342d7e607849da1c4cf55487dab7e9e01d70894ddd34645
+  saddle-print-a4: c44c675ac28bf297c057432787effad9b06be91f5dc997df1c619e9dcca79060
 assets:
   - id: approved-original
     variant: standard-render
@@ -645,3 +648,58 @@ assets:
       - *a6
       - pattern: references/school-own/admissions-2027/original/**/*
         sha256: db54a26a74c02c583ac66487b85486441fa538316fa4bb5b48cb2254aba38040
+  - id: saddle-print-record
+    variant: saddle-print
+    role: support
+    media: text
+    file: books/admissions-guide-2027/parts/saddle-print-20261020.json
+    revision: a3b0f6c0245983cc52f4aeb0122b2b58a7285d1fba903fc2189c926be41f331a
+    sha256: a3b0f6c0245983cc52f4aeb0122b2b58a7285d1fba903fc2189c926be41f331a
+    size: 3152
+    confirmation: verified
+    relation: authored
+    storage: canonical
+    built_from: []
+    external_inputs:
+      - path: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/build.py
+        sha256: c7f326c701cdf3159e009e2eea8398fd651d44b806738152e6200913a1dbfba1
+      - path: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/spec.json
+        sha256: d8e866696089414471dff8f19b7419d5647ba5aac0cd3995898eecd3a1c31323
+      - path: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/印刷方法.md
+        sha256: 445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b
+      - path: system/scripts/impose-booklet.py
+        sha256: 2c67d4aaf4b3c25a1df383e7660af9cd323ede37f3102e827d7a805244a38186
+  - id: saddle-print-a3
+    variant: saddle-print-a3
+    role: reconstructed-preview
+    media: pdf
+    file: books/admissions-guide-2027/output/imposed/募集要項_24P_A3両面中綴じ_A4仕上がり.pdf
+    revision: 94df79301cba6ee24342d7e607849da1c4cf55487dab7e9e01d70894ddd34645
+    sha256: 94df79301cba6ee24342d7e607849da1c4cf55487dab7e9e01d70894ddd34645
+    size: 16934661
+    confirmation: verified
+    relation: rendered-from
+    storage: canonical
+    input_provenance: verified
+    built_from:
+      - id: fees-kana-main-merged-pdf
+        revision: 42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16
+      - id: saddle-print-record
+        revision: a3b0f6c0245983cc52f4aeb0122b2b58a7285d1fba903fc2189c926be41f331a
+  - id: saddle-print-a4
+    variant: saddle-print-a4
+    role: reconstructed-preview
+    media: pdf
+    file: books/admissions-guide-2027/output/imposed/募集要項_24P_A4両面中綴じ_A5仕上がり.pdf
+    revision: c44c675ac28bf297c057432787effad9b06be91f5dc997df1c619e9dcca79060
+    sha256: c44c675ac28bf297c057432787effad9b06be91f5dc997df1c619e9dcca79060
+    size: 16935525
+    confirmation: verified
+    relation: rendered-from
+    storage: canonical
+    input_provenance: verified
+    built_from:
+      - id: fees-kana-main-merged-pdf
+        revision: 42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16
+      - id: saddle-print-record
+        revision: a3b0f6c0245983cc52f4aeb0122b2b58a7285d1fba903fc2189c926be41f331a
