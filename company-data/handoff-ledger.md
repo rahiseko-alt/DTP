@@ -322,3 +322,7 @@
 - ユーザーが最新main基準の必須検査設定を有効化。ruleset25323604はActive、bypassなし、GitHub Actions app15368のasset-integrity必須、strict_required_status_checks_policy=trueをAPIで確認。保護mainの405拒否実試験、関連82試験、独立クリーン環境での格納/検索/取得、サブ2名の敵対審査は成功済み。
 - この記録を含むPR #51の正常CI後のマージをmain共通運用の反映点とする。成果物の原本・写真は移動削除なし。管理範囲はOCチラシ1件のみで、既存他資料はlegacy-unverified。
 - 現在結果は `system/assets/evidence/pilot-verification.json`、適用済み設定は `active-main-ruleset.json`。以前の未達記録は上記作業前の履歴。次のセッションではmainのPR #51反映を確認して `asset:resolve/search/get` を使う。
+
+## 2026-10-20 地図再制作（Codex）
+
+PDF受渡し調査は人間の指示で保留。医専BOOKの地図第2案を画像生成し、学校住所・駅名・方位・周辺地区名を別SVGで合成。`prospectus-isen-trial-2028`の`access-map-v2-composite`（role support、variant access-map-v2）に登録。元地図・住所検索点との自己点検済み。既存冊子と面付けPDFは未変更。徒歩経路・横断箇所・建物入口は未確認で、所在地略図としての提出。制作スクリプトは`access-map-v2-builder`、制約と点検は`access-map-v2-review`。幅130mmで約300dpi、幅180mmで約217dpi。保存ブランチ`fix/access-map-20261020`。

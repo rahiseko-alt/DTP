@@ -1,720 +1,1319 @@
-schema_version: 1
-document: prospectus-isen-trial-2028
-current:
-  approved-original: 1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37
-  preview-page-001: a843ad620b2982c3da72139096bf5fbe023e4e527e4655ef16dd2832711b4365
-  student-img-5076: 0ca846c9aeca9c56b254c7abf1a66efe99bd126f4dfcc91d5b1d296a6feca26c
-  page-selection-18p: be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392
-  white-18p-without-group-pages: c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4
-  page-selection-16p: 2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e
-  white-16p-without-group-and-school-pr: aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da
-  access-gsi-reference: 9ce300e50a1e18c0c3c6f7c7cc1df1c369cbda72e137e79a5c06023653456e3f
-  access-gsi-school-marked: b324be7a579bc4897c180d455af9b8194462dbe3b06a9c2c725183d189933ad9
-  access-gsi-tile-sources: 78bb1e49fef8011fd7b310dd00fb694ece9b1b16b3fe671a52fce8950d476bf1
-  access-address-source: bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83
-  access-map-generation-prompt: 6bc9b92506f3e02cc0d3192c258bc1dfa677c34f45bd6fa1c3a24493813f5c97
-  access-map-generated-base: ec0b27a2bf44ccc7f6100eaf0399dcd6dd396168e022484e7aab10067b29f02f
-  access-map-labels: 28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f
-  access-map-standalone-layout: 98ca5a5dd1aadc1a2754e15fee12acb577701da648d9fad816afb14e1fb93ea7
-  access-map-labeled: e8adada6a16b39122df9e22c8cbf8dbabeda7a7eb7a5cc554847e1ae94cc03a8
-  access-revision-record: 51880dcd886a6939ff3ec6553e056cb340ca78fdf14777e019011bc27c32414e
-  tuition-admissions-access-pages: 49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f
-  white-16p-access-map-revised: 33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56
-  access-page-preview: b748c3568eda65b3f32cc302b05f59d30a6b3f96c3828295bd7eea2442af23fa
-  saddle-print-record: 39d3e911e5c03b4532b01a1648732979b3386b41b843ad738d2aa6bb4c7f3f2b
-  saddle-print-a3: 8115f881a1c3a3080ebe52c254ed9f8173d0d6ad2a67c38094b9c2790a722b45
-  saddle-print-a4: bbc0ea8f1eaaa16f0b86c7845daec9092086d7c3a2637c124a6063b4019b7df5
-  saddle-print-builder: c7f326c701cdf3159e009e2eea8398fd651d44b806738152e6200913a1dbfba1
-  saddle-print-spec: d8e866696089414471dff8f19b7419d5647ba5aac0cd3995898eecd3a1c31323
-  saddle-print-instructions: 445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b
-  saddle-print-light-record: f3d0c66cef9c90819f9926e0ee74b336c5f3e516d0e041ff11be9162a1f8bfaf
-  saddle-print-light-a3: 6c6f07b20e56426202170bb43e2ec9559c7389f213747682b8353fdecd93b411
-  saddle-print-light-a4: 9e60fa41c697dfadbb4913f947d1fbf7c12ef2c3017670e381c46fb40f541b8e
-  saddle-print-optimizer: 4a17a91167566312decc7e757a449760616431d8365dad59fa40075767400265
-assets:
-  - id: approved-original
-    variant: standard-render
-    role: original
-    media: pdf
-    file: output/pdf/AIビジネス専門学校_学校案内_2028_白版_20P.pdf
-    revision: 1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37
-    sha256: 1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37
-    size: 186422025
-    relation: root
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: student-img-5076
-        revision: 0ca846c9aeca9c56b254c7abf1a66efe99bd126f4dfcc91d5b1d296a6feca26c
-    external_inputs: []
-    external_input_globs:
-      - &a12
-        pattern: company-data/{facts,brand,copy,photos}/**/*
-        sha256: 7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4
-      - &a13
-        pattern: shared/{components,layouts,generated-assets}/**/*
-        sha256: ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0
-      - &a14
-        pattern: books/prospectus-isen-trial-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}
-        sha256: 8c397ffeb6dbb1f8682a1f0748ef7b29ba55f63dcd931c56631c92aaebba1654
-      - &a15
-        pattern: system/design-engine/src/**/*
-        sha256: 68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f
-      - &a16
-        pattern: system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}
-        sha256: ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478
-      - &a17
-        pattern: package{,-lock}.json
-        sha256: dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4
-  - id: preview-page-001
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/prospectus-isen-trial-2028/output/png/page_001.png
-    revision: a843ad620b2982c3da72139096bf5fbe023e4e527e4655ef16dd2832711b4365
-    sha256: a843ad620b2982c3da72139096bf5fbe023e4e527e4655ef16dd2832711b4365
-    size: 2495476
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37
-    external_inputs: []
-  - id: student-img-5076
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-img-5076
-    revision: 0ca846c9aeca9c56b254c7abf1a66efe99bd126f4dfcc91d5b1d296a6feca26c
-    sha256: 0ca846c9aeca9c56b254c7abf1a66efe99bd126f4dfcc91d5b1d296a6feca26c
-    size: 2721440
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: page-selection-18p
-    variant: without-group-pages
-    role: support
-    media: text
-    file: books/prospectus-isen-trial-2028/parts/page-selection-18p.json
-    revision: be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392
-    sha256: be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392
-    size: 1047
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: white-18p-without-group-pages
-    variant: without-group-pages
-    role: reconstructed-preview
-    media: pdf
-    file: books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_18P.pdf
-    revision: c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4
-    sha256: c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4
-    size: 165093256
-    relation: rendered-from
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37
-      - id: page-selection-18p
-        revision: be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392
-    external_inputs: []
-  - id: page-selection-16p
-    variant: without-group-and-school-pr
-    role: support
-    media: text
-    file: books/prospectus-isen-trial-2028/parts/page-selection-16p.json
-    revision: 2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e
-    sha256: 2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e
-    size: 1217
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: white-16p-without-group-and-school-pr
-    variant: without-group-and-school-pr
-    role: reconstructed-preview
-    media: pdf
-    file: books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P.pdf
-    revision: aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da
-    sha256: aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da
-    size: 142901838
-    relation: rendered-from
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: white-18p-without-group-pages
-        revision: c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4
-      - id: page-selection-16p
-        revision: 2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e
-    external_inputs: []
-  - id: tuition-revision-record
-    variant: tuition-revised
-    role: support
-    media: text
-    file: books/prospectus-isen-trial-2028/parts/tuition-revision-20261019.json
-    revision: e2c3aa2b54a2d7750f564825745976f96dcb29699bc0b14ea0760da6ab186f55
-    sha256: e2c3aa2b54a2d7750f564825745976f96dcb29699bc0b14ea0760da6ab186f55
-    size: 3813
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs:
-      - &a1
-        path: company-data/ledger.md
-        sha256: 19b325cd30ad92525d1d9f0b137c9fd616d34ee0e25ccdba6653d9969ca8e8af
-      - &a2
-        path: company-data/facts/admissions.yaml
-        sha256: 197459aeb33f5cf73e51df886dcc7fb34c974b2e3ac2f75d0b4d292301cdc07d
-      - &a3
-        path: company-data/facts/booklet.yaml
-        sha256: f999160600a5655dd4138aca2d9742312aaa0288b818d65bdc2508c054e70f1b
-      - &a4
-        path: company-data/facts/contacts.yaml
-        sha256: 32eed36ea96afae4d7718fa5a54ce4b7de7dab9d76895a434f23a0da40a77532
-      - &a5
-        path: books/prospectus-isen-trial-2028/config/book.yaml
-        sha256: 16757a39aeafde1a3a03b9d986c84b08dcba005e08dfb8b2c019cd2a8ec1a555
-      - &a6
-        path: books/prospectus-isen-trial-2028/layout.css
-        sha256: 6095da9816131d88cab832e57d0ce95d7a208877f8bd6b138abdcddd41522dbe
-      - &a7
-        path: books/prospectus-isen-trial-2028/pages/page_001/page.html
-        sha256: 8cc51e7163e327d7636505dc1c725fe9d70d9d2f9b0a41ebdb4bfc0ce1403623
-      - &a8
-        path: books/prospectus-isen-trial-2028/pages/page_001/page.css
-        sha256: a0c1434d3c5f4e89d8d1e1210ee8746434abeb34e8405629d01a81d08b0088a3
-      - &a9
-        path: books/prospectus-isen-trial-2028/pages/page_002/page.html
-        sha256: 479c23aa89fa0b7ee9a6f3f99e684acd1988af1e4077193e59986ea58cad1b96
-      - &a10
-        path: books/prospectus-isen-trial-2028/pages/page_002/page.css
-        sha256: 915793d19a5f13b13c10a8048baa11fe29fbf3c8f19f97f8e0cbfe4a906ede03
-    external_input_globs:
-      - pattern: references/school-own/admissions-2027/original/募集要項2027.docx
-        sha256: 422dadd7eefa688b9ddf27a0c88488b5892aeb44954b7619ba2f0f74c10e5fe9
-    retired: true
-  - id: tuition-revised-pages
-    variant: tuition-revised
-    role: reconstructed-preview
-    media: pdf
-    file: books/prospectus-isen-trial-2028/output/pdf/学費案内_改訂2ページ.pdf
-    revision: 8b95968b5550aee818a81765d191507b1750c109ed6ca8c0aa91353bf3d6316f
-    sha256: 8b95968b5550aee818a81765d191507b1750c109ed6ca8c0aa91353bf3d6316f
-    size: 2945840
-    relation: rendered-from
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: tuition-revision-record
-        revision: e2c3aa2b54a2d7750f564825745976f96dcb29699bc0b14ea0760da6ab186f55
-    external_inputs:
-      - *a1
-      - *a2
-      - *a3
-      - *a4
-      - *a5
-      - *a6
-      - *a7
-      - *a8
-      - *a9
-      - *a10
-    external_input_globs:
-      - pattern: references/school-own/admissions-2027/original/募集要項2027.docx
-        sha256: 422dadd7eefa688b9ddf27a0c88488b5892aeb44954b7619ba2f0f74c10e5fe9
-    retired: true
-  - id: white-16p-tuition-revised
-    variant: tuition-revised
-    role: reconstructed-preview
-    media: pdf
-    file: books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_学費改訂.pdf
-    revision: 190466dc9e044309cc87783025091e7db4bd42f9dcdc1c4c807261918e0aa317
-    sha256: 190466dc9e044309cc87783025091e7db4bd42f9dcdc1c4c807261918e0aa317
-    size: 129401996
-    relation: rendered-from
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: white-16p-without-group-and-school-pr
-        revision: aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da
-      - id: tuition-revised-pages
-        revision: 8b95968b5550aee818a81765d191507b1750c109ed6ca8c0aa91353bf3d6316f
-    external_inputs: []
-    retired: true
-  - id: admissions-revision-record
-    variant: tuition-admissions-revised
-    role: support
-    media: text
-    file: books/prospectus-isen-trial-2028/parts/admissions-revision-20261019.json
-    revision: 153372c2dff6fdc147b0102817f5354df5f314c35b894fa517a304f3846fbba2
-    sha256: 153372c2dff6fdc147b0102817f5354df5f314c35b894fa517a304f3846fbba2
-    size: 5221
-    confirmation: verified
-    relation: authored
-    storage: canonical
-    built_from: []
-    external_inputs: &a11
-      - path: company-data/ledger.md
-        sha256: 19b325cd30ad92525d1d9f0b137c9fd616d34ee0e25ccdba6653d9969ca8e8af
-      - path: company-data/facts/admissions.yaml
-        sha256: 197459aeb33f5cf73e51df886dcc7fb34c974b2e3ac2f75d0b4d292301cdc07d
-      - path: company-data/facts/booklet.yaml
-        sha256: f999160600a5655dd4138aca2d9742312aaa0288b818d65bdc2508c054e70f1b
-      - path: books/prospectus-isen-trial-2028/config/book.yaml
-        sha256: 3bc661e3f0c5a125cb73611e1f21ac595113dd9ef33b7f368ba60aa06fecc710
-      - path: books/prospectus-isen-trial-2028/layout.css
-        sha256: 6095da9816131d88cab832e57d0ce95d7a208877f8bd6b138abdcddd41522dbe
-      - path: books/prospectus-isen-trial-2028/pages/page_001/page.html
-        sha256: 8cc51e7163e327d7636505dc1c725fe9d70d9d2f9b0a41ebdb4bfc0ce1403623
-      - path: books/prospectus-isen-trial-2028/pages/page_001/page.css
-        sha256: a0c1434d3c5f4e89d8d1e1210ee8746434abeb34e8405629d01a81d08b0088a3
-      - path: books/prospectus-isen-trial-2028/pages/page_002/page.html
-        sha256: 479c23aa89fa0b7ee9a6f3f99e684acd1988af1e4077193e59986ea58cad1b96
-      - path: books/prospectus-isen-trial-2028/pages/page_002/page.css
-        sha256: 915793d19a5f13b13c10a8048baa11fe29fbf3c8f19f97f8e0cbfe4a906ede03
-      - path: books/prospectus-isen-trial-2028/pages/page_003/page.html
-        sha256: 381269367b83a1ce39ea07e9d85cc6d2d0433bb0479811ed22aa1ed9e64241b8
-      - path: books/prospectus-isen-trial-2028/pages/page_003/page.css
-        sha256: b87c64fe317c648817a75f79bb00f38268ae4eb4f49653f9c457addd60ae4d4d
-    retired: true
-  - id: tuition-admissions-revised-pages
-    variant: tuition-admissions-revised
-    role: reconstructed-preview
-    media: pdf
-    file: books/prospectus-isen-trial-2028/output/pdf/学費入試案内_改訂3ページ.pdf
-    revision: 27ca30661d467f65ab084924b3d0e7269d223c2cad5e45635515dd24ef77f5d5
-    sha256: 27ca30661d467f65ab084924b3d0e7269d223c2cad5e45635515dd24ef77f5d5
-    size: 3062184
-    confirmation: verified
-    input_provenance: verified
-    relation: rendered-from
-    storage: canonical
-    built_from:
-      - id: admissions-revision-record
-        revision: 153372c2dff6fdc147b0102817f5354df5f314c35b894fa517a304f3846fbba2
-    external_inputs: *a11
-    external_input_globs:
-      - *a12
-      - *a13
-      - *a14
-      - *a15
-      - *a16
-      - *a17
-      - pattern: references/school-own/admissions-2027/original/募集要項2027.docx
-        sha256: 422dadd7eefa688b9ddf27a0c88488b5892aeb44954b7619ba2f0f74c10e5fe9
-      - pattern: references/school-own/admissions-2027/original/AO入試エントリーシート.pdf
-        sha256: 20eadb79e4c19a0109c0ecfcabd008a4abe29815c593bad85e273bdfdced8ade
-      - pattern: references/school-own/admissions-2027/original/推薦書.pdf
-        sha256: e90a607c3fc92ebdfad3c2a60e78e56b0041846598d43bf5cd839442b35a0ead
-      - pattern: books/admissions-guide-2027/output/pdf/admissions-guide-2027_参照保存_f2364cce.pdf
-        sha256: 02a74036260022b4ed46671d7b34c13b23ae9cf0afe6b0c9c801e35957a640c8
-    retired: true
-  - id: white-16p-tuition-admissions-revised
-    variant: tuition-admissions-revised
-    role: reconstructed-preview
-    media: pdf
-    file: books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_学費入試改訂.pdf
-    revision: 23e039f73c7489c5a91825c9b0c7087843edbf7d44edc82ba8e23fe325f59da4
-    sha256: 23e039f73c7489c5a91825c9b0c7087843edbf7d44edc82ba8e23fe325f59da4
-    size: 121129772
-    confirmation: verified
-    input_provenance: unverified
-    relation: rendered-from
-    storage: canonical
-    built_from:
-      - id: white-16p-without-group-and-school-pr
-        revision: aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da
-      - id: tuition-admissions-revised-pages
-        revision: 27ca30661d467f65ab084924b3d0e7269d223c2cad5e45635515dd24ef77f5d5
-    external_inputs: []
-    retired: true
-  - id: access-gsi-reference
-    variant: access-map-revised
-    role: support
-    media: image
-    file: books/prospectus-isen-trial-2028/parts/access-map-research/gsi-reference-map.png
-    revision: 9ce300e50a1e18c0c3c6f7c7cc1df1c369cbda72e137e79a5c06023653456e3f
-    sha256: 9ce300e50a1e18c0c3c6f7c7cc1df1c369cbda72e137e79a5c06023653456e3f
-    size: 1069689
-    confirmation: verified
-    relation: authored
-    storage: canonical
-    built_from: []
-  - id: access-gsi-school-marked
-    variant: access-map-revised
-    role: support
-    media: image
-    file: books/prospectus-isen-trial-2028/parts/access-map-research/reference-school-marked.png
-    revision: b324be7a579bc4897c180d455af9b8194462dbe3b06a9c2c725183d189933ad9
-    sha256: b324be7a579bc4897c180d455af9b8194462dbe3b06a9c2c725183d189933ad9
-    size: 1639880
-    confirmation: verified
-    relation: rendered-from
-    storage: canonical
-    built_from:
-      - id: access-gsi-reference
-        revision: 9ce300e50a1e18c0c3c6f7c7cc1df1c369cbda72e137e79a5c06023653456e3f
-  - id: access-gsi-tile-sources
-    variant: access-map-revised
-    role: support
-    media: text
-    file: books/prospectus-isen-trial-2028/parts/access-map-research/tiles-source.json
-    revision: 78bb1e49fef8011fd7b310dd00fb694ece9b1b16b3fe671a52fce8950d476bf1
-    sha256: 78bb1e49fef8011fd7b310dd00fb694ece9b1b16b3fe671a52fce8950d476bf1
-    size: 4866
-    confirmation: verified
-    relation: authored
-    storage: canonical
-    built_from: []
-  - id: access-address-source
-    variant: access-map-revised
-    role: support
-    media: text
-    file: books/prospectus-isen-trial-2028/parts/access-map-research/address-source-20261020.json
-    revision: bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83
-    sha256: bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83
-    size: 839
-    confirmation: verified
-    relation: authored
-    storage: canonical
-    built_from: []
-  - id: access-map-generation-prompt
-    variant: access-map-revised
-    role: support
-    media: text
-    file: books/prospectus-isen-trial-2028/backgrounds/access-map-base.prompt.yaml
-    revision: 6bc9b92506f3e02cc0d3192c258bc1dfa677c34f45bd6fa1c3a24493813f5c97
-    sha256: 6bc9b92506f3e02cc0d3192c258bc1dfa677c34f45bd6fa1c3a24493813f5c97
-    size: 3224
-    confirmation: verified
-    relation: authored
-    storage: canonical
-    built_from: []
-  - id: access-map-generated-base
-    variant: access-map-revised
-    role: support
-    media: image
-    file: books/prospectus-isen-trial-2028/backgrounds/access-map-base.png
-    revision: ec0b27a2bf44ccc7f6100eaf0399dcd6dd396168e022484e7aab10067b29f02f
-    sha256: ec0b27a2bf44ccc7f6100eaf0399dcd6dd396168e022484e7aab10067b29f02f
-    size: 1989599
-    confirmation: verified
-    relation: rendered-from
-    storage: canonical
-    built_from:
-      - id: access-gsi-reference
-        revision: 9ce300e50a1e18c0c3c6f7c7cc1df1c369cbda72e137e79a5c06023653456e3f
-      - id: access-gsi-school-marked
-        revision: b324be7a579bc4897c180d455af9b8194462dbe3b06a9c2c725183d189933ad9
-      - id: access-map-generation-prompt
-        revision: 6bc9b92506f3e02cc0d3192c258bc1dfa677c34f45bd6fa1c3a24493813f5c97
-      - id: access-address-source
-        revision: bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83
-  - id: access-map-labels
-    variant: access-map-revised
-    role: support
-    media: image
-    file: books/prospectus-isen-trial-2028/parts/access-map-research/map-labels.svg
-    revision: 28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f
-    sha256: 28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f
-    size: 1354
-    confirmation: verified
-    relation: rendered-from
-    storage: canonical
-    built_from:
-      - id: access-address-source
-        revision: bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83
-  - id: access-map-standalone-layout
-    variant: access-map-revised
-    role: support
-    media: text
-    file: books/prospectus-isen-trial-2028/parts/access-map-research/map-preview.html
-    revision: 98ca5a5dd1aadc1a2754e15fee12acb577701da648d9fad816afb14e1fb93ea7
-    sha256: 98ca5a5dd1aadc1a2754e15fee12acb577701da648d9fad816afb14e1fb93ea7
-    size: 461
-    confirmation: verified
-    relation: rendered-from
-    storage: canonical
-    built_from:
-      - id: access-map-labels
-        revision: 28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f
-  - id: access-map-labeled
-    variant: access-map-revised
-    role: support
-    media: image
-    file: books/prospectus-isen-trial-2028/backgrounds/access-map-labeled.png
-    revision: e8adada6a16b39122df9e22c8cbf8dbabeda7a7eb7a5cc554847e1ae94cc03a8
-    sha256: e8adada6a16b39122df9e22c8cbf8dbabeda7a7eb7a5cc554847e1ae94cc03a8
-    size: 1553340
-    confirmation: verified
-    relation: rendered-from
-    storage: canonical
-    built_from:
-      - id: access-map-generated-base
-        revision: ec0b27a2bf44ccc7f6100eaf0399dcd6dd396168e022484e7aab10067b29f02f
-      - id: access-map-labels
-        revision: 28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f
-      - id: access-map-standalone-layout
-        revision: 98ca5a5dd1aadc1a2754e15fee12acb577701da648d9fad816afb14e1fb93ea7
-  - id: access-revision-record
-    variant: access-map-revised
-    role: support
-    media: text
-    file: books/prospectus-isen-trial-2028/parts/access-revision-20261020.json
-    revision: 51880dcd886a6939ff3ec6553e056cb340ca78fdf14777e019011bc27c32414e
-    sha256: 51880dcd886a6939ff3ec6553e056cb340ca78fdf14777e019011bc27c32414e
-    size: 2221
-    confirmation: verified
-    relation: rendered-from
-    storage: canonical
-    built_from:
-      - id: access-address-source
-        revision: bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83
-      - id: access-gsi-tile-sources
-        revision: 78bb1e49fef8011fd7b310dd00fb694ece9b1b16b3fe671a52fce8950d476bf1
-    external_inputs: &a18
-      - path: company-data/ledger.md
-        sha256: 19b325cd30ad92525d1d9f0b137c9fd616d34ee0e25ccdba6653d9969ca8e8af
-      - path: company-data/facts/school.yaml
-        sha256: 1542374cce1534bf98a6d260e3e2542a6857d48da768c0415c71a363d8e043c2
-      - path: company-data/facts/admissions.yaml
-        sha256: 197459aeb33f5cf73e51df886dcc7fb34c974b2e3ac2f75d0b4d292301cdc07d
-      - path: company-data/facts/booklet.yaml
-        sha256: f999160600a5655dd4138aca2d9742312aaa0288b818d65bdc2508c054e70f1b
-  - id: tuition-admissions-access-pages
-    variant: access-map-revised
-    role: reconstructed-preview
-    media: pdf
-    file: books/prospectus-isen-trial-2028/output/pdf/学費入試アクセス_改訂4ページ.pdf
-    revision: 49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f
-    sha256: 49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f
-    size: 5241507
-    confirmation: verified
-    relation: rendered-from
-    storage: canonical
-    built_from:
-      - id: access-revision-record
-        revision: 51880dcd886a6939ff3ec6553e056cb340ca78fdf14777e019011bc27c32414e
-      - id: access-map-generated-base
-        revision: ec0b27a2bf44ccc7f6100eaf0399dcd6dd396168e022484e7aab10067b29f02f
-      - id: access-map-labels
-        revision: 28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f
-    input_provenance: verified
-    external_inputs: *a18
-    external_input_globs:
-      - pattern: company-data/{facts,brand,copy,photos}/**/*
-        sha256: 7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4
-      - pattern: shared/{components,layouts,generated-assets}/**/*
-        sha256: ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0
-      - pattern: books/prospectus-isen-trial-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}
-        sha256: 8c397ffeb6dbb1f8682a1f0748ef7b29ba55f63dcd931c56631c92aaebba1654
-      - pattern: system/design-engine/src/**/*
-        sha256: 68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f
-      - pattern: system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}
-        sha256: ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478
-      - pattern: package{,-lock}.json
-        sha256: dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4
-      - pattern: books/prospectus-isen-trial-2028/parts/access-map-research/**/*
-        sha256: 5bd92501ce08b99ab14fb824effdb28f66aa4b3face77e09a2cf452237be39ee
-      - pattern: references/school-own/admissions-2027/original/**/*
-        sha256: db54a26a74c02c583ac66487b85486441fa538316fa4bb5b48cb2254aba38040
-  - id: white-16p-access-map-revised
-    variant: access-map-revised
-    role: reconstructed-preview
-    media: pdf
-    file: books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_地図連絡先改訂.pdf
-    revision: 33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56
-    sha256: 33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56
-    size: 111425684
-    confirmation: verified
-    relation: rendered-from
-    storage: canonical
-    built_from:
-      - id: white-16p-without-group-and-school-pr
-        revision: aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da
-      - id: tuition-admissions-access-pages
-        revision: 49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f
-    parent:
-      id: white-16p-tuition-admissions-revised
-      revision: 23e039f73c7489c5a91825c9b0c7087843edbf7d44edc82ba8e23fe325f59da4
-    input_provenance: unverified
-  - id: access-page-preview
-    variant: access-map-revised
-    role: preview
-    media: image
-    file: books/prospectus-isen-trial-2028/output/png/アクセス案内_改訂.png
-    revision: b748c3568eda65b3f32cc302b05f59d30a6b3f96c3828295bd7eea2442af23fa
-    sha256: b748c3568eda65b3f32cc302b05f59d30a6b3f96c3828295bd7eea2442af23fa
-    size: 1039337
-    confirmation: verified
-    relation: rendered-from
-    storage: canonical
-    built_from:
-      - id: tuition-admissions-access-pages
-        revision: 49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f
-    input_provenance: verified
-  - id: saddle-print-record
-    variant: saddle-print
-    role: support
-    media: text
-    file: books/prospectus-isen-trial-2028/parts/saddle-print-20261020.json
-    revision: 39d3e911e5c03b4532b01a1648732979b3386b41b843ad738d2aa6bb4c7f3f2b
-    sha256: 39d3e911e5c03b4532b01a1648732979b3386b41b843ad738d2aa6bb4c7f3f2b
-    size: 2779
-    confirmation: verified
-    relation: authored
-    storage: canonical
-    built_from: []
-    external_inputs:
-      - path: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/build.py
-        sha256: c7f326c701cdf3159e009e2eea8398fd651d44b806738152e6200913a1dbfba1
-      - path: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/spec.json
-        sha256: d8e866696089414471dff8f19b7419d5647ba5aac0cd3995898eecd3a1c31323
-      - path: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/印刷方法.md
-        sha256: 445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b
-      - path: system/scripts/impose-booklet.py
-        sha256: 2c67d4aaf4b3c25a1df383e7660af9cd323ede37f3102e827d7a805244a38186
-  - id: saddle-print-a3
-    variant: saddle-print-a3
-    role: reconstructed-preview
-    media: pdf
-    file: books/prospectus-isen-trial-2028/output/imposed/パンフレット_16P_A3両面中綴じ_A4仕上がり.pdf
-    revision: 8115f881a1c3a3080ebe52c254ed9f8173d0d6ad2a67c38094b9c2790a722b45
-    sha256: 8115f881a1c3a3080ebe52c254ed9f8173d0d6ad2a67c38094b9c2790a722b45
-    size: 111456219
-    confirmation: verified
-    relation: rendered-from
-    storage: canonical
-    input_provenance: unverified
-    built_from:
-      - id: white-16p-access-map-revised
-        revision: 33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56
-      - id: saddle-print-record
-        revision: 39d3e911e5c03b4532b01a1648732979b3386b41b843ad738d2aa6bb4c7f3f2b
-  - id: saddle-print-a4
-    variant: saddle-print-a4
-    role: reconstructed-preview
-    media: pdf
-    file: books/prospectus-isen-trial-2028/output/imposed/パンフレット_16P_A4両面中綴じ_A5仕上がり.pdf
-    revision: bbc0ea8f1eaaa16f0b86c7845daec9092086d7c3a2637c124a6063b4019b7df5
-    sha256: bbc0ea8f1eaaa16f0b86c7845daec9092086d7c3a2637c124a6063b4019b7df5
-    size: 111456795
-    confirmation: verified
-    relation: rendered-from
-    storage: canonical
-    input_provenance: unverified
-    built_from:
-      - id: white-16p-access-map-revised
-        revision: 33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56
-      - id: saddle-print-record
-        revision: 39d3e911e5c03b4532b01a1648732979b3386b41b843ad738d2aa6bb4c7f3f2b
-  - id: saddle-print-builder
-    variant: saddle-print
-    role: support
-    media: text
-    file: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/build.py
-    revision: c7f326c701cdf3159e009e2eea8398fd651d44b806738152e6200913a1dbfba1
-    sha256: c7f326c701cdf3159e009e2eea8398fd651d44b806738152e6200913a1dbfba1
-    size: 5833
-    confirmation: verified
-    relation: authored
-    storage: canonical
-    built_from: []
-  - id: saddle-print-spec
-    variant: saddle-print
-    role: support
-    media: text
-    file: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/spec.json
-    revision: d8e866696089414471dff8f19b7419d5647ba5aac0cd3995898eecd3a1c31323
-    sha256: d8e866696089414471dff8f19b7419d5647ba5aac0cd3995898eecd3a1c31323
-    size: 924
-    confirmation: verified
-    relation: authored
-    storage: canonical
-    built_from: []
-  - id: saddle-print-instructions
-    variant: saddle-print
-    role: support
-    media: text
-    file: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/印刷方法.md
-    revision: 445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b
-    sha256: 445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b
-    size: 1598
-    confirmation: verified
-    relation: authored
-    storage: canonical
-    built_from: []
-  - id: saddle-print-light-record
-    variant: saddle-print-light
-    role: support
-    media: text
-    file: books/prospectus-isen-trial-2028/parts/saddle-print-light-20261020.json
-    revision: f3d0c66cef9c90819f9926e0ee74b336c5f3e516d0e041ff11be9162a1f8bfaf
-    sha256: f3d0c66cef9c90819f9926e0ee74b336c5f3e516d0e041ff11be9162a1f8bfaf
-    size: 2984
-    confirmation: verified
-    relation: authored
-    storage: canonical
-    built_from: []
-    external_inputs:
-      - path: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/optimize.py
-        sha256: 4a17a91167566312decc7e757a449760616431d8365dad59fa40075767400265
-  - id: saddle-print-light-a3
-    variant: saddle-print-light-a3
-    role: reconstructed-preview
-    media: pdf
-    file: books/prospectus-isen-trial-2028/output/imposed/print-brochure-A3.pdf
-    revision: 6c6f07b20e56426202170bb43e2ec9559c7389f213747682b8353fdecd93b411
-    sha256: 6c6f07b20e56426202170bb43e2ec9559c7389f213747682b8353fdecd93b411
-    size: 4181969
-    confirmation: verified
-    relation: rendered-from
-    storage: canonical
-    input_provenance: unverified
-    built_from:
-      - id: saddle-print-a3
-        revision: 8115f881a1c3a3080ebe52c254ed9f8173d0d6ad2a67c38094b9c2790a722b45
-      - id: saddle-print-light-record
-        revision: f3d0c66cef9c90819f9926e0ee74b336c5f3e516d0e041ff11be9162a1f8bfaf
-  - id: saddle-print-light-a4
-    variant: saddle-print-light-a4
-    role: reconstructed-preview
-    media: pdf
-    file: books/prospectus-isen-trial-2028/output/imposed/print-brochure-A4.pdf
-    revision: 9e60fa41c697dfadbb4913f947d1fbf7c12ef2c3017670e381c46fb40f541b8e
-    sha256: 9e60fa41c697dfadbb4913f947d1fbf7c12ef2c3017670e381c46fb40f541b8e
-    size: 2856747
-    confirmation: verified
-    relation: rendered-from
-    storage: canonical
-    input_provenance: unverified
-    built_from:
-      - id: saddle-print-a4
-        revision: bbc0ea8f1eaaa16f0b86c7845daec9092086d7c3a2637c124a6063b4019b7df5
-      - id: saddle-print-light-record
-        revision: f3d0c66cef9c90819f9926e0ee74b336c5f3e516d0e041ff11be9162a1f8bfaf
-  - id: saddle-print-optimizer
-    variant: saddle-print-light
-    role: support
-    media: text
-    file: books/prospectus-isen-trial-2028/parts/print-booklets-20261020/optimize.py
-    revision: 4a17a91167566312decc7e757a449760616431d8365dad59fa40075767400265
-    sha256: 4a17a91167566312decc7e757a449760616431d8365dad59fa40075767400265
-    size: 5490
-    confirmation: verified
-    relation: authored
-    storage: canonical
-    built_from: []
+{
+  "schema_version": 1,
+  "document": "prospectus-isen-trial-2028",
+  "current": {
+    "approved-original": "1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37",
+    "preview-page-001": "a843ad620b2982c3da72139096bf5fbe023e4e527e4655ef16dd2832711b4365",
+    "student-img-5076": "0ca846c9aeca9c56b254c7abf1a66efe99bd126f4dfcc91d5b1d296a6feca26c",
+    "page-selection-18p": "be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392",
+    "white-18p-without-group-pages": "c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4",
+    "page-selection-16p": "2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e",
+    "white-16p-without-group-and-school-pr": "aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da",
+    "access-gsi-reference": "9ce300e50a1e18c0c3c6f7c7cc1df1c369cbda72e137e79a5c06023653456e3f",
+    "access-gsi-school-marked": "b324be7a579bc4897c180d455af9b8194462dbe3b06a9c2c725183d189933ad9",
+    "access-gsi-tile-sources": "78bb1e49fef8011fd7b310dd00fb694ece9b1b16b3fe671a52fce8950d476bf1",
+    "access-address-source": "bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83",
+    "access-map-generation-prompt": "6bc9b92506f3e02cc0d3192c258bc1dfa677c34f45bd6fa1c3a24493813f5c97",
+    "access-map-generated-base": "ec0b27a2bf44ccc7f6100eaf0399dcd6dd396168e022484e7aab10067b29f02f",
+    "access-map-labels": "28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f",
+    "access-map-standalone-layout": "98ca5a5dd1aadc1a2754e15fee12acb577701da648d9fad816afb14e1fb93ea7",
+    "access-map-labeled": "e8adada6a16b39122df9e22c8cbf8dbabeda7a7eb7a5cc554847e1ae94cc03a8",
+    "access-revision-record": "51880dcd886a6939ff3ec6553e056cb340ca78fdf14777e019011bc27c32414e",
+    "tuition-admissions-access-pages": "49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f",
+    "white-16p-access-map-revised": "33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56",
+    "access-page-preview": "b748c3568eda65b3f32cc302b05f59d30a6b3f96c3828295bd7eea2442af23fa",
+    "saddle-print-record": "39d3e911e5c03b4532b01a1648732979b3386b41b843ad738d2aa6bb4c7f3f2b",
+    "saddle-print-a3": "8115f881a1c3a3080ebe52c254ed9f8173d0d6ad2a67c38094b9c2790a722b45",
+    "saddle-print-a4": "bbc0ea8f1eaaa16f0b86c7845daec9092086d7c3a2637c124a6063b4019b7df5",
+    "saddle-print-builder": "c7f326c701cdf3159e009e2eea8398fd651d44b806738152e6200913a1dbfba1",
+    "saddle-print-spec": "d8e866696089414471dff8f19b7419d5647ba5aac0cd3995898eecd3a1c31323",
+    "saddle-print-instructions": "445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b",
+    "saddle-print-light-record": "f3d0c66cef9c90819f9926e0ee74b336c5f3e516d0e041ff11be9162a1f8bfaf",
+    "saddle-print-light-a3": "6c6f07b20e56426202170bb43e2ec9559c7389f213747682b8353fdecd93b411",
+    "saddle-print-light-a4": "9e60fa41c697dfadbb4913f947d1fbf7c12ef2c3017670e381c46fb40f541b8e",
+    "saddle-print-optimizer": "4a17a91167566312decc7e757a449760616431d8365dad59fa40075767400265",
+    "access-map-v2-prompt": "3b14a09ce0eb340456631a0de748dcf82d92e8d59aa1422118cd32c3f8c62a10",
+    "access-map-v2-builder": "8072b711d0782d09b7eb010803bc7f26c16506061a092584af443f96bfec95da",
+    "access-map-v2-base": "4909b521b3cac4c7c57dda866db9b573abb99339d8352f6db7a706628891d194",
+    "access-map-v2-labels": "50bd6468c51a90548ad6f082cefa0d22c6bf46388617c3ab0efb06b202384797",
+    "access-map-v2-composite": "d0c6280dea15b5b65eefc97f35c973bd1166fb689a4c85aad3fa7490e5ca327e",
+    "access-map-v2-review": "4ea5fb7ec5ad8e7aa500f9d4126fb6de6693e1fbda84fc1af8bb7196c5455a2b"
+  },
+  "assets": [
+    {
+      "id": "approved-original",
+      "variant": "standard-render",
+      "role": "original",
+      "media": "pdf",
+      "revision": "1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37",
+      "file": "output/pdf/AIビジネス専門学校_学校案内_2028_白版_20P.pdf",
+      "sha256": "1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37",
+      "size": 186422025,
+      "relation": "root",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/prospectus-isen-trial-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "8c397ffeb6dbb1f8682a1f0748ef7b29ba55f63dcd931c56631c92aaebba1654"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "student-img-5076",
+          "revision": "0ca846c9aeca9c56b254c7abf1a66efe99bd126f4dfcc91d5b1d296a6feca26c"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-001",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "a843ad620b2982c3da72139096bf5fbe023e4e527e4655ef16dd2832711b4365",
+      "file": "books/prospectus-isen-trial-2028/output/png/page_001.png",
+      "sha256": "a843ad620b2982c3da72139096bf5fbe023e4e527e4655ef16dd2832711b4365",
+      "size": 2495476,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37"
+        }
+      ]
+    },
+    {
+      "id": "student-img-5076",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "0ca846c9aeca9c56b254c7abf1a66efe99bd126f4dfcc91d5b1d296a6feca26c",
+      "photo_ref": "student-img-5076",
+      "sha256": "0ca846c9aeca9c56b254c7abf1a66efe99bd126f4dfcc91d5b1d296a6feca26c",
+      "size": 2721440,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "page-selection-18p",
+      "variant": "without-group-pages",
+      "role": "support",
+      "media": "text",
+      "revision": "be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392",
+      "file": "books/prospectus-isen-trial-2028/parts/page-selection-18p.json",
+      "sha256": "be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392",
+      "size": 1047,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "white-18p-without-group-pages",
+      "variant": "without-group-pages",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4",
+      "file": "books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_18P.pdf",
+      "sha256": "c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4",
+      "size": 165093256,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37"
+        },
+        {
+          "id": "page-selection-18p",
+          "revision": "be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392"
+        }
+      ]
+    },
+    {
+      "id": "page-selection-16p",
+      "variant": "without-group-and-school-pr",
+      "role": "support",
+      "media": "text",
+      "revision": "2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e",
+      "file": "books/prospectus-isen-trial-2028/parts/page-selection-16p.json",
+      "sha256": "2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e",
+      "size": 1217,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "white-16p-without-group-and-school-pr",
+      "variant": "without-group-and-school-pr",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da",
+      "file": "books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P.pdf",
+      "sha256": "aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da",
+      "size": 142901838,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "white-18p-without-group-pages",
+          "revision": "c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4"
+        },
+        {
+          "id": "page-selection-16p",
+          "revision": "2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e"
+        }
+      ]
+    },
+    {
+      "id": "tuition-revision-record",
+      "variant": "tuition-revised",
+      "role": "support",
+      "media": "text",
+      "revision": "e2c3aa2b54a2d7750f564825745976f96dcb29699bc0b14ea0760da6ab186f55",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-revision-20261019.json",
+      "sha256": "e2c3aa2b54a2d7750f564825745976f96dcb29699bc0b14ea0760da6ab186f55",
+      "size": 3813,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "retired": true,
+      "external_inputs": [
+        {
+          "path": "company-data/ledger.md",
+          "sha256": "19b325cd30ad92525d1d9f0b137c9fd616d34ee0e25ccdba6653d9969ca8e8af"
+        },
+        {
+          "path": "company-data/facts/admissions.yaml",
+          "sha256": "197459aeb33f5cf73e51df886dcc7fb34c974b2e3ac2f75d0b4d292301cdc07d"
+        },
+        {
+          "path": "company-data/facts/booklet.yaml",
+          "sha256": "f999160600a5655dd4138aca2d9742312aaa0288b818d65bdc2508c054e70f1b"
+        },
+        {
+          "path": "company-data/facts/contacts.yaml",
+          "sha256": "32eed36ea96afae4d7718fa5a54ce4b7de7dab9d76895a434f23a0da40a77532"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/config/book.yaml",
+          "sha256": "16757a39aeafde1a3a03b9d986c84b08dcba005e08dfb8b2c019cd2a8ec1a555"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/layout.css",
+          "sha256": "6095da9816131d88cab832e57d0ce95d7a208877f8bd6b138abdcddd41522dbe"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_001/page.html",
+          "sha256": "8cc51e7163e327d7636505dc1c725fe9d70d9d2f9b0a41ebdb4bfc0ce1403623"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_001/page.css",
+          "sha256": "a0c1434d3c5f4e89d8d1e1210ee8746434abeb34e8405629d01a81d08b0088a3"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_002/page.html",
+          "sha256": "479c23aa89fa0b7ee9a6f3f99e684acd1988af1e4077193e59986ea58cad1b96"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_002/page.css",
+          "sha256": "915793d19a5f13b13c10a8048baa11fe29fbf3c8f19f97f8e0cbfe4a906ede03"
+        }
+      ],
+      "external_input_globs": [
+        {
+          "pattern": "references/school-own/admissions-2027/original/募集要項2027.docx",
+          "sha256": "422dadd7eefa688b9ddf27a0c88488b5892aeb44954b7619ba2f0f74c10e5fe9"
+        }
+      ],
+      "built_from": []
+    },
+    {
+      "id": "tuition-revised-pages",
+      "variant": "tuition-revised",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "8b95968b5550aee818a81765d191507b1750c109ed6ca8c0aa91353bf3d6316f",
+      "file": "books/prospectus-isen-trial-2028/output/pdf/学費案内_改訂2ページ.pdf",
+      "sha256": "8b95968b5550aee818a81765d191507b1750c109ed6ca8c0aa91353bf3d6316f",
+      "size": 2945840,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [
+        {
+          "path": "company-data/ledger.md",
+          "sha256": "19b325cd30ad92525d1d9f0b137c9fd616d34ee0e25ccdba6653d9969ca8e8af"
+        },
+        {
+          "path": "company-data/facts/admissions.yaml",
+          "sha256": "197459aeb33f5cf73e51df886dcc7fb34c974b2e3ac2f75d0b4d292301cdc07d"
+        },
+        {
+          "path": "company-data/facts/booklet.yaml",
+          "sha256": "f999160600a5655dd4138aca2d9742312aaa0288b818d65bdc2508c054e70f1b"
+        },
+        {
+          "path": "company-data/facts/contacts.yaml",
+          "sha256": "32eed36ea96afae4d7718fa5a54ce4b7de7dab9d76895a434f23a0da40a77532"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/config/book.yaml",
+          "sha256": "16757a39aeafde1a3a03b9d986c84b08dcba005e08dfb8b2c019cd2a8ec1a555"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/layout.css",
+          "sha256": "6095da9816131d88cab832e57d0ce95d7a208877f8bd6b138abdcddd41522dbe"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_001/page.html",
+          "sha256": "8cc51e7163e327d7636505dc1c725fe9d70d9d2f9b0a41ebdb4bfc0ce1403623"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_001/page.css",
+          "sha256": "a0c1434d3c5f4e89d8d1e1210ee8746434abeb34e8405629d01a81d08b0088a3"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_002/page.html",
+          "sha256": "479c23aa89fa0b7ee9a6f3f99e684acd1988af1e4077193e59986ea58cad1b96"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_002/page.css",
+          "sha256": "915793d19a5f13b13c10a8048baa11fe29fbf3c8f19f97f8e0cbfe4a906ede03"
+        }
+      ],
+      "external_input_globs": [
+        {
+          "pattern": "references/school-own/admissions-2027/original/募集要項2027.docx",
+          "sha256": "422dadd7eefa688b9ddf27a0c88488b5892aeb44954b7619ba2f0f74c10e5fe9"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "tuition-revision-record",
+          "revision": "e2c3aa2b54a2d7750f564825745976f96dcb29699bc0b14ea0760da6ab186f55"
+        }
+      ]
+    },
+    {
+      "id": "white-16p-tuition-revised",
+      "variant": "tuition-revised",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "190466dc9e044309cc87783025091e7db4bd42f9dcdc1c4c807261918e0aa317",
+      "file": "books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_学費改訂.pdf",
+      "sha256": "190466dc9e044309cc87783025091e7db4bd42f9dcdc1c4c807261918e0aa317",
+      "size": 129401996,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "white-16p-without-group-and-school-pr",
+          "revision": "aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da"
+        },
+        {
+          "id": "tuition-revised-pages",
+          "revision": "8b95968b5550aee818a81765d191507b1750c109ed6ca8c0aa91353bf3d6316f"
+        }
+      ]
+    },
+    {
+      "id": "admissions-revision-record",
+      "variant": "tuition-admissions-revised",
+      "role": "support",
+      "media": "text",
+      "revision": "153372c2dff6fdc147b0102817f5354df5f314c35b894fa517a304f3846fbba2",
+      "file": "books/prospectus-isen-trial-2028/parts/admissions-revision-20261019.json",
+      "sha256": "153372c2dff6fdc147b0102817f5354df5f314c35b894fa517a304f3846fbba2",
+      "size": 5221,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "retired": true,
+      "external_inputs": [
+        {
+          "path": "company-data/ledger.md",
+          "sha256": "19b325cd30ad92525d1d9f0b137c9fd616d34ee0e25ccdba6653d9969ca8e8af"
+        },
+        {
+          "path": "company-data/facts/admissions.yaml",
+          "sha256": "197459aeb33f5cf73e51df886dcc7fb34c974b2e3ac2f75d0b4d292301cdc07d"
+        },
+        {
+          "path": "company-data/facts/booklet.yaml",
+          "sha256": "f999160600a5655dd4138aca2d9742312aaa0288b818d65bdc2508c054e70f1b"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/config/book.yaml",
+          "sha256": "3bc661e3f0c5a125cb73611e1f21ac595113dd9ef33b7f368ba60aa06fecc710"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/layout.css",
+          "sha256": "6095da9816131d88cab832e57d0ce95d7a208877f8bd6b138abdcddd41522dbe"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_001/page.html",
+          "sha256": "8cc51e7163e327d7636505dc1c725fe9d70d9d2f9b0a41ebdb4bfc0ce1403623"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_001/page.css",
+          "sha256": "a0c1434d3c5f4e89d8d1e1210ee8746434abeb34e8405629d01a81d08b0088a3"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_002/page.html",
+          "sha256": "479c23aa89fa0b7ee9a6f3f99e684acd1988af1e4077193e59986ea58cad1b96"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_002/page.css",
+          "sha256": "915793d19a5f13b13c10a8048baa11fe29fbf3c8f19f97f8e0cbfe4a906ede03"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_003/page.html",
+          "sha256": "381269367b83a1ce39ea07e9d85cc6d2d0433bb0479811ed22aa1ed9e64241b8"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_003/page.css",
+          "sha256": "b87c64fe317c648817a75f79bb00f38268ae4eb4f49653f9c457addd60ae4d4d"
+        }
+      ],
+      "built_from": []
+    },
+    {
+      "id": "tuition-admissions-revised-pages",
+      "variant": "tuition-admissions-revised",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "27ca30661d467f65ab084924b3d0e7269d223c2cad5e45635515dd24ef77f5d5",
+      "file": "books/prospectus-isen-trial-2028/output/pdf/学費入試案内_改訂3ページ.pdf",
+      "sha256": "27ca30661d467f65ab084924b3d0e7269d223c2cad5e45635515dd24ef77f5d5",
+      "size": 3062184,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "retired": true,
+      "external_inputs": [
+        {
+          "path": "company-data/ledger.md",
+          "sha256": "19b325cd30ad92525d1d9f0b137c9fd616d34ee0e25ccdba6653d9969ca8e8af"
+        },
+        {
+          "path": "company-data/facts/admissions.yaml",
+          "sha256": "197459aeb33f5cf73e51df886dcc7fb34c974b2e3ac2f75d0b4d292301cdc07d"
+        },
+        {
+          "path": "company-data/facts/booklet.yaml",
+          "sha256": "f999160600a5655dd4138aca2d9742312aaa0288b818d65bdc2508c054e70f1b"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/config/book.yaml",
+          "sha256": "3bc661e3f0c5a125cb73611e1f21ac595113dd9ef33b7f368ba60aa06fecc710"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/layout.css",
+          "sha256": "6095da9816131d88cab832e57d0ce95d7a208877f8bd6b138abdcddd41522dbe"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_001/page.html",
+          "sha256": "8cc51e7163e327d7636505dc1c725fe9d70d9d2f9b0a41ebdb4bfc0ce1403623"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_001/page.css",
+          "sha256": "a0c1434d3c5f4e89d8d1e1210ee8746434abeb34e8405629d01a81d08b0088a3"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_002/page.html",
+          "sha256": "479c23aa89fa0b7ee9a6f3f99e684acd1988af1e4077193e59986ea58cad1b96"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_002/page.css",
+          "sha256": "915793d19a5f13b13c10a8048baa11fe29fbf3c8f19f97f8e0cbfe4a906ede03"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_003/page.html",
+          "sha256": "381269367b83a1ce39ea07e9d85cc6d2d0433bb0479811ed22aa1ed9e64241b8"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/pages/page_003/page.css",
+          "sha256": "b87c64fe317c648817a75f79bb00f38268ae4eb4f49653f9c457addd60ae4d4d"
+        }
+      ],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/prospectus-isen-trial-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "8c397ffeb6dbb1f8682a1f0748ef7b29ba55f63dcd931c56631c92aaebba1654"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        },
+        {
+          "pattern": "references/school-own/admissions-2027/original/募集要項2027.docx",
+          "sha256": "422dadd7eefa688b9ddf27a0c88488b5892aeb44954b7619ba2f0f74c10e5fe9"
+        },
+        {
+          "pattern": "references/school-own/admissions-2027/original/AO入試エントリーシート.pdf",
+          "sha256": "20eadb79e4c19a0109c0ecfcabd008a4abe29815c593bad85e273bdfdced8ade"
+        },
+        {
+          "pattern": "references/school-own/admissions-2027/original/推薦書.pdf",
+          "sha256": "e90a607c3fc92ebdfad3c2a60e78e56b0041846598d43bf5cd839442b35a0ead"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/output/pdf/admissions-guide-2027_参照保存_f2364cce.pdf",
+          "sha256": "02a74036260022b4ed46671d7b34c13b23ae9cf0afe6b0c9c801e35957a640c8"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "admissions-revision-record",
+          "revision": "153372c2dff6fdc147b0102817f5354df5f314c35b894fa517a304f3846fbba2"
+        }
+      ]
+    },
+    {
+      "id": "white-16p-tuition-admissions-revised",
+      "variant": "tuition-admissions-revised",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "23e039f73c7489c5a91825c9b0c7087843edbf7d44edc82ba8e23fe325f59da4",
+      "file": "books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_学費入試改訂.pdf",
+      "sha256": "23e039f73c7489c5a91825c9b0c7087843edbf7d44edc82ba8e23fe325f59da4",
+      "size": 121129772,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "white-16p-without-group-and-school-pr",
+          "revision": "aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da"
+        },
+        {
+          "id": "tuition-admissions-revised-pages",
+          "revision": "27ca30661d467f65ab084924b3d0e7269d223c2cad5e45635515dd24ef77f5d5"
+        }
+      ]
+    },
+    {
+      "id": "access-gsi-reference",
+      "variant": "access-map-revised",
+      "role": "support",
+      "media": "image",
+      "revision": "9ce300e50a1e18c0c3c6f7c7cc1df1c369cbda72e137e79a5c06023653456e3f",
+      "file": "books/prospectus-isen-trial-2028/parts/access-map-research/gsi-reference-map.png",
+      "sha256": "9ce300e50a1e18c0c3c6f7c7cc1df1c369cbda72e137e79a5c06023653456e3f",
+      "size": 1069689,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "access-gsi-school-marked",
+      "variant": "access-map-revised",
+      "role": "support",
+      "media": "image",
+      "revision": "b324be7a579bc4897c180d455af9b8194462dbe3b06a9c2c725183d189933ad9",
+      "file": "books/prospectus-isen-trial-2028/parts/access-map-research/reference-school-marked.png",
+      "sha256": "b324be7a579bc4897c180d455af9b8194462dbe3b06a9c2c725183d189933ad9",
+      "size": 1639880,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-gsi-reference",
+          "revision": "9ce300e50a1e18c0c3c6f7c7cc1df1c369cbda72e137e79a5c06023653456e3f"
+        }
+      ]
+    },
+    {
+      "id": "access-gsi-tile-sources",
+      "variant": "access-map-revised",
+      "role": "support",
+      "media": "text",
+      "revision": "78bb1e49fef8011fd7b310dd00fb694ece9b1b16b3fe671a52fce8950d476bf1",
+      "file": "books/prospectus-isen-trial-2028/parts/access-map-research/tiles-source.json",
+      "sha256": "78bb1e49fef8011fd7b310dd00fb694ece9b1b16b3fe671a52fce8950d476bf1",
+      "size": 4866,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "access-address-source",
+      "variant": "access-map-revised",
+      "role": "support",
+      "media": "text",
+      "revision": "bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83",
+      "file": "books/prospectus-isen-trial-2028/parts/access-map-research/address-source-20261020.json",
+      "sha256": "bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83",
+      "size": 839,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "access-map-generation-prompt",
+      "variant": "access-map-revised",
+      "role": "support",
+      "media": "text",
+      "revision": "6bc9b92506f3e02cc0d3192c258bc1dfa677c34f45bd6fa1c3a24493813f5c97",
+      "file": "books/prospectus-isen-trial-2028/backgrounds/access-map-base.prompt.yaml",
+      "sha256": "6bc9b92506f3e02cc0d3192c258bc1dfa677c34f45bd6fa1c3a24493813f5c97",
+      "size": 3224,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "access-map-generated-base",
+      "variant": "access-map-revised",
+      "role": "support",
+      "media": "image",
+      "revision": "ec0b27a2bf44ccc7f6100eaf0399dcd6dd396168e022484e7aab10067b29f02f",
+      "file": "books/prospectus-isen-trial-2028/backgrounds/access-map-base.png",
+      "sha256": "ec0b27a2bf44ccc7f6100eaf0399dcd6dd396168e022484e7aab10067b29f02f",
+      "size": 1989599,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-gsi-reference",
+          "revision": "9ce300e50a1e18c0c3c6f7c7cc1df1c369cbda72e137e79a5c06023653456e3f"
+        },
+        {
+          "id": "access-gsi-school-marked",
+          "revision": "b324be7a579bc4897c180d455af9b8194462dbe3b06a9c2c725183d189933ad9"
+        },
+        {
+          "id": "access-map-generation-prompt",
+          "revision": "6bc9b92506f3e02cc0d3192c258bc1dfa677c34f45bd6fa1c3a24493813f5c97"
+        },
+        {
+          "id": "access-address-source",
+          "revision": "bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83"
+        }
+      ]
+    },
+    {
+      "id": "access-map-labels",
+      "variant": "access-map-revised",
+      "role": "support",
+      "media": "image",
+      "revision": "28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f",
+      "file": "books/prospectus-isen-trial-2028/parts/access-map-research/map-labels.svg",
+      "sha256": "28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f",
+      "size": 1354,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-address-source",
+          "revision": "bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83"
+        }
+      ]
+    },
+    {
+      "id": "access-map-standalone-layout",
+      "variant": "access-map-revised",
+      "role": "support",
+      "media": "text",
+      "revision": "98ca5a5dd1aadc1a2754e15fee12acb577701da648d9fad816afb14e1fb93ea7",
+      "file": "books/prospectus-isen-trial-2028/parts/access-map-research/map-preview.html",
+      "sha256": "98ca5a5dd1aadc1a2754e15fee12acb577701da648d9fad816afb14e1fb93ea7",
+      "size": 461,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-map-labels",
+          "revision": "28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f"
+        }
+      ]
+    },
+    {
+      "id": "access-map-labeled",
+      "variant": "access-map-revised",
+      "role": "support",
+      "media": "image",
+      "revision": "e8adada6a16b39122df9e22c8cbf8dbabeda7a7eb7a5cc554847e1ae94cc03a8",
+      "file": "books/prospectus-isen-trial-2028/backgrounds/access-map-labeled.png",
+      "sha256": "e8adada6a16b39122df9e22c8cbf8dbabeda7a7eb7a5cc554847e1ae94cc03a8",
+      "size": 1553340,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-map-generated-base",
+          "revision": "ec0b27a2bf44ccc7f6100eaf0399dcd6dd396168e022484e7aab10067b29f02f"
+        },
+        {
+          "id": "access-map-labels",
+          "revision": "28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f"
+        },
+        {
+          "id": "access-map-standalone-layout",
+          "revision": "98ca5a5dd1aadc1a2754e15fee12acb577701da648d9fad816afb14e1fb93ea7"
+        }
+      ]
+    },
+    {
+      "id": "access-revision-record",
+      "variant": "access-map-revised",
+      "role": "support",
+      "media": "text",
+      "revision": "51880dcd886a6939ff3ec6553e056cb340ca78fdf14777e019011bc27c32414e",
+      "file": "books/prospectus-isen-trial-2028/parts/access-revision-20261020.json",
+      "sha256": "51880dcd886a6939ff3ec6553e056cb340ca78fdf14777e019011bc27c32414e",
+      "size": 2221,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [
+        {
+          "path": "company-data/ledger.md",
+          "sha256": "19b325cd30ad92525d1d9f0b137c9fd616d34ee0e25ccdba6653d9969ca8e8af"
+        },
+        {
+          "path": "company-data/facts/school.yaml",
+          "sha256": "1542374cce1534bf98a6d260e3e2542a6857d48da768c0415c71a363d8e043c2"
+        },
+        {
+          "path": "company-data/facts/admissions.yaml",
+          "sha256": "197459aeb33f5cf73e51df886dcc7fb34c974b2e3ac2f75d0b4d292301cdc07d"
+        },
+        {
+          "path": "company-data/facts/booklet.yaml",
+          "sha256": "f999160600a5655dd4138aca2d9742312aaa0288b818d65bdc2508c054e70f1b"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "access-address-source",
+          "revision": "bbebb15184f888ed9ad7757781df28fc58bc8290f19f4d956d202c22d7f9ef83"
+        },
+        {
+          "id": "access-gsi-tile-sources",
+          "revision": "78bb1e49fef8011fd7b310dd00fb694ece9b1b16b3fe671a52fce8950d476bf1"
+        }
+      ]
+    },
+    {
+      "id": "tuition-admissions-access-pages",
+      "variant": "access-map-revised",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f",
+      "file": "books/prospectus-isen-trial-2028/output/pdf/学費入試アクセス_改訂4ページ.pdf",
+      "sha256": "49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f",
+      "size": 5241507,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [
+        {
+          "path": "company-data/ledger.md",
+          "sha256": "19b325cd30ad92525d1d9f0b137c9fd616d34ee0e25ccdba6653d9969ca8e8af"
+        },
+        {
+          "path": "company-data/facts/school.yaml",
+          "sha256": "1542374cce1534bf98a6d260e3e2542a6857d48da768c0415c71a363d8e043c2"
+        },
+        {
+          "path": "company-data/facts/admissions.yaml",
+          "sha256": "197459aeb33f5cf73e51df886dcc7fb34c974b2e3ac2f75d0b4d292301cdc07d"
+        },
+        {
+          "path": "company-data/facts/booklet.yaml",
+          "sha256": "f999160600a5655dd4138aca2d9742312aaa0288b818d65bdc2508c054e70f1b"
+        }
+      ],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/prospectus-isen-trial-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "8c397ffeb6dbb1f8682a1f0748ef7b29ba55f63dcd931c56631c92aaebba1654"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        },
+        {
+          "pattern": "books/prospectus-isen-trial-2028/parts/access-map-research/**/*",
+          "sha256": "5bd92501ce08b99ab14fb824effdb28f66aa4b3face77e09a2cf452237be39ee"
+        },
+        {
+          "pattern": "references/school-own/admissions-2027/original/**/*",
+          "sha256": "db54a26a74c02c583ac66487b85486441fa538316fa4bb5b48cb2254aba38040"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "access-revision-record",
+          "revision": "51880dcd886a6939ff3ec6553e056cb340ca78fdf14777e019011bc27c32414e"
+        },
+        {
+          "id": "access-map-generated-base",
+          "revision": "ec0b27a2bf44ccc7f6100eaf0399dcd6dd396168e022484e7aab10067b29f02f"
+        },
+        {
+          "id": "access-map-labels",
+          "revision": "28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f"
+        }
+      ]
+    },
+    {
+      "id": "white-16p-access-map-revised",
+      "variant": "access-map-revised",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56",
+      "file": "books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_地図連絡先改訂.pdf",
+      "sha256": "33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56",
+      "size": 111425684,
+      "parent": {
+        "id": "white-16p-tuition-admissions-revised",
+        "revision": "23e039f73c7489c5a91825c9b0c7087843edbf7d44edc82ba8e23fe325f59da4"
+      },
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "white-16p-without-group-and-school-pr",
+          "revision": "aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da"
+        },
+        {
+          "id": "tuition-admissions-access-pages",
+          "revision": "49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f"
+        }
+      ]
+    },
+    {
+      "id": "access-page-preview",
+      "variant": "access-map-revised",
+      "role": "preview",
+      "media": "image",
+      "revision": "b748c3568eda65b3f32cc302b05f59d30a6b3f96c3828295bd7eea2442af23fa",
+      "file": "books/prospectus-isen-trial-2028/output/png/アクセス案内_改訂.png",
+      "sha256": "b748c3568eda65b3f32cc302b05f59d30a6b3f96c3828295bd7eea2442af23fa",
+      "size": 1039337,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-admissions-access-pages",
+          "revision": "49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f"
+        }
+      ]
+    },
+    {
+      "id": "saddle-print-record",
+      "variant": "saddle-print",
+      "role": "support",
+      "media": "text",
+      "revision": "39d3e911e5c03b4532b01a1648732979b3386b41b843ad738d2aa6bb4c7f3f2b",
+      "file": "books/prospectus-isen-trial-2028/parts/saddle-print-20261020.json",
+      "sha256": "39d3e911e5c03b4532b01a1648732979b3386b41b843ad738d2aa6bb4c7f3f2b",
+      "size": 2779,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [
+        {
+          "path": "books/prospectus-isen-trial-2028/parts/print-booklets-20261020/build.py",
+          "sha256": "c7f326c701cdf3159e009e2eea8398fd651d44b806738152e6200913a1dbfba1"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/parts/print-booklets-20261020/spec.json",
+          "sha256": "d8e866696089414471dff8f19b7419d5647ba5aac0cd3995898eecd3a1c31323"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/parts/print-booklets-20261020/印刷方法.md",
+          "sha256": "445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b"
+        },
+        {
+          "path": "system/scripts/impose-booklet.py",
+          "sha256": "2c67d4aaf4b3c25a1df383e7660af9cd323ede37f3102e827d7a805244a38186"
+        }
+      ],
+      "built_from": []
+    },
+    {
+      "id": "saddle-print-a3",
+      "variant": "saddle-print-a3",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "8115f881a1c3a3080ebe52c254ed9f8173d0d6ad2a67c38094b9c2790a722b45",
+      "file": "books/prospectus-isen-trial-2028/output/imposed/パンフレット_16P_A3両面中綴じ_A4仕上がり.pdf",
+      "sha256": "8115f881a1c3a3080ebe52c254ed9f8173d0d6ad2a67c38094b9c2790a722b45",
+      "size": 111456219,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "white-16p-access-map-revised",
+          "revision": "33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56"
+        },
+        {
+          "id": "saddle-print-record",
+          "revision": "39d3e911e5c03b4532b01a1648732979b3386b41b843ad738d2aa6bb4c7f3f2b"
+        }
+      ]
+    },
+    {
+      "id": "saddle-print-a4",
+      "variant": "saddle-print-a4",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "bbc0ea8f1eaaa16f0b86c7845daec9092086d7c3a2637c124a6063b4019b7df5",
+      "file": "books/prospectus-isen-trial-2028/output/imposed/パンフレット_16P_A4両面中綴じ_A5仕上がり.pdf",
+      "sha256": "bbc0ea8f1eaaa16f0b86c7845daec9092086d7c3a2637c124a6063b4019b7df5",
+      "size": 111456795,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "white-16p-access-map-revised",
+          "revision": "33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56"
+        },
+        {
+          "id": "saddle-print-record",
+          "revision": "39d3e911e5c03b4532b01a1648732979b3386b41b843ad738d2aa6bb4c7f3f2b"
+        }
+      ]
+    },
+    {
+      "id": "saddle-print-builder",
+      "variant": "saddle-print",
+      "role": "support",
+      "media": "text",
+      "revision": "c7f326c701cdf3159e009e2eea8398fd651d44b806738152e6200913a1dbfba1",
+      "file": "books/prospectus-isen-trial-2028/parts/print-booklets-20261020/build.py",
+      "sha256": "c7f326c701cdf3159e009e2eea8398fd651d44b806738152e6200913a1dbfba1",
+      "size": 5833,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "saddle-print-spec",
+      "variant": "saddle-print",
+      "role": "support",
+      "media": "text",
+      "revision": "d8e866696089414471dff8f19b7419d5647ba5aac0cd3995898eecd3a1c31323",
+      "file": "books/prospectus-isen-trial-2028/parts/print-booklets-20261020/spec.json",
+      "sha256": "d8e866696089414471dff8f19b7419d5647ba5aac0cd3995898eecd3a1c31323",
+      "size": 924,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "saddle-print-instructions",
+      "variant": "saddle-print",
+      "role": "support",
+      "media": "text",
+      "revision": "445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b",
+      "file": "books/prospectus-isen-trial-2028/parts/print-booklets-20261020/印刷方法.md",
+      "sha256": "445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b",
+      "size": 1598,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "saddle-print-light-record",
+      "variant": "saddle-print-light",
+      "role": "support",
+      "media": "text",
+      "revision": "f3d0c66cef9c90819f9926e0ee74b336c5f3e516d0e041ff11be9162a1f8bfaf",
+      "file": "books/prospectus-isen-trial-2028/parts/saddle-print-light-20261020.json",
+      "sha256": "f3d0c66cef9c90819f9926e0ee74b336c5f3e516d0e041ff11be9162a1f8bfaf",
+      "size": 2984,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [
+        {
+          "path": "books/prospectus-isen-trial-2028/parts/print-booklets-20261020/optimize.py",
+          "sha256": "4a17a91167566312decc7e757a449760616431d8365dad59fa40075767400265"
+        }
+      ],
+      "built_from": []
+    },
+    {
+      "id": "saddle-print-light-a3",
+      "variant": "saddle-print-light-a3",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "6c6f07b20e56426202170bb43e2ec9559c7389f213747682b8353fdecd93b411",
+      "file": "books/prospectus-isen-trial-2028/output/imposed/print-brochure-A3.pdf",
+      "sha256": "6c6f07b20e56426202170bb43e2ec9559c7389f213747682b8353fdecd93b411",
+      "size": 4181969,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "saddle-print-a3",
+          "revision": "8115f881a1c3a3080ebe52c254ed9f8173d0d6ad2a67c38094b9c2790a722b45"
+        },
+        {
+          "id": "saddle-print-light-record",
+          "revision": "f3d0c66cef9c90819f9926e0ee74b336c5f3e516d0e041ff11be9162a1f8bfaf"
+        }
+      ]
+    },
+    {
+      "id": "saddle-print-light-a4",
+      "variant": "saddle-print-light-a4",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "9e60fa41c697dfadbb4913f947d1fbf7c12ef2c3017670e381c46fb40f541b8e",
+      "file": "books/prospectus-isen-trial-2028/output/imposed/print-brochure-A4.pdf",
+      "sha256": "9e60fa41c697dfadbb4913f947d1fbf7c12ef2c3017670e381c46fb40f541b8e",
+      "size": 2856747,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "saddle-print-a4",
+          "revision": "bbc0ea8f1eaaa16f0b86c7845daec9092086d7c3a2637c124a6063b4019b7df5"
+        },
+        {
+          "id": "saddle-print-light-record",
+          "revision": "f3d0c66cef9c90819f9926e0ee74b336c5f3e516d0e041ff11be9162a1f8bfaf"
+        }
+      ]
+    },
+    {
+      "id": "saddle-print-optimizer",
+      "variant": "saddle-print-light",
+      "role": "support",
+      "media": "text",
+      "revision": "4a17a91167566312decc7e757a449760616431d8365dad59fa40075767400265",
+      "file": "books/prospectus-isen-trial-2028/parts/print-booklets-20261020/optimize.py",
+      "sha256": "4a17a91167566312decc7e757a449760616431d8365dad59fa40075767400265",
+      "size": 5490,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "access-map-v2-prompt",
+      "variant": "access-map-v2",
+      "role": "support",
+      "media": "text",
+      "revision": "3b14a09ce0eb340456631a0de748dcf82d92e8d59aa1422118cd32c3f8c62a10",
+      "file": "books/prospectus-isen-trial-2028/parts/access-map-v2-prompt/3b14a09ce0eb340456631a0de748dcf82d92e8d59aa1422118cd32c3f8c62a10/access-map-v2-prompt.yaml",
+      "sha256": "3b14a09ce0eb340456631a0de748dcf82d92e8d59aa1422118cd32c3f8c62a10",
+      "size": 2977,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "access-map-v2-builder",
+      "variant": "access-map-v2",
+      "role": "support",
+      "media": "text",
+      "revision": "a5c59683f932756740b5a1bce5f780c1be22258f78408d7339eb1f7f0af91813",
+      "file": "books/prospectus-isen-trial-2028/parts/access-map-v2-builder/a5c59683f932756740b5a1bce5f780c1be22258f78408d7339eb1f7f0af91813/access-map-v2-builder.mjs",
+      "sha256": "a5c59683f932756740b5a1bce5f780c1be22258f78408d7339eb1f7f0af91813",
+      "size": 3581,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "access-map-v2-base",
+      "variant": "access-map-v2",
+      "role": "support",
+      "media": "image",
+      "revision": "4909b521b3cac4c7c57dda866db9b573abb99339d8352f6db7a706628891d194",
+      "file": "books/prospectus-isen-trial-2028/parts/access-map-v2-base/4909b521b3cac4c7c57dda866db9b573abb99339d8352f6db7a706628891d194/access-map-v2-base.png",
+      "sha256": "4909b521b3cac4c7c57dda866db9b573abb99339d8352f6db7a706628891d194",
+      "size": 1738087,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-gsi-school-marked",
+          "revision": "b324be7a579bc4897c180d455af9b8194462dbe3b06a9c2c725183d189933ad9"
+        },
+        {
+          "id": "access-map-v2-prompt",
+          "revision": "3b14a09ce0eb340456631a0de748dcf82d92e8d59aa1422118cd32c3f8c62a10"
+        }
+      ]
+    },
+    {
+      "id": "access-map-v2-labels",
+      "variant": "access-map-v2",
+      "role": "support",
+      "media": "image",
+      "revision": "b4223e580aebb012b7884dd3216a51dcc742545fb6fe3737df2e7c78ed967e73",
+      "file": "books/prospectus-isen-trial-2028/parts/access-map-v2-labels/b4223e580aebb012b7884dd3216a51dcc742545fb6fe3737df2e7c78ed967e73/access-map-v2-labels.svg",
+      "sha256": "b4223e580aebb012b7884dd3216a51dcc742545fb6fe3737df2e7c78ed967e73",
+      "size": 2053,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-map-v2-builder",
+          "revision": "a5c59683f932756740b5a1bce5f780c1be22258f78408d7339eb1f7f0af91813"
+        }
+      ]
+    },
+    {
+      "id": "access-map-v2-composite",
+      "variant": "access-map-v2",
+      "role": "support",
+      "media": "image",
+      "revision": "3f6d790bc13bd882fdd05b3fd5e6113ac3e0ec161901d660d542654793f51b45",
+      "file": "books/prospectus-isen-trial-2028/parts/access-map-v2-composite/3f6d790bc13bd882fdd05b3fd5e6113ac3e0ec161901d660d542654793f51b45/access-map-v2-composite.png",
+      "sha256": "3f6d790bc13bd882fdd05b3fd5e6113ac3e0ec161901d660d542654793f51b45",
+      "size": 1394813,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-map-v2-base",
+          "revision": "4909b521b3cac4c7c57dda866db9b573abb99339d8352f6db7a706628891d194"
+        },
+        {
+          "id": "access-map-v2-builder",
+          "revision": "a5c59683f932756740b5a1bce5f780c1be22258f78408d7339eb1f7f0af91813"
+        },
+        {
+          "id": "access-map-v2-labels",
+          "revision": "b4223e580aebb012b7884dd3216a51dcc742545fb6fe3737df2e7c78ed967e73"
+        }
+      ]
+    },
+    {
+      "id": "access-map-v2-builder",
+      "variant": "access-map-v2",
+      "role": "support",
+      "media": "text",
+      "revision": "df0de7544a1dd8b005d44182cfd0727de101b9ea1378912b27c176ca21b4bca2",
+      "file": "books/prospectus-isen-trial-2028/parts/access-map-v2-builder/df0de7544a1dd8b005d44182cfd0727de101b9ea1378912b27c176ca21b4bca2/access-map-v2-builder.mjs",
+      "sha256": "df0de7544a1dd8b005d44182cfd0727de101b9ea1378912b27c176ca21b4bca2",
+      "size": 3781,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "access-map-v2-builder",
+      "variant": "access-map-v2",
+      "role": "support",
+      "media": "text",
+      "revision": "8072b711d0782d09b7eb010803bc7f26c16506061a092584af443f96bfec95da",
+      "file": "books/prospectus-isen-trial-2028/parts/access-map-v2-builder/8072b711d0782d09b7eb010803bc7f26c16506061a092584af443f96bfec95da/access-map-v2-builder.mjs",
+      "sha256": "8072b711d0782d09b7eb010803bc7f26c16506061a092584af443f96bfec95da",
+      "size": 3796,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "access-map-v2-labels",
+      "variant": "access-map-v2",
+      "role": "support",
+      "media": "image",
+      "revision": "50bd6468c51a90548ad6f082cefa0d22c6bf46388617c3ab0efb06b202384797",
+      "file": "books/prospectus-isen-trial-2028/parts/access-map-v2-labels/50bd6468c51a90548ad6f082cefa0d22c6bf46388617c3ab0efb06b202384797/access-map-v2-labels.svg",
+      "sha256": "50bd6468c51a90548ad6f082cefa0d22c6bf46388617c3ab0efb06b202384797",
+      "size": 2068,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-map-v2-builder",
+          "revision": "8072b711d0782d09b7eb010803bc7f26c16506061a092584af443f96bfec95da"
+        }
+      ]
+    },
+    {
+      "id": "access-map-v2-composite",
+      "variant": "access-map-v2",
+      "role": "support",
+      "media": "image",
+      "revision": "d0c6280dea15b5b65eefc97f35c973bd1166fb689a4c85aad3fa7490e5ca327e",
+      "file": "books/prospectus-isen-trial-2028/parts/access-map-v2-composite/d0c6280dea15b5b65eefc97f35c973bd1166fb689a4c85aad3fa7490e5ca327e/access-map-v2-composite.png",
+      "sha256": "d0c6280dea15b5b65eefc97f35c973bd1166fb689a4c85aad3fa7490e5ca327e",
+      "size": 1397102,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-map-v2-base",
+          "revision": "4909b521b3cac4c7c57dda866db9b573abb99339d8352f6db7a706628891d194"
+        },
+        {
+          "id": "access-map-v2-labels",
+          "revision": "50bd6468c51a90548ad6f082cefa0d22c6bf46388617c3ab0efb06b202384797"
+        },
+        {
+          "id": "access-map-v2-builder",
+          "revision": "8072b711d0782d09b7eb010803bc7f26c16506061a092584af443f96bfec95da"
+        }
+      ]
+    },
+    {
+      "id": "access-map-v2-review",
+      "variant": "access-map-v2",
+      "role": "support",
+      "media": "text",
+      "revision": "4ea5fb7ec5ad8e7aa500f9d4126fb6de6693e1fbda84fc1af8bb7196c5455a2b",
+      "file": "books/prospectus-isen-trial-2028/parts/access-map-v2-review/4ea5fb7ec5ad8e7aa500f9d4126fb6de6693e1fbda84fc1af8bb7196c5455a2b/access-map-v2-review.md",
+      "sha256": "4ea5fb7ec5ad8e7aa500f9d4126fb6de6693e1fbda84fc1af8bb7196c5455a2b",
+      "size": 1330,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    }
+  ]
+}
