@@ -1,0 +1,29 @@
+.isen-admissions-page { gap:2mm; }
+.admission-heading { padding:2mm 0; }
+.admission-heading h1 { color:#24476b;font-size:23pt;font-weight:900;line-height:1.7; }
+.admission-heading p { font-size:8.5pt;line-height:1.7; }
+.isen-admissions-page section>h2 { color:#24476b;font-size:11pt;line-height:1.8;margin-bottom:1.5mm;border-left:1mm solid #24476b;padding-left:2mm; }
+.admission-types table { width:100%;border-collapse:collapse;font-size:7.6pt;line-height:1.6; }
+.admission-types thead { background:#24476b;color:white; }
+.admission-types th,.admission-types td { padding:2mm;border-bottom:.2mm solid #d5dfe9;vertical-align:top; }
+.admission-types thead th { text-align:left; }
+.admission-types tbody th { background:#f0f4f8;text-align:left;font-weight:500;width:36%; }
+.admission-types tbody th strong { display:block;font-size:10pt;color:#24476b; }
+.admission-types tbody th>span { display:block;font-size:7pt;margin-bottom:1mm; }
+.admission-types td:nth-child(2) { width:36%; }
+.admission-types td>div+div { margin-top:1mm; }
+.admission-note { font-size:7pt;line-height:1.6;margin-top:1.5mm!important;color:#536477; }
+.ao-flow { background:#eff4fa;padding:2.5mm; }
+.ao-flow p { font-size:8pt;line-height:1.7;font-weight:700;color:#24476b; }
+.ao-flow small { font-size:7pt;line-height:1.7;display:block;margin-top:1mm; }
+.eligibility-block>p { font-size:8pt;line-height:1.7; }
+.eligibility-block ul { display:grid;grid-template-columns:1fr 1fr;gap:1mm 5mm;padding-left:4mm;margin:1mm 0 0;font-size:7.5pt;line-height:1.7; }
+.documents-block ul { display:grid;grid-template-columns:1fr 1fr;gap:1mm 5mm;padding-left:4mm;margin:1mm 0 2mm;font-size:8pt;line-height:1.7; }
+.conditional { font-size:6.8pt;display:inline-block;color:#7d4213;background:#fff3e3;margin-left:1mm; }
+.documents-block>p { font-size:7pt;line-height:1.7; }
+.admission-checks { background:#fff4e7;border-left:.8mm solid #b5651d;padding:2.5mm;font-size:7pt;line-height:1.7; }
+.admission-checks p+p { margin-top:1mm; }
+.isen-admissions-page { gap:1.3mm; }
+.admission-heading { padding:1mm 0; }
+.admission-types th,.admission-types td { padding:1.3mm 2mm; }
+.isen-admissions-page section>h2 { margin-bottom:1mm; }

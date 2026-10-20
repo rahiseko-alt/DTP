@@ -28,6 +28,7 @@ const { values: v, positionals } = parseArgs({
     role: { type: "string" },
     media: { type: "string" },
     revision: { type: "string" },
+    saved: { type: "boolean" },
     source: { type: "string" },
     sha256: { type: "string" },
     confirmation: { type: "string" },
@@ -77,6 +78,7 @@ try {
       variant: v.variant,
       role: v.role as Role | undefined,
       media: v.media as "image" | "pdf" | "text" | undefined,
+      saved: v.saved,
     });
   } else if (cmd === "check") {
     result = await checkAssets(root, { metadataOnly: v["metadata-only"] });
@@ -132,7 +134,7 @@ try {
     const paths = v.paths
       ? v.paths.split(/[,\s]+/).map((s) => s.trim()).filter(Boolean)
       : undefined;
-    result = syncBaseline(root, {
+    result = await syncBaseline(root, {
       paths,
       cleanMissing: true,
       dryRun: v["dry-run"],

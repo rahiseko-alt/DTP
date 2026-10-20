@@ -1,5 +1,91 @@
 # 引継ぎ台帳
 
+## 2026-10-20 PR #61のマージ再開・地図用住所確認
+
+- GitHub APIへ接続できることを実操作で確認し、PR #61（https://github.com/rahiseko-alt/DTP/pull/61）を作成。競合なし。必須asset-integrityのテスト部分は成功、最終asset:checkが失敗。生成入力globsに含まれるロゴ・共有素材81個のLFS実体が検査環境の取得対象外だったため、取得範囲へcompany-data/**・shared/**を追加。検証基準・保護規則は緩めない。main反映完了はPRのmergedAtで確認する。
+- 地図用住所は確定台帳・school.yaml・正式募集要項DOCXの3点で一致：〒453-0014 愛知県名古屋市中村区則武1丁目30-17。国土地理院住所検索（https://msearch.gsi.go.jp/address-search/AddressSearch）でも「愛知県名古屋市中村区則武一丁目３０番１７号」を確認。基準点は緯度35.173653・経度136.874008。建物入口・道路・徒歩経路はまだ調査していない。応答記録は `.cache/access-map/address-source-20261020.json`。
+- 上記の住所確認により、以前のGitHub API・住所検索への通信403は実操作上解消。地図は未生成、学習環境ページの差替えは未完了。
+
+## 現在の再開位置：2026-10-19 Codex
+
+| 項目 | 現在の状態 |
+| --- | --- |
+| 保存先 | `fix/asset-validation-freshness-path`。統合コミット `c96e432` をoriginへpush済み |
+| mainとの関係 | origin/main `043b5ac` を作業ブランチへ取り込み済み。作業ブランチからmainへの反映は未完了 |
+| マージ承認 | 人間の「マージしろ」で承認済み。通信復旧後の再確認は不要 |
+| 募集要項 | 全24Pの統合確認版。`books/admissions-guide-2027/output/pdf/admissions-guide-2027_ふりがな料金確認_main統合版.pdf`（管理ID `fees-kana-main-merged-pdf`） |
+| 医専白版 | 全16P。`books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_学費入試改訂.pdf`。学習環境ページの差替えは未完了 |
+| 完了した修正 | 振り仮名11欄の点線削除、全40ページの料金照合、39万円を前期授業料と明記、mainの募集要項6〜8ページ改訂との統合 |
+| 検証 | 統合版全24P再描画・自己点検、金額列一致、11欄の背景なし、白紙7面確認。validateエラー0・警告122。代替Chromium154の確認用で、入稿版・独立承認済みではない |
+| main反映の阻害要因 | `api.github.com` が通信proxyのCONNECTで403。PR操作不可。mainはPR必須 |
+| 地図差替えの阻害要因 | 学校公式サイト・国土地理院への通信403。連絡先と実QRは `books/prospectus-isen-trial-2028/drafts/access/` に保全、地図は未生成・冊子未挿入 |
+| 次の作業 | 保存済み通信許可ドラフトを環境設定で保存・Publish後、PR作成/同定→mainマージ。続いて所在地を調査し、地図画像生成・アクセスページ差替え・再点検 |
+
+以下の日付別記録は各作業時点の記録。「未統合」「回答待ち」は上表を優先する。
+
+## 2026-10-19 main改訂を作業ブランチへ統合（Codex）
+
+- 人間の「マージしろ」でPR #60を含むorigin/main `043b5ac` の取り込みを承認。新しい6〜8ページとページ順を保持し、今回の振り仮名点線削除・前期授業料表記修正と統合。旧版のPDF7枚目だった学費は6枚目へ、出願書類は7枚目、8枚目は白紙。
+- 統合PDF: `books/admissions-guide-2027/output/pdf/admissions-guide-2027_ふりがな料金確認_main統合版.pdf`、管理ID `fees-kana-main-merged-pdf`、SHA `42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16`。全24P描画・親による一覧/学費ページ目視・全ページの通貨額列とmain原本の一致・11欄の点線背景なし・7白紙面の純白を確認。代替Chromium154の確認用で独立レビューなし。記録 `parts/main-merge-audit-20261019.json`。
+- 医専版の根拠だった更新前の募集要項は `_参照保存_f2364cce.pdf` として同一バイト/SHAで保全。医専版catalogの該当参照パスのみ保全先へ付け替え、医専版PDFは変更していない。旧募集要項修正版は保存版として退役、新しい統合版を窓口とする。
+- この項が前項のmain統合方針回答待ちを解消する。mainへの反映はPR・保護規則に従って実施する。地図差替えの通信設定待ちは継続。
+- 統合後の正規baseline-sync・validate成功（エラー0・警告122）、diff --check成功。共通コードは追加変更なし、前回全体テストの指定ブラウザ不足等は継続。GitHubのPR一覧REST/GraphQLとも通信proxyのCONNECTで403。`api.github.com` を既存通信許可ドラフトへ追加・保存済み（requires_publish=true）だが未適用。mainはPR必須のため直pushで回避せず、環境設定の保存・Publish後にPR作成/既存PR同定→mainマージを再開する。人間のマージ承認は取得済みで再確認不要。
+
+## 2026-10-19 募集要項の振り仮名欄・40ページ料金再照合（Codex）
+
+- branch: `fix/asset-validation-freshness-path`。募集要項24Pと医専白版16Pの全40ページを料金照合。正式原本8ファイルのSHA、台帳・facts、各期・各年・検定料込み総額の計算を確認。金額の追加不一致なし。募集要項PDF3・7枚目は390000円を「1年次・前期授業料」と明記。
+- 募集要項の記入例と提出用様式、振り仮名11欄の点線背景を削除。新PDF `books/admissions-guide-2027/output/pdf/admissions-guide-2027_ふりがな料金確認版.pdf`、管理ID `fees-kana-reviewed-pdf`。全24Pを再描画、全ページ一覧と修正前後を親が自己点検、DOMで旧点線クラス0・11欄の背景なし、金額列の前後一致、裏面6ページ純白を確認。独立レビューなし、Chromium154代替の確認用preview。記録は同BOOKの `parts/fees-and-kana-audit-20261019.json`。
+- 医専白版16PのPDFは今回変更なし。学習環境ページを地図・連絡先へ差替える依頼は未完了。連絡先・本物の公式URL QRのソースを `books/prospectus-isen-trial-2028/drafts/access/` へ保全、QRは紙面PNGから実デコード済み。地図枠は仮置きで冊子に未挿入。
+- typecheck・validate成功（エラー0・警告122）、正規baseline-sync成功、git diff --check成功。全体テストは445成功・7失敗・7skip、2suiteは起動失敗。原因は指定Chromium不足/代替版のrelease拒否と既存photo:addのタグ要件試験。doctorも指定ブラウザ不足でNG。今回の制作変更でこれらを合格とは扱わない。
+- この時点ではorigin/main `043b5ac` のPR #60改訂が未統合だった。その後、人間の承認により `c96e432` で取り込み・再描画・料金再確認・監査登録を完了。旧ページ順の版は保存版として退役し、現在の窓口は上表のmain統合版。
+- 学校公式サイトと国土地理院の調査が通信proxy403で停止。環境の通信許可ドラフトへ `kaihougakuen.my.canva.site`, `msearch.gsi.go.jp`, `cyberjapandata.gsi.go.jp`, `maps.gsi.go.jp` を追加済みだが適用待ち。適用後、住所・道路を実調査し、画像生成で地図を制作して差替え・再点検する。未調査の道路を描かない。確定台帳とfactsは変更していない。
+
+## 2026-10-19 医専白版の入試・出願方法を他資料と整合
+
+- 人間の「入試出願方法は他の資料と整合性が必要だ。調査して直せ」に対応。確定台帳、正本facts/admissions.yaml、正式募集要項DOCX、AOエントリーシート、推薦書、24ページ版募集要項PDFを照合した。
+- 最新16P版のPDF14枚目を差替え。推薦入試を補ってAO/推薦/一般の3区分へ修正、一般入試の選考を書類・面接・筆記試験（学力検査）に訂正。AO参加→エントリー→面接等→出願許可→出願を区別し、原本の願書・検定料関係・写真・学歴書類・様式2/3/4・AOエントリー・推薦書へ整合。根拠のない一律パスポート/在留資格証明/日本語テストを撤去した。
+- 日程・出願資格は2027年度日本人向け資料の参考情報として原本どおり掲載し、2028年度未確定を明示。原本の書類表欠番5・6、確認表の様式/振込控え添付先、推薦書の第一志望表記などの確認事項は補作・断定せず記載した。
+- 出力: `books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_学費入試改訂.pdf`。ID `white-16p-tuition-admissions-revised`（`asset:get --saved`）。差替え用3ページPDFは `tuition-admissions-revised-pages`、照合根拠とSHA記録は `parts/admissions-revision-20261019.json`。
+- 重要: BOOKのpage_001〜003は学費・支払・入試の差替え用3ページであり、全16ページのソースではない。16P成果物は保持対象PDFへ該当ページを差替えて組み立てている。学費2ページは同じ入力から再描画して前回と画素一致、冊子の他15ページも前版と画素一致。
+- 旧学費版・その2ページ入力証跡は履歴として明示退役し実体は保持。旧版が必要な場合は旧カタログのrevisionを付け `asset:get --saved --revision <SHA>` で取り出す。最新版の窓口は上記の新ID。
+- render成功（文字サイズ・白抜き・安全域の警告0、Chromium154代替警告のみ）、正規baseline-sync成功、validateエラー0・警告122。親が差替えページと実PDFを目視点検。独立レビュー・入稿用release検証は未実施。学校の確定台帳/factsは変更なし。
+
+## 2026-10-19 医専白版の学費見開きを根拠資料から改訂
+
+- 人間の「学費のご案内は全面的に見直せ。数字は台帳や原本から探せ。教材費はここに書くな。その他の支援の他は『た』」に対応。最新16P版の12・13枚目を差替え、削除済みの海鵬紹介・学校広報実習見開きは戻していない。他14ページは前版と描画画素一致。
+- 確定台帳と正式原本 `references/school-own/admissions-2027/original/募集要項2027.docx` の表・納付期限を照合。2027年度参考額として初年度930000円、2年次830000円、2年間1760000円、検定料20000円（検定料込み1780000円）を掲載し、2028年度未確定を明示。原本の入学金10日以内・前期授業料1か月以内を記載し、他の納付期限は推測しない。
+- 教材関連の記載は学費2ページから撤去。根拠未確認のAO入学金免除額、旧内訳、固定月の納付期限、分割回数・金額、提携ローン断定を撤去。「その<ruby>他<rt>た</rt></ruby>の支援」へ修正。紙面ソースは既存page_001と新page_002、共通スタイルはBOOKのlayout.css。
+- 出力: `books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_学費改訂.pdf`。管理ID `white-16p-tuition-revised`、variant `tuition-revised`。冊子全体は `asset:get --saved`、改訂2ページPDFは `tuition-revised-pages`。数字・入力SHA・差替え記録は `parts/tuition-revision-20261019.json`。
+- render成功（小さい文字・白抜き文字・安全域の警告0、Chromium154代替ブラウザ警告のみ）。validateエラー0・警告121、正規baseline-sync成功。親が改訂2ページと実PDF見開きを自己点検、独立レビュー・入稿用release検証は未実施。学校の確定台帳とfactsの数値は変更なし。
+
+## 2026-10-19 医専白版の学校広報実習見開きを除外
+
+- 人間の指定により18ページ版のPDF10・11枚目「学校そのものが、実習の舞台。」「AI×学校広報で身につく5つの力」を除外。海鵬グループ紹介を除外した前版からさらに2ページ減らした16ページ版。表紙・他のページ・印字番号は変更なし。
+- 出力: `books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P.pdf`。管理ID `white-16p-without-group-and-school-pr`、`asset:get --saved` で取得可能。選択記録は `parts/page-selection-16p.json`。
+- 16ページ全て前版の保持対象ページと縮小描画画素一致、親が全ページ一覧を自己点検。独立レビュー・情報の最新性・入稿適性の再検証は未実施。元20P・前18Pは保存。
+
+## 2026-10-19 医専白版の海鵬グループ紹介2ページを除外
+
+- 人間の「1-2ページの海鵬学園のページは外せ」に従い、印字1・2ページ（元20P PDFの2・3枚目）を削除。表紙は保持し、元PDFの1・4〜20枚目を順番どおり結合した18ページ版を作成。元PDFは変更なし、残るページの印字番号も変更なし。
+- 出力: `books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_18P.pdf`。管理ID `white-18p-without-group-pages`、variant `without-group-pages`。`asset:get --saved` で取得する。
+- ページ選択・元版SHA・出力SHA・検証記録は `books/prospectus-isen-trial-2028/parts/page-selection-18p.json`。18ページ全て原本の保持対象ページと縮小描画画素が一致し、全ページ一覧を親が自己点検した。独立レビューは未実施。情報の最新性や入稿適性は今回再検証していない。
+
+## 2026-10-19 保存済みPDFの取得と最新版保証を分離
+
+- 人間の指示により `asset:get --saved` を追加。保存済み実体のSHA・サイズ・形式を検証し、入力鮮度は検証せず「保存済み版・最新版かは未確認」と返す。通常取得の最新版検証は維持し、破損・欠損・実体同定未確認は引き続き拒否する。
+- 医専白版20Pを `asset:get -- --document prospectus-isen-trial-2028 --id approved-original --saved` で実取得。SHA/サイズ一致、pdfinfoでA4・20ページ・186422025bytesを確認。PDFは再生成・変更していない。
+- 型チェックとassets関連58テスト成功。前項の「証拠未確認は取得拒否」は最新版として取得する場合の扱いであり、保存済み版の確認・共有は明示的な `--saved` で行える。
+
+## 2026-10-19 指摘3点の限定修正（Codex）
+
+- branch: `fix/asset-validation-freshness-path`。人間の指示範囲は基準更新の内容検証、主要4BOOKの出力鮮度、旧PC固有パス撤廃の3点。6サブで実装・独立確認を分担。
+- `asset:baseline-sync` は更新前に全体検証し、同期対象のレガシー差分以外のエラーとLFSポインタを拒否する。失敗・dry-runでは基準ファイルを保持。
+- 主要4BOOKの既存PDF/PNGは再生成していない。実体の同定は維持し、生成入力証拠は未確認として最新取得を拒否、検査では警告。再生成は `npm run asset:rebuild-standard -- --document <id>`、新版取得は `asset:get -- --document <id> --id standard-rendered-pdf`。入力集合の前後一致・出力検査・競合検査・原子的登録を行い、旧出力と削除ページは明示退役して履歴保存。詳細は `system/assets/README.md`。
+- `build_full_booklet_pdf.mjs` の入力は `--input-dir` → `FLAT_PAGES_DIR` → `.cache/flat_pages`。旧PCパスの自動検出は撤廃。
+- 日本語2ページfixtureを実描画し、新PDFの登録・取得、入力ファイル追加時のSTALE拒否を確認。既存Chromium154を使用した確認用出力であり、入稿用の指定ブラウザ検証とは区別する。指定Chromium不足と既存LFSポインタ試験のタグ引数不整合は今回の修正対象外。
+- mainへのマージは未実施。既存4冊を新版として必要とする時は上記の再生成手順を使い、旧PDFの入力SHAを手書きして確認済みに昇格しない。
+- 最終検証: 型チェック成功、asset:check エラー0、validate エラー0・警告112（旧出力の生成入力証拠未確認43件を含む）。関連97テスト成功。全体は443成功・7失敗・7スキップ、ブラウザ起動前の2suite失敗。失敗は指定Chromium不足と既存タグ引数不整合で、今回対象の関連試験は合格。旧PCパスは構文検査とdefault/env/CLI優先順の実行検証済み。
+
 ## 現在の引継ぎ：2026-10-18 DTP不足箇所の事実調査＋Step 1〜5 mainマージ完了＋「根本解決」計画書（Phase R1〜R4）
 
 - **最優先の再開入口**: **[DTP根本解決計画書（Phase R1〜R4）](../docs/audits/file-identity-20261018/resolution-plan.md)**、[段階的実装計画書（Step 1〜5 完了済）](../docs/audits/file-identity-20261018/implementation-plan-steps.md)、[不足箇所一覧](../docs/audits/file-identity-20261018/不足箇所一覧.md)、[調査引継ぎREADME](../docs/audits/file-identity-20261018/README.md)。

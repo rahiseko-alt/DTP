@@ -1,0 +1,25 @@
+.access-page { gap:4mm; }
+.access-heading h1 { color:#24476b;font-size:23pt;font-weight:900;line-height:1.7; }
+.access-heading p { font-size:9pt;line-height:1.8; }
+.access-page h2 { color:#24476b;font-size:12pt;line-height:1.8;margin-bottom:2mm; }
+.location { border-top:1mm solid #24476b;background:#f0f4f8;padding:4mm; }
+.location strong { font-size:14pt;color:#24476b; }
+.location p { font-size:11pt;line-height:1.8;margin-top:2mm; }
+.station { font-size:10pt!important;font-weight:700; }
+.map-draft { height:78mm;border:.3mm dashed #a5b3c2;display:flex;align-items:center;justify-content:center;color:#73859a;font-size:10pt;background:#f7f9fb; }
+.contact-main { display:grid;grid-template-columns:1fr 44mm;gap:5mm;align-items:center;border-top:.5mm solid #24476b;padding:3mm 0; }
+.contact-main p { font-size:8.5pt;line-height:1.8; }
+.phone { display:block;font-size:23pt;font-weight:900;color:#24476b;text-decoration:none;margin:2mm 0; }
+.email { display:block;color:#24476b;font-size:12pt;text-decoration:none;margin-bottom:2mm; }
+.qr-block { text-align:center; }
+.qr-block svg { display:block;margin:0 auto 1mm; }
+.qr-block strong { display:block;font-size:8pt;color:#24476b; }
+.qr-block small { display:block;font-size:6.8pt;line-height:1.6;margin-top:1mm; }
+.website { display:flex;justify-content:space-between;align-items:center;border-top:.3mm solid #ccd7e3;padding-top:3mm; }
+.website a { font-size:9pt;color:#24476b; }
+.website p { font-size:8pt;margin-top:2mm; }
+.access-page footer { margin-top:auto; }
+
+.contact-main { grid-template-columns:1fr; }
+.access-page { gap:3mm; }
+.map-draft { height:66mm; }

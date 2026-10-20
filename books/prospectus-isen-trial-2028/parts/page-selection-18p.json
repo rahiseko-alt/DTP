@@ -1,0 +1,48 @@
+{
+  "source": {
+    "file": "output/pdf/AIビジネス専門学校_学校案内_2028_白版_20P.pdf",
+    "sha256": "1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37",
+    "pages": 20
+  },
+  "output": {
+    "file": "books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_18P.pdf",
+    "sha256": "c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4",
+    "size": 165093256,
+    "pages": 18
+  },
+  "removed_pdf_pages": [
+    2,
+    3
+  ],
+  "removed_printed_pages": [
+    1,
+    2
+  ],
+  "retained_pdf_pages": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "method": "pdfseparate + pdfunite; no rasterization",
+  "validation": {
+    "all_18_pages_match_source_render_pixels": true,
+    "contact_sheet_review": "parent self-review",
+    "independent_review": false
+  },
+  "scope": "ページ削除のみ。元PDFの情報の最新性・入稿適性は再検証していない。"
+}

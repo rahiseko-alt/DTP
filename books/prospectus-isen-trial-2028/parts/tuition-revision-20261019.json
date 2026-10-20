@@ -1,0 +1,98 @@
+{
+  "request": "学費ページ全面見直し、教材費の記載除外、その他の他のルビをたへ修正",
+  "source_pdf": {
+    "file": "books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P.pdf",
+    "sha256": "aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da"
+  },
+  "output_pdf": {
+    "file": "books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_学費改訂.pdf",
+    "sha256": "190466dc9e044309cc87783025091e7db4bd42f9dcdc1c4c807261918e0aa317",
+    "pages": 16
+  },
+  "replaced_pdf_pages": [
+    12,
+    13
+  ],
+  "source_year": 2027,
+  "intake_year": 2028,
+  "intake_tuition_confirmed": false,
+  "inputs": [
+    {
+      "path": "company-data/ledger.md",
+      "sha256": "19b325cd30ad92525d1d9f0b137c9fd616d34ee0e25ccdba6653d9969ca8e8af"
+    },
+    {
+      "path": "company-data/facts/admissions.yaml",
+      "sha256": "197459aeb33f5cf73e51df886dcc7fb34c974b2e3ac2f75d0b4d292301cdc07d"
+    },
+    {
+      "path": "company-data/facts/booklet.yaml",
+      "sha256": "f999160600a5655dd4138aca2d9742312aaa0288b818d65bdc2508c054e70f1b"
+    },
+    {
+      "path": "company-data/facts/contacts.yaml",
+      "sha256": "32eed36ea96afae4d7718fa5a54ce4b7de7dab9d76895a434f23a0da40a77532"
+    },
+    {
+      "path": "books/prospectus-isen-trial-2028/config/book.yaml",
+      "sha256": "16757a39aeafde1a3a03b9d986c84b08dcba005e08dfb8b2c019cd2a8ec1a555"
+    },
+    {
+      "path": "books/prospectus-isen-trial-2028/layout.css",
+      "sha256": "6095da9816131d88cab832e57d0ce95d7a208877f8bd6b138abdcddd41522dbe"
+    },
+    {
+      "path": "books/prospectus-isen-trial-2028/pages/page_001/page.html",
+      "sha256": "8cc51e7163e327d7636505dc1c725fe9d70d9d2f9b0a41ebdb4bfc0ce1403623"
+    },
+    {
+      "path": "books/prospectus-isen-trial-2028/pages/page_001/page.css",
+      "sha256": "a0c1434d3c5f4e89d8d1e1210ee8746434abeb34e8405629d01a81d08b0088a3"
+    },
+    {
+      "path": "books/prospectus-isen-trial-2028/pages/page_002/page.html",
+      "sha256": "479c23aa89fa0b7ee9a6f3f99e684acd1988af1e4077193e59986ea58cad1b96"
+    },
+    {
+      "path": "books/prospectus-isen-trial-2028/pages/page_002/page.css",
+      "sha256": "915793d19a5f13b13c10a8048baa11fe29fbf3c8f19f97f8e0cbfe4a906ede03"
+    },
+    {
+      "path": "references/school-own/admissions-2027/original/募集要項2027.docx",
+      "sha256": "a5edd74bed822ce4680f12ee342a3f245618d351e2d09450041182c64304fd6d"
+    }
+  ],
+  "evidence": {
+    "admissions_original": "references/school-own/admissions-2027/original/募集要項2027.docx",
+    "entrance_fee": 100000,
+    "tuition_each_term": 390000,
+    "expenses_per_year": 50000,
+    "first_year": 930000,
+    "second_year": 830000,
+    "two_years": 1760000,
+    "exam_fee": 20000,
+    "two_years_including_exam": 1780000,
+    "deadlines": [
+      "入学金:合格から10日以内",
+      "1年次前期授業料:合格から1か月以内",
+      "2年次の支払期日:別途通知"
+    ]
+  },
+  "removed_unsubstantiated_claims": [
+    "教材が学費に含まれるという記載",
+    "AO入学金免除額",
+    "旧学費内訳",
+    "分割回数と金額",
+    "確定していない特定月の納付期限",
+    "提携教育ローンの利用を保証する記載"
+  ],
+  "validation": {
+    "other_14_pages_render_pixels_identical": true,
+    "new_pages_self_review": true,
+    "independent_review": false,
+    "render_warning": "Chromium154 fallback, preview only",
+    "tuition_material_cost_mentions": 0,
+    "ruby": "その<ruby>他<rt>た</rt></ruby>の支援"
+  },
+  "method": "標準HTML/CSS rendererで2ページをPDF出力、塗り足し3mmをクリップして元16ページ版の12・13枚目のみをPyMuPDFで差替え。再ラスタライズなし。"
+}

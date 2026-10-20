@@ -4,6 +4,13 @@ current:
   approved-original: 1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37
   preview-page-001: a843ad620b2982c3da72139096bf5fbe023e4e527e4655ef16dd2832711b4365
   student-img-5076: 0ca846c9aeca9c56b254c7abf1a66efe99bd126f4dfcc91d5b1d296a6feca26c
+  page-selection-18p: be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392
+  white-18p-without-group-pages: c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4
+  page-selection-16p: 2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e
+  white-16p-without-group-and-school-pr: aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da
+  admissions-revision-record: 153372c2dff6fdc147b0102817f5354df5f314c35b894fa517a304f3846fbba2
+  tuition-admissions-revised-pages: 27ca30661d467f65ab084924b3d0e7269d223c2cad5e45635515dd24ef77f5d5
+  white-16p-tuition-admissions-revised: 23e039f73c7489c5a91825c9b0c7087843edbf7d44edc82ba8e23fe325f59da4
 assets:
   - id: approved-original
     variant: standard-render
@@ -16,8 +23,30 @@ assets:
     relation: root
     storage: canonical
     confirmation: verified
-    built_from: []
+    input_provenance: unverified
+    built_from:
+      - id: student-img-5076
+        revision: 0ca846c9aeca9c56b254c7abf1a66efe99bd126f4dfcc91d5b1d296a6feca26c
     external_inputs: []
+    external_input_globs:
+      - &a12
+        pattern: company-data/{facts,brand,copy,photos}/**/*
+        sha256: 7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4
+      - &a13
+        pattern: shared/{components,layouts,generated-assets}/**/*
+        sha256: ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0
+      - &a14
+        pattern: books/prospectus-isen-trial-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}
+        sha256: 9d1dad9575eb6e4f4d5bee3079e21d2e3b2f6518b6c884c4690978e708a8e945
+      - &a15
+        pattern: system/design-engine/src/**/*
+        sha256: 68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f
+      - &a16
+        pattern: system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}
+        sha256: ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478
+      - &a17
+        pattern: package{,-lock}.json
+        sha256: dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4
   - id: preview-page-001
     variant: standard-render
     role: preview
@@ -29,6 +58,7 @@ assets:
     relation: authored
     storage: canonical
     confirmation: verified
+    input_provenance: unverified
     built_from:
       - id: approved-original
         revision: 1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37
@@ -45,4 +75,246 @@ assets:
     storage: canonical
     confirmation: verified
     built_from: []
+    external_inputs: []
+  - id: page-selection-18p
+    variant: without-group-pages
+    role: support
+    media: text
+    file: books/prospectus-isen-trial-2028/parts/page-selection-18p.json
+    revision: be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392
+    sha256: be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392
+    size: 1047
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from: []
+    external_inputs: []
+  - id: white-18p-without-group-pages
+    variant: without-group-pages
+    role: reconstructed-preview
+    media: pdf
+    file: books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_18P.pdf
+    revision: c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4
+    sha256: c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4
+    size: 165093256
+    relation: rendered-from
+    storage: canonical
+    confirmation: verified
+    input_provenance: unverified
+    built_from:
+      - id: approved-original
+        revision: 1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37
+      - id: page-selection-18p
+        revision: be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392
+    external_inputs: []
+  - id: page-selection-16p
+    variant: without-group-and-school-pr
+    role: support
+    media: text
+    file: books/prospectus-isen-trial-2028/parts/page-selection-16p.json
+    revision: 2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e
+    sha256: 2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e
+    size: 1217
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from: []
+    external_inputs: []
+  - id: white-16p-without-group-and-school-pr
+    variant: without-group-and-school-pr
+    role: reconstructed-preview
+    media: pdf
+    file: books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P.pdf
+    revision: aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da
+    sha256: aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da
+    size: 142901838
+    relation: rendered-from
+    storage: canonical
+    confirmation: verified
+    input_provenance: unverified
+    built_from:
+      - id: white-18p-without-group-pages
+        revision: c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4
+      - id: page-selection-16p
+        revision: 2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e
+    external_inputs: []
+  - id: tuition-revision-record
+    variant: tuition-revised
+    role: support
+    media: text
+    file: books/prospectus-isen-trial-2028/parts/tuition-revision-20261019.json
+    revision: e2c3aa2b54a2d7750f564825745976f96dcb29699bc0b14ea0760da6ab186f55
+    sha256: e2c3aa2b54a2d7750f564825745976f96dcb29699bc0b14ea0760da6ab186f55
+    size: 3813
+    relation: authored
+    storage: canonical
+    confirmation: verified
+    built_from: []
+    external_inputs:
+      - &a1
+        path: company-data/ledger.md
+        sha256: 19b325cd30ad92525d1d9f0b137c9fd616d34ee0e25ccdba6653d9969ca8e8af
+      - &a2
+        path: company-data/facts/admissions.yaml
+        sha256: 197459aeb33f5cf73e51df886dcc7fb34c974b2e3ac2f75d0b4d292301cdc07d
+      - &a3
+        path: company-data/facts/booklet.yaml
+        sha256: f999160600a5655dd4138aca2d9742312aaa0288b818d65bdc2508c054e70f1b
+      - &a4
+        path: company-data/facts/contacts.yaml
+        sha256: 32eed36ea96afae4d7718fa5a54ce4b7de7dab9d76895a434f23a0da40a77532
+      - &a5
+        path: books/prospectus-isen-trial-2028/config/book.yaml
+        sha256: 16757a39aeafde1a3a03b9d986c84b08dcba005e08dfb8b2c019cd2a8ec1a555
+      - &a6
+        path: books/prospectus-isen-trial-2028/layout.css
+        sha256: 6095da9816131d88cab832e57d0ce95d7a208877f8bd6b138abdcddd41522dbe
+      - &a7
+        path: books/prospectus-isen-trial-2028/pages/page_001/page.html
+        sha256: 8cc51e7163e327d7636505dc1c725fe9d70d9d2f9b0a41ebdb4bfc0ce1403623
+      - &a8
+        path: books/prospectus-isen-trial-2028/pages/page_001/page.css
+        sha256: a0c1434d3c5f4e89d8d1e1210ee8746434abeb34e8405629d01a81d08b0088a3
+      - &a9
+        path: books/prospectus-isen-trial-2028/pages/page_002/page.html
+        sha256: 479c23aa89fa0b7ee9a6f3f99e684acd1988af1e4077193e59986ea58cad1b96
+      - &a10
+        path: books/prospectus-isen-trial-2028/pages/page_002/page.css
+        sha256: 915793d19a5f13b13c10a8048baa11fe29fbf3c8f19f97f8e0cbfe4a906ede03
+    external_input_globs:
+      - pattern: references/school-own/admissions-2027/original/募集要項2027.docx
+        sha256: 422dadd7eefa688b9ddf27a0c88488b5892aeb44954b7619ba2f0f74c10e5fe9
+    retired: true
+  - id: tuition-revised-pages
+    variant: tuition-revised
+    role: reconstructed-preview
+    media: pdf
+    file: books/prospectus-isen-trial-2028/output/pdf/学費案内_改訂2ページ.pdf
+    revision: 8b95968b5550aee818a81765d191507b1750c109ed6ca8c0aa91353bf3d6316f
+    sha256: 8b95968b5550aee818a81765d191507b1750c109ed6ca8c0aa91353bf3d6316f
+    size: 2945840
+    relation: rendered-from
+    storage: canonical
+    confirmation: verified
+    input_provenance: unverified
+    built_from:
+      - id: tuition-revision-record
+        revision: e2c3aa2b54a2d7750f564825745976f96dcb29699bc0b14ea0760da6ab186f55
+    external_inputs:
+      - *a1
+      - *a2
+      - *a3
+      - *a4
+      - *a5
+      - *a6
+      - *a7
+      - *a8
+      - *a9
+      - *a10
+    external_input_globs:
+      - pattern: references/school-own/admissions-2027/original/募集要項2027.docx
+        sha256: 422dadd7eefa688b9ddf27a0c88488b5892aeb44954b7619ba2f0f74c10e5fe9
+    retired: true
+  - id: white-16p-tuition-revised
+    variant: tuition-revised
+    role: reconstructed-preview
+    media: pdf
+    file: books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_学費改訂.pdf
+    revision: 190466dc9e044309cc87783025091e7db4bd42f9dcdc1c4c807261918e0aa317
+    sha256: 190466dc9e044309cc87783025091e7db4bd42f9dcdc1c4c807261918e0aa317
+    size: 129401996
+    relation: rendered-from
+    storage: canonical
+    confirmation: verified
+    input_provenance: unverified
+    built_from:
+      - id: white-16p-without-group-and-school-pr
+        revision: aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da
+      - id: tuition-revised-pages
+        revision: 8b95968b5550aee818a81765d191507b1750c109ed6ca8c0aa91353bf3d6316f
+    external_inputs: []
+    retired: true
+  - id: admissions-revision-record
+    variant: tuition-admissions-revised
+    role: support
+    media: text
+    file: books/prospectus-isen-trial-2028/parts/admissions-revision-20261019.json
+    revision: 153372c2dff6fdc147b0102817f5354df5f314c35b894fa517a304f3846fbba2
+    sha256: 153372c2dff6fdc147b0102817f5354df5f314c35b894fa517a304f3846fbba2
+    size: 5221
+    confirmation: verified
+    relation: authored
+    storage: canonical
+    built_from: []
+    external_inputs: &a11
+      - path: company-data/ledger.md
+        sha256: 19b325cd30ad92525d1d9f0b137c9fd616d34ee0e25ccdba6653d9969ca8e8af
+      - path: company-data/facts/admissions.yaml
+        sha256: 197459aeb33f5cf73e51df886dcc7fb34c974b2e3ac2f75d0b4d292301cdc07d
+      - path: company-data/facts/booklet.yaml
+        sha256: f999160600a5655dd4138aca2d9742312aaa0288b818d65bdc2508c054e70f1b
+      - path: books/prospectus-isen-trial-2028/config/book.yaml
+        sha256: 3bc661e3f0c5a125cb73611e1f21ac595113dd9ef33b7f368ba60aa06fecc710
+      - path: books/prospectus-isen-trial-2028/layout.css
+        sha256: 6095da9816131d88cab832e57d0ce95d7a208877f8bd6b138abdcddd41522dbe
+      - path: books/prospectus-isen-trial-2028/pages/page_001/page.html
+        sha256: 8cc51e7163e327d7636505dc1c725fe9d70d9d2f9b0a41ebdb4bfc0ce1403623
+      - path: books/prospectus-isen-trial-2028/pages/page_001/page.css
+        sha256: a0c1434d3c5f4e89d8d1e1210ee8746434abeb34e8405629d01a81d08b0088a3
+      - path: books/prospectus-isen-trial-2028/pages/page_002/page.html
+        sha256: 479c23aa89fa0b7ee9a6f3f99e684acd1988af1e4077193e59986ea58cad1b96
+      - path: books/prospectus-isen-trial-2028/pages/page_002/page.css
+        sha256: 915793d19a5f13b13c10a8048baa11fe29fbf3c8f19f97f8e0cbfe4a906ede03
+      - path: books/prospectus-isen-trial-2028/pages/page_003/page.html
+        sha256: 381269367b83a1ce39ea07e9d85cc6d2d0433bb0479811ed22aa1ed9e64241b8
+      - path: books/prospectus-isen-trial-2028/pages/page_003/page.css
+        sha256: b87c64fe317c648817a75f79bb00f38268ae4eb4f49653f9c457addd60ae4d4d
+  - id: tuition-admissions-revised-pages
+    variant: tuition-admissions-revised
+    role: reconstructed-preview
+    media: pdf
+    file: books/prospectus-isen-trial-2028/output/pdf/学費入試案内_改訂3ページ.pdf
+    revision: 27ca30661d467f65ab084924b3d0e7269d223c2cad5e45635515dd24ef77f5d5
+    sha256: 27ca30661d467f65ab084924b3d0e7269d223c2cad5e45635515dd24ef77f5d5
+    size: 3062184
+    confirmation: verified
+    input_provenance: verified
+    relation: rendered-from
+    storage: canonical
+    built_from:
+      - id: admissions-revision-record
+        revision: 153372c2dff6fdc147b0102817f5354df5f314c35b894fa517a304f3846fbba2
+    external_inputs: *a11
+    external_input_globs:
+      - *a12
+      - *a13
+      - *a14
+      - *a15
+      - *a16
+      - *a17
+      - pattern: references/school-own/admissions-2027/original/募集要項2027.docx
+        sha256: 422dadd7eefa688b9ddf27a0c88488b5892aeb44954b7619ba2f0f74c10e5fe9
+      - pattern: references/school-own/admissions-2027/original/AO入試エントリーシート.pdf
+        sha256: 20eadb79e4c19a0109c0ecfcabd008a4abe29815c593bad85e273bdfdced8ade
+      - pattern: references/school-own/admissions-2027/original/推薦書.pdf
+        sha256: e90a607c3fc92ebdfad3c2a60e78e56b0041846598d43bf5cd839442b35a0ead
+      - pattern: books/admissions-guide-2027/output/pdf/admissions-guide-2027_参照保存_f2364cce.pdf
+        sha256: 02a74036260022b4ed46671d7b34c13b23ae9cf0afe6b0c9c801e35957a640c8
+  - id: white-16p-tuition-admissions-revised
+    variant: tuition-admissions-revised
+    role: reconstructed-preview
+    media: pdf
+    file: books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_学費入試改訂.pdf
+    revision: 23e039f73c7489c5a91825c9b0c7087843edbf7d44edc82ba8e23fe325f59da4
+    sha256: 23e039f73c7489c5a91825c9b0c7087843edbf7d44edc82ba8e23fe325f59da4
+    size: 121129772
+    confirmation: verified
+    input_provenance: unverified
+    relation: rendered-from
+    storage: canonical
+    built_from:
+      - id: white-16p-without-group-and-school-pr
+        revision: aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da
+      - id: tuition-admissions-revised-pages
+        revision: 27ca30661d467f65ab084924b3d0e7269d223c2cad5e45635515dd24ef77f5d5
     external_inputs: []

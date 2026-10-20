@@ -1,0 +1,328 @@
+{
+  "request": "main PR60の改訂と振り仮名・料金修正をマージ",
+  "main": "043b5ac",
+  "previous_work": "635c0b4",
+  "output": {
+    "file": "books/admissions-guide-2027/output/pdf/admissions-guide-2027_ふりがな料金確認_main統合版.pdf",
+    "sha256": "42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16",
+    "pages": 24
+  },
+  "changes": [
+    "mainの6〜8ページ改訂・新ページ順を保持",
+    "学費はPDF6枚目、出願書類は7枚目、8枚目は切り取り用白紙",
+    "振り仮名11欄の点線削除とPDF3・6枚目の前期授業料表記を保持"
+  ],
+  "validation": {
+    "all_24_pages_rendered": true,
+    "currency_sequences_identical_to_main": [
+      {
+        "page": 1,
+        "amounts": []
+      },
+      {
+        "page": 2,
+        "amounts": []
+      },
+      {
+        "page": 3,
+        "amounts": [
+          "20,000円",
+          "20,000円",
+          "100,000円",
+          "390,000円"
+        ]
+      },
+      {
+        "page": 4,
+        "amounts": []
+      },
+      {
+        "page": 5,
+        "amounts": []
+      },
+      {
+        "page": 6,
+        "amounts": [
+          "930,000円",
+          "830,000円",
+          "1,760,000円",
+          "20,000円",
+          "100,000円",
+          "390,000円",
+          "50,000円",
+          "440,000円",
+          "390,000円",
+          "390,000円",
+          "930,000円",
+          "390,000円",
+          "50,000円",
+          "440,000円",
+          "390,000円",
+          "390,000円",
+          "830,000円",
+          "1,760,000円",
+          "20,000円",
+          "100,000円",
+          "390,000円"
+        ]
+      },
+      {
+        "page": 7,
+        "amounts": []
+      },
+      {
+        "page": 8,
+        "amounts": []
+      },
+      {
+        "page": 9,
+        "amounts": []
+      },
+      {
+        "page": 10,
+        "amounts": []
+      },
+      {
+        "page": 11,
+        "amounts": []
+      },
+      {
+        "page": 12,
+        "amounts": []
+      },
+      {
+        "page": 13,
+        "amounts": []
+      },
+      {
+        "page": 14,
+        "amounts": []
+      },
+      {
+        "page": 15,
+        "amounts": []
+      },
+      {
+        "page": 16,
+        "amounts": []
+      },
+      {
+        "page": 17,
+        "amounts": [
+          "20,000 円"
+        ]
+      },
+      {
+        "page": 18,
+        "amounts": []
+      },
+      {
+        "page": 19,
+        "amounts": []
+      },
+      {
+        "page": 20,
+        "amounts": []
+      },
+      {
+        "page": 21,
+        "amounts": []
+      },
+      {
+        "page": 22,
+        "amounts": []
+      },
+      {
+        "page": 23,
+        "amounts": []
+      },
+      {
+        "page": 24,
+        "amounts": []
+      }
+    ],
+    "kana_dom": [
+      {
+        "page": "page_001",
+        "fields": []
+      },
+      {
+        "page": "page_002",
+        "fields": []
+      },
+      {
+        "page": "page_003",
+        "fields": []
+      },
+      {
+        "page": "page_004",
+        "fields": []
+      },
+      {
+        "page": "page_005",
+        "fields": []
+      },
+      {
+        "page": "page_007",
+        "fields": []
+      },
+      {
+        "page": "page_006",
+        "fields": []
+      },
+      {
+        "page": "page_008",
+        "fields": []
+      },
+      {
+        "page": "page_015",
+        "fields": [
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          },
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          }
+        ]
+      },
+      {
+        "page": "page_017",
+        "fields": [
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          },
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          }
+        ]
+      },
+      {
+        "page": "page_009",
+        "fields": [
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          },
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          }
+        ]
+      },
+      {
+        "page": "page_018",
+        "fields": []
+      },
+      {
+        "page": "page_010",
+        "fields": [
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          }
+        ]
+      },
+      {
+        "page": "page_019",
+        "fields": []
+      },
+      {
+        "page": "page_011",
+        "fields": [
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          },
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          }
+        ]
+      },
+      {
+        "page": "page_020",
+        "fields": []
+      },
+      {
+        "page": "page_012",
+        "fields": [
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "ふりがな"
+          }
+        ]
+      },
+      {
+        "page": "page_021",
+        "fields": []
+      },
+      {
+        "page": "page_013",
+        "fields": []
+      },
+      {
+        "page": "page_022",
+        "fields": []
+      },
+      {
+        "page": "page_014",
+        "fields": [
+          {
+            "background": "none",
+            "borderBottom": "0px",
+            "fieldLabel": "フリガナ"
+          }
+        ]
+      },
+      {
+        "page": "page_023",
+        "fields": []
+      },
+      {
+        "page": "page_016",
+        "fields": []
+      },
+      {
+        "page": "page_024",
+        "fields": []
+      }
+    ],
+    "blank_pages_white": [
+      8,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22
+    ],
+    "self_review": true,
+    "independent_review": false,
+    "viewed": [
+      "24ページ一覧",
+      "学費ページ原寸PNG"
+    ],
+    "render_warnings": "指定ブラウザ以外のChromium154という警告1件のみ",
+    "release": false
+  },
+  "earlier_40page_audit": "books/admissions-guide-2027/parts/fees-and-kana-audit-20261019.json",
+  "reference_preservation": {
+    "file": "books/admissions-guide-2027/output/pdf/admissions-guide-2027_参照保存_f2364cce.pdf",
+    "sha256": "f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b",
+    "reason": "main更新前の原本と同一バイトを保存し、医専版の既存参照根拠を保全"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "source": {
+    "file": "books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_18P.pdf",
+    "sha256": "c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4",
+    "pages": 18
+  },
+  "output": {
+    "file": "books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P.pdf",
+    "sha256": "aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da",
+    "size": 142901838,
+    "pages": 16
+  },
+  "removed_source_pdf_pages": [
+    10,
+    11
+  ],
+  "removed_titles": [
+    "学校そのものが、実習の舞台。",
+    "AI×学校広報で身につく5つの力"
+  ],
+  "retained_source_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "method": "pdfseparate + pdfunite; no rasterization",
+  "validation": {
+    "all_16_pages_match_source_render_pixels": true,
+    "all_pages_contact_sheet_review": "parent self-review",
+    "independent_review": false
+  },
+  "scope": "指定見開きの削除のみ。残るページの内容・印字番号は変更せず、最新情報・入稿適性は再検証していない。"
+}
