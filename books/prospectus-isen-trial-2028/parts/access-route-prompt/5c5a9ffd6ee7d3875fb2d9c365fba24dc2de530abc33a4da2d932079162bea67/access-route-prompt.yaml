@@ -1,0 +1,26 @@
+{
+  "tool": "image_gen.imagegen",
+  "model": "image_gen",
+  "prompt": "Refine the FIRST attached image into a polished flat 2D schematic neighborhood access-map BACKGROUND for a Japanese vocational-school brochure. Canvas 1536x1024, landscape, north is up. The first image is a precisely traced geographic skeleton: preserve its road junctions, road shapes, positions and railway exactly. The second image is the real GSI geographic reference for context ONLY: do NOT copy the dense minor streets, individual building footprints, orange markings, text, labels or symbols from it. Strictly retain only the eight selected white streets in the first image. Do not add any streets, paths, alleys, grids, rivers or parks. Rail corridor stays on the right, curving slightly from upper-right toward lower-right. Make broad quiet blue-gray neighborhood areas, very subtle restrained matte print texture, clean white streets with fine neutral blue-gray outlines, dark navy railway. This should look like a useful professional school-brochure wayfinding map, not a fictional city, not an aerial illustration. No individual house outlines. No 3D, trees, people, cars or decorative buildings. No location pin, shop icon, direction arrow, route line, numbered step or compass: these are exact code layers added later. Reserve the upper 14% and lower 19% as plain near-white areas for text overlays. Keep the remaining center clean and uncluttered; very light quiet color, clear white roads, no borders, no design cards. Absolutely NO text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption or symbols anywhere.",
+  "negative_prompt": "text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption",
+  "seed": null,
+  "size": "1536x1024",
+  "created": "2026-10-20",
+  "author": "codex",
+  "reference_inputs": [
+    {
+      "path": "books/prospectus-isen-trial-2028/parts/access-route-guide/2ae8438d8e796bbb0f048f8686c1d5f3e6fbf5a409d1f17a22e15e62e6b1ebe1/access-route-guide.png",
+      "usage": "composition",
+      "note": "地理院地図から選んだ道路中心線・鉄道の固定下図。保管先はaccess-route-guide。"
+    },
+    {
+      "path": "books/prospectus-isen-trial-2028/parts/access-route-gsi-reference/cf38e71cbd8b0a667e037448b0eca2fe304dd6a50b8f57994851e0b6deded625/access-route-gsi-reference.png",
+      "usage": "image_reference",
+      "note": "地理院標準地図のz18タイル結合。保管先はaccess-route-gsi-reference。"
+    }
+  ],
+  "params": {
+    "transparent_background": false
+  },
+  "notes": "地図下地のみ画像生成。実測地図からトレースした道路・赤い経路線・地点と正確な文字はSVGで再配置。航空写真で道路形状と駅前横断歩道を照合。現地踏査と校舎の扉位置は未確認。最終合成は3072x2048px。"
+}

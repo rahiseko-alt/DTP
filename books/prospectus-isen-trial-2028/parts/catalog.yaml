@@ -37,7 +37,20 @@
     "access-map-v2-base": "4909b521b3cac4c7c57dda866db9b573abb99339d8352f6db7a706628891d194",
     "access-map-v2-labels": "50bd6468c51a90548ad6f082cefa0d22c6bf46388617c3ab0efb06b202384797",
     "access-map-v2-composite": "d0c6280dea15b5b65eefc97f35c973bd1166fb689a4c85aad3fa7490e5ca327e",
-    "access-map-v2-review": "4ea5fb7ec5ad8e7aa500f9d4126fb6de6693e1fbda84fc1af8bb7196c5455a2b"
+    "access-map-v2-review": "4ea5fb7ec5ad8e7aa500f9d4126fb6de6693e1fbda84fc1af8bb7196c5455a2b",
+    "access-route-sources": "c886e6aceb4d45977f74c9803d52b1f2d928af5e4e6b4762fc78a8f68ed3656e",
+    "access-route-gsi-reference": "cf38e71cbd8b0a667e037448b0eca2fe304dd6a50b8f57994851e0b6deded625",
+    "access-route-school-aerial": "71974894c258b8ca0a16674fcf9444b3da496a54d9cde71f39bfbc5d79055f22",
+    "access-route-station-aerial": "cdb62bff90a041b3b777dbd0c7542a9aadd29196f8e97382543a264066cb7ce2",
+    "access-route-trace": "d4ae308695306f6b77d780f8929ea4c158ffc7455b115b845a6e86bfabd066e5",
+    "access-route-builder": "d9234bc0008d5fe95bb8d0c5421e39d726c47ffaace389d3401ea5aa20179131",
+    "access-route-guide": "2ae8438d8e796bbb0f048f8686c1d5f3e6fbf5a409d1f17a22e15e62e6b1ebe1",
+    "access-route-prompt": "5c5a9ffd6ee7d3875fb2d9c365fba24dc2de530abc33a4da2d932079162bea67",
+    "access-route-base": "a4d297ff51e97a57594497f78e9645171baecc78d61e22ba9cab10b21f3c696b",
+    "access-route-svg": "91d9705a30a9fd3ae7e0e15dd8d76d93da2bc4fe8359b3e845310dfcda126408",
+    "access-route-map": "f22d288efab6e1220898fac2d6d54fe8c014266a748d0637e0153fa7853de27f",
+    "access-route-qa": "2f14b69413d61c672b8a6e7d35252e9ff52cc69b1602c1d6679d08172e5042c6",
+    "access-route-review": "2bd201039f5bc34bcfa15442fee28d259e99193ea6a58d47ea12ebed97949d68"
   },
   "assets": [
     {
@@ -1314,6 +1327,281 @@
       "confirmation": "verified",
       "external_inputs": [],
       "built_from": []
+    },
+    {
+      "id": "access-route-sources",
+      "variant": "access-route-20261020",
+      "role": "support",
+      "media": "text",
+      "revision": "c886e6aceb4d45977f74c9803d52b1f2d928af5e4e6b4762fc78a8f68ed3656e",
+      "file": "books/prospectus-isen-trial-2028/parts/access-route-sources/c886e6aceb4d45977f74c9803d52b1f2d928af5e4e6b4762fc78a8f68ed3656e/access-route-sources.json",
+      "sha256": "c886e6aceb4d45977f74c9803d52b1f2d928af5e4e6b4762fc78a8f68ed3656e",
+      "size": 7420,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "access-route-gsi-reference",
+      "variant": "access-route-20261020",
+      "role": "support",
+      "media": "image",
+      "revision": "cf38e71cbd8b0a667e037448b0eca2fe304dd6a50b8f57994851e0b6deded625",
+      "file": "books/prospectus-isen-trial-2028/parts/access-route-gsi-reference/cf38e71cbd8b0a667e037448b0eca2fe304dd6a50b8f57994851e0b6deded625/access-route-gsi-reference.png",
+      "sha256": "cf38e71cbd8b0a667e037448b0eca2fe304dd6a50b8f57994851e0b6deded625",
+      "size": 1276030,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-route-sources",
+          "revision": "c886e6aceb4d45977f74c9803d52b1f2d928af5e4e6b4762fc78a8f68ed3656e"
+        }
+      ]
+    },
+    {
+      "id": "access-route-school-aerial",
+      "variant": "access-route-20261020",
+      "role": "support",
+      "media": "image",
+      "revision": "71974894c258b8ca0a16674fcf9444b3da496a54d9cde71f39bfbc5d79055f22",
+      "file": "books/prospectus-isen-trial-2028/parts/access-route-school-aerial/71974894c258b8ca0a16674fcf9444b3da496a54d9cde71f39bfbc5d79055f22/access-route-school-aerial.png",
+      "sha256": "71974894c258b8ca0a16674fcf9444b3da496a54d9cde71f39bfbc5d79055f22",
+      "size": 1010464,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-route-sources",
+          "revision": "c886e6aceb4d45977f74c9803d52b1f2d928af5e4e6b4762fc78a8f68ed3656e"
+        }
+      ]
+    },
+    {
+      "id": "access-route-station-aerial",
+      "variant": "access-route-20261020",
+      "role": "support",
+      "media": "image",
+      "revision": "cdb62bff90a041b3b777dbd0c7542a9aadd29196f8e97382543a264066cb7ce2",
+      "file": "books/prospectus-isen-trial-2028/parts/access-route-station-aerial/cdb62bff90a041b3b777dbd0c7542a9aadd29196f8e97382543a264066cb7ce2/access-route-station-aerial.png",
+      "sha256": "cdb62bff90a041b3b777dbd0c7542a9aadd29196f8e97382543a264066cb7ce2",
+      "size": 1029217,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-route-sources",
+          "revision": "c886e6aceb4d45977f74c9803d52b1f2d928af5e4e6b4762fc78a8f68ed3656e"
+        }
+      ]
+    },
+    {
+      "id": "access-route-trace",
+      "variant": "access-route-20261020",
+      "role": "support",
+      "media": "text",
+      "revision": "d4ae308695306f6b77d780f8929ea4c158ffc7455b115b845a6e86bfabd066e5",
+      "file": "books/prospectus-isen-trial-2028/parts/access-route-trace/d4ae308695306f6b77d780f8929ea4c158ffc7455b115b845a6e86bfabd066e5/access-route-trace.json",
+      "sha256": "d4ae308695306f6b77d780f8929ea4c158ffc7455b115b845a6e86bfabd066e5",
+      "size": 5151,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-route-gsi-reference",
+          "revision": "cf38e71cbd8b0a667e037448b0eca2fe304dd6a50b8f57994851e0b6deded625"
+        }
+      ]
+    },
+    {
+      "id": "access-route-builder",
+      "variant": "access-route-20261020",
+      "role": "support",
+      "media": "text",
+      "revision": "d9234bc0008d5fe95bb8d0c5421e39d726c47ffaace389d3401ea5aa20179131",
+      "file": "books/prospectus-isen-trial-2028/parts/access-route-builder/d9234bc0008d5fe95bb8d0c5421e39d726c47ffaace389d3401ea5aa20179131/access-route-builder.mjs",
+      "sha256": "d9234bc0008d5fe95bb8d0c5421e39d726c47ffaace389d3401ea5aa20179131",
+      "size": 9264,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-route-trace",
+          "revision": "d4ae308695306f6b77d780f8929ea4c158ffc7455b115b845a6e86bfabd066e5"
+        }
+      ]
+    },
+    {
+      "id": "access-route-guide",
+      "variant": "access-route-20261020",
+      "role": "support",
+      "media": "image",
+      "revision": "2ae8438d8e796bbb0f048f8686c1d5f3e6fbf5a409d1f17a22e15e62e6b1ebe1",
+      "file": "books/prospectus-isen-trial-2028/parts/access-route-guide/2ae8438d8e796bbb0f048f8686c1d5f3e6fbf5a409d1f17a22e15e62e6b1ebe1/access-route-guide.png",
+      "sha256": "2ae8438d8e796bbb0f048f8686c1d5f3e6fbf5a409d1f17a22e15e62e6b1ebe1",
+      "size": 220688,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-route-builder",
+          "revision": "d9234bc0008d5fe95bb8d0c5421e39d726c47ffaace389d3401ea5aa20179131"
+        }
+      ]
+    },
+    {
+      "id": "access-route-prompt",
+      "variant": "access-route-20261020",
+      "role": "support",
+      "media": "text",
+      "revision": "5c5a9ffd6ee7d3875fb2d9c365fba24dc2de530abc33a4da2d932079162bea67",
+      "file": "books/prospectus-isen-trial-2028/parts/access-route-prompt/5c5a9ffd6ee7d3875fb2d9c365fba24dc2de530abc33a4da2d932079162bea67/access-route-prompt.yaml",
+      "sha256": "5c5a9ffd6ee7d3875fb2d9c365fba24dc2de530abc33a4da2d932079162bea67",
+      "size": 2864,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-route-guide",
+          "revision": "2ae8438d8e796bbb0f048f8686c1d5f3e6fbf5a409d1f17a22e15e62e6b1ebe1"
+        },
+        {
+          "id": "access-route-gsi-reference",
+          "revision": "cf38e71cbd8b0a667e037448b0eca2fe304dd6a50b8f57994851e0b6deded625"
+        }
+      ]
+    },
+    {
+      "id": "access-route-base",
+      "variant": "access-route-20261020",
+      "role": "support",
+      "media": "image",
+      "revision": "a4d297ff51e97a57594497f78e9645171baecc78d61e22ba9cab10b21f3c696b",
+      "file": "books/prospectus-isen-trial-2028/parts/access-route-base/a4d297ff51e97a57594497f78e9645171baecc78d61e22ba9cab10b21f3c696b/access-route-base.png",
+      "sha256": "a4d297ff51e97a57594497f78e9645171baecc78d61e22ba9cab10b21f3c696b",
+      "size": 1766536,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-route-prompt",
+          "revision": "5c5a9ffd6ee7d3875fb2d9c365fba24dc2de530abc33a4da2d932079162bea67"
+        }
+      ]
+    },
+    {
+      "id": "access-route-svg",
+      "variant": "access-route-20261020",
+      "role": "support",
+      "media": "image",
+      "revision": "91d9705a30a9fd3ae7e0e15dd8d76d93da2bc4fe8359b3e845310dfcda126408",
+      "file": "books/prospectus-isen-trial-2028/parts/access-route-svg/91d9705a30a9fd3ae7e0e15dd8d76d93da2bc4fe8359b3e845310dfcda126408/access-route-svg.svg",
+      "sha256": "91d9705a30a9fd3ae7e0e15dd8d76d93da2bc4fe8359b3e845310dfcda126408",
+      "size": 2362585,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-route-builder",
+          "revision": "d9234bc0008d5fe95bb8d0c5421e39d726c47ffaace389d3401ea5aa20179131"
+        },
+        {
+          "id": "access-route-base",
+          "revision": "a4d297ff51e97a57594497f78e9645171baecc78d61e22ba9cab10b21f3c696b"
+        },
+        {
+          "id": "access-route-trace",
+          "revision": "d4ae308695306f6b77d780f8929ea4c158ffc7455b115b845a6e86bfabd066e5"
+        }
+      ]
+    },
+    {
+      "id": "access-route-map",
+      "variant": "access-route-20261020",
+      "role": "support",
+      "media": "image",
+      "revision": "f22d288efab6e1220898fac2d6d54fe8c014266a748d0637e0153fa7853de27f",
+      "file": "books/prospectus-isen-trial-2028/parts/access-route-map/f22d288efab6e1220898fac2d6d54fe8c014266a748d0637e0153fa7853de27f/access-route-map.png",
+      "sha256": "f22d288efab6e1220898fac2d6d54fe8c014266a748d0637e0153fa7853de27f",
+      "size": 2222319,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-route-svg",
+          "revision": "91d9705a30a9fd3ae7e0e15dd8d76d93da2bc4fe8359b3e845310dfcda126408"
+        }
+      ]
+    },
+    {
+      "id": "access-route-qa",
+      "variant": "access-route-20261020",
+      "role": "support",
+      "media": "text",
+      "revision": "2f14b69413d61c672b8a6e7d35252e9ff52cc69b1602c1d6679d08172e5042c6",
+      "file": "books/prospectus-isen-trial-2028/parts/access-route-qa/2f14b69413d61c672b8a6e7d35252e9ff52cc69b1602c1d6679d08172e5042c6/access-route-qa.json",
+      "sha256": "2f14b69413d61c672b8a6e7d35252e9ff52cc69b1602c1d6679d08172e5042c6",
+      "size": 777,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-route-map",
+          "revision": "f22d288efab6e1220898fac2d6d54fe8c014266a748d0637e0153fa7853de27f"
+        },
+        {
+          "id": "access-route-school-aerial",
+          "revision": "71974894c258b8ca0a16674fcf9444b3da496a54d9cde71f39bfbc5d79055f22"
+        },
+        {
+          "id": "access-route-station-aerial",
+          "revision": "cdb62bff90a041b3b777dbd0c7542a9aadd29196f8e97382543a264066cb7ce2"
+        }
+      ]
+    },
+    {
+      "id": "access-route-review",
+      "variant": "access-route-20261020",
+      "role": "support",
+      "media": "text",
+      "revision": "2bd201039f5bc34bcfa15442fee28d259e99193ea6a58d47ea12ebed97949d68",
+      "file": "books/prospectus-isen-trial-2028/parts/access-route-review/2bd201039f5bc34bcfa15442fee28d259e99193ea6a58d47ea12ebed97949d68/access-route-review.md",
+      "sha256": "2bd201039f5bc34bcfa15442fee28d259e99193ea6a58d47ea12ebed97949d68",
+      "size": 2375,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "access-route-qa",
+          "revision": "2f14b69413d61c672b8a6e7d35252e9ff52cc69b1602c1d6679d08172e5042c6"
+        }
+      ]
     }
   ]
 }

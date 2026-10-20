@@ -1,0 +1,18 @@
+{
+  "route_point_max_offset_source_px": 0.9554903470895659,
+  "road_alignment_checked_excluding_station_forecourt": true,
+  "left_turn_westward": true,
+  "school_south_of_street": true,
+  "final_png_px": [
+    3072,
+    2048
+  ],
+  "self_review_rounds": 2,
+  "independent_review": false,
+  "source_sha256": {
+    ".cache/map-route-research/gsi-route-z18.png": "cf38e71cbd8b0a667e037448b0eca2fe304dd6a50b8f57994851e0b6deded625",
+    ".cache/map-route-research/school-aerial.png": "71974894c258b8ca0a16674fcf9444b3da496a54d9cde71f39bfbc5d79055f22",
+    ".cache/map-route-research/station-aerial.png": "cdb62bff90a041b3b777dbd0c7542a9aadd29196f8e97382543a264066cb7ce2",
+    "company-data/facts/school.yaml": "1542374cce1534bf98a6d260e3e2542a6857d48da768c0415c71a363d8e043c2"
+  }
+}
