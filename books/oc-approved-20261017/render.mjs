@@ -69,6 +69,21 @@ const allowedImages = new Set(
     .filter((i) => i.media === "image")
     .map((i) => path.resolve(root, i.path)),
 );
+// The media manifest is a verified input and declares the map as a dependency.
+// Resolve that current dependency explicitly rather than allowing arbitrary src paths.
+const mediaInput = snapshot.inputs.find((i) => i.id === "support-parts-photos-map-json");
+const mediaManifest = JSON.parse(await fs.readFile(path.join(root, mediaInput.path), "utf8"));
+if (mediaManifest.access_map) {
+  const declaredMap = mediaManifest.access_map;
+  const resolvedMap = JSON.parse(execFileSync(process.execPath, [
+    "--import", "tsx", path.join(root, "system/scripts/assets.ts"),
+    "get", "--root", root, "--document", snapshot.document,
+    "--id", declaredMap.asset_id, "--role", "support",
+  ], { cwd: root, encoding: "utf8" }));
+  if (resolvedMap.asset.media !== "image" || resolvedMap.asset.sha256 !== declaredMap.sha256)
+    throw new Error("Access map differs from the registered media manifest");
+  allowedImages.add(path.resolve(root, resolvedMap.path));
+}
 for (const match of [...html.matchAll(/src="([^"]+)"/g)]) {
   if (match[1].startsWith("data:")) throw new Error("Undeclared inline image");
   const file = path.resolve(book, "source", match[1]);

@@ -1,0 +1,44 @@
+{
+  "base_source": "books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_地図連絡先改訂.pdf",
+  "base_sha256": "33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56",
+  "new_access_source": "books/prospectus-isen-trial-2028/output/standard-render/standard-rendered-pdf/0dfd207433fe5ab3d7b2ef18763fda5b62db40bcdd474ce6a6a31fc4381aefe4/standard-rendered-pdf.pdf",
+  "new_access_sha256": "0dfd207433fe5ab3d7b2ef18763fda5b62db40bcdd474ce6a6a31fc4381aefe4",
+  "output_sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+  "pages": 16,
+  "changed_pages": [
+    15,
+    16
+  ],
+  "unchanged_page_pixels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "tuition_source_page_pixels_unchanged": [
+    true,
+    true,
+    true
+  ],
+  "native_currency_counts_unchanged": true,
+  "back_address_updated_from": "company-data/facts/school.yaml",
+  "address_overlay_box_pt": [
+    89,
+    568,
+    515,
+    585
+  ],
+  "self_review": true,
+  "independent_review": false,
+  "release": false
+}

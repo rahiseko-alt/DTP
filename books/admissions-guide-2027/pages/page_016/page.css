@@ -21,3 +21,8 @@
 .p16-qr{background:var(--color-background);padding:2.5mm;color:var(--color-text)}
 .p16-qr svg{display:block;width:24mm;height:24mm}
 .p16-qr p{margin:1mm 0 0!important;font-size:7pt;font-weight:700;text-align:center!important}
+
+/* 採用地図を幅いっぱいに配置。連絡先は地図・住所の下。 */
+.p16-map{margin:8mm 0 0;width:100%;aspect-ratio:3/2;background:white}
+.p16-map img{display:block;width:100%;height:100%;object-fit:contain}
+.p16-contact{top:202mm}

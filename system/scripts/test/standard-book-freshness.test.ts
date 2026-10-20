@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import fg from "fast-glob";
 import YAML from "yaml";
 import { describe, expect, it } from "vitest";
-import { AssetSchema, searchAssets, type Asset } from "../lib/assets.ts";
+import { AssetSchema, getAsset, searchAssets, type Asset } from "../lib/assets.ts";
 
 const root = fileURLToPath(new URL("../../..", import.meta.url));
 const books = [
@@ -61,18 +61,35 @@ for (const id of books) {
     it("keeps photo and preview dependencies connected to the PDF", () => {
       for (const photo of assets.filter((asset) => asset.role === "replacement-photo"))
         expect(pdf.built_from).toContainEqual({ id: photo.id, revision: photo.revision });
-      for (const preview of assets.filter((asset) => asset.role === "preview"))
-        expect(preview.built_from).toContainEqual({ id: pdf.id, revision: pdf.revision });
+      for (const preview of assets.filter((asset) => asset.role === "preview")) {
+        if (preview.input_provenance === "unverified")
+          expect(preview.built_from).toContainEqual({ id: pdf.id, revision: pdf.revision });
+        else
+          expect(preview.built_from.some((dependency) => assets.some((parent) =>
+            parent.id === dependency.id && parent.revision === dependency.revision && parent.media === "pdf",
+          ))).toBe(true);
+      }
     });
 
     it("does not promote old output bytes to a verified render of the new snapshot", async () => {
       expect(pdf.confirmation).toBe("verified");
       expect(pdf.input_provenance).toBe("unverified");
-      const result = await searchAssets(root, {
+      const selector = {
         document: id,
         variant: "standard-render",
-        role: "original",
-      });
+        role: "original" as const,
+      };
+      if (catalog.current[pdf.id] !== pdf.revision) {
+        expect(pdf.retired).toBe(true);
+        await expect(searchAssets(root, selector)).rejects.toMatchObject({ code: "NO_MATCH" });
+        const saved = await getAsset(root, id, pdf.id, { saved: true, revision: pdf.revision });
+        expect(saved.asset.sha256).toBe(pdf.sha256);
+        const currentRender = await getAsset(root, id, "standard-rendered-pdf");
+        expect(currentRender.asset.input_provenance).toBe("verified");
+        expect(currentRender.asset.sha256).not.toBe(pdf.sha256);
+        return;
+      }
+      const result = await searchAssets(root, selector);
       expect(result.matches).toHaveLength(1);
       expect(result.matches[0]!.availability).toBe("UNVERIFIED_OUTPUT");
     });

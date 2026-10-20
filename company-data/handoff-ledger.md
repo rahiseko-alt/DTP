@@ -332,3 +332,7 @@ PDF受渡し調査は人間の指示で保留。医専BOOKの地図第2案を画
 人間が前案を不十分と指摘し、再制作を指示。地理院標準地図z18と駅前・学校付近の航空写真を追加取得。8本の選択道路に絞った固定下図を画像生成へ入力し、道路・鉄道・赤い徒歩ルート例・矢印・曲がり角番号・亀島交番・消防署椿出張所・学校と駅西側のラベルをコードで合成。現行成果物は`prospectus-isen-trial-2028/access-route-map`、SVGは`access-route-svg`、variantは`access-route-20261020`、いずれもrole support。根拠画像・取得元・トレース座標・生成指示・再生成スクリプト・自己点検記録を登録。3072×2048px。駅ラベルによる出発番号の隠れを修正し2回目を目視済み。独立レビューなし。
 
 地図上で道路の接続と航空写真の形状を照合したルート例。太閤通口は駅西側の概略表示（公式駅構内図は通信制限）、現地踏査・歩道全区間・全横断箇所・建物の扉位置は未確認。施設名は地理院地図掲載の名称。冊子PDF・面付けPDFは未変更。旧地図は履歴として保持。ブランチ`fix/access-map-20261020`。
+
+## 2026-10-20 採用地図を最新3資料へ反映（Codex）
+
+人間の採用・反映指示で完了。最新版は、医専パンフ16P：`prospectus-isen-trial-2028/latest-prospectus-pdf`（role supportの組版用PDF。標準描画4Pと区別）、募集要項24P：`admissions-guide-2027/standard-rendered-pdf`、実写真OCチラシ2P：`oc-approved-20261017/combined-preview`。冊子は各`latest-print-a3/a4`、チラシは`latest-print-a4`。印刷ZIPを5PDFへ更新。取得先・SHA・ページ数は`downloads/latest-materials.json`、検証範囲と制約は`docs/audits/access-map-rollout-20261020.md`。パンフPDF15枚目・募集要項23頁・チラシ裏へ配置し、パンフ裏の旧住所も正本へ訂正。学校事実・学費・入試条件は未変更。型検査・データ/素材検査エラー0、関連34試験成功。全体checkは指定ブラウザ等の既存失敗が残り未合格。Chromium154による確認用、自己点検のみ、入稿/現地/実物試し刷り未確認。ブランチ`fix/access-map-20261020`、PR #62。

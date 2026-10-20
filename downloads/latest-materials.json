@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-20",
+  "documents": {
+    "brochure": {
+      "document": "prospectus-isen-trial-2028",
+      "asset_id": "latest-prospectus-pdf",
+      "file": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
+      "sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+      "pages": 16,
+      "bytes": 113453759,
+      "qr_decoded": {
+        "15": [
+          "https://kaihougakuen.my.canva.site/"
+        ]
+      },
+      "saddle_fold_reading_order_verified": true,
+      "back_cover_change_bbox_pt": [
+        92,
+        570,
+        307,
+        581
+      ]
+    },
+    "admissions": {
+      "document": "admissions-guide-2027",
+      "asset_id": "standard-rendered-pdf",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-pdf/17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052/standard-rendered-pdf.pdf",
+      "sha256": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052",
+      "pages": 24,
+      "bytes": 19357455,
+      "qr_decoded": {
+        "23": [
+          "https://kaihougakuen.my.canva.site/"
+        ]
+      },
+      "blank_reverse_pages_checked": [
+        8,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      "saddle_fold_reading_order_verified": true
+    },
+    "flyer": {
+      "document": "oc-approved-20261017",
+      "asset_id": "combined-preview",
+      "file": "books/oc-approved-20261017/output/combined-preview/f089c1dfee24afa2d5bda0e981331afa6b7cbd6325acee1827ba0b2264fe5e86/combined-preview.pdf",
+      "sha256": "f089c1dfee24afa2d5bda0e981331afa6b7cbd6325acee1827ba0b2264fe5e86",
+      "pages": 2,
+      "bytes": 24728385,
+      "qr_decoded": {
+        "1": [
+          "https://kaihougakuen.my.canva.site/"
+        ],
+        "2": [
+          "https://kaihougakuen.my.canva.site/"
+        ]
+      }
+    }
+  },
+  "print_bundle": "downloads/print-pdfs.zip",
+  "bundle_sha256": "a07cf9f19727197cca543b7026d0a74163c821e734668eef1c9e990ce377a7c6",
+  "bundle_pdf_names": [
+    "brochure-A3.pdf",
+    "brochure-A4.pdf",
+    "admissions-A3.pdf",
+    "admissions-A4.pdf",
+    "flyer-A4.pdf"
+  ]
+}

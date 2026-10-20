@@ -31,6 +31,13 @@ beforeEach(async () => {
   write("company-data/facts/school.yaml", "name: Before\n");
   write("company-data/photos/photos.yaml", fs.readFileSync(path.join(sourceRoot, "company-data/photos/photos.yaml")));
   const catalog = YAML.parse(fs.readFileSync(path.join(sourceRoot, book, "parts/catalog.yaml"), "utf8"));
+  // Start this mock studio before its first render, independently of real BOOK history.
+  catalog.assets = catalog.assets.filter((asset: { id: string; role: string; input_provenance?: string }) =>
+    asset.id === "approved-original" || asset.role === "replacement-photo" ||
+    (asset.role === "preview" && asset.input_provenance === "unverified"),
+  );
+  catalog.current = Object.fromEntries(catalog.assets.map((asset: { id: string; revision: string }) => [asset.id, asset.revision]));
+  for (const asset of catalog.assets) delete asset.retired;
   catalog.assets.find((a: {id:string}) => a.id === "approved-original").external_input_globs = [
     "company-data/facts/*.yaml", `${book}/config/book.yaml`,
   ].map(pattern => ({ pattern, sha256: hashExternalInputGlob(root, pattern) }));

@@ -2,13 +2,9 @@
   "schema_version": 1,
   "document": "prospectus-isen-trial-2028",
   "current": {
-    "approved-original": "1375220863d7f0509b3bac82ae4f0c26472bcee7cc08d6d66fdbd4ac4e4ade37",
-    "preview-page-001": "a843ad620b2982c3da72139096bf5fbe023e4e527e4655ef16dd2832711b4365",
     "student-img-5076": "0ca846c9aeca9c56b254c7abf1a66efe99bd126f4dfcc91d5b1d296a6feca26c",
     "page-selection-18p": "be54ec78550d38e2c41cd0a786dd1771d91055b71c74119ce1b6c13c62595392",
-    "white-18p-without-group-pages": "c8f218c8e1a257ef550835600731f235d55e694b33a48a75ad23cb20651236b4",
     "page-selection-16p": "2c0061461b9adda7ae3fb17958f8461d7bbe58bcfeff44f25471f42272ed623e",
-    "white-16p-without-group-and-school-pr": "aa1fe12dcc819a21af749eac07fe0dd56c54a18f5b1cb80fc267119337c184da",
     "access-gsi-reference": "9ce300e50a1e18c0c3c6f7c7cc1df1c369cbda72e137e79a5c06023653456e3f",
     "access-gsi-school-marked": "b324be7a579bc4897c180d455af9b8194462dbe3b06a9c2c725183d189933ad9",
     "access-gsi-tile-sources": "78bb1e49fef8011fd7b310dd00fb694ece9b1b16b3fe671a52fce8950d476bf1",
@@ -19,18 +15,11 @@
     "access-map-standalone-layout": "98ca5a5dd1aadc1a2754e15fee12acb577701da648d9fad816afb14e1fb93ea7",
     "access-map-labeled": "e8adada6a16b39122df9e22c8cbf8dbabeda7a7eb7a5cc554847e1ae94cc03a8",
     "access-revision-record": "51880dcd886a6939ff3ec6553e056cb340ca78fdf14777e019011bc27c32414e",
-    "tuition-admissions-access-pages": "49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f",
-    "white-16p-access-map-revised": "33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56",
-    "access-page-preview": "b748c3568eda65b3f32cc302b05f59d30a6b3f96c3828295bd7eea2442af23fa",
     "saddle-print-record": "39d3e911e5c03b4532b01a1648732979b3386b41b843ad738d2aa6bb4c7f3f2b",
-    "saddle-print-a3": "8115f881a1c3a3080ebe52c254ed9f8173d0d6ad2a67c38094b9c2790a722b45",
-    "saddle-print-a4": "bbc0ea8f1eaaa16f0b86c7845daec9092086d7c3a2637c124a6063b4019b7df5",
     "saddle-print-builder": "c7f326c701cdf3159e009e2eea8398fd651d44b806738152e6200913a1dbfba1",
     "saddle-print-spec": "d8e866696089414471dff8f19b7419d5647ba5aac0cd3995898eecd3a1c31323",
     "saddle-print-instructions": "445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b",
     "saddle-print-light-record": "f3d0c66cef9c90819f9926e0ee74b336c5f3e516d0e041ff11be9162a1f8bfaf",
-    "saddle-print-light-a3": "6c6f07b20e56426202170bb43e2ec9559c7389f213747682b8353fdecd93b411",
-    "saddle-print-light-a4": "9e60fa41c697dfadbb4913f947d1fbf7c12ef2c3017670e381c46fb40f541b8e",
     "saddle-print-optimizer": "4a17a91167566312decc7e757a449760616431d8365dad59fa40075767400265",
     "access-map-v2-prompt": "3b14a09ce0eb340456631a0de748dcf82d92e8d59aa1422118cd32c3f8c62a10",
     "access-map-v2-builder": "8072b711d0782d09b7eb010803bc7f26c16506061a092584af443f96bfec95da",
@@ -50,7 +39,22 @@
     "access-route-svg": "91d9705a30a9fd3ae7e0e15dd8d76d93da2bc4fe8359b3e845310dfcda126408",
     "access-route-map": "f22d288efab6e1220898fac2d6d54fe8c014266a748d0637e0153fa7853de27f",
     "access-route-qa": "2f14b69413d61c672b8a6e7d35252e9ff52cc69b1602c1d6679d08172e5042c6",
-    "access-route-review": "2bd201039f5bc34bcfa15442fee28d259e99193ea6a58d47ea12ebed97949d68"
+    "access-route-review": "2bd201039f5bc34bcfa15442fee28d259e99193ea6a58d47ea12ebed97949d68",
+    "standard-render-config": "a24c92793f92bdf6b08094aba82a0e06bd3055f35811bb16f65f6a7ea897af17",
+    "standard-rendered-pdf": "0dfd207433fe5ab3d7b2ef18763fda5b62db40bcdd474ce6a6a31fc4381aefe4",
+    "standard-rendered-page-001": "c6406189ea72b0a0b2565a148710a084b3c51ce00ed3badc7f8aa2fcf4d802b7",
+    "standard-rendered-page-002": "15a289b287308fa1bacad5f9968d3a894c0f7b3d0704ca275717192c94c31faa",
+    "standard-rendered-page-003": "dd623e6787c3c5fb4328cda0eab28b55065a1cbdcfd649265aea99e50d826ad1",
+    "standard-rendered-page-004": "f5e7fa85b52fb092def312d2d0c8f8229a39b107ed82be5d9f9f01413b03dc7c",
+    "access-rollout-base-16p": "33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56",
+    "access-rollout-assembler": "39d9e6765a35b40db4da243bc5784b91866c558858557a2eb99c3498b7376aa2",
+    "access-rollout-proof": "9c4de4191b091c70510b8e24ae58ab8eb9933eb8438daa39a0dcd5207838ace1",
+    "latest-prospectus-pdf": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+    "adopted-map-print-builder": "857fe82e258f8078ac1f0cdff60d6e09c38b7dd8d04ddba6c67c26e888260ba9",
+    "adopted-map-print-proof": "43072a8c0bc1a7df28493c687b1a0c8f6a25221d75029d0a9db69342a3d569d7",
+    "latest-print-a3": "6aa914deff3161c99a21d284b03a43fb3bf2f7894223c1d5ca8bed42d8fca881",
+    "latest-print-a4": "1a82b06830528b7a914575525148c56b6107a5b6f206b8c7afa117fb8eeca185",
+    "adopted-map-all-pages": "690e9d63ff1c60a0ac541d90acd7a437f1926c4b7325a9446ae03140a6276b6a"
   },
   "assets": [
     {
@@ -66,6 +70,7 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "unverified",
+      "retired": true,
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -113,6 +118,7 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "unverified",
+      "retired": true,
       "external_inputs": [],
       "built_from": [
         {
@@ -164,6 +170,7 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "unverified",
+      "retired": true,
       "external_inputs": [],
       "built_from": [
         {
@@ -204,6 +211,7 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "unverified",
+      "retired": true,
       "external_inputs": [],
       "built_from": [
         {
@@ -869,7 +877,8 @@
           "id": "access-map-labels",
           "revision": "28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f"
         }
-      ]
+      ],
+      "retired": true
     },
     {
       "id": "white-16p-access-map-revised",
@@ -888,6 +897,7 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "unverified",
+      "retired": true,
       "external_inputs": [],
       "built_from": [
         {
@@ -919,7 +929,8 @@
           "id": "tuition-admissions-access-pages",
           "revision": "49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f"
         }
-      ]
+      ],
+      "retired": true
     },
     {
       "id": "saddle-print-record",
@@ -966,6 +977,7 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "unverified",
+      "retired": true,
       "external_inputs": [],
       "built_from": [
         {
@@ -991,6 +1003,7 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "unverified",
+      "retired": true,
       "external_inputs": [],
       "built_from": [
         {
@@ -1081,6 +1094,7 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "unverified",
+      "retired": true,
       "external_inputs": [],
       "built_from": [
         {
@@ -1106,6 +1120,7 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "unverified",
+      "retired": true,
       "external_inputs": [],
       "built_from": [
         {
@@ -1600,6 +1615,449 @@
         {
           "id": "access-route-qa",
           "revision": "2f14b69413d61c672b8a6e7d35252e9ff52cc69b1602c1d6679d08172e5042c6"
+        }
+      ]
+    },
+    {
+      "id": "standard-render-config",
+      "variant": "standard-render",
+      "role": "support",
+      "media": "text",
+      "revision": "a24c92793f92bdf6b08094aba82a0e06bd3055f35811bb16f65f6a7ea897af17",
+      "file": "books/prospectus-isen-trial-2028/parts/render-config/a24c92793f92bdf6b08094aba82a0e06bd3055f35811bb16f65f6a7ea897af17/book.yaml",
+      "sha256": "a24c92793f92bdf6b08094aba82a0e06bd3055f35811bb16f65f6a7ea897af17",
+      "size": 2417,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "standard-rendered-pdf",
+      "variant": "standard-render",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "0dfd207433fe5ab3d7b2ef18763fda5b62db40bcdd474ce6a6a31fc4381aefe4",
+      "file": "books/prospectus-isen-trial-2028/output/standard-render/standard-rendered-pdf/0dfd207433fe5ab3d7b2ef18763fda5b62db40bcdd474ce6a6a31fc4381aefe4/standard-rendered-pdf.pdf",
+      "sha256": "0dfd207433fe5ab3d7b2ef18763fda5b62db40bcdd474ce6a6a31fc4381aefe4",
+      "size": 5512291,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/prospectus-isen-trial-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "255466b1c4a7b21174299cee789a82466da90f26cf2107a65fb0d0079dfbcdda"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-render-config",
+          "revision": "a24c92793f92bdf6b08094aba82a0e06bd3055f35811bb16f65f6a7ea897af17"
+        }
+      ]
+    },
+    {
+      "id": "standard-rendered-page-001",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "c6406189ea72b0a0b2565a148710a084b3c51ce00ed3badc7f8aa2fcf4d802b7",
+      "file": "books/prospectus-isen-trial-2028/output/standard-render/standard-rendered-page-001/c6406189ea72b0a0b2565a148710a084b3c51ce00ed3badc7f8aa2fcf4d802b7/standard-rendered-page-001.png",
+      "sha256": "c6406189ea72b0a0b2565a148710a084b3c51ce00ed3badc7f8aa2fcf4d802b7",
+      "size": 1795224,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/prospectus-isen-trial-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "255466b1c4a7b21174299cee789a82466da90f26cf2107a65fb0d0079dfbcdda"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "0dfd207433fe5ab3d7b2ef18763fda5b62db40bcdd474ce6a6a31fc4381aefe4"
+        }
+      ]
+    },
+    {
+      "id": "standard-rendered-page-002",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "15a289b287308fa1bacad5f9968d3a894c0f7b3d0704ca275717192c94c31faa",
+      "file": "books/prospectus-isen-trial-2028/output/standard-render/standard-rendered-page-002/15a289b287308fa1bacad5f9968d3a894c0f7b3d0704ca275717192c94c31faa/standard-rendered-page-002.png",
+      "sha256": "15a289b287308fa1bacad5f9968d3a894c0f7b3d0704ca275717192c94c31faa",
+      "size": 620937,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/prospectus-isen-trial-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "255466b1c4a7b21174299cee789a82466da90f26cf2107a65fb0d0079dfbcdda"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "0dfd207433fe5ab3d7b2ef18763fda5b62db40bcdd474ce6a6a31fc4381aefe4"
+        }
+      ]
+    },
+    {
+      "id": "standard-rendered-page-003",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "dd623e6787c3c5fb4328cda0eab28b55065a1cbdcfd649265aea99e50d826ad1",
+      "file": "books/prospectus-isen-trial-2028/output/standard-render/standard-rendered-page-003/dd623e6787c3c5fb4328cda0eab28b55065a1cbdcfd649265aea99e50d826ad1/standard-rendered-page-003.png",
+      "sha256": "dd623e6787c3c5fb4328cda0eab28b55065a1cbdcfd649265aea99e50d826ad1",
+      "size": 834837,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/prospectus-isen-trial-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "255466b1c4a7b21174299cee789a82466da90f26cf2107a65fb0d0079dfbcdda"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "0dfd207433fe5ab3d7b2ef18763fda5b62db40bcdd474ce6a6a31fc4381aefe4"
+        }
+      ]
+    },
+    {
+      "id": "standard-rendered-page-004",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "f5e7fa85b52fb092def312d2d0c8f8229a39b107ed82be5d9f9f01413b03dc7c",
+      "file": "books/prospectus-isen-trial-2028/output/standard-render/standard-rendered-page-004/f5e7fa85b52fb092def312d2d0c8f8229a39b107ed82be5d9f9f01413b03dc7c/standard-rendered-page-004.png",
+      "sha256": "f5e7fa85b52fb092def312d2d0c8f8229a39b107ed82be5d9f9f01413b03dc7c",
+      "size": 2188353,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/prospectus-isen-trial-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "255466b1c4a7b21174299cee789a82466da90f26cf2107a65fb0d0079dfbcdda"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "0dfd207433fe5ab3d7b2ef18763fda5b62db40bcdd474ce6a6a31fc4381aefe4"
+        }
+      ]
+    },
+    {
+      "id": "access-rollout-base-16p",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "pdf",
+      "revision": "33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56",
+      "file": "books/prospectus-isen-trial-2028/parts/access-rollout-base-16p/33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56/access-rollout-base-16p.pdf",
+      "sha256": "33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56",
+      "size": 111425684,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "access-rollout-assembler",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "text",
+      "revision": "39d9e6765a35b40db4da243bc5784b91866c558858557a2eb99c3498b7376aa2",
+      "file": "books/prospectus-isen-trial-2028/parts/access-rollout-assembler/39d9e6765a35b40db4da243bc5784b91866c558858557a2eb99c3498b7376aa2/access-rollout-assembler.py",
+      "sha256": "39d9e6765a35b40db4da243bc5784b91866c558858557a2eb99c3498b7376aa2",
+      "size": 2925,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "access-rollout-proof",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "text",
+      "revision": "9c4de4191b091c70510b8e24ae58ab8eb9933eb8438daa39a0dcd5207838ace1",
+      "file": "books/prospectus-isen-trial-2028/parts/access-rollout-proof/9c4de4191b091c70510b8e24ae58ab8eb9933eb8438daa39a0dcd5207838ace1/access-rollout-proof.json",
+      "sha256": "9c4de4191b091c70510b8e24ae58ab8eb9933eb8438daa39a0dcd5207838ace1",
+      "size": 1128,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "0dfd207433fe5ab3d7b2ef18763fda5b62db40bcdd474ce6a6a31fc4381aefe4"
+        },
+        {
+          "id": "access-rollout-base-16p",
+          "revision": "33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56"
+        }
+      ]
+    },
+    {
+      "id": "latest-prospectus-pdf",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "pdf",
+      "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+      "file": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
+      "sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+      "size": 113453759,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "0dfd207433fe5ab3d7b2ef18763fda5b62db40bcdd474ce6a6a31fc4381aefe4"
+        },
+        {
+          "id": "access-rollout-base-16p",
+          "revision": "33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56"
+        },
+        {
+          "id": "access-rollout-assembler",
+          "revision": "39d9e6765a35b40db4da243bc5784b91866c558858557a2eb99c3498b7376aa2"
+        },
+        {
+          "id": "access-rollout-proof",
+          "revision": "9c4de4191b091c70510b8e24ae58ab8eb9933eb8438daa39a0dcd5207838ace1"
+        }
+      ]
+    },
+    {
+      "id": "adopted-map-print-builder",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "text",
+      "revision": "857fe82e258f8078ac1f0cdff60d6e09c38b7dd8d04ddba6c67c26e888260ba9",
+      "file": "books/prospectus-isen-trial-2028/parts/adopted-map-print-builder/857fe82e258f8078ac1f0cdff60d6e09c38b7dd8d04ddba6c67c26e888260ba9/adopted-map-print-builder.py",
+      "sha256": "857fe82e258f8078ac1f0cdff60d6e09c38b7dd8d04ddba6c67c26e888260ba9",
+      "size": 6022,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "adopted-map-print-proof",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "text",
+      "revision": "43072a8c0bc1a7df28493c687b1a0c8f6a25221d75029d0a9db69342a3d569d7",
+      "file": "books/prospectus-isen-trial-2028/parts/adopted-map-print-proof/43072a8c0bc1a7df28493c687b1a0c8f6a25221d75029d0a9db69342a3d569d7/adopted-map-print-proof.json",
+      "sha256": "43072a8c0bc1a7df28493c687b1a0c8f6a25221d75029d0a9db69342a3d569d7",
+      "size": 2637,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-prospectus-pdf",
+          "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+        },
+        {
+          "id": "adopted-map-print-builder",
+          "revision": "857fe82e258f8078ac1f0cdff60d6e09c38b7dd8d04ddba6c67c26e888260ba9"
+        }
+      ]
+    },
+    {
+      "id": "latest-print-a3",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "pdf",
+      "revision": "6aa914deff3161c99a21d284b03a43fb3bf2f7894223c1d5ca8bed42d8fca881",
+      "file": "books/prospectus-isen-trial-2028/parts/latest-print-a3/6aa914deff3161c99a21d284b03a43fb3bf2f7894223c1d5ca8bed42d8fca881/latest-print-a3.pdf",
+      "sha256": "6aa914deff3161c99a21d284b03a43fb3bf2f7894223c1d5ca8bed42d8fca881",
+      "size": 4049495,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-prospectus-pdf",
+          "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+        },
+        {
+          "id": "adopted-map-print-proof",
+          "revision": "43072a8c0bc1a7df28493c687b1a0c8f6a25221d75029d0a9db69342a3d569d7"
+        }
+      ]
+    },
+    {
+      "id": "latest-print-a4",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "pdf",
+      "revision": "1a82b06830528b7a914575525148c56b6107a5b6f206b8c7afa117fb8eeca185",
+      "file": "books/prospectus-isen-trial-2028/parts/latest-print-a4/1a82b06830528b7a914575525148c56b6107a5b6f206b8c7afa117fb8eeca185/latest-print-a4.pdf",
+      "sha256": "1a82b06830528b7a914575525148c56b6107a5b6f206b8c7afa117fb8eeca185",
+      "size": 2686448,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-prospectus-pdf",
+          "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+        },
+        {
+          "id": "adopted-map-print-proof",
+          "revision": "43072a8c0bc1a7df28493c687b1a0c8f6a25221d75029d0a9db69342a3d569d7"
+        }
+      ]
+    },
+    {
+      "id": "adopted-map-all-pages",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "image",
+      "revision": "690e9d63ff1c60a0ac541d90acd7a437f1926c4b7325a9446ae03140a6276b6a",
+      "file": "books/prospectus-isen-trial-2028/parts/adopted-map-all-pages/690e9d63ff1c60a0ac541d90acd7a437f1926c4b7325a9446ae03140a6276b6a/adopted-map-all-pages.jpg",
+      "sha256": "690e9d63ff1c60a0ac541d90acd7a437f1926c4b7325a9446ae03140a6276b6a",
+      "size": 474209,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-prospectus-pdf",
+          "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
         }
       ]
     }
