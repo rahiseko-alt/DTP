@@ -1,0 +1,11 @@
+{
+  "command": "npm run validate",
+  "exit_code": 1,
+  "error_counts": {
+    "LEGACY_NEW": 484,
+    "LEGACY_CHANGED": 1,
+    "STALE_OUTPUT": 46
+  },
+  "total_errors": 531,
+  "note": "Global STALE/legacy registration differences remain; not a passed validation. Cover-only checks and PDF delivery checks passed separately."
+}

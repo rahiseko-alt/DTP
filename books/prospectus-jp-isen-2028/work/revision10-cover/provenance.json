@@ -1,0 +1,36 @@
+{
+  "revision": 10,
+  "scope": "photo crop, scale and horizontal centering only; all other cover pixels and body fixed",
+  "baseline_cover": "books/prospectus-jp-isen-2028/work/revision9-cover/cover-page.png",
+  "baseline_cover_sha256": "5920a376fa0520ccd7acdc75f2566be69f086e1aed2473a700938944d5871ca5",
+  "source_photo": "shared/generated-assets/cover-group-jp/日本人版マシな方1.png",
+  "source_photo_sha256": "3dcc490b25f35f2dba66fa46276f9d60f9f55a17d5444888549d5ee019698157",
+  "source_photo_crop_xyxy": [
+    302,
+    300.2766129032258,
+    1245,
+    1060
+  ],
+  "original_photo_rect_px": [
+    0,
+    640,
+    2480,
+    2638
+  ],
+  "source_photo_changed_pixels_after_placement": 0,
+  "photo_scale_isotropic": 2.6299045599151643,
+  "photo_effective_dpi": 114.0725806451613,
+  "zoom_relative_to_revision9": 1.1452810180275717,
+  "source_crop_center_x": 773.5,
+  "placed_image_center_x": 1240,
+  "page_center_x": 1240,
+  "left_isolated_man": "excluded by crop starting at x302; no person regeneration or retouch",
+  "outside_photo_rect_changed_pixels": 0,
+  "header_changed_pixels": 0,
+  "copy_band_floor_filters": "all revision9 pixels outside the photograph rectangle retained exactly",
+  "new_generation": false,
+  "photo_cutout": false,
+  "photo_mask": null,
+  "photo_fade": false,
+  "cover_sha256": "8fec7889ae8f669f1de9fc9ef8eabd4d68f18007b30d41a1ba9ef79cdabfb3ea"
+}

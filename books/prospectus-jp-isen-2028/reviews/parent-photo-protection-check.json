@@ -1,10 +1,11 @@
 {
-  "revision": 9,
+  "revision": 10,
   "records": [
     {
       "page": 1,
-      "scope": "original complete room/group/contact shadows retained; generated foreground floor extension only; body fixed",
-      "sha256": "5920a376fa0520ccd7acdc75f2566be69f086e1aed2473a700938944d5871ca5"
+      "scope": "photo crop/scale/centering only; all revision9 pixels outside photograph rect unchanged",
+      "sha256": "8fec7889ae8f669f1de9fc9ef8eabd4d68f18007b30d41a1ba9ef79cdabfb3ea",
+      "outside_photo_rect_changed_pixels": 0
     },
     {
       "page": 2,
@@ -67,5 +68,5 @@
       "outside_declared_photo_or_person_mask_changed_pixels": 0
     }
   ],
-  "body_review": "Body unchanged from human-confirmed revision2; see cover-only-revision3-proof.json"
+  "body_review": "Body unchanged from human-confirmed revision2; see cover-only-revision10-proof.json"
 }
