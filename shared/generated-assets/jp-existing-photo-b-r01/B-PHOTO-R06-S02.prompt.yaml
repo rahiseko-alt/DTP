@@ -1,0 +1,27 @@
+id: B-PHOTO-R06-S02
+proposal: B
+model: image_gen
+created: '2026-10-21'
+author: codex
+prompt: New panoramic approximately 1.87:1 school brochure hero photograph. White-shirt
+  Japanese male teacher about 43, short upward-brushed black hair, slightly high hairline,
+  prominent ears, narrow oval face, broad forehead, fine lines, natural lightly tanned
+  skin, clean-shaven, no glasses. Teacher seated center-left as protagonist, looking
+  into a female student’s eyes, eyebrows engaged, attentive eyes with natural catchlights,
+  slight warm smile and mouth open mid-explanation, one hand gesturing naturally.
+  Exactly 3 adult students, man far left operating low laptop, woman sage shirt at
+  right making eye contact and understanding smile, third beige sweater woman far
+  right observing with pen and notebook. Different eye lines. Bright modest computer
+  classroom, natural consistent window light, calm upper-left wall for later typography,
+  avoid excessive tabletop. New entire scene from text only, realistic anatomy, no
+  camera poses or plastic skin. No text or logos.
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+reference_inputs: []
+params:
+  transparent_background: false
+size: 1716x917
+sha256: 1cfee706f50a5ccc6f6ebb7bdfd10aefbecc2e4759a3260105fc40ae27b52ad8
+notes: promptは指示の要約。画像参照なし。添付男性の外見は言語記述だけであり本人との同一性は未固定。生きた説明表情と学生の応答を重視した横長の新構図。紙面未反映、未採用。
+self_review: 生成画像を目視。講師が主役となり学生へ目を向け、口元と手に説明の動きがある。学生が講師に目を合わせる。1716x917で横長枠に近い。最終解像度と実紙面合成は未検証。
+independent_review: false
