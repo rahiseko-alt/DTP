@@ -1,0 +1,22 @@
+{
+  "source_size": [
+    3508,
+    2480,
+    3
+  ],
+  "result_size": [
+    3508,
+    2480,
+    3
+  ],
+  "changed_outside_photo_pixels": 0,
+  "mask_size": [
+    3508,
+    2480
+  ],
+  "mask_nonzero": 35346,
+  "changed_mask_pixels": 0,
+  "reviewed_page_sha256": "33596c07a4dc62928380df3d66e78cc7f1973ac136d3c707e116736a6eea8386",
+  "work_source_matches_canonical_embedded_pixels": true,
+  "source_pdf_sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+}

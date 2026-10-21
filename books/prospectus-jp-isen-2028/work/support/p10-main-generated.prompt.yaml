@@ -1,0 +1,41 @@
+tool: image_gen.imagegen
+model: gpt-image (tool model version unavailable)
+prompt: 'Edit only people in the supplied reference photographs. These are fictional
+  recruitment illustration photos, not documentary evidence. Create natural, realistic
+  Japanese brochure casting (Japanese-image East Asian appearance as an art direction,
+  do not claim to identify anyone''s nationality). Every visible man must be completely
+  clean-shaven, no moustache or stubble. Replace any head-wrapped cloth/headscarf
+  and ethnic outfits with everyday casual clothing and natural uncovered black or
+  dark brown hair. Keep the same people count, age ranges, genders, positions, gaze,
+  expressions, conversation, hand actions, camera angle, crop, lighting and indoor
+  background. Each face must be a new fictional identity, not an exact copy of any
+  real individual. Photographic realism, natural skin and hands. No text, letters,
+  typography, words, numbers, logo, watermark, signature, QR code, caption. This is
+  one wide photograph: five people, a young woman on far left, a young man in green,
+  middle-aged female teacher in beige at center, young woman in pink, and man at far
+  right. Preserve all five and their interaction precisely. The gray obscured rectangular
+  areas and pale blue circle are protected overlay zones: leave their dimensions and
+  positions unchanged and blank. Preserve the exact image edges and don''t zoom. Return
+  a wide image with same aspect ratio.'
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+size: 1975x796
+created: '2026-10-21'
+author: codex / jp_isen_support
+reference_inputs:
+- path: books/prospectus-jp-isen-2028/work/support/p10-main-input.png
+  usage: img2img
+  note: Only isolated photograph crop/contact sheet; not a full publication page.
+    P10/11 main text regions masked before input. Fixed contact sheet coordinates
+    in spec.json.
+params:
+  transparent_background: false
+source_refs:
+- books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf
+notes: User explicitly authorized AI editing of existing people photos in this work
+  scope. New fictional Japanese-image casting is visual art direction, not nationality
+  identification. Men clean shaven; headscarves replaced with ordinary hair/clothing.
+  Original inputs and generated output retained for reproduction. Output subsequently
+  composited by compose.py; no full-page generation.
+sha256: a73980e23fb796ae6974575fe146dbfd6b0251dee5f2e0c5974aa872df6ba5c4

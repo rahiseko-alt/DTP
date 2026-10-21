@@ -54,7 +54,17 @@
     "adopted-map-print-proof": "43072a8c0bc1a7df28493c687b1a0c8f6a25221d75029d0a9db69342a3d569d7",
     "latest-print-a3": "6aa914deff3161c99a21d284b03a43fb3bf2f7894223c1d5ca8bed42d8fca881",
     "latest-print-a4": "1a82b06830528b7a914575525148c56b6107a5b6f206b8c7afa117fb8eeca185",
-    "adopted-map-all-pages": "690e9d63ff1c60a0ac541d90acd7a437f1926c4b7325a9446ae03140a6276b6a"
+    "adopted-map-all-pages": "690e9d63ff1c60a0ac541d90acd7a437f1926c4b7325a9446ae03140a6276b6a",
+    "jp-isen-saved-source16": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+    "jp-isen-reading-pdf": "d1f6ec5bff5c87141367cba38ad6f636cf16f31133b183dc5ade538f8a074edf",
+    "jp-isen-print-a3": "6d20d99a3d05d1af15611e1b847534b970f0089a574e9c3811d27bc247362a9a",
+    "jp-isen-print-a4": "1d783b5c23bbe67b6300841ed34ecef60bf24509bae4efd475b9212df7d1b987",
+    "jp-isen-master-pdf": "4ef58da597e5c069f6d240139db2f45616555031d2ea8373e76f98c1f47ac949",
+    "jp-isen-assembly-proof": "4cf13a24c5280c3ec85956203f40f709f36aaca78922942cd8113a7f7476674d",
+    "jp-isen-overview-01": "202fb88bed379aa40dd85dc49ab3ee62cd9751c2249ea8149892498afcd7c20a",
+    "jp-isen-overview-05": "5bf5205cc12ca984c1367471f258bf78cda06a0e38020d4427bfaab292e36b34",
+    "jp-isen-overview-09": "1e706b8917bd439c3b1a90fcfb77046622ef61153629c13524a3b534af3cd2a9",
+    "jp-isen-overview-13": "c25281d542776acb147072c586690ffac1f219fb0e7d064955603c84ef64b853"
   },
   "assets": [
     {
@@ -812,6 +822,7 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "retired": true,
       "external_inputs": [
         {
           "path": "company-data/ledger.md",
@@ -877,8 +888,7 @@
           "id": "access-map-labels",
           "revision": "28cb5a9f1a668f18faac91517e183c2228439a36652669fc917efc6ccdfc179f"
         }
-      ],
-      "retired": true
+      ]
     },
     {
       "id": "white-16p-access-map-revised",
@@ -923,14 +933,14 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "retired": true,
       "external_inputs": [],
       "built_from": [
         {
           "id": "tuition-admissions-access-pages",
           "revision": "49d41713f553a0bf81d45cbcf13e0e290a116586cf2daa5ef2aebab422c5055f"
         }
-      ],
-      "retired": true
+      ]
     },
     {
       "id": "saddle-print-record",
@@ -2057,6 +2067,201 @@
       "built_from": [
         {
           "id": "latest-prospectus-pdf",
+          "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-saved-source16",
+      "variant": "saved-source-snapshot",
+      "role": "support",
+      "media": "pdf",
+      "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-saved-source16/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/jp-isen-saved-source16.pdf",
+      "sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+      "size": 113453759,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "jp-isen-reading-pdf",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "pdf",
+      "revision": "d1f6ec5bff5c87141367cba38ad6f636cf16f31133b183dc5ade538f8a074edf",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/d1f6ec5bff5c87141367cba38ad6f636cf16f31133b183dc5ade538f8a074edf/jp-isen-reading-pdf.pdf",
+      "sha256": "d1f6ec5bff5c87141367cba38ad6f636cf16f31133b183dc5ade538f8a074edf",
+      "size": 6752249,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-saved-source16",
+          "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-print-a3",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "pdf",
+      "revision": "6d20d99a3d05d1af15611e1b847534b970f0089a574e9c3811d27bc247362a9a",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/6d20d99a3d05d1af15611e1b847534b970f0089a574e9c3811d27bc247362a9a/jp-isen-print-a3.pdf",
+      "sha256": "6d20d99a3d05d1af15611e1b847534b970f0089a574e9c3811d27bc247362a9a",
+      "size": 4082620,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-saved-source16",
+          "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-print-a4",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "pdf",
+      "revision": "1d783b5c23bbe67b6300841ed34ecef60bf24509bae4efd475b9212df7d1b987",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a4/1d783b5c23bbe67b6300841ed34ecef60bf24509bae4efd475b9212df7d1b987/jp-isen-print-a4.pdf",
+      "sha256": "1d783b5c23bbe67b6300841ed34ecef60bf24509bae4efd475b9212df7d1b987",
+      "size": 2696474,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-saved-source16",
+          "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-master-pdf",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "pdf",
+      "revision": "4ef58da597e5c069f6d240139db2f45616555031d2ea8373e76f98c1f47ac949",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-master-pdf/4ef58da597e5c069f6d240139db2f45616555031d2ea8373e76f98c1f47ac949/jp-isen-master-pdf.pdf",
+      "sha256": "4ef58da597e5c069f6d240139db2f45616555031d2ea8373e76f98c1f47ac949",
+      "size": 122332325,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-saved-source16",
+          "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-assembly-proof",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "text",
+      "revision": "4cf13a24c5280c3ec85956203f40f709f36aaca78922942cd8113a7f7476674d",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-assembly-proof/4cf13a24c5280c3ec85956203f40f709f36aaca78922942cd8113a7f7476674d/jp-isen-assembly-proof.json",
+      "sha256": "4cf13a24c5280c3ec85956203f40f709f36aaca78922942cd8113a7f7476674d",
+      "size": 6675,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-saved-source16",
+          "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-overview-01",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "image",
+      "revision": "202fb88bed379aa40dd85dc49ab3ee62cd9751c2249ea8149892498afcd7c20a",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-01/202fb88bed379aa40dd85dc49ab3ee62cd9751c2249ea8149892498afcd7c20a/jp-isen-overview-01.jpg",
+      "sha256": "202fb88bed379aa40dd85dc49ab3ee62cd9751c2249ea8149892498afcd7c20a",
+      "size": 271585,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-saved-source16",
+          "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-overview-05",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "image",
+      "revision": "5bf5205cc12ca984c1367471f258bf78cda06a0e38020d4427bfaab292e36b34",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-05/5bf5205cc12ca984c1367471f258bf78cda06a0e38020d4427bfaab292e36b34/jp-isen-overview-05.jpg",
+      "sha256": "5bf5205cc12ca984c1367471f258bf78cda06a0e38020d4427bfaab292e36b34",
+      "size": 313082,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-saved-source16",
+          "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-overview-09",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "image",
+      "revision": "1e706b8917bd439c3b1a90fcfb77046622ef61153629c13524a3b534af3cd2a9",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-09/1e706b8917bd439c3b1a90fcfb77046622ef61153629c13524a3b534af3cd2a9/jp-isen-overview-09.jpg",
+      "sha256": "1e706b8917bd439c3b1a90fcfb77046622ef61153629c13524a3b534af3cd2a9",
+      "size": 290336,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-saved-source16",
+          "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-overview-13",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "image",
+      "revision": "c25281d542776acb147072c586690ffac1f219fb0e7d064955603c84ef64b853",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-13/c25281d542776acb147072c586690ffac1f219fb0e7d064955603c84ef64b853/jp-isen-overview-13.jpg",
+      "sha256": "c25281d542776acb147072c586690ffac1f219fb0e7d064955603c84ef64b853",
+      "size": 171698,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-saved-source16",
           "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
         }
       ]

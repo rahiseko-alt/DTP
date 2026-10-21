@@ -1,0 +1,12 @@
+tool: 'Pillow composite (generated photo source: image_gen.imagegen)'
+created: '2026-10-21'
+author: codex
+size: 2480x3508
+reference_inputs:
+- path: books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf
+  usage: other
+  note: Embedded source page image extracted with PyMuPDF. Only photo rectangles replaced.
+notes: 'Deterministic reproduction: python3 prepare.py (recreate photo inputs) and
+  python3 finish.py (compose stored generated atlases). All non-photo pixels byte-identical
+  as RGB. The edit is a fictional Japanese-person visual and does not identify source
+  ethnicity.'

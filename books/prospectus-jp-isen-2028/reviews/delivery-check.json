@@ -1,0 +1,11 @@
+{
+  "reading_pages": 16,
+  "print_faces_each": 8,
+  "sheets_each": 4,
+  "native_currency_counts_unchanged_after_compression": true,
+  "native_currency_counts_in_every_imposed_face_verified": true,
+  "qr_decoded": [
+    "https://kaihougakuen.my.canva.site/"
+  ],
+  "physical_print_test": false
+}

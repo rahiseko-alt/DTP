@@ -1,0 +1,18 @@
+{
+  "tool": "image_gen.imagegen",
+  "model": "image_gen",
+  "prompt": "Extend the attached panoramic classroom photograph ONLY into its blank L-shaped top and left padding. The four existing people, their faces, hands, clothes, positions and desk inside the existing photo rectangle must stay exactly as they are. Fill the blank top horizontal strip and left vertical strip with a seamless continuation of the same softly out-of-focus bright modern classroom: pale neutral walls, a hint of existing desk at lower left, distant unoccupied computer monitors, coherent soft window daylight. No extra people, no faces, no body parts in the extended areas. NO text, letters, numbers, logo, watermark, signature, QR, caption or graphics. Do not reposition or enlarge the original photograph; preserve the whole canvas composition and aspect ratio. The new areas should smoothly connect to the existing photograph rather than looking like a separate pasted rectangle. Keep upper-left background very light and low contrast so black handwritten copy can later be overlaid. This is a subtle photographic outpainting task for a school brochure's horizontal large photo, not a whole page design. Do not invent a grand campus or architectural scene.",
+  "negative_prompt": "text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption",
+  "seed": null,
+  "created": "2026-10-21",
+  "author": "codex",
+  "size": "1717x916",
+  "reference_inputs": [
+    {
+      "path": "books/prospectus-jp-isen-2028/work/teacher/photo-layout-input.png",
+      "usage": "img2img",
+      "note": "R07を写真枠右下へ配置した入力。モデルの出力は上と左の背景延長に使い、R07の人物を含む中央は保存画像の画素で復元。"
+    }
+  ],
+  "notes": "背景延長のみAI。保存済みR07を1960px幅で等比配置して人物画素を復元し、左70px/上50pxのみ背景との境界をぼかす。原本P8コピー35,346画素と青い主見出し以下を元画素で保護。全文紙面を生成していない。"
+}

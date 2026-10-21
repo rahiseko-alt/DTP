@@ -1,0 +1,253 @@
+{
+  "source_pdf": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
+  "method": "Extract photograph regions, build fixed contact sheets, edit with image_gen, resize by Lanczos and cut back to original integer rectangles with inward edge feathering. Restore original protected overlays/signs/graphics byte-for-byte. All pixels outside allowed photograph rectangles unchanged. No full-page generation.",
+  "pages": {
+    "10": {
+      "size_px": [
+        2480,
+        3508
+      ],
+      "photo_rects": [
+        [
+          0,
+          530,
+          2480,
+          1530
+        ],
+        [
+          63,
+          2100,
+          493,
+          2640
+        ],
+        [
+          550,
+          2130,
+          975,
+          2640
+        ],
+        [
+          1030,
+          2100,
+          1455,
+          2640
+        ],
+        [
+          1510,
+          2100,
+          1940,
+          2640
+        ],
+        [
+          2000,
+          2100,
+          2425,
+          2640
+        ]
+      ],
+      "protected_rects": [
+        [
+          0,
+          530,
+          745,
+          900
+        ],
+        [
+          1850,
+          530,
+          2480,
+          620
+        ],
+        [
+          2030,
+          1120,
+          2480,
+          1530
+        ],
+        [
+          1190,
+          2100,
+          1450,
+          2480
+        ]
+      ],
+      "outside_photo_changed_pixels": 0,
+      "protected_rect_changed_pixels": 0,
+      "changed_pixels": 2954051,
+      "source_sha256": "9872ebf3788ba05a06656e00ae5e36a7c1ed2368bc469deb69b0f580004d4939",
+      "output_sha256": "cc7109dbae5ffb2f7ae13cbd970e4e222dbf7705a3b5dfc4b6b8f566dce34a60",
+      "note": "Original headers, body copy, monetary tables, logos, school building photograph and all non-photo areas preserved. P10 circle area also preserves clothing below faces; P11 restores title/description fringe and original wall sign."
+    },
+    "11": {
+      "size_px": [
+        2480,
+        3508
+      ],
+      "photo_rects": [
+        [
+          1000,
+          200,
+          2480,
+          1130
+        ],
+        [
+          190,
+          1390,
+          595,
+          1625
+        ],
+        [
+          705,
+          1355,
+          1125,
+          1625
+        ],
+        [
+          1380,
+          1380,
+          1780,
+          1625
+        ],
+        [
+          1950,
+          1375,
+          2375,
+          1625
+        ],
+        [
+          92,
+          2605,
+          640,
+          2870
+        ],
+        [
+          690,
+          2605,
+          1215,
+          2870
+        ],
+        [
+          1270,
+          2605,
+          1790,
+          2870
+        ],
+        [
+          1845,
+          2605,
+          2395,
+          2870
+        ]
+      ],
+      "protected_rects": [
+        [
+          1000,
+          200,
+          1235,
+          395
+        ],
+        [
+          1000,
+          440,
+          1270,
+          625
+        ],
+        [
+          1900,
+          200,
+          2480,
+          450
+        ],
+        [
+          1950,
+          560,
+          2190,
+          780
+        ],
+        [
+          1000,
+          670,
+          1060,
+          1000
+        ],
+        [
+          130,
+          1410,
+          245,
+          1510
+        ],
+        [
+          1025,
+          1410,
+          1140,
+          1545
+        ],
+        [
+          1350,
+          1380,
+          1445,
+          1530
+        ],
+        [
+          1920,
+          1400,
+          2050,
+          1530
+        ]
+      ],
+      "outside_photo_changed_pixels": 0,
+      "protected_rect_changed_pixels": 0,
+      "changed_pixels": 1951759,
+      "source_sha256": "2efbc8936ef980d0241d4ec4eb24366cef995f5def052f8c2deb603b094eaedf",
+      "output_sha256": "c7e25464889f6dbed4937ad74008288f2865fda473faf23e5235c38fe472d6bb",
+      "note": "Original headers, body copy, monetary tables, logos, school building photograph and all non-photo areas preserved. P10 circle area also preserves clothing below faces; P11 restores title/description fringe and original wall sign."
+    },
+    "12": {
+      "page": 12,
+      "clip_pt": [
+        327.9923095703125,
+        53.80705642700195,
+        564.502197265625,
+        150.66348266601562
+      ],
+      "size_px": [
+        1184,
+        485
+      ],
+      "source_image_xref": 43,
+      "source_image_bbox_pt": [
+        327.9923095703125,
+        33.5347900390625,
+        564.502197265625,
+        211.48028564453125
+      ],
+      "output_sha256": "5763360ddeed44bf6fddfd88e306e67ccfd46b4c893a3fe41528aca490ae8c2b",
+      "method": "Output only the exact visible photograph crop. Parent inserts it into clip_pt without changing any surrounding PDF content."
+    }
+  },
+  "files_sha256": {
+    "p10-main-input.png": "8f06efe96e6a2eb377f9e0aa7885aabbae19ce31a4f4f806ad9ccafe29ec2542",
+    "p12-preview.png": "450d907694e1745693d735619a91f7cbd853dbdfd9e901d7bf60f4b09822c2ab",
+    "p10-preview.png": "c311aa524e2958fc6763b7552a2edbaa3d600fd852551ea9d550ed9834c8bf1e",
+    "p11-source.png": "2efbc8936ef980d0241d4ec4eb24366cef995f5def052f8c2deb603b094eaedf",
+    "page-10-preview.png": "3243446e4946eed6b2a4cec3a0bc79dda0cb124e142940dc0831334dfe48b678",
+    "p11-main-input.png": "f3b421eb545fa614a24e9f910cb0c05eca8ed2190a623878f90098e9f1506f17",
+    "p12-generated.png": "4c4fa16dd376a3727ea8be4b4594769510889988c755bcc97b5881f2d7c87a2b",
+    "page-10.png": "cc7109dbae5ffb2f7ae13cbd970e4e222dbf7705a3b5dfc4b6b8f566dce34a60",
+    "p10-grid.png": "9fc63d3e891d4ed726740ba7f61f86a512b5d8cffc50a9021d02aa44f42dc123",
+    "p11-small-generated.png": "1f6339c684f78f300213097860db8102dafceff24ce68192eb9346233a6f528a",
+    "p10-main-generated.png": "a73980e23fb796ae6974575fe146dbfd6b0251dee5f2e0c5974aa872df6ba5c4",
+    "p12-photo.png": "5763360ddeed44bf6fddfd88e306e67ccfd46b4c893a3fe41528aca490ae8c2b",
+    "p11-small-input.png": "b482774366e7ebc75e4842fb8e55f89fea9ff87e16b6516bbba4b8b2e3418243",
+    "page-11.png": "c7e25464889f6dbed4937ad74008288f2865fda473faf23e5235c38fe472d6bb",
+    "page-11-preview.png": "5d4cdb8efa314e894914053b88b5cc15d057ed1abf5846b0f7b3b99cc5e04d4d",
+    "p11-preview.png": "35136ef83c2c7fe7451431acc2418bb75d20d87591939da256f5285e2457c253",
+    "p12-input.png": "67c03590f17dd2903cc4bcf40b710b61642f714f51cd9bc7629c2f9317ca55ad",
+    "p10-circle-detail.png": "1f3645882f18a1aee7165834e5ee23101a3a1f1ce75e7f54b4c37efc01a098ad",
+    "p10-small-generated.png": "c494873c61e9b31e87b40f27625f5f6be80412005787c10e1a0cf9e7f9c905e4",
+    "p11-main-generated.png": "c839e3d674ce52752360ba58a8f5accb6b146b5c5d7358d676a8469b02a83719",
+    "p10-small-input.png": "a6bfd58e70b25d08c492c0dc84d712891b72e9051e631b0f24e3f226c1c47331",
+    "p10-source.png": "9872ebf3788ba05a06656e00ae5e36a7c1ed2368bc469deb69b0f580004d4939",
+    "p11-grid.png": "d5c3fffd3683129a4815f1f2a15bb80e5fb7f58bcf441d68ee27122bf3770268"
+  }
+}
