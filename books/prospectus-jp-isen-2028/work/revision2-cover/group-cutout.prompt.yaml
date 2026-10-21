@@ -1,0 +1,8 @@
+tool: image_gen.imagegen
+referenced_image: shared/generated-assets/cover-group-jp/日本人版マシな方1.png
+referenced_image_sha256: 3dcc490b25f35f2dba66fa46276f9d60f9f55a17d5444888549d5ee019698157
+transparent_background: true
+prompt: "Edit this exact supplied group photograph for use in a Japanese college prospectus cover. Perform BACKGROUND REMOVAL ONLY. Output one transparent-background PNG, landscape 4:3 proportions matching the original. Keep the entire existing group of people in exactly their original relative positions, with their current faces, clothing, proportions, hair, hands, poses, shoes and identities. Do not invent, delete, add, beautify, ethnically change, retouch or redraw any people. Do not stretch them vertically. Preserve the full group including both far-left standing man and far-right kneeling woman and all feet. Closely trace real hair and clothing contours, including the spaces between individuals and chairs; retain clean soft photographic edges without an old-background halo. Remove the classroom completely: ceiling, lights, door, clock, wall, colorful paper flowers, television, carpet, empty chairs and every other background object. No new background, no floor, no graphic design, no shadows, no text, no letters, no typography, no numbers, no logo, no watermark, no QR code. The result is the SAME complete group, cut out on alpha transparency for professional editorial compositing. Preserve the existing photographic texture; do not render plastic skin or produce an illustration."
+output: group-cutout.png
+crop: [150, 90, 1448, 850]
+note: 指定保存画像を参照して背景除去を生成し、上半身中心へ切り抜いた。生成結果は元画像と厳密な画素一致ではなく、人物の再描画・位置の変化を含み得る。顔のみの差替ではない。ユーザー提示の上半身cropを編集方針に使用。

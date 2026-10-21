@@ -1,5 +1,7 @@
 {
-  "schema": "person-photo-edit-v1",
+  "schema": "person-photo-edit-v2",
+  "revision": 2,
+  "previous_version": "page-02/04/06-revision1.png; changes-revision1.json",
   "pages": [
     {
       "pdf_order_page": 2,
@@ -28,14 +30,14 @@
         2480,
         3508
       ],
-      "output_sha256": "d9627b0ee537acfdf609869c0f307ca7b77c469d32b99ca3a203b703952b182a",
+      "output_sha256": "b8c7b93f637688541b4133d3c8d6022cf9cdfc32146b9c717fca0e29aa81ce49",
       "mask_image": "mask-02.png",
-      "mask_sha256": "111962ee76d8f038220e97db4e82adb1f9c09756df934769b3e6a4e144e37dfa",
+      "mask_sha256": "52e98a0cff1acca5e2e142cb6b63d9ef118581dc9549fb355eb81fe442079f08",
       "change_rect_xyxy": [
-        575,
-        80,
-        2421,
-        806
+        579,
+        83,
+        2417,
+        805
       ],
       "change_region_rectangles_xyxy": [
         [
@@ -228,8 +230,8 @@
       "protected_text_glyph_mask": null,
       "protected_text_glyphs_identical": true,
       "unchanged_outside_mask": true,
-      "changed_pixels": 746301,
-      "mask_feather_px": 7,
+      "changed_pixels": 718438,
+      "mask_feather_px": 24,
       "resampling": "Pillow LANCZOS to exact original crop size",
       "review": "Generated and full-page composite inspected visually. Fictional Japanese-appearance people; no nationality inferred. Male faces clean shaven. Clothing, pose, gaze and photo framing visually retained. All original text, rules, badge and lower information remain original pixels."
     },
@@ -260,9 +262,9 @@
         2480,
         3508
       ],
-      "output_sha256": "4626ea3ea3ec8128fd81dd901b4c91ed4683ada06a003709797bb9b30cf25372",
+      "output_sha256": "378d9d1770cbfd0cc52455aba884e7f0f00353df8293f57baa8c7660f9016f7d",
       "mask_image": "mask-04.png",
-      "mask_sha256": "d456140354daa5d207ff2f471324628c7ab1f791d2c3653de3bf924104e185a1",
+      "mask_sha256": "95861c2fbf195fbd99f955b929be22df3d8a521ace664b83e06f0455e2fee1fd",
       "change_rect_xyxy": [
         871,
         0,
@@ -449,7 +451,7 @@
       "protected_text_glyph_mask": "protected-glyphs-04.png",
       "protected_text_glyphs_identical": true,
       "unchanged_outside_mask": true,
-      "changed_pixels": 1346743,
+      "changed_pixels": 1346959,
       "mask_feather_px": 90,
       "resampling": "Pillow LANCZOS to exact original crop size",
       "review": "Generated and full-page composite inspected visually. Fictional Japanese-appearance people; no nationality inferred. Male faces clean shaven. Clothing, pose, gaze and photo framing visually retained. All original text, rules, badge and lower information remain original pixels."
@@ -481,14 +483,14 @@
         2480,
         3508
       ],
-      "output_sha256": "3dbc60bd4f9b36c8d5557d7f6ce8ecc060144e8a856f57841777bb3339585fa5",
+      "output_sha256": "bfb682ede0d2b1bfb461a6856aa381b2ef2eec3f3a96fe9399eb7426e96027c7",
       "mask_image": "mask-06.png",
-      "mask_sha256": "7fcb1702d0dcfb4107702ce8792e4e991b8b3bc7d589b7827379f6642e34a611",
+      "mask_sha256": "18570dc6e7dbb15d88e9d50ecd1801b242cfac431999b2b1c6483603e04b0f12",
       "change_rect_xyxy": [
         970,
         0,
         2480,
-        1180
+        1174
       ],
       "change_region_rectangles_xyxy": [
         [
@@ -726,8 +728,8 @@
       "protected_text_glyph_mask": null,
       "protected_text_glyphs_identical": true,
       "unchanged_outside_mask": true,
-      "changed_pixels": 1106213,
-      "mask_feather_px": 7,
+      "changed_pixels": 1095421,
+      "mask_feather_px": 24,
       "resampling": "Pillow LANCZOS to exact original crop size",
       "review": "Generated and full-page composite inspected visually. Fictional Japanese-appearance people; no nationality inferred. Male faces clean shaven. Clothing, pose, gaze and photo framing visually retained. All original text, rules, badge and lower information remain original pixels."
     }

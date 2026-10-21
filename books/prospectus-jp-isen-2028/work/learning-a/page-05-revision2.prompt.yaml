@@ -1,0 +1,17 @@
+tool: image_gen.imagegen + Pillow composite
+model: tool default (not reported)
+created: '2026-10-21'
+author: codex
+revision: 2
+size: 2480x3508
+prompt: Two targeted photographic corrections. See individual revision2 generated
+  prompt files for exact instructions.
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+reference_inputs:
+- path: /workspace/DTP/books/prospectus-jp-isen-2028/work/learning-a/p05-01-revision2-input.png
+  usage: img2img
+- path: /workspace/DTP/books/prospectus-jp-isen-2028/work/learning-a/p05-08-revision2-input.png
+  usage: img2img
+notes: Original source and revision1 retained; page-05.png is canonical revision2.
+  Text/layout fully retained outside unchanged photo rectangles.

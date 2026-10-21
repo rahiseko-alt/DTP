@@ -1,0 +1,30 @@
+tool: image_gen.imagegen
+model: default, not reported
+prompt: 'Make a restrained photographic edit of this existing AI-generated fictional
+  student giving a presentation. Preserve her entire original outfit and accessories
+  EXACTLY: a pale pink long-sleeve shirt with a white pointed collar, pale inner top,
+  and a slim bracelet/watch on her extended left wrist. Do not replace this with a
+  collarless blouse; do not remove the wrist accessory. Preserve her microphone, exact
+  hand and finger gesture, pose, gaze, smile, tied low ponytail silhouette, framing,
+  original screen frame and classroom background. Give the fictional woman an ordinary
+  natural Japanese young adult face, individual and unglamorous, realistic skin texture
+  and warm natural skin, not model-like or excessively beautified. Keep the broad
+  composition and face/hand sizes in the same positions. Make the screen a plain softly
+  defocused pale blue with no text, quietly remove the neutral masking blocks. No
+  text, letters, typography, words, numbers, logo, watermark, signature, QR code,
+  caption.'
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+created: '2026-10-21'
+author: codex
+reference_inputs:
+- path: books/prospectus-jp-isen-2028/work/learning-a/p05-08-revision2-input.png
+  usage: img2img
+  note: Original photographic crop with incidental source lettering/logos neutralized;
+    preserve exact outfit/pose.
+notes: 'Revision 2: correct clothing drift in first generation. Existing generated/source
+  assets retained. Generated only this photo, then exact LANCZOS resample to original
+  photo rectangle; all page pixels outside the two photo rectangles are retained from
+  revision1. No atlas stretching.'
+size: 702x428

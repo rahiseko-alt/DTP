@@ -1,2 +1,5 @@
 # 無劣化の面付け中間物。build.pyで再現でき、配布版は別に保存する。
 output/*_中綴じ_短辺反転.pdf
+
+# 再現用scriptが出力する画像/フォント埋込HTML
+work/revision2-cover/cover.html

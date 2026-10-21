@@ -1,0 +1,735 @@
+{
+  "schema": "person-photo-edit-v1",
+  "pages": [
+    {
+      "pdf_order_page": 2,
+      "source_pdf": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
+      "source_pdf_sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+      "source_image": "original-02.png",
+      "source_image_sha256": "8c93aec49260717b46da768646493337666262fc460d724bc2179892cecc0a9b",
+      "generation_input": "input-02.png",
+      "generation_input_sha256": "757cc62b6cd293c38ca3b299114b662d322910aa9fa160adca6ae0d5b31d1c57",
+      "input_crop_xyxy": [
+        0,
+        0,
+        2480,
+        850
+      ],
+      "input_method": "img2img via image_gen.imagegen; narrow photographic crop only",
+      "input_preprocessing": "crop only",
+      "generated_image": "generated-02.png",
+      "generated_size_px": [
+        2142,
+        734
+      ],
+      "generated_sha256": "ac747609455ee897e8f49abfabe811a34eddf77a10b5b8d6f04b5e7c375c2db2",
+      "output_image": "page-02.png",
+      "output_size_px": [
+        2480,
+        3508
+      ],
+      "output_sha256": "d9627b0ee537acfdf609869c0f307ca7b77c469d32b99ca3a203b703952b182a",
+      "mask_image": "mask-02.png",
+      "mask_sha256": "111962ee76d8f038220e97db4e82adb1f9c09756df934769b3e6a4e144e37dfa",
+      "change_rect_xyxy": [
+        575,
+        80,
+        2421,
+        806
+      ],
+      "change_region_rectangles_xyxy": [
+        [
+          575,
+          85,
+          991,
+          651
+        ],
+        [
+          975,
+          250,
+          1326,
+          806
+        ],
+        [
+          1500,
+          245,
+          1971,
+          776
+        ],
+        [
+          1960,
+          80,
+          2421,
+          651
+        ]
+      ],
+      "change_polygons_xy": [
+        [
+          [
+            575,
+            85
+          ],
+          [
+            955,
+            85
+          ],
+          [
+            990,
+            350
+          ],
+          [
+            950,
+            480
+          ],
+          [
+            875,
+            550
+          ],
+          [
+            818,
+            650
+          ],
+          [
+            710,
+            646
+          ],
+          [
+            620,
+            540
+          ],
+          [
+            585,
+            400
+          ]
+        ],
+        [
+          [
+            980,
+            250
+          ],
+          [
+            1300,
+            250
+          ],
+          [
+            1325,
+            460
+          ],
+          [
+            1285,
+            605
+          ],
+          [
+            1220,
+            660
+          ],
+          [
+            1100,
+            805
+          ],
+          [
+            1060,
+            735
+          ],
+          [
+            1010,
+            680
+          ],
+          [
+            975,
+            530
+          ]
+        ],
+        [
+          [
+            1500,
+            250
+          ],
+          [
+            1870,
+            245
+          ],
+          [
+            1970,
+            660
+          ],
+          [
+            1875,
+            705
+          ],
+          [
+            1830,
+            745
+          ],
+          [
+            1710,
+            775
+          ],
+          [
+            1590,
+            730
+          ],
+          [
+            1525,
+            650
+          ]
+        ],
+        [
+          [
+            1960,
+            80
+          ],
+          [
+            2370,
+            80
+          ],
+          [
+            2420,
+            360
+          ],
+          [
+            2360,
+            515
+          ],
+          [
+            2320,
+            585
+          ],
+          [
+            2180,
+            650
+          ],
+          [
+            2110,
+            635
+          ],
+          [
+            2070,
+            550
+          ],
+          [
+            1990,
+            465
+          ]
+        ]
+      ],
+      "excluded_person_parts": [],
+      "protected_rectangles": [
+        {
+          "rect": [
+            0,
+            850,
+            2480,
+            3508
+          ],
+          "pixel_identical": true
+        }
+      ],
+      "protected_text_glyph_mask": null,
+      "protected_text_glyphs_identical": true,
+      "unchanged_outside_mask": true,
+      "changed_pixels": 746301,
+      "mask_feather_px": 7,
+      "resampling": "Pillow LANCZOS to exact original crop size",
+      "review": "Generated and full-page composite inspected visually. Fictional Japanese-appearance people; no nationality inferred. Male faces clean shaven. Clothing, pose, gaze and photo framing visually retained. All original text, rules, badge and lower information remain original pixels."
+    },
+    {
+      "pdf_order_page": 4,
+      "source_pdf": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
+      "source_pdf_sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+      "source_image": "original-04.png",
+      "source_image_sha256": "361cf9f4ec0cc7580c70b711fd3a8fb51f415a77342fdc21f587d4531c117919",
+      "generation_input": "input-04.png",
+      "generation_input_sha256": "17fdc3b0f73843d40634449e94398cb806f40ca680d973f7ccccc3c1938fa1b7",
+      "input_crop_xyxy": [
+        870,
+        0,
+        2480,
+        1300
+      ],
+      "input_method": "img2img via image_gen.imagegen; narrow photographic crop only",
+      "input_preprocessing": "p4 tiny residual white glyphs in local [0,870,110,1010] masked with neutral skin color; no generated text retained",
+      "generated_image": "generated-04.png",
+      "generated_size_px": [
+        1396,
+        1127
+      ],
+      "generated_sha256": "1856275fa169e369902206964fd5f8ce4cdfd22dd2d3d1f58a14d55fd8dde4a0",
+      "output_image": "page-04.png",
+      "output_size_px": [
+        2480,
+        3508
+      ],
+      "output_sha256": "4626ea3ea3ec8128fd81dd901b4c91ed4683ada06a003709797bb9b30cf25372",
+      "mask_image": "mask-04.png",
+      "mask_sha256": "d456140354daa5d207ff2f471324628c7ab1f791d2c3653de3bf924104e185a1",
+      "change_rect_xyxy": [
+        871,
+        0,
+        2480,
+        1249
+      ],
+      "change_region_rectangles_xyxy": [
+        [
+          870,
+          0,
+          1701,
+          1241
+        ],
+        [
+          1510,
+          470,
+          2086,
+          1261
+        ],
+        [
+          2010,
+          450,
+          2480,
+          1206
+        ]
+      ],
+      "change_polygons_xy": [
+        [
+          [
+            870,
+            0
+          ],
+          [
+            1640,
+            0
+          ],
+          [
+            1700,
+            400
+          ],
+          [
+            1620,
+            640
+          ],
+          [
+            1560,
+            870
+          ],
+          [
+            1460,
+            980
+          ],
+          [
+            1350,
+            995
+          ],
+          [
+            1190,
+            1120
+          ],
+          [
+            1100,
+            1240
+          ],
+          [
+            1035,
+            1160
+          ],
+          [
+            985,
+            1035
+          ],
+          [
+            950,
+            920
+          ],
+          [
+            920,
+            840
+          ],
+          [
+            870,
+            810
+          ]
+        ],
+        [
+          [
+            1540,
+            500
+          ],
+          [
+            1960,
+            470
+          ],
+          [
+            2070,
+            700
+          ],
+          [
+            2085,
+            980
+          ],
+          [
+            1980,
+            1160
+          ],
+          [
+            1890,
+            1210
+          ],
+          [
+            1750,
+            1260
+          ],
+          [
+            1640,
+            1160
+          ],
+          [
+            1580,
+            1000
+          ],
+          [
+            1510,
+            830
+          ]
+        ],
+        [
+          [
+            2050,
+            450
+          ],
+          [
+            2479,
+            450
+          ],
+          [
+            2479,
+            1000
+          ],
+          [
+            2380,
+            1160
+          ],
+          [
+            2220,
+            1205
+          ],
+          [
+            2130,
+            1110
+          ],
+          [
+            2070,
+            980
+          ],
+          [
+            2010,
+            760
+          ]
+        ]
+      ],
+      "excluded_person_parts": [],
+      "protected_rectangles": [
+        {
+          "rect": [
+            0,
+            0,
+            785,
+            300
+          ],
+          "pixel_identical": true
+        },
+        {
+          "rect": [
+            0,
+            1580,
+            2480,
+            3508
+          ],
+          "pixel_identical": true
+        }
+      ],
+      "protected_text_glyph_mask": "protected-glyphs-04.png",
+      "protected_text_glyphs_identical": true,
+      "unchanged_outside_mask": true,
+      "changed_pixels": 1346743,
+      "mask_feather_px": 90,
+      "resampling": "Pillow LANCZOS to exact original crop size",
+      "review": "Generated and full-page composite inspected visually. Fictional Japanese-appearance people; no nationality inferred. Male faces clean shaven. Clothing, pose, gaze and photo framing visually retained. All original text, rules, badge and lower information remain original pixels."
+    },
+    {
+      "pdf_order_page": 6,
+      "source_pdf": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
+      "source_pdf_sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+      "source_image": "original-06.png",
+      "source_image_sha256": "8da3c442d5cce8415de79c7ed43dc183eab3a9e13112225b94ecf5b9fef928f0",
+      "generation_input": "input-06.png",
+      "generation_input_sha256": "2797c844ac1154b7136e722031ea86ff23c194663d66b754ad6c7953433a2cce",
+      "input_crop_xyxy": [
+        970,
+        0,
+        2480,
+        1310
+      ],
+      "input_method": "img2img via image_gen.imagegen; narrow photographic crop only",
+      "input_preprocessing": "crop only",
+      "generated_image": "generated-06.png",
+      "generated_size_px": [
+        1347,
+        1168
+      ],
+      "generated_sha256": "663b0f70bd8b7022388f4aa86ac4a1397683028d1695b4e285eb5032bdd69a25",
+      "output_image": "page-06.png",
+      "output_size_px": [
+        2480,
+        3508
+      ],
+      "output_sha256": "3dbc60bd4f9b36c8d5557d7f6ce8ecc060144e8a856f57841777bb3339585fa5",
+      "mask_image": "mask-06.png",
+      "mask_sha256": "7fcb1702d0dcfb4107702ce8792e4e991b8b3bc7d589b7827379f6642e34a611",
+      "change_rect_xyxy": [
+        970,
+        0,
+        2480,
+        1180
+      ],
+      "change_region_rectangles_xyxy": [
+        [
+          970,
+          0,
+          1891,
+          1181
+        ],
+        [
+          1815,
+          325,
+          2401,
+          1201
+        ],
+        [
+          2250,
+          570,
+          2480,
+          1121
+        ]
+      ],
+      "change_polygons_xy": [
+        [
+          [
+            970,
+            0
+          ],
+          [
+            1790,
+            0
+          ],
+          [
+            1850,
+            170
+          ],
+          [
+            1880,
+            420
+          ],
+          [
+            1890,
+            560
+          ],
+          [
+            1850,
+            675
+          ],
+          [
+            1800,
+            730
+          ],
+          [
+            1750,
+            770
+          ],
+          [
+            1700,
+            820
+          ],
+          [
+            1620,
+            845
+          ],
+          [
+            1540,
+            1050
+          ],
+          [
+            1490,
+            1180
+          ],
+          [
+            1425,
+            1120
+          ],
+          [
+            1300,
+            900
+          ],
+          [
+            1115,
+            790
+          ],
+          [
+            970,
+            670
+          ]
+        ],
+        [
+          [
+            1830,
+            335
+          ],
+          [
+            2330,
+            325
+          ],
+          [
+            2400,
+            630
+          ],
+          [
+            2360,
+            860
+          ],
+          [
+            2250,
+            1000
+          ],
+          [
+            2190,
+            1080
+          ],
+          [
+            2090,
+            1200
+          ],
+          [
+            2010,
+            1190
+          ],
+          [
+            1950,
+            1050
+          ],
+          [
+            1885,
+            900
+          ],
+          [
+            1815,
+            690
+          ]
+        ],
+        [
+          [
+            2320,
+            570
+          ],
+          [
+            2479,
+            570
+          ],
+          [
+            2479,
+            1080
+          ],
+          [
+            2420,
+            1120
+          ],
+          [
+            2320,
+            1060
+          ],
+          [
+            2260,
+            960
+          ],
+          [
+            2250,
+            820
+          ]
+        ]
+      ],
+      "excluded_person_parts": [
+        [
+          [
+            1730,
+            840
+          ],
+          [
+            1770,
+            720
+          ],
+          [
+            1880,
+            690
+          ],
+          [
+            2040,
+            735
+          ],
+          [
+            2160,
+            950
+          ],
+          [
+            2235,
+            1130
+          ],
+          [
+            2280,
+            1310
+          ],
+          [
+            1815,
+            1310
+          ],
+          [
+            1820,
+            1020
+          ]
+        ]
+      ],
+      "protected_rectangles": [
+        {
+          "rect": [
+            0,
+            0,
+            790,
+            300
+          ],
+          "pixel_identical": true
+        },
+        {
+          "rect": [
+            95,
+            460,
+            950,
+            1180
+          ],
+          "pixel_identical": true
+        },
+        {
+          "rect": [
+            0,
+            1500,
+            2480,
+            3508
+          ],
+          "pixel_identical": true
+        }
+      ],
+      "protected_text_glyph_mask": null,
+      "protected_text_glyphs_identical": true,
+      "unchanged_outside_mask": true,
+      "changed_pixels": 1106213,
+      "mask_feather_px": 7,
+      "resampling": "Pillow LANCZOS to exact original crop size",
+      "review": "Generated and full-page composite inspected visually. Fictional Japanese-appearance people; no nationality inferred. Male faces clean shaven. Clothing, pose, gaze and photo framing visually retained. All original text, rules, badge and lower information remain original pixels."
+    }
+  ]
+}

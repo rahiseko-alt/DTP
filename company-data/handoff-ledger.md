@@ -410,3 +410,9 @@ PDF受渡し調査は人間の指示で保留。医専BOOKの地図第2案を画
 再現と証拠は books/prospectus-jp-isen-2028/。固定アダプターbuild.pyと圧縮compress.py、work内に入力写真・生成記録・マスク・各担当の再現script。元PDFは保存済み16PのSHA62aa8e44…を使用し、現在の標準描画4Pとは別。STALE_OUTPUTの制作元を現入力で再描画済みと偽らず、保存済み実体のSHAを固定した独立supportスナップショットとして登録した。出力は元資料IDの別variant japanese-people-edition/別asset jp-isen-reading-pdf・jp-isen-print-a3/a4・jp-isen-master-pdf。元latest-prospectus-pdfと他の現行PDF・配布ZIPは未変更。downloads索引のPAM-JP-ISENから取得可能。
 
 閲覧用16Pは約6.8MB。A3/A4印刷用は各8印刷面・用紙4枚、両面短辺反転。軽量化後に全ページ/全印刷面を画像比較、金額の抽出個数維持、公式サイトQRの読取りを確認。表紙の指定素材は配置後約131dpi。全冊の独立承認、人物同一性、実物印刷、入稿は未確認。独立担当はP1〜8/P8修正を確認したが、途中で容量上限により終了。残りは親が点検。全体validateは既存STALE_OUTPUTおよびレガシー登録未同期で不合格。既存Chromium指定のdoctorはNG0/WARN1。ここまで確認用として保存し、完成入稿版とは扱わない。今回もcommitのみ、pushなし。
+
+## 2026-10-21 医専日本人版・表紙と本文写真の改稿2（最新）
+
+人間が表紙の「ただ写真を載せた感」を指摘し、全ページを良い出来にするよう指示。その後、上半身中心の切り抜き例を提示。指定保存画像を参照して背景除去し、集合の上半身と元コピーを再構成。写真下端を青へ溶かし、細い残片を除去、学習項目を拡大。本文は髪/首/襟の境界、服装の変更、赤い文字片、吹き出しの旧写真片、看板/見出しの矩形を修正した。具体的な修正・最終点検は books/prospectus-jp-isen-2028/reviews/final-review.md。別担当が本文P2〜12を拡大点検し修正残件なし、P3/P5とP7修正は担当本人の点検。親が最終16Pと見開き、更新表紙を確認。制作完了と品質確認を区別した。
+
+閲覧用16P SHA43d63a3f…、master9ed88a7e…、A3 c7864b72…、A4 29170da2…。downloads/latest-materials.json の PAM-JP-ISEN を改稿2へ更新。元医専版・募集要項・黄色OC・配布ZIPは保持。全16Pのネイティブ文字、P12写真外、P13〜16全面画素一致、金額抽出個数とQR、A3/A4各8面/4枚を再検証。表紙は生成背景除去を含み、人物の画素一致は保証しない。人間の採用・実物印刷・入稿は未実施。全体validateは既存STALE46とlegacy差分でNG、冊子固有検証は完了。fix/access-map-20261020、commitのみ、pushなし。

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""保存済み医専16Pの写真だけを差し替える固定アダプター。原本は更新しない。"""
+"""保存済み医専16Pの表紙を再構成し本文写真を差し替える固定アダプター。原本は保持。"""
 from pathlib import Path
 import hashlib, io, json, subprocess
 import fitz
@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[2]
 BOOK = Path(__file__).resolve().parent
 SOURCE_SHA = '62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880'
 SOURCE = ROOT / f'books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/{SOURCE_SHA}/latest-prospectus-pdf.pdf'
-PAGES = {1:'cover/cover-page.png',2:'heroes/page-02.png',3:'learning-a/page-03.png',
+PAGES = {1:'revision2-cover/cover-page.png',2:'heroes/page-02.png',3:'learning-a/page-03.png',
          4:'heroes/page-04.png',5:'learning-a/page-05.png',6:'heroes/page-06.png',
          7:'learning-b/page-07.png',8:'teacher/page-08.png',9:'learning-b/page-09.png',
          10:'support/page-10.png',11:'support/page-11.png'}
@@ -81,7 +81,7 @@ def main():
            'file':str(dest.relative_to(ROOT)),'sha256':sha(dest),'pages':16,'inputs':inputs,'checks':checks,
            'changed_pages':list(range(1,13)),'unchanged_pages':[13,14,15,16],
            'p12_native_text_and_photo_outside_pixels_identical':True,'print_faces':faces,'print_outputs':printouts,
-           'release':False,'physical_print_test':False,'scope':'写真のみ。前半は元から紙面画像の固定アダプター。全文再生成や再組版はしない。'}
+           'release':False,'physical_print_test':False,'scope':'表紙は指定集合画像の上半身cropと既存コピーを再構成。本文は写真のみの差替。本文を全面画像生成しない。'}
     (proofdir/'assembly-proof.json').write_text(json.dumps(proof,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'file':str(dest),'sha256':proof['sha256'],'pages':16,'print':printouts},ensure_ascii=False))
 

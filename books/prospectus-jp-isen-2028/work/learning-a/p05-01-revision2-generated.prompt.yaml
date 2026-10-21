@@ -1,0 +1,31 @@
+tool: image_gen.imagegen
+model: default, not reported
+prompt: 'Make a very restrained photographic edit of this existing AI-generated fictional
+  student photograph, retaining the same man leaning forward over a laptop, exact
+  gaze down to the screen, head angle, body pose, hand position, crop, background
+  and lighting. Change ONLY his fictional face to an ordinary realistic Japanese young
+  man, entirely clean shaven without any beard, mustache or stubble. Retain his short
+  hair silhouette including the same cropped top edge. Preserve his actual outfit
+  exactly: a BLACK LEATHER motorcycle-style jacket with shiny leather texture and
+  shoulder seams, over a dark black/charcoal T-shirt; do not turn the jacket into
+  cotton, do not make the T-shirt white. Retain the original broad camera composition,
+  laptop location and hand. Keep realistic skin texture, unglamorous student face,
+  natural warm skin, no skin whitening. Remove the masked laptop logo and make it
+  clean gray, the photo must contain no text or logos. The neutral gray polygon on
+  the laptop is an input mask, blend it naturally. No text, letters, typography, words,
+  numbers, logo, watermark, signature, QR code, caption.'
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+created: '2026-10-21'
+author: codex
+reference_inputs:
+- path: books/prospectus-jp-isen-2028/work/learning-a/p05-01-revision2-input.png
+  usage: img2img
+  note: Original photographic crop with incidental source lettering/logos neutralized;
+    preserve exact outfit/pose.
+notes: 'Revision 2: correct clothing drift in first generation. Existing generated/source
+  assets retained. Generated only this photo, then exact LANCZOS resample to original
+  photo rectangle; all page pixels outside the two photo rectangles are retained from
+  revision1. No atlas stretching.'
+size: 1622x970

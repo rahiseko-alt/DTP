@@ -3,18 +3,18 @@
   "source_sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
   "source_unchanged": true,
   "file": "books/prospectus-jp-isen-2028/output/医専日本人版_16P_確認用.pdf",
-  "sha256": "4ef58da597e5c069f6d240139db2f45616555031d2ea8373e76f98c1f47ac949",
+  "sha256": "9ed88a7e78e3d6fd68737774a4f87c50e3f281e0cb5097ad00e7cfab0de487e8",
   "pages": 16,
   "inputs": [
     {
       "page": 1,
-      "file": "books/prospectus-jp-isen-2028/work/cover/cover-page.png",
-      "sha256": "0c9b5e6a751e397ec6c931882e1aee09e2a992e697bbe4e0f526cfa90d35ad56"
+      "file": "books/prospectus-jp-isen-2028/work/revision2-cover/cover-page.png",
+      "sha256": "311b8637a780d94f4fbad6b4f984cd7cbb6d92e1225a0a83afdbdf7c1c0539ec"
     },
     {
       "page": 2,
       "file": "books/prospectus-jp-isen-2028/work/heroes/page-02.png",
-      "sha256": "d9627b0ee537acfdf609869c0f307ca7b77c469d32b99ca3a203b703952b182a"
+      "sha256": "b8c7b93f637688541b4133d3c8d6022cf9cdfc32146b9c717fca0e29aa81ce49"
     },
     {
       "page": 3,
@@ -24,22 +24,22 @@
     {
       "page": 4,
       "file": "books/prospectus-jp-isen-2028/work/heroes/page-04.png",
-      "sha256": "4626ea3ea3ec8128fd81dd901b4c91ed4683ada06a003709797bb9b30cf25372"
+      "sha256": "378d9d1770cbfd0cc52455aba884e7f0f00353df8293f57baa8c7660f9016f7d"
     },
     {
       "page": 5,
       "file": "books/prospectus-jp-isen-2028/work/learning-a/page-05.png",
-      "sha256": "56e61854e3ed036e95defcb78f892a585f25c3380eab56333974d40728fa4508"
+      "sha256": "10c1cd5a26ac3883db671fc921369fe8d6bc28219af885b42fd91604e56969f9"
     },
     {
       "page": 6,
       "file": "books/prospectus-jp-isen-2028/work/heroes/page-06.png",
-      "sha256": "3dbc60bd4f9b36c8d5557d7f6ce8ecc060144e8a856f57841777bb3339585fa5"
+      "sha256": "bfb682ede0d2b1bfb461a6856aa381b2ef2eec3f3a96fe9399eb7426e96027c7"
     },
     {
       "page": 7,
       "file": "books/prospectus-jp-isen-2028/work/learning-b/page-07.png",
-      "sha256": "2cf00c56101ef4f6573a1e625fb3d2b9be61db3e270f86701878e8dce03bf377"
+      "sha256": "5fd1ee91d40b8bc654d97d118d879c9dda20b47ac20226ce0bcd668854159aef"
     },
     {
       "page": 8,
@@ -49,17 +49,17 @@
     {
       "page": 9,
       "file": "books/prospectus-jp-isen-2028/work/learning-b/page-09.png",
-      "sha256": "e6e230188cd6328c20f9f82bd6d6998d2aec53f4beb3d219db1419b0510cea05"
+      "sha256": "69944b75f40b3775e355c60aa00b90f52dea3b1580ebc13f9adace6e2db0985c"
     },
     {
       "page": 10,
       "file": "books/prospectus-jp-isen-2028/work/support/page-10.png",
-      "sha256": "cc7109dbae5ffb2f7ae13cbd970e4e222dbf7705a3b5dfc4b6b8f566dce34a60"
+      "sha256": "42ed8aa8c94a703bebc7a369d520119d63e2738350ec3799ff9d1031aab3fa59"
     },
     {
       "page": 11,
       "file": "books/prospectus-jp-isen-2028/work/support/page-11.png",
-      "sha256": "c7e25464889f6dbed4937ad74008288f2865fda473faf23e5235c38fe472d6bb"
+      "sha256": "9b0cbcbf4e5ff076b8605e68d8a65b0bdb944b9c89797c6ef58b0096f0b72b2e"
     },
     {
       "page": 12,
@@ -230,19 +230,19 @@
     {
       "paper": "A3",
       "file": "books/prospectus-jp-isen-2028/output/医専日本人版_A3_中綴じ_短辺反転.pdf",
-      "sha256": "11b160d9b158193a4d69114cd3c29118cfb3d2d2d1c9df609c99db9ec3f2fba9",
+      "sha256": "3acb1806264cc3bd19f4567f22b87abea799c5e70478de248e63f8a34a0c4c2e",
       "faces": 8,
       "sheets": 4
     },
     {
       "paper": "A4",
       "file": "books/prospectus-jp-isen-2028/output/医専日本人版_A4_中綴じ_短辺反転.pdf",
-      "sha256": "9aa1229db524335c3722ea99b790cc4222b1e90093efa9bd9ca202f3d2261029",
+      "sha256": "545f9c97e0302cfb3850ded811398c52e09d98ce93eb8c7a189c2e9207f7fff8",
       "faces": 8,
       "sheets": 4
     }
   ],
   "release": false,
   "physical_print_test": false,
-  "scope": "写真のみ。前半は元から紙面画像の固定アダプター。全文再生成や再組版はしない。"
+  "scope": "表紙は指定集合画像の上半身cropと既存コピーを再構成。本文は写真のみの差替。本文を全面画像生成しない。"
 }

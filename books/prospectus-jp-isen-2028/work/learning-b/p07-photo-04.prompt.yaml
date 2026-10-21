@@ -33,9 +33,11 @@ reference_inputs:
   usage: img2img
   note: Photo-only atlas. Existing logos/screens masked before generation.
 generated_path: /workspace/generated_images/exec-c0d2876a-147c-4850-b07f-0ddf64cba2ea.png
-notes: Generate photo atlas; align to input grid; composite only head/neck/hair masks
+notes: 'Generate photo atlas; align to input grid; composite only head/neck/hair masks
   over original page; preserve source pixels outside masks and protected graphics.
   Photo 4; source page rect=[124, 1603, 868, 2050]; mask ellipses=[[135, -20, 395,
   410], [385, -30, 670, 390]]; source pixels outside mask retained. Native atlas size=(1604,
-  981); LANCZOS resize used.
+  981); LANCZOS resize used. Revision2 final correction: original reddish hair component
+  [354,1958,361,1962] excluded from red-shirt lettering protection with margin rectangle
+  [351,1954,365,1967]. Generated hair continuous; actual garment text unchanged.'
 size: 744x447

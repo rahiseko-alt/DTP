@@ -29,9 +29,11 @@ reference_inputs:
     white glyphs in local [0,870,110,1010] masked with neutral skin color; no generated
     text retained
 source_refs: []
-notes: Source PDF order page 4. Final composite restores all pixels outside explicit
+notes: 'Source PDF order page 4. Final composite restores all pixels outside explicit
   person masks from original, including copy, badge, rules and all informational content.
-  Generated crop resized with LANCZOS and composited through mask-04.png; full mask
-  geometry/protected areas and SHA256 recorded in changes.json. Native generated crop
-  (1396, 1127); final full-page source resolution 2480x3508, A4 approximately 300dpi.
-  AI photo crop effective resolution exceeds 150dpi.
+  Revision 2: continuous inward distance feather and tighter glyph protection avoid
+  hard neck/hair edges and letter-protection skin blotches. Generated crop resized
+  with LANCZOS and composited through mask-04.png; full mask geometry/protected areas
+  and SHA256 recorded in changes.json. Native generated crop (1396, 1127); final full-page
+  source resolution 2480x3508, A4 approximately 300dpi. AI photo crop effective resolution
+  exceeds 150dpi.'

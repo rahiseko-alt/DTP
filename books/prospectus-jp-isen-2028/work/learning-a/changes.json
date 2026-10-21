@@ -316,15 +316,17 @@
   },
   "page_05": {
     "output": "page-05.png",
-    "sha256": "56e61854e3ed036e95defcb78f892a585f25c3380eab56333974d40728fa4508",
+    "sha256": "10c1cd5a26ac3883db671fc921369fe8d6bc28219af885b42fd91604e56969f9",
     "source_png_sha256": "956f5c26ca0a668ba9b87a748ce88449c0292972b615957b9839dda0d3a06d23",
     "size": [
       2480,
       3508
     ],
     "non_photo_pixels_changed": 0,
-    "visual_review": "passed: view_image inspected generated atlas, individual notebook photo and full composite; all foreground counts/poses/framing retained; no missing or swapped cell; natural skin; clean-shaven men; no added text; source text and amounts unchanged"
+    "visual_review": "passed: view_image inspected generated atlas, individual notebook photo and full composite; all foreground counts/poses/framing retained; no missing or swapped cell; natural skin; clean-shaven men; no added text; source text and amounts unchanged",
+    "revision2_details": "changes-revision2.json"
   },
   "source_pdf": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
-  "source_pdf_sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+  "source_pdf_sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+  "revision": 2
 }

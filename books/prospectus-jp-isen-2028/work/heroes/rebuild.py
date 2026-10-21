@@ -41,10 +41,10 @@ for num,s in SPECS.items():
  # Inward feather: no new pixels beyond the explicitly documented polygon.
  hard=np.asarray(m).copy();blur=np.asarray(m.filter(ImageFilter.GaussianBlur(s.get('feather',7))))
  m=Image.fromarray(np.minimum(hard,blur))
- if num==4:
+ if True:
   from scipy.ndimage import distance_transform_edt
   distance=distance_transform_edt(hard>0)
-  m=Image.fromarray((np.minimum(distance/s['feather'],1)*255).astype(np.uint8))
+  m=Image.fromarray((np.minimum(distance/s.get('feather',24),1)*255).astype(np.uint8))
  d=ImageDraw.Draw(m)
  # Original pixels always prevail for text, lines, badge, and other exclusions.
  for r in s['protected']:d.rectangle((r[0],r[1],r[2]-1,r[3]-1),fill=0)
@@ -53,9 +53,11 @@ for num,s in SPECS.items():
  if 'glyph_protection_rect' in s:
   r=s['glyph_protection_rect']; arr=np.asarray(original); nearwhite=(arr.min(axis=2)>185)&((arr.max(axis=2).astype(int)-arr.min(axis=2))<75)
   g=np.zeros(arr.shape[:2],dtype=np.uint8); g[r[1]:r[3],r[0]:r[2]]=nearwhite[r[1]:r[3],r[0]:r[2]]*255
-  glyph_mask=Image.fromarray(g).filter(ImageFilter.MaxFilter(17))
+  glyph_mask=Image.fromarray(g).filter(ImageFilter.MaxFilter(7))
   glyph_mask.save(HERE/f'protected-glyphs-{stem}.png')
-  m=Image.fromarray(np.where(np.asarray(glyph_mask)>0,0,np.asarray(m)).astype(np.uint8))
+  glyph_distance=distance_transform_edt(np.asarray(glyph_mask)==0)
+  glyph_blend=np.clip(glyph_distance/12,0,1)
+  m=Image.fromarray((np.asarray(m)*glyph_blend).astype(np.uint8))
  # Never use generated content beyond the crop edges.
  cropmask=Image.new('L',original.size,0);ImageDraw.Draw(cropmask).rectangle((x0,y0,x1-1,y1-1),fill=255)
  m=Image.fromarray(np.minimum(np.asarray(m),np.asarray(cropmask)))
@@ -70,12 +72,12 @@ for num,s in SPECS.items():
  if glyph_mask is not None:
   assert not np.any(change & (np.asarray(glyph_mask)>0))
  ys,xs=np.where(change)
- record={'pdf_order_page':num,'source_pdf':str(PDF.relative_to(ROOT)),'source_pdf_sha256':sha(PDF),'source_image':f'original-{stem}.png','source_image_sha256':sha(HERE/f'original-{stem}.png'),'generation_input':f'input-{stem}.png','generation_input_sha256':sha(HERE/f'input-{stem}.png'),'input_crop_xyxy':s['crop'],'input_method':'img2img via image_gen.imagegen; narrow photographic crop only','input_preprocessing': 'p4 tiny residual white glyphs in local [0,870,110,1010] masked with neutral skin color; no generated text retained' if num==4 else 'crop only','generated_image':f'generated-{stem}.png','generated_size_px':generated_size,'generated_sha256':sha(HERE/f'generated-{stem}.png'),'output_image':f'page-{stem}.png','output_size_px':out.size,'output_sha256':sha(HERE/f'page-{stem}.png'),'mask_image':f'mask-{stem}.png','mask_sha256':sha(HERE/f'mask-{stem}.png'),'change_rect_xyxy':[int(xs.min()),int(ys.min()),int(xs.max()+1),int(ys.max()+1)],'change_region_rectangles_xyxy':[[min(v[0] for v in poly),min(v[1] for v in poly),max(v[0] for v in poly)+1,max(v[1] for v in poly)+1] for poly in s['polygons']], 'change_polygons_xy':s['polygons'],'excluded_person_parts':s.get('exclude_polygons',[]),'protected_rectangles':protected_checks,'protected_text_glyph_mask':f'protected-glyphs-{stem}.png' if glyph_mask is not None else None,'protected_text_glyphs_identical':True,'unchanged_outside_mask':True,'changed_pixels':int(change.sum()),'mask_feather_px':s.get('feather',7),'resampling':'Pillow LANCZOS to exact original crop size','review':'Generated and full-page composite inspected visually. Fictional Japanese-appearance people; no nationality inferred. Male faces clean shaven. Clothing, pose, gaze and photo framing visually retained. All original text, rules, badge and lower information remain original pixels.'}
+ record={'pdf_order_page':num,'source_pdf':str(PDF.relative_to(ROOT)),'source_pdf_sha256':sha(PDF),'source_image':f'original-{stem}.png','source_image_sha256':sha(HERE/f'original-{stem}.png'),'generation_input':f'input-{stem}.png','generation_input_sha256':sha(HERE/f'input-{stem}.png'),'input_crop_xyxy':s['crop'],'input_method':'img2img via image_gen.imagegen; narrow photographic crop only','input_preprocessing': 'p4 tiny residual white glyphs in local [0,870,110,1010] masked with neutral skin color; no generated text retained' if num==4 else 'crop only','generated_image':f'generated-{stem}.png','generated_size_px':generated_size,'generated_sha256':sha(HERE/f'generated-{stem}.png'),'output_image':f'page-{stem}.png','output_size_px':out.size,'output_sha256':sha(HERE/f'page-{stem}.png'),'mask_image':f'mask-{stem}.png','mask_sha256':sha(HERE/f'mask-{stem}.png'),'change_rect_xyxy':[int(xs.min()),int(ys.min()),int(xs.max()+1),int(ys.max()+1)],'change_region_rectangles_xyxy':[[min(v[0] for v in poly),min(v[1] for v in poly),max(v[0] for v in poly)+1,max(v[1] for v in poly)+1] for poly in s['polygons']], 'change_polygons_xy':s['polygons'],'excluded_person_parts':s.get('exclude_polygons',[]),'protected_rectangles':protected_checks,'protected_text_glyph_mask':f'protected-glyphs-{stem}.png' if glyph_mask is not None else None,'protected_text_glyphs_identical':True,'unchanged_outside_mask':True,'changed_pixels':int(change.sum()),'mask_feather_px':s.get('feather',24),'resampling':'Pillow LANCZOS to exact original crop size','review':'Generated and full-page composite inspected visually. Fictional Japanese-appearance people; no nationality inferred. Male faces clean shaven. Clothing, pose, gaze and photo framing visually retained. All original text, rules, badge and lower information remain original pixels.'}
  results.append(record)
- prompt=yaml.safe_load((HERE/f'input-{stem}.prompt.yaml').read_text());prompt['size']='2480x3508';prompt['reference_inputs'][0]['note']+=' '+record['input_preprocessing'];prompt['notes']+=' Generated crop resized with LANCZOS and composited through mask-'+stem+'.png; full mask geometry/protected areas and SHA256 recorded in changes.json. Native generated crop '+str(generated_size)+'; final full-page source resolution 2480x3508, A4 approximately 300dpi. AI photo crop effective resolution exceeds 150dpi.'
+ prompt=yaml.safe_load((HERE/f'input-{stem}.prompt.yaml').read_text());prompt['size']='2480x3508';prompt['reference_inputs'][0]['note']+=' '+record['input_preprocessing'];prompt['notes']+=' Revision 2: continuous inward distance feather and tighter glyph protection avoid hard neck/hair edges and letter-protection skin blotches. Generated crop resized with LANCZOS and composited through mask-'+stem+'.png; full mask geometry/protected areas and SHA256 recorded in changes.json. Native generated crop '+str(generated_size)+'; final full-page source resolution 2480x3508, A4 approximately 300dpi. AI photo crop effective resolution exceeds 150dpi.'
  (HERE/f'page-{stem}.prompt.yaml').write_text(yaml.safe_dump(prompt,allow_unicode=True,sort_keys=False))
  prompt['size']=f'{generated_size[0]}x{generated_size[1]}'
  (HERE/f'generated-{stem}.prompt.yaml').write_text(yaml.safe_dump(prompt,allow_unicode=True,sort_keys=False))
  preview=out.copy();preview.thumbnail((744,1053));preview.save(HERE/f'preview-page-{stem}.png')
-(HERE/'changes.json').write_text(json.dumps({'schema':'person-photo-edit-v1','pages':results},ensure_ascii=False,indent=2)+'\n')
+(HERE/'changes.json').write_text(json.dumps({'schema':'person-photo-edit-v2', 'revision':2, 'previous_version':'page-02/04/06-revision1.png; changes-revision1.json' ,'pages':results},ensure_ascii=False,indent=2)+'\n')
 print(json.dumps([{'page':r['pdf_order_page'],'bbox':r['change_rect_xyxy'],'pixels':r['changed_pixels'],'outside_mask_unchanged':r['unchanged_outside_mask']} for r in results]))

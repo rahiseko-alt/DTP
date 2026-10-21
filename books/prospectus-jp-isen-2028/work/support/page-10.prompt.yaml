@@ -15,13 +15,11 @@ reference_inputs:
   usage: img2img
 source_refs:
 - books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf
-notes: compose.py preserves all original pixels outside allowed photograph rectangles
-  and restores protected original text/sign/graphics rectangles byte-for-byte. Lanczos
-  resizing records atlas/output dimensions in spec.json. Original school building,
-  page copy, logos and structure unchanged. Effective embedded page resolution about
-  300 dpi. RGB, no alpha. Visual review performed on source, extracted inputs, all
-  generated outputs and final composite at whole-page and enlarged scale. No independent
-  reviewer in this subtask.
+notes: 'Revision2: photograph-only composition. Preserve printed source glyph pixels;
+  avoid restored clothing/background rectangles. P10 uses the clean generated circle
+  and original lettering. P11 retains source wall/right counselor from x1920, left
+  feather55px with neutral-wall gate, and adds a soft white readability backing around
+  headline. Exact algorithm in compose.py, actual scope checks in changes.json.'
 photo_rects:
 - - 0
   - 530
@@ -47,7 +45,12 @@ photo_rects:
   - 2100
   - 2425
   - 2640
-protected_rects:
+verification:
+  outside_photo_changed_pixels: 0
+  protected_glyph_changed_pixels: 0
+sha256: 42ed8aa8c94a703bebc7a369d520119d63e2738350ec3799ff9d1031aab3fa59
+revision: 2
+protected_glyph_regions:
 - - 0
   - 530
   - 745
@@ -64,7 +67,3 @@ protected_rects:
   - 2100
   - 1450
   - 2480
-verification:
-  outside_photo_changed_pixels: 0
-  protected_rect_changed_pixels: 0
-sha256: cc7109dbae5ffb2f7ae13cbd970e4e222dbf7705a3b5dfc4b6b8f566dce34a60
