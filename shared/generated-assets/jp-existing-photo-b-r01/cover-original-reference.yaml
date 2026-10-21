@@ -1,0 +1,6 @@
+purpose: 人間が求めたパンフレット表紙の集合写真原本の識別
+photo_id: student-14
+file: company-data/photos/student-14.jpg
+sha256: 61d8d5bd6cbcc0781eec44ffab81ba94588628a97bf760c199aa71f66349e412
+identification: 写真検索で集合写真6枚を抽出し、student-14とstudent-17を開き、現行パンフレットPDF表紙を画像で照合。赤い衣装の前列左人物、前列の配置、教職員列、右の黄色い衣装の並びがstudent-14に対応。
+notes: 現行表紙は背景や画角等が再構成されており、元写真と画素一致ではない。写真原本は未変更。生成入力に使用していない。
