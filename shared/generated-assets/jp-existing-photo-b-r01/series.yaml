@@ -1,27 +1,26 @@
 series_id: B-PHOTO-R01
 proposal: B
-display_name: B案_掲載写真の構図維持_肌と顔立ちの控えめな調整_r01
+display_name: B案_写真ごとに指定構図と人物を調整
 status: 方向確認候補・未採用
 tags:
 - 提案:B
 - 素材:生成編集人物
 - 参照:現行パンフ写真
-- 構図:元写真維持
 - 肌:褐色を残す
 - 顔立ち:多様性を残す
 - 状態:紙面未反映
-contrast_with_A: A案は新しい4人を固定して場面展開。B案は元の場面ごとの人物配置・服装・ポーズを参照。B全3場面が同じ4人という設定ではない。
+- 構図:各場面の最新指定を参照
+contrast_with_A: A案は新しい4人の固定展開。Bの1・3枚目は元写真の構図参照、2枚目R05は添付男性1枚だけを参照した新しい着席構図。
 scenes:
 - id: B-PHOTO-R01-S01
   file: B-PHOTO-R01-S01.png
   source_pdf_page: 2
   name: 4人組
-- id: B-PHOTO-R04-S02
-  file: B-PHOTO-R04-S02.png
-  source_pdf_page: 8
-  name: 教員とPC授業_画像入力0枚_文章から新規構成
-  previous_file: B-PHOTO-R03-S02.png
-  reference_image_count: 0
+- id: B-PHOTO-R05-S02
+  file: B-PHOTO-R05-S02.png
+  name: 教員とPC授業_着席の新構図_添付男性のみ参照
+  previous_file: B-PHOTO-R04-S02.png
+  reference_image_count: 1
 - id: B-PHOTO-R01-S03
   file: B-PHOTO-R01-S03.png
   source_pdf_page: 11

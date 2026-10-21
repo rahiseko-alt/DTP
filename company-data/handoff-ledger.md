@@ -368,3 +368,7 @@ PDF受渡し調査は人間の指示で保留。医専BOOKの地図第2案を画
 ## 2026-10-21 R04は画像入力0枚で新規構成
 
 人間がR03も元画像依存と指摘し、ゼロからの構成を再指定。現在のB2候補は `shared/generated-assets/jp-existing-photo-b-r01/B-PHOTO-R04-S02.png`。image_gen呼出はpromptとtransparent_backgroundだけ、参照画像指定は一切なし。添付男性の外見も文章化したため、本人の同一性は画像参照で固定していない。学生・教室・姿勢も新しい画像として目視。冊子未反映、未採用。R01〜R03を現行として出さない。
+
+## 2026-10-21 B2着席新構図R05
+
+人間が承認した文章の実行を指示し、男性ポートレートを再添付。参照は再添付の1枚だけ（num_last_images_to_include:1）、過去画像入力なしで `shared/generated-assets/jp-existing-photo-b-r01/B-PHOTO-R05-S02.png` を生成。講師は左に着席、学生と同じ高さの新構図。目視済み。series.yamlはR05へ更新。生成場面・未採用・冊子未反映。R01〜R04の旧候補を現行として提示しない。
