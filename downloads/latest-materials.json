@@ -28,11 +28,13 @@
         "表記年度:2028",
         "状態:現行",
         "用途:日本人版の制作元",
-        "人物:日本人イメージ未統一"
+        "人物:日本人イメージ未統一",
+        "版:医専版"
       ],
       "binding": "中綴じ・左綴じ",
       "audience_status": "日本人向けへの内容点検が必要",
-      "year_status": "紙面は2028表記。掲載学費・入試の根拠は2027年度。2028年度確定版とは呼ばない"
+      "year_status": "紙面は2028表記。掲載学費・入試の根拠は2027年度。2028年度確定版とは呼ばない",
+      "version_policy": "医専版の独立した現行データとして保持。HAL構成版で上書き・置換しない。"
     },
     "admissions": {
       "document": "admissions-guide-2027",
@@ -120,9 +122,12 @@
       "tags": [
         "対象:日本人向け",
         "人物仕様:日本人イメージ",
-        "状態:未制作"
+        "状態:未制作",
+        "版:医専版",
+        "意匠:医専白版"
       ],
-      "file": null
+      "file": null,
+      "version_policy": "医専版の日本人向け制作枠として保持。HAL構成版とは別に管理。"
     },
     {
       "work_id": "ADM-JP-2027-PEOPLE",
@@ -147,6 +152,23 @@
         "状態:未制作"
       ],
       "file": null
+    },
+    {
+      "work_id": "PAM-JP-HAL",
+      "source_material_id": null,
+      "planned_document_id": "prospectus-jp-hal-2028",
+      "display_name": "パンフレット_日本人向け_HAL構成版_年度要確認_制作予定",
+      "status": "未制作",
+      "phase": "構成検討",
+      "tags": [
+        "種別:パンフレット",
+        "対象:日本人向け",
+        "版:HAL構成版",
+        "状態:未制作"
+      ],
+      "file": null,
+      "brief": "docs/briefs/jp-brochure-hal-composition-20261021.md",
+      "version_policy": "新しい独立版。医専版・既存HAL風12P案を上書きしない。紙面・PDF・画像の採否を独立管理。"
     }
   ],
   "excluded_variants": [
@@ -157,8 +179,8 @@
     },
     {
       "document": "prospectus-hal-2028",
-      "label": "別案パンフレット_HAL風",
-      "status": "今回の制作対象外"
+      "label": "既存HAL風12P案（新HAL構成版とは別）",
+      "status": "今回の新HAL構成版へ自動採用しない"
     },
     {
       "document": "oc-approved-20261017",
