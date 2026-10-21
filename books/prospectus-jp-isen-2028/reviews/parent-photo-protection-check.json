@@ -1,10 +1,10 @@
 {
-  "revision": 7,
+  "revision": 8,
   "records": [
     {
       "page": 1,
-      "scope": "cover photo extra alpha mask/fade removed; original photo/text/band positions retained",
-      "sha256": "ec8ac04ce7d1cd64181da48634ed5fe6185bfb496c41db7d95c5b1c78e448b12"
+      "scope": "cover lower photo restored from the same retained cutout, removing blank strip; unchanged text position/body",
+      "sha256": "db0a7aaa35e2dd29e188020a553ff00200e17fde038360fcd2fc3a64503097ce"
     },
     {
       "page": 2,

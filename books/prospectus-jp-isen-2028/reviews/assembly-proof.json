@@ -3,13 +3,13 @@
   "source_sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
   "source_unchanged": true,
   "file": "books/prospectus-jp-isen-2028/output/医専日本人版_16P_確認用.pdf",
-  "sha256": "4fda3f1a8693e02d6d9322d608ee4e93d0468acf61994171d771a3efb3dc9188",
+  "sha256": "19fc5d13e93cb3a9c5dfc5a8e6d4ea0b5ff946879bf3a6e6818e0cf8f24fd3d2",
   "pages": 16,
   "inputs": [
     {
       "page": 1,
       "file": "books/prospectus-jp-isen-2028/work/revision3-cover/cover-page.png",
-      "sha256": "ec8ac04ce7d1cd64181da48634ed5fe6185bfb496c41db7d95c5b1c78e448b12"
+      "sha256": "db0a7aaa35e2dd29e188020a553ff00200e17fde038360fcd2fc3a64503097ce"
     },
     {
       "page": 2,
@@ -230,19 +230,19 @@
     {
       "paper": "A3",
       "file": "books/prospectus-jp-isen-2028/output/医専日本人版_A3_中綴じ_短辺反転.pdf",
-      "sha256": "2bf092154f95ef5afd6e5410b81c56454909840ede4b6828a51bd9f1c158c0d9",
+      "sha256": "a375f44eef695f16b50274c18682dbaf1982022d9497ab16900086d49c6b5d46",
       "faces": 8,
       "sheets": 4
     },
     {
       "paper": "A4",
       "file": "books/prospectus-jp-isen-2028/output/医専日本人版_A4_中綴じ_短辺反転.pdf",
-      "sha256": "539ca2fca4525f8d5b20a1440958de4c2f3b8cdb664691ede63e8dd266ff36e2",
+      "sha256": "c8a5d3eec2a77d43e1ad15a7f41d49512c31ec46bbfc7342f21cd7fce4dc5c14",
       "faces": 8,
       "sheets": 4
     }
   ],
   "release": false,
   "physical_print_test": false,
-  "scope": "改稿7は表紙写真の丸みを作った透過マスクと下端フェードを外す。帯上端・文字/写真の位置は維持。元医専の英字見出し・校名・白明朝コピーを元位置で保持し、既存切抜き写真を灰色背景へ合成。本文は人間確認済み改稿2のまま。"
+  "scope": "改稿8は既存写真の切り落とした下側を戻し、写真とコピー間の帯状余白を撤去。帯上端・文字/写真の位置と本文は維持。元医専の英字見出し・校名・白明朝コピーを元位置で保持し、既存切抜き写真を灰色背景へ合成。本文は人間確認済み改稿2のまま。"
 }

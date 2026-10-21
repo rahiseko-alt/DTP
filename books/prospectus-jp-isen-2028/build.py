@@ -81,7 +81,7 @@ def main():
            'file':str(dest.relative_to(ROOT)),'sha256':sha(dest),'pages':16,'inputs':inputs,'checks':checks,
            'changed_pages':list(range(1,13)),'unchanged_pages':[13,14,15,16],
            'p12_native_text_and_photo_outside_pixels_identical':True,'print_faces':faces,'print_outputs':printouts,
-           'release':False,'physical_print_test':False,'scope':'改稿7は表紙写真の丸みを作った透過マスクと下端フェードを外す。帯上端・文字/写真の位置は維持。元医専の英字見出し・校名・白明朝コピーを元位置で保持し、既存切抜き写真を灰色背景へ合成。本文は人間確認済み改稿2のまま。'}
+           'release':False,'physical_print_test':False,'scope':'改稿8は既存写真の切り落とした下側を戻し、写真とコピー間の帯状余白を撤去。帯上端・文字/写真の位置と本文は維持。元医専の英字見出し・校名・白明朝コピーを元位置で保持し、既存切抜き写真を灰色背景へ合成。本文は人間確認済み改稿2のまま。'}
     (proofdir/'assembly-proof.json').write_text(json.dumps(proof,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'file':str(dest),'sha256':proof['sha256'],'pages':16,'print':printouts},ensure_ascii=False))
 

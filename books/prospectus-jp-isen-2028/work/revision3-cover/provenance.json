@@ -1,25 +1,35 @@
 {
-  "revision": 7,
+  "revision": 8,
   "scope": "cover only; confirmed body pages remain fixed",
   "method": "DTP composite only; no new generation or face edit; source header and Mincho copy retained at exact coordinates",
   "source_cover": "cover/source-cover.png",
   "source_cover_sha256": "ff273aeb847f2ffab5df5b562b223fe29c4c076cebb187d15390f432ae5ad71b",
   "photo": "revision2-cover/group-upper-body.png",
   "photo_sha256": "4cdd5d3f774f0981b08c9f434b713b49932b4de39626e378164b53f2c37003ad",
+  "restored_lower_photo": "revision2-cover/group-cutout.png",
+  "restored_lower_photo_sha256": "462b9f142aa3622832f24dac02158fa1fa280da0ca0aba29b1c35ebf2f0a210e",
+  "full_photo_crop_xyxy": [
+    150,
+    90,
+    1448,
+    1086
+  ],
+  "photo_crop_bottom_before": 850,
+  "photo_crop_bottom_after": 1086,
   "photo_position_px": [
     0,
     940
   ],
   "photo_size_px": [
     2480,
-    1452
+    1903
   ],
   "scale_isotropic": 1.9106317411402156,
   "photo_native_effective_dpi": 157.01612903225808,
   "photo_fade_enabled": false,
   "additional_photo_mask": null,
   "photo_alpha": "unaltered existing cutout alpha after isotropic resize",
-  "image_bottom_y_px": 2392,
+  "image_bottom_y_px": 2843,
   "wall_rgb": [
     198.0,
     204.0,
@@ -57,11 +67,14 @@
   "pure_white_copy_changed_pixels": 0,
   "letter_contours_and_coordinates": "same source glyph geometry and position; white alpha extracted, old opaque halo removed",
   "copy_mask_sha256": "c19c5f37e42bf763190b6368f93d01fb7f3422807e811db7f58b787aad635f87",
-  "cover_sha256": "ec8ac04ce7d1cd64181da48634ed5fe6185bfb496c41db7d95c5b1c78e448b12",
+  "cover_sha256": "db0a7aaa35e2dd29e188020a553ff00200e17fde038360fcd2fc3a64503097ce",
   "size_px": [
     2480,
     3508
   ],
   "new_generation": false,
-  "note": "The retained cutout was generated from the specified saved group in revision2; its earlier provenance and limits remain applicable."
+  "note": "The retained cutout was generated from the specified saved group in revision2; its earlier provenance and limits remain applicable.",
+  "visible_photo_bottom_y_px_alpha_gt64": 2745,
+  "blank_gap_before_band_px": 0,
+  "screenshot": "reviews/cover-revision8-screenshot.png"
 }

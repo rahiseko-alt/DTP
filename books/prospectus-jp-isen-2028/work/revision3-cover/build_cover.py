@@ -8,12 +8,15 @@ HERE = Path(__file__).resolve().parent
 WORK = HERE.parent
 SOURCE = WORK / 'cover/source-cover.png'
 PHOTO = WORK / 'revision2-cover/group-upper-body.png'
+FULL_PHOTO = WORK / 'revision2-cover/group-cutout.png'
 COPY_MASK = WORK / 'cover/original-copy-protection-mask.png'
 sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
 
 src = Image.open(SOURCE).convert('RGB')
 s = np.array(src)
-photo = Image.open(PHOTO).convert('RGBA')
+# Restore the existing photograph's lower portion; the old upper-body crop left a blank strip.
+photo = Image.open(FULL_PHOTO).convert('RGBA').crop((150, 90, 1448, 1086))
+photo.paste(Image.open(PHOTO).convert('RGBA'), (0, 0))
 scale = 2480 / photo.width
 photo = photo.resize((2480, round(photo.height * scale)), Image.Resampling.LANCZOS)
 position = (0, 940)
@@ -56,17 +59,25 @@ white = (np.array(copy_mask) > 0) & np.all(s == 255, axis=2)
 assert np.array_equal(s[white], r[white]), 'pure white lettering changed'
 result.save(HERE / 'cover-page.png', dpi=(300, 300))
 result.resize((744, 1053), Image.Resampling.LANCZOS).save(HERE / 'preview.png')
-result.resize((744, 1053), Image.Resampling.LANCZOS).save(HERE / 'preview-no-photo-filter.png')
+result.resize((744, 1053), Image.Resampling.LANCZOS).save(HERE / 'preview-no-gap.png')
+visible_last = int(np.where(np.any(np.array(photo.getchannel('A')) > 64, axis=1))[0].max() + position[1])
+blank_gap = max(0, band_edge[0] - visible_last - 1)
+assert blank_gap == 0, 'blank strip remains between photo and caption band'
 report = {
-    'revision': 7, 'scope': 'cover only; confirmed body pages remain fixed',
+    'revision': 8, 'scope': 'cover only; confirmed body pages remain fixed',
     'method': 'DTP composite only; no new generation or face edit; source header and Mincho copy retained at exact coordinates',
     'source_cover': str(SOURCE.relative_to(WORK)), 'source_cover_sha256': sha(SOURCE),
     'photo': str(PHOTO.relative_to(WORK)), 'photo_sha256': sha(PHOTO),
+    'restored_lower_photo': str(FULL_PHOTO.relative_to(WORK)), 'restored_lower_photo_sha256': sha(FULL_PHOTO),
+    'full_photo_crop_xyxy': [150, 90, 1448, 1086],
+    'photo_crop_bottom_before': 850, 'photo_crop_bottom_after': 1086,
     'photo_position_px': position, 'photo_size_px': photo.size, 'scale_isotropic': scale,
     'photo_native_effective_dpi': 300 / scale,
     'photo_fade_enabled': False, 'additional_photo_mask': None,
     'photo_alpha': 'unaltered existing cutout alpha after isotropic resize',
     'image_bottom_y_px': position[1] + photo.height,
+    'visible_photo_bottom_y_px_alpha_gt64': visible_last, 'blank_gap_before_band_px': blank_gap,
+    'screenshot': 'reviews/cover-revision8-screenshot.png',
     'wall_rgb': wall.tolist(), 'floor_rgb': floor.tolist(), 'scrim_rgb': scrim_rgb.tolist(),
     'scrim_max_opacity': scrim_opacity, 'scrim_y_px': [band_top, 3507],
     'band_top_aligned_to_first_headline_y_px': band_top, 'band_edge_feather_y_px': band_edge,
