@@ -34,7 +34,9 @@ for aid, dest in [
     results.append({'id': aid, 'before_sha256': sha(before), 'after_sha256': sha(after),
                     'unchanged_pages_or_faces': unchanged,
                     'first_print_face_left_back_cover_unchanged': True if 'print' in aid else None})
-revision = json.loads((B / 'work/revision3-cover/provenance.json').read_text())['revision']
+assembly = json.loads((B / 'reviews/assembly-proof.json').read_text())
+cover_file = ROOT / next(x['file'] for x in assembly['inputs'] if x['page'] == 1)
+revision = json.loads(cover_file.with_name('provenance.json').read_text())['revision']
 proof = {'revision': revision, 'reference_commit': ref['reference_commit'],
          'only_front_cover_changed': True, 'reading_body_pages_2_to_16_pixels_identical': True,
          'checks': results, 'physical_print_test': False}

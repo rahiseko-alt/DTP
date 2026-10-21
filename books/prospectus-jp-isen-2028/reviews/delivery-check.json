@@ -1,18 +1,18 @@
 {
-  "revision": 8,
+  "revision": 9,
   "reading_pages": 16,
-  "master_sha256": "19fc5d13e93cb3a9c5dfc5a8e6d4ea0b5ff946879bf3a6e6818e0cf8f24fd3d2",
-  "reading_sha256": "7b4dfc97176a86a92c5ebb3e537461696dfc2a98aa6abf1ee3c84c8dd090f99a",
+  "master_sha256": "3e37d0f14fcbc3ac9402572787f8716f8e87c0928bedcae69a3c49eb409b1a74",
+  "reading_sha256": "89835f4f26b0b9c96d21a6e4b634631343736bd371c3320a6f900ad0327fa8c2",
   "print_outputs": [
     {
       "paper": "A3",
-      "sha256": "cdc5082d3b6c0b7f8a7d7bd4976aeb32521a6e82bc07317a99a544e9bd4ff144",
+      "sha256": "10b44e375de0ee0e25571ef0cbbf609a58e7d45ccc3931b6e5402b344c17b349",
       "faces": 8,
       "sheets": 4
     },
     {
       "paper": "A4",
-      "sha256": "99bf18efc63fe5b486f967c2fe6b700df897fd12aec68e2f5581aedc2bcedf76",
+      "sha256": "2b92f7d6c8c373e6087f79fb5bb65f0a0083f444c3fc1b978f13bf2a7d8ed176",
       "faces": 8,
       "sheets": 4
     }

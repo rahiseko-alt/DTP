@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[2]
 BOOK = Path(__file__).resolve().parent
 SOURCE_SHA = '62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880'
 SOURCE = ROOT / f'books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/{SOURCE_SHA}/latest-prospectus-pdf.pdf'
-PAGES = {1:'revision3-cover/cover-page.png',2:'heroes/page-02.png',3:'learning-a/page-03.png',
+PAGES = {1:'revision9-cover/cover-page.png',2:'heroes/page-02.png',3:'learning-a/page-03.png',
          4:'heroes/page-04.png',5:'learning-a/page-05.png',6:'heroes/page-06.png',
          7:'learning-b/page-07.png',8:'teacher/page-08.png',9:'learning-b/page-09.png',
          10:'support/page-10.png',11:'support/page-11.png'}
@@ -81,7 +81,7 @@ def main():
            'file':str(dest.relative_to(ROOT)),'sha256':sha(dest),'pages':16,'inputs':inputs,'checks':checks,
            'changed_pages':list(range(1,13)),'unchanged_pages':[13,14,15,16],
            'p12_native_text_and_photo_outside_pixels_identical':True,'print_faces':faces,'print_outputs':printouts,
-           'release':False,'physical_print_test':False,'scope':'改稿8は既存写真の切り落とした下側を戻し、写真とコピー間の帯状余白を撤去。帯上端・文字/写真の位置と本文は維持。元医専の英字見出し・校名・白明朝コピーを元位置で保持し、既存切抜き写真を灰色背景へ合成。本文は人間確認済み改稿2のまま。'}
+           'release':False,'physical_print_test':False,'scope':'改稿9は元の室内写真の壁・床・足元の影を保持し、文字の下だけ床を生成延長。人物を再生成せず、本文は人間確認済みのまま。'}
     (proofdir/'assembly-proof.json').write_text(json.dumps(proof,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'file':str(dest),'sha256':proof['sha256'],'pages':16,'print':printouts},ensure_ascii=False))
 

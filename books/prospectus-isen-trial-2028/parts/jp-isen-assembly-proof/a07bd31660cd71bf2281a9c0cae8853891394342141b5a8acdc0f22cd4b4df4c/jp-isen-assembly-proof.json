@@ -1,0 +1,248 @@
+{
+  "source": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
+  "source_sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+  "source_unchanged": true,
+  "file": "books/prospectus-jp-isen-2028/output/医専日本人版_16P_確認用.pdf",
+  "sha256": "3e37d0f14fcbc3ac9402572787f8716f8e87c0928bedcae69a3c49eb409b1a74",
+  "pages": 16,
+  "inputs": [
+    {
+      "page": 1,
+      "file": "books/prospectus-jp-isen-2028/work/revision9-cover/cover-page.png",
+      "sha256": "5920a376fa0520ccd7acdc75f2566be69f086e1aed2473a700938944d5871ca5"
+    },
+    {
+      "page": 2,
+      "file": "books/prospectus-jp-isen-2028/work/heroes/page-02.png",
+      "sha256": "b8c7b93f637688541b4133d3c8d6022cf9cdfc32146b9c717fca0e29aa81ce49"
+    },
+    {
+      "page": 3,
+      "file": "books/prospectus-jp-isen-2028/work/learning-a/page-03.png",
+      "sha256": "f104711df92075e8f0544fcfbd33e6bd8d7db08e0b544cc4d7528c34a7abaeae"
+    },
+    {
+      "page": 4,
+      "file": "books/prospectus-jp-isen-2028/work/heroes/page-04.png",
+      "sha256": "378d9d1770cbfd0cc52455aba884e7f0f00353df8293f57baa8c7660f9016f7d"
+    },
+    {
+      "page": 5,
+      "file": "books/prospectus-jp-isen-2028/work/learning-a/page-05.png",
+      "sha256": "10c1cd5a26ac3883db671fc921369fe8d6bc28219af885b42fd91604e56969f9"
+    },
+    {
+      "page": 6,
+      "file": "books/prospectus-jp-isen-2028/work/heroes/page-06.png",
+      "sha256": "bfb682ede0d2b1bfb461a6856aa381b2ef2eec3f3a96fe9399eb7426e96027c7"
+    },
+    {
+      "page": 7,
+      "file": "books/prospectus-jp-isen-2028/work/learning-b/page-07.png",
+      "sha256": "5fd1ee91d40b8bc654d97d118d879c9dda20b47ac20226ce0bcd668854159aef"
+    },
+    {
+      "page": 8,
+      "file": "books/prospectus-jp-isen-2028/work/teacher/page-08.png",
+      "sha256": "39c49518e50341d4d6723cc6942eee619c1d8b9f604631e1bf75a71e298484c7"
+    },
+    {
+      "page": 9,
+      "file": "books/prospectus-jp-isen-2028/work/learning-b/page-09.png",
+      "sha256": "69944b75f40b3775e355c60aa00b90f52dea3b1580ebc13f9adace6e2db0985c"
+    },
+    {
+      "page": 10,
+      "file": "books/prospectus-jp-isen-2028/work/support/page-10.png",
+      "sha256": "42ed8aa8c94a703bebc7a369d520119d63e2738350ec3799ff9d1031aab3fa59"
+    },
+    {
+      "page": 11,
+      "file": "books/prospectus-jp-isen-2028/work/support/page-11.png",
+      "sha256": "9b0cbcbf4e5ff076b8605e68d8a65b0bdb944b9c89797c6ef58b0096f0b72b2e"
+    },
+    {
+      "page": 12,
+      "file": "books/prospectus-jp-isen-2028/work/support/p12-photo.png",
+      "sha256": "5763360ddeed44bf6fddfd88e306e67ccfd46b4c893a3fe41528aca490ae8c2b",
+      "rect_pt": [
+        327.9923095703125,
+        53.80705642700195,
+        564.502197265625,
+        150.66348266601562
+      ]
+    }
+  ],
+  "checks": {
+    "1": {
+      "native_text_identical": true,
+      "page_size_identical": true,
+      "whole_page_pixels_identical": null
+    },
+    "2": {
+      "native_text_identical": true,
+      "page_size_identical": true,
+      "whole_page_pixels_identical": null
+    },
+    "3": {
+      "native_text_identical": true,
+      "page_size_identical": true,
+      "whole_page_pixels_identical": null
+    },
+    "4": {
+      "native_text_identical": true,
+      "page_size_identical": true,
+      "whole_page_pixels_identical": null
+    },
+    "5": {
+      "native_text_identical": true,
+      "page_size_identical": true,
+      "whole_page_pixels_identical": null
+    },
+    "6": {
+      "native_text_identical": true,
+      "page_size_identical": true,
+      "whole_page_pixels_identical": null
+    },
+    "7": {
+      "native_text_identical": true,
+      "page_size_identical": true,
+      "whole_page_pixels_identical": null
+    },
+    "8": {
+      "native_text_identical": true,
+      "page_size_identical": true,
+      "whole_page_pixels_identical": null
+    },
+    "9": {
+      "native_text_identical": true,
+      "page_size_identical": true,
+      "whole_page_pixels_identical": null
+    },
+    "10": {
+      "native_text_identical": true,
+      "page_size_identical": true,
+      "whole_page_pixels_identical": null
+    },
+    "11": {
+      "native_text_identical": true,
+      "page_size_identical": true,
+      "whole_page_pixels_identical": null
+    },
+    "12": {
+      "native_text_identical": true,
+      "page_size_identical": true,
+      "whole_page_pixels_identical": null
+    },
+    "13": {
+      "native_text_identical": true,
+      "page_size_identical": true,
+      "whole_page_pixels_identical": true
+    },
+    "14": {
+      "native_text_identical": true,
+      "page_size_identical": true,
+      "whole_page_pixels_identical": true
+    },
+    "15": {
+      "native_text_identical": true,
+      "page_size_identical": true,
+      "whole_page_pixels_identical": true
+    },
+    "16": {
+      "native_text_identical": true,
+      "page_size_identical": true,
+      "whole_page_pixels_identical": true
+    }
+  },
+  "changed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "unchanged_pages": [
+    13,
+    14,
+    15,
+    16
+  ],
+  "p12_native_text_and_photo_outside_pixels_identical": true,
+  "print_faces": [
+    {
+      "sheet": 1,
+      "side": "front",
+      "left": 16,
+      "right": 1
+    },
+    {
+      "sheet": 1,
+      "side": "back",
+      "left": 2,
+      "right": 15
+    },
+    {
+      "sheet": 2,
+      "side": "front",
+      "left": 14,
+      "right": 3
+    },
+    {
+      "sheet": 2,
+      "side": "back",
+      "left": 4,
+      "right": 13
+    },
+    {
+      "sheet": 3,
+      "side": "front",
+      "left": 12,
+      "right": 5
+    },
+    {
+      "sheet": 3,
+      "side": "back",
+      "left": 6,
+      "right": 11
+    },
+    {
+      "sheet": 4,
+      "side": "front",
+      "left": 10,
+      "right": 7
+    },
+    {
+      "sheet": 4,
+      "side": "back",
+      "left": 8,
+      "right": 9
+    }
+  ],
+  "print_outputs": [
+    {
+      "paper": "A3",
+      "file": "books/prospectus-jp-isen-2028/output/医専日本人版_A3_中綴じ_短辺反転.pdf",
+      "sha256": "24e40dcc988a8222c3201e26aa9318b0f6be31ec2c414df353e97880e9599221",
+      "faces": 8,
+      "sheets": 4
+    },
+    {
+      "paper": "A4",
+      "file": "books/prospectus-jp-isen-2028/output/医専日本人版_A4_中綴じ_短辺反転.pdf",
+      "sha256": "6cb2aedc57360fcf3de8527441ff86404221289d0732e25d3ff4b2e0591b0df1",
+      "faces": 8,
+      "sheets": 4
+    }
+  ],
+  "release": false,
+  "physical_print_test": false,
+  "scope": "改稿9は元の室内写真の壁・床・足元の影を保持し、文字の下だけ床を生成延長。人物を再生成せず、本文は人間確認済みのまま。"
+}

@@ -1,10 +1,10 @@
 {
-  "revision": 8,
+  "revision": 9,
   "records": [
     {
       "page": 1,
-      "scope": "cover lower photo restored from the same retained cutout, removing blank strip; unchanged text position/body",
-      "sha256": "db0a7aaa35e2dd29e188020a553ff00200e17fde038360fcd2fc3a64503097ce"
+      "scope": "original complete room/group/contact shadows retained; generated foreground floor extension only; body fixed",
+      "sha256": "5920a376fa0520ccd7acdc75f2566be69f086e1aed2473a700938944d5871ca5"
     },
     {
       "page": 2,

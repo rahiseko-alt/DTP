@@ -22,5 +22,6 @@ for paper in ['A3','A4']:
  for p,f in zip(doc,proof['print_faces']):assert amounts(p)==amounts(a[f['left']-1])+amounts(a[f['right']-1])
  prints.append({'paper':paper,'sha256':sha(path),'faces':8,'sheets':4})
 qr=decode(b[14].get_pixmap(matrix=fitz.Matrix(2,2)));assert 'https://kaihougakuen.my.canva.site/' in qr,qr
-result={'revision':json.loads((B/'work/revision3-cover/provenance.json').read_text())['revision'],'reading_pages':16,'master_sha256':sha(master),'reading_sha256':sha(reading),'print_outputs':prints,'native_currency_counts_unchanged_after_compression':True,'native_currency_counts_in_every_imposed_face_verified':True,'qr_decoded':qr,'physical_print_test':False}
+cover_file=B.parents[1]/next(x['file'] for x in proof['inputs'] if x['page']==1)
+result={'revision':json.loads(cover_file.with_name('provenance.json').read_text())['revision'],'reading_pages':16,'master_sha256':sha(master),'reading_sha256':sha(reading),'print_outputs':prints,'native_currency_counts_unchanged_after_compression':True,'native_currency_counts_in_every_imposed_face_verified':True,'qr_decoded':qr,'physical_print_test':False}
 (B/'reviews/delivery-check.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print(json.dumps(result,ensure_ascii=False))

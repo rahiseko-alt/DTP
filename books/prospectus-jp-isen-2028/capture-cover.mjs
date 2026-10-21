@@ -4,7 +4,9 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const book = path.dirname(fileURLToPath(import.meta.url));
-const { revision } = JSON.parse(await fs.readFile(path.join(book, 'work/revision3-cover/provenance.json'), 'utf8'));
+const assembly = JSON.parse(await fs.readFile(path.join(book, 'reviews/assembly-proof.json'), 'utf8'));
+const cover = path.resolve(book, '../..', assembly.inputs.find(x => x.page === 1).file);
+const { revision } = JSON.parse(await fs.readFile(path.join(path.dirname(cover), 'provenance.json'), 'utf8'));
 // Capture the rendered PDF page, rather than the pre-assembly cover artwork.
 const png = await fs.readFile(path.join(book, 'output/pages/page-01.png'));
 const browser = await chromium.launch({ executablePath: '/usr/bin/chromium', headless: true, args: ['--no-sandbox'] });

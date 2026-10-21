@@ -1,0 +1,51 @@
+{
+  "revision": 9,
+  "scope": "cover only; human-confirmed body fixed",
+  "source_photo": "shared/generated-assets/cover-group-jp/日本人版マシな方1.png",
+  "source_photo_sha256": "3dcc490b25f35f2dba66fa46276f9d60f9f55a17d5444888549d5ee019698157",
+  "source_photo_crop_xyxy": [
+    165,
+    190,
+    1245,
+    1060
+  ],
+  "original_photo_rect_px": [
+    0,
+    640,
+    2480,
+    2638
+  ],
+  "source_photo_changed_pixels_after_placement": 0,
+  "photo_scale_isotropic": 2.2962962962962963,
+  "photo_effective_dpi": 130.6451612903226,
+  "photo_background": "original room wall, carpet, people and foot contact shadows retained",
+  "photo_cutout": false,
+  "photo_mask": null,
+  "photo_fade": false,
+  "generated_image": "floor-extension-generated.png",
+  "generated_sha256": "0cfc01f7721ac4c1b94520ba930f5afbb6654f1e19eba53bf812ab9ac948b50b",
+  "generated_floor_crop_native_px": [
+    0,
+    1030,
+    1135,
+    1386
+  ],
+  "generated_floor_only_rect_px": [
+    0,
+    2638,
+    2480,
+    3508
+  ],
+  "floor_seam_blend_px": 24,
+  "source_photo_in_seam_blend": false,
+  "copy_position": "original Isen coordinates",
+  "scrim_y_px": [
+    2779,
+    3507
+  ],
+  "scrim_max_opacity": 0.2,
+  "header_changed_pixels": 0,
+  "pure_white_copy_changed_pixels": 0,
+  "cover_sha256": "5920a376fa0520ccd7acdc75f2566be69f086e1aed2473a700938944d5871ca5",
+  "note": "Image Gen output people are discarded. Only the lower floor extension is used; all photographed group/room/shadow pixels come from the named saved source after proportional resize."
+}
