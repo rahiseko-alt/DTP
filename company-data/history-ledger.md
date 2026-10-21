@@ -343,3 +343,7 @@ Aは新しい男女4人の3場面。Bは人間の指定で掲載写真の人物�
 ## 2026-10-22 表紙の帯上端をコピー位置へ下げる（改稿6・最新）
 
 人間の指示で「AIを使いこなす」の文字上端y2779まで透過帯上端を下げた。60px幅の境界ぼかしと最大不透明度40%を維持。人物・文字の位置、写真素材とフェード、確認済み本文は固定。新生成なし。親がプレビュー/最終PDF表紙を目視、本文P2〜16と印刷の表紙以外の一致を再検証。books/prospectus-jp-isen-2028/reviews/final-review.md、cover-only-revision6-proof.json。downloadsのPAM-JP-ISENを改稿6へ更新。commitのみ・pushなし。
+
+## 2026-10-22 写真を丸く見せたマスクを撤去（改稿7・最新）
+
+人間の試行指示で、写真のx依存透過マスク・下端フェードを外した。元の上半身切抜き画像のαのみで合成し、写真の水平なcrop下端をそのまま表示。写真位置/サイズ、文字/帯の位置、確認済み本文は固定。新しい画像生成や脚の補完なし。親がプレビューと最終PDF表紙を目視、本文P2〜16と印刷の表紙以外の一致を再検証。books/prospectus-jp-isen-2028/reviews/final-review.md、cover-only-revision7-proof.json。downloadsのPAM-JP-ISENを改稿7確認用へ更新。表紙の人間採用は未実施。commitのみ・pushなし。

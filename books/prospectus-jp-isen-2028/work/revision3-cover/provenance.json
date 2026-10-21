@@ -1,5 +1,5 @@
 {
-  "revision": 6,
+  "revision": 7,
   "scope": "cover only; confirmed body pages remain fixed",
   "method": "DTP composite only; no new generation or face edit; source header and Mincho copy retained at exact coordinates",
   "source_cover": "cover/source-cover.png",
@@ -16,10 +16,9 @@
   ],
   "scale_isotropic": 1.9106317411402156,
   "photo_native_effective_dpi": 157.01612903225808,
-  "bottom_fade_y_px": [
-    1840,
-    2360
-  ],
+  "photo_fade_enabled": false,
+  "additional_photo_mask": null,
+  "photo_alpha": "unaltered existing cutout alpha after isotropic resize",
   "image_bottom_y_px": 2392,
   "wall_rgb": [
     198.0,
@@ -58,7 +57,7 @@
   "pure_white_copy_changed_pixels": 0,
   "letter_contours_and_coordinates": "same source glyph geometry and position; white alpha extracted, old opaque halo removed",
   "copy_mask_sha256": "c19c5f37e42bf763190b6368f93d01fb7f3422807e811db7f58b787aad635f87",
-  "cover_sha256": "81e02588d4327484224ffd02103cd172f8eafa523a1ad725d3526124354f9e73",
+  "cover_sha256": "ec8ac04ce7d1cd64181da48634ed5fe6185bfb496c41db7d95c5b1c78e448b12",
   "size_px": [
     2480,
     3508

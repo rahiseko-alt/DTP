@@ -32,15 +32,8 @@ alpha_rows = t * scrim_opacity
 rows = np.uint8(wall[None, :] * (1 - alpha_rows[:, None]) + scrim_rgb[None, :] * alpha_rows[:, None])
 floor = rows[-1].astype(float)
 background = Image.fromarray(np.repeat(rows[:, None, :], 2480, axis=1)).convert('RGBA')
-# Fade only lower torsos into the gray field, reaching zero before the image ends.
-rgba = np.array(photo).copy()
-# Broader smooth feather follows the group, dissolving edges before the image boundary.
-xx = np.linspace(-1, 1, photo.width)[None, :]
-fade_end = 2360 - 90 * xx ** 2
-fade = np.clip((fade_end - (np.arange(photo.height)[:, None] + position[1])) / 430, 0, 1)
-fade = fade * fade * (3 - 2 * fade)
-rgba[:, :, 3] = np.uint8(rgba[:, :, 3] * fade)
-background.alpha_composite(Image.fromarray(rgba), position)
+# Keep the existing cutout's own alpha; no oval mask, bottom fade, or blur.
+background.alpha_composite(photo, position)
 result = background.convert('RGB')
 # Original typography and exact original coordinates, including school/courses and fine copy.
 header_mask = np.zeros((3508, 2480), dtype=np.uint8)
@@ -61,19 +54,19 @@ r = np.array(result)
 assert np.array_equal(s[:640], r[:640]), 'original header changed'
 white = (np.array(copy_mask) > 0) & np.all(s == 255, axis=2)
 assert np.array_equal(s[white], r[white]), 'pure white lettering changed'
-assert np.all(fade[-1] == 0), 'image boundary must be hidden'
 result.save(HERE / 'cover-page.png', dpi=(300, 300))
 result.resize((744, 1053), Image.Resampling.LANCZOS).save(HERE / 'preview.png')
-result.resize((744, 1053), Image.Resampling.LANCZOS).save(HERE / 'preview-transparent.png')
-result.resize((744, 1053), Image.Resampling.LANCZOS).save(HERE / 'preview-band-at-headline.png')
+result.resize((744, 1053), Image.Resampling.LANCZOS).save(HERE / 'preview-no-photo-filter.png')
 report = {
-    'revision': 6, 'scope': 'cover only; confirmed body pages remain fixed',
+    'revision': 7, 'scope': 'cover only; confirmed body pages remain fixed',
     'method': 'DTP composite only; no new generation or face edit; source header and Mincho copy retained at exact coordinates',
     'source_cover': str(SOURCE.relative_to(WORK)), 'source_cover_sha256': sha(SOURCE),
     'photo': str(PHOTO.relative_to(WORK)), 'photo_sha256': sha(PHOTO),
     'photo_position_px': position, 'photo_size_px': photo.size, 'scale_isotropic': scale,
     'photo_native_effective_dpi': 300 / scale,
-    'bottom_fade_y_px': [1840, 2360], 'image_bottom_y_px': position[1] + photo.height,
+    'photo_fade_enabled': False, 'additional_photo_mask': None,
+    'photo_alpha': 'unaltered existing cutout alpha after isotropic resize',
+    'image_bottom_y_px': position[1] + photo.height,
     'wall_rgb': wall.tolist(), 'floor_rgb': floor.tolist(), 'scrim_rgb': scrim_rgb.tolist(),
     'scrim_max_opacity': scrim_opacity, 'scrim_y_px': [band_top, 3507],
     'band_top_aligned_to_first_headline_y_px': band_top, 'band_edge_feather_y_px': band_edge,

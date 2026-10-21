@@ -1,10 +1,10 @@
 {
-  "revision": 6,
+  "revision": 7,
   "records": [
     {
       "page": 1,
-      "scope": "cover band edge moved to first headline top; original photo/text positions and confirmed body fixed",
-      "sha256": "81e02588d4327484224ffd02103cd172f8eafa523a1ad725d3526124354f9e73"
+      "scope": "cover photo extra alpha mask/fade removed; original photo/text/band positions retained",
+      "sha256": "ec8ac04ce7d1cd64181da48634ed5fe6185bfb496c41db7d95c5b1c78e448b12"
     },
     {
       "page": 2,
