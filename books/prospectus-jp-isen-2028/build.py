@@ -81,7 +81,7 @@ def main():
            'file':str(dest.relative_to(ROOT)),'sha256':sha(dest),'pages':16,'inputs':inputs,'checks':checks,
            'changed_pages':list(range(1,13)),'unchanged_pages':[13,14,15,16],
            'p12_native_text_and_photo_outside_pixels_identical':True,'print_faces':faces,'print_outputs':printouts,
-           'release':False,'physical_print_test':False,'scope':'改稿5は表紙下部を透過グラデーションと滑らかな写真フェードへ調整。元医専の英字見出し・校名・白明朝コピーを元位置で保持し、既存切抜き写真を灰色背景へ合成。本文は人間確認済み改稿2のまま。'}
+           'release':False,'physical_print_test':False,'scope':'改稿6は表紙の透過帯上端を「AIを使いこなす」の文字上端へ下げる。元医専の英字見出し・校名・白明朝コピーを元位置で保持し、既存切抜き写真を灰色背景へ合成。本文は人間確認済み改稿2のまま。'}
     (proofdir/'assembly-proof.json').write_text(json.dumps(proof,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'file':str(dest),'sha256':proof['sha256'],'pages':16,'print':printouts},ensure_ascii=False))
 

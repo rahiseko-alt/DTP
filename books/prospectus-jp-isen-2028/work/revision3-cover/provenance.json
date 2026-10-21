@@ -1,5 +1,5 @@
 {
-  "revision": 5,
+  "revision": 6,
   "scope": "cover only; confirmed body pages remain fixed",
   "method": "DTP composite only; no new generation or face edit; source header and Mincho copy retained at exact coordinates",
   "source_cover": "cover/source-cover.png",
@@ -38,8 +38,13 @@
   ],
   "scrim_max_opacity": 0.4,
   "scrim_y_px": [
-    1450,
+    2779,
     3507
+  ],
+  "band_top_aligned_to_first_headline_y_px": 2779,
+  "band_edge_feather_y_px": [
+    2729,
+    2789
   ],
   "letter_shadow": {
     "opacity": 0.15,
@@ -53,7 +58,7 @@
   "pure_white_copy_changed_pixels": 0,
   "letter_contours_and_coordinates": "same source glyph geometry and position; white alpha extracted, old opaque halo removed",
   "copy_mask_sha256": "c19c5f37e42bf763190b6368f93d01fb7f3422807e811db7f58b787aad635f87",
-  "cover_sha256": "4266192ce61a558aeada506ce80b0cfa47def1dc1e9d7a8db5529e950a827ef1",
+  "cover_sha256": "81e02588d4327484224ffd02103cd172f8eafa523a1ad725d3526124354f9e73",
   "size_px": [
     2480,
     3508

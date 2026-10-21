@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "documents": {
     "brochure": {
       "document": "prospectus-isen-trial-2028",
@@ -118,7 +118,7 @@
       "work_id": "PAM-JP-ISEN",
       "source_material_id": "PAM-ISEN-2028",
       "display_name": "パンフレット_日本人向け_医専白版_2028表記_16P_確認用",
-      "status": "改稿5・表紙の透過とフェードを調整・本文確認済み",
+      "status": "改稿6・帯上端をコピー位置へ移動・本文確認済み",
       "tags": [
         "対象:日本人向け",
         "人物仕様:日本人イメージ",
@@ -128,25 +128,25 @@
         "種別:パンフレット",
         "表記年度:2028"
       ],
-      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/a72d37b7032317261c05edaa89dbcfb6fd044b12070883cc6fd3e2f0d0a0e1ed/jp-isen-reading-pdf.pdf",
-      "version_policy": "元医専の見出し/明朝コピー位置を維持。表紙下部は最大不透明度40%の連続グラデーションと広い写真フェード、薄い文字影。人物素材/位置と人間確認済み本文P2〜16を固定。",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/194f0449ff91b3d69c925d0934dfceadbd38c73f3a4542709fc6e25082840321/jp-isen-reading-pdf.pdf",
+      "version_policy": "表紙の透過帯上端を「AIを使いこなす」の文字上端へ下げる。最大不透明度40%と短い境界ぼかしを維持。人物素材/位置・文字位置・写真フェード・確認済み本文P2〜16を固定。",
       "document": "prospectus-isen-trial-2028",
       "variant": "japanese-people-edition",
       "asset_id": "jp-isen-reading-pdf",
-      "sha256": "a72d37b7032317261c05edaa89dbcfb6fd044b12070883cc6fd3e2f0d0a0e1ed",
-      "bytes": 6678029,
+      "sha256": "194f0449ff91b3d69c925d0934dfceadbd38c73f3a4542709fc6e25082840321",
+      "bytes": 6681302,
       "pages": 16,
       "year_status": "紙面は2028表記。掲載学費・入試の根拠は2027年度。2028年度確定版とは呼ばない",
       "ai_image_status": "人物加工画像を含む。実写真の在校生・教職員の国籍や所属を示すものではない。",
-      "review_status": "親が修正前後を比較し最終PDF表紙を目視。旧確認済み本文P2〜16と全面画素・全文字一致、印刷の表紙以外も一致。新表紙の人間採用・実物印刷は未実施。",
+      "review_status": "親がプレビューと最終PDF表紙を目視。帯上端がコピー上端に一致。本文P2〜16と印刷の表紙以外は全文字・全面画素一致。新表紙の人間採用・実物印刷は未実施。",
       "print_outputs": [
         {
           "paper": "A3",
           "document": "prospectus-isen-trial-2028",
           "asset_id": "jp-isen-print-a3",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/8cfbff096c436b04460c3b58cdc4eae773703884eab78bca46716d96811a3611/jp-isen-print-a3.pdf",
-          "sha256": "8cfbff096c436b04460c3b58cdc4eae773703884eab78bca46716d96811a3611",
-          "bytes": 4038886,
+          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/c431ac176f60e5d4598e4ad90f3156610272f16ee6dca1faaa72129dc21822c9/jp-isen-print-a3.pdf",
+          "sha256": "c431ac176f60e5d4598e4ad90f3156610272f16ee6dca1faaa72129dc21822c9",
+          "bytes": 4040645,
           "faces": 8,
           "sheets": 4,
           "duplex": "短辺反転"
@@ -155,9 +155,9 @@
           "paper": "A4",
           "document": "prospectus-isen-trial-2028",
           "asset_id": "jp-isen-print-a4",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a4/e323d349c7d9306704f66ff1bfa66d75e15d5f1f0b8e2543dffc29baeb6190bf/jp-isen-print-a4.pdf",
-          "sha256": "e323d349c7d9306704f66ff1bfa66d75e15d5f1f0b8e2543dffc29baeb6190bf",
-          "bytes": 2667656,
+          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a4/55cba6642a4c29aec4ad44f367b91496636de6017b2d6774fd39052597af0c31/jp-isen-print-a4.pdf",
+          "sha256": "55cba6642a4c29aec4ad44f367b91496636de6017b2d6774fd39052597af0c31",
+          "bytes": 2668776,
           "faces": 8,
           "sheets": 4,
           "duplex": "短辺反転"

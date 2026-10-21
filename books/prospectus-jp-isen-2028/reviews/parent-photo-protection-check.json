@@ -1,10 +1,10 @@
 {
-  "revision": 5,
+  "revision": 6,
   "records": [
     {
       "page": 1,
-      "scope": "cover translucent scrim / smooth photo fade / subtle lettering shadow; same source people and typographic positions",
-      "sha256": "4266192ce61a558aeada506ce80b0cfa47def1dc1e9d7a8db5529e950a827ef1"
+      "scope": "cover band edge moved to first headline top; original photo/text positions and confirmed body fixed",
+      "sha256": "81e02588d4327484224ffd02103cd172f8eafa523a1ad725d3526124354f9e73"
     },
     {
       "page": 2,
