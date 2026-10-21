@@ -1,0 +1,52 @@
+{
+  "id": "JP-COVER-MASHI-01",
+  "display_name": "日本人版マシな方1",
+  "model": "image_gen",
+  "prompt": "Two reference images supplied: (1) the full group photo to EDIT; (2) a magnified crop showing the EXACT ONE man's current face, provided ONLY TO IDENTIFY WHO TO REPLACE. Find that face in image 1 and replace ONLY that person. The cropped reference man has short side-parted black hair, a dark high-collar shirt/jacket, a medium-tan face, and stands partly hidden just behind the seated navy-vest male staff member. His face center in full photo is approximately (572px,458px), i.e. x39.5%, y42.2%. User click on his visible torso is x40.2%,y48.3%.\n\nDo NOT replace his neighbor immediately to the LEFT who wears a pale pink pocket square and has his face at approximately (530px,450px). Do NOT replace the seated navy-vest staff member below, the masked staff or the blue suit man. Use the close-up crop to match the intended current face before editing.\n\nReplace the identified cropped-face man with a completely different fictional young adult male, about 21: warm medium-tan skin (not pale), rounder cheeks and broader jaw than current face, neatly SHORT CROPPED black hair with a subtle side part (different hairline), dark brown eyes with natural attentive expression, friendly small CLOSED-MOUTH smile, FULLY clean-shaven with no beard shadow or moustache. Make his features visibly distinguishable from the old cropped-face man and all other people. Coherently reconstruct his visible head, neck and upper-body as one person in the SAME standing location, same approximate height and SAME dark clothing silhouette so the group rows remain stable. Natural room light and skin texture, no plastic smoothing or idealized model look.\n\nEverything else in the FULL group photograph stays as unchanged as possible: all other people including the pink-pocket-square neighbor, all faces, skin tones, hairstyles, body positions, clothing, number of people, masks, suits, hands, room, floor, flowers, monitor and image framing. Keep previous clothing edits: NO traditional costumes, ornate necklaces or hats. Keep all visible men clean-shaven. Return ONLY the complete full group photograph at its original 4:3 aspect ratio. Do NOT return a face crop, do not include the second reference as a panel. No text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption. No collage.",
+  "negative_prompt": "text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption",
+  "seed": null,
+  "created": "2026-10-21",
+  "author": "codex",
+  "size": "1448x1086",
+  "sha256": "3dcc490b25f35f2dba66fa46276f9d60f9f55a17d5444888549d5ee019698157",
+  "status": "人間の指定名で保存した候補・紙面未反映",
+  "tags": [
+    "用途:パンフレット表紙の集合写真",
+    "対象:日本人向け版",
+    "表現:原本の肌色と顔立ちの幅を残す",
+    "服装:民族衣装なし",
+    "男性:ひげなし",
+    "状態:候補保存"
+  ],
+  "reference_inputs": [
+    {
+      "path": "/workspace/generated_images/exec-cda4135a-af46-49b6-b82b-d9a772786263.png",
+      "usage": "image_reference",
+      "note": "直前のひげ除去版。生成作業領域のパスであり、このコミットでは原画像を追加保存していない。"
+    },
+    {
+      "path": "/tmp/target-man-reference.png",
+      "usage": "image_reference",
+      "note": "対象男性を同定するため元画像の(548,421)-(596,496)を切り出し384x600へ拡大した参考。最終画像の加工には使っていない。一時ファイルでありこのコミットには含めない。"
+    }
+  ],
+  "original_composition_source": {
+    "photo_id": "student-14",
+    "path": "company-data/photos/student-14.jpg",
+    "note": "集合写真の構図元。今回の出力は生成編集したイメージであり、在籍や実写記録の証拠として扱わない。"
+  },
+  "params": {
+    "transparent_background": false
+  },
+  "generation_history": [
+    "原本より日本人寄りにしすぎた初案は人間が不採用。",
+    "元の肌色・顔立ち・服装の違いへ寄せた版から民族衣装・装飾・帽子を除去。",
+    "男性のひげ・口ひげを除去。",
+    "人間の指定座標付近の男性の置換を生成。最初の出力は対象位置違いとして提出せず、対象の拡大参照を追加して再生成した最後の出力を保存。"
+  ],
+  "storage": {
+    "source": "/workspace/generated_images/exec-b4d0a644-d47e-439c-a40a-7daa1ed8d269.png",
+    "method": "原寸PNGを無加工でコピー。sourceと保存先のSHA256一致を確認。"
+  },
+  "notes": "人間がファイル名を『修正マシな方1』から『日本人版マシな方1』へ訂正。この正確な名前を採用してコミットのみ。採用・紙面反映・入稿承認とは区別。"
+}
