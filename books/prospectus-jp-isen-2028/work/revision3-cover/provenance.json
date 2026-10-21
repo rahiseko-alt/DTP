@@ -1,5 +1,5 @@
 {
-  "revision": 3,
+  "revision": 4,
   "scope": "cover only; confirmed body pages remain fixed",
   "method": "DTP composite only; no new generation or face edit; source header and Mincho copy retained at exact coordinates",
   "source_cover": "cover/source-cover.png",
@@ -27,14 +27,20 @@
     216.0
   ],
   "floor_rgb": [
+    132.0,
+    139.0,
+    151.0
+  ],
+  "previous_floor_rgb": [
     70.0,
     77.0,
     88.0
   ],
   "original_header_changed_pixels": 0,
-  "original_copy_changed_pixels": 0,
+  "pure_white_copy_changed_pixels": 0,
+  "letter_contours_and_coordinates": "unchanged; antialias/floor halo remapped to lighter gray",
   "copy_mask_sha256": "c19c5f37e42bf763190b6368f93d01fb7f3422807e811db7f58b787aad635f87",
-  "cover_sha256": "f827ba2e3d4a32cc001b267fcc72d8cf92952dc851bcf020ba0c42db750b72b7",
+  "cover_sha256": "48f3703bda47db619dedb5bb29467a25bfa48f84b80c1f9bc90984869cdb4901",
   "size_px": [
     2480,
     3508

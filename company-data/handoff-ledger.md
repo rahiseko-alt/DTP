@@ -422,3 +422,7 @@ PDF受渡し調査は人間の指示で保留。医専BOOKの地図第2案を画
 人間が「表紙だけ直せ。ほかのページは確認した」と明示。本文15ページは人間確認済み改稿2で固定し、表紙のみ変更した。元医専の巨大英字・校名/学科・白明朝コピーを元位置/元画素で保持し、既存の上半身透明切抜きを等比合成、灰色背景と下端フェードへ戻した。新たな画像生成や顔編集なし。再現scriptは books/prospectus-jp-isen-2028/work/revision3-cover/build_cover.py。前回の青ベタ・コピー分割版は今回の現行表紙に使わない。
 
 親が元表紙・合成プレビュー・最終PDF表紙を目視。独立レビューは今回実施せず。確認済み旧master/閲覧PDFとP2〜16の全文字・全面画素一致を検証し、A3/A4は1面右側の表紙以外一致。proofは reviews/cover-only-revision3-proof.json。閲覧PDF SHA4a893d82…、master2e22dbe1…、A3 0872d8e4…、A4 d4db64b5…。downloadsのPAM-JP-ISENを改稿3へ更新。本文の再編集、元医専版・募集要項・OCチラシ・配布ZIPの変更なし。表紙人間採用・実物印刷・入稿は未実施。fix/access-map-20261020、commitのみ・pushなし。
+
+## 2026-10-21 表紙下部の背景を明るく調整（改稿4・最新）
+
+人間の「下の帯が黒すぎる」に対応し、下部をRGB70/77/88から132/139/151（#848B97）へ変更。人物の不透明画素、上部1100行、文字の輪郭/位置は維持。文字周囲に旧暗色が残らないよう背景を含むアンチエイリアスを新グレーへ適応、純白画素は保持。新生成なし、確認済み本文は固定。更新プレビューと最終表紙を親が目視、本文P2〜16と印刷の表紙以外の一致を再検証。books/prospectus-jp-isen-2028/reviews/final-review.md、lower-tone-revision4-proof.json、cover-only-revision4-proof.json。閲覧PDF SHA4005ecee…、master44bea071…。downloadsのPAM-JP-ISENを改稿4へ更新。commitのみ・pushなし。

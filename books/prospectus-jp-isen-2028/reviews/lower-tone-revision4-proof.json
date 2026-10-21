@@ -1,0 +1,19 @@
+{
+  "revision": 4,
+  "previous_master_sha256": "2e22dbe1edfcaac2adc38cbbfb9f820dd5d5f500754faf4b02b8a81dffe0e43c",
+  "cover_sha256": "48f3703bda47db619dedb5bb29467a25bfa48f84b80c1f9bc90984869cdb4901",
+  "header_and_upper_1100_rows_changed_pixels": 0,
+  "opaque_foreground_people_changed_pixels": 0,
+  "floor_rgb_before": [
+    70,
+    77,
+    88
+  ],
+  "floor_rgb_after": [
+    132,
+    139,
+    151
+  ],
+  "copy_geometry": "same original mask and coordinates; antialias halo adapted to new gray, pure white unchanged",
+  "new_generation": false
+}

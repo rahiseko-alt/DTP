@@ -1,10 +1,10 @@
 {
-  "revision": 3,
+  "revision": 4,
   "records": [
     {
       "page": 1,
-      "scope": "cover-only revision3: original Isen header/Mincho text at original coordinates, existing cutout on gray background",
-      "sha256": "f827ba2e3d4a32cc001b267fcc72d8cf92952dc851bcf020ba0c42db750b72b7"
+      "scope": "cover lower background lightened; same cutout/typographic geometry",
+      "sha256": "48f3703bda47db619dedb5bb29467a25bfa48f84b80c1f9bc90984869cdb4901"
     },
     {
       "page": 2,
