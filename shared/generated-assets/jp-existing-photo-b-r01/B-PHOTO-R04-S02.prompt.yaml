@@ -1,0 +1,53 @@
+id: B-PHOTO-R04-S02
+proposal: B
+model: image_gen
+prompt: 'A newly composed realistic documentary-style photograph of a Japanese vocational
+  college computer lesson, horizontal 3:2. Four main people. Camera at seated student
+  eye height, medium-wide view, 50mm photographic lens, soft window daylight from
+  the right. Spatial arrangement: at lower left sits a young adult male student in
+  an open dark navy overshirt over a white T-shirt, turned three-quarters toward the
+  right. At center-right sits a young adult woman with long straight dark brown hair
+  in a simple ivory cotton shirt. At far right another young adult woman with dark
+  hair tied loosely back wears a dusty pink casual shirt. The students have varied
+  natural medium and gently tanned skin tones, realistic East Asian and mixed-heritage
+  facial variation, unretouched skin. They are attentively collaborating on a laptop,
+  with restrained natural smiles, not posing for camera. An adult male instructor
+  in his early-to-mid forties stands behind and between the left student and center
+  woman, leaning from his hips toward the table. His complete body, shirt folds, arms,
+  neck and head must belong naturally to one person. His right arm extends downward
+  diagonally towards a laptop at lower-right; he points to its screen with a relaxed
+  anatomically correct hand. Teacher appearance: short straight black hair brushed
+  upward and back with some irregular spikes, slightly receding high hairline, broad
+  forehead with a few subtle horizontal lines, narrow oval face tapering to a small
+  rounded chin, visible slightly projecting ears, straight medium-width nose with
+  rounded tip, dark brown almond-shaped eyes with natural under-eye lines, medium
+  straight eyebrows, thin natural lips, lightly tanned warm skin with visible pores
+  and small cheek freckles. Clean shaven, no glasses. Average build, plain white cotton
+  button-down shirt, sleeves casually rolled, no tie, no lanyard. He looks down at
+  the laptop with a quiet friendly focused expression. Use realistic proportions,
+  adult facial structure and imperfect skin, not an idealized stock-photo face. His
+  face must connect naturally to the neck at a believable lean angle and share the
+  lighting of his body. Classroom: ordinary contemporary vocational school, plain
+  light cream walls, large bright windows on the right, desks and a few dark desktop
+  computers out of focus behind, soft blue blurred display on the left wall. A gray
+  unbranded laptop at bottom-right is seen from rear/side, hiding all screen lettering.
+  A notebook and plain pen on the desk. Eye lines converge on laptop. Leave some breathing
+  room around the group; natural asymmetry, not a symmetric lineup. Unified believable
+  daylight and camera texture, unstaged lived-in mood, natural hands, no excessive
+  bokeh or plastic skin. Entirely new photographic composition based only on this
+  written specification. No reference image, no inpainting, no face swap, no pasted
+  portrait. No typography, text, letters, words, numbers, logo, watermark, signature,
+  QR code, caption. One single photograph, no collage.'
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+created: '2026-10-21'
+author: codex
+reference_inputs: []
+params:
+  transparent_background: false
+generation_method: 文章のみの新規生成。referenced_image_pathsもnum_last_images_to_includeも指定していない。
+notes: 添付男性の特徴を文章で記述したが、人物の写真自体も入力していない。そのため本人との同一性を画像参照で固定したものではない。元授業画像や過去の生成画像は入力せず、構図・人物・背景・光を文章で指定。後加工・顔合成なし。冊子未反映。
+size: 1536x1024
+sha256: b15e9ff2ffed80118450aab7b2ae01e02e8a9fd297223ceb23bf5b5592dc623f
+self_review: 出力を画像で目視。前の画像とは異なる学生・教室・服のしわ・人物の姿勢として新しく構成。講師・学生3人の位置関係は指示に沿う。顔の本人性は未固定。
