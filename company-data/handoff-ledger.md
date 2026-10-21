@@ -426,3 +426,7 @@ PDF受渡し調査は人間の指示で保留。医専BOOKの地図第2案を画
 ## 2026-10-21 表紙下部の背景を明るく調整（改稿4・最新）
 
 人間の「下の帯が黒すぎる」に対応し、下部をRGB70/77/88から132/139/151（#848B97）へ変更。人物の不透明画素、上部1100行、文字の輪郭/位置は維持。文字周囲に旧暗色が残らないよう背景を含むアンチエイリアスを新グレーへ適応、純白画素は保持。新生成なし、確認済み本文は固定。更新プレビューと最終表紙を親が目視、本文P2〜16と印刷の表紙以外の一致を再検証。books/prospectus-jp-isen-2028/reviews/final-review.md、lower-tone-revision4-proof.json、cover-only-revision4-proof.json。閲覧PDF SHA4005ecee…、master44bea071…。downloadsのPAM-JP-ISENを改稿4へ更新。commitのみ・pushなし。
+
+## 2026-10-21 表紙の透過とフェードを調整（改稿5・最新）
+
+人間の「透過変えるとか自分で考えてやりなよ」を受け、不透明な下部面を最大不透明度40%の連続グラデーションへ変更。写真下端を左右で高さの異なる430px幅smoothstepでなじませ、白文字のαから元の暗い背景縁を除去。薄い影で可読性を補う。位置・文字内容・人物素材・確認済み本文は固定、新生成なし。修正前後と最終PDF表紙を親が目視。本文と印刷の表紙以外の一致を再検証。books/prospectus-jp-isen-2028/reviews/final-review.md。閲覧SHAa72d37b7…、master10ba8f76…。downloadsのPAM-JP-ISENを改稿5へ更新。commitのみ・pushなし。

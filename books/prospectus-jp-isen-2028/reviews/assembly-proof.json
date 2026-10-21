@@ -3,13 +3,13 @@
   "source_sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
   "source_unchanged": true,
   "file": "books/prospectus-jp-isen-2028/output/医専日本人版_16P_確認用.pdf",
-  "sha256": "44bea071a102b3f388c0db3b9acb692a94635b0455afd343319c329479ca86e9",
+  "sha256": "10ba8f766378f1044bbb99c12ed25d314e40819ec7a69c9b2977d782213ba0a9",
   "pages": 16,
   "inputs": [
     {
       "page": 1,
       "file": "books/prospectus-jp-isen-2028/work/revision3-cover/cover-page.png",
-      "sha256": "48f3703bda47db619dedb5bb29467a25bfa48f84b80c1f9bc90984869cdb4901"
+      "sha256": "4266192ce61a558aeada506ce80b0cfa47def1dc1e9d7a8db5529e950a827ef1"
     },
     {
       "page": 2,
@@ -230,19 +230,19 @@
     {
       "paper": "A3",
       "file": "books/prospectus-jp-isen-2028/output/医専日本人版_A3_中綴じ_短辺反転.pdf",
-      "sha256": "0935ce0e63eec1988094d01d19cdb737ab994651498d3894b50970cd033dcb90",
+      "sha256": "dabf32db875b7c5763b1ea9d258509b6399563668d71228044d3caed00ba3d9d",
       "faces": 8,
       "sheets": 4
     },
     {
       "paper": "A4",
       "file": "books/prospectus-jp-isen-2028/output/医専日本人版_A4_中綴じ_短辺反転.pdf",
-      "sha256": "1c38539e9e08cfef349bab0d4f68b3c48cf61fecd90189c5ba7ad55553fb471f",
+      "sha256": "811bcf7244a10183a4bb48762218c26c1f6f748996cd3d91c8da70241f4544bb",
       "faces": 8,
       "sheets": 4
     }
   ],
   "release": false,
   "physical_print_test": false,
-  "scope": "改稿4は表紙下部の背景を明るいグレーへ調整。人物・文字配置・人間確認済み本文は維持。"
+  "scope": "改稿5は表紙下部を透過グラデーションと滑らかな写真フェードへ調整。元医専の英字見出し・校名・白明朝コピーを元位置で保持し、既存切抜き写真を灰色背景へ合成。本文は人間確認済み改稿2のまま。"
 }

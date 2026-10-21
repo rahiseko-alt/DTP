@@ -1,10 +1,10 @@
 {
-  "revision": 4,
+  "revision": 5,
   "records": [
     {
       "page": 1,
-      "scope": "cover lower background lightened; same cutout/typographic geometry",
-      "sha256": "48f3703bda47db619dedb5bb29467a25bfa48f84b80c1f9bc90984869cdb4901"
+      "scope": "cover translucent scrim / smooth photo fade / subtle lettering shadow; same source people and typographic positions",
+      "sha256": "4266192ce61a558aeada506ce80b0cfa47def1dc1e9d7a8db5529e950a827ef1"
     },
     {
       "page": 2,
