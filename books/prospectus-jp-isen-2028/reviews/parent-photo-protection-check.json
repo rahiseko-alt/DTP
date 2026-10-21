@@ -1,10 +1,10 @@
 {
-  "revision": 2,
+  "revision": 3,
   "records": [
     {
       "page": 1,
-      "scope": "authorized cover re-composition; body photo-only mask does not apply",
-      "sha256": "311b8637a780d94f4fbad6b4f984cd7cbb6d92e1225a0a83afdbdf7c1c0539ec"
+      "scope": "cover-only revision3: original Isen header/Mincho text at original coordinates, existing cutout on gray background",
+      "sha256": "f827ba2e3d4a32cc001b267fcc72d8cf92952dc851bcf020ba0c42db750b72b7"
     },
     {
       "page": 2,
@@ -66,5 +66,6 @@
       "changed_pixels": 1814897,
       "outside_declared_photo_or_person_mask_changed_pixels": 0
     }
-  ]
+  ],
+  "body_review": "Body unchanged from human-confirmed revision2; see cover-only-revision3-proof.json"
 }

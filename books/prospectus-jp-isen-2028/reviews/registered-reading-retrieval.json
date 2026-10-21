@@ -1,10 +1,10 @@
 {
   "context": {
     "root": "/workspace/DTP",
-    "head": "1c13176fc73e225cd698e63a22911502af6268a2",
+    "head": "b8c9cfa5f3d780f47ddd28e0ff3d7b55a90d9276",
     "branch": "fix/access-map-20261020",
     "dirty": true,
-    "fingerprint": "eb329b03503cb43e6e89fdad2a57f54097d367b871841b3952d382d0cf54f56d"
+    "fingerprint": "262d7df4b7b3872223bd32ec9b2430ae12483a282e836b464c4060d09ec18fe7"
   },
   "document_id": "prospectus-isen-trial-2028",
   "asset": {
@@ -12,10 +12,10 @@
     "variant": "japanese-people-edition",
     "role": "support",
     "media": "pdf",
-    "revision": "43d63a3fb1c46d460d5ffe1a3784ec7d1789691ec3a0dcffd57d4f76b5f154b8",
-    "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/43d63a3fb1c46d460d5ffe1a3784ec7d1789691ec3a0dcffd57d4f76b5f154b8/jp-isen-reading-pdf.pdf",
-    "sha256": "43d63a3fb1c46d460d5ffe1a3784ec7d1789691ec3a0dcffd57d4f76b5f154b8",
-    "size": 6715863,
+    "revision": "4a893d829f4997052d25a17e4810c73326ba28faf029e6effbfeb126c2e09bba",
+    "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/4a893d829f4997052d25a17e4810c73326ba28faf029e6effbfeb126c2e09bba/jp-isen-reading-pdf.pdf",
+    "sha256": "4a893d829f4997052d25a17e4810c73326ba28faf029e6effbfeb126c2e09bba",
+    "size": 6698383,
     "relation": "authored",
     "storage": "canonical",
     "confirmation": "verified",
@@ -27,5 +27,5 @@
       }
     ]
   },
-  "path": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/43d63a3fb1c46d460d5ffe1a3784ec7d1789691ec3a0dcffd57d4f76b5f154b8/jp-isen-reading-pdf.pdf"
+  "path": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/4a893d829f4997052d25a17e4810c73326ba28faf029e6effbfeb126c2e09bba/jp-isen-reading-pdf.pdf"
 }

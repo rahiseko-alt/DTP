@@ -22,5 +22,5 @@ for paper in ['A3','A4']:
  for p,f in zip(doc,proof['print_faces']):assert amounts(p)==amounts(a[f['left']-1])+amounts(a[f['right']-1])
  prints.append({'paper':paper,'sha256':sha(path),'faces':8,'sheets':4})
 qr=decode(b[14].get_pixmap(matrix=fitz.Matrix(2,2)));assert 'https://kaihougakuen.my.canva.site/' in qr,qr
-result={'revision':2,'reading_pages':16,'master_sha256':sha(master),'reading_sha256':sha(reading),'print_outputs':prints,'native_currency_counts_unchanged_after_compression':True,'native_currency_counts_in_every_imposed_face_verified':True,'qr_decoded':qr,'physical_print_test':False}
+result={'revision':3,'reading_pages':16,'master_sha256':sha(master),'reading_sha256':sha(reading),'print_outputs':prints,'native_currency_counts_unchanged_after_compression':True,'native_currency_counts_in_every_imposed_face_verified':True,'qr_decoded':qr,'physical_print_test':False}
 (B/'reviews/delivery-check.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print(json.dumps(result,ensure_ascii=False))

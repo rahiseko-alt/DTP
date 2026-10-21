@@ -3,13 +3,13 @@
   "source_sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
   "source_unchanged": true,
   "file": "books/prospectus-jp-isen-2028/output/医専日本人版_16P_確認用.pdf",
-  "sha256": "9ed88a7e78e3d6fd68737774a4f87c50e3f281e0cb5097ad00e7cfab0de487e8",
+  "sha256": "2e22dbe1edfcaac2adc38cbbfb9f820dd5d5f500754faf4b02b8a81dffe0e43c",
   "pages": 16,
   "inputs": [
     {
       "page": 1,
-      "file": "books/prospectus-jp-isen-2028/work/revision2-cover/cover-page.png",
-      "sha256": "311b8637a780d94f4fbad6b4f984cd7cbb6d92e1225a0a83afdbdf7c1c0539ec"
+      "file": "books/prospectus-jp-isen-2028/work/revision3-cover/cover-page.png",
+      "sha256": "f827ba2e3d4a32cc001b267fcc72d8cf92952dc851bcf020ba0c42db750b72b7"
     },
     {
       "page": 2,
@@ -230,19 +230,19 @@
     {
       "paper": "A3",
       "file": "books/prospectus-jp-isen-2028/output/医専日本人版_A3_中綴じ_短辺反転.pdf",
-      "sha256": "3acb1806264cc3bd19f4567f22b87abea799c5e70478de248e63f8a34a0c4c2e",
+      "sha256": "0808ca146180644412b4aa5e93298c1d368586c652c6742f4e93dea6bd27769b",
       "faces": 8,
       "sheets": 4
     },
     {
       "paper": "A4",
       "file": "books/prospectus-jp-isen-2028/output/医専日本人版_A4_中綴じ_短辺反転.pdf",
-      "sha256": "545f9c97e0302cfb3850ded811398c52e09d98ce93eb8c7a189c2e9207f7fff8",
+      "sha256": "fa049df6e5e325da08f8bd661d3ba030619f08d1b8be2720bb742b1ecce37888",
       "faces": 8,
       "sheets": 4
     }
   ],
   "release": false,
   "physical_print_test": false,
-  "scope": "表紙は指定集合画像の上半身cropと既存コピーを再構成。本文は写真のみの差替。本文を全面画像生成しない。"
+  "scope": "改稿3は表紙のみ。元医専の英字見出し・校名・白明朝コピーを元位置で保持し、既存切抜き写真を灰色背景へ合成。本文は人間確認済み改稿2のまま。"
 }

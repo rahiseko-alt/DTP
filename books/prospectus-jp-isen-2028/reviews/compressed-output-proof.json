@@ -1,24 +1,24 @@
 [
   {
     "file": "/workspace/DTP/books/prospectus-jp-isen-2028/output/医専日本人版_16P_閲覧用.pdf",
-    "sha256": "43d63a3fb1c46d460d5ffe1a3784ec7d1789691ec3a0dcffd57d4f76b5f154b8",
-    "bytes": 6715863,
+    "sha256": "4a893d829f4997052d25a17e4810c73326ba28faf029e6effbfeb126c2e09bba",
+    "bytes": 6698383,
     "pages": 16,
-    "max_mean_rgb_error": 1.0239087333142487,
+    "max_mean_rgb_error": 1.0568269771091108,
     "compression": "200dpi JPEG92; compare against lossless assembly"
   },
   {
     "file": "/workspace/DTP/books/prospectus-jp-isen-2028/output/医専日本人版_A3_印刷用.pdf",
-    "sha256": "c7864b72ea8d4be9948f886530c4e3e21bc5a13e9562dc156fa2d5bb06a784a5",
-    "bytes": 4059732,
+    "sha256": "0872d8e4655f1889aa7c335a278bab7ec3af8b043af180089c2738421438fd80",
+    "bytes": 4051391,
     "pages": 8,
     "max_mean_rgb_error": 3.4962457555516586,
     "compression": "200dpi JPEG92; compare against lossless assembly"
   },
   {
     "file": "/workspace/DTP/books/prospectus-jp-isen-2028/output/医専日本人版_A4_印刷用.pdf",
-    "sha256": "29170da2c6e630589cc5ae297edf98a63e680e94a7366b934a58209cfc4251b8",
-    "bytes": 2682137,
+    "sha256": "d4db64b57f88a84649003024e59adc7e380902fd73dded7a0b7124c80ee4e70d",
+    "bytes": 2676286,
     "pages": 8,
     "max_mean_rgb_error": 3.8674191097153368,
     "compression": "200dpi JPEG92; compare against lossless assembly"
