@@ -1,0 +1,28 @@
+id: B-PHOTO-R02-S02
+proposal: B
+model: image_gen
+created: '2026-10-21'
+author: codex
+prompt: Edit B scene two only. Replace the glasses-wearing instructor with the exact
+  man in the latest user portrait, preserving his facial features, short black spiky
+  hair, hairline, ears, age and natural skin. No glasses or beard, white button-down
+  shirt. Lean over students naturally and point towards laptop. Keep three students,
+  classroom composition, clothes, poses, lighting unchanged. No beauty retouching.
+  Landscape realistic photo, no text or logos.
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+size: 1536x1024
+sha256: 615248287699ca601deb9bc884847e7e8ecdb6dab466bed8d3bf05c92d08c2c9
+reference_inputs:
+- path: shared/generated-assets/jp-existing-photo-b-r01/B-PHOTO-R01-S02.png
+  usage: image_reference
+  note: 会話から授業画像を参照。
+- path: conversation:user-attachment-20261021-male-portrait
+  usage: image_reference
+  note: 最新の添付男性を会話から参照。ローカル原本未取得。この識別名は実体パスではない。
+params:
+  num_last_images_to_include: 3
+  transparent_background: false
+notes: promptは生成指示の要約。参照に含まれた相談画像は使用しないよう指示。生成編集であり実写記録ではない。紙面未反映。
+self_review: 添付と出力を目視。短髪・眼鏡なし・顔立ちを参照。学生3人と構図はおおむね保持。顔の再現に生成差は残り得る。

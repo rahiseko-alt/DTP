@@ -16,10 +16,11 @@ scenes:
   file: B-PHOTO-R01-S01.png
   source_pdf_page: 2
   name: 4人組
-- id: B-PHOTO-R01-S02
-  file: B-PHOTO-R01-S02.png
+- id: B-PHOTO-R02-S02
+  file: B-PHOTO-R02-S02.png
   source_pdf_page: 8
-  name: 教員とPC授業
+  name: 教員とPC授業_添付男性参照
+  previous_file: B-PHOTO-R01-S02.png
 - id: B-PHOTO-R01-S03
   file: B-PHOTO-R01-S03.png
   source_pdf_page: 11
