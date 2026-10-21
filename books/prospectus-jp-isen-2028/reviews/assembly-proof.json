@@ -3,13 +3,13 @@
   "source_sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
   "source_unchanged": true,
   "file": "books/prospectus-jp-isen-2028/output/医専日本人版_16P_確認用.pdf",
-  "sha256": "878a538a35045308603e4e75155b60d544acd5b0fd52e8ac5093c7e4eed33d31",
+  "sha256": "bb1767b2cfdaab7d99a6f096b93b66de2ef90b965d30aef443b3ef002e499d4f",
   "pages": 16,
   "inputs": [
     {
       "page": 1,
-      "file": "books/prospectus-jp-isen-2028/work/revision10-cover/cover-page.png",
-      "sha256": "8fec7889ae8f669f1de9fc9ef8eabd4d68f18007b30d41a1ba9ef79cdabfb3ea"
+      "file": "books/prospectus-jp-isen-2028/work/revision11-cover/cover-page.png",
+      "sha256": "4b6f7fb70ff5eeffa834d857dcdb2e969d74dc1a401bf6e31794c63a5cf00fef"
     },
     {
       "page": 2,
@@ -230,19 +230,19 @@
     {
       "paper": "A3",
       "file": "books/prospectus-jp-isen-2028/output/医専日本人版_A3_中綴じ_短辺反転.pdf",
-      "sha256": "60b6192debec61501fe8483da6db2a8d74a05aec0359eb3c2bc816a2855d1fb1",
+      "sha256": "19785c0503d18a684c78d92503a4c40cee9961f873b06e33ea0b00e9ffd5b5ab",
       "faces": 8,
       "sheets": 4
     },
     {
       "paper": "A4",
       "file": "books/prospectus-jp-isen-2028/output/医専日本人版_A4_中綴じ_短辺反転.pdf",
-      "sha256": "afb30171405a7b10fff58839e544a4d5f7c653a66b7f7ffb4d0be7ca199412a2",
+      "sha256": "1879c6fb5cac6b58b13665274f630449114287b3cae40cf6626ab24b97fa3cc7",
       "faces": 8,
       "sheets": 4
     }
   ],
   "release": false,
   "physical_print_test": false,
-  "scope": "改稿10は表紙写真の倍率・crop・中央合わせのみ。左端の孤立男性を外し、写真枠外の全画素と確認済み本文を改稿9から維持。新生成なし。"
+  "scope": "改稿11は表紙写真を改稿10から約8%拡大し右へ約8.4mm相当移動。左端男性を外したまま左右の顔の余白を調整。写真枠外と本文は固定、新生成なし。"
 }

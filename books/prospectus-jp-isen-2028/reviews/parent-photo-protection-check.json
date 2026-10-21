@@ -1,10 +1,10 @@
 {
-  "revision": 10,
+  "revision": 11,
   "records": [
     {
       "page": 1,
-      "scope": "photo crop/scale/centering only; all revision9 pixels outside photograph rect unchanged",
-      "sha256": "8fec7889ae8f669f1de9fc9ef8eabd4d68f18007b30d41a1ba9ef79cdabfb3ea",
+      "scope": "photo crop/scale/centering only; all revision10 pixels outside photograph rect unchanged",
+      "sha256": "4b6f7fb70ff5eeffa834d857dcdb2e969d74dc1a401bf6e31794c63a5cf00fef",
       "outside_photo_rect_changed_pixels": 0
     },
     {
@@ -68,5 +68,5 @@
       "outside_declared_photo_or_person_mask_changed_pixels": 0
     }
   ],
-  "body_review": "Body unchanged from human-confirmed revision2; see cover-only-revision10-proof.json"
+  "body_review": "Body unchanged from human-confirmed revision2; see cover-only-revision11-proof.json"
 }

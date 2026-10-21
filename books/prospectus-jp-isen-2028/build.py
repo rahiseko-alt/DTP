@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[2]
 BOOK = Path(__file__).resolve().parent
 SOURCE_SHA = '62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880'
 SOURCE = ROOT / f'books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/{SOURCE_SHA}/latest-prospectus-pdf.pdf'
-PAGES = {1:'revision10-cover/cover-page.png',2:'heroes/page-02.png',3:'learning-a/page-03.png',
+PAGES = {1:'revision11-cover/cover-page.png',2:'heroes/page-02.png',3:'learning-a/page-03.png',
          4:'heroes/page-04.png',5:'learning-a/page-05.png',6:'heroes/page-06.png',
          7:'learning-b/page-07.png',8:'teacher/page-08.png',9:'learning-b/page-09.png',
          10:'support/page-10.png',11:'support/page-11.png'}
@@ -81,7 +81,7 @@ def main():
            'file':str(dest.relative_to(ROOT)),'sha256':sha(dest),'pages':16,'inputs':inputs,'checks':checks,
            'changed_pages':list(range(1,13)),'unchanged_pages':[13,14,15,16],
            'p12_native_text_and_photo_outside_pixels_identical':True,'print_faces':faces,'print_outputs':printouts,
-           'release':False,'physical_print_test':False,'scope':'改稿10は表紙写真の倍率・crop・中央合わせのみ。左端の孤立男性を外し、写真枠外の全画素と確認済み本文を改稿9から維持。新生成なし。'}
+           'release':False,'physical_print_test':False,'scope':'改稿11は表紙写真を改稿10から約8%拡大し右へ約8.4mm相当移動。左端男性を外したまま左右の顔の余白を調整。写真枠外と本文は固定、新生成なし。'}
     (proofdir/'assembly-proof.json').write_text(json.dumps(proof,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'file':str(dest),'sha256':proof['sha256'],'pages':16,'print':printouts},ensure_ascii=False))
 

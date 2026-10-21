@@ -450,3 +450,7 @@ PDF受渡し調査は人間の指示で保留。医専BOOKの地図第2案を画
 ## 2026-10-22 表紙写真の寄りと中央合わせだけを変更（改稿10・最新）
 
 人間が左端の孤立男性がちょうど外れる程度まで寄せ、画像中心とページ中心を合わせるよう指定。他の変更は禁止。元画像crop `[302,300.2766129,1245,1060]` を同じ写真枠へ等比配置し、改稿9比約14.5%拡大。crop中心をページx1240へ合わせた。写真枠外は改稿9と全面画素一致、文字/帯/床延長/フィルターはそのまま。新生成・人物加工なし。本文P2〜16/印刷の表紙以外も一致、金額とQRを検証。親が実PDFスクショcover-revision10-screenshot.pngを目視。根拠はbooks/prospectus-jp-isen-2028/reviews/final-review.mdとwork/revision10-cover/provenance.json。PAM-JP-ISENを改稿10へ更新。全体validateはSTALE/legacy差分でNG。表紙の人間採用・実物印刷は未実施。fix/access-map-20261020、commitのみ・pushなし。
+
+## 2026-10-22 表紙写真の追加拡大と右移動だけを変更（改稿11・最新）
+
+人間が左右バランスの改善を指示し、左端男性を外したまま追加拡大と右移動を併用する提案をGOと承認。他の変更は禁止。元画像crop `[302,356.6717742,1175,1060]` を同じ写真枠へ等比配置し、改稿10比約8%追加拡大。中心拡大に対して右へ99.43px（A4で約8.42mm）移動し左右の顔の余白を均衡させた。写真枠外は改稿10と全面画素一致、文字/帯/床延長/フィルターはそのまま。新生成・人物加工なし。本文P2〜16/印刷の表紙以外も一致、金額とQRを検証。親が実PDFスクショcover-revision11-screenshot.pngを目視。根拠はbooks/prospectus-jp-isen-2028/reviews/final-review.mdとwork/revision11-cover/provenance.json。PAM-JP-ISENを改稿11へ更新。全体validateはSTALE/legacy差分でNG。表紙の人間採用・実物印刷は未実施。fix/access-map-20261020、commitのみ・pushなし。
