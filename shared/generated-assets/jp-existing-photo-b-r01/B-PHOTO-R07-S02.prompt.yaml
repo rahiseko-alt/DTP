@@ -1,0 +1,78 @@
+id: B-PHOTO-R07-S02
+proposal: B
+model: image_gen
+prompt: 'Generate a completely NEW photographic scene. IMPORTANT REFERENCE SELECTION:
+  among the supplied conversation images, use ONLY the USER-UPLOADED VERTICAL PORTRAIT
+  showing a SINGLE middle-aged man in a white button-down shirt, photographed from
+  the chest upward, short upward brushed black hair, NO glasses, a beige office wall
+  and a large black screen behind him. That is the identity reference. Other supplied
+  images depicting classrooms, groups or brochure pages are NOT references: ignore
+  them entirely, do not reuse their faces, body shapes, clothes, scene arrangement,
+  camera angle or lighting. Do not imitate or modify an earlier classroom image. If
+  you can see the single-man portrait, faithfully use THAT man''s face and age, not
+  a generic teacher.
+
+
+  Create a new panoramic school brochure HERO photograph, approximately 1.87:1, designed
+  for a page on learning practical AI from qualified instructors. Teacher is the main
+  protagonist, seated center-left, face large, clearly visible in three-quarter view.
+  Match the uploaded single man''s actual facial identity: short black upward brushed
+  hair, his actual hairline and forehead, ears, eyes, nose and jaw, lightly tanned
+  textured skin, clean shaven, no eyeglasses. Plain white button-down shirt, ordinary
+  average build. Newly construct his entire head-neck-shoulder-torso-arms-hands as
+  a natural seated person; not a pasted face on a pre-existing pose. He sits upright
+  at a pale wood rounded-corner table, turned slightly to a student at right. Both
+  feet are grounded, shoulders relaxed, one forearm naturally rests on tabletop, the
+  other hand makes a small open-palm explanatory gesture near his chest, not a long
+  diagonally extended pointing arm.
+
+
+  EXPRESSION AND INTERACTION ARE ESSENTIAL: he looks directly into the eyes of a female
+  student, engaged attentive eyes with subtle natural window catchlights, slight raising
+  of brows, cheeks participating in a small warm smile, lips slightly apart MID-SENTENCE.
+  He looks alive and intellectually engaged in explaining something to a person. Do
+  not give him downcast blank eyes, a fixed neutral stare, a forced big grin or a
+  camera-facing pose. The young woman at right makes eye contact back with an understanding
+  small smile, as if she has just grasped his explanation. Exactly three adult students
+  aged 19-22: that responding woman in muted sage at right; a male student in light
+  beige at far-left side, visually secondary, operating a laptop; and a second woman
+  in pale gray-beige a little farther right observing the exchange with interested
+  expression and a pen above a plain notebook. Students naturally East Asian/mixed-heritage
+  visual casting with varied medium and gently tan complexions. Do not make all faces
+  identical, pale or glamour-model perfect. No one looks at camera. Different actions
+  and eye lines: teacher speaking, one student responding, one operating, one observing.
+
+
+  COMPOSITION completely newly arranged: photographed diagonally across the table
+  at seated eye height, not a flat row and not teacher standing behind students. Keep
+  teacher''s face prominent near center-left and responding student''s face to right,
+  with visible space between their profiles and no overlapping heads. Low unbranded
+  laptop toward lower-left foreground, small enough not to dominate or hide hands.
+  Limit empty tabletop. Calm low-detail pale background at UPPER LEFT for future text
+  overlay; no face or hand in that corner. Softly blurred modest real Japanese computer
+  classroom, ordinary dark monitors at rear, natural side window light and realistic
+  unified shadows. All four faces and teaching hand should survive a central 1.87:1
+  crop. Photorealistic editorial school photography, authentic skin and body proportions,
+  natural hair, correct hands, subtle candid expressions. Never re-use the older classroom
+  or brochure layouts.
+
+
+  Output a single clean photograph only. No rendered text, letters, typography, words,
+  numbers, logo, watermark, signature, QR code, caption or certification badges. No
+  collage. Do not paste or retain any pixels from any prior generated classroom photo.'
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+created: '2026-10-21'
+author: codex
+reference_inputs:
+- path: conversation:user-attachment-20261021-white-shirt-male-reupload
+  usage: image_reference
+  note: 会話添付の単独男性ポートレートを容姿参照として指定。ローカル原本未取得。
+params:
+  num_last_images_to_include: 5
+  transparent_background: false
+reference_handling: 実際のツール呼出には直近5画像を含めた。プロンプトで単独男性ポートレートだけを人物参照に選び、他の授業画像・紙面画像を無視するよう明示。入力画像が1枚だけだったとは扱わない。モデル内部の参照寄与は検証できない。
+notes: 生成写真。人間が2026-10-21にこの出力を採用。適用先はGoogle認定資格講師ページの大写真。本人との完全な同一性・撮影実績を保証するものではない。採用と紙面への反映は別。
+size: 1716x917
+sha256: 3f397a6817a26dbe60a5534e6555b6009e03a8457f0e92669a12ce4de45e5189
