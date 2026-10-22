@@ -1,0 +1,38 @@
+{
+  "pdf_sha256": "5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5",
+  "verified": true,
+  "front_pixels_identical": true,
+  "back_outside_flow_pixels_identical": true,
+  "retained_steps": [
+    "学校説明",
+    "体験授業",
+    "個別相談"
+  ],
+  "photos_unchanged": true,
+  "pages": [
+    {
+      "page": 1,
+      "png_sha256": "2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece",
+      "png_qr": [
+        "mailto:aibusiness.kaihougakuen@gmail.com"
+      ],
+      "pdf_qr": [
+        "mailto:aibusiness.kaihougakuen@gmail.com"
+      ],
+      "outside_requested_area_pixels_identical": true
+    },
+    {
+      "page": 2,
+      "png_sha256": "7e30832219c64fcd9d3c2b71f4ca17ab15e5efebd2e1e89557f23475fab99bce",
+      "png_qr": [
+        "mailto:aibusiness.kaihougakuen@gmail.com"
+      ],
+      "pdf_qr": [
+        "mailto:aibusiness.kaihougakuen@gmail.com"
+      ],
+      "outside_requested_area_pixels_identical": true
+    }
+  ],
+  "independent_review": false,
+  "print_test": false
+}

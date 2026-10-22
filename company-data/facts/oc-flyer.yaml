@@ -11,7 +11,14 @@ contact_qr: shared/generated-assets/qr/qr-mailto-aibusiness-kaihougakuen.svg
 experience_heading: オープンキャンパスでできること
 experience_items: [1]
 experience_photo_count: 3
-experience_information: 表面の3写真を保持。中央の「在校生と話せる」と交流説明を削除し、その見出し位置に「保護者の参加も歓迎」、下に保護者参加のサブコメントを置く。日程下の保護者歓迎バッジは削除。授業体験・進路相談と裏面は維持
+experience_information: 表面の3写真を保持。中央の「在校生と話せる」と交流説明を削除し、その見出し位置に「保護者の参加も歓迎」、下に保護者参加のサブコメントを置く。日程下の保護者歓迎バッジは削除。裏面の当日の流れは在校生交流を削除し、学校説明・体験授業・個別相談の3ステップにする
+back_flow_steps:
+  - title: 学校説明
+    description: "学校の特徴や\n学びの内容を紹介します。"
+  - title: 体験授業
+    description: "AIやビジネスの\n授業を体験できます。"
+  - title: 個別相談
+    description: "入試・学費・就職について\n個別に相談できます。"
 experience_middle_label: 保護者の参加も歓迎
 experience_middle_description: "お子さまと一緒に\nご参加いただけます。"
 parent_welcome_badge: false

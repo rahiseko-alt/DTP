@@ -91,7 +91,10 @@
     "jp-oc-soft-r3-proof": "9d10267c58a8e5b3a42ce11a03e3a43897baae154d2ad18d22d1a05d823f733d",
     "jp-oc-soft-r3-verification": "9325becc0c4a064e430f5e46965564cdb30b0d36492c2d7353f6cdd802fe0200",
     "jp-oc-parent-r4-pdf": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
-    "jp-oc-parent-r4-front": "2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece"
+    "jp-oc-parent-r4-front": "2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece",
+    "jp-oc-parent-r4-download": "603539eae58342d9707b1f6b0f0e3873259ad69b5c59a7e6aaa5aa527badb6ef",
+    "jp-oc-three-r5-pdf": "5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5",
+    "jp-oc-three-r5-back": "7e30832219c64fcd9d3c2b71f4ca17ab15e5efebd2e1e89557f23475fab99bce"
   },
   "assets": [
     {
@@ -2369,6 +2372,78 @@
         {
           "id": "jp-oc-parent-r4-pdf",
           "revision": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-parent-r4-download",
+      "variant": "original-art-parent-caption-r4-download",
+      "role": "support",
+      "media": "pdf",
+      "revision": "603539eae58342d9707b1f6b0f0e3873259ad69b5c59a7e6aaa5aa527badb6ef",
+      "file": "books/oc-approved-20261017/parts/jp-oc-parent-r4-download/603539eae58342d9707b1f6b0f0e3873259ad69b5c59a7e6aaa5aa527badb6ef/jp-oc-parent-r4-download.pdf",
+      "sha256": "603539eae58342d9707b1f6b0f0e3873259ad69b5c59a7e6aaa5aa527badb6ef",
+      "size": 17768849,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Download copy R04, embedded font subsets only; both pages retain identical native text, size and 150dpi rendered pixels. Current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-22T05:48:50.088Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-oc-parent-r4-pdf",
+          "revision": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-three-r5-pdf",
+      "variant": "original-art-three-steps-r5",
+      "role": "support",
+      "media": "pdf",
+      "revision": "5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5",
+      "file": "books/oc-approved-20261017/parts/jp-oc-three-r5-pdf/5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5/jp-oc-three-r5-pdf.pdf",
+      "sha256": "5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5",
+      "size": 17781826,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved R05 three-step back flow revision. Front and other back areas pixel-identical to R04. Font-subset download copy; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-22T05:55:07.041Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-oc-parent-r4-pdf",
+          "revision": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-three-r5-back",
+      "variant": "original-art-three-steps-r5",
+      "role": "support",
+      "media": "image",
+      "revision": "7e30832219c64fcd9d3c2b71f4ca17ab15e5efebd2e1e89557f23475fab99bce",
+      "file": "books/oc-approved-20261017/parts/jp-oc-three-r5-back/7e30832219c64fcd9d3c2b71f4ca17ab15e5efebd2e1e89557f23475fab99bce/jp-oc-three-r5-back.png",
+      "sha256": "7e30832219c64fcd9d3c2b71f4ca17ab15e5efebd2e1e89557f23475fab99bce",
+      "size": 2167697,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved R05 three-step back flow revision. Front and other back areas pixel-identical to R04. Font-subset download copy; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-22T05:55:38.324Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-oc-three-r5-pdf",
+          "revision": "5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5"
         }
       ]
     }

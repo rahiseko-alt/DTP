@@ -1,0 +1,26 @@
+{
+  "source": "books/oc-approved-20261017/parts/jp-oc-parent-r4-pdf/f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4/jp-oc-parent-r4-pdf.pdf",
+  "source_sha256": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
+  "output_sha256": "603539eae58342d9707b1f6b0f0e3873259ad69b5c59a7e6aaa5aa527badb6ef",
+  "source_bytes": 61367964,
+  "output_bytes": 17768849,
+  "pages": 2,
+  "method": "PyMuPDF subset_fonts(fallback=True) with fontTools; no image resampling or page-content changes",
+  "font_bytes_removed": 34932888,
+  "page_checks": [
+    {
+      "page": 1,
+      "pixels_150dpi_identical": true,
+      "native_text_identical": true,
+      "page_size_identical": true
+    },
+    {
+      "page": 2,
+      "pixels_150dpi_identical": true,
+      "native_text_identical": true,
+      "page_size_identical": true
+    }
+  ],
+  "poppler_150dpi_both_pages_identical": true,
+  "download_file": "downloads/oc-flyer-r04.pdf"
+}

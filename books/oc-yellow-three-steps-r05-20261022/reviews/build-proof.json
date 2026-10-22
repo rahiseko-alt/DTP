@@ -1,0 +1,37 @@
+{
+  "edition": "R05-three-steps",
+  "source": {
+    "file": "books/oc-approved-20261017/parts/jp-oc-parent-r4-pdf/f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4/jp-oc-parent-r4-pdf.pdf",
+    "id": "jp-oc-parent-r4-pdf",
+    "revision": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
+    "sha256": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4"
+  },
+  "pdf": "books/oc-yellow-three-steps-r05-20261022/output/oc-flyer-r05.pdf",
+  "pdf_sha256": "5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5",
+  "bytes": 17781826,
+  "pages": 2,
+  "back_change_rect_pt": [
+    75.36,
+    403.2,
+    523.68,
+    482.88
+  ],
+  "facts_sha256": "3e99af150fc6ecb1b9cb290886a55bf88f8daa9a6f47a1993d4cf028094943c4",
+  "steps": [
+    {
+      "title": "学校説明",
+      "description": "学校の特徴や\n学びの内容を紹介します。"
+    },
+    {
+      "title": "体験授業",
+      "description": "AIやビジネスの\n授業を体験できます。"
+    },
+    {
+      "title": "個別相談",
+      "description": "入試・学費・就職について\n個別に相談できます。"
+    }
+  ],
+  "photos_changed": false,
+  "front_changed": false,
+  "release": false
+}
