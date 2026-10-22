@@ -8,7 +8,7 @@ permissions:
 jobs:
   asset-integrity:
     name: asset-integrity
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       STUDIO_CHROMIUM_PATH: /usr/bin/google-chrome
     steps:
@@ -24,10 +24,54 @@ jobs:
           # Freshness fingerprints include brand and shared generated assets too.
           # Hydrate every source payload before hashing; pointers are not inputs.
           git lfs pull --include='books/**,output/pdf/**,references/school-own/**,company-data/**,shared/**'
-      - run: sudo apt-get update && sudo apt-get install -y poppler-utils fonts-noto-cjk
+      - run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
+      - name: Install locked PDF extraction runtime
+        run: |
+          bash system/scripts/setup-extraction-runtime.sh "$RUNNER_TEMP/dtp-extraction"
+          printf '%s\n' "$RUNNER_TEMP/dtp-extraction/env/bin" >> "$GITHUB_PATH"
+      - name: Report extraction runtime
+        run: |
+          python3 - <<'PY'
+          import pathlib, subprocess
+          def escape(value):
+              return value.replace('%', '%25').replace('\r', '%0D').replace('\n', '%0A')
+          version = subprocess.run(['pdftoppm', '-v'], text=True, capture_output=True, check=True)
+          runtime = (version.stderr + version.stdout).splitlines()[0]
+          os_info = pathlib.Path('/etc/os-release').read_text()
+          print('::notice title=Extraction runtime::' + escape(runtime + '\n' + os_info))
+          PY
       - run: npm run typecheck
       - run: npx vitest run system/scripts/test/assets.test.ts system/scripts/test/asset-build.test.ts system/scripts/test/baseline-sync.test.ts system/scripts/test/standard-book-inputs.test.ts system/scripts/test/standard-book-rebuild.test.ts system/scripts/test/standard-book-freshness.test.ts
-      - run: npm run asset:check
+      - name: Check asset integrity and retain failure details
+        run: |
+          set +e
+          npm run asset:check > asset-integrity.log 2>&1
+          asset_check_status=$?
+          set -e
+          cat asset-integrity.log
+          if [ "$asset_check_status" -ne 0 ]; then
+            python3 - <<'PY'
+          import json, pathlib
+          log = pathlib.Path('asset-integrity.log').read_text()
+          def escape(value):
+              return value.replace('%', '%25').replace('\r', '%0D').replace('\n', '%0A')
+          try:
+              result = json.JSONDecoder().raw_decode(log[log.index('{'):])[0]
+              errors = result.get('errors', [])
+          except (ValueError, TypeError):
+              errors = [log[-4000:]]
+          for error in errors[:20]:
+              print('::error title=Asset integrity::' + escape(str(error)))
+          PY
+          fi
+          exit "$asset_check_status"
+      - name: Preserve asset failure log
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: asset-integrity-failure-log
+          path: asset-integrity.log
+          if-no-files-found: ignore
       - name: Preserve test result
         if: always()
         run: git rev-parse HEAD

@@ -1,0 +1,54 @@
+{
+  "scope": "read-only diagnosis; no repository/workflow/catalog/gate changes",
+  "run": 39716449612,
+  "job": 119619592311,
+  "head": "97443aa386c0e3f4be9d4aa6d9ccea1052b7bbe7",
+  "confirmed": {
+    "failed_step": "Run npm run asset:check",
+    "passed": [
+      "LFS fetch",
+      "typecheck",
+      "selected tests"
+    ],
+    "registered_extracts": 9,
+    "recipe_engine": "poppler-png-v1",
+    "recipe_version": "pdftoppm version 26.05.0",
+    "local_version": "pdftoppm version 26.05.0",
+    "workflow_environment": "ubuntu-latest; apt install poppler-utils without a version pin",
+    "ubuntu_latest_migration_annotation": true,
+    "original_pages": [
+      {
+        "embedded_images": 1,
+        "width": 722,
+        "height": 1026
+      },
+      {
+        "embedded_images": 1,
+        "width": 724,
+        "height": 1026
+      }
+    ],
+    "single_page_local_rasterization_seconds": 3.47
+  },
+  "unknown": [
+    "actual CI Poppler version",
+    "actual asset:check error messages",
+    "whether failure is EXTRACTION_ENGINE versus EXTRACTION_MISMATCH versus another asset condition"
+  ],
+  "log_access": {
+    "gh_run_failed_log": "403 on results storage host",
+    "job_log_api": "403 on Azure blob redirect",
+    "check_annotations": "available, but failure says exit code 1 only",
+    "github_UI_log_fragments": "sign-in required"
+  },
+  "minimal_next_push_diagnostics": [
+    "publish OS and pdftoppm -v as GitHub notice annotations so API access works without blocked blob logs",
+    "preserve asset:check exit code and publish capped diagnostic error lines as failure annotations",
+    "upload full asset-check log as artifact, with if:failure()/always, while keeping gate failure unchanged"
+  ],
+  "conditional_fixes_if_version_mismatch_confirmed": [
+    "Provide same pinned Poppler26.05.0 provider/runtime dependency set in CI and generation; retain exact version and per-crop re-extraction SHA checks",
+    "Do not merely pin ubuntu or edit recipe version; neither proves PNG reproduction",
+    "A new portable extraction engine requires explicit new recipe and re-registration, not role demotion or receipt-only verification"
+  ]
+}

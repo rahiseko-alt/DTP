@@ -1,0 +1,31 @@
+{
+  "id": "back-exchange",
+  "method": "image-edit",
+  "model_tool": "image_gen.imagegen",
+  "generated_original": "/workspace/generated_images/exec-797291d9-96f6-41cd-aefd-65af6de5d666.png",
+  "output": "books/oc-yellow-photo-edit-20261022/images/back-exchange.png",
+  "reference_inputs": [
+    {
+      "path": "books/oc-approved-20261017/parts/extracted/ocjp2-source-exchange/aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758/ocjp2-source-exchange.png",
+      "sha256": "aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758",
+      "role": "original-photo-extract",
+      "method": "image-edit",
+      "usage": "img2img"
+    }
+  ],
+  "prompt": "必ず添付した元写真自体を編集する。別の構図の新しい学校写真を作らない。原本の七夕の短冊が吊られた教室で女性たちが肩を寄せ、ピースして笑っている写真。手前の3人と左右背景の女性の顔立ちを自然な日本人・東アジア系の架空の成人学生のイメージへ写真編集。明るい笑顔、元のピース、短冊、教室、服装、位置、人数、構図を維持。自然な肌色の幅と質感を残す。 全体の画角、写真の縦横比、カメラ、顔と手の位置と人数を厳密に維持。アニメやイラストにせず自然な実写の写真。笑顔や楽しさを減らさず、全員同じ顔や整形モデル風にしない。文字、ロゴ、枠、レイアウトを追加しない。実在学生の国籍の証明ではない架空人物イメージ。",
+  "status": "illustrative AI edit; not documentary enrollment/nationality evidence",
+  "review": "Parent viewed original and edited image. Original activity, smiling/peace gestures, positions, attire and setting retained.",
+  "sha256": "4ee6463275ba50bb381e1b24c8b9189c1f563911bfd19bbc99a619ca0a33c160",
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "seed": null,
+  "size": "1649x954",
+  "created": "2026-10-22",
+  "author": "Codex",
+  "negative_prompt": null,
+  "source_refs": [
+    "books/oc-approved-20261017/parts/extracted/ocjp2-source-exchange/aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758/ocjp2-source-exchange.png"
+  ],
+  "notes": "編集元は実際にimagegenへ参照入力した原本写真crop。文字を新規生成する精度は使わず、紙面上では原本文字・brush・掲示物を復元。モデル名/seed/専用negative parameterはツールから未公開。"
+}

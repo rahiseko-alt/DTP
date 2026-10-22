@@ -1,0 +1,22 @@
+{
+  "mode": "saved review edition; not merged or release",
+  "pdf_sha256": "6e330c33fbb0a0f4886208fc19f19195b71d0d46f94aba1cbf1b60ecaf0c2a9a",
+  "photo_edits": 9,
+  "experience_groups": 1,
+  "experience_photos": 3,
+  "qr_checks": 4,
+  "qr_destination": "mailto:aibusiness.kaihougakuen@gmail.com",
+  "original_art_outside_changed_masks_pixel_equal": true,
+  "preserved_old_files": 36,
+  "baseline_sync": "passed; includes schema/content/registered payload and extraction checks",
+  "asset_check": "running",
+  "full_check": "queued after asset_check; no whole-suite pass asserted",
+  "doctor": {
+    "ok": 10,
+    "warn": 1,
+    "ng": 0
+  },
+  "extraction_recipe_poppler": "26.05.0; registry replay requires the recorded engine version",
+  "independent_review": false,
+  "human_adoption": false
+}

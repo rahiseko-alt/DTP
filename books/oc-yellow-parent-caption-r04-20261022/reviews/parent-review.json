@@ -1,0 +1,18 @@
+{
+  "edition": "R04-parent-caption",
+  "pdf_sha256": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
+  "parent_visual_review_pages": [
+    1,
+    2
+  ],
+  "source_R03_unchanged": true,
+  "protected_prior_files_unchanged": 36,
+  "back_page_pixel_equal": true,
+  "front_change_limited_to_two_regions": true,
+  "qr_decodes": 4,
+  "independent_review": false,
+  "human_final_paper_adoption": false,
+  "print_test": false,
+  "badge_outline_pixels_removed": true,
+  "parent_welcome_caption": "お子さまと一緒に／ご参加いただけます。"
+}

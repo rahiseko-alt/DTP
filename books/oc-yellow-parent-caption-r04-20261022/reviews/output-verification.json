@@ -1,0 +1,37 @@
+{
+  "pdf_sha256": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
+  "source_sha256": "d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95",
+  "verified": true,
+  "photos_pixel_unchanged": true,
+  "front_parent_welcome_text_count": 1,
+  "old_middle_heading_and_explanation_removed": true,
+  "back_entire_page_pixel_equal": true,
+  "pages": [
+    {
+      "page": 1,
+      "png_sha256": "2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece",
+      "png_qr": [
+        "mailto:aibusiness.kaihougakuen@gmail.com"
+      ],
+      "pdf_qr": [
+        "mailto:aibusiness.kaihougakuen@gmail.com"
+      ],
+      "outside_front_edit_regions_pixel_equal": true,
+      "entire_back_pixel_equal": false
+    },
+    {
+      "page": 2,
+      "png_sha256": "81b751b50f08bbb908ba88e31c76b56ac42c1da9926a73989b69c16a4fbc897f",
+      "png_qr": [
+        "mailto:aibusiness.kaihougakuen@gmail.com"
+      ],
+      "pdf_qr": [
+        "mailto:aibusiness.kaihougakuen@gmail.com"
+      ],
+      "outside_front_edit_regions_pixel_equal": true,
+      "entire_back_pixel_equal": true
+    }
+  ],
+  "independent_review": false,
+  "print_test": false
+}

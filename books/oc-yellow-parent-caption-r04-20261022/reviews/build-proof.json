@@ -1,0 +1,34 @@
+{
+  "edition": "R04-parent-caption",
+  "source": {
+    "file": "books/oc-approved-20261017/parts/jp-oc-soft-r3-pdf/d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95/jp-oc-soft-r3-pdf.pdf",
+    "sha256": "d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95",
+    "id": "jp-oc-soft-r3-pdf",
+    "revision": "d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95"
+  },
+  "pdf": "books/oc-yellow-parent-caption-r04-20261022/output/OC黄色帯版_保護者歓迎位置修正R04_2P.pdf",
+  "pdf_sha256": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
+  "pages": 2,
+  "facts_sha256": "0e0d7d145974fb31c9a41a78400a0fc064f710ad34ba7f18bb802a0f577278ec",
+  "front_change_rects_pt": [
+    [
+      199.83421325914748,
+      541.5692572342722,
+      396.25635362133755,
+      582.3207445646586
+    ],
+    [
+      203.094331771383,
+      727.3960394608347,
+      369.3603758953945,
+      763.2573483115748
+    ]
+  ],
+  "changes": [
+    "Remove parent-welcome badge under dates",
+    "Replace middle experience heading and explanation with parent-welcome title and accompanying caption"
+  ],
+  "photos_changed": false,
+  "back_page_changed": false,
+  "release": false
+}

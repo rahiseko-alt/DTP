@@ -1,0 +1,57 @@
+{
+  "provider": "conda-forge poppler 26.05.0 hfdef1ce_3; SHA256 package lock",
+  "actual_version": "pdftoppm version 26.05.0",
+  "source_parent_sha_verified": true,
+  "crops": [
+    {
+      "id": "ocjp2-source-hero",
+      "sha256": "db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213",
+      "matched": true
+    },
+    {
+      "id": "ocjp2-source-class",
+      "sha256": "d997a8e417b1cd6040b139a2c99a87e67cdde67ce54c8a2dd2dff5c8ddb88411",
+      "matched": true
+    },
+    {
+      "id": "ocjp2-source-friends",
+      "sha256": "97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879",
+      "matched": true
+    },
+    {
+      "id": "ocjp2-source-consult",
+      "sha256": "bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3",
+      "matched": true
+    },
+    {
+      "id": "ocjp2-source-ai",
+      "sha256": "4eab9b603c46da4b1d5643315b1a5ef48efd730150a59a8e0f568ab6840a266f",
+      "matched": true
+    },
+    {
+      "id": "ocjp2-source-business",
+      "sha256": "e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466",
+      "matched": true
+    },
+    {
+      "id": "ocjp2-source-lesson",
+      "sha256": "8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989",
+      "matched": true
+    },
+    {
+      "id": "ocjp2-source-exchange",
+      "sha256": "aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758",
+      "matched": true
+    },
+    {
+      "id": "ocjp2-source-event",
+      "sha256": "7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa",
+      "matched": true
+    }
+  ],
+  "package_lock_sha256": "a1edab3e7d511b3d495519a2d5eeab2200f61197fd5d5a5347d16949bb41853e",
+  "package_count": 70,
+  "explicit_lock_install": "passed in separate prefix",
+  "tampered_package_sha256_rejected": true,
+  "micromamba_sha256": "366cd9cd8be14df1ab8ed50352a82111082a36686b2d389fdb79a92c3fafb3e3"
+}

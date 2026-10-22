@@ -1,0 +1,31 @@
+{
+  "id": "front-consult",
+  "method": "image-edit",
+  "model_tool": "image_gen.imagegen",
+  "generated_original": "/workspace/generated_images/exec-2cf186ef-d276-48be-83b0-3afd13510f86.png",
+  "output": "books/oc-yellow-photo-edit-20261022/images/front-consult.png",
+  "reference_inputs": [
+    {
+      "path": "books/oc-approved-20261017/parts/extracted/ocjp2-source-consult/bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3/ocjp2-source-consult.png",
+      "role": "original-photo-extract",
+      "method": "image-edit",
+      "sha256": "bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3",
+      "usage": "img2img"
+    }
+  ],
+  "prompt": "必ず第1添付の元写真そのものを編集する。別の新しい学校写真の提案ではない。教室の机を囲む相談場面の男女3人を、自然な日本人・東アジア系の架空の成人学生のイメージへ穏やかに写真編集。左手前の黒スーツ男性、中央の女性、右手前の横向きの女性の位置、人数、服装、髪型、顔の向き、相談している自然な表情、机と背景を忠実に保つ。写真を明るい広告用の別構図へ作り変えない。 カメラ位置、全体の画角、顔と手の位置、人数、縦横比を厳密に維持。自然な肌色と写真の質感を残し過度な美白や均一な整形顔にしない。アニメ・イラストにしない。文字、ロゴ、枠、レイアウトを追加しない。実在学生の国籍・所属を示す写真ではなく架空人物の編集イメージ。",
+  "status": "illustrative AI edit; not documentary enrollment/nationality evidence",
+  "review": "Parent viewed source and edited image. Original subjects' positions, direction of gaze, activity, expressions, clothing and classroom retained. No new scene used.",
+  "sha256": "1ad95d22999cb00c76951d0e3249c48854a954a69f04f352ceb23e44b5469fbf",
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "seed": null,
+  "size": "2043x770",
+  "created": "2026-10-22",
+  "author": "Codex",
+  "negative_prompt": null,
+  "source_refs": [
+    "books/oc-approved-20261017/parts/extracted/ocjp2-source-consult/bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3/ocjp2-source-consult.png"
+  ],
+  "notes": "編集元は実際にimagegenへ参照入力した原本写真crop。文字を新規生成する精度は使わず、紙面上では原本文字・brush・掲示物を復元。モデル名/seed/専用negative parameterはツールから未公開。"
+}

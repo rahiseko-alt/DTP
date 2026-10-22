@@ -57,7 +57,41 @@
     "jp-oc-front": "0b18db5f881dc452d2795bdfc05ba245bd4b75c0d67856941c9265eeabca0a4f",
     "jp-oc-back": "128bc3ea46a2dcb7855b8b0f17eb86038ec65582274c0a61404f08643a1c9351",
     "jp-oc-build-proof": "feaf21b84dcb3731da328fd2fbfea25b07b3ccebcae12c74a92b34a4b6a851aa",
-    "jp-oc-verification": "8c1ab6fb09f00ac06aa08ad4211bd36abdf5a47e3ad36e2019006e092eeded1f"
+    "jp-oc-verification": "8c1ab6fb09f00ac06aa08ad4211bd36abdf5a47e3ad36e2019006e092eeded1f",
+    "ocjp2-source-hero": "db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213",
+    "ocjp2-source-class": "d997a8e417b1cd6040b139a2c99a87e67cdde67ce54c8a2dd2dff5c8ddb88411",
+    "ocjp2-source-friends": "97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879",
+    "ocjp2-source-consult": "bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3",
+    "ocjp2-source-ai": "4eab9b603c46da4b1d5643315b1a5ef48efd730150a59a8e0f568ab6840a266f",
+    "ocjp2-source-business": "e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466",
+    "ocjp2-source-lesson": "8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989",
+    "ocjp2-source-exchange": "aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758",
+    "ocjp2-source-event": "7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa",
+    "ocjp2-edit-hero": "24698ae5aec608852f8f1d12da0b59b2feb72e6b1a361c13b8ce052646158173",
+    "ocjp2-edit-class": "2527dc90610bb7cdb641a9751bd23f03bf22b58effe7e1faeba507dfe642ddcd",
+    "ocjp2-edit-friends": "58f8fa16245c74334d6fc55f0ba5958329fe24af640cb203d7de2fcbee66a141",
+    "ocjp2-edit-consult": "1ad95d22999cb00c76951d0e3249c48854a954a69f04f352ceb23e44b5469fbf",
+    "ocjp2-edit-ai": "7ae950a384176d0757ad23ea353413d9f6aba0e8a67bcac16a5c6a9f4b50116e",
+    "ocjp2-edit-business": "db3851c3bf737aa5b55c576d56f56a0e1e01fd86fabd5f8df251c2305dd55bdf",
+    "ocjp2-edit-lesson": "3feea605b009ae3eded0d89c299142f7b96a52e612c4053a1c89a40f787c70b4",
+    "ocjp2-edit-exchange": "4ee6463275ba50bb381e1b24c8b9189c1f563911bfd19bbc99a619ca0a33c160",
+    "ocjp2-edit-event": "87465f6cba62db9c0e4d06c902f7444f501fefbbea3b6833410b3470b3a91af6",
+    "jp-oc-original-art-r2-pdf": "6e330c33fbb0a0f4886208fc19f19195b71d0d46f94aba1cbf1b60ecaf0c2a9a",
+    "jp-oc-original-art-r2-front": "8d4cde729bca446cbcdc34e81394e397b34be5bc6c2a2c8e50fe6622107f0b0f",
+    "jp-oc-original-art-r2-back": "45f6e705f00a51cdac7c60897b3666fc76a71d87fd17ad7667518a77bb02c49a",
+    "jp-oc-original-art-r2-proof": "4ba2eed2598ff3199f24ecb3496cd0425c388ff1a23814e9b70983251e495b09",
+    "jp-oc-original-art-r2-verification": "df96a0b49624082103522dfb30852ebd016bf9b8c4ace719d50e3ff46e80c7d3",
+    "ocjp3-edit-hero": "aa7d6836acc6cba0ceab5e15cbc41a5694e15740c38b3f4fde71011b46051a83",
+    "ocjp3-edit-class": "eb0b04f24c2fa5985901f5393da55820033366c70515071371027650bafcaae7",
+    "ocjp3-edit-ai": "494d1d5d948e2910117428b59a2bccc1ef5c04fbd2a02bca5381cc889ed2b79b",
+    "ocjp3-edit-business": "c312204cacfc1db22a2f1818af9c3b987a41d46cf2785f44af043f9f50b30385",
+    "jp-oc-soft-r3-pdf": "d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95",
+    "jp-oc-soft-r3-front": "3155869671571d0fdd24e29a250267a1e6ceea8b61dd46e7dba9b04e6ec52871",
+    "jp-oc-soft-r3-back": "81b751b50f08bbb908ba88e31c76b56ac42c1da9926a73989b69c16a4fbc897f",
+    "jp-oc-soft-r3-proof": "9d10267c58a8e5b3a42ce11a03e3a43897baae154d2ad18d22d1a05d823f733d",
+    "jp-oc-soft-r3-verification": "9325becc0c4a064e430f5e46965564cdb30b0d36492c2d7353f6cdd802fe0200",
+    "jp-oc-parent-r4-pdf": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
+    "jp-oc-parent-r4-front": "2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece"
   },
   "assets": [
     {
@@ -1124,6 +1158,1217 @@
         {
           "id": "latest-original-oc-pdf",
           "revision": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+        }
+      ]
+    },
+    {
+      "id": "ocjp2-source-hero",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-hero/db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213/ocjp2-source-hero.png",
+      "sha256": "db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213",
+      "size": 1939708,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 1,
+        "dpi": 150,
+        "rect": [
+          7,
+          133,
+          1226,
+          713
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "ocjp2-source-class",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "d997a8e417b1cd6040b139a2c99a87e67cdde67ce54c8a2dd2dff5c8ddb88411",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-class/d997a8e417b1cd6040b139a2c99a87e67cdde67ce54c8a2dd2dff5c8ddb88411/ocjp2-source-class.png",
+      "sha256": "d997a8e417b1cd6040b139a2c99a87e67cdde67ce54c8a2dd2dff5c8ddb88411",
+      "size": 116805,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 1,
+        "dpi": 150,
+        "rect": [
+          50,
+          1369,
+          345,
+          143
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "ocjp2-source-friends",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-friends/97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879/ocjp2-source-friends.png",
+      "sha256": "97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879",
+      "size": 132972,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 1,
+        "dpi": 150,
+        "rect": [
+          433,
+          1366,
+          323,
+          144
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "ocjp2-source-consult",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-consult/bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3/ocjp2-source-consult.png",
+      "sha256": "bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3",
+      "size": 120431,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 1,
+        "dpi": 150,
+        "rect": [
+          800,
+          1366,
+          380,
+          143
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "ocjp2-source-ai",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "4eab9b603c46da4b1d5643315b1a5ef48efd730150a59a8e0f568ab6840a266f",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-ai/4eab9b603c46da4b1d5643315b1a5ef48efd730150a59a8e0f568ab6840a266f/ocjp2-source-ai.png",
+      "sha256": "4eab9b603c46da4b1d5643315b1a5ef48efd730150a59a8e0f568ab6840a266f",
+      "size": 283205,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 2,
+        "dpi": 150,
+        "rect": [
+          67,
+          539,
+          543,
+          199
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "ocjp2-source-business",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-business/e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466/ocjp2-source-business.png",
+      "sha256": "e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466",
+      "size": 263114,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 2,
+        "dpi": 150,
+        "rect": [
+          656,
+          539,
+          523,
+          199
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "ocjp2-source-lesson",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-lesson/8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989/ocjp2-source-lesson.png",
+      "sha256": "8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989",
+      "size": 165513,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 2,
+        "dpi": 150,
+        "rect": [
+          47,
+          1306,
+          343,
+          199
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "ocjp2-source-exchange",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-exchange/aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758/ocjp2-source-exchange.png",
+      "sha256": "aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758",
+      "size": 173719,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 2,
+        "dpi": 150,
+        "rect": [
+          401,
+          1306,
+          344,
+          199
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "ocjp2-source-event",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-event/7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa/ocjp2-source-event.png",
+      "sha256": "7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa",
+      "size": 218813,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 2,
+        "dpi": 150,
+        "rect": [
+          758,
+          1306,
+          443,
+          199
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "ocjp2-edit-hero",
+      "variant": "japanese-image-original-art-r2",
+      "role": "support",
+      "media": "image",
+      "revision": "24698ae5aec608852f8f1d12da0b59b2feb72e6b1a361c13b8ce052646158173",
+      "file": "books/oc-approved-20261017/parts/ocjp2-edit-hero/24698ae5aec608852f8f1d12da0b59b2feb72e6b1a361c13b8ce052646158173/ocjp2-edit-hero.png",
+      "sha256": "24698ae5aec608852f8f1d12da0b59b2feb72e6b1a361c13b8ce052646158173",
+      "size": 2123559,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved original-art OC review edition with original-photo image edits; identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T03:11:11.909Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "ocjp2-source-hero",
+          "revision": "db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213"
+        }
+      ]
+    },
+    {
+      "id": "ocjp2-edit-class",
+      "variant": "japanese-image-original-art-r2",
+      "role": "support",
+      "media": "image",
+      "revision": "2527dc90610bb7cdb641a9751bd23f03bf22b58effe7e1faeba507dfe642ddcd",
+      "file": "books/oc-approved-20261017/parts/ocjp2-edit-class/2527dc90610bb7cdb641a9751bd23f03bf22b58effe7e1faeba507dfe642ddcd/ocjp2-edit-class.png",
+      "sha256": "2527dc90610bb7cdb641a9751bd23f03bf22b58effe7e1faeba507dfe642ddcd",
+      "size": 1747742,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved original-art OC review edition with original-photo image edits; identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T03:11:16.137Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "ocjp2-source-class",
+          "revision": "d997a8e417b1cd6040b139a2c99a87e67cdde67ce54c8a2dd2dff5c8ddb88411"
+        }
+      ]
+    },
+    {
+      "id": "ocjp2-edit-friends",
+      "variant": "japanese-image-original-art-r2",
+      "role": "support",
+      "media": "image",
+      "revision": "58f8fa16245c74334d6fc55f0ba5958329fe24af640cb203d7de2fcbee66a141",
+      "file": "books/oc-approved-20261017/parts/ocjp2-edit-friends/58f8fa16245c74334d6fc55f0ba5958329fe24af640cb203d7de2fcbee66a141/ocjp2-edit-friends.png",
+      "sha256": "58f8fa16245c74334d6fc55f0ba5958329fe24af640cb203d7de2fcbee66a141",
+      "size": 1889469,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved original-art OC review edition with original-photo image edits; identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T03:11:20.254Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "ocjp2-source-friends",
+          "revision": "97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879"
+        }
+      ]
+    },
+    {
+      "id": "ocjp2-edit-consult",
+      "variant": "japanese-image-original-art-r2",
+      "role": "support",
+      "media": "image",
+      "revision": "1ad95d22999cb00c76951d0e3249c48854a954a69f04f352ceb23e44b5469fbf",
+      "file": "books/oc-approved-20261017/parts/ocjp2-edit-consult/1ad95d22999cb00c76951d0e3249c48854a954a69f04f352ceb23e44b5469fbf/ocjp2-edit-consult.png",
+      "sha256": "1ad95d22999cb00c76951d0e3249c48854a954a69f04f352ceb23e44b5469fbf",
+      "size": 1910801,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved original-art OC review edition with original-photo image edits; identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T03:11:24.615Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "ocjp2-source-consult",
+          "revision": "bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3"
+        }
+      ]
+    },
+    {
+      "id": "ocjp2-edit-ai",
+      "variant": "japanese-image-original-art-r2",
+      "role": "support",
+      "media": "image",
+      "revision": "7ae950a384176d0757ad23ea353413d9f6aba0e8a67bcac16a5c6a9f4b50116e",
+      "file": "books/oc-approved-20261017/parts/ocjp2-edit-ai/7ae950a384176d0757ad23ea353413d9f6aba0e8a67bcac16a5c6a9f4b50116e/ocjp2-edit-ai.png",
+      "sha256": "7ae950a384176d0757ad23ea353413d9f6aba0e8a67bcac16a5c6a9f4b50116e",
+      "size": 1913513,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved original-art OC review edition with original-photo image edits; identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T03:11:28.979Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "ocjp2-source-ai",
+          "revision": "4eab9b603c46da4b1d5643315b1a5ef48efd730150a59a8e0f568ab6840a266f"
+        }
+      ]
+    },
+    {
+      "id": "ocjp2-edit-business",
+      "variant": "japanese-image-original-art-r2",
+      "role": "support",
+      "media": "image",
+      "revision": "db3851c3bf737aa5b55c576d56f56a0e1e01fd86fabd5f8df251c2305dd55bdf",
+      "file": "books/oc-approved-20261017/parts/ocjp2-edit-business/db3851c3bf737aa5b55c576d56f56a0e1e01fd86fabd5f8df251c2305dd55bdf/ocjp2-edit-business.png",
+      "sha256": "db3851c3bf737aa5b55c576d56f56a0e1e01fd86fabd5f8df251c2305dd55bdf",
+      "size": 1834485,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved original-art OC review edition with original-photo image edits; identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T03:11:32.717Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "ocjp2-source-business",
+          "revision": "e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466"
+        }
+      ]
+    },
+    {
+      "id": "ocjp2-edit-lesson",
+      "variant": "japanese-image-original-art-r2",
+      "role": "support",
+      "media": "image",
+      "revision": "3feea605b009ae3eded0d89c299142f7b96a52e612c4053a1c89a40f787c70b4",
+      "file": "books/oc-approved-20261017/parts/ocjp2-edit-lesson/3feea605b009ae3eded0d89c299142f7b96a52e612c4053a1c89a40f787c70b4/ocjp2-edit-lesson.png",
+      "sha256": "3feea605b009ae3eded0d89c299142f7b96a52e612c4053a1c89a40f787c70b4",
+      "size": 1629217,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved original-art OC review edition with original-photo image edits; identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T03:11:36.356Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "ocjp2-source-lesson",
+          "revision": "8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989"
+        }
+      ]
+    },
+    {
+      "id": "ocjp2-edit-exchange",
+      "variant": "japanese-image-original-art-r2",
+      "role": "support",
+      "media": "image",
+      "revision": "4ee6463275ba50bb381e1b24c8b9189c1f563911bfd19bbc99a619ca0a33c160",
+      "file": "books/oc-approved-20261017/parts/ocjp2-edit-exchange/4ee6463275ba50bb381e1b24c8b9189c1f563911bfd19bbc99a619ca0a33c160/ocjp2-edit-exchange.png",
+      "sha256": "4ee6463275ba50bb381e1b24c8b9189c1f563911bfd19bbc99a619ca0a33c160",
+      "size": 1727597,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved original-art OC review edition with original-photo image edits; identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T03:11:39.977Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "ocjp2-source-exchange",
+          "revision": "aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758"
+        }
+      ]
+    },
+    {
+      "id": "ocjp2-edit-event",
+      "variant": "japanese-image-original-art-r2",
+      "role": "support",
+      "media": "image",
+      "revision": "87465f6cba62db9c0e4d06c902f7444f501fefbbea3b6833410b3470b3a91af6",
+      "file": "books/oc-approved-20261017/parts/ocjp2-edit-event/87465f6cba62db9c0e4d06c902f7444f501fefbbea3b6833410b3470b3a91af6/ocjp2-edit-event.png",
+      "sha256": "87465f6cba62db9c0e4d06c902f7444f501fefbbea3b6833410b3470b3a91af6",
+      "size": 1817335,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved original-art OC review edition with original-photo image edits; identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T03:11:43.598Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "ocjp2-source-event",
+          "revision": "7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-original-art-r2-pdf",
+      "variant": "japanese-image-original-art-r2",
+      "role": "support",
+      "media": "pdf",
+      "revision": "6e330c33fbb0a0f4886208fc19f19195b71d0d46f94aba1cbf1b60ecaf0c2a9a",
+      "file": "books/oc-approved-20261017/parts/jp-oc-original-art-r2-pdf/6e330c33fbb0a0f4886208fc19f19195b71d0d46f94aba1cbf1b60ecaf0c2a9a/jp-oc-original-art-r2-pdf.pdf",
+      "sha256": "6e330c33fbb0a0f4886208fc19f19195b71d0d46f94aba1cbf1b60ecaf0c2a9a",
+      "size": 63289974,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved original-art OC review edition with original-photo image edits; identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T03:11:47.405Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-original-oc-pdf",
+          "revision": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+        },
+        {
+          "id": "ocjp2-edit-hero",
+          "revision": "24698ae5aec608852f8f1d12da0b59b2feb72e6b1a361c13b8ce052646158173"
+        },
+        {
+          "id": "ocjp2-edit-class",
+          "revision": "2527dc90610bb7cdb641a9751bd23f03bf22b58effe7e1faeba507dfe642ddcd"
+        },
+        {
+          "id": "ocjp2-edit-friends",
+          "revision": "58f8fa16245c74334d6fc55f0ba5958329fe24af640cb203d7de2fcbee66a141"
+        },
+        {
+          "id": "ocjp2-edit-consult",
+          "revision": "1ad95d22999cb00c76951d0e3249c48854a954a69f04f352ceb23e44b5469fbf"
+        },
+        {
+          "id": "ocjp2-edit-ai",
+          "revision": "7ae950a384176d0757ad23ea353413d9f6aba0e8a67bcac16a5c6a9f4b50116e"
+        },
+        {
+          "id": "ocjp2-edit-business",
+          "revision": "db3851c3bf737aa5b55c576d56f56a0e1e01fd86fabd5f8df251c2305dd55bdf"
+        },
+        {
+          "id": "ocjp2-edit-lesson",
+          "revision": "3feea605b009ae3eded0d89c299142f7b96a52e612c4053a1c89a40f787c70b4"
+        },
+        {
+          "id": "ocjp2-edit-exchange",
+          "revision": "4ee6463275ba50bb381e1b24c8b9189c1f563911bfd19bbc99a619ca0a33c160"
+        },
+        {
+          "id": "ocjp2-edit-event",
+          "revision": "87465f6cba62db9c0e4d06c902f7444f501fefbbea3b6833410b3470b3a91af6"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-original-art-r2-front",
+      "variant": "japanese-image-original-art-r2",
+      "role": "support",
+      "media": "image",
+      "revision": "8d4cde729bca446cbcdc34e81394e397b34be5bc6c2a2c8e50fe6622107f0b0f",
+      "file": "books/oc-approved-20261017/parts/jp-oc-original-art-r2-front/8d4cde729bca446cbcdc34e81394e397b34be5bc6c2a2c8e50fe6622107f0b0f/jp-oc-original-art-r2-front.png",
+      "sha256": "8d4cde729bca446cbcdc34e81394e397b34be5bc6c2a2c8e50fe6622107f0b0f",
+      "size": 3093285,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved original-art OC review edition with original-photo image edits; identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T03:12:17.840Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-original-oc-pdf",
+          "revision": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+        },
+        {
+          "id": "ocjp2-edit-hero",
+          "revision": "24698ae5aec608852f8f1d12da0b59b2feb72e6b1a361c13b8ce052646158173"
+        },
+        {
+          "id": "ocjp2-edit-class",
+          "revision": "2527dc90610bb7cdb641a9751bd23f03bf22b58effe7e1faeba507dfe642ddcd"
+        },
+        {
+          "id": "ocjp2-edit-friends",
+          "revision": "58f8fa16245c74334d6fc55f0ba5958329fe24af640cb203d7de2fcbee66a141"
+        },
+        {
+          "id": "ocjp2-edit-consult",
+          "revision": "1ad95d22999cb00c76951d0e3249c48854a954a69f04f352ceb23e44b5469fbf"
+        },
+        {
+          "id": "ocjp2-edit-ai",
+          "revision": "7ae950a384176d0757ad23ea353413d9f6aba0e8a67bcac16a5c6a9f4b50116e"
+        },
+        {
+          "id": "ocjp2-edit-business",
+          "revision": "db3851c3bf737aa5b55c576d56f56a0e1e01fd86fabd5f8df251c2305dd55bdf"
+        },
+        {
+          "id": "ocjp2-edit-lesson",
+          "revision": "3feea605b009ae3eded0d89c299142f7b96a52e612c4053a1c89a40f787c70b4"
+        },
+        {
+          "id": "ocjp2-edit-exchange",
+          "revision": "4ee6463275ba50bb381e1b24c8b9189c1f563911bfd19bbc99a619ca0a33c160"
+        },
+        {
+          "id": "ocjp2-edit-event",
+          "revision": "87465f6cba62db9c0e4d06c902f7444f501fefbbea3b6833410b3470b3a91af6"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-original-art-r2-back",
+      "variant": "japanese-image-original-art-r2",
+      "role": "support",
+      "media": "image",
+      "revision": "45f6e705f00a51cdac7c60897b3666fc76a71d87fd17ad7667518a77bb02c49a",
+      "file": "books/oc-approved-20261017/parts/jp-oc-original-art-r2-back/45f6e705f00a51cdac7c60897b3666fc76a71d87fd17ad7667518a77bb02c49a/jp-oc-original-art-r2-back.png",
+      "sha256": "45f6e705f00a51cdac7c60897b3666fc76a71d87fd17ad7667518a77bb02c49a",
+      "size": 2284155,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved original-art OC review edition with original-photo image edits; identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T03:12:48.253Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-original-oc-pdf",
+          "revision": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+        },
+        {
+          "id": "ocjp2-edit-hero",
+          "revision": "24698ae5aec608852f8f1d12da0b59b2feb72e6b1a361c13b8ce052646158173"
+        },
+        {
+          "id": "ocjp2-edit-class",
+          "revision": "2527dc90610bb7cdb641a9751bd23f03bf22b58effe7e1faeba507dfe642ddcd"
+        },
+        {
+          "id": "ocjp2-edit-friends",
+          "revision": "58f8fa16245c74334d6fc55f0ba5958329fe24af640cb203d7de2fcbee66a141"
+        },
+        {
+          "id": "ocjp2-edit-consult",
+          "revision": "1ad95d22999cb00c76951d0e3249c48854a954a69f04f352ceb23e44b5469fbf"
+        },
+        {
+          "id": "ocjp2-edit-ai",
+          "revision": "7ae950a384176d0757ad23ea353413d9f6aba0e8a67bcac16a5c6a9f4b50116e"
+        },
+        {
+          "id": "ocjp2-edit-business",
+          "revision": "db3851c3bf737aa5b55c576d56f56a0e1e01fd86fabd5f8df251c2305dd55bdf"
+        },
+        {
+          "id": "ocjp2-edit-lesson",
+          "revision": "3feea605b009ae3eded0d89c299142f7b96a52e612c4053a1c89a40f787c70b4"
+        },
+        {
+          "id": "ocjp2-edit-exchange",
+          "revision": "4ee6463275ba50bb381e1b24c8b9189c1f563911bfd19bbc99a619ca0a33c160"
+        },
+        {
+          "id": "ocjp2-edit-event",
+          "revision": "87465f6cba62db9c0e4d06c902f7444f501fefbbea3b6833410b3470b3a91af6"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-original-art-r2-proof",
+      "variant": "japanese-image-original-art-r2",
+      "role": "support",
+      "media": "text",
+      "revision": "4ba2eed2598ff3199f24ecb3496cd0425c388ff1a23814e9b70983251e495b09",
+      "file": "books/oc-approved-20261017/parts/jp-oc-original-art-r2-proof/4ba2eed2598ff3199f24ecb3496cd0425c388ff1a23814e9b70983251e495b09/jp-oc-original-art-r2-proof.json",
+      "sha256": "4ba2eed2598ff3199f24ecb3496cd0425c388ff1a23814e9b70983251e495b09",
+      "size": 7526,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved original-art OC review edition with original-photo image edits; identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T03:13:18.499Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-original-oc-pdf",
+          "revision": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+        },
+        {
+          "id": "ocjp2-edit-hero",
+          "revision": "24698ae5aec608852f8f1d12da0b59b2feb72e6b1a361c13b8ce052646158173"
+        },
+        {
+          "id": "ocjp2-edit-class",
+          "revision": "2527dc90610bb7cdb641a9751bd23f03bf22b58effe7e1faeba507dfe642ddcd"
+        },
+        {
+          "id": "ocjp2-edit-friends",
+          "revision": "58f8fa16245c74334d6fc55f0ba5958329fe24af640cb203d7de2fcbee66a141"
+        },
+        {
+          "id": "ocjp2-edit-consult",
+          "revision": "1ad95d22999cb00c76951d0e3249c48854a954a69f04f352ceb23e44b5469fbf"
+        },
+        {
+          "id": "ocjp2-edit-ai",
+          "revision": "7ae950a384176d0757ad23ea353413d9f6aba0e8a67bcac16a5c6a9f4b50116e"
+        },
+        {
+          "id": "ocjp2-edit-business",
+          "revision": "db3851c3bf737aa5b55c576d56f56a0e1e01fd86fabd5f8df251c2305dd55bdf"
+        },
+        {
+          "id": "ocjp2-edit-lesson",
+          "revision": "3feea605b009ae3eded0d89c299142f7b96a52e612c4053a1c89a40f787c70b4"
+        },
+        {
+          "id": "ocjp2-edit-exchange",
+          "revision": "4ee6463275ba50bb381e1b24c8b9189c1f563911bfd19bbc99a619ca0a33c160"
+        },
+        {
+          "id": "ocjp2-edit-event",
+          "revision": "87465f6cba62db9c0e4d06c902f7444f501fefbbea3b6833410b3470b3a91af6"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-original-art-r2-verification",
+      "variant": "japanese-image-original-art-r2",
+      "role": "support",
+      "media": "text",
+      "revision": "df96a0b49624082103522dfb30852ebd016bf9b8c4ace719d50e3ff46e80c7d3",
+      "file": "books/oc-approved-20261017/parts/jp-oc-original-art-r2-verification/df96a0b49624082103522dfb30852ebd016bf9b8c4ace719d50e3ff46e80c7d3/jp-oc-original-art-r2-verification.json",
+      "sha256": "df96a0b49624082103522dfb30852ebd016bf9b8c4ace719d50e3ff46e80c7d3",
+      "size": 1120,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved original-art OC review edition with original-photo image edits; identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T03:13:48.630Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-original-oc-pdf",
+          "revision": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+        },
+        {
+          "id": "ocjp2-edit-hero",
+          "revision": "24698ae5aec608852f8f1d12da0b59b2feb72e6b1a361c13b8ce052646158173"
+        },
+        {
+          "id": "ocjp2-edit-class",
+          "revision": "2527dc90610bb7cdb641a9751bd23f03bf22b58effe7e1faeba507dfe642ddcd"
+        },
+        {
+          "id": "ocjp2-edit-friends",
+          "revision": "58f8fa16245c74334d6fc55f0ba5958329fe24af640cb203d7de2fcbee66a141"
+        },
+        {
+          "id": "ocjp2-edit-consult",
+          "revision": "1ad95d22999cb00c76951d0e3249c48854a954a69f04f352ceb23e44b5469fbf"
+        },
+        {
+          "id": "ocjp2-edit-ai",
+          "revision": "7ae950a384176d0757ad23ea353413d9f6aba0e8a67bcac16a5c6a9f4b50116e"
+        },
+        {
+          "id": "ocjp2-edit-business",
+          "revision": "db3851c3bf737aa5b55c576d56f56a0e1e01fd86fabd5f8df251c2305dd55bdf"
+        },
+        {
+          "id": "ocjp2-edit-lesson",
+          "revision": "3feea605b009ae3eded0d89c299142f7b96a52e612c4053a1c89a40f787c70b4"
+        },
+        {
+          "id": "ocjp2-edit-exchange",
+          "revision": "4ee6463275ba50bb381e1b24c8b9189c1f563911bfd19bbc99a619ca0a33c160"
+        },
+        {
+          "id": "ocjp2-edit-event",
+          "revision": "87465f6cba62db9c0e4d06c902f7444f501fefbbea3b6833410b3470b3a91af6"
+        }
+      ]
+    },
+    {
+      "id": "ocjp3-edit-hero",
+      "variant": "original-art-soft-photo-r3",
+      "role": "support",
+      "media": "image",
+      "revision": "aa7d6836acc6cba0ceab5e15cbc41a5694e15740c38b3f4fde71011b46051a83",
+      "file": "books/oc-approved-20261017/parts/ocjp3-edit-hero/aa7d6836acc6cba0ceab5e15cbc41a5694e15740c38b3f4fde71011b46051a83/ocjp3-edit-hero.png",
+      "sha256": "aa7d6836acc6cba0ceab5e15cbc41a5694e15740c38b3f4fde71011b46051a83",
+      "size": 2049738,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved soft-photo R03 review edition; fixed identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T04:16:13.233Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "ocjp2-source-hero",
+          "revision": "db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213"
+        }
+      ]
+    },
+    {
+      "id": "ocjp3-edit-class",
+      "variant": "original-art-soft-photo-r3",
+      "role": "support",
+      "media": "image",
+      "revision": "eb0b04f24c2fa5985901f5393da55820033366c70515071371027650bafcaae7",
+      "file": "books/oc-approved-20261017/parts/ocjp3-edit-class/eb0b04f24c2fa5985901f5393da55820033366c70515071371027650bafcaae7/ocjp3-edit-class.png",
+      "sha256": "eb0b04f24c2fa5985901f5393da55820033366c70515071371027650bafcaae7",
+      "size": 1649446,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved soft-photo R03 review edition; fixed identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T04:16:17.653Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "ocjp2-source-class",
+          "revision": "d997a8e417b1cd6040b139a2c99a87e67cdde67ce54c8a2dd2dff5c8ddb88411"
+        },
+        {
+          "id": "ocjp3-edit-hero",
+          "revision": "aa7d6836acc6cba0ceab5e15cbc41a5694e15740c38b3f4fde71011b46051a83"
+        }
+      ]
+    },
+    {
+      "id": "ocjp3-edit-ai",
+      "variant": "original-art-soft-photo-r3",
+      "role": "support",
+      "media": "image",
+      "revision": "494d1d5d948e2910117428b59a2bccc1ef5c04fbd2a02bca5381cc889ed2b79b",
+      "file": "books/oc-approved-20261017/parts/ocjp3-edit-ai/494d1d5d948e2910117428b59a2bccc1ef5c04fbd2a02bca5381cc889ed2b79b/ocjp3-edit-ai.png",
+      "sha256": "494d1d5d948e2910117428b59a2bccc1ef5c04fbd2a02bca5381cc889ed2b79b",
+      "size": 1882300,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved soft-photo R03 review edition; fixed identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T04:16:25.462Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "ocjp2-source-ai",
+          "revision": "4eab9b603c46da4b1d5643315b1a5ef48efd730150a59a8e0f568ab6840a266f"
+        }
+      ]
+    },
+    {
+      "id": "ocjp3-edit-business",
+      "variant": "original-art-soft-photo-r3",
+      "role": "support",
+      "media": "image",
+      "revision": "c312204cacfc1db22a2f1818af9c3b987a41d46cf2785f44af043f9f50b30385",
+      "file": "books/oc-approved-20261017/parts/ocjp3-edit-business/c312204cacfc1db22a2f1818af9c3b987a41d46cf2785f44af043f9f50b30385/ocjp3-edit-business.png",
+      "sha256": "c312204cacfc1db22a2f1818af9c3b987a41d46cf2785f44af043f9f50b30385",
+      "size": 1751399,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved soft-photo R03 review edition; fixed identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T04:16:29.058Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "ocjp2-source-business",
+          "revision": "e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466"
+        },
+        {
+          "id": "ocjp3-edit-hero",
+          "revision": "aa7d6836acc6cba0ceab5e15cbc41a5694e15740c38b3f4fde71011b46051a83"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-soft-r3-pdf",
+      "variant": "original-art-soft-photo-r3",
+      "role": "support",
+      "media": "pdf",
+      "revision": "d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95",
+      "file": "books/oc-approved-20261017/parts/jp-oc-soft-r3-pdf/d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95/jp-oc-soft-r3-pdf.pdf",
+      "sha256": "d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95",
+      "size": 47063122,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved soft-photo R03 review edition; fixed identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T04:16:36.328Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-original-oc-pdf",
+          "revision": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+        },
+        {
+          "id": "ocjp3-edit-hero",
+          "revision": "aa7d6836acc6cba0ceab5e15cbc41a5694e15740c38b3f4fde71011b46051a83"
+        },
+        {
+          "id": "ocjp3-edit-class",
+          "revision": "eb0b04f24c2fa5985901f5393da55820033366c70515071371027650bafcaae7"
+        },
+        {
+          "id": "ocjp2-source-friends",
+          "revision": "97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879"
+        },
+        {
+          "id": "ocjp2-source-consult",
+          "revision": "bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3"
+        },
+        {
+          "id": "ocjp3-edit-ai",
+          "revision": "494d1d5d948e2910117428b59a2bccc1ef5c04fbd2a02bca5381cc889ed2b79b"
+        },
+        {
+          "id": "ocjp3-edit-business",
+          "revision": "c312204cacfc1db22a2f1818af9c3b987a41d46cf2785f44af043f9f50b30385"
+        },
+        {
+          "id": "ocjp2-source-lesson",
+          "revision": "8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989"
+        },
+        {
+          "id": "ocjp2-source-exchange",
+          "revision": "aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758"
+        },
+        {
+          "id": "ocjp2-source-event",
+          "revision": "7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-soft-r3-front",
+      "variant": "original-art-soft-photo-r3",
+      "role": "support",
+      "media": "image",
+      "revision": "3155869671571d0fdd24e29a250267a1e6ceea8b61dd46e7dba9b04e6ec52871",
+      "file": "books/oc-approved-20261017/parts/jp-oc-soft-r3-front/3155869671571d0fdd24e29a250267a1e6ceea8b61dd46e7dba9b04e6ec52871/jp-oc-soft-r3-front.png",
+      "sha256": "3155869671571d0fdd24e29a250267a1e6ceea8b61dd46e7dba9b04e6ec52871",
+      "size": 3062972,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved soft-photo R03 review edition; fixed identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T04:17:13.304Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-original-oc-pdf",
+          "revision": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+        },
+        {
+          "id": "ocjp3-edit-hero",
+          "revision": "aa7d6836acc6cba0ceab5e15cbc41a5694e15740c38b3f4fde71011b46051a83"
+        },
+        {
+          "id": "ocjp3-edit-class",
+          "revision": "eb0b04f24c2fa5985901f5393da55820033366c70515071371027650bafcaae7"
+        },
+        {
+          "id": "ocjp2-source-friends",
+          "revision": "97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879"
+        },
+        {
+          "id": "ocjp2-source-consult",
+          "revision": "bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-soft-r3-back",
+      "variant": "original-art-soft-photo-r3",
+      "role": "support",
+      "media": "image",
+      "revision": "81b751b50f08bbb908ba88e31c76b56ac42c1da9926a73989b69c16a4fbc897f",
+      "file": "books/oc-approved-20261017/parts/jp-oc-soft-r3-back/81b751b50f08bbb908ba88e31c76b56ac42c1da9926a73989b69c16a4fbc897f/jp-oc-soft-r3-back.png",
+      "sha256": "81b751b50f08bbb908ba88e31c76b56ac42c1da9926a73989b69c16a4fbc897f",
+      "size": 2283716,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved soft-photo R03 review edition; fixed identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T04:17:31.676Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-original-oc-pdf",
+          "revision": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+        },
+        {
+          "id": "ocjp3-edit-ai",
+          "revision": "494d1d5d948e2910117428b59a2bccc1ef5c04fbd2a02bca5381cc889ed2b79b"
+        },
+        {
+          "id": "ocjp3-edit-business",
+          "revision": "c312204cacfc1db22a2f1818af9c3b987a41d46cf2785f44af043f9f50b30385"
+        },
+        {
+          "id": "ocjp2-source-lesson",
+          "revision": "8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989"
+        },
+        {
+          "id": "ocjp2-source-exchange",
+          "revision": "aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758"
+        },
+        {
+          "id": "ocjp2-source-event",
+          "revision": "7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-soft-r3-proof",
+      "variant": "original-art-soft-photo-r3",
+      "role": "support",
+      "media": "text",
+      "revision": "9d10267c58a8e5b3a42ce11a03e3a43897baae154d2ad18d22d1a05d823f733d",
+      "file": "books/oc-approved-20261017/parts/jp-oc-soft-r3-proof/9d10267c58a8e5b3a42ce11a03e3a43897baae154d2ad18d22d1a05d823f733d/jp-oc-soft-r3-proof.json",
+      "sha256": "9d10267c58a8e5b3a42ce11a03e3a43897baae154d2ad18d22d1a05d823f733d",
+      "size": 10811,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved soft-photo R03 review edition; fixed identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T04:17:51.336Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-original-oc-pdf",
+          "revision": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+        },
+        {
+          "id": "ocjp3-edit-hero",
+          "revision": "aa7d6836acc6cba0ceab5e15cbc41a5694e15740c38b3f4fde71011b46051a83"
+        },
+        {
+          "id": "ocjp3-edit-class",
+          "revision": "eb0b04f24c2fa5985901f5393da55820033366c70515071371027650bafcaae7"
+        },
+        {
+          "id": "ocjp2-source-friends",
+          "revision": "97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879"
+        },
+        {
+          "id": "ocjp2-source-consult",
+          "revision": "bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3"
+        },
+        {
+          "id": "ocjp3-edit-ai",
+          "revision": "494d1d5d948e2910117428b59a2bccc1ef5c04fbd2a02bca5381cc889ed2b79b"
+        },
+        {
+          "id": "ocjp3-edit-business",
+          "revision": "c312204cacfc1db22a2f1818af9c3b987a41d46cf2785f44af043f9f50b30385"
+        },
+        {
+          "id": "ocjp2-source-lesson",
+          "revision": "8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989"
+        },
+        {
+          "id": "ocjp2-source-exchange",
+          "revision": "aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758"
+        },
+        {
+          "id": "ocjp2-source-event",
+          "revision": "7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-soft-r3-verification",
+      "variant": "original-art-soft-photo-r3",
+      "role": "support",
+      "media": "text",
+      "revision": "9325becc0c4a064e430f5e46965564cdb30b0d36492c2d7353f6cdd802fe0200",
+      "file": "books/oc-approved-20261017/parts/jp-oc-soft-r3-verification/9325becc0c4a064e430f5e46965564cdb30b0d36492c2d7353f6cdd802fe0200/jp-oc-soft-r3-verification.json",
+      "sha256": "9325becc0c4a064e430f5e46965564cdb30b0d36492c2d7353f6cdd802fe0200",
+      "size": 1214,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved soft-photo R03 review edition; fixed identity verified, current standard-render freshness not asserted.",
+        "recorded_at": "2026-10-22T04:18:29.128Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-original-oc-pdf",
+          "revision": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+        },
+        {
+          "id": "ocjp3-edit-hero",
+          "revision": "aa7d6836acc6cba0ceab5e15cbc41a5694e15740c38b3f4fde71011b46051a83"
+        },
+        {
+          "id": "ocjp3-edit-class",
+          "revision": "eb0b04f24c2fa5985901f5393da55820033366c70515071371027650bafcaae7"
+        },
+        {
+          "id": "ocjp2-source-friends",
+          "revision": "97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879"
+        },
+        {
+          "id": "ocjp2-source-consult",
+          "revision": "bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3"
+        },
+        {
+          "id": "ocjp3-edit-ai",
+          "revision": "494d1d5d948e2910117428b59a2bccc1ef5c04fbd2a02bca5381cc889ed2b79b"
+        },
+        {
+          "id": "ocjp3-edit-business",
+          "revision": "c312204cacfc1db22a2f1818af9c3b987a41d46cf2785f44af043f9f50b30385"
+        },
+        {
+          "id": "ocjp2-source-lesson",
+          "revision": "8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989"
+        },
+        {
+          "id": "ocjp2-source-exchange",
+          "revision": "aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758"
+        },
+        {
+          "id": "ocjp2-source-event",
+          "revision": "7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-parent-r4-pdf",
+      "variant": "original-art-parent-caption-r4",
+      "role": "support",
+      "media": "pdf",
+      "revision": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
+      "file": "books/oc-approved-20261017/parts/jp-oc-parent-r4-pdf/f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4/jp-oc-parent-r4-pdf.pdf",
+      "sha256": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
+      "size": 61367964,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved R04 front caption/badge revision; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-22T04:46:06.659Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-oc-soft-r3-pdf",
+          "revision": "d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-parent-r4-front",
+      "variant": "original-art-parent-caption-r4",
+      "role": "support",
+      "media": "image",
+      "revision": "2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece",
+      "file": "books/oc-approved-20261017/parts/jp-oc-parent-r4-front/2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece/jp-oc-parent-r4-front.png",
+      "sha256": "2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece",
+      "size": 3016990,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved R04 front caption/badge revision; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-22T04:46:36.245Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-oc-parent-r4-pdf",
+          "revision": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4"
         }
       ]
     }

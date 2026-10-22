@@ -1,0 +1,198 @@
+{
+  "added": 38,
+  "updated": 0,
+  "removed": 0,
+  "changes": [
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/README.md",
+      "action": "add",
+      "sha256": "cd66af49dab4370c7d5c0901c0de4864fb98cfe4ddfe37c60e3b0f3e36d3a207"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/build.py",
+      "action": "add",
+      "sha256": "106a7ed35be94d19c0d1e725389200e40d1c1e3ff243c4ec93a8bd00cda4253d"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/register-output.py",
+      "action": "add",
+      "sha256": "a09b4b44460c9a7587162be917065cb797cdb9a1d3c02b900b775df933b8a3ac"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/verify.py",
+      "action": "add",
+      "sha256": "1a00a411f40eb692be2aed2d662ac104ba1a0c3755c74fbcb24628c7bd8d19d0"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/assets/front-hero-composited.png",
+      "action": "add",
+      "sha256": "bc598462d6de5a4bfa00e220e49e1f29f60394c4dd107a7d411005965019739a"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/back-ai.png",
+      "action": "add",
+      "sha256": "7ae950a384176d0757ad23ea353413d9f6aba0e8a67bcac16a5c6a9f4b50116e"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/back-ai.prompt.yaml",
+      "action": "add",
+      "sha256": "0969cf2eba315d87dcac78beb207cd76f294ac8dbac2a808bec8117512957953"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/back-business.png",
+      "action": "add",
+      "sha256": "db3851c3bf737aa5b55c576d56f56a0e1e01fd86fabd5f8df251c2305dd55bdf"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/back-business.prompt.yaml",
+      "action": "add",
+      "sha256": "8b917e47bcf20a4bfab41415640342a66787e5dd21fd37b4e363bc8b1132a8b8"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/back-event.png",
+      "action": "add",
+      "sha256": "87465f6cba62db9c0e4d06c902f7444f501fefbbea3b6833410b3470b3a91af6"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/back-event.prompt.yaml",
+      "action": "add",
+      "sha256": "ee3f1ec01e1d9d29f250d4fe2c99b5d81cf9ca03f848c94a6c8ffaa17883ba66"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/back-exchange.png",
+      "action": "add",
+      "sha256": "4ee6463275ba50bb381e1b24c8b9189c1f563911bfd19bbc99a619ca0a33c160"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/back-exchange.prompt.yaml",
+      "action": "add",
+      "sha256": "7e375ac68d82c696fbc24189d1b8c99660afd8bcab891a445ccc47d106e67ba6"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/back-lesson.png",
+      "action": "add",
+      "sha256": "3feea605b009ae3eded0d89c299142f7b96a52e612c4053a1c89a40f787c70b4"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/back-lesson.prompt.yaml",
+      "action": "add",
+      "sha256": "503bba827374d96748896fac2c753e1f8b74947f54f1bb78ebefa2f145a318c7"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/front-class.png",
+      "action": "add",
+      "sha256": "2527dc90610bb7cdb641a9751bd23f03bf22b58effe7e1faeba507dfe642ddcd"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/front-class.prompt.yaml",
+      "action": "add",
+      "sha256": "d1fc7fd8619b47f0de0078ca862082b59a0a3cd3c99a8d38c87f681fce7f04ea"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/front-consult.png",
+      "action": "add",
+      "sha256": "1ad95d22999cb00c76951d0e3249c48854a954a69f04f352ceb23e44b5469fbf"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/front-consult.prompt.yaml",
+      "action": "add",
+      "sha256": "3f53d0c2c33babd526c58d6f90ea8ba51f5c74436c1756de508f2cb59ae8974e"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/front-friends.png",
+      "action": "add",
+      "sha256": "58f8fa16245c74334d6fc55f0ba5958329fe24af640cb203d7de2fcbee66a141"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/front-friends.prompt.yaml",
+      "action": "add",
+      "sha256": "bb2077db812833f681d7afd0c7afd6a6d91dd193fede07c8fc4a32a435bd0883"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/front-hero.png",
+      "action": "add",
+      "sha256": "24698ae5aec608852f8f1d12da0b59b2feb72e6b1a361c13b8ce052646158173"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/images/front-hero.prompt.yaml",
+      "action": "add",
+      "sha256": "e3337901cea3e1c9752d814bab597b3f313ebe2e55a0f20db3297cd0085e19b2"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/output/OC黄色帯版_原本写真加工_日本人イメージ_2P.pdf",
+      "action": "add",
+      "sha256": "6e330c33fbb0a0f4886208fc19f19195b71d0d46f94aba1cbf1b60ecaf0c2a9a"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/output/page-1.png",
+      "action": "add",
+      "sha256": "8d4cde729bca446cbcdc34e81394e397b34be5bc6c2a2c8e50fe6622107f0b0f"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/output/page-2.png",
+      "action": "add",
+      "sha256": "45f6e705f00a51cdac7c60897b3666fc76a71d87fd17ad7667518a77bb02c49a"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/reviews/asset-registration.json",
+      "action": "add",
+      "sha256": "55b136f5df6983b86d30515d6907d101caff33b046311c3f1e991f10546b06d3"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/reviews/build-proof.json",
+      "action": "add",
+      "sha256": "4ba2eed2598ff3199f24ecb3496cd0425c388ff1a23814e9b70983251e495b09"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/reviews/comparison-round-2-page-1.jpg",
+      "action": "add",
+      "sha256": "3781c83d8e46fc97821dc671f56839af58e7d36cc798c106c728a7f196fffac1"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/reviews/comparison-round-2-page-2.jpg",
+      "action": "add",
+      "sha256": "f5d6c79329f0d3f159177344ad2a20eea96aeaf56beed29f07b56f2c30ace1c4"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/reviews/edited-photo-manifest.json",
+      "action": "add",
+      "sha256": "dcef6fec59faf2f35b1bb34a64736d3cffb0fbf39cfe4e3e04a4ada3cfd9bd96"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/reviews/final-review.md",
+      "action": "add",
+      "sha256": "8a095d0c6af53fc4f99f7b79943536f7670afbbac840b9723a64affa00af648e"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/reviews/hero-hands-detail.png",
+      "action": "add",
+      "sha256": "53559383a6176bed3b3760bc9c8a9024f3f2bb4cc2f8d7fd57165307b4e1aca4"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/reviews/hero-original-art-mask.png",
+      "action": "add",
+      "sha256": "957c7b0095a81adc812191b1bec681e2e4cd6b215ae8dbe2436258a94c39a850"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/reviews/output-verification.json",
+      "action": "add",
+      "sha256": "df96a0b49624082103522dfb30852ebd016bf9b8c4ace719d50e3ff46e80c7d3"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/reviews/parent-review.md",
+      "action": "add",
+      "sha256": "504f37c53c2d33d7764df4b70f8e307f8fc7188c48021aa72a67477487bc9af7"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/reviews/photo-coordinates.json",
+      "action": "add",
+      "sha256": "fa103fe213b51e0145186a1d5bced7ab8b1f83ded9061d09f6ecdfec5ac70250"
+    },
+    {
+      "file": "books/oc-yellow-photo-edit-20261022/reviews/photo-input-receipts.json",
+      "action": "add",
+      "sha256": "27ca9b2d99af606660ce2264e29284300bfae340ab8516c41810ed025283cb9c"
+    }
+  ],
+  "dryRun": false
+}

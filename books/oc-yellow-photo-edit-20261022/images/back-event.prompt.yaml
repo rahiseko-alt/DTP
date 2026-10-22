@@ -1,0 +1,31 @@
+{
+  "id": "back-event",
+  "method": "image-edit",
+  "model_tool": "image_gen.imagegen",
+  "generated_original": "/workspace/generated_images/exec-1f136363-461e-4d38-8b0c-bda9bb2e8504.png",
+  "output": "books/oc-yellow-photo-edit-20261022/images/back-event.png",
+  "reference_inputs": [
+    {
+      "path": "books/oc-approved-20261017/parts/extracted/ocjp2-source-event/7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa/ocjp2-source-event.png",
+      "role": "original-photo-extract",
+      "method": "image-edit",
+      "sha256": "7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa",
+      "usage": "img2img"
+    }
+  ],
+  "prompt": "必ず第1添付の元写真そのものを編集する。別の新しい学校写真の提案ではない。原本の学校行事の集合写真。元の全員の人数、並び方、段差、スーツやカジュアル服や黄色い服の女性、前列のピース、年齢構成、表情、教室、右の青い掲示物の位置を維持。人物のみを自然な日本人・東アジア系の架空の学生と教職員のイメージへ写真編集。男性のひげを除去。顔を均一にしない。看板文字・校名・ロゴを創作しない。集団を4人程度や別構図に減らさず、元の集合写真の活気をそのまま保つ。 カメラ位置、全体の画角、顔と手の位置、人数、縦横比を厳密に維持。自然な肌色と写真の質感を残し過度な美白や均一な整形顔にしない。アニメ・イラストにしない。文字、ロゴ、枠、レイアウトを追加しない。実在学生の国籍・所属を示す写真ではなく架空人物の編集イメージ。",
+  "status": "illustrative AI edit; not documentary enrollment/nationality evidence",
+  "review": "Parent viewed source and generated image. Original people arrangement, activity, expressions, clothing colors and setting retained. Event sign will be restored from original artwork in composition.",
+  "sha256": "87465f6cba62db9c0e4d06c902f7444f501fefbbea3b6833410b3470b3a91af6",
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "seed": null,
+  "size": "1871x840",
+  "created": "2026-10-22",
+  "author": "Codex",
+  "negative_prompt": null,
+  "source_refs": [
+    "books/oc-approved-20261017/parts/extracted/ocjp2-source-event/7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa/ocjp2-source-event.png"
+  ],
+  "notes": "編集元は実際にimagegenへ参照入力した原本写真crop。文字を新規生成する精度は使わず、紙面上では原本文字・brush・掲示物を復元。モデル名/seed/専用negative parameterはツールから未公開。"
+}

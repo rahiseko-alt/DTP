@@ -1,0 +1,39 @@
+{
+  "id": "back-business",
+  "method": "image-edit",
+  "model_tool": "image_gen.imagegen",
+  "generated_original": "/workspace/generated_images/exec-3e100087-52ec-4d22-b749-3b24b43c6f24.png",
+  "output": "books/oc-yellow-photo-edit-20261022/images/back-business.png",
+  "reference_inputs": [
+    {
+      "path": "books/oc-approved-20261017/parts/extracted/ocjp2-source-business/e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466/ocjp2-source-business.png",
+      "role": "original-photo-extract",
+      "method": "image-edit",
+      "sha256": "e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466",
+      "usage": "img2img"
+    },
+    {
+      "path": "books/oc-yellow-photo-edit-20261022/images/front-hero.png",
+      "role": "edited-hero-identity-reference",
+      "method": "image-edit",
+      "sha256": "24698ae5aec608852f8f1d12da0b59b2feb72e6b1a361c13b8ce052646158173",
+      "usage": "image_reference"
+    }
+  ],
+  "prompt": "必ず第1添付の元写真そのものを編集する。別の新しい学校写真の提案ではない。机に並んで書き物をしている元の男性たちを、自然な日本人・東アジア系の架空の学生のイメージへ編集。全男性の口ひげ・あごひげ・無精ひげを完全に除去。手前の黒白縞シャツ、中央黒シャツ、奥デニムシャツの3人と背景人物の位置・人数・姿勢・服装・机・紙・筆記具を維持。熱心に机に向かう表情を維持。第2参考は手前の縞シャツと奥デニム男性の顔の整合用のみ。画角と構図は第1写真を厳密に守る。 カメラ位置、全体の画角、顔と手の位置、人数、縦横比を厳密に維持。自然な肌色と写真の質感を残し過度な美白や均一な整形顔にしない。アニメ・イラストにしない。文字、ロゴ、枠、レイアウトを追加しない。実在学生の国籍・所属を示す写真ではなく架空人物の編集イメージ。",
+  "status": "illustrative AI edit; not documentary enrollment/nationality evidence",
+  "review": "Parent viewed source and edited image. Original subjects' positions, direction of gaze, activity, expressions, clothing and classroom retained. No new scene used.",
+  "sha256": "db3851c3bf737aa5b55c576d56f56a0e1e01fd86fabd5f8df251c2305dd55bdf",
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "seed": null,
+  "size": "2035x773",
+  "created": "2026-10-22",
+  "author": "Codex",
+  "negative_prompt": null,
+  "source_refs": [
+    "books/oc-approved-20261017/parts/extracted/ocjp2-source-business/e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466/ocjp2-source-business.png",
+    "books/oc-yellow-photo-edit-20261022/images/front-hero.png"
+  ],
+  "notes": "編集元は実際にimagegenへ参照入力した原本写真crop。文字を新規生成する精度は使わず、紙面上では原本文字・brush・掲示物を復元。モデル名/seed/専用negative parameterはツールから未公開。"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "front-hero-r03",
+  "source": "/workspace/generated_images/exec-4efdf845-d864-4120-b827-ba4d53676e9e.png",
+  "reference_inputs": [
+    {
+      "path": "books/oc-approved-20261017/parts/extracted/ocjp2-source-hero/db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213/ocjp2-source-hero.png",
+      "usage": "img2img",
+      "sha256": "db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213"
+    }
+  ],
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "prompt": "添付の元写真そのものを、ごく弱くレタッチする。日本人モデルへの置き換えはしない。前案は全員を典型的な日本人の広告モデル顔に作り替えてしまい失敗したので、それを避ける。元写真に見える各人の固有の顔立ち、骨格、鼻や目や口の形、自然な肌色と少し日焼けした色、表情をそのまま残す。特に女性5人は顔をほぼ変えず、肌も白くしない。男性2人も顔の骨格・目鼻・肌色を保持し、口ひげ・あごひげ・無精ひげを自然に消すことだけを主な加工とする。ひげを消した跡は元の肌に自然になじませる。目を大きく、鼻を細く、顎を小さく、肌を明るく、アイドル顔にする美化はしない。元の多様な顔立ちと個性を揃えず、黒髪や髪型も変えない。元の7人、位置、姿勢、服装、ピース、明るい笑顔、資料への指差し、手と机、教室背景、カメラ位置、トリミングをそのまま厳密に保つ。元の筆文字・ロゴの断片・黄色いbrush・下端のOPEN CAMPUSの位置も保つ。別シーンやイラストを新しく作るのではなく、元のスナップ写真の顔立ちと肌の自然さを保ったひげ除去中心の弱い写真編集。元画像と同じ比率で出力。",
+  "status": "User approved the softer R03 image direction; final paper adoption not asserted",
+  "notes": "Source faces and skin tone retained; facial-hair removal is the main change. Tool output viewed by parent.",
+  "output": "books/oc-yellow-photo-soft-r03-20261022/images/front-hero.png",
+  "sha256": "aa7d6836acc6cba0ceab5e15cbc41a5694e15740c38b3f4fde71011b46051a83",
+  "created": "2026-10-22",
+  "seed": null,
+  "negative_prompt": null,
+  "size": "1644x957",
+  "author": "Codex",
+  "source_refs": [
+    "books/oc-approved-20261017/parts/extracted/ocjp2-source-hero/db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213/ocjp2-source-hero.png"
+  ]
+}

@@ -1,5 +1,43 @@
 # 引継ぎ台帳
 
+## 最新の再開位置：2026-10-22 PR #63のマージ再開
+
+人間がR04後に「マージ」と明示指示。PR #63のマージ承認は有効。ブランチ `fix/oc-yellow-original-photo-edit-20261022`。紙面はR04を維持し、次は必須検査通過後の通常マージ。main保護を回避しない。
+
+- 失敗原因はCIのPoppler24.02.0とrecipeの26.05.0の差。`system/runtime/poppler-linux-64.lock` で26.05.0と全推移依存を配布URL/SHA256まで固定し、共通の導入scriptをCIから利用する。Ubuntuも24.04へ固定。
+- conda-forge版で原本9cropを実際に再抽出し、原本SHAと全PNG SHAが一致。別prefixへのexplicit lock導入と偽SHAの拒否も確認。recipe・役割・登録済み画像・紙面・SHA検査は変更なし。証拠は `docs/audits/extraction-runtime-20261022/`。
+- ローカルの全体checkとGitHub必須検査の結果を確認し、通過後に承認済みmergeを行う。以下は紙面R04時点の記録で、環境差を未修正とする記述は当時の状態。
+
+## 最新の再開位置：2026-10-22 OC保護者歓迎の位置修正 r04
+
+ブランチとdraft PR #63は継続。最新の選択先は `downloads/latest-materials.json` の `FLY-JP-OC-YELLOW`。制作/再現は `books/oc-yellow-parent-caption-r04-20261022/`。
+
+- 表面中央の「在校生と話せる」と交流説明を削除し、見出し位置へ「保護者の参加も歓迎」を文字で配置し、下に「お子さまと一緒に／ご参加いただけます。」を2行配置。日程下の保護者歓迎バッジを削除。写真3枚・全写真加工・授業と進路相談の説明・裏面は変更なし。
+- PDF SHA `f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4`。親が両面目視、4QR復号、表面2領域以外と裏面全面のpixel一致、既存36保護ファイル不変を確認。R03も保存。独立審査・試し刷り未実施、mainへ自動マージしない。
+- R04の正規baseline同期（内容検証込み）は成功。紙面verifyと親の目視は最終PDF SHAに一致。検証結果は `docs/audits/oc-yellow-parent-caption-r04-20261022/`。全体checkは文字修正で重複実行せず、同セッション直前の475成功/7失敗/7skipを保持。
+- CIのR03失敗は新しいannotationから原因確定：CI Popplerは24.02.0、抽出recipeとローカルは26.05.0。必須検査がEXTRACTION_ENGINEで拒否。今回は紙面指定箇所だけを修正し、環境差の修正・検査緩和は行わない。証拠はR04のreviews/ci-r03-annotations.json。
+
+## 直前版の記録：2026-10-22 OC写真の弱い加工 r03
+
+以下はR03時点の記録。ブランチ `fix/oc-yellow-original-photo-edit-20261022`、確認用のdraft PRは https://github.com/rahiseko-alt/DTP/pull/63 。PR #62はmainへマージ済み。追加の修正はmainへ自動マージしない。
+
+- r02が「日本人すぎる」と差戻されたため、元の顔立ち・肌色を保ち、ひげ除去を中心に弱く加工したheroを提示。ユーザーの「おｋ」はこの写真方向の確認。完成両面の採用・印刷承認とは区別する。
+- 新規 `books/oc-yellow-photo-soft-r03-20261022/` に四つのsoft-edit、五つのoriginalを明示。原本cropを実際に生成入力へ渡し、授業/総合ビジネス写真は承認heroを加工程度の第2参照とした。実prompt・全入力SHAを隣接metadataへ保存。r02は履歴として残し、新版の生成入力へ使わない。
+- 最終PDF SHA `d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95`。最新版の選択先は `downloads/latest-materials.json` の `FLY-JP-OC-YELLOW`。原本の筆文字/brush/黄帯/構図/笑顔/情報密度、体験欄の3写真と説明を保持。日程・Gmail・留学生歓迎削除は既存指定を保持。
+- 親と制作サブが最終両面を目視。親も4QRを実復号、変更範囲外pixel一致、元PDFのSHA一致、既存36保護ファイル不変、生成4写真の全入力SHA一致を確認。人間による完成紙面の採用・独立審査・試し刷り・入稿は未実施。パンフレット/募集要項は変更なし。
+- R03の正規baseline同期（内容検証込み）は成功、追加27/更新0/削除0。同セッションの直前R02のasset:checkはエラー0。R03はbaseline内容検証後の単独asset:checkを重複実行せずCIへ回す。全体checkは475成功/7失敗/7skipで未合格、doctorはNG0/WARN1。検証範囲は `docs/audits/oc-yellow-photo-soft-r03-20261022/local-verification.json`。
+- PR #63のr02時点の必須検査は型/対象試験成功、asset:check失敗。CI実ログ転送先が403で失敗内容未取得。Poppler26.05.0の一致が必要だがCIは版未固定。版不一致をまだ断定せず、検査の終了コードを維持したままruntime/先頭エラーのannotationと完全log保存を追加した。必須検査・main保護・再抽出SHA検査を弱めない。
+
+## 直前版の記録：2026-10-22 OC原本写真加工 r02
+
+以下はr02時点の記録。最新の選択先と加工程度は冒頭のr03を使う。PR #62はmainへ通常マージ済み（5fa5b31、必須検査通過）。その後ユーザーがOC確認版の楽しさ不足と作り方を差戻したため、別ブランチ `fix/oc-yellow-original-photo-edit-20261022` で修正した。
+
+- ユーザーの最新指定：別写真への置換ではなく原本写真自体をAI加工し、構図・表情・動き・背景を保って日本人イメージへ。体験3項目を1項目へまとめるが、3写真と授業/交流/相談の情報を削らない。原本のbrush OPEN CAMPUS・黄帯・筆文字と情報密度を保つ。
+- 原本を正規getで同定し、原本PDFから切り出した9写真を実際にimagegenへ入力。加工全画像/実prompt/入力SHAを `books/oc-yellow-photo-edit-20261022/images/` に保存。参照入力・写真枠・再現コードは同BOOKのreviewsとbuild.py。元文字と手元/時計/brush/掲示物は原画から保持して合成し、生成文字へ正確性を求めない。
+- 最新確認PDF SHA `6e330c33fbb0a0f4886208fc19f19195b71d0d46f94aba1cbf1b60ecaf0c2a9a`。管理取得先は `downloads/latest-materials.json` の FLY-JP-OC-YELLOW。旧flat確認案は不採用履歴として残し、制作元に戻さない。
+- 日程11/21・12/5・12/19（年/曜日なし）、留学生歓迎削除、保護者歓迎維持、Gmail印字/QRは前指示を保持。両面PNG/PDFの全4QRを指定Gmail宛と実復号。親も最終両面/元版/手元拡大を目視、変更領域外pixelと元PDF SHA一致、既存36保護ファイル不変。
+- これは新しい確認版。人間採用・独立承認・実機印刷・入稿は未実施。パンフレット/募集要項と配布ZIPは変更なし。今回の追加修正をmainへ自動マージしない。
+
 ## 最新の再開位置：2026-10-22 素材検査改修とOC黄色帯の並行修正
 
 この節を現在位置とする。以下の旧「未制作」「検査失敗」は当時の記録。

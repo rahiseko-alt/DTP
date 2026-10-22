@@ -1,0 +1,31 @@
+{
+  "id": "front-friends",
+  "method": "image-edit",
+  "model_tool": "image_gen.imagegen",
+  "generated_original": "/workspace/generated_images/exec-1c1cf4e2-6eca-4640-8706-e3877cbd3188.png",
+  "output": "books/oc-yellow-photo-edit-20261022/images/front-friends.png",
+  "reference_inputs": [
+    {
+      "path": "books/oc-approved-20261017/parts/extracted/ocjp2-source-friends/97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879/ocjp2-source-friends.png",
+      "sha256": "97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879",
+      "role": "original-photo-extract",
+      "method": "image-edit",
+      "usage": "img2img"
+    }
+  ],
+  "prompt": "必ず添付した元写真自体を編集する。別の構図の新しい学校写真を作らない。原本の屋外で4人の女学生が肩を寄せて笑いピースしている写真。4人を自然な日本人・東アジア系の架空の成人学生の顔立ちに調整。4人の位置、髪型、明るい笑顔、ピース、服装、木々の背景、カメラ距離を忠実に保つ。親密で楽しそうなスナップ写真の空気を維持する。 全体の画角、写真の縦横比、カメラ、顔と手の位置と人数を厳密に維持。アニメやイラストにせず自然な実写の写真。笑顔や楽しさを減らさず、全員同じ顔や整形モデル風にしない。文字、ロゴ、枠、レイアウトを追加しない。実在学生の国籍の証明ではない架空人物イメージ。",
+  "status": "illustrative AI edit; not documentary enrollment/nationality evidence",
+  "review": "Parent viewed original and edited image. Original activity, smiling/peace gestures, positions, attire and setting retained.",
+  "sha256": "58f8fa16245c74334d6fc55f0ba5958329fe24af640cb203d7de2fcbee66a141",
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "seed": null,
+  "size": "1877x838",
+  "created": "2026-10-22",
+  "author": "Codex",
+  "negative_prompt": null,
+  "source_refs": [
+    "books/oc-approved-20261017/parts/extracted/ocjp2-source-friends/97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879/ocjp2-source-friends.png"
+  ],
+  "notes": "編集元は実際にimagegenへ参照入力した原本写真crop。文字を新規生成する精度は使わず、紙面上では原本文字・brush・掲示物を復元。モデル名/seed/専用negative parameterはツールから未公開。"
+}

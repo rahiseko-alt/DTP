@@ -1,0 +1,299 @@
+{
+  "hero": {
+    "asset": {
+      "id": "ocjp2-source-hero",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-hero/db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213/ocjp2-source-hero.png",
+      "sha256": "db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213",
+      "size": 1939708,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 1,
+        "dpi": 150,
+        "rect": [
+          7,
+          133,
+          1226,
+          713
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  "class": {
+    "asset": {
+      "id": "ocjp2-source-class",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "d997a8e417b1cd6040b139a2c99a87e67cdde67ce54c8a2dd2dff5c8ddb88411",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-class/d997a8e417b1cd6040b139a2c99a87e67cdde67ce54c8a2dd2dff5c8ddb88411/ocjp2-source-class.png",
+      "sha256": "d997a8e417b1cd6040b139a2c99a87e67cdde67ce54c8a2dd2dff5c8ddb88411",
+      "size": 116805,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 1,
+        "dpi": 150,
+        "rect": [
+          50,
+          1369,
+          345,
+          143
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  "friends": {
+    "asset": {
+      "id": "ocjp2-source-friends",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-friends/97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879/ocjp2-source-friends.png",
+      "sha256": "97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879",
+      "size": 132972,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 1,
+        "dpi": 150,
+        "rect": [
+          433,
+          1366,
+          323,
+          144
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  "consult": {
+    "asset": {
+      "id": "ocjp2-source-consult",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-consult/bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3/ocjp2-source-consult.png",
+      "sha256": "bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3",
+      "size": 120431,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 1,
+        "dpi": 150,
+        "rect": [
+          800,
+          1366,
+          380,
+          143
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  "ai": {
+    "asset": {
+      "id": "ocjp2-source-ai",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "4eab9b603c46da4b1d5643315b1a5ef48efd730150a59a8e0f568ab6840a266f",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-ai/4eab9b603c46da4b1d5643315b1a5ef48efd730150a59a8e0f568ab6840a266f/ocjp2-source-ai.png",
+      "sha256": "4eab9b603c46da4b1d5643315b1a5ef48efd730150a59a8e0f568ab6840a266f",
+      "size": 283205,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 2,
+        "dpi": 150,
+        "rect": [
+          67,
+          539,
+          543,
+          199
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  "business": {
+    "asset": {
+      "id": "ocjp2-source-business",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-business/e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466/ocjp2-source-business.png",
+      "sha256": "e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466",
+      "size": 263114,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 2,
+        "dpi": 150,
+        "rect": [
+          656,
+          539,
+          523,
+          199
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  "lesson": {
+    "asset": {
+      "id": "ocjp2-source-lesson",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-lesson/8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989/ocjp2-source-lesson.png",
+      "sha256": "8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989",
+      "size": 165513,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 2,
+        "dpi": 150,
+        "rect": [
+          47,
+          1306,
+          343,
+          199
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  "exchange": {
+    "asset": {
+      "id": "ocjp2-source-exchange",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-exchange/aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758/ocjp2-source-exchange.png",
+      "sha256": "aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758",
+      "size": 173719,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 2,
+        "dpi": 150,
+        "rect": [
+          401,
+          1306,
+          344,
+          199
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  "event": {
+    "asset": {
+      "id": "ocjp2-source-event",
+      "variant": "original-extracted",
+      "role": "extracted-image",
+      "media": "image",
+      "revision": "7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa",
+      "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-event/7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa/ocjp2-source-event.png",
+      "sha256": "7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa",
+      "size": 218813,
+      "parent": {
+        "id": "approved-original",
+        "revision": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+      },
+      "relation": "extracted-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "recipe": {
+        "page": 2,
+        "dpi": 150,
+        "rect": [
+          758,
+          1306,
+          443,
+          199
+        ],
+        "engine": "poppler-png-v1",
+        "version": "pdftoppm version 26.05.0"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  }
+}

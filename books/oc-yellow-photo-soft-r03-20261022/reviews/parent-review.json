@@ -1,0 +1,30 @@
+{
+  "edition": "R03",
+  "pdf_sha256": "d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95",
+  "parent_visual_review": {
+    "final_pages": [
+      1,
+      2
+    ],
+    "actual_original_photos_viewed": [
+      "hero",
+      "class",
+      "business",
+      "ai"
+    ],
+    "generated_photos_viewed": [
+      "hero",
+      "class",
+      "business",
+      "ai"
+    ],
+    "findings": "Original facial/skin-tone variety, movement, smiles and original brush lettering retained. Four photos softly retouched, five original photos retained. Three experience photos and all descriptions retained. No evident photo join/hand defect in final pages."
+  },
+  "protected_files_unchanged": 36,
+  "prompt_input_sha256_verified": true,
+  "direction_approved_by_user": true,
+  "final_paper_adoption_by_user": false,
+  "independent_review": false,
+  "print_test": false,
+  "release": false
+}

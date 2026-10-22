@@ -1,0 +1,77 @@
+{
+  "context": {
+    "root": "/workspace/DTP",
+    "head": "3daf93be25345d9170f846b4d16a262d79a3df7a",
+    "branch": "fix/oc-yellow-original-photo-edit-20261022",
+    "dirty": false,
+    "fingerprint": "7a25da072a40706a9d837fb4bc610414407195caf2ebdd157ae665b8e13c6187"
+  },
+  "document_id": "oc-approved-20261017",
+  "asset": {
+    "id": "jp-oc-soft-r3-pdf",
+    "variant": "original-art-soft-photo-r3",
+    "role": "support",
+    "media": "pdf",
+    "revision": "d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95",
+    "file": "books/oc-approved-20261017/parts/jp-oc-soft-r3-pdf/d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95/jp-oc-soft-r3-pdf.pdf",
+    "sha256": "d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95",
+    "size": 47063122,
+    "relation": "authored",
+    "storage": "canonical",
+    "confirmation": "verified",
+    "saved": {
+      "reason": "Saved soft-photo R03 review edition; fixed identity verified, current standard-render freshness not asserted.",
+      "recorded_at": "2026-10-22T04:16:36.328Z"
+    },
+    "external_inputs": [],
+    "built_from": [
+      {
+        "id": "latest-original-oc-pdf",
+        "revision": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+      },
+      {
+        "id": "ocjp3-edit-hero",
+        "revision": "aa7d6836acc6cba0ceab5e15cbc41a5694e15740c38b3f4fde71011b46051a83"
+      },
+      {
+        "id": "ocjp3-edit-class",
+        "revision": "eb0b04f24c2fa5985901f5393da55820033366c70515071371027650bafcaae7"
+      },
+      {
+        "id": "ocjp2-source-friends",
+        "revision": "97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879"
+      },
+      {
+        "id": "ocjp2-source-consult",
+        "revision": "bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3"
+      },
+      {
+        "id": "ocjp3-edit-ai",
+        "revision": "494d1d5d948e2910117428b59a2bccc1ef5c04fbd2a02bca5381cc889ed2b79b"
+      },
+      {
+        "id": "ocjp3-edit-business",
+        "revision": "c312204cacfc1db22a2f1818af9c3b987a41d46cf2785f44af043f9f50b30385"
+      },
+      {
+        "id": "ocjp2-source-lesson",
+        "revision": "8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989"
+      },
+      {
+        "id": "ocjp2-source-exchange",
+        "revision": "aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758"
+      },
+      {
+        "id": "ocjp2-source-event",
+        "revision": "7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa"
+      }
+    ]
+  },
+  "path": "books/oc-approved-20261017/parts/jp-oc-soft-r3-pdf/d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95/jp-oc-soft-r3-pdf.pdf",
+  "retrieval": {
+    "mode": "saved",
+    "integrity": "verified",
+    "freshness": "not_checked",
+    "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+  }
+}

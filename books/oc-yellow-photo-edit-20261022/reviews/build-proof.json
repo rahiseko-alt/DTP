@@ -1,0 +1,283 @@
+{
+  "pdf": "books/oc-yellow-photo-edit-20261022/output/OC黄色帯版_原本写真加工_日本人イメージ_2P.pdf",
+  "sha256": "6e330c33fbb0a0f4886208fc19f19195b71d0d46f94aba1cbf1b60ecaf0c2a9a",
+  "page_count": 2,
+  "page_size_pt": [
+    [
+      0.0,
+      0.0,
+      595.2755737304688,
+      841.8897705078125
+    ],
+    [
+      0.0,
+      0.0,
+      595.2755737304688,
+      841.8897705078125
+    ]
+  ],
+  "preserved_underlay": {
+    "file": "books/oc-approved-20261017/parts/latest-original-oc-pdf/2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1/latest-original-oc-pdf.pdf",
+    "sha256": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+  },
+  "original": {
+    "file": "references/school-own/oc-approved-20261017/original/approved.pdf",
+    "sha256": "53f7353f56c75c346b986a4c4ac0b9baac77d4e7fcf7ef46a96163c0f86e7a6a"
+  },
+  "facts_sha256": {
+    "company-data/facts/school.yaml": "1542374cce1534bf98a6d260e3e2542a6857d48da768c0415c71a363d8e043c2",
+    "company-data/facts/oc-flyer.yaml": "652e5ab2af58e2a9d0539b35bffc1794685885b6bee52d204a533dc578a87a60",
+    "company-data/facts/contacts.yaml": "42e6443e673c60a3b91ac69e3d3ad0a2cd4c8d28bd524ebfb4a86b36894df8d3"
+  },
+  "photo_edits": {
+    "front-hero": {
+      "file": "books/oc-yellow-photo-edit-20261022/images/front-hero.png",
+      "sha256": "24698ae5aec608852f8f1d12da0b59b2feb72e6b1a361c13b8ce052646158173",
+      "source": {
+        "page": 1,
+        "source_native_xywh": [
+          0,
+          75,
+          722,
+          420
+        ],
+        "source_pdf_xyxy_pt": [
+          3.4120728969573975,
+          63.961825722142265,
+          591.8634643554688,
+          406.27431929738896
+        ],
+        "source_150dpi_xywh": [
+          7,
+          133,
+          1226,
+          713
+        ]
+      }
+    },
+    "front-class": {
+      "file": "books/oc-yellow-photo-edit-20261022/images/front-class.png",
+      "sha256": "2527dc90610bb7cdb641a9751bd23f03bf22b58effe7e1faeba507dfe642ddcd",
+      "source": {
+        "page": 1,
+        "source_native_xywh": [
+          25,
+          803,
+          203,
+          84
+        ],
+        "source_pdf_xyxy_pt": [
+          23.7878135984294,
+          657.3034812525699,
+          189.23882809438203,
+          725.7659799676193
+        ],
+        "source_150dpi_xywh": [
+          50,
+          1369,
+          345,
+          143
+        ]
+      }
+    },
+    "front-friends": {
+      "file": "books/oc-yellow-photo-edit-20261022/images/front-friends.png",
+      "sha256": "58f8fa16245c74334d6fc55f0ba5958329fe24af640cb203d7de2fcbee66a141",
+      "source": {
+        "page": 1,
+        "source_native_xywh": [
+          251,
+          801,
+          190,
+          85
+        ],
+        "source_pdf_xyxy_pt": [
+          207.98450953973628,
+          655.6734217593545,
+          362.8401388709235,
+          724.9509502210116
+        ],
+        "source_150dpi_xywh": [
+          433,
+          1366,
+          323,
+          144
+        ]
+      }
+    },
+    "front-consult": {
+      "file": "books/oc-yellow-photo-edit-20261022/images/front-consult.png",
+      "sha256": "1ad95d22999cb00c76951d0e3249c48854a954a69f04f352ceb23e44b5469fbf",
+      "source": {
+        "page": 1,
+        "source_native_xywh": [
+          467,
+          801,
+          224,
+          84
+        ],
+        "source_pdf_xyxy_pt": [
+          384.0309092004544,
+          655.6734217593545,
+          566.5975458856434,
+          724.1359204744037
+        ],
+        "source_150dpi_xywh": [
+          800,
+          1366,
+          380,
+          143
+        ]
+      }
+    },
+    "back-ai": {
+      "file": "books/oc-yellow-photo-edit-20261022/images/back-ai.png",
+      "sha256": "7ae950a384176d0757ad23ea353413d9f6aba0e8a67bcac16a5c6a9f4b50116e",
+      "source": {
+        "page": 2,
+        "source_native_xywh": [
+          36,
+          314,
+          320,
+          117
+        ],
+        "source_pdf_xyxy_pt": [
+          32.15208795979537,
+          258.88460024709127,
+          292.7515721663586,
+          354.1662753516006
+        ],
+        "source_150dpi_xywh": [
+          67,
+          539,
+          543,
+          199
+        ]
+      }
+    },
+    "back-business": {
+      "file": "books/oc-yellow-photo-edit-20261022/images/back-business.png",
+      "sha256": "db3851c3bf737aa5b55c576d56f56a0e1e01fd86fabd5f8df251c2305dd55bdf",
+      "source": {
+        "page": 2,
+        "source_native_xywh": [
+          383,
+          314,
+          308,
+          117
+        ],
+        "source_pdf_xyxy_pt": [
+          314.73965364628737,
+          258.88460024709127,
+          565.5666571951044,
+          354.1662753516006
+        ],
+        "source_150dpi_xywh": [
+          656,
+          539,
+          523,
+          199
+        ]
+      }
+    },
+    "back-lesson": {
+      "file": "books/oc-yellow-photo-edit-20261022/images/back-lesson.png",
+      "sha256": "3feea605b009ae3eded0d89c299142f7b96a52e612c4053a1c89a40f787c70b4",
+      "source": {
+        "page": 2,
+        "source_native_xywh": [
+          24,
+          766,
+          202,
+          117
+        ],
+        "source_pdf_xyxy_pt": [
+          22.379607302049248,
+          626.981328001264,
+          186.88303170744226,
+          722.2630031057734
+        ],
+        "source_150dpi_xywh": [
+          47,
+          1306,
+          343,
+          199
+        ]
+      }
+    },
+    "back-exchange": {
+      "file": "books/oc-yellow-photo-edit-20261022/images/back-exchange.png",
+      "sha256": "4ee6463275ba50bb381e1b24c8b9189c1f563911bfd19bbc99a619ca0a33c160",
+      "source": {
+        "page": 2,
+        "source_native_xywh": [
+          233,
+          766,
+          203,
+          117
+        ],
+        "source_pdf_xyxy_pt": [
+          192.58364542446083,
+          626.981328001264,
+          357.9014432179994,
+          722.2630031057734
+        ],
+        "source_150dpi_xywh": [
+          401,
+          1306,
+          344,
+          199
+        ]
+      }
+    },
+    "back-event": {
+      "file": "books/oc-yellow-photo-edit-20261022/images/back-event.png",
+      "sha256": "87465f6cba62db9c0e4d06c902f7444f501fefbbea3b6833410b3470b3a91af6",
+      "source": {
+        "page": 2,
+        "source_native_xywh": [
+          443,
+          766,
+          261,
+          117
+        ],
+        "source_pdf_xyxy_pt": [
+          363.60205693501797,
+          626.981328001264,
+          576.1535112409961,
+          722.2630031057734
+        ],
+        "source_150dpi_xywh": [
+          758,
+          1306,
+          443,
+          199
+        ]
+      }
+    }
+  },
+  "all_nine_original_photos_edited": true,
+  "dates": [
+    "11/21",
+    "12/5",
+    "12/19"
+  ],
+  "year": null,
+  "weekday": null,
+  "contact_email": "aibusiness.kaihougakuen@gmail.com",
+  "qr_file": "shared/generated-assets/qr/qr-mailto-aibusiness-kaihougakuen.svg",
+  "qr_sha256": "7fc58b673b4f30e47241846a59b6bb6e49236d311a83d04462bcfbd2a786bb9c",
+  "experience": {
+    "groups": 1,
+    "photo_count": 3,
+    "numbering": [
+      1
+    ],
+    "original_information_preserved": true
+  },
+  "release": false,
+  "method": "PDF-native overlays retaining original raster artwork outside explicit changed areas",
+  "hero_compositing": "Original logo/handwritten copy, white copy, forearms/hands/watch, yellow brush and giant English lettering restored locally; all seven foreground faces from the processed original photograph; feathered joins above hands, never through fingertips",
+  "self_review": true,
+  "independent_review": false
+}
