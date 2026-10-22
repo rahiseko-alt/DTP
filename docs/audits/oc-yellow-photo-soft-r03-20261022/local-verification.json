@@ -1,0 +1,49 @@
+{
+  "edition": "R03",
+  "pdf_sha256": "d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95",
+  "paper_build_and_verify": "pass",
+  "parent_reran_verify": true,
+  "qr_decodes": 4,
+  "protected_prior_files_unchanged": 36,
+  "all_generated_input_output_sha256_verified": true,
+  "material_index_paths_sha256_verified": true,
+  "other_material_index_entries_unchanged": true,
+  "baseline_sync": {
+    "status": "pass",
+    "added": 27,
+    "updated": 0,
+    "removed": 0,
+    "content_validation_included": true
+  },
+  "asset_check": {
+    "R02": "pass, errors 0",
+    "R03": "not separately repeated after baseline content validation; CI check pending"
+  },
+  "last_full_check_in_this_session": {
+    "passed": 475,
+    "failed": 7,
+    "skipped": 7,
+    "status": "not passing",
+    "known_failures": [
+      "missing pinned Playwright browser",
+      "alternate-browser release rejection",
+      "existing photo tag validation order"
+    ]
+  },
+  "doctor_in_this_session": {
+    "ok": 10,
+    "warn": 1,
+    "ng": 0
+  },
+  "workflow_diagnostics": {
+    "yaml_and_shell_syntax": "pass",
+    "runtime_notice_executed": "pass",
+    "preserves_failure_exit_status_19": "pass",
+    "preserves_success_exit_status_0": "pass"
+  },
+  "independent_review": false,
+  "human_final_paper_adoption": false,
+  "print_test": false,
+  "release": false,
+  "main_merge": "not performed"
+}

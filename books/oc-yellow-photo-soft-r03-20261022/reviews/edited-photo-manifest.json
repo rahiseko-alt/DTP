@@ -1,0 +1,56 @@
+{
+  "front-hero": {
+    "file": "books/oc-yellow-photo-soft-r03-20261022/images/front-hero.png",
+    "mode": "soft-edit",
+    "original_source": "books/oc-approved-20261017/parts/extracted/ocjp2-source-hero/db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213/ocjp2-source-hero.png",
+    "source_sha256": "db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213"
+  },
+  "front-class": {
+    "file": "books/oc-yellow-photo-soft-r03-20261022/images/front-class.png",
+    "mode": "soft-edit",
+    "original_source": "books/oc-approved-20261017/parts/extracted/ocjp2-source-class/d997a8e417b1cd6040b139a2c99a87e67cdde67ce54c8a2dd2dff5c8ddb88411/ocjp2-source-class.png",
+    "source_sha256": "d997a8e417b1cd6040b139a2c99a87e67cdde67ce54c8a2dd2dff5c8ddb88411"
+  },
+  "front-friends": {
+    "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-friends/97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879/ocjp2-source-friends.png",
+    "mode": "original",
+    "original_source": "books/oc-approved-20261017/parts/extracted/ocjp2-source-friends/97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879/ocjp2-source-friends.png",
+    "source_sha256": "97338652c31a55f4a0c851c208a04a1e35b000e0ca31deddfc05e98ad88b2879"
+  },
+  "front-consult": {
+    "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-consult/bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3/ocjp2-source-consult.png",
+    "mode": "original",
+    "original_source": "books/oc-approved-20261017/parts/extracted/ocjp2-source-consult/bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3/ocjp2-source-consult.png",
+    "source_sha256": "bf53891ee25793306579a6b003f05215edecf1de5b3551c74633dfc446e321f3"
+  },
+  "back-ai": {
+    "file": "books/oc-yellow-photo-soft-r03-20261022/images/back-ai.png",
+    "mode": "soft-edit",
+    "original_source": "books/oc-approved-20261017/parts/extracted/ocjp2-source-ai/4eab9b603c46da4b1d5643315b1a5ef48efd730150a59a8e0f568ab6840a266f/ocjp2-source-ai.png",
+    "source_sha256": "4eab9b603c46da4b1d5643315b1a5ef48efd730150a59a8e0f568ab6840a266f"
+  },
+  "back-business": {
+    "file": "books/oc-yellow-photo-soft-r03-20261022/images/back-business.png",
+    "mode": "soft-edit",
+    "original_source": "books/oc-approved-20261017/parts/extracted/ocjp2-source-business/e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466/ocjp2-source-business.png",
+    "source_sha256": "e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466"
+  },
+  "back-lesson": {
+    "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-lesson/8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989/ocjp2-source-lesson.png",
+    "mode": "original",
+    "original_source": "books/oc-approved-20261017/parts/extracted/ocjp2-source-lesson/8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989/ocjp2-source-lesson.png",
+    "source_sha256": "8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989"
+  },
+  "back-exchange": {
+    "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-exchange/aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758/ocjp2-source-exchange.png",
+    "mode": "original",
+    "original_source": "books/oc-approved-20261017/parts/extracted/ocjp2-source-exchange/aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758/ocjp2-source-exchange.png",
+    "source_sha256": "aeb3657563c89380f1580b6592657ffaa187bd4e65d9d0effe89787a06def758"
+  },
+  "back-event": {
+    "file": "books/oc-approved-20261017/parts/extracted/ocjp2-source-event/7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa/ocjp2-source-event.png",
+    "mode": "original",
+    "original_source": "books/oc-approved-20261017/parts/extracted/ocjp2-source-event/7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa/ocjp2-source-event.png",
+    "source_sha256": "7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa"
+  }
+}

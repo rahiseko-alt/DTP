@@ -1,0 +1,143 @@
+{
+  "added": 27,
+  "updated": 0,
+  "removed": 0,
+  "changes": [
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/README.md",
+      "action": "add",
+      "sha256": "9002b267c77e0bc5f68a695fbfa18558568fb4739ce7cf9f20cb8b3f4259f816"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/build.py",
+      "action": "add",
+      "sha256": "4824ed99f813b0c7f725cc4bbe26bf011870902e048fa5d0543a48bcf7b7a770"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/register-output.py",
+      "action": "add",
+      "sha256": "8c5cce3b1ba86bcb2078f42d2e393377f583b228ef677293cef0ef362e9db570"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/verify.py",
+      "action": "add",
+      "sha256": "8567da86b43a027a9a150647216e144de1917613e2d15dde23736adb348ce813"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/assets/front-hero-composited.png",
+      "action": "add",
+      "sha256": "6b8873af53b125330a96374d7cdcd67f1d41047fbd5c9142117e0cccaaf6b614"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/images/back-ai.png",
+      "action": "add",
+      "sha256": "494d1d5d948e2910117428b59a2bccc1ef5c04fbd2a02bca5381cc889ed2b79b"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/images/back-ai.prompt.yaml",
+      "action": "add",
+      "sha256": "3759404bd18dd230f8c67e8c56b7003d57c0871045697d331ca8025b86819163"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/images/back-business.png",
+      "action": "add",
+      "sha256": "c312204cacfc1db22a2f1818af9c3b987a41d46cf2785f44af043f9f50b30385"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/images/back-business.prompt.yaml",
+      "action": "add",
+      "sha256": "fe3049e942b2b4059a4a543c9573ca44e1ddcb8fe3e0239f5241bd35204127e7"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/images/front-class.png",
+      "action": "add",
+      "sha256": "eb0b04f24c2fa5985901f5393da55820033366c70515071371027650bafcaae7"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/images/front-class.prompt.yaml",
+      "action": "add",
+      "sha256": "da83617d3ad9e1edb4f5126fb866c3b14415139685a90e49e1b3e640f26e8955"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/images/front-hero.png",
+      "action": "add",
+      "sha256": "aa7d6836acc6cba0ceab5e15cbc41a5694e15740c38b3f4fde71011b46051a83"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/images/front-hero.prompt.yaml",
+      "action": "add",
+      "sha256": "f80d2c532e4438fe7a29985c2b04e624570cb9cecb9507461e78017ef83e8922"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/output/OC黄色帯版_原本写真加工_控えめ修正版R03_2P.pdf",
+      "action": "add",
+      "sha256": "d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/output/page-1.png",
+      "action": "add",
+      "sha256": "3155869671571d0fdd24e29a250267a1e6ceea8b61dd46e7dba9b04e6ec52871"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/output/page-2.png",
+      "action": "add",
+      "sha256": "81b751b50f08bbb908ba88e31c76b56ac42c1da9926a73989b69c16a4fbc897f"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/reviews/asset-registration.json",
+      "action": "add",
+      "sha256": "9cef5c312e3f2445a8d7cc8e206ea1750a54547549e8784bc52b5eee56bbea08"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/reviews/build-proof.json",
+      "action": "add",
+      "sha256": "9d10267c58a8e5b3a42ce11a03e3a43897baae154d2ad18d22d1a05d823f733d"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/reviews/comparison-round-2-page-1.jpg",
+      "action": "add",
+      "sha256": "4b1e6606416bb8c48ab994f8bc291f46c66d4586d3aeb5e2014584070fdeee91"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/reviews/comparison-round-2-page-2.jpg",
+      "action": "add",
+      "sha256": "1100d18c868dcb17b69ac60d5ef7516717d0eea3d17523008586b4ce75f64151"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/reviews/edited-photo-manifest.json",
+      "action": "add",
+      "sha256": "49b81ddf963f9b83e888b0f53acd98393a701e9c871183cca3ac70b5d4bfa35a"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/reviews/final-review.md",
+      "action": "add",
+      "sha256": "a305bd5c2dbb01c8fd448c9af60533b3795ca1f2231d1aac02215d5a22a6b0fd"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/reviews/hero-original-art-mask.png",
+      "action": "add",
+      "sha256": "957c7b0095a81adc812191b1bec681e2e4cd6b215ae8dbe2436258a94c39a850"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/reviews/output-verification.json",
+      "action": "add",
+      "sha256": "9325becc0c4a064e430f5e46965564cdb30b0d36492c2d7353f6cdd802fe0200"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/reviews/parent-review.json",
+      "action": "add",
+      "sha256": "fe461eca8d5a7f90fd5fa7fdff30ee1ad1b1dbfc3b764fc8e1ff1a975d631bdf"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/reviews/photo-coordinates.json",
+      "action": "add",
+      "sha256": "fa103fe213b51e0145186a1d5bced7ab8b1f83ded9061d09f6ecdfec5ac70250"
+    },
+    {
+      "file": "books/oc-yellow-photo-soft-r03-20261022/reviews/photo-input-receipts.json",
+      "action": "add",
+      "sha256": "27ca9b2d99af606660ce2264e29284300bfae340ab8516c41810ed025283cb9c"
+    }
+  ],
+  "dryRun": false
+}

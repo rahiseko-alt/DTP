@@ -1,8 +1,19 @@
 # 引継ぎ台帳
 
-## 最新の再開位置：2026-10-22 OC原本写真加工 r02
+## 最新の再開位置：2026-10-22 OC写真の弱い加工 r03
 
-この節を現在位置とする。PR #62はmainへ通常マージ済み（5fa5b31、必須検査通過）。その後ユーザーがOC確認版の楽しさ不足と作り方を差戻したため、別ブランチ `fix/oc-yellow-original-photo-edit-20261022` で修正した。
+現在位置はこの節。ブランチ `fix/oc-yellow-original-photo-edit-20261022`、確認用のdraft PRは https://github.com/rahiseko-alt/DTP/pull/63 。PR #62はmainへマージ済み。追加のR03はmainへ自動マージしない。
+
+- r02が「日本人すぎる」と差戻されたため、元の顔立ち・肌色を保ち、ひげ除去を中心に弱く加工したheroを提示。ユーザーの「おｋ」はこの写真方向の確認。完成両面の採用・印刷承認とは区別する。
+- 新規 `books/oc-yellow-photo-soft-r03-20261022/` に四つのsoft-edit、五つのoriginalを明示。原本cropを実際に生成入力へ渡し、授業/総合ビジネス写真は承認heroを加工程度の第2参照とした。実prompt・全入力SHAを隣接metadataへ保存。r02は履歴として残し、新版の生成入力へ使わない。
+- 最終PDF SHA `d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95`。最新版の選択先は `downloads/latest-materials.json` の `FLY-JP-OC-YELLOW`。原本の筆文字/brush/黄帯/構図/笑顔/情報密度、体験欄の3写真と説明を保持。日程・Gmail・留学生歓迎削除は既存指定を保持。
+- 親と制作サブが最終両面を目視。親も4QRを実復号、変更範囲外pixel一致、元PDFのSHA一致、既存36保護ファイル不変、生成4写真の全入力SHA一致を確認。人間による完成紙面の採用・独立審査・試し刷り・入稿は未実施。パンフレット/募集要項は変更なし。
+- R03の正規baseline同期（内容検証込み）は成功、追加27/更新0/削除0。同セッションの直前R02のasset:checkはエラー0。R03はbaseline内容検証後の単独asset:checkを重複実行せずCIへ回す。全体checkは475成功/7失敗/7skipで未合格、doctorはNG0/WARN1。検証範囲は `docs/audits/oc-yellow-photo-soft-r03-20261022/local-verification.json`。
+- PR #63のr02時点の必須検査は型/対象試験成功、asset:check失敗。CI実ログ転送先が403で失敗内容未取得。Poppler26.05.0の一致が必要だがCIは版未固定。版不一致をまだ断定せず、検査の終了コードを維持したままruntime/先頭エラーのannotationと完全log保存を追加した。必須検査・main保護・再抽出SHA検査を弱めない。
+
+## 直前版の記録：2026-10-22 OC原本写真加工 r02
+
+以下はr02時点の記録。最新の選択先と加工程度は冒頭のr03を使う。PR #62はmainへ通常マージ済み（5fa5b31、必須検査通過）。その後ユーザーがOC確認版の楽しさ不足と作り方を差戻したため、別ブランチ `fix/oc-yellow-original-photo-edit-20261022` で修正した。
 
 - ユーザーの最新指定：別写真への置換ではなく原本写真自体をAI加工し、構図・表情・動き・背景を保って日本人イメージへ。体験3項目を1項目へまとめるが、3写真と授業/交流/相談の情報を削らない。原本のbrush OPEN CAMPUS・黄帯・筆文字と情報密度を保つ。
 - 原本を正規getで同定し、原本PDFから切り出した9写真を実際にimagegenへ入力。加工全画像/実prompt/入力SHAを `books/oc-yellow-photo-edit-20261022/images/` に保存。参照入力・写真枠・再現コードは同BOOKのreviewsとbuild.py。元文字と手元/時計/brush/掲示物は原画から保持して合成し、生成文字へ正確性を求めない。

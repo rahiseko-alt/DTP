@@ -1,0 +1,34 @@
+{
+  "id": "back-business-r03",
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "prompt": "添付1枚目の元写真を、ごく弱く自然に写真レタッチしてください。人物を典型的な日本人の広告モデル顔に作り替えない。元の各人の固有の骨格、目鼻口、自然な肌色と日焼け、髪型、個性を保持する。美白、目の拡大、鼻の縮小、アイドル化は禁止。構図、人数、全員の位置と姿勢、視線、服装、手、背景、光、トリミングと縦横比をそのまま保持。主な処理は口ひげ・あごひげ・無精ひげだけの自然な除去であり、剃った後の肌を元の肌色へなじませる。元写真の自然なスナップらしさを保つ。文字や新しい人物や新しい物は追加しない。机で書いている手前の縞シャツ男性、中央の黒シャツ男性、奥のデニムシャツ男性のひげを自然に除去する。それぞれの肌色、顔立ち、髪型、下を向く顔の角度、集中する表情を保持。2枚目は承認済みの弱いレタッチ程度だけの参考。必ず1枚目の授業場面と人物を保持し、2枚目の人物や構図をコピーしない。",
+  "negative_prompt": null,
+  "seed": null,
+  "created": "2026-10-22",
+  "author": "Codex",
+  "source": "/workspace/generated_images/exec-4e26ce73-4d40-49f1-8de4-d97dd09c363b.png",
+  "source_refs": [
+    "books/oc-approved-20261017/parts/extracted/ocjp2-source-business/e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466/ocjp2-source-business.png",
+    "books/oc-yellow-photo-soft-r03-20261022/images/front-hero.png"
+  ],
+  "reference_inputs": [
+    {
+      "path": "books/oc-approved-20261017/parts/extracted/ocjp2-source-business/e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466/ocjp2-source-business.png",
+      "usage": "img2img",
+      "role": "original-photo",
+      "sha256": "e11d3b47bc811406a79338b391ee7d4a054ad5affc6ecad907eb4e0e598ce466"
+    },
+    {
+      "path": "books/oc-yellow-photo-soft-r03-20261022/images/front-hero.png",
+      "usage": "image_reference",
+      "role": "approved-soft-edit-strength",
+      "sha256": "aa7d6836acc6cba0ceab5e15cbc41a5694e15740c38b3f4fde71011b46051a83"
+    }
+  ],
+  "output": "books/oc-yellow-photo-soft-r03-20261022/images/back-business.png",
+  "size": "2033x773",
+  "sha256": "c312204cacfc1db22a2f1818af9c3b987a41d46cf2785f44af043f9f50b30385",
+  "status": "Soft R03 processing direction approved; final paper adoption not asserted",
+  "notes": "Original photo actually passed to imagegen. Parent viewed generated output; original facial and skin-tone variety retained with facial-hair removal as main edit."
+}
