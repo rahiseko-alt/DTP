@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-22",
+  "scope": "f closure; no page artwork changes",
+  "source_commit": "56138a9",
+  "doctor": {
+    "exit_code": 0,
+    "ok": 10,
+    "warn": 1,
+    "ng": 0,
+    "browser": "system Chromium154, not Playwright pinned version"
+  },
+  "check": {
+    "exit_code": 1,
+    "typecheck_passed": true,
+    "validate_error_counts": {
+      "LEGACY_NEW": 493,
+      "LEGACY_CHANGED": 1,
+      "STALE_OUTPUT": 46
+    },
+    "validate_total_errors": 540,
+    "test_skipped_by_check_chain": true
+  },
+  "test_separately": {
+    "exit_code": 1,
+    "passed": 429,
+    "failed": 24,
+    "skipped": 7,
+    "causes": "Chromium launch unavailable in default browser path; reference validation; old render input freshness assertions. See test suite output; no tests or checks were weakened."
+  },
+  "cover_render": "fixed adapter output and actual PDF screenshot already verified in revision11",
+  "body_and_delivery_proofs": [
+    "cover-only-revision11-proof.json",
+    "delivery-check.json"
+  ],
+  "named_cover_copy_sha256": "4b6f7fb70ff5eeffa834d857dcdb2e969d74dc1a401bf6e31794c63a5cf00fef",
+  "main_merge_authorized": true,
+  "pull_request": "https://github.com/rahiseko-alt/DTP/pull/62",
+  "required_check": "asset-integrity",
+  "merge_status_at_start": "BLOCKED; required check failure",
+  "physical_print_test": false
+}

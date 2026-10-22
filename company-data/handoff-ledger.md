@@ -1,5 +1,16 @@
 # 引継ぎ台帳
 
+## 最新の再開位置：Codex（2026-10-22・f終了）
+
+この節を現在位置とする。下の各日付の「最新」「pushなし」「未反映」はその時点の履歴。
+
+- 医専日本人版16Pの改稿11を保管。現行PDF/印刷用の取得先は `downloads/latest-materials.json` の `PAM-JP-ISEN`。完成表紙は `shared/generated-assets/cover-group-jp/日本人版マシな方２.png`、文字なし集合写真元は同フォルダの `日本人版マシな方1.png`。2は1の代わりの写真素材ではなく文字入り表紙全体。両方残す。
+- 本文P2〜16は人間確認済み。最後は表紙写真の倍率と位置だけを調整。改稿10比約8%追加拡大し、中心拡大に対して右へ約8.42mm移動。左端の孤立男性は外し、右端の女性の顔を残す。写真枠外・文字・帯・本文の再編集は禁止。HAL版は再開しない。
+- 制作/検証根拠：`books/prospectus-jp-isen-2028/work/revision11-cover/`、`reviews/final-review.md`、`reviews/cover-only-revision11-proof.json`、`reviews/delivery-check.json`。親が最終PDFのスクショを目視。本文と印刷の表紙以外は画素/文字一致、金額と公式QRも検証。実物試し刷り・入稿は未実施。
+- 再開対象ブランチは `fix/access-map-20261020`、PRは https://github.com/rahiseko-alt/DTP/pull/62 。人間は今回ここまでの保存・台帳統合とmainへのマージを明示承認。以前の「commitのみ・pushなし」は今回の終了/マージ指示で更新。必須検査通過後のマージ再確認は不要。
+- mainとの競合なし。PRの必須 `asset-integrity` はNG/マージBLOCKEDを確認。全体checkはSTALE_OUTPUT/legacy差分でNG。doctorはNG0/WARN1（既存Chromium154）。検査を弱めて合格にせず、紙面保管とmain反映を区別する。終了時のpush/マージ実操作結果はこの節直後の追記を参照。
+- 次作業は必須検査の原因解消とPRのmain反映。2028表記と2027学費根拠は今回変更しない。募集要項/OCチラシの人物差替版は未制作で、自動で制作を開始しない。
+
 ## 2026-10-20 PDFを開けない問題への配布対応
 
 - 人間の「PDF見れない」に対応。パンフレット原版は約107MiBあり、PDFを開くアプリ連携も接続終了で利用不可。画像を200dpi・JPEG品質88へ最適化し、正確な文字ベクター、面付け、用紙サイズ、短辺両面/縮小なし設定を保持したASCII名の軽量版を4PDF作成。高画質原版は保持。
