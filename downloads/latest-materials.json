@@ -189,8 +189,8 @@
     {
       "work_id": "FLY-JP-OC-YELLOW",
       "source_material_id": "FLY-OC-YELLOW",
-      "display_name": "チラシ_日本人イメージ_OC黄色帯_原本意匠維持_控えめ写真加工_r03_2P_確認用",
-      "status": "元の顔立ち・肌色を保持・4写真弱加工/5原本・体験1群/3写真/情報保持・確認用",
+      "display_name": "チラシ_日本人イメージ_OC黄色帯_保護者歓迎位置修正_r04_2P_確認用",
+      "status": "中央の交流表記を保護者歓迎へ変更・日程下バッジ削除・写真/裏面保持・確認用",
       "tags": [
         "種別:チラシ",
         "対象:高校生と保護者",
@@ -200,12 +200,12 @@
         "適用年度:未確認",
         "状態:確認用"
       ],
-      "file": "books/oc-approved-20261017/parts/jp-oc-soft-r3-pdf/d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95/jp-oc-soft-r3-pdf.pdf",
+      "file": "books/oc-approved-20261017/parts/jp-oc-parent-r4-pdf/f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4/jp-oc-parent-r4-pdf.pdf",
       "document": "oc-approved-20261017",
-      "variant": "original-art-soft-photo-r3",
-      "asset_id": "jp-oc-soft-r3-pdf",
-      "sha256": "d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95",
-      "bytes": 47063122,
+      "variant": "original-art-parent-caption-r4",
+      "asset_id": "jp-oc-parent-r4-pdf",
+      "sha256": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
+      "bytes": 61367964,
       "pages": 2,
       "dates": [
         "11/21",
@@ -226,12 +226,12 @@
       "freshness_status": "保存済み確認用。現在入力からの標準renderer再生成を登録検査で保証した版ではない",
       "year_status": "開催年・曜日は未指定。推測して付与しない",
       "ai_image_status": "元の顔立ちと肌色の幅を保持。ひげのある4写真を原本実参照入力で弱く加工し、他5写真は原本のまま。R02の加工画像は入力に使わない。",
-      "review_status": "親と制作サブが最終両面を目視。親もPNG/PDF計4QRを復号し、変更範囲外pixel・原本SHA・既存36保護ファイルの不変を確認。写真方向は人間確認済み。完成両面の人間採用・独立審査・試し刷りは未実施。",
+      "review_status": "親が最終両面を目視。PNG/PDF計4QRを復号。表面指定2領域以外と裏面全面のpixel一致、写真不変、旧交流見出し/説明の削除、保護者歓迎文字1箇所を確認。独立審査・試し刷りは未実施。",
       "previews": [
         {
-          "id": "jp-oc-soft-r3-front",
-          "file": "books/oc-approved-20261017/parts/jp-oc-soft-r3-front/3155869671571d0fdd24e29a250267a1e6ceea8b61dd46e7dba9b04e6ec52871/jp-oc-soft-r3-front.png",
-          "sha256": "3155869671571d0fdd24e29a250267a1e6ceea8b61dd46e7dba9b04e6ec52871"
+          "id": "jp-oc-parent-r4-front",
+          "file": "books/oc-approved-20261017/parts/jp-oc-parent-r4-front/2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece/jp-oc-parent-r4-front.png",
+          "sha256": "2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece"
         },
         {
           "id": "jp-oc-soft-r3-back",
@@ -239,7 +239,7 @@
           "sha256": "81b751b50f08bbb908ba88e31c76b56ac42c1da9926a73989b69c16a4fbc897f"
         }
       ],
-      "version_policy": "原本のbrush OPEN CAMPUS、黄帯、手書きコピー、写真構図・動作・表情・背景を維持。人物を日本人モデル風へそろえすぎず、元の個性・肌色を残す弱いR03加工を4写真に適用し、他5写真は原本保持。体験は1群/3写真と授業・交流・相談の情報を保持。旧flat版とR02加工画像は制作入力に使わない。",
+      "version_policy": "R03の写真・意匠・3写真を保持。表面中央の「在校生と話せる」と説明を削除し、見出し位置へ「保護者の参加も歓迎」を文字で置き、下に「お子さまと一緒に／ご参加いただけます。」を2行配置。日程下のバッジを削除。授業・進路相談の説明、日程/連絡先、裏面は保持。旧R03も保管する。",
       "audience_status": "台帳の読者を維持。日本人イメージは画像の仕様であり、在籍/国籍の記録写真ではない。"
     }
   ],

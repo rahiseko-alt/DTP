@@ -1,8 +1,17 @@
 # 引継ぎ台帳
 
-## 最新の再開位置：2026-10-22 OC写真の弱い加工 r03
+## 最新の再開位置：2026-10-22 OC保護者歓迎の位置修正 r04
 
-現在位置はこの節。ブランチ `fix/oc-yellow-original-photo-edit-20261022`、確認用のdraft PRは https://github.com/rahiseko-alt/DTP/pull/63 。PR #62はmainへマージ済み。追加のR03はmainへ自動マージしない。
+ブランチとdraft PR #63は継続。最新の選択先は `downloads/latest-materials.json` の `FLY-JP-OC-YELLOW`。制作/再現は `books/oc-yellow-parent-caption-r04-20261022/`。
+
+- 表面中央の「在校生と話せる」と交流説明を削除し、見出し位置へ「保護者の参加も歓迎」を文字で配置し、下に「お子さまと一緒に／ご参加いただけます。」を2行配置。日程下の保護者歓迎バッジを削除。写真3枚・全写真加工・授業と進路相談の説明・裏面は変更なし。
+- PDF SHA `f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4`。親が両面目視、4QR復号、表面2領域以外と裏面全面のpixel一致、既存36保護ファイル不変を確認。R03も保存。独立審査・試し刷り未実施、mainへ自動マージしない。
+- R04の正規baseline同期（内容検証込み）は成功。紙面verifyと親の目視は最終PDF SHAに一致。検証結果は `docs/audits/oc-yellow-parent-caption-r04-20261022/`。全体checkは文字修正で重複実行せず、同セッション直前の475成功/7失敗/7skipを保持。
+- CIのR03失敗は新しいannotationから原因確定：CI Popplerは24.02.0、抽出recipeとローカルは26.05.0。必須検査がEXTRACTION_ENGINEで拒否。今回は紙面指定箇所だけを修正し、環境差の修正・検査緩和は行わない。証拠はR04のreviews/ci-r03-annotations.json。
+
+## 直前版の記録：2026-10-22 OC写真の弱い加工 r03
+
+以下はR03時点の記録。ブランチ `fix/oc-yellow-original-photo-edit-20261022`、確認用のdraft PRは https://github.com/rahiseko-alt/DTP/pull/63 。PR #62はmainへマージ済み。追加の修正はmainへ自動マージしない。
 
 - r02が「日本人すぎる」と差戻されたため、元の顔立ち・肌色を保ち、ひげ除去を中心に弱く加工したheroを提示。ユーザーの「おｋ」はこの写真方向の確認。完成両面の採用・印刷承認とは区別する。
 - 新規 `books/oc-yellow-photo-soft-r03-20261022/` に四つのsoft-edit、五つのoriginalを明示。原本cropを実際に生成入力へ渡し、授業/総合ビジネス写真は承認heroを加工程度の第2参照とした。実prompt・全入力SHAを隣接metadataへ保存。r02は履歴として残し、新版の生成入力へ使わない。

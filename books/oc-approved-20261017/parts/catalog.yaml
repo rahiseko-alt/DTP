@@ -89,7 +89,9 @@
     "jp-oc-soft-r3-front": "3155869671571d0fdd24e29a250267a1e6ceea8b61dd46e7dba9b04e6ec52871",
     "jp-oc-soft-r3-back": "81b751b50f08bbb908ba88e31c76b56ac42c1da9926a73989b69c16a4fbc897f",
     "jp-oc-soft-r3-proof": "9d10267c58a8e5b3a42ce11a03e3a43897baae154d2ad18d22d1a05d823f733d",
-    "jp-oc-soft-r3-verification": "9325becc0c4a064e430f5e46965564cdb30b0d36492c2d7353f6cdd802fe0200"
+    "jp-oc-soft-r3-verification": "9325becc0c4a064e430f5e46965564cdb30b0d36492c2d7353f6cdd802fe0200",
+    "jp-oc-parent-r4-pdf": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
+    "jp-oc-parent-r4-front": "2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece"
   },
   "assets": [
     {
@@ -2319,6 +2321,54 @@
         {
           "id": "ocjp2-source-event",
           "revision": "7a881f92a6e4adc0457bc7db4f0cfd0b7b186bda63cf19e0669b1eb2027ef6aa"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-parent-r4-pdf",
+      "variant": "original-art-parent-caption-r4",
+      "role": "support",
+      "media": "pdf",
+      "revision": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
+      "file": "books/oc-approved-20261017/parts/jp-oc-parent-r4-pdf/f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4/jp-oc-parent-r4-pdf.pdf",
+      "sha256": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
+      "size": 61367964,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved R04 front caption/badge revision; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-22T04:46:06.659Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-oc-soft-r3-pdf",
+          "revision": "d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-parent-r4-front",
+      "variant": "original-art-parent-caption-r4",
+      "role": "support",
+      "media": "image",
+      "revision": "2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece",
+      "file": "books/oc-approved-20261017/parts/jp-oc-parent-r4-front/2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece/jp-oc-parent-r4-front.png",
+      "sha256": "2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece",
+      "size": 3016990,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved R04 front caption/badge revision; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-22T04:46:36.245Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-oc-parent-r4-pdf",
+          "revision": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4"
         }
       ]
     }

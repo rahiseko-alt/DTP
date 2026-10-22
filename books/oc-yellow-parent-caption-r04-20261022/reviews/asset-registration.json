@@ -1,0 +1,60 @@
+[
+  {
+    "id": "jp-oc-parent-r4-pdf",
+    "registration": {
+      "asset": {
+        "id": "jp-oc-parent-r4-pdf",
+        "variant": "original-art-parent-caption-r4",
+        "role": "support",
+        "media": "pdf",
+        "revision": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
+        "file": "books/oc-approved-20261017/parts/jp-oc-parent-r4-pdf/f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4/jp-oc-parent-r4-pdf.pdf",
+        "sha256": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
+        "size": 61367964,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "Saved R04 front caption/badge revision; current standard-render freshness is not asserted.",
+          "recorded_at": "2026-10-22T04:46:06.659Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "jp-oc-soft-r3-pdf",
+            "revision": "d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jp-oc-parent-r4-front",
+    "registration": {
+      "asset": {
+        "id": "jp-oc-parent-r4-front",
+        "variant": "original-art-parent-caption-r4",
+        "role": "support",
+        "media": "image",
+        "revision": "2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece",
+        "file": "books/oc-approved-20261017/parts/jp-oc-parent-r4-front/2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece/jp-oc-parent-r4-front.png",
+        "sha256": "2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece",
+        "size": 3016990,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "Saved R04 front caption/badge revision; current standard-render freshness is not asserted.",
+          "recorded_at": "2026-10-22T04:46:36.245Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "jp-oc-parent-r4-pdf",
+            "revision": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4"
+          }
+        ]
+      }
+    }
+  }
+]

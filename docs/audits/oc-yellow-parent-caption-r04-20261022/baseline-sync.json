@@ -1,0 +1,73 @@
+{
+  "added": 13,
+  "updated": 0,
+  "removed": 0,
+  "changes": [
+    {
+      "file": "books/oc-yellow-parent-caption-r04-20261022/README.md",
+      "action": "add",
+      "sha256": "f493e9b00926dcba12ea55d2fd3b9647fea1e0ebf627e11d34f02a4f7c8daa3f"
+    },
+    {
+      "file": "books/oc-yellow-parent-caption-r04-20261022/build.py",
+      "action": "add",
+      "sha256": "605110090716d3389dbee965f2057783db4676564afa24da0590945ba19d1d8d"
+    },
+    {
+      "file": "books/oc-yellow-parent-caption-r04-20261022/register-output.py",
+      "action": "add",
+      "sha256": "4cb40daf36982ae6d81dd5016356ac99d39ecbc7249217fc296f028449c82eab"
+    },
+    {
+      "file": "books/oc-yellow-parent-caption-r04-20261022/verify.py",
+      "action": "add",
+      "sha256": "96a53180c140e41360f37a78f37860eaa24b7fdc1d824ff6fba873a7407cbef9"
+    },
+    {
+      "file": "books/oc-yellow-parent-caption-r04-20261022/output/OC黄色帯版_保護者歓迎位置修正R04_2P.pdf",
+      "action": "add",
+      "sha256": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4"
+    },
+    {
+      "file": "books/oc-yellow-parent-caption-r04-20261022/output/page-1.png",
+      "action": "add",
+      "sha256": "2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece"
+    },
+    {
+      "file": "books/oc-yellow-parent-caption-r04-20261022/output/page-2.png",
+      "action": "add",
+      "sha256": "81b751b50f08bbb908ba88e31c76b56ac42c1da9926a73989b69c16a4fbc897f"
+    },
+    {
+      "file": "books/oc-yellow-parent-caption-r04-20261022/reviews/asset-registration.json",
+      "action": "add",
+      "sha256": "743251082274671a379777d3e90397430a4f751fa4b986a0e78aababe81688cc"
+    },
+    {
+      "file": "books/oc-yellow-parent-caption-r04-20261022/reviews/build-proof.json",
+      "action": "add",
+      "sha256": "e799c3b7622ac03ea45a67af3324373b3d6447f099e773263d295995db87af8a"
+    },
+    {
+      "file": "books/oc-yellow-parent-caption-r04-20261022/reviews/ci-r03-annotations.json",
+      "action": "add",
+      "sha256": "607165035a5677f3604f29e1fecb464a7cece617a153f60c66bcc9d59925fbd5"
+    },
+    {
+      "file": "books/oc-yellow-parent-caption-r04-20261022/reviews/output-verification.json",
+      "action": "add",
+      "sha256": "9608c3f11c41e3a31fcd3d50fae1c8576e95fb4b6993eea1c498972b87ddd853"
+    },
+    {
+      "file": "books/oc-yellow-parent-caption-r04-20261022/reviews/parent-review.json",
+      "action": "add",
+      "sha256": "f155ef99bbf943a5daee09a42933ba3712aecb76340bfa0ea35e2f0b59089a95"
+    },
+    {
+      "file": "books/oc-yellow-parent-caption-r04-20261022/reviews/source-get.json",
+      "action": "add",
+      "sha256": "605db071d1c15ef30cc3469dca5e1393369c98b440907d36c74303af18ca5a81"
+    }
+  ],
+  "dryRun": false
+}

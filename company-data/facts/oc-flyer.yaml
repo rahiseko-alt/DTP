@@ -11,6 +11,9 @@ contact_qr: shared/generated-assets/qr/qr-mailto-aibusiness-kaihougakuen.svg
 experience_heading: オープンキャンパスでできること
 experience_items: [1]
 experience_photo_count: 3
-experience_information: 授業体験・在校生との交流・進路相談の写真と説明を保持し、一つの体験欄へまとめる
+experience_information: 表面の3写真を保持。中央の「在校生と話せる」と交流説明を削除し、その見出し位置に「保護者の参加も歓迎」、下に保護者参加のサブコメントを置く。日程下の保護者歓迎バッジは削除。授業体験・進路相談と裏面は維持
+experience_middle_label: 保護者の参加も歓迎
+experience_middle_description: "お子さまと一緒に\nご参加いただけます。"
+parent_welcome_badge: false
 photo_edit_policy: 原本写真を直接参照し、承認されたR03程度の弱い加工にする。元の顔立ち・肌色・個性の幅を保ち、日本人モデル風へそろえすぎない。ひげのある4写真を主にひげ除去で調整し、残る5写真は原本を保持。構図・人数・服装・表情・動き・背景と原本の紙面意匠を保持する
 source: 2026-10-22のユーザー指示と追補。体験欄の3項目を1項目へまとめるが、3写真と情報量は減らさない。人物加工のR02は「日本人すぎる」と差戻し、元の肌色と顔立ちを残す弱いR03の方向を「おｋ」と確認。留学生歓迎を削除し、メールとQRは保存済みgmail宛へ統一。

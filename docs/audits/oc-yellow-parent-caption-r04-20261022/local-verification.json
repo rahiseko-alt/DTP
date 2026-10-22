@@ -1,0 +1,34 @@
+{
+  "pdf_sha256": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
+  "paper_verify": "pass",
+  "parent_visual_review_pages": [
+    1,
+    2
+  ],
+  "caption": "お子さまと一緒に／ご参加いただけます。",
+  "old_heading_and_explanation_removed": true,
+  "parent_badge_outline_removed": true,
+  "changed_front_regions": 2,
+  "remaining_front_pixels_equal": true,
+  "entire_back_pixels_equal": true,
+  "photos_unchanged": true,
+  "qr_decodes": 4,
+  "protected_prior_files_unchanged": 36,
+  "facts_and_index_sha256": "pass",
+  "baseline_sync": "pass",
+  "full_check_not_repeated_for_caption_edit": true,
+  "last_full_check_in_session": {
+    "passed": 475,
+    "failed": 7,
+    "skipped": 7
+  },
+  "known_CI_environment_mismatch": {
+    "recipe_and_local_poppler": "26.05.0",
+    "CI_poppler": "24.02.0",
+    "R03_check_run": 119638711257
+  },
+  "independent_review": false,
+  "print_test": false,
+  "release": false,
+  "main_merge": false
+}
