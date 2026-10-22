@@ -16,7 +16,7 @@
   },
   "targeted_tests": {
     "files": 6,
-    "passed": 127
+    "passed": 129
   },
   "full_tests_system_chromium": {
     "passed": 470,
@@ -30,5 +30,12 @@
     "changed": []
   },
   "oc_flyer_verification": "../../../books/oc-yellow-structure-20261022/reviews/output-verification.json",
-  "mandatory_checks": "unchanged required asset-integrity; PR merge pending remote checks"
+  "mandatory_checks": "unchanged required asset-integrity; PR merge pending remote checks",
+  "initial_ci": {
+    "run": 39710496574,
+    "typecheck": "passed",
+    "targeted_127": "passed",
+    "asset_check": "failed; clean checkout reproduced 6 ignored intermediate LEGACY_MISSING entries"
+  },
+  "clean_checkout": "clean-checkout-verification.json"
 }

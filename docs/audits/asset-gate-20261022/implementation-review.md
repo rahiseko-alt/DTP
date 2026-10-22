@@ -22,3 +22,7 @@ GitHub必須asset-integrity・strict・保護は維持。検査を外して通�
 入力採取は宣言的な標準BOOK用。任意JS・未対応動的資産は安全側拒否。正本宣言と自BOOKソースは集合で監視する。ブラウザバイナリ/OS代替font/ロック外の任意node_modules改変はこの素材検査単独の保証外。別rootのengine/font/codeミラーが実際の実行環境と違う場合も拒否する。
 
 入稿の見た目・事実の意味・初回資料同定の人間の間違いはasset検査の単独保証外。別途の原本照合・紙面目視・印刷確認が必要。
+
+## クリーンなコミット環境の追加確認
+
+初回CI（39710496574）は型検査/127試験成功、最後の検査で失敗。コミットのみの別worktreeで同じLEGACY_MISSING6件を再現した。未追跡かつGitignore済みのcache3・面付け中間PDF2・埋込HTML1がローカルの同期記録に混入していた。legacy比較/同期のみGitの未追跡ignored中間物を除外し、既存キーにも適用。trackedはignore規則でも保護、managed/registered検査は独立。サブが目的条件とこの範囲を独立確認し、tracked欠損とignored登録実体欠損の対の試験を追加した。保管済みとして案内する正式PDF/PNGは登録先・出力先とも追跡済み。

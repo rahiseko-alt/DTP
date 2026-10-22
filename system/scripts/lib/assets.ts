@@ -775,6 +775,21 @@ async function extractedBytes(
     fs.rmSync(dir, { recursive: true, force: true });
   }
 }
+/** Ignore only untracked Git-ignored intermediates in the legacy fallback.
+ * Registered assets and managed roots are always checked independently above.
+ * Git check-ignore deliberately omits tracked files, even if a rule matches them.
+ */
+function ignoredLegacyFiles(root: string, files: string[]): Set<string> {
+  if (!files.length) return new Set();
+  const probe = spawnSync("git", ["rev-parse", "--show-toplevel"], { cwd: root, encoding: "utf8" });
+  if (probe.status !== 0) return new Set(); // Standalone/non-Git studio.
+  const result = spawnSync("git", ["check-ignore", "--stdin", "-z"], {
+    cwd: root, input: files.join("\0") + "\0", encoding: "utf8", maxBuffer: 32 * 1024 * 1024,
+  });
+  if (result.status !== 0 && result.status !== 1) fail("BASELINE_GIT", "Cannot classify ignored legacy intermediates");
+  return new Set(result.stdout.split("\0").filter(Boolean));
+}
+
 export async function checkAssets(
   root: string,
   opts: { metadataOnly?: boolean; legacy?: boolean; freshness?: boolean } = {},
@@ -931,7 +946,8 @@ export async function checkAssets(
             f === d.catalog ||
             d.managed_roots.some((p) => f.startsWith(p + "/")),
         ) || registeredFiles.has(f);
-      for (const f of files.filter((f) => !inScope(f))) {
+      const ignored = ignoredLegacyFiles(root, [...files, ...Object.keys(baseline.files)]);
+      for (const f of files.filter((f) => !inScope(f) && !ignored.has(f))) {
         if (!baseline.files[f]) errors.push(`LEGACY_NEW: ${f}`);
         else if (
           contentIdentity(fs.readFileSync(safePath(root, f))) !==
@@ -940,7 +956,7 @@ export async function checkAssets(
           errors.push(`LEGACY_CHANGED: ${f}`);
       }
       for (const f of Object.keys(baseline.files))
-        if (!inScope(f) && !fs.existsSync(safePath(root, f)))
+        if (!inScope(f) && !ignored.has(f) && !fs.existsSync(safePath(root, f)))
           errors.push(`LEGACY_MISSING: ${f}`);
     }
   }
@@ -996,6 +1012,8 @@ export async function syncBaseline(root: string, opts: BaselineSyncOptions = {})
     );
   }
 
+  const ignored = ignoredLegacyFiles(root, [...targetFiles, ...Object.keys(baseline.files)]);
+
   // Validate content before trusting new hashes. The legacy drift that this
   // operation reconciles is the only validation error it may disregard.
   const { validateStudio } = await import("./validate.ts");
@@ -1015,7 +1033,7 @@ export async function syncBaseline(root: string, opts: BaselineSyncOptions = {})
   const changes: Array<{ file: string; action: "add" | "update" | "remove"; sha256?: string }> = [];
 
   for (const f of targetFiles) {
-    if (inScope(f)) continue;
+    if (inScope(f) || ignored.has(f)) continue;
     const abs = safePath(root, f);
     if (!fs.existsSync(abs)) {
       if (baseline.files[f] && (opts.cleanMissing || !opts.paths)) {
@@ -1041,7 +1059,7 @@ export async function syncBaseline(root: string, opts: BaselineSyncOptions = {})
 
   if (!opts.paths || opts.cleanMissing) {
     for (const f of Object.keys(baseline.files)) {
-      if (!inScope(f) && !fs.existsSync(safePath(root, f))) {
+      if (!inScope(f) && (ignored.has(f) || !fs.existsSync(safePath(root, f)))) {
         delete baseline.files[f];
         removed++;
         changes.push({ file: f, action: "remove" });

@@ -1,0 +1,10 @@
+{
+  "base_commit": "ee48efec7b4d7165dc66d996bba1f217aeaa9b81",
+  "method": "Git detached worktree with tracked files only, all managed LFS objects checked out. Applied only final assets.ts and baseline fix, then ran assetcheck. No ignored local intermediates copied.",
+  "patched_inputs": {
+    "system/scripts/lib/assets.ts": "a5691c03a43e84662f05fe0bb7cb4e07f2b50bb06f5eb6590e485e1de2e2f566",
+    "system/assets/legacy-baseline.json": "2e33f3b8a6808233ce9fe536335e7873af58dcda695b6f13184e3ccf9749b8f6"
+  },
+  "errors": [],
+  "warnings_count": 77
+}

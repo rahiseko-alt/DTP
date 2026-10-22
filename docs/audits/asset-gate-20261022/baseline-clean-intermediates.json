@@ -1,0 +1,32 @@
+{
+  "added": 0,
+  "updated": 0,
+  "removed": 6,
+  "changes": [
+    {
+      "file": "books/prospectus-jp-isen-2028/__pycache__/build.cpython-312.pyc",
+      "action": "remove"
+    },
+    {
+      "file": "books/prospectus-jp-isen-2028/__pycache__/verify-delivery.cpython-312.pyc",
+      "action": "remove"
+    },
+    {
+      "file": "books/prospectus-jp-isen-2028/output/医専日本人版_A3_中綴じ_短辺反転.pdf",
+      "action": "remove"
+    },
+    {
+      "file": "books/prospectus-jp-isen-2028/output/医専日本人版_A4_中綴じ_短辺反転.pdf",
+      "action": "remove"
+    },
+    {
+      "file": "books/prospectus-jp-isen-2028/work/revision2-cover/cover.html",
+      "action": "remove"
+    },
+    {
+      "file": "books/prospectus-jp-isen-2028/work/revision9-cover/__pycache__/build_cover.cpython-312.pyc",
+      "action": "remove"
+    }
+  ],
+  "dryRun": false
+}

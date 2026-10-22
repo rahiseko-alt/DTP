@@ -3,6 +3,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import fg from "fast-glob";
+import { execFileSync } from "node:child_process";
 import {
   syncBaseline,
   checkAssets,
@@ -46,6 +47,30 @@ describe("asset:baseline-sync and cross-book photo rights", () => {
 
   afterEach(() => {
     fs.rmSync(root, { recursive: true, force: true });
+  });
+
+  it("does not persist ignored local intermediates, while tracked and ordinary files remain protected", async () => {
+    execFileSync("git", ["init", "-q"], { cwd: root });
+    fs.writeFileSync(path.join(root, ".gitignore"), "shared/cache/\nshared/baseline.txt\n");
+    execFileSync("git", ["add", "-f", "shared/baseline.txt"], { cwd: root });
+    fs.mkdirSync(path.join(root, "shared/cache"));
+    const cache = "shared/cache/local.pyc";
+    fs.writeFileSync(path.join(root, cache), "machine-specific cache");
+    const baselinePath = path.join(root, "system/assets/legacy-baseline.json");
+    const baseline = JSON.parse(fs.readFileSync(baselinePath, "utf8"));
+    baseline.files[cache] = digest("machine-specific cache");
+    fs.writeFileSync(baselinePath, JSON.stringify(baseline));
+    await syncBaseline(root);
+    expect(JSON.parse(fs.readFileSync(baselinePath, "utf8")).files[cache]).toBeUndefined();
+    fs.rmSync(path.join(root, cache));
+    expect((await checkAssets(root)).errors).toEqual([]); // A clean checkout also passes.
+    fs.writeFileSync(path.join(root, "shared/baseline.txt"), "changed tracked file");
+    fs.writeFileSync(path.join(root, "shared/unregistered.txt"), "new ordinary file");
+    const errors = (await checkAssets(root)).errors;
+    expect(errors).toContain("LEGACY_CHANGED: shared/baseline.txt");
+    expect(errors).toContain("LEGACY_NEW: shared/unregistered.txt");
+    fs.rmSync(path.join(root, "shared/baseline.txt"));
+    expect((await checkAssets(root)).errors).toContain("LEGACY_MISSING: shared/baseline.txt");
   });
 
   it("updates baseline when a new file is added and syncBaseline is run", async () => {

@@ -496,6 +496,16 @@ describe("identity and fail-closed retrieval", () => {
     expect(e).toContain("UNREGISTERED");
     expect(e).toContain("LEGACY_NEW");
   });
+  it("still rejects ignored managed copies and ignored registered payload loss", async () => {
+    expect(spawnSync("git", ["init", "-q"], { cwd: root }).status).toBe(0);
+    write(".gitignore", "books/flyer/\nreferences/school-own/flyer/\n");
+    write(b + "/unknown.png", png);
+    fs.unlinkSync(path.join(root, r + "/original/approved.pdf"));
+    const errors = (await checkAssets(root)).errors.join("\n");
+    expect(errors).toContain("UNREGISTERED");
+    expect(errors).toContain("MISSING");
+    await expect(getAsset(root, id, "original", { saved: true })).rejects.toMatchObject({ code: "MISSING" });
+  });
   it("requires pilot registration and baseline", async () => {
     fs.unlinkSync(path.join(root, "system/assets/legacy-baseline.json"));
     await expect(checkAssets(root)).rejects.toMatchObject({
