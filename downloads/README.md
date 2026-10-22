@@ -14,7 +14,7 @@
 | --- | --- |
 | PAM-JP-ISEN | 医専パンフの日本人向け写真差替版・16P確認用PDF作成済み |
 | ADM-JP-2027-PEOPLE | 日本人向け募集要項の人物差し替え版 |
-| FLY-JP-OC-YELLOW | 黄色OCチラシの日本人向け版 |
+| FLY-JP-OC-YELLOW | 黄色OCチラシの日本人イメージ版・指定5点反映・2P確認用PDF作成済み |
 
 ## タグ
 
@@ -55,3 +55,11 @@ python3 system/scripts/list-materials.py --tag '状態:未制作'
 ## 医専日本人版の確認用PDF
 
 `python3 system/scripts/list-materials.py --id PAM-JP-ISEN` で閲覧用16PとA3/A4面付けPDFを取得する。状態は確認用。素材・再現方法・点検制約は `books/prospectus-jp-isen-2028/README.md`。表紙は指定保存画像「日本人版マシな方1」、人物はAI加工を含む。医専の元PDFと現行配布ZIPは上書きしていない。印刷用は各8面/用紙4枚、横・両面短辺反転。
+
+## 保存版と最新版の取得
+
+索引の `retrieval_mode: saved` は、現在配布/確認に使う保存済みの版です。実体の同一性と、現入力で再描画した証拠を区別します。管理取得は `asset:get -- --document <索引のdocument> --id <asset_id> --saved`。通常getは保存版を最新版として返しません。ファイルと名前、版、表紙・本文の内容は変更していません。
+
+## OC黄色帯の確認用PDF
+
+`FLY-JP-OC-YELLOW` は写真、開催日11/21・12/5・12/19、体験欄の一本化、留学生歓迎表記の削除、保存済みGmail宛QRへの統一を反映した別版。メール印字も `aibusiness.kaihougakuen@gmail.com`。開催年・曜日は未指定。原本 `FLY-OC-YELLOW` と配布ZIPは保持し、混同しない。表裏PNGとPDFでQRを実復号済み。

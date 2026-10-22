@@ -11,6 +11,13 @@ contacts:
     tel: 052-451-3821
     email: ai-nyushi@jp-academy.net
 
+  # 出典: 2026-10-22 ユーザー指定。OC黄色帯チラシの印字メールと保存済みQRを統一。
+  # 入学事務局の代表メールは変更しない。
+  - id: oc-flyer-email
+    label: OCチラシお問い合わせ
+    email: aibusiness.kaihougakuen@gmail.com
+    note: OC黄色帯チラシ専用。保存済みmailto QRの宛先。
+
 # 公式 SNS（運用中のアカウントのみ。現在は運用前のため空）
 sns: []
 

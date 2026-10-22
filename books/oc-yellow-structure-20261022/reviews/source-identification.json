@@ -1,0 +1,22 @@
+{
+  "document": "oc-approved-20261017",
+  "variant": "approved-original-map",
+  "retrieval_mode": "saved",
+  "source_assets": {
+    "pdf": {
+      "path": "books/oc-approved-20261017/parts/latest-original-oc-pdf/2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1/latest-original-oc-pdf.pdf",
+      "sha256": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+    },
+    "front": {
+      "path": "books/oc-approved-20261017/parts/latest-original-oc-front/0b6cc640013f96b6b1d19c1333ba8068023989eb52b7c4664637ee7c6a8b79a6/latest-original-oc-front.png",
+      "sha256": "0b6cc640013f96b6b1d19c1333ba8068023989eb52b7c4664637ee7c6a8b79a6"
+    },
+    "back": {
+      "path": "books/oc-approved-20261017/parts/latest-original-oc-back/f1a7992a11ffe289fe0300825f07c65d9e8c716f21a0f84abf49408b278b3b63/latest-original-oc-back.png",
+      "sha256": "f1a7992a11ffe289fe0300825f07c65d9e8c716f21a0f84abf49408b278b3b63"
+    }
+  },
+  "originals_modified": false,
+  "rendered_new_version": true,
+  "direction": "User five explicit instructions; preserve yellow OC identity and overall sequence; no alternate avatar or HAL version"
+}

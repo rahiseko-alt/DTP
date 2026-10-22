@@ -1,0 +1,59 @@
+{
+  "version": "OC-YELLOW-JP-STRUCTURE-20261022",
+  "scope": "User five instructions; separate 2-page draft; preserved original unchanged",
+  "source_document": "oc-approved-20261017",
+  "source_pdf_sha256": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1",
+  "dates": [
+    "11/21",
+    "12/5",
+    "12/19"
+  ],
+  "date_year": null,
+  "date_weekdays": null,
+  "contact_email": "aibusiness.kaihougakuen@gmail.com",
+  "contact_qr": "shared/generated-assets/qr/qr-mailto-aibusiness-kaihougakuen.svg",
+  "contact_final": true,
+  "photo_generation_new": false,
+  "photos_are_illustrative_ai_images": true,
+  "assets": {
+    "logo": {
+      "file": "company-data/brand/logo/logo-horizontal.png",
+      "sha256": "700bb302dde389f7deb314a6a3fd6bb44b2ab15dfa78d9248b3663ab1e32dbd3"
+    },
+    "hero": {
+      "file": "shared/generated-assets/jp-existing-photo-b-r01/B-PHOTO-R07-S02.png",
+      "sha256": "3f397a6817a26dbe60a5534e6555b6009e03a8457f0e92669a12ce4de45e5189"
+    },
+    "experience": {
+      "file": "shared/generated-assets/jp-students-four-r01/JP4-R01-S01.png",
+      "sha256": "b459d01259176e838b174801d5e8c8239540953a6173c24545b6101a6f38ba0b"
+    },
+    "course_ai": {
+      "file": "books/prospectus-jp-isen-2028/work/learning-a/p05-01-revision2-photo.png",
+      "sha256": "6ed600b7bd1644ea1a6082a4d916307b2418bf5dd5cea6aeaaf8a25de2a74442"
+    },
+    "course_business": {
+      "file": "shared/generated-assets/jp-students-four-r01/JP4-R01-S01.png",
+      "sha256": "b459d01259176e838b174801d5e8c8239540953a6173c24545b6101a6f38ba0b"
+    },
+    "life_lesson": {
+      "file": "books/prospectus-jp-isen-2028/work/learning-b/p07-photo-06.png",
+      "sha256": "1c9e86fe4068e34f377fa69fc34a49d361c2d3fb6aa81ecb0d61facc7d344c2f"
+    },
+    "life_exchange": {
+      "file": "books/prospectus-jp-isen-2028/work/learning-b/p07-photo-02.png",
+      "sha256": "20f196e5d9d1ca9df06b2a16bbcc2da129c61bb3eacdba113cb099cf1221b496"
+    },
+    "life_event": {
+      "file": "books/prospectus-jp-isen-2028/work/learning-a/p05-08-revision2-photo.png",
+      "sha256": "12d98a15fd605dd1dc0fe5f934ac3437bc6fc1135989095e82fb9fd5c6f1d1b7"
+    },
+    "map": {
+      "file": "books/oc-approved-20261017/parts/support-school-access-map/f22d288efab6e1220898fac2d6d54fe8c014266a748d0637e0153fa7853de27f/support-school-access-map.png",
+      "sha256": "f22d288efab6e1220898fac2d6d54fe8c014266a748d0637e0153fa7853de27f"
+    }
+  },
+  "school_facts_sha256": "1542374cce1534bf98a6d260e3e2542a6857d48da768c0415c71a363d8e043c2",
+  "oc_facts_sha256": "0ad8f73cee04881d8d6103e08c2a06da9b107cfdb303a7ef019bdb32d568c426",
+  "contacts_facts_sha256": "42e6443e673c60a3b91ac69e3d3ad0a2cd4c8d28bd524ebfb4a86b36894df8d3"
+}

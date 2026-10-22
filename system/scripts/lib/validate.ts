@@ -775,7 +775,7 @@ async function checkLayer1Orders(root: string, bookId: string, dir: string, name
 
 // ---------------------------------------------------------------------------
 
-export async function validateStudio(root: string, opts: { strict?: boolean } = {}): Promise<ValidateReport> {
+export async function validateStudio(root: string, opts: { strict?: boolean; assetFreshness?: boolean } = {}): Promise<ValidateReport> {
   const strict = opts.strict ?? false;
   const s1 = section(1, 'company-data（スキーマ・TODO・ID の参照・全角英数字）');
   const s2 = section(2, 'BOOK の設定（book.yaml・ページ・背景・styles・references.yaml）');
@@ -806,7 +806,7 @@ export async function validateStudio(root: string, opts: { strict?: boolean } = 
 
   const s8 = section(8, 'ファイル識別・格納整合性');
   if(fs.existsSync(path.join(root,'system/scripts/lib/assets.ts'))){
-    try{const report=await checkAssets(root);s8.errors.push(...report.errors);s8.warnings.push(...report.warnings);s8.info.push(`${report.documents.length} 資料`);}catch(e){s8.errors.push(String(e));}
+    try{const report=await checkAssets(root,{freshness:opts.assetFreshness});s8.errors.push(...report.errors);s8.warnings.push(...report.warnings);s8.info.push(`${report.documents.length} 資料`);}catch(e){s8.errors.push(String(e));}
   }
   const sections = [s1, s2, s3, s4, s5, s6, s7, s8];
   return {

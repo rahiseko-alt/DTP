@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-22",
+  "typecheck": "passed",
+  "validate": {
+    "errors": 0,
+    "warnings": 154
+  },
+  "asset_check": {
+    "errors": [],
+    "warnings_count": 77
+  },
+  "doctor_system_chromium": {
+    "ok": 10,
+    "warn": 1,
+    "ng": 0
+  },
+  "targeted_tests": {
+    "files": 6,
+    "passed": 127
+  },
+  "full_tests_system_chromium": {
+    "passed": 470,
+    "failed": 7,
+    "skipped": 7,
+    "note": "指定Playwrightブラウザ不在・代替Chromiumのrelease拒否・既存photoタグ検証順による失敗。全体合格とは扱わない。"
+  },
+  "real_render": "live-render-proof.json",
+  "preserved_files": {
+    "count": 36,
+    "changed": []
+  },
+  "oc_flyer_verification": "../../../books/oc-yellow-structure-20261022/reviews/output-verification.json",
+  "mandatory_checks": "unchanged required asset-integrity; PR merge pending remote checks"
+}

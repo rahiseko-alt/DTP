@@ -34,7 +34,9 @@
       "binding": "中綴じ・左綴じ",
       "audience_status": "日本人向けへの内容点検が必要",
       "year_status": "紙面は2028表記。掲載学費・入試の根拠は2027年度。2028年度確定版とは呼ばない",
-      "version_policy": "医専の現行16ページを制作元として保持。日本人向け版も医専版と同じページ順・紙面構成を使い、写真・配色・文字の重ね方を調整する。"
+      "version_policy": "医専の現行16ページを制作元として保持。日本人向け版も医専版と同じページ順・紙面構成を使い、写真・配色・文字の重ね方を調整する。",
+      "retrieval_mode": "saved",
+      "freshness_status": "保存済み配布版。登録実体の同一性は確認、現在の標準renderer入力による再生成保証なし"
     },
     "admissions": {
       "document": "admissions-guide-2027",
@@ -70,7 +72,9 @@
       ],
       "binding": "中綴じ・左綴じ・願書の裏面は白紙",
       "audience_status": "日本人向け原本に基づく。人物画像は未統一",
-      "year_status": "2027年度。2028年度への自動繰上げ禁止"
+      "year_status": "2027年度。2028年度への自動繰上げ禁止",
+      "retrieval_mode": "saved",
+      "freshness_status": "保存済み配布版。登録実体の同一性は確認、現在の標準renderer入力による再生成保証なし"
     },
     "flyer": {
       "document": "oc-approved-20261017",
@@ -99,7 +103,9 @@
       ],
       "binding": "A4両面・長辺反転・折りなし",
       "audience_status": "日本人向けへの内容・人物画像の調整が必要",
-      "year_status": "原本の開催日の年度・有効性は未確認。2027/2028と推定しない"
+      "year_status": "原本の開催日の年度・有効性は未確認。2027/2028と推定しない",
+      "retrieval_mode": "saved",
+      "freshness_status": "保存済み配布版。登録実体の同一性は確認、現在の標準renderer入力による再生成保証なし"
     }
   },
   "print_bundle": "downloads/print-pdfs.zip",
@@ -149,7 +155,8 @@
           "bytes": 4123371,
           "faces": 8,
           "sheets": 4,
-          "duplex": "短辺反転"
+          "duplex": "短辺反転",
+          "retrieval_mode": "saved"
         },
         {
           "paper": "A4",
@@ -160,9 +167,12 @@
           "bytes": 2720971,
           "faces": 8,
           "sheets": 4,
-          "duplex": "短辺反転"
+          "duplex": "短辺反転",
+          "retrieval_mode": "saved"
         }
-      ]
+      ],
+      "retrieval_mode": "saved",
+      "freshness_status": "保存済み確認用。現在入力からの再生成を登録検査で保証した版ではない"
     },
     {
       "work_id": "ADM-JP-2027-PEOPLE",
@@ -179,14 +189,55 @@
     {
       "work_id": "FLY-JP-OC-YELLOW",
       "source_material_id": "FLY-OC-YELLOW",
-      "display_name": "チラシ_日本人向け_OC黄色帯_年度未確認_制作予定",
-      "status": "未制作",
+      "display_name": "チラシ_日本人イメージ_OC黄色帯_11月21日・12月5日・12月19日_2P_確認用",
+      "status": "指定5点反映・表裏目視とPDF/PNGのメールQR検証済み・確認用",
       "tags": [
+        "種別:チラシ",
         "対象:日本人向け",
         "人物仕様:日本人イメージ",
-        "状態:未制作"
+        "意匠:OC黄色帯",
+        "適用年度:未確認",
+        "状態:確認用"
       ],
-      "file": null
+      "file": "books/oc-approved-20261017/parts/jp-oc-reading-pdf/18601d0ad832a6a48a61a6345a89d7ec321c133c804275c8c4c11df08669d47b/jp-oc-reading-pdf.pdf",
+      "document": "oc-approved-20261017",
+      "variant": "japanese-people-oc-revised",
+      "asset_id": "jp-oc-reading-pdf",
+      "sha256": "18601d0ad832a6a48a61a6345a89d7ec321c133c804275c8c4c11df08669d47b",
+      "bytes": 12842131,
+      "pages": 2,
+      "dates": [
+        "11/21",
+        "12/5",
+        "12/19"
+      ],
+      "contact_email": "aibusiness.kaihougakuen@gmail.com",
+      "qr_decoded": {
+        "1": [
+          "mailto:aibusiness.kaihougakuen@gmail.com"
+        ],
+        "2": [
+          "mailto:aibusiness.kaihougakuen@gmail.com"
+        ]
+      },
+      "binding": "A4両面・長辺反転・折りなし",
+      "retrieval_mode": "saved",
+      "freshness_status": "保存済み確認用。現在入力からの標準renderer再生成を登録検査で保証した版ではない",
+      "year_status": "開催年・曜日は未指定。推測して付与しない",
+      "ai_image_status": "採用済みAI人物イメージを使用。実在学生の国籍・所属を示す写真ではない",
+      "review_status": "親が表裏PNGを目視。PDF/PNGの計4面でGmail mailtoのみ復号。実機試し刷りは未実施。",
+      "previews": [
+        {
+          "id": "jp-oc-front",
+          "file": "books/oc-approved-20261017/parts/jp-oc-front/0b18db5f881dc452d2795bdfc05ba245bd4b75c0d67856941c9265eeabca0a4f/jp-oc-front.png",
+          "sha256": "0b18db5f881dc452d2795bdfc05ba245bd4b75c0d67856941c9265eeabca0a4f"
+        },
+        {
+          "id": "jp-oc-back",
+          "file": "books/oc-approved-20261017/parts/jp-oc-back/128bc3ea46a2dcb7855b8b0f17eb86038ec65582274c0a61404f08643a1c9351/jp-oc-back.png",
+          "sha256": "128bc3ea46a2dcb7855b8b0f17eb86038ec65582274c0a61404f08643a1c9351"
+        }
+      ]
     }
   ],
   "excluded_variants": [

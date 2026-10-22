@@ -27,6 +27,7 @@ for aid, rel, media in items:
                 '--document', document, '--id', aid, '--variant', 'japanese-people-edition',
                 '--role', 'support', '--media', media, '--source', str(p), '--sha256', digest,
                 '--confirmation', 'verified', '--built-from', json.dumps([{'id': 'jp-isen-saved-source16', 'revision': source_sha}])]
+        args += ['--save-reason', 'Preserved review edition from the fixed adapter; current renderer input freshness is not asserted.']
         value = json.loads(subprocess.check_output(args, cwd=ROOT, text=True))
         reused = False
     records.append({'id': aid, 'registration': value, 'reused_unchanged': reused})

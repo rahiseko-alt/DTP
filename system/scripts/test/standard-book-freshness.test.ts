@@ -84,6 +84,14 @@ for (const id of books) {
         await expect(searchAssets(root, selector)).rejects.toMatchObject({ code: "NO_MATCH" });
         const saved = await getAsset(root, id, pdf.id, { saved: true, revision: pdf.revision });
         expect(saved.asset.sha256).toBe(pdf.sha256);
+        const declared = assets.find(a => a.id === "standard-rendered-pdf" && catalog.current[a.id] === a.revision);
+        if (declared?.saved) {
+          await expect(getAsset(root, id, "standard-rendered-pdf")).rejects.toMatchObject({ code: "SAVED_OUTPUT" });
+          const preserved = await getAsset(root, id, "standard-rendered-pdf", { saved: true });
+          expect(preserved.asset.sha256).toBe(declared.sha256);
+          expect(preserved.retrieval?.freshness).toBe("not_checked");
+          return;
+        }
         const currentRender = await getAsset(root, id, "standard-rendered-pdf");
         expect(currentRender.asset.input_provenance).toBe("verified");
         expect(currentRender.asset.sha256).not.toBe(pdf.sha256);
@@ -91,7 +99,7 @@ for (const id of books) {
       }
       const result = await searchAssets(root, selector);
       expect(result.matches).toHaveLength(1);
-      expect(result.matches[0]!.availability).toBe("UNVERIFIED_OUTPUT");
+      expect(result.matches[0]!.availability).toBe(pdf.saved ? "SAVED_OUTPUT" : "UNVERIFIED_OUTPUT");
     });
   });
 }

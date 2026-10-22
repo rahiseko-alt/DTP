@@ -1,0 +1,19 @@
+{
+  "pdf": "output/OC黄色帯版_日本人イメージ_構成変更案_2P.pdf",
+  "sha256": "18601d0ad832a6a48a61a6345a89d7ec321c133c804275c8c4c11df08669d47b",
+  "assertions": {
+    "new_dates": true,
+    "no_student_welcome": true,
+    "front_activity_title": true,
+    "front_removed_items": true,
+    "two_pages": true,
+    "all_images_loaded": true
+  },
+  "layout": {
+    "back_life_access_gap_px": 9.546875,
+    "front_qr_label_remaining_px": 6.1875,
+    "front_footer_remaining_px": 0.015625
+  },
+  "browser": "154.0.8037.57",
+  "release": false
+}

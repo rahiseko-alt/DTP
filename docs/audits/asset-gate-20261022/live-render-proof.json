@@ -1,0 +1,21 @@
+{
+  "root": "/tmp/dtp-gate-live-g7wKHs",
+  "renderer": "real Chromium render, not mocked",
+  "browser": "/usr/bin/chromium",
+  "rendered": {
+    "document": "smoke",
+    "pdf": "books/smoke/output/standard-render/standard-rendered-pdf/6a9dded642abfc6c17f83bebd28c1005a394f7d54e0554695c38cf73f83d30c4/standard-rendered-pdf.pdf",
+    "previews": [
+      "books/smoke/output/standard-render/standard-rendered-page-001/1db597abd21c30b90bfb37dff3ddc4065b37cccbc0492855d3d79d1d3b96dd97/standard-rendered-page-001.png",
+      "books/smoke/output/standard-render/standard-rendered-page-002/ba97fcbe0aa16f5c401d365c9d457ae3bf92e0a5cffcca2920770cbee432c98f/standard-rendered-page-002.png"
+    ],
+    "receipt": ".cache/standard-render-receipts/deb602a8-cd61-4695-86e0-4b04503a06ab.json"
+  },
+  "output_sha256": "6a9dded642abfc6c17f83bebd28c1005a394f7d54e0554695c38cf73f83d30c4",
+  "input_count": 1556,
+  "full_check_before": [],
+  "unused_candidate_after_sync": "accepted",
+  "full_check_after_unused": [],
+  "used_photo_change": "STALE_OUTPUT",
+  "release": false
+}

@@ -1,0 +1,32 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath,pathToFileURL } from 'node:url';
+import crypto from 'node:crypto';
+import http from 'node:http';
+import {chromium} from 'playwright';
+const book=path.dirname(fileURLToPath(import.meta.url));
+const output=path.join(book,'output');
+const root=path.resolve(book,'../..');
+const server=http.createServer(async(req,res)=>{try{const rel=decodeURIComponent(new URL(req.url,'http://localhost').pathname);const file=path.resolve(root,'.'+rel);if(!file.startsWith(root+path.sep)){res.writeHead(403);res.end();return;}let bytes=await fs.readFile(file);const ext=path.extname(file);const types={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.png':'image/png','.jpg':'image/jpeg','.svg':'image/svg+xml','.woff2':'font/woff2','.woff':'font/woff'};res.setHeader('Content-Type',types[ext]||'application/octet-stream');if(ext==='.html')bytes=Buffer.from(bytes.toString().replaceAll(pathToFileURL(root).href,'http://'+req.headers.host));res.end(bytes);}catch{res.writeHead(404);res.end();}});
+await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
+const base='http://127.0.0.1:'+server.address().port;
+const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
+try{
+ const page=await browser.newPage({viewport:{width:794,height:1123},deviceScaleFactor:2});
+ await page.goto(base+'/'+path.relative(root,path.join(output,'flyer.html')).split(path.sep).join('/'),{waitUntil:'networkidle'});
+ await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.images].map(im=>im.decode()));});
+ const imageProblems=await page.evaluate(()=>[...document.images].filter(im=>!im.complete||!im.naturalWidth).map(im=>im.src));
+ if(imageProblems.length)throw Error('Missing image: '+imageProblems.join(','));
+ for(let i=0;i<2;i++)await page.locator('.page').nth(i).screenshot({path:path.join(output,`page-${i+1}.png`)});
+ await page.emulateMedia({media:'print'});
+ const pdf=path.join(output,'OC黄色帯版_日本人イメージ_構成変更案_2P.pdf');
+ await page.pdf({path:pdf,format:'A4',printBackground:true,preferCSSPageSize:true,displayHeaderFooter:false});
+ const layout=await page.evaluate(()=>{const box=s=>document.querySelector(s).getBoundingClientRect();const life=box('.life'),access=box('.access'),front=box('.front'),footer=box('.front-contact'),qrlabel=box('.front-contact .qr-contact span');return {back_life_access_gap_px:access.top-life.bottom,front_qr_label_remaining_px:front.bottom-qrlabel.bottom,front_footer_remaining_px:front.bottom-footer.bottom};});
+ if(layout.back_life_access_gap_px<0||layout.front_qr_label_remaining_px<0)throw Error('Layout overflow '+JSON.stringify(layout));
+ const text=await page.locator('body').innerText();
+ const assertions={new_dates:['11/21','12/5','12/19'].every(v=>text.replaceAll('\n','').includes(v)),no_student_welcome:!text.includes('留学生歓迎'),front_activity_title:(await page.locator('.experience h2').innerText())==='オープンキャンパスでできること',front_removed_items:!(await page.locator('.front').innerText()).includes('在校生と話せる')&&!(await page.locator('.front').innerText()).includes('進路を相談できる'),two_pages:await page.locator('.page').count()===2,all_images_loaded:imageProblems.length===0};
+ if(Object.values(assertions).some(v=>v!==true))throw Error(JSON.stringify(assertions));
+ const h=crypto.createHash('sha256').update(await fs.readFile(pdf)).digest('hex');
+ await fs.writeFile(path.join(book,'reviews/render-proof.json'),JSON.stringify({pdf:path.relative(book,pdf),sha256:h,assertions,layout,browser:await browser.version(),release:false},null,2)+'\n');
+ process.stdout.write(JSON.stringify({pdf,sha256:h,assertions})+'\n');
+}finally{await browser.close();await new Promise(resolve=>server.close(resolve));}

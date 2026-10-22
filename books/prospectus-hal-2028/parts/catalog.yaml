@@ -1,351 +1,508 @@
-# 入力集合は依存追跡を導入した時点のスナップショットで、既存PDF/PNGの生成証跡ではない。
-# 既存出力の input_provenance は再描画・入力整合性確認まで unverified。実体確認とSHA/サイズは維持する。
-# プレビューは approved-original の入力集合・写真依存も引き継ぐ。
-schema_version: 1
-document: prospectus-hal-2028
-current:
-  approved-original: a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1
-  preview-page-001: e9437f81f3621b2c32ce633bb2518ec202c1422924e680748f91083fe9a9cfd4
-  preview-page-002: 4b8fb72793663bb32a47f03721b51fa1b22183fc56a1d4129678daf1028e2aba
-  preview-page-003: dd3c3cedc72c0964a20845fb37a9b68c2d5ab4fefb1ab8cf504a711f9ea19961
-  preview-page-004: 7777c2512615017eade361f823d59808250d6494a595d4940ab6a243d99db070
-  preview-page-005: bd483d3eeda0f601a8bc6e716ee33b53d1c388e4150e76cf5b2918fb8056f6cc
-  preview-page-006: de99813499eaec039e62412393c912679e750e37142fddefea343afb71d5183e
-  preview-page-007: 0cbaff69cd483839c5e119296ad16b4a21184089f705c4b5d1e5dbac57bbc5de
-  preview-page-008: ff604ef7aef5f51ce9f8abee33ccb32871ce713a19b17949ec81a309a5a8d471
-  preview-page-009: 9eb8368f511424037a5017c81ca19fb5e489de7b41b53e5de09df55714553781
-  preview-page-010: f6878b0774075907f89ca1d8bad5a028a7a04ac4f9b4bcc8eac22d7f96a90590
-  preview-page-011: b0308945fb3ff3711a5c383721f2398e0c204a8b3a122ba05da35ae810c7007c
-  preview-page-012: 723e209bef2f38bd443e57af409cc626a7de8c9d27bf800cadd9cf66372ebebb
-  student-dsc-1264: b3970c004e0760098f47cb134ecab98bac25a086a789c714b223284c463f87f2
-  student-img-5069: f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6
-  student-img-5074: b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba
-  student-img-5238: 256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696
-  student-img-5073: 90acf88594920e32036bcde16d753f1f614cd8942c76f3d230cc53ad109e7cd1
-  student-img-5235: 2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb
-  student-dsc-1164: a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633
-assets:
-  - id: approved-original
-    variant: standard-render
-    role: original
-    media: pdf
-    file: books/prospectus-hal-2028/output/pdf/prospectus-hal-2028.pdf
-    revision: a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1
-    sha256: a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1
-    size: 26770696
-    relation: root
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: student-dsc-1264
-        revision: b3970c004e0760098f47cb134ecab98bac25a086a789c714b223284c463f87f2
-      - id: student-img-5069
-        revision: f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6
-      - id: student-img-5074
-        revision: b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba
-      - id: student-img-5238
-        revision: 256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696
-      - id: student-img-5073
-        revision: 90acf88594920e32036bcde16d753f1f614cd8942c76f3d230cc53ad109e7cd1
-      - id: student-img-5235
-        revision: 2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb
-      - id: student-dsc-1164
-        revision: a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633
-    external_inputs: []
-    external_input_globs:
-      - pattern: company-data/{facts,brand,copy,photos}/**/*
-        sha256: 7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4
-      - pattern: shared/{components,layouts,generated-assets}/**/*
-        sha256: ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0
-      - pattern: books/prospectus-hal-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}
-        sha256: fa6ce9b878b672b7ed1b39d9c7eb7c665a45860e2cc26eea8a39cf3728be606b
-      - pattern: system/design-engine/src/**/*
-        sha256: 68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f
-      - pattern: system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}
-        sha256: ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478
-      - pattern: package{,-lock}.json
-        sha256: dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4
-  - id: preview-page-001
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/prospectus-hal-2028/output/png/page_001.png
-    revision: e9437f81f3621b2c32ce633bb2518ec202c1422924e680748f91083fe9a9cfd4
-    sha256: e9437f81f3621b2c32ce633bb2518ec202c1422924e680748f91083fe9a9cfd4
-    size: 5350754
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1
-    external_inputs: []
-  - id: preview-page-002
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/prospectus-hal-2028/output/png/page_002.png
-    revision: 4b8fb72793663bb32a47f03721b51fa1b22183fc56a1d4129678daf1028e2aba
-    sha256: 4b8fb72793663bb32a47f03721b51fa1b22183fc56a1d4129678daf1028e2aba
-    size: 3405660
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1
-    external_inputs: []
-  - id: preview-page-003
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/prospectus-hal-2028/output/png/page_003.png
-    revision: dd3c3cedc72c0964a20845fb37a9b68c2d5ab4fefb1ab8cf504a711f9ea19961
-    sha256: dd3c3cedc72c0964a20845fb37a9b68c2d5ab4fefb1ab8cf504a711f9ea19961
-    size: 1153891
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1
-    external_inputs: []
-  - id: preview-page-004
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/prospectus-hal-2028/output/png/page_004.png
-    revision: 7777c2512615017eade361f823d59808250d6494a595d4940ab6a243d99db070
-    sha256: 7777c2512615017eade361f823d59808250d6494a595d4940ab6a243d99db070
-    size: 1229193
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1
-    external_inputs: []
-  - id: preview-page-005
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/prospectus-hal-2028/output/png/page_005.png
-    revision: bd483d3eeda0f601a8bc6e716ee33b53d1c388e4150e76cf5b2918fb8056f6cc
-    sha256: bd483d3eeda0f601a8bc6e716ee33b53d1c388e4150e76cf5b2918fb8056f6cc
-    size: 128413
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1
-    external_inputs: []
-  - id: preview-page-006
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/prospectus-hal-2028/output/png/page_006.png
-    revision: de99813499eaec039e62412393c912679e750e37142fddefea343afb71d5183e
-    sha256: de99813499eaec039e62412393c912679e750e37142fddefea343afb71d5183e
-    size: 2464487
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1
-    external_inputs: []
-  - id: preview-page-007
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/prospectus-hal-2028/output/png/page_007.png
-    revision: 0cbaff69cd483839c5e119296ad16b4a21184089f705c4b5d1e5dbac57bbc5de
-    sha256: 0cbaff69cd483839c5e119296ad16b4a21184089f705c4b5d1e5dbac57bbc5de
-    size: 889413
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1
-    external_inputs: []
-  - id: preview-page-008
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/prospectus-hal-2028/output/png/page_008.png
-    revision: ff604ef7aef5f51ce9f8abee33ccb32871ce713a19b17949ec81a309a5a8d471
-    sha256: ff604ef7aef5f51ce9f8abee33ccb32871ce713a19b17949ec81a309a5a8d471
-    size: 1669337
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1
-    external_inputs: []
-  - id: preview-page-009
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/prospectus-hal-2028/output/png/page_009.png
-    revision: 9eb8368f511424037a5017c81ca19fb5e489de7b41b53e5de09df55714553781
-    sha256: 9eb8368f511424037a5017c81ca19fb5e489de7b41b53e5de09df55714553781
-    size: 1275427
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1
-    external_inputs: []
-  - id: preview-page-010
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/prospectus-hal-2028/output/png/page_010.png
-    revision: f6878b0774075907f89ca1d8bad5a028a7a04ac4f9b4bcc8eac22d7f96a90590
-    sha256: f6878b0774075907f89ca1d8bad5a028a7a04ac4f9b4bcc8eac22d7f96a90590
-    size: 130459
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1
-    external_inputs: []
-  - id: preview-page-011
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/prospectus-hal-2028/output/png/page_011.png
-    revision: b0308945fb3ff3711a5c383721f2398e0c204a8b3a122ba05da35ae810c7007c
-    sha256: b0308945fb3ff3711a5c383721f2398e0c204a8b3a122ba05da35ae810c7007c
-    size: 117903
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1
-    external_inputs: []
-  - id: preview-page-012
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/prospectus-hal-2028/output/png/page_012.png
-    revision: 723e209bef2f38bd443e57af409cc626a7de8c9d27bf800cadd9cf66372ebebb
-    sha256: 723e209bef2f38bd443e57af409cc626a7de8c9d27bf800cadd9cf66372ebebb
-    size: 98611
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1
-    external_inputs: []
-  - id: student-dsc-1264
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-dsc-1264
-    revision: b3970c004e0760098f47cb134ecab98bac25a086a789c714b223284c463f87f2
-    sha256: b3970c004e0760098f47cb134ecab98bac25a086a789c714b223284c463f87f2
-    size: 2595115
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: student-img-5069
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-img-5069
-    revision: f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6
-    sha256: f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6
-    size: 2676415
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: student-img-5074
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-img-5074
-    revision: b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba
-    sha256: b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba
-    size: 3100678
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: student-img-5238
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-img-5238
-    revision: 256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696
-    sha256: 256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696
-    size: 2454424
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: student-img-5073
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-img-5073
-    revision: 90acf88594920e32036bcde16d753f1f614cd8942c76f3d230cc53ad109e7cd1
-    sha256: 90acf88594920e32036bcde16d753f1f614cd8942c76f3d230cc53ad109e7cd1
-    size: 2028583
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: student-img-5235
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-img-5235
-    revision: 2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb
-    sha256: 2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb
-    size: 2413058
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: student-dsc-1164
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-dsc-1164
-    revision: a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633
-    sha256: a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633
-    size: 4707440
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
+{
+  "schema_version": 1,
+  "document": "prospectus-hal-2028",
+  "current": {
+    "approved-original": "a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1",
+    "preview-page-001": "e9437f81f3621b2c32ce633bb2518ec202c1422924e680748f91083fe9a9cfd4",
+    "preview-page-002": "4b8fb72793663bb32a47f03721b51fa1b22183fc56a1d4129678daf1028e2aba",
+    "preview-page-003": "dd3c3cedc72c0964a20845fb37a9b68c2d5ab4fefb1ab8cf504a711f9ea19961",
+    "preview-page-004": "7777c2512615017eade361f823d59808250d6494a595d4940ab6a243d99db070",
+    "preview-page-005": "bd483d3eeda0f601a8bc6e716ee33b53d1c388e4150e76cf5b2918fb8056f6cc",
+    "preview-page-006": "de99813499eaec039e62412393c912679e750e37142fddefea343afb71d5183e",
+    "preview-page-007": "0cbaff69cd483839c5e119296ad16b4a21184089f705c4b5d1e5dbac57bbc5de",
+    "preview-page-008": "ff604ef7aef5f51ce9f8abee33ccb32871ce713a19b17949ec81a309a5a8d471",
+    "preview-page-009": "9eb8368f511424037a5017c81ca19fb5e489de7b41b53e5de09df55714553781",
+    "preview-page-010": "f6878b0774075907f89ca1d8bad5a028a7a04ac4f9b4bcc8eac22d7f96a90590",
+    "preview-page-011": "b0308945fb3ff3711a5c383721f2398e0c204a8b3a122ba05da35ae810c7007c",
+    "preview-page-012": "723e209bef2f38bd443e57af409cc626a7de8c9d27bf800cadd9cf66372ebebb",
+    "student-dsc-1264": "b3970c004e0760098f47cb134ecab98bac25a086a789c714b223284c463f87f2",
+    "student-img-5069": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+    "student-img-5074": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+    "student-img-5238": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+    "student-img-5073": "90acf88594920e32036bcde16d753f1f614cd8942c76f3d230cc53ad109e7cd1",
+    "student-img-5235": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb",
+    "student-dsc-1164": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633"
+  },
+  "assets": [
+    {
+      "id": "approved-original",
+      "variant": "standard-render",
+      "role": "original",
+      "media": "pdf",
+      "revision": "a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1",
+      "file": "books/prospectus-hal-2028/output/pdf/prospectus-hal-2028.pdf",
+      "sha256": "a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1",
+      "size": 26770696,
+      "relation": "root",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/prospectus-hal-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "fa6ce9b878b672b7ed1b39d9c7eb7c665a45860e2cc26eea8a39cf3728be606b"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "student-dsc-1264",
+          "revision": "b3970c004e0760098f47cb134ecab98bac25a086a789c714b223284c463f87f2"
+        },
+        {
+          "id": "student-img-5069",
+          "revision": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6"
+        },
+        {
+          "id": "student-img-5074",
+          "revision": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba"
+        },
+        {
+          "id": "student-img-5238",
+          "revision": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696"
+        },
+        {
+          "id": "student-img-5073",
+          "revision": "90acf88594920e32036bcde16d753f1f614cd8942c76f3d230cc53ad109e7cd1"
+        },
+        {
+          "id": "student-img-5235",
+          "revision": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb"
+        },
+        {
+          "id": "student-dsc-1164",
+          "revision": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:41.297Z"
+      }
+    },
+    {
+      "id": "preview-page-001",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "e9437f81f3621b2c32ce633bb2518ec202c1422924e680748f91083fe9a9cfd4",
+      "file": "books/prospectus-hal-2028/output/png/page_001.png",
+      "sha256": "e9437f81f3621b2c32ce633bb2518ec202c1422924e680748f91083fe9a9cfd4",
+      "size": 5350754,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:41.297Z"
+      }
+    },
+    {
+      "id": "preview-page-002",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "4b8fb72793663bb32a47f03721b51fa1b22183fc56a1d4129678daf1028e2aba",
+      "file": "books/prospectus-hal-2028/output/png/page_002.png",
+      "sha256": "4b8fb72793663bb32a47f03721b51fa1b22183fc56a1d4129678daf1028e2aba",
+      "size": 3405660,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:41.297Z"
+      }
+    },
+    {
+      "id": "preview-page-003",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "dd3c3cedc72c0964a20845fb37a9b68c2d5ab4fefb1ab8cf504a711f9ea19961",
+      "file": "books/prospectus-hal-2028/output/png/page_003.png",
+      "sha256": "dd3c3cedc72c0964a20845fb37a9b68c2d5ab4fefb1ab8cf504a711f9ea19961",
+      "size": 1153891,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:41.297Z"
+      }
+    },
+    {
+      "id": "preview-page-004",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "7777c2512615017eade361f823d59808250d6494a595d4940ab6a243d99db070",
+      "file": "books/prospectus-hal-2028/output/png/page_004.png",
+      "sha256": "7777c2512615017eade361f823d59808250d6494a595d4940ab6a243d99db070",
+      "size": 1229193,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:41.297Z"
+      }
+    },
+    {
+      "id": "preview-page-005",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "bd483d3eeda0f601a8bc6e716ee33b53d1c388e4150e76cf5b2918fb8056f6cc",
+      "file": "books/prospectus-hal-2028/output/png/page_005.png",
+      "sha256": "bd483d3eeda0f601a8bc6e716ee33b53d1c388e4150e76cf5b2918fb8056f6cc",
+      "size": 128413,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:41.297Z"
+      }
+    },
+    {
+      "id": "preview-page-006",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "de99813499eaec039e62412393c912679e750e37142fddefea343afb71d5183e",
+      "file": "books/prospectus-hal-2028/output/png/page_006.png",
+      "sha256": "de99813499eaec039e62412393c912679e750e37142fddefea343afb71d5183e",
+      "size": 2464487,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:41.297Z"
+      }
+    },
+    {
+      "id": "preview-page-007",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "0cbaff69cd483839c5e119296ad16b4a21184089f705c4b5d1e5dbac57bbc5de",
+      "file": "books/prospectus-hal-2028/output/png/page_007.png",
+      "sha256": "0cbaff69cd483839c5e119296ad16b4a21184089f705c4b5d1e5dbac57bbc5de",
+      "size": 889413,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:41.297Z"
+      }
+    },
+    {
+      "id": "preview-page-008",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "ff604ef7aef5f51ce9f8abee33ccb32871ce713a19b17949ec81a309a5a8d471",
+      "file": "books/prospectus-hal-2028/output/png/page_008.png",
+      "sha256": "ff604ef7aef5f51ce9f8abee33ccb32871ce713a19b17949ec81a309a5a8d471",
+      "size": 1669337,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:41.297Z"
+      }
+    },
+    {
+      "id": "preview-page-009",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "9eb8368f511424037a5017c81ca19fb5e489de7b41b53e5de09df55714553781",
+      "file": "books/prospectus-hal-2028/output/png/page_009.png",
+      "sha256": "9eb8368f511424037a5017c81ca19fb5e489de7b41b53e5de09df55714553781",
+      "size": 1275427,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:41.297Z"
+      }
+    },
+    {
+      "id": "preview-page-010",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "f6878b0774075907f89ca1d8bad5a028a7a04ac4f9b4bcc8eac22d7f96a90590",
+      "file": "books/prospectus-hal-2028/output/png/page_010.png",
+      "sha256": "f6878b0774075907f89ca1d8bad5a028a7a04ac4f9b4bcc8eac22d7f96a90590",
+      "size": 130459,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:41.297Z"
+      }
+    },
+    {
+      "id": "preview-page-011",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "b0308945fb3ff3711a5c383721f2398e0c204a8b3a122ba05da35ae810c7007c",
+      "file": "books/prospectus-hal-2028/output/png/page_011.png",
+      "sha256": "b0308945fb3ff3711a5c383721f2398e0c204a8b3a122ba05da35ae810c7007c",
+      "size": 117903,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:41.297Z"
+      }
+    },
+    {
+      "id": "preview-page-012",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "723e209bef2f38bd443e57af409cc626a7de8c9d27bf800cadd9cf66372ebebb",
+      "file": "books/prospectus-hal-2028/output/png/page_012.png",
+      "sha256": "723e209bef2f38bd443e57af409cc626a7de8c9d27bf800cadd9cf66372ebebb",
+      "size": 98611,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "a11df431a656515ecd6a4f6f395d051d5685ade30693460dbb58ed8038a6a1e1"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:41.297Z"
+      }
+    },
+    {
+      "id": "student-dsc-1264",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "b3970c004e0760098f47cb134ecab98bac25a086a789c714b223284c463f87f2",
+      "photo_ref": "student-dsc-1264",
+      "sha256": "b3970c004e0760098f47cb134ecab98bac25a086a789c714b223284c463f87f2",
+      "size": 2595115,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "student-img-5069",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+      "photo_ref": "student-img-5069",
+      "sha256": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+      "size": 2676415,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "student-img-5074",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+      "photo_ref": "student-img-5074",
+      "sha256": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+      "size": 3100678,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "student-img-5238",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+      "photo_ref": "student-img-5238",
+      "sha256": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+      "size": 2454424,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "student-img-5073",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "90acf88594920e32036bcde16d753f1f614cd8942c76f3d230cc53ad109e7cd1",
+      "photo_ref": "student-img-5073",
+      "sha256": "90acf88594920e32036bcde16d753f1f614cd8942c76f3d230cc53ad109e7cd1",
+      "size": 2028583,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "student-img-5235",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb",
+      "photo_ref": "student-img-5235",
+      "sha256": "2ae64c70a8080d4676140634cfe1628c2cb484e6534785ae82f17250d3306deb",
+      "size": 2413058,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "student-dsc-1164",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+      "photo_ref": "student-dsc-1164",
+      "sha256": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+      "size": 4707440,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    }
+  ]
+}

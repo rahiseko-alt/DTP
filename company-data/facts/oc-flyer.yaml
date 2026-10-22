@@ -1,0 +1,13 @@
+# 出典: 2026-10-22 ユーザーによるOC黄色帯チラシへの明示指示。
+# 年・曜日の指定はないため推定しない。
+dates:
+  - "11/21"
+  - "12/5"
+  - "12/19"
+date_year: null
+date_weekdays: null
+contact_id: oc-flyer-email
+contact_qr: shared/generated-assets/qr/qr-mailto-aibusiness-kaihougakuen.svg
+experience_heading: オープンキャンパスでできること
+experience_items: [1]
+source: 2026-10-22のユーザー指示。写真を日本人版にし、体験項目2・3と留学生歓迎を削除。メールとQRは保存済みgmail宛へ統一。

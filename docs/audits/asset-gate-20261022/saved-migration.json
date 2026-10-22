@@ -1,0 +1,133 @@
+{
+  "results": [
+    {
+      "document": "prospectus-hal-2028",
+      "saved_ids": [
+        "approved-original",
+        "preview-page-001",
+        "preview-page-002",
+        "preview-page-003",
+        "preview-page-004",
+        "preview-page-005",
+        "preview-page-006",
+        "preview-page-007",
+        "preview-page-008",
+        "preview-page-009",
+        "preview-page-010",
+        "preview-page-011",
+        "preview-page-012"
+      ],
+      "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+      "bytes_changed": false,
+      "input_evidence_renewed": false,
+      "dry_run": false
+    },
+    {
+      "document": "avatar-oc-2028",
+      "saved_ids": [
+        "approved-original",
+        "preview-page-1",
+        "preview-page-2"
+      ],
+      "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+      "bytes_changed": false,
+      "input_evidence_renewed": false,
+      "dry_run": false
+    },
+    {
+      "document": "admissions-guide-2027",
+      "saved_ids": [
+        "standard-rendered-pdf",
+        "standard-rendered-page-001",
+        "standard-rendered-page-002",
+        "standard-rendered-page-003",
+        "standard-rendered-page-004",
+        "standard-rendered-page-005",
+        "standard-rendered-page-007",
+        "standard-rendered-page-006",
+        "standard-rendered-page-008",
+        "standard-rendered-page-015",
+        "standard-rendered-page-017",
+        "standard-rendered-page-009",
+        "standard-rendered-page-018",
+        "standard-rendered-page-010",
+        "standard-rendered-page-019",
+        "standard-rendered-page-011",
+        "standard-rendered-page-020",
+        "standard-rendered-page-012",
+        "standard-rendered-page-021",
+        "standard-rendered-page-013",
+        "standard-rendered-page-022",
+        "standard-rendered-page-014",
+        "standard-rendered-page-023",
+        "standard-rendered-page-016",
+        "standard-rendered-page-024",
+        "adopted-map-print-proof",
+        "latest-print-a3",
+        "latest-print-a4",
+        "adopted-map-all-pages",
+        "adopted-map-comparison"
+      ],
+      "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+      "bytes_changed": false,
+      "input_evidence_renewed": false,
+      "dry_run": false
+    },
+    {
+      "document": "prospectus-isen-trial-2028",
+      "saved_ids": [
+        "access-revision-record",
+        "standard-rendered-pdf",
+        "standard-rendered-page-001",
+        "standard-rendered-page-002",
+        "standard-rendered-page-003",
+        "standard-rendered-page-004",
+        "access-rollout-proof",
+        "latest-prospectus-pdf",
+        "adopted-map-print-proof",
+        "latest-print-a3",
+        "latest-print-a4",
+        "adopted-map-all-pages"
+      ],
+      "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+      "bytes_changed": false,
+      "input_evidence_renewed": false,
+      "dry_run": false
+    },
+    {
+      "document": "oc-approved-20261017",
+      "saved_ids": [
+        "latest-original-oc-pdf",
+        "latest-original-oc-front",
+        "latest-original-oc-back",
+        "original-map-print-proof",
+        "latest-print-a4"
+      ],
+      "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+      "bytes_changed": false,
+      "input_evidence_renewed": false,
+      "dry_run": false
+    },
+    {
+      "document": "prospectus-isen-trial-2028",
+      "saved_ids": [
+        "jp-isen-overview-13",
+        "jp-isen-overview-05",
+        "jp-isen-overview-09",
+        "jp-isen-reading-pdf",
+        "jp-isen-print-a3",
+        "jp-isen-print-a4",
+        "jp-isen-master-pdf",
+        "jp-isen-assembly-proof",
+        "jp-isen-overview-01"
+      ],
+      "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+      "bytes_changed": false,
+      "input_evidence_renewed": false,
+      "dry_run": false
+    }
+  ],
+  "checked_files": 277,
+  "output_bytes_unchanged": true,
+  "old_input_evidence_renewed": false
+}

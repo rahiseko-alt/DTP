@@ -863,6 +863,7 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "retired": true,
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -899,8 +900,7 @@
           "id": "main-merge-audit",
           "revision": "7d367276bbc40dab69ea3c073236d6db1c558307b360cdb981dcc5078ee74850"
         }
-      ],
-      "retired": true
+      ]
     },
     {
       "id": "saddle-print-record",
@@ -947,6 +947,7 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "retired": true,
       "external_inputs": [],
       "built_from": [
         {
@@ -957,8 +958,7 @@
           "id": "saddle-print-record",
           "revision": "a3b0f6c0245983cc52f4aeb0122b2b58a7285d1fba903fc2189c926be41f331a"
         }
-      ],
-      "retired": true
+      ]
     },
     {
       "id": "saddle-print-a4",
@@ -973,6 +973,7 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "retired": true,
       "external_inputs": [],
       "built_from": [
         {
@@ -983,8 +984,7 @@
           "id": "saddle-print-record",
           "revision": "a3b0f6c0245983cc52f4aeb0122b2b58a7285d1fba903fc2189c926be41f331a"
         }
-      ],
-      "retired": true
+      ]
     },
     {
       "id": "saddle-print-light-record",
@@ -1019,6 +1019,7 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "retired": true,
       "external_inputs": [],
       "built_from": [
         {
@@ -1029,8 +1030,7 @@
           "id": "saddle-print-light-record",
           "revision": "b31d63aa0ed2ab7ee80ab83d5b31279536227eb1ba558070424eb93e83a83358"
         }
-      ],
-      "retired": true
+      ]
     },
     {
       "id": "saddle-print-light-a4",
@@ -1045,6 +1045,7 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "retired": true,
       "external_inputs": [],
       "built_from": [
         {
@@ -1055,8 +1056,7 @@
           "id": "saddle-print-light-record",
           "revision": "b31d63aa0ed2ab7ee80ab83d5b31279536227eb1ba558070424eb93e83a83358"
         }
-      ],
-      "retired": true
+      ]
     },
     {
       "id": "standard-render-config",
@@ -1118,7 +1118,11 @@
           "id": "standard-render-config",
           "revision": "a5903118f91db71d42444363b88c52523dc75b9c2a20af35448790b48a5e365f"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-001",
@@ -1165,7 +1169,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-002",
@@ -1212,7 +1220,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-003",
@@ -1259,7 +1271,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-004",
@@ -1306,7 +1322,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-005",
@@ -1353,7 +1373,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-007",
@@ -1400,7 +1424,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-006",
@@ -1447,7 +1475,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-008",
@@ -1494,7 +1526,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-015",
@@ -1541,7 +1577,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-017",
@@ -1588,7 +1628,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-009",
@@ -1635,7 +1679,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-018",
@@ -1682,7 +1730,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-010",
@@ -1729,7 +1781,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-019",
@@ -1776,7 +1832,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-011",
@@ -1823,7 +1883,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-020",
@@ -1870,7 +1934,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-012",
@@ -1917,7 +1985,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-021",
@@ -1964,7 +2036,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-013",
@@ -2011,7 +2087,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-022",
@@ -2058,7 +2138,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-014",
@@ -2105,7 +2189,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-023",
@@ -2152,7 +2240,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-016",
@@ -2199,7 +2291,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "standard-rendered-page-024",
@@ -2246,7 +2342,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "adopted-map-print-builder",
@@ -2285,7 +2385,11 @@
           "id": "adopted-map-print-builder",
           "revision": "857fe82e258f8078ac1f0cdff60d6e09c38b7dd8d04ddba6c67c26e888260ba9"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "latest-print-a3",
@@ -2309,7 +2413,11 @@
           "id": "adopted-map-print-proof",
           "revision": "99de532945bb524480a448cfd6ba48bcde78084662e9c475069d15649bc2d30e"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "latest-print-a4",
@@ -2333,7 +2441,11 @@
           "id": "adopted-map-print-proof",
           "revision": "99de532945bb524480a448cfd6ba48bcde78084662e9c475069d15649bc2d30e"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "adopted-map-all-pages",
@@ -2353,7 +2465,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     },
     {
       "id": "adopted-map-comparison",
@@ -2373,7 +2489,11 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ]
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
     }
   ]
 }

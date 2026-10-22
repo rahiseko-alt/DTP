@@ -147,7 +147,7 @@ docs/concept.md §14 の最重要原則（詳細と具体的な行動: system/ru
 - **完コピ検証は最低 2 ラウンド**: Phase 5 では `npm run compare` による視覚比較と修正を 2 回以上行い、`review.md` に記録する（system/rules/review.md）
 - **docs/concept.md を編集しない**
 - **バイナリは Git LFS**: png / jpg / jpeg / pdf / webp / tif / psd / ai は `.gitattributes` で LFS 管理
-- **検証を通す**: マージ前に、セッション内で `npm run doctor`・`npm run check`・変更した BOOK の `npm run render`・出力 PNG の目視を行う（自動 CI はないため、これが唯一の検証）。未完了・不合格の途中保存は§2に従い、合格とは扱わない。`approved` のページを変えたら理由をコミットメッセージに書く
+- **検証を通す**: マージ前に、セッション内で `npm run doctor`・`npm run check`・変更した BOOK の `npm run render`・出力 PNG の目視を行う（ローカルで紙面と全体を検証し、GitHubの必須asset-integrityも通す）。未完了・不合格の途中保存は§2に従い、合格とは扱わない。`approved` のページを変えたら理由をコミットメッセージに書く
 - **保護機構（Phase 7）はまだ導入しない**: PreToolUse フック・権限設定・Git 差分チェックは Phase 6 の baseline 確定後に導入する（system/rules/protection.md）
 
 ## 8. どこに何を置くか

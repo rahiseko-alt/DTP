@@ -1,0 +1,262 @@
+{
+  "date": "2026-10-22T00:17:33.073Z",
+  "scope": "read-only audit; /tmp fixture only; no repository or settings changes",
+  "input_glob_comparison": [
+    {
+      "document": "prospectus-hal-2028",
+      "direct_mismatch_count": 1,
+      "assets": [
+        {
+          "asset": "approved-original",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        }
+      ]
+    },
+    {
+      "document": "prospectus-isen-trial-2028",
+      "direct_mismatch_count": 5,
+      "assets": [
+        {
+          "asset": "standard-rendered-pdf",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-001",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-002",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-003",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-004",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        }
+      ]
+    },
+    {
+      "document": "admissions-guide-2027",
+      "direct_mismatch_count": 25,
+      "assets": [
+        {
+          "asset": "standard-rendered-pdf",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-001",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-002",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-003",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-004",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-005",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-007",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-006",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-008",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-015",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-017",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-009",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-018",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-010",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-019",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-011",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-020",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-012",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-021",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-013",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-022",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-014",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-023",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-016",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        },
+        {
+          "asset": "standard-rendered-page-024",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        }
+      ]
+    },
+    {
+      "document": "avatar-oc-2028",
+      "direct_mismatch_count": 1,
+      "assets": [
+        {
+          "asset": "approved-original",
+          "pattern_mismatches": [
+            "shared/{components,layouts,generated-assets}/**/*"
+          ]
+        }
+      ]
+    }
+  ],
+  "fixture": {
+    "unrelated_addition_changes_broad_input_hash": true,
+    "actual_specific_input_hash_unchanged": true
+  },
+  "current_asset_check": {
+    "counts": {
+      "STALE_OUTPUT": 46,
+      "LEGACY_NEW": 494,
+      "LEGACY_CHANGED": 1
+    },
+    "total": 541,
+    "legacy_groups": {
+      "books/prospectus-jp-isen-2028": 453,
+      "references/school-comparison.md": 1,
+      "shared/generated-assets": 41
+    },
+    "changed": [
+      "LEGACY_CHANGED: references/school-comparison.md"
+    ]
+  },
+  "baseline_sync_dry_run": {
+    "attempted": true,
+    "result": "BASELINE_VALIDATION",
+    "reason": "46 STALE_OUTPUT failures prohibit even a dry-run baseline sync before it reaches baseline modification"
+  },
+  "github": {
+    "run": 39697976264,
+    "job": 119559936978,
+    "conclusion": "failure",
+    "typecheck": "success",
+    "targeted_tests": "success",
+    "failed_step": "Run npm run asset:check"
+  },
+  "evidence": {
+    "hashing": "system/scripts/lib/assets.ts:216-240",
+    "freshness": "system/scripts/lib/assets.ts:537-571",
+    "all_current_check": "system/scripts/lib/assets.ts:758-779",
+    "legacy": "system/scripts/lib/assets.ts:871-903",
+    "baseline_guard": "system/scripts/lib/assets.ts:958-968"
+  }
+}

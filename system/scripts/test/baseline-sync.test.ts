@@ -7,6 +7,7 @@ import {
   syncBaseline,
   checkAssets,
   digest,
+  hashExternalInputGlob,
 } from "../lib/assets.ts";
 import { checkCrossBookPhotoRights } from "../lib/validate.ts";
 import type { CompanyData } from "../../design-engine/src/index.ts";
@@ -91,6 +92,42 @@ describe("asset:baseline-sync and cross-book photo rights", () => {
     // After sync: checkAssets passes
     const check2 = await checkAssets(root);
     expect(check2.errors).toEqual([]);
+  });
+
+  it("synchronizes a legitimate addition despite unrelated stale outputs, without renewing their evidence", async () => {
+    const book = "books/smoke";
+    const originalBytes = "%PDF-1.4\nfixed previous output\n";
+    const png = Buffer.from("iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+j5nQAAAAASUVORK5CYII=", "base64");
+    const original = { id: "original", variant: "original", role: "original", media: "pdf",
+      file: `${book}/output/pdf/old.pdf`, revision: digest(originalBytes), sha256: digest(originalBytes),
+      size: Buffer.byteLength(originalBytes), confirmation: "verified", input_provenance: "verified",
+      external_input_globs: [{ pattern: "shared/**/*", sha256: hashExternalInputGlob(root, "shared/**/*") }] };
+    const preview = { id: "page", variant: "original", role: "preview", media: "image",
+      file: `${book}/output/png/page.png`, revision: digest(png), sha256: digest(png), size: png.length,
+      confirmation: "verified", built_from: [{ id: original.id, revision: original.revision }] };
+    for (const [file, bytes] of [[original.file, originalBytes], [preview.file, png]] as const) {
+      fs.mkdirSync(path.dirname(path.join(root, file)), { recursive: true }); fs.writeFileSync(path.join(root, file), bytes);
+    }
+    fs.mkdirSync(path.join(root, book, "parts"), { recursive: true });
+    const catalogPath = path.join(root, book, "parts/catalog.yaml");
+    fs.writeFileSync(catalogPath, JSON.stringify({ schema_version: 1, document: "smoke",
+      current: { original: original.revision, page: preview.revision }, assets: [original, preview] }));
+    fs.writeFileSync(path.join(root, book, "config/document.yaml"), JSON.stringify({ schema_version: 1,
+      id: "smoke", title: "Smoke original", aliases: [], renderer: "standard-book",
+      catalog: `${book}/parts/catalog.yaml`, managed_roots: [`${book}/parts`], original_sha256: original.sha256,
+      evidence: { filename: "old.pdf", pages: 1, decision: "identified saved source", previews: [preview.file] } }));
+    fs.writeFileSync(path.join(root, "system/assets/policy.json"), JSON.stringify({ required_documents: ["smoke"] }));
+    fs.writeFileSync(path.join(root, "shared/new-candidate.txt"), "a candidate unused by the previous output");
+    const before = fs.readFileSync(catalogPath, "utf8");
+    await expect(syncBaseline(root)).resolves.toMatchObject({ dryRun: false });
+    expect(fs.readFileSync(catalogPath, "utf8")).toBe(before);
+    const report = await checkAssets(root);
+    expect(report.errors.filter(x => x.includes("LEGACY_"))).toEqual([]);
+    expect(report.errors.some(x => x.includes("STALE_OUTPUT"))).toBe(true);
+    fs.writeFileSync(path.join(root, original.file), "%PDF-1.4\ncorrupt replacement\n");
+    const baseline = fs.readFileSync(path.join(root, "system/assets/legacy-baseline.json"), "utf8");
+    await expect(syncBaseline(root)).rejects.toMatchObject({ code: "BASELINE_VALIDATION" });
+    expect(fs.readFileSync(path.join(root, "system/assets/legacy-baseline.json"), "utf8")).toBe(baseline);
   });
 
   it("removes deleted file from baseline on cleanMissing", async () => {

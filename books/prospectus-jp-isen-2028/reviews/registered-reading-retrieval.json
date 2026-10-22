@@ -1,10 +1,10 @@
 {
   "context": {
     "root": "/workspace/DTP",
-    "head": "305a4ebc0d4ceff2d87581c05750f0ffe9f6e13c",
+    "head": "e8fd9f7ec637ecb160cf3d4a28dc9df0f8632e27",
     "branch": "fix/access-map-20261020",
     "dirty": true,
-    "fingerprint": "9f1a58541684d99240a0099343e31d4f633075454bdae400a90fd2d7e95ae208"
+    "fingerprint": "38b9d2a95d48a6fdf42b6494075128892e7433cc9ebd7aded0facd173185e95d"
   },
   "document_id": "prospectus-isen-trial-2028",
   "asset": {
@@ -19,6 +19,10 @@
     "relation": "authored",
     "storage": "canonical",
     "confirmation": "verified",
+    "saved": {
+      "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+      "recorded_at": "2026-10-22T00:28:43.769Z"
+    },
     "external_inputs": [],
     "built_from": [
       {
@@ -27,5 +31,11 @@
       }
     ]
   },
-  "path": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/877ac9a68ab8c468e92c661bc3c17a8bba533ef34b4222b0311c132e704e8e97/jp-isen-reading-pdf.pdf"
+  "path": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/877ac9a68ab8c468e92c661bc3c17a8bba533ef34b4222b0311c132e704e8e97/jp-isen-reading-pdf.pdf",
+  "retrieval": {
+    "mode": "saved",
+    "integrity": "verified",
+    "freshness": "not_checked",
+    "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+  }
 }

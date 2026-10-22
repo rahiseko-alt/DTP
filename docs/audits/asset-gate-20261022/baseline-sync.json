@@ -1,0 +1,98 @@
+{
+  "added": 17,
+  "updated": 1,
+  "removed": 0,
+  "changes": [
+    {
+      "file": "books/oc-yellow-structure-20261022/build.py",
+      "action": "add",
+      "sha256": "cc6d48fa9c8a1dd0617d5fe591cf821bf26123873512038f92772a68c9562303"
+    },
+    {
+      "file": "books/oc-yellow-structure-20261022/register-output.py",
+      "action": "add",
+      "sha256": "037dc684bc4a8d4fb55b7c695631bbfbbe808eae25e26bd38f5cb20b0eef58e1"
+    },
+    {
+      "file": "books/oc-yellow-structure-20261022/render.mjs",
+      "action": "add",
+      "sha256": "6638dfc5a194be4a3f80e48c3420a6a59cf4cb7a12288ce9ed7814b785b82a49"
+    },
+    {
+      "file": "books/oc-yellow-structure-20261022/style.css",
+      "action": "add",
+      "sha256": "e5542b6b115062751038c1e99878cf1612a281e5baca553142e302331dad12d4"
+    },
+    {
+      "file": "books/oc-yellow-structure-20261022/template.html",
+      "action": "add",
+      "sha256": "43cbcdbc0d44ea3c2a4ae2047d9a60e5936a1089e48594251ddcd13c29939647"
+    },
+    {
+      "file": "books/oc-yellow-structure-20261022/verify.py",
+      "action": "add",
+      "sha256": "5c82f9f1e533ed12f4c374350b651131e4235431a36d5db661dad7fc83cf2612"
+    },
+    {
+      "file": "books/oc-yellow-structure-20261022/output/OC黄色帯版_日本人イメージ_構成変更案_2P.pdf",
+      "action": "add",
+      "sha256": "18601d0ad832a6a48a61a6345a89d7ec321c133c804275c8c4c11df08669d47b"
+    },
+    {
+      "file": "books/oc-yellow-structure-20261022/output/flyer.html",
+      "action": "add",
+      "sha256": "e7f6bdc04fcd903b5db48bec0133489a7e7d8ed39777a93093eeb31140d56dda"
+    },
+    {
+      "file": "books/oc-yellow-structure-20261022/output/page-1.png",
+      "action": "add",
+      "sha256": "0b18db5f881dc452d2795bdfc05ba245bd4b75c0d67856941c9265eeabca0a4f"
+    },
+    {
+      "file": "books/oc-yellow-structure-20261022/output/page-2.png",
+      "action": "add",
+      "sha256": "128bc3ea46a2dcb7855b8b0f17eb86038ec65582274c0a61404f08643a1c9351"
+    },
+    {
+      "file": "books/oc-yellow-structure-20261022/reviews/asset-registration.json",
+      "action": "add",
+      "sha256": "b6cbbe7723ea175ca98798c41d553824d348b8c925df35920738599b2c26470e"
+    },
+    {
+      "file": "books/oc-yellow-structure-20261022/reviews/build-inputs.json",
+      "action": "add",
+      "sha256": "feaf21b84dcb3731da328fd2fbfea25b07b3ccebcae12c74a92b34a4b6a851aa"
+    },
+    {
+      "file": "books/oc-yellow-structure-20261022/reviews/final-review.md",
+      "action": "add",
+      "sha256": "81d4eedd65c146fc9e9f599ae6107d1787272452561ee8a1ef8cb5271933621d"
+    },
+    {
+      "file": "books/oc-yellow-structure-20261022/reviews/output-verification.json",
+      "action": "add",
+      "sha256": "8c1ab6fb09f00ac06aa08ad4211bd36abdf5a47e3ad36e2019006e092eeded1f"
+    },
+    {
+      "file": "books/oc-yellow-structure-20261022/reviews/render-proof.json",
+      "action": "add",
+      "sha256": "450581402ca2d32b1d27dc47561c1ee0d3e3483fe8d3ff8a1b73158fe3479ec1"
+    },
+    {
+      "file": "books/oc-yellow-structure-20261022/reviews/source-and-structure.md",
+      "action": "add",
+      "sha256": "f92297f935939411aa278b6c4d7bdeae3c12b53e4a63977e491d22b0f2c98cb2"
+    },
+    {
+      "file": "books/oc-yellow-structure-20261022/reviews/source-identification.json",
+      "action": "add",
+      "sha256": "d78324eea527bdc5b46641a20482a9a745b3ef8bfa796e1988af36f2472568bf"
+    },
+    {
+      "file": "books/prospectus-jp-isen-2028/reviews/registered-reading-retrieval.json",
+      "action": "update",
+      "sha256": "990762ab621dc86ab75ae2f540ed9a0994374788b8f938b6c68e10c84e8b8c3e"
+    }
+  ],
+  "dryRun": false
+}

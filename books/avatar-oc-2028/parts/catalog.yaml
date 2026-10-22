@@ -1,117 +1,168 @@
-# 入力集合は依存追跡を導入した時点のスナップショットで、既存PDF/PNGの生成証跡ではない。
-# 既存出力の input_provenance は再描画・入力整合性確認まで unverified。実体確認とSHA/サイズは維持する。
-# プレビューは approved-original の入力集合・写真依存も引き継ぐ。
-schema_version: 1
-document: avatar-oc-2028
-current:
-  approved-original: 5353c7944fbe6829c7a1746ad365229d54d65ec756973a842a8af5548673a469
-  preview-page-1: f79acc257eeedb47af0fbf1754c274b6e38de951a60b0fc2d3e03ab46429c889
-  preview-page-2: e56407d4bfb4dfecdf09ae8da73e12efa1f06e187b6a01af1580a96199cdbd3a
-  student-dsc-1164: a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633
-  student-img-5238: 256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696
-  student-img-5074: b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba
-assets:
-  - id: approved-original
-    variant: standard-render
-    role: original
-    media: pdf
-    file: books/avatar-oc-2028/output/pdf/avatar-oc-2028.pdf
-    revision: 5353c7944fbe6829c7a1746ad365229d54d65ec756973a842a8af5548673a469
-    sha256: 5353c7944fbe6829c7a1746ad365229d54d65ec756973a842a8af5548673a469
-    size: 33938686
-    relation: root
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: student-dsc-1164
-        revision: a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633
-      - id: student-img-5238
-        revision: 256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696
-      - id: student-img-5074
-        revision: b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba
-    external_inputs: []
-    external_input_globs:
-      - pattern: company-data/{facts,brand,copy,photos}/**/*
-        sha256: 7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4
-      - pattern: shared/{components,layouts,generated-assets}/**/*
-        sha256: ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0
-      - pattern: books/avatar-oc-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}
-        sha256: 0dfdfbdba551e8000dbfaa59a3b22c52f1bebdc25ef6b48630243967d9585cd5
-      - pattern: system/design-engine/src/**/*
-        sha256: 68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f
-      - pattern: system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}
-        sha256: ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478
-      - pattern: package{,-lock}.json
-        sha256: dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4
-  - id: preview-page-1
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/avatar-oc-2028/output/png/page_001.png
-    revision: f79acc257eeedb47af0fbf1754c274b6e38de951a60b0fc2d3e03ab46429c889
-    sha256: f79acc257eeedb47af0fbf1754c274b6e38de951a60b0fc2d3e03ab46429c889
-    size: 10496464
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 5353c7944fbe6829c7a1746ad365229d54d65ec756973a842a8af5548673a469
-    external_inputs: []
-  - id: preview-page-2
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/avatar-oc-2028/output/png/page_002.png
-    revision: e56407d4bfb4dfecdf09ae8da73e12efa1f06e187b6a01af1580a96199cdbd3a
-    sha256: e56407d4bfb4dfecdf09ae8da73e12efa1f06e187b6a01af1580a96199cdbd3a
-    size: 4555484
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 5353c7944fbe6829c7a1746ad365229d54d65ec756973a842a8af5548673a469
-    external_inputs: []
-  - id: student-dsc-1164
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-dsc-1164
-    revision: a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633
-    sha256: a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633
-    size: 4707440
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: student-img-5238
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-img-5238
-    revision: 256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696
-    sha256: 256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696
-    size: 2454424
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: student-img-5074
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-img-5074
-    revision: b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba
-    sha256: b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba
-    size: 3100678
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
+{
+  "schema_version": 1,
+  "document": "avatar-oc-2028",
+  "current": {
+    "approved-original": "5353c7944fbe6829c7a1746ad365229d54d65ec756973a842a8af5548673a469",
+    "preview-page-1": "f79acc257eeedb47af0fbf1754c274b6e38de951a60b0fc2d3e03ab46429c889",
+    "preview-page-2": "e56407d4bfb4dfecdf09ae8da73e12efa1f06e187b6a01af1580a96199cdbd3a",
+    "student-dsc-1164": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+    "student-img-5238": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+    "student-img-5074": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba"
+  },
+  "assets": [
+    {
+      "id": "approved-original",
+      "variant": "standard-render",
+      "role": "original",
+      "media": "pdf",
+      "revision": "5353c7944fbe6829c7a1746ad365229d54d65ec756973a842a8af5548673a469",
+      "file": "books/avatar-oc-2028/output/pdf/avatar-oc-2028.pdf",
+      "sha256": "5353c7944fbe6829c7a1746ad365229d54d65ec756973a842a8af5548673a469",
+      "size": 33938686,
+      "relation": "root",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/avatar-oc-2028/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "0dfdfbdba551e8000dbfaa59a3b22c52f1bebdc25ef6b48630243967d9585cd5"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "student-dsc-1164",
+          "revision": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633"
+        },
+        {
+          "id": "student-img-5238",
+          "revision": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696"
+        },
+        {
+          "id": "student-img-5074",
+          "revision": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:41.679Z"
+      }
+    },
+    {
+      "id": "preview-page-1",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "f79acc257eeedb47af0fbf1754c274b6e38de951a60b0fc2d3e03ab46429c889",
+      "file": "books/avatar-oc-2028/output/png/page_001.png",
+      "sha256": "f79acc257eeedb47af0fbf1754c274b6e38de951a60b0fc2d3e03ab46429c889",
+      "size": 10496464,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "5353c7944fbe6829c7a1746ad365229d54d65ec756973a842a8af5548673a469"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:41.679Z"
+      }
+    },
+    {
+      "id": "preview-page-2",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "e56407d4bfb4dfecdf09ae8da73e12efa1f06e187b6a01af1580a96199cdbd3a",
+      "file": "books/avatar-oc-2028/output/png/page_002.png",
+      "sha256": "e56407d4bfb4dfecdf09ae8da73e12efa1f06e187b6a01af1580a96199cdbd3a",
+      "size": 4555484,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "5353c7944fbe6829c7a1746ad365229d54d65ec756973a842a8af5548673a469"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:41.679Z"
+      }
+    },
+    {
+      "id": "student-dsc-1164",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+      "photo_ref": "student-dsc-1164",
+      "sha256": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+      "size": 4707440,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "student-img-5238",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+      "photo_ref": "student-img-5238",
+      "sha256": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+      "size": 2454424,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "student-img-5074",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+      "photo_ref": "student-img-5074",
+      "sha256": "b56ae594b344f050b62beab611a626dcc1c488f87e37e74872cb13570c8990ba",
+      "size": 3100678,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    }
+  ]
+}
