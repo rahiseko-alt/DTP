@@ -8,7 +8,7 @@ permissions:
 jobs:
   asset-integrity:
     name: asset-integrity
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       STUDIO_CHROMIUM_PATH: /usr/bin/google-chrome
     steps:
@@ -24,7 +24,11 @@ jobs:
           # Freshness fingerprints include brand and shared generated assets too.
           # Hydrate every source payload before hashing; pointers are not inputs.
           git lfs pull --include='books/**,output/pdf/**,references/school-own/**,company-data/**,shared/**'
-      - run: sudo apt-get update && sudo apt-get install -y poppler-utils fonts-noto-cjk
+      - run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
+      - name: Install locked PDF extraction runtime
+        run: |
+          bash system/scripts/setup-extraction-runtime.sh "$RUNNER_TEMP/dtp-extraction"
+          printf '%s\n' "$RUNNER_TEMP/dtp-extraction/env/bin" >> "$GITHUB_PATH"
       - name: Report extraction runtime
         run: |
           python3 - <<'PY'

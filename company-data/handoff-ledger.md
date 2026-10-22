@@ -1,5 +1,13 @@
 # 引継ぎ台帳
 
+## 最新の再開位置：2026-10-22 PR #63のマージ再開
+
+人間がR04後に「マージ」と明示指示。PR #63のマージ承認は有効。ブランチ `fix/oc-yellow-original-photo-edit-20261022`。紙面はR04を維持し、次は必須検査通過後の通常マージ。main保護を回避しない。
+
+- 失敗原因はCIのPoppler24.02.0とrecipeの26.05.0の差。`system/runtime/poppler-linux-64.lock` で26.05.0と全推移依存を配布URL/SHA256まで固定し、共通の導入scriptをCIから利用する。Ubuntuも24.04へ固定。
+- conda-forge版で原本9cropを実際に再抽出し、原本SHAと全PNG SHAが一致。別prefixへのexplicit lock導入と偽SHAの拒否も確認。recipe・役割・登録済み画像・紙面・SHA検査は変更なし。証拠は `docs/audits/extraction-runtime-20261022/`。
+- ローカルの全体checkとGitHub必須検査の結果を確認し、通過後に承認済みmergeを行う。以下は紙面R04時点の記録で、環境差を未修正とする記述は当時の状態。
+
 ## 最新の再開位置：2026-10-22 OC保護者歓迎の位置修正 r04
 
 ブランチとdraft PR #63は継続。最新の選択先は `downloads/latest-materials.json` の `FLY-JP-OC-YELLOW`。制作/再現は `books/oc-yellow-parent-caption-r04-20261022/`。

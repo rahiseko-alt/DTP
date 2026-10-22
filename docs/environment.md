@@ -42,6 +42,8 @@ private repository の clone / pull / push には、その環境で GitHub 認�
 
 `setup.sh` は Node 自体をインストールしない。Git LFS がない場合は `sudo apt-get install git-lfs`、PDF 処理は `poppler-utils`、日本語のシステムフォントは `fonts-noto-cjk` を用意する。root / パスワードなし sudo の環境では setup.sh が不足する Poppler と Chromium の OS 依存を補う。
 
+管理済みPDFの抽出recipeを再検証するLinux x86_64環境では、[固定抽出ランタイム](../system/runtime/README.md)を使用する。`bash system/scripts/setup-extraction-runtime.sh` の後、`.cache/extraction-runtime/env/bin`をPATHの先頭へ置く。CIも同じSHA256 lockのPoppler 26.05.0と依存ライブラリを使い、OS付属Popplerの版差で検査結果が変わらないようにする。
+
 Codex が Windows 側のフォルダーを開いている場合、WSL の独立 checkout へ作業ファイルが自動同期されるわけではない。作業対象を Linux checkout に統一し、Windows 側から必要なら `\\wsl.localhost\Ubuntu\<Linux のパス>` で同じファイルを開く。コマンドは WSL の bash で実行する。並行する担当ごとに別ブランチ・別 checkout を使う。
 
 ## 日常の開始と終了
