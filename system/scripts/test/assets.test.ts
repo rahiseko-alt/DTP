@@ -17,6 +17,7 @@ import {
   recoverRegistration,
   buildIndex,
   verifyIndex,
+  archiveAsset,
   type Asset,
 } from "../lib/assets.ts";
 let root: string;
@@ -158,6 +159,76 @@ const query = () =>
     variant: "rebuild",
     role: "replacement-photo",
   });
+describe("explicit saved revisions", () => {
+  const archive = (ids = ["preview"]) => archiveAsset(root, {
+    document: id, ids, reason: "User-authorized saved review edition; no current render assertion",
+  });
+  it("preserves bytes and old evidence; rejects current get/search but permits explicit saved get", async () => {
+    const c = catalog(); const a = c.assets.find((x: Asset) => x.id === "preview");
+    const before = fs.readFileSync(path.join(root, a.file));
+    await archive();
+    expect(fs.readFileSync(path.join(root, a.file))).toEqual(before);
+    await expect(getAsset(root, id, "preview")).rejects.toMatchObject({ code: "SAVED_OUTPUT" });
+    expect((await getAsset(root, id, "preview", { saved: true })).retrieval?.freshness).toBe("not_checked");
+    const found = await searchAssets(root, { document: id, variant: "rebuild", role: "preview" });
+    expect(found.matches[0]!.availability).toBe("SAVED_OUTPUT");
+    expect((await checkAssets(root)).errors).toEqual([]);
+  });
+  it("archives current dependants so they cannot advertise a saved parent as fresh", async () => {
+    const c = catalog(); const preview = c.assets.find((x: Asset) => x.id === "preview");
+    c.assets.push(entry(b + "/parts/view.png", "view", "support", png, { built_from: [{ id: preview.id, revision: preview.revision }] }));
+    c.current.view = digest(png); save(c);
+    const result = await archive(); expect(result.saved_ids).toContain("view");
+    await expect(getAsset(root, id, "view")).rejects.toMatchObject({ code: "SAVED_OUTPUT" });
+  });
+  it("saved retrieval still rejects corrupt dependency bytes and role mismatches", async () => {
+    await archive();
+    await expect(getAsset(root, id, "preview", { saved: true, role: "original" })).rejects.toMatchObject({ code: "SELECTOR" });
+    write(b + "/text/copy.json", '{"title":"changed"}');
+    await expect(getAsset(root, id, "preview", { saved: true })).rejects.toMatchObject({ code: "HASH_MISMATCH" });
+    expect((await checkAssets(root)).errors.some(x => x.includes("HASH_MISMATCH"))).toBe(true);
+  });
+  it("does not archive missing or unverified files and does not re-register away saved state", async () => {
+    const c = catalog(); const a = c.assets.find((x: Asset) => x.id === "preview");
+    fs.unlinkSync(path.join(root, a.file));
+    await expect(archive()).rejects.toMatchObject({ code: "MISSING" });
+    expect(catalog().assets.find((x: Asset) => x.id === "preview").saved).toBeUndefined();
+    write(a.file, png); await archive();
+    await expect(registerAsset(root, { document: id, id: "preview", variant: "rebuild", role: "preview",
+      media: "image", source: path.join(root, a.file), sha256: a.sha256, confirmation: "verified" }))
+      .rejects.toMatchObject({ code: "BUILD_SNAPSHOT" });
+    expect(catalog().assets.find((x: Asset) => x.id === "preview").saved).toBeDefined();
+    const changed = catalog(); changed.assets.find((x: Asset) => x.id === "copy").confirmation = "unverified"; save(changed);
+    await expect(getAsset(root, id, "preview", { saved: true })).rejects.toMatchObject({ code: "UNVERIFIED" });
+  });
+  it("integrity-only checking leaves ordinary freshness refusal intact", async () => {
+    const c = catalog(); c.assets.find((x: Asset) => x.id === "preview").external_input_globs = [{
+      pattern: "shared/**/*", sha256: hashExternalInputGlob(root, "shared/**/*"),
+    }]; save(c); write("shared/unrelated.txt", "new candidate");
+    expect((await checkAssets(root, { legacy: false })).errors.some(x => x.includes("STALE_OUTPUT"))).toBe(true);
+    expect((await checkAssets(root, { legacy: false, freshness: false })).errors).toEqual([]);
+    const next = catalog(); next.assets.find((x: Asset) => x.id === "preview").confirmation = "unverified"; save(next);
+    expect((await checkAssets(root, { legacy: false, freshness: false })).errors.some(x => x.includes("UNVERIFIED"))).toBe(true);
+  });
+  it("a generic support re-import cannot erase the saved state of the same revision", async () => {
+    const c = catalog();
+    const a = entry(b + "/parts/saved.png", "saved-file", "support", png);
+    c.assets.push(a); c.current[a.id] = a.revision; save(c);
+    await archive([a.id]);
+    await expect(registerAsset(root, { document: id, id: a.id, variant: a.variant, role: "support",
+      media: "image", source: path.join(root, a.file), sha256: a.sha256, confirmation: "verified" }))
+      .rejects.toMatchObject({ code: "DUPLICATE_ASSET" });
+    await expect(getAsset(root, id, a.id)).rejects.toMatchObject({ code: "SAVED_OUTPUT" });
+  });
+  it("compares binary external inputs as bytes, then rejects actual changes", async () => {
+    const c = catalog(); const a = c.assets.find((x: Asset) => x.id === "preview");
+    write("shared/used.png", png);
+    a.external_inputs = [{ path: "shared/used.png", sha256: digest(png) }]; save(c);
+    await expect(getAsset(root, id, "preview")).resolves.toBeDefined();
+    write("shared/used.png", Buffer.concat([png, Buffer.from("changed")]));
+    await expect(getAsset(root, id, "preview")).rejects.toMatchObject({ code: "STALE_OUTPUT" });
+  });
+});
 describe("identity and fail-closed retrieval", () => {
   it("validates pilot and returns replacement photos only", async () => {
     expect((await checkAssets(root)).errors).toEqual([]);
@@ -424,6 +495,16 @@ describe("identity and fail-closed retrieval", () => {
     const e = (await checkAssets(root)).errors.join("\n");
     expect(e).toContain("UNREGISTERED");
     expect(e).toContain("LEGACY_NEW");
+  });
+  it("still rejects ignored managed copies and ignored registered payload loss", async () => {
+    expect(spawnSync("git", ["init", "-q"], { cwd: root }).status).toBe(0);
+    write(".gitignore", "books/flyer/\nreferences/school-own/flyer/\n");
+    write(b + "/unknown.png", png);
+    fs.unlinkSync(path.join(root, r + "/original/approved.pdf"));
+    const errors = (await checkAssets(root)).errors.join("\n");
+    expect(errors).toContain("UNREGISTERED");
+    expect(errors).toContain("MISSING");
+    await expect(getAsset(root, id, "original", { saved: true })).rejects.toMatchObject({ code: "MISSING" });
   });
   it("requires pilot registration and baseline", async () => {
     fs.unlinkSync(path.join(root, "system/assets/legacy-baseline.json"));

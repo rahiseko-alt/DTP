@@ -1,0 +1,47 @@
+id: B-PHOTO-R03-S02
+proposal: B
+model: image_gen
+prompt: 'Generate an entirely NEW photograph FROM SCRATCH, every pixel newly synthesized,
+  matching the composition of the prior B classroom scene. This is NOT a face swap
+  or pasted portrait. Use the user''s uploaded white-shirt male portrait as the identity
+  reference for the teacher and use the previous classroom photograph ONLY as a composition
+  reference. Completely regenerate his head, neck, whole body, arms, sleeves, hands,
+  light, perspective, along with all students and classroom as a coherent new photographic
+  exposure. Landscape 3:2. Composition: adult male instructor upper center leans forward
+  over a seated young man at lower-left, instructor''s right arm extends diagonally
+  down pointing toward laptop lower-right. Two young women sit together center-right/far-right,
+  looking at the screen. Teacher faithfully resembles uploaded man: short spiky black
+  hair, visible ears, clean-shaven, no glasses, natural slightly tanned textured skin
+  and his real age/face proportions, white button-down shirt. A navy overshirt young
+  man at left, long dark-haired young woman in white center-right, dark-haired young
+  woman in pink far-right. Students retain warm medium/tan skin and varied East Asian/mixed
+  heritage visual character, no uniform pale skin. Recreate ALL three student faces
+  and bodies naturally; similar casting and same positions and outfits, not copied
+  pixels. Ordinary bright Japanese computer classroom, large blurred blue display
+  left background, daylight windows right, gray laptop in lower-right foreground.
+  Instructor looks down at screen with attentive mild friendly expression, students
+  naturally interested and smiling softly. Correct hands and anatomy, face belongs
+  organically to neck and torso, unified realistic daylight/color/skin textures, no
+  pasted-face look or oversharpening. No glamour retouch, no model posing. No text,
+  letters, typography, words, numbers, logo, watermark, signature, QR code, caption.
+  Exactly four main people, no collage or before-after panel.'
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+created: '2026-10-21'
+author: codex
+generation_method: 全画面の参照付き新規生成を指示。部分マスクや顔の合成処理は使用していない。
+reference_inputs:
+- path: shared/generated-assets/jp-existing-photo-b-r01/B-PHOTO-R02-S02.png
+  usage: composition
+  note: 会話内の授業画像を構図参照として使用。既存画素を貼り込む指示はしていない。
+- path: conversation:user-attachment-20261021-male-portrait
+  usage: image_reference
+  note: 会話添付の男性。ローカル原本未取得。この識別名は実体パスではない。
+params:
+  num_last_images_to_include: 5
+  transparent_background: false
+notes: 講師の全身・学生・背景・光を含め、新しい一枚の写真として再生成する人間の指示に対応。生成画像。冊子未反映。画像モデル内部の画素生成過程は検証できない。
+size: 1536x1024
+sha256: a785eb19d1e77ff877d20cf4b0eabbe66f93c7311b6c3016d439c792efe10a94
+self_review: 出力を目視。講師の首・胴体・腕と白シャツ、学生3人・教室・光を一枚として確認。元の人物配置をおおむね保持。添付男性の顔に生成差は残る。

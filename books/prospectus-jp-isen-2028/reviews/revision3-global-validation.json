@@ -1,0 +1,11 @@
+{
+  "command": "npm run validate",
+  "exit_code": 1,
+  "error_counts": {
+    "STALE_OUTPUT": 46,
+    "LEGACY_NEW": 437,
+    "LEGACY_CHANGED": 1
+  },
+  "total_errors": 484,
+  "note": "Global stale/legacy registration findings remain; cover-only pixel/native-text/delivery checks pass separately."
+}

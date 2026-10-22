@@ -1,0 +1,85 @@
+{
+  "revision": 6,
+  "reference_commit": "b8c9cfa",
+  "only_front_cover_changed": true,
+  "reading_body_pages_2_to_16_pixels_identical": true,
+  "checks": [
+    {
+      "id": "jp-isen-master-pdf",
+      "before_sha256": "9ed88a7e78e3d6fd68737774a4f87c50e3f281e0cb5097ad00e7cfab0de487e8",
+      "after_sha256": "2229099dc30d5b6f4664a6afe59d0688a3c8374aec2145338939799b8fdbd272",
+      "unchanged_pages_or_faces": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "first_print_face_left_back_cover_unchanged": null
+    },
+    {
+      "id": "jp-isen-reading-pdf",
+      "before_sha256": "43d63a3fb1c46d460d5ffe1a3784ec7d1789691ec3a0dcffd57d4f76b5f154b8",
+      "after_sha256": "194f0449ff91b3d69c925d0934dfceadbd38c73f3a4542709fc6e25082840321",
+      "unchanged_pages_or_faces": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "first_print_face_left_back_cover_unchanged": null
+    },
+    {
+      "id": "jp-isen-print-a3",
+      "before_sha256": "c7864b72ea8d4be9948f886530c4e3e21bc5a13e9562dc156fa2d5bb06a784a5",
+      "after_sha256": "c431ac176f60e5d4598e4ad90f3156610272f16ee6dca1faaa72129dc21822c9",
+      "unchanged_pages_or_faces": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "first_print_face_left_back_cover_unchanged": true
+    },
+    {
+      "id": "jp-isen-print-a4",
+      "before_sha256": "29170da2c6e630589cc5ae297edf98a63e680e94a7366b934a58209cfc4251b8",
+      "after_sha256": "55cba6642a4c29aec4ad44f367b91496636de6017b2d6774fd39052597af0c31",
+      "unchanged_pages_or_faces": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "first_print_face_left_back_cover_unchanged": true
+    }
+  ],
+  "physical_print_test": false
+}

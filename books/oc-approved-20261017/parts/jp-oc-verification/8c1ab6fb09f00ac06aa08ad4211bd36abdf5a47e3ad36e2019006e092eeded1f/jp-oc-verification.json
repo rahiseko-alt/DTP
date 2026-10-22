@@ -1,0 +1,39 @@
+{
+  "pdf_sha256": "18601d0ad832a6a48a61a6345a89d7ec321c133c804275c8c4c11df08669d47b",
+  "pages": 2,
+  "dates": [
+    "11/21",
+    "12/5",
+    "12/19"
+  ],
+  "year_or_weekday_added": false,
+  "printed_mail_count": 2,
+  "qr_expected": "mailto:aibusiness.kaihougakuen@gmail.com",
+  "qr_source": "shared/generated-assets/qr/qr-mailto-aibusiness-kaihougakuen.svg",
+  "qr_source_sha256": "7fc58b673b4f30e47241846a59b6bb6e49236d311a83d04462bcfbd2a786bb9c",
+  "pages_verified": [
+    {
+      "page": 1,
+      "a4_portrait": true,
+      "png_sha256": "0b18db5f881dc452d2795bdfc05ba245bd4b75c0d67856941c9265eeabca0a4f",
+      "png_qr": [
+        "mailto:aibusiness.kaihougakuen@gmail.com"
+      ],
+      "pdf_qr": [
+        "mailto:aibusiness.kaihougakuen@gmail.com"
+      ]
+    },
+    {
+      "page": 2,
+      "a4_portrait": true,
+      "png_sha256": "128bc3ea46a2dcb7855b8b0f17eb86038ec65582274c0a61404f08643a1c9351",
+      "png_qr": [
+        "mailto:aibusiness.kaihougakuen@gmail.com"
+      ],
+      "pdf_qr": [
+        "mailto:aibusiness.kaihougakuen@gmail.com"
+      ]
+    }
+  ],
+  "preserved_original_pdf_front_back_sha_unchanged": true
+}

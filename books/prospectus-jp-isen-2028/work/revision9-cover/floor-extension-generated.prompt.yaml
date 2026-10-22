@@ -1,0 +1,34 @@
+tool: image_gen.imagegen
+created: 2026-10-22
+referenced_image: floor-extension-input.png
+source_photo: shared/generated-assets/cover-group-jp/日本人版マシな方1.png
+source_photo_sha256: 3dcc490b25f35f2dba66fa46276f9d60f9f55a17d5444888549d5ee019698157
+source_crop_xyxy:
+- 165
+- 154
+- 1245
+- 1060
+transparent_background: false
+prompt: Extend only the transparent bottom area of this photograph. The canvas is
+  1080 x 1250 pixels. The existing complete classroom group photograph occupies x0..1079,
+  y0..905; the lower y906..1249 is transparent and needs to become a natural continuation
+  of the gray carpet tile floor toward the camera. Keep the existing photo, wall,
+  people, clothing, faces, hands, feet, contact shadows, lighting, clock, flowers
+  and monitor unchanged. Do not add people, body parts, furniture or objects. Fill
+  the transparent bottom with the same carpet tile material, color, scale, alternating
+  stripe direction, tile spacing, perspective convergence and light falloff as the
+  visible floor immediately above it. This is background outpainting only. The room's
+  natural contact shadows underneath the shoes must remain. Do not make a gray flat
+  rectangle, vignette, rounded fade, fog or graphic overlay. No text, letters, typography,
+  words, numbers, logos, watermark, signature or QR codes. Return the full image matching
+  the input canvas proportions, with an opaque natural carpet floor in the previously
+  transparent area. This will be used behind precise separately composed brochure
+  text; generate no brochure design or type.
+usage: Generated lower floor region only; original photo pixels are pasted back over
+  the complete people/wall/contact-shadow region. The model output is not used for
+  people.
+model: tool default; version not reported
+size: 1135x1386
+reference_inputs:
+- path: floor-extension-input.png
+  usage: image editing / floor outpainting

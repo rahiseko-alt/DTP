@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<g font-family="Noto Sans CJK JP,sans-serif" fill="#24476b">
+<path d="M271.1864406779661 323.7778681855167 V174 H438" stroke="white" stroke-width="12" fill="none"/>
+<path d="M271.1864406779661 323.7778681855167 V174 H438" stroke="#d64742" stroke-width="4" fill="none"/>
+<rect x="45" y="43" width="635" height="133" rx="8" fill="white" stroke="#d64742" stroke-width="3"/>
+<text x="69" y="102" font-size="47" font-weight="900">AIビジネス専門学校</text>
+<text x="70" y="147" font-size="29">名古屋市中村区則武1丁目30-17</text>
+<circle cx="271.1864406779661" cy="340.7778681855167" r="20" fill="#d64742" stroke="white" stroke-width="7"/>
+<text x="340" y="268" font-size="30" font-weight="700" stroke="white" stroke-width="7" paint-order="stroke">亀島二丁目</text>
+<text x="319" y="596" font-size="32" font-weight="700" stroke="white" stroke-width="8" paint-order="stroke">則武一丁目</text>
+<text x="321" y="868" font-size="29" font-weight="700" stroke="white" stroke-width="7" paint-order="stroke">則武二丁目</text>
+<path d="M1132 735 L1002 735" stroke="white" stroke-width="11"/>
+<path d="M1132 735 L1002 735" stroke="#24476b" stroke-width="3"/>
+<rect x="644" y="696" width="363" height="134" rx="8" fill="white" stroke="#24476b" stroke-width="3"/>
+<text x="668" y="756" font-size="47" font-weight="900">JR名古屋駅</text>
+<text x="670" y="802" font-size="29">学校は駅の北西側</text>
+<rect x="45" y="915" width="684" height="64" rx="5" fill="white"/>
+<text x="66" y="960" font-size="32" font-weight="800">JR名古屋駅から徒歩10分</text>
+<circle cx="1448" cy="87" r="63" fill="white"/>
+<path d="M1448 35 L1431 81 H1465 Z" fill="#24476b"/>
+<text x="1448" y="119" text-anchor="middle" font-size="28" font-weight="700">北</text>
+<rect x="0" y="987" width="1536" height="37" fill="white"/>
+<text x="20" y="1014" font-size="21">所在地を示す略図（北が上）　｜　地理院タイルを加工して作成</text>
+</g></svg>

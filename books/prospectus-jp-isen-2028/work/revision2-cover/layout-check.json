@@ -1,0 +1,63 @@
+{
+  "viewport": [
+    1240,
+    1754
+  ],
+  "scale": 2,
+  "boxes": [
+    {
+      "class": "title",
+      "text": "AI BUSINESS’28",
+      "x": 32,
+      "y": 12,
+      "width": 1188,
+      "height": 160,
+      "scrollWidth": 1188
+    },
+    {
+      "class": "school",
+      "text": "AIビジネス専門学校",
+      "x": 38,
+      "y": 165,
+      "width": 401.640625,
+      "height": 69,
+      "scrollWidth": 402
+    },
+    {
+      "class": "courses",
+      "text": "国際ビジネスAI科　／　総合ビジネス科",
+      "x": 42,
+      "y": 235,
+      "width": 428.546875,
+      "height": 34,
+      "scrollWidth": 429
+    },
+    {
+      "class": "lead",
+      "text": "AIを使いこなす",
+      "x": 40,
+      "y": 338,
+      "width": 573.453125,
+      "height": 114.390625,
+      "scrollWidth": 573
+    },
+    {
+      "class": "copy",
+      "text": "社会の\n主役になる！",
+      "x": 40,
+      "y": 1160,
+      "width": 1180,
+      "height": 381.5,
+      "scrollWidth": 1180
+    },
+    {
+      "class": "foot",
+      "text": "AIビジネス専門学校\nPROSPECTUS 2028",
+      "x": 45,
+      "y": 1668,
+      "width": 181.484375,
+      "height": 26,
+      "scrollWidth": 1079
+    }
+  ]
+}

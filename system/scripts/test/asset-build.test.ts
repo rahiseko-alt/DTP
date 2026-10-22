@@ -14,7 +14,7 @@ import {
 let root: string;
 const doc = "oc-approved-20261017";
 const b = `books/${doc}`;
-beforeEach(() => {
+beforeEach(async () => {
   root = fs.mkdtempSync(path.join(os.tmpdir(), "asset-build-test-"));
   for (const p of [
     b,
@@ -42,6 +42,32 @@ beforeEach(() => {
     path.join(root, "node_modules"),
     process.platform === "win32" ? "junction" : "dir",
   );
+  // The user deleted the non-adopted reconstructed flyer from production.
+  // Create isolated test outputs from the retained original, never restore it in the repo.
+  const outputDir = path.join(root, b, "output");
+  fs.mkdirSync(outputDir, { recursive: true });
+  fs.copyFileSync(path.join(root, `references/school-own/${doc}/original/approved.pdf`),
+    path.join(outputDir, "実写真版_OCチラシ_両面.pdf"));
+  const snapshot = await buildInputs(root, doc);
+  const catalogFile = path.join(root, b, "parts/catalog.yaml");
+  const catalog = JSON.parse(fs.readFileSync(catalogFile, "utf8"));
+  const outputs = [
+    { id: "combined-preview", role: "reconstructed-preview", media: "pdf", file: `${b}/output/実写真版_OCチラシ_両面.pdf` },
+    { id: "access-rollout-front-preview", role: "preview", media: "image", file: `${b}/output/page-1.png` },
+    { id: "preview-page-2", role: "preview", media: "image", file: `${b}/output/page-2.png` },
+  ];
+  for (const [index, output] of outputs.entries()) {
+    if (index) fs.copyFileSync(path.join(root, `references/school-own/${doc}/pages/page-0${index}.png`), path.join(root, output.file));
+    const bytes = fs.readFileSync(path.join(root, output.file));
+    const revision = digest(bytes);
+    catalog.assets.push({ ...output, variant: "real-photo-rebuild", revision, sha256: revision,
+      size: bytes.length, confirmation: "verified", relation: "authored",
+      built_from: snapshot.inputs.map((input: { id: string; revision: string }) => ({ id: input.id, revision: input.revision })),
+      external_inputs: snapshot.external,
+    });
+    catalog.current[output.id] = revision;
+  }
+  fs.writeFileSync(catalogFile, JSON.stringify(catalog, null, 2));
 });
 afterEach(() => fs.rmSync(root, { recursive: true, force: true }));
 const build = () =>
@@ -72,7 +98,7 @@ it("uses current copy and CSS revisions without modifying existing output", asyn
   const css = path.join(root, "new-layout.css");
   fs.writeFileSync(
     css,
-    fs.readFileSync(path.join(root, b, "source/layout.css"), "utf8") +
+    fs.readFileSync(path.join(root, (await getAsset(root, doc, "layout-layout", { role: "layout" })).path), "utf8") +
       "\n/* current-css-test */",
   );
   await registerAsset(root, {
@@ -167,6 +193,28 @@ it("records all photo/media/source dependencies and rejects changed school facts
   ).rejects.toMatchObject({ code: "STALE_BUILD" });
 });
 
+it("binds the declared access map and refuses a changed map dependency", async () => {
+  const html = build();
+  const snapshot = await verifyBuildSnapshot(root, path.relative(root, html + ".inputs.json"));
+  const manifestInput = snapshot.inputs.find((i: { id: string }) => i.id === "support-parts-photos-map-json");
+  const manifest = JSON.parse(fs.readFileSync(path.join(root, manifestInput.path), "utf8"));
+  const selectedMap = await getAsset(root, doc, manifest.access_map.asset_id, { role: "support" });
+  expect(fs.readFileSync(html, "utf8")).toContain(path.basename(selectedMap.path));
+  const changedMap = path.join(root, b, "output/page-1.png");
+  await registerAsset(root, {
+    document: doc,
+    id: manifest.access_map.asset_id,
+    variant: "real-photo-rebuild",
+    role: "support",
+    media: "image",
+    source: changedMap,
+    sha256: digest(fs.readFileSync(changedMap)),
+    confirmation: "verified",
+  });
+  await expect(verifyBuildSnapshot(root, path.relative(root, html + ".inputs.json")))
+    .rejects.toMatchObject({ code: "STALE_OUTPUT" });
+});
+
 it("binds actual render outputs to current inputs and permits three output registrations", async () => {
   const copy = JSON.parse(
     fs.readFileSync(path.join(root, b, "text/content.json"), "utf8"),
@@ -187,7 +235,7 @@ it("binds actual render outputs to current inputs and permits three output regis
   const css = path.join(root, "updated.css");
   fs.writeFileSync(
     css,
-    fs.readFileSync(path.join(root, b, "source/layout.css"), "utf8") +
+    fs.readFileSync(path.join(root, (await getAsset(root, doc, "layout-layout", { role: "layout" })).path), "utf8") +
       "\n/* revised-css */",
   );
   await registerAsset(root, {
@@ -385,7 +433,7 @@ it("A06/A07: binds back.flow.3.body, supports Saturday dates, and keeps preview 
     role: "preview",
   });
   expect(previews.matches.map((m) => m.asset_id).sort()).toEqual([
-    "preview-page-1",
+    "access-rollout-front-preview",
     "preview-page-2",
   ]);
 });

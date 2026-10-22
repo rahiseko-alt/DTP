@@ -1,0 +1,193 @@
+{
+  "map": {
+    "z": 18,
+    "x0": 230739,
+    "y0": 103678,
+    "width": 2048,
+    "height": 1792,
+    "sources": [
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230739/103678.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230739/103679.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230739/103680.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230739/103681.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230739/103682.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230739/103683.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230739/103684.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230740/103678.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230740/103679.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230740/103680.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230740/103681.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230740/103682.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230740/103683.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230740/103684.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230741/103678.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230741/103679.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230741/103680.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230741/103681.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230741/103682.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230741/103683.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230741/103684.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230742/103678.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230742/103679.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230742/103680.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230742/103681.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230742/103682.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230742/103683.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230742/103684.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230743/103678.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230743/103679.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230743/103680.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230743/103681.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230743/103682.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230743/103683.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230743/103684.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230744/103678.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230744/103679.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230744/103680.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230744/103681.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230744/103682.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230744/103683.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230744/103684.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230745/103678.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230745/103679.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230745/103680.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230745/103681.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230745/103682.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230745/103683.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230745/103684.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230746/103678.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230746/103679.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230746/103680.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230746/103681.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230746/103682.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230746/103683.png",
+      "https://cyberjapandata.gsi.go.jp/xyz/std/18/230746/103684.png"
+    ]
+  },
+  "photos": [
+    {
+      "area": "school",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230739/103679.jpg",
+      "x0": 230739,
+      "y0": 103679
+    },
+    {
+      "area": "school",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230739/103680.jpg",
+      "x0": 230739,
+      "y0": 103679
+    },
+    {
+      "area": "school",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230739/103681.jpg",
+      "x0": 230739,
+      "y0": 103679
+    },
+    {
+      "area": "school",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230740/103679.jpg",
+      "x0": 230739,
+      "y0": 103679
+    },
+    {
+      "area": "school",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230740/103680.jpg",
+      "x0": 230739,
+      "y0": 103679
+    },
+    {
+      "area": "school",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230740/103681.jpg",
+      "x0": 230739,
+      "y0": 103679
+    },
+    {
+      "area": "school",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230741/103679.jpg",
+      "x0": 230739,
+      "y0": 103679
+    },
+    {
+      "area": "school",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230741/103680.jpg",
+      "x0": 230739,
+      "y0": 103679
+    },
+    {
+      "area": "school",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230741/103681.jpg",
+      "x0": 230739,
+      "y0": 103679
+    },
+    {
+      "area": "station",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230744/103682.jpg",
+      "x0": 230744,
+      "y0": 103682
+    },
+    {
+      "area": "station",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230744/103683.jpg",
+      "x0": 230744,
+      "y0": 103682
+    },
+    {
+      "area": "station",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230744/103684.jpg",
+      "x0": 230744,
+      "y0": 103682
+    },
+    {
+      "area": "station",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230745/103682.jpg",
+      "x0": 230744,
+      "y0": 103682
+    },
+    {
+      "area": "station",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230745/103683.jpg",
+      "x0": 230744,
+      "y0": 103682
+    },
+    {
+      "area": "station",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230745/103684.jpg",
+      "x0": 230744,
+      "y0": 103682
+    },
+    {
+      "area": "station",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230746/103682.jpg",
+      "x0": 230744,
+      "y0": 103682
+    },
+    {
+      "area": "station",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230746/103683.jpg",
+      "x0": 230744,
+      "y0": 103682
+    },
+    {
+      "area": "station",
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/230746/103684.jpg",
+      "x0": 230744,
+      "y0": 103682
+    }
+  ],
+  "address_response": [
+    {
+      "geometry": {
+        "coordinates": [
+          136.874008,
+          35.173653
+        ],
+        "type": "Point"
+      },
+      "type": "Feature",
+      "properties": {
+        "addressCode": "",
+        "title": "愛知県名古屋市中村区則武一丁目３０番１７号"
+      }
+    }
+  ]
+}

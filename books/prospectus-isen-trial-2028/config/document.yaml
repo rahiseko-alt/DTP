@@ -1,10 +1,13 @@
 schema_version: 1
 id: prospectus-isen-trial-2028
-title: 医専スタイル学校案内試作（2028年度白版）
+title: パンフレット｜医専白版｜2028表記
 aliases:
+  - パンフレット
+  - 医専
   - 医専試作パンフ
-  - 白版20P
   - 医専スタイル学校案内
+  - パンフレット_医専白版_現行
+  - PAM-ISEN-2028
 renderer: standard-book
 catalog: books/prospectus-isen-trial-2028/parts/catalog.yaml
 managed_roots:

@@ -1,0 +1,110 @@
+{
+  "document": "prospectus-isen-trial-2028",
+  "source_id": "latest-prospectus-pdf",
+  "source_file": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
+  "source_sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+  "pages": 16,
+  "sheets": 4,
+  "faces": [
+    {
+      "sheet": 1,
+      "side": "front",
+      "left": 16,
+      "right": 1
+    },
+    {
+      "sheet": 1,
+      "side": "back",
+      "left": 2,
+      "right": 15
+    },
+    {
+      "sheet": 2,
+      "side": "front",
+      "left": 14,
+      "right": 3
+    },
+    {
+      "sheet": 2,
+      "side": "back",
+      "left": 4,
+      "right": 13
+    },
+    {
+      "sheet": 3,
+      "side": "front",
+      "left": 12,
+      "right": 5
+    },
+    {
+      "sheet": 3,
+      "side": "back",
+      "left": 6,
+      "right": 11
+    },
+    {
+      "sheet": 4,
+      "side": "front",
+      "left": 10,
+      "right": 7
+    },
+    {
+      "sheet": 4,
+      "side": "back",
+      "left": 8,
+      "right": 9
+    }
+  ],
+  "outputs": [
+    {
+      "paper": "A3",
+      "file": ".cache/map-rollout/print/print-brochure-A3.pdf",
+      "sha256": "6aa914deff3161c99a21d284b03a43fb3bf2f7894223c1d5ca8bed42d8fca881",
+      "bytes": 4049495,
+      "faces": 8,
+      "all_face_comparisons": [
+        1.0952710176991152,
+        1.0871589233038348,
+        0.8755761430678466,
+        0.8844118731563423,
+        0.9546967182890856,
+        1.6387075958702066,
+        1.5697317477876105,
+        1.6201096976401181
+      ],
+      "qr_decoded": [
+        "https://kaihougakuen.my.canva.site/"
+      ],
+      "currency_counts_unchanged": true,
+      "duplex": "short-edge",
+      "scaling": "none"
+    },
+    {
+      "paper": "A4",
+      "file": ".cache/map-rollout/print/print-brochure-A4.pdf",
+      "sha256": "1a82b06830528b7a914575525148c56b6107a5b6f206b8c7afa117fb8eeca185",
+      "bytes": 2686448,
+      "faces": 8,
+      "all_face_comparisons": [
+        0.802475110619469,
+        0.883420907079646,
+        0.605295907079646,
+        0.6001659292035398,
+        0.7371589233038348,
+        1.144685656342183,
+        1.1284199852507375,
+        1.0363938053097346
+      ],
+      "qr_decoded": [
+        "https://kaihougakuen.my.canva.site/"
+      ],
+      "currency_counts_unchanged": true,
+      "duplex": "short-edge",
+      "scaling": "none"
+    }
+  ],
+  "method": "A3/A4横、1面に2ページ、短辺反転。200dpi/JPEG88の軽量化後に全印刷面を照合。",
+  "self_review": true,
+  "independent_review": false,
+  "physical_print_test": false
+}

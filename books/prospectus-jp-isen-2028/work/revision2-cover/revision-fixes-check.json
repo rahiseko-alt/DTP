@@ -1,0 +1,25 @@
+{
+  "cover_sha256": "311b8637a780d94f4fbad6b4f984cd7cbb6d92e1225a0a83afdbdf7c1c0539ec",
+  "cover_size_px": [
+    2480,
+    3508
+  ],
+  "wash_css": {
+    "top": 1005,
+    "height": 240,
+    "fully_opaque_start": 1173,
+    "end": 1245
+  },
+  "photograph_css_bottom": 1196.2372881355932,
+  "learning_items_css_font_size": 16,
+  "learning_items_print_pt_at_A4": 7.680975361950725,
+  "course_names_css_font_size": 23,
+  "blue_only_region_px": [
+    1000,
+    2350,
+    2480,
+    2430
+  ],
+  "blue_only_region_nonblue_pixels": 0,
+  "visual_review": "Updated preview and 2480x3508 cover both opened with view_image. No bottom-edge strip remains; crop focuses on faces and upper bodies. No new face clipping or hand anomaly observed."
+}

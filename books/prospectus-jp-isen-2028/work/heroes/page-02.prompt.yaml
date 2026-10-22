@@ -1,0 +1,38 @@
+tool: image_gen.imagegen
+model: tool default (not reported)
+prompt: Edit only the fictional people in this crop from an existing AI-generated
+  brochure photograph. Keep the exact camera, composition, face positions, head angles,
+  gaze, expressions, actions, lighting, classroom setting, clothes and accessories.
+  Give every visible person a natural, ordinary Japanese appearance with individually
+  distinct faces and realistic natural Japanese skin tones. All men must be entirely
+  clean shaven without beard, moustache or stubble. These are fictional people, not
+  identifiable real people. Preserve realistic skin texture, ordinary student appearances
+  and age. Avoid fashion model faces, excessive beautification, whitening, plastic
+  skin or glamour. Do not change clothes, pose, hair silhouette, accessories, background
+  or object positions. Keep every face at precisely the same place and scale as the
+  input crop. Output exactly the same composition and aspect ratio. No text, letters,
+  typography, words, numbers, logo, watermark, signature, QR code, caption. Four young
+  college students stand shoulder to shoulder facing the camera. Preserve their respective
+  white T-shirt and backpack, gray patterned top with black collar, pink windbreaker,
+  white collarless shirt. Keep their expressions and head angles exactly. Every one
+  of the four people should receive a distinct ordinary Japanese face.
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+size: 2480x3508
+created: '2026-10-21'
+author: codex
+reference_inputs:
+- path: books/prospectus-jp-isen-2028/work/heroes/input-02.png
+  usage: img2img
+  note: Cropped existing generated brochure photograph; exact source coordinates recorded
+    in changes.json. Only selected person masks are used from result. crop only
+source_refs: []
+notes: 'Source PDF order page 2. Final composite restores all pixels outside explicit
+  person masks from original, including copy, badge, rules and all informational content.
+  Revision 2: continuous inward distance feather and tighter glyph protection avoid
+  hard neck/hair edges and letter-protection skin blotches. Generated crop resized
+  with LANCZOS and composited through mask-02.png; full mask geometry/protected areas
+  and SHA256 recorded in changes.json. Native generated crop (2142, 734); final full-page
+  source resolution 2480x3508, A4 approximately 300dpi. AI photo crop effective resolution
+  exceeds 150dpi.'

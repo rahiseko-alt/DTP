@@ -1,0 +1,152 @@
+{
+  "items": [
+    {
+      "id": "p03-01",
+      "page": 3,
+      "rect": [
+        1446,
+        984,
+        2400,
+        1387
+      ],
+      "source_sha256": "62ccc39edf60cc6ed7ca2073741f471f4923f1ddc889fc6417d619980a69d556"
+    },
+    {
+      "id": "p03-02",
+      "page": 3,
+      "rect": [
+        1446,
+        1487,
+        2400,
+        1892
+      ],
+      "source_sha256": "9a00cdd5de81ee48782351d2841e865db6f30585f8185da37a7317a186e7d148"
+    },
+    {
+      "id": "p03-03",
+      "page": 3,
+      "rect": [
+        1446,
+        1998,
+        2400,
+        2406
+      ],
+      "source_sha256": "0666f6d347a66aba2a6cb31ded021c83c0486f42bec826d2202a9c0cceb4274c"
+    },
+    {
+      "id": "p05-01",
+      "page": 5,
+      "rect": [
+        122,
+        769,
+        868,
+        1215
+      ],
+      "source_sha256": "94f5d8627f1886eeae4ec017ca9b0e740e8e10e816ff43248bd856e44537cdec"
+    },
+    {
+      "id": "p05-02",
+      "page": 5,
+      "rect": [
+        921,
+        769,
+        1663,
+        1215
+      ],
+      "source_sha256": "4b32da5f506475d5f2b8a997ce9ea2d4ae39254ecaf3efcabd8a16efb9f18541"
+    },
+    {
+      "id": "p05-03",
+      "page": 5,
+      "rect": [
+        1714,
+        769,
+        2458,
+        1215
+      ],
+      "source_sha256": "a2d8665d9550b2bd4dcc9d4b85687b4b76e45ed8e2a68037e5b22e25a3229e43"
+    },
+    {
+      "id": "p05-04",
+      "page": 5,
+      "rect": [
+        122,
+        1566,
+        1334,
+        2029
+      ],
+      "source_sha256": "15b56a418badb1b44972bbb2f0301911a3e2c62dda98d08dd99033eddb6df5c4"
+    },
+    {
+      "id": "p05-05",
+      "page": 5,
+      "rect": [
+        1401,
+        1566,
+        2458,
+        2029
+      ],
+      "source_sha256": "0998b070be31631a1e0acf54d8790a4cd51c416a060cfcdbebaaab70cb1f7090"
+    },
+    {
+      "id": "p05-06",
+      "page": 5,
+      "rect": [
+        126,
+        2923,
+        864,
+        3351
+      ],
+      "source_sha256": "5e3c8ac6cbaa1608c79beafad4c5a3145f475dd5a52adbe25064e38c10a83bac"
+    },
+    {
+      "id": "p05-07",
+      "page": 5,
+      "rect": [
+        949,
+        2923,
+        1666,
+        3351
+      ],
+      "source_sha256": "d52394d74cbeff5f37db45def201281b6f38ba9f078c20faabd4a744b5c663d8"
+    },
+    {
+      "id": "p05-08",
+      "page": 5,
+      "rect": [
+        1756,
+        2923,
+        2458,
+        3351
+      ],
+      "source_sha256": "814cb3c97cda353681da908037482bfc603c0873da90784e5fa043e87c3afef9"
+    }
+  ],
+  "groups": {
+    "atlas-p03": [
+      "p03-01",
+      "p03-02",
+      "p03-03"
+    ],
+    "atlas-p05-a": [
+      "p05-01",
+      "p05-02",
+      "p05-03",
+      "p05-04"
+    ],
+    "atlas-p05-b": [
+      "p05-05",
+      "p05-06",
+      "p05-07",
+      "p05-08"
+    ]
+  },
+  "cell": [
+    12,
+    12,
+    1012,
+    500
+  ],
+  "atlas_width": 1024,
+  "cell_step": 512
+}

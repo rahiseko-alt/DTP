@@ -1,0 +1,21 @@
+{
+  "pages": 2,
+  "source_sha256": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1",
+  "print_sha256": "3064028b19fe2ae676009decc33e70306c224aa433820cc891979764367f5bc2",
+  "qr_decoded_from_both_print_pages": [
+    [
+      "https://kaihougakuen.my.canva.site/"
+    ],
+    [
+      "https://kaihougakuen.my.canva.site/"
+    ]
+  ],
+  "all_page_mean_differences": [
+    2.5294570427728615,
+    1.5591030604719764
+  ],
+  "paper": "A4 portrait",
+  "duplex": "long-edge",
+  "self_review": true,
+  "independent_review": false
+}

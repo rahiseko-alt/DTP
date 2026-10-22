@@ -1,0 +1,147 @@
+[
+  {
+    "id": "jp-oc-reading-pdf",
+    "registration": {
+      "asset": {
+        "id": "jp-oc-reading-pdf",
+        "variant": "japanese-people-oc-revised",
+        "role": "support",
+        "media": "pdf",
+        "revision": "18601d0ad832a6a48a61a6345a89d7ec321c133c804275c8c4c11df08669d47b",
+        "file": "books/oc-approved-20261017/parts/jp-oc-reading-pdf/18601d0ad832a6a48a61a6345a89d7ec321c133c804275c8c4c11df08669d47b/jp-oc-reading-pdf.pdf",
+        "sha256": "18601d0ad832a6a48a61a6345a89d7ec321c133c804275c8c4c11df08669d47b",
+        "size": 12842131,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "User-directed Japanese-image OC review edition; saved PDF/PNG with verified identity, not current-input standard-render provenance.",
+          "recorded_at": "2026-10-22T02:10:51.942Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "latest-original-oc-pdf",
+            "revision": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jp-oc-front",
+    "registration": {
+      "asset": {
+        "id": "jp-oc-front",
+        "variant": "japanese-people-oc-revised",
+        "role": "support",
+        "media": "image",
+        "revision": "0b18db5f881dc452d2795bdfc05ba245bd4b75c0d67856941c9265eeabca0a4f",
+        "file": "books/oc-approved-20261017/parts/jp-oc-front/0b18db5f881dc452d2795bdfc05ba245bd4b75c0d67856941c9265eeabca0a4f/jp-oc-front.png",
+        "sha256": "0b18db5f881dc452d2795bdfc05ba245bd4b75c0d67856941c9265eeabca0a4f",
+        "size": 1688225,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "User-directed Japanese-image OC review edition; saved PDF/PNG with verified identity, not current-input standard-render provenance.",
+          "recorded_at": "2026-10-22T02:10:52.691Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "latest-original-oc-pdf",
+            "revision": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jp-oc-back",
+    "registration": {
+      "asset": {
+        "id": "jp-oc-back",
+        "variant": "japanese-people-oc-revised",
+        "role": "support",
+        "media": "image",
+        "revision": "128bc3ea46a2dcb7855b8b0f17eb86038ec65582274c0a61404f08643a1c9351",
+        "file": "books/oc-approved-20261017/parts/jp-oc-back/128bc3ea46a2dcb7855b8b0f17eb86038ec65582274c0a61404f08643a1c9351/jp-oc-back.png",
+        "sha256": "128bc3ea46a2dcb7855b8b0f17eb86038ec65582274c0a61404f08643a1c9351",
+        "size": 1467769,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "User-directed Japanese-image OC review edition; saved PDF/PNG with verified identity, not current-input standard-render provenance.",
+          "recorded_at": "2026-10-22T02:10:53.375Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "latest-original-oc-pdf",
+            "revision": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jp-oc-build-proof",
+    "registration": {
+      "asset": {
+        "id": "jp-oc-build-proof",
+        "variant": "japanese-people-oc-revised",
+        "role": "support",
+        "media": "text",
+        "revision": "feaf21b84dcb3731da328fd2fbfea25b07b3ccebcae12c74a92b34a4b6a851aa",
+        "file": "books/oc-approved-20261017/parts/jp-oc-build-proof/feaf21b84dcb3731da328fd2fbfea25b07b3ccebcae12c74a92b34a4b6a851aa/jp-oc-build-proof.json",
+        "sha256": "feaf21b84dcb3731da328fd2fbfea25b07b3ccebcae12c74a92b34a4b6a851aa",
+        "size": 2708,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "User-directed Japanese-image OC review edition; saved PDF/PNG with verified identity, not current-input standard-render provenance.",
+          "recorded_at": "2026-10-22T02:10:54.031Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "latest-original-oc-pdf",
+            "revision": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jp-oc-verification",
+    "registration": {
+      "asset": {
+        "id": "jp-oc-verification",
+        "variant": "japanese-people-oc-revised",
+        "role": "support",
+        "media": "text",
+        "revision": "8c1ab6fb09f00ac06aa08ad4211bd36abdf5a47e3ad36e2019006e092eeded1f",
+        "file": "books/oc-approved-20261017/parts/jp-oc-verification/8c1ab6fb09f00ac06aa08ad4211bd36abdf5a47e3ad36e2019006e092eeded1f/jp-oc-verification.json",
+        "sha256": "8c1ab6fb09f00ac06aa08ad4211bd36abdf5a47e3ad36e2019006e092eeded1f",
+        "size": 1136,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "User-directed Japanese-image OC review edition; saved PDF/PNG with verified identity, not current-input standard-render provenance.",
+          "recorded_at": "2026-10-22T02:10:54.695Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "latest-original-oc-pdf",
+            "revision": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1"
+          }
+        ]
+      }
+    }
+  }
+]

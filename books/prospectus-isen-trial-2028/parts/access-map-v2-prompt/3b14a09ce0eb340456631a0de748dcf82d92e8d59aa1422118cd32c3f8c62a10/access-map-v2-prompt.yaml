@@ -1,0 +1,26 @@
+{
+  "tool": "image_gen.imagegen",
+  "model": "image_gen",
+  "prompt": "Redesign the attached real geographic reference into a clear flat 2D access-map BASE for a Japanese vocational-school brochure. Output landscape 1536x1024. The first reference is the geographic authority, north up: preserve road connectivity and relative positions. Its red dot at normalized x=.175,y=.33 is the school's address point. The railway runs from x=.53 at top to x=.80 at bottom. JR Nagoya Station occupies the lower-right rail corridor. Do not use the red-dot label box as map content. The second reference is a design study: use the clarity and selective streets of examples A/B/C; avoid the cluttered tiny building footprints of example D. IMPORTANT framing: preserve entire geographic extent of first reference, mapped proportionally to landscape canvas; do not move school or station to arbitrary locations. Only retain the key east-west streets near y=.31 and .49 and .70, the north-south street near x=.17, the west-side station approach street near x=.60 to .69, and connected intermediate streets needed to reflect the original map. Use broad white streets with fine muted gray edges, pale blue-gray blocks, dark navy railway and restrained station platform shapes. Remove individual house outlines, all orange fills, all source labels, all map symbols and all markers including the red dot; markers and Japanese labels will be added exactly in a separate code layer. The school is at the WEST side of the railway, northwest of station. No guessed shops, monuments, parks, rivers, 3D buildings or invented landmarks. No colored route: exact pedestrian route is unverified. Flat crisp editorial cartography, strong street/rail distinction, white background, very restrained navy / pale blue gray palette. Keep school neighborhood unobscured, no large blank label cards. Absolutely NO text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption, compass lettering, symbols or label boxes. This is a functional schematic geographic base, not an illustration of a fictional city.",
+  "negative_prompt": "text, letters, typography, words, numbers, logo, watermark, signature, QR code, caption",
+  "seed": null,
+  "size": "1536x1024",
+  "created": "2026-10-20",
+  "author": "codex",
+  "reference_inputs": [
+    {
+      "path": "books/prospectus-isen-trial-2028/parts/access-map-research/reference-school-marked.png",
+      "usage": "image_reference",
+      "note": "地理院地図と住所基準点。入口位置ではない。"
+    },
+    {
+      "path": "references/research/vocational-access-maps-20261020/comparison.jpg",
+      "usage": "style",
+      "note": "他校比較の情報選択のみ参照。固有名詞・建物・経路は転用しない。"
+    }
+  ],
+  "params": {
+    "transparent_background": false
+  },
+  "notes": "新規の地図部品。文字・学校地点は別SVG。徒歩ルート・入口未確認。既存冊子は未変更。"
+}

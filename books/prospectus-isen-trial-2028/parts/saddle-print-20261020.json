@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-20",
+  "book": "prospectus-isen-trial-2028",
+  "source_asset_id": "white-16p-access-map-revised",
+  "source": "books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_地図連絡先改訂.pdf",
+  "source_sha256": "33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56",
+  "source_pages": 16,
+  "trim_bleed_mm": 0,
+  "binding": "left saddle stitch",
+  "faces": [
+    {
+      "sheet": 1,
+      "side": "front",
+      "left": 16,
+      "right": 1
+    },
+    {
+      "sheet": 1,
+      "side": "back",
+      "left": 2,
+      "right": 15
+    },
+    {
+      "sheet": 2,
+      "side": "front",
+      "left": 14,
+      "right": 3
+    },
+    {
+      "sheet": 2,
+      "side": "back",
+      "left": 4,
+      "right": 13
+    },
+    {
+      "sheet": 3,
+      "side": "front",
+      "left": 12,
+      "right": 5
+    },
+    {
+      "sheet": 3,
+      "side": "back",
+      "left": 6,
+      "right": 11
+    },
+    {
+      "sheet": 4,
+      "side": "front",
+      "left": 10,
+      "right": 7
+    },
+    {
+      "sheet": 4,
+      "side": "back",
+      "left": 8,
+      "right": 9
+    }
+  ],
+  "folded_reading_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "all_source_pages_used_once": true,
+  "outputs": [
+    {
+      "paper": "A3",
+      "finished_size": "A4",
+      "file": "books/prospectus-isen-trial-2028/output/imposed/パンフレット_16P_A3両面中綴じ_A4仕上がり.pdf",
+      "sha256": "8115f881a1c3a3080ebe52c254ed9f8173d0d6ad2a67c38094b9c2790a722b45",
+      "faces": 8,
+      "sheets": 4,
+      "size_mm": [
+        420.0,
+        297.0
+      ],
+      "max_thumbnail_mean_difference": 0.2204765193370166,
+      "all_half_sheets_compared": 16,
+      "print_preferences": {
+        "duplex": "short-edge",
+        "scaling": "none",
+        "driver_booklet_mode": false
+      }
+    },
+    {
+      "paper": "A4",
+      "finished_size": "A5",
+      "file": "books/prospectus-isen-trial-2028/output/imposed/パンフレット_16P_A4両面中綴じ_A5仕上がり.pdf",
+      "sha256": "bbc0ea8f1eaaa16f0b86c7845daec9092086d7c3a2637c124a6063b4019b7df5",
+      "faces": 8,
+      "sheets": 4,
+      "size_mm": [
+        297.0,
+        210.0
+      ],
+      "max_thumbnail_mean_difference": 0.2204765193370166,
+      "all_half_sheets_compared": 16,
+      "print_preferences": {
+        "duplex": "short-edge",
+        "scaling": "none",
+        "driver_booklet_mode": false
+      }
+    }
+  ],
+  "self_review": true,
+  "independent_review": false,
+  "purpose": "現在の確認版を家庭・学校のプリンターで両面印刷して中綴じするための面付け。商業印刷入稿用のreleaseではない。"
+}

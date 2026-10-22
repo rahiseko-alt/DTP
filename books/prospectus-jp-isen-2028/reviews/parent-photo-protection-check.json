@@ -1,0 +1,72 @@
+{
+  "revision": 11,
+  "records": [
+    {
+      "page": 1,
+      "scope": "photo crop/scale/centering only; all revision10 pixels outside photograph rect unchanged",
+      "sha256": "4b6f7fb70ff5eeffa834d857dcdb2e969d74dc1a401bf6e31794c63a5cf00fef",
+      "outside_photo_rect_changed_pixels": 0
+    },
+    {
+      "page": 2,
+      "sha256": "b8c7b93f637688541b4133d3c8d6022cf9cdfc32146b9c717fca0e29aa81ce49",
+      "changed_pixels": 718438,
+      "outside_declared_photo_or_person_mask_changed_pixels": 0
+    },
+    {
+      "page": 3,
+      "sha256": "f104711df92075e8f0544fcfbd33e6bd8d7db08e0b544cc4d7528c34a7abaeae",
+      "changed_pixels": 1159111,
+      "outside_declared_photo_or_person_mask_changed_pixels": 0
+    },
+    {
+      "page": 4,
+      "sha256": "378d9d1770cbfd0cc52455aba884e7f0f00353df8293f57baa8c7660f9016f7d",
+      "changed_pixels": 1346959,
+      "outside_declared_photo_or_person_mask_changed_pixels": 0
+    },
+    {
+      "page": 5,
+      "sha256": "10c1cd5a26ac3883db671fc921369fe8d6bc28219af885b42fd91604e56969f9",
+      "changed_pixels": 2968109,
+      "outside_declared_photo_or_person_mask_changed_pixels": 0
+    },
+    {
+      "page": 6,
+      "sha256": "bfb682ede0d2b1bfb461a6856aa381b2ef2eec3f3a96fe9399eb7426e96027c7",
+      "changed_pixels": 1095421,
+      "outside_declared_photo_or_person_mask_changed_pixels": 0
+    },
+    {
+      "page": 7,
+      "sha256": "5fd1ee91d40b8bc654d97d118d879c9dda20b47ac20226ce0bcd668854159aef",
+      "changed_pixels": 1474407,
+      "outside_declared_photo_or_person_mask_changed_pixels": 0
+    },
+    {
+      "page": 8,
+      "sha256": "39c49518e50341d4d6723cc6942eee619c1d8b9f604631e1bf75a71e298484c7",
+      "changed_pixels": 3241111,
+      "outside_declared_photo_or_person_mask_changed_pixels": 0
+    },
+    {
+      "page": 9,
+      "sha256": "69944b75f40b3775e355c60aa00b90f52dea3b1580ebc13f9adace6e2db0985c",
+      "changed_pixels": 905194,
+      "outside_declared_photo_or_person_mask_changed_pixels": 0
+    },
+    {
+      "page": 10,
+      "sha256": "42ed8aa8c94a703bebc7a369d520119d63e2738350ec3799ff9d1031aab3fa59",
+      "changed_pixels": 3460457,
+      "outside_declared_photo_or_person_mask_changed_pixels": 0
+    },
+    {
+      "page": 11,
+      "sha256": "9b0cbcbf4e5ff076b8605e68d8a65b0bdb944b9c89797c6ef58b0096f0b72b2e",
+      "changed_pixels": 1814897,
+      "outside_declared_photo_or_person_mask_changed_pixels": 0
+    }
+  ],
+  "body_review": "Body unchanged from human-confirmed revision2; see cover-only-revision11-proof.json"
+}

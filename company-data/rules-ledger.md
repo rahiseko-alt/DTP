@@ -68,7 +68,7 @@ python3 system/scripts/read-ledger.py
 
 - 原則は作業ブランチとPRで共有する。履歴の強制書換えや他方のブランチの無断変更をしない。
 - commitメッセージは日本語・種別付き（`feat` / `fix` / `book` / `data` / `ref` / `docs` / `chore`）。1コミットは意味のある作業単位にする。
-- 制作変更は `npm run doctor`、`npm run check`、変更したBOOKのrender、出力画像の目視で検証する。未実行・失敗・未確認を合格にしない。GitHub ActionsのCIは使わない。
+- 制作変更は `npm run doctor`、`npm run check`、変更したBOOKのrender、出力画像の目視で検証する。未実行・失敗・未確認を合格にしない。ローカル検証に加え、GitHubの必須asset-integrityで資料の同一性・保存状態・現行出力の鮮度を検査する。main保護は回避しない。
 - Chromium取得は通信制限のため保留する。人間の新たな指示なしに取得を繰り返さない。Chromium依存の未実行検証は明記する。
 - 終了時は安全な区切りで止め、変更・検証結果・未完了を確認し、引継ぎ台帳の自分の担当欄を更新する。次の作業、注意点、ブランチと必要な参照先を残す。
 - commit・pushし、最新mainとの衝突・影響を確認してマージを提案する。承認待ちや検証不合格の途中保存は未マージのまま終了できる。
@@ -124,3 +124,11 @@ python3 system/scripts/read-ledger.py
 ## 管理済み資料の識別経路
 
 `system/assets/policy.json` に列挙した資料は `asset:resolve/search/get` を使用し、原本・抽出画像・差し替え写真・再構成プレビューの役割を区別する。格納は専用登録、検査は `asset:check`。対象不明や実体不足で原本や別資料を代用しない。未移行はlegacy-unverifiedであり確定検索対象外。詳細手順は `system/assets/README.md`。
+
+## 資料名とタグの識別（2026-10-20）
+
+人間の指示により、配布資料の表示名・固定ID・用途別タグ・制作予定版は `downloads/latest-materials.json` に集約し、`downloads/README.md` の呼称を使う。`python3 system/scripts/list-materials.py` で確認する。対象（日本人向け）と人物画像仕様（日本人イメージ）は別に扱う。年度、現行/未制作、本文PDF/面付けPDFを混同せず、未制作版はファイルなしとする。内部BOOK ID・アセットID・SHAは変更せず、実体取得は既存asset CLI経路を守る。
+
+## 保存版と現在入力の出力（2026-10-22）
+
+保存物の同定・役割・SHAと、現入力で描画した最新版の証拠を区別する。明示saved状態は専用archiveで実体を確認し、通常getでは拒否、--savedでのみ取得する。正規baseline同期は出力鮮度だけを別検査へ分け、内容不正や参照破損を許可しない。現行出力の依存採取と必須asset-integrityは維持。詳細はsystem/assets/README.mdとdocs/audits/asset-gate-20261022/plan.md。

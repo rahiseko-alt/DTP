@@ -1,0 +1,98 @@
+{
+  "method": "Alpha-only mask for cropped-neighbor shoulder/hand/shoe fragments; source RGB unchanged.",
+  "source_sha256": "fdb169ab10a86790c60b9759cb7ae2a27042c7fe22c24d44da6043ee6b453d8f",
+  "output_sha256": "4cdd5d3f774f0981b08c9f434b713b49932b4de39626e378164b53f2c37003ad",
+  "polygons_source_px": [
+    [
+      [
+        0,
+        200
+      ],
+      [
+        0,
+        258
+      ],
+      [
+        18,
+        254
+      ],
+      [
+        23,
+        248
+      ],
+      [
+        22,
+        235
+      ],
+      [
+        19,
+        222
+      ],
+      [
+        14,
+        212
+      ]
+    ],
+    [
+      [
+        0,
+        378
+      ],
+      [
+        0,
+        410
+      ],
+      [
+        7,
+        405
+      ],
+      [
+        10,
+        390
+      ],
+      [
+        8,
+        380
+      ]
+    ],
+    [
+      [
+        0,
+        676
+      ],
+      [
+        0,
+        728
+      ],
+      [
+        26,
+        728
+      ],
+      [
+        24,
+        715
+      ],
+      [
+        21,
+        699
+      ],
+      [
+        18,
+        683
+      ],
+      [
+        10,
+        679
+      ]
+    ]
+  ],
+  "feather_px": 0.65,
+  "changed_alpha_pixels": 2516,
+  "changed_bounds_px": [
+    0,
+    204,
+    29,
+    731
+  ],
+  "changed_rgb_pixels": 0
+}

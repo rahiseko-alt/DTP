@@ -1,0 +1,152 @@
+{
+  "source": "国土地理院 標準地図",
+  "zoom": 17,
+  "x_min": 115369,
+  "y_min": 51838,
+  "tiles": [
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115369/51838.png",
+      "file": "tiles/17-115369-51838.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115370/51838.png",
+      "file": "tiles/17-115370-51838.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115371/51838.png",
+      "file": "tiles/17-115371-51838.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115372/51838.png",
+      "file": "tiles/17-115372-51838.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115373/51838.png",
+      "file": "tiles/17-115373-51838.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115374/51838.png",
+      "file": "tiles/17-115374-51838.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115369/51839.png",
+      "file": "tiles/17-115369-51839.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115370/51839.png",
+      "file": "tiles/17-115370-51839.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115371/51839.png",
+      "file": "tiles/17-115371-51839.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115372/51839.png",
+      "file": "tiles/17-115372-51839.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115373/51839.png",
+      "file": "tiles/17-115373-51839.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115374/51839.png",
+      "file": "tiles/17-115374-51839.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115369/51840.png",
+      "file": "tiles/17-115369-51840.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115370/51840.png",
+      "file": "tiles/17-115370-51840.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115371/51840.png",
+      "file": "tiles/17-115371-51840.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115372/51840.png",
+      "file": "tiles/17-115372-51840.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115373/51840.png",
+      "file": "tiles/17-115373-51840.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115374/51840.png",
+      "file": "tiles/17-115374-51840.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115369/51841.png",
+      "file": "tiles/17-115369-51841.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115370/51841.png",
+      "file": "tiles/17-115370-51841.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115371/51841.png",
+      "file": "tiles/17-115371-51841.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115372/51841.png",
+      "file": "tiles/17-115372-51841.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115373/51841.png",
+      "file": "tiles/17-115373-51841.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115374/51841.png",
+      "file": "tiles/17-115374-51841.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115369/51842.png",
+      "file": "tiles/17-115369-51842.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115370/51842.png",
+      "file": "tiles/17-115370-51842.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115371/51842.png",
+      "file": "tiles/17-115371-51842.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115372/51842.png",
+      "file": "tiles/17-115372-51842.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115373/51842.png",
+      "file": "tiles/17-115373-51842.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115374/51842.png",
+      "file": "tiles/17-115374-51842.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115369/51843.png",
+      "file": "tiles/17-115369-51843.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115370/51843.png",
+      "file": "tiles/17-115370-51843.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115371/51843.png",
+      "file": "tiles/17-115371-51843.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115372/51843.png",
+      "file": "tiles/17-115372-51843.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115373/51843.png",
+      "file": "tiles/17-115373-51843.png"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/std/17/115374/51843.png",
+      "file": "tiles/17-115374-51843.png"
+    }
+  ]
+}

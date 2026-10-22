@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-20",
+  "book": "prospectus-isen-trial-2028",
+  "method": "Ghostscriptによるカラー/グレー画像200dpi化・JPEG品質88とフォント圧縮。文字のベクターを保持し、両面短辺反転・縮小なしの設定を再設定。原版は保持。",
+  "ghostscript_version": "10.05.1",
+  "ghostscript_arguments": [
+    "-q",
+    "-dSAFER",
+    "-dBATCH",
+    "-dNOPAUSE",
+    "-sDEVICE=pdfwrite",
+    "-dCompatibilityLevel=1.7",
+    "-dAutoRotatePages=/None",
+    "-dDetectDuplicateImages=true",
+    "-dCompressFonts=true",
+    "-dDownsampleColorImages=true",
+    "-dColorImageResolution=200",
+    "-dColorImageDownsampleType=/Bicubic",
+    "-dAutoFilterColorImages=false",
+    "-dColorImageFilter=/DCTEncode",
+    "-dJPEGQ=88",
+    "-dDownsampleGrayImages=true",
+    "-dGrayImageResolution=200",
+    "-dGrayImageDownsampleType=/Bicubic",
+    "-dDownsampleMonoImages=true",
+    "-dMonoImageResolution=400",
+    "-sColorConversionStrategy=RGB",
+    "-dOverrideICC=true",
+    "-dUseFastColor=true"
+  ],
+  "outputs": [
+    {
+      "paper": "A3",
+      "file": "books/prospectus-isen-trial-2028/output/imposed/print-brochure-A3.pdf",
+      "sha256": "6c6f07b20e56426202170bb43e2ec9559c7389f213747682b8353fdecd93b411",
+      "bytes": 4181969,
+      "source": "books/prospectus-isen-trial-2028/output/imposed/パンフレット_16P_A3両面中綴じ_A4仕上がり.pdf",
+      "source_sha256": "8115f881a1c3a3080ebe52c254ed9f8173d0d6ad2a67c38094b9c2790a722b45",
+      "source_asset_id": "saddle-print-a3",
+      "source_bytes": 111456219,
+      "faces": 8,
+      "dimensions_and_rotation_unchanged": true,
+      "page_order_verified_by_all_face_image_comparison": true,
+      "max_thumbnail_mean_difference": 1.6387075958702066,
+      "native_currency_counts_unchanged": true,
+      "qr_decoded_from_sheet_1_back_at_150dpi": [
+        "https://kaihougakuen.my.canva.site/"
+      ],
+      "duplex": "short-edge",
+      "scaling": "none"
+    },
+    {
+      "paper": "A4",
+      "file": "books/prospectus-isen-trial-2028/output/imposed/print-brochure-A4.pdf",
+      "sha256": "9e60fa41c697dfadbb4913f947d1fbf7c12ef2c3017670e381c46fb40f541b8e",
+      "bytes": 2856747,
+      "source": "books/prospectus-isen-trial-2028/output/imposed/パンフレット_16P_A4両面中綴じ_A5仕上がり.pdf",
+      "source_sha256": "bbc0ea8f1eaaa16f0b86c7845daec9092086d7c3a2637c124a6063b4019b7df5",
+      "source_asset_id": "saddle-print-a4",
+      "source_bytes": 111456795,
+      "faces": 8,
+      "dimensions_and_rotation_unchanged": true,
+      "page_order_verified_by_all_face_image_comparison": true,
+      "max_thumbnail_mean_difference": 1.144685656342183,
+      "native_currency_counts_unchanged": true,
+      "qr_decoded_from_sheet_1_back_at_150dpi": [
+        "https://kaihougakuen.my.canva.site/"
+      ],
+      "duplex": "short-edge",
+      "scaling": "none"
+    }
+  ],
+  "self_review": true,
+  "independent_review": false,
+  "physical_print_test": false
+}

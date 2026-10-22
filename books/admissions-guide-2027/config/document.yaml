@@ -1,10 +1,13 @@
 schema_version: 1
 id: admissions-guide-2027
-title: 2027年度募集要項・出願書類
+title: 募集要項｜日本人向け｜2027年度
 aliases:
   - 募集要項
+  - 募集要領
   - 募集要項2027
   - 願書冊子
+  - 募集要項_日本人向け_現行
+  - ADM-JP-2027
 renderer: standard-book
 catalog: books/admissions-guide-2027/parts/catalog.yaml
 managed_roots:

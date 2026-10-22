@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-20",
+  "books": [
+    {
+      "id": "prospectus-isen-trial-2028",
+      "title": "パンフレット",
+      "source_asset_id": "white-16p-access-map-revised",
+      "source": "books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_地図連絡先改訂.pdf",
+      "sha256": "33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56",
+      "pages": 16,
+      "bleed_mm": 0,
+      "basename": "パンフレット_16P"
+    },
+    {
+      "id": "admissions-guide-2027",
+      "title": "募集要項",
+      "source_asset_id": "fees-kana-main-merged-pdf",
+      "source": "books/admissions-guide-2027/output/pdf/admissions-guide-2027_ふりがな料金確認_main統合版.pdf",
+      "sha256": "42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16",
+      "pages": 24,
+      "bleed_mm": 3,
+      "basename": "募集要項_24P"
+    }
+  ]
+}

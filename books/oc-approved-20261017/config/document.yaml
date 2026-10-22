@@ -1,9 +1,14 @@
 {
   "schema_version": 1,
   "id": "oc-approved-20261017",
-  "title": "AIビジネス専門学校OCチラシ",
+  "title": "チラシ｜OC黄色帯｜年度未確認",
   "aliases": [
-    "医専チラシ"
+    "チラシ",
+    "OC版",
+    "OCチラシ",
+    "黄色いOCチラシ",
+    "チラシ_OC黄色帯_現行",
+    "FLY-OC-YELLOW"
   ],
   "renderer": "oc-approved-html",
   "catalog": "books/oc-approved-20261017/parts/catalog.yaml",
@@ -15,7 +20,7 @@
   "evidence": {
     "filename": "AIビジネス専門学校_OCチラシ_両面印刷.pdf",
     "pages": 2,
-    "decision": "ユーザーがこの添付両面チラシを対象と指定。パンフレットとは別資料。原本の人物は生成画像のため原本切り出し画像部品（original-extracted）は作成せず、正本実写真差し替え版（real-photo-rebuild）のみを使用する方針。",
+    "decision": "ユーザーが黄色いOPEN CAMPUS帯の添付原本を正しいOC版と確認。実写真再構成版のPDF・プレビューは2026-10-20の人間の指示で削除。地図・正本連絡先を反映した原本由来の最新版はlatest-original-oc-pdf。",
     "previews": [
       "references/school-own/oc-approved-20261017/pages/page-01.png",
       "references/school-own/oc-approved-20261017/pages/page-02.png"

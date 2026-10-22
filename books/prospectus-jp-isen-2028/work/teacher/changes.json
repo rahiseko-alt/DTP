@@ -1,0 +1,23 @@
+{
+  "page": 8,
+  "photo_rect": [
+    0,
+    0,
+    2480,
+    1322
+  ],
+  "adopted_image": "shared/generated-assets/jp-existing-photo-b-r01/B-PHOTO-R07-S02.png",
+  "placement": [
+    520,
+    275,
+    1960,
+    1047
+  ],
+  "copy_mask": "copy-mask.png",
+  "copy_components": 41,
+  "source_image": "books/prospectus-jp-isen-2028/work/teacher/source-page.png",
+  "photo_outside_unchanged": true,
+  "background_extension": "background-extended.png",
+  "original_r07_subject_pixels": "preserved inside placed image; only the outer 70px left/50px top blend with extended background",
+  "sha256": "39c49518e50341d4d6723cc6942eee619c1d8b9f604631e1bf75a71e298484c7"
+}

@@ -1,0 +1,11 @@
+{
+  "command": "npm run validate",
+  "exit_code": 1,
+  "error_counts": {
+    "STALE_OUTPUT": 46,
+    "LEGACY_NEW": 474,
+    "LEGACY_CHANGED": 1
+  },
+  "total_errors": 521,
+  "note": "Existing global stale/legacy findings remain; original photo protection, screenshot, body preservation and delivery checks completed separately."
+}

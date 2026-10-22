@@ -1,0 +1,282 @@
+{
+  "source_pdf": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
+  "method": "Revision2 photo-only composition; printed glyph masks, clean generated P10 circle with source lettering, P11 original continuous wall/right counselor and soft white headline backing. See compose.py.",
+  "pages": {
+    "10": {
+      "size_px": [
+        2480,
+        3508
+      ],
+      "photo_rects": [
+        [
+          0,
+          530,
+          2480,
+          1530
+        ],
+        [
+          63,
+          2100,
+          493,
+          2640
+        ],
+        [
+          550,
+          2130,
+          975,
+          2640
+        ],
+        [
+          1030,
+          2100,
+          1455,
+          2640
+        ],
+        [
+          1510,
+          2100,
+          1940,
+          2640
+        ],
+        [
+          2000,
+          2100,
+          2425,
+          2640
+        ]
+      ],
+      "protected_glyph_regions": [
+        [
+          0,
+          530,
+          745,
+          900
+        ],
+        [
+          1850,
+          530,
+          2480,
+          620
+        ],
+        [
+          2030,
+          1120,
+          2480,
+          1530
+        ],
+        [
+          1190,
+          2100,
+          1450,
+          2480
+        ]
+      ],
+      "protected_glyph_mask": "page-10-text-protection-mask.png",
+      "outside_photo_changed_pixels": 0,
+      "protected_glyph_changed_pixels": 0,
+      "changed_pixels": 3460457,
+      "source_sha256": "9872ebf3788ba05a06656e00ae5e36a7c1ed2368bc469deb69b0f580004d4939",
+      "output_sha256": "42ed8aa8c94a703bebc7a369d520119d63e2738350ec3799ff9d1031aab3fa59",
+      "note": "Revision2: protect printed glyphs and actual speech bubble silhouette instead of rectangular photo fragments. Smooth source glyph halos; all other non-photo pixels retained."
+    },
+    "11": {
+      "size_px": [
+        2480,
+        3508
+      ],
+      "photo_rects": [
+        [
+          1000,
+          200,
+          2480,
+          1130
+        ],
+        [
+          190,
+          1390,
+          595,
+          1625
+        ],
+        [
+          705,
+          1355,
+          1125,
+          1625
+        ],
+        [
+          1380,
+          1380,
+          1780,
+          1625
+        ],
+        [
+          1950,
+          1375,
+          2375,
+          1625
+        ],
+        [
+          92,
+          2605,
+          640,
+          2870
+        ],
+        [
+          690,
+          2605,
+          1215,
+          2870
+        ],
+        [
+          1270,
+          2605,
+          1790,
+          2870
+        ],
+        [
+          1845,
+          2605,
+          2395,
+          2870
+        ]
+      ],
+      "protected_glyph_regions": [
+        [
+          1000,
+          200,
+          1235,
+          395
+        ],
+        [
+          1000,
+          440,
+          1270,
+          625
+        ],
+        [
+          1900,
+          200,
+          2480,
+          450
+        ],
+        [
+          1950,
+          560,
+          2190,
+          780
+        ],
+        [
+          1000,
+          670,
+          1060,
+          1000
+        ],
+        [
+          130,
+          1410,
+          245,
+          1510
+        ],
+        [
+          1025,
+          1410,
+          1140,
+          1545
+        ],
+        [
+          1350,
+          1380,
+          1445,
+          1530
+        ],
+        [
+          1920,
+          1400,
+          2050,
+          1530
+        ]
+      ],
+      "protected_glyph_mask": "page-11-text-protection-mask.png",
+      "outside_photo_changed_pixels": 0,
+      "protected_glyph_changed_pixels": 0,
+      "changed_pixels": 1814897,
+      "source_sha256": "2efbc8936ef980d0241d4ec4eb24366cef995f5def052f8c2deb603b094eaedf",
+      "output_sha256": "9b0cbcbf4e5ff076b8605e68d8a65b0bdb944b9c89797c6ef58b0096f0b72b2e",
+      "note": "Revision2: protect printed glyphs and actual speech bubble silhouette instead of rectangular photo fragments. Smooth source glyph halos; all other non-photo pixels retained.",
+      "retained_original_region": [
+        1920,
+        200,
+        2480,
+        1130
+      ],
+      "retained_boundary": "55px left feather; left 100px limited to light neutral original wall",
+      "headline_backing": "white fade extending beyond the type rectangle with Gaussian distance sigma45px"
+    },
+    "12": {
+      "page": 12,
+      "clip_pt": [
+        327.9923095703125,
+        53.80705642700195,
+        564.502197265625,
+        150.66348266601562
+      ],
+      "size_px": [
+        1184,
+        485
+      ],
+      "source_image_xref": 43,
+      "source_image_bbox_pt": [
+        327.9923095703125,
+        33.5347900390625,
+        564.502197265625,
+        211.48028564453125
+      ],
+      "output_sha256": "5763360ddeed44bf6fddfd88e306e67ccfd46b4c893a3fe41528aca490ae8c2b",
+      "method": "Output only the exact visible photograph crop. Parent inserts it into clip_pt without changing any surrounding PDF content."
+    }
+  },
+  "files_sha256": {
+    "grid-p09-8-current.png": "2aabf1faf02116dfa651cb77a1aea83b722b06d147edbd5c6201e928329c5a82",
+    "p10-main-input.png": "8f06efe96e6a2eb377f9e0aa7885aabbae19ce31a4f4f806ad9ccafe29ec2542",
+    "p12-preview.png": "450d907694e1745693d735619a91f7cbd853dbdfd9e901d7bf60f4b09822c2ab",
+    "revision2-p09-compare-08.png": "e879963990a8bd2d8df2db23329474630a92f4b6af4ef2bb2c6001a9ff6cae55",
+    "revision2-p09-compare-05.png": "e0bbc949c46b82552d33fd1a3c8c8f3f9b24d514ce63b289dae7c76e44d5d9f8",
+    "p10-preview.png": "c311aa524e2958fc6763b7552a2edbaa3d600fd852551ea9d550ed9834c8bf1e",
+    "revision2-inspect-11-950.png": "ae3e09027100ee0e67d06548f493cc459d91a39ef5860a346374cb683072a54b",
+    "p11-source.png": "2efbc8936ef980d0241d4ec4eb24366cef995f5def052f8c2deb603b094eaedf",
+    "page-10-preview.png": "1631382c19f995c8c4db830d5f814ec36d1826c4f3a796c3ea04b1bb5aea2154",
+    "revision2-inspect-11-1850.png": "28886dc31070b52fbfd61b147fb7cd46b620ccf80cf3471c6d04faeb6916037c",
+    "p11-main-input.png": "f3b421eb545fa614a24e9f910cb0c05eca8ed2190a623878f90098e9f1506f17",
+    "p12-generated.png": "4c4fa16dd376a3727ea8be4b4594769510889988c755bcc97b5881f2d7c87a2b",
+    "page-10.png": "42ed8aa8c94a703bebc7a369d520119d63e2738350ec3799ff9d1031aab3fa59",
+    "p10-grid.png": "9fc63d3e891d4ed726740ba7f61f86a512b5d8cffc50a9021d02aa44f42dc123",
+    "p11-small-generated.png": "1f6339c684f78f300213097860db8102dafceff24ce68192eb9346233a6f528a",
+    "p10-main-generated.png": "a73980e23fb796ae6974575fe146dbfd6b0251dee5f2e0c5974aa872df6ba5c4",
+    "grid-p09-5-current.png": "3d4423e9d679cf094e59d1af298db6d714da3257101352eaf375e32825d90e41",
+    "p12-photo.png": "5763360ddeed44bf6fddfd88e306e67ccfd46b4c893a3fe41528aca490ae8c2b",
+    "revision2-p09-compare-01.png": "1c192606aa4f56bc1acb7237c4606d7b167f1b8780e55962c3e318001d59ce99",
+    "grid-p09-9-current.png": "03b7c8f32f4bdab094b2f703d3b06c64835fde9dfa94582193e1807832701a7b",
+    "grid-p09-8-source.png": "80d2c8fc9c2193915fe3198b3a949955c2a46690cc7297dadc72340011d912bd",
+    "p11-small-input.png": "b482774366e7ebc75e4842fb8e55f89fea9ff87e16b6516bbba4b8b2e3418243",
+    "revision2-p09-compare-10.png": "ab92e31541bd41f5d2948a7d2a7dae6bf551726d52699ec3791a690e18f74ab9",
+    "revision2-p09-compare-04.png": "2e26de829694571ab3f889f45b54262c0affa19eb6ea0945f476983452291a62",
+    "page-11.png": "9b0cbcbf4e5ff076b8605e68d8a65b0bdb944b9c89797c6ef58b0096f0b72b2e",
+    "page-11-text-protection-mask.png": "f314dbe39de32322e7f40c312c5dff4ecd333a19067af60f0a3076890669eb65",
+    "page-11-preview.png": "1257bc110f989c3338b6f11c7f3768f3ea44d1ad8592ccb938d6343eca60c42e",
+    "revision2-p09-compare-07.png": "15ee964543eb71f1a7998238438f6f281e9a9ca04751aeb7239249f265cb0b95",
+    "page-10-text-protection-mask.png": "20b525427b26da8f7401f9de8a6acb07d6367a29d0170098759bd3a5ebd2214f",
+    "p11-preview.png": "35136ef83c2c7fe7451431acc2418bb75d20d87591939da256f5285e2457c253",
+    "p12-input.png": "67c03590f17dd2903cc4bcf40b710b61642f714f51cd9bc7629c2f9317ca55ad",
+    "revision2-inspect-10-1850.png": "d0d62c804bc5b753e8c996b1030f1eb76c7fc4a5fe0d614f905573831f31fad2",
+    "p10-circle-detail.png": "1f3645882f18a1aee7165834e5ee23101a3a1f1ce75e7f54b4c37efc01a098ad",
+    "grid-p09-9-source.png": "2e9fde3304afc32c5e59c7bf89b831b4ef5abd298510ab1ee70055a44bfeaad1",
+    "p10-small-generated.png": "c494873c61e9b31e87b40f27625f5f6be80412005787c10e1a0cf9e7f9c905e4",
+    "p11-main-generated.png": "c839e3d674ce52752360ba58a8f5accb6b146b5c5d7358d676a8469b02a83719",
+    "p10-small-input.png": "a6bfd58e70b25d08c492c0dc84d712891b72e9051e631b0f24e3f226c1c47331",
+    "revision2-p09-compare-09.png": "c536f5dfd12e6fd43b9c4cd5ba7edf4e01af05157aeb2f550d28b64106309174",
+    "p10-source.png": "9872ebf3788ba05a06656e00ae5e36a7c1ed2368bc469deb69b0f580004d4939",
+    "grid-p09-5-source.png": "a39a34516a0c8fd49c02056161b8573329ddf6b74213435b81abcd7d58da3564",
+    "p11-grid.png": "d5c3fffd3683129a4815f1f2a15bb80e5fb7f58bcf441d68ee27122bf3770268"
+  },
+  "revision": 2
+}

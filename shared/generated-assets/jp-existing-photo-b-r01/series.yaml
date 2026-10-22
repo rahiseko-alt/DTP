@@ -1,0 +1,34 @@
+series_id: B-PHOTO-R01
+proposal: B
+display_name: B案_写真ごとに指定構図と人物を調整
+status: 講師ページ写真のみ人間が採用。他の場面は個別判定
+tags:
+- 提案:B
+- 素材:生成編集人物
+- 参照:現行パンフ写真
+- 肌:褐色を残す
+- 顔立ち:多様性を残す
+- 状態:紙面未反映
+- 構図:各場面の最新指定を参照
+contrast_with_A: A案は新しい4人の固定展開。Bの1・3枚目は元写真の構図参照。講師ページは新構図のR07を人間が採用。
+scenes:
+- id: B-PHOTO-R01-S01
+  file: B-PHOTO-R01-S01.png
+  source_pdf_page: 2
+  name: 4人組
+- id: B-PHOTO-R07-S02
+  file: B-PHOTO-R07-S02.png
+  name: 講師ページ_人間採用_横長の説明と応答
+  previous_file: B-PHOTO-R06-S02.png
+  reference_image_count: 5
+  status: 人間採用・紙面未反映
+  sha256: 3f397a6817a26dbe60a5534e6555b6009e03a8457f0e92669a12ce4de45e5189
+  adopted_by: user
+  adopted_date: '2026-10-21'
+  target_page_heading: Google認定資格を持つ講師から、AIを実践的に学ぶ。
+  usage_by_edition:
+    PAM-JP-ISEN: 講師ページ写真として人間採用。紙面未反映。
+- id: B-PHOTO-R01-S03
+  file: B-PHOTO-R01-S03.png
+  source_pdf_page: 11
+  name: 保護者との相談

@@ -1,0 +1,29 @@
+{
+  "checked": "2026-10-20",
+  "postal_code": "453-0014",
+  "address": "愛知県名古屋市中村区則武1丁目30-17",
+  "source": "https://msearch.gsi.go.jp/address-search/AddressSearch",
+  "query": "愛知県名古屋市中村区則武1丁目30-17",
+  "response": [
+    {
+      "geometry": {
+        "coordinates": [
+          136.874008,
+          35.173653
+        ],
+        "type": "Point"
+      },
+      "type": "Feature",
+      "properties": {
+        "addressCode": "",
+        "title": "愛知県名古屋市中村区則武一丁目３０番１７号"
+      }
+    }
+  ],
+  "school_sources": [
+    "company-data/ledger.md",
+    "company-data/facts/school.yaml",
+    "references/school-own/admissions-2027/original/募集要項2027.docx"
+  ],
+  "note": "地図制作の基準点。建物入口・徒歩経路は未調査。"
+}

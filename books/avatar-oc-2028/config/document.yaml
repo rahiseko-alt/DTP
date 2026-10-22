@@ -1,10 +1,11 @@
 schema_version: 1
 id: avatar-oc-2028
-title: アバター体験オープンキャンパスチラシ
+title: 別案チラシ｜アバター体験｜2028表記
 aliases:
   - アバターチラシ
   - アバター体験OCチラシ
   - アバターOC
+  - 別案_アバターOC
 renderer: standard-book
 catalog: books/avatar-oc-2028/parts/catalog.yaml
 managed_roots:

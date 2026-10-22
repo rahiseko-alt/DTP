@@ -15,6 +15,7 @@ import {
   buildIndex,
   verifyIndex,
   syncBaseline,
+  archiveAsset,
   type Role,
 } from "./lib/assets.ts";
 const { values: v, positionals } = parseArgs({
@@ -29,6 +30,9 @@ const { values: v, positionals } = parseArgs({
     media: { type: "string" },
     revision: { type: "string" },
     saved: { type: "boolean" },
+    "save-reason": { type: "string" },
+    ids: { type: "string" },
+    reason: { type: "string" },
     source: { type: "string" },
     sha256: { type: "string" },
     confirmation: { type: "string" },
@@ -128,7 +132,13 @@ try {
       confirmation: confirmation as "verified" | "unverified",
       dryRun: v["dry-run"],
       buildSnapshot: v["build-snapshot"],
+      saveReason: v["save-reason"],
       built_from: v["built-from"] ? JSON.parse(v["built-from"]) : [],
+    });
+  } else if (cmd === "archive") {
+    result = await archiveAsset(root, {
+      document: required("document"), ids: required("ids").split(",").map(x => x.trim()).filter(Boolean),
+      reason: required("reason"), dryRun: v["dry-run"],
     });
   } else if (cmd === "baseline-sync") {
     const paths = v.paths
@@ -141,7 +151,7 @@ try {
     });
   } else
     throw Error(
-      "Commands: resolve, search, get, register, photo, extract, recover, check, index, baseline-sync",
+      "Commands: resolve, search, get, register, photo, extract, recover, check, index, baseline-sync, archive",
     );
   if (
     cmd === "search" &&

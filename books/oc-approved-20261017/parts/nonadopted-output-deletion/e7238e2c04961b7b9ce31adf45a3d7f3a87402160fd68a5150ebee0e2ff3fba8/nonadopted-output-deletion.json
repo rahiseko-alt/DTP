@@ -1,0 +1,62 @@
+[
+  {
+    "id": "support-output-dom-check-json",
+    "revision": "a777842b030e9069ce0fe8a8910dd7b5df6069394c03f321fb277538d6d6248c",
+    "file": "books/oc-approved-20261017/output/dom-check.json"
+  },
+  {
+    "id": "preview-page-1",
+    "revision": "44f470d37f12b4e3ee180a0a25c5fa0dc64e06f650024a09682453405adc01ca",
+    "file": "books/oc-approved-20261017/output/page-1.png"
+  },
+  {
+    "id": "preview-page-2",
+    "revision": "80cefc484098bf12f78c10da9ee58b82a83048ec2d18e4cdee4d3b4c3d68eed3",
+    "file": "books/oc-approved-20261017/output/page-2.png"
+  },
+  {
+    "id": "combined-preview",
+    "revision": "3651568ada148faa2afa4bd639eb5f84ec071045d19da2cfbc0a88cac76553cd",
+    "file": "books/oc-approved-20261017/output/実写真版_OCチラシ_両面.pdf"
+  },
+  {
+    "id": "layout-flyer",
+    "revision": "03fdb46520b1bc6498718a92a23f4811c8b462478ab730c584dfa046e080d545",
+    "file": "books/oc-approved-20261017/source/flyer.html"
+  },
+  {
+    "id": "preview-layout-check",
+    "revision": "072af5b6b4ee2bad7d77ad51f1ad7c89d78dbfa788d65827aea1e909d52fdf15",
+    "file": "books/oc-approved-20261017/source/layout-check.png"
+  },
+  {
+    "id": "combined-preview",
+    "revision": "f089c1dfee24afa2d5bda0e981331afa6b7cbd6325acee1827ba0b2264fe5e86",
+    "file": "books/oc-approved-20261017/output/combined-preview/f089c1dfee24afa2d5bda0e981331afa6b7cbd6325acee1827ba0b2264fe5e86/combined-preview.pdf"
+  },
+  {
+    "id": "preview-page-2",
+    "revision": "f2736cc1389ff9e39b59a088e7ad2a86203aa716fef5bd67c8b84be898900a84",
+    "file": "books/oc-approved-20261017/output/preview-page-2/f2736cc1389ff9e39b59a088e7ad2a86203aa716fef5bd67c8b84be898900a84/preview-page-2.png"
+  },
+  {
+    "id": "access-rollout-front-preview",
+    "revision": "44f470d37f12b4e3ee180a0a25c5fa0dc64e06f650024a09682453405adc01ca",
+    "file": "books/oc-approved-20261017/output/access-rollout-front-preview/44f470d37f12b4e3ee180a0a25c5fa0dc64e06f650024a09682453405adc01ca/access-rollout-front-preview.png"
+  },
+  {
+    "id": "adopted-map-all-pages",
+    "revision": "bd95b58928ad77a64011d1f07a848eccfe55243a58ebeb14b38754b6352cabb5",
+    "file": "books/oc-approved-20261017/parts/adopted-map-all-pages/bd95b58928ad77a64011d1f07a848eccfe55243a58ebeb14b38754b6352cabb5/adopted-map-all-pages.jpg"
+  },
+  {
+    "id": "adopted-map-print-proof",
+    "revision": "fad61bd7ec42a04f299dabad33a2d709dc2462b51eccd77d124b4837877f3ef1",
+    "file": "books/oc-approved-20261017/parts/adopted-map-print-proof/fad61bd7ec42a04f299dabad33a2d709dc2462b51eccd77d124b4837877f3ef1/adopted-map-print-proof.json"
+  },
+  {
+    "id": "latest-print-a4",
+    "revision": "329025bc49d3a866961652323ab16edbe693999c32fb4c37093c69840d300f04",
+    "file": "books/oc-approved-20261017/parts/latest-print-a4/329025bc49d3a866961652323ab16edbe693999c32fb4c37093c69840d300f04/latest-print-a4.pdf"
+  }
+]

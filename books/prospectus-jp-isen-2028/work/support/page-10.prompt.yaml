@@ -1,0 +1,69 @@
+tool: image_gen.imagegen + deterministic PIL compositing
+model: gpt-image (tool model version unavailable)
+prompt: Photo-only edits from two separately generated isolated photograph inputs.
+  See individual generation prompts; no full publication page supplied or generated.
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+size: 2480x3508
+created: '2026-10-21'
+author: codex / jp_isen_support
+reference_inputs:
+- path: books/prospectus-jp-isen-2028/work/support/p10-main-input.png
+  usage: img2img
+- path: books/prospectus-jp-isen-2028/work/support/p10-small-input.png
+  usage: img2img
+source_refs:
+- books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf
+notes: 'Revision2: photograph-only composition. Preserve printed source glyph pixels;
+  avoid restored clothing/background rectangles. P10 uses the clean generated circle
+  and original lettering. P11 retains source wall/right counselor from x1920, left
+  feather55px with neutral-wall gate, and adds a soft white readability backing around
+  headline. Exact algorithm in compose.py, actual scope checks in changes.json.'
+photo_rects:
+- - 0
+  - 530
+  - 2480
+  - 1530
+- - 63
+  - 2100
+  - 493
+  - 2640
+- - 550
+  - 2130
+  - 975
+  - 2640
+- - 1030
+  - 2100
+  - 1455
+  - 2640
+- - 1510
+  - 2100
+  - 1940
+  - 2640
+- - 2000
+  - 2100
+  - 2425
+  - 2640
+verification:
+  outside_photo_changed_pixels: 0
+  protected_glyph_changed_pixels: 0
+sha256: 42ed8aa8c94a703bebc7a369d520119d63e2738350ec3799ff9d1031aab3fa59
+revision: 2
+protected_glyph_regions:
+- - 0
+  - 530
+  - 745
+  - 900
+- - 1850
+  - 530
+  - 2480
+  - 620
+- - 2030
+  - 1120
+  - 2480
+  - 1530
+- - 1190
+  - 2100
+  - 1450
+  - 2480

@@ -1,0 +1,332 @@
+{
+  "items": [
+    {
+      "id": "p03-01",
+      "page": 3,
+      "rect": [
+        1446,
+        984,
+        2400,
+        1387
+      ],
+      "source_sha256": "62ccc39edf60cc6ed7ca2073741f471f4923f1ddc889fc6417d619980a69d556",
+      "atlas": "atlas-p03",
+      "atlas_output_size": [
+        1024,
+        1536
+      ],
+      "atlas_cell": [
+        12,
+        12,
+        1012,
+        500
+      ],
+      "output": "p03-01-generated.png",
+      "output_sha256": "50cfd367426fe2740beff925437a5d75f1dd287b0a1924c950eb230c751d725c",
+      "method": "image_gen photo atlas edit; exact cell crop; Pillow LANCZOS resample to original photo dimensions; photo-only pixel composite"
+    },
+    {
+      "id": "p03-02",
+      "page": 3,
+      "rect": [
+        1446,
+        1487,
+        2400,
+        1892
+      ],
+      "source_sha256": "9a00cdd5de81ee48782351d2841e865db6f30585f8185da37a7317a186e7d148",
+      "atlas": "atlas-p03",
+      "atlas_output_size": [
+        1024,
+        1536
+      ],
+      "atlas_cell": [
+        12,
+        524,
+        1012,
+        1012
+      ],
+      "output": "p03-02-generated.png",
+      "output_sha256": "de3fc765b07bbe40a06a3608cf27ab1d0b65d0140f3dae01b864f7161ece3ed8",
+      "method": "image_gen photo atlas edit; exact cell crop; Pillow LANCZOS resample to original photo dimensions; photo-only pixel composite"
+    },
+    {
+      "id": "p03-03",
+      "page": 3,
+      "rect": [
+        1446,
+        1998,
+        2400,
+        2406
+      ],
+      "source_sha256": "0666f6d347a66aba2a6cb31ded021c83c0486f42bec826d2202a9c0cceb4274c",
+      "atlas": "atlas-p03",
+      "atlas_output_size": [
+        1024,
+        1536
+      ],
+      "atlas_cell": [
+        12,
+        1036,
+        1012,
+        1524
+      ],
+      "output": "p03-03-generated.png",
+      "output_sha256": "f30b563bbe6ad165d3c2f34f45a736090d6d4a723c125f292711a1795b06d6c1",
+      "method": "image_gen photo atlas edit; exact cell crop; Pillow LANCZOS resample to original photo dimensions; photo-only pixel composite"
+    },
+    {
+      "id": "p05-01",
+      "page": 5,
+      "rect": [
+        122,
+        769,
+        868,
+        1215
+      ],
+      "source_sha256": "94f5d8627f1886eeae4ec017ca9b0e740e8e10e816ff43248bd856e44537cdec",
+      "atlas": "atlas-p05-a",
+      "atlas_output_size": [
+        887,
+        1774
+      ],
+      "atlas_cell": [
+        10,
+        10,
+        877,
+        433
+      ],
+      "output": "p05-01-generated.png",
+      "output_sha256": "d65e9c6da80445c4feb0145ade953e4f1b9a2ccaf62a310dfc431c7bc1efd833",
+      "method": "image_gen photo atlas edit; exact cell crop; Pillow LANCZOS resample to original photo dimensions; photo-only pixel composite"
+    },
+    {
+      "id": "p05-02",
+      "page": 5,
+      "rect": [
+        921,
+        769,
+        1663,
+        1215
+      ],
+      "source_sha256": "4b32da5f506475d5f2b8a997ce9ea2d4ae39254ecaf3efcabd8a16efb9f18541",
+      "atlas": "atlas-p05-a",
+      "atlas_output_size": [
+        887,
+        1774
+      ],
+      "atlas_cell": [
+        10,
+        454,
+        877,
+        877
+      ],
+      "output": "p05-02-generated.png",
+      "output_sha256": "07a82671128d57431595d1df1a314c87a418df60106ea17ab3b6494419a08731",
+      "method": "image_gen photo atlas edit; exact cell crop; Pillow LANCZOS resample to original photo dimensions; photo-only pixel composite"
+    },
+    {
+      "id": "p05-03",
+      "page": 5,
+      "rect": [
+        1714,
+        769,
+        2458,
+        1215
+      ],
+      "source_sha256": "a2d8665d9550b2bd4dcc9d4b85687b4b76e45ed8e2a68037e5b22e25a3229e43",
+      "atlas": "atlas-p05-a",
+      "atlas_output_size": [
+        887,
+        1774
+      ],
+      "atlas_cell": [
+        10,
+        897,
+        877,
+        1320
+      ],
+      "output": "p05-03-generated.png",
+      "output_sha256": "5787fe5e49dee0b014c6316792f506ba05986d7c655faf631a85ff6996b2931f",
+      "method": "image_gen photo atlas edit; exact cell crop; Pillow LANCZOS resample to original photo dimensions; photo-only pixel composite"
+    },
+    {
+      "id": "p05-04",
+      "page": 5,
+      "rect": [
+        122,
+        1566,
+        1334,
+        2029
+      ],
+      "source_sha256": "15b56a418badb1b44972bbb2f0301911a3e2c62dda98d08dd99033eddb6df5c4",
+      "atlas": "atlas-p05-a",
+      "atlas_output_size": [
+        887,
+        1774
+      ],
+      "atlas_cell": [
+        10,
+        1341,
+        877,
+        1764
+      ],
+      "output": "p05-04-generated.png",
+      "output_sha256": "e276a6cfb56f9d3543a44132290556833ebe12ad3338c8b9706dcfce313be5e4",
+      "method": "image_gen photo atlas edit; exact cell crop; Pillow LANCZOS resample to original photo dimensions; photo-only pixel composite"
+    },
+    {
+      "id": "p05-05",
+      "page": 5,
+      "rect": [
+        1401,
+        1566,
+        2458,
+        2029
+      ],
+      "source_sha256": "0998b070be31631a1e0acf54d8790a4cd51c416a060cfcdbebaaab70cb1f7090",
+      "atlas": "atlas-p05-b",
+      "atlas_output_size": [
+        887,
+        1774
+      ],
+      "atlas_cell": [
+        10,
+        10,
+        877,
+        433
+      ],
+      "output": "p05-05-generated.png",
+      "output_sha256": "299bcd73d29b04d9207627f9cc432249053796feeed6121f670034faeaa6e077",
+      "method": "image_gen photo atlas edit; exact cell crop; Pillow LANCZOS resample to original photo dimensions; photo-only pixel composite"
+    },
+    {
+      "id": "p05-06",
+      "page": 5,
+      "rect": [
+        126,
+        2923,
+        864,
+        3351
+      ],
+      "source_sha256": "5e3c8ac6cbaa1608c79beafad4c5a3145f475dd5a52adbe25064e38c10a83bac",
+      "atlas": "atlas-p05-b",
+      "atlas_output_size": [
+        887,
+        1774
+      ],
+      "atlas_cell": [
+        10,
+        454,
+        877,
+        877
+      ],
+      "output": "p05-06-generated.png",
+      "output_sha256": "829922600ab2b2a3f0a0782f8ebbba84b50b8005a90334fc7d1d0d23cbcb46c4",
+      "method": "image_gen photo atlas edit; exact cell crop; Pillow LANCZOS resample to original photo dimensions; photo-only pixel composite"
+    },
+    {
+      "id": "p05-07",
+      "page": 5,
+      "rect": [
+        949,
+        2923,
+        1666,
+        3351
+      ],
+      "source_sha256": "d52394d74cbeff5f37db45def201281b6f38ba9f078c20faabd4a744b5c663d8",
+      "atlas": "atlas-p05-b",
+      "atlas_output_size": [
+        887,
+        1774
+      ],
+      "atlas_cell": [
+        10,
+        897,
+        877,
+        1320
+      ],
+      "output": "p05-07-generated.png",
+      "output_sha256": "38db15f108726ad06dc753a960bf663761f1944b5a713660267d647df305bf67",
+      "method": "image_gen photo atlas edit; exact cell crop; Pillow LANCZOS resample to original photo dimensions; photo-only pixel composite"
+    },
+    {
+      "id": "p05-08",
+      "page": 5,
+      "rect": [
+        1756,
+        2923,
+        2458,
+        3351
+      ],
+      "source_sha256": "814cb3c97cda353681da908037482bfc603c0873da90784e5fa043e87c3afef9",
+      "atlas": "atlas-p05-b",
+      "atlas_output_size": [
+        887,
+        1774
+      ],
+      "atlas_cell": [
+        10,
+        1341,
+        877,
+        1764
+      ],
+      "output": "p05-08-generated.png",
+      "output_sha256": "2c9fa8b4349a32edd08d71d74bcae6b93145c514e70ce0f8b70841fc20ea022b",
+      "method": "image_gen photo atlas edit; exact cell crop; Pillow LANCZOS resample to original photo dimensions; photo-only pixel composite"
+    }
+  ],
+  "groups": {
+    "atlas-p03": [
+      "p03-01",
+      "p03-02",
+      "p03-03"
+    ],
+    "atlas-p05-a": [
+      "p05-01",
+      "p05-02",
+      "p05-03",
+      "p05-04"
+    ],
+    "atlas-p05-b": [
+      "p05-05",
+      "p05-06",
+      "p05-07",
+      "p05-08"
+    ]
+  },
+  "cell": [
+    12,
+    12,
+    1012,
+    500
+  ],
+  "atlas_width": 1024,
+  "cell_step": 512,
+  "page_03": {
+    "output": "page-03.png",
+    "sha256": "f104711df92075e8f0544fcfbd33e6bd8d7db08e0b544cc4d7528c34a7abaeae",
+    "source_png_sha256": "66d55a9cd9a2c24b8d819b8138b253b6e3a92a5dec09b51e2de683789cd18421",
+    "size": [
+      2480,
+      3508
+    ],
+    "non_photo_pixels_changed": 0,
+    "visual_review": "passed: view_image inspected generated atlas, individual notebook photo and full composite; all foreground counts/poses/framing retained; no missing or swapped cell; natural skin; clean-shaven men; no added text; source text and amounts unchanged"
+  },
+  "page_05": {
+    "output": "page-05.png",
+    "sha256": "10c1cd5a26ac3883db671fc921369fe8d6bc28219af885b42fd91604e56969f9",
+    "source_png_sha256": "956f5c26ca0a668ba9b87a748ce88449c0292972b615957b9839dda0d3a06d23",
+    "size": [
+      2480,
+      3508
+    ],
+    "non_photo_pixels_changed": 0,
+    "visual_review": "passed: view_image inspected generated atlas, individual notebook photo and full composite; all foreground counts/poses/framing retained; no missing or swapped cell; natural skin; clean-shaven men; no added text; source text and amounts unchanged",
+    "revision2_details": "changes-revision2.json"
+  },
+  "source_pdf": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
+  "source_pdf_sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+  "revision": 2
+}

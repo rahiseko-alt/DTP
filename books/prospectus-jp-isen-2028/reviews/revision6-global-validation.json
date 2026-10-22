@@ -1,0 +1,11 @@
+{
+  "command": "npm run validate",
+  "exit_code": 1,
+  "error_counts": {
+    "STALE_OUTPUT": 46,
+    "LEGACY_NEW": 450,
+    "LEGACY_CHANGED": 1
+  },
+  "total_errors": 497,
+  "note": "Existing repository stale/legacy findings remain; cover/body preservation/delivery checks completed separately."
+}

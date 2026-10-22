@@ -1,647 +1,2499 @@
-schema_version: 1
-document: admissions-guide-2027
-current:
-  approved-original: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-  preview-page-001: beb64a18db51b1bf97db16ba15f74af9339576b8df2791e5321a744e9e3a4402
-  preview-page-002: 549c6db7f223bc272149f35fcd8b74de2944531239036812738517ec53af6be5
-  preview-page-003: a61c8fcd0232c19f632453cad01d565a566dfbe2882093647d9a77788bc67ee7
-  preview-page-004: 0f014bdf282aa1d0ea4d81cc2c175813f84ff5a9b5069c6ab24e09ea9c691a62
-  preview-page-005: 9b7be3a0c1c8536bf1a0711507066d0b367515a36d09e7091eb83ba2238f320b
-  preview-page-006: 22bfafb2b30c0fe7399c2c74de90b0d006b8b4c4417eb15191f956500b89e179
-  preview-page-007: db21dfb5bf90691ea80af74ae2aa75dee7549b0a4d47b4bb6d00daebd87723c1
-  preview-page-008: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-  preview-page-009: 09ce4376aedb9ec82d2198ebe91577adf5ed0e7f23cb2248a448dcc64d14860e
-  preview-page-010: defc9c2cb5eed3b570b00e606fcd2a899588f6d698d92f1e47ba28ea86870c8f
-  preview-page-011: c20d038aefc0efb75b74b3f5de4b06747a65266212bb0d8a2069a9acad3fb436
-  preview-page-012: af419c00badca2131ffa37645d80116e53177aba96099a2410685713c452b6a4
-  preview-page-013: 5e13581d6e37487e1872b9293b66d6b0340db409a70c8f0369fabad4e7f10259
-  preview-page-014: d146ae8ce61e286b38172e60e0d745da82a3455f5bfe2f2c9ff052ffee4e6f9f
-  preview-page-015: 0932324bfbfbd3a8bb11a6b24bc93d1622c13981d151ef7b542c4af6c1e89bd8
-  preview-page-016: de787e25aaa57c9737dec817788115949ecb7014adfab8961aa0c68d8bb30c5a
-  preview-page-017: 027273f1f825e15248b0881749982bb92bffbbea028977e51209ea7b94187bc4
-  preview-page-018: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-  preview-page-019: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-  preview-page-020: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-  preview-page-021: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-  preview-page-022: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-  preview-page-023: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-  preview-page-024: f5e2a87a001910f80f599869d5deb07c39cf0b875a5d4f4ce21b1066fd6e97a8
-  student-dsc-1164: a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633
-  student-img-5238: 256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696
-  student-img-5069: f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6
-  student-img-5119: faa5bd59dc9a3519dc29e01bdd2046c2bbcdfe331114ef0c5ccec5cab90eca09
-  student-img-3289: 1814974f906f5870fb01c1bf296babc60a86f6860c3c55b7bf91c2858a5313b6
-  student-dsc-1171: cef9d1e6dcb033e57ebce3bbc6a8fcf49fbc646e3f99c470603439d026ba5a82
-  student-img-5493: 503f3b6999f1499f4b09a92af7663bbf54c0353a625464995bf218f366096364
-  fees-kana-audit-record: 13f5d2c72c49f20ff02b720df77c63c342c66e7582bdab6be91fe271ff7b6658
-  reference-before-pr60: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
-  main-merge-audit: 7d367276bbc40dab69ea3c073236d6db1c558307b360cdb981dcc5078ee74850
-  fees-kana-main-merged-pdf: 42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16
-assets:
-  - id: approved-original
-    variant: standard-render
-    role: original
-    media: pdf
-    file: books/admissions-guide-2027/output/pdf/admissions-guide-2027.pdf
-    revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    sha256: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    size: 18533796
-    relation: root
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: student-dsc-1164
-        revision: a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633
-      - id: student-img-5238
-        revision: 256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696
-      - id: student-img-5069
-        revision: f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6
-      - id: student-img-5119
-        revision: faa5bd59dc9a3519dc29e01bdd2046c2bbcdfe331114ef0c5ccec5cab90eca09
-      - id: student-img-3289
-        revision: 1814974f906f5870fb01c1bf296babc60a86f6860c3c55b7bf91c2858a5313b6
-      - id: student-dsc-1171
-        revision: cef9d1e6dcb033e57ebce3bbc6a8fcf49fbc646e3f99c470603439d026ba5a82
-      - id: student-img-5493
-        revision: 503f3b6999f1499f4b09a92af7663bbf54c0353a625464995bf218f366096364
-    external_inputs: []
-    external_input_globs:
-      - &a1
-        pattern: company-data/{facts,brand,copy,photos}/**/*
-        sha256: 7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4
-      - &a2
-        pattern: shared/{components,layouts,generated-assets}/**/*
-        sha256: ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0
-      - &a3
-        pattern: books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}
-        sha256: 9e2483baeaaed1247c8450c67581df878c0d199aef1239952760f7d5fa9d9446
-      - &a4
-        pattern: system/design-engine/src/**/*
-        sha256: 68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f
-      - &a5
-        pattern: system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}
-        sha256: ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478
-      - &a6
-        pattern: package{,-lock}.json
-        sha256: dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4
-  - id: preview-page-001
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_001.png
-    revision: beb64a18db51b1bf97db16ba15f74af9339576b8df2791e5321a744e9e3a4402
-    sha256: beb64a18db51b1bf97db16ba15f74af9339576b8df2791e5321a744e9e3a4402
-    size: 3188952
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-002
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_002.png
-    revision: 549c6db7f223bc272149f35fcd8b74de2944531239036812738517ec53af6be5
-    sha256: 549c6db7f223bc272149f35fcd8b74de2944531239036812738517ec53af6be5
-    size: 533044
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-003
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_003.png
-    revision: a61c8fcd0232c19f632453cad01d565a566dfbe2882093647d9a77788bc67ee7
-    sha256: a61c8fcd0232c19f632453cad01d565a566dfbe2882093647d9a77788bc67ee7
-    size: 264268
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-004
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_004.png
-    revision: 0f014bdf282aa1d0ea4d81cc2c175813f84ff5a9b5069c6ab24e09ea9c691a62
-    sha256: 0f014bdf282aa1d0ea4d81cc2c175813f84ff5a9b5069c6ab24e09ea9c691a62
-    size: 1373899
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-005
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_005.png
-    revision: 9b7be3a0c1c8536bf1a0711507066d0b367515a36d09e7091eb83ba2238f320b
-    sha256: 9b7be3a0c1c8536bf1a0711507066d0b367515a36d09e7091eb83ba2238f320b
-    size: 614116
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-006
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_006.png
-    revision: 22bfafb2b30c0fe7399c2c74de90b0d006b8b4c4417eb15191f956500b89e179
-    sha256: 22bfafb2b30c0fe7399c2c74de90b0d006b8b4c4417eb15191f956500b89e179
-    size: 273074
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-007
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_007.png
-    revision: db21dfb5bf90691ea80af74ae2aa75dee7549b0a4d47b4bb6d00daebd87723c1
-    sha256: db21dfb5bf90691ea80af74ae2aa75dee7549b0a4d47b4bb6d00daebd87723c1
-    size: 477690
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-008
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_008.png
-    revision: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-    sha256: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-    size: 10749
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-009
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_009.png
-    revision: 09ce4376aedb9ec82d2198ebe91577adf5ed0e7f23cb2248a448dcc64d14860e
-    sha256: 09ce4376aedb9ec82d2198ebe91577adf5ed0e7f23cb2248a448dcc64d14860e
-    size: 172039
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-010
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_010.png
-    revision: defc9c2cb5eed3b570b00e606fcd2a899588f6d698d92f1e47ba28ea86870c8f
-    sha256: defc9c2cb5eed3b570b00e606fcd2a899588f6d698d92f1e47ba28ea86870c8f
-    size: 82522
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-011
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_011.png
-    revision: c20d038aefc0efb75b74b3f5de4b06747a65266212bb0d8a2069a9acad3fb436
-    sha256: c20d038aefc0efb75b74b3f5de4b06747a65266212bb0d8a2069a9acad3fb436
-    size: 156898
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-012
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_012.png
-    revision: af419c00badca2131ffa37645d80116e53177aba96099a2410685713c452b6a4
-    sha256: af419c00badca2131ffa37645d80116e53177aba96099a2410685713c452b6a4
-    size: 97272
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-013
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_013.png
-    revision: 5e13581d6e37487e1872b9293b66d6b0340db409a70c8f0369fabad4e7f10259
-    sha256: 5e13581d6e37487e1872b9293b66d6b0340db409a70c8f0369fabad4e7f10259
-    size: 201609
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-014
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_014.png
-    revision: d146ae8ce61e286b38172e60e0d745da82a3455f5bfe2f2c9ff052ffee4e6f9f
-    sha256: d146ae8ce61e286b38172e60e0d745da82a3455f5bfe2f2c9ff052ffee4e6f9f
-    size: 98461
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-015
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_015.png
-    revision: 0932324bfbfbd3a8bb11a6b24bc93d1622c13981d151ef7b542c4af6c1e89bd8
-    sha256: 0932324bfbfbd3a8bb11a6b24bc93d1622c13981d151ef7b542c4af6c1e89bd8
-    size: 254770
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-016
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_016.png
-    revision: de787e25aaa57c9737dec817788115949ecb7014adfab8961aa0c68d8bb30c5a
-    sha256: de787e25aaa57c9737dec817788115949ecb7014adfab8961aa0c68d8bb30c5a
-    size: 91630
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-017
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_017.png
-    revision: 027273f1f825e15248b0881749982bb92bffbbea028977e51209ea7b94187bc4
-    sha256: 027273f1f825e15248b0881749982bb92bffbbea028977e51209ea7b94187bc4
-    size: 197477
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-018
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_018.png
-    revision: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-    sha256: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-    size: 10749
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-019
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_019.png
-    revision: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-    sha256: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-    size: 10749
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-020
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_020.png
-    revision: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-    sha256: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-    size: 10749
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-021
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_021.png
-    revision: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-    sha256: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-    size: 10749
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-022
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_022.png
-    revision: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-    sha256: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-    size: 10749
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-023
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_023.png
-    revision: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-    sha256: d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16
-    size: 10749
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: preview-page-024
-    variant: standard-render
-    role: preview
-    media: image
-    file: books/admissions-guide-2027/output/png/page_024.png
-    revision: f5e2a87a001910f80f599869d5deb07c39cf0b875a5d4f4ce21b1066fd6e97a8
-    sha256: f5e2a87a001910f80f599869d5deb07c39cf0b875a5d4f4ce21b1066fd6e97a8
-    size: 2505607
-    relation: authored
-    storage: canonical
-    confirmation: verified
-    input_provenance: unverified
-    built_from:
-      - id: approved-original
-        revision: 935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586
-    external_inputs: []
-  - id: student-dsc-1164
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-dsc-1164
-    revision: a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633
-    sha256: a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633
-    size: 4707440
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: student-img-5238
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-img-5238
-    revision: 256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696
-    sha256: 256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696
-    size: 2454424
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: student-img-5069
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-img-5069
-    revision: f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6
-    sha256: f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6
-    size: 2676415
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: student-img-5119
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-img-5119
-    revision: faa5bd59dc9a3519dc29e01bdd2046c2bbcdfe331114ef0c5ccec5cab90eca09
-    sha256: faa5bd59dc9a3519dc29e01bdd2046c2bbcdfe331114ef0c5ccec5cab90eca09
-    size: 2116850
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: student-img-3289
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-img-3289
-    revision: 1814974f906f5870fb01c1bf296babc60a86f6860c3c55b7bf91c2858a5313b6
-    sha256: 1814974f906f5870fb01c1bf296babc60a86f6860c3c55b7bf91c2858a5313b6
-    size: 2281283
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: student-dsc-1171
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-dsc-1171
-    revision: cef9d1e6dcb033e57ebce3bbc6a8fcf49fbc646e3f99c470603439d026ba5a82
-    sha256: cef9d1e6dcb033e57ebce3bbc6a8fcf49fbc646e3f99c470603439d026ba5a82
-    size: 5035924
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: student-img-5493
-    variant: standard-render
-    role: replacement-photo
-    media: image
-    photo_ref: student-img-5493
-    revision: 503f3b6999f1499f4b09a92af7663bbf54c0353a625464995bf218f366096364
-    sha256: 503f3b6999f1499f4b09a92af7663bbf54c0353a625464995bf218f366096364
-    size: 1893701
-    relation: uses
-    storage: canonical
-    confirmation: verified
-    built_from: []
-    external_inputs: []
-  - id: fees-kana-audit-record
-    variant: fees-kana-reviewed
-    role: support
-    media: text
-    file: books/admissions-guide-2027/parts/fees-and-kana-audit-20261019.json
-    revision: 13f5d2c72c49f20ff02b720df77c63c342c66e7582bdab6be91fe271ff7b6658
-    sha256: 13f5d2c72c49f20ff02b720df77c63c342c66e7582bdab6be91fe271ff7b6658
-    size: 19202
-    confirmation: verified
-    relation: authored
-    storage: canonical
-    built_from: []
-  - id: fees-kana-reviewed-pdf
-    variant: fees-kana-reviewed
-    role: reconstructed-preview
-    media: pdf
-    file: books/admissions-guide-2027/output/pdf/admissions-guide-2027_ふりがな料金確認版.pdf
-    revision: 08a27590057fe37bfe561f71e84455691250473c92c68a695f69a55142dbe521
-    sha256: 08a27590057fe37bfe561f71e84455691250473c92c68a695f69a55142dbe521
-    size: 21993740
-    confirmation: verified
-    input_provenance: verified
-    relation: rendered-from
-    storage: canonical
-    built_from:
-      - id: fees-kana-audit-record
-        revision: 13f5d2c72c49f20ff02b720df77c63c342c66e7582bdab6be91fe271ff7b6658
-    external_input_globs:
-      - *a1
-      - *a2
-      - *a3
-      - *a4
-      - *a5
-      - *a6
-      - pattern: references/school-own/admissions-2027/original/**/*
-        sha256: db54a26a74c02c583ac66487b85486441fa538316fa4bb5b48cb2254aba38040
-    retired: true
-  - id: reference-before-pr60
-    variant: reference-before-pr60
-    role: support
-    media: pdf
-    file: books/admissions-guide-2027/output/pdf/admissions-guide-2027_参照保存_f2364cce.pdf
-    revision: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
-    sha256: f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b
-    size: 23572507
-    confirmation: verified
-    relation: root
-    storage: canonical
-    built_from: []
-  - id: main-merge-audit
-    variant: fees-kana-main-merged
-    role: support
-    media: text
-    file: books/admissions-guide-2027/parts/main-merge-audit-20261019.json
-    revision: 7d367276bbc40dab69ea3c073236d6db1c558307b360cdb981dcc5078ee74850
-    sha256: 7d367276bbc40dab69ea3c073236d6db1c558307b360cdb981dcc5078ee74850
-    size: 6717
-    confirmation: verified
-    relation: authored
-    storage: canonical
-    built_from: []
-  - id: fees-kana-main-merged-pdf
-    variant: fees-kana-main-merged
-    role: reconstructed-preview
-    media: pdf
-    file: books/admissions-guide-2027/output/pdf/admissions-guide-2027_ふりがな料金確認_main統合版.pdf
-    revision: 42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16
-    sha256: 42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16
-    size: 16933928
-    confirmation: verified
-    input_provenance: verified
-    relation: rendered-from
-    storage: canonical
-    built_from:
-      - id: main-merge-audit
-        revision: 7d367276bbc40dab69ea3c073236d6db1c558307b360cdb981dcc5078ee74850
-    external_input_globs:
-      - *a1
-      - *a2
-      - *a3
-      - *a4
-      - *a5
-      - *a6
-      - pattern: references/school-own/admissions-2027/original/**/*
-        sha256: db54a26a74c02c583ac66487b85486441fa538316fa4bb5b48cb2254aba38040
+{
+  "schema_version": 1,
+  "document": "admissions-guide-2027",
+  "current": {
+    "student-dsc-1164": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+    "student-img-5238": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+    "student-img-5069": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+    "student-img-5119": "faa5bd59dc9a3519dc29e01bdd2046c2bbcdfe331114ef0c5ccec5cab90eca09",
+    "student-img-3289": "1814974f906f5870fb01c1bf296babc60a86f6860c3c55b7bf91c2858a5313b6",
+    "student-dsc-1171": "cef9d1e6dcb033e57ebce3bbc6a8fcf49fbc646e3f99c470603439d026ba5a82",
+    "student-img-5493": "503f3b6999f1499f4b09a92af7663bbf54c0353a625464995bf218f366096364",
+    "fees-kana-audit-record": "13f5d2c72c49f20ff02b720df77c63c342c66e7582bdab6be91fe271ff7b6658",
+    "reference-before-pr60": "f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b",
+    "main-merge-audit": "7d367276bbc40dab69ea3c073236d6db1c558307b360cdb981dcc5078ee74850",
+    "saddle-print-record": "a3b0f6c0245983cc52f4aeb0122b2b58a7285d1fba903fc2189c926be41f331a",
+    "saddle-print-light-record": "b31d63aa0ed2ab7ee80ab83d5b31279536227eb1ba558070424eb93e83a83358",
+    "standard-render-config": "a5903118f91db71d42444363b88c52523dc75b9c2a20af35448790b48a5e365f",
+    "standard-rendered-pdf": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052",
+    "standard-rendered-page-001": "87064f9a81914b6cf04d3c356cecdbb23543df87ec5432f027e3dbd565be440a",
+    "standard-rendered-page-002": "43294705e7698e9c8d7173778e2fd17cb24e80a8734faaf011cc0c93079961da",
+    "standard-rendered-page-003": "1438eac5081ad0983bd58e94620983efe841dd661cfe181882acacb1ff52dce9",
+    "standard-rendered-page-004": "41aea858910d1124de3ca8c56f0d15f9be3083265936bd7344f5c37d3d457b5c",
+    "standard-rendered-page-005": "af41443505ce3ca27125ef60fd5ce1ee4f7ad90d428cef896e2970dbf6e0296a",
+    "standard-rendered-page-007": "18e352272300c6b2aea1dfad276f143278d089a239da0b1180fe21cb4e5a9223",
+    "standard-rendered-page-006": "838484fa81f04a8ff25619289aa21853dd025f68e4358ce1375a7336da9bea13",
+    "standard-rendered-page-008": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+    "standard-rendered-page-015": "e344cf57d5293db7a5adc02a9fdbaf7017828bec7a63b5e108a25ab0e35cfcdb",
+    "standard-rendered-page-017": "d1f33df8f9b3694f88716c29b5ab7b7163e95f2512f2391e29390b0c01f678df",
+    "standard-rendered-page-009": "db039ea4811c6d544bf9aad4f7413bc798436e8c2121eaff547ab68a8321e7eb",
+    "standard-rendered-page-018": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+    "standard-rendered-page-010": "97c35624c8731a1e26e1c87e61f8bae2e48923c7290f62a9131c8ad83d7fda2c",
+    "standard-rendered-page-019": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+    "standard-rendered-page-011": "18820948765ea804fc91380a1af220e8f9377fd885d4590bc571422fe231788e",
+    "standard-rendered-page-020": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+    "standard-rendered-page-012": "f3ec394112439c199ca64bc04e39ed2037ce0f0e8e72d3da03828db72a48b9e5",
+    "standard-rendered-page-021": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+    "standard-rendered-page-013": "d819bb0959be0ecb70d1d0b613c36bc645fa3b164f1735aa6e3703071031afb2",
+    "standard-rendered-page-022": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+    "standard-rendered-page-014": "46055eb052dc75e1341973bcca815b0441d855895c591d97388cc9b22f99e1a6",
+    "standard-rendered-page-023": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+    "standard-rendered-page-016": "1192825355d399208d821ee32b53481490138440d8eb595866e9fa11782d0000",
+    "standard-rendered-page-024": "18bd9e5900bb2d9faf5cb9f9ed210fb6ef4fb466a2fabfec9f30de826898b9f4",
+    "adopted-map-print-builder": "857fe82e258f8078ac1f0cdff60d6e09c38b7dd8d04ddba6c67c26e888260ba9",
+    "adopted-map-print-proof": "99de532945bb524480a448cfd6ba48bcde78084662e9c475069d15649bc2d30e",
+    "latest-print-a3": "225673f6e213fe30d6297dc9fa0365266a946d4b18743ca5f4185191c12b175d",
+    "latest-print-a4": "68dd61e2cc18695d6413d2bee64a568de2ca9b2b9ba440f2904b6a83db58b55d",
+    "adopted-map-all-pages": "25588ebdbea9aebabc5587beb8babd7f5224a5521cbc1fdbfa976c34cc770ec5",
+    "adopted-map-comparison": "4789a4489963fae2293379d12e15a3e809694c0e4252003e31009a9242a8480e"
+  },
+  "assets": [
+    {
+      "id": "approved-original",
+      "variant": "standard-render",
+      "role": "original",
+      "media": "pdf",
+      "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586",
+      "file": "books/admissions-guide-2027/output/pdf/admissions-guide-2027.pdf",
+      "sha256": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586",
+      "size": 18533796,
+      "relation": "root",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "9e2483baeaaed1247c8450c67581df878c0d199aef1239952760f7d5fa9d9446"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "student-dsc-1164",
+          "revision": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633"
+        },
+        {
+          "id": "student-img-5238",
+          "revision": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696"
+        },
+        {
+          "id": "student-img-5069",
+          "revision": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6"
+        },
+        {
+          "id": "student-img-5119",
+          "revision": "faa5bd59dc9a3519dc29e01bdd2046c2bbcdfe331114ef0c5ccec5cab90eca09"
+        },
+        {
+          "id": "student-img-3289",
+          "revision": "1814974f906f5870fb01c1bf296babc60a86f6860c3c55b7bf91c2858a5313b6"
+        },
+        {
+          "id": "student-dsc-1171",
+          "revision": "cef9d1e6dcb033e57ebce3bbc6a8fcf49fbc646e3f99c470603439d026ba5a82"
+        },
+        {
+          "id": "student-img-5493",
+          "revision": "503f3b6999f1499f4b09a92af7663bbf54c0353a625464995bf218f366096364"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-001",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "beb64a18db51b1bf97db16ba15f74af9339576b8df2791e5321a744e9e3a4402",
+      "file": "books/admissions-guide-2027/output/png/page_001.png",
+      "sha256": "beb64a18db51b1bf97db16ba15f74af9339576b8df2791e5321a744e9e3a4402",
+      "size": 3188952,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-002",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "549c6db7f223bc272149f35fcd8b74de2944531239036812738517ec53af6be5",
+      "file": "books/admissions-guide-2027/output/png/page_002.png",
+      "sha256": "549c6db7f223bc272149f35fcd8b74de2944531239036812738517ec53af6be5",
+      "size": 533044,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-003",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "a61c8fcd0232c19f632453cad01d565a566dfbe2882093647d9a77788bc67ee7",
+      "file": "books/admissions-guide-2027/output/png/page_003.png",
+      "sha256": "a61c8fcd0232c19f632453cad01d565a566dfbe2882093647d9a77788bc67ee7",
+      "size": 264268,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-004",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "0f014bdf282aa1d0ea4d81cc2c175813f84ff5a9b5069c6ab24e09ea9c691a62",
+      "file": "books/admissions-guide-2027/output/png/page_004.png",
+      "sha256": "0f014bdf282aa1d0ea4d81cc2c175813f84ff5a9b5069c6ab24e09ea9c691a62",
+      "size": 1373899,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-005",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "9b7be3a0c1c8536bf1a0711507066d0b367515a36d09e7091eb83ba2238f320b",
+      "file": "books/admissions-guide-2027/output/png/page_005.png",
+      "sha256": "9b7be3a0c1c8536bf1a0711507066d0b367515a36d09e7091eb83ba2238f320b",
+      "size": 614116,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-006",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "22bfafb2b30c0fe7399c2c74de90b0d006b8b4c4417eb15191f956500b89e179",
+      "file": "books/admissions-guide-2027/output/png/page_006.png",
+      "sha256": "22bfafb2b30c0fe7399c2c74de90b0d006b8b4c4417eb15191f956500b89e179",
+      "size": 273074,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-007",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "db21dfb5bf90691ea80af74ae2aa75dee7549b0a4d47b4bb6d00daebd87723c1",
+      "file": "books/admissions-guide-2027/output/png/page_007.png",
+      "sha256": "db21dfb5bf90691ea80af74ae2aa75dee7549b0a4d47b4bb6d00daebd87723c1",
+      "size": 477690,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-008",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16",
+      "file": "books/admissions-guide-2027/output/png/page_008.png",
+      "sha256": "d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16",
+      "size": 10749,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-009",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "09ce4376aedb9ec82d2198ebe91577adf5ed0e7f23cb2248a448dcc64d14860e",
+      "file": "books/admissions-guide-2027/output/png/page_009.png",
+      "sha256": "09ce4376aedb9ec82d2198ebe91577adf5ed0e7f23cb2248a448dcc64d14860e",
+      "size": 172039,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-010",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "defc9c2cb5eed3b570b00e606fcd2a899588f6d698d92f1e47ba28ea86870c8f",
+      "file": "books/admissions-guide-2027/output/png/page_010.png",
+      "sha256": "defc9c2cb5eed3b570b00e606fcd2a899588f6d698d92f1e47ba28ea86870c8f",
+      "size": 82522,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-011",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "c20d038aefc0efb75b74b3f5de4b06747a65266212bb0d8a2069a9acad3fb436",
+      "file": "books/admissions-guide-2027/output/png/page_011.png",
+      "sha256": "c20d038aefc0efb75b74b3f5de4b06747a65266212bb0d8a2069a9acad3fb436",
+      "size": 156898,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-012",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "af419c00badca2131ffa37645d80116e53177aba96099a2410685713c452b6a4",
+      "file": "books/admissions-guide-2027/output/png/page_012.png",
+      "sha256": "af419c00badca2131ffa37645d80116e53177aba96099a2410685713c452b6a4",
+      "size": 97272,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-013",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "5e13581d6e37487e1872b9293b66d6b0340db409a70c8f0369fabad4e7f10259",
+      "file": "books/admissions-guide-2027/output/png/page_013.png",
+      "sha256": "5e13581d6e37487e1872b9293b66d6b0340db409a70c8f0369fabad4e7f10259",
+      "size": 201609,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-014",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "d146ae8ce61e286b38172e60e0d745da82a3455f5bfe2f2c9ff052ffee4e6f9f",
+      "file": "books/admissions-guide-2027/output/png/page_014.png",
+      "sha256": "d146ae8ce61e286b38172e60e0d745da82a3455f5bfe2f2c9ff052ffee4e6f9f",
+      "size": 98461,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-015",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "0932324bfbfbd3a8bb11a6b24bc93d1622c13981d151ef7b542c4af6c1e89bd8",
+      "file": "books/admissions-guide-2027/output/png/page_015.png",
+      "sha256": "0932324bfbfbd3a8bb11a6b24bc93d1622c13981d151ef7b542c4af6c1e89bd8",
+      "size": 254770,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-016",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "de787e25aaa57c9737dec817788115949ecb7014adfab8961aa0c68d8bb30c5a",
+      "file": "books/admissions-guide-2027/output/png/page_016.png",
+      "sha256": "de787e25aaa57c9737dec817788115949ecb7014adfab8961aa0c68d8bb30c5a",
+      "size": 91630,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-017",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "027273f1f825e15248b0881749982bb92bffbbea028977e51209ea7b94187bc4",
+      "file": "books/admissions-guide-2027/output/png/page_017.png",
+      "sha256": "027273f1f825e15248b0881749982bb92bffbbea028977e51209ea7b94187bc4",
+      "size": 197477,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-018",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16",
+      "file": "books/admissions-guide-2027/output/png/page_018.png",
+      "sha256": "d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16",
+      "size": 10749,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-019",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16",
+      "file": "books/admissions-guide-2027/output/png/page_019.png",
+      "sha256": "d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16",
+      "size": 10749,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-020",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16",
+      "file": "books/admissions-guide-2027/output/png/page_020.png",
+      "sha256": "d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16",
+      "size": 10749,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-021",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16",
+      "file": "books/admissions-guide-2027/output/png/page_021.png",
+      "sha256": "d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16",
+      "size": 10749,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-022",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16",
+      "file": "books/admissions-guide-2027/output/png/page_022.png",
+      "sha256": "d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16",
+      "size": 10749,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-023",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16",
+      "file": "books/admissions-guide-2027/output/png/page_023.png",
+      "sha256": "d7681c84b61334f16844632bc0489d36f98286a8fc18e05ee69d735bb197bc16",
+      "size": 10749,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "preview-page-024",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "f5e2a87a001910f80f599869d5deb07c39cf0b875a5d4f4ce21b1066fd6e97a8",
+      "file": "books/admissions-guide-2027/output/png/page_024.png",
+      "sha256": "f5e2a87a001910f80f599869d5deb07c39cf0b875a5d4f4ce21b1066fd6e97a8",
+      "size": 2505607,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "unverified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "approved-original",
+          "revision": "935bf6ad07ba621f82c10ab9e1bb391f50912406f588266954e9476ec1682586"
+        }
+      ]
+    },
+    {
+      "id": "student-dsc-1164",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+      "photo_ref": "student-dsc-1164",
+      "sha256": "a30793870ab9d7577fd14d6889ffc18ebdf9fc330e5ea9349bcbea2c54933633",
+      "size": 4707440,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "student-img-5238",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+      "photo_ref": "student-img-5238",
+      "sha256": "256200cc5b9ba102c520affa9fb3af17de31577590fc081c54e8b0dcdd51e696",
+      "size": 2454424,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "student-img-5069",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+      "photo_ref": "student-img-5069",
+      "sha256": "f22fb0154f3c8bb427f5a49263018c78f321a7afb258f58755356773f60d0ae6",
+      "size": 2676415,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "student-img-5119",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "faa5bd59dc9a3519dc29e01bdd2046c2bbcdfe331114ef0c5ccec5cab90eca09",
+      "photo_ref": "student-img-5119",
+      "sha256": "faa5bd59dc9a3519dc29e01bdd2046c2bbcdfe331114ef0c5ccec5cab90eca09",
+      "size": 2116850,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "student-img-3289",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "1814974f906f5870fb01c1bf296babc60a86f6860c3c55b7bf91c2858a5313b6",
+      "photo_ref": "student-img-3289",
+      "sha256": "1814974f906f5870fb01c1bf296babc60a86f6860c3c55b7bf91c2858a5313b6",
+      "size": 2281283,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "student-dsc-1171",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "cef9d1e6dcb033e57ebce3bbc6a8fcf49fbc646e3f99c470603439d026ba5a82",
+      "photo_ref": "student-dsc-1171",
+      "sha256": "cef9d1e6dcb033e57ebce3bbc6a8fcf49fbc646e3f99c470603439d026ba5a82",
+      "size": 5035924,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "student-img-5493",
+      "variant": "standard-render",
+      "role": "replacement-photo",
+      "media": "image",
+      "revision": "503f3b6999f1499f4b09a92af7663bbf54c0353a625464995bf218f366096364",
+      "photo_ref": "student-img-5493",
+      "sha256": "503f3b6999f1499f4b09a92af7663bbf54c0353a625464995bf218f366096364",
+      "size": 1893701,
+      "relation": "uses",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "fees-kana-audit-record",
+      "variant": "fees-kana-reviewed",
+      "role": "support",
+      "media": "text",
+      "revision": "13f5d2c72c49f20ff02b720df77c63c342c66e7582bdab6be91fe271ff7b6658",
+      "file": "books/admissions-guide-2027/parts/fees-and-kana-audit-20261019.json",
+      "sha256": "13f5d2c72c49f20ff02b720df77c63c342c66e7582bdab6be91fe271ff7b6658",
+      "size": 19202,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "fees-kana-reviewed-pdf",
+      "variant": "fees-kana-reviewed",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "08a27590057fe37bfe561f71e84455691250473c92c68a695f69a55142dbe521",
+      "file": "books/admissions-guide-2027/output/pdf/admissions-guide-2027_ふりがな料金確認版.pdf",
+      "sha256": "08a27590057fe37bfe561f71e84455691250473c92c68a695f69a55142dbe521",
+      "size": 21993740,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "retired": true,
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "9e2483baeaaed1247c8450c67581df878c0d199aef1239952760f7d5fa9d9446"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        },
+        {
+          "pattern": "references/school-own/admissions-2027/original/**/*",
+          "sha256": "db54a26a74c02c583ac66487b85486441fa538316fa4bb5b48cb2254aba38040"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "fees-kana-audit-record",
+          "revision": "13f5d2c72c49f20ff02b720df77c63c342c66e7582bdab6be91fe271ff7b6658"
+        }
+      ]
+    },
+    {
+      "id": "reference-before-pr60",
+      "variant": "reference-before-pr60",
+      "role": "support",
+      "media": "pdf",
+      "revision": "f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b",
+      "file": "books/admissions-guide-2027/output/pdf/admissions-guide-2027_参照保存_f2364cce.pdf",
+      "sha256": "f2364cce7184f832aad14c953f418dba913de7c657fff772a2b06a002bdbb12b",
+      "size": 23572507,
+      "relation": "root",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "main-merge-audit",
+      "variant": "fees-kana-main-merged",
+      "role": "support",
+      "media": "text",
+      "revision": "7d367276bbc40dab69ea3c073236d6db1c558307b360cdb981dcc5078ee74850",
+      "file": "books/admissions-guide-2027/parts/main-merge-audit-20261019.json",
+      "sha256": "7d367276bbc40dab69ea3c073236d6db1c558307b360cdb981dcc5078ee74850",
+      "size": 6717,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "fees-kana-main-merged-pdf",
+      "variant": "fees-kana-main-merged",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16",
+      "file": "books/admissions-guide-2027/output/pdf/admissions-guide-2027_ふりがな料金確認_main統合版.pdf",
+      "sha256": "42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16",
+      "size": 16933928,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "retired": true,
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "9e2483baeaaed1247c8450c67581df878c0d199aef1239952760f7d5fa9d9446"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        },
+        {
+          "pattern": "references/school-own/admissions-2027/original/**/*",
+          "sha256": "db54a26a74c02c583ac66487b85486441fa538316fa4bb5b48cb2254aba38040"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "main-merge-audit",
+          "revision": "7d367276bbc40dab69ea3c073236d6db1c558307b360cdb981dcc5078ee74850"
+        }
+      ]
+    },
+    {
+      "id": "saddle-print-record",
+      "variant": "saddle-print",
+      "role": "support",
+      "media": "text",
+      "revision": "a3b0f6c0245983cc52f4aeb0122b2b58a7285d1fba903fc2189c926be41f331a",
+      "file": "books/admissions-guide-2027/parts/saddle-print-20261020.json",
+      "sha256": "a3b0f6c0245983cc52f4aeb0122b2b58a7285d1fba903fc2189c926be41f331a",
+      "size": 3152,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [
+        {
+          "path": "books/prospectus-isen-trial-2028/parts/print-booklets-20261020/build.py",
+          "sha256": "c7f326c701cdf3159e009e2eea8398fd651d44b806738152e6200913a1dbfba1"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/parts/print-booklets-20261020/spec.json",
+          "sha256": "d8e866696089414471dff8f19b7419d5647ba5aac0cd3995898eecd3a1c31323"
+        },
+        {
+          "path": "books/prospectus-isen-trial-2028/parts/print-booklets-20261020/印刷方法.md",
+          "sha256": "445c9c57aaa010560e32e8f61da9880732370e984cc4b68f731bdde48df0e57b"
+        },
+        {
+          "path": "system/scripts/impose-booklet.py",
+          "sha256": "2c67d4aaf4b3c25a1df383e7660af9cd323ede37f3102e827d7a805244a38186"
+        }
+      ],
+      "built_from": []
+    },
+    {
+      "id": "saddle-print-a3",
+      "variant": "saddle-print-a3",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "94df79301cba6ee24342d7e607849da1c4cf55487dab7e9e01d70894ddd34645",
+      "file": "books/admissions-guide-2027/output/imposed/募集要項_24P_A3両面中綴じ_A4仕上がり.pdf",
+      "sha256": "94df79301cba6ee24342d7e607849da1c4cf55487dab7e9e01d70894ddd34645",
+      "size": 16934661,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fees-kana-main-merged-pdf",
+          "revision": "42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16"
+        },
+        {
+          "id": "saddle-print-record",
+          "revision": "a3b0f6c0245983cc52f4aeb0122b2b58a7285d1fba903fc2189c926be41f331a"
+        }
+      ]
+    },
+    {
+      "id": "saddle-print-a4",
+      "variant": "saddle-print-a4",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "c44c675ac28bf297c057432787effad9b06be91f5dc997df1c619e9dcca79060",
+      "file": "books/admissions-guide-2027/output/imposed/募集要項_24P_A4両面中綴じ_A5仕上がり.pdf",
+      "sha256": "c44c675ac28bf297c057432787effad9b06be91f5dc997df1c619e9dcca79060",
+      "size": 16935525,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fees-kana-main-merged-pdf",
+          "revision": "42967b2a491f50aa604f6792c96bc2d9617ecb2f81377e9b1699b56be8b61e16"
+        },
+        {
+          "id": "saddle-print-record",
+          "revision": "a3b0f6c0245983cc52f4aeb0122b2b58a7285d1fba903fc2189c926be41f331a"
+        }
+      ]
+    },
+    {
+      "id": "saddle-print-light-record",
+      "variant": "saddle-print-light",
+      "role": "support",
+      "media": "text",
+      "revision": "b31d63aa0ed2ab7ee80ab83d5b31279536227eb1ba558070424eb93e83a83358",
+      "file": "books/admissions-guide-2027/parts/saddle-print-light-20261020.json",
+      "sha256": "b31d63aa0ed2ab7ee80ab83d5b31279536227eb1ba558070424eb93e83a83358",
+      "size": 2952,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [
+        {
+          "path": "books/prospectus-isen-trial-2028/parts/print-booklets-20261020/optimize.py",
+          "sha256": "4a17a91167566312decc7e757a449760616431d8365dad59fa40075767400265"
+        }
+      ],
+      "built_from": []
+    },
+    {
+      "id": "saddle-print-light-a3",
+      "variant": "saddle-print-light-a3",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "3361878994068e434cdc2ce2f67038d7a18dd768e3ebe637d166677692af5613",
+      "file": "books/admissions-guide-2027/output/imposed/print-admissions-A3.pdf",
+      "sha256": "3361878994068e434cdc2ce2f67038d7a18dd768e3ebe637d166677692af5613",
+      "size": 1939260,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "saddle-print-a3",
+          "revision": "94df79301cba6ee24342d7e607849da1c4cf55487dab7e9e01d70894ddd34645"
+        },
+        {
+          "id": "saddle-print-light-record",
+          "revision": "b31d63aa0ed2ab7ee80ab83d5b31279536227eb1ba558070424eb93e83a83358"
+        }
+      ]
+    },
+    {
+      "id": "saddle-print-light-a4",
+      "variant": "saddle-print-light-a4",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "63944eda0b52da7b6e9f30b6b15af0d59f317aa437872d3154753dfdfb8018e8",
+      "file": "books/admissions-guide-2027/output/imposed/print-admissions-A4.pdf",
+      "sha256": "63944eda0b52da7b6e9f30b6b15af0d59f317aa437872d3154753dfdfb8018e8",
+      "size": 1508454,
+      "relation": "rendered-from",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "retired": true,
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "saddle-print-a4",
+          "revision": "c44c675ac28bf297c057432787effad9b06be91f5dc997df1c619e9dcca79060"
+        },
+        {
+          "id": "saddle-print-light-record",
+          "revision": "b31d63aa0ed2ab7ee80ab83d5b31279536227eb1ba558070424eb93e83a83358"
+        }
+      ]
+    },
+    {
+      "id": "standard-render-config",
+      "variant": "standard-render",
+      "role": "support",
+      "media": "text",
+      "revision": "a5903118f91db71d42444363b88c52523dc75b9c2a20af35448790b48a5e365f",
+      "file": "books/admissions-guide-2027/parts/render-config/a5903118f91db71d42444363b88c52523dc75b9c2a20af35448790b48a5e365f/book.yaml",
+      "sha256": "a5903118f91db71d42444363b88c52523dc75b9c2a20af35448790b48a5e365f",
+      "size": 2516,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "standard-rendered-pdf",
+      "variant": "standard-render",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-pdf/17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052/standard-rendered-pdf.pdf",
+      "sha256": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052",
+      "size": 19357455,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-render-config",
+          "revision": "a5903118f91db71d42444363b88c52523dc75b9c2a20af35448790b48a5e365f"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-001",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "87064f9a81914b6cf04d3c356cecdbb23543df87ec5432f027e3dbd565be440a",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-001/87064f9a81914b6cf04d3c356cecdbb23543df87ec5432f027e3dbd565be440a/standard-rendered-page-001.png",
+      "sha256": "87064f9a81914b6cf04d3c356cecdbb23543df87ec5432f027e3dbd565be440a",
+      "size": 16291629,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-002",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "43294705e7698e9c8d7173778e2fd17cb24e80a8734faaf011cc0c93079961da",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-002/43294705e7698e9c8d7173778e2fd17cb24e80a8734faaf011cc0c93079961da/standard-rendered-page-002.png",
+      "sha256": "43294705e7698e9c8d7173778e2fd17cb24e80a8734faaf011cc0c93079961da",
+      "size": 2139049,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-003",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "1438eac5081ad0983bd58e94620983efe841dd661cfe181882acacb1ff52dce9",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-003/1438eac5081ad0983bd58e94620983efe841dd661cfe181882acacb1ff52dce9/standard-rendered-page-003.png",
+      "sha256": "1438eac5081ad0983bd58e94620983efe841dd661cfe181882acacb1ff52dce9",
+      "size": 685000,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-004",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "41aea858910d1124de3ca8c56f0d15f9be3083265936bd7344f5c37d3d457b5c",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-004/41aea858910d1124de3ca8c56f0d15f9be3083265936bd7344f5c37d3d457b5c/standard-rendered-page-004.png",
+      "sha256": "41aea858910d1124de3ca8c56f0d15f9be3083265936bd7344f5c37d3d457b5c",
+      "size": 6550195,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-005",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "af41443505ce3ca27125ef60fd5ce1ee4f7ad90d428cef896e2970dbf6e0296a",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-005/af41443505ce3ca27125ef60fd5ce1ee4f7ad90d428cef896e2970dbf6e0296a/standard-rendered-page-005.png",
+      "sha256": "af41443505ce3ca27125ef60fd5ce1ee4f7ad90d428cef896e2970dbf6e0296a",
+      "size": 2692176,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-007",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "18e352272300c6b2aea1dfad276f143278d089a239da0b1180fe21cb4e5a9223",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-007/18e352272300c6b2aea1dfad276f143278d089a239da0b1180fe21cb4e5a9223/standard-rendered-page-007.png",
+      "sha256": "18e352272300c6b2aea1dfad276f143278d089a239da0b1180fe21cb4e5a9223",
+      "size": 1661821,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-006",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "838484fa81f04a8ff25619289aa21853dd025f68e4358ce1375a7336da9bea13",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-006/838484fa81f04a8ff25619289aa21853dd025f68e4358ce1375a7336da9bea13/standard-rendered-page-006.png",
+      "sha256": "838484fa81f04a8ff25619289aa21853dd025f68e4358ce1375a7336da9bea13",
+      "size": 688979,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-008",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-008/ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d/standard-rendered-page-008.png",
+      "sha256": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+      "size": 46469,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-015",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "e344cf57d5293db7a5adc02a9fdbaf7017828bec7a63b5e108a25ab0e35cfcdb",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-015/e344cf57d5293db7a5adc02a9fdbaf7017828bec7a63b5e108a25ab0e35cfcdb/standard-rendered-page-015.png",
+      "sha256": "e344cf57d5293db7a5adc02a9fdbaf7017828bec7a63b5e108a25ab0e35cfcdb",
+      "size": 658401,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-017",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "d1f33df8f9b3694f88716c29b5ab7b7163e95f2512f2391e29390b0c01f678df",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-017/d1f33df8f9b3694f88716c29b5ab7b7163e95f2512f2391e29390b0c01f678df/standard-rendered-page-017.png",
+      "sha256": "d1f33df8f9b3694f88716c29b5ab7b7163e95f2512f2391e29390b0c01f678df",
+      "size": 521881,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-009",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "db039ea4811c6d544bf9aad4f7413bc798436e8c2121eaff547ab68a8321e7eb",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-009/db039ea4811c6d544bf9aad4f7413bc798436e8c2121eaff547ab68a8321e7eb/standard-rendered-page-009.png",
+      "sha256": "db039ea4811c6d544bf9aad4f7413bc798436e8c2121eaff547ab68a8321e7eb",
+      "size": 437587,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-018",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-018/ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d/standard-rendered-page-018.png",
+      "sha256": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+      "size": 46469,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-010",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "97c35624c8731a1e26e1c87e61f8bae2e48923c7290f62a9131c8ad83d7fda2c",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-010/97c35624c8731a1e26e1c87e61f8bae2e48923c7290f62a9131c8ad83d7fda2c/standard-rendered-page-010.png",
+      "sha256": "97c35624c8731a1e26e1c87e61f8bae2e48923c7290f62a9131c8ad83d7fda2c",
+      "size": 226053,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-019",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-019/ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d/standard-rendered-page-019.png",
+      "sha256": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+      "size": 46469,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-011",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "18820948765ea804fc91380a1af220e8f9377fd885d4590bc571422fe231788e",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-011/18820948765ea804fc91380a1af220e8f9377fd885d4590bc571422fe231788e/standard-rendered-page-011.png",
+      "sha256": "18820948765ea804fc91380a1af220e8f9377fd885d4590bc571422fe231788e",
+      "size": 388558,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-020",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-020/ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d/standard-rendered-page-020.png",
+      "sha256": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+      "size": 46469,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-012",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "f3ec394112439c199ca64bc04e39ed2037ce0f0e8e72d3da03828db72a48b9e5",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-012/f3ec394112439c199ca64bc04e39ed2037ce0f0e8e72d3da03828db72a48b9e5/standard-rendered-page-012.png",
+      "sha256": "f3ec394112439c199ca64bc04e39ed2037ce0f0e8e72d3da03828db72a48b9e5",
+      "size": 253997,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-021",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-021/ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d/standard-rendered-page-021.png",
+      "sha256": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+      "size": 46469,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-013",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "d819bb0959be0ecb70d1d0b613c36bc645fa3b164f1735aa6e3703071031afb2",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-013/d819bb0959be0ecb70d1d0b613c36bc645fa3b164f1735aa6e3703071031afb2/standard-rendered-page-013.png",
+      "sha256": "d819bb0959be0ecb70d1d0b613c36bc645fa3b164f1735aa6e3703071031afb2",
+      "size": 507615,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-022",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-022/ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d/standard-rendered-page-022.png",
+      "sha256": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+      "size": 46469,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-014",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "46055eb052dc75e1341973bcca815b0441d855895c591d97388cc9b22f99e1a6",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-014/46055eb052dc75e1341973bcca815b0441d855895c591d97388cc9b22f99e1a6/standard-rendered-page-014.png",
+      "sha256": "46055eb052dc75e1341973bcca815b0441d855895c591d97388cc9b22f99e1a6",
+      "size": 259156,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-023",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-023/ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d/standard-rendered-page-023.png",
+      "sha256": "ade2c1312117f39e2ae565c371e88e86c70644ecaee529c2e07b76ac3ae8057d",
+      "size": 46469,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-016",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "1192825355d399208d821ee32b53481490138440d8eb595866e9fa11782d0000",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-016/1192825355d399208d821ee32b53481490138440d8eb595866e9fa11782d0000/standard-rendered-page-016.png",
+      "sha256": "1192825355d399208d821ee32b53481490138440d8eb595866e9fa11782d0000",
+      "size": 2018470,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "standard-rendered-page-024",
+      "variant": "standard-render",
+      "role": "preview",
+      "media": "image",
+      "revision": "18bd9e5900bb2d9faf5cb9f9ed210fb6ef4fb466a2fabfec9f30de826898b9f4",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-page-024/18bd9e5900bb2d9faf5cb9f9ed210fb6ef4fb466a2fabfec9f30de826898b9f4/standard-rendered-page-024.png",
+      "sha256": "18bd9e5900bb2d9faf5cb9f9ed210fb6ef4fb466a2fabfec9f30de826898b9f4",
+      "size": 11969466,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "adopted-map-print-builder",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "text",
+      "revision": "857fe82e258f8078ac1f0cdff60d6e09c38b7dd8d04ddba6c67c26e888260ba9",
+      "file": "books/admissions-guide-2027/parts/adopted-map-print-builder/857fe82e258f8078ac1f0cdff60d6e09c38b7dd8d04ddba6c67c26e888260ba9/adopted-map-print-builder.py",
+      "sha256": "857fe82e258f8078ac1f0cdff60d6e09c38b7dd8d04ddba6c67c26e888260ba9",
+      "size": 6022,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "adopted-map-print-proof",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "text",
+      "revision": "99de532945bb524480a448cfd6ba48bcde78084662e9c475069d15649bc2d30e",
+      "file": "books/admissions-guide-2027/parts/adopted-map-print-proof/99de532945bb524480a448cfd6ba48bcde78084662e9c475069d15649bc2d30e/adopted-map-print-proof.json",
+      "sha256": "99de532945bb524480a448cfd6ba48bcde78084662e9c475069d15649bc2d30e",
+      "size": 3250,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        },
+        {
+          "id": "adopted-map-print-builder",
+          "revision": "857fe82e258f8078ac1f0cdff60d6e09c38b7dd8d04ddba6c67c26e888260ba9"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "latest-print-a3",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "pdf",
+      "revision": "225673f6e213fe30d6297dc9fa0365266a946d4b18743ca5f4185191c12b175d",
+      "file": "books/admissions-guide-2027/parts/latest-print-a3/225673f6e213fe30d6297dc9fa0365266a946d4b18743ca5f4185191c12b175d/latest-print-a3.pdf",
+      "sha256": "225673f6e213fe30d6297dc9fa0365266a946d4b18743ca5f4185191c12b175d",
+      "size": 2223955,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        },
+        {
+          "id": "adopted-map-print-proof",
+          "revision": "99de532945bb524480a448cfd6ba48bcde78084662e9c475069d15649bc2d30e"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "latest-print-a4",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "pdf",
+      "revision": "68dd61e2cc18695d6413d2bee64a568de2ca9b2b9ba440f2904b6a83db58b55d",
+      "file": "books/admissions-guide-2027/parts/latest-print-a4/68dd61e2cc18695d6413d2bee64a568de2ca9b2b9ba440f2904b6a83db58b55d/latest-print-a4.pdf",
+      "sha256": "68dd61e2cc18695d6413d2bee64a568de2ca9b2b9ba440f2904b6a83db58b55d",
+      "size": 1774905,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        },
+        {
+          "id": "adopted-map-print-proof",
+          "revision": "99de532945bb524480a448cfd6ba48bcde78084662e9c475069d15649bc2d30e"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "adopted-map-all-pages",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "image",
+      "revision": "25588ebdbea9aebabc5587beb8babd7f5224a5521cbc1fdbfa976c34cc770ec5",
+      "file": "books/admissions-guide-2027/parts/adopted-map-all-pages/25588ebdbea9aebabc5587beb8babd7f5224a5521cbc1fdbfa976c34cc770ec5/adopted-map-all-pages.jpg",
+      "sha256": "25588ebdbea9aebabc5587beb8babd7f5224a5521cbc1fdbfa976c34cc770ec5",
+      "size": 386501,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    },
+    {
+      "id": "adopted-map-comparison",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "text",
+      "revision": "4789a4489963fae2293379d12e15a3e809694c0e4252003e31009a9242a8480e",
+      "file": "books/admissions-guide-2027/parts/adopted-map-comparison/4789a4489963fae2293379d12e15a3e809694c0e4252003e31009a9242a8480e/adopted-map-comparison.json",
+      "sha256": "4789a4489963fae2293379d12e15a3e809694c0e4252003e31009a9242a8480e",
+      "size": 698,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ],
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      }
+    }
+  ]
+}

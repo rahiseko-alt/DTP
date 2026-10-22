@@ -1,0 +1,35 @@
+id: B-PHOTO-R01-S02
+proposal: B
+model: image_gen
+prompt: 'Create B02: edit the supplied current brochure image into a clean photographic
+  replacement layer. Keep EXACT photo composition and activity: young man in navy
+  overshirt seated lower-left facing laptop, middle-aged male instructor in white
+  shirt and black glasses leaning over from upper center and pointing towards screen,
+  smiling long-haired female student center-right in white, female student at far
+  right in pink leaning in; retain identical relative head positions, poses, camera
+  angle, crop within photo, ordinary bright computer classroom. Keep the instructor
+  and center woman''s appearance largely as is. Make subtle restrained facial adjustments
+  to the student man and far-right woman toward plausible Japanese/East Asian mixed-heritage
+  casting while retaining warm medium/tan complexions, natural hair and individuality.
+  Not all pale skin, no homogenized model faces, no exaggerated ethnic features, no
+  glamour retouching. Fictional image casting only. Same clothes, same age ranges,
+  eye lines and mood. Real skin and correct hands. Remove ALL overlaid text, captions,
+  blue lower title bar and logos; output the PHOTO AREA ONLY, a landscape 3:2 clean
+  photograph, reconstruct no typography. Keep relative placement of people within
+  the original photographic section with same crop. Background monitor should be plain
+  abstract soft colors with no readable content. No text, letters, typography, words,
+  numbers, logo, watermark, signature, QR code, caption. No collage.'
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+created: '2026-10-21'
+author: codex
+reference_inputs:
+- path: shared/generated-assets/jp-existing-photo-b-r01/reference-inputs/current-brochure-page-08.png
+  usage: image_reference
+  note: 保存済み掲載パンフPDF8ページ。元の授業風景の構図・人物配置を保持。
+params:
+  transparent_background: false
+notes: 生成編集した人物画像の方向確認用。未採用、紙面未反映。実写記録として使用しない。
+size: 1536x1024
+sha256: 99289ba215ed3308a644f4bb0413b172416ca0db79ed25e5aba49a4972fda2ac

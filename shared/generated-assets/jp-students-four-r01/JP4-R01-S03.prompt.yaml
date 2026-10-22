@@ -1,0 +1,24 @@
+id: JP4-R01-S03
+model: image_gen
+prompt: Use scene 01 as exact identity reference for the same four fictional Japanese
+  adults, matching faces, hair and outfits. Candid medium-wide photograph of all four
+  walking and chatting in a bright modest Japanese college corridor near windows.
+  Ponytail woman talks to gray sweatshirt man, bob-haired woman listens with a small
+  smile, navy overshirt man holds a plain notebook. Natural relaxed gestures, realistic
+  skin, no camera poses. No other people, signs, posters, logos or readable text.
+  Landscape 3:2.
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+size: 1536x1024
+created: '2026-10-21'
+author: codex
+reference_inputs:
+- path: shared/generated-assets/jp-students-four-r01/JP4-R01-S01.png
+  usage: image_reference
+  note: 同一4人の顔・髪型・服装の参照
+params:
+  transparent_background: false
+source_refs: []
+notes: 生成指示の要約を記録。画像未加工。方向確認候補、紙面未反映。
+sha256: 4b4f7568cc548d614062a96e44afaa0dc8551debf0cf0266f17ade81c6e77ee7

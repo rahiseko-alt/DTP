@@ -15,7 +15,18 @@ replacements = {key: school[key] for key in ('tel', 'email', 'corporation')}
 replacements.update(school=school['name'], english=school['name_en'],
     address='〒'+str(address['postal_code'])+' '+''.join(str(address[k]) for k in ('prefecture','city','line1')),
     access='・'.join(school['access']) if isinstance(school['access'],list) else school['access'])
-entries = json.loads(inputs['support-parts-photos-map-json'].read_text(encoding='utf-8'))['slots']
+media_manifest = json.loads(inputs['support-parts-photos-map-json'].read_text(encoding='utf-8'))
+entries = media_manifest['slots']
+if 'access_map' in media_manifest:
+    declared_map = media_manifest['access_map']
+    resolved_map = json.loads(subprocess.check_output([
+        'node', '--import', 'tsx', str(ROOT/'system/scripts/assets.ts'),
+        'get', '--root', str(ROOT), '--document', 'oc-approved-20261017',
+        '--id', declared_map['asset_id'], '--role', 'support'
+    ], cwd=ROOT))
+    if resolved_map['asset']['sha256'] != declared_map['sha256']:
+        raise SystemExit('Access map differs from the registered media manifest')
+    replacements['access-map'] = os.path.relpath(ROOT/resolved_map['path'], BOOK/'source').replace('\\', '/')
 text = inputs['layout-flyer-template'].read_text(encoding='utf-8')
 for item in entries:
     replacements[item['slot']] = os.path.relpath(inputs[item['slot']], BOOK/'source').replace('\\', '/')

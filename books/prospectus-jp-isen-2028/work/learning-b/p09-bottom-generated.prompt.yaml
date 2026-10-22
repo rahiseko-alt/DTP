@@ -1,0 +1,35 @@
+tool: image_gen.imagegen
+model: tool-default
+prompt: 'Edit this supplied contact sheet as a photo editing task. Keep the EXACT
+  same contact-sheet dimensions, grid, white gutters, crop, camera angle, poses, gestures,
+  gaze, positions, furniture, objects and backgrounds in every cell. Do not reorder
+  or merge cells. Replace every visible person with fictional ordinary Japanese young
+  adult students or staff, with natural Japanese facial appearance. This is an intentional
+  visual casting request, not identification of existing people''s ethnicity. Keep
+  the same genders, age ranges, body sizes, outfits, masks and eyeglasses. All men
+  completely clean-shaven: no moustache, beard, stubble or dark facial-hair shadows.
+  Everyday hair and clothing, natural realistic skin tones and normal skin texture
+  with small imperfections. No fashion-model casting, airbrushed skin, whitening,
+  cosmetic retouch, excessive makeup or beauty filter. Keep each cell''s exact original
+  number of people, including partially visible and out-of-focus background people.
+  Change faces and associated skin/hair only as needed for the new fictional casting.
+  Maintain original photographic lighting and realism. Do not add people, captions,
+  decorations, graphical elements or text. Negative: text, letters, typography, words,
+  numbers, logo, watermark, signature, QR code, caption. Four cells, two rows of two.
+  Top-left: one woman at a computer. Top-right: one man from behind at a computer.
+  Bottom-left: one man in front, with exactly one out-of-focus person in a white shirt
+  behind. Bottom-right: one woman in side profile at a computer. Keep ALL gray polygons
+  on monitor screens precisely unchanged with flat gray fill; code will restore the
+  original screen image. Keep background people and all hand positions exactly.'
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+created: '2026-10-21'
+author: codex
+reference_inputs:
+- path: books/prospectus-jp-isen-2028/work/learning-b/p09-bottom-input.png
+  usage: img2img
+  note: Photo-only atlas. Existing logos/screens masked before generation.
+generated_path: /workspace/generated_images/exec-255ebbfc-a35e-40a8-901a-04dfbc0587a5.png
+notes: Generate photo atlas; align to input grid; composite only head/neck/hair masks
+  over original page; preserve source pixels outside masks and protected graphics.

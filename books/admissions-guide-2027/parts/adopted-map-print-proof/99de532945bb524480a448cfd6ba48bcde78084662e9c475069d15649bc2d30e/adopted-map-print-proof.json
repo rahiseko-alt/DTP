@@ -1,0 +1,142 @@
+{
+  "document": "admissions-guide-2027",
+  "source_id": "standard-rendered-pdf",
+  "source_file": "books/admissions-guide-2027/output/standard-render/standard-rendered-pdf/17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052/standard-rendered-pdf.pdf",
+  "source_sha256": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052",
+  "pages": 24,
+  "sheets": 6,
+  "faces": [
+    {
+      "sheet": 1,
+      "side": "front",
+      "left": 24,
+      "right": 1
+    },
+    {
+      "sheet": 1,
+      "side": "back",
+      "left": 2,
+      "right": 23
+    },
+    {
+      "sheet": 2,
+      "side": "front",
+      "left": 22,
+      "right": 3
+    },
+    {
+      "sheet": 2,
+      "side": "back",
+      "left": 4,
+      "right": 21
+    },
+    {
+      "sheet": 3,
+      "side": "front",
+      "left": 20,
+      "right": 5
+    },
+    {
+      "sheet": 3,
+      "side": "back",
+      "left": 6,
+      "right": 19
+    },
+    {
+      "sheet": 4,
+      "side": "front",
+      "left": 18,
+      "right": 7
+    },
+    {
+      "sheet": 4,
+      "side": "back",
+      "left": 8,
+      "right": 17
+    },
+    {
+      "sheet": 5,
+      "side": "front",
+      "left": 16,
+      "right": 9
+    },
+    {
+      "sheet": 5,
+      "side": "back",
+      "left": 10,
+      "right": 15
+    },
+    {
+      "sheet": 6,
+      "side": "front",
+      "left": 14,
+      "right": 11
+    },
+    {
+      "sheet": 6,
+      "side": "back",
+      "left": 12,
+      "right": 13
+    }
+  ],
+  "outputs": [
+    {
+      "paper": "A3",
+      "file": ".cache/map-rollout/print/print-admissions-A3.pdf",
+      "sha256": "225673f6e213fe30d6297dc9fa0365266a946d4b18743ca5f4185191c12b175d",
+      "bytes": 2223955,
+      "faces": 12,
+      "all_face_comparisons": [
+        0.9627811578171092,
+        0.611223266961652,
+        0.19656618731563422,
+        0.4452249262536873,
+        0.3665652654867257,
+        0.3768113938053097,
+        0.10841168879056047,
+        0.051120022123893806,
+        0.17216076696165192,
+        0.24664454277286138,
+        0.08112094395280235,
+        0.13174778761061948
+      ],
+      "qr_decoded": [
+        "https://kaihougakuen.my.canva.site/"
+      ],
+      "currency_counts_unchanged": true,
+      "duplex": "short-edge",
+      "scaling": "none"
+    },
+    {
+      "paper": "A4",
+      "file": ".cache/map-rollout/print/print-admissions-A4.pdf",
+      "sha256": "68dd61e2cc18695d6413d2bee64a568de2ca9b2b9ba440f2904b6a83db58b55d",
+      "bytes": 1774905,
+      "faces": 12,
+      "all_face_comparisons": [
+        1.1990919985250736,
+        0.7309688421828908,
+        0.20665560471976405,
+        0.6116611356932153,
+        0.3841952433628318,
+        0.4349511430678466,
+        0.11476308997050148,
+        0.05866980088495575,
+        0.17841998525073746,
+        0.31121865781710917,
+        0.10737924041297936,
+        0.14063421828908554
+      ],
+      "qr_decoded": [
+        "https://kaihougakuen.my.canva.site/"
+      ],
+      "currency_counts_unchanged": true,
+      "duplex": "short-edge",
+      "scaling": "none"
+    }
+  ],
+  "method": "A3/A4横、1面に2ページ、短辺反転。200dpi/JPEG88の軽量化後に全印刷面を照合。",
+  "self_review": true,
+  "independent_review": false,
+  "physical_print_test": false
+}

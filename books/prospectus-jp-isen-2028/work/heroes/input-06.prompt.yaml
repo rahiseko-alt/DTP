@@ -1,0 +1,33 @@
+tool: image_gen.imagegen
+model: tool default (not reported)
+prompt: Edit only the fictional people in this crop from an existing AI-generated
+  brochure photograph. Keep the exact camera, composition, face positions, head angles,
+  gaze, expressions, actions, lighting, classroom setting, clothes and accessories.
+  Give every visible person a natural, ordinary Japanese appearance with individually
+  distinct faces and realistic natural Japanese skin tones. All men must be entirely
+  clean shaven without beard, moustache or stubble. These are fictional people, not
+  identifiable real people. Preserve realistic skin texture, ordinary student appearances
+  and age. Avoid fashion model faces, excessive beautification, whitening, plastic
+  skin or glamour. Do not change clothes, pose, hair silhouette, accessories, background
+  or object positions. Keep every face at precisely the same place and scale as the
+  input crop. Output exactly the same composition and aspect ratio. No text, letters,
+  typography, words, numbers, logo, watermark, signature, QR code, caption. Foreground
+  young man in striped black and white shirt rests his chin on his hand looking up
+  to the right. Preserve his exact hand, watch, face outline angle and gaze. Give
+  him a distinct ordinary Japanese male face, completely clean shaven. Behind him
+  the woman looks right and the man looks down; make these fictional faces naturally
+  Japanese too, male completely clean shaven.
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+size: 1510x1310
+created: '2026-10-21'
+author: codex
+reference_inputs:
+- path: books/prospectus-jp-isen-2028/work/heroes/input-06.png
+  usage: img2img
+  note: Cropped existing generated brochure photograph; exact source coordinates recorded
+    in changes.json. Only selected person masks are used from result.
+source_refs: []
+notes: Source PDF order page 6. Final composite restores all pixels outside explicit
+  person masks from original, including copy, badge, rules and all informational content.

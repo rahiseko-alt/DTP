@@ -7,7 +7,9 @@ import sharp from "sharp";
 import fg from "fast-glob";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 vi.mock("../lib/render.ts", () => ({ renderBook: vi.fn() }));
+vi.mock("../lib/standard-book-inputs.ts", () => ({ collectStandardBookInputs: vi.fn() }));
 import { renderBook } from "../lib/render.ts";
+import { collectStandardBookInputs } from "../lib/standard-book-inputs.ts";
 import { rebuildStandardBook } from "../lib/standard-book-rebuild.ts";
 import { getAsset, hashExternalInputGlob, checkAssets, digest, syncBaseline } from "../lib/assets.ts";
 const sourceRoot = fileURLToPath(new URL("../../..", import.meta.url));
@@ -25,12 +27,24 @@ function write(rel: string, bytes: string | Buffer) {
 beforeEach(async () => {
   vi.clearAllMocks();
   root = fs.mkdtempSync(path.join(os.tmpdir(), "standard-book-rebuild-"));
+  // The collector has its own real-source/CSS/font tests. Here control a small
+  // input graph to exercise pre/post render evidence and publication atomically.
+  vi.mocked(collectStandardBookInputs).mockImplementation((base, bookId) =>
+    fg.sync(["company-data/facts/**/*.yaml", `books/${bookId}/config/book.yaml`], { cwd: base }).sort()
+      .map(file => ({ path: file, sha256: digest(fs.readFileSync(path.join(base, file))) })));
   const book = `books/${id}`;
   write(`${book}/config/document.yaml`, fs.readFileSync(path.join(sourceRoot, book, "config/document.yaml")));
   write(`${book}/config/book.yaml`, "title: fixture\npages: [page_001]\n");
   write("company-data/facts/school.yaml", "name: Before\n");
   write("company-data/photos/photos.yaml", fs.readFileSync(path.join(sourceRoot, "company-data/photos/photos.yaml")));
   const catalog = YAML.parse(fs.readFileSync(path.join(sourceRoot, book, "parts/catalog.yaml"), "utf8"));
+  // Start this mock studio before its first render, independently of real BOOK history.
+  catalog.assets = catalog.assets.filter((asset: { id: string; role: string; input_provenance?: string }) =>
+    asset.id === "approved-original" || asset.role === "replacement-photo" ||
+    (asset.role === "preview" && asset.input_provenance === "unverified"),
+  );
+  catalog.current = Object.fromEntries(catalog.assets.map((asset: { id: string; revision: string }) => [asset.id, asset.revision]));
+  for (const asset of catalog.assets) delete asset.retired;
   catalog.assets.find((a: {id:string}) => a.id === "approved-original").external_input_globs = [
     "company-data/facts/*.yaml", `${book}/config/book.yaml`,
   ].map(pattern => ({ pattern, sha256: hashExternalInputGlob(root, pattern) }));
@@ -59,7 +73,9 @@ describe("standard BOOK verified output enrollment", () => {
     await rebuildStandardBook(root, id);
     const catalog = YAML.parse(fs.readFileSync(catalogFile, "utf8"));
     const current = catalog.assets.find((asset: {id:string;revision:string}) => asset.id === "standard-rendered-pdf" && asset.revision === catalog.current[asset.id]);
-    expect(current.external_input_globs[0].sha256).toBe(hashExternalInputGlob(root, "company-data/facts/*.yaml"));
+    expect(current.external_inputs.find((x: {path:string}) => x.path === "company-data/facts/school.yaml").sha256)
+      .toBe(digest(fs.readFileSync(path.join(root, "company-data/facts/school.yaml"))));
+    expect(current.render_dependencies.collector).toBe("standard-book-v1");
     expect(await getAsset(root, id, "standard-rendered-pdf")).toBeDefined();
     write("system/assets/policy.json", JSON.stringify({ required_documents: [id] }));
     const checked = await checkAssets(root, { metadataOnly: true, legacy: false });

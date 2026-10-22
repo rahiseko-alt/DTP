@@ -1,11 +1,12 @@
 schema_version: 1
 id: prospectus-hal-2028
-title: HAL風学校案内冊子（2028年度）
+title: 別案パンフレット｜HAL風｜2028表記
 aliases:
   - HAL風パンフ
   - HAL風学校案内
   - HALパンフ
   - 12P冊子
+  - 別案_HALパンフ
 renderer: standard-book
 catalog: books/prospectus-hal-2028/parts/catalog.yaml
 managed_roots:

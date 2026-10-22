@@ -4,11 +4,7 @@
 <section class="p16-access">
   <p class="p16-access__kicker">ACCESS</p>
   <h1>アクセス・連絡先</h1>
-  <div class="p16-route">
-    <div class="p16-route__node"><b>JR名古屋駅</b></div>
-    <div class="p16-route__walk"><i></i><span>徒歩10分</span><i></i></div>
-    <div class="p16-route__node p16-route__node--school"><b>{{facts.school.name}}</b></div>
-  </div>
+  <figure class="p16-map"><img src="{{asset 'books/prospectus-isen-trial-2028/parts/access-route-map/f22d288efab6e1220898fac2d6d54fe8c014266a748d0637e0153fa7853de27f/access-route-map.png'}}" alt="太閤通口から学校までの徒歩ルート例。北へ進み左折、亀島交番前を西へ直進"></figure>
   <p class="p16-addr">〒{{facts.school.address.postal_code}}　{{facts.school.address.prefecture}}{{facts.school.address.city}}{{facts.school.address.line1}}<br>{{#each facts.school.access}}{{this}}{{/each}}</p>
 </section>
 

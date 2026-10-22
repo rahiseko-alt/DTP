@@ -1,0 +1,57 @@
+{
+  "source": "books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_学費入試改訂.pdf",
+  "source_sha256": "23e039f73c7489c5a91825c9b0c7087843edbf7d44edc82ba8e23fe325f59da4",
+  "output": "books/prospectus-isen-trial-2028/output/pdf/AIビジネス専門学校_学校案内_2028_白版_16P_地図連絡先改訂.pdf",
+  "output_sha256": "33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56",
+  "pages": 16,
+  "replaced_pdf_page": 15,
+  "printed_page": 23,
+  "other_pages_pixel_identical": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16
+  ],
+  "financial_source_pages_rerender_pixels_identical": [
+    true,
+    true,
+    true
+  ],
+  "qr_decoded": [
+    "https://kaihougakuen.my.canva.site/"
+  ],
+  "method": "4ページのソースを再描画。既存学費・納期・入試の3ページは再描画画素一致を確認し、アクセス1ページだけ3mm塗り足しを除いて旧16Pの15枚目へ差替え。",
+  "self_review": true,
+  "independent_review": false,
+  "release": false,
+  "browser": "Chromium154 fallback",
+  "limitations": [
+    "地理院タイルに基づく画像生成の案内略図。建物入口・細かな徒歩経路は未調査。",
+    "残る旧ラスターページを含む冊子全体の生成入力は未検証。"
+  ],
+  "research": {
+    "reference_map": "books/prospectus-isen-trial-2028/parts/access-map-research/gsi-reference-map.png",
+    "tile_manifest": "books/prospectus-isen-trial-2028/parts/access-map-research/tiles-source.json",
+    "address": "books/prospectus-isen-trial-2028/parts/access-map-research/address-source-20261020.json",
+    "school_website": "https://kaihougakuen.my.canva.site/",
+    "website_address_match": true,
+    "geocoder_coordinates": [
+      136.874008,
+      35.173653
+    ],
+    "source_attribution": "地理院タイルを加工して作成",
+    "map_kind": "地理院タイルを参照した画像生成の案内略図。元地図との位置関係を親が自己点検。学校の建物入口・徒歩経路は断定しない。"
+  },
+  "generation_record_added_rerender_all_4_pages_pixels_identical": true
+}

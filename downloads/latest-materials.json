@@ -1,0 +1,261 @@
+{
+  "date": "2026-10-22",
+  "documents": {
+    "brochure": {
+      "document": "prospectus-isen-trial-2028",
+      "asset_id": "latest-prospectus-pdf",
+      "file": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
+      "sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+      "pages": 16,
+      "bytes": 113453759,
+      "qr_decoded": {
+        "15": [
+          "https://kaihougakuen.my.canva.site/"
+        ]
+      },
+      "saddle_fold_reading_order_verified": true,
+      "back_cover_change_bbox_pt": [
+        92,
+        570,
+        307,
+        581
+      ],
+      "material_id": "PAM-ISEN-2028",
+      "display_name": "パンフレット_医専白版_2028表記_16P_現行",
+      "tags": [
+        "種別:パンフレット",
+        "意匠:医専白版",
+        "表記年度:2028",
+        "状態:現行",
+        "用途:日本人版の制作元",
+        "人物:日本人イメージ未統一",
+        "版:医専版"
+      ],
+      "binding": "中綴じ・左綴じ",
+      "audience_status": "日本人向けへの内容点検が必要",
+      "year_status": "紙面は2028表記。掲載学費・入試の根拠は2027年度。2028年度確定版とは呼ばない",
+      "version_policy": "医専の現行16ページを制作元として保持。日本人向け版も医専版と同じページ順・紙面構成を使い、写真・配色・文字の重ね方を調整する。",
+      "retrieval_mode": "saved",
+      "freshness_status": "保存済み配布版。登録実体の同一性は確認、現在の標準renderer入力による再生成保証なし"
+    },
+    "admissions": {
+      "document": "admissions-guide-2027",
+      "asset_id": "standard-rendered-pdf",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-pdf/17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052/standard-rendered-pdf.pdf",
+      "sha256": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052",
+      "pages": 24,
+      "bytes": 19357455,
+      "qr_decoded": {
+        "23": [
+          "https://kaihougakuen.my.canva.site/"
+        ]
+      },
+      "blank_reverse_pages_checked": [
+        8,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      "saddle_fold_reading_order_verified": true,
+      "material_id": "ADM-JP-2027",
+      "display_name": "募集要項_日本人向け_2027年度_24P_現行",
+      "tags": [
+        "種別:募集要項",
+        "対象:日本人向け",
+        "適用年度:2027",
+        "状態:現行",
+        "用途:日本人版の制作元",
+        "人物:日本人イメージ未統一"
+      ],
+      "binding": "中綴じ・左綴じ・願書の裏面は白紙",
+      "audience_status": "日本人向け原本に基づく。人物画像は未統一",
+      "year_status": "2027年度。2028年度への自動繰上げ禁止",
+      "retrieval_mode": "saved",
+      "freshness_status": "保存済み配布版。登録実体の同一性は確認、現在の標準renderer入力による再生成保証なし"
+    },
+    "flyer": {
+      "document": "oc-approved-20261017",
+      "asset_id": "latest-original-oc-pdf",
+      "file": "books/oc-approved-20261017/parts/latest-original-oc-pdf/2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1/latest-original-oc-pdf.pdf",
+      "sha256": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1",
+      "pages": 2,
+      "variant": "approved-original-map",
+      "qr_decoded": {
+        "1": [
+          "https://kaihougakuen.my.canva.site/"
+        ],
+        "2": [
+          "https://kaihougakuen.my.canva.site/"
+        ]
+      },
+      "material_id": "FLY-OC-YELLOW",
+      "display_name": "チラシ_OC黄色帯_年度未確認_2P_現行",
+      "tags": [
+        "種別:チラシ",
+        "意匠:OC黄色帯",
+        "適用年度:未確認",
+        "状態:現行",
+        "用途:日本人版の制作元",
+        "人物:日本人イメージ未統一"
+      ],
+      "binding": "A4両面・長辺反転・折りなし",
+      "audience_status": "日本人向けへの内容・人物画像の調整が必要",
+      "year_status": "原本の開催日の年度・有効性は未確認。2027/2028と推定しない",
+      "retrieval_mode": "saved",
+      "freshness_status": "保存済み配布版。登録実体の同一性は確認、現在の標準renderer入力による再生成保証なし"
+    }
+  },
+  "print_bundle": "downloads/print-pdfs.zip",
+  "bundle_sha256": "0df8ee973630975cecfbbd5c37f366b645c28299384619f869aa8fa21021ad4b",
+  "bundle_pdf_names": [
+    "brochure-A3.pdf",
+    "brochure-A4.pdf",
+    "admissions-A3.pdf",
+    "admissions-A4.pdf",
+    "flyer-A4.pdf"
+  ],
+  "deleted_nonadopted_variant": "real-photo-rebuild outputs",
+  "identity_schema_version": 1,
+  "production_targets": [
+    {
+      "work_id": "PAM-JP-ISEN",
+      "source_material_id": "PAM-ISEN-2028",
+      "display_name": "パンフレット_日本人向け_医専白版_2028表記_16P_確認用",
+      "status": "改稿11・表紙写真のみ約8%追加拡大/右移動で左右バランス調整・本文確認済み",
+      "tags": [
+        "対象:日本人向け",
+        "人物仕様:日本人イメージ",
+        "版:医専版",
+        "意匠:医専白版",
+        "状態:確認用",
+        "種別:パンフレット",
+        "表記年度:2028"
+      ],
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/877ac9a68ab8c468e92c661bc3c17a8bba533ef34b4222b0311c132e704e8e97/jp-isen-reading-pdf.pdf",
+      "version_policy": "改稿10の写真枠内だけ追加拡大/右移動を実施。左端の孤立男性が外れる範囲。見出し・コピー・帯・生成床など写真枠外の全画素と確認済み本文を維持。新生成・人物加工なし。",
+      "document": "prospectus-isen-trial-2028",
+      "variant": "japanese-people-edition",
+      "asset_id": "jp-isen-reading-pdf",
+      "sha256": "877ac9a68ab8c468e92c661bc3c17a8bba533ef34b4222b0311c132e704e8e97",
+      "bytes": 6815503,
+      "pages": 16,
+      "year_status": "紙面は2028表記。掲載学費・入試の根拠は2027年度。2028年度確定版とは呼ばない",
+      "ai_image_status": "人物加工画像を含む。実写真の在校生・教職員の国籍や所属を示すものではない。",
+      "review_status": "親が最終PDFの実スクショを目視。写真枠外は改稿10と全面画素一致。本文P2〜16/印刷の表紙以外も全文字・全面画素一致。表紙の人間採用・実物印刷は未実施。",
+      "print_outputs": [
+        {
+          "paper": "A3",
+          "document": "prospectus-isen-trial-2028",
+          "asset_id": "jp-isen-print-a3",
+          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b/jp-isen-print-a3.pdf",
+          "sha256": "f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b",
+          "bytes": 4123371,
+          "faces": 8,
+          "sheets": 4,
+          "duplex": "短辺反転",
+          "retrieval_mode": "saved"
+        },
+        {
+          "paper": "A4",
+          "document": "prospectus-isen-trial-2028",
+          "asset_id": "jp-isen-print-a4",
+          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a4/d83e1c1920dacd02292b0e8298e46e6a9e07228864eadc6c345fd6a47f8b116e/jp-isen-print-a4.pdf",
+          "sha256": "d83e1c1920dacd02292b0e8298e46e6a9e07228864eadc6c345fd6a47f8b116e",
+          "bytes": 2720971,
+          "faces": 8,
+          "sheets": 4,
+          "duplex": "短辺反転",
+          "retrieval_mode": "saved"
+        }
+      ],
+      "retrieval_mode": "saved",
+      "freshness_status": "保存済み確認用。現在入力からの再生成を登録検査で保証した版ではない"
+    },
+    {
+      "work_id": "ADM-JP-2027-PEOPLE",
+      "source_material_id": "ADM-JP-2027",
+      "display_name": "募集要項_日本人向け_2027年度_人物差替版_制作予定",
+      "status": "未制作",
+      "tags": [
+        "対象:日本人向け",
+        "人物仕様:日本人イメージ",
+        "状態:未制作"
+      ],
+      "file": null
+    },
+    {
+      "work_id": "FLY-JP-OC-YELLOW",
+      "source_material_id": "FLY-OC-YELLOW",
+      "display_name": "チラシ_日本人イメージ_OC黄色帯_11月21日・12月5日・12月19日_2P_確認用",
+      "status": "指定5点反映・表裏目視とPDF/PNGのメールQR検証済み・確認用",
+      "tags": [
+        "種別:チラシ",
+        "対象:日本人向け",
+        "人物仕様:日本人イメージ",
+        "意匠:OC黄色帯",
+        "適用年度:未確認",
+        "状態:確認用"
+      ],
+      "file": "books/oc-approved-20261017/parts/jp-oc-reading-pdf/18601d0ad832a6a48a61a6345a89d7ec321c133c804275c8c4c11df08669d47b/jp-oc-reading-pdf.pdf",
+      "document": "oc-approved-20261017",
+      "variant": "japanese-people-oc-revised",
+      "asset_id": "jp-oc-reading-pdf",
+      "sha256": "18601d0ad832a6a48a61a6345a89d7ec321c133c804275c8c4c11df08669d47b",
+      "bytes": 12842131,
+      "pages": 2,
+      "dates": [
+        "11/21",
+        "12/5",
+        "12/19"
+      ],
+      "contact_email": "aibusiness.kaihougakuen@gmail.com",
+      "qr_decoded": {
+        "1": [
+          "mailto:aibusiness.kaihougakuen@gmail.com"
+        ],
+        "2": [
+          "mailto:aibusiness.kaihougakuen@gmail.com"
+        ]
+      },
+      "binding": "A4両面・長辺反転・折りなし",
+      "retrieval_mode": "saved",
+      "freshness_status": "保存済み確認用。現在入力からの標準renderer再生成を登録検査で保証した版ではない",
+      "year_status": "開催年・曜日は未指定。推測して付与しない",
+      "ai_image_status": "採用済みAI人物イメージを使用。実在学生の国籍・所属を示す写真ではない",
+      "review_status": "親が表裏PNGを目視。PDF/PNGの計4面でGmail mailtoのみ復号。実機試し刷りは未実施。",
+      "previews": [
+        {
+          "id": "jp-oc-front",
+          "file": "books/oc-approved-20261017/parts/jp-oc-front/0b18db5f881dc452d2795bdfc05ba245bd4b75c0d67856941c9265eeabca0a4f/jp-oc-front.png",
+          "sha256": "0b18db5f881dc452d2795bdfc05ba245bd4b75c0d67856941c9265eeabca0a4f"
+        },
+        {
+          "id": "jp-oc-back",
+          "file": "books/oc-approved-20261017/parts/jp-oc-back/128bc3ea46a2dcb7855b8b0f17eb86038ec65582274c0a61404f08643a1c9351/jp-oc-back.png",
+          "sha256": "128bc3ea46a2dcb7855b8b0f17eb86038ec65582274c0a61404f08643a1c9351"
+        }
+      ]
+    }
+  ],
+  "excluded_variants": [
+    {
+      "document": "avatar-oc-2028",
+      "label": "別案チラシ_アバター体験",
+      "status": "今回の制作対象外"
+    },
+    {
+      "document": "prospectus-hal-2028",
+      "label": "過去のHAL風12P案",
+      "status": "過去資料・制作対象外。再開しない"
+    },
+    {
+      "document": "oc-approved-20261017",
+      "variant": "real-photo-rebuild",
+      "label": "不採用チラシ_実写真再構成",
+      "status": "誤成果物削除済み・再利用禁止"
+    }
+  ]
+}

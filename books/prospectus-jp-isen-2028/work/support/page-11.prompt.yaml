@@ -1,0 +1,101 @@
+tool: image_gen.imagegen + deterministic PIL compositing
+model: gpt-image (tool model version unavailable)
+prompt: Photo-only edits from two separately generated isolated photograph inputs.
+  See individual generation prompts; no full publication page supplied or generated.
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+size: 2480x3508
+created: '2026-10-21'
+author: codex / jp_isen_support
+reference_inputs:
+- path: books/prospectus-jp-isen-2028/work/support/p11-main-input.png
+  usage: img2img
+- path: books/prospectus-jp-isen-2028/work/support/p11-small-input.png
+  usage: img2img
+source_refs:
+- books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf
+notes: 'Revision2: photograph-only composition. Preserve printed source glyph pixels;
+  avoid restored clothing/background rectangles. P10 uses the clean generated circle
+  and original lettering. P11 retains source wall/right counselor from x1920, left
+  feather55px with neutral-wall gate, and adds a soft white readability backing around
+  headline. Exact algorithm in compose.py, actual scope checks in changes.json.'
+photo_rects:
+- - 1000
+  - 200
+  - 2480
+  - 1130
+- - 190
+  - 1390
+  - 595
+  - 1625
+- - 705
+  - 1355
+  - 1125
+  - 1625
+- - 1380
+  - 1380
+  - 1780
+  - 1625
+- - 1950
+  - 1375
+  - 2375
+  - 1625
+- - 92
+  - 2605
+  - 640
+  - 2870
+- - 690
+  - 2605
+  - 1215
+  - 2870
+- - 1270
+  - 2605
+  - 1790
+  - 2870
+- - 1845
+  - 2605
+  - 2395
+  - 2870
+verification:
+  outside_photo_changed_pixels: 0
+  protected_glyph_changed_pixels: 0
+sha256: 9b0cbcbf4e5ff076b8605e68d8a65b0bdb944b9c89797c6ef58b0096f0b72b2e
+revision: 2
+protected_glyph_regions:
+- - 1000
+  - 200
+  - 1235
+  - 395
+- - 1000
+  - 440
+  - 1270
+  - 625
+- - 1900
+  - 200
+  - 2480
+  - 450
+- - 1950
+  - 560
+  - 2190
+  - 780
+- - 1000
+  - 670
+  - 1060
+  - 1000
+- - 130
+  - 1410
+  - 245
+  - 1510
+- - 1025
+  - 1410
+  - 1140
+  - 1545
+- - 1350
+  - 1380
+  - 1445
+  - 1530
+- - 1920
+  - 1400
+  - 2050
+  - 1530

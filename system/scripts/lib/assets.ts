@@ -56,6 +56,10 @@ export const AssetSchema = z
     storage: z.enum(["canonical", "legacy-mirror"]).default("canonical"),
     confirmation: z.enum(["verified", "unverified"]),
     input_provenance: z.enum(["verified", "unverified"]).optional(),
+    saved: z.object({ reason: z.string().trim().min(8), recorded_at: z.string().datetime() }).strict().optional(),
+    render_dependencies: z.object({
+      collector: z.literal("standard-book-v1"), book_id: ID, sha256: SHA,
+    }).strict().optional(),
     retired: z.literal(true).optional(),
     recipe: Recipe.optional(),
     external_inputs: z
@@ -311,6 +315,8 @@ export function documents(root: string): Doc[] {
       )
         fail("EVIDENCE", "Missing original page evidence");
     for (const a of catalogData.assets) {
+      if (a.render_dependencies && (doc.renderer !== "standard-book" || a.render_dependencies.book_id !== doc.id))
+        fail("DOCUMENT_ID", `${a.id}: renderer input evidence belongs to another document`);
       permitted(
         { ...doc, declaration, catalogHash, catalogData },
         a,
@@ -534,41 +540,70 @@ function context(root: string) {
     fingerprint: fingerprint(root),
   };
 }
-function assertFresh(
+async function assertFresh(
   root: string,
   doc: Doc,
   a: Asset,
   seen = new Set<string>(),
   unverified = new Set<string>(),
   globHashes = new Map<string, string>(),
+  freshness = true,
 ) {
   const topLevel = seen.size === 0;
   const key = a.id + "@" + a.revision;
   if (seen.has(key)) fail("CYCLE", key);
   seen = new Set([...seen, key]);
   if (a.confirmation !== "verified") fail("UNVERIFIED", a.id);
-  for (const external of a.external_inputs)
-    if (digest(read(root, external.path)) !== external.sha256)
+  if (freshness && a.saved) fail("SAVED_OUTPUT", `${a.id}: ${a.saved.reason}; use --saved`);
+  if (freshness) for (const external of a.external_inputs)
+    if (digest(fs.readFileSync(safePath(root, external.path))) !== external.sha256)
       fail("STALE_OUTPUT", a.id);
-  for (const external of a.external_input_globs ?? []) {
+  if (freshness) for (const external of a.external_input_globs ?? []) {
     if (!globHashes.has(external.pattern))
       globHashes.set(external.pattern, hashExternalInputGlob(root, external.pattern));
     if (globHashes.get(external.pattern) !== external.sha256)
       fail("STALE_OUTPUT", a.id);
   }
+  if (freshness && a.render_dependencies) {
+    const key = `standard-book:${a.render_dependencies.book_id}`;
+    if (!globHashes.has(key)) globHashes.set(key, digest(JSON.stringify(
+      (await import("./standard-book-inputs.ts")).collectStandardBookInputs(root, a.render_dependencies.book_id),
+    )));
+    if (globHashes.get(key) !== a.render_dependencies.sha256) fail("STALE_OUTPUT", a.id);
+  }
   for (const source of a.built_from) {
     const dependency = doc.catalogData.assets.find(
       (x) => x.id === source.id && x.revision === source.revision,
     );
-    if (!dependency || doc.catalogData.current[source.id] !== source.revision)
+    if (!dependency) fail("BUILD_REFERENCE", a.id);
+    if (freshness && doc.catalogData.current[source.id] !== source.revision)
       fail("STALE_OUTPUT", a.id);
-    assertFresh(root, doc, dependency, seen, unverified, globHashes);
+    await assertFresh(root, doc, dependency, seen, unverified, globHashes, freshness);
     availability(root, dependency);
   }
-  if (a.input_provenance === "unverified")
+  if (freshness && a.input_provenance === "unverified")
     unverified.add(a.id);
   if (topLevel && unverified.size)
     fail("UNVERIFIED_OUTPUT", [...unverified].join(", "));
+}
+
+/** Saved retrieval waives freshness only; referenced bytes and roles remain verified. */
+async function assertSavedIntegrity(root: string, doc: Doc, a: Asset,
+  seen = new Set<string>(), checked = new Set<string>()) {
+  const key = `${a.id}@${a.revision}`;
+  if (seen.has(key)) fail("CYCLE", key);
+  if (checked.has(key)) return;
+  if (a.confirmation !== "verified") fail("UNVERIFIED", a.id);
+  availability(root, a);
+  const rel = assetPath(root, a);
+  await verifyImageDecode(fs.readFileSync(safePath(root, rel)), a.media, rel);
+  for (const ref of [...a.built_from, ...(a.parent ? [a.parent] : [])]) {
+    const parent = doc.catalogData.assets.find(x => x.id === ref.id && x.revision === ref.revision);
+    if (!parent) fail("BUILD_REFERENCE", ref.id);
+    await assertSavedIntegrity(root, doc, parent, new Set([...seen, key]), checked);
+  }
+  await verifyExtraction(root, doc, a);
+  checked.add(key);
 }
 function stable(root: string, before: string) {
   assertUnlocked(root);
@@ -616,7 +651,7 @@ export async function searchAssets(
     selected.map(async (a) => {
       let state = "available";
       try {
-        assertFresh(root, doc, a);
+        await assertFresh(root, doc, a);
         state = availability(root, a);
         await verifyExtraction(root, doc, a);
       } catch (e) {
@@ -675,9 +710,9 @@ export async function getAsset(
   )
     fail("SELECTOR", `${id}: selector mismatch`);
   if (opts.saved) {
-    if (a.confirmation !== "verified") fail("UNVERIFIED", a.id);
+    await assertSavedIntegrity(root, doc, a);
   } else {
-    assertFresh(root, doc, a);
+    await assertFresh(root, doc, a);
   }
   const state = availability(root, a);
   if (state === "available" && a.media === "image") {
@@ -740,9 +775,24 @@ async function extractedBytes(
     fs.rmSync(dir, { recursive: true, force: true });
   }
 }
+/** Ignore only untracked Git-ignored intermediates in the legacy fallback.
+ * Registered assets and managed roots are always checked independently above.
+ * Git check-ignore deliberately omits tracked files, even if a rule matches them.
+ */
+function ignoredLegacyFiles(root: string, files: string[]): Set<string> {
+  if (!files.length) return new Set();
+  const probe = spawnSync("git", ["rev-parse", "--show-toplevel"], { cwd: root, encoding: "utf8" });
+  if (probe.status !== 0) return new Set(); // Standalone/non-Git studio.
+  const result = spawnSync("git", ["check-ignore", "--stdin", "-z"], {
+    cwd: root, input: files.join("\0") + "\0", encoding: "utf8", maxBuffer: 32 * 1024 * 1024,
+  });
+  if (result.status !== 0 && result.status !== 1) fail("BASELINE_GIT", "Cannot classify ignored legacy intermediates");
+  return new Set(result.stdout.split("\0").filter(Boolean));
+}
+
 export async function checkAssets(
   root: string,
-  opts: { metadataOnly?: boolean; legacy?: boolean } = {},
+  opts: { metadataOnly?: boolean; legacy?: boolean; freshness?: boolean } = {},
 ) {
   assertUnlocked(root);
   const before = fingerprint(root),
@@ -769,10 +819,16 @@ export async function checkAssets(
         if (
           doc.catalogData.current[a.id] === a.revision &&
           (["preview", "reconstructed-preview"].includes(a.role) ||
-            a.input_provenance !== undefined || !!a.external_input_globs?.length)
+            a.input_provenance !== undefined || !!a.external_input_globs?.length || !!a.render_dependencies || !!a.saved ||
+            a.built_from.length > 0 || a.external_inputs.length > 0)
         ) {
           try {
-            assertFresh(root, doc, a, new Set(), new Set(), globHashes);
+            if (a.saved) {
+              // Archive state never claims current rendering evidence. No stale hash is renewed.
+              if (!opts.metadataOnly) await assertSavedIntegrity(root, doc, a);
+              else await assertFresh(root, doc, a, new Set(), new Set(), globHashes, false);
+              warnings.push(`${doc.id}/${a.id}: SAVED_OUTPUT: ${a.saved.reason}; current freshness not asserted`);
+            } else await assertFresh(root, doc, a, new Set(), new Set(), globHashes, opts.freshness !== false);
           } catch (e) {
             if (!(e instanceof AssetError) || e.code !== "UNVERIFIED_OUTPUT") throw e;
             warnings.push(`${doc.id}/${a.id}: UNVERIFIED_OUTPUT: ${String(e)}`);
@@ -890,7 +946,8 @@ export async function checkAssets(
             f === d.catalog ||
             d.managed_roots.some((p) => f.startsWith(p + "/")),
         ) || registeredFiles.has(f);
-      for (const f of files.filter((f) => !inScope(f))) {
+      const ignored = ignoredLegacyFiles(root, [...files, ...Object.keys(baseline.files)]);
+      for (const f of files.filter((f) => !inScope(f) && !ignored.has(f))) {
         if (!baseline.files[f]) errors.push(`LEGACY_NEW: ${f}`);
         else if (
           contentIdentity(fs.readFileSync(safePath(root, f))) !==
@@ -899,7 +956,7 @@ export async function checkAssets(
           errors.push(`LEGACY_CHANGED: ${f}`);
       }
       for (const f of Object.keys(baseline.files))
-        if (!inScope(f) && !fs.existsSync(safePath(root, f)))
+        if (!inScope(f) && !ignored.has(f) && !fs.existsSync(safePath(root, f)))
           errors.push(`LEGACY_MISSING: ${f}`);
     }
   }
@@ -955,11 +1012,13 @@ export async function syncBaseline(root: string, opts: BaselineSyncOptions = {})
     );
   }
 
+  const ignored = ignoredLegacyFiles(root, [...targetFiles, ...Object.keys(baseline.files)]);
+
   // Validate content before trusting new hashes. The legacy drift that this
   // operation reconciles is the only validation error it may disregard.
   const { validateStudio } = await import("./validate.ts");
   const { isLfsPointer } = await import("./images.ts");
-  const validation = await validateStudio(root);
+  const validation = await validateStudio(root, { assetFreshness: false });
   const errors = validation.sections.flatMap((section) =>
     section.errors.filter((error) =>
       !(section.no === 8 && /^LEGACY_(NEW|CHANGED|MISSING): /.test(error)),
@@ -974,7 +1033,7 @@ export async function syncBaseline(root: string, opts: BaselineSyncOptions = {})
   const changes: Array<{ file: string; action: "add" | "update" | "remove"; sha256?: string }> = [];
 
   for (const f of targetFiles) {
-    if (inScope(f)) continue;
+    if (inScope(f) || ignored.has(f)) continue;
     const abs = safePath(root, f);
     if (!fs.existsSync(abs)) {
       if (baseline.files[f] && (opts.cleanMissing || !opts.paths)) {
@@ -1000,7 +1059,7 @@ export async function syncBaseline(root: string, opts: BaselineSyncOptions = {})
 
   if (!opts.paths || opts.cleanMissing) {
     for (const f of Object.keys(baseline.files)) {
-      if (!inScope(f) && !fs.existsSync(safePath(root, f))) {
+      if (!inScope(f) && (ignored.has(f) || !fs.existsSync(safePath(root, f)))) {
         delete baseline.files[f];
         removed++;
         changes.push({ file: f, action: "remove" });
@@ -1067,6 +1126,7 @@ export type RegisterOptions = {
   confirmation: "verified" | "unverified";
   built_from?: { id: string; revision: string }[];
   buildSnapshot?: string;
+  saveReason?: string;
 };
 export async function registerAsset(root: string, opts: RegisterOptions) {
   assertUnlocked(root);
@@ -1151,6 +1211,7 @@ export async function registerAsset(root: string, opts: RegisterOptions) {
     relation: "authored",
     built_from: opts.built_from ?? [],
     external_inputs: externalInputs,
+    ...(opts.saveReason ? { saved: { reason: opts.saveReason, recorded_at: new Date().toISOString() } } : {}),
   });
   permitted(doc, a, rel);
   if (
@@ -1179,8 +1240,11 @@ async function publishAsset(
       (x) => x.id === dep.id && x.revision === dep.revision,
     );
     if (!source) fail("BUILD_REFERENCE", dep.id);
-    assertFresh(root, doc, source);
-    availability(root, source);
+    if (a.saved) await assertSavedIntegrity(root, doc, source);
+    else {
+      await assertFresh(root, doc, source);
+      availability(root, source);
+    }
   }
   if (
     old.some(
@@ -1326,6 +1390,57 @@ export async function extractAsset(
   return publishAsset(root, doc, a, bytes, doc.catalogHash, opts.dryRun);
 }
 /** Explicit recovery never guesses whether a foreign/live owner is dead. */
+/** Preserve a current revision without claiming it was rendered from today's inputs. */
+export async function archiveAsset(root: string, opts: {
+  document: string; ids: string[]; reason: string; dryRun?: boolean;
+}) {
+  const reason = z.string().trim().min(8).parse(opts.reason);
+  if (!opts.ids.length) fail("SELECTOR", "Explicit asset IDs required");
+  const doc = resolveDocument(root, opts.document);
+  const selected = new Set<string>();
+  for (const id of opts.ids) {
+    const a = currentAssets(doc).find(x => x.id === id);
+    if (!a) fail("NO_MATCH", id);
+    if (["copy", "layout", "replacement-photo", "extracted-image"].includes(a.role))
+      fail("ROLE", `${id}: archive only saved documents/outputs/support; do not demote editable inputs`);
+    selected.add(`${a.id}@${a.revision}`);
+  }
+  // Current dependants cannot continue advertising a saved parent as a fresh output.
+  let changed = true;
+  while (changed) {
+    changed = false;
+    for (const a of currentAssets(doc)) {
+      const key = `${a.id}@${a.revision}`;
+      if (!selected.has(key) && [...a.built_from, ...(a.parent ? [a.parent] : [])]
+        .some(p => selected.has(`${p.id}@${p.revision}`))) {
+        selected.add(key); changed = true;
+      }
+    }
+  }
+  const checked = new Set<string>();
+  const assets = doc.catalogData.assets.filter(a => selected.has(`${a.id}@${a.revision}`));
+  for (const a of assets) await assertSavedIntegrity(root, doc, a, new Set(), checked);
+  const recorded_at = new Date().toISOString();
+  const next = { ...doc.catalogData, assets: doc.catalogData.assets.map(a =>
+    selected.has(`${a.id}@${a.revision}`) && !a.saved ? { ...a, saved: { reason, recorded_at } } : a) };
+  const result = { document: doc.id, saved_ids: assets.map(a => a.id), reason,
+    bytes_changed: false, input_evidence_renewed: false, dry_run: !!opts.dryRun };
+  if (opts.dryRun || assets.every(a => a.saved)) return result;
+  const cache = safePath(root, ".cache"); fs.mkdirSync(cache, { recursive: true });
+  const lock = safePath(root, ".cache/asset-write.lock");
+  try { fs.mkdirSync(lock); } catch { fail("LOCKED", "Another registration is in progress"); }
+  try {
+    const published = digest(JSON.stringify(next, null, 2) + "\n");
+    fs.writeFileSync(path.join(lock, "owner.json"), JSON.stringify({
+      operation: "archive", pid: process.pid, host: os.hostname(), catalog: doc.catalog,
+      expected: doc.catalogHash, published,
+    }));
+    if (digest(read(root, doc.catalog)) !== doc.catalogHash) fail("CONCURRENT_UPDATE", doc.catalog);
+    atomicJson(safePath(root, doc.catalog), next);
+    return result;
+  } finally { fs.rmSync(lock, { recursive: true, force: true }); }
+}
+
 export function recoverRegistration(root: string, expectedCatalogHash: string) {
   const lock = safePath(root, ".cache/asset-write.lock"),
     journal = JSON.parse(
@@ -1343,6 +1458,14 @@ export function recoverRegistration(root: string, expectedCatalogHash: string) {
   const current = read(root, journal.catalog);
   if (digest(current) !== expectedCatalogHash)
     fail("RECOVERY_CAS", "Catalog changed");
+  if (journal.operation === "archive") {
+    const hash = digest(current);
+    if (hash !== journal.expected && hash !== journal.published)
+      fail("RECOVERY_CAS", "Archive catalog differs from both transaction states");
+    CatalogSchema.parse(YAML.parse(current));
+    fs.rmSync(lock, { recursive: true, force: true });
+    return { recovered: true, committed: hash === journal.published };
+  }
   const a = AssetSchema.parse(journal.asset);
   const catalog = CatalogSchema.parse(YAML.parse(current));
   const committed = catalog.assets.some(
@@ -1414,7 +1537,7 @@ export async function buildInputs(root: string, document: string) {
     const asset = currentAssets(doc).find((a) => a.id === id);
     if (!asset || asset.role !== role || asset.variant !== "real-photo-rebuild")
       fail("BUILD_ROLE", id);
-    assertFresh(root, doc, asset);
+    await assertFresh(root, doc, asset);
     availability(root, asset);
     inputs.push({
       id,

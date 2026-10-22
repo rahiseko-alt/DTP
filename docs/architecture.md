@@ -423,4 +423,4 @@ Playwright のバージョン（`package.json`）と Dockerfile のベースイ�
   - 実リポジトリ: `npm run validate` が終了コード 0
   - リポジトリの衛生（Git の作業ツリーでのみ。`repo-hygiene.test.ts`）: インデックスにシンボリックリンクがない・`git add -A` で追加されるリンク（未追跡のリンク・追跡中のパスをリンクに置き換えたもの）がない、LFS 対象（png / jpg / pdf など。拡張子の大文字小文字を問わない）はインデックスに LFS のポインタで入っている・`git add -A` で入るもの（未追跡のもの・作業ツリーで変えた追跡ファイル）は LFS に入る。`.gitattributes` の LFS の規則は `core.ignoreCase` が true（macOS・Windows）でも false（Linux）でも同じに合うこと（system/rules/git-workflow.md §4・§5）。検査そのものは、利用者の設定・属性・除外ファイルを読まない一時リポジトリで確かめる
   - `.gitignore`（`gitignore.test.ts`）: `node_modules`・`.cache`・`.vite` などはディレクトリもシンボリックリンクも除外され、秘密情報（`.env`・`secrets`）は除外、`.env.example` は残る。リポジトリの `.gitignore` を入れた一時リポジトリで確かめる
-- GitHub Actions の CI は使わない。テストを含む検証は各作業セッション内（ローカル / Dev Container / Claude Code / Codex）で `npm run doctor` → `npm run check` → 変更した BOOK の `npm run render` → 出力 PNG の目視の順に行い、通ってから commit / push する
+- GitHubの必須asset-integrityで素材の同一性・保存状態・現行出力の鮮度を検査する。テストを含む全体検証は各作業セッション内（ローカル / Dev Container / Claude Code / Codex）で `npm run doctor` → `npm run check` → 変更した BOOK の `npm run render` → 出力 PNG の目視の順に行い、通ってから commit / push する

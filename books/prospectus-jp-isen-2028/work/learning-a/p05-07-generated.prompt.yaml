@@ -1,0 +1,45 @@
+tool: image_gen.imagegen
+model: not_exposed
+created: '2026-10-21'
+author: codex
+prompt: 'Edit this fixed photographic contact sheet in place. These are already fictional
+  AI-generated illustrative people, not identified real people. Replace EVERY person
+  with a new fictional ordinary Japanese person appropriate for a Japanese college
+  brochure, including background people. All men must be completely clean-shaven with
+  no beard, no moustache, no stubble. Natural skin texture, realistic ordinary faces
+  and ordinary casual clothing, no fashion-model retouching or porcelain skin. Preserve
+  exactly the same photography composition, poses, gaze direction, hand gestures,
+  camera, framing, objects, interior/park backgrounds and number of people PER CELL.
+  Do not add, omit or swap cells. Remove the rough preparatory rectangle masks by
+  reconstructing continuous realistic background/screen/clothing. Screens must show
+  only soft abstract nonverbal interface shapes without text. All clothing and equipment
+  unbranded without words. NO text, letters, typography, words, numbers, logo, watermark,
+  signature, QR code, caption. CRITICAL output same atlas geometry as input, full
+  canvas, solid BLACK 12-pixel outer gutters and 24-pixel horizontal separators preserved
+  exactly; no new separators. Each photo occupies x12..1012 and height488, each row
+  step512. Canvas 1024x2048, FOUR equally sized rows. Row1: exactly ONE clean-shaven
+  Japanese male teacher in plain white polo and glasses at right, his outstretched
+  index finger pointing LEFT toward a screen. Preserve full arm and pointing hand;
+  screen has abstract soft shapes only, no writing. Row2: Japanese young male student
+  foreground wearing navy shirt over white T-shirt, leaning down writing in notebook,
+  preserve three blurred background students. Row3: exactly THREE foreground people
+  (student back-of-head left, young woman center, clean-shaven Japanese male teacher
+  in white polo and glasses right), preserve one blurry seated background student,
+  indoor classroom. Row4: exactly ONE Japanese young woman in pale pink blouse holding
+  microphone and gesturing with her open rightward hand, screen behind with NO writing.
+  Keep all 4 photos in their own rows exactly.'
+negative_prompt: text, letters, typography, words, numbers, logo, watermark, signature,
+  QR code, caption
+seed: null
+reference_inputs:
+- path: books/prospectus-jp-isen-2028/work/learning-a/atlas-p05-b-input.png
+  usage: img2img
+  note: Only photograph cells; no brochure headings or captions. Incidental garment/screen
+    lettering masked where practical. Fictional source characters.
+source_refs:
+- books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf
+notes: 'Fixed 1024px-wide atlas. Cell x12..1012, y12+512*row..500+512*row; output
+  cropped and resized back to original photo rect only. Page text and facts preserved
+  pixel-for-pixel. Individual cell: p05-07. Original photo rect: [949, 2923, 1666,
+  3351]. Atlas crop: [10, 897, 877, 1320]. No other page pixels changed.'
+size: 717x428

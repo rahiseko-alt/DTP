@@ -1,0 +1,59 @@
+{
+  "revision": 2,
+  "source_pdf": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
+  "source_pdf_sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+  "previous_page": "page-05-revision1.png",
+  "previous_sha256": "56e61854e3ed036e95defcb78f892a585f25c3380eab56333974d40728fa4508",
+  "output": "page-05.png",
+  "output_sha256": "10c1cd5a26ac3883db671fc921369fe8d6bc28219af885b42fd91604e56969f9",
+  "changed_outside_two_photo_rectangles": 0,
+  "photo_changes": [
+    {
+      "id": "p05-01",
+      "rect_xyxy": [
+        122,
+        769,
+        868,
+        1215
+      ],
+      "source_image": "p05-01-source.png",
+      "source_sha256": "94f5d8627f1886eeae4ec017ca9b0e740e8e10e816ff43248bd856e44537cdec",
+      "input_image": "p05-01-revision2-input.png",
+      "input_sha256": "15ef79ae4bac6d6104b46b98c1e690def7e34d2fab2d9185027cf8074b4d89be",
+      "generated_image": "p05-01-revision2-generated.png",
+      "generated_sha256": "f34006ba9de49cecd264a1e83954680a3d70f120728a8e095f5808387a3b570b",
+      "native_generation_size": [
+        1622,
+        970
+      ],
+      "photo_output": "p05-01-revision2-photo.png",
+      "photo_sha256": "6ed600b7bd1644ea1a6082a4d916307b2418bf5dd5cea6aeaaf8a25de2a74442",
+      "reason": "Restore original black leather jacket and dark T-shirt; previous generation changed material/color",
+      "review": "Full photo and placed page inspected: outfit matches original visual category, natural anatomy/skin/hair, all fingers plausible, same original crop and gesture."
+    },
+    {
+      "id": "p05-08",
+      "rect_xyxy": [
+        1756,
+        2923,
+        2458,
+        3351
+      ],
+      "source_image": "p05-08-source.png",
+      "source_sha256": "814cb3c97cda353681da908037482bfc603c0873da90784e5fa043e87c3afef9",
+      "input_image": "p05-08-revision2-input.png",
+      "input_sha256": "34888c9805e1b9b730c579c8f691606640aa237355730d3a47fe1c3002fb365e",
+      "generated_image": "p05-08-revision2-generated.png",
+      "generated_sha256": "94d5b83819f05ddd55f3f7f7c86162f789d765885e0b1f07ca6e65ec86805429",
+      "native_generation_size": [
+        1607,
+        979
+      ],
+      "photo_output": "p05-08-revision2-photo.png",
+      "photo_sha256": "12d98a15fd605dd1dc0fe5f934ac3437bc6fc1135989095e82fb9fd5c6f1d1b7",
+      "reason": "Restore white pointed collar and wrist accessory; previous generation changed garment and removed accessory",
+      "review": "Full photo and placed page inspected: outfit matches original visual category, natural anatomy/skin/hair, all fingers plausible, same original crop and gesture."
+    }
+  ],
+  "page03": "Reviewed at native scale, retained without unnecessary regeneration; page-03-revision1.png and page-03.png pixel-identical."
+}

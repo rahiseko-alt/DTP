@@ -4,16 +4,14 @@ import path from "node:path";
 import crypto from "node:crypto";
 import YAML from "yaml";
 import sharp from "sharp";
-import { AssetSchema, digest, hashExternalInputGlob, resolveDocument, safePath } from "./assets.ts";
+import { AssetSchema, digest, resolveDocument, safePath } from "./assets.ts";
 import { renderBook } from "./render.ts";
+import { collectStandardBookInputs } from "./standard-book-inputs.ts";
 
 export async function rebuildStandardBook(root: string, document: string) {
   const doc = resolveDocument(root, document);
   if (doc.renderer !== "standard-book") throw Error("Standard BOOK renderer required");
-  const original = doc.catalogData.assets.find((asset) => asset.role === "original")!;
-  const patterns = original.external_input_globs?.map((input) => input.pattern);
-  if (!patterns?.length) throw Error("No enrolled renderer input sets");
-  const snapshot = () => patterns.map((pattern) => ({ pattern, sha256: hashExternalInputGlob(root, pattern) }));
+  const snapshot = () => collectStandardBookInputs(root, doc.id);
   const inputs = snapshot();
   const expectedPages: string[] = YAML.parse(fs.readFileSync(safePath(root, `books/${doc.id}/config/book.yaml`), "utf8")).pages;
   if (!Array.isArray(expectedPages) || !expectedPages.length) throw Error("Missing BOOK pages");
@@ -50,7 +48,8 @@ export async function rebuildStandardBook(root: string, document: string) {
       id, variant: "standard-render", role, media: role === "preview" ? "image" : "pdf",
       file: rel, revision: hash, sha256: hash, size: bytes.length,
       confirmation: "verified", input_provenance: "verified", relation: "authored",
-      built_from: dependencies, external_input_globs: inputs,
+      built_from: dependencies, external_inputs: inputs,
+      render_dependencies: { collector: "standard-book-v1", book_id: doc.id, sha256: digest(JSON.stringify(inputs)) },
     });
   };
   const pdf = make(rendered.pdf.file, "standard-rendered-pdf", "reconstructed-preview", [{ id: config.id, revision: config.revision }]);

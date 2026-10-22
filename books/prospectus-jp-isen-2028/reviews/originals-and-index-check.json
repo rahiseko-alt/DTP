@@ -1,0 +1,22 @@
+[
+  {
+    "id": "brochure",
+    "sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+    "unchanged": true
+  },
+  {
+    "id": "admissions",
+    "sha256": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052",
+    "unchanged": true
+  },
+  {
+    "id": "flyer",
+    "sha256": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1",
+    "unchanged": true
+  },
+  {
+    "id": "original_print_bundle",
+    "sha256": "0df8ee973630975cecfbbd5c37f366b645c28299384619f869aa8fa21021ad4b",
+    "unchanged": true
+  }
+]
