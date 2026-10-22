@@ -37,5 +37,21 @@
   "pull_request": "https://github.com/rahiseko-alt/DTP/pull/62",
   "required_check": "asset-integrity",
   "merge_status_at_start": "BLOCKED; required check failure",
-  "physical_print_test": false
+  "physical_print_test": false,
+  "remote_storage": {
+    "branch": "fix/access-map-20261020",
+    "pushed_head_confirmed": "1b86a44416a3729fc2f2fa3e48200d0963eefff3",
+    "lfs_objects_uploaded": 379,
+    "lfs_bytes_approx": "2.0GB"
+  },
+  "merge_attempt": {
+    "method": "normal merge with exact head match",
+    "succeeded": false,
+    "response": "the base branch policy prohibits the merge",
+    "merge_state_status": "BLOCKED",
+    "old_required_check": "FAILURE",
+    "new_required_check_at_attempt": "IN_PROGRESS",
+    "auto_merge_enabled": false,
+    "protection_bypassed": false
+  }
 }

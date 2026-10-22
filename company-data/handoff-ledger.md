@@ -11,6 +11,14 @@
 - mainとの競合なし。PRの必須 `asset-integrity` はNG/マージBLOCKEDを確認。全体checkはSTALE_OUTPUT/legacy差分でNG。doctorはNG0/WARN1（既存Chromium154）。検査を弱めて合格にせず、紙面保管とmain反映を区別する。終了時のpush/マージ実操作結果はこの節直後の追記を参照。
 - 次作業は必須検査の原因解消とPRのmain反映。2028表記と2027学費根拠は今回変更しない。募集要項/OCチラシの人物差替版は未制作で、自動で制作を開始しない。
 
+
+### 終了時の保存・マージ実操作結果
+
+- 全成果物と台帳を `origin/fix/access-map-20261020` へpush完了。LFS379件・約2.0GBの転送完了、GitHubのPR #62のheadが保存コミット `1b86a44` に更新されたことを確認。
+- mainへの通常mergeを明示実行したが、GitHubが「the base branch policy prohibits the merge」で拒否。必須 `asset-integrity` は旧headでFAILURE、新headで再実行中。競合はない。auto-mergeはリポジトリ設定で無効、保護の回避やadmin mergeはしていない。
+- main反映は未完了。次回はPR #62の最新headの必須検査と失敗原因を確認し、通過後に承認済みのmergeを実行する。検査条件を下げず、古い出力の鮮度を偽らず、HAL制作を再開しない。
+- 終了時検査は `books/prospectus-jp-isen-2028/reviews/f-closure-check.json`。doctor NG0/WARN1、型検査成功、全体check NG（STALE46/legacy494）、別実行テスト429成功/24失敗/7skip。未合格や未マージを完了として扱わない。
+
 ## 2026-10-20 PDFを開けない問題への配布対応
 
 - 人間の「PDF見れない」に対応。パンフレット原版は約107MiBあり、PDFを開くアプリ連携も接続終了で利用不可。画像を200dpi・JPEG品質88へ最適化し、正確な文字ベクター、面付け、用紙サイズ、短辺両面/縮小なし設定を保持したASCII名の軽量版を4PDF作成。高画質原版は保持。
