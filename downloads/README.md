@@ -63,3 +63,7 @@ python3 system/scripts/list-materials.py --tag '状態:未制作'
 ## OC黄色帯の確認用PDF
 
 `FLY-JP-OC-YELLOW` は写真、開催日11/21・12/5・12/19、体験欄の一本化、留学生歓迎表記の削除、保存済みGmail宛QRへの統一を反映した別版。メール印字も `aibusiness.kaihougakuen@gmail.com`。開催年・曜日は未指定。原本 `FLY-OC-YELLOW` と配布ZIPは保持し、混同しない。表裏PNGとPDFでQRを実復号済み。
+
+### OC原本写真加工 r02
+
+最新確認用 `FLY-JP-OC-YELLOW` は元の黄色brush・筆文字・写真構図を保持し、原本9写真を直接参照入力して人物を加工した版。体験欄は1群にまとめるが、授業・交流・相談の3写真と説明を保持する。旧 `oc-yellow-structure-20261022` はユーザー差戻しの確認履歴として残し、最新版に使わない。新しい確認版は `books/oc-yellow-photo-edit-20261022/`。原本そのものと配布ZIPは保持する。

@@ -1,0 +1,31 @@
+{
+  "id": "front-hero",
+  "method": "image-edit",
+  "model_tool": "image_gen.imagegen",
+  "generated_original": "/workspace/generated_images/exec-958e440c-6cd3-4ffa-bc65-0858893dc547.png",
+  "output": "books/oc-yellow-photo-edit-20261022/images/front-hero.png",
+  "reference_inputs": [
+    {
+      "path": "books/oc-approved-20261017/parts/extracted/ocjp2-source-hero/db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213/ocjp2-source-hero.png",
+      "sha256": "db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213",
+      "role": "original-photo-extract",
+      "method": "image-edit",
+      "usage": "img2img"
+    }
+  ],
+  "prompt": "添付画像を実際の編集元として使用する。これは学校のオープンキャンパスの元写真であり、別の学校写真を新規提案する依頼ではない。元のカメラ位置・画角・全7人の位置・人数・顔の向き・姿勢・手・服装・机と資料・背景・光・写真と重なる文字の位置をそのまま厳密に維持し、人物の見た目のみを自然な日本人・東アジア系の若い成人のイメージへ写真編集する。男性2人はひげを完全に無くし、黒髪でナチュラルな若い顔立ちにする。女性5人も自然な東アジア系の顔立ちへ調整し、笑顔やピースサイン、ピンクと白のマスク、元の髪型と服装を維持。肌は自然な色幅と質感を残して過度に白くしない。中央のデニムの男性は下を向いて資料を指さし、前の縦縞シャツの男性は机に向かって笑う、右手前の黒い上着の女性は口を開けて明るく笑い、右奥2人は笑顔とピースを維持。左2人も元の向きと位置を変えない。全員を同じ顔にしない。楽しそうな学生同士の距離感・空気感を弱めない。スタジオ広告風や、先生1人とPCに向かう別の場面に置き換えない。元画像に入っている筆文字、黄色い筆の装飾、下端のOPEN CAMPUSは位置合わせの基準としてそのまま残し、レイアウトやトリミングを変えない。画像全体を同じ比率で出力。実在学生の国籍を示すものではない架空の人物イメージとして自然な実写写真の質感。",
+  "status": "illustrative AI edit; no claim of real student's ethnicity or enrollment",
+  "review": "Parent viewed generated hero. Original seven-person arrangement, activity, smiles, peace gesture, clothing and background retained; facial hair removed. Typography will be restored from original underlay in composition.",
+  "sha256": "24698ae5aec608852f8f1d12da0b59b2feb72e6b1a361c13b8ce052646158173",
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "seed": null,
+  "size": "1645x956",
+  "created": "2026-10-22",
+  "author": "Codex",
+  "negative_prompt": null,
+  "source_refs": [
+    "books/oc-approved-20261017/parts/extracted/ocjp2-source-hero/db7183d38dffdb3c7af08aeeae0cd97d3846fc0cd572fadefa842272fd6fc213/ocjp2-source-hero.png"
+  ],
+  "notes": "編集元は実際にimagegenへ参照入力した原本写真crop。文字を新規生成する精度は使わず、紙面上では原本文字・brush・掲示物を復元。モデル名/seed/専用negative parameterはツールから未公開。"
+}

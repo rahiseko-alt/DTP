@@ -1,0 +1,31 @@
+{
+  "id": "back-lesson",
+  "method": "image-edit",
+  "model_tool": "image_gen.imagegen",
+  "generated_original": "/workspace/generated_images/exec-514e17f2-e74e-462d-92ac-0e4e9bd1dbf3.png",
+  "output": "books/oc-yellow-photo-edit-20261022/images/back-lesson.png",
+  "reference_inputs": [
+    {
+      "path": "books/oc-approved-20261017/parts/extracted/ocjp2-source-lesson/8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989/ocjp2-source-lesson.png",
+      "role": "original-photo-extract",
+      "method": "image-edit",
+      "sha256": "8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989",
+      "usage": "img2img"
+    }
+  ],
+  "prompt": "必ず第1添付の元写真そのものを編集する。別の新しい学校写真の提案ではない。原本の教室で手前の女性が机に座りカメラに自然に微笑み、背後の学生が学んでいる場面。そのまま日本人・東アジア系の架空の成人学生たちの顔立ちへ自然に写真編集。手前女性の髪型、黒のTシャツ、微笑み、手と机、背景学生たちの人数・服装・配置、窓の光と教室をそのまま保つ。 カメラ位置、全体の画角、顔と手の位置、人数、縦横比を厳密に維持。自然な肌色と写真の質感を残し過度な美白や均一な整形顔にしない。アニメ・イラストにしない。文字、ロゴ、枠、レイアウトを追加しない。実在学生の国籍・所属を示す写真ではなく架空人物の編集イメージ。",
+  "status": "illustrative AI edit; not documentary enrollment/nationality evidence",
+  "review": "Parent viewed source and generated image. Original people arrangement, activity, expressions, clothing colors and setting retained. Event sign will be restored from original artwork in composition.",
+  "sha256": "3feea605b009ae3eded0d89c299142f7b96a52e612c4053a1c89a40f787c70b4",
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "seed": null,
+  "size": "1646x956",
+  "created": "2026-10-22",
+  "author": "Codex",
+  "negative_prompt": null,
+  "source_refs": [
+    "books/oc-approved-20261017/parts/extracted/ocjp2-source-lesson/8e5ea04ae50f16abfdc8024bfef69bfd8ae424374623d3aff9485ea12fbaf989/ocjp2-source-lesson.png"
+  ],
+  "notes": "編集元は実際にimagegenへ参照入力した原本写真crop。文字を新規生成する精度は使わず、紙面上では原本文字・brush・掲示物を復元。モデル名/seed/専用negative parameterはツールから未公開。"
+}
