@@ -1,0 +1,25 @@
+{
+  "id": "JP-COVER-MASHI-02",
+  "display_name": "日本人版マシな方２",
+  "kind": "composed-cover-snapshot",
+  "tool": "filesystem-copy",
+  "model": null,
+  "prompt": null,
+  "created": "2026-10-22",
+  "author": "codex",
+  "size": "2480x3508",
+  "sha256": "4b6f7fb70ff5eeffa834d857dcdb2e969d74dc1a401bf6e31794c63a5cf00fef",
+  "new_generation": false,
+  "source_file": "books/prospectus-jp-isen-2028/work/revision11-cover/cover-page.png",
+  "source_commit": "f11f72c",
+  "reference_inputs": [],
+  "composition_provenance": "books/prospectus-jp-isen-2028/work/revision11-cover/provenance.json",
+  "tags": [
+    "種別:組立済み表紙画像",
+    "用途:医専日本人版パンフレット表紙",
+    "状態:人間指定名で保存",
+    "文字:あり",
+    "版:改稿11"
+  ],
+  "notes": "ユーザーが添付した直前の完成表紙を指定名で保存。UIスクリーンショットではなく、その原寸の表紙PNGを無加工コピー。日本人版マシな方1は文字なし集合写真の元画像として別に保持。2は文字入りの表紙全体であり、1の集合写真素材とは別の役割。PDF・紙面・元画像の内容は変更していない。"
+}
