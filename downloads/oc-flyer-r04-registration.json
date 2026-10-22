@@ -1,0 +1,26 @@
+{
+  "asset": {
+    "id": "jp-oc-parent-r4-download",
+    "variant": "original-art-parent-caption-r4-download",
+    "role": "support",
+    "media": "pdf",
+    "revision": "603539eae58342d9707b1f6b0f0e3873259ad69b5c59a7e6aaa5aa527badb6ef",
+    "file": "books/oc-approved-20261017/parts/jp-oc-parent-r4-download/603539eae58342d9707b1f6b0f0e3873259ad69b5c59a7e6aaa5aa527badb6ef/jp-oc-parent-r4-download.pdf",
+    "sha256": "603539eae58342d9707b1f6b0f0e3873259ad69b5c59a7e6aaa5aa527badb6ef",
+    "size": 17768849,
+    "relation": "authored",
+    "storage": "canonical",
+    "confirmation": "verified",
+    "saved": {
+      "reason": "Download copy R04, embedded font subsets only; both pages retain identical native text, size and 150dpi rendered pixels. Current standard-render freshness is not asserted.",
+      "recorded_at": "2026-10-22T05:48:50.088Z"
+    },
+    "external_inputs": [],
+    "built_from": [
+      {
+        "id": "jp-oc-parent-r4-pdf",
+        "revision": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4"
+      }
+    ]
+  }
+}

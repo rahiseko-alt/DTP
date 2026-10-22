@@ -1,0 +1,41 @@
+{
+  "context": {
+    "root": "/workspace/DTP",
+    "head": "80ad6b17ced63ade7ff14e59d862c5ddc7472175",
+    "branch": "fix/oc-r04-download-20261022",
+    "dirty": true,
+    "fingerprint": "cf3a576e5b15886bc069c0f606899085bb71a213b6174403a43e49ad92ea1da4"
+  },
+  "document_id": "oc-approved-20261017",
+  "asset": {
+    "id": "jp-oc-parent-r4-pdf",
+    "variant": "original-art-parent-caption-r4",
+    "role": "support",
+    "media": "pdf",
+    "revision": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
+    "file": "books/oc-approved-20261017/parts/jp-oc-parent-r4-pdf/f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4/jp-oc-parent-r4-pdf.pdf",
+    "sha256": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4",
+    "size": 61367964,
+    "relation": "authored",
+    "storage": "canonical",
+    "confirmation": "verified",
+    "saved": {
+      "reason": "Saved R04 front caption/badge revision; current standard-render freshness is not asserted.",
+      "recorded_at": "2026-10-22T04:46:06.659Z"
+    },
+    "external_inputs": [],
+    "built_from": [
+      {
+        "id": "jp-oc-soft-r3-pdf",
+        "revision": "d63cf202df964a5ff32146bfae738ad2f0a524cb13c9d33939d658d834f66b95"
+      }
+    ]
+  },
+  "path": "books/oc-approved-20261017/parts/jp-oc-parent-r4-pdf/f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4/jp-oc-parent-r4-pdf.pdf",
+  "retrieval": {
+    "mode": "saved",
+    "integrity": "verified",
+    "freshness": "not_checked",
+    "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+  }
+}
