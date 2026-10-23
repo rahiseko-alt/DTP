@@ -78,7 +78,7 @@
     ],
     "logo_image_pixels_match_official_source": true,
     "crest_outer_ring": "CENTRAL INTERNATIONAL COLLEGE OF AI AND BUSINESS",
-    "crest_change": "Awaiting explicit scope answer; question submitted asynchronously. Original logo and admissions PDF retained."
+    "crest_change": "2026-10-23 user answer: retain the original official logo, including its outer-ring English. Admissions PDF and logo remain byte-identical to the verified source. This is an explicit preservation instruction, not an unresolved correction."
   },
   "doctor": {
     "ok": 10,
@@ -86,5 +86,29 @@
     "ng": 0,
     "warning": "Playwright pinned Chromium unavailable; existing Chromium used for environment diagnostics."
   },
-  "npm_check": "running; not asserted passed"
+  "npm_check": {
+    "status": "failed",
+    "typecheck": "passed",
+    "validate": {
+      "errors": 0,
+      "warnings": 189
+    },
+    "tests": {
+      "passed": 475,
+      "failed": 7,
+      "skipped": 7
+    },
+    "failed_areas": [
+      "Pinned Playwright Chromium is unavailable for browser/release checks",
+      "Existing ref:ingest and photo:add CLI argument/expectation failures"
+    ],
+    "paper_verification": "passed; verification.json covers all four output PDFs"
+  },
+  "required_ci": {
+    "tested_head": "3f8fc1b252af52701fba425a16ef0c9263032045",
+    "check": "asset-integrity",
+    "conclusion": "SUCCESS",
+    "run_url": "https://github.com/rahiseko-alt/DTP/actions/runs/39917281115",
+    "scope": "This instruction-record update changes documentation only; PDF, code and catalog bytes match the tested head."
+  }
 }
