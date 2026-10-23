@@ -11,8 +11,9 @@ decoder=ast.parse((R/'books/oc-yellow-photo-soft-r03-20261022/verify.py').read_t
 function=next(n for n in decoder.body if isinstance(n,ast.FunctionDef) and n.name=='decode')
 exec(compile(ast.Module(body=[function],type_ignores=[]),'<shared-qr-decoder>','exec'))
 def image_hashes(doc):
-    refs={im[0] for p in doc for im in p.get_images(full=True)}
-    return Counter(hashlib.sha256(doc.extract_image(x)['image']).hexdigest() for x in refs)
+    refs={im[0]:im for p in doc for im in p.get_images(full=True)}
+    # Read compressed image streams without populating a decoded-image cache.
+    return Counter((hashlib.sha256(doc.xref_stream_raw(x)).hexdigest(),*info[2:6],hashlib.sha256(doc.xref_stream_raw(info[1])).hexdigest() if info[1] else None) for x,info in refs.items())
 records=[]
 for item in proof['outputs']:
     source=R/item['source']['file'];output=R/item['file']

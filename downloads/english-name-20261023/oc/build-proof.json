@@ -1,0 +1,59 @@
+{
+  "edition": "OC-R06-English-school-name",
+  "formal_name": "Artificial Intelligence Business College",
+  "facts_sha256": "1542374cce1534bf98a6d260e3e2542a6857d48da768c0415c71a363d8e043c2",
+  "source": {
+    "file": "books/oc-approved-20261017/parts/jp-oc-three-r5-pdf/5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5/jp-oc-three-r5-pdf.pdf",
+    "id": "jp-oc-three-r5-pdf",
+    "revision": "5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5",
+    "sha256": "5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5"
+  },
+  "pdf": "downloads/english-name-20261023/oc/output/oc-flyer-r06.pdf",
+  "pdf_sha256": "49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee",
+  "bytes": 17847665,
+  "pages": 2,
+  "fields": [
+    {
+      "id": "top-subtitle",
+      "rect_pt": [
+        91,
+        66,
+        264,
+        78
+      ],
+      "pos": [
+        94.2,
+        74.5
+      ],
+      "size": 9.5,
+      "color": [
+        0.35,
+        0.52,
+        0.71
+      ]
+    },
+    {
+      "id": "footer-subtitle",
+      "rect_pt": [
+        77,
+        818.5,
+        241,
+        830.5
+      ],
+      "pos": [
+        79,
+        827.3
+      ],
+      "size": 9.2,
+      "color": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "crests_changed": false,
+  "photos_changed": false,
+  "back_changed": false,
+  "release": false
+}
