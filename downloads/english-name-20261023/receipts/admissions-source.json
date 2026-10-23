@@ -1,0 +1,68 @@
+{
+  "context": {
+    "root": "/workspace/DTP",
+    "head": "59fb80aaf3e02062761d459fb9b6eff6718feed9",
+    "branch": "fix/english-school-name-20261023",
+    "dirty": false,
+    "fingerprint": "50447b33157cbad507d1f65f5536bd8dc5d01a415455755ab8694ceab2c6b199"
+  },
+  "document_id": "admissions-guide-2027",
+  "asset": {
+    "id": "standard-rendered-pdf",
+    "variant": "standard-render",
+    "role": "reconstructed-preview",
+    "media": "pdf",
+    "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052",
+    "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-pdf/17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052/standard-rendered-pdf.pdf",
+    "sha256": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052",
+    "size": 19357455,
+    "relation": "authored",
+    "storage": "canonical",
+    "confirmation": "verified",
+    "input_provenance": "verified",
+    "saved": {
+      "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+      "recorded_at": "2026-10-22T00:28:42.105Z"
+    },
+    "external_inputs": [],
+    "external_input_globs": [
+      {
+        "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+        "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+      },
+      {
+        "pattern": "shared/{components,layouts,generated-assets}/**/*",
+        "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+      },
+      {
+        "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+        "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+      },
+      {
+        "pattern": "system/design-engine/src/**/*",
+        "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+      },
+      {
+        "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+        "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+      },
+      {
+        "pattern": "package{,-lock}.json",
+        "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+      }
+    ],
+    "built_from": [
+      {
+        "id": "standard-render-config",
+        "revision": "a5903118f91db71d42444363b88c52523dc75b9c2a20af35448790b48a5e365f"
+      }
+    ]
+  },
+  "path": "books/admissions-guide-2027/output/standard-render/standard-rendered-pdf/17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052/standard-rendered-pdf.pdf",
+  "retrieval": {
+    "mode": "saved",
+    "integrity": "verified",
+    "freshness": "not_checked",
+    "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+  }
+}
