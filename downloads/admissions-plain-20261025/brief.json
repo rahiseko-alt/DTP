@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-25",
+  "material_id": "ADM-JP-PLAIN-2027",
+  "display_name": "募集要項_無地版_日本人向け_2027年度_24P_確認用",
+  "source_material_id": "ADM-JP-2027",
+  "source_document": "admissions-guide-2027",
+  "source_asset": "standard-rendered-pdf",
+  "variant": "plain-no-photo-r01",
+  "request": "写真だけを外した別版。本文・表・紺/黄の配色・ロゴ・願書と白紙裏面の順序を維持する。",
+  "cover_direction": "白地に縦の色帯・年度・題字で構成。承認されたA案の構成原理を参考にし、現在の紺/黄を使用。写真以外の情報は現行表紙から保持。",
+  "design_reference": "references/nagoya-iryo-hisho-it/admissions/page_001.jpg",
+  "reference_scope": "構成のみ。参考校の学校名・ロゴ・数値・文章・画像は転用しない。",
+  "reader": "日本の高校に通う外国ルーツの高校生と保護者。海外から来日する留学生の募集とは区別する。",
+  "purpose": "出願条件・費用・手続きと提出書類を本人/保護者が確認でき、入学手続きと入金につながる冊子。",
+  "year": 2027,
+  "page_count": 24,
+  "blank_reverse_pages": [8,12,14,16,18,20,22],
+  "photo_pages": [1,2,4,5,6,24],
+  "keep_map_page": 23,
+  "keep_official_logo": true,
+  "original_edition_overwrite": false,
+  "release": false
+}
