@@ -1,0 +1,135 @@
+{
+  "edition": "R13-AI-image-notice",
+  "notice": {
+    "date": "2026-10-24",
+    "scope": "現行の医専日本人版パンフレットに使用する人物画像",
+    "consent_source": "人間の確認：AIによる生成・加工と掲載について承諾取得済み（しょうだくえているからだいちょうもこうしん）",
+    "consent_verified_by": "user_statement",
+    "lines": [
+      "本パンフレットには、AIにより生成・加工した画像を使用しています。",
+      "実在の人物の写真を参考にした画像については、ご本人からAIによる生成・加工および掲載への同意を得ています。"
+    ],
+    "font_family": "Noto Sans JP",
+    "font_weight": 400,
+    "font_size_pt": 9.3,
+    "line_height_pt": 13,
+    "right_pt": 36,
+    "bottom_pt": 11.2,
+    "width_pt": 524,
+    "color": "#555555"
+  },
+  "notice_source_file": "downloads/ai-image-notice-20261024/notice.json",
+  "notice_source_sha256": "0ab0281a66cc3bb6c0987960137ca5875b666859476d16bc2ecf89d4f76a5265",
+  "outputs": [
+    {
+      "kind": "reading",
+      "file": "downloads/ai-image-notice-20261024/output/brochure-jp-r13.pdf",
+      "sha256": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87",
+      "bytes": 6818247,
+      "pages": 16,
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f/jp-isen-reading-pdf.pdf",
+        "id": "jp-isen-reading-pdf",
+        "revision": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f",
+        "sha256": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f"
+      },
+      "changed_regions": {
+        "16": [
+          {
+            "reading_page": 16,
+            "rect_pt": [
+              77.85546875,
+              802.7119750976562,
+              560.5023803710938,
+              831.6784057617188
+            ]
+          }
+        ]
+      },
+      "notice_font_size_pt": 9.3
+    },
+    {
+      "kind": "master",
+      "file": "downloads/ai-image-notice-20261024/output/brochure-jp-r13-master.pdf",
+      "sha256": "02e486ef72cea9189485e11b49f95ede9ea3bfe8f0c35cac6a9803e96aeb86d4",
+      "bytes": 125982380,
+      "pages": 16,
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-master-pdf/4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010/jp-isen-master-pdf.pdf",
+        "id": "jp-isen-master-pdf",
+        "revision": "4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010",
+        "sha256": "4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010"
+      },
+      "changed_regions": {
+        "16": [
+          {
+            "reading_page": 16,
+            "rect_pt": [
+              77.85546875,
+              802.7119750976562,
+              560.5023803710938,
+              831.6784057617188
+            ]
+          }
+        ]
+      },
+      "notice_font_size_pt": 9.3
+    },
+    {
+      "kind": "print-a3",
+      "file": "downloads/ai-image-notice-20261024/output/brochure-jp-r13-A3.pdf",
+      "sha256": "3df5b94e61f4bc733cfa45f704f43889e8412a7c9a695168b321929f9ed57879",
+      "bytes": 4126812,
+      "pages": 8,
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035/jp-isen-print-a3.pdf",
+        "id": "jp-isen-print-a3",
+        "revision": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035",
+        "sha256": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035"
+      },
+      "changed_regions": {
+        "1": [
+          {
+            "reading_page": 16,
+            "rect_pt": [
+              77.7914996806337,
+              801.7691681774891,
+              559.871529453206,
+              830.7015769854814
+            ]
+          }
+        ]
+      },
+      "notice_font_size_pt": 9.289076898527037
+    },
+    {
+      "kind": "print-a4",
+      "file": "downloads/ai-image-notice-20261024/output/brochure-jp-r13-A4.pdf",
+      "sha256": "716999435842c69a1c974314d76dffdb2bc29ec164da7603978ce2ca94649aca",
+      "bytes": 2724408,
+      "pages": 8,
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a4/ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea/jp-isen-print-a4.pdf",
+        "id": "jp-isen-print-a4",
+        "revision": "ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea",
+        "sha256": "ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea"
+      },
+      "changed_regions": {
+        "1": [
+          {
+            "reading_page": 16,
+            "rect_pt": [
+              55.024715351940756,
+              566.9115509361774,
+              395.8918229946075,
+              587.3689561354098
+            ]
+          }
+        ]
+      },
+      "notice_font_size_pt": 6.568081188853618
+    }
+  ],
+  "source_photographs_changed": false,
+  "release": false
+}

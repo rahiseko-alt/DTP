@@ -1,0 +1,78 @@
+{
+  "browser": "154.0.8037.57",
+  "pinned_browser": false,
+  "mode": "preview",
+  "metrics": {
+    "font_ready": true,
+    "lines": [
+      {
+        "text": "本パンフレットには、AIにより生成・加工した画像を使用しています。",
+        "width": 698.65625,
+        "scroll_width": 699
+      },
+      {
+        "text": "実在の人物の写真を参考にした画像については、ご本人からAIによる生成・加工および掲載への同意を得ています。",
+        "width": 698.65625,
+        "scroll_width": 699
+      }
+    ],
+    "rect": {
+      "x": 533.34375,
+      "y": 670.421875,
+      "width": 698.65625,
+      "height": 34.65625,
+      "top": 670.421875,
+      "right": 1232,
+      "bottom": 705.078125,
+      "left": 533.34375
+    }
+  },
+  "fonts": [
+    {
+      "family": "Noto Sans JP",
+      "weight": "400",
+      "range": "U+2B, U+D7, U+300E-300F, U+4E07, U+4E8C, U+512A, U+5149, U+518D, U+5236, U+52B9, U+52D9, U+5468, U+578B, U+57FA, U+5B8C, U+5BA2, U+5C02, U+5DE5, U+5F37, U+5F62, U+623B, U+63D0, U+652F, U+672A, U+6848, U+6D41, U+7136, U+7537, U+754C, U+76F4, U+79C1, U+7BA1, U+7D44, U+7D4C, U+7DCF, U+7DDA, U+7DE8, U+82B1, U+897F, U+8CA9, U+8CFC, U+904E, U+9664, U+982D, U+9858, U+98A8, U+9A13, U+FF13, U+FF5C"
+    },
+    {
+      "family": "Noto Sans JP",
+      "weight": "400",
+      "range": "U+4E16, U+4E3B, U+4EA4, U+4EE4, U+4F4D, U+4F4F, U+4F55, U+4F9B, U+5317, U+5358, U+53C2, U+53E4, U+548C, U+571F, U+59CB, U+5CF6, U+5E38, U+63A2, U+63B2, U+6559, U+662D, U+679C, U+6C7A, U+72B6, U+7523, U+767D, U+770C, U+7A2E, U+7A3F, U+7A7A, U+7B2C, U+7B49, U+7D20, U+7D42, U+8003, U+8272, U+8A08, U+8AAC, U+8CB7, U+8EAB, U+8EE2, U+9054-9055, U+90FD, U+914D, U+91CD, U+969B, U+97F3, U+984C, U+FF06"
+    },
+    {
+      "family": "Noto Sans JP",
+      "weight": "400",
+      "range": "U+26, U+5F, U+2026, U+203B, U+4E09, U+4EAC, U+4ED5, U+4FA1, U+5143, U+5199, U+5207, U+539F, U+53E3, U+53F7, U+5411, U+5473, U+5546, U+55B6, U+5929, U+597D, U+5BB9, U+5C11, U+5C4B, U+5DDD, U+5F97, U+5FC5, U+6295, U+6301, U+6307, U+671B, U+76F8, U+78BA, U+795E, U+7D30, U+7D39, U+7D9A, U+89E3, U+8A00, U+8A73, U+8A8D, U+8A9E, U+8AAD, U+8ABF, U+8CEA, U+8ECA, U+8FFD, U+904B, U+9650, U+FF11-FF12"
+    },
+    {
+      "family": "Noto Sans JP",
+      "weight": "400",
+      "range": "U+3E, U+3005, U+4E0D, U+4E88, U+4ECB, U+4EE3, U+4EF6, U+4FDD, U+4FE1, U+500B, U+50CF, U+5186, U+5316, U+53D7, U+540C, U+544A, U+54E1, U+5728, U+58F2, U+5973, U+5B89, U+5C71, U+5E02, U+5E97, U+5F15, U+5FC3, U+5FDC, U+601D, U+611B, U+611F, U+671F, U+6728, U+6765, U+683C, U+6B21, U+6CE8, U+6D3B, U+6D77, U+7530, U+7740, U+7ACB, U+7D50, U+826F, U+8F09, U+8FBC, U+9001, U+9053, U+91CE, U+9762, U+98DF"
+    },
+    {
+      "family": "Noto Sans JP",
+      "weight": "400",
+      "range": "U+7C, U+3080, U+4EE5, U+5148, U+516C, U+521D, U+5225, U+529B, U+52A0, U+53EF, U+56DE, U+56FD, U+5909, U+591A, U+5B66, U+5B9F, U+5BB6, U+5BFE, U+5E73, U+5E83, U+5EA6, U+5F53, U+6027, U+610F, U+6210, U+6240, U+660E, U+66F4, U+66F8, U+6709, U+6771, U+697D, U+69D8, U+6A5F, U+6C34, U+6CBB, U+73FE, U+756A, U+7684, U+771F, U+793A, U+7F8E, U+898F, U+8A2D, U+8A71, U+8FD1, U+9078, U+9577, U+96FB, U+FF5E"
+    },
+    {
+      "family": "Noto Sans JP",
+      "weight": "400",
+      "range": "U+A9, U+3010-3011, U+30E2, U+4E0B, U+4ECA, U+4ED6, U+4ED8, U+4F53, U+4F5C, U+4F7F, U+53D6, U+540D, U+54C1, U+5730, U+5916, U+5B50, U+5C0F, U+5F8C, U+624B, U+6570, U+6587, U+6599, U+691C, U+696D, U+6CD5, U+7269, U+7279, U+7406, U+767A-767B, U+77E5, U+7D04, U+7D22, U+8005, U+80FD, U+81EA, U+8868, U+8981, U+89A7, U+901A, U+9023, U+90E8, U+91D1, U+9332, U+958B, U+96C6, U+9AD8, U+FF1A, U+FF1F"
+    },
+    {
+      "family": "Noto Sans JP",
+      "weight": "400",
+      "range": "U+4E, U+A0, U+3000, U+300C-300D, U+4E00, U+4E0A, U+4E2D, U+4E8B, U+4EBA, U+4F1A, U+5165, U+5168, U+5185, U+51FA, U+5206, U+5229, U+524D, U+52D5, U+5408, U+554F, U+5831, U+5834, U+5927, U+5B9A, U+5E74, U+5F0F, U+60C5, U+65B0, U+65B9, U+6642, U+6700, U+672C, U+682A, U+6B63, U+6C17, U+7121, U+751F, U+7528, U+753B, U+76EE, U+793E, U+884C, U+898B, U+8A18, U+9593, U+95A2, U+FF01, U+FF08-FF09"
+    },
+    {
+      "family": "Noto Sans JP",
+      "weight": "400",
+      "range": "U+20, U+2027, U+3001-3002, U+3041-307F, U+3081-308F, U+3091-3093, U+3099-309A, U+309D-309E, U+30A1-30E1, U+30E3-30ED, U+30EF-30F0, U+30F2-30F4, U+30FB-30FE, U+FF0C, U+FF0E"
+    },
+    {
+      "family": "Noto Sans JP",
+      "weight": "400",
+      "range": "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+    }
+  ],
+  "css_sha256": "59842921707efc5f8dcbd89e6086677d6fae7c362b4dd2f01c283de96483ef1b"
+}

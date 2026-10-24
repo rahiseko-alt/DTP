@@ -125,7 +125,7 @@
       "work_id": "PAM-JP-ISEN",
       "source_material_id": "PAM-ISEN-2028",
       "display_name": "パンフレット_日本人向け_医専白版_2028表記_16P_確認用",
-      "status": "改稿12・英語校名3か所を正本表記へ統一・確認用",
+      "status": "改稿13・最終ページ右下にAI生成/加工画像と本人同意の注記を追加・確認用",
       "tags": [
         "対象:日本人向け",
         "人物仕様:日本人イメージ",
@@ -135,25 +135,25 @@
         "種別:パンフレット",
         "表記年度:2028"
       ],
-      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f/jp-isen-reading-pdf.pdf",
-      "version_policy": "改稿11の英語校名だけをPDF10/11/16ページの3領域で修正。school.yamlのArtificial Intelligence Business Collegeへ統一。閲覧用・master・A3/A4中綴じをそれぞれの固定R11 PDFから局所更新。表紙のAI BUSINESS’28は冊子タイトルとして維持。",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87/jp-isen-reading-pdf.pdf",
+      "version_policy": "改稿12の最終ページ右下に、本人承諾取得済みのAI生成・加工画像の使用を説明する2行の注記だけを追加。表紙・他の本文・英語校名・写真・ページ順を保持。閲覧用・master・A3/A4中綴じ版をそれぞれの固定R12 PDFから局所更新。元医専版・R12・チラシ・募集要項は変更しない。",
       "document": "prospectus-isen-trial-2028",
       "variant": "japanese-people-edition",
       "asset_id": "jp-isen-reading-pdf",
-      "sha256": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f",
-      "bytes": 6785652,
+      "sha256": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87",
+      "bytes": 6818247,
       "pages": 16,
       "year_status": "紙面は2028表記。掲載学費・入試の根拠は2027年度。2028年度確定版とは呼ばない",
-      "ai_image_status": "人物加工画像を含む。実写真の在校生・教職員の国籍や所属を示すものではない。",
-      "review_status": "親が全16ページと修正領域を拡大目視。4出力48面について英語校名以外の全画素・ネイティブ文字・ページ寸法と、全埋込画像バイトの一致を確認。QRの公式サイトも実復号。独立審査・実物試し刷りは未実施。",
+      "ai_image_status": "人物加工画像を含む。生成/加工とパンフレット掲載について本人承諾取得済み（人間確認2026-10-24）。最終ページ右下に明記。実写真の在校生・教職員の国籍や所属を示すものではない。",
+      "review_status": "親が全16ページの確認画像と最終ページ/注記の拡大を目視。4出力48面で注記以外の画素・ネイティブ文字・ページ寸法・全埋込画像の保存バイトがR12と一致。PDFごとの新規プロセスで抽出前にレンダリングし確認画像とも一致。公式サイトQRも実復号。独立審査・実物試し刷りは未実施。",
       "print_outputs": [
         {
           "paper": "A3",
           "document": "prospectus-isen-trial-2028",
           "asset_id": "jp-isen-print-a3",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035/jp-isen-print-a3.pdf",
-          "sha256": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035",
-          "bytes": 4094202,
+          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/3df5b94e61f4bc733cfa45f704f43889e8412a7c9a695168b321929f9ed57879/jp-isen-print-a3.pdf",
+          "sha256": "3df5b94e61f4bc733cfa45f704f43889e8412a7c9a695168b321929f9ed57879",
+          "bytes": 4126812,
           "faces": 8,
           "sheets": 4,
           "duplex": "短辺反転",
@@ -163,9 +163,9 @@
           "paper": "A4",
           "document": "prospectus-isen-trial-2028",
           "asset_id": "jp-isen-print-a4",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a4/ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea/jp-isen-print-a4.pdf",
-          "sha256": "ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea",
-          "bytes": 2691798,
+          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a4/716999435842c69a1c974314d76dffdb2bc29ec164da7603978ce2ca94649aca/jp-isen-print-a4.pdf",
+          "sha256": "716999435842c69a1c974314d76dffdb2bc29ec164da7603978ce2ca94649aca",
+          "bytes": 2724408,
           "faces": 8,
           "sheets": 4,
           "duplex": "短辺反転",
@@ -174,27 +174,27 @@
       ],
       "retrieval_mode": "saved",
       "freshness_status": "保存済み確認用。現在入力からの再生成を登録検査で保証した版ではない",
-      "download_file": "downloads/english-name-20261023/output/brochure-jp-r12.pdf",
+      "download_file": "downloads/ai-image-notice-20261024/output/brochure-jp-r13.pdf",
       "previews": [
         {
           "id": "jp-isen-overview-01",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-01/2f5e4dfe8e0ff9c475c04d21abd3a4f96b84ba9c7138d24b0619d3ef9db4b4f2/jp-isen-overview-01.jpg",
-          "sha256": "2f5e4dfe8e0ff9c475c04d21abd3a4f96b84ba9c7138d24b0619d3ef9db4b4f2"
+          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-01/0c510fd968ecc13f0b513c17c3986335b0931a9ab8254be2ecf2339f46fea01b/jp-isen-overview-01.jpg",
+          "sha256": "0c510fd968ecc13f0b513c17c3986335b0931a9ab8254be2ecf2339f46fea01b"
         },
         {
           "id": "jp-isen-overview-05",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-05/62b99ce0576d0d8bc0341ae429a1e210c0e393a439d720478b9355b7a3013386/jp-isen-overview-05.jpg",
-          "sha256": "62b99ce0576d0d8bc0341ae429a1e210c0e393a439d720478b9355b7a3013386"
+          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-05/ce8205a25bc41f602f23d4f44419d1beaeb7ddd1db083a72bfb8ce451257bdf7/jp-isen-overview-05.jpg",
+          "sha256": "ce8205a25bc41f602f23d4f44419d1beaeb7ddd1db083a72bfb8ce451257bdf7"
         },
         {
           "id": "jp-isen-overview-09",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-09/dbf60ca99229360c6477a707a743821f5e785ff3a3e2a66af5a693aed2ede9eb/jp-isen-overview-09.jpg",
-          "sha256": "dbf60ca99229360c6477a707a743821f5e785ff3a3e2a66af5a693aed2ede9eb"
+          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-09/c773422dbab269e68ac44c270a3b88eddc04f96ca08df822d02c0bddd1e73a2d/jp-isen-overview-09.jpg",
+          "sha256": "c773422dbab269e68ac44c270a3b88eddc04f96ca08df822d02c0bddd1e73a2d"
         },
         {
           "id": "jp-isen-overview-13",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-13/63ddc976486b6461147409d6fb3f5f267b5ec959865ede530370b7b83e7f1bbf/jp-isen-overview-13.jpg",
-          "sha256": "63ddc976486b6461147409d6fb3f5f267b5ec959865ede530370b7b83e7f1bbf"
+          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-13/655ce3d84f8fdb1414e2ab2eb51790dfe6586b7e1c7667bb5cf6ddabb6f2048e/jp-isen-overview-13.jpg",
+          "sha256": "655ce3d84f8fdb1414e2ab2eb51790dfe6586b7e1c7667bb5cf6ddabb6f2048e"
         }
       ]
     },

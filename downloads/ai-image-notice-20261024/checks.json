@@ -1,0 +1,43 @@
+{
+  "typecheck": "passed",
+  "doctor": "10 OK / 1 WARN / 0 NG; existing Chromium 154 preview",
+  "whole_check": {
+    "exit_code": 1,
+    "typecheck": "passed",
+    "validate": "failed: Metadata changed during retrieval; brochure registrations were updated while this run was in progress",
+    "test_stage": "not_reached"
+  },
+  "final_metadata_check": {
+    "command": "npm run asset:check -- --metadata-only",
+    "exit_code": 0,
+    "errors": [],
+    "warnings": 116,
+    "limit": "metadata only; full extraction/integrity CI still pending"
+  },
+  "separate_full_tests": {
+    "command": "npm run test with existing Chromium 154 and locked Poppler",
+    "exit_code": 1,
+    "passed": 475,
+    "failed": 7,
+    "skipped": 7,
+    "failed_suites": 6,
+    "failed_test_names": [
+      "system/design-engine/test/render.browser.test.ts [ system/design-engine/test/render.browser.test.ts ]",
+      "system/scripts/test/studio-server.test.ts [ system/scripts/test/studio-server.test.ts ]",
+      "system/scripts/test/ingest-reference.test.ts > ref:ingest --pdf > original/ にコピーし、pdftoppm でページごとの JPEG（既定）または PNG（--format png）にする",
+      "system/scripts/test/ingest-reference.test.ts > ref:ingest --pdf > 拡張子が大文字の PDF も元のファイル名のまま original/ に置き、取り込んだ画像・PDF はすべて .gitattributes で LFS に入る",
+      "system/scripts/test/lfs-pointer.test.ts > Git LFS のポインタ: 各 CLI はファイル名と対処を示して止まる > photo:add・ref:ingest: 取り込む画像・PDF がポインタなら何も書き換えない",
+      "system/scripts/test/print-qa.test.ts > render の印刷チェック > --release では失敗し、何も書き出さない",
+      "system/scripts/test/print-qa.test.ts > render の印刷チェック > 問題がなければ警告しない（fixture の smoke は --release で出力できる）",
+      "system/scripts/test/render.test.ts > render（smoke BOOK） > --release は TODO がなければ成功する",
+      "system/scripts/test/render.test.ts > render（smoke BOOK） > Noto にない文字（ギリシャ文字・ローマ数字・≒）はシステムフォントでの代替として警告し、--release では失敗する"
+    ],
+    "reason": "Same known pinned-browser/release checks and CLI argument expectation failures documented for PR #65; no new test or engine changes in this PR"
+  },
+  "final_saved_get": {
+    "file": "downloads/ai-image-notice-20261024/current-get.json",
+    "integrity": "verified",
+    "freshness": "not_checked"
+  },
+  "required_asset_integrity": "GitHub PR #66; pending; full local check is not reported as passing"
+}
