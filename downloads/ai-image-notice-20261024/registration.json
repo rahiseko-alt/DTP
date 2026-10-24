@@ -1,0 +1,431 @@
+[
+  {
+    "id": "jp-isen-ai-notice-copy",
+    "registration": {
+      "asset": {
+        "id": "jp-isen-ai-notice-copy",
+        "variant": "japanese-people-edition",
+        "role": "support",
+        "media": "text",
+        "revision": "0ab0281a66cc3bb6c0987960137ca5875b666859476d16bc2ecf89d4f76a5265",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-ai-notice-copy/0ab0281a66cc3bb6c0987960137ca5875b666859476d16bc2ecf89d4f76a5265/jp-isen-ai-notice-copy.json",
+        "sha256": "0ab0281a66cc3bb6c0987960137ca5875b666859476d16bc2ecf89d4f76a5265",
+        "size": 798,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "User-confirmed AI generation, processing and brochure publication consent, 2026-10-24; approved disclosure text and typography. Scope limited to the current Japanese ISEN brochure.",
+          "recorded_at": "2026-10-24T00:52:53.864Z"
+        },
+        "external_inputs": [],
+        "built_from": []
+      }
+    }
+  },
+  {
+    "id": "jp-isen-r12-source-reading",
+    "registration": {
+      "asset": {
+        "id": "jp-isen-r12-source-reading",
+        "variant": "japanese-people-edition",
+        "role": "support",
+        "media": "pdf",
+        "revision": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-r12-source-reading/a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f/jp-isen-r12-source-reading.pdf",
+        "sha256": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f",
+        "size": 6785652,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "Fixed R12 input for the R13 AI-image-notice addition. Original PDF bytes retained; current standard-render freshness is not asserted.",
+          "recorded_at": "2026-10-24T00:52:54.498Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "jp-isen-reading-pdf",
+            "revision": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jp-isen-r12-source-master",
+    "registration": {
+      "asset": {
+        "id": "jp-isen-r12-source-master",
+        "variant": "japanese-people-edition",
+        "role": "support",
+        "media": "pdf",
+        "revision": "4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-r12-source-master/4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010/jp-isen-r12-source-master.pdf",
+        "sha256": "4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010",
+        "size": 125949943,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "Fixed R12 input for the R13 AI-image-notice addition. Original PDF bytes retained; current standard-render freshness is not asserted.",
+          "recorded_at": "2026-10-24T00:52:55.677Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "jp-isen-master-pdf",
+            "revision": "4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jp-isen-r12-source-print-a3",
+    "registration": {
+      "asset": {
+        "id": "jp-isen-r12-source-print-a3",
+        "variant": "japanese-people-edition",
+        "role": "support",
+        "media": "pdf",
+        "revision": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-r12-source-print-a3/8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035/jp-isen-r12-source-print-a3.pdf",
+        "sha256": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035",
+        "size": 4094202,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "Fixed R12 input for the R13 AI-image-notice addition. Original PDF bytes retained; current standard-render freshness is not asserted.",
+          "recorded_at": "2026-10-24T00:52:57.899Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "jp-isen-print-a3",
+            "revision": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jp-isen-r12-source-print-a4",
+    "registration": {
+      "asset": {
+        "id": "jp-isen-r12-source-print-a4",
+        "variant": "japanese-people-edition",
+        "role": "support",
+        "media": "pdf",
+        "revision": "ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-r12-source-print-a4/ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea/jp-isen-r12-source-print-a4.pdf",
+        "sha256": "ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea",
+        "size": 2691798,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "Fixed R12 input for the R13 AI-image-notice addition. Original PDF bytes retained; current standard-render freshness is not asserted.",
+          "recorded_at": "2026-10-24T00:52:58.760Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "jp-isen-print-a4",
+            "revision": "ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jp-isen-reading-pdf",
+    "registration": {
+      "asset": {
+        "id": "jp-isen-reading-pdf",
+        "variant": "japanese-people-edition",
+        "role": "support",
+        "media": "pdf",
+        "revision": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87/jp-isen-reading-pdf.pdf",
+        "sha256": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87",
+        "size": 6818247,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "R13: Add the user-approved AI-generation and consent notice only to page 16 of the fixed R12 PDFs. Images and all outside-notice pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+          "recorded_at": "2026-10-24T00:52:59.715Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "jp-isen-r12-source-reading",
+            "revision": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f"
+          },
+          {
+            "id": "jp-isen-ai-notice-copy",
+            "revision": "0ab0281a66cc3bb6c0987960137ca5875b666859476d16bc2ecf89d4f76a5265"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jp-isen-master-pdf",
+    "registration": {
+      "asset": {
+        "id": "jp-isen-master-pdf",
+        "variant": "japanese-people-edition",
+        "role": "support",
+        "media": "pdf",
+        "revision": "02e486ef72cea9189485e11b49f95ede9ea3bfe8f0c35cac6a9803e96aeb86d4",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-master-pdf/02e486ef72cea9189485e11b49f95ede9ea3bfe8f0c35cac6a9803e96aeb86d4/jp-isen-master-pdf.pdf",
+        "sha256": "02e486ef72cea9189485e11b49f95ede9ea3bfe8f0c35cac6a9803e96aeb86d4",
+        "size": 125982380,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "R13: Add the user-approved AI-generation and consent notice only to page 16 of the fixed R12 PDFs. Images and all outside-notice pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+          "recorded_at": "2026-10-24T00:53:00.843Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "jp-isen-r12-source-master",
+            "revision": "4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010"
+          },
+          {
+            "id": "jp-isen-ai-notice-copy",
+            "revision": "0ab0281a66cc3bb6c0987960137ca5875b666859476d16bc2ecf89d4f76a5265"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jp-isen-print-a3",
+    "registration": {
+      "asset": {
+        "id": "jp-isen-print-a3",
+        "variant": "japanese-people-edition",
+        "role": "support",
+        "media": "pdf",
+        "revision": "3df5b94e61f4bc733cfa45f704f43889e8412a7c9a695168b321929f9ed57879",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/3df5b94e61f4bc733cfa45f704f43889e8412a7c9a695168b321929f9ed57879/jp-isen-print-a3.pdf",
+        "sha256": "3df5b94e61f4bc733cfa45f704f43889e8412a7c9a695168b321929f9ed57879",
+        "size": 4126812,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "R13: Add the user-approved AI-generation and consent notice only to page 16 of the fixed R12 PDFs. Images and all outside-notice pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+          "recorded_at": "2026-10-24T00:53:02.313Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "jp-isen-r12-source-print-a3",
+            "revision": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035"
+          },
+          {
+            "id": "jp-isen-ai-notice-copy",
+            "revision": "0ab0281a66cc3bb6c0987960137ca5875b666859476d16bc2ecf89d4f76a5265"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jp-isen-print-a4",
+    "registration": {
+      "asset": {
+        "id": "jp-isen-print-a4",
+        "variant": "japanese-people-edition",
+        "role": "support",
+        "media": "pdf",
+        "revision": "716999435842c69a1c974314d76dffdb2bc29ec164da7603978ce2ca94649aca",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a4/716999435842c69a1c974314d76dffdb2bc29ec164da7603978ce2ca94649aca/jp-isen-print-a4.pdf",
+        "sha256": "716999435842c69a1c974314d76dffdb2bc29ec164da7603978ce2ca94649aca",
+        "size": 2724408,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "R13: Add the user-approved AI-generation and consent notice only to page 16 of the fixed R12 PDFs. Images and all outside-notice pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+          "recorded_at": "2026-10-24T00:53:03.170Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "jp-isen-r12-source-print-a4",
+            "revision": "ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea"
+          },
+          {
+            "id": "jp-isen-ai-notice-copy",
+            "revision": "0ab0281a66cc3bb6c0987960137ca5875b666859476d16bc2ecf89d4f76a5265"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jp-isen-assembly-proof",
+    "registration": {
+      "asset": {
+        "id": "jp-isen-assembly-proof",
+        "variant": "japanese-people-edition",
+        "role": "support",
+        "media": "text",
+        "revision": "8d34a7a60acc6b3561b22e087af3326081f8b89ff2b7b1be84764fa1f0bbcc50",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-assembly-proof/8d34a7a60acc6b3561b22e087af3326081f8b89ff2b7b1be84764fa1f0bbcc50/jp-isen-assembly-proof.json",
+        "sha256": "8d34a7a60acc6b3561b22e087af3326081f8b89ff2b7b1be84764fa1f0bbcc50",
+        "size": 5012,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "R13: Add the user-approved AI-generation and consent notice only to page 16 of the fixed R12 PDFs. Images and all outside-notice pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+          "recorded_at": "2026-10-24T00:53:04.064Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "jp-isen-reading-pdf",
+            "revision": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87"
+          },
+          {
+            "id": "jp-isen-master-pdf",
+            "revision": "02e486ef72cea9189485e11b49f95ede9ea3bfe8f0c35cac6a9803e96aeb86d4"
+          },
+          {
+            "id": "jp-isen-print-a3",
+            "revision": "3df5b94e61f4bc733cfa45f704f43889e8412a7c9a695168b321929f9ed57879"
+          },
+          {
+            "id": "jp-isen-print-a4",
+            "revision": "716999435842c69a1c974314d76dffdb2bc29ec164da7603978ce2ca94649aca"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jp-isen-overview-01",
+    "registration": {
+      "asset": {
+        "id": "jp-isen-overview-01",
+        "variant": "japanese-people-edition",
+        "role": "support",
+        "media": "image",
+        "revision": "0c510fd968ecc13f0b513c17c3986335b0931a9ab8254be2ecf2339f46fea01b",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-01/0c510fd968ecc13f0b513c17c3986335b0931a9ab8254be2ecf2339f46fea01b/jp-isen-overview-01.jpg",
+        "sha256": "0c510fd968ecc13f0b513c17c3986335b0931a9ab8254be2ecf2339f46fea01b",
+        "size": 604152,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "R13: Add the user-approved AI-generation and consent notice only to page 16 of the fixed R12 PDFs. Images and all outside-notice pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+          "recorded_at": "2026-10-24T00:53:06.375Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "jp-isen-reading-pdf",
+            "revision": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jp-isen-overview-05",
+    "registration": {
+      "asset": {
+        "id": "jp-isen-overview-05",
+        "variant": "japanese-people-edition",
+        "role": "support",
+        "media": "image",
+        "revision": "ce8205a25bc41f602f23d4f44419d1beaeb7ddd1db083a72bfb8ce451257bdf7",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-05/ce8205a25bc41f602f23d4f44419d1beaeb7ddd1db083a72bfb8ce451257bdf7/jp-isen-overview-05.jpg",
+        "sha256": "ce8205a25bc41f602f23d4f44419d1beaeb7ddd1db083a72bfb8ce451257bdf7",
+        "size": 682586,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "R13: Add the user-approved AI-generation and consent notice only to page 16 of the fixed R12 PDFs. Images and all outside-notice pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+          "recorded_at": "2026-10-24T00:53:07.245Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "jp-isen-reading-pdf",
+            "revision": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jp-isen-overview-09",
+    "registration": {
+      "asset": {
+        "id": "jp-isen-overview-09",
+        "variant": "japanese-people-edition",
+        "role": "support",
+        "media": "image",
+        "revision": "c773422dbab269e68ac44c270a3b88eddc04f96ca08df822d02c0bddd1e73a2d",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-09/c773422dbab269e68ac44c270a3b88eddc04f96ca08df822d02c0bddd1e73a2d/jp-isen-overview-09.jpg",
+        "sha256": "c773422dbab269e68ac44c270a3b88eddc04f96ca08df822d02c0bddd1e73a2d",
+        "size": 643702,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "R13: Add the user-approved AI-generation and consent notice only to page 16 of the fixed R12 PDFs. Images and all outside-notice pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+          "recorded_at": "2026-10-24T00:53:08.135Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "jp-isen-reading-pdf",
+            "revision": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jp-isen-overview-13",
+    "registration": {
+      "asset": {
+        "id": "jp-isen-overview-13",
+        "variant": "japanese-people-edition",
+        "role": "support",
+        "media": "image",
+        "revision": "655ce3d84f8fdb1414e2ab2eb51790dfe6586b7e1c7667bb5cf6ddabb6f2048e",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-13/655ce3d84f8fdb1414e2ab2eb51790dfe6586b7e1c7667bb5cf6ddabb6f2048e/jp-isen-overview-13.jpg",
+        "sha256": "655ce3d84f8fdb1414e2ab2eb51790dfe6586b7e1c7667bb5cf6ddabb6f2048e",
+        "size": 360198,
+        "relation": "authored",
+        "storage": "canonical",
+        "confirmation": "verified",
+        "saved": {
+          "reason": "R13: Add the user-approved AI-generation and consent notice only to page 16 of the fixed R12 PDFs. Images and all outside-notice pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+          "recorded_at": "2026-10-24T00:53:09.001Z"
+        },
+        "external_inputs": [],
+        "built_from": [
+          {
+            "id": "jp-isen-reading-pdf",
+            "revision": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87"
+          }
+        ]
+      }
+    }
+  }
+]

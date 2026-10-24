@@ -1,0 +1,41 @@
+{
+  "context": {
+    "root": "/workspace/DTP",
+    "head": "25f41e93a000c749d2f95373b11401e10a34a76c",
+    "branch": "book/ai-image-disclosure-20261024",
+    "dirty": true,
+    "fingerprint": "2747fc5fc7ea4c1132340c3b3d07abed18f75c053322aab5ae822fb622ada4c7"
+  },
+  "document_id": "prospectus-isen-trial-2028",
+  "asset": {
+    "id": "jp-isen-print-a3",
+    "variant": "japanese-people-edition",
+    "role": "support",
+    "media": "pdf",
+    "revision": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035",
+    "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035/jp-isen-print-a3.pdf",
+    "sha256": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035",
+    "size": 4094202,
+    "relation": "authored",
+    "storage": "canonical",
+    "confirmation": "verified",
+    "saved": {
+      "reason": "R12: English school name read from school.yaml, three fields replaced in the fixed R11 PDF. Images and all outside-field pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+      "recorded_at": "2026-10-23T07:18:42.625Z"
+    },
+    "external_inputs": [],
+    "built_from": [
+      {
+        "id": "jp-isen-r11-source-print-a3",
+        "revision": "f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b"
+      }
+    ]
+  },
+  "path": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035/jp-isen-print-a3.pdf",
+  "retrieval": {
+    "mode": "saved",
+    "integrity": "verified",
+    "freshness": "not_checked",
+    "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+  }
+}

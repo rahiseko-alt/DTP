@@ -1,0 +1,381 @@
+{
+  "verified": true,
+  "render_method": "fresh process per PDF; no text or image extraction before rendering",
+  "outputs": [
+    {
+      "kind": "reading",
+      "pdf_sha256": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87",
+      "embedded_image_bytes_identical": true,
+      "notice_font_size_pt": 9.3,
+      "pages": [
+        {
+          "page": 1,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 2,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 3,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 4,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 5,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 6,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 7,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 8,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 9,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 10,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 11,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 12,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 13,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 14,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 15,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 16,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": true
+        }
+      ]
+    },
+    {
+      "kind": "master",
+      "pdf_sha256": "02e486ef72cea9189485e11b49f95ede9ea3bfe8f0c35cac6a9803e96aeb86d4",
+      "embedded_image_bytes_identical": true,
+      "notice_font_size_pt": 9.3,
+      "pages": [
+        {
+          "page": 1,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 2,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 3,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 4,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 5,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 6,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 7,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 8,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 9,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 10,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 11,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 12,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 13,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 14,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 15,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 16,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": true
+        }
+      ]
+    },
+    {
+      "kind": "print-a3",
+      "pdf_sha256": "3df5b94e61f4bc733cfa45f704f43889e8412a7c9a695168b321929f9ed57879",
+      "embedded_image_bytes_identical": true,
+      "notice_font_size_pt": 9.289076898527037,
+      "pages": [
+        {
+          "page": 1,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": true
+        },
+        {
+          "page": 2,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 3,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 4,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 5,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 6,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 7,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 8,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        }
+      ]
+    },
+    {
+      "kind": "print-a4",
+      "pdf_sha256": "716999435842c69a1c974314d76dffdb2bc29ec164da7603978ce2ca94649aca",
+      "embedded_image_bytes_identical": true,
+      "notice_font_size_pt": 6.568081188853618,
+      "pages": [
+        {
+          "page": 1,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": true
+        },
+        {
+          "page": 2,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 3,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 4,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 5,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 6,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 7,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        },
+        {
+          "page": 8,
+          "outside_notice_pixels_identical": true,
+          "other_native_text_identical": true,
+          "page_size_identical": true,
+          "notice_added": false
+        }
+      ]
+    }
+  ],
+  "brochure_qr": [
+    "https://kaihougakuen.my.canva.site/"
+  ],
+  "user_consent_record": "company-data/ledger.md: パンフレット掲載人物画像の承諾",
+  "independent_review": false,
+  "print_test": false,
+  "release": false
+}

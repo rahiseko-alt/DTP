@@ -1,0 +1,14 @@
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+CPYMLO+Anonymous                     CID Type 0C       Identity-H       yes yes yes   1006  0
+VXEQUN+DroidSansFallbackRegular      CID TrueType      Identity-H       yes yes yes   1012  0
+Helvetica                            Type 1            WinAnsi          no  no  no    1022  0
+AAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes   1029  0
+BAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes   1034  0
+CAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes   1039  0
+DAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes   1044  0
+EAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes   1049  0
+FAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes   1054  0
+GAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes   1059  0
+HAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes   1064  0
+IAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes   1069  0
