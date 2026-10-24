@@ -120,8 +120,60 @@
   "review_conclusion": "写真がない別版として提出可。表紙は紺の縦帯に題字、白地に募集学科・年度・切取案内を配置し原本ロゴを保持。本文/様式/裏面の配置と色は原版を保つ。新規生成画像なし。",
   "verification": "downloads/admissions-plain-20261025/verification.json",
   "general_checks": {
-    "doctor": "10 OK / 1 WARN / 0 NG; existing Chromium 154 preview",
-    "npm_run_check": "running after all asset registrations; no concurrent asset metadata edits",
-    "required_asset_integrity": "not_run_yet"
-  }
+    "doctor": {
+      "ok": 10,
+      "warn": 1,
+      "ng": 0,
+      "note": "existing Chromium 154; preview only"
+    },
+    "typecheck": "passed",
+    "validate": {
+      "errors": 0,
+      "warnings": 205,
+      "asset_integrity_section": "passed; warnings 125; 5 documents"
+    },
+    "whole_npm_run_check": {
+      "result": "not_passed",
+      "observation": "typecheck and validate completed; initial process ended during tests before a final summary; full tests run separately below",
+      "initial_exit_code": null
+    },
+    "separate_full_tests": {
+      "exit_code": 1,
+      "passed": 475,
+      "failed": 7,
+      "skipped": 7,
+      "failed_suites": 6,
+      "failed_names": [
+        "system/design-engine/test/render.browser.test.ts [ system/design-engine/test/render.browser.test.ts ]",
+        "system/scripts/test/studio-server.test.ts [ system/scripts/test/studio-server.test.ts ]",
+        "system/scripts/test/ingest-reference.test.ts > ref:ingest --pdf > original/ にコピーし、pdftoppm でページごとの JPEG（既定）または PNG（--format png）にする",
+        "system/scripts/test/ingest-reference.test.ts > ref:ingest --pdf > 拡張子が大文字の PDF も元のファイル名のまま original/ に置き、取り込んだ画像・PDF はすべて .gitattributes で LFS に入る",
+        "system/scripts/test/lfs-pointer.test.ts > Git LFS のポインタ: 各 CLI はファイル名と対処を示して止まる > photo:add・ref:ingest: 取り込む画像・PDF がポインタなら何も書き換えない",
+        "system/scripts/test/print-qa.test.ts > render の印刷チェック > --release では失敗し、何も書き出さない",
+        "system/scripts/test/print-qa.test.ts > render の印刷チェック > 問題がなければ警告しない（fixture の smoke は --release で出力できる）",
+        "system/scripts/test/render.test.ts > render（smoke BOOK） > --release は TODO がなければ成功する",
+        "system/scripts/test/render.test.ts > render（smoke BOOK） > Noto にない文字（ギリシャ文字・ローマ数字・≒）はシステムフォントでの代替として警告し、--release では失敗する"
+      ],
+      "note": "Same pinned-browser/release and CLI expectation failures recorded for PR #65/#66. No engine or test changes."
+    },
+    "original_preservation": {
+      "base_commit": "25f41e93a000c749d2f95373b11401e10a34a76c",
+      "all_existing_assets_retained": true,
+      "all_existing_current_selectors_retained": true,
+      "original_config_declaration_and_facts_ledger_unchanged": true,
+      "source_pdf_sha256": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+    },
+    "asset_integrity_at_artifact_commit": {
+      "commit": "95e7c8a18a0049f55efcd7c6e512f89122587691",
+      "conclusion": "SUCCESS",
+      "url": "https://github.com/rahiseko-alt/DTP/actions/runs/40141282159/job/121013369843",
+      "completed_at": "2026-10-24T23:15:44Z"
+    },
+    "latest_documentation_commit_ci": "pending normal required CI; artifact bytes/catalog unchanged in documentation update",
+    "paper_verification": "downloads/admissions-plain-20261025/verification.json",
+    "independent_review": false,
+    "physical_print_test": false,
+    "release": false
+  },
+  "pull_request": "https://github.com/rahiseko-alt/DTP/pull/67"
 }
