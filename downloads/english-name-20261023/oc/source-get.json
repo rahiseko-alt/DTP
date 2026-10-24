@@ -1,0 +1,41 @@
+{
+  "context": {
+    "root": "/workspace/DTP",
+    "head": "d1722c4ed987d3f06e66b688092e0cd54d891fe4",
+    "branch": "fix/english-school-name-20261023",
+    "dirty": true,
+    "fingerprint": "2cd9aa3b4084f51f58d6e8c4541b3cc01303810006cef2f716c082a67b30a2a6"
+  },
+  "document_id": "oc-approved-20261017",
+  "asset": {
+    "id": "jp-oc-three-r5-pdf",
+    "variant": "original-art-three-steps-r5",
+    "role": "support",
+    "media": "pdf",
+    "revision": "5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5",
+    "file": "books/oc-approved-20261017/parts/jp-oc-three-r5-pdf/5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5/jp-oc-three-r5-pdf.pdf",
+    "sha256": "5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5",
+    "size": 17781826,
+    "relation": "authored",
+    "storage": "canonical",
+    "confirmation": "verified",
+    "saved": {
+      "reason": "Saved R05 three-step back flow revision. Front and other back areas pixel-identical to R04. Font-subset download copy; current standard-render freshness is not asserted.",
+      "recorded_at": "2026-10-22T05:55:07.041Z"
+    },
+    "external_inputs": [],
+    "built_from": [
+      {
+        "id": "jp-oc-parent-r4-pdf",
+        "revision": "f69728bf8971d034a3dda746edb34099b6064e841395bf24d7963b0e2fd2bdf4"
+      }
+    ]
+  },
+  "path": "books/oc-approved-20261017/parts/jp-oc-three-r5-pdf/5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5/jp-oc-three-r5-pdf.pdf",
+  "retrieval": {
+    "mode": "saved",
+    "integrity": "verified",
+    "freshness": "not_checked",
+    "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+  }
+}

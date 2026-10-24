@@ -1,0 +1,214 @@
+{
+  "edition": "R12-English-school-name",
+  "formal_name": "Artificial Intelligence Business College",
+  "facts_file": "company-data/facts/school.yaml",
+  "facts_sha256": "1542374cce1534bf98a6d260e3e2542a6857d48da768c0415c71a363d8e043c2",
+  "outputs": [
+    {
+      "kind": "reading",
+      "file": "downloads/english-name-20261023/output/brochure-jp-r12.pdf",
+      "sha256": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f",
+      "bytes": 6785652,
+      "pages": 16,
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/877ac9a68ab8c468e92c661bc3c17a8bba533ef34b4222b0311c132e704e8e97/jp-isen-reading-pdf.pdf",
+        "id": "jp-isen-reading-pdf",
+        "revision": "877ac9a68ab8c468e92c661bc3c17a8bba533ef34b4222b0311c132e704e8e97",
+        "sha256": "877ac9a68ab8c468e92c661bc3c17a8bba533ef34b4222b0311c132e704e8e97"
+      },
+      "changed_regions": {
+        "10": [
+          {
+            "reading_page": 10,
+            "rect_pt": [
+              22.0,
+              11.0,
+              220.0,
+              22.0
+            ],
+            "name": "Artificial Intelligence Business College"
+          }
+        ],
+        "11": [
+          {
+            "reading_page": 11,
+            "rect_pt": [
+              16.0,
+              11.0,
+              220.0,
+              22.0
+            ],
+            "name": "Artificial Intelligence Business College"
+          }
+        ],
+        "16": [
+          {
+            "reading_page": 16,
+            "rect_pt": [
+              175.0,
+              154.0,
+              421.0,
+              169.0
+            ],
+            "name": "Artificial Intelligence Business College"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "master",
+      "file": "downloads/english-name-20261023/output/brochure-jp-r12-master.pdf",
+      "sha256": "4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010",
+      "bytes": 125949943,
+      "pages": 16,
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-master-pdf/bb1767b2cfdaab7d99a6f096b93b66de2ef90b965d30aef443b3ef002e499d4f/jp-isen-master-pdf.pdf",
+        "id": "jp-isen-master-pdf",
+        "revision": "bb1767b2cfdaab7d99a6f096b93b66de2ef90b965d30aef443b3ef002e499d4f",
+        "sha256": "bb1767b2cfdaab7d99a6f096b93b66de2ef90b965d30aef443b3ef002e499d4f"
+      },
+      "changed_regions": {
+        "10": [
+          {
+            "reading_page": 10,
+            "rect_pt": [
+              22.0,
+              11.0,
+              220.0,
+              22.0
+            ],
+            "name": "Artificial Intelligence Business College"
+          }
+        ],
+        "11": [
+          {
+            "reading_page": 11,
+            "rect_pt": [
+              16.0,
+              11.0,
+              220.0,
+              22.0
+            ],
+            "name": "Artificial Intelligence Business College"
+          }
+        ],
+        "16": [
+          {
+            "reading_page": 16,
+            "rect_pt": [
+              175.0,
+              154.0,
+              421.0,
+              169.0
+            ],
+            "name": "Artificial Intelligence Business College"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "print-a3",
+      "file": "downloads/english-name-20261023/output/brochure-jp-r12-A3.pdf",
+      "sha256": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035",
+      "bytes": 4094202,
+      "pages": 8,
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b/jp-isen-print-a3.pdf",
+        "id": "jp-isen-print-a3",
+        "revision": "f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b",
+        "sha256": "f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b"
+      },
+      "changed_regions": {
+        "7": [
+          {
+            "reading_page": 10,
+            "rect_pt": [
+              22.001644820665277,
+              10.987080138910592,
+              219.76908732105593,
+              21.974160277821184
+            ],
+            "name": "Artificial Intelligence Business College"
+          }
+        ],
+        "6": [
+          {
+            "reading_page": 11,
+            "rect_pt": [
+              611.2837164316857,
+              10.987080138910592,
+              815.0441117351185,
+              21.974160277821184
+            ],
+            "name": "Artificial Intelligence Business College"
+          }
+        ],
+        "1": [
+          {
+            "reading_page": 16,
+            "rect_pt": [
+              174.8219412982399,
+              153.8191219447483,
+              420.5330062229677,
+              168.80150395235364
+            ],
+            "name": "Artificial Intelligence Business College"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "print-a4",
+      "file": "downloads/english-name-20261023/output/brochure-jp-r12-A4.pdf",
+      "sha256": "ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea",
+      "bytes": 2691798,
+      "pages": 8,
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a4/d83e1c1920dacd02292b0e8298e46e6a9e07228864eadc6c345fd6a47f8b116e/jp-isen-print-a4.pdf",
+        "id": "jp-isen-print-a4",
+        "revision": "d83e1c1920dacd02292b0e8298e46e6a9e07228864eadc6c345fd6a47f8b116e",
+        "sha256": "d83e1c1920dacd02292b0e8298e46e6a9e07228864eadc6c345fd6a47f8b116e"
+      },
+      "changed_regions": {
+        "7": [
+          {
+            "reading_page": 10,
+            "rect_pt": [
+              15.577060839280065,
+              7.768698135360346,
+              155.4136272757663,
+              15.537396270720691
+            ],
+            "name": "Artificial Intelligence Business College"
+          }
+        ],
+        "6": [
+          {
+            "reading_page": 11,
+            "rect_pt": [
+              432.28459645330224,
+              7.768698135360346,
+              576.3586345999851,
+              15.537396270720691
+            ],
+            "name": "Artificial Intelligence Business College"
+          }
+        ],
+        "1": [
+          {
+            "reading_page": 16,
+            "rect_pt": [
+              123.63258944929215,
+              108.76177389504484,
+              297.3689295673508,
+              119.35545317053622
+            ],
+            "name": "Artificial Intelligence Business College"
+          }
+        ]
+      }
+    }
+  ],
+  "source_photographs_changed": false,
+  "release": false
+}

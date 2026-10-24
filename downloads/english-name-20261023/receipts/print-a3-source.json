@@ -1,0 +1,41 @@
+{
+  "context": {
+    "root": "/workspace/DTP",
+    "head": "59fb80aaf3e02062761d459fb9b6eff6718feed9",
+    "branch": "fix/english-school-name-20261023",
+    "dirty": true,
+    "fingerprint": "50447b33157cbad507d1f65f5536bd8dc5d01a415455755ab8694ceab2c6b199"
+  },
+  "document_id": "prospectus-isen-trial-2028",
+  "asset": {
+    "id": "jp-isen-print-a3",
+    "variant": "japanese-people-edition",
+    "role": "support",
+    "media": "pdf",
+    "revision": "f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b",
+    "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b/jp-isen-print-a3.pdf",
+    "sha256": "f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b",
+    "size": 4123371,
+    "relation": "authored",
+    "storage": "canonical",
+    "confirmation": "verified",
+    "saved": {
+      "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+      "recorded_at": "2026-10-22T00:28:43.769Z"
+    },
+    "external_inputs": [],
+    "built_from": [
+      {
+        "id": "jp-isen-saved-source16",
+        "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+      }
+    ]
+  },
+  "path": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b/jp-isen-print-a3.pdf",
+  "retrieval": {
+    "mode": "saved",
+    "integrity": "verified",
+    "freshness": "not_checked",
+    "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+  }
+}

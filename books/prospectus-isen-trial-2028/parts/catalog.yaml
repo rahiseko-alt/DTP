@@ -56,15 +56,19 @@
     "latest-print-a4": "1a82b06830528b7a914575525148c56b6107a5b6f206b8c7afa117fb8eeca185",
     "adopted-map-all-pages": "690e9d63ff1c60a0ac541d90acd7a437f1926c4b7325a9446ae03140a6276b6a",
     "jp-isen-saved-source16": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
-    "jp-isen-reading-pdf": "877ac9a68ab8c468e92c661bc3c17a8bba533ef34b4222b0311c132e704e8e97",
-    "jp-isen-print-a3": "f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b",
-    "jp-isen-print-a4": "d83e1c1920dacd02292b0e8298e46e6a9e07228864eadc6c345fd6a47f8b116e",
-    "jp-isen-master-pdf": "bb1767b2cfdaab7d99a6f096b93b66de2ef90b965d30aef443b3ef002e499d4f",
-    "jp-isen-assembly-proof": "792bcad5f323c29171f1f54b0ddec8f86126f70afeafadc08b4bca9eb987ed69",
-    "jp-isen-overview-01": "c5ee3f4669fbda28ec8b2909d54ef625bffb57f1a6cf409bfc1218bbba3dd4f9",
-    "jp-isen-overview-05": "b92f127c218252903d4ef1e5f6a31244da1982f5aca40f5703a10ff80bf3c029",
-    "jp-isen-overview-09": "c2ae26843bf76f45c4a58f4444f6fedaea099cdff89cc5adc09e4a8d845c5c8b",
-    "jp-isen-overview-13": "c25281d542776acb147072c586690ffac1f219fb0e7d064955603c84ef64b853"
+    "jp-isen-reading-pdf": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f",
+    "jp-isen-print-a3": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035",
+    "jp-isen-print-a4": "ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea",
+    "jp-isen-master-pdf": "4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010",
+    "jp-isen-assembly-proof": "c25b73ee6a607e46156417b5ab4432fccddfd31e11236d022baecfefc28f780e",
+    "jp-isen-overview-01": "2f5e4dfe8e0ff9c475c04d21abd3a4f96b84ba9c7138d24b0619d3ef9db4b4f2",
+    "jp-isen-overview-05": "62b99ce0576d0d8bc0341ae429a1e210c0e393a439d720478b9355b7a3013386",
+    "jp-isen-overview-09": "dbf60ca99229360c6477a707a743821f5e785ff3a3e2a66af5a693aed2ede9eb",
+    "jp-isen-overview-13": "63ddc976486b6461147409d6fb3f5f267b5ec959865ede530370b7b83e7f1bbf",
+    "jp-isen-r11-source-reading": "877ac9a68ab8c468e92c661bc3c17a8bba533ef34b4222b0311c132e704e8e97",
+    "jp-isen-r11-source-master": "bb1767b2cfdaab7d99a6f096b93b66de2ef90b965d30aef443b3ef002e499d4f",
+    "jp-isen-r11-source-print-a3": "f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b",
+    "jp-isen-r11-source-print-a4": "d83e1c1920dacd02292b0e8298e46e6a9e07228864eadc6c345fd6a47f8b116e"
   },
   "assets": [
     {
@@ -2306,17 +2310,17 @@
       "relation": "authored",
       "storage": "canonical",
       "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:43.769Z"
+      },
       "external_inputs": [],
       "built_from": [
         {
           "id": "jp-isen-saved-source16",
           "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:43.769Z"
-      }
+      ]
     },
     {
       "id": "jp-isen-reading-pdf",
@@ -2450,17 +2454,17 @@
       "relation": "authored",
       "storage": "canonical",
       "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:43.769Z"
+      },
       "external_inputs": [],
       "built_from": [
         {
           "id": "jp-isen-saved-source16",
           "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:43.769Z"
-      }
+      ]
     },
     {
       "id": "jp-isen-overview-09",
@@ -2474,17 +2478,17 @@
       "relation": "authored",
       "storage": "canonical",
       "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:43.769Z"
+      },
       "external_inputs": [],
       "built_from": [
         {
           "id": "jp-isen-saved-source16",
           "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:43.769Z"
-      }
+      ]
     },
     {
       "id": "jp-isen-reading-pdf",
@@ -3458,17 +3462,17 @@
       "relation": "authored",
       "storage": "canonical",
       "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:43.769Z"
+      },
       "external_inputs": [],
       "built_from": [
         {
           "id": "jp-isen-saved-source16",
           "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:43.769Z"
-      }
+      ]
     },
     {
       "id": "jp-isen-print-a3",
@@ -3482,17 +3486,17 @@
       "relation": "authored",
       "storage": "canonical",
       "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:43.769Z"
+      },
       "external_inputs": [],
       "built_from": [
         {
           "id": "jp-isen-saved-source16",
           "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:43.769Z"
-      }
+      ]
     },
     {
       "id": "jp-isen-print-a4",
@@ -3506,17 +3510,17 @@
       "relation": "authored",
       "storage": "canonical",
       "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:43.769Z"
+      },
       "external_inputs": [],
       "built_from": [
         {
           "id": "jp-isen-saved-source16",
           "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:43.769Z"
-      }
+      ]
     },
     {
       "id": "jp-isen-master-pdf",
@@ -3530,17 +3534,17 @@
       "relation": "authored",
       "storage": "canonical",
       "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:43.769Z"
+      },
       "external_inputs": [],
       "built_from": [
         {
           "id": "jp-isen-saved-source16",
           "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:43.769Z"
-      }
+      ]
     },
     {
       "id": "jp-isen-assembly-proof",
@@ -3554,17 +3558,17 @@
       "relation": "authored",
       "storage": "canonical",
       "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:43.769Z"
+      },
       "external_inputs": [],
       "built_from": [
         {
           "id": "jp-isen-saved-source16",
           "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:43.769Z"
-      }
+      ]
     },
     {
       "id": "jp-isen-overview-01",
@@ -3578,17 +3582,341 @@
       "relation": "authored",
       "storage": "canonical",
       "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:43.769Z"
+      },
       "external_inputs": [],
       "built_from": [
         {
           "id": "jp-isen-saved-source16",
           "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
         }
-      ],
+      ]
+    },
+    {
+      "id": "jp-isen-r11-source-reading",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "pdf",
+      "revision": "877ac9a68ab8c468e92c661bc3c17a8bba533ef34b4222b0311c132e704e8e97",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-r11-source-reading/877ac9a68ab8c468e92c661bc3c17a8bba533ef34b4222b0311c132e704e8e97/jp-isen-r11-source-reading.pdf",
+      "sha256": "877ac9a68ab8c468e92c661bc3c17a8bba533ef34b4222b0311c132e704e8e97",
+      "size": 6815503,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
       "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:43.769Z"
-      }
+        "reason": "Fixed R11 input for the R12 English-name correction. Original PDF bytes retained; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:18:36.106Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-reading-pdf",
+          "revision": "877ac9a68ab8c468e92c661bc3c17a8bba533ef34b4222b0311c132e704e8e97"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-r11-source-master",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "pdf",
+      "revision": "bb1767b2cfdaab7d99a6f096b93b66de2ef90b965d30aef443b3ef002e499d4f",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-r11-source-master/bb1767b2cfdaab7d99a6f096b93b66de2ef90b965d30aef443b3ef002e499d4f/jp-isen-r11-source-master.pdf",
+      "sha256": "bb1767b2cfdaab7d99a6f096b93b66de2ef90b965d30aef443b3ef002e499d4f",
+      "size": 125948859,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Fixed R11 input for the R12 English-name correction. Original PDF bytes retained; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:18:37.298Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-master-pdf",
+          "revision": "bb1767b2cfdaab7d99a6f096b93b66de2ef90b965d30aef443b3ef002e499d4f"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-r11-source-print-a3",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "pdf",
+      "revision": "f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-r11-source-print-a3/f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b/jp-isen-r11-source-print-a3.pdf",
+      "sha256": "f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b",
+      "size": 4123371,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Fixed R11 input for the R12 English-name correction. Original PDF bytes retained; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:18:38.371Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-print-a3",
+          "revision": "f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-r11-source-print-a4",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "pdf",
+      "revision": "d83e1c1920dacd02292b0e8298e46e6a9e07228864eadc6c345fd6a47f8b116e",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-r11-source-print-a4/d83e1c1920dacd02292b0e8298e46e6a9e07228864eadc6c345fd6a47f8b116e/jp-isen-r11-source-print-a4.pdf",
+      "sha256": "d83e1c1920dacd02292b0e8298e46e6a9e07228864eadc6c345fd6a47f8b116e",
+      "size": 2720971,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Fixed R11 input for the R12 English-name correction. Original PDF bytes retained; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:18:39.220Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-print-a4",
+          "revision": "d83e1c1920dacd02292b0e8298e46e6a9e07228864eadc6c345fd6a47f8b116e"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-reading-pdf",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "pdf",
+      "revision": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f/jp-isen-reading-pdf.pdf",
+      "sha256": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f",
+      "size": 6785652,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R12: English school name read from school.yaml, three fields replaced in the fixed R11 PDF. Images and all outside-field pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:18:40.144Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-r11-source-reading",
+          "revision": "877ac9a68ab8c468e92c661bc3c17a8bba533ef34b4222b0311c132e704e8e97"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-master-pdf",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "pdf",
+      "revision": "4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-master-pdf/4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010/jp-isen-master-pdf.pdf",
+      "sha256": "4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010",
+      "size": 125949943,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R12: English school name read from school.yaml, three fields replaced in the fixed R11 PDF. Images and all outside-field pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:18:41.410Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-r11-source-master",
+          "revision": "bb1767b2cfdaab7d99a6f096b93b66de2ef90b965d30aef443b3ef002e499d4f"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-print-a3",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "pdf",
+      "revision": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035/jp-isen-print-a3.pdf",
+      "sha256": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035",
+      "size": 4094202,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R12: English school name read from school.yaml, three fields replaced in the fixed R11 PDF. Images and all outside-field pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:18:42.625Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-r11-source-print-a3",
+          "revision": "f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-print-a4",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "pdf",
+      "revision": "ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a4/ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea/jp-isen-print-a4.pdf",
+      "sha256": "ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea",
+      "size": 2691798,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R12: English school name read from school.yaml, three fields replaced in the fixed R11 PDF. Images and all outside-field pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:18:43.514Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-r11-source-print-a4",
+          "revision": "d83e1c1920dacd02292b0e8298e46e6a9e07228864eadc6c345fd6a47f8b116e"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-assembly-proof",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "text",
+      "revision": "c25b73ee6a607e46156417b5ab4432fccddfd31e11236d022baecfefc28f780e",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-assembly-proof/c25b73ee6a607e46156417b5ab4432fccddfd31e11236d022baecfefc28f780e/jp-isen-assembly-proof.json",
+      "sha256": "c25b73ee6a607e46156417b5ab4432fccddfd31e11236d022baecfefc28f780e",
+      "size": 6539,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R12: English school name read from school.yaml, three fields replaced in the fixed R11 PDF. Images and all outside-field pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:18:44.389Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-reading-pdf",
+          "revision": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f"
+        },
+        {
+          "id": "jp-isen-master-pdf",
+          "revision": "4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010"
+        },
+        {
+          "id": "jp-isen-print-a3",
+          "revision": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035"
+        },
+        {
+          "id": "jp-isen-print-a4",
+          "revision": "ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-overview-01",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "image",
+      "revision": "2f5e4dfe8e0ff9c475c04d21abd3a4f96b84ba9c7138d24b0619d3ef9db4b4f2",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-01/2f5e4dfe8e0ff9c475c04d21abd3a4f96b84ba9c7138d24b0619d3ef9db4b4f2/jp-isen-overview-01.jpg",
+      "sha256": "2f5e4dfe8e0ff9c475c04d21abd3a4f96b84ba9c7138d24b0619d3ef9db4b4f2",
+      "size": 645619,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R12: English school name read from school.yaml, three fields replaced in the fixed R11 PDF. Images and all outside-field pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:18:46.314Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-reading-pdf",
+          "revision": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-overview-05",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "image",
+      "revision": "62b99ce0576d0d8bc0341ae429a1e210c0e393a439d720478b9355b7a3013386",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-05/62b99ce0576d0d8bc0341ae429a1e210c0e393a439d720478b9355b7a3013386/jp-isen-overview-05.jpg",
+      "sha256": "62b99ce0576d0d8bc0341ae429a1e210c0e393a439d720478b9355b7a3013386",
+      "size": 721803,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R12: English school name read from school.yaml, three fields replaced in the fixed R11 PDF. Images and all outside-field pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:18:47.283Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-reading-pdf",
+          "revision": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-overview-09",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "image",
+      "revision": "dbf60ca99229360c6477a707a743821f5e785ff3a3e2a66af5a693aed2ede9eb",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-09/dbf60ca99229360c6477a707a743821f5e785ff3a3e2a66af5a693aed2ede9eb/jp-isen-overview-09.jpg",
+      "sha256": "dbf60ca99229360c6477a707a743821f5e785ff3a3e2a66af5a693aed2ede9eb",
+      "size": 678165,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R12: English school name read from school.yaml, three fields replaced in the fixed R11 PDF. Images and all outside-field pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:18:48.249Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-reading-pdf",
+          "revision": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f"
+        }
+      ]
+    },
+    {
+      "id": "jp-isen-overview-13",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "image",
+      "revision": "63ddc976486b6461147409d6fb3f5f267b5ec959865ede530370b7b83e7f1bbf",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-13/63ddc976486b6461147409d6fb3f5f267b5ec959865ede530370b7b83e7f1bbf/jp-isen-overview-13.jpg",
+      "sha256": "63ddc976486b6461147409d6fb3f5f267b5ec959865ede530370b7b83e7f1bbf",
+      "size": 377221,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R12: English school name read from school.yaml, three fields replaced in the fixed R11 PDF. Images and all outside-field pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:18:49.124Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-reading-pdf",
+          "revision": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f"
+        }
+      ]
     }
   ]
 }

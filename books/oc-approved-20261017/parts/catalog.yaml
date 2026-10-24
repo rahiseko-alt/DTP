@@ -94,7 +94,9 @@
     "jp-oc-parent-r4-front": "2584111d22c2ff09698c805f682edf9d1900f7687822878430b8a097a6d8eece",
     "jp-oc-parent-r4-download": "603539eae58342d9707b1f6b0f0e3873259ad69b5c59a7e6aaa5aa527badb6ef",
     "jp-oc-three-r5-pdf": "5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5",
-    "jp-oc-three-r5-back": "7e30832219c64fcd9d3c2b71f4ca17ab15e5efebd2e1e89557f23475fab99bce"
+    "jp-oc-three-r5-back": "7e30832219c64fcd9d3c2b71f4ca17ab15e5efebd2e1e89557f23475fab99bce",
+    "jp-oc-english-r6-pdf": "49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee",
+    "jp-oc-english-r6-front": "ff16163bf2fb75f2c9b7b487d7f9d1c95322fc835d2ec8182e0de89a350f3d1f"
   },
   "assets": [
     {
@@ -2444,6 +2446,54 @@
         {
           "id": "jp-oc-three-r5-pdf",
           "revision": "5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-english-r6-pdf",
+      "variant": "original-art-english-name-r6",
+      "role": "support",
+      "media": "pdf",
+      "revision": "49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee",
+      "file": "books/oc-approved-20261017/parts/jp-oc-english-r6-pdf/49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee/jp-oc-english-r6-pdf.pdf",
+      "sha256": "49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee",
+      "size": 17847665,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved OC R06: two English subtitles use school.yaml formal name. Both crests and every pixel outside those fields, including the entire R05 back, retained. Current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:58:54.466Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-oc-three-r5-pdf",
+          "revision": "5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5"
+        }
+      ]
+    },
+    {
+      "id": "jp-oc-english-r6-front",
+      "variant": "original-art-english-name-r6",
+      "role": "support",
+      "media": "image",
+      "revision": "ff16163bf2fb75f2c9b7b487d7f9d1c95322fc835d2ec8182e0de89a350f3d1f",
+      "file": "books/oc-approved-20261017/parts/jp-oc-english-r6-front/ff16163bf2fb75f2c9b7b487d7f9d1c95322fc835d2ec8182e0de89a350f3d1f/jp-oc-english-r6-front.png",
+      "sha256": "ff16163bf2fb75f2c9b7b487d7f9d1c95322fc835d2ec8182e0de89a350f3d1f",
+      "size": 3004243,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved OC R06: two English subtitles use school.yaml formal name. Both crests and every pixel outside those fields, including the entire R05 back, retained. Current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:59:26.024Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-oc-english-r6-pdf",
+          "revision": "49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee"
         }
       ]
     }

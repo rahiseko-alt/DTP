@@ -1,0 +1,36 @@
+{
+  "mode": "preview",
+  "edition": "OC-R06-English-school-name",
+  "pdf_sha256": "49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee",
+  "pages_seen": [
+    1,
+    2
+  ],
+  "english_name_fields": 2,
+  "formal_name": "Artificial Intelligence Business College",
+  "crests": "Both original R05 crests retained; no official logo asset changed.",
+  "visual_rounds": [
+    {
+      "round": 1,
+      "finding": "Fine stitching lines in the interpolated blue background panel.",
+      "fix": "Overlap native PDF background tiles; rerendered from the immutable R05 source."
+    },
+    {
+      "round": 2,
+      "result": "Both enlarged English fields are clean and readable without old letter fragments or stitching. Full front and back opened for inspection."
+    }
+  ],
+  "verification_file": "downloads/english-name-20261023/oc/verification.json",
+  "checks": {
+    "native_school_name_count": 2,
+    "other_text_unchanged": true,
+    "outside_fields_pixels_identical": true,
+    "crests_pixel_identical": true,
+    "back_page_pixel_identical": true,
+    "stored_image_streams_unchanged": true,
+    "png_pdf_qr_checks": 4
+  },
+  "verification_note": "MuPDF extract_image affected its decoded image cache and changed subsequent in-memory color rendition. The verifier now hashes untouched compressed image streams directly and confirms fresh PDF renders match saved PNGs. Brochure verifier updated and its four PDFs reverified successfully; brochure PDF bytes unchanged.",
+  "independent_review": false,
+  "print_test": false
+}

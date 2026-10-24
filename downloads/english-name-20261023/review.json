@@ -1,0 +1,114 @@
+{
+  "mode": "preview",
+  "edition": "R12",
+  "formal_name": "Artificial Intelligence Business College",
+  "pdf_sha256": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f",
+  "pages_seen": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "source_comparison": "R11 source-get receipts. English fields on PDF 10/11/16 replaced; all other pixels and text are identical in all four output PDFs.",
+  "visual_findings": [
+    {
+      "round": 1,
+      "issue": "P11 starts farther left than P10, leaving part of the first old letter outside the initial mask.",
+      "resolution": "P11 mask extended to x16 pt, new text starts x18 pt. Rebuilt all four outputs."
+    },
+    {
+      "round": 2,
+      "result": "Final three English labels and the A3/A4 imposed counterparts were opened enlarged; no old letter fragments, overlap, or clipping. All 16 final reading pages viewed as four rendered contact sheets."
+    }
+  ],
+  "verification_file": "downloads/english-name-20261023/verification.json",
+  "images_unchanged": true,
+  "photos_regenerated": false,
+  "independent_review": false,
+  "print_test": false,
+  "admissions_scope": {
+    "pages_seen": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "horizontal_english_name": "Artificial Intelligence Business College",
+    "logo_appearances": [
+      1,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      24
+    ],
+    "logo_image_pixels_match_official_source": true,
+    "crest_outer_ring": "CENTRAL INTERNATIONAL COLLEGE OF AI AND BUSINESS",
+    "crest_change": "2026-10-23 user answer: retain the original official logo, including its outer-ring English. Admissions PDF and logo remain byte-identical to the verified source. This is an explicit preservation instruction, not an unresolved correction."
+  },
+  "doctor": {
+    "ok": 10,
+    "warn": 1,
+    "ng": 0,
+    "warning": "Playwright pinned Chromium unavailable; existing Chromium used for environment diagnostics."
+  },
+  "npm_check": {
+    "status": "failed",
+    "typecheck": "passed",
+    "validate": {
+      "errors": 0,
+      "warnings": 189
+    },
+    "tests": {
+      "passed": 475,
+      "failed": 7,
+      "skipped": 7
+    },
+    "failed_areas": [
+      "Pinned Playwright Chromium is unavailable for browser/release checks",
+      "Existing ref:ingest and photo:add CLI argument/expectation failures"
+    ],
+    "paper_verification": "passed; verification.json covers all four output PDFs"
+  },
+  "required_ci": {
+    "tested_head": "3f8fc1b252af52701fba425a16ef0c9263032045",
+    "check": "asset-integrity",
+    "conclusion": "SUCCESS",
+    "run_url": "https://github.com/rahiseko-alt/DTP/actions/runs/39917281115",
+    "scope": "This instruction-record update changes documentation only; PDF, code and catalog bytes match the tested head."
+  }
+}
