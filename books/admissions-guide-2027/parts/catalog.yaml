@@ -86,7 +86,20 @@
     "plain-r03-overview-17": "07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe",
     "plain-r03-overview-21": "1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b",
     "plain-r03-page-02": "706e523c7d4b2372bcd4d60435d666657967f93783d459d1f086082d93e56412",
-    "plain-r03-page-03": "e9d97fe960c4d86479e55f1ae179efbdacbea1bec72c85a7c1af0efae1ebcb85"
+    "plain-r03-page-03": "e9d97fe960c4d86479e55f1ae179efbdacbea1bec72c85a7c1af0efae1ebcb85",
+    "navy-cover-2027-html": "8b776b31b2c82074505d5dc06d5530416d75b59b317e04ac2761452d88791087",
+    "navy-cover-2027-pdf": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e",
+    "navy-cover-adoption-builder": "79655ac690f0751c3e8bbecc625c2b4b800da39d9141a83edd0b85dcc36ef8f5",
+    "photo-cover-r01-reading-pdf": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a",
+    "plain-r04-reading-pdf": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257",
+    "plain-r04-print-a3": "3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192",
+    "navy-plain-cover": "4bbd946b1a4cca73224a3f0a577fb5a806e5d17cbc4d7069ecc5c7b4bcbccf2a",
+    "navy-photo-back-cover": "d13d229c34c70fb9a3cea002358336581bbbe6d2ddc20c65cfdab3338992d0c3",
+    "navy-plain-back-cover": "405c403ea7dcbc213632865eadfbb288213b5bc37b07c9dea7c2888b971c5d39",
+    "navy-photo-overview-01": "13ddabf4cc0c422da76988fb4fe74803a31c1c11bd8a052c0c97a04b7e65bc27",
+    "navy-plain-overview-01": "8f3f33578e804c77d8f185c5231764bc59230d5d35186ac261e18e5e4f9996cd",
+    "navy-cover-adoption-manifest": "4ce49fcd65aede5a12d771d0fad09118320b0530181534e59877a9a1487aaf5a",
+    "navy-cover-adoption-verification": "7dc4fd103aaf1966a715667bec543f34b97cf623d90d519c3812997566838d38"
   },
   "assets": [
     {
@@ -3589,6 +3602,352 @@
         {
           "id": "plain-r03-reading-pdf",
           "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2"
+        }
+      ]
+    },
+    {
+      "id": "navy-cover-2027-html",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "text",
+      "revision": "8b776b31b2c82074505d5dc06d5530416d75b59b317e04ac2761452d88791087",
+      "file": "books/admissions-guide-2027/parts/navy-cover-2027-html/8b776b31b2c82074505d5dc06d5530416d75b59b317e04ac2761452d88791087/navy-cover-2027-html.html",
+      "sha256": "8b776b31b2c82074505d5dc06d5530416d75b59b317e04ac2761452d88791087",
+      "size": 2151,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:20.054Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "navy-cover-2027-pdf",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "pdf",
+      "revision": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e",
+      "file": "books/admissions-guide-2027/parts/navy-cover-2027-pdf/e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e/navy-cover-2027-pdf.pdf",
+      "sha256": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e",
+      "size": 71927,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:20.736Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "navy-cover-2027-html",
+          "revision": "8b776b31b2c82074505d5dc06d5530416d75b59b317e04ac2761452d88791087"
+        }
+      ]
+    },
+    {
+      "id": "navy-cover-adoption-builder",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "text",
+      "revision": "79655ac690f0751c3e8bbecc625c2b4b800da39d9141a83edd0b85dcc36ef8f5",
+      "file": "books/admissions-guide-2027/parts/navy-cover-adoption-builder/79655ac690f0751c3e8bbecc625c2b4b800da39d9141a83edd0b85dcc36ef8f5/navy-cover-adoption-builder.py",
+      "sha256": "79655ac690f0751c3e8bbecc625c2b4b800da39d9141a83edd0b85dcc36ef8f5",
+      "size": 3998,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:21.446Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "photo-cover-r01-reading-pdf",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "pdf",
+      "revision": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a",
+      "file": "books/admissions-guide-2027/parts/photo-cover-r01-reading-pdf/b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a/photo-cover-r01-reading-pdf.pdf",
+      "sha256": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a",
+      "size": 14635113,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:22.184Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        },
+        {
+          "id": "navy-cover-2027-pdf",
+          "revision": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e"
+        },
+        {
+          "id": "navy-cover-adoption-builder",
+          "revision": "79655ac690f0751c3e8bbecc625c2b4b800da39d9141a83edd0b85dcc36ef8f5"
+        }
+      ]
+    },
+    {
+      "id": "plain-r04-reading-pdf",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "pdf",
+      "revision": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257",
+      "file": "books/admissions-guide-2027/parts/plain-r04-reading-pdf/0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257/plain-r04-reading-pdf.pdf",
+      "sha256": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257",
+      "size": 3214108,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:22.884Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-reading-pdf",
+          "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2"
+        },
+        {
+          "id": "navy-cover-2027-pdf",
+          "revision": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e"
+        },
+        {
+          "id": "navy-cover-adoption-builder",
+          "revision": "79655ac690f0751c3e8bbecc625c2b4b800da39d9141a83edd0b85dcc36ef8f5"
+        }
+      ]
+    },
+    {
+      "id": "plain-r04-print-a3",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "pdf",
+      "revision": "3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192",
+      "file": "books/admissions-guide-2027/parts/plain-r04-print-a3/3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192/plain-r04-print-a3.pdf",
+      "sha256": "3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192",
+      "size": 3219966,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:23.609Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-print-a3",
+          "revision": "088b4888748ae7914697eaa3134c0179d277223843e78d052435ebff9360c008"
+        },
+        {
+          "id": "navy-cover-2027-pdf",
+          "revision": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e"
+        },
+        {
+          "id": "navy-cover-adoption-builder",
+          "revision": "79655ac690f0751c3e8bbecc625c2b4b800da39d9141a83edd0b85dcc36ef8f5"
+        },
+        {
+          "id": "plain-r04-reading-pdf",
+          "revision": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257"
+        }
+      ]
+    },
+    {
+      "id": "navy-plain-cover",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "image",
+      "revision": "4bbd946b1a4cca73224a3f0a577fb5a806e5d17cbc4d7069ecc5c7b4bcbccf2a",
+      "file": "books/admissions-guide-2027/parts/navy-plain-cover/4bbd946b1a4cca73224a3f0a577fb5a806e5d17cbc4d7069ecc5c7b4bcbccf2a/navy-plain-cover.png",
+      "sha256": "4bbd946b1a4cca73224a3f0a577fb5a806e5d17cbc4d7069ecc5c7b4bcbccf2a",
+      "size": 33881,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:24.349Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r04-reading-pdf",
+          "revision": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257"
+        }
+      ]
+    },
+    {
+      "id": "navy-photo-back-cover",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "image",
+      "revision": "d13d229c34c70fb9a3cea002358336581bbbe6d2ddc20c65cfdab3338992d0c3",
+      "file": "books/admissions-guide-2027/parts/navy-photo-back-cover/d13d229c34c70fb9a3cea002358336581bbbe6d2ddc20c65cfdab3338992d0c3/navy-photo-back-cover.png",
+      "sha256": "d13d229c34c70fb9a3cea002358336581bbbe6d2ddc20c65cfdab3338992d0c3",
+      "size": 998511,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:25.031Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "photo-cover-r01-reading-pdf",
+          "revision": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a"
+        }
+      ]
+    },
+    {
+      "id": "navy-plain-back-cover",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "image",
+      "revision": "405c403ea7dcbc213632865eadfbb288213b5bc37b07c9dea7c2888b971c5d39",
+      "file": "books/admissions-guide-2027/parts/navy-plain-back-cover/405c403ea7dcbc213632865eadfbb288213b5bc37b07c9dea7c2888b971c5d39/navy-plain-back-cover.png",
+      "sha256": "405c403ea7dcbc213632865eadfbb288213b5bc37b07c9dea7c2888b971c5d39",
+      "size": 33005,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:25.706Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r04-reading-pdf",
+          "revision": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257"
+        }
+      ]
+    },
+    {
+      "id": "navy-photo-overview-01",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "image",
+      "revision": "13ddabf4cc0c422da76988fb4fe74803a31c1c11bd8a052c0c97a04b7e65bc27",
+      "file": "books/admissions-guide-2027/parts/navy-photo-overview-01/13ddabf4cc0c422da76988fb4fe74803a31c1c11bd8a052c0c97a04b7e65bc27/navy-photo-overview-01.jpg",
+      "sha256": "13ddabf4cc0c422da76988fb4fe74803a31c1c11bd8a052c0c97a04b7e65bc27",
+      "size": 378148,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:26.402Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "photo-cover-r01-reading-pdf",
+          "revision": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a"
+        }
+      ]
+    },
+    {
+      "id": "navy-plain-overview-01",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "image",
+      "revision": "8f3f33578e804c77d8f185c5231764bc59230d5d35186ac261e18e5e4f9996cd",
+      "file": "books/admissions-guide-2027/parts/navy-plain-overview-01/8f3f33578e804c77d8f185c5231764bc59230d5d35186ac261e18e5e4f9996cd/navy-plain-overview-01.jpg",
+      "sha256": "8f3f33578e804c77d8f185c5231764bc59230d5d35186ac261e18e5e4f9996cd",
+      "size": 320382,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:27.195Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r04-reading-pdf",
+          "revision": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257"
+        }
+      ]
+    },
+    {
+      "id": "navy-cover-adoption-manifest",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "text",
+      "revision": "4ce49fcd65aede5a12d771d0fad09118320b0530181534e59877a9a1487aaf5a",
+      "file": "books/admissions-guide-2027/parts/navy-cover-adoption-manifest/4ce49fcd65aede5a12d771d0fad09118320b0530181534e59877a9a1487aaf5a/navy-cover-adoption-manifest.json",
+      "sha256": "4ce49fcd65aede5a12d771d0fad09118320b0530181534e59877a9a1487aaf5a",
+      "size": 3820,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:27.970Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "photo-cover-r01-reading-pdf",
+          "revision": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a"
+        },
+        {
+          "id": "plain-r04-reading-pdf",
+          "revision": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257"
+        },
+        {
+          "id": "plain-r04-print-a3",
+          "revision": "3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192"
+        }
+      ]
+    },
+    {
+      "id": "navy-cover-adoption-verification",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "text",
+      "revision": "7dc4fd103aaf1966a715667bec543f34b97cf623d90d519c3812997566838d38",
+      "file": "books/admissions-guide-2027/parts/navy-cover-adoption-verification/7dc4fd103aaf1966a715667bec543f34b97cf623d90d519c3812997566838d38/navy-cover-adoption-verification.json",
+      "sha256": "7dc4fd103aaf1966a715667bec543f34b97cf623d90d519c3812997566838d38",
+      "size": 11893,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:28.786Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "photo-cover-r01-reading-pdf",
+          "revision": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a"
+        },
+        {
+          "id": "plain-r04-reading-pdf",
+          "revision": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257"
+        },
+        {
+          "id": "plain-r04-print-a3",
+          "revision": "3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192"
         }
       ]
     }

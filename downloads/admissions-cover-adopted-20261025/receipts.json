@@ -1,0 +1,160 @@
+{
+  "photo": {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "a68327a185fb426cf2086710493b3dc4d8298432",
+      "branch": "book/admissions-cover-trial-20261025",
+      "dirty": true,
+      "fingerprint": "46aa30797f72c9c8b04db2371d258932849c7c3e0e97f2220d63e6415bcaf281"
+    },
+    "document_id": "admissions-guide-2027",
+    "asset": {
+      "id": "standard-rendered-pdf",
+      "variant": "standard-render",
+      "role": "reconstructed-preview",
+      "media": "pdf",
+      "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052",
+      "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-pdf/17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052/standard-rendered-pdf.pdf",
+      "sha256": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052",
+      "size": 19357455,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
+      "external_inputs": [],
+      "external_input_globs": [
+        {
+          "pattern": "company-data/{facts,brand,copy,photos}/**/*",
+          "sha256": "7e61438f93ee75036f6b8e15eb275698b1aec174ac5c9a39549adba363bd3cc4"
+        },
+        {
+          "pattern": "shared/{components,layouts,generated-assets}/**/*",
+          "sha256": "ecd47ad505905a84de676c99e86e077efd5797f6cdde762d9beb32f7abab74f0"
+        },
+        {
+          "pattern": "books/admissions-guide-2027/{config/book.yaml,pages/**/*,components/**/*,backgrounds/**/*,layout.css}",
+          "sha256": "b6656b6d91815a1f1bbaf78b436fd49729303036d4f3a0c2c60907bb1051f395"
+        },
+        {
+          "pattern": "system/design-engine/src/**/*",
+          "sha256": "68ba4a8d82109639895d9c834ec3be13e2e5f1ba172bf50f61defdfcd668168f"
+        },
+        {
+          "pattern": "system/scripts/{render.ts,standard-book-rebuild.ts,lib/**/*}",
+          "sha256": "ae2bddc52aaa624eecf4711ebc222ebdfc128136937b1edcedd887481de04478"
+        },
+        {
+          "pattern": "package{,-lock}.json",
+          "sha256": "dcd55479c81b320c9adc49094fa98f0dbd9bd97e2c59d1eccf6131aeef808db4"
+        }
+      ],
+      "built_from": [
+        {
+          "id": "standard-render-config",
+          "revision": "a5903118f91db71d42444363b88c52523dc75b9c2a20af35448790b48a5e365f"
+        }
+      ]
+    },
+    "path": "books/admissions-guide-2027/output/standard-render/standard-rendered-pdf/17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052/standard-rendered-pdf.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    }
+  },
+  "plain": {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "a68327a185fb426cf2086710493b3dc4d8298432",
+      "branch": "book/admissions-cover-trial-20261025",
+      "dirty": true,
+      "fingerprint": "46aa30797f72c9c8b04db2371d258932849c7c3e0e97f2220d63e6415bcaf281"
+    },
+    "document_id": "admissions-guide-2027",
+    "asset": {
+      "id": "plain-r03-reading-pdf",
+      "variant": "plain-no-photo-r03",
+      "role": "support",
+      "media": "pdf",
+      "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2",
+      "file": "books/admissions-guide-2027/parts/plain-r03-reading-pdf/2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2/plain-r03-reading-pdf.pdf",
+      "sha256": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2",
+      "size": 3278503,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R03: Only the three user-specified areas on saved R02 pages 2-3: TOC P7/P11-22 white, total59 card white/navy, admission-permission card white with gold top stripe. No other paper changes. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-25T00:20:15.804Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        },
+        {
+          "id": "plain-r03-color-policy",
+          "revision": "bc54663f9261ed15321a0129e15bc5f2dbb42a46881c080836f4a10ef81747c4"
+        }
+      ]
+    },
+    "path": "books/admissions-guide-2027/parts/plain-r03-reading-pdf/2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2/plain-r03-reading-pdf.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    }
+  },
+  "print_a3": {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "a68327a185fb426cf2086710493b3dc4d8298432",
+      "branch": "book/admissions-cover-trial-20261025",
+      "dirty": true,
+      "fingerprint": "46aa30797f72c9c8b04db2371d258932849c7c3e0e97f2220d63e6415bcaf281"
+    },
+    "document_id": "admissions-guide-2027",
+    "asset": {
+      "id": "plain-r03-print-a3",
+      "variant": "plain-no-photo-r03",
+      "role": "support",
+      "media": "pdf",
+      "revision": "088b4888748ae7914697eaa3134c0179d277223843e78d052435ebff9360c008",
+      "file": "books/admissions-guide-2027/parts/plain-r03-print-a3/088b4888748ae7914697eaa3134c0179d277223843e78d052435ebff9360c008/plain-r03-print-a3.pdf",
+      "sha256": "088b4888748ae7914697eaa3134c0179d277223843e78d052435ebff9360c008",
+      "size": 3284156,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R03: Only the three user-specified areas on saved R02 pages 2-3: TOC P7/P11-22 white, total59 card white/navy, admission-permission card white with gold top stripe. No other paper changes. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-25T00:20:16.580Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-reading-pdf",
+          "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2"
+        },
+        {
+          "id": "plain-r03-color-policy",
+          "revision": "bc54663f9261ed15321a0129e15bc5f2dbb42a46881c080836f4a10ef81747c4"
+        }
+      ]
+    },
+    "path": "books/admissions-guide-2027/parts/plain-r03-print-a3/088b4888748ae7914697eaa3134c0179d277223843e78d052435ebff9360c008/plain-r03-print-a3.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    }
+  }
+}

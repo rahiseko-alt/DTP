@@ -1,0 +1,451 @@
+{
+  "verified": true,
+  "outputs": [
+    {
+      "kind": "photo",
+      "sha256": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a",
+      "pages": [
+        {
+          "page": 1,
+          "changed": true,
+          "unchanged_pixels_verified": false,
+          "native_content_fonts_and_images_identical": false
+        },
+        {
+          "page": 2,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 3,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 4,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 5,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 6,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 7,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 8,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 9,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 10,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 11,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 12,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 13,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 14,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 15,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 16,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 17,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 18,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 19,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 20,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 21,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 22,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 23,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 24,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        }
+      ],
+      "only_cover_changed": true,
+      "back_cover_identical": true
+    },
+    {
+      "kind": "plain",
+      "sha256": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257",
+      "pages": [
+        {
+          "page": 1,
+          "changed": true,
+          "unchanged_pixels_verified": false,
+          "native_content_fonts_and_images_identical": false
+        },
+        {
+          "page": 2,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 3,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 4,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 5,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 6,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 7,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 8,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 9,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 10,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 11,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 12,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 13,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 14,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 15,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 16,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 17,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 18,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 19,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 20,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 21,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 22,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 23,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 24,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        }
+      ],
+      "only_cover_changed": true,
+      "back_cover_identical": true
+    },
+    {
+      "kind": "print-a3",
+      "sha256": "3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192",
+      "pages": [
+        {
+          "page": 1,
+          "changed": true,
+          "unchanged_pixels_verified": false,
+          "native_content_fonts_and_images_identical": false
+        },
+        {
+          "page": 2,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 3,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 4,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 5,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 6,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 7,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 8,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 9,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 10,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 11,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        },
+        {
+          "page": 12,
+          "changed": false,
+          "unchanged_pixels_verified": true,
+          "native_content_fonts_and_images_identical": true
+        }
+      ],
+      "only_cover_changed": true,
+      "back_cover_identical": true
+    }
+  ],
+  "faces": [
+    [
+      24,
+      1
+    ],
+    [
+      2,
+      23
+    ],
+    [
+      22,
+      3
+    ],
+    [
+      4,
+      21
+    ],
+    [
+      20,
+      5
+    ],
+    [
+      6,
+      19
+    ],
+    [
+      18,
+      7
+    ],
+    [
+      8,
+      17
+    ],
+    [
+      16,
+      9
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      14,
+      11
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "qr_decoded": {
+    "photo": [
+      "https://kaihougakuen.my.canva.site/"
+    ],
+    "plain": [
+      "https://kaihougakuen.my.canva.site/"
+    ]
+  },
+  "protected_old_files_unchanged": true,
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false
+}
