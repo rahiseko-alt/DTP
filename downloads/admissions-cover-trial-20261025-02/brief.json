@@ -1,0 +1,27 @@
+{
+  "id": "ADM-JP-COVER-TRIAL-2027-02",
+  "status": "試作・未採用・確定版未反映",
+  "year": "2027年度入学生",
+  "titles": [
+    "募集要項",
+    "願書"
+  ],
+  "publisher": "学校法人海鵬学園",
+  "logo": "company-data/brand/logo/logo-horizontal.png",
+  "layout": "紺を全面ベースにした左揃え。年度と細線を金、募集要項/願書は大きな白の明朝。下部に小さな発行元と原本ロゴ。",
+  "exclude": [
+    "学科名",
+    "定員",
+    "修業年限",
+    "説明文",
+    "11-22",
+    "切り取り案内",
+    "独立した2027の重複表示",
+    "写真"
+  ],
+  "preserve_approved_edition": true,
+  "release": false,
+  "navy": "既存primaryの75%と黒25%を混色した濃紺",
+  "accent": "既存の金 #d9a21b",
+  "typeface": "Noto Serif JP 700（主題） / Noto Sans JP 400・700（年度・発行元）"
+}
