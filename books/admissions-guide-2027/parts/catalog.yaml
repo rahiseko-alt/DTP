@@ -45,7 +45,61 @@
     "latest-print-a3": "225673f6e213fe30d6297dc9fa0365266a946d4b18743ca5f4185191c12b175d",
     "latest-print-a4": "68dd61e2cc18695d6413d2bee64a568de2ca9b2b9ba440f2904b6a83db58b55d",
     "adopted-map-all-pages": "25588ebdbea9aebabc5587beb8babd7f5224a5521cbc1fdbfa976c34cc770ec5",
-    "adopted-map-comparison": "4789a4489963fae2293379d12e15a3e809694c0e4252003e31009a9242a8480e"
+    "adopted-map-comparison": "4789a4489963fae2293379d12e15a3e809694c0e4252003e31009a9242a8480e",
+    "plain-r01-brief": "d38fa25f12f770f93807d1ab7f41e0d255596d276c996ce522146332cc3d5357",
+    "plain-r01-cover-copy": "f6fc8317c42a3fb0102cf81e8b305cdb998f38ea2630a4f8c4db7973514663e4",
+    "plain-reading-pdf": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab",
+    "plain-print-a3": "1d9aad26fc250cfcfa84fb09df90d585c5d45aaa5d96bc6e6da194659ece598d",
+    "plain-print-a4": "bb62542a5835b6052ba5bd4f2c81cf4989460435312bec3c9d319b83c7554f9d",
+    "plain-r01-build-proof": "d4cc5d369391f02e6d8dd61e7689a114659be65d37012240d0d618df92868903",
+    "plain-cover": "ff8ff700f6b2f45b6a085f51d2d2360af8250287068dcd8be4fc7a62640e80be",
+    "plain-back-cover": "405c403ea7dcbc213632865eadfbb288213b5bc37b07c9dea7c2888b971c5d39",
+    "plain-overview-01": "8efa1ad2108c9557208801d3a639cd2ec9be6fe883ddb2aecfeb6c6fe9a73c23",
+    "plain-overview-05": "1adf8cb565fbf33d53f981ffc14681b2c7876e69fe6164a9adb29335efc5bd67",
+    "plain-overview-09": "22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573",
+    "plain-overview-13": "dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e",
+    "plain-overview-17": "07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe",
+    "plain-overview-21": "1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b",
+    "plain-r01-source-reading": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab",
+    "plain-r02-color-policy": "1209317e01c1627b1174856677756706ac0076ebdd4fa338b292ef0fa748ec28",
+    "plain-r02-reading-pdf": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b",
+    "plain-r02-print-a3": "4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521",
+    "plain-r02-print-a4": "b8f637ee00fb8d4375b6fd09be9a2bee9f5ec41b5eeea418ff75701cae1105c0",
+    "plain-r02-build-proof": "1c7c403828e99eb580a4d7f03d66d7957cc61cdc19ca486cbf462dc34c96ba61",
+    "plain-r02-overview-01": "b213413f0d6c9dd2441cacd3a6bab866b544dcd0322981c765fd8c3ada58535e",
+    "plain-r02-overview-05": "5b47f75e58b96784b5ebb2526d083e94a0640e2a3e94b939ad361892eebc1a8f",
+    "plain-r02-overview-09": "22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573",
+    "plain-r02-overview-13": "dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e",
+    "plain-r02-overview-17": "07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe",
+    "plain-r02-overview-21": "1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b",
+    "plain-r02-page-04": "68ee46bca7a6d3bd74434e2fa252ff9d578f9526af754354cc74c55b39040710",
+    "plain-r02-page-05": "5d16653195e028082eef315d7406149d845305d72be1bccfd977890dcb9c4382",
+    "plain-r03-color-policy": "bc54663f9261ed15321a0129e15bc5f2dbb42a46881c080836f4a10ef81747c4",
+    "plain-r03-reading-pdf": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2",
+    "plain-r03-print-a3": "088b4888748ae7914697eaa3134c0179d277223843e78d052435ebff9360c008",
+    "plain-r03-print-a4": "3d812b07969dc418ab4e722843f2780105477804fb2ef02eed0b372edebf87f1",
+    "plain-r03-build-proof": "7d71cc431818001b227df9cd5043ce9636ce666faf3b89fd2bada29d5118b055",
+    "plain-r03-overview-01": "a816b9679b0ec5e72c4a2d18d0cf036d1bce5b45b22c8886c37470946e4f8209",
+    "plain-r03-overview-05": "5b47f75e58b96784b5ebb2526d083e94a0640e2a3e94b939ad361892eebc1a8f",
+    "plain-r03-overview-09": "22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573",
+    "plain-r03-overview-13": "dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e",
+    "plain-r03-overview-17": "07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe",
+    "plain-r03-overview-21": "1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b",
+    "plain-r03-page-02": "706e523c7d4b2372bcd4d60435d666657967f93783d459d1f086082d93e56412",
+    "plain-r03-page-03": "e9d97fe960c4d86479e55f1ae179efbdacbea1bec72c85a7c1af0efae1ebcb85",
+    "navy-cover-2027-html": "8b776b31b2c82074505d5dc06d5530416d75b59b317e04ac2761452d88791087",
+    "navy-cover-2027-pdf": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e",
+    "navy-cover-adoption-builder": "79655ac690f0751c3e8bbecc625c2b4b800da39d9141a83edd0b85dcc36ef8f5",
+    "photo-cover-r01-reading-pdf": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a",
+    "plain-r04-reading-pdf": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257",
+    "plain-r04-print-a3": "3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192",
+    "navy-plain-cover": "4bbd946b1a4cca73224a3f0a577fb5a806e5d17cbc4d7069ecc5c7b4bcbccf2a",
+    "navy-photo-back-cover": "d13d229c34c70fb9a3cea002358336581bbbe6d2ddc20c65cfdab3338992d0c3",
+    "navy-plain-back-cover": "405c403ea7dcbc213632865eadfbb288213b5bc37b07c9dea7c2888b971c5d39",
+    "navy-photo-overview-01": "13ddabf4cc0c422da76988fb4fe74803a31c1c11bd8a052c0c97a04b7e65bc27",
+    "navy-plain-overview-01": "8f3f33578e804c77d8f185c5231764bc59230d5d35186ac261e18e5e4f9996cd",
+    "navy-cover-adoption-manifest": "4ce49fcd65aede5a12d771d0fad09118320b0530181534e59877a9a1487aaf5a",
+    "navy-cover-adoption-verification": "7dc4fd103aaf1966a715667bec543f34b97cf623d90d519c3812997566838d38"
   },
   "assets": [
     {
@@ -1086,6 +1140,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1118,11 +1176,7 @@
           "id": "standard-render-config",
           "revision": "a5903118f91db71d42444363b88c52523dc75b9c2a20af35448790b48a5e365f"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-001",
@@ -1137,6 +1191,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1169,11 +1227,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-002",
@@ -1188,6 +1242,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1220,11 +1278,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-003",
@@ -1239,6 +1293,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1271,11 +1329,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-004",
@@ -1290,6 +1344,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1322,11 +1380,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-005",
@@ -1341,6 +1395,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1373,11 +1431,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-007",
@@ -1392,6 +1446,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1424,11 +1482,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-006",
@@ -1443,6 +1497,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1475,11 +1533,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-008",
@@ -1494,6 +1548,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1526,11 +1584,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-015",
@@ -1545,6 +1599,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1577,11 +1635,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-017",
@@ -1596,6 +1650,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1628,11 +1686,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-009",
@@ -1647,6 +1701,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1679,11 +1737,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-018",
@@ -1698,6 +1752,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1730,11 +1788,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-010",
@@ -1749,6 +1803,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1781,11 +1839,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-019",
@@ -1800,6 +1854,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1832,11 +1890,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-011",
@@ -1851,6 +1905,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1883,11 +1941,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-020",
@@ -1902,6 +1956,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1934,11 +1992,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-012",
@@ -1953,6 +2007,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -1985,11 +2043,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-021",
@@ -2004,6 +2058,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -2036,11 +2094,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-013",
@@ -2055,6 +2109,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -2087,11 +2145,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-022",
@@ -2106,6 +2160,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -2138,11 +2196,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-014",
@@ -2157,6 +2211,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -2189,11 +2247,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-023",
@@ -2208,6 +2262,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -2240,11 +2298,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-016",
@@ -2259,6 +2313,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -2291,11 +2349,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "standard-rendered-page-024",
@@ -2310,6 +2364,10 @@
       "storage": "canonical",
       "confirmation": "verified",
       "input_provenance": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "external_input_globs": [
         {
@@ -2342,11 +2400,7 @@
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "adopted-map-print-builder",
@@ -2375,6 +2429,10 @@
       "relation": "authored",
       "storage": "canonical",
       "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "built_from": [
         {
@@ -2385,11 +2443,7 @@
           "id": "adopted-map-print-builder",
           "revision": "857fe82e258f8078ac1f0cdff60d6e09c38b7dd8d04ddba6c67c26e888260ba9"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "latest-print-a3",
@@ -2403,6 +2457,10 @@
       "relation": "authored",
       "storage": "canonical",
       "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "built_from": [
         {
@@ -2413,11 +2471,7 @@
           "id": "adopted-map-print-proof",
           "revision": "99de532945bb524480a448cfd6ba48bcde78084662e9c475069d15649bc2d30e"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "latest-print-a4",
@@ -2431,6 +2485,10 @@
       "relation": "authored",
       "storage": "canonical",
       "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "built_from": [
         {
@@ -2441,11 +2499,7 @@
           "id": "adopted-map-print-proof",
           "revision": "99de532945bb524480a448cfd6ba48bcde78084662e9c475069d15649bc2d30e"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "adopted-map-all-pages",
@@ -2459,17 +2513,17 @@
       "relation": "authored",
       "storage": "canonical",
       "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "built_from": [
         {
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
-      "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+      ]
     },
     {
       "id": "adopted-map-comparison",
@@ -2483,17 +2537,1419 @@
       "relation": "authored",
       "storage": "canonical",
       "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
       "external_inputs": [],
       "built_from": [
         {
           "id": "standard-rendered-pdf",
           "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
         }
-      ],
+      ]
+    },
+    {
+      "id": "plain-r01-brief",
+      "variant": "plain-no-photo-r01",
+      "role": "support",
+      "media": "text",
+      "revision": "d38fa25f12f770f93807d1ab7f41e0d255596d276c996ce522146332cc3d5357",
+      "file": "books/admissions-guide-2027/parts/plain-r01-brief/d38fa25f12f770f93807d1ab7f41e0d255596d276c996ce522146332cc3d5357/plain-r01-brief.json",
+      "sha256": "d38fa25f12f770f93807d1ab7f41e0d255596d276c996ce522146332cc3d5357",
+      "size": 1384,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
       "saved": {
-        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
-        "recorded_at": "2026-10-22T00:28:42.105Z"
-      }
+        "reason": "Separate photo-free R01 based on the fixed 2027 24-page admissions PDF. Six photographs and three related captions removed; photo-free typographic cover, original colors/text/tables/forms/logo/map/QR retained. Saved review edition; original edition and current standard-rendered-pdf ID are not replaced. Standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T22:59:52.246Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ]
+    },
+    {
+      "id": "plain-r01-cover-copy",
+      "variant": "plain-no-photo-r01",
+      "role": "support",
+      "media": "text",
+      "revision": "f6fc8317c42a3fb0102cf81e8b305cdb998f38ea2630a4f8c4db7973514663e4",
+      "file": "books/admissions-guide-2027/parts/plain-r01-cover-copy/f6fc8317c42a3fb0102cf81e8b305cdb998f38ea2630a4f8c4db7973514663e4/plain-r01-cover-copy.json",
+      "sha256": "f6fc8317c42a3fb0102cf81e8b305cdb998f38ea2630a4f8c4db7973514663e4",
+      "size": 618,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Separate photo-free R01 based on the fixed 2027 24-page admissions PDF. Six photographs and three related captions removed; photo-free typographic cover, original colors/text/tables/forms/logo/map/QR retained. Saved review edition; original edition and current standard-rendered-pdf ID are not replaced. Standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T22:59:52.908Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        }
+      ]
+    },
+    {
+      "id": "plain-reading-pdf",
+      "variant": "plain-no-photo-r01",
+      "role": "support",
+      "media": "pdf",
+      "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab",
+      "file": "books/admissions-guide-2027/parts/plain-reading-pdf/b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab/plain-reading-pdf.pdf",
+      "sha256": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab",
+      "size": 3278252,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Separate photo-free R01 based on the fixed 2027 24-page admissions PDF. Six photographs and three related captions removed; photo-free typographic cover, original colors/text/tables/forms/logo/map/QR retained. Saved review edition; original edition and current standard-rendered-pdf ID are not replaced. Standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T22:59:53.563Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        },
+        {
+          "id": "plain-r01-brief",
+          "revision": "d38fa25f12f770f93807d1ab7f41e0d255596d276c996ce522146332cc3d5357"
+        },
+        {
+          "id": "plain-r01-cover-copy",
+          "revision": "f6fc8317c42a3fb0102cf81e8b305cdb998f38ea2630a4f8c4db7973514663e4"
+        }
+      ]
+    },
+    {
+      "id": "plain-print-a3",
+      "variant": "plain-no-photo-r01",
+      "role": "support",
+      "media": "pdf",
+      "revision": "1d9aad26fc250cfcfa84fb09df90d585c5d45aaa5d96bc6e6da194659ece598d",
+      "file": "books/admissions-guide-2027/parts/plain-print-a3/1d9aad26fc250cfcfa84fb09df90d585c5d45aaa5d96bc6e6da194659ece598d/plain-print-a3.pdf",
+      "sha256": "1d9aad26fc250cfcfa84fb09df90d585c5d45aaa5d96bc6e6da194659ece598d",
+      "size": 3282933,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Separate photo-free R01 based on the fixed 2027 24-page admissions PDF. Six photographs and three related captions removed; photo-free typographic cover, original colors/text/tables/forms/logo/map/QR retained. Saved review edition; original edition and current standard-rendered-pdf ID are not replaced. Standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T22:59:54.323Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        },
+        {
+          "id": "plain-r01-brief",
+          "revision": "d38fa25f12f770f93807d1ab7f41e0d255596d276c996ce522146332cc3d5357"
+        },
+        {
+          "id": "plain-r01-cover-copy",
+          "revision": "f6fc8317c42a3fb0102cf81e8b305cdb998f38ea2630a4f8c4db7973514663e4"
+        }
+      ]
+    },
+    {
+      "id": "plain-print-a4",
+      "variant": "plain-no-photo-r01",
+      "role": "support",
+      "media": "pdf",
+      "revision": "bb62542a5835b6052ba5bd4f2c81cf4989460435312bec3c9d319b83c7554f9d",
+      "file": "books/admissions-guide-2027/parts/plain-print-a4/bb62542a5835b6052ba5bd4f2c81cf4989460435312bec3c9d319b83c7554f9d/plain-print-a4.pdf",
+      "sha256": "bb62542a5835b6052ba5bd4f2c81cf4989460435312bec3c9d319b83c7554f9d",
+      "size": 3282945,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Separate photo-free R01 based on the fixed 2027 24-page admissions PDF. Six photographs and three related captions removed; photo-free typographic cover, original colors/text/tables/forms/logo/map/QR retained. Saved review edition; original edition and current standard-rendered-pdf ID are not replaced. Standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T22:59:55.061Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        },
+        {
+          "id": "plain-r01-brief",
+          "revision": "d38fa25f12f770f93807d1ab7f41e0d255596d276c996ce522146332cc3d5357"
+        },
+        {
+          "id": "plain-r01-cover-copy",
+          "revision": "f6fc8317c42a3fb0102cf81e8b305cdb998f38ea2630a4f8c4db7973514663e4"
+        }
+      ]
+    },
+    {
+      "id": "plain-r01-build-proof",
+      "variant": "plain-no-photo-r01",
+      "role": "support",
+      "media": "text",
+      "revision": "d4cc5d369391f02e6d8dd61e7689a114659be65d37012240d0d618df92868903",
+      "file": "books/admissions-guide-2027/parts/plain-r01-build-proof/d4cc5d369391f02e6d8dd61e7689a114659be65d37012240d0d618df92868903/plain-r01-build-proof.json",
+      "sha256": "d4cc5d369391f02e6d8dd61e7689a114659be65d37012240d0d618df92868903",
+      "size": 26163,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Separate photo-free R01 based on the fixed 2027 24-page admissions PDF. Six photographs and three related captions removed; photo-free typographic cover, original colors/text/tables/forms/logo/map/QR retained. Saved review edition; original edition and current standard-rendered-pdf ID are not replaced. Standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T22:59:55.800Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-reading-pdf",
+          "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab"
+        },
+        {
+          "id": "plain-print-a3",
+          "revision": "1d9aad26fc250cfcfa84fb09df90d585c5d45aaa5d96bc6e6da194659ece598d"
+        },
+        {
+          "id": "plain-print-a4",
+          "revision": "bb62542a5835b6052ba5bd4f2c81cf4989460435312bec3c9d319b83c7554f9d"
+        }
+      ]
+    },
+    {
+      "id": "plain-cover",
+      "variant": "plain-no-photo-r01",
+      "role": "support",
+      "media": "image",
+      "revision": "ff8ff700f6b2f45b6a085f51d2d2360af8250287068dcd8be4fc7a62640e80be",
+      "file": "books/admissions-guide-2027/parts/plain-cover/ff8ff700f6b2f45b6a085f51d2d2360af8250287068dcd8be4fc7a62640e80be/plain-cover.png",
+      "sha256": "ff8ff700f6b2f45b6a085f51d2d2360af8250287068dcd8be4fc7a62640e80be",
+      "size": 62189,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Separate photo-free R01 based on the fixed 2027 24-page admissions PDF. Six photographs and three related captions removed; photo-free typographic cover, original colors/text/tables/forms/logo/map/QR retained. Saved review edition; original edition and current standard-rendered-pdf ID are not replaced. Standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T22:59:56.555Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-reading-pdf",
+          "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab"
+        }
+      ]
+    },
+    {
+      "id": "plain-back-cover",
+      "variant": "plain-no-photo-r01",
+      "role": "support",
+      "media": "image",
+      "revision": "405c403ea7dcbc213632865eadfbb288213b5bc37b07c9dea7c2888b971c5d39",
+      "file": "books/admissions-guide-2027/parts/plain-back-cover/405c403ea7dcbc213632865eadfbb288213b5bc37b07c9dea7c2888b971c5d39/plain-back-cover.png",
+      "sha256": "405c403ea7dcbc213632865eadfbb288213b5bc37b07c9dea7c2888b971c5d39",
+      "size": 33005,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Separate photo-free R01 based on the fixed 2027 24-page admissions PDF. Six photographs and three related captions removed; photo-free typographic cover, original colors/text/tables/forms/logo/map/QR retained. Saved review edition; original edition and current standard-rendered-pdf ID are not replaced. Standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T22:59:57.283Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-reading-pdf",
+          "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab"
+        }
+      ]
+    },
+    {
+      "id": "plain-overview-01",
+      "variant": "plain-no-photo-r01",
+      "role": "support",
+      "media": "image",
+      "revision": "8efa1ad2108c9557208801d3a639cd2ec9be6fe883ddb2aecfeb6c6fe9a73c23",
+      "file": "books/admissions-guide-2027/parts/plain-overview-01/8efa1ad2108c9557208801d3a639cd2ec9be6fe883ddb2aecfeb6c6fe9a73c23/plain-overview-01.jpg",
+      "sha256": "8efa1ad2108c9557208801d3a639cd2ec9be6fe883ddb2aecfeb6c6fe9a73c23",
+      "size": 335486,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Separate photo-free R01 based on the fixed 2027 24-page admissions PDF. Six photographs and three related captions removed; photo-free typographic cover, original colors/text/tables/forms/logo/map/QR retained. Saved review edition; original edition and current standard-rendered-pdf ID are not replaced. Standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T22:59:58.005Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-reading-pdf",
+          "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab"
+        }
+      ]
+    },
+    {
+      "id": "plain-overview-05",
+      "variant": "plain-no-photo-r01",
+      "role": "support",
+      "media": "image",
+      "revision": "1adf8cb565fbf33d53f981ffc14681b2c7876e69fe6164a9adb29335efc5bd67",
+      "file": "books/admissions-guide-2027/parts/plain-overview-05/1adf8cb565fbf33d53f981ffc14681b2c7876e69fe6164a9adb29335efc5bd67/plain-overview-05.jpg",
+      "sha256": "1adf8cb565fbf33d53f981ffc14681b2c7876e69fe6164a9adb29335efc5bd67",
+      "size": 303324,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Separate photo-free R01 based on the fixed 2027 24-page admissions PDF. Six photographs and three related captions removed; photo-free typographic cover, original colors/text/tables/forms/logo/map/QR retained. Saved review edition; original edition and current standard-rendered-pdf ID are not replaced. Standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T22:59:58.739Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-reading-pdf",
+          "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab"
+        }
+      ]
+    },
+    {
+      "id": "plain-overview-09",
+      "variant": "plain-no-photo-r01",
+      "role": "support",
+      "media": "image",
+      "revision": "22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573",
+      "file": "books/admissions-guide-2027/parts/plain-overview-09/22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573/plain-overview-09.jpg",
+      "sha256": "22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573",
+      "size": 288491,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Separate photo-free R01 based on the fixed 2027 24-page admissions PDF. Six photographs and three related captions removed; photo-free typographic cover, original colors/text/tables/forms/logo/map/QR retained. Saved review edition; original edition and current standard-rendered-pdf ID are not replaced. Standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T22:59:59.496Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-reading-pdf",
+          "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab"
+        }
+      ]
+    },
+    {
+      "id": "plain-overview-13",
+      "variant": "plain-no-photo-r01",
+      "role": "support",
+      "media": "image",
+      "revision": "dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e",
+      "file": "books/admissions-guide-2027/parts/plain-overview-13/dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e/plain-overview-13.jpg",
+      "sha256": "dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e",
+      "size": 167405,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Separate photo-free R01 based on the fixed 2027 24-page admissions PDF. Six photographs and three related captions removed; photo-free typographic cover, original colors/text/tables/forms/logo/map/QR retained. Saved review edition; original edition and current standard-rendered-pdf ID are not replaced. Standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:00:00.265Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-reading-pdf",
+          "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab"
+        }
+      ]
+    },
+    {
+      "id": "plain-overview-17",
+      "variant": "plain-no-photo-r01",
+      "role": "support",
+      "media": "image",
+      "revision": "07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe",
+      "file": "books/admissions-guide-2027/parts/plain-overview-17/07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe/plain-overview-17.jpg",
+      "sha256": "07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe",
+      "size": 192277,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Separate photo-free R01 based on the fixed 2027 24-page admissions PDF. Six photographs and three related captions removed; photo-free typographic cover, original colors/text/tables/forms/logo/map/QR retained. Saved review edition; original edition and current standard-rendered-pdf ID are not replaced. Standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:00:00.979Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-reading-pdf",
+          "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab"
+        }
+      ]
+    },
+    {
+      "id": "plain-overview-21",
+      "variant": "plain-no-photo-r01",
+      "role": "support",
+      "media": "image",
+      "revision": "1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b",
+      "file": "books/admissions-guide-2027/parts/plain-overview-21/1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b/plain-overview-21.jpg",
+      "sha256": "1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b",
+      "size": 189198,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Separate photo-free R01 based on the fixed 2027 24-page admissions PDF. Six photographs and three related captions removed; photo-free typographic cover, original colors/text/tables/forms/logo/map/QR retained. Saved review edition; original edition and current standard-rendered-pdf ID are not replaced. Standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:00:01.669Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-reading-pdf",
+          "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab"
+        }
+      ]
+    },
+    {
+      "id": "plain-r01-source-reading",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "pdf",
+      "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab",
+      "file": "books/admissions-guide-2027/parts/plain-r01-source-reading/b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab/plain-r01-source-reading.pdf",
+      "sha256": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab",
+      "size": 3278252,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:57:47.492Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-reading-pdf",
+          "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-color-policy",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "text",
+      "revision": "1209317e01c1627b1174856677756706ac0076ebdd4fa338b292ef0fa748ec28",
+      "file": "books/admissions-guide-2027/parts/plain-r02-color-policy/1209317e01c1627b1174856677756706ac0076ebdd4fa338b292ef0fa748ec28/plain-r02-color-policy.json",
+      "sha256": "1209317e01c1627b1174856677756706ac0076ebdd4fa338b292ef0fa748ec28",
+      "size": 991,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:57:48.143Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r01-source-reading",
+          "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-reading-pdf",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "pdf",
+      "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b",
+      "file": "books/admissions-guide-2027/parts/plain-r02-reading-pdf/872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b/plain-r02-reading-pdf.pdf",
+      "sha256": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b",
+      "size": 3278807,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:50.345Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r01-source-reading",
+          "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab"
+        },
+        {
+          "id": "plain-r02-color-policy",
+          "revision": "1209317e01c1627b1174856677756706ac0076ebdd4fa338b292ef0fa748ec28"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-print-a3",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "pdf",
+      "revision": "4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521",
+      "file": "books/admissions-guide-2027/parts/plain-r02-print-a3/4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521/plain-r02-print-a3.pdf",
+      "sha256": "4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521",
+      "size": 3283906,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:51.057Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        },
+        {
+          "id": "plain-r02-color-policy",
+          "revision": "1209317e01c1627b1174856677756706ac0076ebdd4fa338b292ef0fa748ec28"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-print-a4",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "pdf",
+      "revision": "b8f637ee00fb8d4375b6fd09be9a2bee9f5ec41b5eeea418ff75701cae1105c0",
+      "file": "books/admissions-guide-2027/parts/plain-r02-print-a4/b8f637ee00fb8d4375b6fd09be9a2bee9f5ec41b5eeea418ff75701cae1105c0/plain-r02-print-a4.pdf",
+      "sha256": "b8f637ee00fb8d4375b6fd09be9a2bee9f5ec41b5eeea418ff75701cae1105c0",
+      "size": 3283918,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:51.815Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        },
+        {
+          "id": "plain-r02-color-policy",
+          "revision": "1209317e01c1627b1174856677756706ac0076ebdd4fa338b292ef0fa748ec28"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-build-proof",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "text",
+      "revision": "1c7c403828e99eb580a4d7f03d66d7957cc61cdc19ca486cbf462dc34c96ba61",
+      "file": "books/admissions-guide-2027/parts/plain-r02-build-proof/1c7c403828e99eb580a4d7f03d66d7957cc61cdc19ca486cbf462dc34c96ba61/plain-r02-build-proof.json",
+      "sha256": "1c7c403828e99eb580a4d7f03d66d7957cc61cdc19ca486cbf462dc34c96ba61",
+      "size": 124011,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:52.555Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        },
+        {
+          "id": "plain-r02-print-a3",
+          "revision": "4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521"
+        },
+        {
+          "id": "plain-r02-print-a4",
+          "revision": "b8f637ee00fb8d4375b6fd09be9a2bee9f5ec41b5eeea418ff75701cae1105c0"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-overview-01",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "image",
+      "revision": "b213413f0d6c9dd2441cacd3a6bab866b544dcd0322981c765fd8c3ada58535e",
+      "file": "books/admissions-guide-2027/parts/plain-r02-overview-01/b213413f0d6c9dd2441cacd3a6bab866b544dcd0322981c765fd8c3ada58535e/plain-r02-overview-01.jpg",
+      "sha256": "b213413f0d6c9dd2441cacd3a6bab866b544dcd0322981c765fd8c3ada58535e",
+      "size": 335701,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:53.321Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-overview-05",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "image",
+      "revision": "5b47f75e58b96784b5ebb2526d083e94a0640e2a3e94b939ad361892eebc1a8f",
+      "file": "books/admissions-guide-2027/parts/plain-r02-overview-05/5b47f75e58b96784b5ebb2526d083e94a0640e2a3e94b939ad361892eebc1a8f/plain-r02-overview-05.jpg",
+      "sha256": "5b47f75e58b96784b5ebb2526d083e94a0640e2a3e94b939ad361892eebc1a8f",
+      "size": 307977,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:54.038Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-overview-09",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "image",
+      "revision": "22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573",
+      "file": "books/admissions-guide-2027/parts/plain-r02-overview-09/22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573/plain-r02-overview-09.jpg",
+      "sha256": "22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573",
+      "size": 288491,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:54.714Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-overview-13",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "image",
+      "revision": "dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e",
+      "file": "books/admissions-guide-2027/parts/plain-r02-overview-13/dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e/plain-r02-overview-13.jpg",
+      "sha256": "dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e",
+      "size": 167405,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:55.363Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-overview-17",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "image",
+      "revision": "07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe",
+      "file": "books/admissions-guide-2027/parts/plain-r02-overview-17/07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe/plain-r02-overview-17.jpg",
+      "sha256": "07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe",
+      "size": 192277,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:56.028Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-overview-21",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "image",
+      "revision": "1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b",
+      "file": "books/admissions-guide-2027/parts/plain-r02-overview-21/1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b/plain-r02-overview-21.jpg",
+      "sha256": "1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b",
+      "size": 189198,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:56.724Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-page-04",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "image",
+      "revision": "68ee46bca7a6d3bd74434e2fa252ff9d578f9526af754354cc74c55b39040710",
+      "file": "books/admissions-guide-2027/parts/plain-r02-page-04/68ee46bca7a6d3bd74434e2fa252ff9d578f9526af754354cc74c55b39040710/plain-r02-page-04.png",
+      "sha256": "68ee46bca7a6d3bd74434e2fa252ff9d578f9526af754354cc74c55b39040710",
+      "size": 124872,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:57.423Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-page-05",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "image",
+      "revision": "5d16653195e028082eef315d7406149d845305d72be1bccfd977890dcb9c4382",
+      "file": "books/admissions-guide-2027/parts/plain-r02-page-05/5d16653195e028082eef315d7406149d845305d72be1bccfd977890dcb9c4382/plain-r02-page-05.png",
+      "sha256": "5d16653195e028082eef315d7406149d845305d72be1bccfd977890dcb9c4382",
+      "size": 107399,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:58.107Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        }
+      ]
+    },
+    {
+      "id": "plain-r03-color-policy",
+      "variant": "plain-no-photo-r03",
+      "role": "support",
+      "media": "text",
+      "revision": "bc54663f9261ed15321a0129e15bc5f2dbb42a46881c080836f4a10ef81747c4",
+      "file": "books/admissions-guide-2027/parts/plain-r03-color-policy/bc54663f9261ed15321a0129e15bc5f2dbb42a46881c080836f4a10ef81747c4/plain-r03-color-policy.json",
+      "sha256": "bc54663f9261ed15321a0129e15bc5f2dbb42a46881c080836f4a10ef81747c4",
+      "size": 866,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R03: Only the three user-specified areas on saved R02 pages 2-3: TOC P7/P11-22 white, total59 card white/navy, admission-permission card white with gold top stripe. No other paper changes. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-25T00:20:15.085Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        }
+      ]
+    },
+    {
+      "id": "plain-r03-reading-pdf",
+      "variant": "plain-no-photo-r03",
+      "role": "support",
+      "media": "pdf",
+      "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2",
+      "file": "books/admissions-guide-2027/parts/plain-r03-reading-pdf/2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2/plain-r03-reading-pdf.pdf",
+      "sha256": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2",
+      "size": 3278503,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R03: Only the three user-specified areas on saved R02 pages 2-3: TOC P7/P11-22 white, total59 card white/navy, admission-permission card white with gold top stripe. No other paper changes. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-25T00:20:15.804Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        },
+        {
+          "id": "plain-r03-color-policy",
+          "revision": "bc54663f9261ed15321a0129e15bc5f2dbb42a46881c080836f4a10ef81747c4"
+        }
+      ]
+    },
+    {
+      "id": "plain-r03-print-a3",
+      "variant": "plain-no-photo-r03",
+      "role": "support",
+      "media": "pdf",
+      "revision": "088b4888748ae7914697eaa3134c0179d277223843e78d052435ebff9360c008",
+      "file": "books/admissions-guide-2027/parts/plain-r03-print-a3/088b4888748ae7914697eaa3134c0179d277223843e78d052435ebff9360c008/plain-r03-print-a3.pdf",
+      "sha256": "088b4888748ae7914697eaa3134c0179d277223843e78d052435ebff9360c008",
+      "size": 3284156,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R03: Only the three user-specified areas on saved R02 pages 2-3: TOC P7/P11-22 white, total59 card white/navy, admission-permission card white with gold top stripe. No other paper changes. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-25T00:20:16.580Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-reading-pdf",
+          "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2"
+        },
+        {
+          "id": "plain-r03-color-policy",
+          "revision": "bc54663f9261ed15321a0129e15bc5f2dbb42a46881c080836f4a10ef81747c4"
+        }
+      ]
+    },
+    {
+      "id": "plain-r03-print-a4",
+      "variant": "plain-no-photo-r03",
+      "role": "support",
+      "media": "pdf",
+      "revision": "3d812b07969dc418ab4e722843f2780105477804fb2ef02eed0b372edebf87f1",
+      "file": "books/admissions-guide-2027/parts/plain-r03-print-a4/3d812b07969dc418ab4e722843f2780105477804fb2ef02eed0b372edebf87f1/plain-r03-print-a4.pdf",
+      "sha256": "3d812b07969dc418ab4e722843f2780105477804fb2ef02eed0b372edebf87f1",
+      "size": 3284168,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R03: Only the three user-specified areas on saved R02 pages 2-3: TOC P7/P11-22 white, total59 card white/navy, admission-permission card white with gold top stripe. No other paper changes. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-25T00:20:17.378Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-reading-pdf",
+          "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2"
+        },
+        {
+          "id": "plain-r03-color-policy",
+          "revision": "bc54663f9261ed15321a0129e15bc5f2dbb42a46881c080836f4a10ef81747c4"
+        }
+      ]
+    },
+    {
+      "id": "plain-r03-build-proof",
+      "variant": "plain-no-photo-r03",
+      "role": "support",
+      "media": "text",
+      "revision": "7d71cc431818001b227df9cd5043ce9636ce666faf3b89fd2bada29d5118b055",
+      "file": "books/admissions-guide-2027/parts/plain-r03-build-proof/7d71cc431818001b227df9cd5043ce9636ce666faf3b89fd2bada29d5118b055/plain-r03-build-proof.json",
+      "sha256": "7d71cc431818001b227df9cd5043ce9636ce666faf3b89fd2bada29d5118b055",
+      "size": 7408,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R03: Only the three user-specified areas on saved R02 pages 2-3: TOC P7/P11-22 white, total59 card white/navy, admission-permission card white with gold top stripe. No other paper changes. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-25T00:20:18.175Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-reading-pdf",
+          "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2"
+        },
+        {
+          "id": "plain-r03-print-a3",
+          "revision": "088b4888748ae7914697eaa3134c0179d277223843e78d052435ebff9360c008"
+        },
+        {
+          "id": "plain-r03-print-a4",
+          "revision": "3d812b07969dc418ab4e722843f2780105477804fb2ef02eed0b372edebf87f1"
+        }
+      ]
+    },
+    {
+      "id": "plain-r03-overview-01",
+      "variant": "plain-no-photo-r03",
+      "role": "support",
+      "media": "image",
+      "revision": "a816b9679b0ec5e72c4a2d18d0cf036d1bce5b45b22c8886c37470946e4f8209",
+      "file": "books/admissions-guide-2027/parts/plain-r03-overview-01/a816b9679b0ec5e72c4a2d18d0cf036d1bce5b45b22c8886c37470946e4f8209/plain-r03-overview-01.jpg",
+      "sha256": "a816b9679b0ec5e72c4a2d18d0cf036d1bce5b45b22c8886c37470946e4f8209",
+      "size": 334783,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R03: Only the three user-specified areas on saved R02 pages 2-3: TOC P7/P11-22 white, total59 card white/navy, admission-permission card white with gold top stripe. No other paper changes. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-25T00:20:18.974Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-reading-pdf",
+          "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2"
+        }
+      ]
+    },
+    {
+      "id": "plain-r03-overview-05",
+      "variant": "plain-no-photo-r03",
+      "role": "support",
+      "media": "image",
+      "revision": "5b47f75e58b96784b5ebb2526d083e94a0640e2a3e94b939ad361892eebc1a8f",
+      "file": "books/admissions-guide-2027/parts/plain-r03-overview-05/5b47f75e58b96784b5ebb2526d083e94a0640e2a3e94b939ad361892eebc1a8f/plain-r03-overview-05.jpg",
+      "sha256": "5b47f75e58b96784b5ebb2526d083e94a0640e2a3e94b939ad361892eebc1a8f",
+      "size": 307977,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R03: Only the three user-specified areas on saved R02 pages 2-3: TOC P7/P11-22 white, total59 card white/navy, admission-permission card white with gold top stripe. No other paper changes. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-25T00:20:19.737Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-reading-pdf",
+          "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2"
+        }
+      ]
+    },
+    {
+      "id": "plain-r03-overview-09",
+      "variant": "plain-no-photo-r03",
+      "role": "support",
+      "media": "image",
+      "revision": "22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573",
+      "file": "books/admissions-guide-2027/parts/plain-r03-overview-09/22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573/plain-r03-overview-09.jpg",
+      "sha256": "22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573",
+      "size": 288491,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R03: Only the three user-specified areas on saved R02 pages 2-3: TOC P7/P11-22 white, total59 card white/navy, admission-permission card white with gold top stripe. No other paper changes. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-25T00:20:20.468Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-reading-pdf",
+          "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2"
+        }
+      ]
+    },
+    {
+      "id": "plain-r03-overview-13",
+      "variant": "plain-no-photo-r03",
+      "role": "support",
+      "media": "image",
+      "revision": "dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e",
+      "file": "books/admissions-guide-2027/parts/plain-r03-overview-13/dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e/plain-r03-overview-13.jpg",
+      "sha256": "dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e",
+      "size": 167405,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R03: Only the three user-specified areas on saved R02 pages 2-3: TOC P7/P11-22 white, total59 card white/navy, admission-permission card white with gold top stripe. No other paper changes. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-25T00:20:21.197Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-reading-pdf",
+          "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2"
+        }
+      ]
+    },
+    {
+      "id": "plain-r03-overview-17",
+      "variant": "plain-no-photo-r03",
+      "role": "support",
+      "media": "image",
+      "revision": "07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe",
+      "file": "books/admissions-guide-2027/parts/plain-r03-overview-17/07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe/plain-r03-overview-17.jpg",
+      "sha256": "07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe",
+      "size": 192277,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R03: Only the three user-specified areas on saved R02 pages 2-3: TOC P7/P11-22 white, total59 card white/navy, admission-permission card white with gold top stripe. No other paper changes. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-25T00:20:21.903Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-reading-pdf",
+          "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2"
+        }
+      ]
+    },
+    {
+      "id": "plain-r03-overview-21",
+      "variant": "plain-no-photo-r03",
+      "role": "support",
+      "media": "image",
+      "revision": "1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b",
+      "file": "books/admissions-guide-2027/parts/plain-r03-overview-21/1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b/plain-r03-overview-21.jpg",
+      "sha256": "1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b",
+      "size": 189198,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R03: Only the three user-specified areas on saved R02 pages 2-3: TOC P7/P11-22 white, total59 card white/navy, admission-permission card white with gold top stripe. No other paper changes. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-25T00:20:22.636Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-reading-pdf",
+          "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2"
+        }
+      ]
+    },
+    {
+      "id": "plain-r03-page-02",
+      "variant": "plain-no-photo-r03",
+      "role": "support",
+      "media": "image",
+      "revision": "706e523c7d4b2372bcd4d60435d666657967f93783d459d1f086082d93e56412",
+      "file": "books/admissions-guide-2027/parts/plain-r03-page-02/706e523c7d4b2372bcd4d60435d666657967f93783d459d1f086082d93e56412/plain-r03-page-02.png",
+      "sha256": "706e523c7d4b2372bcd4d60435d666657967f93783d459d1f086082d93e56412",
+      "size": 151901,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R03: Only the three user-specified areas on saved R02 pages 2-3: TOC P7/P11-22 white, total59 card white/navy, admission-permission card white with gold top stripe. No other paper changes. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-25T00:20:23.316Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-reading-pdf",
+          "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2"
+        }
+      ]
+    },
+    {
+      "id": "plain-r03-page-03",
+      "variant": "plain-no-photo-r03",
+      "role": "support",
+      "media": "image",
+      "revision": "e9d97fe960c4d86479e55f1ae179efbdacbea1bec72c85a7c1af0efae1ebcb85",
+      "file": "books/admissions-guide-2027/parts/plain-r03-page-03/e9d97fe960c4d86479e55f1ae179efbdacbea1bec72c85a7c1af0efae1ebcb85/plain-r03-page-03.png",
+      "sha256": "e9d97fe960c4d86479e55f1ae179efbdacbea1bec72c85a7c1af0efae1ebcb85",
+      "size": 166591,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R03: Only the three user-specified areas on saved R02 pages 2-3: TOC P7/P11-22 white, total59 card white/navy, admission-permission card white with gold top stripe. No other paper changes. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-25T00:20:23.991Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-reading-pdf",
+          "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2"
+        }
+      ]
+    },
+    {
+      "id": "navy-cover-2027-html",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "text",
+      "revision": "8b776b31b2c82074505d5dc06d5530416d75b59b317e04ac2761452d88791087",
+      "file": "books/admissions-guide-2027/parts/navy-cover-2027-html/8b776b31b2c82074505d5dc06d5530416d75b59b317e04ac2761452d88791087/navy-cover-2027-html.html",
+      "sha256": "8b776b31b2c82074505d5dc06d5530416d75b59b317e04ac2761452d88791087",
+      "size": 2151,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:20.054Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "navy-cover-2027-pdf",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "pdf",
+      "revision": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e",
+      "file": "books/admissions-guide-2027/parts/navy-cover-2027-pdf/e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e/navy-cover-2027-pdf.pdf",
+      "sha256": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e",
+      "size": 71927,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:20.736Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "navy-cover-2027-html",
+          "revision": "8b776b31b2c82074505d5dc06d5530416d75b59b317e04ac2761452d88791087"
+        }
+      ]
+    },
+    {
+      "id": "navy-cover-adoption-builder",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "text",
+      "revision": "79655ac690f0751c3e8bbecc625c2b4b800da39d9141a83edd0b85dcc36ef8f5",
+      "file": "books/admissions-guide-2027/parts/navy-cover-adoption-builder/79655ac690f0751c3e8bbecc625c2b4b800da39d9141a83edd0b85dcc36ef8f5/navy-cover-adoption-builder.py",
+      "sha256": "79655ac690f0751c3e8bbecc625c2b4b800da39d9141a83edd0b85dcc36ef8f5",
+      "size": 3998,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:21.446Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "photo-cover-r01-reading-pdf",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "pdf",
+      "revision": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a",
+      "file": "books/admissions-guide-2027/parts/photo-cover-r01-reading-pdf/b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a/photo-cover-r01-reading-pdf.pdf",
+      "sha256": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a",
+      "size": 14635113,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:22.184Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        },
+        {
+          "id": "navy-cover-2027-pdf",
+          "revision": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e"
+        },
+        {
+          "id": "navy-cover-adoption-builder",
+          "revision": "79655ac690f0751c3e8bbecc625c2b4b800da39d9141a83edd0b85dcc36ef8f5"
+        }
+      ]
+    },
+    {
+      "id": "plain-r04-reading-pdf",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "pdf",
+      "revision": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257",
+      "file": "books/admissions-guide-2027/parts/plain-r04-reading-pdf/0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257/plain-r04-reading-pdf.pdf",
+      "sha256": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257",
+      "size": 3214108,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:22.884Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-reading-pdf",
+          "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2"
+        },
+        {
+          "id": "navy-cover-2027-pdf",
+          "revision": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e"
+        },
+        {
+          "id": "navy-cover-adoption-builder",
+          "revision": "79655ac690f0751c3e8bbecc625c2b4b800da39d9141a83edd0b85dcc36ef8f5"
+        }
+      ]
+    },
+    {
+      "id": "plain-r04-print-a3",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "pdf",
+      "revision": "3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192",
+      "file": "books/admissions-guide-2027/parts/plain-r04-print-a3/3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192/plain-r04-print-a3.pdf",
+      "sha256": "3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192",
+      "size": 3219966,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:23.609Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-print-a3",
+          "revision": "088b4888748ae7914697eaa3134c0179d277223843e78d052435ebff9360c008"
+        },
+        {
+          "id": "navy-cover-2027-pdf",
+          "revision": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e"
+        },
+        {
+          "id": "navy-cover-adoption-builder",
+          "revision": "79655ac690f0751c3e8bbecc625c2b4b800da39d9141a83edd0b85dcc36ef8f5"
+        },
+        {
+          "id": "plain-r04-reading-pdf",
+          "revision": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257"
+        }
+      ]
+    },
+    {
+      "id": "navy-plain-cover",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "image",
+      "revision": "4bbd946b1a4cca73224a3f0a577fb5a806e5d17cbc4d7069ecc5c7b4bcbccf2a",
+      "file": "books/admissions-guide-2027/parts/navy-plain-cover/4bbd946b1a4cca73224a3f0a577fb5a806e5d17cbc4d7069ecc5c7b4bcbccf2a/navy-plain-cover.png",
+      "sha256": "4bbd946b1a4cca73224a3f0a577fb5a806e5d17cbc4d7069ecc5c7b4bcbccf2a",
+      "size": 33881,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:24.349Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r04-reading-pdf",
+          "revision": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257"
+        }
+      ]
+    },
+    {
+      "id": "navy-photo-back-cover",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "image",
+      "revision": "d13d229c34c70fb9a3cea002358336581bbbe6d2ddc20c65cfdab3338992d0c3",
+      "file": "books/admissions-guide-2027/parts/navy-photo-back-cover/d13d229c34c70fb9a3cea002358336581bbbe6d2ddc20c65cfdab3338992d0c3/navy-photo-back-cover.png",
+      "sha256": "d13d229c34c70fb9a3cea002358336581bbbe6d2ddc20c65cfdab3338992d0c3",
+      "size": 998511,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:25.031Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "photo-cover-r01-reading-pdf",
+          "revision": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a"
+        }
+      ]
+    },
+    {
+      "id": "navy-plain-back-cover",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "image",
+      "revision": "405c403ea7dcbc213632865eadfbb288213b5bc37b07c9dea7c2888b971c5d39",
+      "file": "books/admissions-guide-2027/parts/navy-plain-back-cover/405c403ea7dcbc213632865eadfbb288213b5bc37b07c9dea7c2888b971c5d39/navy-plain-back-cover.png",
+      "sha256": "405c403ea7dcbc213632865eadfbb288213b5bc37b07c9dea7c2888b971c5d39",
+      "size": 33005,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:25.706Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r04-reading-pdf",
+          "revision": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257"
+        }
+      ]
+    },
+    {
+      "id": "navy-photo-overview-01",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "image",
+      "revision": "13ddabf4cc0c422da76988fb4fe74803a31c1c11bd8a052c0c97a04b7e65bc27",
+      "file": "books/admissions-guide-2027/parts/navy-photo-overview-01/13ddabf4cc0c422da76988fb4fe74803a31c1c11bd8a052c0c97a04b7e65bc27/navy-photo-overview-01.jpg",
+      "sha256": "13ddabf4cc0c422da76988fb4fe74803a31c1c11bd8a052c0c97a04b7e65bc27",
+      "size": 378148,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:26.402Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "photo-cover-r01-reading-pdf",
+          "revision": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a"
+        }
+      ]
+    },
+    {
+      "id": "navy-plain-overview-01",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "image",
+      "revision": "8f3f33578e804c77d8f185c5231764bc59230d5d35186ac261e18e5e4f9996cd",
+      "file": "books/admissions-guide-2027/parts/navy-plain-overview-01/8f3f33578e804c77d8f185c5231764bc59230d5d35186ac261e18e5e4f9996cd/navy-plain-overview-01.jpg",
+      "sha256": "8f3f33578e804c77d8f185c5231764bc59230d5d35186ac261e18e5e4f9996cd",
+      "size": 320382,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:27.195Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r04-reading-pdf",
+          "revision": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257"
+        }
+      ]
+    },
+    {
+      "id": "navy-cover-adoption-manifest",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "text",
+      "revision": "4ce49fcd65aede5a12d771d0fad09118320b0530181534e59877a9a1487aaf5a",
+      "file": "books/admissions-guide-2027/parts/navy-cover-adoption-manifest/4ce49fcd65aede5a12d771d0fad09118320b0530181534e59877a9a1487aaf5a/navy-cover-adoption-manifest.json",
+      "sha256": "4ce49fcd65aede5a12d771d0fad09118320b0530181534e59877a9a1487aaf5a",
+      "size": 3820,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:27.970Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "photo-cover-r01-reading-pdf",
+          "revision": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a"
+        },
+        {
+          "id": "plain-r04-reading-pdf",
+          "revision": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257"
+        },
+        {
+          "id": "plain-r04-print-a3",
+          "revision": "3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192"
+        }
+      ]
+    },
+    {
+      "id": "navy-cover-adoption-verification",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "text",
+      "revision": "7dc4fd103aaf1966a715667bec543f34b97cf623d90d519c3812997566838d38",
+      "file": "books/admissions-guide-2027/parts/navy-cover-adoption-verification/7dc4fd103aaf1966a715667bec543f34b97cf623d90d519c3812997566838d38/navy-cover-adoption-verification.json",
+      "sha256": "7dc4fd103aaf1966a715667bec543f34b97cf623d90d519c3812997566838d38",
+      "size": 11893,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:28.786Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "photo-cover-r01-reading-pdf",
+          "revision": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a"
+        },
+        {
+          "id": "plain-r04-reading-pdf",
+          "revision": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257"
+        },
+        {
+          "id": "plain-r04-print-a3",
+          "revision": "3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192"
+        }
+      ]
     }
   ]
 }

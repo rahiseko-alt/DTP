@@ -1,0 +1,45 @@
+{
+  "context": {
+    "root": "/workspace/DTP",
+    "head": "95c17965e51046b367c32edd0195f4c1404181a8",
+    "branch": "book/admissions-plain-20261025",
+    "dirty": true,
+    "fingerprint": "3e42c919c5a8c69528bb34c73eec3d1b158eea5be747f403bc9d1b9911e4d42f"
+  },
+  "document_id": "admissions-guide-2027",
+  "asset": {
+    "id": "plain-r02-print-a3",
+    "variant": "plain-no-photo-r02",
+    "role": "support",
+    "media": "pdf",
+    "revision": "4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521",
+    "file": "books/admissions-guide-2027/parts/plain-r02-print-a3/4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521/plain-r02-print-a3.pdf",
+    "sha256": "4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521",
+    "size": 3283906,
+    "relation": "authored",
+    "storage": "canonical",
+    "confirmation": "verified",
+    "saved": {
+      "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+      "recorded_at": "2026-10-24T23:58:51.057Z"
+    },
+    "external_inputs": [],
+    "built_from": [
+      {
+        "id": "plain-r02-reading-pdf",
+        "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+      },
+      {
+        "id": "plain-r02-color-policy",
+        "revision": "1209317e01c1627b1174856677756706ac0076ebdd4fa338b292ef0fa748ec28"
+      }
+    ]
+  },
+  "path": "books/admissions-guide-2027/parts/plain-r02-print-a3/4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521/plain-r02-print-a3.pdf",
+  "retrieval": {
+    "mode": "saved",
+    "integrity": "verified",
+    "freshness": "not_checked",
+    "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "material_id": "ADM-JP-PLAIN-2027",
+  "edition": "R03",
+  "pdf_sha256": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2",
+  "mode": "preview",
+  "scope": "指定3か所以外の変更禁止",
+  "pages_visually_seen": [
+    2,
+    3
+  ],
+  "visual_evidence": [
+    "downloads/admissions-plain-20261025/r03-three-panels/output/page-02-detail.png",
+    "downloads/admissions-plain-20261025/r03-three-panels/output/page-03-detail.png"
+  ],
+  "verification": "downloads/admissions-plain-20261025/r03-three-panels/verification.json",
+  "all_48_faces": "passed: outside four rectangles covering the three requested areas is pixel-identical to R02; native text/fonts/size/glyph positions and images retained",
+  "general_checks": "R01全体検査とR02検査を保持。R03は局所検査とmetadata検査、必須CIで確認し、R01の全体test475成功/7既知失敗/7skipをR03合格とは扱わない。",
+  "metadata_check": {
+    "errors": 0,
+    "warnings": 152,
+    "scope": "metadata-only"
+  },
+  "required_asset_integrity": {
+    "commit": "16159941a2b20da92d9415bcd2171748c236059b",
+    "conclusion": "SUCCESS",
+    "url": "https://github.com/rahiseko-alt/DTP/actions/runs/40146449769/job/121028710203"
+  },
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false,
+  "user_approval": {
+    "date": "2026-10-25",
+    "decision": "文字のみ版として確定・保管",
+    "manifest": "downloads/admissions-text-only-2027-approved-20261025/manifest.json",
+    "paper_bytes_changed": false
+  }
+}

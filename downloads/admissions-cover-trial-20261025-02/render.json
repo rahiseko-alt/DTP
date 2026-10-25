@@ -1,0 +1,12 @@
+{
+  "status": "trial; not adopted",
+  "browser": "154.0.8037.57",
+  "pinned_browser": false,
+  "release": false,
+  "metrics": {
+    "font_ready": true,
+    "logo_ready": true,
+    "printed_text": "2027年度入学生\n\n募集要項\n\n願書\n\n学校法人海鵬学園",
+    "overflows": []
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-25",
+  "timezone": "Asia/Tokyo",
+  "cover_pdf": "downloads/admissions-cover-trial-20261025-02/output/admissions-text-only-cover-trial-02.pdf",
+  "cover_sha256": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e",
+  "approval": "OK,GO（写真入り版・文字のみ版印刷用・文字のみ版ページ順の3PDFへの表紙差し替え）",
+  "scope": "Replace page 1 only with the approved navy/gold/white cover, no year underline. Keep each edition’s pages 2–24, including its back cover. Retain booklet sequence.",
+  "purpose": "本人の行きたいと保護者の払える・払うを成立させ、入学手続きと入金につなげる",
+  "audience": "既存の日本人向け2027年度募集要項の読者。年度・対象・学校事実は既存版のまま。",
+  "outputs": [
+    {
+      "kind": "photo",
+      "asset_id": "photo-cover-r01-reading-pdf",
+      "file": "downloads/admissions-cover-adopted-20261025/output/admissions-photo-2027-cover-r01.pdf",
+      "label": "募集要項_写真入り版_2027年度_新表紙_ページ順_24P.pdf",
+      "sha256": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a",
+      "bytes": 14635113,
+      "pages": 24,
+      "source": {
+        "id": "standard-rendered-pdf",
+        "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052",
+        "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-pdf/17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052/standard-rendered-pdf.pdf"
+      }
+    },
+    {
+      "kind": "plain",
+      "asset_id": "plain-r04-reading-pdf",
+      "file": "downloads/admissions-cover-adopted-20261025/output/admissions-text-only-2027-r04.pdf",
+      "label": "募集要項_文字のみ版_2027年度_R04_ページ順_24P.pdf",
+      "sha256": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257",
+      "bytes": 3214108,
+      "pages": 24,
+      "source": {
+        "id": "plain-r03-reading-pdf",
+        "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2",
+        "file": "books/admissions-guide-2027/parts/plain-r03-reading-pdf/2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2/plain-r03-reading-pdf.pdf"
+      }
+    },
+    {
+      "kind": "print-a3",
+      "asset_id": "plain-r04-print-a3",
+      "file": "downloads/admissions-cover-adopted-20261025/output/admissions-text-only-2027-r04-A3.pdf",
+      "label": "募集要項_文字のみ版_2027年度_R04_印刷用_中綴じ_A3_6枚.pdf",
+      "sha256": "3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192",
+      "bytes": 3219966,
+      "pages": 12,
+      "source": {
+        "id": "plain-r03-print-a3",
+        "revision": "088b4888748ae7914697eaa3134c0179d277223843e78d052435ebff9360c008",
+        "file": "books/admissions-guide-2027/parts/plain-r03-print-a3/088b4888748ae7914697eaa3134c0179d277223843e78d052435ebff9360c008/plain-r03-print-a3.pdf"
+      }
+    }
+  ],
+  "faces": [
+    [
+      24,
+      1
+    ],
+    [
+      2,
+      23
+    ],
+    [
+      22,
+      3
+    ],
+    [
+      4,
+      21
+    ],
+    [
+      20,
+      5
+    ],
+    [
+      6,
+      19
+    ],
+    [
+      18,
+      7
+    ],
+    [
+      8,
+      17
+    ],
+    [
+      16,
+      9
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      14,
+      11
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "print": {
+    "paper": "A3",
+    "orientation": "landscape",
+    "duplex": "短辺反転",
+    "scale": "100%",
+    "sheets": 6,
+    "finished_size": "A4"
+  },
+  "retained_old_a4_proof": "旧R03のA4縮小確認用は履歴として残す。今回の新表紙反映は指定された3PDFのみ。",
+  "standard_renderer_rebuild": false,
+  "release": false,
+  "independent_review": false,
+  "physical_print_test": false
+}

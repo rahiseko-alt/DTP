@@ -1,0 +1,15 @@
+{
+  "browser": "154.0.8037.57",
+  "pinned_browser": false,
+  "release": false,
+  "metrics": {
+    "fonts_ready": true,
+    "overflows": [],
+    "logo_rect_mm": {
+      "left": 91,
+      "top": 249,
+      "width": 86,
+      "height": 21.02052
+    }
+  }
+}

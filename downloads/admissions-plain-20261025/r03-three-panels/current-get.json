@@ -1,0 +1,45 @@
+{
+  "context": {
+    "root": "/workspace/DTP",
+    "head": "95c17965e51046b367c32edd0195f4c1404181a8",
+    "branch": "book/admissions-plain-20261025",
+    "dirty": true,
+    "fingerprint": "46aa30797f72c9c8b04db2371d258932849c7c3e0e97f2220d63e6415bcaf281"
+  },
+  "document_id": "admissions-guide-2027",
+  "asset": {
+    "id": "plain-r03-reading-pdf",
+    "variant": "plain-no-photo-r03",
+    "role": "support",
+    "media": "pdf",
+    "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2",
+    "file": "books/admissions-guide-2027/parts/plain-r03-reading-pdf/2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2/plain-r03-reading-pdf.pdf",
+    "sha256": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2",
+    "size": 3278503,
+    "relation": "authored",
+    "storage": "canonical",
+    "confirmation": "verified",
+    "saved": {
+      "reason": "R03: Only the three user-specified areas on saved R02 pages 2-3: TOC P7/P11-22 white, total59 card white/navy, admission-permission card white with gold top stripe. No other paper changes. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+      "recorded_at": "2026-10-25T00:20:15.804Z"
+    },
+    "external_inputs": [],
+    "built_from": [
+      {
+        "id": "plain-r02-reading-pdf",
+        "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+      },
+      {
+        "id": "plain-r03-color-policy",
+        "revision": "bc54663f9261ed15321a0129e15bc5f2dbb42a46881c080836f4a10ef81747c4"
+      }
+    ]
+  },
+  "path": "books/admissions-guide-2027/parts/plain-r03-reading-pdf/2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2/plain-r03-reading-pdf.pdf",
+  "retrieval": {
+    "mode": "saved",
+    "integrity": "verified",
+    "freshness": "not_checked",
+    "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+  }
+}
