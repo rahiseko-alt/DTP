@@ -1,0 +1,49 @@
+{
+  "context": {
+    "root": "/workspace/DTP",
+    "head": "59e890c3a1c2add2b4c6fc23cc5202c5a52a7b52",
+    "branch": "book/admissions-plain-20261025",
+    "dirty": true,
+    "fingerprint": "7f03f4cf5fa6839196a893c7f99661841e69f9565db18b21626373cfd5e459f7"
+  },
+  "document_id": "admissions-guide-2027",
+  "asset": {
+    "id": "plain-print-a4",
+    "variant": "plain-no-photo-r01",
+    "role": "support",
+    "media": "pdf",
+    "revision": "bb62542a5835b6052ba5bd4f2c81cf4989460435312bec3c9d319b83c7554f9d",
+    "file": "books/admissions-guide-2027/parts/plain-print-a4/bb62542a5835b6052ba5bd4f2c81cf4989460435312bec3c9d319b83c7554f9d/plain-print-a4.pdf",
+    "sha256": "bb62542a5835b6052ba5bd4f2c81cf4989460435312bec3c9d319b83c7554f9d",
+    "size": 3282945,
+    "relation": "authored",
+    "storage": "canonical",
+    "confirmation": "verified",
+    "saved": {
+      "reason": "Separate photo-free R01 based on the fixed 2027 24-page admissions PDF. Six photographs and three related captions removed; photo-free typographic cover, original colors/text/tables/forms/logo/map/QR retained. Saved review edition; original edition and current standard-rendered-pdf ID are not replaced. Standard-render freshness/release not asserted.",
+      "recorded_at": "2026-10-24T22:59:55.061Z"
+    },
+    "external_inputs": [],
+    "built_from": [
+      {
+        "id": "standard-rendered-pdf",
+        "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+      },
+      {
+        "id": "plain-r01-brief",
+        "revision": "d38fa25f12f770f93807d1ab7f41e0d255596d276c996ce522146332cc3d5357"
+      },
+      {
+        "id": "plain-r01-cover-copy",
+        "revision": "f6fc8317c42a3fb0102cf81e8b305cdb998f38ea2630a4f8c4db7973514663e4"
+      }
+    ]
+  },
+  "path": "books/admissions-guide-2027/parts/plain-print-a4/bb62542a5835b6052ba5bd4f2c81cf4989460435312bec3c9d319b83c7554f9d/plain-print-a4.pdf",
+  "retrieval": {
+    "mode": "saved",
+    "integrity": "verified",
+    "freshness": "not_checked",
+    "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+  }
+}

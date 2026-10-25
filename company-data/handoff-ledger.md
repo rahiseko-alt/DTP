@@ -1,5 +1,13 @@
 # 引継ぎ台帳
 
+## 最新の再開位置：2026-10-25 無地版R02・入試区分と一覧表の配色統一
+
+同じブランチ `book/admissions-plain-20261025` と [PR #67](https://github.com/rahiseko-alt/DTP/pull/67) を継続。現在のADM-JP-PLAIN-2027はR02。方針は `downloads/admissions-plain-20261025/r02-colors/color-policy.json`。同じ役割を同じ色にし、紺を見出し/分類、表は白地/濃い文字、金は共通アクセントとする。AOだけの金色扱いをしない。
+
+- PDF4Pの分類帯3個を紺/白、5Pの見出し3列を紺/白、本文18セルを白/濃い文字、該当なしをグレーへ統一。文字/書体/サイズ/位置/画像/表構造/他22Pを保持。閲覧24P・A3/A4面付けをR02へ。R01・写真入り原版は保持。
+- 親が修正2Pの拡大と見開きを自己点検し、全48面の非変更領域pixel、文字/字形/書体/サイズ/位置、画像一致とQRを確認。変更文字の最小コントラスト4.83。独立審査・実物試し刷りは未実施。R01の全体検査結果とR02の個別検査を区別する。新headの必須asset-integrityを確認してから、人間の明示指示で通常マージする。
+
+
 ## 最新の再開位置：2026-10-25 募集要項 無地版（写真なし）を別制作
 
 ブランチ `book/admissions-plain-20261025`、draft [PR #67](https://github.com/rahiseko-alt/DTP/pull/67)。人間は無地を「写真だけ外す」と指定し、現行24Pを制作元・参考Aの構成を使う提案を承認。資料は `downloads/latest-materials.json` の `ADM-JP-PLAIN-2027`、制作/取得/検証は `downloads/admissions-plain-20261025/`。元版ADM-JP-2027とcurrent standard-rendered-pdfは保持。

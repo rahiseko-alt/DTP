@@ -271,7 +271,7 @@
       "work_id": "ADM-JP-PLAIN-2027",
       "source_material_id": "ADM-JP-2027",
       "display_name": "募集要項_無地版_写真なし_日本人向け_2027年度_24P_確認用",
-      "status": "改稿1・写真6点を除去・表紙は白地と紺の縦帯・確認用",
+      "status": "改稿2・入試区分/日程一覧の配色統一・確認用",
       "tags": [
         "種別:募集要項",
         "対象:日本人向け",
@@ -282,18 +282,18 @@
         "状態:確認用"
       ],
       "document": "admissions-guide-2027",
-      "variant": "plain-no-photo-r01",
-      "asset_id": "plain-reading-pdf",
-      "file": "books/admissions-guide-2027/parts/plain-reading-pdf/b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab/plain-reading-pdf.pdf",
-      "sha256": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab",
-      "bytes": 3278252,
+      "variant": "plain-no-photo-r02",
+      "asset_id": "plain-r02-reading-pdf",
+      "file": "books/admissions-guide-2027/parts/plain-r02-reading-pdf/872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b/plain-r02-reading-pdf.pdf",
+      "sha256": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b",
+      "bytes": 3278807,
       "pages": 24,
       "binding": "中綴じ・左綴じ・願書の裏面は白紙",
       "year_status": "2027年度。2028年度へ自動繰上げしない",
-      "version_policy": "現行ADM-JP-2027から写真6点と関連キャプション3点を除き、表紙はAの構成原理を参考に白地/紺の縦帯/黄の題字アクセントで再配置。表紙以外の本文・表・日程・学費・願書と白紙裏面の順序、正本ロゴ・地図・連絡先・QRは保持。元の24P版とstandard-rendered-pdfの選択先は変更しない。",
+      "version_policy": "R01のPDF4-5ページのみ色指定を修正。3入試区分の分類帯を紺/白に統一し、日程一覧の3列見出しを紺/白、本文を白地/濃い文字、該当なしをグレーへ統一。AOだけの金背景を廃止。文字・書体・文字サイズ・位置・表構造・画像・他22ページを保持。写真なしのR01、元の写真入り版は残す。",
       "retrieval_mode": "saved",
       "freshness_status": "保存済み確認用。現在の標準renderer入力による再生成保証は主張しない",
-      "review_status": "親が全24ページと全13閲覧面/見開き、A3/A4最初の面付けを自己点検。変更領域以外の画素/本文保持、写真データの除去、正本ロゴ/地図の画像保持、QR復号、7白紙裏面、両面付けの全24ページの順序/左右割付を照合。独立審査・試し刷り未実施。",
+      "review_status": "親が修正2ページの拡大と見開きを目視。全48面で文字/書体/サイズ/字形と位置、画像ストリーム、変更領域外画素を照合。変更した文字色のコントラストは最小4.83。公式サイトQRも復号。独立審査・実物試し刷り未実施。",
       "qr_decoded": {
         "23": [
           "https://kaihougakuen.my.canva.site/"
@@ -308,34 +308,34 @@
         20,
         22
       ],
-      "download_file": "downloads/admissions-plain-20261025/output/admissions-plain-2027-r01.pdf",
+      "download_file": "downloads/admissions-plain-20261025/r02-colors/output/admissions-plain-2027-r02.pdf",
       "print_outputs": [
         {
           "paper": "A3",
           "document": "admissions-guide-2027",
-          "asset_id": "plain-print-a3",
-          "file": "books/admissions-guide-2027/parts/plain-print-a3/1d9aad26fc250cfcfa84fb09df90d585c5d45aaa5d96bc6e6da194659ece598d/plain-print-a3.pdf",
-          "sha256": "1d9aad26fc250cfcfa84fb09df90d585c5d45aaa5d96bc6e6da194659ece598d",
-          "bytes": 3282933,
+          "asset_id": "plain-r02-print-a3",
+          "file": "books/admissions-guide-2027/parts/plain-r02-print-a3/4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521/plain-r02-print-a3.pdf",
+          "sha256": "4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521",
+          "bytes": 3283906,
           "faces": 12,
           "sheets": 6,
           "duplex": "短辺反転",
           "retrieval_mode": "saved",
-          "download_file": "downloads/admissions-plain-20261025/output/admissions-plain-2027-r01-A3.pdf",
+          "download_file": "downloads/admissions-plain-20261025/r02-colors/output/admissions-plain-2027-r02-A3.pdf",
           "use": "願書記入用・A4仕上がり・100%印刷"
         },
         {
           "paper": "A4",
           "document": "admissions-guide-2027",
-          "asset_id": "plain-print-a4",
-          "file": "books/admissions-guide-2027/parts/plain-print-a4/bb62542a5835b6052ba5bd4f2c81cf4989460435312bec3c9d319b83c7554f9d/plain-print-a4.pdf",
-          "sha256": "bb62542a5835b6052ba5bd4f2c81cf4989460435312bec3c9d319b83c7554f9d",
-          "bytes": 3282945,
+          "asset_id": "plain-r02-print-a4",
+          "file": "books/admissions-guide-2027/parts/plain-r02-print-a4/b8f637ee00fb8d4375b6fd09be9a2bee9f5ec41b5eeea418ff75701cae1105c0/plain-r02-print-a4.pdf",
+          "sha256": "b8f637ee00fb8d4375b6fd09be9a2bee9f5ec41b5eeea418ff75701cae1105c0",
+          "bytes": 3283918,
           "faces": 12,
           "sheets": 6,
           "duplex": "短辺反転",
           "retrieval_mode": "saved",
-          "download_file": "downloads/admissions-plain-20261025/output/admissions-plain-2027-r01-A4.pdf",
+          "download_file": "downloads/admissions-plain-20261025/r02-colors/output/admissions-plain-2027-r02-A4.pdf",
           "use": "A5相当の縮小確認用・願書の実寸印刷には使用しない"
         }
       ],
@@ -351,36 +351,37 @@
           "sha256": "405c403ea7dcbc213632865eadfbb288213b5bc37b07c9dea7c2888b971c5d39"
         },
         {
-          "id": "plain-overview-01",
-          "file": "books/admissions-guide-2027/parts/plain-overview-01/8efa1ad2108c9557208801d3a639cd2ec9be6fe883ddb2aecfeb6c6fe9a73c23/plain-overview-01.jpg",
-          "sha256": "8efa1ad2108c9557208801d3a639cd2ec9be6fe883ddb2aecfeb6c6fe9a73c23"
+          "id": "plain-r02-overview-01",
+          "file": "books/admissions-guide-2027/parts/plain-r02-overview-01/b213413f0d6c9dd2441cacd3a6bab866b544dcd0322981c765fd8c3ada58535e/plain-r02-overview-01.jpg",
+          "sha256": "b213413f0d6c9dd2441cacd3a6bab866b544dcd0322981c765fd8c3ada58535e"
         },
         {
-          "id": "plain-overview-05",
-          "file": "books/admissions-guide-2027/parts/plain-overview-05/1adf8cb565fbf33d53f981ffc14681b2c7876e69fe6164a9adb29335efc5bd67/plain-overview-05.jpg",
-          "sha256": "1adf8cb565fbf33d53f981ffc14681b2c7876e69fe6164a9adb29335efc5bd67"
+          "id": "plain-r02-overview-05",
+          "file": "books/admissions-guide-2027/parts/plain-r02-overview-05/5b47f75e58b96784b5ebb2526d083e94a0640e2a3e94b939ad361892eebc1a8f/plain-r02-overview-05.jpg",
+          "sha256": "5b47f75e58b96784b5ebb2526d083e94a0640e2a3e94b939ad361892eebc1a8f"
         },
         {
-          "id": "plain-overview-09",
-          "file": "books/admissions-guide-2027/parts/plain-overview-09/22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573/plain-overview-09.jpg",
+          "id": "plain-r02-overview-09",
+          "file": "books/admissions-guide-2027/parts/plain-r02-overview-09/22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573/plain-r02-overview-09.jpg",
           "sha256": "22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573"
         },
         {
-          "id": "plain-overview-13",
-          "file": "books/admissions-guide-2027/parts/plain-overview-13/dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e/plain-overview-13.jpg",
+          "id": "plain-r02-overview-13",
+          "file": "books/admissions-guide-2027/parts/plain-r02-overview-13/dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e/plain-r02-overview-13.jpg",
           "sha256": "dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e"
         },
         {
-          "id": "plain-overview-17",
-          "file": "books/admissions-guide-2027/parts/plain-overview-17/07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe/plain-overview-17.jpg",
+          "id": "plain-r02-overview-17",
+          "file": "books/admissions-guide-2027/parts/plain-r02-overview-17/07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe/plain-r02-overview-17.jpg",
           "sha256": "07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe"
         },
         {
-          "id": "plain-overview-21",
-          "file": "books/admissions-guide-2027/parts/plain-overview-21/1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b/plain-overview-21.jpg",
+          "id": "plain-r02-overview-21",
+          "file": "books/admissions-guide-2027/parts/plain-r02-overview-21/1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b/plain-r02-overview-21.jpg",
           "sha256": "1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b"
         }
-      ]
+      ],
+      "color_policy": "downloads/admissions-plain-20261025/r02-colors/color-policy.json"
     }
   ],
   "excluded_variants": [

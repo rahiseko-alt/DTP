@@ -59,7 +59,21 @@
     "plain-overview-09": "22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573",
     "plain-overview-13": "dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e",
     "plain-overview-17": "07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe",
-    "plain-overview-21": "1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b"
+    "plain-overview-21": "1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b",
+    "plain-r01-source-reading": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab",
+    "plain-r02-color-policy": "1209317e01c1627b1174856677756706ac0076ebdd4fa338b292ef0fa748ec28",
+    "plain-r02-reading-pdf": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b",
+    "plain-r02-print-a3": "4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521",
+    "plain-r02-print-a4": "b8f637ee00fb8d4375b6fd09be9a2bee9f5ec41b5eeea418ff75701cae1105c0",
+    "plain-r02-build-proof": "1c7c403828e99eb580a4d7f03d66d7957cc61cdc19ca486cbf462dc34c96ba61",
+    "plain-r02-overview-01": "b213413f0d6c9dd2441cacd3a6bab866b544dcd0322981c765fd8c3ada58535e",
+    "plain-r02-overview-05": "5b47f75e58b96784b5ebb2526d083e94a0640e2a3e94b939ad361892eebc1a8f",
+    "plain-r02-overview-09": "22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573",
+    "plain-r02-overview-13": "dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e",
+    "plain-r02-overview-17": "07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe",
+    "plain-r02-overview-21": "1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b",
+    "plain-r02-page-04": "68ee46bca7a6d3bd74434e2fa252ff9d578f9526af754354cc74c55b39040710",
+    "plain-r02-page-05": "5d16653195e028082eef315d7406149d845305d72be1bccfd977890dcb9c4382"
   },
   "assets": [
     {
@@ -2874,6 +2888,362 @@
         {
           "id": "plain-reading-pdf",
           "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab"
+        }
+      ]
+    },
+    {
+      "id": "plain-r01-source-reading",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "pdf",
+      "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab",
+      "file": "books/admissions-guide-2027/parts/plain-r01-source-reading/b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab/plain-r01-source-reading.pdf",
+      "sha256": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab",
+      "size": 3278252,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:57:47.492Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-reading-pdf",
+          "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-color-policy",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "text",
+      "revision": "1209317e01c1627b1174856677756706ac0076ebdd4fa338b292ef0fa748ec28",
+      "file": "books/admissions-guide-2027/parts/plain-r02-color-policy/1209317e01c1627b1174856677756706ac0076ebdd4fa338b292ef0fa748ec28/plain-r02-color-policy.json",
+      "sha256": "1209317e01c1627b1174856677756706ac0076ebdd4fa338b292ef0fa748ec28",
+      "size": 991,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:57:48.143Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r01-source-reading",
+          "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-reading-pdf",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "pdf",
+      "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b",
+      "file": "books/admissions-guide-2027/parts/plain-r02-reading-pdf/872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b/plain-r02-reading-pdf.pdf",
+      "sha256": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b",
+      "size": 3278807,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:50.345Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r01-source-reading",
+          "revision": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab"
+        },
+        {
+          "id": "plain-r02-color-policy",
+          "revision": "1209317e01c1627b1174856677756706ac0076ebdd4fa338b292ef0fa748ec28"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-print-a3",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "pdf",
+      "revision": "4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521",
+      "file": "books/admissions-guide-2027/parts/plain-r02-print-a3/4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521/plain-r02-print-a3.pdf",
+      "sha256": "4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521",
+      "size": 3283906,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:51.057Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        },
+        {
+          "id": "plain-r02-color-policy",
+          "revision": "1209317e01c1627b1174856677756706ac0076ebdd4fa338b292ef0fa748ec28"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-print-a4",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "pdf",
+      "revision": "b8f637ee00fb8d4375b6fd09be9a2bee9f5ec41b5eeea418ff75701cae1105c0",
+      "file": "books/admissions-guide-2027/parts/plain-r02-print-a4/b8f637ee00fb8d4375b6fd09be9a2bee9f5ec41b5eeea418ff75701cae1105c0/plain-r02-print-a4.pdf",
+      "sha256": "b8f637ee00fb8d4375b6fd09be9a2bee9f5ec41b5eeea418ff75701cae1105c0",
+      "size": 3283918,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:51.815Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        },
+        {
+          "id": "plain-r02-color-policy",
+          "revision": "1209317e01c1627b1174856677756706ac0076ebdd4fa338b292ef0fa748ec28"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-build-proof",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "text",
+      "revision": "1c7c403828e99eb580a4d7f03d66d7957cc61cdc19ca486cbf462dc34c96ba61",
+      "file": "books/admissions-guide-2027/parts/plain-r02-build-proof/1c7c403828e99eb580a4d7f03d66d7957cc61cdc19ca486cbf462dc34c96ba61/plain-r02-build-proof.json",
+      "sha256": "1c7c403828e99eb580a4d7f03d66d7957cc61cdc19ca486cbf462dc34c96ba61",
+      "size": 124011,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:52.555Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        },
+        {
+          "id": "plain-r02-print-a3",
+          "revision": "4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521"
+        },
+        {
+          "id": "plain-r02-print-a4",
+          "revision": "b8f637ee00fb8d4375b6fd09be9a2bee9f5ec41b5eeea418ff75701cae1105c0"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-overview-01",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "image",
+      "revision": "b213413f0d6c9dd2441cacd3a6bab866b544dcd0322981c765fd8c3ada58535e",
+      "file": "books/admissions-guide-2027/parts/plain-r02-overview-01/b213413f0d6c9dd2441cacd3a6bab866b544dcd0322981c765fd8c3ada58535e/plain-r02-overview-01.jpg",
+      "sha256": "b213413f0d6c9dd2441cacd3a6bab866b544dcd0322981c765fd8c3ada58535e",
+      "size": 335701,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:53.321Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-overview-05",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "image",
+      "revision": "5b47f75e58b96784b5ebb2526d083e94a0640e2a3e94b939ad361892eebc1a8f",
+      "file": "books/admissions-guide-2027/parts/plain-r02-overview-05/5b47f75e58b96784b5ebb2526d083e94a0640e2a3e94b939ad361892eebc1a8f/plain-r02-overview-05.jpg",
+      "sha256": "5b47f75e58b96784b5ebb2526d083e94a0640e2a3e94b939ad361892eebc1a8f",
+      "size": 307977,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:54.038Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-overview-09",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "image",
+      "revision": "22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573",
+      "file": "books/admissions-guide-2027/parts/plain-r02-overview-09/22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573/plain-r02-overview-09.jpg",
+      "sha256": "22eb7e68c65ed83457d71780fefb51958188c38cfa95d49060e5311f38cc6573",
+      "size": 288491,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:54.714Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-overview-13",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "image",
+      "revision": "dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e",
+      "file": "books/admissions-guide-2027/parts/plain-r02-overview-13/dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e/plain-r02-overview-13.jpg",
+      "sha256": "dce849c2c50d65b9074dd3ccaa8d9ca8bf3efd8765b50ec14583f77ee8b4f56e",
+      "size": 167405,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:55.363Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-overview-17",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "image",
+      "revision": "07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe",
+      "file": "books/admissions-guide-2027/parts/plain-r02-overview-17/07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe/plain-r02-overview-17.jpg",
+      "sha256": "07ac5a17502bc2af7333ab94168e74fb948932cf1c25377bc3def372e88c9ebe",
+      "size": 192277,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:56.028Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-overview-21",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "image",
+      "revision": "1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b",
+      "file": "books/admissions-guide-2027/parts/plain-r02-overview-21/1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b/plain-r02-overview-21.jpg",
+      "sha256": "1e2555c02f1ff3365ec223b10fa55143bfea2508a75d638181a43d78e4ed770b",
+      "size": 189198,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:56.724Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-page-04",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "image",
+      "revision": "68ee46bca7a6d3bd74434e2fa252ff9d578f9526af754354cc74c55b39040710",
+      "file": "books/admissions-guide-2027/parts/plain-r02-page-04/68ee46bca7a6d3bd74434e2fa252ff9d578f9526af754354cc74c55b39040710/plain-r02-page-04.png",
+      "sha256": "68ee46bca7a6d3bd74434e2fa252ff9d578f9526af754354cc74c55b39040710",
+      "size": 124872,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:57.423Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+        }
+      ]
+    },
+    {
+      "id": "plain-r02-page-05",
+      "variant": "plain-no-photo-r02",
+      "role": "support",
+      "media": "image",
+      "revision": "5d16653195e028082eef315d7406149d845305d72be1bccfd977890dcb9c4382",
+      "file": "books/admissions-guide-2027/parts/plain-r02-page-05/5d16653195e028082eef315d7406149d845305d72be1bccfd977890dcb9c4382/plain-r02-page-05.png",
+      "sha256": "5d16653195e028082eef315d7406149d845305d72be1bccfd977890dcb9c4382",
+      "size": 107399,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R02: semantic color correction only on saved plain-edition pages 4-5. Navy/white exam labels and headings, opaque white table cells with dark text, no AO-only gold. Text/fonts/positions/images and every other page retained. Saved review edition; original admissions edition retained; standard-render freshness/release not asserted.",
+        "recorded_at": "2026-10-24T23:58:58.107Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r02-reading-pdf",
+          "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
         }
       ]
     }
