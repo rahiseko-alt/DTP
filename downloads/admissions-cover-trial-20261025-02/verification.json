@@ -1,14 +1,14 @@
 {
   "status": "trial-only; not adopted; approved PDFs/index/catalog/ledger unchanged",
   "id": "ADM-JP-COVER-TRIAL-2027-02",
-  "pdf_sha256": "abf899d947a0c7c0682b7edd207b67bab91bc9059605148548a1eb95fac6d2be",
+  "pdf_sha256": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e",
   "page_count": 1,
   "dominant_background_rgb": [
     27,
     53,
     80
   ],
-  "navy_area_fraction": 0.9642170806776292,
+  "navy_area_fraction": 0.9644782143527181,
   "fonts": [
     "AAAAAA+NotoSansJPThin-Bold",
     "BAAAAA+NotoSansJPThin-Bold",
@@ -41,5 +41,16 @@
   },
   "independent_review": false,
   "physical_print_test": false,
-  "release": false
+  "release": false,
+  "last_change": {
+    "action": "remove only the gold underline below the year",
+    "removed_rect_pt": [
+      87.75,
+      229.5,
+      156.0,
+      231.0
+    ],
+    "outside_removed_rule_pixels_identical": true,
+    "native_text_identical": true
+  }
 }

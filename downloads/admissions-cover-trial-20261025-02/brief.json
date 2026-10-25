@@ -23,5 +23,6 @@
   "release": false,
   "navy": "既存primaryの75%と黒25%を混色した濃紺",
   "accent": "既存の金 #d9a21b",
-  "typeface": "Noto Serif JP 700（主題） / Noto Sans JP 400・700（年度・発行元）"
+  "typeface": "Noto Serif JP 700（主題） / Noto Sans JP 400・700（年度・発行元）",
+  "year_underline": false
 }
