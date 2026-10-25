@@ -1,5 +1,10 @@
 # 引継ぎ台帳
 
+## 最新の再開位置：2026-10-25 無地版R03・指定3か所のみ
+
+同じブランチ/PR #67を継続。ADM-JP-PLAIN-2027はR03。人間の「GO。他の変更は禁止」に従い、R02から目次P7/P11-22・合計59人・入学許可カードだけを白地に統一。文章/数字/サイズ/位置/書体/画像/他の範囲は保持。全48面の指定外pixel一致等を検証し、PDF2-3Pを親が目視。制作/検証はdownloads/admissions-plain-20261025/r03-three-panels/。次は新headの必須CI確認後、人間の明示指示で通常マージ。
+
+
 ## 最新の再開位置：2026-10-25 無地版R02・入試区分と一覧表の配色統一
 
 同じブランチ `book/admissions-plain-20261025` と [PR #67](https://github.com/rahiseko-alt/DTP/pull/67) を継続。現在のADM-JP-PLAIN-2027はR02。方針は `downloads/admissions-plain-20261025/r02-colors/color-policy.json`。同じ役割を同じ色にし、紺を見出し/分類、表は白地/濃い文字、金は共通アクセントとする。AOだけの金色扱いをしない。
