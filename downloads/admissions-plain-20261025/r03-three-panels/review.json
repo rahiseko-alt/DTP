@@ -20,8 +20,18 @@
     "warnings": 152,
     "scope": "metadata-only"
   },
-  "required_asset_integrity": "PR #67 new head pending",
+  "required_asset_integrity": {
+    "commit": "16159941a2b20da92d9415bcd2171748c236059b",
+    "conclusion": "SUCCESS",
+    "url": "https://github.com/rahiseko-alt/DTP/actions/runs/40146449769/job/121028710203"
+  },
   "independent_review": false,
   "physical_print_test": false,
-  "release": false
+  "release": false,
+  "user_approval": {
+    "date": "2026-10-25",
+    "decision": "文字のみ版として確定・保管",
+    "manifest": "downloads/admissions-text-only-2027-approved-20261025/manifest.json",
+    "paper_bytes_changed": false
+  }
 }
