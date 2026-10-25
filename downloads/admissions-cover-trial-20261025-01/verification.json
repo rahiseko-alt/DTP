@@ -1,0 +1,22 @@
+{
+  "status": "trial-only; not adopted; approved PDFs/index/catalog/ledger unchanged",
+  "id": "ADM-JP-COVER-TRIAL-2027-01",
+  "pdf_sha256": "7fb2bc6dbd0711a0c6990cda3be98aef4542a5c722eec19b1bd36e841063eb77",
+  "page_count": 1,
+  "native_text": "2027年度入学生\n募集要項\n願書\n学校法人海鵬学園\n",
+  "official_logo_pixels_identical": true,
+  "protected_files_unchanged": {
+    "downloads/admissions-text-only-2027-approved-20261025/manifest.json": "4c92de5cbffa036120a4328cf8de658ff10c0ad7319041a8a610ac0141f9028b",
+    "downloads/admissions-text-only-2027-approved-20261025/募集要項_文字のみ版_日本人向け_2027年度_24P_確定.pdf": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2",
+    "downloads/admissions-text-only-2027-approved-20261025/募集要項_文字のみ版_日本人向け_2027年度_確定_中綴じ_A3_6枚.pdf": "088b4888748ae7914697eaa3134c0179d277223843e78d052435ebff9360c008",
+    "downloads/admissions-text-only-2027-approved-20261025/README.md": "a17feb4a042fb77a84a9775feeefa29f23bfbd46c0b76be2dd7f24d73a82fcc4",
+    "downloads/admissions-text-only-2027-approved-20261025/募集要項_文字のみ版_日本人向け_2027年度_確定_ページ順_24P.pdf": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2",
+    "downloads/admissions-text-only-2027-approved-20261025/募集要項_文字のみ版_日本人向け_2027年度_確定_縮小確認用_A4_6枚.pdf": "3d812b07969dc418ab4e722843f2780105477804fb2ef02eed0b372edebf87f1",
+    "downloads/latest-materials.json": "b169bad61219aeb99f8ec708b9e72f523e67c4ba2981e684268584b7a4d1d470",
+    "company-data/ledger.md": "ab549ebeedf3eee405673751b3945e1ea07be585ec1ddf3f964120c931b6bf66",
+    "books/admissions-guide-2027/parts/catalog.yaml": "f8ec9e65a8bd6fdd791e9fbd64268c8bb5f5ba6504aff4ce26dd1531e8a2de14"
+  },
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false
+}
