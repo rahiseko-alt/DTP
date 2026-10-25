@@ -279,7 +279,8 @@
         "版:文字のみ版",
         "人物写真:なし",
         "意匠:紺・黄",
-        "状態:確定"
+        "状態:確定",
+        "用途:ページ順PDF"
       ],
       "document": "admissions-guide-2027",
       "variant": "plain-no-photo-r03",
@@ -308,7 +309,7 @@
         20,
         22
       ],
-      "download_file": "downloads/admissions-text-only-2027-approved-20261025/募集要項_文字のみ版_日本人向け_2027年度_24P_確定.pdf",
+      "download_file": "downloads/admissions-text-only-2027-approved-20261025/募集要項_文字のみ版_日本人向け_2027年度_確定_ページ順_24P.pdf",
       "print_outputs": [
         {
           "paper": "A3",
@@ -396,7 +397,9 @@
         "statement": "OK、これを文字のみ版で確定して、保管しろ"
       },
       "archive_directory": "downloads/admissions-text-only-2027-approved-20261025",
-      "naming_note": "文字のみ版は人物写真なし版を指す。承認対象R03の正本ロゴと地図はそのまま保持する。"
+      "naming_note": "文字のみ版は人物写真なし版を指す。承認対象R03の正本ロゴと地図はそのまま保持する。",
+      "reading_order": "1-24（1ページずつ・読む順）",
+      "download_label": "文字のみ版・ページ順PDF（24P）"
     }
   ],
   "excluded_variants": [

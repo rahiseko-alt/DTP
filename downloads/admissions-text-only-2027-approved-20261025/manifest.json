@@ -78,5 +78,16 @@
     "metadata_check_errors": 0,
     "metadata_check_warnings": 152,
     "new_paper_render": false
-  }
+  },
+  "distribution_aliases": [
+    {
+      "role": "reading-page-order",
+      "file": "downloads/admissions-text-only-2027-approved-20261025/募集要項_文字のみ版_日本人向け_2027年度_確定_ページ順_24P.pdf",
+      "sha256": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2",
+      "bytes": 3278503,
+      "pages": 24,
+      "order": "1-24; one portrait page per PDF page; blank form backs retained",
+      "same_as_approved_reading_pdf": true
+    }
+  ]
 }
