@@ -1,0 +1,27 @@
+{
+  "recorded_at_utc": "2026-10-27T06:19:40.396107+00:00",
+  "pr": "https://github.com/rahiseko-alt/DTP/pull/66",
+  "metadata_only": {
+    "errors": 0,
+    "warnings": 232,
+    "proof": "metadata-check.json"
+  },
+  "pdf_comparison": {
+    "passed": true,
+    "pdf_count": 4,
+    "page_faces": 48,
+    "proof": "verification.json"
+  },
+  "code_and_source_validation": "Same schema/facts/templates as PR #69; see its checks.json and final PR validation record.",
+  "github_asset_integrity": {
+    "status_at_recording": "running",
+    "final_outcome": "See PR #66 checks and final validation record"
+  },
+  "original_r13_head_retained_as_ancestor": "21caee0badeadcacab90778919a736f53d1eca32",
+  "fee_integration": "normal merge; no force push",
+  "ai_notice_and_consent_retained": true,
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false,
+  "main_merge": false
+}
