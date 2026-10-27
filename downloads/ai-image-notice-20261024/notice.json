@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-24",
+  "scope": "現行の医専日本人版パンフレットに使用する人物画像",
+  "consent_source": "人間の確認：AIによる生成・加工と掲載について承諾取得済み（しょうだくえているからだいちょうもこうしん）",
+  "consent_verified_by": "user_statement",
+  "lines": [
+    "本パンフレットには、AIにより生成・加工した画像を使用しています。",
+    "実在の人物の写真を参考にした画像については、ご本人からAIによる生成・加工および掲載への同意を得ています。"
+  ],
+  "font_family": "Noto Sans JP",
+  "font_weight": 400,
+  "font_size_pt": 9.3,
+  "line_height_pt": 13,
+  "right_pt": 36,
+  "bottom_pt": 11.2,
+  "width_pt": 524,
+  "color": "#555555"
+}

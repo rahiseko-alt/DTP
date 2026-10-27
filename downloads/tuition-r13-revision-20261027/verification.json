@@ -1,0 +1,302 @@
+{
+  "verified": true,
+  "outputs": [
+    {
+      "label": "brochure-jp-r13",
+      "sha256": "41fad71a1269b9834d14834dd77e67d1044559390ffc2c388a3f953a238f00e6",
+      "pages": [
+        {
+          "page": 1,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 2,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 3,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 4,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 5,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 6,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 7,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 8,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 9,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 10,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 11,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 12,
+          "fee_regions": 2,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 13,
+          "fee_regions": 3,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 14,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 15,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 16,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        }
+      ],
+      "outside_native_glyphs_fonts_positions_identical": true,
+      "original_image_streams_identical": true,
+      "qr": [
+        "https://kaihougakuen.my.canva.site/"
+      ]
+    },
+    {
+      "label": "brochure-jp-r13-master",
+      "sha256": "5a997b671abd38980d2f251426a902967c3fc45d92ecf23bd500a58d2a9e6246",
+      "pages": [
+        {
+          "page": 1,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 2,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 3,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 4,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 5,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 6,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 7,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 8,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 9,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 10,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 11,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 12,
+          "fee_regions": 2,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 13,
+          "fee_regions": 3,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 14,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 15,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 16,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        }
+      ],
+      "outside_native_glyphs_fonts_positions_identical": true,
+      "original_image_streams_identical": true,
+      "qr": [
+        "https://kaihougakuen.my.canva.site/"
+      ]
+    },
+    {
+      "label": "brochure-jp-r13-A3",
+      "sha256": "fd40b87489d92243c9c2dac348adbc4dbe7fbd20d4013625f6be1eaf641d33c6",
+      "pages": [
+        {
+          "page": 1,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 2,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 3,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 4,
+          "fee_regions": 3,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 5,
+          "fee_regions": 2,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 6,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 7,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 8,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        }
+      ],
+      "outside_native_glyphs_fonts_positions_identical": true,
+      "original_image_streams_identical": true,
+      "qr": "Reading QR region is outside edits; all other face pixels identical"
+    },
+    {
+      "label": "brochure-jp-r13-A4",
+      "sha256": "52cb7f1e3f7b0f5386bcf6b4671c56ae49d121e78360571cc400194104a5bec1",
+      "pages": [
+        {
+          "page": 1,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 2,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 3,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 4,
+          "fee_regions": 3,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 5,
+          "fee_regions": 2,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 6,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 7,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 8,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        }
+      ],
+      "outside_native_glyphs_fonts_positions_identical": true,
+      "original_image_streams_identical": true,
+      "qr": "Reading QR region is outside edits; all other face pixels identical"
+    }
+  ],
+  "fees_each_year": [
+    50000,
+    50000
+  ],
+  "totals": [
+    980000,
+    880000,
+    1860000
+  ],
+  "with_exam": [
+    1000000,
+    1880000
+  ],
+  "old_saved_files_unchanged": true,
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false
+}

@@ -86,3 +86,7 @@ Codex内のリンクから取得できない場合は、GitHubの当該ブラン
 2026-10-25、人間がR03を「文字のみ版」で確定。旧称「無地版（写真なし）」と同じ資料。旧R03は [確定保管フォルダ](admissions-text-only-2027-approved-20261025/README.md) に同一バイトで保持する。
 
 その後、承認済みの濃紺・金アクセント・白明朝・年度下線なしの表紙を、写真入り版／文字のみ版のA3印刷用／文字のみ版のページ順の3PDFへ反映。最新は [新表紙反映済み3PDF](admissions-cover-adopted-20261025/README.md)。文字のみ版はR04、本文2〜24P・裏表紙はR03のまま。`python3 system/scripts/list-materials.py --id ADM-JP-PLAIN-2027` はR04とA3印刷用を示す。旧A4縮小確認用はR03の履歴として保持する。
+
+## R13作業版の料金同期
+
+[AI画像注記を保持したR13料金改定の4PDF](tuition-r13-revision-20261027/README.md)。R13の既存注記・承諾記録を保持。PR #66の作業版で、注記のmain採用は未確定。

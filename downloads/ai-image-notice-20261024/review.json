@@ -1,0 +1,111 @@
+{
+  "mode": "preview",
+  "editor_session": "/root",
+  "independent_review": false,
+  "print_test": false,
+  "release": false,
+  "outputs": [
+    {
+      "kind": "reading",
+      "sha256": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87"
+    },
+    {
+      "kind": "master",
+      "sha256": "02e486ef72cea9189485e11b49f95ede9ea3bfe8f0c35cac6a9803e96aeb86d4"
+    },
+    {
+      "kind": "print-a3",
+      "sha256": "3df5b94e61f4bc733cfa45f704f43889e8412a7c9a695168b321929f9ed57879"
+    },
+    {
+      "kind": "print-a4",
+      "sha256": "716999435842c69a1c974314d76dffdb2bc29ec164da7603978ce2ca94649aca"
+    }
+  ],
+  "user_consent": {
+    "source": "2026-10-24 user statement",
+    "scope": "AIによる生成・加工および現行の医専日本人版パンフレット掲載",
+    "ledger": "company-data/ledger.md"
+  },
+  "visual_review": {
+    "pages_seen": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "evidence": [
+      "downloads/ai-image-notice-20261024/output/overview-01.jpg",
+      "downloads/ai-image-notice-20261024/output/overview-05.jpg",
+      "downloads/ai-image-notice-20261024/output/overview-09.jpg",
+      "downloads/ai-image-notice-20261024/output/overview-13.jpg",
+      "downloads/ai-image-notice-20261024/output/back-cover.png",
+      "downloads/ai-image-notice-20261024/output/notice-detail.png"
+    ],
+    "findings": "指定の最終ページ右下、既存の下端罫線の下に2行で右揃え。文字切れ・罫線/連絡先との重なりなし。英語校名を含む既存紙面を保持。",
+    "notice_font_pt": {
+      "reading_and_master": 9.3,
+      "A3": 9.289076898527037,
+      "A4": 6.568081188853618
+    }
+  },
+  "verification": "downloads/ai-image-notice-20261024/verification.json",
+  "review_limits": "自己点検。独立レビュー・実物試し刷り・入稿承認なし。既存本文の再編集/法務調査完了は主張しない。",
+  "render_observation": "同じMuPDFプロセスで注記PDFのテキスト抽出後にレンダリングすると既存Helvetica文字の描画が変わる挙動を検出した。PDFの文字/画像バイトは保持される。確認画像はPDFごとにテキスト/画像抽出をしない新規プロセスで作成し、検査でも独立の新規プロセスで元PDF/出力PDFを描画して全画素を比較した。",
+  "general_checks": {
+    "typecheck": "passed",
+    "doctor": "10 OK / 1 WARN / 0 NG; existing Chromium 154 preview",
+    "whole_check": {
+      "exit_code": 1,
+      "typecheck": "passed",
+      "validate": "failed: Metadata changed during retrieval; brochure registrations were updated while this run was in progress",
+      "test_stage": "not_reached"
+    },
+    "final_metadata_check": {
+      "command": "npm run asset:check -- --metadata-only",
+      "exit_code": 0,
+      "errors": [],
+      "warnings": 116,
+      "limit": "metadata only; full extraction/integrity CI still pending"
+    },
+    "separate_full_tests": {
+      "command": "npm run test with existing Chromium 154 and locked Poppler",
+      "exit_code": 1,
+      "passed": 475,
+      "failed": 7,
+      "skipped": 7,
+      "failed_suites": 6,
+      "failed_test_names": [
+        "system/design-engine/test/render.browser.test.ts [ system/design-engine/test/render.browser.test.ts ]",
+        "system/scripts/test/studio-server.test.ts [ system/scripts/test/studio-server.test.ts ]",
+        "system/scripts/test/ingest-reference.test.ts > ref:ingest --pdf > original/ にコピーし、pdftoppm でページごとの JPEG（既定）または PNG（--format png）にする",
+        "system/scripts/test/ingest-reference.test.ts > ref:ingest --pdf > 拡張子が大文字の PDF も元のファイル名のまま original/ に置き、取り込んだ画像・PDF はすべて .gitattributes で LFS に入る",
+        "system/scripts/test/lfs-pointer.test.ts > Git LFS のポインタ: 各 CLI はファイル名と対処を示して止まる > photo:add・ref:ingest: 取り込む画像・PDF がポインタなら何も書き換えない",
+        "system/scripts/test/print-qa.test.ts > render の印刷チェック > --release では失敗し、何も書き出さない",
+        "system/scripts/test/print-qa.test.ts > render の印刷チェック > 問題がなければ警告しない（fixture の smoke は --release で出力できる）",
+        "system/scripts/test/render.test.ts > render（smoke BOOK） > --release は TODO がなければ成功する",
+        "system/scripts/test/render.test.ts > render（smoke BOOK） > Noto にない文字（ギリシャ文字・ローマ数字・≒）はシステムフォントでの代替として警告し、--release では失敗する"
+      ],
+      "reason": "Same known pinned-browser/release checks and CLI argument expectation failures documented for PR #65; no new test or engine changes in this PR"
+    },
+    "final_saved_get": {
+      "file": "downloads/ai-image-notice-20261024/current-get.json",
+      "integrity": "verified",
+      "freshness": "not_checked"
+    },
+    "required_asset_integrity": "GitHub PR #66; pending; full local check is not reported as passing"
+  },
+  "pull_request": "https://github.com/rahiseko-alt/DTP/pull/66"
+}

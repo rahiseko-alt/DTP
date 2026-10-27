@@ -1,0 +1,45 @@
+{
+  "context": {
+    "root": "/workspace/DTP",
+    "head": "c846b303ecba7b3f48b1ed9d05e6c385c898f033",
+    "branch": "book/ai-image-disclosure-20261024",
+    "dirty": true,
+    "fingerprint": "4cd9a34dce7a90c0540a354c6f069b08c7dd6853e0f3d78803bc38e47a45d74a"
+  },
+  "document_id": "prospectus-isen-trial-2028",
+  "asset": {
+    "id": "jp-isen-reading-pdf",
+    "variant": "japanese-people-edition",
+    "role": "support",
+    "media": "pdf",
+    "revision": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87",
+    "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87/jp-isen-reading-pdf.pdf",
+    "sha256": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87",
+    "size": 6818247,
+    "relation": "authored",
+    "storage": "canonical",
+    "confirmation": "verified",
+    "saved": {
+      "reason": "R13: Add the user-approved AI-generation and consent notice only to page 16 of the fixed R12 PDFs. Images and all outside-notice pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+      "recorded_at": "2026-10-24T00:52:59.715Z"
+    },
+    "external_inputs": [],
+    "built_from": [
+      {
+        "id": "jp-isen-r12-source-reading",
+        "revision": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f"
+      },
+      {
+        "id": "jp-isen-ai-notice-copy",
+        "revision": "0ab0281a66cc3bb6c0987960137ca5875b666859476d16bc2ecf89d4f76a5265"
+      }
+    ]
+  },
+  "path": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87/jp-isen-reading-pdf.pdf",
+  "retrieval": {
+    "mode": "saved",
+    "integrity": "verified",
+    "freshness": "not_checked",
+    "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+  }
+}
