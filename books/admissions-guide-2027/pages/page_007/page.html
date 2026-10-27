@@ -55,6 +55,7 @@
     <tr class="p7-table__ent"><th>入学金</th><td></td><td></td><td class="num">{{num facts.admissions.tuition.entrance_fee}}円</td></tr>
     {{#each facts.admissions.tuition.years}}
     {{#each terms}}<tr><th>{{../year}}年次　{{term}}</th><td class="num">{{#if tuition}}{{num tuition}}円{{else}}－{{/if}}</td><td class="num">{{#if expenses}}{{num expenses}}円{{else}}－{{/if}}</td><td class="num">{{num total}}円</td></tr>{{/each}}
+    {{#if facility_fee}}<tr><th>{{year}}年次　施設設備費（年額）</th><td></td><td></td><td class="num">{{num facility_fee}}円</td></tr>{{/if}}
     <tr class="p7-table__sum"><th>{{year}}年次合計</th><td></td><td></td><td class="num">{{num total}}円</td></tr>
     {{/each}}
     <tr class="p7-table__grand"><th>総額</th><td></td><td></td><td class="num">{{num facts.admissions.tuition.grand_total}}円</td></tr>

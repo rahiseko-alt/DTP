@@ -53,6 +53,7 @@ company-data/
 | `facts/results.yaml` | `metrics[]`: `id`, `label`, `value`（必須）, `unit`, `as_of`, `source`, `note` ／ `employers[]`: `name`, `note` ／ `certifications[]`: `name`, `count`, `as_of`, `source` |
 | `facts/contacts.yaml` | `contacts[]`: `id`, `label`（必須）, `tel`, `email`, `url`, `hours`, `note` ／ `sns[]`: `service`, `url` |
 | `facts/admissions.yaml`（学費の合計だけ検査し、ほかは自由形式） | `as_of`, `source`, `audience`, `departments[]`（`course_id`・課程・コース・昼夜・学級数）, `policies{admission, curriculum, diploma}`, `eligibility{lead, conditions[]}`, `exam_notes[]`, `exam_types[]`（`id`・`name`・`formal_name`・日程・選考方法）, `documents[]`, `document_notes[]`, `withdrawal_refund`, `exam_fee`, `payment_account`, `payment_notes[]`, `tuition{entrance_fee, years[], grand_total, deadlines[], notes[]}`, `important_notes[]`, `ao_entry_notes[]` |
+| `tuition.years[].facility_fee` | 年間施設設備費（円）。前期・後期への割り振りとは別に年次合計へ加算。省略した旧データは0円として合計検査する |
 | `brand/colors/colors.yaml` | `colors{primary, secondary, accent, text, muted, background, surface}`（すべて必須、16 進）, `status`（`provisional` / `final`） |
 | `brand/fonts/fonts.yaml` | `families{heading, body, serif, number}`（CSS の font-family） |
 | `brand/logo/logo.yaml` | `logos[]`: `id`, `file`（必須）, `variant`, `note` |
