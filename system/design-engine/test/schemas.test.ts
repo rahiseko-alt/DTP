@@ -285,6 +285,39 @@ describe('admissions.yaml: 学費の合計', () => {
     expect(issuesOf(AdmissionsFileSchema, { departments: [] })).toEqual([]);
   });
 
+  const revised = () => {
+    const d = valid();
+    return { ...d, tuition: {
+      ...d.tuition,
+      years: d.tuition.years.map((y) => ({ ...y, facility_fee: 50000, total: y.total + 50000 })),
+      grand_total: 1860000,
+    } };
+  };
+
+  it('施設設備費は各年に加算し、前後期に割り振らず980000円・880000円になる', () => {
+    const d = revised();
+    expect(d.tuition.years.map((y) => y.total)).toEqual([980000, 880000]);
+    expect(d.tuition.years.flatMap((y) => y.terms.map((t) => t.total))).toEqual([440000, 390000, 440000, 390000]);
+    expect(issuesOf(AdmissionsFileSchema, d)).toEqual([]);
+  });
+
+  it.each([0, 1])('%i年目だけ施設設備費を加算し忘れた年次合計を拒否する', (yi) => {
+    const d = revised();
+    d.tuition.years[yi]!.total -= 50000;
+    d.tuition.grand_total -= 50000;
+    expect(issuesOf(AdmissionsFileSchema, d).join('\n')).toContain(`tuition.years.${yi}.total`);
+  });
+
+  it('施設設備費の二重計上と2年間合計の誤りを拒否する', () => {
+    const d = revised();
+    d.tuition.years[0]!.terms[0]!.total = Number(d.tuition.years[0]!.terms[0]!.total) + 50000;
+    d.tuition.grand_total += 50000;
+    const issues = issuesOf(AdmissionsFileSchema, d).join('\n');
+    expect(issues).toContain('tuition.years.0.terms.0.total');
+    expect(issues).toContain('tuition.years.0.total');
+    expect(issues).toContain('tuition.grand_total');
+  });
+
   it('期・年次・総額の食い違いを、場所と計算つきで報告する', () => {
     const d = valid();
     d.tuition.years[0]!.terms[1]!.tuition = 400000; // 後期の授業料だけ直して total を直し忘れた

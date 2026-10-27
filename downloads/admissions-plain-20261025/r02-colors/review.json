@@ -1,0 +1,37 @@
+{
+  "mode": "preview",
+  "material_id": "ADM-JP-PLAIN-2027",
+  "pdf_sha256": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b",
+  "editor_session": "/root",
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false,
+  "visually_seen_this_revision": [
+    4,
+    5
+  ],
+  "visual_evidence": [
+    "downloads/admissions-plain-20261025/r02-colors/output/page-04-detail.png",
+    "downloads/admissions-plain-20261025/r02-colors/output/page-05-detail.png",
+    "downloads/admissions-plain-20261025/r02-colors/output/spread-02.jpg"
+  ],
+  "unchanged_pages_review": "R01で全24P/全見開きを自己点検済み。R02の他22PはR01との全画素・文字・画像一致によりレビューを保持。",
+  "verification": "downloads/admissions-plain-20261025/r02-colors/verification.json",
+  "color_policy": "downloads/admissions-plain-20261025/r02-colors/color-policy.json",
+  "minimum_changed_text_contrast": 4.834490081424352,
+  "prior_general_checks": "同一作業ブランチR01のtypecheck/validateエラー0/205警告、doctor10OK/1WARN/0NG、全test475成功/7既知失敗/7skip。R02では全体checkを重複実行していない。",
+  "current_scope_checks": {
+    "all_48_faces": "passed",
+    "semantic_colors": "passed",
+    "text_font_size_glyph_positions": "passed",
+    "unchanged_image_streams": "passed",
+    "qr": "passed",
+    "metadata": {
+      "errors": 0,
+      "warnings": 139,
+      "limit": "metadata-only; full CI is pending"
+    },
+    "required_asset_integrity": "PR #67 new head pending"
+  },
+  "pull_request": "https://github.com/rahiseko-alt/DTP/pull/67"
+}

@@ -156,12 +156,14 @@ export const TuitionTermSchema = z.looseObject({
 export const TuitionYearSchema = z.looseObject({
   year: z.number().int().positive(),
   terms: z.array(TuitionTermSchema).optional(),
+  facility_fee: NumOrText.optional(),
   total: NumOrText.optional(),
 });
 
 /**
  * 学費（円）。金額がすべて数値のときだけ合計を検査する（"TODO: ..." は対象外）:
- * 各期の total = tuition + expenses、年次の total = 各期の total の和（1 年次は入学金 entrance_fee を含む）、
+ * 各期の total = tuition + expenses、年次の total = 各期の total の和 + 年間施設設備費 facility_fee
+ * （1 年次は入学金 entrance_fee も含む。facility_fee が未指定の旧データは 0 円）、
  * grand_total = 年次の total の和。募集要項の金額を一部だけ直したときの食い違いを見つける
  */
 export const TuitionSchema = z
@@ -189,23 +191,25 @@ export const TuitionSchema = z
         }
       });
       const total = yen(y.total);
+      const facility = y.facility_fee === undefined ? 0 : yen(y.facility_fee);
       yearTotals.push(total);
-      if (total == null || termTotals.length === 0 || termTotals.some((v) => v == null)) return;
+      if (total == null || facility == null || termTotals.length === 0 || termTotals.some((v) => v == null)) return;
       const sum = (termTotals as number[]).reduce((a, b) => a + b, 0);
+      const facilityLabel = y.facility_fee === undefined ? '' : ` + 年間施設設備費 ${fmtYen(facility)}`;
       if (y.year === 1) {
         if (entrance == null) return;
-        if (sum + entrance !== total) {
+        if (sum + facility + entrance !== total) {
           ctx.addIssue({
             code: 'custom',
             path: ['years', yi, 'total'],
-            message: `1 年次の total ${fmtYen(total)} が各期の合計 ${fmtYen(sum)} + 入学金 ${fmtYen(entrance)} = ${fmtYen(sum + entrance)} と一致しません（1 年次の total は入学金を含める）`,
+            message: `1 年次の total ${fmtYen(total)} が各期の合計 ${fmtYen(sum)}${facilityLabel} + 入学金 ${fmtYen(entrance)} = ${fmtYen(sum + facility + entrance)} と一致しません（1 年次の total は入学金を含める）`,
           });
         }
-      } else if (sum !== total) {
+      } else if (sum + facility !== total) {
         ctx.addIssue({
           code: 'custom',
           path: ['years', yi, 'total'],
-          message: `${y.year} 年次の total ${fmtYen(total)} が各期の合計 ${fmtYen(sum)} と一致しません`,
+          message: `${y.year} 年次の total ${fmtYen(total)} が各期の合計 ${fmtYen(sum)}${facilityLabel} と一致しません`,
         });
       }
     });

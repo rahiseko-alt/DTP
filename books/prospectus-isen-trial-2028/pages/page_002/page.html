@@ -9,7 +9,7 @@
 </div></section>
 <section class="fee-section"><h2><ruby>前期<rt>ぜんき</rt></ruby>・<ruby>後期<rt>こうき</rt></ruby>の<ruby>内訳<rt>うちわけ</rt></ruby><small>単位：円</small></h2>
 <table><thead><tr><th>年次・時期</th><th>授業料</th><th>諸経費</th><th>合計</th></tr></thead><tbody>
-{{#each facts.admissions.tuition.years}}{{#each terms}}<tr><th>{{../year}}年次・{{term}}</th><td>{{num tuition}}</td><td>{{num expenses}}</td><td>{{num total}}</td></tr>{{/each}}{{/each}}
+{{#each facts.admissions.tuition.years}}{{#each terms}}<tr><th>{{../year}}年次・{{term}}</th><td>{{num tuition}}</td><td>{{num expenses}}</td><td>{{num total}}</td></tr>{{/each}}{{#if facility_fee}}<tr><th>{{year}}年次・施設設備費（年額）</th><td>—</td><td>—</td><td>{{num facility_fee}}</td></tr>{{/if}}{{/each}}
 </tbody></table><p class="table-note">入学金・入学検定料はこの表に含めていません。2年次の前期・後期の支払期日は、原本では「別途通知」とされています。その他の費目の納付時期も、学校の案内でご確認ください。</p>
 </section>
 <section class="fee-section"><h2>2<ruby>年間<rt>ねんかん</rt></ruby>の<ruby>費用<rt>ひよう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>する</h2><div class="total-strip"><span>入学検定料を含む合計</span><strong>{{num facts.booklet.reference_two_years_with_exam}}<small>円</small></strong><p>納付金 {{num facts.admissions.tuition.grand_total}}円 ＋ 入学検定料 {{num facts.admissions.exam_fee}}円</p></div></section>

@@ -31,6 +31,9 @@
 .p7-table__sum th,.p7-table__sum td{background:var(--color-surface);font-weight:900}
 .p7-table__sum td{font-size:10.5pt;color:var(--color-primary)}
 .p7-table__grand th,.p7-table__grand td{background:var(--color-primary);color:var(--color-background)!important;font-weight:900;font-size:10.5pt}
+.p7-table{height:82mm;table-layout:fixed}
+.p7-table th,.p7-table td{padding:0 2mm;height:7.45mm;line-height:1.5;white-space:nowrap}
+.p7-table th:first-child{width:39%}
 .p7-due{position:absolute;left:65mm;width:127mm;top:183mm}
 .p7-due h2{margin:0 0 2mm;font-size:13pt;font-weight:900;color:var(--color-primary)}
 .p7-due ol{margin:0;padding:0;list-style:none;counter-reset:q}

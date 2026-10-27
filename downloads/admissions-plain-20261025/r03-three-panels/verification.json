@@ -1,0 +1,327 @@
+{
+  "verified": true,
+  "outputs": [
+    {
+      "kind": "reading",
+      "sha256": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2",
+      "original_image_streams_identical": true,
+      "pages": [
+        {
+          "page": 1,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 2,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": true
+        },
+        {
+          "page": 3,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": true
+        },
+        {
+          "page": 4,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 5,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 6,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 7,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 8,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 9,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 10,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 11,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 12,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 13,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 14,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 15,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 16,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 17,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 18,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 19,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 20,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 21,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 22,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 23,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 24,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        }
+      ]
+    },
+    {
+      "kind": "print-a3",
+      "sha256": "088b4888748ae7914697eaa3134c0179d277223843e78d052435ebff9360c008",
+      "original_image_streams_identical": true,
+      "pages": [
+        {
+          "page": 1,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 2,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": true
+        },
+        {
+          "page": 3,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": true
+        },
+        {
+          "page": 4,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 5,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 6,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 7,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 8,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 9,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 10,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 11,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 12,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        }
+      ]
+    },
+    {
+      "kind": "print-a4",
+      "sha256": "3d812b07969dc418ab4e722843f2780105477804fb2ef02eed0b372edebf87f1",
+      "original_image_streams_identical": true,
+      "pages": [
+        {
+          "page": 1,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 2,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": true
+        },
+        {
+          "page": 3,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": true
+        },
+        {
+          "page": 4,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 5,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 6,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 7,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 8,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 9,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 10,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 11,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        },
+        {
+          "page": 12,
+          "text_font_size_and_glyph_positions_retained": true,
+          "outside_color_fields_pixels_identical": true,
+          "changed": false
+        }
+      ]
+    }
+  ],
+  "semantic_color_checks": true,
+  "contrast_ratios": {
+    "white_on_navy": 9.59510373011954,
+    "text_on_white": 15.797619425332647,
+    "muted_on_white": 4.834490081424352
+  },
+  "all_original_images_retained": true,
+  "qr_decoded": [
+    "https://kaihougakuen.my.canva.site/"
+  ],
+  "independent_review": false,
+  "print_test": false,
+  "release": false
+}

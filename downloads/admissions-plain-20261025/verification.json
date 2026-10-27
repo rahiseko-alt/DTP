@@ -1,0 +1,264 @@
+{
+  "verified": true,
+  "outputs": [
+    {
+      "kind": "reading",
+      "sha256": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab",
+      "pages": 24
+    },
+    {
+      "kind": "print-a3",
+      "sha256": "1d9aad26fc250cfcfa84fb09df90d585c5d45aaa5d96bc6e6da194659ece598d",
+      "pages": 12
+    },
+    {
+      "kind": "print-a4",
+      "sha256": "bb62542a5835b6052ba5bd4f2c81cf4989460435312bec3c9d319b83c7554f9d",
+      "pages": 12
+    }
+  ],
+  "source_unchanged_sha256": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052",
+  "removed_photo_count": 6,
+  "retained_raster_kinds": [
+    "official school logo",
+    "access map",
+    "transparent 1px image replacements"
+  ],
+  "logo_pages": [
+    1,
+    11,
+    13,
+    15,
+    17,
+    19,
+    21,
+    24
+  ],
+  "official_logo_pixels_identical": true,
+  "map_stream_identical": true,
+  "blank_reverse_pages": [
+    8,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": true
+    },
+    {
+      "page": 2,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": true
+    },
+    {
+      "page": 3,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 4,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": true
+    },
+    {
+      "page": 5,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": true
+    },
+    {
+      "page": 6,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": true
+    },
+    {
+      "page": 7,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 8,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 9,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 10,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 11,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 12,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 13,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 14,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 15,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 16,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 17,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 18,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 19,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 20,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 21,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 22,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 23,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": false
+    },
+    {
+      "page": 24,
+      "size_identical": true,
+      "other_text_retained": true,
+      "outside_changed_regions_pixels_identical": true,
+      "preview_matches_pdf": true,
+      "changed": true
+    }
+  ],
+  "booklet_order_verified": true,
+  "qr_decoded": [
+    "https://kaihougakuen.my.canva.site/"
+  ],
+  "print_qr_decoded": {
+    "print-a3": {
+      "face": 2,
+      "decoded": [
+        "https://kaihougakuen.my.canva.site/"
+      ]
+    },
+    "print-a4": {
+      "face": 2,
+      "decoded": [
+        "https://kaihougakuen.my.canva.site/"
+      ]
+    }
+  },
+  "fresh_process_rendering": true,
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false
+}

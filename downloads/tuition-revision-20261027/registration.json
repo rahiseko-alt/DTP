@@ -1,0 +1,1478 @@
+[
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-facts",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "text",
+      "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-facts/83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7/tuition-20261027-facts.yaml",
+      "sha256": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7",
+      "size": 12992,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:20.260Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-panel-renderer",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "text",
+      "revision": "2a7eaf8d3572048e41f7f8f30cf7cb44a3a977bdec88f95e84532bca3d99c69b",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-panel-renderer/2a7eaf8d3572048e41f7f8f30cf7cb44a3a977bdec88f95e84532bca3d99c69b/tuition-20261027-panel-renderer.mjs",
+      "sha256": "2a7eaf8d3572048e41f7f8f30cf7cb44a3a977bdec88f95e84532bca3d99c69b",
+      "size": 6113,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:20.988Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-builder",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "text",
+      "revision": "ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-builder/ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd/tuition-20261027-builder.py",
+      "sha256": "ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd",
+      "size": 7100,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:21.667Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-panel-annual",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "ed0819d142eadc87647c594ccd977b6b57e1a3cdf096c022b8ab6f4ee2aa4b32",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-panel-annual/ed0819d142eadc87647c594ccd977b6b57e1a3cdf096c022b8ab6f4ee2aa4b32/tuition-20261027-panel-annual.pdf",
+      "sha256": "ed0819d142eadc87647c594ccd977b6b57e1a3cdf096c022b8ab6f4ee2aa4b32",
+      "size": 62071,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:22.431Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-facts",
+          "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7"
+        },
+        {
+          "id": "tuition-20261027-panel-renderer",
+          "revision": "2a7eaf8d3572048e41f7f8f30cf7cb44a3a977bdec88f95e84532bca3d99c69b"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-panel-periods",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "6dee9da3d6c7435ec58438efc146d840b5b14bc0d6ab7263e88a782658c797e1",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-panel-periods/6dee9da3d6c7435ec58438efc146d840b5b14bc0d6ab7263e88a782658c797e1/tuition-20261027-panel-periods.pdf",
+      "sha256": "6dee9da3d6c7435ec58438efc146d840b5b14bc0d6ab7263e88a782658c797e1",
+      "size": 48816,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:23.147Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-facts",
+          "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7"
+        },
+        {
+          "id": "tuition-20261027-panel-renderer",
+          "revision": "2a7eaf8d3572048e41f7f8f30cf7cb44a3a977bdec88f95e84532bca3d99c69b"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-original",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "f8349e4430206d583356d8eab5c9372e253f8091ae007c1f2e7550241f6b08da",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-original/f8349e4430206d583356d8eab5c9372e253f8091ae007c1f2e7550241f6b08da/tuition-20261027-brochure-original.pdf",
+      "sha256": "f8349e4430206d583356d8eab5c9372e253f8091ae007c1f2e7550241f6b08da",
+      "size": 113606046,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:24.098Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-prospectus-pdf",
+          "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+        },
+        {
+          "id": "tuition-20261027-facts",
+          "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7"
+        },
+        {
+          "id": "tuition-20261027-builder",
+          "revision": "ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd"
+        },
+        {
+          "id": "tuition-20261027-panel-annual",
+          "revision": "ed0819d142eadc87647c594ccd977b6b57e1a3cdf096c022b8ab6f4ee2aa4b32"
+        },
+        {
+          "id": "tuition-20261027-panel-periods",
+          "revision": "6dee9da3d6c7435ec58438efc146d840b5b14bc0d6ab7263e88a782658c797e1"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-original-page-12",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "0b5f162fc95bf347bcc0ee441ff8f55868b329ee023ec1e5b789e3cc53b23251",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-original-page-12/0b5f162fc95bf347bcc0ee441ff8f55868b329ee023ec1e5b789e3cc53b23251/tuition-20261027-brochure-original-page-12.png",
+      "sha256": "0b5f162fc95bf347bcc0ee441ff8f55868b329ee023ec1e5b789e3cc53b23251",
+      "size": 467607,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:25.174Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-original",
+          "revision": "f8349e4430206d583356d8eab5c9372e253f8091ae007c1f2e7550241f6b08da"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-original-page-13",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "4cfb6670c6b329c3de974ac9732b0e01823eb88b66260d9dc2f2569c370a73d4",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-original-page-13/4cfb6670c6b329c3de974ac9732b0e01823eb88b66260d9dc2f2569c370a73d4/tuition-20261027-brochure-original-page-13.png",
+      "sha256": "4cfb6670c6b329c3de974ac9732b0e01823eb88b66260d9dc2f2569c370a73d4",
+      "size": 327889,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:26.366Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-original",
+          "revision": "f8349e4430206d583356d8eab5c9372e253f8091ae007c1f2e7550241f6b08da"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-original-a3",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "71518e95a7c5839f3e9fef320dad162d40d52030f4d87f96371afac5d6068895",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-original-a3/71518e95a7c5839f3e9fef320dad162d40d52030f4d87f96371afac5d6068895/tuition-20261027-brochure-original-a3.pdf",
+      "sha256": "71518e95a7c5839f3e9fef320dad162d40d52030f4d87f96371afac5d6068895",
+      "size": 4188901,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:27.486Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-print-a3",
+          "revision": "6aa914deff3161c99a21d284b03a43fb3bf2f7894223c1d5ca8bed42d8fca881"
+        },
+        {
+          "id": "tuition-20261027-facts",
+          "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7"
+        },
+        {
+          "id": "tuition-20261027-builder",
+          "revision": "ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd"
+        },
+        {
+          "id": "tuition-20261027-panel-annual",
+          "revision": "ed0819d142eadc87647c594ccd977b6b57e1a3cdf096c022b8ab6f4ee2aa4b32"
+        },
+        {
+          "id": "tuition-20261027-panel-periods",
+          "revision": "6dee9da3d6c7435ec58438efc146d840b5b14bc0d6ab7263e88a782658c797e1"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-original-a3-page-04",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "6f91eb4d57de36ebd5bbf8f02bc2eb7723bfc1cb654acb3110976dd2b862bdd2",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-original-a3-page-04/6f91eb4d57de36ebd5bbf8f02bc2eb7723bfc1cb654acb3110976dd2b862bdd2/tuition-20261027-brochure-original-a3-page-04.png",
+      "sha256": "6f91eb4d57de36ebd5bbf8f02bc2eb7723bfc1cb654acb3110976dd2b862bdd2",
+      "size": 2125465,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:28.475Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-original-a3",
+          "revision": "71518e95a7c5839f3e9fef320dad162d40d52030f4d87f96371afac5d6068895"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-original-a3-page-05",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "56ebdb2ed58c36f101b5fa178a6f9398eef78b1254f40201fd23f518220347dd",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-original-a3-page-05/56ebdb2ed58c36f101b5fa178a6f9398eef78b1254f40201fd23f518220347dd/tuition-20261027-brochure-original-a3-page-05.png",
+      "sha256": "56ebdb2ed58c36f101b5fa178a6f9398eef78b1254f40201fd23f518220347dd",
+      "size": 2417320,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:29.602Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-original-a3",
+          "revision": "71518e95a7c5839f3e9fef320dad162d40d52030f4d87f96371afac5d6068895"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-original-a4",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "f6bdd728f68c875645794eee08cfa970bf87d8fc494ba5f37a26ab6c18f81c74",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-original-a4/f6bdd728f68c875645794eee08cfa970bf87d8fc494ba5f37a26ab6c18f81c74/tuition-20261027-brochure-original-a4.pdf",
+      "sha256": "f6bdd728f68c875645794eee08cfa970bf87d8fc494ba5f37a26ab6c18f81c74",
+      "size": 2825755,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:30.674Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-print-a4",
+          "revision": "1a82b06830528b7a914575525148c56b6107a5b6f206b8c7afa117fb8eeca185"
+        },
+        {
+          "id": "tuition-20261027-facts",
+          "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7"
+        },
+        {
+          "id": "tuition-20261027-builder",
+          "revision": "ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd"
+        },
+        {
+          "id": "tuition-20261027-panel-annual",
+          "revision": "ed0819d142eadc87647c594ccd977b6b57e1a3cdf096c022b8ab6f4ee2aa4b32"
+        },
+        {
+          "id": "tuition-20261027-panel-periods",
+          "revision": "6dee9da3d6c7435ec58438efc146d840b5b14bc0d6ab7263e88a782658c797e1"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-original-a4-page-04",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "41384211253e028132105bbdefc1e01729201fe744375e6f6991c61f42e9b7de",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-original-a4-page-04/41384211253e028132105bbdefc1e01729201fe744375e6f6991c61f42e9b7de/tuition-20261027-brochure-original-a4-page-04.png",
+      "sha256": "41384211253e028132105bbdefc1e01729201fe744375e6f6991c61f42e9b7de",
+      "size": 1294492,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:31.665Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-original-a4",
+          "revision": "f6bdd728f68c875645794eee08cfa970bf87d8fc494ba5f37a26ab6c18f81c74"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-original-a4-page-05",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "3bd9396918a99fe0739ac123003d88eeb4e2f486443edf8513eb0bf1bd86a723",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-original-a4-page-05/3bd9396918a99fe0739ac123003d88eeb4e2f486443edf8513eb0bf1bd86a723/tuition-20261027-brochure-original-a4-page-05.png",
+      "sha256": "3bd9396918a99fe0739ac123003d88eeb4e2f486443edf8513eb0bf1bd86a723",
+      "size": 1469021,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:32.709Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-original-a4",
+          "revision": "f6bdd728f68c875645794eee08cfa970bf87d8fc494ba5f37a26ab6c18f81c74"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-jp-r12",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "75fefdc5237c8d1129e76cb6cf0579e99d0a3d188e01e0a08b288ec7a0427476",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r12/75fefdc5237c8d1129e76cb6cf0579e99d0a3d188e01e0a08b288ec7a0427476/tuition-20261027-brochure-jp-r12.pdf",
+      "sha256": "75fefdc5237c8d1129e76cb6cf0579e99d0a3d188e01e0a08b288ec7a0427476",
+      "size": 6935062,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:33.748Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-reading-pdf",
+          "revision": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f"
+        },
+        {
+          "id": "tuition-20261027-facts",
+          "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7"
+        },
+        {
+          "id": "tuition-20261027-builder",
+          "revision": "ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd"
+        },
+        {
+          "id": "tuition-20261027-panel-annual",
+          "revision": "ed0819d142eadc87647c594ccd977b6b57e1a3cdf096c022b8ab6f4ee2aa4b32"
+        },
+        {
+          "id": "tuition-20261027-panel-periods",
+          "revision": "6dee9da3d6c7435ec58438efc146d840b5b14bc0d6ab7263e88a782658c797e1"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-jp-r12-page-12",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "35d4626c29f055b17e22faec588464057f60892415ace5a59280352b305f557c",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r12-page-12/35d4626c29f055b17e22faec588464057f60892415ace5a59280352b305f557c/tuition-20261027-brochure-jp-r12-page-12.png",
+      "sha256": "35d4626c29f055b17e22faec588464057f60892415ace5a59280352b305f557c",
+      "size": 456222,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:34.720Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-jp-r12",
+          "revision": "75fefdc5237c8d1129e76cb6cf0579e99d0a3d188e01e0a08b288ec7a0427476"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-jp-r12-page-13",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "b6b5cb860da80f633fe4b2ba20950751d9abeb772c1ed5239b06ab17d5185daf",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r12-page-13/b6b5cb860da80f633fe4b2ba20950751d9abeb772c1ed5239b06ab17d5185daf/tuition-20261027-brochure-jp-r12-page-13.png",
+      "sha256": "b6b5cb860da80f633fe4b2ba20950751d9abeb772c1ed5239b06ab17d5185daf",
+      "size": 327923,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:35.641Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-jp-r12",
+          "revision": "75fefdc5237c8d1129e76cb6cf0579e99d0a3d188e01e0a08b288ec7a0427476"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-jp-overview-09",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "5ee144223a407b94f2ed4799356d37755bf540efca19c5e13d22ea5e5c9d96b5",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-jp-overview-09/5ee144223a407b94f2ed4799356d37755bf540efca19c5e13d22ea5e5c9d96b5/tuition-20261027-jp-overview-09.jpg",
+      "sha256": "5ee144223a407b94f2ed4799356d37755bf540efca19c5e13d22ea5e5c9d96b5",
+      "size": 585741,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:36.538Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-jp-r12",
+          "revision": "75fefdc5237c8d1129e76cb6cf0579e99d0a3d188e01e0a08b288ec7a0427476"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-jp-overview-13",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "b7673ff95f26b5c9376cc71a46e178f52c5d5d6eedbabfb72748f67c447bd2e9",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-jp-overview-13/b7673ff95f26b5c9376cc71a46e178f52c5d5d6eedbabfb72748f67c447bd2e9/tuition-20261027-jp-overview-13.jpg",
+      "sha256": "b7673ff95f26b5c9376cc71a46e178f52c5d5d6eedbabfb72748f67c447bd2e9",
+      "size": 329504,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:37.425Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-jp-r12",
+          "revision": "75fefdc5237c8d1129e76cb6cf0579e99d0a3d188e01e0a08b288ec7a0427476"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-jp-r12-master",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "2c20bab6c6038be35ec2cd55df0555e07d2592eefe86126c53b352587023d557",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r12-master/2c20bab6c6038be35ec2cd55df0555e07d2592eefe86126c53b352587023d557/tuition-20261027-brochure-jp-r12-master.pdf",
+      "sha256": "2c20bab6c6038be35ec2cd55df0555e07d2592eefe86126c53b352587023d557",
+      "size": 126102311,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:38.557Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-master-pdf",
+          "revision": "4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010"
+        },
+        {
+          "id": "tuition-20261027-facts",
+          "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7"
+        },
+        {
+          "id": "tuition-20261027-builder",
+          "revision": "ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd"
+        },
+        {
+          "id": "tuition-20261027-panel-annual",
+          "revision": "ed0819d142eadc87647c594ccd977b6b57e1a3cdf096c022b8ab6f4ee2aa4b32"
+        },
+        {
+          "id": "tuition-20261027-panel-periods",
+          "revision": "6dee9da3d6c7435ec58438efc146d840b5b14bc0d6ab7263e88a782658c797e1"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-jp-r12-master-page-12",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "0213f757b0e32cfe296ae62d6b68721eb2ed8d09d68af34c87cb8a741372cf7b",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r12-master-page-12/0213f757b0e32cfe296ae62d6b68721eb2ed8d09d68af34c87cb8a741372cf7b/tuition-20261027-brochure-jp-r12-master-page-12.png",
+      "sha256": "0213f757b0e32cfe296ae62d6b68721eb2ed8d09d68af34c87cb8a741372cf7b",
+      "size": 478452,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:39.935Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-jp-r12-master",
+          "revision": "2c20bab6c6038be35ec2cd55df0555e07d2592eefe86126c53b352587023d557"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-jp-r12-master-page-13",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "4cfb6670c6b329c3de974ac9732b0e01823eb88b66260d9dc2f2569c370a73d4",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r12-master-page-13/4cfb6670c6b329c3de974ac9732b0e01823eb88b66260d9dc2f2569c370a73d4/tuition-20261027-brochure-jp-r12-master-page-13.png",
+      "sha256": "4cfb6670c6b329c3de974ac9732b0e01823eb88b66260d9dc2f2569c370a73d4",
+      "size": 327889,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:41.513Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-jp-r12-master",
+          "revision": "2c20bab6c6038be35ec2cd55df0555e07d2592eefe86126c53b352587023d557"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-jp-r12-a3",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "ac1e5439c1f5a439366f78ea65bf8b8c0af497208368a6290a3c6082c5cebeb0",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r12-a3/ac1e5439c1f5a439366f78ea65bf8b8c0af497208368a6290a3c6082c5cebeb0/tuition-20261027-brochure-jp-r12-a3.pdf",
+      "sha256": "ac1e5439c1f5a439366f78ea65bf8b8c0af497208368a6290a3c6082c5cebeb0",
+      "size": 4243739,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:43.097Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-print-a3",
+          "revision": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035"
+        },
+        {
+          "id": "tuition-20261027-facts",
+          "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7"
+        },
+        {
+          "id": "tuition-20261027-builder",
+          "revision": "ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd"
+        },
+        {
+          "id": "tuition-20261027-panel-annual",
+          "revision": "ed0819d142eadc87647c594ccd977b6b57e1a3cdf096c022b8ab6f4ee2aa4b32"
+        },
+        {
+          "id": "tuition-20261027-panel-periods",
+          "revision": "6dee9da3d6c7435ec58438efc146d840b5b14bc0d6ab7263e88a782658c797e1"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-jp-r12-a3-page-04",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "b3a67d2f6395f4ed95d92d5e632bd272cb302dac7f9a764f56c64fa2cf540ad0",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r12-a3-page-04/b3a67d2f6395f4ed95d92d5e632bd272cb302dac7f9a764f56c64fa2cf540ad0/tuition-20261027-brochure-jp-r12-a3-page-04.png",
+      "sha256": "b3a67d2f6395f4ed95d92d5e632bd272cb302dac7f9a764f56c64fa2cf540ad0",
+      "size": 2131923,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:43.972Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-jp-r12-a3",
+          "revision": "ac1e5439c1f5a439366f78ea65bf8b8c0af497208368a6290a3c6082c5cebeb0"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-jp-r12-a3-page-05",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "14e7813224d5c154e45a104aff08703337b40cfde879923668a0efa928ed4bd8",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r12-a3-page-05/14e7813224d5c154e45a104aff08703337b40cfde879923668a0efa928ed4bd8/tuition-20261027-brochure-jp-r12-a3-page-05.png",
+      "sha256": "14e7813224d5c154e45a104aff08703337b40cfde879923668a0efa928ed4bd8",
+      "size": 2420333,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:44.869Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-jp-r12-a3",
+          "revision": "ac1e5439c1f5a439366f78ea65bf8b8c0af497208368a6290a3c6082c5cebeb0"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-jp-r12-a4",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "d25a0cebcbef15266c50e8717b1836f3be96e869ab2294022df36362deef109a",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r12-a4/d25a0cebcbef15266c50e8717b1836f3be96e869ab2294022df36362deef109a/tuition-20261027-brochure-jp-r12-a4.pdf",
+      "sha256": "d25a0cebcbef15266c50e8717b1836f3be96e869ab2294022df36362deef109a",
+      "size": 2841238,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:45.764Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-print-a4",
+          "revision": "ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea"
+        },
+        {
+          "id": "tuition-20261027-facts",
+          "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7"
+        },
+        {
+          "id": "tuition-20261027-builder",
+          "revision": "ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd"
+        },
+        {
+          "id": "tuition-20261027-panel-annual",
+          "revision": "ed0819d142eadc87647c594ccd977b6b57e1a3cdf096c022b8ab6f4ee2aa4b32"
+        },
+        {
+          "id": "tuition-20261027-panel-periods",
+          "revision": "6dee9da3d6c7435ec58438efc146d840b5b14bc0d6ab7263e88a782658c797e1"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-jp-r12-a4-page-04",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "c00486c3e733b861fca207ff64f422a67e152e3d40a305999a013d1b87d9f83f",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r12-a4-page-04/c00486c3e733b861fca207ff64f422a67e152e3d40a305999a013d1b87d9f83f/tuition-20261027-brochure-jp-r12-a4-page-04.png",
+      "sha256": "c00486c3e733b861fca207ff64f422a67e152e3d40a305999a013d1b87d9f83f",
+      "size": 1294949,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:46.665Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-jp-r12-a4",
+          "revision": "d25a0cebcbef15266c50e8717b1836f3be96e869ab2294022df36362deef109a"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-brochure-jp-r12-a4-page-05",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "a27abb8bace307d98eaa27a83a0091b6fba92fdbaa4cb2af8892c8619c84f5ff",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r12-a4-page-05/a27abb8bace307d98eaa27a83a0091b6fba92fdbaa4cb2af8892c8619c84f5ff/tuition-20261027-brochure-jp-r12-a4-page-05.png",
+      "sha256": "a27abb8bace307d98eaa27a83a0091b6fba92fdbaa4cb2af8892c8619c84f5ff",
+      "size": 1459690,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:47.554Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-jp-r12-a4",
+          "revision": "d25a0cebcbef15266c50e8717b1836f3be96e869ab2294022df36362deef109a"
+        }
+      ]
+    }
+  },
+  {
+    "document": "admissions-guide-2027",
+    "asset": {
+      "id": "tuition-20261027-facts",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "text",
+      "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7",
+      "file": "books/admissions-guide-2027/parts/tuition-20261027-facts/83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7/tuition-20261027-facts.yaml",
+      "sha256": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7",
+      "size": 12992,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:48.414Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  {
+    "document": "admissions-guide-2027",
+    "asset": {
+      "id": "tuition-20261027-panel-renderer",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "text",
+      "revision": "2a7eaf8d3572048e41f7f8f30cf7cb44a3a977bdec88f95e84532bca3d99c69b",
+      "file": "books/admissions-guide-2027/parts/tuition-20261027-panel-renderer/2a7eaf8d3572048e41f7f8f30cf7cb44a3a977bdec88f95e84532bca3d99c69b/tuition-20261027-panel-renderer.mjs",
+      "sha256": "2a7eaf8d3572048e41f7f8f30cf7cb44a3a977bdec88f95e84532bca3d99c69b",
+      "size": 6113,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:49.126Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  {
+    "document": "admissions-guide-2027",
+    "asset": {
+      "id": "tuition-20261027-builder",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "text",
+      "revision": "ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd",
+      "file": "books/admissions-guide-2027/parts/tuition-20261027-builder/ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd/tuition-20261027-builder.py",
+      "sha256": "ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd",
+      "size": 7100,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:49.834Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  {
+    "document": "admissions-guide-2027",
+    "asset": {
+      "id": "tuition-20261027-panel-admissions",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "116ddeaf30a61989020e4f5206397d08dcadc53d3f261c25c6bdc3a57034ece1",
+      "file": "books/admissions-guide-2027/parts/tuition-20261027-panel-admissions/116ddeaf30a61989020e4f5206397d08dcadc53d3f261c25c6bdc3a57034ece1/tuition-20261027-panel-admissions.pdf",
+      "sha256": "116ddeaf30a61989020e4f5206397d08dcadc53d3f261c25c6bdc3a57034ece1",
+      "size": 55109,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:50.580Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-facts",
+          "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7"
+        },
+        {
+          "id": "tuition-20261027-panel-renderer",
+          "revision": "2a7eaf8d3572048e41f7f8f30cf7cb44a3a977bdec88f95e84532bca3d99c69b"
+        }
+      ]
+    }
+  },
+  {
+    "document": "admissions-guide-2027",
+    "asset": {
+      "id": "tuition-20261027-admissions-photo",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a",
+      "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo/ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a/tuition-20261027-admissions-photo.pdf",
+      "sha256": "ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a",
+      "size": 14719399,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:51.332Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "photo-cover-r01-reading-pdf",
+          "revision": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a"
+        },
+        {
+          "id": "tuition-20261027-facts",
+          "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7"
+        },
+        {
+          "id": "tuition-20261027-builder",
+          "revision": "ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd"
+        },
+        {
+          "id": "tuition-20261027-panel-admissions",
+          "revision": "116ddeaf30a61989020e4f5206397d08dcadc53d3f261c25c6bdc3a57034ece1"
+        }
+      ]
+    }
+  },
+  {
+    "document": "admissions-guide-2027",
+    "asset": {
+      "id": "tuition-20261027-admissions-photo-page-06",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "3d73c586096ab83940002c010f56dac15aaa71b368f41ea241bdafbf55d66505",
+      "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo-page-06/3d73c586096ab83940002c010f56dac15aaa71b368f41ea241bdafbf55d66505/tuition-20261027-admissions-photo-page-06.png",
+      "sha256": "3d73c586096ab83940002c010f56dac15aaa71b368f41ea241bdafbf55d66505",
+      "size": 536624,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:52.106Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-admissions-photo",
+          "revision": "ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a"
+        }
+      ]
+    }
+  },
+  {
+    "document": "admissions-guide-2027",
+    "asset": {
+      "id": "tuition-20261027-admissions-photo-old-cover-a3",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "f69782b23511af89e8cd4e9971544b7c308157f6ce4837ac3671584e419159c9",
+      "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo-old-cover-a3/f69782b23511af89e8cd4e9971544b7c308157f6ce4837ac3671584e419159c9/tuition-20261027-admissions-photo-old-cover-a3.pdf",
+      "sha256": "f69782b23511af89e8cd4e9971544b7c308157f6ce4837ac3671584e419159c9",
+      "size": 2299579,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:52.890Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-print-a3",
+          "revision": "225673f6e213fe30d6297dc9fa0365266a946d4b18743ca5f4185191c12b175d"
+        },
+        {
+          "id": "tuition-20261027-facts",
+          "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7"
+        },
+        {
+          "id": "tuition-20261027-builder",
+          "revision": "ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd"
+        },
+        {
+          "id": "tuition-20261027-panel-admissions",
+          "revision": "116ddeaf30a61989020e4f5206397d08dcadc53d3f261c25c6bdc3a57034ece1"
+        }
+      ]
+    }
+  },
+  {
+    "document": "admissions-guide-2027",
+    "asset": {
+      "id": "tuition-20261027-admissions-photo-old-cover-a3-page-06",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "9013fae59d0be6b213b0ad25a4627b1f20e59a54c09c468122ef121740e709ba",
+      "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo-old-cover-a3-page-06/9013fae59d0be6b213b0ad25a4627b1f20e59a54c09c468122ef121740e709ba/tuition-20261027-admissions-photo-old-cover-a3-page-06.png",
+      "sha256": "9013fae59d0be6b213b0ad25a4627b1f20e59a54c09c468122ef121740e709ba",
+      "size": 805946,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:53.641Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-admissions-photo-old-cover-a3",
+          "revision": "f69782b23511af89e8cd4e9971544b7c308157f6ce4837ac3671584e419159c9"
+        }
+      ]
+    }
+  },
+  {
+    "document": "admissions-guide-2027",
+    "asset": {
+      "id": "tuition-20261027-admissions-photo-old-cover-a4",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "cb7fa7aaf85bb1499a7f00db0cec29f1a014788d196e54b0bfc22460449a255c",
+      "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo-old-cover-a4/cb7fa7aaf85bb1499a7f00db0cec29f1a014788d196e54b0bfc22460449a255c/tuition-20261027-admissions-photo-old-cover-a4.pdf",
+      "sha256": "cb7fa7aaf85bb1499a7f00db0cec29f1a014788d196e54b0bfc22460449a255c",
+      "size": 1850425,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:54.379Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-print-a4",
+          "revision": "68dd61e2cc18695d6413d2bee64a568de2ca9b2b9ba440f2904b6a83db58b55d"
+        },
+        {
+          "id": "tuition-20261027-facts",
+          "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7"
+        },
+        {
+          "id": "tuition-20261027-builder",
+          "revision": "ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd"
+        },
+        {
+          "id": "tuition-20261027-panel-admissions",
+          "revision": "116ddeaf30a61989020e4f5206397d08dcadc53d3f261c25c6bdc3a57034ece1"
+        }
+      ]
+    }
+  },
+  {
+    "document": "admissions-guide-2027",
+    "asset": {
+      "id": "tuition-20261027-admissions-photo-old-cover-a4-page-06",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "a6c7192c82c45214efb9d22405773ec11aa6fe5f5fd8b9a6e12641b5da467ec0",
+      "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo-old-cover-a4-page-06/a6c7192c82c45214efb9d22405773ec11aa6fe5f5fd8b9a6e12641b5da467ec0/tuition-20261027-admissions-photo-old-cover-a4-page-06.png",
+      "sha256": "a6c7192c82c45214efb9d22405773ec11aa6fe5f5fd8b9a6e12641b5da467ec0",
+      "size": 515712,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:55.141Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-admissions-photo-old-cover-a4",
+          "revision": "cb7fa7aaf85bb1499a7f00db0cec29f1a014788d196e54b0bfc22460449a255c"
+        }
+      ]
+    }
+  },
+  {
+    "document": "admissions-guide-2027",
+    "asset": {
+      "id": "tuition-20261027-admissions-plain",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1",
+      "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-plain/a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1/tuition-20261027-admissions-plain.pdf",
+      "sha256": "a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1",
+      "size": 3298294,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:55.879Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r04-reading-pdf",
+          "revision": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257"
+        },
+        {
+          "id": "tuition-20261027-facts",
+          "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7"
+        },
+        {
+          "id": "tuition-20261027-builder",
+          "revision": "ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd"
+        },
+        {
+          "id": "tuition-20261027-panel-admissions",
+          "revision": "116ddeaf30a61989020e4f5206397d08dcadc53d3f261c25c6bdc3a57034ece1"
+        }
+      ]
+    }
+  },
+  {
+    "document": "admissions-guide-2027",
+    "asset": {
+      "id": "tuition-20261027-admissions-plain-page-06",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "5723e868ac6b08c2be098efce7ec52643d7f040bd9c171c200b38e850ef46b8a",
+      "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-plain-page-06/5723e868ac6b08c2be098efce7ec52643d7f040bd9c171c200b38e850ef46b8a/tuition-20261027-admissions-plain-page-06.png",
+      "sha256": "5723e868ac6b08c2be098efce7ec52643d7f040bd9c171c200b38e850ef46b8a",
+      "size": 413220,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:56.651Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-admissions-plain",
+          "revision": "a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1"
+        }
+      ]
+    }
+  },
+  {
+    "document": "admissions-guide-2027",
+    "asset": {
+      "id": "tuition-20261027-admissions-plain-a3",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "eb10f08c561b3dcd27880776677d3031b6c2dd6a1f7c8463f0ebcf990327651e",
+      "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-plain-a3/eb10f08c561b3dcd27880776677d3031b6c2dd6a1f7c8463f0ebcf990327651e/tuition-20261027-admissions-plain-a3.pdf",
+      "sha256": "eb10f08c561b3dcd27880776677d3031b6c2dd6a1f7c8463f0ebcf990327651e",
+      "size": 3313593,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:57.395Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r04-print-a3",
+          "revision": "3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192"
+        },
+        {
+          "id": "tuition-20261027-facts",
+          "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7"
+        },
+        {
+          "id": "tuition-20261027-builder",
+          "revision": "ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd"
+        },
+        {
+          "id": "tuition-20261027-panel-admissions",
+          "revision": "116ddeaf30a61989020e4f5206397d08dcadc53d3f261c25c6bdc3a57034ece1"
+        }
+      ]
+    }
+  },
+  {
+    "document": "admissions-guide-2027",
+    "asset": {
+      "id": "tuition-20261027-admissions-plain-a3-page-06",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "6792fcd579e9b8076346eef8b539231b443ddd446780b6b1c3b2be816fd6ba8b",
+      "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-plain-a3-page-06/6792fcd579e9b8076346eef8b539231b443ddd446780b6b1c3b2be816fd6ba8b/tuition-20261027-admissions-plain-a3-page-06.png",
+      "sha256": "6792fcd579e9b8076346eef8b539231b443ddd446780b6b1c3b2be816fd6ba8b",
+      "size": 685443,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:58.127Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-admissions-plain-a3",
+          "revision": "eb10f08c561b3dcd27880776677d3031b6c2dd6a1f7c8463f0ebcf990327651e"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-manifest",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "text",
+      "revision": "41458920603378f5dfbd5fdc5f2c44a058028ae2495f97601ee0f9c50faf58ae",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-manifest/41458920603378f5dfbd5fdc5f2c44a058028ae2495f97601ee0f9c50faf58ae/tuition-20261027-manifest.json",
+      "sha256": "41458920603378f5dfbd5fdc5f2c44a058028ae2495f97601ee0f9c50faf58ae",
+      "size": 71214,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:57:58.902Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-original",
+          "revision": "f8349e4430206d583356d8eab5c9372e253f8091ae007c1f2e7550241f6b08da"
+        },
+        {
+          "id": "tuition-20261027-brochure-original-a3",
+          "revision": "71518e95a7c5839f3e9fef320dad162d40d52030f4d87f96371afac5d6068895"
+        },
+        {
+          "id": "tuition-20261027-brochure-original-a4",
+          "revision": "f6bdd728f68c875645794eee08cfa970bf87d8fc494ba5f37a26ab6c18f81c74"
+        },
+        {
+          "id": "tuition-20261027-brochure-jp-r12",
+          "revision": "75fefdc5237c8d1129e76cb6cf0579e99d0a3d188e01e0a08b288ec7a0427476"
+        },
+        {
+          "id": "tuition-20261027-brochure-jp-r12-master",
+          "revision": "2c20bab6c6038be35ec2cd55df0555e07d2592eefe86126c53b352587023d557"
+        },
+        {
+          "id": "tuition-20261027-brochure-jp-r12-a3",
+          "revision": "ac1e5439c1f5a439366f78ea65bf8b8c0af497208368a6290a3c6082c5cebeb0"
+        },
+        {
+          "id": "tuition-20261027-brochure-jp-r12-a4",
+          "revision": "d25a0cebcbef15266c50e8717b1836f3be96e869ab2294022df36362deef109a"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "tuition-20261027-verification",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "text",
+      "revision": "4233581a2e5d2f33e11ec0aebd0fd814d24a416b0ee3e35de2948a0560f97c17",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-verification/4233581a2e5d2f33e11ec0aebd0fd814d24a416b0ee3e35de2948a0560f97c17/tuition-20261027-verification.json",
+      "sha256": "4233581a2e5d2f33e11ec0aebd0fd814d24a416b0ee3e35de2948a0560f97c17",
+      "size": 25049,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:58:02.287Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-original",
+          "revision": "f8349e4430206d583356d8eab5c9372e253f8091ae007c1f2e7550241f6b08da"
+        },
+        {
+          "id": "tuition-20261027-brochure-original-a3",
+          "revision": "71518e95a7c5839f3e9fef320dad162d40d52030f4d87f96371afac5d6068895"
+        },
+        {
+          "id": "tuition-20261027-brochure-original-a4",
+          "revision": "f6bdd728f68c875645794eee08cfa970bf87d8fc494ba5f37a26ab6c18f81c74"
+        },
+        {
+          "id": "tuition-20261027-brochure-jp-r12",
+          "revision": "75fefdc5237c8d1129e76cb6cf0579e99d0a3d188e01e0a08b288ec7a0427476"
+        },
+        {
+          "id": "tuition-20261027-brochure-jp-r12-master",
+          "revision": "2c20bab6c6038be35ec2cd55df0555e07d2592eefe86126c53b352587023d557"
+        },
+        {
+          "id": "tuition-20261027-brochure-jp-r12-a3",
+          "revision": "ac1e5439c1f5a439366f78ea65bf8b8c0af497208368a6290a3c6082c5cebeb0"
+        },
+        {
+          "id": "tuition-20261027-brochure-jp-r12-a4",
+          "revision": "d25a0cebcbef15266c50e8717b1836f3be96e869ab2294022df36362deef109a"
+        }
+      ]
+    }
+  },
+  {
+    "document": "admissions-guide-2027",
+    "asset": {
+      "id": "tuition-20261027-manifest",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "text",
+      "revision": "41458920603378f5dfbd5fdc5f2c44a058028ae2495f97601ee0f9c50faf58ae",
+      "file": "books/admissions-guide-2027/parts/tuition-20261027-manifest/41458920603378f5dfbd5fdc5f2c44a058028ae2495f97601ee0f9c50faf58ae/tuition-20261027-manifest.json",
+      "sha256": "41458920603378f5dfbd5fdc5f2c44a058028ae2495f97601ee0f9c50faf58ae",
+      "size": 71214,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:58:05.672Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-admissions-photo",
+          "revision": "ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a"
+        },
+        {
+          "id": "tuition-20261027-admissions-photo-old-cover-a3",
+          "revision": "f69782b23511af89e8cd4e9971544b7c308157f6ce4837ac3671584e419159c9"
+        },
+        {
+          "id": "tuition-20261027-admissions-photo-old-cover-a4",
+          "revision": "cb7fa7aaf85bb1499a7f00db0cec29f1a014788d196e54b0bfc22460449a255c"
+        },
+        {
+          "id": "tuition-20261027-admissions-plain",
+          "revision": "a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1"
+        },
+        {
+          "id": "tuition-20261027-admissions-plain-a3",
+          "revision": "eb10f08c561b3dcd27880776677d3031b6c2dd6a1f7c8463f0ebcf990327651e"
+        }
+      ]
+    }
+  },
+  {
+    "document": "admissions-guide-2027",
+    "asset": {
+      "id": "tuition-20261027-verification",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "text",
+      "revision": "4233581a2e5d2f33e11ec0aebd0fd814d24a416b0ee3e35de2948a0560f97c17",
+      "file": "books/admissions-guide-2027/parts/tuition-20261027-verification/4233581a2e5d2f33e11ec0aebd0fd814d24a416b0ee3e35de2948a0560f97c17/tuition-20261027-verification.json",
+      "sha256": "4233581a2e5d2f33e11ec0aebd0fd814d24a416b0ee3e35de2948a0560f97c17",
+      "size": 25049,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-27 user-authorized fee-only revision: annual facility fee 50000 yen in EACH of years 1 and 2, totals 980000/880000/1860000; exam fee unchanged. Saved native PDF composition, not standard-renderer freshness or release certification. Each original edition/cover/photo/policy/page order retained.",
+        "recorded_at": "2026-10-27T05:58:06.606Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-admissions-photo",
+          "revision": "ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a"
+        },
+        {
+          "id": "tuition-20261027-admissions-photo-old-cover-a3",
+          "revision": "f69782b23511af89e8cd4e9971544b7c308157f6ce4837ac3671584e419159c9"
+        },
+        {
+          "id": "tuition-20261027-admissions-photo-old-cover-a4",
+          "revision": "cb7fa7aaf85bb1499a7f00db0cec29f1a014788d196e54b0bfc22460449a255c"
+        },
+        {
+          "id": "tuition-20261027-admissions-plain",
+          "revision": "a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1"
+        },
+        {
+          "id": "tuition-20261027-admissions-plain-a3",
+          "revision": "eb10f08c561b3dcd27880776677d3031b6c2dd6a1f7c8463f0ebcf990327651e"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,303 @@
+{
+  "edition": "R03",
+  "material_id": "ADM-JP-PLAIN-2027",
+  "policy": {
+    "edition": "R03",
+    "date": "2026-10-25",
+    "scope": "指定3か所のみ：PDF2Pの目次P7/P11-22と合計59人、PDF3Pの入学許可カード",
+    "principles": [
+      "指定箇所以外の変更禁止。色だけを修正し、文章・数字・大きさ・位置・書体・表構造を維持。",
+      "目次P7/P11-22の背景は白、ページ番号は紺、項目名は元の濃い文字色。",
+      "合計59人カードは白地。「合計」「59」は紺、「人」と補足文は元の濃い文字色。上端の金線は維持。",
+      "入学許可カードは白地、見出しは元の紺、本文は元の濃い文字色。上端の細線は他3枚と同じ金色に統一。"
+    ],
+    "navy": "#24476b",
+    "white": "#ffffff",
+    "text": "#1f2328",
+    "muted": "#6b7280",
+    "gold": "#d9a21b",
+    "minimum_text_contrast": 4.5,
+    "release": false
+  },
+  "pages": [
+    {
+      "page": 2,
+      "regions_pt": [
+        [
+          45.0,
+          285.75,
+          210.0,
+          307.5
+        ],
+        [
+          45.0,
+          329.25,
+          210.0,
+          350.25
+        ],
+        [
+          444.75,
+          549.75,
+          552.75,
+          757.5
+        ]
+      ],
+      "changes": [
+        {
+          "seqno": 20,
+          "kind": "fill",
+          "bbox": [
+            45.0,
+            285.75,
+            210.0,
+            307.5
+          ],
+          "rgb": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "seqno": 23,
+          "kind": "fill",
+          "bbox": [
+            45.0,
+            329.25,
+            210.0,
+            350.25
+          ],
+          "rgb": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "toc-page-number",
+          "baseline": [
+            51.01171875,
+            300.0
+          ],
+          "font_size": 9.9975,
+          "rgb": [
+            0.1411764705882353,
+            0.2784313725490196,
+            0.4196078431372549
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "toc-page-number",
+          "baseline": [
+            51.01171875,
+            343.5
+          ],
+          "font_size": 9.9975,
+          "rgb": [
+            0.1411764705882353,
+            0.2784313725490196,
+            0.4196078431372549
+          ]
+        },
+        {
+          "seqno": 454,
+          "kind": "fill",
+          "bbox": [
+            444.75,
+            549.75,
+            552.75,
+            757.5
+          ],
+          "rgb": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "total-heading-and-number",
+          "baseline": [
+            456.36328125,
+            576.0
+          ],
+          "font_size": 9.9975,
+          "rgb": [
+            0.1411764705882353,
+            0.2784313725490196,
+            0.4196078431372549
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "total-heading-and-number",
+          "baseline": [
+            466.35931396484375,
+            576.0
+          ],
+          "font_size": 9.9975,
+          "rgb": [
+            0.1411764705882353,
+            0.2784313725490196,
+            0.4196078431372549
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "total-heading-and-number",
+          "baseline": [
+            456.36328125,
+            627.75
+          ],
+          "font_size": 43.995,
+          "rgb": [
+            0.1411764705882353,
+            0.2784313725490196,
+            0.4196078431372549
+          ]
+        }
+      ],
+      "original_content_sha256": "f9859b158684f015798418be7a36ba21ef575e198f8ac6001890af6aad301e52",
+      "method": "Insert color/opacity operators only; all original content bytes, text, fonts and coordinates retained"
+    },
+    {
+      "page": 3,
+      "regions_pt": [
+        [
+          446.25,
+          669.0,
+          561.0,
+          746.25
+        ]
+      ],
+      "changes": [
+        {
+          "seqno": 630,
+          "kind": "fill",
+          "bbox": [
+            446.25,
+            669.0,
+            561.0,
+            746.25
+          ],
+          "rgb": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "seqno": 631,
+          "kind": "fill",
+          "bbox": [
+            446.25,
+            669.0,
+            561.0,
+            672.75
+          ],
+          "rgb": [
+            0.8509803921568627,
+            0.6352941176470588,
+            0.10588235294117647
+          ]
+        }
+      ],
+      "original_content_sha256": "b8042f7f13ab1b471a15c411dbea2e81debd718eb6620502a6f83ab8ff759007",
+      "method": "Insert color/opacity operators only; all original content bytes, text, fonts and coordinates retained"
+    }
+  ],
+  "outputs": [
+    {
+      "kind": "reading",
+      "file": "downloads/admissions-plain-20261025/r03-three-panels/output/admissions-plain-2027-r03.pdf",
+      "sha256": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2",
+      "bytes": 3278503,
+      "pages": 24,
+      "source": {
+        "file": "books/admissions-guide-2027/parts/plain-r02-reading-pdf/872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b/plain-r02-reading-pdf.pdf",
+        "id": "plain-r02-reading-pdf",
+        "revision": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b",
+        "sha256": "872453e3a91fd4d31bad93691d993c5472eae9f532b080be2fca508a6110cf1b"
+      }
+    },
+    {
+      "kind": "print-a3",
+      "file": "downloads/admissions-plain-20261025/r03-three-panels/output/admissions-plain-2027-r03-A3.pdf",
+      "sha256": "088b4888748ae7914697eaa3134c0179d277223843e78d052435ebff9360c008",
+      "bytes": 3284156,
+      "pages": 12,
+      "source": {
+        "file": "books/admissions-guide-2027/parts/plain-r02-print-a3/4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521/plain-r02-print-a3.pdf",
+        "id": "plain-r02-print-a3",
+        "revision": "4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521",
+        "sha256": "4e1f5e8f7e79a92e44694c372723d25b87e0f44c7002e16a28b6c468cc70e521"
+      }
+    },
+    {
+      "kind": "print-a4",
+      "file": "downloads/admissions-plain-20261025/r03-three-panels/output/admissions-plain-2027-r03-A4.pdf",
+      "sha256": "3d812b07969dc418ab4e722843f2780105477804fb2ef02eed0b372edebf87f1",
+      "bytes": 3284168,
+      "pages": 12,
+      "source": {
+        "file": "books/admissions-guide-2027/parts/plain-r02-print-a4/b8f637ee00fb8d4375b6fd09be9a2bee9f5ec41b5eeea418ff75701cae1105c0/plain-r02-print-a4.pdf",
+        "id": "plain-r02-print-a4",
+        "revision": "b8f637ee00fb8d4375b6fd09be9a2bee9f5ec41b5eeea418ff75701cae1105c0",
+        "sha256": "b8f637ee00fb8d4375b6fd09be9a2bee9f5ec41b5eeea418ff75701cae1105c0"
+      }
+    }
+  ],
+  "faces": [
+    [
+      24,
+      1
+    ],
+    [
+      2,
+      23
+    ],
+    [
+      22,
+      3
+    ],
+    [
+      4,
+      21
+    ],
+    [
+      20,
+      5
+    ],
+    [
+      6,
+      19
+    ],
+    [
+      18,
+      7
+    ],
+    [
+      8,
+      17
+    ],
+    [
+      16,
+      9
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      14,
+      11
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "release": false
+}

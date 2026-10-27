@@ -1,0 +1,179 @@
+{
+  "material_id": "ADM-JP-PLAIN-2027",
+  "mode": "preview",
+  "editor_session": "/root",
+  "pdf_sha256": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab",
+  "outputs": [
+    {
+      "kind": "reading",
+      "sha256": "b85223a22894da4e6e6c77233b15794e64dee3b3f38a80c5c0b4ecc1561eecab"
+    },
+    {
+      "kind": "print-a3",
+      "sha256": "1d9aad26fc250cfcfa84fb09df90d585c5d45aaa5d96bc6e6da194659ece598d"
+    },
+    {
+      "kind": "print-a4",
+      "sha256": "bb62542a5835b6052ba5bd4f2c81cf4989460435312bec3c9d319b83c7554f9d"
+    }
+  ],
+  "pages_seen": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "spreads_seen": [
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      24
+    ]
+  ],
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false,
+  "visual_evidence": [
+    "downloads/admissions-plain-20261025/output/cover.png",
+    "downloads/admissions-plain-20261025/output/back-cover.png",
+    "downloads/admissions-plain-20261025/output/review-spreads-01.jpg",
+    "downloads/admissions-plain-20261025/output/review-spreads-02.jpg",
+    "downloads/admissions-plain-20261025/output/review-spreads-03.jpg",
+    "downloads/admissions-plain-20261025/output/review-spreads-04.jpg",
+    "downloads/admissions-plain-20261025/output/review-spreads-05.jpg",
+    "downloads/admissions-plain-20261025/output/review-spreads-06.jpg",
+    "downloads/admissions-plain-20261025/output/print-first-face-A3.png",
+    "downloads/admissions-plain-20261025/output/print-first-face-A4.png"
+  ],
+  "reference_comparison": {
+    "reference": "references/nagoya-iryo-hisho-it/admissions/page_001.jpg",
+    "observed": "白地に縦の色帯と題字を置く構成を参照。自社の紺/黄を用い、他校画像・ロゴ・文章・数値は転用しない。",
+    "source": "ADM-JP-2027 24P saved PDF",
+    "retained": "本文の配置/帯/表/書式と原本ロゴ・地図・QRを保つ。本文の写真跡は元の白地/地色に戻し、他の情報は動かさない。"
+  },
+  "findings": [],
+  "review_conclusion": "写真がない別版として提出可。表紙は紺の縦帯に題字、白地に募集学科・年度・切取案内を配置し原本ロゴを保持。本文/様式/裏面の配置と色は原版を保つ。新規生成画像なし。",
+  "verification": "downloads/admissions-plain-20261025/verification.json",
+  "general_checks": {
+    "doctor": {
+      "ok": 10,
+      "warn": 1,
+      "ng": 0,
+      "note": "existing Chromium 154; preview only"
+    },
+    "typecheck": "passed",
+    "validate": {
+      "errors": 0,
+      "warnings": 205,
+      "asset_integrity_section": "passed; warnings 125; 5 documents"
+    },
+    "whole_npm_run_check": {
+      "result": "not_passed",
+      "observation": "typecheck and validate completed; initial process ended during tests before a final summary; full tests run separately below",
+      "initial_exit_code": null
+    },
+    "separate_full_tests": {
+      "exit_code": 1,
+      "passed": 475,
+      "failed": 7,
+      "skipped": 7,
+      "failed_suites": 6,
+      "failed_names": [
+        "system/design-engine/test/render.browser.test.ts [ system/design-engine/test/render.browser.test.ts ]",
+        "system/scripts/test/studio-server.test.ts [ system/scripts/test/studio-server.test.ts ]",
+        "system/scripts/test/ingest-reference.test.ts > ref:ingest --pdf > original/ にコピーし、pdftoppm でページごとの JPEG（既定）または PNG（--format png）にする",
+        "system/scripts/test/ingest-reference.test.ts > ref:ingest --pdf > 拡張子が大文字の PDF も元のファイル名のまま original/ に置き、取り込んだ画像・PDF はすべて .gitattributes で LFS に入る",
+        "system/scripts/test/lfs-pointer.test.ts > Git LFS のポインタ: 各 CLI はファイル名と対処を示して止まる > photo:add・ref:ingest: 取り込む画像・PDF がポインタなら何も書き換えない",
+        "system/scripts/test/print-qa.test.ts > render の印刷チェック > --release では失敗し、何も書き出さない",
+        "system/scripts/test/print-qa.test.ts > render の印刷チェック > 問題がなければ警告しない（fixture の smoke は --release で出力できる）",
+        "system/scripts/test/render.test.ts > render（smoke BOOK） > --release は TODO がなければ成功する",
+        "system/scripts/test/render.test.ts > render（smoke BOOK） > Noto にない文字（ギリシャ文字・ローマ数字・≒）はシステムフォントでの代替として警告し、--release では失敗する"
+      ],
+      "note": "Same pinned-browser/release and CLI expectation failures recorded for PR #65/#66. No engine or test changes."
+    },
+    "original_preservation": {
+      "base_commit": "25f41e93a000c749d2f95373b11401e10a34a76c",
+      "all_existing_assets_retained": true,
+      "all_existing_current_selectors_retained": true,
+      "original_config_declaration_and_facts_ledger_unchanged": true,
+      "source_pdf_sha256": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+    },
+    "asset_integrity_at_artifact_commit": {
+      "commit": "95e7c8a18a0049f55efcd7c6e512f89122587691",
+      "conclusion": "SUCCESS",
+      "url": "https://github.com/rahiseko-alt/DTP/actions/runs/40141282159/job/121013369843",
+      "completed_at": "2026-10-24T23:15:44Z"
+    },
+    "latest_documentation_commit_ci": "pending normal required CI; artifact bytes/catalog unchanged in documentation update",
+    "paper_verification": "downloads/admissions-plain-20261025/verification.json",
+    "independent_review": false,
+    "physical_print_test": false,
+    "release": false
+  },
+  "pull_request": "https://github.com/rahiseko-alt/DTP/pull/67"
+}
