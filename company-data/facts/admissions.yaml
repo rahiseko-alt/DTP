@@ -7,7 +7,7 @@
 # 書き方: company-data/README.md ／ ルール: system/rules/company-data.md
 
 as_of: 2027年度 4月入学
-source: 募集要項 V4（AIビジネス専門学校(募集要項_日本人)＿V４.docx）
+source: 募集要項 V4（AIビジネス専門学校(募集要項_日本人)＿V４.docx）。学費は2026-10-27の人間の添付料金表・実装指示により改定。
 audience: 日本人学生
 
 # 募集学科（修業年限・入学定員は facts/courses.yaml）
@@ -136,11 +136,13 @@ payment_notes:
   - 振込み手数料は、志願者負担となります。
 
 # 学費（授業料等納付金。円）
-# 募集要項 V4 の表から転記。各期の合計・年次合計・総額は表の値と一致することを確認済み
+# 2026-10-27 人間の添付料金表と実装指示により施設設備費を各年50,000円追加。
+# 施設設備費は年額。前期・後期への割り振り、納付期限、返還条件は追加しない。
 tuition:
   entrance_fee: 100000
   years:
     - year: 1
+      facility_fee: 50000
       terms:
         - term: 前期
           tuition: 390000
@@ -150,8 +152,9 @@ tuition:
           tuition: 390000
           expenses: 0
           total: 390000
-      total: 930000          # 入学金を含む
+      total: 980000          # 入学金・年間施設設備費を含む
     - year: 2
+      facility_fee: 50000
       terms:
         - term: 前期
           tuition: 390000
@@ -161,8 +164,8 @@ tuition:
           tuition: 390000
           expenses: 0
           total: 390000
-      total: 830000
-  grand_total: 1760000
+      total: 880000
+  grand_total: 1860000
   deadlines:
     - 入学金（100,000円）につきましては、合格から10日以内納入ください。
     - 1年次授業料（390,000円）につきましては、合格から1か月以内に納入ください。

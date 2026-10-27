@@ -1,0 +1,586 @@
+[
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "bf595f48e70ecc1394ae172af4fab3973693cca7",
+      "branch": "book/tuition-facility-20261027",
+      "dirty": true,
+      "fingerprint": "c87eb658b8f5cae0804de8f58d63f573dca7c1c3d5a71dd69676d23b91df1888"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "latest-prospectus-pdf",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "pdf",
+      "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+      "file": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
+      "sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+      "size": 113453759,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.765Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "0dfd207433fe5ab3d7b2ef18763fda5b62db40bcdd474ce6a6a31fc4381aefe4"
+        },
+        {
+          "id": "access-rollout-base-16p",
+          "revision": "33c93fd0c18b16444f803c39bd78103bbd0765b8159eee51545695bde1e28a56"
+        },
+        {
+          "id": "access-rollout-assembler",
+          "revision": "39d9e6765a35b40db4da243bc5784b91866c558858557a2eb99c3498b7376aa2"
+        },
+        {
+          "id": "access-rollout-proof",
+          "revision": "9c4de4191b091c70510b8e24ae58ab8eb9933eb8438daa39a0dcd5207838ace1"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-original",
+    "kind": "reading",
+    "document": "prospectus-isen-trial-2028"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "bf595f48e70ecc1394ae172af4fab3973693cca7",
+      "branch": "book/tuition-facility-20261027",
+      "dirty": true,
+      "fingerprint": "c87eb658b8f5cae0804de8f58d63f573dca7c1c3d5a71dd69676d23b91df1888"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "latest-print-a3",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "pdf",
+      "revision": "6aa914deff3161c99a21d284b03a43fb3bf2f7894223c1d5ca8bed42d8fca881",
+      "file": "books/prospectus-isen-trial-2028/parts/latest-print-a3/6aa914deff3161c99a21d284b03a43fb3bf2f7894223c1d5ca8bed42d8fca881/latest-print-a3.pdf",
+      "sha256": "6aa914deff3161c99a21d284b03a43fb3bf2f7894223c1d5ca8bed42d8fca881",
+      "size": 4049495,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.765Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-prospectus-pdf",
+          "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+        },
+        {
+          "id": "adopted-map-print-proof",
+          "revision": "43072a8c0bc1a7df28493c687b1a0c8f6a25221d75029d0a9db69342a3d569d7"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/latest-print-a3/6aa914deff3161c99a21d284b03a43fb3bf2f7894223c1d5ca8bed42d8fca881/latest-print-a3.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-original-A3",
+    "kind": "print-a3",
+    "document": "prospectus-isen-trial-2028"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "bf595f48e70ecc1394ae172af4fab3973693cca7",
+      "branch": "book/tuition-facility-20261027",
+      "dirty": true,
+      "fingerprint": "c87eb658b8f5cae0804de8f58d63f573dca7c1c3d5a71dd69676d23b91df1888"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "latest-print-a4",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "pdf",
+      "revision": "1a82b06830528b7a914575525148c56b6107a5b6f206b8c7afa117fb8eeca185",
+      "file": "books/prospectus-isen-trial-2028/parts/latest-print-a4/1a82b06830528b7a914575525148c56b6107a5b6f206b8c7afa117fb8eeca185/latest-print-a4.pdf",
+      "sha256": "1a82b06830528b7a914575525148c56b6107a5b6f206b8c7afa117fb8eeca185",
+      "size": 2686448,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.765Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "latest-prospectus-pdf",
+          "revision": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880"
+        },
+        {
+          "id": "adopted-map-print-proof",
+          "revision": "43072a8c0bc1a7df28493c687b1a0c8f6a25221d75029d0a9db69342a3d569d7"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/latest-print-a4/1a82b06830528b7a914575525148c56b6107a5b6f206b8c7afa117fb8eeca185/latest-print-a4.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-original-A4",
+    "kind": "print-a4",
+    "document": "prospectus-isen-trial-2028"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "bf595f48e70ecc1394ae172af4fab3973693cca7",
+      "branch": "book/tuition-facility-20261027",
+      "dirty": true,
+      "fingerprint": "c87eb658b8f5cae0804de8f58d63f573dca7c1c3d5a71dd69676d23b91df1888"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "jp-isen-reading-pdf",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "pdf",
+      "revision": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f/jp-isen-reading-pdf.pdf",
+      "sha256": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f",
+      "size": 6785652,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R12: English school name read from school.yaml, three fields replaced in the fixed R11 PDF. Images and all outside-field pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:18:40.144Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-r11-source-reading",
+          "revision": "877ac9a68ab8c468e92c661bc3c17a8bba533ef34b4222b0311c132e704e8e97"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f/jp-isen-reading-pdf.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-jp-r12",
+    "kind": "reading",
+    "document": "prospectus-isen-trial-2028"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "bf595f48e70ecc1394ae172af4fab3973693cca7",
+      "branch": "book/tuition-facility-20261027",
+      "dirty": true,
+      "fingerprint": "c87eb658b8f5cae0804de8f58d63f573dca7c1c3d5a71dd69676d23b91df1888"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "jp-isen-master-pdf",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "pdf",
+      "revision": "4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-master-pdf/4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010/jp-isen-master-pdf.pdf",
+      "sha256": "4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010",
+      "size": 125949943,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R12: English school name read from school.yaml, three fields replaced in the fixed R11 PDF. Images and all outside-field pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:18:41.410Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-r11-source-master",
+          "revision": "bb1767b2cfdaab7d99a6f096b93b66de2ef90b965d30aef443b3ef002e499d4f"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/jp-isen-master-pdf/4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010/jp-isen-master-pdf.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-jp-r12-master",
+    "kind": "master",
+    "document": "prospectus-isen-trial-2028"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "bf595f48e70ecc1394ae172af4fab3973693cca7",
+      "branch": "book/tuition-facility-20261027",
+      "dirty": true,
+      "fingerprint": "c87eb658b8f5cae0804de8f58d63f573dca7c1c3d5a71dd69676d23b91df1888"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "jp-isen-print-a3",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "pdf",
+      "revision": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035/jp-isen-print-a3.pdf",
+      "sha256": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035",
+      "size": 4094202,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R12: English school name read from school.yaml, three fields replaced in the fixed R11 PDF. Images and all outside-field pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:18:42.625Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-r11-source-print-a3",
+          "revision": "f50fea2dd6be1416fec7e794fc5796a19cd1bffd17ddb88b4d1c1e93cb81940b"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035/jp-isen-print-a3.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-jp-r12-A3",
+    "kind": "print-a3",
+    "document": "prospectus-isen-trial-2028"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "bf595f48e70ecc1394ae172af4fab3973693cca7",
+      "branch": "book/tuition-facility-20261027",
+      "dirty": true,
+      "fingerprint": "c87eb658b8f5cae0804de8f58d63f573dca7c1c3d5a71dd69676d23b91df1888"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "jp-isen-print-a4",
+      "variant": "japanese-people-edition",
+      "role": "support",
+      "media": "pdf",
+      "revision": "ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a4/ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea/jp-isen-print-a4.pdf",
+      "sha256": "ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea",
+      "size": 2691798,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "R12: English school name read from school.yaml, three fields replaced in the fixed R11 PDF. Images and all outside-field pixels retained. Saved review edition; current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:18:43.514Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-isen-r11-source-print-a4",
+          "revision": "d83e1c1920dacd02292b0e8298e46e6a9e07228864eadc6c345fd6a47f8b116e"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a4/ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea/jp-isen-print-a4.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-jp-r12-A4",
+    "kind": "print-a4",
+    "document": "prospectus-isen-trial-2028"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "bf595f48e70ecc1394ae172af4fab3973693cca7",
+      "branch": "book/tuition-facility-20261027",
+      "dirty": true,
+      "fingerprint": "c87eb658b8f5cae0804de8f58d63f573dca7c1c3d5a71dd69676d23b91df1888"
+    },
+    "document_id": "admissions-guide-2027",
+    "asset": {
+      "id": "photo-cover-r01-reading-pdf",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "pdf",
+      "revision": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a",
+      "file": "books/admissions-guide-2027/parts/photo-cover-r01-reading-pdf/b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a/photo-cover-r01-reading-pdf.pdf",
+      "sha256": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a",
+      "size": 14635113,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:22.184Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        },
+        {
+          "id": "navy-cover-2027-pdf",
+          "revision": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e"
+        },
+        {
+          "id": "navy-cover-adoption-builder",
+          "revision": "79655ac690f0751c3e8bbecc625c2b4b800da39d9141a83edd0b85dcc36ef8f5"
+        }
+      ]
+    },
+    "path": "books/admissions-guide-2027/parts/photo-cover-r01-reading-pdf/b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a/photo-cover-r01-reading-pdf.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "admissions-photo",
+    "kind": "reading",
+    "document": "admissions-guide-2027"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "bf595f48e70ecc1394ae172af4fab3973693cca7",
+      "branch": "book/tuition-facility-20261027",
+      "dirty": true,
+      "fingerprint": "c87eb658b8f5cae0804de8f58d63f573dca7c1c3d5a71dd69676d23b91df1888"
+    },
+    "document_id": "admissions-guide-2027",
+    "asset": {
+      "id": "latest-print-a3",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "pdf",
+      "revision": "225673f6e213fe30d6297dc9fa0365266a946d4b18743ca5f4185191c12b175d",
+      "file": "books/admissions-guide-2027/parts/latest-print-a3/225673f6e213fe30d6297dc9fa0365266a946d4b18743ca5f4185191c12b175d/latest-print-a3.pdf",
+      "sha256": "225673f6e213fe30d6297dc9fa0365266a946d4b18743ca5f4185191c12b175d",
+      "size": 2223955,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        },
+        {
+          "id": "adopted-map-print-proof",
+          "revision": "99de532945bb524480a448cfd6ba48bcde78084662e9c475069d15649bc2d30e"
+        }
+      ]
+    },
+    "path": "books/admissions-guide-2027/parts/latest-print-a3/225673f6e213fe30d6297dc9fa0365266a946d4b18743ca5f4185191c12b175d/latest-print-a3.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "admissions-photo-old-cover-A3",
+    "kind": "print-a3",
+    "document": "admissions-guide-2027"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "bf595f48e70ecc1394ae172af4fab3973693cca7",
+      "branch": "book/tuition-facility-20261027",
+      "dirty": true,
+      "fingerprint": "c87eb658b8f5cae0804de8f58d63f573dca7c1c3d5a71dd69676d23b91df1888"
+    },
+    "document_id": "admissions-guide-2027",
+    "asset": {
+      "id": "latest-print-a4",
+      "variant": "adopted-access-map",
+      "role": "support",
+      "media": "pdf",
+      "revision": "68dd61e2cc18695d6413d2bee64a568de2ca9b2b9ba440f2904b6a83db58b55d",
+      "file": "books/admissions-guide-2027/parts/latest-print-a4/68dd61e2cc18695d6413d2bee64a568de2ca9b2b9ba440f2904b6a83db58b55d/latest-print-a4.pdf",
+      "sha256": "68dd61e2cc18695d6413d2bee64a568de2ca9b2b9ba440f2904b6a83db58b55d",
+      "size": 1774905,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-22: preserve approved/superseded review editions; current-input rendering is not asserted. No output bytes or old input fingerprints are changed.",
+        "recorded_at": "2026-10-22T00:28:42.105Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "standard-rendered-pdf",
+          "revision": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052"
+        },
+        {
+          "id": "adopted-map-print-proof",
+          "revision": "99de532945bb524480a448cfd6ba48bcde78084662e9c475069d15649bc2d30e"
+        }
+      ]
+    },
+    "path": "books/admissions-guide-2027/parts/latest-print-a4/68dd61e2cc18695d6413d2bee64a568de2ca9b2b9ba440f2904b6a83db58b55d/latest-print-a4.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "admissions-photo-old-cover-A4",
+    "kind": "print-a4",
+    "document": "admissions-guide-2027"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "bf595f48e70ecc1394ae172af4fab3973693cca7",
+      "branch": "book/tuition-facility-20261027",
+      "dirty": true,
+      "fingerprint": "c87eb658b8f5cae0804de8f58d63f573dca7c1c3d5a71dd69676d23b91df1888"
+    },
+    "document_id": "admissions-guide-2027",
+    "asset": {
+      "id": "plain-r04-reading-pdf",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "pdf",
+      "revision": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257",
+      "file": "books/admissions-guide-2027/parts/plain-r04-reading-pdf/0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257/plain-r04-reading-pdf.pdf",
+      "sha256": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257",
+      "size": 3214108,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:22.884Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-reading-pdf",
+          "revision": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2"
+        },
+        {
+          "id": "navy-cover-2027-pdf",
+          "revision": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e"
+        },
+        {
+          "id": "navy-cover-adoption-builder",
+          "revision": "79655ac690f0751c3e8bbecc625c2b4b800da39d9141a83edd0b85dcc36ef8f5"
+        }
+      ]
+    },
+    "path": "books/admissions-guide-2027/parts/plain-r04-reading-pdf/0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257/plain-r04-reading-pdf.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "admissions-plain",
+    "kind": "reading",
+    "document": "admissions-guide-2027"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "bf595f48e70ecc1394ae172af4fab3973693cca7",
+      "branch": "book/tuition-facility-20261027",
+      "dirty": true,
+      "fingerprint": "c87eb658b8f5cae0804de8f58d63f573dca7c1c3d5a71dd69676d23b91df1888"
+    },
+    "document_id": "admissions-guide-2027",
+    "asset": {
+      "id": "plain-r04-print-a3",
+      "variant": "navy-cover-adopted-20261025",
+      "role": "support",
+      "media": "pdf",
+      "revision": "3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192",
+      "file": "books/admissions-guide-2027/parts/plain-r04-print-a3/3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192/plain-r04-print-a3.pdf",
+      "sha256": "3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192",
+      "size": 3219966,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "2026-10-25 user GO: replace only the cover in photo reading / plain R04 reading / plain R04 A3 saddle PDFs with the exact approved navy cover, without the year underline. Saved composition; bodies and back covers unchanged, all 60 faces compared. Not a standard-renderer rebuild or print-release certification.",
+        "recorded_at": "2026-10-25T02:50:23.609Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "plain-r03-print-a3",
+          "revision": "088b4888748ae7914697eaa3134c0179d277223843e78d052435ebff9360c008"
+        },
+        {
+          "id": "navy-cover-2027-pdf",
+          "revision": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e"
+        },
+        {
+          "id": "navy-cover-adoption-builder",
+          "revision": "79655ac690f0751c3e8bbecc625c2b4b800da39d9141a83edd0b85dcc36ef8f5"
+        },
+        {
+          "id": "plain-r04-reading-pdf",
+          "revision": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257"
+        }
+      ]
+    },
+    "path": "books/admissions-guide-2027/parts/plain-r04-print-a3/3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192/plain-r04-print-a3.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "admissions-plain-A3",
+    "kind": "print-a3",
+    "document": "admissions-guide-2027"
+  }
+]

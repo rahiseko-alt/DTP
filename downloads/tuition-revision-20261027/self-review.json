@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-27",
+  "reviewer": "parent agent self-review",
+  "independent_review": false,
+  "physical_print_test": false,
+  "scope": "料金のみ。既存の意匠・写真・本文・表紙を保持する依頼条件で原本比較。",
+  "outputs": [
+    {
+      "label": "brochure-original",
+      "sha256": "f8349e4430206d583356d8eab5c9372e253f8091ae007c1f2e7550241f6b08da",
+      "fee_pages_seen": [
+        12,
+        13
+      ],
+      "fee_table_clipping_or_overlap": false
+    },
+    {
+      "label": "brochure-original-A3",
+      "sha256": "71518e95a7c5839f3e9fef320dad162d40d52030f4d87f96371afac5d6068895",
+      "fee_pages_seen": [
+        5,
+        4
+      ],
+      "fee_table_clipping_or_overlap": false
+    },
+    {
+      "label": "brochure-original-A4",
+      "sha256": "f6bdd728f68c875645794eee08cfa970bf87d8fc494ba5f37a26ab6c18f81c74",
+      "fee_pages_seen": [
+        5,
+        4
+      ],
+      "fee_table_clipping_or_overlap": false
+    },
+    {
+      "label": "brochure-jp-r12",
+      "sha256": "75fefdc5237c8d1129e76cb6cf0579e99d0a3d188e01e0a08b288ec7a0427476",
+      "fee_pages_seen": [
+        12,
+        13
+      ],
+      "fee_table_clipping_or_overlap": false
+    },
+    {
+      "label": "brochure-jp-r12-master",
+      "sha256": "2c20bab6c6038be35ec2cd55df0555e07d2592eefe86126c53b352587023d557",
+      "fee_pages_seen": [
+        12,
+        13
+      ],
+      "fee_table_clipping_or_overlap": false
+    },
+    {
+      "label": "brochure-jp-r12-A3",
+      "sha256": "ac1e5439c1f5a439366f78ea65bf8b8c0af497208368a6290a3c6082c5cebeb0",
+      "fee_pages_seen": [
+        5,
+        4
+      ],
+      "fee_table_clipping_or_overlap": false
+    },
+    {
+      "label": "brochure-jp-r12-A4",
+      "sha256": "d25a0cebcbef15266c50e8717b1836f3be96e869ab2294022df36362deef109a",
+      "fee_pages_seen": [
+        5,
+        4
+      ],
+      "fee_table_clipping_or_overlap": false
+    },
+    {
+      "label": "admissions-photo",
+      "sha256": "ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a",
+      "fee_pages_seen": [
+        6
+      ],
+      "fee_table_clipping_or_overlap": false
+    },
+    {
+      "label": "admissions-photo-old-cover-A3",
+      "sha256": "f69782b23511af89e8cd4e9971544b7c308157f6ce4837ac3671584e419159c9",
+      "fee_pages_seen": [
+        6
+      ],
+      "fee_table_clipping_or_overlap": false
+    },
+    {
+      "label": "admissions-photo-old-cover-A4",
+      "sha256": "cb7fa7aaf85bb1499a7f00db0cec29f1a014788d196e54b0bfc22460449a255c",
+      "fee_pages_seen": [
+        6
+      ],
+      "fee_table_clipping_or_overlap": false
+    },
+    {
+      "label": "admissions-plain",
+      "sha256": "a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1",
+      "fee_pages_seen": [
+        6
+      ],
+      "fee_table_clipping_or_overlap": false
+    },
+    {
+      "label": "admissions-plain-A3",
+      "sha256": "eb10f08c561b3dcd27880776677d3031b6c2dd6a1f7c8463f0ebcf990327651e",
+      "fee_pages_seen": [
+        6
+      ],
+      "fee_table_clipping_or_overlap": false
+    }
+  ],
+  "evidence": [
+    "previews/ の全readingページ・自然見開きcontact、全版19料金表拡大、source renderer3ページを目視",
+    "verification.json: 全164P/面の料金外pixel/nativeglyph/font/position/全画像stream一致"
+  ],
+  "notes": "独立審査・実機試し刷り・商業入稿確認は未実施。未合格の全体checkとGitHub必須検査は別に記録。"
+}

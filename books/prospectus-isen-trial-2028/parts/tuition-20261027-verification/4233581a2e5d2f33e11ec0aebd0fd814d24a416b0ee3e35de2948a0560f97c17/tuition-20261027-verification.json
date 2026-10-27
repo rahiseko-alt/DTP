@@ -1,0 +1,960 @@
+{
+  "verified": true,
+  "outputs": [
+    {
+      "label": "brochure-original",
+      "sha256": "f8349e4430206d583356d8eab5c9372e253f8091ae007c1f2e7550241f6b08da",
+      "pages": [
+        {
+          "page": 1,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 2,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 3,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 4,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 5,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 6,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 7,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 8,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 9,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 10,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 11,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 12,
+          "fee_regions": 2,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 13,
+          "fee_regions": 3,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 14,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 15,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 16,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        }
+      ],
+      "outside_native_glyphs_fonts_positions_identical": true,
+      "original_image_streams_identical": true,
+      "qr": [
+        "https://kaihougakuen.my.canva.site/"
+      ]
+    },
+    {
+      "label": "brochure-original-A3",
+      "sha256": "71518e95a7c5839f3e9fef320dad162d40d52030f4d87f96371afac5d6068895",
+      "pages": [
+        {
+          "page": 1,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 2,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 3,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 4,
+          "fee_regions": 3,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 5,
+          "fee_regions": 2,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 6,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 7,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 8,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        }
+      ],
+      "outside_native_glyphs_fonts_positions_identical": true,
+      "original_image_streams_identical": true,
+      "qr": "Reading QR region is outside edits; all other face pixels identical"
+    },
+    {
+      "label": "brochure-original-A4",
+      "sha256": "f6bdd728f68c875645794eee08cfa970bf87d8fc494ba5f37a26ab6c18f81c74",
+      "pages": [
+        {
+          "page": 1,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 2,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 3,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 4,
+          "fee_regions": 3,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 5,
+          "fee_regions": 2,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 6,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 7,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 8,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        }
+      ],
+      "outside_native_glyphs_fonts_positions_identical": true,
+      "original_image_streams_identical": true,
+      "qr": "Reading QR region is outside edits; all other face pixels identical"
+    },
+    {
+      "label": "brochure-jp-r12",
+      "sha256": "75fefdc5237c8d1129e76cb6cf0579e99d0a3d188e01e0a08b288ec7a0427476",
+      "pages": [
+        {
+          "page": 1,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 2,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 3,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 4,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 5,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 6,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 7,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 8,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 9,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 10,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 11,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 12,
+          "fee_regions": 2,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 13,
+          "fee_regions": 3,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 14,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 15,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 16,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        }
+      ],
+      "outside_native_glyphs_fonts_positions_identical": true,
+      "original_image_streams_identical": true,
+      "qr": [
+        "https://kaihougakuen.my.canva.site/"
+      ]
+    },
+    {
+      "label": "brochure-jp-r12-master",
+      "sha256": "2c20bab6c6038be35ec2cd55df0555e07d2592eefe86126c53b352587023d557",
+      "pages": [
+        {
+          "page": 1,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 2,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 3,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 4,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 5,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 6,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 7,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 8,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 9,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 10,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 11,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 12,
+          "fee_regions": 2,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 13,
+          "fee_regions": 3,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 14,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 15,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 16,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        }
+      ],
+      "outside_native_glyphs_fonts_positions_identical": true,
+      "original_image_streams_identical": true,
+      "qr": [
+        "https://kaihougakuen.my.canva.site/"
+      ]
+    },
+    {
+      "label": "brochure-jp-r12-A3",
+      "sha256": "ac1e5439c1f5a439366f78ea65bf8b8c0af497208368a6290a3c6082c5cebeb0",
+      "pages": [
+        {
+          "page": 1,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 2,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 3,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 4,
+          "fee_regions": 3,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 5,
+          "fee_regions": 2,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 6,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 7,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 8,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        }
+      ],
+      "outside_native_glyphs_fonts_positions_identical": true,
+      "original_image_streams_identical": true,
+      "qr": "Reading QR region is outside edits; all other face pixels identical"
+    },
+    {
+      "label": "brochure-jp-r12-A4",
+      "sha256": "d25a0cebcbef15266c50e8717b1836f3be96e869ab2294022df36362deef109a",
+      "pages": [
+        {
+          "page": 1,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 2,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 3,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 4,
+          "fee_regions": 3,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 5,
+          "fee_regions": 2,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 6,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 7,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 8,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        }
+      ],
+      "outside_native_glyphs_fonts_positions_identical": true,
+      "original_image_streams_identical": true,
+      "qr": "Reading QR region is outside edits; all other face pixels identical"
+    },
+    {
+      "label": "admissions-photo",
+      "sha256": "ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a",
+      "pages": [
+        {
+          "page": 1,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 2,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 3,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 4,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 5,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 6,
+          "fee_regions": 4,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 7,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 8,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 9,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 10,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 11,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 12,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 13,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 14,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 15,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 16,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 17,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 18,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 19,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 20,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 21,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 22,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 23,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 24,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        }
+      ],
+      "outside_native_glyphs_fonts_positions_identical": true,
+      "original_image_streams_identical": true,
+      "qr": [
+        "https://kaihougakuen.my.canva.site/"
+      ]
+    },
+    {
+      "label": "admissions-photo-old-cover-A3",
+      "sha256": "f69782b23511af89e8cd4e9971544b7c308157f6ce4837ac3671584e419159c9",
+      "pages": [
+        {
+          "page": 1,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 2,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 3,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 4,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 5,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 6,
+          "fee_regions": 4,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 7,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 8,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 9,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 10,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 11,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 12,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        }
+      ],
+      "outside_native_glyphs_fonts_positions_identical": true,
+      "original_image_streams_identical": true,
+      "qr": "Reading QR region is outside edits; all other face pixels identical"
+    },
+    {
+      "label": "admissions-photo-old-cover-A4",
+      "sha256": "cb7fa7aaf85bb1499a7f00db0cec29f1a014788d196e54b0bfc22460449a255c",
+      "pages": [
+        {
+          "page": 1,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 2,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 3,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 4,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 5,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 6,
+          "fee_regions": 4,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 7,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 8,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 9,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 10,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 11,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 12,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        }
+      ],
+      "outside_native_glyphs_fonts_positions_identical": true,
+      "original_image_streams_identical": true,
+      "qr": "Reading QR region is outside edits; all other face pixels identical"
+    },
+    {
+      "label": "admissions-plain",
+      "sha256": "a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1",
+      "pages": [
+        {
+          "page": 1,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 2,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 3,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 4,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 5,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 6,
+          "fee_regions": 4,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 7,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 8,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 9,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 10,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 11,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 12,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 13,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 14,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 15,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 16,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 17,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 18,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 19,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 20,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 21,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 22,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 23,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 24,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        }
+      ],
+      "outside_native_glyphs_fonts_positions_identical": true,
+      "original_image_streams_identical": true,
+      "qr": [
+        "https://kaihougakuen.my.canva.site/"
+      ]
+    },
+    {
+      "label": "admissions-plain-A3",
+      "sha256": "eb10f08c561b3dcd27880776677d3031b6c2dd6a1f7c8463f0ebcf990327651e",
+      "pages": [
+        {
+          "page": 1,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 2,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 3,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 4,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 5,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 6,
+          "fee_regions": 4,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 7,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 8,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 9,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 10,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 11,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        },
+        {
+          "page": 12,
+          "fee_regions": 0,
+          "outside_fee_regions_pixels_identical": true
+        }
+      ],
+      "outside_native_glyphs_fonts_positions_identical": true,
+      "original_image_streams_identical": true,
+      "qr": "Reading QR region is outside edits; all other face pixels identical"
+    }
+  ],
+  "fees_each_year": [
+    50000,
+    50000
+  ],
+  "totals": [
+    980000,
+    880000,
+    1860000
+  ],
+  "with_exam": [
+    1000000,
+    1880000
+  ],
+  "old_saved_files_unchanged": true,
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false
+}

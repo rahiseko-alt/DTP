@@ -1,1 +1,3 @@
 /* 学費2ページの共通レイアウトは BOOK の layout.css を使用する。 */
+.fee-section table{height:54.5mm;table-layout:fixed}
+.fee-section th,.fee-section td{padding:0 3mm;height:7.78mm;line-height:1.5;white-space:nowrap}
