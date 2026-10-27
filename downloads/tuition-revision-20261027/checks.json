@@ -1,0 +1,55 @@
+{
+  "recorded_at_utc": "2026-10-27T06:19:16.169434+00:00",
+  "scope": "Fees-only source and saved-PDF revision. Final CI/global-check outcomes are recorded on PR #69 after this snapshot.",
+  "pr": "https://github.com/rahiseko-alt/DTP/pull/69",
+  "doctor": {
+    "ok": 10,
+    "warn": 1,
+    "ng": 0,
+    "browser": "Existing Chromium154; no release certification"
+  },
+  "typecheck": "passed",
+  "fee_schema_tests": {
+    "passed": 86
+  },
+  "changed_page_render": {
+    "passed": [
+      "admissions-guide-2027/page_007",
+      "prospectus-isen-trial-2028/page_001",
+      "prospectus-isen-trial-2028/page_002"
+    ]
+  },
+  "pdf_comparison": {
+    "passed": true,
+    "pdf_count": 12,
+    "page_faces": 164,
+    "proof": "verification.json"
+  },
+  "metadata_only": {
+    "errors": 0,
+    "warnings": 211,
+    "proof": "metadata-check.json"
+  },
+  "baseline_sync": {
+    "updated_only": 6,
+    "added": 0,
+    "removed": 0
+  },
+  "global_check_initial": {
+    "passed": false,
+    "reason": "AssetError: Metadata changed during retrieval while baseline synchronization completed",
+    "typecheck": "passed",
+    "tests": "not reached"
+  },
+  "global_check_final": {
+    "status_at_recording": "running on fixed metadata",
+    "final_outcome": "See PR #69 validation record"
+  },
+  "github_asset_integrity": {
+    "status_at_recording": "running",
+    "final_outcome": "See PR #69 checks"
+  },
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false
+}
