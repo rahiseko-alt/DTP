@@ -250,7 +250,7 @@
       "work_id": "PAM-JP-ISEN",
       "source_material_id": "PAM-ISEN-2028",
       "display_name": "パンフレット_日本人向け_医専白版_2028表記_16P_確認用",
-      "status": "改稿13・最終ページ右下にAI生成/加工画像と本人同意の注記を追加・確認用",
+      "status": "改稿13・AI注記を保持・2026-10-27料金改定・確認用",
       "tags": [
         "対象:日本人向け",
         "人物仕様:日本人イメージ",
@@ -260,46 +260,48 @@
         "種別:パンフレット",
         "表記年度:2028"
       ],
-      "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87/jp-isen-reading-pdf.pdf",
-      "version_policy": "改稿12の最終ページ右下に、本人承諾取得済みのAI生成・加工画像の使用を説明する2行の注記だけを追加。表紙・他の本文・英語校名・写真・ページ順を保持。閲覧用・master・A3/A4中綴じ版をそれぞれの固定R12 PDFから局所更新。元医専版・R12・チラシ・募集要項は変更しない。",
+      "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r13/41fad71a1269b9834d14834dd77e67d1044559390ffc2c388a3f953a238f00e6/tuition-20261027-brochure-jp-r13.pdf",
+      "version_policy": "R13のAI注記と本人承諾記録を保持し、料金表・合計だけを更新。施設設備費は各年50,000円、年次合計980,000/880,000円、2年間1,860,000円、検定料込み1,880,000円。表紙・写真・料金以外の本文・ページ順・納付期限・返還説明は各R13元PDFのまま。AI注記の採否は変更しない。",
       "document": "prospectus-isen-trial-2028",
-      "variant": "japanese-people-edition",
-      "asset_id": "jp-isen-reading-pdf",
-      "sha256": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87",
-      "bytes": 6818247,
+      "variant": "tuition-facility-20261027",
+      "asset_id": "tuition-20261027-brochure-jp-r13",
+      "sha256": "41fad71a1269b9834d14834dd77e67d1044559390ffc2c388a3f953a238f00e6",
+      "bytes": 6967657,
       "pages": 16,
       "year_status": "紙面は2028表記。掲載学費・入試の根拠は2027年度。2028年度確定版とは呼ばない",
       "ai_image_status": "人物加工画像を含む。生成/加工とパンフレット掲載について本人承諾取得済み（人間確認2026-10-24）。最終ページ右下に明記。実写真の在校生・教職員の国籍や所属を示すものではない。",
-      "review_status": "親が全16ページの確認画像と最終ページ/注記の拡大を目視。4出力48面で注記以外の画素・ネイティブ文字・ページ寸法・全埋込画像の保存バイトがR12と一致。PDFごとの新規プロセスで抽出前にレンダリングし確認画像とも一致。公式サイトQRも実復号。独立審査・実物試し刷りは未実施。",
+      "review_status": "4出力全48P/面の料金外150dpi画素・文字・書体・位置・全画像stream一致、QR確認。親の自己点検、独立審査・実機試し刷り・入稿承認は未実施。",
       "print_outputs": [
         {
           "paper": "A3",
           "document": "prospectus-isen-trial-2028",
-          "asset_id": "jp-isen-print-a3",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/3df5b94e61f4bc733cfa45f704f43889e8412a7c9a695168b321929f9ed57879/jp-isen-print-a3.pdf",
-          "sha256": "3df5b94e61f4bc733cfa45f704f43889e8412a7c9a695168b321929f9ed57879",
-          "bytes": 4126812,
+          "asset_id": "tuition-20261027-brochure-jp-r13-a3",
+          "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r13-a3/fd40b87489d92243c9c2dac348adbc4dbe7fbd20d4013625f6be1eaf641d33c6/tuition-20261027-brochure-jp-r13-a3.pdf",
+          "sha256": "fd40b87489d92243c9c2dac348adbc4dbe7fbd20d4013625f6be1eaf641d33c6",
+          "bytes": 4276349,
           "faces": 8,
           "sheets": 4,
           "duplex": "短辺反転",
-          "retrieval_mode": "saved"
+          "retrieval_mode": "saved",
+          "download_file": "downloads/tuition-r13-revision-20261027/output/brochure-jp-r13-A3-fees-20261027.pdf"
         },
         {
           "paper": "A4",
           "document": "prospectus-isen-trial-2028",
-          "asset_id": "jp-isen-print-a4",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a4/716999435842c69a1c974314d76dffdb2bc29ec164da7603978ce2ca94649aca/jp-isen-print-a4.pdf",
-          "sha256": "716999435842c69a1c974314d76dffdb2bc29ec164da7603978ce2ca94649aca",
-          "bytes": 2724408,
+          "asset_id": "tuition-20261027-brochure-jp-r13-a4",
+          "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r13-a4/52cb7f1e3f7b0f5386bcf6b4671c56ae49d121e78360571cc400194104a5bec1/tuition-20261027-brochure-jp-r13-a4.pdf",
+          "sha256": "52cb7f1e3f7b0f5386bcf6b4671c56ae49d121e78360571cc400194104a5bec1",
+          "bytes": 2873848,
           "faces": 8,
           "sheets": 4,
           "duplex": "短辺反転",
-          "retrieval_mode": "saved"
+          "retrieval_mode": "saved",
+          "download_file": "downloads/tuition-r13-revision-20261027/output/brochure-jp-r13-A4-fees-20261027.pdf"
         }
       ],
       "retrieval_mode": "saved",
-      "freshness_status": "保存済み確認用。現在入力からの再生成を登録検査で保証した版ではない",
-      "download_file": "downloads/ai-image-notice-20261024/output/brochure-jp-r13.pdf",
+      "freshness_status": "保存済み料金改定版。既存PDFの料金領域だけを更新。標準rendererによる全冊再生成の保証ではない。",
+      "download_file": "downloads/tuition-r13-revision-20261027/output/brochure-jp-r13-fees-20261027.pdf",
       "previews": [
         {
           "id": "jp-isen-overview-01",
@@ -312,16 +314,46 @@
           "sha256": "ce8205a25bc41f602f23d4f44419d1beaeb7ddd1db083a72bfb8ce451257bdf7"
         },
         {
-          "id": "jp-isen-overview-09",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-09/c773422dbab269e68ac44c270a3b88eddc04f96ca08df822d02c0bddd1e73a2d/jp-isen-overview-09.jpg",
-          "sha256": "c773422dbab269e68ac44c270a3b88eddc04f96ca08df822d02c0bddd1e73a2d"
+          "id": "tuition-20261027-r13-overview-09",
+          "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-r13-overview-09/5ee144223a407b94f2ed4799356d37755bf540efca19c5e13d22ea5e5c9d96b5/tuition-20261027-r13-overview-09.jpg",
+          "sha256": "5ee144223a407b94f2ed4799356d37755bf540efca19c5e13d22ea5e5c9d96b5"
         },
         {
-          "id": "jp-isen-overview-13",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-13/655ce3d84f8fdb1414e2ab2eb51790dfe6586b7e1c7667bb5cf6ddabb6f2048e/jp-isen-overview-13.jpg",
-          "sha256": "655ce3d84f8fdb1414e2ab2eb51790dfe6586b7e1c7667bb5cf6ddabb6f2048e"
+          "id": "tuition-20261027-r13-overview-13",
+          "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-r13-overview-13/2506a67bd213d79337e8f5c83282381007ed8c797cd96416c8b3fbe72d1fdcb6/tuition-20261027-r13-overview-13.jpg",
+          "sha256": "2506a67bd213d79337e8f5c83282381007ed8c797cd96416c8b3fbe72d1fdcb6"
+        },
+        {
+          "id": "tuition-20261027-brochure-jp-r13-page-12",
+          "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r13-page-12/35d4626c29f055b17e22faec588464057f60892415ace5a59280352b305f557c/tuition-20261027-brochure-jp-r13-page-12.png",
+          "sha256": "35d4626c29f055b17e22faec588464057f60892415ace5a59280352b305f557c"
+        },
+        {
+          "id": "tuition-20261027-brochure-jp-r13-page-13",
+          "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r13-page-13/b6b5cb860da80f633fe4b2ba20950751d9abeb772c1ed5239b06ab17d5185daf/tuition-20261027-brochure-jp-r13-page-13.png",
+          "sha256": "b6b5cb860da80f633fe4b2ba20950751d9abeb772c1ed5239b06ab17d5185daf"
         }
-      ]
+      ],
+      "previous_fee_edition": {
+        "asset_id": "jp-isen-reading-pdf",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87/jp-isen-reading-pdf.pdf",
+        "sha256": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87",
+        "bytes": 6818247,
+        "download_file": "downloads/ai-image-notice-20261024/output/brochure-jp-r13.pdf"
+      },
+      "master_output": {
+        "document": "prospectus-isen-trial-2028",
+        "asset_id": "tuition-20261027-brochure-jp-r13-master",
+        "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r13-master/5a997b671abd38980d2f251426a902967c3fc45d92ecf23bd500a58d2a9e6246/tuition-20261027-brochure-jp-r13-master.pdf",
+        "sha256": "5a997b671abd38980d2f251426a902967c3fc45d92ecf23bd500a58d2a9e6246",
+        "bytes": 126134844,
+        "download_file": "downloads/tuition-r13-revision-20261027/output/brochure-jp-r13-master-fees-20261027.pdf",
+        "retrieval_mode": "saved"
+      },
+      "fee_revision": {
+        "date": "2026-10-27",
+        "manifest": "downloads/tuition-r13-revision-20261027/manifest.json"
+      }
     },
     {
       "work_id": "ADM-JP-2027-PEOPLE",

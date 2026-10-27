@@ -1,0 +1,325 @@
+{
+  "date": "2026-10-27",
+  "head": "21caee0badeadcacab90778919a736f53d1eca32",
+  "index": {
+    "date": "2026-10-22",
+    "documents": {
+      "brochure": {
+        "document": "prospectus-isen-trial-2028",
+        "asset_id": "latest-prospectus-pdf",
+        "file": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
+        "sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+        "pages": 16,
+        "bytes": 113453759,
+        "qr_decoded": {
+          "15": [
+            "https://kaihougakuen.my.canva.site/"
+          ]
+        },
+        "saddle_fold_reading_order_verified": true,
+        "back_cover_change_bbox_pt": [
+          92,
+          570,
+          307,
+          581
+        ],
+        "material_id": "PAM-ISEN-2028",
+        "display_name": "パンフレット_医専白版_2028表記_16P_現行",
+        "tags": [
+          "種別:パンフレット",
+          "意匠:医専白版",
+          "表記年度:2028",
+          "状態:現行",
+          "用途:日本人版の制作元",
+          "人物:日本人イメージ未統一",
+          "版:医専版"
+        ],
+        "binding": "中綴じ・左綴じ",
+        "audience_status": "日本人向けへの内容点検が必要",
+        "year_status": "紙面は2028表記。掲載学費・入試の根拠は2027年度。2028年度確定版とは呼ばない",
+        "version_policy": "医専の現行16ページを制作元として保持。日本人向け版も医専版と同じページ順・紙面構成を使い、写真・配色・文字の重ね方を調整する。",
+        "retrieval_mode": "saved",
+        "freshness_status": "保存済み配布版。登録実体の同一性は確認、現在の標準renderer入力による再生成保証なし"
+      },
+      "admissions": {
+        "document": "admissions-guide-2027",
+        "asset_id": "standard-rendered-pdf",
+        "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-pdf/17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052/standard-rendered-pdf.pdf",
+        "sha256": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052",
+        "pages": 24,
+        "bytes": 19357455,
+        "qr_decoded": {
+          "23": [
+            "https://kaihougakuen.my.canva.site/"
+          ]
+        },
+        "blank_reverse_pages_checked": [
+          8,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22
+        ],
+        "saddle_fold_reading_order_verified": true,
+        "material_id": "ADM-JP-2027",
+        "display_name": "募集要項_日本人向け_2027年度_24P_現行",
+        "tags": [
+          "種別:募集要項",
+          "対象:日本人向け",
+          "適用年度:2027",
+          "状態:現行",
+          "用途:日本人版の制作元",
+          "人物:日本人イメージ未統一"
+        ],
+        "binding": "中綴じ・左綴じ・願書の裏面は白紙",
+        "audience_status": "日本人向け原本に基づく。人物画像は未統一",
+        "year_status": "2027年度。2028年度への自動繰上げ禁止",
+        "retrieval_mode": "saved",
+        "freshness_status": "保存済み配布版。登録実体の同一性は確認、現在の標準renderer入力による再生成保証なし",
+        "download_file": "downloads/english-name-20261023/output/admissions-2027-checked.pdf"
+      },
+      "flyer": {
+        "document": "oc-approved-20261017",
+        "asset_id": "latest-original-oc-pdf",
+        "file": "books/oc-approved-20261017/parts/latest-original-oc-pdf/2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1/latest-original-oc-pdf.pdf",
+        "sha256": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1",
+        "pages": 2,
+        "variant": "approved-original-map",
+        "qr_decoded": {
+          "1": [
+            "https://kaihougakuen.my.canva.site/"
+          ],
+          "2": [
+            "https://kaihougakuen.my.canva.site/"
+          ]
+        },
+        "material_id": "FLY-OC-YELLOW",
+        "display_name": "チラシ_OC黄色帯_年度未確認_2P_現行",
+        "tags": [
+          "種別:チラシ",
+          "意匠:OC黄色帯",
+          "適用年度:未確認",
+          "状態:現行",
+          "用途:日本人版の制作元",
+          "人物:日本人イメージ未統一"
+        ],
+        "binding": "A4両面・長辺反転・折りなし",
+        "audience_status": "日本人向けへの内容・人物画像の調整が必要",
+        "year_status": "原本の開催日の年度・有効性は未確認。2027/2028と推定しない",
+        "retrieval_mode": "saved",
+        "freshness_status": "保存済み配布版。登録実体の同一性は確認、現在の標準renderer入力による再生成保証なし"
+      }
+    },
+    "print_bundle": "downloads/print-pdfs.zip",
+    "bundle_sha256": "0df8ee973630975cecfbbd5c37f366b645c28299384619f869aa8fa21021ad4b",
+    "bundle_pdf_names": [
+      "brochure-A3.pdf",
+      "brochure-A4.pdf",
+      "admissions-A3.pdf",
+      "admissions-A4.pdf",
+      "flyer-A4.pdf"
+    ],
+    "deleted_nonadopted_variant": "real-photo-rebuild outputs",
+    "identity_schema_version": 1,
+    "production_targets": [
+      {
+        "work_id": "PAM-JP-ISEN",
+        "source_material_id": "PAM-ISEN-2028",
+        "display_name": "パンフレット_日本人向け_医専白版_2028表記_16P_確認用",
+        "status": "改稿13・最終ページ右下にAI生成/加工画像と本人同意の注記を追加・確認用",
+        "tags": [
+          "対象:日本人向け",
+          "人物仕様:日本人イメージ",
+          "版:医専版",
+          "意匠:医専白版",
+          "状態:確認用",
+          "種別:パンフレット",
+          "表記年度:2028"
+        ],
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87/jp-isen-reading-pdf.pdf",
+        "version_policy": "改稿12の最終ページ右下に、本人承諾取得済みのAI生成・加工画像の使用を説明する2行の注記だけを追加。表紙・他の本文・英語校名・写真・ページ順を保持。閲覧用・master・A3/A4中綴じ版をそれぞれの固定R12 PDFから局所更新。元医専版・R12・チラシ・募集要項は変更しない。",
+        "document": "prospectus-isen-trial-2028",
+        "variant": "japanese-people-edition",
+        "asset_id": "jp-isen-reading-pdf",
+        "sha256": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87",
+        "bytes": 6818247,
+        "pages": 16,
+        "year_status": "紙面は2028表記。掲載学費・入試の根拠は2027年度。2028年度確定版とは呼ばない",
+        "ai_image_status": "人物加工画像を含む。生成/加工とパンフレット掲載について本人承諾取得済み（人間確認2026-10-24）。最終ページ右下に明記。実写真の在校生・教職員の国籍や所属を示すものではない。",
+        "review_status": "親が全16ページの確認画像と最終ページ/注記の拡大を目視。4出力48面で注記以外の画素・ネイティブ文字・ページ寸法・全埋込画像の保存バイトがR12と一致。PDFごとの新規プロセスで抽出前にレンダリングし確認画像とも一致。公式サイトQRも実復号。独立審査・実物試し刷りは未実施。",
+        "print_outputs": [
+          {
+            "paper": "A3",
+            "document": "prospectus-isen-trial-2028",
+            "asset_id": "jp-isen-print-a3",
+            "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/3df5b94e61f4bc733cfa45f704f43889e8412a7c9a695168b321929f9ed57879/jp-isen-print-a3.pdf",
+            "sha256": "3df5b94e61f4bc733cfa45f704f43889e8412a7c9a695168b321929f9ed57879",
+            "bytes": 4126812,
+            "faces": 8,
+            "sheets": 4,
+            "duplex": "短辺反転",
+            "retrieval_mode": "saved"
+          },
+          {
+            "paper": "A4",
+            "document": "prospectus-isen-trial-2028",
+            "asset_id": "jp-isen-print-a4",
+            "file": "books/prospectus-isen-trial-2028/parts/jp-isen-print-a4/716999435842c69a1c974314d76dffdb2bc29ec164da7603978ce2ca94649aca/jp-isen-print-a4.pdf",
+            "sha256": "716999435842c69a1c974314d76dffdb2bc29ec164da7603978ce2ca94649aca",
+            "bytes": 2724408,
+            "faces": 8,
+            "sheets": 4,
+            "duplex": "短辺反転",
+            "retrieval_mode": "saved"
+          }
+        ],
+        "retrieval_mode": "saved",
+        "freshness_status": "保存済み確認用。現在入力からの再生成を登録検査で保証した版ではない",
+        "download_file": "downloads/ai-image-notice-20261024/output/brochure-jp-r13.pdf",
+        "previews": [
+          {
+            "id": "jp-isen-overview-01",
+            "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-01/0c510fd968ecc13f0b513c17c3986335b0931a9ab8254be2ecf2339f46fea01b/jp-isen-overview-01.jpg",
+            "sha256": "0c510fd968ecc13f0b513c17c3986335b0931a9ab8254be2ecf2339f46fea01b"
+          },
+          {
+            "id": "jp-isen-overview-05",
+            "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-05/ce8205a25bc41f602f23d4f44419d1beaeb7ddd1db083a72bfb8ce451257bdf7/jp-isen-overview-05.jpg",
+            "sha256": "ce8205a25bc41f602f23d4f44419d1beaeb7ddd1db083a72bfb8ce451257bdf7"
+          },
+          {
+            "id": "jp-isen-overview-09",
+            "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-09/c773422dbab269e68ac44c270a3b88eddc04f96ca08df822d02c0bddd1e73a2d/jp-isen-overview-09.jpg",
+            "sha256": "c773422dbab269e68ac44c270a3b88eddc04f96ca08df822d02c0bddd1e73a2d"
+          },
+          {
+            "id": "jp-isen-overview-13",
+            "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-13/655ce3d84f8fdb1414e2ab2eb51790dfe6586b7e1c7667bb5cf6ddabb6f2048e/jp-isen-overview-13.jpg",
+            "sha256": "655ce3d84f8fdb1414e2ab2eb51790dfe6586b7e1c7667bb5cf6ddabb6f2048e"
+          }
+        ]
+      },
+      {
+        "work_id": "ADM-JP-2027-PEOPLE",
+        "source_material_id": "ADM-JP-2027",
+        "display_name": "募集要項_日本人向け_2027年度_人物差替版_制作予定",
+        "status": "未制作",
+        "tags": [
+          "対象:日本人向け",
+          "人物仕様:日本人イメージ",
+          "状態:未制作"
+        ],
+        "file": null
+      },
+      {
+        "work_id": "FLY-JP-OC-YELLOW",
+        "source_material_id": "FLY-OC-YELLOW",
+        "display_name": "チラシ_日本人イメージ_OC黄色帯_英語校名統一_r06_2P_確認用",
+        "status": "表面の英語校名2か所を正式名へ統一・校章/写真/3ステップ裏面保持・確認用",
+        "tags": [
+          "種別:チラシ",
+          "対象:高校生と保護者",
+          "人物仕様:日本人イメージ",
+          "意匠:OC黄色帯・原本意匠維持",
+          "制作方法:原本写真のAI加工",
+          "適用年度:未確認",
+          "状態:確認用"
+        ],
+        "file": "books/oc-approved-20261017/parts/jp-oc-english-r6-pdf/49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee/jp-oc-english-r6-pdf.pdf",
+        "document": "oc-approved-20261017",
+        "variant": "original-art-english-name-r6",
+        "asset_id": "jp-oc-english-r6-pdf",
+        "sha256": "49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee",
+        "bytes": 17847665,
+        "pages": 2,
+        "dates": [
+          "11/21",
+          "12/5",
+          "12/19"
+        ],
+        "contact_email": "aibusiness.kaihougakuen@gmail.com",
+        "qr_decoded": {
+          "1": [
+            "mailto:aibusiness.kaihougakuen@gmail.com"
+          ],
+          "2": [
+            "mailto:aibusiness.kaihougakuen@gmail.com"
+          ]
+        },
+        "binding": "A4両面・長辺反転・折りなし",
+        "retrieval_mode": "saved",
+        "freshness_status": "保存済み確認用。現在入力からの標準renderer再生成を登録検査で保証した版ではない",
+        "year_status": "開催年・曜日は未指定。推測して付与しない",
+        "ai_image_status": "元の顔立ちと肌色の幅を保持。ひげのある4写真を原本実参照入力で弱く加工し、他5写真は原本のまま。R02の加工画像は入力に使わない。",
+        "review_status": "親が両面と2つの英文欄を拡大目視。元の画像ストリーム全バイト、英文欄以外の150dpi画素、校章2個、裏面全面、他のネイティブ文字がR05と一致。PDF/PNG計4QRのgmail mailtoを復号。独立審査・実物試し刷りは未実施。",
+        "previews": [
+          {
+            "id": "jp-oc-english-r6-front",
+            "file": "books/oc-approved-20261017/parts/jp-oc-english-r6-front/ff16163bf2fb75f2c9b7b487d7f9d1c95322fc835d2ec8182e0de89a350f3d1f/jp-oc-english-r6-front.png",
+            "sha256": "ff16163bf2fb75f2c9b7b487d7f9d1c95322fc835d2ec8182e0de89a350f3d1f"
+          },
+          {
+            "id": "jp-oc-three-r5-back",
+            "file": "books/oc-approved-20261017/parts/jp-oc-three-r5-back/7e30832219c64fcd9d3c2b71f4ca17ab15e5efebd2e1e89557f23475fab99bce/jp-oc-three-r5-back.png",
+            "sha256": "7e30832219c64fcd9d3c2b71f4ca17ab15e5efebd2e1e89557f23475fab99bce"
+          }
+        ],
+        "version_policy": "R05の表面上部・下部のAI BUSINESS COLLEGEを、school.yamlの正式名Artificial Intelligence Business Collegeへ統一。修正は2つの英文欄だけ。校章・画像データ・他の本文・3ステップ裏面・地図・日程・連絡先・QRを保持。旧R05と原本は保管。",
+        "audience_status": "台帳の読者を維持。日本人イメージは画像の仕様であり、在籍/国籍の記録写真ではない。",
+        "download_file": "downloads/english-name-20261023/oc/output/oc-flyer-r06.pdf"
+      }
+    ],
+    "excluded_variants": [
+      {
+        "document": "avatar-oc-2028",
+        "label": "別案チラシ_アバター体験",
+        "status": "今回の制作対象外"
+      },
+      {
+        "document": "prospectus-hal-2028",
+        "label": "過去のHAL風12P案",
+        "status": "過去資料・制作対象外。再開しない"
+      },
+      {
+        "document": "oc-approved-20261017",
+        "variant": "real-photo-rebuild",
+        "label": "不採用チラシ_実写真再構成",
+        "status": "誤成果物削除済み・再利用禁止"
+      },
+      {
+        "document": "oc-approved-20261017",
+        "variant": "japanese-people-oc-revised",
+        "label": "旧確認案・写真置換とflatな構成へ変更した版",
+        "status": "ユーザー差戻し。履歴として保持し、最新版・制作元として使用しない。",
+        "book": "books/oc-yellow-structure-20261022"
+      },
+      {
+        "document": "oc-approved-20261017",
+        "variant": "japanese-image-original-art-r2",
+        "label": "旧確認案・原本意匠維持の強い人物加工r02",
+        "status": "ユーザーが「日本人すぎる」と差戻し。履歴として保持し、最新版・生成入力として使用しない。",
+        "book": "books/oc-yellow-photo-edit-20261022"
+      }
+    ]
+  },
+  "protected": {
+    "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+    "books/prospectus-isen-trial-2028/parts/latest-print-a3/6aa914deff3161c99a21d284b03a43fb3bf2f7894223c1d5ca8bed42d8fca881/latest-print-a3.pdf": "6aa914deff3161c99a21d284b03a43fb3bf2f7894223c1d5ca8bed42d8fca881",
+    "books/prospectus-isen-trial-2028/parts/latest-print-a4/1a82b06830528b7a914575525148c56b6107a5b6f206b8c7afa117fb8eeca185/latest-print-a4.pdf": "1a82b06830528b7a914575525148c56b6107a5b6f206b8c7afa117fb8eeca185",
+    "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f/jp-isen-reading-pdf.pdf": "a6ea7f03a03964a7369a41a7ad7474307fe8d17991dc86efb472cbb693ee9c3f",
+    "books/prospectus-isen-trial-2028/parts/jp-isen-master-pdf/4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010/jp-isen-master-pdf.pdf": "4d05f3052bef858621aa556100b06c0fc298f845a9252467195bc614dc7e7010",
+    "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035/jp-isen-print-a3.pdf": "8a4c29765215dfb2ce862e7046be8ecb1ec1aee5772d6e6713f35ae0464cf035",
+    "books/prospectus-isen-trial-2028/parts/jp-isen-print-a4/ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea/jp-isen-print-a4.pdf": "ef25769b36099e585316c4ccc99234169bc3e4be142ed120519a10aff97e85ea",
+    "books/admissions-guide-2027/parts/photo-cover-r01-reading-pdf/b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a/photo-cover-r01-reading-pdf.pdf": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a",
+    "books/admissions-guide-2027/parts/latest-print-a3/225673f6e213fe30d6297dc9fa0365266a946d4b18743ca5f4185191c12b175d/latest-print-a3.pdf": "225673f6e213fe30d6297dc9fa0365266a946d4b18743ca5f4185191c12b175d",
+    "books/admissions-guide-2027/parts/latest-print-a4/68dd61e2cc18695d6413d2bee64a568de2ca9b2b9ba440f2904b6a83db58b55d/latest-print-a4.pdf": "68dd61e2cc18695d6413d2bee64a568de2ca9b2b9ba440f2904b6a83db58b55d",
+    "books/admissions-guide-2027/parts/plain-r04-reading-pdf/0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257/plain-r04-reading-pdf.pdf": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257",
+    "books/admissions-guide-2027/parts/plain-r04-print-a3/3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192/plain-r04-print-a3.pdf": "3074b314ce871a37fb6259570f738b685a2d8cf4cc4f072af6387a3fb323e192",
+    "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87/jp-isen-reading-pdf.pdf": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87",
+    "books/prospectus-isen-trial-2028/parts/jp-isen-master-pdf/02e486ef72cea9189485e11b49f95ede9ea3bfe8f0c35cac6a9803e96aeb86d4/jp-isen-master-pdf.pdf": "02e486ef72cea9189485e11b49f95ede9ea3bfe8f0c35cac6a9803e96aeb86d4",
+    "books/prospectus-isen-trial-2028/parts/jp-isen-print-a3/3df5b94e61f4bc733cfa45f704f43889e8412a7c9a695168b321929f9ed57879/jp-isen-print-a3.pdf": "3df5b94e61f4bc733cfa45f704f43889e8412a7c9a695168b321929f9ed57879",
+    "books/prospectus-isen-trial-2028/parts/jp-isen-print-a4/716999435842c69a1c974314d76dffdb2bc29ec164da7603978ce2ca94649aca/jp-isen-print-a4.pdf": "716999435842c69a1c974314d76dffdb2bc29ec164da7603978ce2ca94649aca"
+  }
+}

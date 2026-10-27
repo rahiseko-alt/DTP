@@ -1,0 +1,21 @@
+{
+  "reviewer": "parent self-review",
+  "independent_review": false,
+  "physical_print_test": false,
+  "date": "2026-10-27",
+  "output_shas": {
+    "brochure-jp-r13": "41fad71a1269b9834d14834dd77e67d1044559390ffc2c388a3f953a238f00e6",
+    "brochure-jp-r13-master": "5a997b671abd38980d2f251426a902967c3fc45d92ecf23bd500a58d2a9e6246",
+    "brochure-jp-r13-A3": "fd40b87489d92243c9c2dac348adbc4dbe7fbd20d4013625f6be1eaf641d33c6",
+    "brochure-jp-r13-A4": "52cb7f1e3f7b0f5386bcf6b4671c56ae49d121e78360571cc400194104a5bec1"
+  },
+  "scope": "R13の料金欄のみ。既存表紙/写真/配色/本文/最終ページAI注記を保持。",
+  "evidence": [
+    "previews/brochure-jp-r13-spread-* 自然見開き",
+    "previews/brochure-jp-r13-overview-* 全読順ページ",
+    "previews/*-page-* 料金面拡大",
+    "verification.json 全48P/面の料金域外一致"
+  ],
+  "findings": [],
+  "release": false
+}
