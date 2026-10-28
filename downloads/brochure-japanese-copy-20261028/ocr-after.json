@@ -1,0 +1,41 @@
+{
+  "supplementary_only": true,
+  "pages": [
+    {
+      "page": 2,
+      "suspicious_terms": []
+    },
+    {
+      "page": 3,
+      "suspicious_terms": []
+    },
+    {
+      "page": 4,
+      "suspicious_terms": []
+    },
+    {
+      "page": 5,
+      "suspicious_terms": []
+    },
+    {
+      "page": 6,
+      "suspicious_terms": []
+    },
+    {
+      "page": 7,
+      "suspicious_terms": []
+    },
+    {
+      "page": 9,
+      "suspicious_terms": []
+    },
+    {
+      "page": 10,
+      "suspicious_terms": []
+    },
+    {
+      "page": 11,
+      "suspicious_terms": []
+    }
+  ]
+}

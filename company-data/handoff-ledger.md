@@ -603,3 +603,9 @@ PDF受渡し調査は人間の指示で保留。医専BOOKの地図第2案を画
 人間の「ふりがな無しで統一して」により、承認済み年額表版から現行パンフレット7PDFを改訂。ふりがなのある12〜15Pの読み153字だけを、源4HTMLのrt内容と各PDFの6.5pt仮名を全字照合して削除。本文全字/書体/グリフ保持、字位置・字号はPDF直列化誤差0.0001pt以内、読み領域外の80P/印刷面150dpi画素と全元画像stream一致。年額表・指定検定料別注記・画像・QR・AI注記・面付けは保持。源HTML4ページの読みとrubyタグも除去し、源4ページの標準render PNG/PDF成功。募集要項・チラシは今回変更しない。旧版保持。
 
 保存・取得・SHA・全字の削除座標・検査は downloads/brochure-no-furigana-20261028/。提供PDF名は年額表改訂版_ふりがな無し、delivery-files.json。ブランチ book/brochure-fees-five-columns-20261028、未マージ。前のbaseline/checkキューは編集前に停止し、最後の源差分8ファイルを保存後に正規同期→全体check。ログ /tmp/brochure-no-furigana-baseline.log と /tmp/brochure-no-furigana-check.log、metadata /tmp/brochure-no-furigana-metadata.json。GitHub PR APIは通信制限403で未作成、本文はPR.md。マージ指示時に検査結果とbaseline差分を取り込み、必須チェックを確認する。
+
+### 2026-10-28 日本人向けパンフレット・文面と文字切れ修正（Codex）
+
+人間がオンライン全対応という断定を否定し、積極導入程度へ変更指定。保護者の不安と他ページの留学生/外国ルーツ向けの文面も、日本人の専門学校選びへ変更指定。PAM-JP-ISEN・R13のページ順/master/A3/A4だけを局所改訂。授業・通学継続・学びと仕事・費用を中心にし、日本語支援/多言語対応/在留手続き/日本就労の訴求を置換。国際ビジネスの学習内容と正式出願資格は保持。9P右端の文と頁番号切れを修正。全4PDF・48P/面の指定領域外150dpi画素・元の全文字/書体/位置・全画像stream一致。年額表・指定注記・ふりがな無し・表紙・QR・AI注記・面付け保持。
+
+保存元・文面・描画HTML元・部品PDF・変更領域・SHA・登録・提供物は downloads/brochure-japanese-copy-20261028/。旧版保持。元医専版・募集要項・チラシ・classic ZIPは変更なし。日本語名8PDF ZIPは日本人R13の3PDFだけ更新し、他5PDFは同一バイト。ブランチ book/brochure-fees-five-columns-20261028、mainへは未マージ。共通台帳の外国ルーツ向け設定は、日本人向け今回指定とは別として変更していない。全体check・登録検査・CI状況はchecks.json。PR APIの通信制限403が続く場合はPR.mdを保管しブランチをpushする。QRはDrive共有URL待ちで、今回チラシへ組み込まない。

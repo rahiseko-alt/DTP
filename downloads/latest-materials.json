@@ -302,7 +302,7 @@
       "work_id": "PAM-JP-ISEN",
       "source_material_id": "PAM-ISEN-2028",
       "display_name": "パンフレット_日本人向け_医専白版_2028表記_16P_確認用",
-      "status": "改稿13・設備費更新版・年額表改訂・ふりがな無し・確認用",
+      "status": "改稿13・設備費更新版・年額表改訂・ふりがな無し・日本人向け文面修正版・確認用",
       "tags": [
         "対象:日本人向け",
         "人物仕様:日本人イメージ",
@@ -312,63 +312,63 @@
         "種別:パンフレット",
         "表記年度:2028"
       ],
-      "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13/3928855564e05629ebe80da694ce39283e00a77e47157c2161dd8f30d7586d9d/brochure-no-ruby-20261028-brochure-jp-r13.pdf",
-      "version_policy": "2026-10-28：パンフレット全体をふりがな無しへ統一。ふりがなのある12-15Pから読みだけ153字を削除し、本文の全字・書体・位置、年額表、指定注記、表紙・画像・AI注記・QR・面付けを保持。年額表と2年間合計1,860,000円・検定料別の注記は直前の承認版のまま。旧版を保持。",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13/3a1085aca24055e91ec493eac6ed07bd0ca94d9e87c5bab507db7fc4e1824c32/jp-copy-20261028-brochure-jp-r13.pdf",
+      "version_policy": "2026-10-28：オンライン積極導入へ表現調整。保護者の不安と全体の訴求を日本人の専門学校選びへ変更。日本語支援・多言語対応・在留手続き・日本就労の外国人向け表現を置換。国際ビジネスの学習内容と正式な出願資格は維持。9P文字切れ・頁番号切れ修正。表紙・年額表・検定料別の指定注記・ふりがな無し・AI注記・QR・面付けは維持。旧版保持。",
       "document": "prospectus-isen-trial-2028",
-      "variant": "no-furigana-20261028",
-      "asset_id": "brochure-no-ruby-20261028-brochure-jp-r13",
-      "sha256": "3928855564e05629ebe80da694ce39283e00a77e47157c2161dd8f30d7586d9d",
-      "bytes": 7352933,
+      "variant": "japanese-audience-copy-20261028",
+      "asset_id": "jp-copy-20261028-brochure-jp-r13",
+      "sha256": "3a1085aca24055e91ec493eac6ed07bd0ca94d9e87c5bab507db7fc4e1824c32",
+      "bytes": 8616215,
       "pages": 16,
       "year_status": "紙面は2028表記。掲載学費・入試の根拠は2027年度。2028年度確定版とは呼ばない",
       "ai_image_status": "人物加工画像を含む。生成/加工とパンフレット掲載について本人承諾取得済み（人間確認2026-10-24）。最終ページ右下に明記。実写真の在校生・教職員の国籍や所属を示すものではない。",
-      "review_status": "7PDF・80P/面のふりがな領域外150dpi画素一致。本文の全文字/書体/グリフ一致、字位置・字号の直列化誤差0.0001pt以内、全元画像stream一致。4ページの読み153字を源HTMLと照合して削除し残存なし。親の自己点検。独立審査・実機試し刷り・入稿承認は未実施。",
+      "review_status": "4PDF・48P/面の指定文面領域外150dpi画素一致。元の全文字/書体/位置と全画像stream一致。DOMはみ出しなし。親が変更9ページと全ページ/面一覧を目視。独立審査・実機試し刷り・入稿承認は未実施。",
       "print_outputs": [
         {
           "paper": "A3",
           "document": "prospectus-isen-trial-2028",
-          "asset_id": "brochure-no-ruby-20261028-brochure-jp-r13-a3",
-          "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-a3/0736d60ea695be3a8b7fe34c4e15e5efbda4b83fd27070535b47a5cb7dd2efbf/brochure-no-ruby-20261028-brochure-jp-r13-a3.pdf",
-          "sha256": "0736d60ea695be3a8b7fe34c4e15e5efbda4b83fd27070535b47a5cb7dd2efbf",
-          "bytes": 4661953,
+          "asset_id": "jp-copy-20261028-brochure-jp-r13-a3",
+          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13-a3/3872d068f8f23def7fbd87c8807bf2c4fdf38e1883d184478a542891c3659a31/jp-copy-20261028-brochure-jp-r13-a3.pdf",
+          "sha256": "3872d068f8f23def7fbd87c8807bf2c4fdf38e1883d184478a542891c3659a31",
+          "bytes": 5925674,
           "faces": 8,
           "sheets": 4,
           "duplex": "短辺反転",
           "retrieval_mode": "saved",
-          "download_file": "downloads/brochure-no-furigana-20261028/output/brochure-jp-r13-A3-no-furigana-20261028.pdf"
+          "download_file": "downloads/brochure-japanese-copy-20261028/output/brochure-jp-r13-A3-japanese-copy-20261028.pdf"
         },
         {
           "paper": "A4",
           "document": "prospectus-isen-trial-2028",
-          "asset_id": "brochure-no-ruby-20261028-brochure-jp-r13-a4",
-          "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-a4/0696247593ae61cadb17b8cade2211b6a41b67984c5591d762a6cc1340cde5a1/brochure-no-ruby-20261028-brochure-jp-r13-a4.pdf",
-          "sha256": "0696247593ae61cadb17b8cade2211b6a41b67984c5591d762a6cc1340cde5a1",
-          "bytes": 3259670,
+          "asset_id": "jp-copy-20261028-brochure-jp-r13-a4",
+          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13-a4/a4a3bf96b1b1a919292838651ab1af04d097c08385edb3f9820d4c9e4647854a/jp-copy-20261028-brochure-jp-r13-a4.pdf",
+          "sha256": "a4a3bf96b1b1a919292838651ab1af04d097c08385edb3f9820d4c9e4647854a",
+          "bytes": 4523335,
           "faces": 8,
           "sheets": 4,
           "duplex": "短辺反転",
           "retrieval_mode": "saved",
-          "download_file": "downloads/brochure-no-furigana-20261028/output/brochure-jp-r13-A4-no-furigana-20261028.pdf"
+          "download_file": "downloads/brochure-japanese-copy-20261028/output/brochure-jp-r13-A4-japanese-copy-20261028.pdf"
         }
       ],
       "retrieval_mode": "saved",
       "freshness_status": "保存済み局所修正版。標準renderer全冊再生成の保証ではない。",
-      "download_file": "downloads/brochure-no-furigana-20261028/output/brochure-jp-r13-no-furigana-20261028.pdf",
+      "download_file": "downloads/brochure-japanese-copy-20261028/output/brochure-jp-r13-japanese-copy-20261028.pdf",
       "previews": [
         {
-          "id": "jp-isen-overview-01",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-01/0c510fd968ecc13f0b513c17c3986335b0931a9ab8254be2ecf2339f46fea01b/jp-isen-overview-01.jpg",
-          "sha256": "0c510fd968ecc13f0b513c17c3986335b0931a9ab8254be2ecf2339f46fea01b"
+          "id": "jp-copy-20261028-overview-01",
+          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-overview-01/77f2cbd1f6f17a74b9892dad7db19cd9bff81058ba69df78845869637e56696a/jp-copy-20261028-overview-01.jpg",
+          "sha256": "77f2cbd1f6f17a74b9892dad7db19cd9bff81058ba69df78845869637e56696a"
         },
         {
-          "id": "jp-isen-overview-05",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-overview-05/ce8205a25bc41f602f23d4f44419d1beaeb7ddd1db083a72bfb8ce451257bdf7/jp-isen-overview-05.jpg",
-          "sha256": "ce8205a25bc41f602f23d4f44419d1beaeb7ddd1db083a72bfb8ce451257bdf7"
+          "id": "jp-copy-20261028-overview-05",
+          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-overview-05/265fc4eb1ff886d422b42a0fe55df4a0b1aea5eb839d3c177d30cfd87c6296fe/jp-copy-20261028-overview-05.jpg",
+          "sha256": "265fc4eb1ff886d422b42a0fe55df4a0b1aea5eb839d3c177d30cfd87c6296fe"
         },
         {
-          "id": "brochure-no-ruby-20261028-r13-overview-09",
-          "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-r13-overview-09/c9ed874c55abbc3dd493ddfee2623532d3fea1cae51c982c3f4eabf26b5abdeb/brochure-no-ruby-20261028-r13-overview-09.jpg",
-          "sha256": "c9ed874c55abbc3dd493ddfee2623532d3fea1cae51c982c3f4eabf26b5abdeb"
+          "id": "jp-copy-20261028-overview-09",
+          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-overview-09/5bf004842bbc3bd9fb2e53c3cfb44a9de5f568295c6fd54bba92fed97b2df59a/jp-copy-20261028-overview-09.jpg",
+          "sha256": "5bf004842bbc3bd9fb2e53c3cfb44a9de5f568295c6fd54bba92fed97b2df59a"
         },
         {
           "id": "brochure-no-ruby-20261028-r13-overview-13",
@@ -394,6 +394,51 @@
           "id": "brochure-no-ruby-20261028-brochure-jp-r13-page-15",
           "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-page-15/ccf3169f98e6d3953bddc05f1ba5c58ec3257b595b4f175cef4002ed22a42727/brochure-no-ruby-20261028-brochure-jp-r13-page-15.png",
           "sha256": "ccf3169f98e6d3953bddc05f1ba5c58ec3257b595b4f175cef4002ed22a42727"
+        },
+        {
+          "id": "jp-copy-20261028-page-02",
+          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-02/fd50e95964d6e074d54c51769eeedb1ca24bd8ef9b9a85da00f6bb618a0a9328/jp-copy-20261028-page-02.png",
+          "sha256": "fd50e95964d6e074d54c51769eeedb1ca24bd8ef9b9a85da00f6bb618a0a9328"
+        },
+        {
+          "id": "jp-copy-20261028-page-03",
+          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-03/9bef323c327dcc9f0171c5718bb7e0d952f5cc907509038ac40725210ea01e4c/jp-copy-20261028-page-03.png",
+          "sha256": "9bef323c327dcc9f0171c5718bb7e0d952f5cc907509038ac40725210ea01e4c"
+        },
+        {
+          "id": "jp-copy-20261028-page-04",
+          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-04/327c6d6f208daa4411c0fafc1b717f95a8e5482630db06572ba6f93f6e01245a/jp-copy-20261028-page-04.png",
+          "sha256": "327c6d6f208daa4411c0fafc1b717f95a8e5482630db06572ba6f93f6e01245a"
+        },
+        {
+          "id": "jp-copy-20261028-page-05",
+          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-05/2f8eff38a4a2a395a73f1b3c9af18081f91d9d34a303f5923f440f4d04be07db/jp-copy-20261028-page-05.png",
+          "sha256": "2f8eff38a4a2a395a73f1b3c9af18081f91d9d34a303f5923f440f4d04be07db"
+        },
+        {
+          "id": "jp-copy-20261028-page-06",
+          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-06/241af9945cc4c4638ee03996b3ea713175231c45c9f18d358a9989d0582022c8/jp-copy-20261028-page-06.png",
+          "sha256": "241af9945cc4c4638ee03996b3ea713175231c45c9f18d358a9989d0582022c8"
+        },
+        {
+          "id": "jp-copy-20261028-page-07",
+          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-07/1959bf40b67bd880421befb4a46264806eb6601ee01c92c70b673bc4dbc63484/jp-copy-20261028-page-07.png",
+          "sha256": "1959bf40b67bd880421befb4a46264806eb6601ee01c92c70b673bc4dbc63484"
+        },
+        {
+          "id": "jp-copy-20261028-page-09",
+          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-09/921e7fbbb1d56759248ce09cfa0ec32ee791d78cf8e6d28a6b636654371bf195/jp-copy-20261028-page-09.png",
+          "sha256": "921e7fbbb1d56759248ce09cfa0ec32ee791d78cf8e6d28a6b636654371bf195"
+        },
+        {
+          "id": "jp-copy-20261028-page-10",
+          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-10/c90b4e51c1067ce497eb3c5cddfe9ccde4a78aba8fde737724f1e9c3bd4587c0/jp-copy-20261028-page-10.png",
+          "sha256": "c90b4e51c1067ce497eb3c5cddfe9ccde4a78aba8fde737724f1e9c3bd4587c0"
+        },
+        {
+          "id": "jp-copy-20261028-page-11",
+          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-11/d9501433ca1e3aa2d8de492cc48c674d3e74c6228f0ec9735b799f01ac20812a/jp-copy-20261028-page-11.png",
+          "sha256": "d9501433ca1e3aa2d8de492cc48c674d3e74c6228f0ec9735b799f01ac20812a"
         }
       ],
       "previous_fee_edition": {
@@ -405,11 +450,11 @@
       },
       "master_output": {
         "document": "prospectus-isen-trial-2028",
-        "asset_id": "brochure-no-ruby-20261028-brochure-jp-r13-master",
-        "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-master/68191595d9a8cfb27c48ba7b15a7682add42ae04dc85ded1e62b263b3cba877f/brochure-no-ruby-20261028-brochure-jp-r13-master.pdf",
-        "sha256": "68191595d9a8cfb27c48ba7b15a7682add42ae04dc85ded1e62b263b3cba877f",
-        "bytes": 126536517,
-        "download_file": "downloads/brochure-no-furigana-20261028/output/brochure-jp-r13-master-no-furigana-20261028.pdf",
+        "asset_id": "jp-copy-20261028-brochure-jp-r13-master",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13-master/2eea9c8ebee052fd512b471e799ab593bee12a6f8d3ce20c7ce9d377edae16c2/jp-copy-20261028-brochure-jp-r13-master.pdf",
+        "sha256": "2eea9c8ebee052fd512b471e799ab593bee12a6f8d3ce20c7ce9d377edae16c2",
+        "bytes": 127799792,
+        "download_file": "downloads/brochure-japanese-copy-20261028/output/brochure-jp-r13-master-japanese-copy-20261028.pdf",
         "retrieval_mode": "saved"
       },
       "fee_revision": {
@@ -438,6 +483,18 @@
         "policy": "ふりがな無し",
         "removed_reading_glyphs": 153,
         "manifest": "downloads/brochure-no-furigana-20261028/manifest.json"
+      },
+      "previous_copy_edition": {
+        "asset_id": "brochure-no-ruby-20261028-brochure-jp-r13",
+        "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13/3928855564e05629ebe80da694ce39283e00a77e47157c2161dd8f30d7586d9d/brochure-no-ruby-20261028-brochure-jp-r13.pdf",
+        "sha256": "3928855564e05629ebe80da694ce39283e00a77e47157c2161dd8f30d7586d9d",
+        "bytes": 7352933,
+        "download_file": "downloads/brochure-no-furigana-20261028/output/brochure-jp-r13-no-furigana-20261028.pdf"
+      },
+      "copy_revision": {
+        "date": "2026-10-28",
+        "audience": "日本人向け",
+        "manifest": "downloads/brochure-japanese-copy-20261028/manifest.json"
       }
     },
     {

@@ -1,0 +1,4 @@
+# Reproducible inspection/cache files; saved source PDFs and native packet are retained.
+before/
+draft/
+overlays/

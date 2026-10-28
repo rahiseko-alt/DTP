@@ -1,0 +1,24 @@
+{
+  "recorded_at_utc": "2026-10-28T03:22:01.412353+00:00",
+  "doctor": "same session before this revision:10 OK,1 WARN,0 NG",
+  "typecheck": "passed",
+  "pdf_verification": {
+    "passed": true,
+    "pdfs": 4,
+    "page_faces": 48,
+    "local_copy_patches": 51,
+    "proof": "verification.json"
+  },
+  "render": "passed: native HTML/CSS patches rendered by Chromium154 and all final PDFs rasterized",
+  "visual_review": "parent self-review; changed nine pages enlarged, reading spreads and print faces reviewed",
+  "ocr_supplement": "nine pages scanned, targeted foreign-student/all-online terms absent; supplementary, not sole proof",
+  "saved_get": "passed:all four registered PDFs retrieved --saved and delivery SHA verified",
+  "japanese_eight_pdf_zip": "passed:R13 three PDFs replaced; other five entries byte-identical",
+  "source_baseline_sync": "prior eight-source-path changes pending normal CLI sync; no new changes to those legacy sources in this copy revision",
+  "whole_validate": "running:/tmp/brochure-japanese-copy-validate.log",
+  "metadata_only": "running:/tmp/brochure-japanese-copy-metadata.json",
+  "github_required_asset_integrity": "unconfirmed:existing environment GitHub PR API access403;no merge attempted",
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false
+}

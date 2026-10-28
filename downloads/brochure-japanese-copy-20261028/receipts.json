@@ -1,0 +1,210 @@
+[
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "32e1700ca176d5eab51f662ebf0c4343cb006681",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "e1b3262f34d035bb13b7dee76c1d181731ae505a7fdd1fdb8c3b4a4f8ffb12bc"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "brochure-no-ruby-20261028-brochure-jp-r13",
+      "variant": "no-furigana-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "3928855564e05629ebe80da694ce39283e00a77e47157c2161dd8f30d7586d9d",
+      "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13/3928855564e05629ebe80da694ce39283e00a77e47157c2161dd8f30d7586d9d/brochure-no-ruby-20261028-brochure-jp-r13.pdf",
+      "sha256": "3928855564e05629ebe80da694ce39283e00a77e47157c2161dd8f30d7586d9d",
+      "size": 7352933,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: unify the brochure without furigana. Remove only 153 native ruby reading glyphs on reading pages12-15 in each current PDF. Preserve all base text/fonts/glyph IDs and positions (native serialization tolerance 0.0001pt), exact pixels outside ruby glyph areas, all original image streams, annual fee table and exact approved examination-fee note, covers, AI notice, QR and imposition. Original revisions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T01:19:06.660Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-annual-approved-20261028-brochure-jp-r13",
+          "revision": "c49898d506297d6c728b6259ef95a491a354dd1cc397685085ebf4c26b09244e"
+        },
+        {
+          "id": "brochure-no-ruby-20261028-builder",
+          "revision": "6fc1ccf7778b15288efe55c617b331a3ef62760f0d0fc82ede60a07decb78396"
+        },
+        {
+          "id": "brochure-no-ruby-20261028-source-plan",
+          "revision": "f634a10b2eb79762c7adf0460795fa01f45f13972ec8c2e915190b5e963b1f40"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13/3928855564e05629ebe80da694ce39283e00a77e47157c2161dd8f30d7586d9d/brochure-no-ruby-20261028-brochure-jp-r13.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-jp-r13",
+    "kind": "reading",
+    "document": "prospectus-isen-trial-2028"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "32e1700ca176d5eab51f662ebf0c4343cb006681",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "e1b3262f34d035bb13b7dee76c1d181731ae505a7fdd1fdb8c3b4a4f8ffb12bc"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "brochure-no-ruby-20261028-brochure-jp-r13-master",
+      "variant": "no-furigana-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "68191595d9a8cfb27c48ba7b15a7682add42ae04dc85ded1e62b263b3cba877f",
+      "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-master/68191595d9a8cfb27c48ba7b15a7682add42ae04dc85ded1e62b263b3cba877f/brochure-no-ruby-20261028-brochure-jp-r13-master.pdf",
+      "sha256": "68191595d9a8cfb27c48ba7b15a7682add42ae04dc85ded1e62b263b3cba877f",
+      "size": 126536517,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: unify the brochure without furigana. Remove only 153 native ruby reading glyphs on reading pages12-15 in each current PDF. Preserve all base text/fonts/glyph IDs and positions (native serialization tolerance 0.0001pt), exact pixels outside ruby glyph areas, all original image streams, annual fee table and exact approved examination-fee note, covers, AI notice, QR and imposition. Original revisions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T01:19:17.127Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-annual-approved-20261028-brochure-jp-r13-master",
+          "revision": "75361d2f39787f920ecbbbce709990bff44de3cd149d492026fee541679f66f8"
+        },
+        {
+          "id": "brochure-no-ruby-20261028-builder",
+          "revision": "6fc1ccf7778b15288efe55c617b331a3ef62760f0d0fc82ede60a07decb78396"
+        },
+        {
+          "id": "brochure-no-ruby-20261028-source-plan",
+          "revision": "f634a10b2eb79762c7adf0460795fa01f45f13972ec8c2e915190b5e963b1f40"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-master/68191595d9a8cfb27c48ba7b15a7682add42ae04dc85ded1e62b263b3cba877f/brochure-no-ruby-20261028-brochure-jp-r13-master.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-jp-r13-master",
+    "kind": "master",
+    "document": "prospectus-isen-trial-2028"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "32e1700ca176d5eab51f662ebf0c4343cb006681",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "e1b3262f34d035bb13b7dee76c1d181731ae505a7fdd1fdb8c3b4a4f8ffb12bc"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "brochure-no-ruby-20261028-brochure-jp-r13-a3",
+      "variant": "no-furigana-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "0736d60ea695be3a8b7fe34c4e15e5efbda4b83fd27070535b47a5cb7dd2efbf",
+      "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-a3/0736d60ea695be3a8b7fe34c4e15e5efbda4b83fd27070535b47a5cb7dd2efbf/brochure-no-ruby-20261028-brochure-jp-r13-a3.pdf",
+      "sha256": "0736d60ea695be3a8b7fe34c4e15e5efbda4b83fd27070535b47a5cb7dd2efbf",
+      "size": 4661953,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: unify the brochure without furigana. Remove only 153 native ruby reading glyphs on reading pages12-15 in each current PDF. Preserve all base text/fonts/glyph IDs and positions (native serialization tolerance 0.0001pt), exact pixels outside ruby glyph areas, all original image streams, annual fee table and exact approved examination-fee note, covers, AI notice, QR and imposition. Original revisions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T01:19:21.577Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-annual-approved-20261028-brochure-jp-r13-a3",
+          "revision": "7c73dce58bf45dfa3c60a63c27408bb8557ba520bb01de7e4bcc6eae6a43e68b"
+        },
+        {
+          "id": "brochure-no-ruby-20261028-builder",
+          "revision": "6fc1ccf7778b15288efe55c617b331a3ef62760f0d0fc82ede60a07decb78396"
+        },
+        {
+          "id": "brochure-no-ruby-20261028-source-plan",
+          "revision": "f634a10b2eb79762c7adf0460795fa01f45f13972ec8c2e915190b5e963b1f40"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-a3/0736d60ea695be3a8b7fe34c4e15e5efbda4b83fd27070535b47a5cb7dd2efbf/brochure-no-ruby-20261028-brochure-jp-r13-a3.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-jp-r13-A3",
+    "kind": "print",
+    "document": "prospectus-isen-trial-2028"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "32e1700ca176d5eab51f662ebf0c4343cb006681",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "e1b3262f34d035bb13b7dee76c1d181731ae505a7fdd1fdb8c3b4a4f8ffb12bc"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "brochure-no-ruby-20261028-brochure-jp-r13-a4",
+      "variant": "no-furigana-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "0696247593ae61cadb17b8cade2211b6a41b67984c5591d762a6cc1340cde5a1",
+      "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-a4/0696247593ae61cadb17b8cade2211b6a41b67984c5591d762a6cc1340cde5a1/brochure-no-ruby-20261028-brochure-jp-r13-a4.pdf",
+      "sha256": "0696247593ae61cadb17b8cade2211b6a41b67984c5591d762a6cc1340cde5a1",
+      "size": 3259670,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: unify the brochure without furigana. Remove only 153 native ruby reading glyphs on reading pages12-15 in each current PDF. Preserve all base text/fonts/glyph IDs and positions (native serialization tolerance 0.0001pt), exact pixels outside ruby glyph areas, all original image streams, annual fee table and exact approved examination-fee note, covers, AI notice, QR and imposition. Original revisions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T01:19:23.059Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-annual-approved-20261028-brochure-jp-r13-a4",
+          "revision": "4a9b85790f96c124d10445f195268d2fdbd8d92874234b2bcd180cd22b3cdea7"
+        },
+        {
+          "id": "brochure-no-ruby-20261028-builder",
+          "revision": "6fc1ccf7778b15288efe55c617b331a3ef62760f0d0fc82ede60a07decb78396"
+        },
+        {
+          "id": "brochure-no-ruby-20261028-source-plan",
+          "revision": "f634a10b2eb79762c7adf0460795fa01f45f13972ec8c2e915190b5e963b1f40"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-a4/0696247593ae61cadb17b8cade2211b6a41b67984c5591d762a6cc1340cde5a1/brochure-no-ruby-20261028-brochure-jp-r13-a4.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-jp-r13-A4",
+    "kind": "print",
+    "document": "prospectus-isen-trial-2028"
+  }
+]

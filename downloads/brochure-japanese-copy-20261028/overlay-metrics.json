@@ -1,0 +1,510 @@
+{
+  "browser": "154.0.8037.57",
+  "release": false,
+  "pages": [
+    {
+      "page": 2,
+      "patches": [
+        {
+          "id": "hero-lead",
+          "width": 336,
+          "height": 134,
+          "scrollWidth": 336,
+          "scrollHeight": 134,
+          "text": "AIとビジネスを、\n基礎から実践的に学び、\n将来の仕事につなげます。",
+          "overflow": false
+        },
+        {
+          "id": "foundation-intro",
+          "width": 722,
+          "height": 38,
+          "scrollWidth": 722,
+          "scrollHeight": 38,
+          "text": "AI活用・ビジネス基礎・ITスキルを、ゼロから段階的に学びます。",
+          "overflow": false
+        },
+        {
+          "id": "communication",
+          "width": 235,
+          "height": 128,
+          "scrollWidth": 235,
+          "scrollHeight": 128,
+          "text": "伝える力\n発表や対話を通して、相手に分かりやすく伝える力を育てます。",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "patches": [
+        {
+          "id": "progression",
+          "width": 415,
+          "height": 96,
+          "scrollWidth": 415,
+          "scrollHeight": 96,
+          "text": "1年次は基礎、2年次は応用へ。\nAI、ビジネス、実務、キャリアを\n段階的に学びます。",
+          "overflow": false
+        },
+        {
+          "id": "group-caption",
+          "width": 311,
+          "height": 35,
+          "scrollWidth": 311,
+          "scrollHeight": 35,
+          "text": "仲間と学ぶグループワーク",
+          "overflow": false
+        },
+        {
+          "id": "qualification-list",
+          "width": 319,
+          "height": 106,
+          "scrollWidth": 319,
+          "scrollHeight": 106,
+          "text": "ITパスポート／生成AIパスポート／\nグローバル人材ビジネス実務検定",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "patches": [
+        {
+          "id": "international-skills",
+          "width": 154,
+          "height": 75,
+          "scrollWidth": 154,
+          "scrollHeight": 75,
+          "text": "国際ビジネス\n海外マーケティング\n海外取引・貿易実務",
+          "overflow": false
+        },
+        {
+          "id": "qualifications-p4",
+          "width": 341,
+          "height": 149,
+          "scrollWidth": 341,
+          "scrollHeight": 149,
+          "text": "生成AIパスポート\nITパスポート\nグローバル人材ビジネス実務検定\nその他、ビジネス・IT関連資格",
+          "overflow": false
+        },
+        {
+          "id": "recommended-ai-business",
+          "width": 300,
+          "height": 27,
+          "scrollWidth": 300,
+          "scrollHeight": 27,
+          "text": "AIとビジネスを一緒に学びたい",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "patches": [
+        {
+          "id": "communication-heading",
+          "width": 332,
+          "height": 49,
+          "scrollWidth": 332,
+          "scrollHeight": 49,
+          "text": "ビジネスコミュニケーション",
+          "overflow": false
+        },
+        {
+          "id": "communication-body",
+          "width": 386,
+          "height": 67,
+          "scrollWidth": 386,
+          "scrollHeight": 67,
+          "text": "相手の立場を考え、分かりやすく伝える力を、\n発表や対話を通して身につけます。",
+          "overflow": false
+        },
+        {
+          "id": "teamwork-point",
+          "width": 183,
+          "height": 53,
+          "scrollWidth": 183,
+          "scrollHeight": 53,
+          "text": "相手と協力して\n取り組む力",
+          "overflow": false
+        },
+        {
+          "id": "teamwork-body",
+          "width": 229,
+          "height": 91,
+          "scrollWidth": 229,
+          "scrollHeight": 91,
+          "text": "考えや価値観の違いを受け止め、対話を重ねながら、一緒に課題へ取り組む力を育てます。",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "patches": [
+        {
+          "id": "course-intro-p6",
+          "width": 721,
+          "height": 67,
+          "scrollWidth": 721,
+          "scrollHeight": 67,
+          "text": "販売・サービス・経営・事務・マーケティングなどを幅広く学び、\n将来の仕事で役立つ実践力を身につける学科です。",
+          "overflow": false
+        },
+        {
+          "id": "qualifications-p6",
+          "width": 335,
+          "height": 181,
+          "scrollWidth": 335,
+          "scrollHeight": 181,
+          "text": "ITパスポート\nMicrosoft Office Specialist\n（Word／Excel／PowerPoint）\n日商簿記検定（3級）\nビジネス実務マナー検定\nその他、ビジネス・IT関連資格",
+          "overflow": false
+        },
+        {
+          "id": "recommended-skills",
+          "width": 308,
+          "height": 30,
+          "scrollWidth": 308,
+          "scrollHeight": 30,
+          "text": "仕事で役立つ力を身につけたい",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "patches": [
+        {
+          "id": "course-intro-p7",
+          "width": 718,
+          "height": 59,
+          "scrollWidth": 718,
+          "scrollHeight": 59,
+          "text": "基本的なビジネススキルから専門知識まで、実践的に学びます。\n仕事で役立つ力を、段階的に身につけます。",
+          "overflow": false
+        },
+        {
+          "id": "practical-point",
+          "width": 183,
+          "height": 51,
+          "scrollWidth": 183,
+          "scrollHeight": 51,
+          "text": "仕事の現場で役立つ\n実践スキル",
+          "overflow": false
+        },
+        {
+          "id": "career-body",
+          "width": 231,
+          "height": 67,
+          "scrollWidth": 231,
+          "scrollHeight": 67,
+          "text": "資格取得の学習や就職活動を支え、卒業後の進路選びにつなげます。",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "patches": [
+        {
+          "id": "steps-title",
+          "width": 760,
+          "height": 60,
+          "scrollWidth": 760,
+          "scrollHeight": 60,
+          "text": "授業の中で、AIを使う。未来につながる6ステップ",
+          "overflow": false
+        },
+        {
+          "id": "steps-intro",
+          "width": 727,
+          "height": 29,
+          "scrollWidth": 727,
+          "scrollHeight": 29,
+          "text": "基礎から応用まで、実際に手を動かしながら、AIを使って課題を解決する力を身につけます。",
+          "overflow": false
+        },
+        {
+          "id": "images-body",
+          "width": 226,
+          "height": 66,
+          "scrollWidth": 226,
+          "scrollHeight": 66,
+          "text": "CanvaやGoogleスライドで、\nポスターや資料、SNS画像\nなどを制作します。",
+          "overflow": false
+        },
+        {
+          "id": "work-body",
+          "width": 224,
+          "height": 77,
+          "scrollWidth": 224,
+          "scrollHeight": 77,
+          "text": "企画書・報告書づくりや\nマーケティングなど、仕事を\n想定した課題に取り組みます。",
+          "overflow": false
+        },
+        {
+          "id": "marketing-example",
+          "width": 186,
+          "height": 51,
+          "scrollWidth": 186,
+          "scrollHeight": 51,
+          "text": "AIで市場を調べ、\nSNS投稿や広告画像を\n作成します。",
+          "overflow": false
+        },
+        {
+          "id": "web-example",
+          "width": 191,
+          "height": 51,
+          "scrollWidth": 191,
+          "scrollHeight": 51,
+          "text": "Googleサイトや画像生成AIで、\n学校や企業のWebサイトを\n制作します。",
+          "overflow": false
+        },
+        {
+          "id": "report-example",
+          "width": 173,
+          "height": 51,
+          "scrollWidth": 173,
+          "scrollHeight": 51,
+          "text": "AIで情報を整理し、\nレポートや企画書を\n作成します。",
+          "overflow": false
+        },
+        {
+          "id": "video-title",
+          "width": 154,
+          "height": 35,
+          "scrollWidth": 154,
+          "scrollHeight": 35,
+          "text": "動画コンテンツ制作",
+          "overflow": false
+        },
+        {
+          "id": "video-example",
+          "width": 179,
+          "height": 51,
+          "scrollWidth": 179,
+          "scrollHeight": 51,
+          "text": "AIで映像や音声を作成。\n発表用の動画などを\n制作します。",
+          "overflow": false
+        },
+        {
+          "id": "online-support",
+          "width": 200,
+          "height": 85,
+          "scrollWidth": 200,
+          "scrollHeight": 85,
+          "text": "オンラインを積極的に導入\n教材共有や課題提出に、\nGoogle Classroomなども活用。",
+          "overflow": false
+        },
+        {
+          "id": "learning-consultation",
+          "width": 149,
+          "height": 85,
+          "scrollWidth": 149,
+          "scrollHeight": 85,
+          "text": "学びの相談\n授業や課題の疑問を\n教員に相談できます。",
+          "overflow": false
+        },
+        {
+          "id": "clipped-footer-number",
+          "width": 26,
+          "height": 19,
+          "scrollWidth": 26,
+          "scrollHeight": 19,
+          "text": "8",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "patches": [
+        {
+          "id": "support-intro",
+          "width": 210,
+          "height": 102,
+          "scrollWidth": 210,
+          "scrollHeight": 102,
+          "text": "専門的な学びはもちろん、学校生活や将来の進路まで、教員と支援スタッフが連携し、一人ひとりを支えます。",
+          "overflow": false
+        },
+        {
+          "id": "course-support",
+          "width": 128,
+          "height": 107,
+          "scrollWidth": 128,
+          "scrollHeight": 107,
+          "text": "授業・課題の相談\n理解しにくい点や、課題の進め方を相談できます。",
+          "overflow": false
+        },
+        {
+          "id": "individual-support",
+          "width": 151,
+          "height": 104,
+          "scrollWidth": 151,
+          "scrollHeight": 104,
+          "text": "一人ひとりに対応\n目標や学びの状況に合わせ、困りごとを一緒に考えます。",
+          "overflow": false
+        },
+        {
+          "id": "sign-learning-consultation",
+          "width": 74,
+          "height": 24,
+          "scrollWidth": 74,
+          "scrollHeight": 24,
+          "text": "学習相談",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "patches": [
+        {
+          "id": "parent-question-study",
+          "width": 149,
+          "height": 60,
+          "scrollWidth": 149,
+          "scrollHeight": 60,
+          "text": "授業についていける？\n勉強が苦手でも\n大丈夫かな？",
+          "overflow": false
+        },
+        {
+          "id": "parent-question-attendance",
+          "width": 135,
+          "height": 50,
+          "scrollWidth": 135,
+          "scrollHeight": 50,
+          "text": "意欲を保って、\n通い続けられる？",
+          "overflow": false
+        },
+        {
+          "id": "parent-question-career",
+          "width": 133,
+          "height": 53,
+          "scrollWidth": 133,
+          "scrollHeight": 53,
+          "text": "学んだことが\n卒業後の仕事に\nつながるかな？",
+          "overflow": false
+        },
+        {
+          "id": "parent-question-cost",
+          "width": 141,
+          "height": 53,
+          "scrollWidth": 141,
+          "scrollHeight": 53,
+          "text": "学費や追加の費用は、\nどのくらい必要？",
+          "overflow": false
+        },
+        {
+          "id": "basics-support",
+          "width": 167,
+          "height": 110,
+          "scrollWidth": 167,
+          "scrollHeight": 110,
+          "text": "基礎から学ぶ授業\nAIやビジネスが初めてでも、基礎から段階的に学びます。",
+          "overflow": false
+        },
+        {
+          "id": "learning-support",
+          "width": 159,
+          "height": 83,
+          "scrollWidth": 159,
+          "scrollHeight": 83,
+          "text": "授業や課題の分からない点を、教員・スタッフに相談できます。",
+          "overflow": false
+        },
+        {
+          "id": "school-life-support",
+          "width": 168,
+          "height": 110,
+          "scrollWidth": 168,
+          "scrollHeight": 110,
+          "text": "学校生活の相談\n友人関係や通学、学習との両立など、学校生活の困りごとを相談できます。",
+          "overflow": false
+        },
+        {
+          "id": "selection-points-title",
+          "width": 439,
+          "height": 32,
+          "scrollWidth": 439,
+          "scrollHeight": 32,
+          "text": "専門学校選びで確かめたい4つのこと",
+          "overflow": false
+        },
+        {
+          "id": "selection-points-caption",
+          "width": 304,
+          "height": 32,
+          "scrollWidth": 304,
+          "scrollHeight": 32,
+          "text": "学び方・相談体制・仲間・将来へのつながり。",
+          "overflow": false
+        },
+        {
+          "id": "reason-basics",
+          "width": 135,
+          "height": 42,
+          "scrollWidth": 135,
+          "scrollHeight": 42,
+          "text": "基礎から学べる\nカリキュラム",
+          "overflow": false
+        },
+        {
+          "id": "reason-friends",
+          "width": 127,
+          "height": 42,
+          "scrollWidth": 127,
+          "scrollHeight": 42,
+          "text": "仲間と協力して\n学べる環境",
+          "overflow": false
+        },
+        {
+          "id": "reason-career",
+          "width": 136,
+          "height": 42,
+          "scrollWidth": 136,
+          "scrollHeight": 42,
+          "text": "将来につながる\n実践的な学び",
+          "overflow": false
+        },
+        {
+          "id": "caption-basics",
+          "width": 168,
+          "height": 37,
+          "scrollWidth": 168,
+          "scrollHeight": 37,
+          "text": "AI・ビジネスの基礎から、\n段階的に学びます。",
+          "overflow": false
+        },
+        {
+          "id": "caption-teachers",
+          "width": 163,
+          "height": 37,
+          "scrollWidth": 163,
+          "scrollHeight": 37,
+          "text": "学習や進路のことを、\n教員・スタッフに相談。",
+          "overflow": false
+        },
+        {
+          "id": "caption-friends",
+          "width": 170,
+          "height": 37,
+          "scrollWidth": 170,
+          "scrollHeight": 37,
+          "text": "発表や実習を通して、\n仲間と学び合います。",
+          "overflow": false
+        },
+        {
+          "id": "caption-career",
+          "width": 177,
+          "height": 37,
+          "scrollWidth": 177,
+          "scrollHeight": 37,
+          "text": "仕事の場面を意識し、\n実践的に学びます。",
+          "overflow": false
+        }
+      ]
+    }
+  ]
+}
