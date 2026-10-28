@@ -597,3 +597,9 @@ PDF受渡し調査は人間の指示で保留。医専BOOKの地図第2案を画
 ブランチ book/brochure-fees-five-columns-20261028、未マージ。正規baseline同期は brochure page_001/page_002 HTML・page_002 CSS・booklet.yamlと前回保留のadmissions page_007 HTML/CSSをまとめる。ログ /tmp/brochure-annual-table-baseline.log、/tmp/brochure-annual-table-check.log、metadata /tmp/brochure-annual-table-metadata.json。GitHub PR APIは通信制限403で未作成、本文PR.md。未通過を合格扱いしない。
 
 追加のQR相談は「QRとリンクが欲しいだけ」と人間が範囲を訂正。チラシ自体は変更しない。パンフレットは未公開。人間がDriveへ保存し「リンクを知っている全員／閲覧者」にした共有URLを渡す予定。受領後、そのURLを開くQRを学校正本ロゴを中央に入れて作成し、デコード・印刷寸法での可読性を確認する。学校HPへの誘導やチラシ組込みは勝手に進めない。
+
+### 2026-10-28 パンフレット・ふりがな無し統一（Codex）
+
+人間の「ふりがな無しで統一して」により、承認済み年額表版から現行パンフレット7PDFを改訂。ふりがなのある12〜15Pの読み153字だけを、源4HTMLのrt内容と各PDFの6.5pt仮名を全字照合して削除。本文全字/書体/グリフ保持、字位置・字号はPDF直列化誤差0.0001pt以内、読み領域外の80P/印刷面150dpi画素と全元画像stream一致。年額表・指定検定料別注記・画像・QR・AI注記・面付けは保持。源HTML4ページの読みとrubyタグも除去し、源4ページの標準render PNG/PDF成功。募集要項・チラシは今回変更しない。旧版保持。
+
+保存・取得・SHA・全字の削除座標・検査は downloads/brochure-no-furigana-20261028/。提供PDF名は年額表改訂版_ふりがな無し、delivery-files.json。ブランチ book/brochure-fees-five-columns-20261028、未マージ。前のbaseline/checkキューは編集前に停止し、最後の源差分8ファイルを保存後に正規同期→全体check。ログ /tmp/brochure-no-furigana-baseline.log と /tmp/brochure-no-furigana-check.log、metadata /tmp/brochure-no-furigana-metadata.json。GitHub PR APIは通信制限403で未作成、本文はPR.md。マージ指示時に検査結果とbaseline差分を取り込み、必須チェックを確認する。

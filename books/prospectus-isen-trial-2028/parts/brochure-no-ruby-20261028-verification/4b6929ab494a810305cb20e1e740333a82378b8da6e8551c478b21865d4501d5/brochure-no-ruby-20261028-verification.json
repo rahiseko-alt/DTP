@@ -1,0 +1,99 @@
+{
+  "verified": true,
+  "outputs": [
+    {
+      "label": "brochure-original",
+      "sha256": "f34a234b21881399e8e090d8cec0fa39da4355c634748196af3de2f1c57fd304",
+      "page_faces": 16,
+      "ruby_glyphs_removed": 153,
+      "remaining_native_ruby": 0,
+      "outside_ruby_pixels_identical": true,
+      "all_base_characters_fonts_glyph_ids_identical": true,
+      "base_font_size_or_position_max_delta_pt": 0,
+      "native_coordinate_tolerance_pt": 0.0001,
+      "all_original_image_streams_identical": true,
+      "annual_fee_table_and_approved_note_unchanged": true
+    },
+    {
+      "label": "brochure-original-A3",
+      "sha256": "f09eb789c9bb96b285454a7e082ce0fd587e8b00083fefd5a2831e9244928a84",
+      "page_faces": 8,
+      "ruby_glyphs_removed": 153,
+      "remaining_native_ruby": 0,
+      "outside_ruby_pixels_identical": true,
+      "all_base_characters_fonts_glyph_ids_identical": true,
+      "base_font_size_or_position_max_delta_pt": 3.0517578125e-05,
+      "native_coordinate_tolerance_pt": 0.0001,
+      "all_original_image_streams_identical": true,
+      "annual_fee_table_and_approved_note_unchanged": true
+    },
+    {
+      "label": "brochure-original-A4",
+      "sha256": "09c85fe931d64f8c99868fc04b0e6ec5abac31af68bf51ab1aec86f4f8e81aee",
+      "page_faces": 8,
+      "ruby_glyphs_removed": 153,
+      "remaining_native_ruby": 0,
+      "outside_ruby_pixels_identical": true,
+      "all_base_characters_fonts_glyph_ids_identical": true,
+      "base_font_size_or_position_max_delta_pt": 3.0517578125e-05,
+      "native_coordinate_tolerance_pt": 0.0001,
+      "all_original_image_streams_identical": true,
+      "annual_fee_table_and_approved_note_unchanged": true
+    },
+    {
+      "label": "brochure-jp-r13",
+      "sha256": "3928855564e05629ebe80da694ce39283e00a77e47157c2161dd8f30d7586d9d",
+      "page_faces": 16,
+      "ruby_glyphs_removed": 153,
+      "remaining_native_ruby": 0,
+      "outside_ruby_pixels_identical": true,
+      "all_base_characters_fonts_glyph_ids_identical": true,
+      "base_font_size_or_position_max_delta_pt": 0,
+      "native_coordinate_tolerance_pt": 0.0001,
+      "all_original_image_streams_identical": true,
+      "annual_fee_table_and_approved_note_unchanged": true
+    },
+    {
+      "label": "brochure-jp-r13-master",
+      "sha256": "68191595d9a8cfb27c48ba7b15a7682add42ae04dc85ded1e62b263b3cba877f",
+      "page_faces": 16,
+      "ruby_glyphs_removed": 153,
+      "remaining_native_ruby": 0,
+      "outside_ruby_pixels_identical": true,
+      "all_base_characters_fonts_glyph_ids_identical": true,
+      "base_font_size_or_position_max_delta_pt": 0,
+      "native_coordinate_tolerance_pt": 0.0001,
+      "all_original_image_streams_identical": true,
+      "annual_fee_table_and_approved_note_unchanged": true
+    },
+    {
+      "label": "brochure-jp-r13-A3",
+      "sha256": "0736d60ea695be3a8b7fe34c4e15e5efbda4b83fd27070535b47a5cb7dd2efbf",
+      "page_faces": 8,
+      "ruby_glyphs_removed": 153,
+      "remaining_native_ruby": 0,
+      "outside_ruby_pixels_identical": true,
+      "all_base_characters_fonts_glyph_ids_identical": true,
+      "base_font_size_or_position_max_delta_pt": 3.0517578125e-05,
+      "native_coordinate_tolerance_pt": 0.0001,
+      "all_original_image_streams_identical": true,
+      "annual_fee_table_and_approved_note_unchanged": true
+    },
+    {
+      "label": "brochure-jp-r13-A4",
+      "sha256": "0696247593ae61cadb17b8cade2211b6a41b67984c5591d762a6cc1340cde5a1",
+      "page_faces": 8,
+      "ruby_glyphs_removed": 153,
+      "remaining_native_ruby": 0,
+      "outside_ruby_pixels_identical": true,
+      "all_base_characters_fonts_glyph_ids_identical": true,
+      "base_font_size_or_position_max_delta_pt": 3.0517578125e-05,
+      "native_coordinate_tolerance_pt": 0.0001,
+      "all_original_image_streams_identical": true,
+      "annual_fee_table_and_approved_note_unchanged": true
+    }
+  ],
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-28",
+  "reviewer": "parent self-review",
+  "brief": "パンフレットをふりがな無しへ統一。本文・金額・書体・配置・写真・QR・他内容を保持。",
+  "purpose": "本人の行きたいと保護者の払える・払うを成立させ、入学手続きと入金につなげる。",
+  "audience": "既定の読者と現行各版の対象を維持。",
+  "outputs": [
+    {
+      "label": "brochure-original",
+      "sha256": "f34a234b21881399e8e090d8cec0fa39da4355c634748196af3de2f1c57fd304"
+    },
+    {
+      "label": "brochure-original-A3",
+      "sha256": "f09eb789c9bb96b285454a7e082ce0fd587e8b00083fefd5a2831e9244928a84"
+    },
+    {
+      "label": "brochure-original-A4",
+      "sha256": "09c85fe931d64f8c99868fc04b0e6ec5abac31af68bf51ab1aec86f4f8e81aee"
+    },
+    {
+      "label": "brochure-jp-r13",
+      "sha256": "3928855564e05629ebe80da694ce39283e00a77e47157c2161dd8f30d7586d9d"
+    },
+    {
+      "label": "brochure-jp-r13-master",
+      "sha256": "68191595d9a8cfb27c48ba7b15a7682add42ae04dc85ded1e62b263b3cba877f"
+    },
+    {
+      "label": "brochure-jp-r13-A3",
+      "sha256": "0736d60ea695be3a8b7fe34c4e15e5efbda4b83fd27070535b47a5cb7dd2efbf"
+    },
+    {
+      "label": "brochure-jp-r13-A4",
+      "sha256": "0696247593ae61cadb17b8cade2211b6a41b67984c5591d762a6cc1340cde5a1"
+    }
+  ],
+  "evidence": [
+    "before all 16 pages: preceding annual edition overview01/05/09/13",
+    "previews/brochure-jp-r13-overview-13.jpg",
+    "/tmp/brochure-no-furigana-heading-review.jpg",
+    "/tmp/brochure-no-furigana-page13.png",
+    "standard source render: /tmp/brochure-no-furigana-source"
+  ],
+  "findings": "4ページの読み153字を源HTMLに照合して除去。拡大見出しと最終4ページ一覧で残存・本文欠け・重なりなし。前半の画像化ページはふりがな無しで画像stream同一。全7PDF・80P/面の読み領域外画素一致、本文全字/書体/グリフ保持。本文字位置・字号の直列化誤差0.0001pt以内。年額表と指定注記、画像・QR・面付けを保持。",
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false
+}

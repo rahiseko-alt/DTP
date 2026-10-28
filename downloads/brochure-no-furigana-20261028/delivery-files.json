@@ -1,0 +1,385 @@
+{
+  "files": [
+    {
+      "label": "brochure-original",
+      "file": "/workspace/設備費更新版/医専パンフレット_元版_ページ順_設備費更新版_年額表改訂版_ふりがな無し.pdf",
+      "sha256": "f34a234b21881399e8e090d8cec0fa39da4355c634748196af3de2f1c57fd304",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "eed55e4eca2a797c06abedb9eb5b3cd0a407da6b",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "e1b3262f34d035bb13b7dee76c1d181731ae505a7fdd1fdb8c3b4a4f8ffb12bc"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "brochure-no-ruby-20261028-brochure-original",
+          "variant": "no-furigana-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "f34a234b21881399e8e090d8cec0fa39da4355c634748196af3de2f1c57fd304",
+          "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-original/f34a234b21881399e8e090d8cec0fa39da4355c634748196af3de2f1c57fd304/brochure-no-ruby-20261028-brochure-original.pdf",
+          "sha256": "f34a234b21881399e8e090d8cec0fa39da4355c634748196af3de2f1c57fd304",
+          "size": 114007644,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: unify the brochure without furigana. Remove only 153 native ruby reading glyphs on reading pages12-15 in each current PDF. Preserve all base text/fonts/glyph IDs and positions (native serialization tolerance 0.0001pt), exact pixels outside ruby glyph areas, all original image streams, annual fee table and exact approved examination-fee note, covers, AI notice, QR and imposition. Original revisions retained. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T01:18:48.595Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-annual-approved-20261028-brochure-original",
+              "revision": "01a56837a123408266ebdde4cdb5540e36f8a72af743f34190f119dd1dddcd3c"
+            },
+            {
+              "id": "brochure-no-ruby-20261028-builder",
+              "revision": "6fc1ccf7778b15288efe55c617b331a3ef62760f0d0fc82ede60a07decb78396"
+            },
+            {
+              "id": "brochure-no-ruby-20261028-source-plan",
+              "revision": "f634a10b2eb79762c7adf0460795fa01f45f13972ec8c2e915190b5e963b1f40"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-original/f34a234b21881399e8e090d8cec0fa39da4355c634748196af3de2f1c57fd304/brochure-no-ruby-20261028-brochure-original.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-original-A3",
+      "file": "/workspace/設備費更新版/医専パンフレット_元版_A3印刷用_設備費更新版_年額表改訂版_ふりがな無し.pdf",
+      "sha256": "f09eb789c9bb96b285454a7e082ce0fd587e8b00083fefd5a2831e9244928a84",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "eed55e4eca2a797c06abedb9eb5b3cd0a407da6b",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "e1b3262f34d035bb13b7dee76c1d181731ae505a7fdd1fdb8c3b4a4f8ffb12bc"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "brochure-no-ruby-20261028-brochure-original-a3",
+          "variant": "no-furigana-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "f09eb789c9bb96b285454a7e082ce0fd587e8b00083fefd5a2831e9244928a84",
+          "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-original-a3/f09eb789c9bb96b285454a7e082ce0fd587e8b00083fefd5a2831e9244928a84/brochure-no-ruby-20261028-brochure-original-a3.pdf",
+          "sha256": "f09eb789c9bb96b285454a7e082ce0fd587e8b00083fefd5a2831e9244928a84",
+          "size": 4574521,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: unify the brochure without furigana. Remove only 153 native ruby reading glyphs on reading pages12-15 in each current PDF. Preserve all base text/fonts/glyph IDs and positions (native serialization tolerance 0.0001pt), exact pixels outside ruby glyph areas, all original image streams, annual fee table and exact approved examination-fee note, covers, AI notice, QR and imposition. Original revisions retained. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T01:19:03.140Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-annual-approved-20261028-brochure-original-a3",
+              "revision": "235f7ebc89c98f55894616ebd18e04e76a7ea8eb458eff77177fcada14146744"
+            },
+            {
+              "id": "brochure-no-ruby-20261028-builder",
+              "revision": "6fc1ccf7778b15288efe55c617b331a3ef62760f0d0fc82ede60a07decb78396"
+            },
+            {
+              "id": "brochure-no-ruby-20261028-source-plan",
+              "revision": "f634a10b2eb79762c7adf0460795fa01f45f13972ec8c2e915190b5e963b1f40"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-original-a3/f09eb789c9bb96b285454a7e082ce0fd587e8b00083fefd5a2831e9244928a84/brochure-no-ruby-20261028-brochure-original-a3.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-original-A4",
+      "file": "/workspace/設備費更新版/医専パンフレット_元版_A4印刷用_設備費更新版_年額表改訂版_ふりがな無し.pdf",
+      "sha256": "09c85fe931d64f8c99868fc04b0e6ec5abac31af68bf51ab1aec86f4f8e81aee",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "eed55e4eca2a797c06abedb9eb5b3cd0a407da6b",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "e1b3262f34d035bb13b7dee76c1d181731ae505a7fdd1fdb8c3b4a4f8ffb12bc"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "brochure-no-ruby-20261028-brochure-original-a4",
+          "variant": "no-furigana-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "09c85fe931d64f8c99868fc04b0e6ec5abac31af68bf51ab1aec86f4f8e81aee",
+          "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-original-a4/09c85fe931d64f8c99868fc04b0e6ec5abac31af68bf51ab1aec86f4f8e81aee/brochure-no-ruby-20261028-brochure-original-a4.pdf",
+          "sha256": "09c85fe931d64f8c99868fc04b0e6ec5abac31af68bf51ab1aec86f4f8e81aee",
+          "size": 3211610,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: unify the brochure without furigana. Remove only 153 native ruby reading glyphs on reading pages12-15 in each current PDF. Preserve all base text/fonts/glyph IDs and positions (native serialization tolerance 0.0001pt), exact pixels outside ruby glyph areas, all original image streams, annual fee table and exact approved examination-fee note, covers, AI notice, QR and imposition. Original revisions retained. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T01:19:04.980Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-annual-approved-20261028-brochure-original-a4",
+              "revision": "f83e0628df5c7d4c1d88e68bf4de47447d3a73166ee1ff5700089671be7b830a"
+            },
+            {
+              "id": "brochure-no-ruby-20261028-builder",
+              "revision": "6fc1ccf7778b15288efe55c617b331a3ef62760f0d0fc82ede60a07decb78396"
+            },
+            {
+              "id": "brochure-no-ruby-20261028-source-plan",
+              "revision": "f634a10b2eb79762c7adf0460795fa01f45f13972ec8c2e915190b5e963b1f40"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-original-a4/09c85fe931d64f8c99868fc04b0e6ec5abac31af68bf51ab1aec86f4f8e81aee/brochure-no-ruby-20261028-brochure-original-a4.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_ページ順_設備費更新版_年額表改訂版_ふりがな無し.pdf",
+      "sha256": "3928855564e05629ebe80da694ce39283e00a77e47157c2161dd8f30d7586d9d",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "eed55e4eca2a797c06abedb9eb5b3cd0a407da6b",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "e1b3262f34d035bb13b7dee76c1d181731ae505a7fdd1fdb8c3b4a4f8ffb12bc"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "brochure-no-ruby-20261028-brochure-jp-r13",
+          "variant": "no-furigana-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "3928855564e05629ebe80da694ce39283e00a77e47157c2161dd8f30d7586d9d",
+          "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13/3928855564e05629ebe80da694ce39283e00a77e47157c2161dd8f30d7586d9d/brochure-no-ruby-20261028-brochure-jp-r13.pdf",
+          "sha256": "3928855564e05629ebe80da694ce39283e00a77e47157c2161dd8f30d7586d9d",
+          "size": 7352933,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: unify the brochure without furigana. Remove only 153 native ruby reading glyphs on reading pages12-15 in each current PDF. Preserve all base text/fonts/glyph IDs and positions (native serialization tolerance 0.0001pt), exact pixels outside ruby glyph areas, all original image streams, annual fee table and exact approved examination-fee note, covers, AI notice, QR and imposition. Original revisions retained. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T01:19:06.660Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-annual-approved-20261028-brochure-jp-r13",
+              "revision": "c49898d506297d6c728b6259ef95a491a354dd1cc397685085ebf4c26b09244e"
+            },
+            {
+              "id": "brochure-no-ruby-20261028-builder",
+              "revision": "6fc1ccf7778b15288efe55c617b331a3ef62760f0d0fc82ede60a07decb78396"
+            },
+            {
+              "id": "brochure-no-ruby-20261028-source-plan",
+              "revision": "f634a10b2eb79762c7adf0460795fa01f45f13972ec8c2e915190b5e963b1f40"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13/3928855564e05629ebe80da694ce39283e00a77e47157c2161dd8f30d7586d9d/brochure-no-ruby-20261028-brochure-jp-r13.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13-master",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_制作マスター_設備費更新版_年額表改訂版_ふりがな無し.pdf",
+      "sha256": "68191595d9a8cfb27c48ba7b15a7682add42ae04dc85ded1e62b263b3cba877f",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "eed55e4eca2a797c06abedb9eb5b3cd0a407da6b",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "e1b3262f34d035bb13b7dee76c1d181731ae505a7fdd1fdb8c3b4a4f8ffb12bc"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "brochure-no-ruby-20261028-brochure-jp-r13-master",
+          "variant": "no-furigana-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "68191595d9a8cfb27c48ba7b15a7682add42ae04dc85ded1e62b263b3cba877f",
+          "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-master/68191595d9a8cfb27c48ba7b15a7682add42ae04dc85ded1e62b263b3cba877f/brochure-no-ruby-20261028-brochure-jp-r13-master.pdf",
+          "sha256": "68191595d9a8cfb27c48ba7b15a7682add42ae04dc85ded1e62b263b3cba877f",
+          "size": 126536517,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: unify the brochure without furigana. Remove only 153 native ruby reading glyphs on reading pages12-15 in each current PDF. Preserve all base text/fonts/glyph IDs and positions (native serialization tolerance 0.0001pt), exact pixels outside ruby glyph areas, all original image streams, annual fee table and exact approved examination-fee note, covers, AI notice, QR and imposition. Original revisions retained. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T01:19:17.127Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-annual-approved-20261028-brochure-jp-r13-master",
+              "revision": "75361d2f39787f920ecbbbce709990bff44de3cd149d492026fee541679f66f8"
+            },
+            {
+              "id": "brochure-no-ruby-20261028-builder",
+              "revision": "6fc1ccf7778b15288efe55c617b331a3ef62760f0d0fc82ede60a07decb78396"
+            },
+            {
+              "id": "brochure-no-ruby-20261028-source-plan",
+              "revision": "f634a10b2eb79762c7adf0460795fa01f45f13972ec8c2e915190b5e963b1f40"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-master/68191595d9a8cfb27c48ba7b15a7682add42ae04dc85ded1e62b263b3cba877f/brochure-no-ruby-20261028-brochure-jp-r13-master.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13-A3",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_A3印刷用_設備費更新版_年額表改訂版_ふりがな無し.pdf",
+      "sha256": "0736d60ea695be3a8b7fe34c4e15e5efbda4b83fd27070535b47a5cb7dd2efbf",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "eed55e4eca2a797c06abedb9eb5b3cd0a407da6b",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "e1b3262f34d035bb13b7dee76c1d181731ae505a7fdd1fdb8c3b4a4f8ffb12bc"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "brochure-no-ruby-20261028-brochure-jp-r13-a3",
+          "variant": "no-furigana-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "0736d60ea695be3a8b7fe34c4e15e5efbda4b83fd27070535b47a5cb7dd2efbf",
+          "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-a3/0736d60ea695be3a8b7fe34c4e15e5efbda4b83fd27070535b47a5cb7dd2efbf/brochure-no-ruby-20261028-brochure-jp-r13-a3.pdf",
+          "sha256": "0736d60ea695be3a8b7fe34c4e15e5efbda4b83fd27070535b47a5cb7dd2efbf",
+          "size": 4661953,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: unify the brochure without furigana. Remove only 153 native ruby reading glyphs on reading pages12-15 in each current PDF. Preserve all base text/fonts/glyph IDs and positions (native serialization tolerance 0.0001pt), exact pixels outside ruby glyph areas, all original image streams, annual fee table and exact approved examination-fee note, covers, AI notice, QR and imposition. Original revisions retained. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T01:19:21.577Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-annual-approved-20261028-brochure-jp-r13-a3",
+              "revision": "7c73dce58bf45dfa3c60a63c27408bb8557ba520bb01de7e4bcc6eae6a43e68b"
+            },
+            {
+              "id": "brochure-no-ruby-20261028-builder",
+              "revision": "6fc1ccf7778b15288efe55c617b331a3ef62760f0d0fc82ede60a07decb78396"
+            },
+            {
+              "id": "brochure-no-ruby-20261028-source-plan",
+              "revision": "f634a10b2eb79762c7adf0460795fa01f45f13972ec8c2e915190b5e963b1f40"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-a3/0736d60ea695be3a8b7fe34c4e15e5efbda4b83fd27070535b47a5cb7dd2efbf/brochure-no-ruby-20261028-brochure-jp-r13-a3.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13-A4",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_A4印刷用_設備費更新版_年額表改訂版_ふりがな無し.pdf",
+      "sha256": "0696247593ae61cadb17b8cade2211b6a41b67984c5591d762a6cc1340cde5a1",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "eed55e4eca2a797c06abedb9eb5b3cd0a407da6b",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "e1b3262f34d035bb13b7dee76c1d181731ae505a7fdd1fdb8c3b4a4f8ffb12bc"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "brochure-no-ruby-20261028-brochure-jp-r13-a4",
+          "variant": "no-furigana-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "0696247593ae61cadb17b8cade2211b6a41b67984c5591d762a6cc1340cde5a1",
+          "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-a4/0696247593ae61cadb17b8cade2211b6a41b67984c5591d762a6cc1340cde5a1/brochure-no-ruby-20261028-brochure-jp-r13-a4.pdf",
+          "sha256": "0696247593ae61cadb17b8cade2211b6a41b67984c5591d762a6cc1340cde5a1",
+          "size": 3259670,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: unify the brochure without furigana. Remove only 153 native ruby reading glyphs on reading pages12-15 in each current PDF. Preserve all base text/fonts/glyph IDs and positions (native serialization tolerance 0.0001pt), exact pixels outside ruby glyph areas, all original image streams, annual fee table and exact approved examination-fee note, covers, AI notice, QR and imposition. Original revisions retained. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T01:19:23.059Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-annual-approved-20261028-brochure-jp-r13-a4",
+              "revision": "4a9b85790f96c124d10445f195268d2fdbd8d92874234b2bcd180cd22b3cdea7"
+            },
+            {
+              "id": "brochure-no-ruby-20261028-builder",
+              "revision": "6fc1ccf7778b15288efe55c617b331a3ef62760f0d0fc82ede60a07decb78396"
+            },
+            {
+              "id": "brochure-no-ruby-20261028-source-plan",
+              "revision": "f634a10b2eb79762c7adf0460795fa01f45f13972ec8c2e915190b5e963b1f40"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-a4/0696247593ae61cadb17b8cade2211b6a41b67984c5591d762a6cc1340cde5a1/brochure-no-ruby-20261028-brochure-jp-r13-a4.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    }
+  ],
+  "zip": "/workspace/設備費更新版/設備費更新版_配布用PDF一式_パンフレット年額表改訂版_ふりがな無し.zip",
+  "zip_sha256": "be67b420119c7af227ef23334db7a97a0c09b805e06e3a3c56eed78508100266",
+  "admissions_pdfs": "same bytes as preceding admissions five-column delivery"
+}

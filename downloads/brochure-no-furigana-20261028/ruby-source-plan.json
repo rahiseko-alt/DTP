@@ -1,0 +1,68 @@
+[
+  {
+    "reading_page": 12,
+    "source_html": "books/prospectus-isen-trial-2028/pages/page_001/page.html",
+    "source_before_sha256": "ffa7ad81b601e10392cca32fcf37f91b85f1586933c8f1827163a8f6d28c6db3",
+    "source_after_sha256": "ecdeae7ed9703e1f3f5fb4b9b4013966beed6d19a545527f78c28f960f014fcd",
+    "ruby_texts": [
+      "がくひ",
+      "あんない",
+      "にゅうがくけんていりょう",
+      "のうふきげん",
+      "しはら",
+      "しえんせいど",
+      "しはら",
+      "そうだん",
+      "にゅうし",
+      "とくてん",
+      "ぶんのう",
+      "た",
+      "しえん"
+    ]
+  },
+  {
+    "reading_page": 13,
+    "source_html": "books/prospectus-isen-trial-2028/pages/page_002/page.html",
+    "source_before_sha256": "3288c412d85603c9705b70e033b016d182cd2eb3a6214e5c686c6b9e5cd8f46c",
+    "source_after_sha256": "7da0ff820e66439de1666ae1301953134ba5a23049632b719bc1ee21a546b581",
+    "ruby_texts": [
+      "しはら",
+      "じき",
+      "かくにんじこう",
+      "にゅうがくまえ",
+      "のうふ",
+      "とくてん",
+      "ぶんのう",
+      "じぜん",
+      "かくにん"
+    ]
+  },
+  {
+    "reading_page": 14,
+    "source_html": "books/prospectus-isen-trial-2028/pages/page_003/page.html",
+    "source_before_sha256": "381269367b83a1ce39ea07e9d85cc6d2d0433bb0479811ed22aa1ed9e64241b8",
+    "source_after_sha256": "b70375fbf11654344742bb221963556497fe42f69b13bf3161d29493c124fd8e",
+    "ruby_texts": [
+      "にゅうし",
+      "しゅつがんほうほう",
+      "にゅうしくぶん",
+      "べつ",
+      "しゅつがんしかく",
+      "じゅんび",
+      "しょるい"
+    ]
+  },
+  {
+    "reading_page": 15,
+    "source_html": "books/prospectus-isen-trial-2028/pages/page_004/page.html",
+    "source_before_sha256": "7ed6471e2460c84ce18f776d3c753fc9459e0f42ebd6d369d4c5697764f20cb8",
+    "source_after_sha256": "0fd71ea6bc15edca99d22f8bea6f3084771bf04e265457fd42f0b0cb43b92ae2",
+    "ruby_texts": [
+      "と",
+      "あ",
+      "あんないちず",
+      "にゅうがくそうだん",
+      "れんらく"
+    ]
+  }
+]

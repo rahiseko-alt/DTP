@@ -1,15 +1,15 @@
 <div class="bk-kit isen-tuition-page isen-admissions-page" data-theme="isen">
 <header class="page-header"><span class="page-badge">22</span><span>入試・出願方法</span><strong>{{facts.school.name}}</strong></header>
-<section class="admission-heading"><h1><ruby>入試<rt>にゅうし</rt></ruby>・<ruby>出願方法<rt>しゅつがんほうほう</rt></ruby></h1><p>入試区分ごとの条件を確かめ、必要な書類を準備してください。</p></section>
+<section class="admission-heading"><h1>入試・出願方法</h1><p>入試区分ごとの条件を確かめ、必要な書類を準備してください。</p></section>
 <div class="year-notice"><strong>{{facts.booklet.reference_admissions_year}}年度・日本人向け募集要項の参考情報</strong><span>{{facts.booklet.intake}}の入試日程・出願条件は未確定です。</span></div>
-<section class="admission-types"><h2>3つの<ruby>入試区分<rt>にゅうしくぶん</rt></ruby></h2>
+<section class="admission-types"><h2>3つの入試区分</h2>
 <table><thead><tr><th>区分・主な条件</th><th>受付開始・合格発表</th><th>選考方法</th></tr></thead><tbody>
 {{#each facts.admissions.exam_types}}<tr><th><strong>{{name}}</strong><span>（{{formal_name}}）</span>{{#if requirement}}<p>{{requirement}}</p>{{/if}}</th><td>{{#if entry_from}}<div><b>エントリー</b><br>{{entry_from}}</div>{{/if}}<div><b>出願受付</b><br>{{application_from}}</div><div><b>合格発表</b><br>{{announcement}}</div></td><td>{{selection}}</td></tr>{{/each}}
 </tbody></table>
 <p class="admission-note">上の日程は{{facts.booklet.reference_admissions_year}}年度入学の資料に記載された日程です。{{facts.booklet.intake}}の日程へ読み替えないでください。{{facts.admissions.exam_notes.[0]}}</p></section>
-<section class="ao-flow"><h2>AOは「エントリー」と「出願」が<ruby>別<rt>べつ</rt></ruby>です</h2><p>体験入学・学校説明会等への参加 → AOエントリー → 面接等 → 出願許可証の交付 → 出願</p><small>{{facts.admissions.exam_types.0.permission}} 担任または保護者の確認署名も必要です。</small></section>
-<section class="eligibility-block"><h2><ruby>出願資格<rt>しゅつがんしかく</rt></ruby>（参考）</h2><p>{{facts.admissions.eligibility.lead}}</p><ul>{{#each facts.admissions.eligibility.conditions}}<li>{{this}}</li>{{/each}}</ul></section>
-<section class="documents-block"><h2><ruby>準備<rt>じゅんび</rt></ruby>する<ruby>書類<rt>しょるい</rt></ruby>（原本で確認できるもの）</h2><ul>{{#each facts.admissions.documents}}<li><strong>{{name}}</strong>{{#if only}}<span class="conditional">{{only}}</span>{{/if}}</li>{{/each}}</ul><p>写真は縦4cm×横3cm。志望理由書は本人、誓約書・保証書は受験者本人と保証人本人が直筆で記入します。書類は発行から3か月以内が原則です。</p></section>
+<section class="ao-flow"><h2>AOは「エントリー」と「出願」が別です</h2><p>体験入学・学校説明会等への参加 → AOエントリー → 面接等 → 出願許可証の交付 → 出願</p><small>{{facts.admissions.exam_types.0.permission}} 担任または保護者の確認署名も必要です。</small></section>
+<section class="eligibility-block"><h2>出願資格（参考）</h2><p>{{facts.admissions.eligibility.lead}}</p><ul>{{#each facts.admissions.eligibility.conditions}}<li>{{this}}</li>{{/each}}</ul></section>
+<section class="documents-block"><h2>準備する書類（原本で確認できるもの）</h2><ul>{{#each facts.admissions.documents}}<li><strong>{{name}}</strong>{{#if only}}<span class="conditional">{{only}}</span>{{/if}}</li>{{/each}}</ul><p>写真は縦4cm×横3cm。志望理由書は本人、誓約書・保証書は受験者本人と保証人本人が直筆で記入します。書類は発行から3か月以内が原則です。</p></section>
 <section class="admission-checks"><p><strong>提出前の確認：</strong>原本の書類表には番号5・6の欠番があり、「提出書類確認表」の様式・振込控えの添付先にも確認事項があります。必要書類一式・提出方法は、必ず学校の最新案内で確認してください。推薦書には「第一志望」の記載があります。</p><p><strong>合格後：</strong>所定の手続きと納付が完了した場合に入学が許可されます。課題提出等の入学前教育も必要です。</p></section>
 <div class="contact-strip"><div><span>出願資格・手続きのお問い合わせ</span><strong>{{facts.contacts.contacts.0.label}}</strong></div><div><strong>{{facts.contacts.contacts.0.tel}}</strong><span>{{facts.contacts.contacts.0.email}}</span></div></div>
 <footer><span>出典：{{facts.booklet.reference_admissions_year}}年度募集要項・願書類・AOエントリーシート・推薦書。</span><b>22</b></footer>

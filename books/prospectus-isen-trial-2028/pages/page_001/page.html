@@ -1,7 +1,7 @@
 <div class="bk-kit isen-tuition-page" data-theme="isen">
   <header class="page-header"><span class="page-badge">16</span><span>学費のご案内</span><strong>{{facts.school.name}}</strong></header>
   <section class="hero-section">
-    <div class="hero-copy"><p class="eyebrow">学ぶ費用と、納める時期を確認する</p><h1><ruby>学費<rt>がくひ</rt></ruby>のご<ruby>案内<rt>あんない</rt></ruby></h1><p>初年度・2年次の納付金と納付期限。</p></div>
+    <div class="hero-copy"><p class="eyebrow">学ぶ費用と、納める時期を確認する</p><h1>学費のご案内</h1><p>初年度・2年次の納付金と納付期限。</p></div>
     <img src="{{photo "student-img-5076"}}" alt="学校の学生の写真">
   </section>
   <div class="year-notice"><strong>{{facts.booklet.reference_admissions_year}}年度の参考額</strong><span>{{facts.booklet.intake}}の学費・納付条件は未確定です。</span></div>
@@ -15,15 +15,15 @@
 <tr class="total-row"><th>年間合計</th><td>{{num facts.admissions.tuition.years.0.total}}円</td><td>{{num facts.admissions.tuition.years.1.total}}円</td></tr>
 </tbody></table>
 <div class="total-strip"><span>2年間合計：</span><strong>{{num facts.admissions.tuition.grand_total}}<small>円</small></strong><p>上記金額には検定料2万円は含みません。</p></div>
-    <div class="exam-fee"><div><strong><ruby>入学検定料<rt>にゅうがくけんていりょう</rt></ruby></strong><span>出願時に納める費用。上の納付金とは別です。</span></div><b>{{num facts.admissions.exam_fee}}円</b></div>
+    <div class="exam-fee"><div><strong>入学検定料</strong><span>出願時に納める費用。上の納付金とは別です。</span></div><b>{{num facts.admissions.exam_fee}}円</b></div>
   </section>
-  <section class="payment-section"><h2><ruby>納付期限<rt>のうふきげん</rt></ruby>と<ruby>支払<rt>しはら</rt></ruby>い</h2>
+  <section class="payment-section"><h2>納付期限と支払い</h2>
     <div class="deadlines"><div><span>合格から10日以内</span><strong>入学金 {{num facts.admissions.tuition.entrance_fee}}円</strong></div><div><span>合格から1か月以内</span><strong>1年次・前期授業料 {{num facts.admissions.tuition.years.0.terms.0.tuition}}円</strong></div></div>
     <p class="payment-note">上記は{{facts.booklet.reference_admissions_year}}年度募集要項の納付期限です。2年次の前期・後期の支払期日は別途通知とされています。その他の納付時期は入学事務局へご確認ください。</p>
     <p class="bank-note">振込先：{{facts.admissions.payment_account.bank}} {{facts.admissions.payment_account.branch}}<br>振込手数料は志願者負担です。</p>
   </section>
-  <section class="support-section"><h2><ruby>支援制度<rt>しえんせいど</rt></ruby>・お<ruby>支払<rt>しはら</rt></ruby>いの<ruby>相談<rt>そうだん</rt></ruby></h2><p class="support-intro">利用できる制度・条件は、入学事務局へお問い合わせください。</p>
-    <div class="support-grid"><div><h3>AO<ruby>入試<rt>にゅうし</rt></ruby>の<ruby>特典<rt>とくてん</rt></ruby></h3><p>{{facts.booklet.intake}}の減免・特典は未確定です。金額や適用条件は確定後にご確認ください。</p></div><div><h3><ruby>分納<rt>ぶんのう</rt></ruby>について</h3><p>分納の可否・回数・条件は未確認です。希望する場合は、出願前に入学事務局へご相談ください。</p></div><div><h3>その<ruby>他<rt>た</rt></ruby>の<ruby>支援<rt>しえん</rt></ruby></h3><p>奨学金・教育ローン等の対象制度や利用条件は未確認です。利用を検討する場合は事前にご確認ください。</p></div></div>
+  <section class="support-section"><h2>支援制度・お支払いの相談</h2><p class="support-intro">利用できる制度・条件は、入学事務局へお問い合わせください。</p>
+    <div class="support-grid"><div><h3>AO入試の特典</h3><p>{{facts.booklet.intake}}の減免・特典は未確定です。金額や適用条件は確定後にご確認ください。</p></div><div><h3>分納について</h3><p>分納の可否・回数・条件は未確認です。希望する場合は、出願前に入学事務局へご相談ください。</p></div><div><h3>その他の支援</h3><p>奨学金・教育ローン等の対象制度や利用条件は未確認です。利用を検討する場合は事前にご確認ください。</p></div></div>
   </section>
   <div class="contact-strip"><div><span>費用・納付に関するお問い合わせ</span><strong>{{facts.contacts.contacts.0.label}}</strong></div><div><strong>{{facts.contacts.contacts.0.tel}}</strong><span>{{facts.contacts.contacts.0.email}}</span></div></div>
   <footer><span>出典：{{facts.booklet.reference_admissions_year}}年度募集要項。{{facts.booklet.intake}}の確定額ではありません。</span><b>16</b></footer>
