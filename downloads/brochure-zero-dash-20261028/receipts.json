@@ -1,0 +1,366 @@
+[
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "492effaee0a5a7539b61dc5c1b69ff60ba42e3a1",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "19fc94035da12dd1e2a0db1eb939aeb6131ac55bf51eb51e0595bacc94f8adc8"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-five-columns-20261028-brochure-original",
+      "variant": "facility-fee-five-columns-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "d5d61ca35832584c12412f0c5fcf7df5cc8ffd88300958111a86b2664bcfafe8",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-original/d5d61ca35832584c12412f0c5fcf7df5cc8ffd88300958111a86b2664bcfafe8/fee-five-columns-20261028-brochure-original.pdf",
+      "sha256": "d5d61ca35832584c12412f0c5fcf7df5cc8ffd88300958111a86b2664bcfafe8",
+      "size": 113670477,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: split misc expenses and annual facility fee into distinct columns; period table now 5 columns. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-27T23:58:15.158Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-original",
+          "revision": "f8349e4430206d583356d8eab5c9372e253f8091ae007c1f2e7550241f6b08da"
+        },
+        {
+          "id": "fee-five-columns-20261028-panel",
+          "revision": "ff69a9b4f6f06404a3be67a8b23393d47ec956cea8ae8a468108f1033f4a6fe8"
+        },
+        {
+          "id": "fee-five-columns-20261028-builder",
+          "revision": "ebedc8c5f8bbee348e9493b37c8429fb99394a32d335bb859f82962837da08ca"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-original/d5d61ca35832584c12412f0c5fcf7df5cc8ffd88300958111a86b2664bcfafe8/fee-five-columns-20261028-brochure-original.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-original",
+    "document": "prospectus-isen-trial-2028",
+    "kind": "reading"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "492effaee0a5a7539b61dc5c1b69ff60ba42e3a1",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "19fc94035da12dd1e2a0db1eb939aeb6131ac55bf51eb51e0595bacc94f8adc8"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-five-columns-20261028-brochure-original-a3",
+      "variant": "facility-fee-five-columns-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "1be6c50461d739f68b3bd2577feba7718646efa75b5316ac41d96fd82da1cf09",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-original-a3/1be6c50461d739f68b3bd2577feba7718646efa75b5316ac41d96fd82da1cf09/fee-five-columns-20261028-brochure-original-a3.pdf",
+      "sha256": "1be6c50461d739f68b3bd2577feba7718646efa75b5316ac41d96fd82da1cf09",
+      "size": 4251062,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: split misc expenses and annual facility fee into distinct columns; period table now 5 columns. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-27T23:58:20.319Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-original-a3",
+          "revision": "71518e95a7c5839f3e9fef320dad162d40d52030f4d87f96371afac5d6068895"
+        },
+        {
+          "id": "fee-five-columns-20261028-panel",
+          "revision": "ff69a9b4f6f06404a3be67a8b23393d47ec956cea8ae8a468108f1033f4a6fe8"
+        },
+        {
+          "id": "fee-five-columns-20261028-builder",
+          "revision": "ebedc8c5f8bbee348e9493b37c8429fb99394a32d335bb859f82962837da08ca"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-original-a3/1be6c50461d739f68b3bd2577feba7718646efa75b5316ac41d96fd82da1cf09/fee-five-columns-20261028-brochure-original-a3.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-original-A3",
+    "document": "prospectus-isen-trial-2028",
+    "kind": "print-a3"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "492effaee0a5a7539b61dc5c1b69ff60ba42e3a1",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "19fc94035da12dd1e2a0db1eb939aeb6131ac55bf51eb51e0595bacc94f8adc8"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-five-columns-20261028-brochure-original-a4",
+      "variant": "facility-fee-five-columns-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "6a103fe83142f8140db3195677b5cdabb0cc0ccc4b3ff53c22f2b5598ece370d",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-original-a4/6a103fe83142f8140db3195677b5cdabb0cc0ccc4b3ff53c22f2b5598ece370d/fee-five-columns-20261028-brochure-original-a4.pdf",
+      "sha256": "6a103fe83142f8140db3195677b5cdabb0cc0ccc4b3ff53c22f2b5598ece370d",
+      "size": 2887973,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: split misc expenses and annual facility fee into distinct columns; period table now 5 columns. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-27T23:58:24.672Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-original-a4",
+          "revision": "f6bdd728f68c875645794eee08cfa970bf87d8fc494ba5f37a26ab6c18f81c74"
+        },
+        {
+          "id": "fee-five-columns-20261028-panel",
+          "revision": "ff69a9b4f6f06404a3be67a8b23393d47ec956cea8ae8a468108f1033f4a6fe8"
+        },
+        {
+          "id": "fee-five-columns-20261028-builder",
+          "revision": "ebedc8c5f8bbee348e9493b37c8429fb99394a32d335bb859f82962837da08ca"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-original-a4/6a103fe83142f8140db3195677b5cdabb0cc0ccc4b3ff53c22f2b5598ece370d/fee-five-columns-20261028-brochure-original-a4.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-original-A4",
+    "document": "prospectus-isen-trial-2028",
+    "kind": "print-a4"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "492effaee0a5a7539b61dc5c1b69ff60ba42e3a1",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "19fc94035da12dd1e2a0db1eb939aeb6131ac55bf51eb51e0595bacc94f8adc8"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-five-columns-20261028-brochure-jp-r13",
+      "variant": "facility-fee-five-columns-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "36249ae34101c86701565cf2724f0ca17d8bbc8839d5d0174bc800f6991009cd",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-jp-r13/36249ae34101c86701565cf2724f0ca17d8bbc8839d5d0174bc800f6991009cd/fee-five-columns-20261028-brochure-jp-r13.pdf",
+      "sha256": "36249ae34101c86701565cf2724f0ca17d8bbc8839d5d0174bc800f6991009cd",
+      "size": 7029924,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: split misc expenses and annual facility fee into distinct columns; period table now 5 columns. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-27T23:58:30.389Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-jp-r13",
+          "revision": "41fad71a1269b9834d14834dd77e67d1044559390ffc2c388a3f953a238f00e6"
+        },
+        {
+          "id": "fee-five-columns-20261028-panel",
+          "revision": "ff69a9b4f6f06404a3be67a8b23393d47ec956cea8ae8a468108f1033f4a6fe8"
+        },
+        {
+          "id": "fee-five-columns-20261028-builder",
+          "revision": "ebedc8c5f8bbee348e9493b37c8429fb99394a32d335bb859f82962837da08ca"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-jp-r13/36249ae34101c86701565cf2724f0ca17d8bbc8839d5d0174bc800f6991009cd/fee-five-columns-20261028-brochure-jp-r13.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-jp-r13",
+    "document": "prospectus-isen-trial-2028",
+    "kind": "reading"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "492effaee0a5a7539b61dc5c1b69ff60ba42e3a1",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "19fc94035da12dd1e2a0db1eb939aeb6131ac55bf51eb51e0595bacc94f8adc8"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-five-columns-20261028-brochure-jp-r13-master",
+      "variant": "facility-fee-five-columns-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "163be874537da01a6eae35ec42f024bd72ea4f8d8951c8ee79577f5f391f3333",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-jp-r13-master/163be874537da01a6eae35ec42f024bd72ea4f8d8951c8ee79577f5f391f3333/fee-five-columns-20261028-brochure-jp-r13-master.pdf",
+      "sha256": "163be874537da01a6eae35ec42f024bd72ea4f8d8951c8ee79577f5f391f3333",
+      "size": 126199275,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: split misc expenses and annual facility fee into distinct columns; period table now 5 columns. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-27T23:58:36.716Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-jp-r13-master",
+          "revision": "5a997b671abd38980d2f251426a902967c3fc45d92ecf23bd500a58d2a9e6246"
+        },
+        {
+          "id": "fee-five-columns-20261028-panel",
+          "revision": "ff69a9b4f6f06404a3be67a8b23393d47ec956cea8ae8a468108f1033f4a6fe8"
+        },
+        {
+          "id": "fee-five-columns-20261028-builder",
+          "revision": "ebedc8c5f8bbee348e9493b37c8429fb99394a32d335bb859f82962837da08ca"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-jp-r13-master/163be874537da01a6eae35ec42f024bd72ea4f8d8951c8ee79577f5f391f3333/fee-five-columns-20261028-brochure-jp-r13-master.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-jp-r13-master",
+    "document": "prospectus-isen-trial-2028",
+    "kind": "master"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "492effaee0a5a7539b61dc5c1b69ff60ba42e3a1",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "19fc94035da12dd1e2a0db1eb939aeb6131ac55bf51eb51e0595bacc94f8adc8"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-five-columns-20261028-brochure-jp-r13-a3",
+      "variant": "facility-fee-five-columns-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "3e43821dd810292b7bd5b261de3f732c02fa07fe9d3254ddb05d63524faa94d9",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-jp-r13-a3/3e43821dd810292b7bd5b261de3f732c02fa07fe9d3254ddb05d63524faa94d9/fee-five-columns-20261028-brochure-jp-r13-a3.pdf",
+      "sha256": "3e43821dd810292b7bd5b261de3f732c02fa07fe9d3254ddb05d63524faa94d9",
+      "size": 4338511,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: split misc expenses and annual facility fee into distinct columns; period table now 5 columns. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-27T23:58:44.494Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-jp-r13-a3",
+          "revision": "fd40b87489d92243c9c2dac348adbc4dbe7fbd20d4013625f6be1eaf641d33c6"
+        },
+        {
+          "id": "fee-five-columns-20261028-panel",
+          "revision": "ff69a9b4f6f06404a3be67a8b23393d47ec956cea8ae8a468108f1033f4a6fe8"
+        },
+        {
+          "id": "fee-five-columns-20261028-builder",
+          "revision": "ebedc8c5f8bbee348e9493b37c8429fb99394a32d335bb859f82962837da08ca"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-jp-r13-a3/3e43821dd810292b7bd5b261de3f732c02fa07fe9d3254ddb05d63524faa94d9/fee-five-columns-20261028-brochure-jp-r13-a3.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-jp-r13-A3",
+    "document": "prospectus-isen-trial-2028",
+    "kind": "print-a3"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "492effaee0a5a7539b61dc5c1b69ff60ba42e3a1",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "19fc94035da12dd1e2a0db1eb939aeb6131ac55bf51eb51e0595bacc94f8adc8"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-five-columns-20261028-brochure-jp-r13-a4",
+      "variant": "facility-fee-five-columns-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "cdb3008aca21caccd523129da32a0d044e355cdad0f383efd46f5214fee2cc24",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-jp-r13-a4/cdb3008aca21caccd523129da32a0d044e355cdad0f383efd46f5214fee2cc24/fee-five-columns-20261028-brochure-jp-r13-a4.pdf",
+      "sha256": "cdb3008aca21caccd523129da32a0d044e355cdad0f383efd46f5214fee2cc24",
+      "size": 2936075,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: split misc expenses and annual facility fee into distinct columns; period table now 5 columns. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-27T23:58:47.445Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-brochure-jp-r13-a4",
+          "revision": "52cb7f1e3f7b0f5386bcf6b4671c56ae49d121e78360571cc400194104a5bec1"
+        },
+        {
+          "id": "fee-five-columns-20261028-panel",
+          "revision": "ff69a9b4f6f06404a3be67a8b23393d47ec956cea8ae8a468108f1033f4a6fe8"
+        },
+        {
+          "id": "fee-five-columns-20261028-builder",
+          "revision": "ebedc8c5f8bbee348e9493b37c8429fb99394a32d335bb859f82962837da08ca"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-jp-r13-a4/cdb3008aca21caccd523129da32a0d044e355cdad0f383efd46f5214fee2cc24/fee-five-columns-20261028-brochure-jp-r13-a4.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-jp-r13-A4",
+    "document": "prospectus-isen-trial-2028",
+    "kind": "print-a4"
+  }
+]

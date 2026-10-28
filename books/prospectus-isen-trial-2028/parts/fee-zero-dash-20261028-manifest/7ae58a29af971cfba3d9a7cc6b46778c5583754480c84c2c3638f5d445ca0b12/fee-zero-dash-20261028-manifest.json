@@ -1,0 +1,283 @@
+{
+  "date": "2026-10-28",
+  "source_commit": "492effaee0a5a7539b61dc5c1b69ff60ba42e3a1",
+  "outputs": [
+    {
+      "label": "brochure-original",
+      "document": "prospectus-isen-trial-2028",
+      "kind": "reading",
+      "file": "downloads/brochure-zero-dash-20261028/output/brochure-original-facility-five-columns-zero-dash-20261028.pdf",
+      "sha256": "72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a",
+      "bytes": 113737725,
+      "pages": 16,
+      "changed_page": 13,
+      "table_rect_pt": [
+        31.416460037,
+        378.91418457,
+        564.50213623,
+        515.564331055
+      ],
+      "changed_rect_pt": [
+        30.416460037,
+        376.41418457,
+        565.50213623,
+        516.564331055
+      ],
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-original/d5d61ca35832584c12412f0c5fcf7df5cc8ffd88300958111a86b2664bcfafe8/fee-five-columns-20261028-brochure-original.pdf",
+        "id": "fee-five-columns-20261028-brochure-original",
+        "revision": "d5d61ca35832584c12412f0c5fcf7df5cc8ffd88300958111a86b2664bcfafe8",
+        "sha256": "d5d61ca35832584c12412f0c5fcf7df5cc8ffd88300958111a86b2664bcfafe8"
+      },
+      "registered": {
+        "document": "prospectus-isen-trial-2028",
+        "asset_id": "fee-zero-dash-20261028-brochure-original",
+        "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original/72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a/fee-zero-dash-20261028-brochure-original.pdf",
+        "sha256": "72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a",
+        "bytes": 113737725,
+        "download_file": "downloads/brochure-zero-dash-20261028/output/brochure-original-facility-five-columns-zero-dash-20261028.pdf",
+        "retrieval_mode": "saved"
+      }
+    },
+    {
+      "label": "brochure-original-A3",
+      "document": "prospectus-isen-trial-2028",
+      "kind": "print-a3",
+      "file": "downloads/brochure-zero-dash-20261028/output/brochure-original-A3-facility-five-columns-zero-dash-20261028.pdf",
+      "sha256": "8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881",
+      "bytes": 4315940,
+      "pages": 8,
+      "changed_page": 4,
+      "table_rect_pt": [
+        626.6820693303067,
+        378.46913742186814,
+        1159.1416188973826,
+        514.9587838241015
+      ],
+      "changed_rect_pt": [
+        625.683243863133,
+        375.9720737539339,
+        1160.1404443645563,
+        515.9576092912752
+      ],
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-original-a3/1be6c50461d739f68b3bd2577feba7718646efa75b5316ac41d96fd82da1cf09/fee-five-columns-20261028-brochure-original-a3.pdf",
+        "id": "fee-five-columns-20261028-brochure-original-a3",
+        "revision": "1be6c50461d739f68b3bd2577feba7718646efa75b5316ac41d96fd82da1cf09",
+        "sha256": "1be6c50461d739f68b3bd2577feba7718646efa75b5316ac41d96fd82da1cf09"
+      },
+      "registered": {
+        "document": "prospectus-isen-trial-2028",
+        "asset_id": "fee-zero-dash-20261028-brochure-original-a3",
+        "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original-a3/8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881/fee-zero-dash-20261028-brochure-original-a3.pdf",
+        "sha256": "8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881",
+        "bytes": 4315940,
+        "download_file": "downloads/brochure-zero-dash-20261028/output/brochure-original-A3-facility-five-columns-zero-dash-20261028.pdf",
+        "retrieval_mode": "saved"
+      }
+    },
+    {
+      "label": "brochure-original-A4",
+      "document": "prospectus-isen-trial-2028",
+      "kind": "print-a4",
+      "file": "downloads/brochure-zero-dash-20261028/output/brochure-original-A4-facility-five-columns-zero-dash-20261028.pdf",
+      "sha256": "33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3",
+      "bytes": 2952920,
+      "pages": 8,
+      "changed_page": 4,
+      "table_rect_pt": [
+        443.17239866632946,
+        267.606356284595,
+        819.6616439961357,
+        364.11487793866206
+      ],
+      "changed_rect_pt": [
+        442.4661533812967,
+        265.8407430720131,
+        820.3678892811685,
+        364.8211232236948
+      ],
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-original-a4/6a103fe83142f8140db3195677b5cdabb0cc0ccc4b3ff53c22f2b5598ece370d/fee-five-columns-20261028-brochure-original-a4.pdf",
+        "id": "fee-five-columns-20261028-brochure-original-a4",
+        "revision": "6a103fe83142f8140db3195677b5cdabb0cc0ccc4b3ff53c22f2b5598ece370d",
+        "sha256": "6a103fe83142f8140db3195677b5cdabb0cc0ccc4b3ff53c22f2b5598ece370d"
+      },
+      "registered": {
+        "document": "prospectus-isen-trial-2028",
+        "asset_id": "fee-zero-dash-20261028-brochure-original-a4",
+        "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original-a4/33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3/fee-zero-dash-20261028-brochure-original-a4.pdf",
+        "sha256": "33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3",
+        "bytes": 2952920,
+        "download_file": "downloads/brochure-zero-dash-20261028/output/brochure-original-A4-facility-five-columns-zero-dash-20261028.pdf",
+        "retrieval_mode": "saved"
+      }
+    },
+    {
+      "label": "brochure-jp-r13",
+      "document": "prospectus-isen-trial-2028",
+      "kind": "reading",
+      "file": "downloads/brochure-zero-dash-20261028/output/brochure-jp-r13-facility-five-columns-zero-dash-20261028.pdf",
+      "sha256": "8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e",
+      "bytes": 7094913,
+      "pages": 16,
+      "changed_page": 13,
+      "table_rect_pt": [
+        31.416460037,
+        378.91418457,
+        564.50213623,
+        515.564331055
+      ],
+      "changed_rect_pt": [
+        30.416460037,
+        376.41418457,
+        565.50213623,
+        516.564331055
+      ],
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-jp-r13/36249ae34101c86701565cf2724f0ca17d8bbc8839d5d0174bc800f6991009cd/fee-five-columns-20261028-brochure-jp-r13.pdf",
+        "id": "fee-five-columns-20261028-brochure-jp-r13",
+        "revision": "36249ae34101c86701565cf2724f0ca17d8bbc8839d5d0174bc800f6991009cd",
+        "sha256": "36249ae34101c86701565cf2724f0ca17d8bbc8839d5d0174bc800f6991009cd"
+      },
+      "registered": {
+        "document": "prospectus-isen-trial-2028",
+        "asset_id": "fee-zero-dash-20261028-brochure-jp-r13",
+        "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13/8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e/fee-zero-dash-20261028-brochure-jp-r13.pdf",
+        "sha256": "8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e",
+        "bytes": 7094913,
+        "download_file": "downloads/brochure-zero-dash-20261028/output/brochure-jp-r13-facility-five-columns-zero-dash-20261028.pdf",
+        "retrieval_mode": "saved"
+      }
+    },
+    {
+      "label": "brochure-jp-r13-master",
+      "document": "prospectus-isen-trial-2028",
+      "kind": "master",
+      "file": "downloads/brochure-zero-dash-20261028/output/brochure-jp-r13-master-facility-five-columns-zero-dash-20261028.pdf",
+      "sha256": "6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc",
+      "bytes": 126266523,
+      "pages": 16,
+      "changed_page": 13,
+      "table_rect_pt": [
+        31.416460037,
+        378.91418457,
+        564.50213623,
+        515.564331055
+      ],
+      "changed_rect_pt": [
+        30.416460037,
+        376.41418457,
+        565.50213623,
+        516.564331055
+      ],
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-jp-r13-master/163be874537da01a6eae35ec42f024bd72ea4f8d8951c8ee79577f5f391f3333/fee-five-columns-20261028-brochure-jp-r13-master.pdf",
+        "id": "fee-five-columns-20261028-brochure-jp-r13-master",
+        "revision": "163be874537da01a6eae35ec42f024bd72ea4f8d8951c8ee79577f5f391f3333",
+        "sha256": "163be874537da01a6eae35ec42f024bd72ea4f8d8951c8ee79577f5f391f3333"
+      },
+      "registered": {
+        "document": "prospectus-isen-trial-2028",
+        "asset_id": "fee-zero-dash-20261028-brochure-jp-r13-master",
+        "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-master/6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc/fee-zero-dash-20261028-brochure-jp-r13-master.pdf",
+        "sha256": "6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc",
+        "bytes": 126266523,
+        "download_file": "downloads/brochure-zero-dash-20261028/output/brochure-jp-r13-master-facility-five-columns-zero-dash-20261028.pdf",
+        "retrieval_mode": "saved"
+      }
+    },
+    {
+      "label": "brochure-jp-r13-A3",
+      "document": "prospectus-isen-trial-2028",
+      "kind": "print-a3",
+      "file": "downloads/brochure-zero-dash-20261028/output/brochure-jp-r13-A3-facility-five-columns-zero-dash-20261028.pdf",
+      "sha256": "8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6",
+      "bytes": 4403398,
+      "pages": 8,
+      "changed_page": 4,
+      "table_rect_pt": [
+        626.6820693303067,
+        378.46913742186814,
+        1159.1416188973826,
+        514.9587838241015
+      ],
+      "changed_rect_pt": [
+        625.683243863133,
+        375.9720737539339,
+        1160.1404443645563,
+        515.9576092912752
+      ],
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-jp-r13-a3/3e43821dd810292b7bd5b261de3f732c02fa07fe9d3254ddb05d63524faa94d9/fee-five-columns-20261028-brochure-jp-r13-a3.pdf",
+        "id": "fee-five-columns-20261028-brochure-jp-r13-a3",
+        "revision": "3e43821dd810292b7bd5b261de3f732c02fa07fe9d3254ddb05d63524faa94d9",
+        "sha256": "3e43821dd810292b7bd5b261de3f732c02fa07fe9d3254ddb05d63524faa94d9"
+      },
+      "registered": {
+        "document": "prospectus-isen-trial-2028",
+        "asset_id": "fee-zero-dash-20261028-brochure-jp-r13-a3",
+        "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-a3/8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6/fee-zero-dash-20261028-brochure-jp-r13-a3.pdf",
+        "sha256": "8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6",
+        "bytes": 4403398,
+        "download_file": "downloads/brochure-zero-dash-20261028/output/brochure-jp-r13-A3-facility-five-columns-zero-dash-20261028.pdf",
+        "retrieval_mode": "saved"
+      }
+    },
+    {
+      "label": "brochure-jp-r13-A4",
+      "document": "prospectus-isen-trial-2028",
+      "kind": "print-a4",
+      "file": "downloads/brochure-zero-dash-20261028/output/brochure-jp-r13-A4-facility-five-columns-zero-dash-20261028.pdf",
+      "sha256": "a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817",
+      "bytes": 3001038,
+      "pages": 8,
+      "changed_page": 4,
+      "table_rect_pt": [
+        443.17239866632946,
+        267.606356284595,
+        819.6616439961357,
+        364.11487793866206
+      ],
+      "changed_rect_pt": [
+        442.4661533812967,
+        265.8407430720131,
+        820.3678892811685,
+        364.8211232236948
+      ],
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-jp-r13-a4/cdb3008aca21caccd523129da32a0d044e355cdad0f383efd46f5214fee2cc24/fee-five-columns-20261028-brochure-jp-r13-a4.pdf",
+        "id": "fee-five-columns-20261028-brochure-jp-r13-a4",
+        "revision": "cdb3008aca21caccd523129da32a0d044e355cdad0f383efd46f5214fee2cc24",
+        "sha256": "cdb3008aca21caccd523129da32a0d044e355cdad0f383efd46f5214fee2cc24"
+      },
+      "registered": {
+        "document": "prospectus-isen-trial-2028",
+        "asset_id": "fee-zero-dash-20261028-brochure-jp-r13-a4",
+        "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-a4/a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817/fee-zero-dash-20261028-brochure-jp-r13-a4.pdf",
+        "sha256": "a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817",
+        "bytes": 3001038,
+        "download_file": "downloads/brochure-zero-dash-20261028/output/brochure-jp-r13-A4-facility-five-columns-zero-dash-20261028.pdf",
+        "retrieval_mode": "saved"
+      }
+    }
+  ],
+  "bundle": {
+    "file": "downloads/brochure-zero-dash-20261028/output/print-pdfs-zero-dash-20261028.zip",
+    "sha256": "5911e5201c53ca0536c0fe40aba9c123758f9b128967ed1b3c1ff90130e3c607",
+    "changed_entries": [
+      "brochure-A3.pdf",
+      "brochure-A4.pdf"
+    ],
+    "unchanged_entries": [
+      "admissions-A3.pdf",
+      "admissions-A4.pdf",
+      "flyer-A4.pdf",
+      "PRINTING.txt"
+    ]
+  },
+  "verification": "verification.json",
+  "release": false,
+  "dash_character": "ー",
+  "cell_verification": "cell-verification.json"
+}

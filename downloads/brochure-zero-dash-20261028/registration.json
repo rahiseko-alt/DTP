@@ -1,0 +1,691 @@
+[
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-renderer",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "a69bb2bfa5eb164d724c36715d32345843afa724bbdff1baf2f4965eb10607b9",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-renderer/a69bb2bfa5eb164d724c36715d32345843afa724bbdff1baf2f4965eb10607b9/fee-zero-dash-20261028-renderer.mjs",
+      "sha256": "a69bb2bfa5eb164d724c36715d32345843afa724bbdff1baf2f4965eb10607b9",
+      "size": 3712,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:28:34.875Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-builder",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "8143bc2cad09a8e3478b0cf8b597a40ec6f5b5ae8ffc4a8c8c427ad86ce8faaf",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-builder/8143bc2cad09a8e3478b0cf8b597a40ec6f5b5ae8ffc4a8c8c427ad86ce8faaf/fee-zero-dash-20261028-builder.py",
+      "sha256": "8143bc2cad09a8e3478b0cf8b597a40ec6f5b5ae8ffc4a8c8c427ad86ce8faaf",
+      "size": 2199,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:28:36.020Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-panel",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "24ee40dadc24e64a3be0891205d65a68f74786032998c8c340a4fae68117d968",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-panel/24ee40dadc24e64a3be0891205d65a68f74786032998c8c340a4fae68117d968/fee-zero-dash-20261028-panel.pdf",
+      "sha256": "24ee40dadc24e64a3be0891205d65a68f74786032998c8c340a4fae68117d968",
+      "size": 57657,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:28:38.077Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-facts",
+          "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7"
+        },
+        {
+          "id": "fee-zero-dash-20261028-renderer",
+          "revision": "a69bb2bfa5eb164d724c36715d32345843afa724bbdff1baf2f4965eb10607b9"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-brochure-original",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original/72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a/fee-zero-dash-20261028-brochure-original.pdf",
+      "sha256": "72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a",
+      "size": 113737725,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:28:39.988Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-five-columns-20261028-brochure-original",
+          "revision": "d5d61ca35832584c12412f0c5fcf7df5cc8ffd88300958111a86b2664bcfafe8"
+        },
+        {
+          "id": "fee-zero-dash-20261028-panel",
+          "revision": "24ee40dadc24e64a3be0891205d65a68f74786032998c8c340a4fae68117d968"
+        },
+        {
+          "id": "fee-zero-dash-20261028-builder",
+          "revision": "8143bc2cad09a8e3478b0cf8b597a40ec6f5b5ae8ffc4a8c8c427ad86ce8faaf"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-brochure-original-page-13",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "ee536758e90a85524b3b8d19345049e238559ca472f462823752b535e4035944",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original-page-13/ee536758e90a85524b3b8d19345049e238559ca472f462823752b535e4035944/fee-zero-dash-20261028-brochure-original-page-13.png",
+      "sha256": "ee536758e90a85524b3b8d19345049e238559ca472f462823752b535e4035944",
+      "size": 333467,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:28:43.651Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-zero-dash-20261028-brochure-original",
+          "revision": "72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-brochure-original-a3",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original-a3/8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881/fee-zero-dash-20261028-brochure-original-a3.pdf",
+      "sha256": "8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881",
+      "size": 4315940,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:28:45.637Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-five-columns-20261028-brochure-original-a3",
+          "revision": "1be6c50461d739f68b3bd2577feba7718646efa75b5316ac41d96fd82da1cf09"
+        },
+        {
+          "id": "fee-zero-dash-20261028-panel",
+          "revision": "24ee40dadc24e64a3be0891205d65a68f74786032998c8c340a4fae68117d968"
+        },
+        {
+          "id": "fee-zero-dash-20261028-builder",
+          "revision": "8143bc2cad09a8e3478b0cf8b597a40ec6f5b5ae8ffc4a8c8c427ad86ce8faaf"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-brochure-original-a3-page-04",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "235dca1a3d71043f68a76e39c1f8ea2280628e3834ae6121259a7ef9bfa333d5",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original-a3-page-04/235dca1a3d71043f68a76e39c1f8ea2280628e3834ae6121259a7ef9bfa333d5/fee-zero-dash-20261028-brochure-original-a3-page-04.png",
+      "sha256": "235dca1a3d71043f68a76e39c1f8ea2280628e3834ae6121259a7ef9bfa333d5",
+      "size": 2128895,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:28:47.131Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-zero-dash-20261028-brochure-original-a3",
+          "revision": "8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-brochure-original-a4",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original-a4/33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3/fee-zero-dash-20261028-brochure-original-a4.pdf",
+      "sha256": "33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3",
+      "size": 2952920,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:28:48.778Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-five-columns-20261028-brochure-original-a4",
+          "revision": "6a103fe83142f8140db3195677b5cdabb0cc0ccc4b3ff53c22f2b5598ece370d"
+        },
+        {
+          "id": "fee-zero-dash-20261028-panel",
+          "revision": "24ee40dadc24e64a3be0891205d65a68f74786032998c8c340a4fae68117d968"
+        },
+        {
+          "id": "fee-zero-dash-20261028-builder",
+          "revision": "8143bc2cad09a8e3478b0cf8b597a40ec6f5b5ae8ffc4a8c8c427ad86ce8faaf"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-brochure-original-a4-page-04",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "338e4b03d029c5f8ea9d21a528b5ee891547834bc5024851ff7d3dada071f6f6",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original-a4-page-04/338e4b03d029c5f8ea9d21a528b5ee891547834bc5024851ff7d3dada071f6f6/fee-zero-dash-20261028-brochure-original-a4-page-04.png",
+      "sha256": "338e4b03d029c5f8ea9d21a528b5ee891547834bc5024851ff7d3dada071f6f6",
+      "size": 1296595,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:28:50.320Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-zero-dash-20261028-brochure-original-a4",
+          "revision": "33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-brochure-jp-r13",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13/8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e/fee-zero-dash-20261028-brochure-jp-r13.pdf",
+      "sha256": "8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e",
+      "size": 7094913,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:28:51.871Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-five-columns-20261028-brochure-jp-r13",
+          "revision": "36249ae34101c86701565cf2724f0ca17d8bbc8839d5d0174bc800f6991009cd"
+        },
+        {
+          "id": "fee-zero-dash-20261028-panel",
+          "revision": "24ee40dadc24e64a3be0891205d65a68f74786032998c8c340a4fae68117d968"
+        },
+        {
+          "id": "fee-zero-dash-20261028-builder",
+          "revision": "8143bc2cad09a8e3478b0cf8b597a40ec6f5b5ae8ffc4a8c8c427ad86ce8faaf"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-brochure-jp-r13-page-13",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "d462f76e64b8d07a9d75d61c9f4a95bb42a438a4031ab82268c56d490a9e1b7e",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-page-13/d462f76e64b8d07a9d75d61c9f4a95bb42a438a4031ab82268c56d490a9e1b7e/fee-zero-dash-20261028-brochure-jp-r13-page-13.png",
+      "sha256": "d462f76e64b8d07a9d75d61c9f4a95bb42a438a4031ab82268c56d490a9e1b7e",
+      "size": 333490,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:28:53.123Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13",
+          "revision": "8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-r13-overview-13",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "c2771fc277016b1c210122e5fbf6af75365c8b25f0fd6f7c7c04ca4944511e7d",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-r13-overview-13/c2771fc277016b1c210122e5fbf6af75365c8b25f0fd6f7c7c04ca4944511e7d/fee-zero-dash-20261028-r13-overview-13.jpg",
+      "sha256": "c2771fc277016b1c210122e5fbf6af75365c8b25f0fd6f7c7c04ca4944511e7d",
+      "size": 336651,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:28:54.467Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13",
+          "revision": "8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-brochure-jp-r13-master",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-master/6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc/fee-zero-dash-20261028-brochure-jp-r13-master.pdf",
+      "sha256": "6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc",
+      "size": 126266523,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:28:56.163Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-five-columns-20261028-brochure-jp-r13-master",
+          "revision": "163be874537da01a6eae35ec42f024bd72ea4f8d8951c8ee79577f5f391f3333"
+        },
+        {
+          "id": "fee-zero-dash-20261028-panel",
+          "revision": "24ee40dadc24e64a3be0891205d65a68f74786032998c8c340a4fae68117d968"
+        },
+        {
+          "id": "fee-zero-dash-20261028-builder",
+          "revision": "8143bc2cad09a8e3478b0cf8b597a40ec6f5b5ae8ffc4a8c8c427ad86ce8faaf"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-brochure-jp-r13-master-page-13",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "ee536758e90a85524b3b8d19345049e238559ca472f462823752b535e4035944",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-master-page-13/ee536758e90a85524b3b8d19345049e238559ca472f462823752b535e4035944/fee-zero-dash-20261028-brochure-jp-r13-master-page-13.png",
+      "sha256": "ee536758e90a85524b3b8d19345049e238559ca472f462823752b535e4035944",
+      "size": 333467,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:28:59.260Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13-master",
+          "revision": "6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-brochure-jp-r13-a3",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-a3/8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6/fee-zero-dash-20261028-brochure-jp-r13-a3.pdf",
+      "sha256": "8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6",
+      "size": 4403398,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:29:02.571Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-five-columns-20261028-brochure-jp-r13-a3",
+          "revision": "3e43821dd810292b7bd5b261de3f732c02fa07fe9d3254ddb05d63524faa94d9"
+        },
+        {
+          "id": "fee-zero-dash-20261028-panel",
+          "revision": "24ee40dadc24e64a3be0891205d65a68f74786032998c8c340a4fae68117d968"
+        },
+        {
+          "id": "fee-zero-dash-20261028-builder",
+          "revision": "8143bc2cad09a8e3478b0cf8b597a40ec6f5b5ae8ffc4a8c8c427ad86ce8faaf"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-brochure-jp-r13-a3-page-04",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "9d8ae5a43f06facc93c25548515fa7e8ae2b557e8066709f0e16a290095c94ba",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-a3-page-04/9d8ae5a43f06facc93c25548515fa7e8ae2b557e8066709f0e16a290095c94ba/fee-zero-dash-20261028-brochure-jp-r13-a3-page-04.png",
+      "sha256": "9d8ae5a43f06facc93c25548515fa7e8ae2b557e8066709f0e16a290095c94ba",
+      "size": 2134674,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:29:03.814Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13-a3",
+          "revision": "8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-brochure-jp-r13-a4",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-a4/a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817/fee-zero-dash-20261028-brochure-jp-r13-a4.pdf",
+      "sha256": "a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817",
+      "size": 3001038,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:29:05.153Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-five-columns-20261028-brochure-jp-r13-a4",
+          "revision": "cdb3008aca21caccd523129da32a0d044e355cdad0f383efd46f5214fee2cc24"
+        },
+        {
+          "id": "fee-zero-dash-20261028-panel",
+          "revision": "24ee40dadc24e64a3be0891205d65a68f74786032998c8c340a4fae68117d968"
+        },
+        {
+          "id": "fee-zero-dash-20261028-builder",
+          "revision": "8143bc2cad09a8e3478b0cf8b597a40ec6f5b5ae8ffc4a8c8c427ad86ce8faaf"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-brochure-jp-r13-a4-page-04",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "75196a4cceea4ba0037e0443cca8e6c7a5db95747862c34f629570026551cd72",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-a4-page-04/75196a4cceea4ba0037e0443cca8e6c7a5db95747862c34f629570026551cd72/fee-zero-dash-20261028-brochure-jp-r13-a4-page-04.png",
+      "sha256": "75196a4cceea4ba0037e0443cca8e6c7a5db95747862c34f629570026551cd72",
+      "size": 1297255,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:29:07.129Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13-a4",
+          "revision": "a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-manifest",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "7ae58a29af971cfba3d9a7cc6b46778c5583754480c84c2c3638f5d445ca0b12",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-manifest/7ae58a29af971cfba3d9a7cc6b46778c5583754480c84c2c3638f5d445ca0b12/fee-zero-dash-20261028-manifest.json",
+      "sha256": "7ae58a29af971cfba3d9a7cc6b46778c5583754480c84c2c3638f5d445ca0b12",
+      "size": 13209,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:29:09.084Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-zero-dash-20261028-brochure-original",
+          "revision": "72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-original-a3",
+          "revision": "8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-original-a4",
+          "revision": "33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13",
+          "revision": "8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13-master",
+          "revision": "6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13-a3",
+          "revision": "8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13-a4",
+          "revision": "a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-verification",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "97a270381fe9c31a26900516940524b1d6bf3fbdf53aa420bab96d0d331e6f9d",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-verification/97a270381fe9c31a26900516940524b1d6bf3fbdf53aa420bab96d0d331e6f9d/fee-zero-dash-20261028-verification.json",
+      "sha256": "97a270381fe9c31a26900516940524b1d6bf3fbdf53aa420bab96d0d331e6f9d",
+      "size": 5620,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:29:15.722Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-zero-dash-20261028-brochure-original",
+          "revision": "72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-original-a3",
+          "revision": "8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-original-a4",
+          "revision": "33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13",
+          "revision": "8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13-master",
+          "revision": "6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13-a3",
+          "revision": "8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13-a4",
+          "revision": "a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "fee-zero-dash-20261028-cell-verification",
+      "variant": "facility-fee-zero-dash-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "c4bdc71d258c36fa32cd668c719dee1044862142ae147b0f495c594679ce365d",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-cell-verification/c4bdc71d258c36fa32cd668c719dee1044862142ae147b0f495c594679ce365d/fee-zero-dash-20261028-cell-verification.json",
+      "sha256": "c4bdc71d258c36fa32cd668c719dee1044862142ae147b0f495c594679ce365d",
+      "size": 12054,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:29:22.110Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "fee-zero-dash-20261028-brochure-original",
+          "revision": "72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-original-a3",
+          "revision": "8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-original-a4",
+          "revision": "33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13",
+          "revision": "8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13-master",
+          "revision": "6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13-a3",
+          "revision": "8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6"
+        },
+        {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13-a4",
+          "revision": "a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817"
+        }
+      ]
+    }
+  }
+]

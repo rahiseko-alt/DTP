@@ -1,0 +1,384 @@
+{
+  "files": [
+    {
+      "label": "brochure-original",
+      "file": "/workspace/設備費更新版/医専パンフレット_元版_ページ順_設備費更新版_5列修正版_ゼロ表記統一.pdf",
+      "sha256": "72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "492effaee0a5a7539b61dc5c1b69ff60ba42e3a1",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "9cd3998fb1449335553abcbab7b840a20a5aa03fe75056aa0196706923bcc507"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "fee-zero-dash-20261028-brochure-original",
+          "variant": "facility-fee-zero-dash-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original/72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a/fee-zero-dash-20261028-brochure-original.pdf",
+          "sha256": "72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a",
+          "size": 113737725,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T00:28:39.988Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-five-columns-20261028-brochure-original",
+              "revision": "d5d61ca35832584c12412f0c5fcf7df5cc8ffd88300958111a86b2664bcfafe8"
+            },
+            {
+              "id": "fee-zero-dash-20261028-panel",
+              "revision": "24ee40dadc24e64a3be0891205d65a68f74786032998c8c340a4fae68117d968"
+            },
+            {
+              "id": "fee-zero-dash-20261028-builder",
+              "revision": "8143bc2cad09a8e3478b0cf8b597a40ec6f5b5ae8ffc4a8c8c427ad86ce8faaf"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original/72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a/fee-zero-dash-20261028-brochure-original.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-original-A3",
+      "file": "/workspace/設備費更新版/医専パンフレット_元版_A3印刷用_設備費更新版_5列修正版_ゼロ表記統一.pdf",
+      "sha256": "8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "492effaee0a5a7539b61dc5c1b69ff60ba42e3a1",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "9cd3998fb1449335553abcbab7b840a20a5aa03fe75056aa0196706923bcc507"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "fee-zero-dash-20261028-brochure-original-a3",
+          "variant": "facility-fee-zero-dash-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original-a3/8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881/fee-zero-dash-20261028-brochure-original-a3.pdf",
+          "sha256": "8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881",
+          "size": 4315940,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T00:28:45.637Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-five-columns-20261028-brochure-original-a3",
+              "revision": "1be6c50461d739f68b3bd2577feba7718646efa75b5316ac41d96fd82da1cf09"
+            },
+            {
+              "id": "fee-zero-dash-20261028-panel",
+              "revision": "24ee40dadc24e64a3be0891205d65a68f74786032998c8c340a4fae68117d968"
+            },
+            {
+              "id": "fee-zero-dash-20261028-builder",
+              "revision": "8143bc2cad09a8e3478b0cf8b597a40ec6f5b5ae8ffc4a8c8c427ad86ce8faaf"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original-a3/8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881/fee-zero-dash-20261028-brochure-original-a3.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-original-A4",
+      "file": "/workspace/設備費更新版/医専パンフレット_元版_A4印刷用_設備費更新版_5列修正版_ゼロ表記統一.pdf",
+      "sha256": "33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "492effaee0a5a7539b61dc5c1b69ff60ba42e3a1",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "9cd3998fb1449335553abcbab7b840a20a5aa03fe75056aa0196706923bcc507"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "fee-zero-dash-20261028-brochure-original-a4",
+          "variant": "facility-fee-zero-dash-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original-a4/33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3/fee-zero-dash-20261028-brochure-original-a4.pdf",
+          "sha256": "33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3",
+          "size": 2952920,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T00:28:48.778Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-five-columns-20261028-brochure-original-a4",
+              "revision": "6a103fe83142f8140db3195677b5cdabb0cc0ccc4b3ff53c22f2b5598ece370d"
+            },
+            {
+              "id": "fee-zero-dash-20261028-panel",
+              "revision": "24ee40dadc24e64a3be0891205d65a68f74786032998c8c340a4fae68117d968"
+            },
+            {
+              "id": "fee-zero-dash-20261028-builder",
+              "revision": "8143bc2cad09a8e3478b0cf8b597a40ec6f5b5ae8ffc4a8c8c427ad86ce8faaf"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original-a4/33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3/fee-zero-dash-20261028-brochure-original-a4.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_ページ順_設備費更新版_5列修正版_ゼロ表記統一.pdf",
+      "sha256": "8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "492effaee0a5a7539b61dc5c1b69ff60ba42e3a1",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "9cd3998fb1449335553abcbab7b840a20a5aa03fe75056aa0196706923bcc507"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13",
+          "variant": "facility-fee-zero-dash-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13/8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e/fee-zero-dash-20261028-brochure-jp-r13.pdf",
+          "sha256": "8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e",
+          "size": 7094913,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T00:28:51.871Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-five-columns-20261028-brochure-jp-r13",
+              "revision": "36249ae34101c86701565cf2724f0ca17d8bbc8839d5d0174bc800f6991009cd"
+            },
+            {
+              "id": "fee-zero-dash-20261028-panel",
+              "revision": "24ee40dadc24e64a3be0891205d65a68f74786032998c8c340a4fae68117d968"
+            },
+            {
+              "id": "fee-zero-dash-20261028-builder",
+              "revision": "8143bc2cad09a8e3478b0cf8b597a40ec6f5b5ae8ffc4a8c8c427ad86ce8faaf"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13/8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e/fee-zero-dash-20261028-brochure-jp-r13.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13-master",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_制作マスター_設備費更新版_5列修正版_ゼロ表記統一.pdf",
+      "sha256": "6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "492effaee0a5a7539b61dc5c1b69ff60ba42e3a1",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "9cd3998fb1449335553abcbab7b840a20a5aa03fe75056aa0196706923bcc507"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13-master",
+          "variant": "facility-fee-zero-dash-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-master/6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc/fee-zero-dash-20261028-brochure-jp-r13-master.pdf",
+          "sha256": "6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc",
+          "size": 126266523,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T00:28:56.163Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-five-columns-20261028-brochure-jp-r13-master",
+              "revision": "163be874537da01a6eae35ec42f024bd72ea4f8d8951c8ee79577f5f391f3333"
+            },
+            {
+              "id": "fee-zero-dash-20261028-panel",
+              "revision": "24ee40dadc24e64a3be0891205d65a68f74786032998c8c340a4fae68117d968"
+            },
+            {
+              "id": "fee-zero-dash-20261028-builder",
+              "revision": "8143bc2cad09a8e3478b0cf8b597a40ec6f5b5ae8ffc4a8c8c427ad86ce8faaf"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-master/6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc/fee-zero-dash-20261028-brochure-jp-r13-master.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13-A3",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_A3印刷用_設備費更新版_5列修正版_ゼロ表記統一.pdf",
+      "sha256": "8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "492effaee0a5a7539b61dc5c1b69ff60ba42e3a1",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "9cd3998fb1449335553abcbab7b840a20a5aa03fe75056aa0196706923bcc507"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13-a3",
+          "variant": "facility-fee-zero-dash-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-a3/8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6/fee-zero-dash-20261028-brochure-jp-r13-a3.pdf",
+          "sha256": "8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6",
+          "size": 4403398,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T00:29:02.571Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-five-columns-20261028-brochure-jp-r13-a3",
+              "revision": "3e43821dd810292b7bd5b261de3f732c02fa07fe9d3254ddb05d63524faa94d9"
+            },
+            {
+              "id": "fee-zero-dash-20261028-panel",
+              "revision": "24ee40dadc24e64a3be0891205d65a68f74786032998c8c340a4fae68117d968"
+            },
+            {
+              "id": "fee-zero-dash-20261028-builder",
+              "revision": "8143bc2cad09a8e3478b0cf8b597a40ec6f5b5ae8ffc4a8c8c427ad86ce8faaf"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-a3/8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6/fee-zero-dash-20261028-brochure-jp-r13-a3.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13-A4",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_A4印刷用_設備費更新版_5列修正版_ゼロ表記統一.pdf",
+      "sha256": "a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "492effaee0a5a7539b61dc5c1b69ff60ba42e3a1",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "9cd3998fb1449335553abcbab7b840a20a5aa03fe75056aa0196706923bcc507"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "fee-zero-dash-20261028-brochure-jp-r13-a4",
+          "variant": "facility-fee-zero-dash-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-a4/a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817/fee-zero-dash-20261028-brochure-jp-r13-a4.pdf",
+          "sha256": "a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817",
+          "size": 3001038,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: replace standalone zero amounts and existing empty-cell dashes in the five-column period table with U+30FC ー. Two zero cells and eight existing dash cells changed; numerical fee facts unchanged. Only reading page13 / imposed face4 table replaced. Amounts, all other pixels/text/fonts/positions/images, AI notice and existing payment conditions retained. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T00:29:05.153Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-five-columns-20261028-brochure-jp-r13-a4",
+              "revision": "cdb3008aca21caccd523129da32a0d044e355cdad0f383efd46f5214fee2cc24"
+            },
+            {
+              "id": "fee-zero-dash-20261028-panel",
+              "revision": "24ee40dadc24e64a3be0891205d65a68f74786032998c8c340a4fae68117d968"
+            },
+            {
+              "id": "fee-zero-dash-20261028-builder",
+              "revision": "8143bc2cad09a8e3478b0cf8b597a40ec6f5b5ae8ffc4a8c8c427ad86ce8faaf"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-a4/a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817/fee-zero-dash-20261028-brochure-jp-r13-a4.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    }
+  ],
+  "zip": "/workspace/設備費更新版/設備費更新版_配布用PDF一式_5列修正版_ゼロ表記統一.zip",
+  "zip_sha256": "053e8a9e5d6f734fcb25ea9375b547585b11602757be55f10ba28b8d8513da58"
+}

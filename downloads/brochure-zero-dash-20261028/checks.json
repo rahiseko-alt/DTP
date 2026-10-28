@@ -1,0 +1,16 @@
+{
+  "recorded_at_utc": "2026-10-28T00:29:12.766859+00:00",
+  "source_render": "passed PNG/PDF",
+  "pdf_comparison": "passed seven PDFs, eighty pages/faces; verification.json",
+  "localized_comparison": "passed: only 10 cells; cell-verification.json",
+  "visual_review": "parent self-review, all seven tables enlarged and full R13 fee page",
+  "facts": "numerical facts unchanged, display conversion only",
+  "source_baseline_sync": "running via normal CLI, page_002/page.html only",
+  "whole_check": "queued after baseline sync; earlier pre-follow-up validation stopped because the catalog changed",
+  "metadata_only": "running after final catalog registration",
+  "github_required_check": "unconfirmed; PR creation blocked HTTP403 api.github.com outside enforced network allowlist",
+  "release": false,
+  "saved_get": "passed: all seven registered PDFs retrieved with --saved and SHA matched to Japanese-named delivery files",
+  "source_typecheck": "passed before follow-up; display-only Handlebars change rendered successfully",
+  "distribution_zip": "passed: eight entries; three current R13 brochure PDFs replaced, five admissions PDFs byte-identical"
+}

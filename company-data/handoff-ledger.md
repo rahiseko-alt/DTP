@@ -581,3 +581,7 @@ PDF受渡し調査は人間の指示で保留。医専BOOKの地図第2案を画
 ## 2026-10-22 現在の表紙を「日本人版マシな方２」として保存
 
 人間が改稿11の表紙画像を指して指定。`shared/generated-assets/cover-group-jp/日本人版マシな方２.png` に原寸2480×3508の完成表紙を無加工コピー（SHA4b6f7fb7…、改稿11と同一）。「２」は文字入り表紙全体、「1」は文字なし集合写真の元画像として区別し、1は保持。PDFや表紙デザイン、本文は変更なし。隣の.prompt.yamlに役割とコピー元を記録。commitのみ、pushなし。
+
+### 2026-10-28 パンフレット・ゼロ表記統一（Codex）
+
+人間の「0をーで統一しろ」により、直前5列修正版7PDFの13P／印刷面4だけを別改訂。単独0を2セル、既存空欄記号を8セル、すべてー（U+30FC）へ統一。料金・他内容は維持。全80P/面と対象10セル以外の画素・文字/書体/位置・画像stream一致。保存物・取得証跡・SHA・確認画像は downloads/brochure-zero-dash-20261028/。制作元page_002の表示分岐も対応。作業ブランチ book/brochure-fees-five-columns-20261028、main未反映。baseline正規同期→全体checkは /tmp/brochure-zero-dash-baseline.log と /tmp/brochure-zero-dash-check.log、登録metadata検査は /tmp/brochure-zero-dash-metadata.json。最新状態は checks.json に区別。GitHub PRはapi.github.com通信制限403のため未作成、本文はPR.mdへ保管。マージ指示時に検査結果・baseline差分を取り込み、必須チェックを確認する。
