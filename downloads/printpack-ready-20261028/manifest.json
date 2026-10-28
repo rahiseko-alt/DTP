@@ -1,0 +1,66 @@
+{
+  "outputs": {
+    "brochure": {
+      "document": "prospectus-isen-trial-2028",
+      "asset_id": "printpack-20261028-brochure-pdf",
+      "file": "books/prospectus-isen-trial-2028/parts/printpack-20261028-brochure-pdf/068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb/printpack-20261028-brochure-pdf.pdf",
+      "sha256": "068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb",
+      "bytes": 140698794,
+      "download_file": "downloads/printpack-ready-20261028/output/brochure-printpack-A4-CMYK-20261028.pdf",
+      "retrieval_mode": "saved",
+      "pages": 16,
+      "trim_mm": [
+        210,
+        297
+      ],
+      "media_mm": [
+        230,
+        317
+      ],
+      "bleed_mm": 3,
+      "crop_marks": true,
+      "color": "CMYK",
+      "pdfx_identifiers": "PDF/X-1a:2001",
+      "outlined_text": true,
+      "manual_imposition": false,
+      "preview": {
+        "id": "printpack-20261028-brochure-preview",
+        "file": "books/prospectus-isen-trial-2028/parts/printpack-20261028-brochure-preview/6b8f31d0c55641625741e791993e295728edf54198e79aabcefd2e9da1e10bda/printpack-20261028-brochure-preview.jpg",
+        "sha256": "6b8f31d0c55641625741e791993e295728edf54198e79aabcefd2e9da1e10bda"
+      }
+    },
+    "flyer": {
+      "document": "oc-approved-20261017",
+      "asset_id": "printpack-20261028-flyer-pdf",
+      "file": "books/oc-approved-20261017/parts/printpack-20261028-flyer-pdf/b1d3421d74542a3e227bd5a776ed7c124d3237ae7b50d2191e2cfc6d7964256a/printpack-20261028-flyer-pdf.pdf",
+      "sha256": "b1d3421d74542a3e227bd5a776ed7c124d3237ae7b50d2191e2cfc6d7964256a",
+      "bytes": 19407457,
+      "download_file": "downloads/printpack-ready-20261028/output/flyer-printpack-A4-CMYK-20261028.pdf",
+      "retrieval_mode": "saved",
+      "pages": 2,
+      "trim_mm": [
+        210,
+        297
+      ],
+      "media_mm": [
+        230,
+        317
+      ],
+      "bleed_mm": 3,
+      "crop_marks": true,
+      "color": "CMYK",
+      "pdfx_identifiers": "PDF/X-1a:2001",
+      "outlined_text": true,
+      "manual_imposition": false,
+      "preview": {
+        "id": "printpack-20261028-flyer-preview",
+        "file": "books/oc-approved-20261017/parts/printpack-20261028-flyer-preview/00f5d21446626d7ef697df3b7f16c0ce8c34b00a2fd4c78413c4aa0600937a42/printpack-20261028-flyer-preview.jpg",
+        "sha256": "00f5d21446626d7ef697df3b7f16c0ce8c34b00a2fd4c78413c4aa0600937a42"
+      }
+    }
+  },
+  "build_proof": "build-proof.json",
+  "verification": "verification.json",
+  "printer_upload": "user operation",
+  "main_merged": false
+}

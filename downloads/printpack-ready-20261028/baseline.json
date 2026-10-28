@@ -1,0 +1,778 @@
+{
+  "head": "547a45c7d60f06f514ca61f34d4c590eb2cd6a38",
+  "index": {
+    "date": "2026-10-28",
+    "documents": {
+      "brochure": {
+        "document": "prospectus-isen-trial-2028",
+        "asset_id": "brochure-no-ruby-20261028-brochure-original",
+        "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-original/f34a234b21881399e8e090d8cec0fa39da4355c634748196af3de2f1c57fd304/brochure-no-ruby-20261028-brochure-original.pdf",
+        "sha256": "f34a234b21881399e8e090d8cec0fa39da4355c634748196af3de2f1c57fd304",
+        "pages": 16,
+        "bytes": 114007644,
+        "qr_decoded": {
+          "15": [
+            "https://kaihougakuen.my.canva.site/"
+          ]
+        },
+        "saddle_fold_reading_order_verified": true,
+        "back_cover_change_bbox_pt": [
+          92,
+          570,
+          307,
+          581
+        ],
+        "material_id": "PAM-ISEN-2028",
+        "display_name": "パンフレット_医専白版_2028表記_16P_現行",
+        "tags": [
+          "種別:パンフレット",
+          "意匠:医専白版",
+          "表記年度:2028",
+          "状態:現行",
+          "用途:日本人版の制作元",
+          "人物:日本人イメージ未統一",
+          "版:医専版"
+        ],
+        "binding": "中綴じ・左綴じ",
+        "audience_status": "日本人向けへの内容点検が必要",
+        "year_status": "紙面は2028表記。掲載学費・入試の根拠は2027年度。2028年度確定版とは呼ばない",
+        "version_policy": "2026-10-28：パンフレット全体をふりがな無しへ統一。ふりがなのある12-15Pから読みだけ153字を削除し、本文の全字・書体・位置、年額表、指定注記、表紙・画像・AI注記・QR・面付けを保持。年額表と2年間合計1,860,000円・検定料別の注記は直前の承認版のまま。旧版を保持。",
+        "retrieval_mode": "saved",
+        "freshness_status": "保存済み局所修正版。標準renderer全冊再生成の保証ではない。",
+        "previous_fee_edition": {
+          "asset_id": "latest-prospectus-pdf",
+          "file": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
+          "sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+          "bytes": 113453759
+        },
+        "download_file": "downloads/brochure-no-furigana-20261028/output/brochure-original-no-furigana-20261028.pdf",
+        "variant": "no-furigana-20261028",
+        "review_status": "7PDF・80P/面のふりがな領域外150dpi画素一致。本文の全文字/書体/グリフ一致、字位置・字号の直列化誤差0.0001pt以内、全元画像stream一致。4ページの読み153字を源HTMLと照合して削除し残存なし。親の自己点検。独立審査・実機試し刷り・入稿承認は未実施。",
+        "print_outputs": [
+          {
+            "document": "prospectus-isen-trial-2028",
+            "asset_id": "brochure-no-ruby-20261028-brochure-original-a3",
+            "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-original-a3/f09eb789c9bb96b285454a7e082ce0fd587e8b00083fefd5a2831e9244928a84/brochure-no-ruby-20261028-brochure-original-a3.pdf",
+            "sha256": "f09eb789c9bb96b285454a7e082ce0fd587e8b00083fefd5a2831e9244928a84",
+            "bytes": 4574521,
+            "download_file": "downloads/brochure-no-furigana-20261028/output/brochure-original-A3-no-furigana-20261028.pdf",
+            "retrieval_mode": "saved",
+            "paper": "A3",
+            "faces": 8,
+            "sheets": 4,
+            "duplex": "短辺反転"
+          },
+          {
+            "document": "prospectus-isen-trial-2028",
+            "asset_id": "brochure-no-ruby-20261028-brochure-original-a4",
+            "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-original-a4/09c85fe931d64f8c99868fc04b0e6ec5abac31af68bf51ab1aec86f4f8e81aee/brochure-no-ruby-20261028-brochure-original-a4.pdf",
+            "sha256": "09c85fe931d64f8c99868fc04b0e6ec5abac31af68bf51ab1aec86f4f8e81aee",
+            "bytes": 3211610,
+            "download_file": "downloads/brochure-no-furigana-20261028/output/brochure-original-A4-no-furigana-20261028.pdf",
+            "retrieval_mode": "saved",
+            "paper": "A4",
+            "faces": 8,
+            "sheets": 4,
+            "duplex": "短辺反転"
+          }
+        ],
+        "previews": [
+          {
+            "id": "brochure-no-ruby-20261028-brochure-original-page-12",
+            "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-original-page-12/ae83a0f00a87b6645c1bea2bfbee30e635656554c381fe33a1b3623c6212d4a9/brochure-no-ruby-20261028-brochure-original-page-12.png",
+            "sha256": "ae83a0f00a87b6645c1bea2bfbee30e635656554c381fe33a1b3623c6212d4a9"
+          },
+          {
+            "id": "brochure-no-ruby-20261028-brochure-original-page-13",
+            "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-original-page-13/805c42b06fa076470ebdb58770863eb584036f5df8408975a4aad5abfe57d76d/brochure-no-ruby-20261028-brochure-original-page-13.png",
+            "sha256": "805c42b06fa076470ebdb58770863eb584036f5df8408975a4aad5abfe57d76d"
+          },
+          {
+            "id": "brochure-no-ruby-20261028-brochure-original-page-14",
+            "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-original-page-14/652fdc7f34651f4ba17bb76c9d6c7de2483a5cc159fdc5be5ab64dc02c42fe98/brochure-no-ruby-20261028-brochure-original-page-14.png",
+            "sha256": "652fdc7f34651f4ba17bb76c9d6c7de2483a5cc159fdc5be5ab64dc02c42fe98"
+          },
+          {
+            "id": "brochure-no-ruby-20261028-brochure-original-page-15",
+            "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-original-page-15/3c83c3e2a1ac8b6460d81b1b47f4edf66d3e06bcbcf3ba0e8508f9f693ca467a/brochure-no-ruby-20261028-brochure-original-page-15.png",
+            "sha256": "3c83c3e2a1ac8b6460d81b1b47f4edf66d3e06bcbcf3ba0e8508f9f693ca467a"
+          }
+        ],
+        "previous_layout_edition": {
+          "asset_id": "fee-annual-approved-20261028-brochure-original",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-original/01a56837a123408266ebdde4cdb5540e36f8a72af743f34190f119dd1dddcd3c/fee-annual-approved-20261028-brochure-original.pdf",
+          "sha256": "01a56837a123408266ebdde4cdb5540e36f8a72af743f34190f119dd1dddcd3c",
+          "bytes": 113909460,
+          "download_file": "downloads/brochure-annual-table-20261028/output/brochure-original-approved-annual-table-20261028.pdf"
+        },
+        "table_revision": {
+          "date": "2026-10-28",
+          "columns": [
+            "費目",
+            "1年次",
+            "2年次"
+          ],
+          "note": "上記金額には検定料2万円は含みません。",
+          "manifest": "downloads/brochure-annual-table-20261028/manifest.json"
+        },
+        "furigana_revision": {
+          "date": "2026-10-28",
+          "policy": "ふりがな無し",
+          "removed_reading_glyphs": 153,
+          "manifest": "downloads/brochure-no-furigana-20261028/manifest.json"
+        }
+      },
+      "admissions": {
+        "document": "admissions-guide-2027",
+        "asset_id": "admissions-annual-20261028-admissions-photo",
+        "file": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-photo/6e3dd678321c6a04cd8a0abbf4edc82bb48b571dbf69022a982fdb079119ab91/admissions-annual-20261028-admissions-photo.pdf",
+        "sha256": "6e3dd678321c6a04cd8a0abbf4edc82bb48b571dbf69022a982fdb079119ab91",
+        "pages": 24,
+        "bytes": 14870978,
+        "qr_decoded": {
+          "23": [
+            "https://kaihougakuen.my.canva.site/"
+          ]
+        },
+        "blank_reverse_pages_checked": [
+          8,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22
+        ],
+        "saddle_fold_reading_order_verified": true,
+        "material_id": "ADM-JP-2027",
+        "display_name": "募集要項_写真入り版_日本人向け_2027年度_24P_新表紙",
+        "tags": [
+          "種別:募集要項",
+          "対象:日本人向け",
+          "適用年度:2027",
+          "状態:現行",
+          "用途:日本人版の制作元",
+          "人物:日本人イメージ未統一"
+        ],
+        "binding": "中綴じ・左綴じ・願書の裏面は白紙",
+        "audience_status": "日本人向け原本に基づく。人物画像は未統一",
+        "year_status": "2027年度。2028年度への自動繰上げ禁止",
+        "retrieval_mode": "saved",
+        "freshness_status": "保存済みの局所修正版。標準renderer全冊再生成の保証ではない。",
+        "download_file": "downloads/admissions-annual-table-20261028/output/admissions-photo-approved-annual-table-20261028.pdf",
+        "previous_cover_edition": {
+          "asset_id": "standard-rendered-pdf",
+          "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-pdf/17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052/standard-rendered-pdf.pdf",
+          "sha256": "17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052",
+          "bytes": 19357455,
+          "download_file": "downloads/english-name-20261023/output/admissions-2027-checked.pdf"
+        },
+        "variant": "approved-annual-table-20261028",
+        "version_policy": "2026-10-28：承認済みパンフレットと同じ費目／1年次／2年次の年額表へ。入学金100,000円／ー、授業料各780,000円、諸経費・施設設備費各50,000円、年間980,000円／880,000円、2年間1,860,000円。注記は「上記金額には検定料2万円は含みません。」。表と注記以外、納付期限・返還・画像・表紙・願書・白紙裏・QR・面付けは保持。旧版を残す。",
+        "previews": [
+          {
+            "id": "navy-plain-cover",
+            "file": "books/admissions-guide-2027/parts/navy-plain-cover/4bbd946b1a4cca73224a3f0a577fb5a806e5d17cbc4d7069ecc5c7b4bcbccf2a/navy-plain-cover.png",
+            "sha256": "4bbd946b1a4cca73224a3f0a577fb5a806e5d17cbc4d7069ecc5c7b4bcbccf2a"
+          },
+          {
+            "id": "navy-photo-back-cover",
+            "file": "books/admissions-guide-2027/parts/navy-photo-back-cover/d13d229c34c70fb9a3cea002358336581bbbe6d2ddc20c65cfdab3338992d0c3/navy-photo-back-cover.png",
+            "sha256": "d13d229c34c70fb9a3cea002358336581bbbe6d2ddc20c65cfdab3338992d0c3"
+          },
+          {
+            "id": "navy-photo-overview-01",
+            "file": "books/admissions-guide-2027/parts/navy-photo-overview-01/13ddabf4cc0c422da76988fb4fe74803a31c1c11bd8a052c0c97a04b7e65bc27/navy-photo-overview-01.jpg",
+            "sha256": "13ddabf4cc0c422da76988fb4fe74803a31c1c11bd8a052c0c97a04b7e65bc27"
+          },
+          {
+            "id": "admissions-annual-20261028-admissions-photo-page-06",
+            "file": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-photo-page-06/8455840565ae1e39d70dc89c3e30f602087283c716ccfdb045abd78e858b7be6/admissions-annual-20261028-admissions-photo-page-06.png",
+            "sha256": "8455840565ae1e39d70dc89c3e30f602087283c716ccfdb045abd78e858b7be6"
+          }
+        ],
+        "review_status": "5PDF・84P/面の表・注記外150dpi画素、文字/書体/位置と全元画像stream一致。年額の内訳・合計・指定注記・ーを検証。変更頁を拡大目視。親の自己点検。実機試し刷り・入稿承認は未実施。",
+        "cover_approval": {
+          "date": "2026-10-25",
+          "edition": "R04（文字のみ版）/写真入り表紙改訂R01",
+          "manifest": "downloads/admissions-cover-adopted-20261025/manifest.json",
+          "cover_sha256": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e",
+          "statement": "OK,GO（写真入り版・文字のみ版印刷用・文字のみ版ページ順の3PDFへの表紙差し替え）"
+        },
+        "previous_fee_edition": {
+          "asset_id": "photo-cover-r01-reading-pdf",
+          "file": "books/admissions-guide-2027/parts/photo-cover-r01-reading-pdf/b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a/photo-cover-r01-reading-pdf.pdf",
+          "sha256": "b47c48d66086a4a3fb5899674ca3dde19cca7b0a0bf657fb48ab289625e1162a",
+          "bytes": 14635113,
+          "download_file": "downloads/admissions-cover-adopted-20261025/output/admissions-photo-2027-cover-r01.pdf"
+        },
+        "print_outputs": [
+          {
+            "document": "admissions-guide-2027",
+            "asset_id": "admissions-annual-20261028-admissions-photo-old-cover-a3",
+            "file": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-photo-old-cover-a3/55c49e1176c02e66e2dfa57fd4561c923cda462c1e06fa28cd45d5078c7f5e11/admissions-annual-20261028-admissions-photo-old-cover-a3.pdf",
+            "sha256": "55c49e1176c02e66e2dfa57fd4561c923cda462c1e06fa28cd45d5078c7f5e11",
+            "bytes": 2458443,
+            "download_file": "downloads/admissions-annual-table-20261028/output/admissions-photo-old-cover-A3-approved-annual-table-20261028.pdf",
+            "retrieval_mode": "saved",
+            "paper": "A3",
+            "faces": 12,
+            "sheets": 6,
+            "duplex": "短辺反転",
+            "cover_note": "旧表紙の配布版を保持し、学費表だけを承認済み年額表へ更新。"
+          },
+          {
+            "document": "admissions-guide-2027",
+            "asset_id": "admissions-annual-20261028-admissions-photo-old-cover-a4",
+            "file": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-photo-old-cover-a4/b5742d3b5c10f05d9f74e9b452281f4fd303794f8d34d053e1b60aa94ee287bb/admissions-annual-20261028-admissions-photo-old-cover-a4.pdf",
+            "sha256": "b5742d3b5c10f05d9f74e9b452281f4fd303794f8d34d053e1b60aa94ee287bb",
+            "bytes": 2008787,
+            "download_file": "downloads/admissions-annual-table-20261028/output/admissions-photo-old-cover-A4-approved-annual-table-20261028.pdf",
+            "retrieval_mode": "saved",
+            "paper": "A4",
+            "faces": 12,
+            "sheets": 6,
+            "duplex": "短辺反転",
+            "cover_note": "旧表紙の配布版を保持し、学費表だけを承認済み年額表へ更新。"
+          }
+        ],
+        "previous_layout_edition": {
+          "asset_id": "admissions-five-columns-20261028-admissions-photo",
+          "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-photo/1939cbb99d1219071f1e3d0c9dfb2a52a9322a36d5cb6282e8891d7c781d60e1/admissions-five-columns-20261028-admissions-photo.pdf",
+          "sha256": "1939cbb99d1219071f1e3d0c9dfb2a52a9322a36d5cb6282e8891d7c781d60e1",
+          "bytes": 14791628,
+          "download_file": "downloads/admissions-fees-five-columns-20261028/output/admissions-photo-five-columns-dash-20261028.pdf"
+        },
+        "table_revision": {
+          "date": "2026-10-28",
+          "columns": [
+            "費目",
+            "1年次",
+            "2年次"
+          ],
+          "dash": "ー",
+          "manifest": "downloads/admissions-annual-table-20261028/manifest.json"
+        }
+      },
+      "flyer": {
+        "document": "oc-approved-20261017",
+        "asset_id": "latest-original-oc-pdf",
+        "file": "books/oc-approved-20261017/parts/latest-original-oc-pdf/2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1/latest-original-oc-pdf.pdf",
+        "sha256": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1",
+        "pages": 2,
+        "variant": "approved-original-map",
+        "qr_decoded": {
+          "1": [
+            "https://kaihougakuen.my.canva.site/"
+          ],
+          "2": [
+            "https://kaihougakuen.my.canva.site/"
+          ]
+        },
+        "material_id": "FLY-OC-YELLOW",
+        "display_name": "チラシ_OC黄色帯_年度未確認_2P_現行",
+        "tags": [
+          "種別:チラシ",
+          "意匠:OC黄色帯",
+          "適用年度:未確認",
+          "状態:現行",
+          "用途:日本人版の制作元",
+          "人物:日本人イメージ未統一"
+        ],
+        "binding": "A4両面・長辺反転・折りなし",
+        "audience_status": "日本人向けへの内容・人物画像の調整が必要",
+        "year_status": "原本の開催日の年度・有効性は未確認。2027/2028と推定しない",
+        "retrieval_mode": "saved",
+        "freshness_status": "保存済み配布版。登録実体の同一性は確認、現在の標準renderer入力による再生成保証なし"
+      }
+    },
+    "print_bundle": "downloads/admissions-annual-table-20261028/output/print-pdfs-admissions-annual-20261028.zip",
+    "bundle_sha256": "e9a5104142c87a160eb3248094f2a18e794026045130702d2b516d2e9f639ccd",
+    "bundle_pdf_names": [
+      "brochure-A3.pdf",
+      "brochure-A4.pdf",
+      "admissions-A3.pdf",
+      "admissions-A4.pdf",
+      "flyer-A4.pdf"
+    ],
+    "deleted_nonadopted_variant": "real-photo-rebuild outputs",
+    "identity_schema_version": 1,
+    "production_targets": [
+      {
+        "work_id": "PAM-JP-ISEN",
+        "source_material_id": "PAM-ISEN-2028",
+        "display_name": "パンフレット_日本人向け_医専白版_2028表記_16P_確認用",
+        "status": "改稿13・設備費更新版・年額表改訂・ふりがな無し・日本人向け文面修正・授業時間欄削除・カリキュラム資格注記追加版・確認用",
+        "tags": [
+          "対象:日本人向け",
+          "人物仕様:日本人イメージ",
+          "版:医専版",
+          "意匠:医専白版",
+          "状態:確認用",
+          "種別:パンフレット",
+          "表記年度:2028"
+        ],
+        "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13/014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2/curriculum-notice-20261028-brochure-jp-r13.pdf",
+        "version_policy": "2026-10-28：カリキュラム・目標資格の掲載6ページ（PDF3/4/5/6/7/9）へ承認文言「※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。」を下部に追加。他の本文・写真・表紙・年額表・検定料別注記・ふりがな無し・授業時間欄削除・QR・AI注記・面付けを保持。旧版保持。",
+        "document": "prospectus-isen-trial-2028",
+        "variant": "curriculum-notice-20261028",
+        "asset_id": "curriculum-notice-20261028-brochure-jp-r13",
+        "sha256": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2",
+        "bytes": 8843969,
+        "pages": 16,
+        "year_status": "紙面は2028表記。掲載学費・入試の根拠は2027年度。2028年度確定版とは呼ばない",
+        "ai_image_status": "人物加工画像を含む。生成/加工とパンフレット掲載について本人承諾取得済み（人間確認2026-10-24）。最終ページ右下に明記。実写真の在校生・教職員の国籍や所属を示すものではない。",
+        "review_status": "4PDF・48P/面で注記領域外150dpi画素、元のネイティブ全文字/書体/位置、全元画像stream一致。各PDFへ承認文言6回、指定頁だけに追加を検証。DOMはみ出しなし。親が変更6ページ下部を拡大自己点検。実機試し刷り・入稿承認未実施。",
+        "print_outputs": [
+          {
+            "paper": "A3",
+            "document": "prospectus-isen-trial-2028",
+            "asset_id": "curriculum-notice-20261028-brochure-jp-r13-a3",
+            "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-a3/5e3d2d2ec8a6268d74a058d22d98e3cf3217a69ade354e11d74b5ee96815d748/curriculum-notice-20261028-brochure-jp-r13-a3.pdf",
+            "sha256": "5e3d2d2ec8a6268d74a058d22d98e3cf3217a69ade354e11d74b5ee96815d748",
+            "bytes": 6153436,
+            "faces": 8,
+            "sheets": 4,
+            "duplex": "短辺反転",
+            "retrieval_mode": "saved",
+            "download_file": "downloads/brochure-curriculum-notice-20261028/output/brochure-jp-r13-A3-curriculum-notice-20261028.pdf"
+          },
+          {
+            "paper": "A4",
+            "document": "prospectus-isen-trial-2028",
+            "asset_id": "curriculum-notice-20261028-brochure-jp-r13-a4",
+            "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-a4/b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad/curriculum-notice-20261028-brochure-jp-r13-a4.pdf",
+            "sha256": "b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad",
+            "bytes": 4751092,
+            "faces": 8,
+            "sheets": 4,
+            "duplex": "短辺反転",
+            "retrieval_mode": "saved",
+            "download_file": "downloads/brochure-curriculum-notice-20261028/output/brochure-jp-r13-A4-curriculum-notice-20261028.pdf"
+          }
+        ],
+        "retrieval_mode": "saved",
+        "freshness_status": "保存済み局所修正版。標準renderer全冊再生成の保証ではない。",
+        "download_file": "downloads/brochure-curriculum-notice-20261028/output/brochure-jp-r13-curriculum-notice-20261028.pdf",
+        "previews": [
+          {
+            "id": "curriculum-notice-20261028-overview-01",
+            "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-overview-01/ed2ef693a4d03fad69fff8866356744fee18e131e58184129657c40e9299d99b/curriculum-notice-20261028-overview-01.jpg",
+            "sha256": "ed2ef693a4d03fad69fff8866356744fee18e131e58184129657c40e9299d99b"
+          },
+          {
+            "id": "curriculum-notice-20261028-overview-05",
+            "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-overview-05/b194986c678768fec318766552fe03de6d3bddc9665d755c07b800a4cef92a1d/curriculum-notice-20261028-overview-05.jpg",
+            "sha256": "b194986c678768fec318766552fe03de6d3bddc9665d755c07b800a4cef92a1d"
+          },
+          {
+            "id": "curriculum-notice-20261028-overview-09",
+            "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-overview-09/6dc13cf045b9ab197c07528bed59f354c9632048c9d691f6ea53290b04eb7656/curriculum-notice-20261028-overview-09.jpg",
+            "sha256": "6dc13cf045b9ab197c07528bed59f354c9632048c9d691f6ea53290b04eb7656"
+          },
+          {
+            "id": "brochure-no-ruby-20261028-r13-overview-13",
+            "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-r13-overview-13/a463591f477d9d6d84e6afbe9033fa40528511e0f8252f33c8c1977024cc4474/brochure-no-ruby-20261028-r13-overview-13.jpg",
+            "sha256": "a463591f477d9d6d84e6afbe9033fa40528511e0f8252f33c8c1977024cc4474"
+          },
+          {
+            "id": "brochure-no-ruby-20261028-brochure-jp-r13-page-12",
+            "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-page-12/d1c0ee26f53cf608a9e61468feda8034abb9cdba169eb4599ae6afeebd988e5a/brochure-no-ruby-20261028-brochure-jp-r13-page-12.png",
+            "sha256": "d1c0ee26f53cf608a9e61468feda8034abb9cdba169eb4599ae6afeebd988e5a"
+          },
+          {
+            "id": "brochure-no-ruby-20261028-brochure-jp-r13-page-13",
+            "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-page-13/826b882ab95e7b025e4c5b9df9a82f1fe428b76cfba1570bd0d18e9542e659c8/brochure-no-ruby-20261028-brochure-jp-r13-page-13.png",
+            "sha256": "826b882ab95e7b025e4c5b9df9a82f1fe428b76cfba1570bd0d18e9542e659c8"
+          },
+          {
+            "id": "brochure-no-ruby-20261028-brochure-jp-r13-page-14",
+            "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-page-14/c5052251fd0859b55c87c78eb5012abf253d5c52edd6a56310cdc14adafeeb8d/brochure-no-ruby-20261028-brochure-jp-r13-page-14.png",
+            "sha256": "c5052251fd0859b55c87c78eb5012abf253d5c52edd6a56310cdc14adafeeb8d"
+          },
+          {
+            "id": "brochure-no-ruby-20261028-brochure-jp-r13-page-15",
+            "file": "books/prospectus-isen-trial-2028/parts/brochure-no-ruby-20261028-brochure-jp-r13-page-15/ccf3169f98e6d3953bddc05f1ba5c58ec3257b595b4f175cef4002ed22a42727/brochure-no-ruby-20261028-brochure-jp-r13-page-15.png",
+            "sha256": "ccf3169f98e6d3953bddc05f1ba5c58ec3257b595b4f175cef4002ed22a42727"
+          },
+          {
+            "id": "jp-copy-20261028-page-02",
+            "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-02/fd50e95964d6e074d54c51769eeedb1ca24bd8ef9b9a85da00f6bb618a0a9328/jp-copy-20261028-page-02.png",
+            "sha256": "fd50e95964d6e074d54c51769eeedb1ca24bd8ef9b9a85da00f6bb618a0a9328"
+          },
+          {
+            "id": "curriculum-notice-20261028-page-03",
+            "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-03/eb7b94cdf06cde3279340d20eb6366e991cb241aea1331a6e517f678a9c2131a/curriculum-notice-20261028-page-03.png",
+            "sha256": "eb7b94cdf06cde3279340d20eb6366e991cb241aea1331a6e517f678a9c2131a"
+          },
+          {
+            "id": "curriculum-notice-20261028-page-04",
+            "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-04/0843e61b8dfbda4c04a270b86e9dfefbee4d9d1d660ceb0286ac9c24c6a55f47/curriculum-notice-20261028-page-04.png",
+            "sha256": "0843e61b8dfbda4c04a270b86e9dfefbee4d9d1d660ceb0286ac9c24c6a55f47"
+          },
+          {
+            "id": "curriculum-notice-20261028-page-05",
+            "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-05/f0e1522ec6776978de4f49e45aba52fa6bcfd1a729bd41a923f1ce09db2be503/curriculum-notice-20261028-page-05.png",
+            "sha256": "f0e1522ec6776978de4f49e45aba52fa6bcfd1a729bd41a923f1ce09db2be503"
+          },
+          {
+            "id": "curriculum-notice-20261028-page-06",
+            "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-06/851aac90c5b4d8206407ae0b9004fffb90f74832d785640d97b7e51d8f8db3db/curriculum-notice-20261028-page-06.png",
+            "sha256": "851aac90c5b4d8206407ae0b9004fffb90f74832d785640d97b7e51d8f8db3db"
+          },
+          {
+            "id": "curriculum-notice-20261028-page-07",
+            "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-07/5fe201703b45879580e6faa3a8c90e5d0935e3164659725920ce0241bc8690ea/curriculum-notice-20261028-page-07.png",
+            "sha256": "5fe201703b45879580e6faa3a8c90e5d0935e3164659725920ce0241bc8690ea"
+          },
+          {
+            "id": "curriculum-notice-20261028-page-09",
+            "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-09/6750e332a0eef1b9857a62af3db354b91f4a1c42801b51fa7d0ed38c5f16ccba/curriculum-notice-20261028-page-09.png",
+            "sha256": "6750e332a0eef1b9857a62af3db354b91f4a1c42801b51fa7d0ed38c5f16ccba"
+          },
+          {
+            "id": "jp-copy-20261028-page-10",
+            "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-10/c90b4e51c1067ce497eb3c5cddfe9ccde4a78aba8fde737724f1e9c3bd4587c0/jp-copy-20261028-page-10.png",
+            "sha256": "c90b4e51c1067ce497eb3c5cddfe9ccde4a78aba8fde737724f1e9c3bd4587c0"
+          },
+          {
+            "id": "jp-copy-20261028-page-11",
+            "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-11/d9501433ca1e3aa2d8de492cc48c674d3e74c6228f0ec9735b799f01ac20812a/jp-copy-20261028-page-11.png",
+            "sha256": "d9501433ca1e3aa2d8de492cc48c674d3e74c6228f0ec9735b799f01ac20812a"
+          }
+        ],
+        "previous_fee_edition": {
+          "asset_id": "jp-isen-reading-pdf",
+          "file": "books/prospectus-isen-trial-2028/parts/jp-isen-reading-pdf/c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87/jp-isen-reading-pdf.pdf",
+          "sha256": "c062d618c0f0d9c78851169d875b2ac2c13414e68ff96411313512f34fff2f87",
+          "bytes": 6818247,
+          "download_file": "downloads/ai-image-notice-20261024/output/brochure-jp-r13.pdf"
+        },
+        "master_output": {
+          "document": "prospectus-isen-trial-2028",
+          "asset_id": "curriculum-notice-20261028-brochure-jp-r13-master",
+          "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-master/a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74/curriculum-notice-20261028-brochure-jp-r13-master.pdf",
+          "sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+          "bytes": 128027546,
+          "download_file": "downloads/brochure-curriculum-notice-20261028/output/brochure-jp-r13-master-curriculum-notice-20261028.pdf",
+          "retrieval_mode": "saved"
+        },
+        "fee_revision": {
+          "date": "2026-10-27",
+          "manifest": "downloads/tuition-r13-revision-20261027/manifest.json"
+        },
+        "previous_layout_edition": {
+          "asset_id": "fee-annual-approved-20261028-brochure-jp-r13",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-jp-r13/c49898d506297d6c728b6259ef95a491a354dd1cc397685085ebf4c26b09244e/fee-annual-approved-20261028-brochure-jp-r13.pdf",
+          "sha256": "c49898d506297d6c728b6259ef95a491a354dd1cc397685085ebf4c26b09244e",
+          "bytes": 7262709,
+          "download_file": "downloads/brochure-annual-table-20261028/output/brochure-jp-r13-approved-annual-table-20261028.pdf"
+        },
+        "table_revision": {
+          "date": "2026-10-28",
+          "columns": [
+            "費目",
+            "1年次",
+            "2年次"
+          ],
+          "note": "上記金額には検定料2万円は含みません。",
+          "manifest": "downloads/brochure-annual-table-20261028/manifest.json"
+        },
+        "furigana_revision": {
+          "date": "2026-10-28",
+          "policy": "ふりがな無し",
+          "removed_reading_glyphs": 153,
+          "manifest": "downloads/brochure-no-furigana-20261028/manifest.json"
+        },
+        "previous_copy_edition": {
+          "asset_id": "no-hours-20261028-brochure-jp-r13",
+          "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13/4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898/no-hours-20261028-brochure-jp-r13.pdf",
+          "sha256": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898",
+          "bytes": 8654291,
+          "download_file": "downloads/brochure-remove-hours-20261028/output/brochure-jp-r13-remove-hours-20261028.pdf"
+        },
+        "copy_revision": {
+          "date": "2026-10-28",
+          "audience": "日本人向け",
+          "manifest": "downloads/brochure-japanese-copy-20261028/manifest.json"
+        },
+        "class_hours_removed_revision": {
+          "date": "2026-10-28",
+          "removed": "両学科の授業時間欄",
+          "manifest": "downloads/brochure-remove-hours-20261028/manifest.json"
+        },
+        "curriculum_notice_revision": {
+          "date": "2026-10-28",
+          "added": "カリキュラム・目標資格の変更可能性注記",
+          "manifest": "downloads/brochure-curriculum-notice-20261028/manifest.json"
+        }
+      },
+      {
+        "work_id": "ADM-JP-2027-PEOPLE",
+        "source_material_id": "ADM-JP-2027",
+        "display_name": "募集要項_日本人向け_2027年度_人物差替版_制作予定",
+        "status": "未制作",
+        "tags": [
+          "対象:日本人向け",
+          "人物仕様:日本人イメージ",
+          "状態:未制作"
+        ],
+        "file": null
+      },
+      {
+        "work_id": "FLY-JP-OC-YELLOW",
+        "source_material_id": "FLY-OC-YELLOW",
+        "display_name": "チラシ_日本人イメージ_OC黄色帯_英語校名統一_r06_2P_確認用",
+        "status": "表面の英語校名2か所を正式名へ統一・校章/写真/3ステップ裏面保持・確認用",
+        "tags": [
+          "種別:チラシ",
+          "対象:高校生と保護者",
+          "人物仕様:日本人イメージ",
+          "意匠:OC黄色帯・原本意匠維持",
+          "制作方法:原本写真のAI加工",
+          "適用年度:未確認",
+          "状態:確認用"
+        ],
+        "file": "books/oc-approved-20261017/parts/jp-oc-english-r6-pdf/49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee/jp-oc-english-r6-pdf.pdf",
+        "document": "oc-approved-20261017",
+        "variant": "original-art-english-name-r6",
+        "asset_id": "jp-oc-english-r6-pdf",
+        "sha256": "49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee",
+        "bytes": 17847665,
+        "pages": 2,
+        "dates": [
+          "11/21",
+          "12/5",
+          "12/19"
+        ],
+        "contact_email": "aibusiness.kaihougakuen@gmail.com",
+        "qr_decoded": {
+          "1": [
+            "mailto:aibusiness.kaihougakuen@gmail.com"
+          ],
+          "2": [
+            "mailto:aibusiness.kaihougakuen@gmail.com"
+          ]
+        },
+        "binding": "A4両面・長辺反転・折りなし",
+        "retrieval_mode": "saved",
+        "freshness_status": "保存済み確認用。現在入力からの標準renderer再生成を登録検査で保証した版ではない",
+        "year_status": "開催年・曜日は未指定。推測して付与しない",
+        "ai_image_status": "元の顔立ちと肌色の幅を保持。ひげのある4写真を原本実参照入力で弱く加工し、他5写真は原本のまま。R02の加工画像は入力に使わない。",
+        "review_status": "親が両面と2つの英文欄を拡大目視。元の画像ストリーム全バイト、英文欄以外の150dpi画素、校章2個、裏面全面、他のネイティブ文字がR05と一致。PDF/PNG計4QRのgmail mailtoを復号。独立審査・実物試し刷りは未実施。",
+        "previews": [
+          {
+            "id": "jp-oc-english-r6-front",
+            "file": "books/oc-approved-20261017/parts/jp-oc-english-r6-front/ff16163bf2fb75f2c9b7b487d7f9d1c95322fc835d2ec8182e0de89a350f3d1f/jp-oc-english-r6-front.png",
+            "sha256": "ff16163bf2fb75f2c9b7b487d7f9d1c95322fc835d2ec8182e0de89a350f3d1f"
+          },
+          {
+            "id": "jp-oc-three-r5-back",
+            "file": "books/oc-approved-20261017/parts/jp-oc-three-r5-back/7e30832219c64fcd9d3c2b71f4ca17ab15e5efebd2e1e89557f23475fab99bce/jp-oc-three-r5-back.png",
+            "sha256": "7e30832219c64fcd9d3c2b71f4ca17ab15e5efebd2e1e89557f23475fab99bce"
+          }
+        ],
+        "version_policy": "R05の表面上部・下部のAI BUSINESS COLLEGEを、school.yamlの正式名Artificial Intelligence Business Collegeへ統一。修正は2つの英文欄だけ。校章・画像データ・他の本文・3ステップ裏面・地図・日程・連絡先・QRを保持。旧R05と原本は保管。",
+        "audience_status": "台帳の読者を維持。日本人イメージは画像の仕様であり、在籍/国籍の記録写真ではない。",
+        "download_file": "downloads/english-name-20261023/oc/output/oc-flyer-r06.pdf"
+      },
+      {
+        "work_id": "ADM-JP-PLAIN-2027",
+        "source_material_id": "ADM-JP-2027",
+        "display_name": "募集要項_文字のみ版_日本人向け_2027年度_R05_料金改定_確認用",
+        "status": "R05・設備費更新版・承認済み年額表・指定注記・確認用",
+        "tags": [
+          "種別:募集要項",
+          "対象:日本人向け",
+          "適用年度:2027",
+          "版:文字のみ版",
+          "人物写真:なし",
+          "意匠:紺・黄",
+          "状態:確認用",
+          "用途:ページ順PDF"
+        ],
+        "document": "admissions-guide-2027",
+        "variant": "approved-annual-table-20261028",
+        "asset_id": "admissions-annual-20261028-admissions-plain",
+        "file": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-plain/3493681e7785a5e2f24aa7886dec163073b6a2f0fd3f3bcef8bef316fcbca179/admissions-annual-20261028-admissions-plain.pdf",
+        "sha256": "3493681e7785a5e2f24aa7886dec163073b6a2f0fd3f3bcef8bef316fcbca179",
+        "bytes": 3449606,
+        "pages": 24,
+        "binding": "中綴じ・左綴じ・願書の裏面は白紙",
+        "year_status": "2027年度。2028年度へ自動繰上げしない",
+        "version_policy": "2026-10-28：承認済みパンフレットと同じ費目／1年次／2年次の年額表へ。入学金100,000円／ー、授業料各780,000円、諸経費・施設設備費各50,000円、年間980,000円／880,000円、2年間1,860,000円。注記は「上記金額には検定料2万円は含みません。」。表と注記以外、納付期限・返還・画像・表紙・願書・白紙裏・QR・面付けは保持。旧版を残す。",
+        "retrieval_mode": "saved",
+        "freshness_status": "保存済みの局所修正版。標準renderer全冊再生成の保証ではない。",
+        "review_status": "5PDF・84P/面の表・注記外150dpi画素、文字/書体/位置と全元画像stream一致。年額の内訳・合計・指定注記・ーを検証。変更頁を拡大目視。親の自己点検。実機試し刷り・入稿承認は未実施。",
+        "qr_decoded": {
+          "23": [
+            "https://kaihougakuen.my.canva.site/"
+          ]
+        },
+        "blank_reverse_pages_checked": [
+          8,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22
+        ],
+        "download_file": "downloads/admissions-annual-table-20261028/output/admissions-plain-approved-annual-table-20261028.pdf",
+        "print_outputs": [
+          {
+            "paper": "A3",
+            "document": "admissions-guide-2027",
+            "asset_id": "admissions-annual-20261028-admissions-plain-a3",
+            "file": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-plain-a3/75d60d6e1e27ce91599d29fec663339af1cbd2bc5f0907a0c3db14df47e8a654/admissions-annual-20261028-admissions-plain-a3.pdf",
+            "sha256": "75d60d6e1e27ce91599d29fec663339af1cbd2bc5f0907a0c3db14df47e8a654",
+            "bytes": 3482897,
+            "faces": 12,
+            "sheets": 6,
+            "duplex": "短辺反転",
+            "retrieval_mode": "saved",
+            "download_file": "downloads/admissions-annual-table-20261028/output/admissions-plain-A3-approved-annual-table-20261028.pdf",
+            "use": "願書記入用・A4仕上がり・100%印刷"
+          }
+        ],
+        "previews": [
+          {
+            "id": "navy-plain-cover",
+            "file": "books/admissions-guide-2027/parts/navy-plain-cover/4bbd946b1a4cca73224a3f0a577fb5a806e5d17cbc4d7069ecc5c7b4bcbccf2a/navy-plain-cover.png",
+            "sha256": "4bbd946b1a4cca73224a3f0a577fb5a806e5d17cbc4d7069ecc5c7b4bcbccf2a"
+          },
+          {
+            "id": "navy-plain-back-cover",
+            "file": "books/admissions-guide-2027/parts/navy-plain-back-cover/405c403ea7dcbc213632865eadfbb288213b5bc37b07c9dea7c2888b971c5d39/navy-plain-back-cover.png",
+            "sha256": "405c403ea7dcbc213632865eadfbb288213b5bc37b07c9dea7c2888b971c5d39"
+          },
+          {
+            "id": "navy-plain-overview-01",
+            "file": "books/admissions-guide-2027/parts/navy-plain-overview-01/8f3f33578e804c77d8f185c5231764bc59230d5d35186ac261e18e5e4f9996cd/navy-plain-overview-01.jpg",
+            "sha256": "8f3f33578e804c77d8f185c5231764bc59230d5d35186ac261e18e5e4f9996cd"
+          },
+          {
+            "id": "admissions-annual-20261028-admissions-plain-page-06",
+            "file": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-plain-page-06/53f6fa162b1cc59d71b28da21c6174ae9cb8c3afb3d4b63f317a837269562ef2/admissions-annual-20261028-admissions-plain-page-06.png",
+            "sha256": "53f6fa162b1cc59d71b28da21c6174ae9cb8c3afb3d4b63f317a837269562ef2"
+          }
+        ],
+        "color_policy": "downloads/admissions-plain-20261025/r03-three-panels/color-policy.json",
+        "aliases": [
+          "募集要項 文字のみ版",
+          "文字のみ版",
+          "募集要項 無地版",
+          "無地版"
+        ],
+        "approval": {
+          "date": "2026-10-25",
+          "edition": "R04（文字のみ版）/写真入り表紙改訂R01",
+          "manifest": "downloads/admissions-cover-adopted-20261025/manifest.json",
+          "cover_sha256": "e405bb96e97824a975715ce3e59db7c82e5bcd16363c55b29c8b3b54eb9c368e",
+          "statement": "OK,GO（写真入り版・文字のみ版印刷用・文字のみ版ページ順の3PDFへの表紙差し替え）"
+        },
+        "archive_directory": "downloads/tuition-revision-20261027",
+        "naming_note": "文字のみ版は人物写真なし版を指す。承認対象R03の正本ロゴと地図はそのまま保持する。",
+        "reading_order": "1-24（1ページずつ・読む順）",
+        "download_label": "文字のみ版・ページ順PDF（24P）",
+        "previous_edition": {
+          "variant": "plain-no-photo-r03",
+          "asset_id": "plain-r03-reading-pdf",
+          "file": "books/admissions-guide-2027/parts/plain-r03-reading-pdf/2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2/plain-r03-reading-pdf.pdf",
+          "sha256": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2",
+          "bytes": 3278503,
+          "download_file": "downloads/admissions-text-only-2027-approved-20261025/募集要項_文字のみ版_日本人向け_2027年度_確定_ページ順_24P.pdf",
+          "approval": {
+            "date": "2026-10-25",
+            "edition": "R03",
+            "manifest": "downloads/admissions-text-only-2027-approved-20261025/manifest.json",
+            "pdf_sha256": "2b65323a387a3540c291d31032a11bf37f298607aad6326cdc936a625f1e94b2",
+            "statement": "OK、これを文字のみ版で確定して、保管しろ"
+          },
+          "archive_directory": "downloads/admissions-text-only-2027-approved-20261025"
+        },
+        "previous_a4_reduced_proof": {
+          "paper": "A4",
+          "document": "admissions-guide-2027",
+          "asset_id": "plain-r03-print-a4",
+          "file": "books/admissions-guide-2027/parts/plain-r03-print-a4/3d812b07969dc418ab4e722843f2780105477804fb2ef02eed0b372edebf87f1/plain-r03-print-a4.pdf",
+          "sha256": "3d812b07969dc418ab4e722843f2780105477804fb2ef02eed0b372edebf87f1",
+          "bytes": 3284168,
+          "faces": 12,
+          "sheets": 6,
+          "duplex": "短辺反転",
+          "retrieval_mode": "saved",
+          "download_file": "downloads/admissions-text-only-2027-approved-20261025/募集要項_文字のみ版_日本人向け_2027年度_確定_縮小確認用_A4_6枚.pdf",
+          "use": "A5相当の縮小確認用・願書の実寸印刷には使用しない",
+          "status": "旧R03の縮小確認用。今回の新表紙は未反映・現行印刷用として案内しない。"
+        },
+        "previous_fee_edition": {
+          "asset_id": "plain-r04-reading-pdf",
+          "file": "books/admissions-guide-2027/parts/plain-r04-reading-pdf/0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257/plain-r04-reading-pdf.pdf",
+          "sha256": "0a1a52057c2e482888a358cbdd8bebd2177e0261f1eecf52be92b4b1f2f5e257",
+          "bytes": 3214108,
+          "download_file": "downloads/admissions-cover-adopted-20261025/output/admissions-text-only-2027-r04.pdf"
+        },
+        "fee_revision": {
+          "date": "2026-10-27",
+          "edition": "R05",
+          "manifest": "downloads/tuition-revision-20261027/manifest.json",
+          "user_instruction": "PLEASE IMPLEMENT THIS PLAN: 料金改定。料金以外の変更禁止。"
+        },
+        "previous_layout_edition": {
+          "asset_id": "admissions-five-columns-20261028-admissions-plain",
+          "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-plain/a9dad9170461d38af3e0b89b64a43d3247276afac47c48d7f8548e09d513998f/admissions-five-columns-20261028-admissions-plain.pdf",
+          "sha256": "a9dad9170461d38af3e0b89b64a43d3247276afac47c48d7f8548e09d513998f",
+          "bytes": 3370390,
+          "download_file": "downloads/admissions-fees-five-columns-20261028/output/admissions-plain-five-columns-dash-20261028.pdf"
+        },
+        "table_revision": {
+          "date": "2026-10-28",
+          "columns": [
+            "費目",
+            "1年次",
+            "2年次"
+          ],
+          "dash": "ー",
+          "manifest": "downloads/admissions-annual-table-20261028/manifest.json"
+        }
+      }
+    ],
+    "excluded_variants": [
+      {
+        "document": "avatar-oc-2028",
+        "label": "別案チラシ_アバター体験",
+        "status": "今回の制作対象外"
+      },
+      {
+        "document": "prospectus-hal-2028",
+        "label": "過去のHAL風12P案",
+        "status": "過去資料・制作対象外。再開しない"
+      },
+      {
+        "document": "oc-approved-20261017",
+        "variant": "real-photo-rebuild",
+        "label": "不採用チラシ_実写真再構成",
+        "status": "誤成果物削除済み・再利用禁止"
+      },
+      {
+        "document": "oc-approved-20261017",
+        "variant": "japanese-people-oc-revised",
+        "label": "旧確認案・写真置換とflatな構成へ変更した版",
+        "status": "ユーザー差戻し。履歴として保持し、最新版・制作元として使用しない。",
+        "book": "books/oc-yellow-structure-20261022"
+      },
+      {
+        "document": "oc-approved-20261017",
+        "variant": "japanese-image-original-art-r2",
+        "label": "旧確認案・原本意匠維持の強い人物加工r02",
+        "status": "ユーザーが「日本人すぎる」と差戻し。履歴として保持し、最新版・生成入力として使用しない。",
+        "book": "books/oc-yellow-photo-edit-20261022"
+      }
+    ],
+    "previous_print_bundle": {
+      "file": "downloads/brochure-no-furigana-20261028/output/print-pdfs-brochure-no-furigana-20261028.zip",
+      "sha256": "f150fc8a30627c08626e43f991c0d389eb2be73bfcfded903231050074774f77"
+    }
+  }
+}

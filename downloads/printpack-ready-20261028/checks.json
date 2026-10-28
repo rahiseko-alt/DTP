@@ -1,0 +1,18 @@
+{
+  "recorded_at_utc": "2026-10-28T08:34:14.147864+00:00",
+  "PDF_production": "passed:brochure16P/flyer2P,A4trim,3mmbleed,cropmarks,CMYK,outlinedtext",
+  "source_preservation": "passed:before color conversion,all18pages pixels identical outside recorded pagination areas,all original image streams preserved,fees/approved notes retained",
+  "pagination": "passed:final PDF OCR2..15;headers12..15 also fixed",
+  "PDF_structure": "passed:PDF1.3,PDF/X1a identifiers and outputintent,JColor2011Coated ICC SHA,correctMedia/Trim/Bleed,0RGB vector operators,0transparency objects,0live fonts",
+  "color_appearance": "passed:navy and gold panels/type retained,source/proof swatches checked",
+  "QR": "passed:all4QR placements decoded at150/300dpi from final PDFs",
+  "visual": "parent reviewed18pages/importantdetails;formal independent review not performed",
+  "saved_get": "passed:both registered PDF copies retrieved and SHA verified",
+  "metadata_registration": "passed:8 production records registered;no whole repository asset-check pass asserted",
+  "known_repository_checks": "prior7LEGACY_CHANGED remain;no engine or legacy source edits in this prepress task",
+  "github_required_check": "unconfirmed;APInetwork403;main not merged",
+  "external_PDFX_certification": false,
+  "printer_upload_check": "user operation;not performed",
+  "physical_print_proof": false,
+  "orders_placed": false
+}

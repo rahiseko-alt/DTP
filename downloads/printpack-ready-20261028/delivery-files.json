@@ -1,0 +1,109 @@
+{
+  "files": [
+    {
+      "label": "brochure",
+      "file": "/workspace/プリントパック入稿データ/専門学校パンフレット_A4_16P_両面カラー_中綴じ左綴じ_入稿用.pdf",
+      "sha256": "068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb",
+      "bytes": 140698794,
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "547a45c7d60f06f514ca61f34d4c590eb2cd6a38",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "a2105c334eb433002ec43e1259c04069b39ca67c8c96b73139a42856c2e4377b"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "printpack-20261028-brochure-pdf",
+          "variant": "printpack-ready-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb",
+          "file": "books/prospectus-isen-trial-2028/parts/printpack-20261028-brochure-pdf/068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb/printpack-20261028-brochure-pdf.pdf",
+          "sha256": "068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb",
+          "size": 140698794,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User explicitly requested upload-ready files for Printpack,operating orders themselves. A4 trim210x297mm,3mm real bleed from original edge rendering,crop marks outside bleed,CMYK Japan Color2011Coated output intent,outlined text/no live fonts,reading order16P brochure/2P flyer. Only brochure pagination/header badges corrected before print conversion;approved content/fees/notices/photos/QR preserved. Exact input receipts and processing spec retained. Print checks passed;factory upload/physical print not performed. Saved print composition,not standard-render release certification.",
+            "recorded_at": "2026-10-28T08:30:14.567Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "printpack-20261028-brochure-spec",
+              "revision": "bde6c885a65ea1373cc51920bc08b36d68afb7e2bf7a4e1a26a071b12c0391f4"
+            },
+            {
+              "id": "curriculum-notice-20261028-brochure-jp-r13-master",
+              "revision": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/printpack-20261028-brochure-pdf/068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb/printpack-20261028-brochure-pdf.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "flyer",
+      "file": "/workspace/プリントパック入稿データ/チラシ_A4_両面カラー_表パンフレットQR_裏OC_入稿用.pdf",
+      "sha256": "b1d3421d74542a3e227bd5a776ed7c124d3237ae7b50d2191e2cfc6d7964256a",
+      "bytes": 19407457,
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "547a45c7d60f06f514ca61f34d4c590eb2cd6a38",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "a2105c334eb433002ec43e1259c04069b39ca67c8c96b73139a42856c2e4377b"
+        },
+        "document_id": "oc-approved-20261017",
+        "asset": {
+          "id": "printpack-20261028-flyer-pdf",
+          "variant": "printpack-ready-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "b1d3421d74542a3e227bd5a776ed7c124d3237ae7b50d2191e2cfc6d7964256a",
+          "file": "books/oc-approved-20261017/parts/printpack-20261028-flyer-pdf/b1d3421d74542a3e227bd5a776ed7c124d3237ae7b50d2191e2cfc6d7964256a/printpack-20261028-flyer-pdf.pdf",
+          "sha256": "b1d3421d74542a3e227bd5a776ed7c124d3237ae7b50d2191e2cfc6d7964256a",
+          "size": 19407457,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User explicitly requested upload-ready files for Printpack,operating orders themselves. A4 trim210x297mm,3mm real bleed from original edge rendering,crop marks outside bleed,CMYK Japan Color2011Coated output intent,outlined text/no live fonts,reading order16P brochure/2P flyer. Only brochure pagination/header badges corrected before print conversion;approved content/fees/notices/photos/QR preserved. Exact input receipts and processing spec retained. Print checks passed;factory upload/physical print not performed. Saved print composition,not standard-render release certification.",
+            "recorded_at": "2026-10-28T08:30:36.540Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "printpack-20261028-flyer-spec",
+              "revision": "bde6c885a65ea1373cc51920bc08b36d68afb7e2bf7a4e1a26a071b12c0391f4"
+            },
+            {
+              "id": "digital-cover-oc-draft-20261028-pdf",
+              "revision": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464"
+            }
+          ]
+        },
+        "path": "books/oc-approved-20261017/parts/printpack-20261028-flyer-pdf/b1d3421d74542a3e227bd5a776ed7c124d3237ae7b50d2191e2cfc6d7964256a/printpack-20261028-flyer-pdf.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    }
+  ],
+  "memo": "/workspace/プリントパック入稿データ/入稿メモ.txt",
+  "orders_placed": false,
+  "uploads_performed": false
+}

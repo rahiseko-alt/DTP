@@ -1,0 +1,216 @@
+[
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "printpack-20261028-brochure-spec",
+      "variant": "printpack-ready-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "bde6c885a65ea1373cc51920bc08b36d68afb7e2bf7a4e1a26a071b12c0391f4",
+      "file": "books/prospectus-isen-trial-2028/parts/printpack-20261028-brochure-spec/bde6c885a65ea1373cc51920bc08b36d68afb7e2bf7a4e1a26a071b12c0391f4/printpack-20261028-brochure-spec.json",
+      "sha256": "bde6c885a65ea1373cc51920bc08b36d68afb7e2bf7a4e1a26a071b12c0391f4",
+      "size": 7992,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User explicitly requested upload-ready files for Printpack,operating orders themselves. A4 trim210x297mm,3mm real bleed from original edge rendering,crop marks outside bleed,CMYK Japan Color2011Coated output intent,outlined text/no live fonts,reading order16P brochure/2P flyer. Only brochure pagination/header badges corrected before print conversion;approved content/fees/notices/photos/QR preserved. Exact input receipts and processing spec retained. Print checks passed;factory upload/physical print not performed. Saved print composition,not standard-render release certification.",
+        "recorded_at": "2026-10-28T08:30:11.845Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "printpack-20261028-brochure-pdf",
+      "variant": "printpack-ready-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb",
+      "file": "books/prospectus-isen-trial-2028/parts/printpack-20261028-brochure-pdf/068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb/printpack-20261028-brochure-pdf.pdf",
+      "sha256": "068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb",
+      "size": 140698794,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User explicitly requested upload-ready files for Printpack,operating orders themselves. A4 trim210x297mm,3mm real bleed from original edge rendering,crop marks outside bleed,CMYK Japan Color2011Coated output intent,outlined text/no live fonts,reading order16P brochure/2P flyer. Only brochure pagination/header badges corrected before print conversion;approved content/fees/notices/photos/QR preserved. Exact input receipts and processing spec retained. Print checks passed;factory upload/physical print not performed. Saved print composition,not standard-render release certification.",
+        "recorded_at": "2026-10-28T08:30:14.567Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "printpack-20261028-brochure-spec",
+          "revision": "bde6c885a65ea1373cc51920bc08b36d68afb7e2bf7a4e1a26a071b12c0391f4"
+        },
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13-master",
+          "revision": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "printpack-20261028-brochure-preview",
+      "variant": "printpack-ready-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "6b8f31d0c55641625741e791993e295728edf54198e79aabcefd2e9da1e10bda",
+      "file": "books/prospectus-isen-trial-2028/parts/printpack-20261028-brochure-preview/6b8f31d0c55641625741e791993e295728edf54198e79aabcefd2e9da1e10bda/printpack-20261028-brochure-preview.jpg",
+      "sha256": "6b8f31d0c55641625741e791993e295728edf54198e79aabcefd2e9da1e10bda",
+      "size": 539286,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User explicitly requested upload-ready files for Printpack,operating orders themselves. A4 trim210x297mm,3mm real bleed from original edge rendering,crop marks outside bleed,CMYK Japan Color2011Coated output intent,outlined text/no live fonts,reading order16P brochure/2P flyer. Only brochure pagination/header badges corrected before print conversion;approved content/fees/notices/photos/QR preserved. Exact input receipts and processing spec retained. Print checks passed;factory upload/physical print not performed. Saved print composition,not standard-render release certification.",
+        "recorded_at": "2026-10-28T08:30:23.634Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "printpack-20261028-brochure-pdf",
+          "revision": "068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "printpack-20261028-brochure-verification",
+      "variant": "printpack-ready-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "3fa1a46693e7e3b2884f17f321c8a218200c8b6edb81d0a3b4b0dc4539ec6979",
+      "file": "books/prospectus-isen-trial-2028/parts/printpack-20261028-brochure-verification/3fa1a46693e7e3b2884f17f321c8a218200c8b6edb81d0a3b4b0dc4539ec6979/printpack-20261028-brochure-verification.json",
+      "sha256": "3fa1a46693e7e3b2884f17f321c8a218200c8b6edb81d0a3b4b0dc4539ec6979",
+      "size": 4173,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User explicitly requested upload-ready files for Printpack,operating orders themselves. A4 trim210x297mm,3mm real bleed from original edge rendering,crop marks outside bleed,CMYK Japan Color2011Coated output intent,outlined text/no live fonts,reading order16P brochure/2P flyer. Only brochure pagination/header badges corrected before print conversion;approved content/fees/notices/photos/QR preserved. Exact input receipts and processing spec retained. Print checks passed;factory upload/physical print not performed. Saved print composition,not standard-render release certification.",
+        "recorded_at": "2026-10-28T08:30:28.915Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "printpack-20261028-brochure-pdf",
+          "revision": "068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb"
+        }
+      ]
+    }
+  },
+  {
+    "document": "oc-approved-20261017",
+    "asset": {
+      "id": "printpack-20261028-flyer-spec",
+      "variant": "printpack-ready-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "bde6c885a65ea1373cc51920bc08b36d68afb7e2bf7a4e1a26a071b12c0391f4",
+      "file": "books/oc-approved-20261017/parts/printpack-20261028-flyer-spec/bde6c885a65ea1373cc51920bc08b36d68afb7e2bf7a4e1a26a071b12c0391f4/printpack-20261028-flyer-spec.json",
+      "sha256": "bde6c885a65ea1373cc51920bc08b36d68afb7e2bf7a4e1a26a071b12c0391f4",
+      "size": 7992,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User explicitly requested upload-ready files for Printpack,operating orders themselves. A4 trim210x297mm,3mm real bleed from original edge rendering,crop marks outside bleed,CMYK Japan Color2011Coated output intent,outlined text/no live fonts,reading order16P brochure/2P flyer. Only brochure pagination/header badges corrected before print conversion;approved content/fees/notices/photos/QR preserved. Exact input receipts and processing spec retained. Print checks passed;factory upload/physical print not performed. Saved print composition,not standard-render release certification.",
+        "recorded_at": "2026-10-28T08:30:35.147Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  {
+    "document": "oc-approved-20261017",
+    "asset": {
+      "id": "printpack-20261028-flyer-pdf",
+      "variant": "printpack-ready-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "b1d3421d74542a3e227bd5a776ed7c124d3237ae7b50d2191e2cfc6d7964256a",
+      "file": "books/oc-approved-20261017/parts/printpack-20261028-flyer-pdf/b1d3421d74542a3e227bd5a776ed7c124d3237ae7b50d2191e2cfc6d7964256a/printpack-20261028-flyer-pdf.pdf",
+      "sha256": "b1d3421d74542a3e227bd5a776ed7c124d3237ae7b50d2191e2cfc6d7964256a",
+      "size": 19407457,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User explicitly requested upload-ready files for Printpack,operating orders themselves. A4 trim210x297mm,3mm real bleed from original edge rendering,crop marks outside bleed,CMYK Japan Color2011Coated output intent,outlined text/no live fonts,reading order16P brochure/2P flyer. Only brochure pagination/header badges corrected before print conversion;approved content/fees/notices/photos/QR preserved. Exact input receipts and processing spec retained. Print checks passed;factory upload/physical print not performed. Saved print composition,not standard-render release certification.",
+        "recorded_at": "2026-10-28T08:30:36.540Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "printpack-20261028-flyer-spec",
+          "revision": "bde6c885a65ea1373cc51920bc08b36d68afb7e2bf7a4e1a26a071b12c0391f4"
+        },
+        {
+          "id": "digital-cover-oc-draft-20261028-pdf",
+          "revision": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464"
+        }
+      ]
+    }
+  },
+  {
+    "document": "oc-approved-20261017",
+    "asset": {
+      "id": "printpack-20261028-flyer-preview",
+      "variant": "printpack-ready-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "00f5d21446626d7ef697df3b7f16c0ce8c34b00a2fd4c78413c4aa0600937a42",
+      "file": "books/oc-approved-20261017/parts/printpack-20261028-flyer-preview/00f5d21446626d7ef697df3b7f16c0ce8c34b00a2fd4c78413c4aa0600937a42/printpack-20261028-flyer-preview.jpg",
+      "sha256": "00f5d21446626d7ef697df3b7f16c0ce8c34b00a2fd4c78413c4aa0600937a42",
+      "size": 315841,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User explicitly requested upload-ready files for Printpack,operating orders themselves. A4 trim210x297mm,3mm real bleed from original edge rendering,crop marks outside bleed,CMYK Japan Color2011Coated output intent,outlined text/no live fonts,reading order16P brochure/2P flyer. Only brochure pagination/header badges corrected before print conversion;approved content/fees/notices/photos/QR preserved. Exact input receipts and processing spec retained. Print checks passed;factory upload/physical print not performed. Saved print composition,not standard-render release certification.",
+        "recorded_at": "2026-10-28T08:31:28.919Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "printpack-20261028-flyer-pdf",
+          "revision": "b1d3421d74542a3e227bd5a776ed7c124d3237ae7b50d2191e2cfc6d7964256a"
+        }
+      ]
+    }
+  },
+  {
+    "document": "oc-approved-20261017",
+    "asset": {
+      "id": "printpack-20261028-flyer-verification",
+      "variant": "printpack-ready-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "3fa1a46693e7e3b2884f17f321c8a218200c8b6edb81d0a3b4b0dc4539ec6979",
+      "file": "books/oc-approved-20261017/parts/printpack-20261028-flyer-verification/3fa1a46693e7e3b2884f17f321c8a218200c8b6edb81d0a3b4b0dc4539ec6979/printpack-20261028-flyer-verification.json",
+      "sha256": "3fa1a46693e7e3b2884f17f321c8a218200c8b6edb81d0a3b4b0dc4539ec6979",
+      "size": 4173,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User explicitly requested upload-ready files for Printpack,operating orders themselves. A4 trim210x297mm,3mm real bleed from original edge rendering,crop marks outside bleed,CMYK Japan Color2011Coated output intent,outlined text/no live fonts,reading order16P brochure/2P flyer. Only brochure pagination/header badges corrected before print conversion;approved content/fees/notices/photos/QR preserved. Exact input receipts and processing spec retained. Print checks passed;factory upload/physical print not performed. Saved print composition,not standard-render release certification.",
+        "recorded_at": "2026-10-28T08:32:14.176Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "printpack-20261028-flyer-pdf",
+          "revision": "b1d3421d74542a3e227bd5a776ed7c124d3237ae7b50d2191e2cfc6d7964256a"
+        }
+      ]
+    }
+  }
+]

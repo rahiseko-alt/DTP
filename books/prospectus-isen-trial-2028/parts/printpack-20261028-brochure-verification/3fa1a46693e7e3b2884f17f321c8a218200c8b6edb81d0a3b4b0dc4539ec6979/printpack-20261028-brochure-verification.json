@@ -1,0 +1,191 @@
+{
+  "verified": true,
+  "outputs": [
+    {
+      "label": "brochure",
+      "sha256": "068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb",
+      "pages": 16,
+      "media_mm": [
+        230,
+        317
+      ],
+      "trim_mm": [
+        210,
+        297
+      ],
+      "bleed_mm": 3,
+      "crop_marks_outside_bleed": true,
+      "outlined_text_no_live_fonts": true,
+      "CMYK_or_gray_images_only": [
+        "DeviceCMYK"
+      ],
+      "output_intent": "Japan Color 2011 Coated",
+      "output_profile_sha_matches": true,
+      "pdf_version": "1.3",
+      "pdfx_identifiers": "PDF/X-1a:2001",
+      "QR_checks": [
+        {
+          "page": 15,
+          "dpi": 150,
+          "decoded": [
+            "https://kaihougakuen.my.canva.site/"
+          ]
+        },
+        {
+          "page": 15,
+          "dpi": 300,
+          "decoded": [
+            "https://kaihougakuen.my.canva.site/"
+          ]
+        }
+      ],
+      "external_printer_acceptance_check": false
+    },
+    {
+      "label": "flyer",
+      "sha256": "b1d3421d74542a3e227bd5a776ed7c124d3237ae7b50d2191e2cfc6d7964256a",
+      "pages": 2,
+      "media_mm": [
+        230,
+        317
+      ],
+      "trim_mm": [
+        210,
+        297
+      ],
+      "bleed_mm": 3,
+      "crop_marks_outside_bleed": true,
+      "outlined_text_no_live_fonts": true,
+      "CMYK_or_gray_images_only": [
+        "DeviceCMYK"
+      ],
+      "output_intent": "Japan Color 2011 Coated",
+      "output_profile_sha_matches": true,
+      "pdf_version": "1.3",
+      "pdfx_identifiers": "PDF/X-1a:2001",
+      "QR_checks": [
+        {
+          "page": 1,
+          "dpi": 150,
+          "decoded": [
+            "https://drive.google.com/file/d/1Flb0l-VlY3PrHbKhjS0bm99pg_OBdtXo/view?usp=drive_link",
+            "https://drive.google.com/file/d/1wfbfRXTMtNotX3-1zaVgLdGH7DXI5xDZ/view?usp=drive_link"
+          ]
+        },
+        {
+          "page": 1,
+          "dpi": 300,
+          "decoded": [
+            "https://drive.google.com/file/d/1Flb0l-VlY3PrHbKhjS0bm99pg_OBdtXo/view?usp=drive_link",
+            "https://drive.google.com/file/d/1wfbfRXTMtNotX3-1zaVgLdGH7DXI5xDZ/view?usp=drive_link"
+          ]
+        },
+        {
+          "page": 2,
+          "dpi": 150,
+          "decoded": [
+            "mailto:aibusiness.kaihougakuen@gmail.com"
+          ]
+        },
+        {
+          "page": 2,
+          "dpi": 300,
+          "decoded": [
+            "mailto:aibusiness.kaihougakuen@gmail.com"
+          ]
+        }
+      ],
+      "external_printer_acceptance_check": false
+    }
+  ],
+  "printed_folios_verified": [
+    {
+      "page": 2,
+      "printed_folio": "2"
+    },
+    {
+      "page": 3,
+      "printed_folio": "3"
+    },
+    {
+      "page": 4,
+      "printed_folio": "4"
+    },
+    {
+      "page": 5,
+      "printed_folio": "5"
+    },
+    {
+      "page": 6,
+      "printed_folio": "6"
+    },
+    {
+      "page": 7,
+      "printed_folio": "7"
+    },
+    {
+      "page": 8,
+      "printed_folio": "8"
+    },
+    {
+      "page": 9,
+      "printed_folio": "9"
+    },
+    {
+      "page": 10,
+      "printed_folio": "10"
+    },
+    {
+      "page": 11,
+      "printed_folio": "11"
+    },
+    {
+      "page": 12,
+      "printed_folio": "12"
+    },
+    {
+      "page": 13,
+      "printed_folio": "13"
+    },
+    {
+      "page": 14,
+      "printed_folio": "14"
+    },
+    {
+      "page": 15,
+      "printed_folio": "15"
+    }
+  ],
+  "composition": "composition-verification.json",
+  "source_proof_all_approved_notices_and_fees_preserved": true,
+  "formal_external_PDFX_certification": false,
+  "printer_upload_check": "user operation",
+  "physical_print_test": false,
+  "color_preservation": {
+    "navy_source_RGB": [
+      19.0,
+      46.0,
+      72.0
+    ],
+    "navy_print_softproof_RGB": [
+      18.0,
+      47.0,
+      72.0
+    ],
+    "gold_source_pixels": 6181,
+    "gold_print_pixels": 6184,
+    "colored_type_and_panels_preserved": true
+  },
+  "PDFX_structural_audit": [
+    {
+      "label": "brochure",
+      "RGB_vector_operators": 0,
+      "transparency_objects": 0
+    },
+    {
+      "label": "flyer",
+      "RGB_vector_operators": 0,
+      "transparency_objects": 0
+    }
+  ]
+}

@@ -503,6 +503,35 @@
         "date": "2026-10-28",
         "added": "カリキュラム・目標資格の変更可能性注記",
         "manifest": "downloads/brochure-curriculum-notice-20261028/manifest.json"
+      },
+      "printpack_output": {
+        "document": "prospectus-isen-trial-2028",
+        "asset_id": "printpack-20261028-brochure-pdf",
+        "file": "books/prospectus-isen-trial-2028/parts/printpack-20261028-brochure-pdf/068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb/printpack-20261028-brochure-pdf.pdf",
+        "sha256": "068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb",
+        "bytes": 140698794,
+        "download_file": "downloads/printpack-ready-20261028/output/brochure-printpack-A4-CMYK-20261028.pdf",
+        "retrieval_mode": "saved",
+        "pages": 16,
+        "trim_mm": [
+          210,
+          297
+        ],
+        "media_mm": [
+          230,
+          317
+        ],
+        "bleed_mm": 3,
+        "crop_marks": true,
+        "color": "CMYK",
+        "pdfx_identifiers": "PDF/X-1a:2001",
+        "outlined_text": true,
+        "manual_imposition": false,
+        "preview": {
+          "id": "printpack-20261028-brochure-preview",
+          "file": "books/prospectus-isen-trial-2028/parts/printpack-20261028-brochure-preview/6b8f31d0c55641625741e791993e295728edf54198e79aabcefd2e9da1e10bda/printpack-20261028-brochure-preview.jpg",
+          "sha256": "6b8f31d0c55641625741e791993e295728edf54198e79aabcefd2e9da1e10bda"
+        }
       }
     },
     {
@@ -572,7 +601,36 @@
       ],
       "version_policy": "R05の表面上部・下部のAI BUSINESS COLLEGEを、school.yamlの正式名Artificial Intelligence Business Collegeへ統一。修正は2つの英文欄だけ。校章・画像データ・他の本文・3ステップ裏面・地図・日程・連絡先・QRを保持。旧R05と原本は保管。",
       "audience_status": "台帳の読者を維持。日本人イメージは画像の仕様であり、在籍/国籍の記録写真ではない。",
-      "download_file": "downloads/english-name-20261023/oc/output/oc-flyer-r06.pdf"
+      "download_file": "downloads/english-name-20261023/oc/output/oc-flyer-r06.pdf",
+      "printpack_output": {
+        "document": "oc-approved-20261017",
+        "asset_id": "printpack-20261028-flyer-pdf",
+        "file": "books/oc-approved-20261017/parts/printpack-20261028-flyer-pdf/b1d3421d74542a3e227bd5a776ed7c124d3237ae7b50d2191e2cfc6d7964256a/printpack-20261028-flyer-pdf.pdf",
+        "sha256": "b1d3421d74542a3e227bd5a776ed7c124d3237ae7b50d2191e2cfc6d7964256a",
+        "bytes": 19407457,
+        "download_file": "downloads/printpack-ready-20261028/output/flyer-printpack-A4-CMYK-20261028.pdf",
+        "retrieval_mode": "saved",
+        "pages": 2,
+        "trim_mm": [
+          210,
+          297
+        ],
+        "media_mm": [
+          230,
+          317
+        ],
+        "bleed_mm": 3,
+        "crop_marks": true,
+        "color": "CMYK",
+        "pdfx_identifiers": "PDF/X-1a:2001",
+        "outlined_text": true,
+        "manual_imposition": false,
+        "preview": {
+          "id": "printpack-20261028-flyer-preview",
+          "file": "books/oc-approved-20261017/parts/printpack-20261028-flyer-preview/00f5d21446626d7ef697df3b7f16c0ce8c34b00a2fd4c78413c4aa0600937a42/printpack-20261028-flyer-preview.jpg",
+          "sha256": "00f5d21446626d7ef697df3b7f16c0ce8c34b00a2fd4c78413c4aa0600937a42"
+        }
+      }
     },
     {
       "work_id": "ADM-JP-PLAIN-2027",
@@ -771,5 +829,69 @@
   "previous_print_bundle": {
     "file": "downloads/brochure-no-furigana-20261028/output/print-pdfs-brochure-no-furigana-20261028.zip",
     "sha256": "f150fc8a30627c08626e43f991c0d389eb2be73bfcfded903231050074774f77"
+  },
+  "printer_submissions": {
+    "printer": "プリントパック",
+    "date": "2026-10-28",
+    "orders_placed": false,
+    "uploads_performed": false,
+    "brochure": {
+      "document": "prospectus-isen-trial-2028",
+      "asset_id": "printpack-20261028-brochure-pdf",
+      "file": "books/prospectus-isen-trial-2028/parts/printpack-20261028-brochure-pdf/068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb/printpack-20261028-brochure-pdf.pdf",
+      "sha256": "068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb",
+      "bytes": 140698794,
+      "download_file": "downloads/printpack-ready-20261028/output/brochure-printpack-A4-CMYK-20261028.pdf",
+      "retrieval_mode": "saved",
+      "pages": 16,
+      "trim_mm": [
+        210,
+        297
+      ],
+      "media_mm": [
+        230,
+        317
+      ],
+      "bleed_mm": 3,
+      "crop_marks": true,
+      "color": "CMYK",
+      "pdfx_identifiers": "PDF/X-1a:2001",
+      "outlined_text": true,
+      "manual_imposition": false,
+      "preview": {
+        "id": "printpack-20261028-brochure-preview",
+        "file": "books/prospectus-isen-trial-2028/parts/printpack-20261028-brochure-preview/6b8f31d0c55641625741e791993e295728edf54198e79aabcefd2e9da1e10bda/printpack-20261028-brochure-preview.jpg",
+        "sha256": "6b8f31d0c55641625741e791993e295728edf54198e79aabcefd2e9da1e10bda"
+      }
+    },
+    "flyer": {
+      "document": "oc-approved-20261017",
+      "asset_id": "printpack-20261028-flyer-pdf",
+      "file": "books/oc-approved-20261017/parts/printpack-20261028-flyer-pdf/b1d3421d74542a3e227bd5a776ed7c124d3237ae7b50d2191e2cfc6d7964256a/printpack-20261028-flyer-pdf.pdf",
+      "sha256": "b1d3421d74542a3e227bd5a776ed7c124d3237ae7b50d2191e2cfc6d7964256a",
+      "bytes": 19407457,
+      "download_file": "downloads/printpack-ready-20261028/output/flyer-printpack-A4-CMYK-20261028.pdf",
+      "retrieval_mode": "saved",
+      "pages": 2,
+      "trim_mm": [
+        210,
+        297
+      ],
+      "media_mm": [
+        230,
+        317
+      ],
+      "bleed_mm": 3,
+      "crop_marks": true,
+      "color": "CMYK",
+      "pdfx_identifiers": "PDF/X-1a:2001",
+      "outlined_text": true,
+      "manual_imposition": false,
+      "preview": {
+        "id": "printpack-20261028-flyer-preview",
+        "file": "books/oc-approved-20261017/parts/printpack-20261028-flyer-preview/00f5d21446626d7ef697df3b7f16c0ce8c34b00a2fd4c78413c4aa0600937a42/printpack-20261028-flyer-preview.jpg",
+        "sha256": "00f5d21446626d7ef697df3b7f16c0ce8c34b00a2fd4c78413c4aa0600937a42"
+      }
+    }
   }
 }

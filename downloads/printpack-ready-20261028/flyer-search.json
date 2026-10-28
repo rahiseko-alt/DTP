@@ -1,0 +1,143 @@
+{
+  "context": {
+    "root": "/workspace/DTP",
+    "head": "547a45c7d60f06f514ca61f34d4c590eb2cd6a38",
+    "branch": "book/brochure-fees-five-columns-20261028",
+    "dirty": true,
+    "fingerprint": "f54d461ac355cf66ebd25dc8722b4d7acedecb88335659306dd25a4b0a36b2a2"
+  },
+  "matches": [
+    {
+      "asset_id": "digital-cover-oc-draft-20261028-sources",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "addb0c55b5c00c67722c80f89c8fbd17dd8a7de11f0b22c093382fd274c32d0b",
+      "path": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-sources/addb0c55b5c00c67722c80f89c8fbd17dd8a7de11f0b22c093382fd274c32d0b/digital-cover-oc-draft-20261028-sources.json",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "digital-cover-oc-draft-20261028-links",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "38c61462145492c78eff11ee552fb44f34a87f2d9fb44e4433b72ac90d42a5f0",
+      "path": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-links/38c61462145492c78eff11ee552fb44f34a87f2d9fb44e4433b72ac90d42a5f0/digital-cover-oc-draft-20261028-links.json",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "digital-cover-oc-draft-20261028-renderer",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "59c1014198a498dc3116dbc7f6149d510c01759b38e7c3b1c96869e39fbb216f",
+      "path": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-renderer/59c1014198a498dc3116dbc7f6149d510c01759b38e7c3b1c96869e39fbb216f/digital-cover-oc-draft-20261028-renderer.mjs",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "digital-cover-oc-draft-20261028-builder",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "72e27928ca5c71cf6613dcd7d8e639c670e9bec9c3f950e3362ea2962f36828f",
+      "path": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-builder/72e27928ca5c71cf6613dcd7d8e639c670e9bec9c3f950e3362ea2962f36828f/digital-cover-oc-draft-20261028-builder.py",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "digital-cover-oc-draft-20261028-qr-1",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "fd0662c9496f4badf8aabd3c1b6676f2f0b8ea889e1e707aac1b5af5fb78b1ce",
+      "path": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-qr-1/fd0662c9496f4badf8aabd3c1b6676f2f0b8ea889e1e707aac1b5af5fb78b1ce/digital-cover-oc-draft-20261028-qr-1.svg",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "digital-cover-oc-draft-20261028-qr-2",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "919706e3e7bedde5a2f51407631e7340d63c4e34d96e784f2f6158b0c417a904",
+      "path": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-qr-2/919706e3e7bedde5a2f51407631e7340d63c4e34d96e784f2f6158b0c417a904/digital-cover-oc-draft-20261028-qr-2.svg",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "digital-cover-oc-draft-20261028-front-overlay",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "4325d546bb41e7672e75db321c40bbd3f238ade73362e092b38930f699497e9e",
+      "path": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-front-overlay/4325d546bb41e7672e75db321c40bbd3f238ade73362e092b38930f699497e9e/digital-cover-oc-draft-20261028-front-overlay.pdf",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "digital-cover-oc-draft-20261028-pdf",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464",
+      "path": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-pdf/20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464/digital-cover-oc-draft-20261028-pdf.pdf",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "digital-cover-oc-draft-20261028-preview",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "9b37a0785ed04d2e1ddfaab2b201f458815bb1e4274ac3de0cca46e4f489a971",
+      "path": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-preview/9b37a0785ed04d2e1ddfaab2b201f458815bb1e4274ac3de0cca46e4f489a971/digital-cover-oc-draft-20261028-preview.jpg",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "digital-cover-oc-draft-20261028-verification",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "411c04575656073ee5b1702b6a3c4b1ccd1f799e5f7fb3e42341ab61f6c719be",
+      "path": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-verification/411c04575656073ee5b1702b6a3c4b1ccd1f799e5f7fb3e42341ab61f6c719be/digital-cover-oc-draft-20261028-verification.json",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "digital-cover-oc-draft-20261028-build-proof",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "348717463680b1061d9e52422784f81c486789ff5cf9010d17dcc3d91f686c9c",
+      "path": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-build-proof/348717463680b1061d9e52422784f81c486789ff5cf9010d17dcc3d91f686c9c/digital-cover-oc-draft-20261028-build-proof.json",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "outputs": [
+    {
+      "label": "brochure",
+      "source": {
+        "document": "prospectus-isen-trial-2028",
+        "id": "curriculum-notice-20261028-brochure-jp-r13-master",
+        "revision": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+        "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-master/a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74/curriculum-notice-20261028-brochure-jp-r13-master.pdf",
+        "sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74"
+      },
+      "corrected": "downloads/printpack-ready-20261028/intermediate/brochure-corrected-source.pdf",
+      "normalized": "downloads/printpack-ready-20261028/intermediate/brochure-A4-trim-RGB.pdf",
+      "framed": "downloads/printpack-ready-20261028/intermediate/brochure-framed-RGB.pdf",
+      "pages": 16,
+      "media_mm": [
+        230,
+        317
+      ],
+      "trim_mm": [
+        210,
+        297
+      ],
+      "bleed_mm": 3,
+      "folio_changes": [
+        {
+          "page": 2,
+          "old_folio": "5",
+          "new_folio": "2",
+          "allowed_regions_source_pt": [
+            [
+              17.25,
+              828.6300048828125,
+              24.75,
+              839.8800048828125
+            ],
+            [
+              14.188571021670386,
+              814.50020673861,
+              39.727998860677076,
+              828.6901058107113
+            ]
+          ],
+          "header_badge_updated": false
+        },
+        {
+          "page": 3,
+          "old_folio": "6",
+          "new_folio": "3",
+          "allowed_regions_source_pt": [
+            [
+              579.4199829101562,
+              828.6300048828125,
+              587.6699829101562,
+              840.1300048828125
+            ],
+            [
+              556.1919840494792,
+              814.50020673861,
+              581.7314118884859,
+              828.6901058107113
+            ]
+          ],
+          "header_badge_updated": false
+        },
+        {
+          "page": 4,
+          "old_folio": "3",
+          "new_folio": "4",
+          "allowed_regions_source_pt": [
+            [
+              22.0,
+              829.3800048828125,
+              29.5,
+              839.8800048828125
+            ],
+            [
+              14.188571021670386,
+              814.50020673861,
+              39.727998860677076,
+              828.6901058107113
+            ]
+          ],
+          "header_badge_updated": false
+        },
+        {
+          "page": 5,
+          "old_folio": "4",
+          "new_folio": "5",
+          "allowed_regions_source_pt": [
+            [
+              587.9199829101562,
+              829.8800048828125,
+              595.4199829101562,
+              839.8800048828125
+            ],
+            [
+              556.1919840494792,
+              814.50020673861,
+              581.7314118884859,
+              828.6901058107113
+            ]
+          ],
+          "header_badge_updated": false
+        },
+        {
+          "page": 6,
+          "old_folio": "5",
+          "new_folio": "6",
+          "allowed_regions_source_pt": [
+            [
+              23.0,
+              826.6300048828125,
+              30.25,
+              836.8800048828125
+            ],
+            [
+              14.188571021670386,
+              814.50020673861,
+              39.727998860677076,
+              828.6901058107113
+            ]
+          ],
+          "header_badge_updated": false
+        },
+        {
+          "page": 7,
+          "old_folio": "6",
+          "new_folio": "7",
+          "allowed_regions_source_pt": [
+            [
+              586.6699829101562,
+              827.3800048828125,
+              593.6699829101562,
+              836.8800048828125
+            ],
+            [
+              556.1919840494792,
+              822.50020673861,
+              581.7314118884859,
+              836.6901058107113
+            ]
+          ],
+          "header_badge_updated": false
+        },
+        {
+          "page": 8,
+          "old_folio": "7",
+          "new_folio": "8",
+          "allowed_regions_source_pt": [
+            [
+              8.8,
+              835.4800048828125,
+              15.6,
+              843.8800048828125
+            ],
+            [
+              14.188571021670386,
+              814.50020673861,
+              39.727998860677076,
+              828.6901058107113
+            ]
+          ],
+          "header_badge_updated": false
+        },
+        {
+          "page": 9,
+          "old_folio": "8",
+          "new_folio": "9",
+          "allowed_regions_source_pt": [
+            [
+              577.3210815429687,
+              826.7257446289062,
+              583.2921997070313,
+              841.0053344726563
+            ],
+            [
+              556.1919840494792,
+              814.50020673861,
+              581.7314118884859,
+              828.6901058107113
+            ]
+          ],
+          "header_badge_updated": false
+        },
+        {
+          "page": 10,
+          "old_folio": "17",
+          "new_folio": "10",
+          "allowed_regions_source_pt": [
+            [
+              568.3199829101562,
+              816.0800048828125,
+              580.1199829101563,
+              825.8800048828125
+            ],
+            [
+              556.1919840494792,
+              814.50020673861,
+              581.7314118884859,
+              828.6901058107113
+            ]
+          ],
+          "header_badge_updated": false
+        },
+        {
+          "page": 11,
+          "old_folio": "19",
+          "new_folio": "11",
+          "allowed_regions_source_pt": [
+            [
+              566.3199829101562,
+              820.0800048828125,
+              578.9199829101562,
+              830.2800048828125
+            ],
+            [
+              556.1919840494792,
+              822.50020673861,
+              581.7314118884859,
+              836.6901058107113
+            ]
+          ],
+          "header_badge_updated": false
+        },
+        {
+          "page": 12,
+          "old_folio": "16",
+          "new_folio": "12",
+          "allowed_regions_source_pt": [
+            [
+              36.65072479248047,
+              24.98577537536621,
+              48.324815368652345,
+              38.732110595703126
+            ],
+            [
+              552.6786254882812,
+              803.9344848632812,
+              565.1878295898438,
+              819.1267944335938
+            ],
+            [
+              556.1919840494792,
+              814.50020673861,
+              581.7314118884859,
+              828.6901058107113
+            ],
+            [
+              35.00072479248047,
+              24.03577537536621,
+              49.974815368652344,
+              40.382110595703125
+            ]
+          ],
+          "header_badge_updated": true
+        },
+        {
+          "page": 13,
+          "old_folio": "21",
+          "new_folio": "13",
+          "allowed_regions_source_pt": [
+            [
+              36.65072479248047,
+              24.98574867248535,
+              48.324815368652345,
+              38.73208389282227
+            ],
+            [
+              552.6786254882812,
+              813.695166015625,
+              565.1878295898438,
+              828.8874755859375
+            ],
+            [
+              556.1919840494792,
+              814.50020673861,
+              581.7314118884859,
+              828.6901058107113
+            ],
+            [
+              35.00072479248047,
+              24.03574867248535,
+              49.974815368652344,
+              40.382083892822266
+            ]
+          ],
+          "header_badge_updated": true
+        },
+        {
+          "page": 14,
+          "old_folio": "22",
+          "new_folio": "14",
+          "allowed_regions_source_pt": [
+            [
+              36.65072479248047,
+              24.98587074279785,
+              48.324815368652345,
+              38.73220596313477
+            ],
+            [
+              552.6786254882812,
+              812.94443359375,
+              565.1878295898438,
+              828.1367431640625
+            ],
+            [
+              556.1919840494792,
+              814.50020673861,
+              581.7314118884859,
+              828.6901058107113
+            ],
+            [
+              35.00072479248047,
+              24.03587074279785,
+              49.974815368652344,
+              40.382205963134766
+            ]
+          ],
+          "header_badge_updated": true
+        },
+        {
+          "page": 15,
+          "old_folio": "23",
+          "new_folio": "15",
+          "allowed_regions_source_pt": [
+            [
+              36.65072479248047,
+              24.98562660217285,
+              48.324815368652345,
+              38.73196182250977
+            ],
+            [
+              552.6786254882812,
+              800.1802734375,
+              565.1878295898438,
+              815.3725830078125
+            ],
+            [
+              556.1919840494792,
+              814.50020673861,
+              581.7314118884859,
+              828.6901058107113
+            ],
+            [
+              35.00072479248047,
+              24.03562660217285,
+              49.974815368652344,
+              40.381961822509766
+            ]
+          ],
+          "header_badge_updated": true
+        }
+      ]
+    },
+    {
+      "label": "flyer",
+      "source": {
+        "document": "oc-approved-20261017",
+        "id": "digital-cover-oc-draft-20261028-pdf",
+        "revision": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464",
+        "file": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-pdf/20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464/digital-cover-oc-draft-20261028-pdf.pdf",
+        "sha256": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464"
+      },
+      "corrected": "downloads/printpack-ready-20261028/intermediate/flyer-corrected-source.pdf",
+      "normalized": "downloads/printpack-ready-20261028/intermediate/flyer-A4-trim-RGB.pdf",
+      "framed": "downloads/printpack-ready-20261028/intermediate/flyer-framed-RGB.pdf",
+      "pages": 2,
+      "media_mm": [
+        230,
+        317
+      ],
+      "trim_mm": [
+        210,
+        297
+      ],
+      "bleed_mm": 3,
+      "folio_changes": []
+    }
+  ],
+  "source_preserved": true,
+  "bleed_method": "PDF edge extension outside trim only",
+  "crop_marks": "K-only, outside3mm bleed",
+  "manual_imposition": false
+}

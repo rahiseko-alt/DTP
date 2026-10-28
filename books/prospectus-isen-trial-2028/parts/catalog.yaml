@@ -266,7 +266,11 @@
     "curriculum-notice-20261028-brochure-jp-r13-a3": "5e3d2d2ec8a6268d74a058d22d98e3cf3217a69ade354e11d74b5ee96815d748",
     "curriculum-notice-20261028-brochure-jp-r13-a4": "b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad",
     "curriculum-notice-20261028-manifest": "4922ee65359158012a5c5774bdbd77c4cb236876ec09d12b4437779e1a85dbe0",
-    "curriculum-notice-20261028-verification": "173a9379211adc92841393b1316a90ec97e92d09a3cb5dd59693a360ce8e8ebf"
+    "curriculum-notice-20261028-verification": "173a9379211adc92841393b1316a90ec97e92d09a3cb5dd59693a360ce8e8ebf",
+    "printpack-20261028-brochure-spec": "bde6c885a65ea1373cc51920bc08b36d68afb7e2bf7a4e1a26a071b12c0391f4",
+    "printpack-20261028-brochure-pdf": "068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb",
+    "printpack-20261028-brochure-preview": "6b8f31d0c55641625741e791993e295728edf54198e79aabcefd2e9da1e10bda",
+    "printpack-20261028-brochure-verification": "3fa1a46693e7e3b2884f17f321c8a218200c8b6edb81d0a3b4b0dc4539ec6979"
   },
   "assets": [
     {
@@ -10036,6 +10040,101 @@
         {
           "id": "curriculum-notice-20261028-brochure-jp-r13-a4",
           "revision": "b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad"
+        }
+      ]
+    },
+    {
+      "id": "printpack-20261028-brochure-spec",
+      "variant": "printpack-ready-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "bde6c885a65ea1373cc51920bc08b36d68afb7e2bf7a4e1a26a071b12c0391f4",
+      "file": "books/prospectus-isen-trial-2028/parts/printpack-20261028-brochure-spec/bde6c885a65ea1373cc51920bc08b36d68afb7e2bf7a4e1a26a071b12c0391f4/printpack-20261028-brochure-spec.json",
+      "sha256": "bde6c885a65ea1373cc51920bc08b36d68afb7e2bf7a4e1a26a071b12c0391f4",
+      "size": 7992,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User explicitly requested upload-ready files for Printpack,operating orders themselves. A4 trim210x297mm,3mm real bleed from original edge rendering,crop marks outside bleed,CMYK Japan Color2011Coated output intent,outlined text/no live fonts,reading order16P brochure/2P flyer. Only brochure pagination/header badges corrected before print conversion;approved content/fees/notices/photos/QR preserved. Exact input receipts and processing spec retained. Print checks passed;factory upload/physical print not performed. Saved print composition,not standard-render release certification.",
+        "recorded_at": "2026-10-28T08:30:11.845Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "printpack-20261028-brochure-pdf",
+      "variant": "printpack-ready-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb",
+      "file": "books/prospectus-isen-trial-2028/parts/printpack-20261028-brochure-pdf/068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb/printpack-20261028-brochure-pdf.pdf",
+      "sha256": "068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb",
+      "size": 140698794,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User explicitly requested upload-ready files for Printpack,operating orders themselves. A4 trim210x297mm,3mm real bleed from original edge rendering,crop marks outside bleed,CMYK Japan Color2011Coated output intent,outlined text/no live fonts,reading order16P brochure/2P flyer. Only brochure pagination/header badges corrected before print conversion;approved content/fees/notices/photos/QR preserved. Exact input receipts and processing spec retained. Print checks passed;factory upload/physical print not performed. Saved print composition,not standard-render release certification.",
+        "recorded_at": "2026-10-28T08:30:14.567Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "printpack-20261028-brochure-spec",
+          "revision": "bde6c885a65ea1373cc51920bc08b36d68afb7e2bf7a4e1a26a071b12c0391f4"
+        },
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13-master",
+          "revision": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74"
+        }
+      ]
+    },
+    {
+      "id": "printpack-20261028-brochure-preview",
+      "variant": "printpack-ready-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "6b8f31d0c55641625741e791993e295728edf54198e79aabcefd2e9da1e10bda",
+      "file": "books/prospectus-isen-trial-2028/parts/printpack-20261028-brochure-preview/6b8f31d0c55641625741e791993e295728edf54198e79aabcefd2e9da1e10bda/printpack-20261028-brochure-preview.jpg",
+      "sha256": "6b8f31d0c55641625741e791993e295728edf54198e79aabcefd2e9da1e10bda",
+      "size": 539286,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User explicitly requested upload-ready files for Printpack,operating orders themselves. A4 trim210x297mm,3mm real bleed from original edge rendering,crop marks outside bleed,CMYK Japan Color2011Coated output intent,outlined text/no live fonts,reading order16P brochure/2P flyer. Only brochure pagination/header badges corrected before print conversion;approved content/fees/notices/photos/QR preserved. Exact input receipts and processing spec retained. Print checks passed;factory upload/physical print not performed. Saved print composition,not standard-render release certification.",
+        "recorded_at": "2026-10-28T08:30:23.634Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "printpack-20261028-brochure-pdf",
+          "revision": "068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb"
+        }
+      ]
+    },
+    {
+      "id": "printpack-20261028-brochure-verification",
+      "variant": "printpack-ready-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "3fa1a46693e7e3b2884f17f321c8a218200c8b6edb81d0a3b4b0dc4539ec6979",
+      "file": "books/prospectus-isen-trial-2028/parts/printpack-20261028-brochure-verification/3fa1a46693e7e3b2884f17f321c8a218200c8b6edb81d0a3b4b0dc4539ec6979/printpack-20261028-brochure-verification.json",
+      "sha256": "3fa1a46693e7e3b2884f17f321c8a218200c8b6edb81d0a3b4b0dc4539ec6979",
+      "size": 4173,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User explicitly requested upload-ready files for Printpack,operating orders themselves. A4 trim210x297mm,3mm real bleed from original edge rendering,crop marks outside bleed,CMYK Japan Color2011Coated output intent,outlined text/no live fonts,reading order16P brochure/2P flyer. Only brochure pagination/header badges corrected before print conversion;approved content/fees/notices/photos/QR preserved. Exact input receipts and processing spec retained. Print checks passed;factory upload/physical print not performed. Saved print composition,not standard-render release certification.",
+        "recorded_at": "2026-10-28T08:30:28.915Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "printpack-20261028-brochure-pdf",
+          "revision": "068458fd1946c3849f4ce0d04b3e56d0de760ebe8ab98e0f515dadaf59695ceb"
         }
       ]
     }

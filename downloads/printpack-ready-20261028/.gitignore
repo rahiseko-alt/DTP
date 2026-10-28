@@ -1,0 +1,6 @@
+intermediate/
+inspection/
+ghostscript-brochure.log
+ghostscript-flyer.log
+# Reproducible full-size review renders; compact overviews and folio checks remain saved.
+previews/*-page-*.png

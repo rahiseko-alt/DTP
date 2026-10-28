@@ -1,0 +1,367 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ICC Profiles
+Source:
+ http://japancolor.jp/icc.html
+ http://web.archive.org/web/20070218091856/http://www.srgb.com/usingsrgb.html
+ https://color.org/black_scaled_2009_srgb.xalter
+ https://color.org/chardata/rgb/rimmrgb.xalter
+ https://color.org/profiles/srgb_appearance.xalter
+ https://color.org/registry/CGATS21_CRPC1.xalter
+ https://color.org/registry/CGATS21_CRPC2.xalter
+ https://color.org/registry/CGATS21_CRPC3.xalter
+ https://color.org/registry/CGATS21_CRPC4.xalter
+ https://color.org/registry/CGATS21_CRPC5.xalter
+ https://color.org/registry/CGATS21_CRPC6.xalter
+ https://color.org/registry/CGATS21_CRPC7.xalter
+ https://color.org/registry/CGATS21_CRPC8.xalter
+ https://color.org/registry/GRACoL2006_Coated1v2.xalter
+ https://color.org/registry/GRACoL2013_CRPC6.xalter
+ https://color.org/registry/GRACoL2013UNC_CRPC3.xalter
+ https://color.org/registry/JapanColor2011Coated.xalter
+ https://color.org/registry/PSOcoated_v3.xalter
+ https://color.org/registry/PSOsc-b_paper_v3_FOGRA54.xalter
+ https://color.org/registry/PSOuncoated_v3_FOGRA52.xalter
+ https://color.org/registry/SC_paper_eci.xalter
+ https://color.org/registry/SWOP2006_Coated3v2.xalter
+ https://color.org/registry/SWOP2006_Coated5v2.xalter
+ https://color.org/registry/SWOP2013C3_CRPC5.xalter
+ https://color.org/srgbprofiles.xalter
+ http://www.eci.org/en/downloads
+
+Files:
+ IDEAlliance/CGATS21_CRPC1.icc
+ IDEAlliance/CGATS21_CRPC2.icc
+ IDEAlliance/CGATS21_CRPC3.icc
+ IDEAlliance/CGATS21_CRPC4.icc
+ IDEAlliance/CGATS21_CRPC5.icc
+ IDEAlliance/CGATS21_CRPC6.icc
+ IDEAlliance/CGATS21_CRPC7.icc
+ IDEAlliance/GRACoL2006_Coated1v2.icc
+ IDEAlliance/GRACoL2013UNC_CRPC3.icc
+ IDEAlliance/GRACoL2013_CRPC6.icc
+ IDEAlliance/SWOP2006_Coated3v2.icc
+ IDEAlliance/SWOP2006_Coated5v2.icc
+ IDEAlliance/SWOP2013C3_CRPC5.icc
+Copyright:
+  X-Rite, Inc. <http://www.xrite.com/>
+License: IDEAlliance
+Reference:
+ https://color.org/registry/CGATS21_CRPC1.xalter
+ https://color.org/registry/CGATS21_CRPC2.xalter
+ https://color.org/registry/CGATS21_CRPC3.xalter
+ https://color.org/registry/CGATS21_CRPC4.xalter
+ https://color.org/registry/CGATS21_CRPC5.xalter
+ https://color.org/registry/CGATS21_CRPC6.xalter
+ https://color.org/registry/CGATS21_CRPC7.xalter
+ https://color.org/registry/CGATS21_CRPC8.xalter
+ https://color.org/registry/GRACoL2006_Coated1v2.xalter
+ https://color.org/registry/GRACoL2013UNC_CRPC3.xalter
+ https://color.org/registry/GRACoL2013_CRPC6.xalter
+ https://color.org/registry/SWOP2006_Coated3v2.xalter
+ https://color.org/registry/SWOP2006_Coated5v2.xalter
+ https://color.org/registry/SWOP2013C3_CRPC5.xalter
+Comment:
+ License is embedded in Profile Copyright field,
+ extractable e.g. using exiftool.
+
+Files:
+ JPMA/JapanColor2011Coated.icc
+Copyright:
+  X-Rite, Inc. <http://www.xrite.com/>
+License: JPMA
+Reference:
+ https://color.org/registry/JapanColor2011Coated.xalter
+Comment:
+ Files do not contain license statement.
+ License is available at referenced web pages.
+
+Files:
+ ECI/PSOsc-b_paper_v3_FOGRA54.icc
+ ECI/SC_paper_eci.icc
+Copyright:
+  2000-2016  Heidelberger Druckmaschinen AG
+License: ECI
+Reference:
+ https://color.org/registry/PSOsc-b_paper_v3_FOGRA54.xalter
+ https://color.org/registry/SC_paper_eci.xalter
+Comment:
+ Files do not contain license statement.
+ License is available at referenced web pages.
+
+Files:
+ ECI/ISOcoated_v2_to_PSOcoated_v3_DeviceLink.icc
+ ECI/PSO_Coated_300_NPscreen_ISO12647_eci.icc
+ ECI/PSO_Coated_NPscreen_ISO12647_eci.icc
+ ECI/PSO_Coated_v3_Glossy_laminate.icc
+ ECI/PSO_Coated_v3_Matte_laminate.icc
+ ECI/PSO_LWC_Improved_eci.icc
+ ECI/PSO_LWC_Standard_eci.icc
+ ECI/PSO_MFC_Paper_eci.icc
+ ECI/PSO_SNP_Paper_eci.icc
+ ECI/PSO_Uncoated_ISO12647_eci.icc
+ ECI/PSO_Uncoated_NPscreen_ISO12647_eci.icc
+ ECI/PSOcoated_v3.icc
+ ECI/PSOcoated_v3_to_ISOcoated_v2_DeviceLink.icc
+ ECI/PSOuncoated_v3_FOGRA52.icc
+ ECI/PSR_LWC_PLUS_V2_PT.icc
+ ECI/PSR_LWC_STD_V2_PT.icc
+ ECI/PSR_SC_PLUS_V2_PT.icc
+ ECI/PSR_SC_STD_V2_PT.icc
+Copyright:
+  2000-2009, 2015, 2020  Heidelberger Druckmaschinen AG
+License: ECI
+Reference:
+ https://color.org/registry/PSOcoated_v3.xalter
+ https://color.org/registry/PSOuncoated_v3_FOGRA52.xalter
+Comment:
+ License is embedded in Profile Copyright field,
+ extractable e.g. using exiftool.
+
+Files:
+ ECI/eciRGB_v2.icc
+ ECI/eciRGB_v2_ICCv4.icc
+Copyright:
+  2007  Color Solutions
+License: eciRGBv2
+Reference: ECI/licence.rtf
+
+Files:
+ color.org/ISO22028-3_RIMM-RGB-exCR.icc
+ color.org/linear_RIMM-RGB_v4.icc
+Copyright:
+  2007  Hewlett Packard
+License: ICC
+Reference:
+ https://color.org/chardata/rgb/rimmrgb.xalter
+
+Files:
+ color.org/sRGB_v4_ICC_preference.icc
+ color.org/sRGB_v4_ICC_preference_displayclass.icc
+Copyright:
+  2007  International Color Consortium <icc_users@lists.color.org>
+License: ICC~v4-preference
+Reference:
+ https://color.org/srgbprofiles.xalter
+
+Files:
+ color.org/sRGB_IEC61966-2-1_black_scaled.icc
+ color.org/sRGB_IEC61966-2-1_no_black_scaling.icc
+Copyright:
+  2009  International Color Consortium <icc_users@lists.color.org>
+License: ICC~legacy
+Reference:
+ https://color.org/black_scaled_2009_srgb.xalter
+
+Files:
+ IDEAlliance/PrintWide2020*Idealliance.icc
+Copyright:
+        ColorLogic GmbH.
+  2020  Idealliance
+License: IDEAlliance~PRINTING~ColorLogic
+Comment:
+ License is embedded in Profile Copyright field,
+ extractable e.g. using exiftool.
+
+Files:
+ IDEAlliance/XCMYK*2017.icc
+Copyright:
+  ColorLogic GmbH.
+License: IDEAlliance~ColorLogic
+Comment:
+ License is embedded in Profile Copyright field,
+ extractable e.g. using exiftool.
+
+Files:
+ color.org/sRGB_ICC_v4_Appearance.icc
+Copyright:
+  2010-2016  Fuji Xerox Co., Ltd.
+License: ICC~v4-appearance
+Reference:
+ https://color.org/profiles/srgb_appearance.xalter
+
+Files:
+ HP/sRGB.icm
+Copyright:
+  Hewlett-Packard Company
+License: sRGB
+Reference:
+ <http://web.archive.org/web/20020603153925/srgb.com/usingsrgb.html>
+
+Files: debian/*
+Copyright:
+  2017, 2020-2023, 2026  Jonas Smedegaard <dr@jones.dk>
+  2005-2012              Oleksandr Moskalenko <malex@debian.org>
+  2020-2021              Purism, SPC
+License-Grant:
+ This program is free software:
+ you can redistribute it and/or modify it
+ under the terms of the GNU General Public License
+ as published by the Free Software Foundation;
+ either version 3, or (at your option) any later version.
+License: GPL-3+
+Reference: debian/copyright
+
+License: IDEAlliance
+ This profile is made available by IDEAlliance®,
+ with permission of X-Rite, Inc.,
+ and may be used, embedded, exchanged, and shared without restriction.
+ It may not be altered, or sold
+ without written permission of IDEAlliance.
+
+License: IDEAlliance~PRINTING~ColorLogic
+ made available by PRINTING United Alliance,
+ d/b/a Idealliance (www.idealliance.org),
+ with permission of ColorLogic GmbH,
+ and may be used, embedded, exchanged, and shared without restriction.
+ It may not be altered or sold
+ without the prior written permission of Idealliance.
+
+License: IDEAlliance~ColorLogic
+ This profile is made available by IDEAlliance,
+ with permission of ColorLogic GmbH,
+ and may be used, embedded, exchanged, and shared without restriction.
+
+License: JPMA
+ This profile is made available by JPMA,
+ with permission of X-Rite, Incorporated
+ and may be used, embedded, exchanged, and shared without restriction.
+ However, it may not be altered, or sold
+ (whether standing alone or incorporated into commercial products)
+ without written permission of X-Rite.
+
+License: ICC
+ To anyone who acknowledges
+ that the profiles below
+ are provided "AS IS"
+ WITH NO EXPRESS OR IMPLIED WARRANTY,
+ permission to use, copy and distribute these file for any purpose
+ is hereby granted without fee,
+ provided that the files are not changed
+ including the ICC copyright notice tag,
+ and that the name of ICC shall not be used
+ in advertising or publicity pertaining to distribution of the software
+ without specific, written prior permission.
+ ICC makes no representations
+ about the suitability of this software for any purpose.
+
+License: ICC~v4-appearance
+ To anyone who acknowledges
+ that the file "sRGB_ICC_v4_Appearance.icc" is provided "AS IS"
+ WITH NO EXPRESS OR IMPLIED WARRANTY,
+ permission to use, copy and distribute these file for any purpose
+ is hereby granted without fee,
+ provided that the files are not changed
+ including the ICC copyright notice tag,
+ and that the name of ICC shall not be used
+ in advertising or publicity pertaining to distribution of the software
+ without specific, written prior permission.
+ ICC makes no representations
+ about the suitability of this software for any purpose.
+
+License: ICC~v4-preference
+ To anyone who acknowledges
+ that the file "sRGB_v4_ICC_preference.icc" is provided "AS IS"
+ WITH NO EXPRESS OR IMPLIED WARRANTY,
+ permission to use, copy and distribute this file for any purpose
+ is hereby granted without fee,
+ provided that the file is not changed
+ including the ICC copyright notice tag,
+ and that the name of ICC shall not be used
+ in advertising or publicity pertaining to distribution of the software
+ without specific, written prior permission.
+ ICC makes no representations
+ about the suitability of this software for any purpose.
+
+License: ICC~legacy
+ To anyone who acknowledges
+ that the files "sRGB_IEC61966-2-1_no_black_scaling.icc"
+ and "sRGB_IEC61966-2-1_black scaled.icc"
+ are provided "AS IS"
+ WITH NO EXPRESS OR IMPLIED WARRANTY,
+ permission to use, copy and distribute these file for any purpose
+ is hereby granted without fee,
+ provided that the files are not changed
+ including the ICC copyright notice tag,
+ and that the name of ICC shall not be used
+ in advertising or publicity pertaining to distribution of the software
+ without specific, written prior permission.
+ ICC makes no representations
+ about the suitability of this software for any purpose.
+
+License: ECI
+ This profile is made available by ECI European Color Initiative,
+ with permission of Heidelberger Druckmaschinen AG,
+ and may be used, embedded, exchanged, and shared without restriction.
+ It may not be altered or sold
+ without written permission of ECI European Color Initiative.
+
+License: eciRGBv2
+ Use of the PROFILE as well as redistribution of the PROFILE
+ are permitted
+ under the following conditions:
+  1. The PROFILE shall not be modified.
+     The copyright notice embedded in the PROFILE
+     must always be maintained.
+  2. The PROFILE may be used free of charge.
+  3. The PROFILE may be distributed
+     as long as no fee is charged for the PROFILE.
+     Where the PROFILE is distributed
+     as part of a commercial product or service,
+     the fee for such product or service shall be the same
+     as if the product or service were offered without the PROFILE.
+  4. Whenever the PROFILE is redistributed
+     this LICENSE must be distributed together with the PROFILE.
+     Nevertheless, if the PROFILE is distributed
+     embedded into production data -
+     like for example, but not limited to,
+     inside Photoshop, TIFF, JPEG or PDF files -
+     it is not required
+     that this LICENSE be distributed together with the PROFILE.
+  5. The names "eciRGB", "eciRGB_v2", "ECI"
+     and "European Color Initiative"
+     or any variation thereof
+     shall not be used to endorse or promote products
+     which make use of the PROFILE or which support the PROFILE
+     without prior written permission
+     from the European Color Initiative (ECI; www.eci.org).
+  6. The names "Color Solutions" or "Color Solutions Software"
+     or any variation thereof
+     shall not be used to endorse or promote products
+     which make use of the PROFILE
+     without prior written permission from Color Solutions.
+ .
+ THIS PROFILE IS PROVIDED "AS IS"
+ AND ANY EXPRESSED OR IMPLIED WARRANTIES,
+ INCLUDING, BUT NOT LIMITED TO,
+ THE IMPLIED WARRANTIES OF MERCHANTABILITY
+ AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.
+ IN NO EVENT SHALL COLOR SOLUTIONS SOFTWARE BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS;
+ OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS PROFILE,
+ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: sRGB
+ Profile Licensing Agreement: To anyone who acknowledges
+ that the file "sRGB Color Space Profile.icm" is provided "AS IS"
+ WITH NO EXPRESS OR IMPLIED WARRANTY:
+ permission to use, copy and distribute this file for any purpose
+ is hereby granted without fee,
+ provided that the file is not changed
+ including the HP copyright notice tag,
+ and that the name of Hewlett-Packard Company not be used
+ in advertising or publicity pertaining to distribution of the software
+ without specific, written prior permission.
+ Hewlett-Packard Company makes no representations
+ about the suitability of this software for any purpose.
+
+License: GPL-3+
+Reference: /usr/share/common-licenses/GPL-3

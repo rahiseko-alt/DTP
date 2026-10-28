@@ -1,0 +1,19 @@
+{
+  "verified": true,
+  "outputs": [
+    {
+      "label": "brochure",
+      "pages": 16,
+      "outside_folio_pixels_identical_150dpi": true,
+      "original_image_streams_preserved": true,
+      "fees_and_approved_notes_preserved": true
+    },
+    {
+      "label": "flyer",
+      "pages": 2,
+      "outside_folio_pixels_identical_150dpi": true,
+      "original_image_streams_preserved": true,
+      "fees_and_approved_notes_preserved": true
+    }
+  ]
+}

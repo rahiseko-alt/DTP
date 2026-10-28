@@ -1,0 +1,92 @@
+{
+  "file": "downloads/flyer-cover-digital-oc-draft-20261028/output/flyer-cover-digital-oc-draft-20261028.pdf",
+  "sha256": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464",
+  "pages": [
+    {
+      "page": 1,
+      "size_mm": [
+        210.0,
+        297.0
+      ],
+      "trim_mm": [
+        210.0,
+        297.0
+      ],
+      "bleed_box": [
+        "null",
+        "null"
+      ],
+      "media_box": [
+        "array",
+        "[0 0 595.2756 841.8898]"
+      ],
+      "trim_box": [
+        "null",
+        "null"
+      ]
+    },
+    {
+      "page": 2,
+      "size_mm": [
+        210.0,
+        297.0
+      ],
+      "trim_mm": [
+        210.0,
+        297.0
+      ],
+      "bleed_box": [
+        "null",
+        "null"
+      ],
+      "media_box": [
+        "array",
+        "[0 0 595.2756 841.8898]"
+      ],
+      "trim_box": [
+        "null",
+        "null"
+      ]
+    }
+  ],
+  "unembedded_fonts": [
+    {
+      "basefont": "Helvetica",
+      "embedded": false
+    },
+    {
+      "basefont": "Helvetica",
+      "embedded": false
+    }
+  ],
+  "Helvetica_usage": [
+    {
+      "page": 2,
+      "text": "Artificial Intelligence Business College"
+    },
+    {
+      "page": 2,
+      "text": "Artificial Intelligence Business College"
+    }
+  ],
+  "print_product": "チラシ・フライヤー印刷",
+  "recommended_order": {
+    "size": "A4",
+    "sides_and_color": "両面4色",
+    "paper": "コート90（冊子と揃える場合）",
+    "binding": "なし",
+    "folding": "なし",
+    "quantity": "未指定、冊子と同数なら100部"
+  },
+  "QR_verification": [
+    150,
+    300
+  ],
+  "submission_ready": false,
+  "notes": [
+    "no3mm bleed",
+    "unembedded Helvetica used on OC back",
+    "generated PDF,not Illustrator-authored",
+    "do not place order or upload without explicit user instruction"
+  ]
+}
