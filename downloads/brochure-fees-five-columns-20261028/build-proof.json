@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-28",
+  "columns": [
+    "年次・時期",
+    "授業料",
+    "諸経費",
+    "施設設備費",
+    "合計"
+  ],
+  "outputs": [
+    {
+      "label": "brochure-original",
+      "document": "prospectus-isen-trial-2028",
+      "kind": "reading",
+      "file": "downloads/brochure-fees-five-columns-20261028/output/brochure-original-facility-five-columns-20261028.pdf",
+      "sha256": "d5d61ca35832584c12412f0c5fcf7df5cc8ffd88300958111a86b2664bcfafe8",
+      "bytes": 113670477,
+      "pages": 16,
+      "changed_page": 13,
+      "table_rect_pt": [
+        31.416460037,
+        378.91418457,
+        564.50213623,
+        515.564331055
+      ],
+      "changed_rect_pt": [
+        30.416460037,
+        376.41418457,
+        565.50213623,
+        516.564331055
+      ],
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-original/f8349e4430206d583356d8eab5c9372e253f8091ae007c1f2e7550241f6b08da/tuition-20261027-brochure-original.pdf",
+        "id": "tuition-20261027-brochure-original",
+        "revision": "f8349e4430206d583356d8eab5c9372e253f8091ae007c1f2e7550241f6b08da",
+        "sha256": "f8349e4430206d583356d8eab5c9372e253f8091ae007c1f2e7550241f6b08da"
+      }
+    },
+    {
+      "label": "brochure-original-A3",
+      "document": "prospectus-isen-trial-2028",
+      "kind": "print-a3",
+      "file": "downloads/brochure-fees-five-columns-20261028/output/brochure-original-A3-facility-five-columns-20261028.pdf",
+      "sha256": "1be6c50461d739f68b3bd2577feba7718646efa75b5316ac41d96fd82da1cf09",
+      "bytes": 4251062,
+      "pages": 8,
+      "changed_page": 4,
+      "table_rect_pt": [
+        626.6820693303067,
+        378.46913742186814,
+        1159.1416188973826,
+        514.9587838241015
+      ],
+      "changed_rect_pt": [
+        625.683243863133,
+        375.9720737539339,
+        1160.1404443645563,
+        515.9576092912752
+      ],
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-original-a3/71518e95a7c5839f3e9fef320dad162d40d52030f4d87f96371afac5d6068895/tuition-20261027-brochure-original-a3.pdf",
+        "id": "tuition-20261027-brochure-original-a3",
+        "revision": "71518e95a7c5839f3e9fef320dad162d40d52030f4d87f96371afac5d6068895",
+        "sha256": "71518e95a7c5839f3e9fef320dad162d40d52030f4d87f96371afac5d6068895"
+      }
+    },
+    {
+      "label": "brochure-original-A4",
+      "document": "prospectus-isen-trial-2028",
+      "kind": "print-a4",
+      "file": "downloads/brochure-fees-five-columns-20261028/output/brochure-original-A4-facility-five-columns-20261028.pdf",
+      "sha256": "6a103fe83142f8140db3195677b5cdabb0cc0ccc4b3ff53c22f2b5598ece370d",
+      "bytes": 2887973,
+      "pages": 8,
+      "changed_page": 4,
+      "table_rect_pt": [
+        443.17239866632946,
+        267.606356284595,
+        819.6616439961357,
+        364.11487793866206
+      ],
+      "changed_rect_pt": [
+        442.4661533812967,
+        265.8407430720131,
+        820.3678892811685,
+        364.8211232236948
+      ],
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-original-a4/f6bdd728f68c875645794eee08cfa970bf87d8fc494ba5f37a26ab6c18f81c74/tuition-20261027-brochure-original-a4.pdf",
+        "id": "tuition-20261027-brochure-original-a4",
+        "revision": "f6bdd728f68c875645794eee08cfa970bf87d8fc494ba5f37a26ab6c18f81c74",
+        "sha256": "f6bdd728f68c875645794eee08cfa970bf87d8fc494ba5f37a26ab6c18f81c74"
+      }
+    },
+    {
+      "label": "brochure-jp-r13",
+      "document": "prospectus-isen-trial-2028",
+      "kind": "reading",
+      "file": "downloads/brochure-fees-five-columns-20261028/output/brochure-jp-r13-facility-five-columns-20261028.pdf",
+      "sha256": "36249ae34101c86701565cf2724f0ca17d8bbc8839d5d0174bc800f6991009cd",
+      "bytes": 7029924,
+      "pages": 16,
+      "changed_page": 13,
+      "table_rect_pt": [
+        31.416460037,
+        378.91418457,
+        564.50213623,
+        515.564331055
+      ],
+      "changed_rect_pt": [
+        30.416460037,
+        376.41418457,
+        565.50213623,
+        516.564331055
+      ],
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r13/41fad71a1269b9834d14834dd77e67d1044559390ffc2c388a3f953a238f00e6/tuition-20261027-brochure-jp-r13.pdf",
+        "id": "tuition-20261027-brochure-jp-r13",
+        "revision": "41fad71a1269b9834d14834dd77e67d1044559390ffc2c388a3f953a238f00e6",
+        "sha256": "41fad71a1269b9834d14834dd77e67d1044559390ffc2c388a3f953a238f00e6"
+      }
+    },
+    {
+      "label": "brochure-jp-r13-master",
+      "document": "prospectus-isen-trial-2028",
+      "kind": "master",
+      "file": "downloads/brochure-fees-five-columns-20261028/output/brochure-jp-r13-master-facility-five-columns-20261028.pdf",
+      "sha256": "163be874537da01a6eae35ec42f024bd72ea4f8d8951c8ee79577f5f391f3333",
+      "bytes": 126199275,
+      "pages": 16,
+      "changed_page": 13,
+      "table_rect_pt": [
+        31.416460037,
+        378.91418457,
+        564.50213623,
+        515.564331055
+      ],
+      "changed_rect_pt": [
+        30.416460037,
+        376.41418457,
+        565.50213623,
+        516.564331055
+      ],
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r13-master/5a997b671abd38980d2f251426a902967c3fc45d92ecf23bd500a58d2a9e6246/tuition-20261027-brochure-jp-r13-master.pdf",
+        "id": "tuition-20261027-brochure-jp-r13-master",
+        "revision": "5a997b671abd38980d2f251426a902967c3fc45d92ecf23bd500a58d2a9e6246",
+        "sha256": "5a997b671abd38980d2f251426a902967c3fc45d92ecf23bd500a58d2a9e6246"
+      }
+    },
+    {
+      "label": "brochure-jp-r13-A3",
+      "document": "prospectus-isen-trial-2028",
+      "kind": "print-a3",
+      "file": "downloads/brochure-fees-five-columns-20261028/output/brochure-jp-r13-A3-facility-five-columns-20261028.pdf",
+      "sha256": "3e43821dd810292b7bd5b261de3f732c02fa07fe9d3254ddb05d63524faa94d9",
+      "bytes": 4338511,
+      "pages": 8,
+      "changed_page": 4,
+      "table_rect_pt": [
+        626.6820693303067,
+        378.46913742186814,
+        1159.1416188973826,
+        514.9587838241015
+      ],
+      "changed_rect_pt": [
+        625.683243863133,
+        375.9720737539339,
+        1160.1404443645563,
+        515.9576092912752
+      ],
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r13-a3/fd40b87489d92243c9c2dac348adbc4dbe7fbd20d4013625f6be1eaf641d33c6/tuition-20261027-brochure-jp-r13-a3.pdf",
+        "id": "tuition-20261027-brochure-jp-r13-a3",
+        "revision": "fd40b87489d92243c9c2dac348adbc4dbe7fbd20d4013625f6be1eaf641d33c6",
+        "sha256": "fd40b87489d92243c9c2dac348adbc4dbe7fbd20d4013625f6be1eaf641d33c6"
+      }
+    },
+    {
+      "label": "brochure-jp-r13-A4",
+      "document": "prospectus-isen-trial-2028",
+      "kind": "print-a4",
+      "file": "downloads/brochure-fees-five-columns-20261028/output/brochure-jp-r13-A4-facility-five-columns-20261028.pdf",
+      "sha256": "cdb3008aca21caccd523129da32a0d044e355cdad0f383efd46f5214fee2cc24",
+      "bytes": 2936075,
+      "pages": 8,
+      "changed_page": 4,
+      "table_rect_pt": [
+        443.17239866632946,
+        267.606356284595,
+        819.6616439961357,
+        364.11487793866206
+      ],
+      "changed_rect_pt": [
+        442.4661533812967,
+        265.8407430720131,
+        820.3678892811685,
+        364.8211232236948
+      ],
+      "source": {
+        "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r13-a4/52cb7f1e3f7b0f5386bcf6b4671c56ae49d121e78360571cc400194104a5bec1/tuition-20261027-brochure-jp-r13-a4.pdf",
+        "id": "tuition-20261027-brochure-jp-r13-a4",
+        "revision": "52cb7f1e3f7b0f5386bcf6b4671c56ae49d121e78360571cc400194104a5bec1",
+        "sha256": "52cb7f1e3f7b0f5386bcf6b4671c56ae49d121e78360571cc400194104a5bec1"
+      }
+    }
+  ],
+  "release": false
+}

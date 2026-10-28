@@ -1,0 +1,120 @@
+{
+  "verified": true,
+  "outputs": [
+    {
+      "label": "brochure-original",
+      "sha256": "d5d61ca35832584c12412f0c5fcf7df5cc8ffd88300958111a86b2664bcfafe8",
+      "page_faces": 16,
+      "outside_table_pixels_identical": true,
+      "outside_table_native_glyphs_fonts_positions_identical": true,
+      "all_original_image_streams_identical": true,
+      "columns": [
+        "年次・時期1年次・前期1年次・後期1年次・施設設備費（年額）2年次・前期2年次・後期2年次・施設設備費（年額）",
+        "授業料390,000390,000—390,000390,000—",
+        "諸経費50,0000—50,0000—",
+        "施設設備費——50,000——50,000",
+        "合計440,000390,00050,000440,000390,00050,000"
+      ],
+      "facility_fee_is_annual_not_assigned_to_terms": true
+    },
+    {
+      "label": "brochure-original-A3",
+      "sha256": "1be6c50461d739f68b3bd2577feba7718646efa75b5316ac41d96fd82da1cf09",
+      "page_faces": 8,
+      "outside_table_pixels_identical": true,
+      "outside_table_native_glyphs_fonts_positions_identical": true,
+      "all_original_image_streams_identical": true,
+      "columns": [
+        "年次・時期1年次・前期1年次・後期1年次・施設設備費（年額）2年次・前期2年次・後期2年次・施設設備費（年額）",
+        "授業料390,000390,000—390,000390,000—",
+        "諸経費50,0000—50,0000—",
+        "施設設備費——50,000——50,000",
+        "合計440,000390,00050,000440,000390,00050,000"
+      ],
+      "facility_fee_is_annual_not_assigned_to_terms": true
+    },
+    {
+      "label": "brochure-original-A4",
+      "sha256": "6a103fe83142f8140db3195677b5cdabb0cc0ccc4b3ff53c22f2b5598ece370d",
+      "page_faces": 8,
+      "outside_table_pixels_identical": true,
+      "outside_table_native_glyphs_fonts_positions_identical": true,
+      "all_original_image_streams_identical": true,
+      "columns": [
+        "年次・時期1年次・前期1年次・後期1年次・施設設備費（年額）2年次・前期2年次・後期2年次・施設設備費（年額）",
+        "授業料390,000390,000—390,000390,000—",
+        "諸経費50,0000—50,0000—",
+        "施設設備費——50,000——50,000",
+        "合計440,000390,00050,000440,000390,00050,000"
+      ],
+      "facility_fee_is_annual_not_assigned_to_terms": true
+    },
+    {
+      "label": "brochure-jp-r13",
+      "sha256": "36249ae34101c86701565cf2724f0ca17d8bbc8839d5d0174bc800f6991009cd",
+      "page_faces": 16,
+      "outside_table_pixels_identical": true,
+      "outside_table_native_glyphs_fonts_positions_identical": true,
+      "all_original_image_streams_identical": true,
+      "columns": [
+        "年次・時期1年次・前期1年次・後期1年次・施設設備費（年額）2年次・前期2年次・後期2年次・施設設備費（年額）",
+        "授業料390,000390,000—390,000390,000—",
+        "諸経費50,0000—50,0000—",
+        "施設設備費——50,000——50,000",
+        "合計440,000390,00050,000440,000390,00050,000"
+      ],
+      "facility_fee_is_annual_not_assigned_to_terms": true
+    },
+    {
+      "label": "brochure-jp-r13-master",
+      "sha256": "163be874537da01a6eae35ec42f024bd72ea4f8d8951c8ee79577f5f391f3333",
+      "page_faces": 16,
+      "outside_table_pixels_identical": true,
+      "outside_table_native_glyphs_fonts_positions_identical": true,
+      "all_original_image_streams_identical": true,
+      "columns": [
+        "年次・時期1年次・前期1年次・後期1年次・施設設備費（年額）2年次・前期2年次・後期2年次・施設設備費（年額）",
+        "授業料390,000390,000—390,000390,000—",
+        "諸経費50,0000—50,0000—",
+        "施設設備費——50,000——50,000",
+        "合計440,000390,00050,000440,000390,00050,000"
+      ],
+      "facility_fee_is_annual_not_assigned_to_terms": true
+    },
+    {
+      "label": "brochure-jp-r13-A3",
+      "sha256": "3e43821dd810292b7bd5b261de3f732c02fa07fe9d3254ddb05d63524faa94d9",
+      "page_faces": 8,
+      "outside_table_pixels_identical": true,
+      "outside_table_native_glyphs_fonts_positions_identical": true,
+      "all_original_image_streams_identical": true,
+      "columns": [
+        "年次・時期1年次・前期1年次・後期1年次・施設設備費（年額）2年次・前期2年次・後期2年次・施設設備費（年額）",
+        "授業料390,000390,000—390,000390,000—",
+        "諸経費50,0000—50,0000—",
+        "施設設備費——50,000——50,000",
+        "合計440,000390,00050,000440,000390,00050,000"
+      ],
+      "facility_fee_is_annual_not_assigned_to_terms": true
+    },
+    {
+      "label": "brochure-jp-r13-A4",
+      "sha256": "cdb3008aca21caccd523129da32a0d044e355cdad0f383efd46f5214fee2cc24",
+      "page_faces": 8,
+      "outside_table_pixels_identical": true,
+      "outside_table_native_glyphs_fonts_positions_identical": true,
+      "all_original_image_streams_identical": true,
+      "columns": [
+        "年次・時期1年次・前期1年次・後期1年次・施設設備費（年額）2年次・前期2年次・後期2年次・施設設備費（年額）",
+        "授業料390,000390,000—390,000390,000—",
+        "諸経費50,0000—50,0000—",
+        "施設設備費——50,000——50,000",
+        "合計440,000390,00050,000440,000390,00050,000"
+      ],
+      "facility_fee_is_annual_not_assigned_to_terms": true
+    }
+  ],
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false
+}
