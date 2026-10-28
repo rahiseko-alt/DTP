@@ -1,0 +1,22 @@
+[
+  {
+    "label": "パンフレット",
+    "url": "https://drive.google.com/file/d/1Flb0l-VlY3PrHbKhjS0bm99pg_OBdtXo/view?usp=drive_link",
+    "error_correction": "H",
+    "version": 9,
+    "modules": 53,
+    "quiet_zone_modules": 4,
+    "crest_source": "700bb302dde389f7deb314a6a3fd6bb44b2ab15dfa78d9248b3663ab1e32dbd3",
+    "physical_size_mm": 36
+  },
+  {
+    "label": "募集要項・願書",
+    "url": "https://drive.google.com/file/d/1wfbfRXTMtNotX3-1zaVgLdGH7DXI5xDZ/view?usp=drive_link",
+    "error_correction": "H",
+    "version": 9,
+    "modules": 53,
+    "quiet_zone_modules": 4,
+    "crest_source": "700bb302dde389f7deb314a6a3fd6bb44b2ab15dfa78d9248b3663ab1e32dbd3",
+    "physical_size_mm": 36
+  }
+]

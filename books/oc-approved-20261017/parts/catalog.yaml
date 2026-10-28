@@ -96,7 +96,18 @@
     "jp-oc-three-r5-pdf": "5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5",
     "jp-oc-three-r5-back": "7e30832219c64fcd9d3c2b71f4ca17ab15e5efebd2e1e89557f23475fab99bce",
     "jp-oc-english-r6-pdf": "49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee",
-    "jp-oc-english-r6-front": "ff16163bf2fb75f2c9b7b487d7f9d1c95322fc835d2ec8182e0de89a350f3d1f"
+    "jp-oc-english-r6-front": "ff16163bf2fb75f2c9b7b487d7f9d1c95322fc835d2ec8182e0de89a350f3d1f",
+    "digital-cover-oc-draft-20261028-sources": "addb0c55b5c00c67722c80f89c8fbd17dd8a7de11f0b22c093382fd274c32d0b",
+    "digital-cover-oc-draft-20261028-links": "38c61462145492c78eff11ee552fb44f34a87f2d9fb44e4433b72ac90d42a5f0",
+    "digital-cover-oc-draft-20261028-renderer": "59c1014198a498dc3116dbc7f6149d510c01759b38e7c3b1c96869e39fbb216f",
+    "digital-cover-oc-draft-20261028-builder": "72e27928ca5c71cf6613dcd7d8e639c670e9bec9c3f950e3362ea2962f36828f",
+    "digital-cover-oc-draft-20261028-qr-1": "fd0662c9496f4badf8aabd3c1b6676f2f0b8ea889e1e707aac1b5af5fb78b1ce",
+    "digital-cover-oc-draft-20261028-qr-2": "919706e3e7bedde5a2f51407631e7340d63c4e34d96e784f2f6158b0c417a904",
+    "digital-cover-oc-draft-20261028-front-overlay": "4325d546bb41e7672e75db321c40bbd3f238ade73362e092b38930f699497e9e",
+    "digital-cover-oc-draft-20261028-pdf": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464",
+    "digital-cover-oc-draft-20261028-preview": "9b37a0785ed04d2e1ddfaab2b201f458815bb1e4274ac3de0cca46e4f489a971",
+    "digital-cover-oc-draft-20261028-verification": "411c04575656073ee5b1702b6a3c4b1ccd1f799e5f7fb3e42341ab61f6c719be",
+    "digital-cover-oc-draft-20261028-build-proof": "348717463680b1061d9e52422784f81c486789ff5cf9010d17dcc3d91f686c9c"
   },
   "assets": [
     {
@@ -2494,6 +2505,316 @@
         {
           "id": "jp-oc-english-r6-pdf",
           "revision": "49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee"
+        }
+      ]
+    },
+    {
+      "id": "digital-cover-oc-draft-20261028-sources",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "addb0c55b5c00c67722c80f89c8fbd17dd8a7de11f0b22c093382fd274c32d0b",
+      "file": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-sources/addb0c55b5c00c67722c80f89c8fbd17dd8a7de11f0b22c093382fd274c32d0b/digital-cover-oc-draft-20261028-sources.json",
+      "sha256": "addb0c55b5c00c67722c80f89c8fbd17dd8a7de11f0b22c093382fd274c32d0b",
+      "size": 4641,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User requested a visual flyer proposal:front=current brochure cover with large digital brochure/application call to action and school-logo QR,back=OC. Two supplied Drive URLs mapped by user confirmation. Native typography/vector QR with official existing crest; no new image generation. Current Japanese R13 cover and R06 OC front retrieved by managed CLI. Back is pixel-identical to R06 OC front. Both logo QRs decode in final PDF at150/300dpi. Draft only; current flyer/index/distribution ZIPs unchanged. Drive permission/content unverified due environment proxy403; no release or adoption asserted.",
+        "recorded_at": "2026-10-28T03:52:37.083Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "digital-cover-oc-draft-20261028-links",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "38c61462145492c78eff11ee552fb44f34a87f2d9fb44e4433b72ac90d42a5f0",
+      "file": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-links/38c61462145492c78eff11ee552fb44f34a87f2d9fb44e4433b72ac90d42a5f0/digital-cover-oc-draft-20261028-links.json",
+      "sha256": "38c61462145492c78eff11ee552fb44f34a87f2d9fb44e4433b72ac90d42a5f0",
+      "size": 492,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User requested a visual flyer proposal:front=current brochure cover with large digital brochure/application call to action and school-logo QR,back=OC. Two supplied Drive URLs mapped by user confirmation. Native typography/vector QR with official existing crest; no new image generation. Current Japanese R13 cover and R06 OC front retrieved by managed CLI. Back is pixel-identical to R06 OC front. Both logo QRs decode in final PDF at150/300dpi. Draft only; current flyer/index/distribution ZIPs unchanged. Drive permission/content unverified due environment proxy403; no release or adoption asserted.",
+        "recorded_at": "2026-10-28T03:52:38.243Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    },
+    {
+      "id": "digital-cover-oc-draft-20261028-renderer",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "59c1014198a498dc3116dbc7f6149d510c01759b38e7c3b1c96869e39fbb216f",
+      "file": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-renderer/59c1014198a498dc3116dbc7f6149d510c01759b38e7c3b1c96869e39fbb216f/digital-cover-oc-draft-20261028-renderer.mjs",
+      "sha256": "59c1014198a498dc3116dbc7f6149d510c01759b38e7c3b1c96869e39fbb216f",
+      "size": 5277,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User requested a visual flyer proposal:front=current brochure cover with large digital brochure/application call to action and school-logo QR,back=OC. Two supplied Drive URLs mapped by user confirmation. Native typography/vector QR with official existing crest; no new image generation. Current Japanese R13 cover and R06 OC front retrieved by managed CLI. Back is pixel-identical to R06 OC front. Both logo QRs decode in final PDF at150/300dpi. Draft only; current flyer/index/distribution ZIPs unchanged. Drive permission/content unverified due environment proxy403; no release or adoption asserted.",
+        "recorded_at": "2026-10-28T03:52:39.433Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "digital-cover-oc-draft-20261028-sources",
+          "revision": "addb0c55b5c00c67722c80f89c8fbd17dd8a7de11f0b22c093382fd274c32d0b"
+        },
+        {
+          "id": "digital-cover-oc-draft-20261028-links",
+          "revision": "38c61462145492c78eff11ee552fb44f34a87f2d9fb44e4433b72ac90d42a5f0"
+        }
+      ]
+    },
+    {
+      "id": "digital-cover-oc-draft-20261028-builder",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "72e27928ca5c71cf6613dcd7d8e639c670e9bec9c3f950e3362ea2962f36828f",
+      "file": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-builder/72e27928ca5c71cf6613dcd7d8e639c670e9bec9c3f950e3362ea2962f36828f/digital-cover-oc-draft-20261028-builder.py",
+      "sha256": "72e27928ca5c71cf6613dcd7d8e639c670e9bec9c3f950e3362ea2962f36828f",
+      "size": 1821,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User requested a visual flyer proposal:front=current brochure cover with large digital brochure/application call to action and school-logo QR,back=OC. Two supplied Drive URLs mapped by user confirmation. Native typography/vector QR with official existing crest; no new image generation. Current Japanese R13 cover and R06 OC front retrieved by managed CLI. Back is pixel-identical to R06 OC front. Both logo QRs decode in final PDF at150/300dpi. Draft only; current flyer/index/distribution ZIPs unchanged. Drive permission/content unverified due environment proxy403; no release or adoption asserted.",
+        "recorded_at": "2026-10-28T03:52:40.486Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "digital-cover-oc-draft-20261028-sources",
+          "revision": "addb0c55b5c00c67722c80f89c8fbd17dd8a7de11f0b22c093382fd274c32d0b"
+        },
+        {
+          "id": "digital-cover-oc-draft-20261028-renderer",
+          "revision": "59c1014198a498dc3116dbc7f6149d510c01759b38e7c3b1c96869e39fbb216f"
+        }
+      ]
+    },
+    {
+      "id": "digital-cover-oc-draft-20261028-qr-1",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "fd0662c9496f4badf8aabd3c1b6676f2f0b8ea889e1e707aac1b5af5fb78b1ce",
+      "file": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-qr-1/fd0662c9496f4badf8aabd3c1b6676f2f0b8ea889e1e707aac1b5af5fb78b1ce/digital-cover-oc-draft-20261028-qr-1.svg",
+      "sha256": "fd0662c9496f4badf8aabd3c1b6676f2f0b8ea889e1e707aac1b5af5fb78b1ce",
+      "size": 76159,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User requested a visual flyer proposal:front=current brochure cover with large digital brochure/application call to action and school-logo QR,back=OC. Two supplied Drive URLs mapped by user confirmation. Native typography/vector QR with official existing crest; no new image generation. Current Japanese R13 cover and R06 OC front retrieved by managed CLI. Back is pixel-identical to R06 OC front. Both logo QRs decode in final PDF at150/300dpi. Draft only; current flyer/index/distribution ZIPs unchanged. Drive permission/content unverified due environment proxy403; no release or adoption asserted.",
+        "recorded_at": "2026-10-28T03:52:41.561Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "digital-cover-oc-draft-20261028-links",
+          "revision": "38c61462145492c78eff11ee552fb44f34a87f2d9fb44e4433b72ac90d42a5f0"
+        },
+        {
+          "id": "support-parts-brand-logo-horizontal-png",
+          "revision": "700bb302dde389f7deb314a6a3fd6bb44b2ab15dfa78d9248b3663ab1e32dbd3"
+        },
+        {
+          "id": "digital-cover-oc-draft-20261028-renderer",
+          "revision": "59c1014198a498dc3116dbc7f6149d510c01759b38e7c3b1c96869e39fbb216f"
+        }
+      ]
+    },
+    {
+      "id": "digital-cover-oc-draft-20261028-qr-2",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "919706e3e7bedde5a2f51407631e7340d63c4e34d96e784f2f6158b0c417a904",
+      "file": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-qr-2/919706e3e7bedde5a2f51407631e7340d63c4e34d96e784f2f6158b0c417a904/digital-cover-oc-draft-20261028-qr-2.svg",
+      "sha256": "919706e3e7bedde5a2f51407631e7340d63c4e34d96e784f2f6158b0c417a904",
+      "size": 76705,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User requested a visual flyer proposal:front=current brochure cover with large digital brochure/application call to action and school-logo QR,back=OC. Two supplied Drive URLs mapped by user confirmation. Native typography/vector QR with official existing crest; no new image generation. Current Japanese R13 cover and R06 OC front retrieved by managed CLI. Back is pixel-identical to R06 OC front. Both logo QRs decode in final PDF at150/300dpi. Draft only; current flyer/index/distribution ZIPs unchanged. Drive permission/content unverified due environment proxy403; no release or adoption asserted.",
+        "recorded_at": "2026-10-28T03:52:42.609Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "digital-cover-oc-draft-20261028-links",
+          "revision": "38c61462145492c78eff11ee552fb44f34a87f2d9fb44e4433b72ac90d42a5f0"
+        },
+        {
+          "id": "support-parts-brand-logo-horizontal-png",
+          "revision": "700bb302dde389f7deb314a6a3fd6bb44b2ab15dfa78d9248b3663ab1e32dbd3"
+        },
+        {
+          "id": "digital-cover-oc-draft-20261028-renderer",
+          "revision": "59c1014198a498dc3116dbc7f6149d510c01759b38e7c3b1c96869e39fbb216f"
+        }
+      ]
+    },
+    {
+      "id": "digital-cover-oc-draft-20261028-front-overlay",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "4325d546bb41e7672e75db321c40bbd3f238ade73362e092b38930f699497e9e",
+      "file": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-front-overlay/4325d546bb41e7672e75db321c40bbd3f238ade73362e092b38930f699497e9e/digital-cover-oc-draft-20261028-front-overlay.pdf",
+      "sha256": "4325d546bb41e7672e75db321c40bbd3f238ade73362e092b38930f699497e9e",
+      "size": 133623,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User requested a visual flyer proposal:front=current brochure cover with large digital brochure/application call to action and school-logo QR,back=OC. Two supplied Drive URLs mapped by user confirmation. Native typography/vector QR with official existing crest; no new image generation. Current Japanese R13 cover and R06 OC front retrieved by managed CLI. Back is pixel-identical to R06 OC front. Both logo QRs decode in final PDF at150/300dpi. Draft only; current flyer/index/distribution ZIPs unchanged. Drive permission/content unverified due environment proxy403; no release or adoption asserted.",
+        "recorded_at": "2026-10-28T03:52:43.818Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "digital-cover-oc-draft-20261028-renderer",
+          "revision": "59c1014198a498dc3116dbc7f6149d510c01759b38e7c3b1c96869e39fbb216f"
+        },
+        {
+          "id": "digital-cover-oc-draft-20261028-qr-1",
+          "revision": "fd0662c9496f4badf8aabd3c1b6676f2f0b8ea889e1e707aac1b5af5fb78b1ce"
+        },
+        {
+          "id": "digital-cover-oc-draft-20261028-qr-2",
+          "revision": "919706e3e7bedde5a2f51407631e7340d63c4e34d96e784f2f6158b0c417a904"
+        }
+      ]
+    },
+    {
+      "id": "digital-cover-oc-draft-20261028-pdf",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464",
+      "file": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-pdf/20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464/digital-cover-oc-draft-20261028-pdf.pdf",
+      "sha256": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464",
+      "size": 7783578,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User requested a visual flyer proposal:front=current brochure cover with large digital brochure/application call to action and school-logo QR,back=OC. Two supplied Drive URLs mapped by user confirmation. Native typography/vector QR with official existing crest; no new image generation. Current Japanese R13 cover and R06 OC front retrieved by managed CLI. Back is pixel-identical to R06 OC front. Both logo QRs decode in final PDF at150/300dpi. Draft only; current flyer/index/distribution ZIPs unchanged. Drive permission/content unverified due environment proxy403; no release or adoption asserted.",
+        "recorded_at": "2026-10-28T03:52:44.931Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "digital-cover-oc-draft-20261028-sources",
+          "revision": "addb0c55b5c00c67722c80f89c8fbd17dd8a7de11f0b22c093382fd274c32d0b"
+        },
+        {
+          "id": "digital-cover-oc-draft-20261028-front-overlay",
+          "revision": "4325d546bb41e7672e75db321c40bbd3f238ade73362e092b38930f699497e9e"
+        },
+        {
+          "id": "digital-cover-oc-draft-20261028-builder",
+          "revision": "72e27928ca5c71cf6613dcd7d8e639c670e9bec9c3f950e3362ea2962f36828f"
+        },
+        {
+          "id": "jp-oc-english-r6-pdf",
+          "revision": "49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee"
+        }
+      ]
+    },
+    {
+      "id": "digital-cover-oc-draft-20261028-preview",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "9b37a0785ed04d2e1ddfaab2b201f458815bb1e4274ac3de0cca46e4f489a971",
+      "file": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-preview/9b37a0785ed04d2e1ddfaab2b201f458815bb1e4274ac3de0cca46e4f489a971/digital-cover-oc-draft-20261028-preview.jpg",
+      "sha256": "9b37a0785ed04d2e1ddfaab2b201f458815bb1e4274ac3de0cca46e4f489a971",
+      "size": 684138,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User requested a visual flyer proposal:front=current brochure cover with large digital brochure/application call to action and school-logo QR,back=OC. Two supplied Drive URLs mapped by user confirmation. Native typography/vector QR with official existing crest; no new image generation. Current Japanese R13 cover and R06 OC front retrieved by managed CLI. Back is pixel-identical to R06 OC front. Both logo QRs decode in final PDF at150/300dpi. Draft only; current flyer/index/distribution ZIPs unchanged. Drive permission/content unverified due environment proxy403; no release or adoption asserted.",
+        "recorded_at": "2026-10-28T03:53:29.211Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "digital-cover-oc-draft-20261028-pdf",
+          "revision": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464"
+        }
+      ]
+    },
+    {
+      "id": "digital-cover-oc-draft-20261028-verification",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "411c04575656073ee5b1702b6a3c4b1ccd1f799e5f7fb3e42341ab61f6c719be",
+      "file": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-verification/411c04575656073ee5b1702b6a3c4b1ccd1f799e5f7fb3e42341ab61f6c719be/digital-cover-oc-draft-20261028-verification.json",
+      "sha256": "411c04575656073ee5b1702b6a3c4b1ccd1f799e5f7fb3e42341ab61f6c719be",
+      "size": 1055,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User requested a visual flyer proposal:front=current brochure cover with large digital brochure/application call to action and school-logo QR,back=OC. Two supplied Drive URLs mapped by user confirmation. Native typography/vector QR with official existing crest; no new image generation. Current Japanese R13 cover and R06 OC front retrieved by managed CLI. Back is pixel-identical to R06 OC front. Both logo QRs decode in final PDF at150/300dpi. Draft only; current flyer/index/distribution ZIPs unchanged. Drive permission/content unverified due environment proxy403; no release or adoption asserted.",
+        "recorded_at": "2026-10-28T03:54:12.348Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "digital-cover-oc-draft-20261028-pdf",
+          "revision": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464"
+        },
+        {
+          "id": "digital-cover-oc-draft-20261028-qr-1",
+          "revision": "fd0662c9496f4badf8aabd3c1b6676f2f0b8ea889e1e707aac1b5af5fb78b1ce"
+        },
+        {
+          "id": "digital-cover-oc-draft-20261028-qr-2",
+          "revision": "919706e3e7bedde5a2f51407631e7340d63c4e34d96e784f2f6158b0c417a904"
+        }
+      ]
+    },
+    {
+      "id": "digital-cover-oc-draft-20261028-build-proof",
+      "variant": "digital-cover-oc-draft-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "348717463680b1061d9e52422784f81c486789ff5cf9010d17dcc3d91f686c9c",
+      "file": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-build-proof/348717463680b1061d9e52422784f81c486789ff5cf9010d17dcc3d91f686c9c/digital-cover-oc-draft-20261028-build-proof.json",
+      "sha256": "348717463680b1061d9e52422784f81c486789ff5cf9010d17dcc3d91f686c9c",
+      "size": 5739,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User requested a visual flyer proposal:front=current brochure cover with large digital brochure/application call to action and school-logo QR,back=OC. Two supplied Drive URLs mapped by user confirmation. Native typography/vector QR with official existing crest; no new image generation. Current Japanese R13 cover and R06 OC front retrieved by managed CLI. Back is pixel-identical to R06 OC front. Both logo QRs decode in final PDF at150/300dpi. Draft only; current flyer/index/distribution ZIPs unchanged. Drive permission/content unverified due environment proxy403; no release or adoption asserted.",
+        "recorded_at": "2026-10-28T03:54:59.033Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "digital-cover-oc-draft-20261028-pdf",
+          "revision": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464"
+        },
+        {
+          "id": "digital-cover-oc-draft-20261028-sources",
+          "revision": "addb0c55b5c00c67722c80f89c8fbd17dd8a7de11f0b22c093382fd274c32d0b"
         }
       ]
     }

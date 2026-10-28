@@ -1,0 +1,124 @@
+{
+  "pdf": "downloads/flyer-cover-digital-oc-draft-20261028/output/flyer-cover-digital-oc-draft-20261028.pdf",
+  "sha256": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464",
+  "pages": 2,
+  "size_pt": [
+    595.2755737304688,
+    841.8897705078125
+  ],
+  "source_cover": {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "0205b3be0035527877cff6b63db0ca751c977d9d",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "9a0d0d0c83d68aa6dc8a441c744485721b530a2953ac41027ba283e966b537dc"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "no-hours-20261028-brochure-jp-r13",
+      "variant": "class-hours-removed-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898",
+      "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13/4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898/no-hours-20261028-brochure-jp-r13.pdf",
+      "sha256": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898",
+      "size": 8654291,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T03:28:58.609Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-copy-20261028-brochure-jp-r13",
+          "revision": "3a1085aca24055e91ec493eac6ed07bd0ca94d9e87c5bab507db7fc4e1824c32"
+        },
+        {
+          "id": "no-hours-20261028-builder",
+          "revision": "3f5ab5c55e4043d0f7f956757d00caf34f0297f742efce97a7b04614f65843f6"
+        },
+        {
+          "id": "no-hours-20261028-overlay-packet",
+          "revision": "4c11219236f7670095c11ff248298efeb40689b40de722057279f73c82522cd6"
+        },
+        {
+          "id": "no-hours-20261028-copy-plan",
+          "revision": "9a25dd2d46cee1f8c484c6f78246525a1a206f46ed8eb794293c30bc54b24aa4"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13/4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898/no-hours-20261028-brochure-jp-r13.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "work_id": "PAM-JP-ISEN"
+  },
+  "source_oc": {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "0205b3be0035527877cff6b63db0ca751c977d9d",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "9a0d0d0c83d68aa6dc8a441c744485721b530a2953ac41027ba283e966b537dc"
+    },
+    "document_id": "oc-approved-20261017",
+    "asset": {
+      "id": "jp-oc-english-r6-pdf",
+      "variant": "original-art-english-name-r6",
+      "role": "support",
+      "media": "pdf",
+      "revision": "49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee",
+      "file": "books/oc-approved-20261017/parts/jp-oc-english-r6-pdf/49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee/jp-oc-english-r6-pdf.pdf",
+      "sha256": "49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee",
+      "size": 17847665,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "Saved OC R06: two English subtitles use school.yaml formal name. Both crests and every pixel outside those fields, including the entire R05 back, retained. Current standard-render freshness is not asserted.",
+        "recorded_at": "2026-10-23T07:58:54.466Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-oc-three-r5-pdf",
+          "revision": "5dd683d50a46bb140fb1560392084c58fcaeba8ca32d0eefecbebc6339e0c2e5"
+        }
+      ]
+    },
+    "path": "books/oc-approved-20261017/parts/jp-oc-english-r6-pdf/49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee/jp-oc-english-r6-pdf.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "work_id": "FLY-JP-OC-YELLOW"
+  },
+  "front_overlay_sha256": "4325d546bb41e7672e75db321c40bbd3f238ade73362e092b38930f699497e9e",
+  "front_cta_top_mm": 220,
+  "qr_sources": [
+    {
+      "url": "https://drive.google.com/file/d/1Flb0l-VlY3PrHbKhjS0bm99pg_OBdtXo/view?usp=drive_link",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "label": "パンフレット",
+      "user_confirmed": true
+    },
+    {
+      "url": "https://drive.google.com/file/d/1wfbfRXTMtNotX3-1zaVgLdGH7DXI5xDZ/view?usp=drive_link",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "label": "募集要項・願書",
+      "user_confirmed": true
+    }
+  ],
+  "back_policy": "current Japanese R06 OC front becomes draft back, unchanged",
+  "current_materials_index_unchanged": true,
+  "release": false
+}

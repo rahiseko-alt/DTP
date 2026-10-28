@@ -1,0 +1,35 @@
+{
+  "context": {
+    "root": "/workspace/DTP",
+    "head": "0205b3be0035527877cff6b63db0ca751c977d9d",
+    "branch": "book/brochure-fees-five-columns-20261028",
+    "dirty": true,
+    "fingerprint": "9a0d0d0c83d68aa6dc8a441c744485721b530a2953ac41027ba283e966b537dc"
+  },
+  "matches": [
+    {
+      "asset_id": "jp-oc-english-r6-pdf",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "original-art-english-name-r6",
+      "role": "support",
+      "media": "pdf",
+      "revision": "49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee",
+      "path": "books/oc-approved-20261017/parts/jp-oc-english-r6-pdf/49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee/jp-oc-english-r6-pdf.pdf",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "jp-oc-english-r6-front",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "original-art-english-name-r6",
+      "role": "support",
+      "media": "image",
+      "revision": "ff16163bf2fb75f2c9b7b487d7f9d1c95322fc835d2ec8182e0de89a350f3d1f",
+      "path": "books/oc-approved-20261017/parts/jp-oc-english-r6-front/ff16163bf2fb75f2c9b7b487d7f9d1c95322fc835d2ec8182e0de89a350f3d1f/jp-oc-english-r6-front.png",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    }
+  ]
+}

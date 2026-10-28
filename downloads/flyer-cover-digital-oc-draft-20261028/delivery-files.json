@@ -1,0 +1,46 @@
+{
+  "files": [
+    {
+      "file": "/workspace/チラシ案/パンフレット_QR_学校ロゴ入り.png",
+      "sha256": "01c573c8ac4a5a34c2211c98602995c407dea041fef7fe612e22db058f24e388",
+      "bytes": 69078
+    },
+    {
+      "file": "/workspace/チラシ案/OCチラシ案_表裏プレビュー.jpg",
+      "sha256": "9b37a0785ed04d2e1ddfaab2b201f458815bb1e4274ac3de0cca46e4f489a971",
+      "bytes": 684138
+    },
+    {
+      "file": "/workspace/チラシ案/OCチラシ案_裏面.png",
+      "sha256": "d22ed59f60065591a5053cecfde48cfce8eca525a78d439fdbc35504579758fb",
+      "bytes": 3377492
+    },
+    {
+      "file": "/workspace/チラシ案/募集要項願書_QR_学校ロゴ入り.png",
+      "sha256": "eb36d872256798e5af739cb1f19f43c955b492d1a1b163287be186f1c520badd",
+      "bytes": 69760
+    },
+    {
+      "file": "/workspace/チラシ案/OCチラシ案_表パンフレットQR_裏OC_20261028.pdf",
+      "sha256": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464",
+      "bytes": 7783578
+    },
+    {
+      "file": "/workspace/チラシ案/パンフレット_QR_学校ロゴ入り.svg",
+      "sha256": "fd0662c9496f4badf8aabd3c1b6676f2f0b8ea889e1e707aac1b5af5fb78b1ce",
+      "bytes": 76159
+    },
+    {
+      "file": "/workspace/チラシ案/OCチラシ案_表面.png",
+      "sha256": "1b4c4d9686e1f7ab1d04e7fc1034236c7d4be614da60ee6bebe08171d8679b4f",
+      "bytes": 3262548
+    },
+    {
+      "file": "/workspace/チラシ案/募集要項願書_QR_学校ロゴ入り.svg",
+      "sha256": "919706e3e7bedde5a2f51407631e7340d63c4e34d96e784f2f6158b0c417a904",
+      "bytes": 76705
+    }
+  ],
+  "pdf_pages": 2,
+  "proposal_only": true
+}

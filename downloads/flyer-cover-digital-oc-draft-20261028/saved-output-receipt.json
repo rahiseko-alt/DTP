@@ -1,0 +1,53 @@
+{
+  "context": {
+    "root": "/workspace/DTP",
+    "head": "0205b3be0035527877cff6b63db0ca751c977d9d",
+    "branch": "book/brochure-fees-five-columns-20261028",
+    "dirty": true,
+    "fingerprint": "94cfce83a7f80e063624a36a7dcfb7724dd1a8832fe37cc0782e1aab83042226"
+  },
+  "document_id": "oc-approved-20261017",
+  "asset": {
+    "id": "digital-cover-oc-draft-20261028-pdf",
+    "variant": "digital-cover-oc-draft-20261028",
+    "role": "support",
+    "media": "pdf",
+    "revision": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464",
+    "file": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-pdf/20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464/digital-cover-oc-draft-20261028-pdf.pdf",
+    "sha256": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464",
+    "size": 7783578,
+    "relation": "authored",
+    "storage": "canonical",
+    "confirmation": "verified",
+    "saved": {
+      "reason": "User requested a visual flyer proposal:front=current brochure cover with large digital brochure/application call to action and school-logo QR,back=OC. Two supplied Drive URLs mapped by user confirmation. Native typography/vector QR with official existing crest; no new image generation. Current Japanese R13 cover and R06 OC front retrieved by managed CLI. Back is pixel-identical to R06 OC front. Both logo QRs decode in final PDF at150/300dpi. Draft only; current flyer/index/distribution ZIPs unchanged. Drive permission/content unverified due environment proxy403; no release or adoption asserted.",
+      "recorded_at": "2026-10-28T03:52:44.931Z"
+    },
+    "external_inputs": [],
+    "built_from": [
+      {
+        "id": "digital-cover-oc-draft-20261028-sources",
+        "revision": "addb0c55b5c00c67722c80f89c8fbd17dd8a7de11f0b22c093382fd274c32d0b"
+      },
+      {
+        "id": "digital-cover-oc-draft-20261028-front-overlay",
+        "revision": "4325d546bb41e7672e75db321c40bbd3f238ade73362e092b38930f699497e9e"
+      },
+      {
+        "id": "digital-cover-oc-draft-20261028-builder",
+        "revision": "72e27928ca5c71cf6613dcd7d8e639c670e9bec9c3f950e3362ea2962f36828f"
+      },
+      {
+        "id": "jp-oc-english-r6-pdf",
+        "revision": "49ef6a492badf5799d50ca1c9fa511db65ad9ad2b5c5b3d9faad09b7838218ee"
+      }
+    ]
+  },
+  "path": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-pdf/20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464/digital-cover-oc-draft-20261028-pdf.pdf",
+  "retrieval": {
+    "mode": "saved",
+    "integrity": "verified",
+    "freshness": "not_checked",
+    "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+  }
+}

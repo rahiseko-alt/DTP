@@ -1,0 +1,34 @@
+{
+  "verified": true,
+  "pdf_sha256": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464",
+  "pages": 2,
+  "size_mm": [
+    210,
+    297
+  ],
+  "qr": [
+    {
+      "label": "パンフレット",
+      "url": "https://drive.google.com/file/d/1Flb0l-VlY3PrHbKhjS0bm99pg_OBdtXo/view?usp=drive_link",
+      "standalone_png_decodes": true
+    },
+    {
+      "label": "募集要項・願書",
+      "url": "https://drive.google.com/file/d/1wfbfRXTMtNotX3-1zaVgLdGH7DXI5xDZ/view?usp=drive_link",
+      "standalone_png_decodes": true
+    }
+  ],
+  "front_pdf_both_codes_decode_at_dpi": [
+    150,
+    300
+  ],
+  "logo_in_center": "official crest, crop through SVG viewport; no redraw",
+  "back_pixels_identical_150dpi": true,
+  "back_native_text_identical": true,
+  "back_email_qr_preserved": true,
+  "dom_overflow": false,
+  "drive_content_access": "blocked by execution environment proxy403; mappings confirmed by user, destination permissions not verified",
+  "current_flyer_unchanged": true,
+  "release": false,
+  "physical_print_test": false
+}

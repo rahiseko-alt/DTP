@@ -1,0 +1,16 @@
+{
+  "render": "passed: native HTML/CSS/SVG front overlay, Chromium154 preview",
+  "visual_review": "parent reviewed both source PDFs, front enlarged, OC back and combined A4 layout",
+  "qr": "passed: standalone logo PNGs and both QR codes in final PDF at150dpi and300dpi decode to exact user-provided URLs",
+  "back_preservation": "passed: original R06 OC front reused as back, 150dpi pixels and native text identical; mailto QR preserved",
+  "dom_overflow": false,
+  "official_logo": "canonical registered logo is byte-identical to company-data official horizontal logo; crest displayed through SVG viewport",
+  "drive_access": "both requests blocked by environment proxy403; document mapping confirmed by user; anonymous permissions/content unverified",
+  "current_materials": "latest-materials index and current brochure/admissions/flyer/distribution bytes unchanged",
+  "whole_metadata_validation": "prior completed check has7 pre-existing LEGACY_CHANGED errors; no repository-wide pass asserted for this draft",
+  "github_required_asset_integrity": "unconfirmed; existing environment GitHub API access403; no PR creation or merge attempted",
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false,
+  "saved_get": "passed:registered draft PDF retrieved --saved;Japanese-named PDF has identical SHA"
+}

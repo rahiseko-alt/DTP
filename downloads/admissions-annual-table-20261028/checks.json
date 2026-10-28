@@ -11,5 +11,18 @@
   "release": false,
   "independent_review": false,
   "physical_print_test": false,
-  "current_metadata_check": "running:/tmp/admissions-annual-metadata.json"
+  "current_metadata_check": {
+    "completed": true,
+    "errors": [
+      "LEGACY_CHANGED: books/admissions-guide-2027/pages/page_007/page.css",
+      "LEGACY_CHANGED: books/admissions-guide-2027/pages/page_007/page.html",
+      "LEGACY_CHANGED: books/prospectus-isen-trial-2028/pages/page_001/page.html",
+      "LEGACY_CHANGED: books/prospectus-isen-trial-2028/pages/page_002/page.css",
+      "LEGACY_CHANGED: books/prospectus-isen-trial-2028/pages/page_002/page.html",
+      "LEGACY_CHANGED: books/prospectus-isen-trial-2028/pages/page_003/page.html",
+      "LEGACY_CHANGED: books/prospectus-isen-trial-2028/pages/page_004/page.html"
+    ],
+    "new_revision_metadata_errors": [],
+    "pass": false
+  }
 }

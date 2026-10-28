@@ -1,0 +1,24 @@
+{
+  "document": "oc-approved-20261017",
+  "variant": "digital-cover-oc-draft-20261028",
+  "pdf": {
+    "id": "digital-cover-oc-draft-20261028-pdf",
+    "revision": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464"
+  },
+  "preview": {
+    "id": "digital-cover-oc-draft-20261028-preview",
+    "revision": "9b37a0785ed04d2e1ddfaab2b201f458815bb1e4274ac3de0cca46e4f489a971"
+  },
+  "qr": [
+    {
+      "id": "digital-cover-oc-draft-20261028-qr-1",
+      "revision": "fd0662c9496f4badf8aabd3c1b6676f2f0b8ea889e1e707aac1b5af5fb78b1ce"
+    },
+    {
+      "id": "digital-cover-oc-draft-20261028-qr-2",
+      "revision": "919706e3e7bedde5a2f51407631e7340d63c4e34d96e784f2f6158b0c417a904"
+    }
+  ],
+  "current_materials_updated": false,
+  "release": false
+}

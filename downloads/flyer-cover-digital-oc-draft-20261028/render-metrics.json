@@ -1,0 +1,60 @@
+{
+  "browser": "154.0.8037.57",
+  "checks": [
+    {
+      "selector": "copy",
+      "scrollWidth": 374,
+      "width": 374,
+      "height": 165,
+      "scrollHeight": 165,
+      "text": "学校を知る。出願に備える。\n\nデジタルパンフレットと\n応募用紙はこちらから\n\n学校案内・募集要項・願書PDF\nスマートフォンから閲覧・保存できます。",
+      "overflow": false
+    },
+    {
+      "selector": "headline",
+      "scrollWidth": 374,
+      "width": 374,
+      "height": 79,
+      "scrollHeight": 79,
+      "text": "デジタルパンフレットと\n応募用紙はこちらから",
+      "overflow": false
+    },
+    {
+      "selector": "qr qr1",
+      "scrollWidth": 136,
+      "width": 136,
+      "height": 162,
+      "scrollHeight": 162,
+      "text": "パンフレット",
+      "overflow": false
+    },
+    {
+      "selector": "P",
+      "scrollWidth": 136,
+      "width": 136,
+      "height": 15,
+      "scrollHeight": 15,
+      "text": "パンフレット",
+      "overflow": false
+    },
+    {
+      "selector": "qr qr2",
+      "scrollWidth": 136,
+      "width": 136,
+      "height": 162,
+      "scrollHeight": 162,
+      "text": "募集要項・願書",
+      "overflow": false
+    },
+    {
+      "selector": "P",
+      "scrollWidth": 136,
+      "width": 136,
+      "height": 15,
+      "scrollHeight": 15,
+      "text": "募集要項・願書",
+      "overflow": false
+    }
+  ],
+  "release": false
+}

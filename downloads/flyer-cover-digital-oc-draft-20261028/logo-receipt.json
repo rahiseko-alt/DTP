@@ -1,0 +1,26 @@
+{
+  "context": {
+    "root": "/workspace/DTP",
+    "head": "0205b3be0035527877cff6b63db0ca751c977d9d",
+    "branch": "book/brochure-fees-five-columns-20261028",
+    "dirty": true,
+    "fingerprint": "9a0d0d0c83d68aa6dc8a441c744485721b530a2953ac41027ba283e966b537dc"
+  },
+  "document_id": "oc-approved-20261017",
+  "asset": {
+    "id": "support-parts-brand-logo-horizontal-png",
+    "variant": "real-photo-rebuild",
+    "role": "support",
+    "media": "image",
+    "revision": "700bb302dde389f7deb314a6a3fd6bb44b2ab15dfa78d9248b3663ab1e32dbd3",
+    "file": "books/oc-approved-20261017/parts/brand/logo-horizontal.png",
+    "sha256": "700bb302dde389f7deb314a6a3fd6bb44b2ab15dfa78d9248b3663ab1e32dbd3",
+    "size": 42457,
+    "relation": "authored",
+    "storage": "canonical",
+    "confirmation": "verified",
+    "external_inputs": [],
+    "built_from": []
+  },
+  "path": "books/oc-approved-20261017/parts/brand/logo-horizontal.png"
+}

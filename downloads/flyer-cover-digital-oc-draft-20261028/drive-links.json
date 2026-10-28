@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://drive.google.com/file/d/1Flb0l-VlY3PrHbKhjS0bm99pg_OBdtXo/view?usp=drive_link",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "label": "パンフレット",
+    "user_confirmed": true
+  },
+  {
+    "url": "https://drive.google.com/file/d/1wfbfRXTMtNotX3-1zaVgLdGH7DXI5xDZ/view?usp=drive_link",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "label": "募集要項・願書",
+    "user_confirmed": true
+  }
+]

@@ -109,3 +109,5 @@ Codex内のリンクから取得できない場合は、GitHubの当該ブラン
 
 - 2026-10-28：募集要項の料金ページをパンフレット承認済み年額表・指定注記へ統一：[PDF・検証記録](admissions-annual-table-20261028/README.md)。表・注記以外と願書/白紙裏を保持。
 - 2026-10-28：OCチラシを表＝パンフレット表紙＋資料閲覧QR、裏＝OCとする[構成検討](flyer-cover-digital-oc-plan-20261028/brief.md)。制作前で現行チラシは変更なし。
+
+- 2026-10-28：表＝パンフレット表紙＋資料用ロゴQR2種、裏＝現行OC表面の[チラシ構成案・PDFと画像](flyer-cover-digital-oc-draft-20261028/README.md)。人間のDrive2URLを使用し両QR復号確認。現行チラシ・配布ZIPは未変更。

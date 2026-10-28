@@ -1,0 +1,191 @@
+{
+  "context": {
+    "root": "/workspace/DTP",
+    "head": "0205b3be0035527877cff6b63db0ca751c977d9d",
+    "branch": "book/brochure-fees-five-columns-20261028",
+    "dirty": true,
+    "fingerprint": "9a0d0d0c83d68aa6dc8a441c744485721b530a2953ac41027ba283e966b537dc"
+  },
+  "matches": [
+    {
+      "asset_id": "support-parts-brand-logo-horizontal-png",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "image",
+      "revision": "700bb302dde389f7deb314a6a3fd6bb44b2ab15dfa78d9248b3663ab1e32dbd3",
+      "path": "books/oc-approved-20261017/parts/brand/logo-horizontal.png",
+      "relation": "authored",
+      "availability": "available"
+    },
+    {
+      "asset_id": "support-parts-icons-consult-svg",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "image",
+      "revision": "2a3a5d02403619e336fe2f9759a82194c191dd35dd9627619fbcb1e0627efe80",
+      "path": "books/oc-approved-20261017/parts/icons/consult.svg",
+      "relation": "authored",
+      "availability": "available"
+    },
+    {
+      "asset_id": "support-parts-icons-laptop-svg",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "image",
+      "revision": "025c692f76a824add5198ba1c3f060bbbc105894567e09667d6dc567798d23fd",
+      "path": "books/oc-approved-20261017/parts/icons/laptop.svg",
+      "relation": "authored",
+      "availability": "available"
+    },
+    {
+      "asset_id": "support-parts-icons-people-svg",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "image",
+      "revision": "151864363772e231484a633b3c7ce205777e006cc937eba926e34cd14cfdca58",
+      "path": "books/oc-approved-20261017/parts/icons/people.svg",
+      "relation": "authored",
+      "availability": "available"
+    },
+    {
+      "asset_id": "support-parts-icons-school-svg",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "image",
+      "revision": "ee9d9dca31dca9649d7f7ccf1d6be95a6cfb59241c807fe05a25ad314ded1dc4",
+      "path": "books/oc-approved-20261017/parts/icons/school.svg",
+      "relation": "authored",
+      "availability": "available"
+    },
+    {
+      "asset_id": "support-parts-manifest-json",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "text",
+      "revision": "2ba8ac9f9ed30fa75e07cb4a7e73bec1ab32b28520ee9e77400c742080740497",
+      "path": "books/oc-approved-20261017/parts/manifest.json",
+      "relation": "authored",
+      "availability": "available"
+    },
+    {
+      "asset_id": "support-parts-official-site-qr-png",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "image",
+      "revision": "d80b0b015c12c941671a66ee19d6b1226b1a7e58de944466c3e1c3b217e0a33a",
+      "path": "books/oc-approved-20261017/parts/official-site-qr.png",
+      "relation": "authored",
+      "availability": "available"
+    },
+    {
+      "asset_id": "support-parts-official-site-qr-svg",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "image",
+      "revision": "232ce9735d208c547ebb612807e225c0402ecd85567efb624e15719d2e82d662",
+      "path": "books/oc-approved-20261017/parts/official-site-qr.svg",
+      "relation": "authored",
+      "availability": "available"
+    },
+    {
+      "asset_id": "support-source-bind-copy-py",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "text",
+      "revision": "0319503dc84bf999c4d88d937498f64957066daeab4fd2682fff9768e702f587",
+      "path": "books/oc-approved-20261017/source/bind-copy.py",
+      "relation": "authored",
+      "availability": "available"
+    },
+    {
+      "asset_id": "support-verify-parts-py",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "text",
+      "revision": "4239d1477a71b6563c035d8045430f509a4f6f65ce7477884f56e4d45908f294",
+      "path": "books/oc-approved-20261017/verify-parts.py",
+      "relation": "authored",
+      "availability": "available"
+    },
+    {
+      "asset_id": "support-school-access-map",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "image",
+      "revision": "f22d288efab6e1220898fac2d6d54fe8c014266a748d0637e0153fa7853de27f",
+      "path": "books/oc-approved-20261017/parts/support-school-access-map/f22d288efab6e1220898fac2d6d54fe8c014266a748d0637e0153fa7853de27f/support-school-access-map.png",
+      "relation": "authored",
+      "availability": "available"
+    },
+    {
+      "asset_id": "support-parts-photos-map-json",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "text",
+      "revision": "1345299cee000ba1c741d21ab68d1a2107d0a6bce16f65149f3724aafde179ff",
+      "path": "books/oc-approved-20261017/parts/support-parts-photos-map-json/1345299cee000ba1c741d21ab68d1a2107d0a6bce16f65149f3724aafde179ff/support-parts-photos-map-json.json",
+      "relation": "authored",
+      "availability": "available"
+    },
+    {
+      "asset_id": "support-rebuild-py",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "text",
+      "revision": "f983f76d0a209cc39662d3066c22eeba97164e0a50c981955d17d470e57daa43",
+      "path": "books/oc-approved-20261017/rebuild.py",
+      "relation": "authored",
+      "availability": "available"
+    },
+    {
+      "asset_id": "support-render-mjs",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "text",
+      "revision": "8318b86c223b785462b91e214f579e6f5bf6a4b773b36473ac8ce651719fa770",
+      "path": "books/oc-approved-20261017/render.mjs",
+      "relation": "authored",
+      "availability": "available"
+    },
+    {
+      "asset_id": "support-readme-md",
+      "document_id": "oc-approved-20261017",
+      "title": "チラシ｜OC黄色帯｜年度未確認",
+      "variant": "real-photo-rebuild",
+      "role": "support",
+      "media": "text",
+      "revision": "5f60170cbb422bd84d6a172502ce7c4d41c195e7b7aa7098c6912f35ec73b4f1",
+      "path": "books/oc-approved-20261017/README.md",
+      "relation": "authored",
+      "availability": "available"
+    }
+  ]
+}
