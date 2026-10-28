@@ -3,3 +3,5 @@ reference_admissions_year: 2027
 reference_initial_with_exam: 1000000
 reference_two_years_with_exam: 1880000
 source: facts/admissions.yamlの初年度納付金980000円と検定料20000円、2年間1860000円から算出。施設設備費は各年50000円を含む。2028年度の確定額ではない。
+# 年額表の描画用集計。facts/admissions.yaml の各年 terms[].tuition を合算。
+reference_annual_tuition: [780000, 780000]

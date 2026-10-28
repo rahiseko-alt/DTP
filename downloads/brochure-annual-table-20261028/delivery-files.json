@@ -1,0 +1,413 @@
+{
+  "files": [
+    {
+      "label": "brochure-original",
+      "file": "/workspace/設備費更新版/医専パンフレット_元版_ページ順_設備費更新版_年額表改訂版.pdf",
+      "sha256": "01a56837a123408266ebdde4cdb5540e36f8a72af743f34190f119dd1dddcd3c",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "ab79d2872ccb0bdbc1e354b60e31f9b8851829c5",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "622328ff2b196cb319e1cf702db279b17e48d0367796e5fe78db71d330c8ec70"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "fee-annual-approved-20261028-brochure-original",
+          "variant": "approved-annual-fee-table-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "01a56837a123408266ebdde4cdb5540e36f8a72af743f34190f119dd1dddcd3c",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-original/01a56837a123408266ebdde4cdb5540e36f8a72af743f34190f119dd1dddcd3c/fee-annual-approved-20261028-brochure-original.pdf",
+          "sha256": "01a56837a123408266ebdde4cdb5540e36f8a72af743f34190f119dd1dddcd3c",
+          "size": 113909460,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User-approved exact rewrite 2026-10-28: annual table with fee item, year1, year2; admission 100000/none, annual tuition780000 each, misc50000 each, facility50000 each, totals980000/880000, grand1860000 excluding examination fee. Exact note: 上記金額には検定料2万円は含みません。 Only reading pages12/13 fee blocks changed. Original covers, images, other text, payment deadlines, AI notice and imposition preserved. Outside blocks identical 150dpi pixels and text/fonts/glyph IDs; native coordinate serialization tolerance 0.0001pt. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T01:02:27.569Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-zero-dash-20261028-brochure-original",
+              "revision": "72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a"
+            },
+            {
+              "id": "fee-annual-approved-20261028-panel-12",
+              "revision": "cb4d759341908c159a3d2ff01781d993729b44305aa6061770bbc9d98d866721"
+            },
+            {
+              "id": "fee-annual-approved-20261028-panel-13",
+              "revision": "64356b94972e835c522779099cc68dd9c3ba43cdfec7422d791ef5d3b157b5bf"
+            },
+            {
+              "id": "fee-annual-approved-20261028-builder",
+              "revision": "74a5d294547937ee2e54b86ec838a4ae45812ff22b0c89728bb5fef9acc96e3d"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-original/01a56837a123408266ebdde4cdb5540e36f8a72af743f34190f119dd1dddcd3c/fee-annual-approved-20261028-brochure-original.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-original-A3",
+      "file": "/workspace/設備費更新版/医専パンフレット_元版_A3印刷用_設備費更新版_年額表改訂版.pdf",
+      "sha256": "235f7ebc89c98f55894616ebd18e04e76a7ea8eb458eff77177fcada14146744",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "ab79d2872ccb0bdbc1e354b60e31f9b8851829c5",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "622328ff2b196cb319e1cf702db279b17e48d0367796e5fe78db71d330c8ec70"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "fee-annual-approved-20261028-brochure-original-a3",
+          "variant": "approved-annual-fee-table-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "235f7ebc89c98f55894616ebd18e04e76a7ea8eb458eff77177fcada14146744",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-original-a3/235f7ebc89c98f55894616ebd18e04e76a7ea8eb458eff77177fcada14146744/fee-annual-approved-20261028-brochure-original-a3.pdf",
+          "sha256": "235f7ebc89c98f55894616ebd18e04e76a7ea8eb458eff77177fcada14146744",
+          "size": 4483753,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User-approved exact rewrite 2026-10-28: annual table with fee item, year1, year2; admission 100000/none, annual tuition780000 each, misc50000 each, facility50000 each, totals980000/880000, grand1860000 excluding examination fee. Exact note: 上記金額には検定料2万円は含みません。 Only reading pages12/13 fee blocks changed. Original covers, images, other text, payment deadlines, AI notice and imposition preserved. Outside blocks identical 150dpi pixels and text/fonts/glyph IDs; native coordinate serialization tolerance 0.0001pt. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T01:02:40.622Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-zero-dash-20261028-brochure-original-a3",
+              "revision": "8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881"
+            },
+            {
+              "id": "fee-annual-approved-20261028-panel-12",
+              "revision": "cb4d759341908c159a3d2ff01781d993729b44305aa6061770bbc9d98d866721"
+            },
+            {
+              "id": "fee-annual-approved-20261028-panel-13",
+              "revision": "64356b94972e835c522779099cc68dd9c3ba43cdfec7422d791ef5d3b157b5bf"
+            },
+            {
+              "id": "fee-annual-approved-20261028-builder",
+              "revision": "74a5d294547937ee2e54b86ec838a4ae45812ff22b0c89728bb5fef9acc96e3d"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-original-a3/235f7ebc89c98f55894616ebd18e04e76a7ea8eb458eff77177fcada14146744/fee-annual-approved-20261028-brochure-original-a3.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-original-A4",
+      "file": "/workspace/設備費更新版/医専パンフレット_元版_A4印刷用_設備費更新版_年額表改訂版.pdf",
+      "sha256": "f83e0628df5c7d4c1d88e68bf4de47447d3a73166ee1ff5700089671be7b830a",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "ab79d2872ccb0bdbc1e354b60e31f9b8851829c5",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "622328ff2b196cb319e1cf702db279b17e48d0367796e5fe78db71d330c8ec70"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "fee-annual-approved-20261028-brochure-original-a4",
+          "variant": "approved-annual-fee-table-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "f83e0628df5c7d4c1d88e68bf4de47447d3a73166ee1ff5700089671be7b830a",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-original-a4/f83e0628df5c7d4c1d88e68bf4de47447d3a73166ee1ff5700089671be7b830a/fee-annual-approved-20261028-brochure-original-a4.pdf",
+          "sha256": "f83e0628df5c7d4c1d88e68bf4de47447d3a73166ee1ff5700089671be7b830a",
+          "size": 3120810,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User-approved exact rewrite 2026-10-28: annual table with fee item, year1, year2; admission 100000/none, annual tuition780000 each, misc50000 each, facility50000 each, totals980000/880000, grand1860000 excluding examination fee. Exact note: 上記金額には検定料2万円は含みません。 Only reading pages12/13 fee blocks changed. Original covers, images, other text, payment deadlines, AI notice and imposition preserved. Outside blocks identical 150dpi pixels and text/fonts/glyph IDs; native coordinate serialization tolerance 0.0001pt. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T01:02:48.795Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-zero-dash-20261028-brochure-original-a4",
+              "revision": "33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3"
+            },
+            {
+              "id": "fee-annual-approved-20261028-panel-12",
+              "revision": "cb4d759341908c159a3d2ff01781d993729b44305aa6061770bbc9d98d866721"
+            },
+            {
+              "id": "fee-annual-approved-20261028-panel-13",
+              "revision": "64356b94972e835c522779099cc68dd9c3ba43cdfec7422d791ef5d3b157b5bf"
+            },
+            {
+              "id": "fee-annual-approved-20261028-builder",
+              "revision": "74a5d294547937ee2e54b86ec838a4ae45812ff22b0c89728bb5fef9acc96e3d"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-original-a4/f83e0628df5c7d4c1d88e68bf4de47447d3a73166ee1ff5700089671be7b830a/fee-annual-approved-20261028-brochure-original-a4.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_ページ順_設備費更新版_年額表改訂版.pdf",
+      "sha256": "c49898d506297d6c728b6259ef95a491a354dd1cc397685085ebf4c26b09244e",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "ab79d2872ccb0bdbc1e354b60e31f9b8851829c5",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "622328ff2b196cb319e1cf702db279b17e48d0367796e5fe78db71d330c8ec70"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "fee-annual-approved-20261028-brochure-jp-r13",
+          "variant": "approved-annual-fee-table-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "c49898d506297d6c728b6259ef95a491a354dd1cc397685085ebf4c26b09244e",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-jp-r13/c49898d506297d6c728b6259ef95a491a354dd1cc397685085ebf4c26b09244e/fee-annual-approved-20261028-brochure-jp-r13.pdf",
+          "sha256": "c49898d506297d6c728b6259ef95a491a354dd1cc397685085ebf4c26b09244e",
+          "size": 7262709,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User-approved exact rewrite 2026-10-28: annual table with fee item, year1, year2; admission 100000/none, annual tuition780000 each, misc50000 each, facility50000 each, totals980000/880000, grand1860000 excluding examination fee. Exact note: 上記金額には検定料2万円は含みません。 Only reading pages12/13 fee blocks changed. Original covers, images, other text, payment deadlines, AI notice and imposition preserved. Outside blocks identical 150dpi pixels and text/fonts/glyph IDs; native coordinate serialization tolerance 0.0001pt. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T01:02:59.101Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-zero-dash-20261028-brochure-jp-r13",
+              "revision": "8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e"
+            },
+            {
+              "id": "fee-annual-approved-20261028-panel-12",
+              "revision": "cb4d759341908c159a3d2ff01781d993729b44305aa6061770bbc9d98d866721"
+            },
+            {
+              "id": "fee-annual-approved-20261028-panel-13",
+              "revision": "64356b94972e835c522779099cc68dd9c3ba43cdfec7422d791ef5d3b157b5bf"
+            },
+            {
+              "id": "fee-annual-approved-20261028-builder",
+              "revision": "74a5d294547937ee2e54b86ec838a4ae45812ff22b0c89728bb5fef9acc96e3d"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-jp-r13/c49898d506297d6c728b6259ef95a491a354dd1cc397685085ebf4c26b09244e/fee-annual-approved-20261028-brochure-jp-r13.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13-master",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_制作マスター_設備費更新版_年額表改訂版.pdf",
+      "sha256": "75361d2f39787f920ecbbbce709990bff44de3cd149d492026fee541679f66f8",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "ab79d2872ccb0bdbc1e354b60e31f9b8851829c5",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "622328ff2b196cb319e1cf702db279b17e48d0367796e5fe78db71d330c8ec70"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "fee-annual-approved-20261028-brochure-jp-r13-master",
+          "variant": "approved-annual-fee-table-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "75361d2f39787f920ecbbbce709990bff44de3cd149d492026fee541679f66f8",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-jp-r13-master/75361d2f39787f920ecbbbce709990bff44de3cd149d492026fee541679f66f8/fee-annual-approved-20261028-brochure-jp-r13-master.pdf",
+          "sha256": "75361d2f39787f920ecbbbce709990bff44de3cd149d492026fee541679f66f8",
+          "size": 126438299,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User-approved exact rewrite 2026-10-28: annual table with fee item, year1, year2; admission 100000/none, annual tuition780000 each, misc50000 each, facility50000 each, totals980000/880000, grand1860000 excluding examination fee. Exact note: 上記金額には検定料2万円は含みません。 Only reading pages12/13 fee blocks changed. Original covers, images, other text, payment deadlines, AI notice and imposition preserved. Outside blocks identical 150dpi pixels and text/fonts/glyph IDs; native coordinate serialization tolerance 0.0001pt. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T01:03:14.618Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-zero-dash-20261028-brochure-jp-r13-master",
+              "revision": "6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc"
+            },
+            {
+              "id": "fee-annual-approved-20261028-panel-12",
+              "revision": "cb4d759341908c159a3d2ff01781d993729b44305aa6061770bbc9d98d866721"
+            },
+            {
+              "id": "fee-annual-approved-20261028-panel-13",
+              "revision": "64356b94972e835c522779099cc68dd9c3ba43cdfec7422d791ef5d3b157b5bf"
+            },
+            {
+              "id": "fee-annual-approved-20261028-builder",
+              "revision": "74a5d294547937ee2e54b86ec838a4ae45812ff22b0c89728bb5fef9acc96e3d"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-jp-r13-master/75361d2f39787f920ecbbbce709990bff44de3cd149d492026fee541679f66f8/fee-annual-approved-20261028-brochure-jp-r13-master.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13-A3",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_A3印刷用_設備費更新版_年額表改訂版.pdf",
+      "sha256": "7c73dce58bf45dfa3c60a63c27408bb8557ba520bb01de7e4bcc6eae6a43e68b",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "ab79d2872ccb0bdbc1e354b60e31f9b8851829c5",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "622328ff2b196cb319e1cf702db279b17e48d0367796e5fe78db71d330c8ec70"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "fee-annual-approved-20261028-brochure-jp-r13-a3",
+          "variant": "approved-annual-fee-table-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "7c73dce58bf45dfa3c60a63c27408bb8557ba520bb01de7e4bcc6eae6a43e68b",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-jp-r13-a3/7c73dce58bf45dfa3c60a63c27408bb8557ba520bb01de7e4bcc6eae6a43e68b/fee-annual-approved-20261028-brochure-jp-r13-a3.pdf",
+          "sha256": "7c73dce58bf45dfa3c60a63c27408bb8557ba520bb01de7e4bcc6eae6a43e68b",
+          "size": 4571254,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User-approved exact rewrite 2026-10-28: annual table with fee item, year1, year2; admission 100000/none, annual tuition780000 each, misc50000 each, facility50000 each, totals980000/880000, grand1860000 excluding examination fee. Exact note: 上記金額には検定料2万円は含みません。 Only reading pages12/13 fee blocks changed. Original covers, images, other text, payment deadlines, AI notice and imposition preserved. Outside blocks identical 150dpi pixels and text/fonts/glyph IDs; native coordinate serialization tolerance 0.0001pt. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T01:03:34.539Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-zero-dash-20261028-brochure-jp-r13-a3",
+              "revision": "8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6"
+            },
+            {
+              "id": "fee-annual-approved-20261028-panel-12",
+              "revision": "cb4d759341908c159a3d2ff01781d993729b44305aa6061770bbc9d98d866721"
+            },
+            {
+              "id": "fee-annual-approved-20261028-panel-13",
+              "revision": "64356b94972e835c522779099cc68dd9c3ba43cdfec7422d791ef5d3b157b5bf"
+            },
+            {
+              "id": "fee-annual-approved-20261028-builder",
+              "revision": "74a5d294547937ee2e54b86ec838a4ae45812ff22b0c89728bb5fef9acc96e3d"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-jp-r13-a3/7c73dce58bf45dfa3c60a63c27408bb8557ba520bb01de7e4bcc6eae6a43e68b/fee-annual-approved-20261028-brochure-jp-r13-a3.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13-A4",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_A4印刷用_設備費更新版_年額表改訂版.pdf",
+      "sha256": "4a9b85790f96c124d10445f195268d2fdbd8d92874234b2bcd180cd22b3cdea7",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "ab79d2872ccb0bdbc1e354b60e31f9b8851829c5",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "622328ff2b196cb319e1cf702db279b17e48d0367796e5fe78db71d330c8ec70"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "fee-annual-approved-20261028-brochure-jp-r13-a4",
+          "variant": "approved-annual-fee-table-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "4a9b85790f96c124d10445f195268d2fdbd8d92874234b2bcd180cd22b3cdea7",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-jp-r13-a4/4a9b85790f96c124d10445f195268d2fdbd8d92874234b2bcd180cd22b3cdea7/fee-annual-approved-20261028-brochure-jp-r13-a4.pdf",
+          "sha256": "4a9b85790f96c124d10445f195268d2fdbd8d92874234b2bcd180cd22b3cdea7",
+          "size": 3168957,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User-approved exact rewrite 2026-10-28: annual table with fee item, year1, year2; admission 100000/none, annual tuition780000 each, misc50000 each, facility50000 each, totals980000/880000, grand1860000 excluding examination fee. Exact note: 上記金額には検定料2万円は含みません。 Only reading pages12/13 fee blocks changed. Original covers, images, other text, payment deadlines, AI notice and imposition preserved. Outside blocks identical 150dpi pixels and text/fonts/glyph IDs; native coordinate serialization tolerance 0.0001pt. Saved composition, not standard-render freshness or release certification.",
+            "recorded_at": "2026-10-28T01:03:40.729Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "fee-zero-dash-20261028-brochure-jp-r13-a4",
+              "revision": "a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817"
+            },
+            {
+              "id": "fee-annual-approved-20261028-panel-12",
+              "revision": "cb4d759341908c159a3d2ff01781d993729b44305aa6061770bbc9d98d866721"
+            },
+            {
+              "id": "fee-annual-approved-20261028-panel-13",
+              "revision": "64356b94972e835c522779099cc68dd9c3ba43cdfec7422d791ef5d3b157b5bf"
+            },
+            {
+              "id": "fee-annual-approved-20261028-builder",
+              "revision": "74a5d294547937ee2e54b86ec838a4ae45812ff22b0c89728bb5fef9acc96e3d"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-jp-r13-a4/4a9b85790f96c124d10445f195268d2fdbd8d92874234b2bcd180cd22b3cdea7/fee-annual-approved-20261028-brochure-jp-r13-a4.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    }
+  ],
+  "zip": "/workspace/設備費更新版/設備費更新版_配布用PDF一式_パンフレット年額表改訂版.zip",
+  "zip_sha256": "a657b342360d6857e9281c6dd54cb67fc888b142f03f3369898930eaedad9038",
+  "admissions_pdfs": "same bytes as preceding admissions five-column delivery"
+}

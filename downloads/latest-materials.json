@@ -3,11 +3,11 @@
   "documents": {
     "brochure": {
       "document": "prospectus-isen-trial-2028",
-      "asset_id": "fee-zero-dash-20261028-brochure-original",
-      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original/72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a/fee-zero-dash-20261028-brochure-original.pdf",
-      "sha256": "72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a",
+      "asset_id": "fee-annual-approved-20261028-brochure-original",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-original/01a56837a123408266ebdde4cdb5540e36f8a72af743f34190f119dd1dddcd3c/fee-annual-approved-20261028-brochure-original.pdf",
+      "sha256": "01a56837a123408266ebdde4cdb5540e36f8a72af743f34190f119dd1dddcd3c",
       "pages": 16,
-      "bytes": 113737725,
+      "bytes": 113909460,
       "qr_decoded": {
         "15": [
           "https://kaihougakuen.my.canva.site/"
@@ -34,7 +34,7 @@
       "binding": "中綴じ・左綴じ",
       "audience_status": "日本人向けへの内容点検が必要",
       "year_status": "紙面は2028表記。掲載学費・入試の根拠は2027年度。2028年度確定版とは呼ばない",
-      "version_policy": "2026-10-28：5列内訳表の単独0をーへ変更し、空欄記号をー（U+30FC）で統一。年次・時期／授業料／諸経費／施設設備費／合計。施設費は各年年額50,000円、期への配分や納付時期は追加しない。料金・表の外枠/位置・表外の全内容・AI注記・画像・面付けは元の設備費更新PDFを保持。",
+      "version_policy": "2026-10-28：人間が承認した費目／1年次／2年次の年額表へ。入学金100,000/ー、授業料780,000円×2、諸経費50,000円×2、施設設備費50,000円×2、年間合計980,000/880,000円。2年間合計は検定料別の1,860,000円。「上記金額には検定料2万円は含みません。」を正確に掲載。12/13Pの料金ブロックのみ修正し、表紙・画像・他本文・納付条件・AI注記・面付けを保持。",
       "retrieval_mode": "saved",
       "freshness_status": "保存済みの局所修正版。標準renderer全冊再生成の保証ではない。",
       "previous_fee_edition": {
@@ -43,17 +43,17 @@
         "sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
         "bytes": 113453759
       },
-      "download_file": "downloads/brochure-zero-dash-20261028/output/brochure-original-facility-five-columns-zero-dash-20261028.pdf",
-      "variant": "facility-fee-zero-dash-20261028",
-      "review_status": "7PDF全80P/面の表外150dpi画素・文字/書体/字位置・全画像stream一致を確認。新しい施設設備費列に各年50,000円、各期はー。親の自己点検。独立審査・実機試し刷り・入稿承認は未実施。",
+      "download_file": "downloads/brochure-annual-table-20261028/output/brochure-original-approved-annual-table-20261028.pdf",
+      "variant": "approved-annual-fee-table-20261028",
+      "review_status": "7PDF・80P/面の料金ブロック外150dpi画素とネイティブ文字/書体/グリフ一致。ネイティブ座標はPDF直列化誤差0.0001pt以内。全元画像stream一致。3列・全年額・合計・指定注記を検査。親の自己点検。独立審査・実機試し刷り・入稿承認は未実施。",
       "print_outputs": [
         {
           "document": "prospectus-isen-trial-2028",
-          "asset_id": "fee-zero-dash-20261028-brochure-original-a3",
-          "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original-a3/8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881/fee-zero-dash-20261028-brochure-original-a3.pdf",
-          "sha256": "8b509b8fd9015bbe5c8711851bcd9f70fbdfec33eaac3785fa26fc1cb9b00881",
-          "bytes": 4315940,
-          "download_file": "downloads/brochure-zero-dash-20261028/output/brochure-original-A3-facility-five-columns-zero-dash-20261028.pdf",
+          "asset_id": "fee-annual-approved-20261028-brochure-original-a3",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-original-a3/235f7ebc89c98f55894616ebd18e04e76a7ea8eb458eff77177fcada14146744/fee-annual-approved-20261028-brochure-original-a3.pdf",
+          "sha256": "235f7ebc89c98f55894616ebd18e04e76a7ea8eb458eff77177fcada14146744",
+          "bytes": 4483753,
+          "download_file": "downloads/brochure-annual-table-20261028/output/brochure-original-A3-approved-annual-table-20261028.pdf",
           "retrieval_mode": "saved",
           "paper": "A3",
           "faces": 8,
@@ -62,11 +62,11 @@
         },
         {
           "document": "prospectus-isen-trial-2028",
-          "asset_id": "fee-zero-dash-20261028-brochure-original-a4",
-          "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original-a4/33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3/fee-zero-dash-20261028-brochure-original-a4.pdf",
-          "sha256": "33e14570ed1e2011c9b6a4ccfe68895471eebe4df206fab3a3cd5e17f120d4a3",
-          "bytes": 2952920,
-          "download_file": "downloads/brochure-zero-dash-20261028/output/brochure-original-A4-facility-five-columns-zero-dash-20261028.pdf",
+          "asset_id": "fee-annual-approved-20261028-brochure-original-a4",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-original-a4/f83e0628df5c7d4c1d88e68bf4de47447d3a73166ee1ff5700089671be7b830a/fee-annual-approved-20261028-brochure-original-a4.pdf",
+          "sha256": "f83e0628df5c7d4c1d88e68bf4de47447d3a73166ee1ff5700089671be7b830a",
+          "bytes": 3120810,
+          "download_file": "downloads/brochure-annual-table-20261028/output/brochure-original-A4-approved-annual-table-20261028.pdf",
           "retrieval_mode": "saved",
           "paper": "A4",
           "faces": 8,
@@ -76,33 +76,32 @@
       ],
       "previews": [
         {
-          "id": "tuition-20261027-brochure-original-page-12",
-          "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-original-page-12/0b5f162fc95bf347bcc0ee441ff8f55868b329ee023ec1e5b789e3cc53b23251/tuition-20261027-brochure-original-page-12.png",
-          "sha256": "0b5f162fc95bf347bcc0ee441ff8f55868b329ee023ec1e5b789e3cc53b23251"
+          "id": "fee-annual-approved-20261028-brochure-original-page-12",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-original-page-12/85444318b77877ac15cd75dcb959aad94e833cb2c27276303f63e1ae29d01040/fee-annual-approved-20261028-brochure-original-page-12.png",
+          "sha256": "85444318b77877ac15cd75dcb959aad94e833cb2c27276303f63e1ae29d01040"
         },
         {
-          "id": "fee-zero-dash-20261028-brochure-original-page-13",
-          "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original-page-13/ee536758e90a85524b3b8d19345049e238559ca472f462823752b535e4035944/fee-zero-dash-20261028-brochure-original-page-13.png",
-          "sha256": "ee536758e90a85524b3b8d19345049e238559ca472f462823752b535e4035944"
+          "id": "fee-annual-approved-20261028-brochure-original-page-13",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-original-page-13/d9d3e8e8d73493a26bbd495a0041426d728c43a4fb675866ebf9ed92c8a7d5bb/fee-annual-approved-20261028-brochure-original-page-13.png",
+          "sha256": "d9d3e8e8d73493a26bbd495a0041426d728c43a4fb675866ebf9ed92c8a7d5bb"
         }
       ],
       "previous_layout_edition": {
-        "asset_id": "fee-five-columns-20261028-brochure-original",
-        "file": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-original/d5d61ca35832584c12412f0c5fcf7df5cc8ffd88300958111a86b2664bcfafe8/fee-five-columns-20261028-brochure-original.pdf",
-        "sha256": "d5d61ca35832584c12412f0c5fcf7df5cc8ffd88300958111a86b2664bcfafe8",
-        "bytes": 113670477,
-        "download_file": "downloads/brochure-fees-five-columns-20261028/output/brochure-original-facility-five-columns-20261028.pdf"
+        "asset_id": "fee-zero-dash-20261028-brochure-original",
+        "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-original/72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a/fee-zero-dash-20261028-brochure-original.pdf",
+        "sha256": "72cccdc503fc7c562c7973c8a40c71a02d4fa11687b522dd095709d193fe577a",
+        "bytes": 113737725,
+        "download_file": "downloads/brochure-zero-dash-20261028/output/brochure-original-facility-five-columns-zero-dash-20261028.pdf"
       },
       "table_revision": {
         "date": "2026-10-28",
         "columns": [
-          "年次・時期",
-          "授業料",
-          "諸経費",
-          "施設設備費",
-          "合計"
+          "費目",
+          "1年次",
+          "2年次"
         ],
-        "manifest": "downloads/brochure-zero-dash-20261028/manifest.json"
+        "note": "上記金額には検定料2万円は含みません。",
+        "manifest": "downloads/brochure-annual-table-20261028/manifest.json"
       }
     },
     "admissions": {
@@ -271,8 +270,8 @@
       "freshness_status": "保存済み配布版。登録実体の同一性は確認、現在の標準renderer入力による再生成保証なし"
     }
   },
-  "print_bundle": "downloads/admissions-fees-five-columns-20261028/output/print-pdfs-admissions-five-columns-20261028.zip",
-  "bundle_sha256": "631a97dcc38a681ad534f9908613d1c3a7ff191dc2807dfe743bb5b3a87d96ba",
+  "print_bundle": "downloads/brochure-annual-table-20261028/output/print-pdfs-brochure-annual-20261028.zip",
+  "bundle_sha256": "9be7af174fb20c993eaa510ff51ae13b7f2d7102945081db186dd903199a99f9",
   "bundle_pdf_names": [
     "brochure-A3.pdf",
     "brochure-A4.pdf",
@@ -287,7 +286,7 @@
       "work_id": "PAM-JP-ISEN",
       "source_material_id": "PAM-ISEN-2028",
       "display_name": "パンフレット_日本人向け_医専白版_2028表記_16P_確認用",
-      "status": "改稿13・設備費更新版・内訳5列・ゼロ表記統一版・確認用",
+      "status": "改稿13・設備費更新版・承認済み年額表へ改訂・確認用",
       "tags": [
         "対象:日本人向け",
         "人物仕様:日本人イメージ",
@@ -297,48 +296,48 @@
         "種別:パンフレット",
         "表記年度:2028"
       ],
-      "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13/8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e/fee-zero-dash-20261028-brochure-jp-r13.pdf",
-      "version_policy": "2026-10-28：5列内訳表の単独0をーへ変更し、空欄記号をー（U+30FC）で統一。年次・時期／授業料／諸経費／施設設備費／合計。施設費は各年年額50,000円、期への配分や納付時期は追加しない。料金・表の外枠/位置・表外の全内容・AI注記・画像・面付けは元の設備費更新PDFを保持。",
+      "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-jp-r13/c49898d506297d6c728b6259ef95a491a354dd1cc397685085ebf4c26b09244e/fee-annual-approved-20261028-brochure-jp-r13.pdf",
+      "version_policy": "2026-10-28：人間が承認した費目／1年次／2年次の年額表へ。入学金100,000/ー、授業料780,000円×2、諸経費50,000円×2、施設設備費50,000円×2、年間合計980,000/880,000円。2年間合計は検定料別の1,860,000円。「上記金額には検定料2万円は含みません。」を正確に掲載。12/13Pの料金ブロックのみ修正し、表紙・画像・他本文・納付条件・AI注記・面付けを保持。",
       "document": "prospectus-isen-trial-2028",
-      "variant": "facility-fee-zero-dash-20261028",
-      "asset_id": "fee-zero-dash-20261028-brochure-jp-r13",
-      "sha256": "8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e",
-      "bytes": 7094913,
+      "variant": "approved-annual-fee-table-20261028",
+      "asset_id": "fee-annual-approved-20261028-brochure-jp-r13",
+      "sha256": "c49898d506297d6c728b6259ef95a491a354dd1cc397685085ebf4c26b09244e",
+      "bytes": 7262709,
       "pages": 16,
       "year_status": "紙面は2028表記。掲載学費・入試の根拠は2027年度。2028年度確定版とは呼ばない",
       "ai_image_status": "人物加工画像を含む。生成/加工とパンフレット掲載について本人承諾取得済み（人間確認2026-10-24）。最終ページ右下に明記。実写真の在校生・教職員の国籍や所属を示すものではない。",
-      "review_status": "7PDF全80P/面の表外150dpi画素・文字/書体/字位置・全画像stream一致を確認。新しい施設設備費列に各年50,000円、各期はー。親の自己点検。独立審査・実機試し刷り・入稿承認は未実施。",
+      "review_status": "7PDF・80P/面の料金ブロック外150dpi画素とネイティブ文字/書体/グリフ一致。ネイティブ座標はPDF直列化誤差0.0001pt以内。全元画像stream一致。3列・全年額・合計・指定注記を検査。親の自己点検。独立審査・実機試し刷り・入稿承認は未実施。",
       "print_outputs": [
         {
           "paper": "A3",
           "document": "prospectus-isen-trial-2028",
-          "asset_id": "fee-zero-dash-20261028-brochure-jp-r13-a3",
-          "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-a3/8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6/fee-zero-dash-20261028-brochure-jp-r13-a3.pdf",
-          "sha256": "8248cef65effab24f963bb6389102e2d1d8afc0845bed970ffd0e6808f3579e6",
-          "bytes": 4403398,
+          "asset_id": "fee-annual-approved-20261028-brochure-jp-r13-a3",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-jp-r13-a3/7c73dce58bf45dfa3c60a63c27408bb8557ba520bb01de7e4bcc6eae6a43e68b/fee-annual-approved-20261028-brochure-jp-r13-a3.pdf",
+          "sha256": "7c73dce58bf45dfa3c60a63c27408bb8557ba520bb01de7e4bcc6eae6a43e68b",
+          "bytes": 4571254,
           "faces": 8,
           "sheets": 4,
           "duplex": "短辺反転",
           "retrieval_mode": "saved",
-          "download_file": "downloads/brochure-zero-dash-20261028/output/brochure-jp-r13-A3-facility-five-columns-zero-dash-20261028.pdf"
+          "download_file": "downloads/brochure-annual-table-20261028/output/brochure-jp-r13-A3-approved-annual-table-20261028.pdf"
         },
         {
           "paper": "A4",
           "document": "prospectus-isen-trial-2028",
-          "asset_id": "fee-zero-dash-20261028-brochure-jp-r13-a4",
-          "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-a4/a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817/fee-zero-dash-20261028-brochure-jp-r13-a4.pdf",
-          "sha256": "a0b5b624b9a6ddb6c84f3bb7c233ef010adad5787f2f9ddae061c5b68a15e817",
-          "bytes": 3001038,
+          "asset_id": "fee-annual-approved-20261028-brochure-jp-r13-a4",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-jp-r13-a4/4a9b85790f96c124d10445f195268d2fdbd8d92874234b2bcd180cd22b3cdea7/fee-annual-approved-20261028-brochure-jp-r13-a4.pdf",
+          "sha256": "4a9b85790f96c124d10445f195268d2fdbd8d92874234b2bcd180cd22b3cdea7",
+          "bytes": 3168957,
           "faces": 8,
           "sheets": 4,
           "duplex": "短辺反転",
           "retrieval_mode": "saved",
-          "download_file": "downloads/brochure-zero-dash-20261028/output/brochure-jp-r13-A4-facility-five-columns-zero-dash-20261028.pdf"
+          "download_file": "downloads/brochure-annual-table-20261028/output/brochure-jp-r13-A4-approved-annual-table-20261028.pdf"
         }
       ],
       "retrieval_mode": "saved",
       "freshness_status": "保存済みの局所修正版。標準renderer全冊再生成の保証ではない。",
-      "download_file": "downloads/brochure-zero-dash-20261028/output/brochure-jp-r13-facility-five-columns-zero-dash-20261028.pdf",
+      "download_file": "downloads/brochure-annual-table-20261028/output/brochure-jp-r13-approved-annual-table-20261028.pdf",
       "previews": [
         {
           "id": "jp-isen-overview-01",
@@ -351,24 +350,24 @@
           "sha256": "ce8205a25bc41f602f23d4f44419d1beaeb7ddd1db083a72bfb8ce451257bdf7"
         },
         {
-          "id": "tuition-20261027-r13-overview-09",
-          "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-r13-overview-09/5ee144223a407b94f2ed4799356d37755bf540efca19c5e13d22ea5e5c9d96b5/tuition-20261027-r13-overview-09.jpg",
-          "sha256": "5ee144223a407b94f2ed4799356d37755bf540efca19c5e13d22ea5e5c9d96b5"
+          "id": "fee-annual-approved-20261028-r13-overview-09",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-r13-overview-09/054df0df4773aeda5ddfe5f95a75145a45b6d96c7d6e197b386cf0d89b747227/fee-annual-approved-20261028-r13-overview-09.jpg",
+          "sha256": "054df0df4773aeda5ddfe5f95a75145a45b6d96c7d6e197b386cf0d89b747227"
         },
         {
-          "id": "fee-zero-dash-20261028-r13-overview-13",
-          "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-r13-overview-13/c2771fc277016b1c210122e5fbf6af75365c8b25f0fd6f7c7c04ca4944511e7d/fee-zero-dash-20261028-r13-overview-13.jpg",
-          "sha256": "c2771fc277016b1c210122e5fbf6af75365c8b25f0fd6f7c7c04ca4944511e7d"
+          "id": "fee-annual-approved-20261028-r13-overview-13",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-r13-overview-13/7e28ad71e938cdbef17404bb3c3503e746917f7ac8e1d7092bb725cffa806fe4/fee-annual-approved-20261028-r13-overview-13.jpg",
+          "sha256": "7e28ad71e938cdbef17404bb3c3503e746917f7ac8e1d7092bb725cffa806fe4"
         },
         {
-          "id": "tuition-20261027-brochure-jp-r13-page-12",
-          "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-brochure-jp-r13-page-12/35d4626c29f055b17e22faec588464057f60892415ace5a59280352b305f557c/tuition-20261027-brochure-jp-r13-page-12.png",
-          "sha256": "35d4626c29f055b17e22faec588464057f60892415ace5a59280352b305f557c"
+          "id": "fee-annual-approved-20261028-brochure-jp-r13-page-12",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-jp-r13-page-12/5e84f2432531db49bdef6439623793d0e12aba7d72318c5865f5ccba86f7373b/fee-annual-approved-20261028-brochure-jp-r13-page-12.png",
+          "sha256": "5e84f2432531db49bdef6439623793d0e12aba7d72318c5865f5ccba86f7373b"
         },
         {
-          "id": "fee-zero-dash-20261028-brochure-jp-r13-page-13",
-          "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-page-13/d462f76e64b8d07a9d75d61c9f4a95bb42a438a4031ab82268c56d490a9e1b7e/fee-zero-dash-20261028-brochure-jp-r13-page-13.png",
-          "sha256": "d462f76e64b8d07a9d75d61c9f4a95bb42a438a4031ab82268c56d490a9e1b7e"
+          "id": "fee-annual-approved-20261028-brochure-jp-r13-page-13",
+          "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-jp-r13-page-13/70b0e0799afbb661f7c97b3fce76adf066f332edf66da76c6286049fdd814c61/fee-annual-approved-20261028-brochure-jp-r13-page-13.png",
+          "sha256": "70b0e0799afbb661f7c97b3fce76adf066f332edf66da76c6286049fdd814c61"
         }
       ],
       "previous_fee_edition": {
@@ -380,11 +379,11 @@
       },
       "master_output": {
         "document": "prospectus-isen-trial-2028",
-        "asset_id": "fee-zero-dash-20261028-brochure-jp-r13-master",
-        "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13-master/6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc/fee-zero-dash-20261028-brochure-jp-r13-master.pdf",
-        "sha256": "6c7f0472dea22feea7830f0431b815a7c4cc66796655fc7da23765288e32dfdc",
-        "bytes": 126266523,
-        "download_file": "downloads/brochure-zero-dash-20261028/output/brochure-jp-r13-master-facility-five-columns-zero-dash-20261028.pdf",
+        "asset_id": "fee-annual-approved-20261028-brochure-jp-r13-master",
+        "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-brochure-jp-r13-master/75361d2f39787f920ecbbbce709990bff44de3cd149d492026fee541679f66f8/fee-annual-approved-20261028-brochure-jp-r13-master.pdf",
+        "sha256": "75361d2f39787f920ecbbbce709990bff44de3cd149d492026fee541679f66f8",
+        "bytes": 126438299,
+        "download_file": "downloads/brochure-annual-table-20261028/output/brochure-jp-r13-master-approved-annual-table-20261028.pdf",
         "retrieval_mode": "saved"
       },
       "fee_revision": {
@@ -392,22 +391,21 @@
         "manifest": "downloads/tuition-r13-revision-20261027/manifest.json"
       },
       "previous_layout_edition": {
-        "asset_id": "fee-five-columns-20261028-brochure-jp-r13",
-        "file": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-brochure-jp-r13/36249ae34101c86701565cf2724f0ca17d8bbc8839d5d0174bc800f6991009cd/fee-five-columns-20261028-brochure-jp-r13.pdf",
-        "sha256": "36249ae34101c86701565cf2724f0ca17d8bbc8839d5d0174bc800f6991009cd",
-        "bytes": 7029924,
-        "download_file": "downloads/brochure-fees-five-columns-20261028/output/brochure-jp-r13-facility-five-columns-20261028.pdf"
+        "asset_id": "fee-zero-dash-20261028-brochure-jp-r13",
+        "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-brochure-jp-r13/8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e/fee-zero-dash-20261028-brochure-jp-r13.pdf",
+        "sha256": "8870e99e06815f838c02b8618de919f48c4c1221c93bf846a3be837c3803229e",
+        "bytes": 7094913,
+        "download_file": "downloads/brochure-zero-dash-20261028/output/brochure-jp-r13-facility-five-columns-zero-dash-20261028.pdf"
       },
       "table_revision": {
         "date": "2026-10-28",
         "columns": [
-          "年次・時期",
-          "授業料",
-          "諸経費",
-          "施設設備費",
-          "合計"
+          "費目",
+          "1年次",
+          "2年次"
         ],
-        "manifest": "downloads/brochure-zero-dash-20261028/manifest.json"
+        "note": "上記金額には検定料2万円は含みません。",
+        "manifest": "downloads/brochure-annual-table-20261028/manifest.json"
       }
     },
     {
@@ -676,7 +674,7 @@
     }
   ],
   "previous_print_bundle": {
-    "file": "downloads/brochure-zero-dash-20261028/output/print-pdfs-zero-dash-20261028.zip",
-    "sha256": "5911e5201c53ca0536c0fe40aba9c123758f9b128967ed1b3c1ff90130e3c607"
+    "file": "downloads/admissions-fees-five-columns-20261028/output/print-pdfs-admissions-five-columns-20261028.zip",
+    "sha256": "631a97dcc38a681ad534f9908613d1c3a7ff191dc2807dfe743bb5b3a87d96ba"
   }
 }

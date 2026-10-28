@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-28",
+  "reviewer": "parent self-review",
+  "brief": "人間が承認した費目／1年次／2年次の表、2年間合計1,860,000円と指定注記をパンフレットへ反映。募集要項は今回変更しない。",
+  "purpose": "本人の行きたいと保護者の払える・払うを成立させ、入学手続きと入金につなげる。",
+  "audience": "台帳の読者・既存日本人向けR13／元版の対象を維持。",
+  "outputs": [
+    {
+      "label": "brochure-original",
+      "sha256": "01a56837a123408266ebdde4cdb5540e36f8a72af743f34190f119dd1dddcd3c"
+    },
+    {
+      "label": "brochure-original-A3",
+      "sha256": "235f7ebc89c98f55894616ebd18e04e76a7ea8eb458eff77177fcada14146744"
+    },
+    {
+      "label": "brochure-original-A4",
+      "sha256": "f83e0628df5c7d4c1d88e68bf4de47447d3a73166ee1ff5700089671be7b830a"
+    },
+    {
+      "label": "brochure-jp-r13",
+      "sha256": "c49898d506297d6c728b6259ef95a491a354dd1cc397685085ebf4c26b09244e"
+    },
+    {
+      "label": "brochure-jp-r13-master",
+      "sha256": "75361d2f39787f920ecbbbce709990bff44de3cd149d492026fee541679f66f8"
+    },
+    {
+      "label": "brochure-jp-r13-A3",
+      "sha256": "7c73dce58bf45dfa3c60a63c27408bb8557ba520bb01de7e4bcc6eae6a43e68b"
+    },
+    {
+      "label": "brochure-jp-r13-A4",
+      "sha256": "4a9b85790f96c124d10445f195268d2fdbd8d92874234b2bcd180cd22b3cdea7"
+    }
+  ],
+  "evidence": [
+    "all fourteen fee blocks enlarged: /tmp/brochure-annual-all-tables.jpg",
+    "previews/brochure-jp-r13-page-13.png",
+    "panels/page12.pdf",
+    "panels/page13.pdf",
+    "standard source render PNG/PDF /tmp/brochure-annual-table-source"
+  ],
+  "findings": "年額表・全費目/金額・合計・指定注記を確認。文字切れ・重なりなし。旧前後期の表と検定料込み総額を料金ブロック内で置換。料金欄外の全80P/面画素、ネイティブ文字/書体/グリフ、全元画像streamを保持。PDF直列化の字位置誤差は0.0001pt以内。",
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false
+}

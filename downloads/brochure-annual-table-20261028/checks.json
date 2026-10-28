@@ -1,0 +1,24 @@
+{
+  "recorded_at_utc": "2026-10-28T01:09:23.614992+00:00",
+  "doctor": "same session: 10 OK, 1 WARN, 0 NG",
+  "source_render": "passed page_001/page_002 PNG and two-page PDF, Chromium154 preview",
+  "pdf_comparison": {
+    "passed": true,
+    "pdfs": 7,
+    "page_faces": 80,
+    "proof": "verification.json",
+    "native_coordinate_tolerance_pt": 0.0001
+  },
+  "approved_note": "上記金額には検定料2万円は含みません。",
+  "financial_facts": "admissions.yaml unchanged; annual tuition display aggregate in booklet.yaml derived from terms and verified",
+  "saved_get": "passed: seven registered PDFs retrieved --saved and delivery SHA matched",
+  "distribution_zip": "passed: classic ZIP brochure A3/A4 only replaced; Japanese eight-PDF ZIP R13 three PDFs only replaced; admissions and flyer unchanged",
+  "visual_review": "parent self-review; fourteen fee blocks enlarged and full R13 fee page",
+  "source_baseline_sync": "pending final combined normal CLI sync; earlier queue stopped before new source edits",
+  "whole_check": "pending after baseline sync",
+  "metadata_only": "pending final catalog check",
+  "github_required_asset_integrity": "unconfirmed; PR API blocked HTTP403 by environment network policy",
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false
+}

@@ -1,0 +1,246 @@
+{
+  "verified": true,
+  "outputs": [
+    {
+      "label": "brochure-original",
+      "sha256": "01a56837a123408266ebdde4cdb5540e36f8a72af743f34190f119dd1dddcd3c",
+      "page_faces": 16,
+      "outside_fee_blocks_pixels_identical": true,
+      "outside_fee_blocks_native_text_fonts_glyph_ids_identical": true,
+      "outside_native_font_size_or_position_max_delta_pt": 0,
+      "native_coordinate_tolerance_pt": 0.0001,
+      "all_original_image_streams_identical": true,
+      "annual_tables": [
+        {
+          "reading_page": 12,
+          "pdf_page": 12,
+          "columns": [
+            "費目入学金授業料諸経費施設設備費年間合計",
+            "1年次100,000円780,000円50,000円50,000円980,000円",
+            "2年次ー780,000円50,000円50,000円880,000円"
+          ],
+          "approved_note_once": true,
+          "grand_total_excludes_exam": 1860000
+        },
+        {
+          "reading_page": 13,
+          "pdf_page": 13,
+          "columns": [
+            "費目入学金授業料諸経費施設設備費年間合計",
+            "1年次100,000円780,000円50,000円50,000円980,000円",
+            "2年次ー780,000円50,000円50,000円880,000円"
+          ],
+          "approved_note_once": true,
+          "grand_total_excludes_exam": 1860000
+        }
+      ]
+    },
+    {
+      "label": "brochure-original-A3",
+      "sha256": "235f7ebc89c98f55894616ebd18e04e76a7ea8eb458eff77177fcada14146744",
+      "page_faces": 8,
+      "outside_fee_blocks_pixels_identical": true,
+      "outside_fee_blocks_native_text_fonts_glyph_ids_identical": true,
+      "outside_native_font_size_or_position_max_delta_pt": 0,
+      "native_coordinate_tolerance_pt": 0.0001,
+      "all_original_image_streams_identical": true,
+      "annual_tables": [
+        {
+          "reading_page": 12,
+          "pdf_page": 5,
+          "columns": [
+            "費目入学金授業料諸経費施設設備費年間合計",
+            "1年次100,000円780,000円50,000円50,000円980,000円",
+            "2年次ー780,000円50,000円50,000円880,000円"
+          ],
+          "approved_note_once": true,
+          "grand_total_excludes_exam": 1860000
+        },
+        {
+          "reading_page": 13,
+          "pdf_page": 4,
+          "columns": [
+            "費目入学金授業料諸経費施設設備費年間合計",
+            "1年次100,000円780,000円50,000円50,000円980,000円",
+            "2年次ー780,000円50,000円50,000円880,000円"
+          ],
+          "approved_note_once": true,
+          "grand_total_excludes_exam": 1860000
+        }
+      ]
+    },
+    {
+      "label": "brochure-original-A4",
+      "sha256": "f83e0628df5c7d4c1d88e68bf4de47447d3a73166ee1ff5700089671be7b830a",
+      "page_faces": 8,
+      "outside_fee_blocks_pixels_identical": true,
+      "outside_fee_blocks_native_text_fonts_glyph_ids_identical": true,
+      "outside_native_font_size_or_position_max_delta_pt": 0,
+      "native_coordinate_tolerance_pt": 0.0001,
+      "all_original_image_streams_identical": true,
+      "annual_tables": [
+        {
+          "reading_page": 12,
+          "pdf_page": 5,
+          "columns": [
+            "費目入学金授業料諸経費施設設備費年間合計",
+            "1年次100,000円780,000円50,000円50,000円980,000円",
+            "2年次ー780,000円50,000円50,000円880,000円"
+          ],
+          "approved_note_once": true,
+          "grand_total_excludes_exam": 1860000
+        },
+        {
+          "reading_page": 13,
+          "pdf_page": 4,
+          "columns": [
+            "費目入学金授業料諸経費施設設備費年間合計",
+            "1年次100,000円780,000円50,000円50,000円980,000円",
+            "2年次ー780,000円50,000円50,000円880,000円"
+          ],
+          "approved_note_once": true,
+          "grand_total_excludes_exam": 1860000
+        }
+      ]
+    },
+    {
+      "label": "brochure-jp-r13",
+      "sha256": "c49898d506297d6c728b6259ef95a491a354dd1cc397685085ebf4c26b09244e",
+      "page_faces": 16,
+      "outside_fee_blocks_pixels_identical": true,
+      "outside_fee_blocks_native_text_fonts_glyph_ids_identical": true,
+      "outside_native_font_size_or_position_max_delta_pt": 1.52587890625e-05,
+      "native_coordinate_tolerance_pt": 0.0001,
+      "all_original_image_streams_identical": true,
+      "annual_tables": [
+        {
+          "reading_page": 12,
+          "pdf_page": 12,
+          "columns": [
+            "費目入学金授業料諸経費施設設備費年間合計",
+            "1年次100,000円780,000円50,000円50,000円980,000円",
+            "2年次ー780,000円50,000円50,000円880,000円"
+          ],
+          "approved_note_once": true,
+          "grand_total_excludes_exam": 1860000
+        },
+        {
+          "reading_page": 13,
+          "pdf_page": 13,
+          "columns": [
+            "費目入学金授業料諸経費施設設備費年間合計",
+            "1年次100,000円780,000円50,000円50,000円980,000円",
+            "2年次ー780,000円50,000円50,000円880,000円"
+          ],
+          "approved_note_once": true,
+          "grand_total_excludes_exam": 1860000
+        }
+      ]
+    },
+    {
+      "label": "brochure-jp-r13-master",
+      "sha256": "75361d2f39787f920ecbbbce709990bff44de3cd149d492026fee541679f66f8",
+      "page_faces": 16,
+      "outside_fee_blocks_pixels_identical": true,
+      "outside_fee_blocks_native_text_fonts_glyph_ids_identical": true,
+      "outside_native_font_size_or_position_max_delta_pt": 0,
+      "native_coordinate_tolerance_pt": 0.0001,
+      "all_original_image_streams_identical": true,
+      "annual_tables": [
+        {
+          "reading_page": 12,
+          "pdf_page": 12,
+          "columns": [
+            "費目入学金授業料諸経費施設設備費年間合計",
+            "1年次100,000円780,000円50,000円50,000円980,000円",
+            "2年次ー780,000円50,000円50,000円880,000円"
+          ],
+          "approved_note_once": true,
+          "grand_total_excludes_exam": 1860000
+        },
+        {
+          "reading_page": 13,
+          "pdf_page": 13,
+          "columns": [
+            "費目入学金授業料諸経費施設設備費年間合計",
+            "1年次100,000円780,000円50,000円50,000円980,000円",
+            "2年次ー780,000円50,000円50,000円880,000円"
+          ],
+          "approved_note_once": true,
+          "grand_total_excludes_exam": 1860000
+        }
+      ]
+    },
+    {
+      "label": "brochure-jp-r13-A3",
+      "sha256": "7c73dce58bf45dfa3c60a63c27408bb8557ba520bb01de7e4bcc6eae6a43e68b",
+      "page_faces": 8,
+      "outside_fee_blocks_pixels_identical": true,
+      "outside_fee_blocks_native_text_fonts_glyph_ids_identical": true,
+      "outside_native_font_size_or_position_max_delta_pt": 0,
+      "native_coordinate_tolerance_pt": 0.0001,
+      "all_original_image_streams_identical": true,
+      "annual_tables": [
+        {
+          "reading_page": 12,
+          "pdf_page": 5,
+          "columns": [
+            "費目入学金授業料諸経費施設設備費年間合計",
+            "1年次100,000円780,000円50,000円50,000円980,000円",
+            "2年次ー780,000円50,000円50,000円880,000円"
+          ],
+          "approved_note_once": true,
+          "grand_total_excludes_exam": 1860000
+        },
+        {
+          "reading_page": 13,
+          "pdf_page": 4,
+          "columns": [
+            "費目入学金授業料諸経費施設設備費年間合計",
+            "1年次100,000円780,000円50,000円50,000円980,000円",
+            "2年次ー780,000円50,000円50,000円880,000円"
+          ],
+          "approved_note_once": true,
+          "grand_total_excludes_exam": 1860000
+        }
+      ]
+    },
+    {
+      "label": "brochure-jp-r13-A4",
+      "sha256": "4a9b85790f96c124d10445f195268d2fdbd8d92874234b2bcd180cd22b3cdea7",
+      "page_faces": 8,
+      "outside_fee_blocks_pixels_identical": true,
+      "outside_fee_blocks_native_text_fonts_glyph_ids_identical": true,
+      "outside_native_font_size_or_position_max_delta_pt": 0,
+      "native_coordinate_tolerance_pt": 0.0001,
+      "all_original_image_streams_identical": true,
+      "annual_tables": [
+        {
+          "reading_page": 12,
+          "pdf_page": 5,
+          "columns": [
+            "費目入学金授業料諸経費施設設備費年間合計",
+            "1年次100,000円780,000円50,000円50,000円980,000円",
+            "2年次ー780,000円50,000円50,000円880,000円"
+          ],
+          "approved_note_once": true,
+          "grand_total_excludes_exam": 1860000
+        },
+        {
+          "reading_page": 13,
+          "pdf_page": 4,
+          "columns": [
+            "費目入学金授業料諸経費施設設備費年間合計",
+            "1年次100,000円780,000円50,000円50,000円980,000円",
+            "2年次ー780,000円50,000円50,000円880,000円"
+          ],
+          "approved_note_once": true,
+          "grand_total_excludes_exam": 1860000
+        }
+      ]
+    }
+  ],
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false
+}

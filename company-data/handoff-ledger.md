@@ -589,3 +589,11 @@ PDF受渡し調査は人間の指示で保留。医専BOOKの地図第2案を画
 ### 2026-10-28 募集要項・学費表5列統一（Codex）
 
 人間の「募集要項の方も同様の表に変えろ」により、写真入り新表紙のページ順、旧表紙配布A3/A4、文字のみのページ順/A3の5PDFを更新。読順6P／印刷面6の学費表だけを、年次・時期／授業料／諸経費／施設設備費／合計の5列へ。施設費年額50,000円×2、単独0・空欄はー。数値・制度・表外・画像・白紙裏・QR・面付け保持。全5PDF・84P/面比較合格。保存物は downloads/admissions-fees-five-columns-20261028/、日本語名の提供PDF/取得SHAはdelivery-files.json。元ZIPは募集要項2PDF、8PDF日本語ZIPは募集要項5PDFだけ差し替え、現行パンフレットを保持。制作元page_007 HTML/CSSを対応。ブランチ book/brochure-fees-five-columns-20261028、main未反映。前のbaseline/checkキューは新資料登録前に止め、保存後にパンフレットpage_002 HTMLと募集要項page_007 HTML/CSSの3ファイルを正規同期→全体check。ログ /tmp/admissions-five-columns-baseline.log、/tmp/admissions-five-columns-check.log、metadata /tmp/admissions-five-columns-metadata.json。PRは通信制限403で未作成、本文はPR.mdに保管。マージ指示時は検査結果とbaseline差分を取り込み、必須GitHubチェックを確認。
+
+### 2026-10-28 パンフレット・承認済み年額表（Codex）
+
+人間が費目／1年次／2年次の簡易表全文を承認し「OK、パンフレット変えろ」、続いて「修正してPDFにして」と指定。現行医専元版3PDF・日本人向けR13の4PDF、12/13Pの料金ブロックだけを改訂。入学金100,000円／ー、授業料各780,000円、諸経費・施設設備費各50,000円、年間980,000/880,000円、2年間合計1,860,000円。注記は正確に「上記金額には検定料2万円は含みません。」。前後期混在表と13P検定料込み合計を置換し、料金外・納付条件・画像・AI注記・面付けを保持。全7PDF・80P/面の料金外150dpi画素一致、文字/書体/グリフ一致、字位置は直列化誤差0.0001pt以内。登録・get・提供SHAは downloads/brochure-annual-table-20261028/。元の料金正本admissions.yamlは変更なし。booklet.yamlに各年前後期授業料を合算した描画用reference_annual_tuitionを追加しrendererで検算。募集要項とチラシは今回変更していない。
+
+ブランチ book/brochure-fees-five-columns-20261028、未マージ。正規baseline同期は brochure page_001/page_002 HTML・page_002 CSS・booklet.yamlと前回保留のadmissions page_007 HTML/CSSをまとめる。ログ /tmp/brochure-annual-table-baseline.log、/tmp/brochure-annual-table-check.log、metadata /tmp/brochure-annual-table-metadata.json。GitHub PR APIは通信制限403で未作成、本文PR.md。未通過を合格扱いしない。
+
+追加のQR相談は「QRとリンクが欲しいだけ」と人間が範囲を訂正。チラシ自体は変更しない。パンフレットは未公開。人間がDriveへ保存し「リンクを知っている全員／閲覧者」にした共有URLを渡す予定。受領後、そのURLを開くQRを学校正本ロゴを中央に入れて作成し、デコード・印刷寸法での可読性を確認する。学校HPへの誘導やチラシ組込みは勝手に進めない。

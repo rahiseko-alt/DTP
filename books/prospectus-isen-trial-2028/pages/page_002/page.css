@@ -25,6 +25,6 @@
 .payment-steps>div { padding:3mm; }
 .payment-detail .fee-section th,.payment-detail .fee-section td { padding:2mm 3mm; }
 .confirm-section { padding:3mm; }
-.payment-detail .fee-section table{height:48.2mm;table-layout:fixed}
+.payment-detail .fee-section table{height:73.1mm;table-layout:fixed}
 .payment-detail .fee-section th,.payment-detail .fee-section td{padding:0 3mm;height:6.88mm;line-height:1.5;white-space:nowrap}
-.payment-detail .fee-section tbody th{width:31%}
+.payment-detail .fee-section tbody th{width:47%}

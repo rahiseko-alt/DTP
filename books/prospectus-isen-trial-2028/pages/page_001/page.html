@@ -6,16 +6,15 @@
   </section>
   <div class="year-notice"><strong>{{facts.booklet.reference_admissions_year}}年度の参考額</strong><span>{{facts.booklet.intake}}の学費・納付条件は未確定です。</span></div>
   <section class="fee-section">
-    <h2><ruby>納付金<rt>のうふきん</rt></ruby>の<ruby>内訳<rt>うちわけ</rt></ruby><small>単位：円</small></h2>
-    <table><thead><tr><th>項目</th><th>1<ruby>年次<rt>ねんじ</rt></ruby></th><th>2<ruby>年次<rt>ねんじ</rt></ruby></th></tr></thead><tbody>
-      <tr><th><ruby>入学金<rt>にゅうがくきん</rt></ruby></th><td>{{num facts.admissions.tuition.entrance_fee}}</td><td>—</td></tr>
-      <tr><th><ruby>授業料<rt>じゅぎょうりょう</rt></ruby>（前期）</th><td>{{num facts.admissions.tuition.years.0.terms.0.tuition}}</td><td>{{num facts.admissions.tuition.years.1.terms.0.tuition}}</td></tr>
-      <tr><th><ruby>授業料<rt>じゅぎょうりょう</rt></ruby>（後期）</th><td>{{num facts.admissions.tuition.years.0.terms.1.tuition}}</td><td>{{num facts.admissions.tuition.years.1.terms.1.tuition}}</td></tr>
-      <tr><th><ruby>諸経費<rt>しょけいひ</rt></ruby>（年額）</th><td>{{num facts.admissions.tuition.years.0.terms.0.expenses}}</td><td>{{num facts.admissions.tuition.years.1.terms.0.expenses}}</td></tr>
-      <tr><th>施設設備費（年額）</th><td>{{num facts.admissions.tuition.years.0.facility_fee}}</td><td>{{num facts.admissions.tuition.years.1.facility_fee}}</td></tr>
-      <tr class="total-row"><th><ruby>年間合計<rt>ねんかんごうけい</rt></ruby></th><td>{{num facts.admissions.tuition.years.0.total}}</td><td>{{num facts.admissions.tuition.years.1.total}}</td></tr>
-    </tbody></table>
-    <div class="total-strip"><span>2年間の納付金合計</span><strong>{{num facts.admissions.tuition.grand_total}}<small>円</small></strong><p>入学金を含む／入学検定料を除く</p></div>
+<h2>学費の内訳</h2>
+<table><colgroup><col style="width:47%"><col style="width:26.5%"><col style="width:26.5%"></colgroup><thead><tr><th>費目</th><th>1年次</th><th>2年次</th></tr></thead><tbody>
+<tr><th>入学金</th><td>{{num facts.admissions.tuition.entrance_fee}}円</td><td>ー</td></tr>
+<tr><th>授業料</th><td>{{num (lookup facts.booklet.reference_annual_tuition 0)}}円</td><td>{{num (lookup facts.booklet.reference_annual_tuition 1)}}円</td></tr>
+<tr><th>諸経費</th><td>{{num facts.admissions.tuition.years.0.terms.0.expenses}}円</td><td>{{num facts.admissions.tuition.years.1.terms.0.expenses}}円</td></tr>
+<tr><th>施設設備費</th><td>{{num facts.admissions.tuition.years.0.facility_fee}}円</td><td>{{num facts.admissions.tuition.years.1.facility_fee}}円</td></tr>
+<tr class="total-row"><th>年間合計</th><td>{{num facts.admissions.tuition.years.0.total}}円</td><td>{{num facts.admissions.tuition.years.1.total}}円</td></tr>
+</tbody></table>
+<div class="total-strip"><span>2年間合計：</span><strong>{{num facts.admissions.tuition.grand_total}}<small>円</small></strong><p>上記金額には検定料2万円は含みません。</p></div>
     <div class="exam-fee"><div><strong><ruby>入学検定料<rt>にゅうがくけんていりょう</rt></ruby></strong><span>出願時に納める費用。上の納付金とは別です。</span></div><b>{{num facts.admissions.exam_fee}}円</b></div>
   </section>
   <section class="payment-section"><h2><ruby>納付期限<rt>のうふきげん</rt></ruby>と<ruby>支払<rt>しはら</rt></ruby>い</h2>
