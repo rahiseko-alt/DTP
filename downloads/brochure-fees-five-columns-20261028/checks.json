@@ -1,5 +1,5 @@
 {
-  "recorded_at_utc": "2026-10-28T00:09:03.644043+00:00",
+  "recorded_at_utc": "2026-10-28T00:21:16.797015+00:00",
   "doctor": {
     "ok": 10,
     "warnings": 1,
@@ -17,10 +17,16 @@
   "visual_review": "parent self-review, all pages/faces overview and all seven tables enlarged; no clipping or overlap",
   "facts_and_unrelated_materials": "unchanged; source YAML and all admissions/flyer index entries match base",
   "saved_get": "7 revised registered PDFs retrieved and SHA matched to delivery copies",
-  "source_baseline_sync": "running; only page_002 HTML/CSS requested",
-  "whole_check": "will run after baseline completes; initial validation stopped to keep the metadata fixed",
+  "source_baseline_sync": {
+    "passed": true,
+    "updated": 2,
+    "added": 0,
+    "removed": 0
+  },
+  "whole_check": "running after baseline completed; final result will be recorded in PR",
   "required_github_asset_integrity": "pending PR",
   "independent_review": false,
   "physical_print_test": false,
-  "release": false
+  "release": false,
+  "metadata_only": "running"
 }
