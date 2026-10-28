@@ -1,5 +1,5 @@
 {
-  "recorded_at_utc": "2026-10-28T00:21:16.797015+00:00",
+  "recorded_at_utc": "2026-10-28T00:22:16.841894+00:00",
   "doctor": {
     "ok": 10,
     "warnings": 1,
@@ -24,9 +24,17 @@
     "removed": 0
   },
   "whole_check": "running after baseline completed; final result will be recorded in PR",
-  "required_github_asset_integrity": "pending PR",
+  "required_github_asset_integrity": "unconfirmed: PR creation blocked by HTTP403; api.github.com not in enforced network allowlist",
   "independent_review": false,
   "physical_print_test": false,
   "release": false,
-  "metadata_only": "running"
+  "metadata_only": "running",
+  "pull_request": {
+    "created": false,
+    "branch": "book/brochure-fees-five-columns-20261028",
+    "pushed": true,
+    "failure": "gh pr create: Post https://api.github.com/graphql: Forbidden",
+    "environment": "enforced restricted networking does not allow api.github.com",
+    "body": "PR.md"
+  }
 }
