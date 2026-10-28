@@ -1,0 +1,244 @@
+{
+  "files": [
+    {
+      "label": "brochure-jp-r13",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_ページ順_設備費更新版_ふりがな無し_文面修正_授業時間欄削除版.pdf",
+      "sha256": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "59f1ec3f7e8bf9cac5f179a6d592655c473f5fd6a95b3c3aedf37724f6d05e1d"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "no-hours-20261028-brochure-jp-r13",
+          "variant": "class-hours-removed-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898",
+          "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13/4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898/no-hours-20261028-brochure-jp-r13.pdf",
+          "sha256": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898",
+          "size": 8654291,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+            "recorded_at": "2026-10-28T03:28:58.609Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "jp-copy-20261028-brochure-jp-r13",
+              "revision": "3a1085aca24055e91ec493eac6ed07bd0ca94d9e87c5bab507db7fc4e1824c32"
+            },
+            {
+              "id": "no-hours-20261028-builder",
+              "revision": "3f5ab5c55e4043d0f7f956757d00caf34f0297f742efce97a7b04614f65843f6"
+            },
+            {
+              "id": "no-hours-20261028-overlay-packet",
+              "revision": "4c11219236f7670095c11ff248298efeb40689b40de722057279f73c82522cd6"
+            },
+            {
+              "id": "no-hours-20261028-copy-plan",
+              "revision": "9a25dd2d46cee1f8c484c6f78246525a1a206f46ed8eb794293c30bc54b24aa4"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13/4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898/no-hours-20261028-brochure-jp-r13.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13-master",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_制作マスター_設備費更新版_ふりがな無し_文面修正_授業時間欄削除版.pdf",
+      "sha256": "c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "59f1ec3f7e8bf9cac5f179a6d592655c473f5fd6a95b3c3aedf37724f6d05e1d"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "no-hours-20261028-brochure-jp-r13-master",
+          "variant": "class-hours-removed-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d",
+          "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13-master/c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d/no-hours-20261028-brochure-jp-r13-master.pdf",
+          "sha256": "c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d",
+          "size": 127837868,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+            "recorded_at": "2026-10-28T03:29:07.887Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "jp-copy-20261028-brochure-jp-r13-master",
+              "revision": "2eea9c8ebee052fd512b471e799ab593bee12a6f8d3ce20c7ce9d377edae16c2"
+            },
+            {
+              "id": "no-hours-20261028-builder",
+              "revision": "3f5ab5c55e4043d0f7f956757d00caf34f0297f742efce97a7b04614f65843f6"
+            },
+            {
+              "id": "no-hours-20261028-overlay-packet",
+              "revision": "4c11219236f7670095c11ff248298efeb40689b40de722057279f73c82522cd6"
+            },
+            {
+              "id": "no-hours-20261028-copy-plan",
+              "revision": "9a25dd2d46cee1f8c484c6f78246525a1a206f46ed8eb794293c30bc54b24aa4"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13-master/c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d/no-hours-20261028-brochure-jp-r13-master.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13-A3",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_A3印刷用_設備費更新版_ふりがな無し_文面修正_授業時間欄削除版.pdf",
+      "sha256": "1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "59f1ec3f7e8bf9cac5f179a6d592655c473f5fd6a95b3c3aedf37724f6d05e1d"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "no-hours-20261028-brochure-jp-r13-a3",
+          "variant": "class-hours-removed-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d",
+          "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13-a3/1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d/no-hours-20261028-brochure-jp-r13-a3.pdf",
+          "sha256": "1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d",
+          "size": 5963752,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+            "recorded_at": "2026-10-28T03:29:13.199Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "jp-copy-20261028-brochure-jp-r13-a3",
+              "revision": "3872d068f8f23def7fbd87c8807bf2c4fdf38e1883d184478a542891c3659a31"
+            },
+            {
+              "id": "no-hours-20261028-builder",
+              "revision": "3f5ab5c55e4043d0f7f956757d00caf34f0297f742efce97a7b04614f65843f6"
+            },
+            {
+              "id": "no-hours-20261028-overlay-packet",
+              "revision": "4c11219236f7670095c11ff248298efeb40689b40de722057279f73c82522cd6"
+            },
+            {
+              "id": "no-hours-20261028-copy-plan",
+              "revision": "9a25dd2d46cee1f8c484c6f78246525a1a206f46ed8eb794293c30bc54b24aa4"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13-a3/1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d/no-hours-20261028-brochure-jp-r13-a3.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13-A4",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_A4印刷用_設備費更新版_ふりがな無し_文面修正_授業時間欄削除版.pdf",
+      "sha256": "6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "59f1ec3f7e8bf9cac5f179a6d592655c473f5fd6a95b3c3aedf37724f6d05e1d"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "no-hours-20261028-brochure-jp-r13-a4",
+          "variant": "class-hours-removed-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3",
+          "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13-a4/6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3/no-hours-20261028-brochure-jp-r13-a4.pdf",
+          "sha256": "6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3",
+          "size": 4561413,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+            "recorded_at": "2026-10-28T03:29:14.712Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "jp-copy-20261028-brochure-jp-r13-a4",
+              "revision": "a4a3bf96b1b1a919292838651ab1af04d097c08385edb3f9820d4c9e4647854a"
+            },
+            {
+              "id": "no-hours-20261028-builder",
+              "revision": "3f5ab5c55e4043d0f7f956757d00caf34f0297f742efce97a7b04614f65843f6"
+            },
+            {
+              "id": "no-hours-20261028-overlay-packet",
+              "revision": "4c11219236f7670095c11ff248298efeb40689b40de722057279f73c82522cd6"
+            },
+            {
+              "id": "no-hours-20261028-copy-plan",
+              "revision": "9a25dd2d46cee1f8c484c6f78246525a1a206f46ed8eb794293c30bc54b24aa4"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13-a4/6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3/no-hours-20261028-brochure-jp-r13-a4.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    }
+  ],
+  "zip": "/workspace/設備費更新版/設備費更新版_配布用PDF一式_ふりがな無し_授業時間欄削除版.zip",
+  "zip_sha256": "a0f2a51b2313c28cb35cfff7797da08809c4e1e9f0f8d76b58e4d032824dba5a",
+  "changed_entries": {
+    "医専パンフレット_日本人向け_R13_ページ順_設備費更新版_年額表改訂版_ふりがな無し.pdf": "ページ順",
+    "医専パンフレット_日本人向け_R13_A3印刷用_設備費更新版_年額表改訂版_ふりがな無し.pdf": "A3印刷用",
+    "医専パンフレット_日本人向け_R13_A4印刷用_設備費更新版_年額表改訂版_ふりがな無し.pdf": "A4印刷用"
+  },
+  "other_entries_byte_identical": true
+}

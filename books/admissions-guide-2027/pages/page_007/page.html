@@ -50,19 +50,18 @@
 </section>
 
 <table class="p7-table">
-  <colgroup><col style="width:34%"><col style="width:16%"><col style="width:13%"><col style="width:17%"><col style="width:20%"></colgroup>
-  <thead><tr><th>年次・時期</th><th>授業料</th><th>諸経費</th><th>施設設備費</th><th>合計</th></tr></thead>
+  <colgroup><col style="width:47%"><col style="width:26.5%"><col style="width:26.5%"></colgroup>
+  <thead><tr><th>費目</th><th>1年次</th><th>2年次</th></tr></thead>
   <tbody>
-    <tr class="p7-table__ent"><th>入学金</th><td>ー</td><td>ー</td><td>ー</td><td class="num">{{num facts.admissions.tuition.entrance_fee}}円</td></tr>
-    {{#each facts.admissions.tuition.years}}
-    {{#each terms}}<tr><th>{{../year}}年次　{{term}}</th><td class="num">{{#if tuition}}{{num tuition}}円{{else}}ー{{/if}}</td><td class="num">{{#if expenses}}{{num expenses}}円{{else}}ー{{/if}}</td><td>ー</td><td class="num">{{num total}}円</td></tr>{{/each}}
-    {{#if facility_fee}}<tr><th>{{year}}年次　施設設備費（年額）</th><td>ー</td><td>ー</td><td class="num">{{num facility_fee}}円</td><td class="num">{{num facility_fee}}円</td></tr>{{/if}}
-    <tr class="p7-table__sum"><th>{{year}}年次合計</th><td>ー</td><td>ー</td><td>ー</td><td class="num">{{num total}}円</td></tr>
-    {{/each}}
-    <tr class="p7-table__grand"><th>総額</th><td>ー</td><td>ー</td><td>ー</td><td class="num">{{num facts.admissions.tuition.grand_total}}円</td></tr>
+    <tr class="p7-table__ent"><th>入学金</th><td class="num">{{num facts.admissions.tuition.entrance_fee}}円</td><td>ー</td></tr>
+    <tr><th>授業料</th><td class="num">{{num (lookup facts.booklet.reference_annual_tuition 0)}}円</td><td class="num">{{num (lookup facts.booklet.reference_annual_tuition 1)}}円</td></tr>
+    <tr><th>諸経費</th><td class="num">{{num facts.admissions.tuition.years.0.terms.0.expenses}}円</td><td class="num">{{num facts.admissions.tuition.years.1.terms.0.expenses}}円</td></tr>
+    <tr><th>施設設備費</th><td class="num">{{num facts.admissions.tuition.years.0.facility_fee}}円</td><td class="num">{{num facts.admissions.tuition.years.1.facility_fee}}円</td></tr>
+    <tr class="p7-table__sum"><th>年間合計</th><td class="num">{{num facts.admissions.tuition.years.0.total}}円</td><td class="num">{{num facts.admissions.tuition.years.1.total}}円</td></tr>
+    <tr class="p7-table__grand"><th>2年間合計</th><td colspan="2" class="num">{{num facts.admissions.tuition.grand_total}}円</td></tr>
   </tbody>
 </table>
-<p class="p7-feenote">総額には入学検定料（{{num facts.admissions.exam_fee}}円）を含みません。</p>
+<p class="p7-feenote">上記金額には検定料2万円は含みません。</p>
 
 <section class="p7-due">
   <h2>納入の期日</h2>

@@ -1,0 +1,226 @@
+[
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "cac22258ff754dc37e18521ec94d9e0ac2164d6ca267a9eca3474d7b24f37680"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "jp-copy-20261028-brochure-jp-r13",
+      "variant": "japanese-audience-copy-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "3a1085aca24055e91ec493eac6ed07bd0ca94d9e87c5bab507db7fc4e1824c32",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13/3a1085aca24055e91ec493eac6ed07bd0ca94d9e87c5bab507db7fc4e1824c32/jp-copy-20261028-brochure-jp-r13.pdf",
+      "sha256": "3a1085aca24055e91ec493eac6ed07bd0ca94d9e87c5bab507db7fc4e1824c32",
+      "size": 8616215,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: Japanese-facing R13 only. Soften all-online claim to active adoption; replace foreign-student language/residence/Japan-employment framing with vocational-study, attendance, career and cost concerns; fix clipped copy. Native code text over exact local masks. Preserve original artwork/image streams, cover, annual fee table, approved fee note, no-furigana policy, AI notice, QR, page sizes and imposition. Original brochure, admissions, flyer and old revisions retained. Saved composition, not standard renderer freshness or release certification.",
+        "recorded_at": "2026-10-28T02:03:40.370Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "brochure-no-ruby-20261028-brochure-jp-r13",
+          "revision": "3928855564e05629ebe80da694ce39283e00a77e47157c2161dd8f30d7586d9d"
+        },
+        {
+          "id": "jp-copy-20261028-builder",
+          "revision": "de5059b9c69485be85c4b36d47b4a4869edca59241758f93da0f5ac9bd105a7c"
+        },
+        {
+          "id": "jp-copy-20261028-overlay-packet",
+          "revision": "b3c65532a86f7ec675a4199aaaa694586fb16bcc877bad937d1e077ea89c2c41"
+        },
+        {
+          "id": "jp-copy-20261028-copy-plan",
+          "revision": "c3169fd3b5e5ad1aa99df7d96492043d000818db0356aee7df403e94aa0f4b69"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13/3a1085aca24055e91ec493eac6ed07bd0ca94d9e87c5bab507db7fc4e1824c32/jp-copy-20261028-brochure-jp-r13.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-jp-r13",
+    "kind": "reading",
+    "document": "prospectus-isen-trial-2028"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "cac22258ff754dc37e18521ec94d9e0ac2164d6ca267a9eca3474d7b24f37680"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "jp-copy-20261028-brochure-jp-r13-master",
+      "variant": "japanese-audience-copy-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "2eea9c8ebee052fd512b471e799ab593bee12a6f8d3ce20c7ce9d377edae16c2",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13-master/2eea9c8ebee052fd512b471e799ab593bee12a6f8d3ce20c7ce9d377edae16c2/jp-copy-20261028-brochure-jp-r13-master.pdf",
+      "sha256": "2eea9c8ebee052fd512b471e799ab593bee12a6f8d3ce20c7ce9d377edae16c2",
+      "size": 127799792,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: Japanese-facing R13 only. Soften all-online claim to active adoption; replace foreign-student language/residence/Japan-employment framing with vocational-study, attendance, career and cost concerns; fix clipped copy. Native code text over exact local masks. Preserve original artwork/image streams, cover, annual fee table, approved fee note, no-furigana policy, AI notice, QR, page sizes and imposition. Original brochure, admissions, flyer and old revisions retained. Saved composition, not standard renderer freshness or release certification.",
+        "recorded_at": "2026-10-28T02:05:00.440Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "brochure-no-ruby-20261028-brochure-jp-r13-master",
+          "revision": "68191595d9a8cfb27c48ba7b15a7682add42ae04dc85ded1e62b263b3cba877f"
+        },
+        {
+          "id": "jp-copy-20261028-builder",
+          "revision": "de5059b9c69485be85c4b36d47b4a4869edca59241758f93da0f5ac9bd105a7c"
+        },
+        {
+          "id": "jp-copy-20261028-overlay-packet",
+          "revision": "b3c65532a86f7ec675a4199aaaa694586fb16bcc877bad937d1e077ea89c2c41"
+        },
+        {
+          "id": "jp-copy-20261028-copy-plan",
+          "revision": "c3169fd3b5e5ad1aa99df7d96492043d000818db0356aee7df403e94aa0f4b69"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13-master/2eea9c8ebee052fd512b471e799ab593bee12a6f8d3ce20c7ce9d377edae16c2/jp-copy-20261028-brochure-jp-r13-master.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-jp-r13-master",
+    "kind": "master",
+    "document": "prospectus-isen-trial-2028"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "cac22258ff754dc37e18521ec94d9e0ac2164d6ca267a9eca3474d7b24f37680"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "jp-copy-20261028-brochure-jp-r13-a3",
+      "variant": "japanese-audience-copy-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "3872d068f8f23def7fbd87c8807bf2c4fdf38e1883d184478a542891c3659a31",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13-a3/3872d068f8f23def7fbd87c8807bf2c4fdf38e1883d184478a542891c3659a31/jp-copy-20261028-brochure-jp-r13-a3.pdf",
+      "sha256": "3872d068f8f23def7fbd87c8807bf2c4fdf38e1883d184478a542891c3659a31",
+      "size": 5925674,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: Japanese-facing R13 only. Soften all-online claim to active adoption; replace foreign-student language/residence/Japan-employment framing with vocational-study, attendance, career and cost concerns; fix clipped copy. Native code text over exact local masks. Preserve original artwork/image streams, cover, annual fee table, approved fee note, no-furigana policy, AI notice, QR, page sizes and imposition. Original brochure, admissions, flyer and old revisions retained. Saved composition, not standard renderer freshness or release certification.",
+        "recorded_at": "2026-10-28T02:05:16.404Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "brochure-no-ruby-20261028-brochure-jp-r13-a3",
+          "revision": "0736d60ea695be3a8b7fe34c4e15e5efbda4b83fd27070535b47a5cb7dd2efbf"
+        },
+        {
+          "id": "jp-copy-20261028-builder",
+          "revision": "de5059b9c69485be85c4b36d47b4a4869edca59241758f93da0f5ac9bd105a7c"
+        },
+        {
+          "id": "jp-copy-20261028-overlay-packet",
+          "revision": "b3c65532a86f7ec675a4199aaaa694586fb16bcc877bad937d1e077ea89c2c41"
+        },
+        {
+          "id": "jp-copy-20261028-copy-plan",
+          "revision": "c3169fd3b5e5ad1aa99df7d96492043d000818db0356aee7df403e94aa0f4b69"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13-a3/3872d068f8f23def7fbd87c8807bf2c4fdf38e1883d184478a542891c3659a31/jp-copy-20261028-brochure-jp-r13-a3.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-jp-r13-A3",
+    "kind": "print",
+    "document": "prospectus-isen-trial-2028"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "cac22258ff754dc37e18521ec94d9e0ac2164d6ca267a9eca3474d7b24f37680"
+    },
+    "document_id": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "jp-copy-20261028-brochure-jp-r13-a4",
+      "variant": "japanese-audience-copy-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "a4a3bf96b1b1a919292838651ab1af04d097c08385edb3f9820d4c9e4647854a",
+      "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13-a4/a4a3bf96b1b1a919292838651ab1af04d097c08385edb3f9820d4c9e4647854a/jp-copy-20261028-brochure-jp-r13-a4.pdf",
+      "sha256": "a4a3bf96b1b1a919292838651ab1af04d097c08385edb3f9820d4c9e4647854a",
+      "size": 4523335,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: Japanese-facing R13 only. Soften all-online claim to active adoption; replace foreign-student language/residence/Japan-employment framing with vocational-study, attendance, career and cost concerns; fix clipped copy. Native code text over exact local masks. Preserve original artwork/image streams, cover, annual fee table, approved fee note, no-furigana policy, AI notice, QR, page sizes and imposition. Original brochure, admissions, flyer and old revisions retained. Saved composition, not standard renderer freshness or release certification.",
+        "recorded_at": "2026-10-28T02:05:24.274Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "brochure-no-ruby-20261028-brochure-jp-r13-a4",
+          "revision": "0696247593ae61cadb17b8cade2211b6a41b67984c5591d762a6cc1340cde5a1"
+        },
+        {
+          "id": "jp-copy-20261028-builder",
+          "revision": "de5059b9c69485be85c4b36d47b4a4869edca59241758f93da0f5ac9bd105a7c"
+        },
+        {
+          "id": "jp-copy-20261028-overlay-packet",
+          "revision": "b3c65532a86f7ec675a4199aaaa694586fb16bcc877bad937d1e077ea89c2c41"
+        },
+        {
+          "id": "jp-copy-20261028-copy-plan",
+          "revision": "c3169fd3b5e5ad1aa99df7d96492043d000818db0356aee7df403e94aa0f4b69"
+        }
+      ]
+    },
+    "path": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13-a4/a4a3bf96b1b1a919292838651ab1af04d097c08385edb3f9820d4c9e4647854a/jp-copy-20261028-brochure-jp-r13-a4.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "brochure-jp-r13-A4",
+    "kind": "print",
+    "document": "prospectus-isen-trial-2028"
+  }
+]

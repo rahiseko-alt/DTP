@@ -1,0 +1,262 @@
+[
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "59f1ec3f7e8bf9cac5f179a6d592655c473f5fd6a95b3c3aedf37724f6d05e1d"
+    },
+    "document_id": "admissions-guide-2027",
+    "asset": {
+      "id": "admissions-five-columns-20261028-admissions-photo",
+      "variant": "tuition-five-columns-dash-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "1939cbb99d1219071f1e3d0c9dfb2a52a9322a36d5cb6282e8891d7c781d60e1",
+      "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-photo/1939cbb99d1219071f1e3d0c9dfb2a52a9322a36d5cb6282e8891d7c781d60e1/admissions-five-columns-20261028-admissions-photo.pdf",
+      "sha256": "1939cbb99d1219071f1e3d0c9dfb2a52a9322a36d5cb6282e8891d7c781d60e1",
+      "size": 14791628,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: make the admissions fee table five columns matching the brochure: period, tuition, misc expenses, annual facility fee, total. Facility fee is 50000 yen in each year, no term allocation or new deadlines. Standalone zero and empty cells use U+30FC ー. Only fee-table area of reading page6 / imposed face6 changed; prices, all other pixels/text/fonts/positions/images, covers, QR, blank backs and imposition retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:36:11.015Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-admissions-photo",
+          "revision": "ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a"
+        },
+        {
+          "id": "admissions-five-columns-20261028-panel",
+          "revision": "38768370f7097316167da1fe27bf38dcc6e3167578a29ee44f88a00b32fab6d9"
+        },
+        {
+          "id": "admissions-five-columns-20261028-builder",
+          "revision": "510df39cb7ad121811909a6ff7bda16c2b85988d812dbc4a6acd1e45adf7751f"
+        }
+      ]
+    },
+    "path": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-photo/1939cbb99d1219071f1e3d0c9dfb2a52a9322a36d5cb6282e8891d7c781d60e1/admissions-five-columns-20261028-admissions-photo.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "admissions-photo",
+    "kind": "reading",
+    "document": "admissions-guide-2027"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "59f1ec3f7e8bf9cac5f179a6d592655c473f5fd6a95b3c3aedf37724f6d05e1d"
+    },
+    "document_id": "admissions-guide-2027",
+    "asset": {
+      "id": "admissions-five-columns-20261028-admissions-plain",
+      "variant": "tuition-five-columns-dash-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "a9dad9170461d38af3e0b89b64a43d3247276afac47c48d7f8548e09d513998f",
+      "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-plain/a9dad9170461d38af3e0b89b64a43d3247276afac47c48d7f8548e09d513998f/admissions-five-columns-20261028-admissions-plain.pdf",
+      "sha256": "a9dad9170461d38af3e0b89b64a43d3247276afac47c48d7f8548e09d513998f",
+      "size": 3370390,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: make the admissions fee table five columns matching the brochure: period, tuition, misc expenses, annual facility fee, total. Facility fee is 50000 yen in each year, no term allocation or new deadlines. Standalone zero and empty cells use U+30FC ー. Only fee-table area of reading page6 / imposed face6 changed; prices, all other pixels/text/fonts/positions/images, covers, QR, blank backs and imposition retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:36:18.021Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-admissions-plain",
+          "revision": "a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1"
+        },
+        {
+          "id": "admissions-five-columns-20261028-panel",
+          "revision": "38768370f7097316167da1fe27bf38dcc6e3167578a29ee44f88a00b32fab6d9"
+        },
+        {
+          "id": "admissions-five-columns-20261028-builder",
+          "revision": "510df39cb7ad121811909a6ff7bda16c2b85988d812dbc4a6acd1e45adf7751f"
+        }
+      ]
+    },
+    "path": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-plain/a9dad9170461d38af3e0b89b64a43d3247276afac47c48d7f8548e09d513998f/admissions-five-columns-20261028-admissions-plain.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "admissions-plain",
+    "kind": "reading",
+    "document": "admissions-guide-2027"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "59f1ec3f7e8bf9cac5f179a6d592655c473f5fd6a95b3c3aedf37724f6d05e1d"
+    },
+    "document_id": "admissions-guide-2027",
+    "asset": {
+      "id": "admissions-five-columns-20261028-admissions-photo-old-cover-a3",
+      "variant": "tuition-five-columns-dash-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "28b4919aa1ca0b5abbb2b7a7e3678b3545578dfaf22de9d30c7465ed3d76dea8",
+      "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-photo-old-cover-a3/28b4919aa1ca0b5abbb2b7a7e3678b3545578dfaf22de9d30c7465ed3d76dea8/admissions-five-columns-20261028-admissions-photo-old-cover-a3.pdf",
+      "sha256": "28b4919aa1ca0b5abbb2b7a7e3678b3545578dfaf22de9d30c7465ed3d76dea8",
+      "size": 2375401,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: make the admissions fee table five columns matching the brochure: period, tuition, misc expenses, annual facility fee, total. Facility fee is 50000 yen in each year, no term allocation or new deadlines. Standalone zero and empty cells use U+30FC ー. Only fee-table area of reading page6 / imposed face6 changed; prices, all other pixels/text/fonts/positions/images, covers, QR, blank backs and imposition retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:36:13.509Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-admissions-photo-old-cover-a3",
+          "revision": "f69782b23511af89e8cd4e9971544b7c308157f6ce4837ac3671584e419159c9"
+        },
+        {
+          "id": "admissions-five-columns-20261028-panel",
+          "revision": "38768370f7097316167da1fe27bf38dcc6e3167578a29ee44f88a00b32fab6d9"
+        },
+        {
+          "id": "admissions-five-columns-20261028-builder",
+          "revision": "510df39cb7ad121811909a6ff7bda16c2b85988d812dbc4a6acd1e45adf7751f"
+        }
+      ]
+    },
+    "path": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-photo-old-cover-a3/28b4919aa1ca0b5abbb2b7a7e3678b3545578dfaf22de9d30c7465ed3d76dea8/admissions-five-columns-20261028-admissions-photo-old-cover-a3.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "admissions-photo-old-cover-A3",
+    "kind": "print",
+    "document": "admissions-guide-2027"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "59f1ec3f7e8bf9cac5f179a6d592655c473f5fd6a95b3c3aedf37724f6d05e1d"
+    },
+    "document_id": "admissions-guide-2027",
+    "asset": {
+      "id": "admissions-five-columns-20261028-admissions-photo-old-cover-a4",
+      "variant": "tuition-five-columns-dash-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "df033fb2989f5304e7ff79c9ac01b8f9db1a97584001803370a66ae6a8b38edb",
+      "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-photo-old-cover-a4/df033fb2989f5304e7ff79c9ac01b8f9db1a97584001803370a66ae6a8b38edb/admissions-five-columns-20261028-admissions-photo-old-cover-a4.pdf",
+      "sha256": "df033fb2989f5304e7ff79c9ac01b8f9db1a97584001803370a66ae6a8b38edb",
+      "size": 1926010,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: make the admissions fee table five columns matching the brochure: period, tuition, misc expenses, annual facility fee, total. Facility fee is 50000 yen in each year, no term allocation or new deadlines. Standalone zero and empty cells use U+30FC ー. Only fee-table area of reading page6 / imposed face6 changed; prices, all other pixels/text/fonts/positions/images, covers, QR, blank backs and imposition retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:36:15.747Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-admissions-photo-old-cover-a4",
+          "revision": "cb7fa7aaf85bb1499a7f00db0cec29f1a014788d196e54b0bfc22460449a255c"
+        },
+        {
+          "id": "admissions-five-columns-20261028-panel",
+          "revision": "38768370f7097316167da1fe27bf38dcc6e3167578a29ee44f88a00b32fab6d9"
+        },
+        {
+          "id": "admissions-five-columns-20261028-builder",
+          "revision": "510df39cb7ad121811909a6ff7bda16c2b85988d812dbc4a6acd1e45adf7751f"
+        }
+      ]
+    },
+    "path": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-photo-old-cover-a4/df033fb2989f5304e7ff79c9ac01b8f9db1a97584001803370a66ae6a8b38edb/admissions-five-columns-20261028-admissions-photo-old-cover-a4.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "admissions-photo-old-cover-A4",
+    "kind": "print",
+    "document": "admissions-guide-2027"
+  },
+  {
+    "context": {
+      "root": "/workspace/DTP",
+      "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+      "branch": "book/brochure-fees-five-columns-20261028",
+      "dirty": true,
+      "fingerprint": "59f1ec3f7e8bf9cac5f179a6d592655c473f5fd6a95b3c3aedf37724f6d05e1d"
+    },
+    "document_id": "admissions-guide-2027",
+    "asset": {
+      "id": "admissions-five-columns-20261028-admissions-plain-a3",
+      "variant": "tuition-five-columns-dash-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "36dfff0d2143ad2b33e06f6f86317d69c8cbb4e93575797fb0f1d56fe17d579d",
+      "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-plain-a3/36dfff0d2143ad2b33e06f6f86317d69c8cbb4e93575797fb0f1d56fe17d579d/admissions-five-columns-20261028-admissions-plain-a3.pdf",
+      "sha256": "36dfff0d2143ad2b33e06f6f86317d69c8cbb4e93575797fb0f1d56fe17d579d",
+      "size": 3394684,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: make the admissions fee table five columns matching the brochure: period, tuition, misc expenses, annual facility fee, total. Facility fee is 50000 yen in each year, no term allocation or new deadlines. Standalone zero and empty cells use U+30FC ー. Only fee-table area of reading page6 / imposed face6 changed; prices, all other pixels/text/fonts/positions/images, covers, QR, blank backs and imposition retained. Saved composition, not standard-render freshness or release certification.",
+        "recorded_at": "2026-10-28T00:36:20.228Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "tuition-20261027-admissions-plain-a3",
+          "revision": "eb10f08c561b3dcd27880776677d3031b6c2dd6a1f7c8463f0ebcf990327651e"
+        },
+        {
+          "id": "admissions-five-columns-20261028-panel",
+          "revision": "38768370f7097316167da1fe27bf38dcc6e3167578a29ee44f88a00b32fab6d9"
+        },
+        {
+          "id": "admissions-five-columns-20261028-builder",
+          "revision": "510df39cb7ad121811909a6ff7bda16c2b85988d812dbc4a6acd1e45adf7751f"
+        }
+      ]
+    },
+    "path": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-plain-a3/36dfff0d2143ad2b33e06f6f86317d69c8cbb4e93575797fb0f1d56fe17d579d/admissions-five-columns-20261028-admissions-plain-a3.pdf",
+    "retrieval": {
+      "mode": "saved",
+      "integrity": "verified",
+      "freshness": "not_checked",
+      "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+    },
+    "label": "admissions-plain-A3",
+    "kind": "print",
+    "document": "admissions-guide-2027"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "recorded_at_utc": "2026-10-28T03:36:40.472214+00:00",
+  "pdf_verification": "passed:4PDF/48faces,2 row regions per PDF;outside pixels/native glyphs/fonts/positions/image streams identical",
+  "render": "passed:2 native HTML/CSS row panels,Chromium154",
+  "visual": "two changed pages enlarged;outer rounded frames and source photos preserved",
+  "saved_get": "passed:4 PDFs retrieved --saved,Japanese delivery SHA verified",
+  "bundle": "passed:Japanese8PDF ZIP,R13 three PDFs only replaced;admissions5 unchanged in this revision",
+  "whole_validation": "prior metadata check completed with7 pre-existing LEGACY_CHANGED;whole validate interrupted by next user edit;no full-check pass asserted",
+  "source_baseline": "pending prior7 legacy source files;no additional legacy source edit in this hours deletion",
+  "github_required_asset_integrity": "unconfirmed;PR API networking403;not merged",
+  "release": false,
+  "independent_review": false,
+  "physical_print_test": false
+}

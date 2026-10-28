@@ -1,0 +1,15 @@
+{
+  "recorded_at_utc": "2026-10-28T03:36:40.472214+00:00",
+  "pdf_verification": "passed:5PDF/84faces,fee table and note only;outside pixels/native glyphs/fonts/positions/image streams identical",
+  "render": "passed:annual panel and native page_007 PNG/PDF,Chromium154",
+  "visual": "fee page enlarged;all print faces and preserved forms/blank backs compared",
+  "saved_get": "passed:5 registered PDFs retrieved --saved and Japanese-named SHA verified",
+  "bundle": "passed:classic ZIP admissions2 entries only;Japanese8PDF ZIP admissions5 only;all other entries byte-identical",
+  "whole_validation": "prior metadata check completed with7 pre-existing LEGACY_CHANGED;whole validate interrupted by next user edit;no full-check pass asserted",
+  "source_baseline": "existing page_007 HTML/CSS updated to annual table;normal baseline sync pending alongside prior7 source paths",
+  "github_required_asset_integrity": "unconfirmed;PR API networking403;not merged",
+  "release": false,
+  "independent_review": false,
+  "physical_print_test": false,
+  "current_metadata_check": "running:/tmp/admissions-annual-metadata.json"
+}

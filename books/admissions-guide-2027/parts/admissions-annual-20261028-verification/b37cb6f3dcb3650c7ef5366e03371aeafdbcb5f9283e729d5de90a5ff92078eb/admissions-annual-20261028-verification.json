@@ -1,0 +1,78 @@
+{
+  "verified": true,
+  "outputs": [
+    {
+      "label": "admissions-photo",
+      "sha256": "6e3dd678321c6a04cd8a0abbf4edc82bb48b571dbf69022a982fdb079119ab91",
+      "page_faces": 24,
+      "outside_table_pixels_identical": true,
+      "outside_table_native_glyphs_fonts_positions_identical": true,
+      "all_original_image_streams_identical": true,
+      "columns": [
+        "費目入学金授業料諸経費施設設備費年間合計",
+        "1年次100,000円780,000円50,000円50,000円980,000円",
+        "2年次ー780,000円50,000円50,000円880,000円"
+      ],
+      "facility_fee_is_annual_not_assigned_to_terms": true
+    },
+    {
+      "label": "admissions-plain",
+      "sha256": "3493681e7785a5e2f24aa7886dec163073b6a2f0fd3f3bcef8bef316fcbca179",
+      "page_faces": 24,
+      "outside_table_pixels_identical": true,
+      "outside_table_native_glyphs_fonts_positions_identical": true,
+      "all_original_image_streams_identical": true,
+      "columns": [
+        "費目入学金授業料諸経費施設設備費年間合計",
+        "1年次100,000円780,000円50,000円50,000円980,000円",
+        "2年次ー780,000円50,000円50,000円880,000円"
+      ],
+      "facility_fee_is_annual_not_assigned_to_terms": true
+    },
+    {
+      "label": "admissions-photo-old-cover-A3",
+      "sha256": "55c49e1176c02e66e2dfa57fd4561c923cda462c1e06fa28cd45d5078c7f5e11",
+      "page_faces": 12,
+      "outside_table_pixels_identical": true,
+      "outside_table_native_glyphs_fonts_positions_identical": true,
+      "all_original_image_streams_identical": true,
+      "columns": [
+        "費目入学金授業料諸経費施設設備費年間合計",
+        "1年次100,000円780,000円50,000円50,000円980,000円",
+        "2年次ー780,000円50,000円50,000円880,000円"
+      ],
+      "facility_fee_is_annual_not_assigned_to_terms": true
+    },
+    {
+      "label": "admissions-photo-old-cover-A4",
+      "sha256": "b5742d3b5c10f05d9f74e9b452281f4fd303794f8d34d053e1b60aa94ee287bb",
+      "page_faces": 12,
+      "outside_table_pixels_identical": true,
+      "outside_table_native_glyphs_fonts_positions_identical": true,
+      "all_original_image_streams_identical": true,
+      "columns": [
+        "費目入学金授業料諸経費施設設備費年間合計",
+        "1年次100,000円780,000円50,000円50,000円980,000円",
+        "2年次ー780,000円50,000円50,000円880,000円"
+      ],
+      "facility_fee_is_annual_not_assigned_to_terms": true
+    },
+    {
+      "label": "admissions-plain-A3",
+      "sha256": "75d60d6e1e27ce91599d29fec663339af1cbd2bc5f0907a0c3db14df47e8a654",
+      "page_faces": 12,
+      "outside_table_pixels_identical": true,
+      "outside_table_native_glyphs_fonts_positions_identical": true,
+      "all_original_image_streams_identical": true,
+      "columns": [
+        "費目入学金授業料諸経費施設設備費年間合計",
+        "1年次100,000円780,000円50,000円50,000円980,000円",
+        "2年次ー780,000円50,000円50,000円880,000円"
+      ],
+      "facility_fee_is_annual_not_assigned_to_terms": true
+    }
+  ],
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false
+}

@@ -1,0 +1,60 @@
+{
+  "audience": "日本人向けパンフレット",
+  "scope": "Remove class-hours/day-count field on PDF4/6 only; retain duration and admission capacity as two columns. User confirms attendance five days/week; do not print a new schedule or derive annual hours.",
+  "patches": [
+    {
+      "page": 4,
+      "id": "course-stats-p4",
+      "rect_px": [
+        145,
+        2490,
+        2375,
+        2693
+      ],
+      "font_px": 55,
+      "color": "#075487",
+      "weight": 700,
+      "align": "center",
+      "bg": "#e1edf9",
+      "line_height": 1.1,
+      "stats": [
+        {
+          "heading": "修業年限",
+          "value": "2年制"
+        },
+        {
+          "heading": "入学定員",
+          "value": "30名"
+        }
+      ],
+      "divider": "#075487"
+    },
+    {
+      "page": 6,
+      "id": "course-stats-p6",
+      "rect_px": [
+        160,
+        2460,
+        2390,
+        2675
+      ],
+      "font_px": 55,
+      "color": "#df4704",
+      "weight": 700,
+      "align": "center",
+      "bg": "#ffeee6",
+      "line_height": 1.1,
+      "stats": [
+        {
+          "heading": "修業年限",
+          "value": "2年制"
+        },
+        {
+          "heading": "入学定員",
+          "value": "29名"
+        }
+      ],
+      "divider": "#df4704"
+    }
+  ]
+}

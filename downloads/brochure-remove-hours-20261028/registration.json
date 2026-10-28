@@ -1,0 +1,455 @@
+[
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "no-hours-20261028-copy-plan",
+      "variant": "class-hours-removed-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "9a25dd2d46cee1f8c484c6f78246525a1a206f46ed8eb794293c30bc54b24aa4",
+      "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-copy-plan/9a25dd2d46cee1f8c484c6f78246525a1a206f46ed8eb794293c30bc54b24aa4/no-hours-20261028-copy-plan.json",
+      "sha256": "9a25dd2d46cee1f8c484c6f78246525a1a206f46ed8eb794293c30bc54b24aa4",
+      "size": 1304,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T03:28:53.960Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "no-hours-20261028-renderer",
+      "variant": "class-hours-removed-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "41a514ce4890a0247088cfbb8b7ac93f2de0b4b828f3f35d000a3a515463571c",
+      "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-renderer/41a514ce4890a0247088cfbb8b7ac93f2de0b4b828f3f35d000a3a515463571c/no-hours-20261028-renderer.mjs",
+      "sha256": "41a514ce4890a0247088cfbb8b7ac93f2de0b4b828f3f35d000a3a515463571c",
+      "size": 5186,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T03:28:55.234Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "no-hours-20261028-copy-plan",
+          "revision": "9a25dd2d46cee1f8c484c6f78246525a1a206f46ed8eb794293c30bc54b24aa4"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "no-hours-20261028-overlay-packet",
+      "variant": "class-hours-removed-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "4c11219236f7670095c11ff248298efeb40689b40de722057279f73c82522cd6",
+      "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-overlay-packet/4c11219236f7670095c11ff248298efeb40689b40de722057279f73c82522cd6/no-hours-20261028-overlay-packet.pdf",
+      "sha256": "4c11219236f7670095c11ff248298efeb40689b40de722057279f73c82522cd6",
+      "size": 37347,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T03:28:56.428Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "no-hours-20261028-copy-plan",
+          "revision": "9a25dd2d46cee1f8c484c6f78246525a1a206f46ed8eb794293c30bc54b24aa4"
+        },
+        {
+          "id": "no-hours-20261028-renderer",
+          "revision": "41a514ce4890a0247088cfbb8b7ac93f2de0b4b828f3f35d000a3a515463571c"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "no-hours-20261028-builder",
+      "variant": "class-hours-removed-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "3f5ab5c55e4043d0f7f956757d00caf34f0297f742efce97a7b04614f65843f6",
+      "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-builder/3f5ab5c55e4043d0f7f956757d00caf34f0297f742efce97a7b04614f65843f6/no-hours-20261028-builder.py",
+      "sha256": "3f5ab5c55e4043d0f7f956757d00caf34f0297f742efce97a7b04614f65843f6",
+      "size": 2443,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T03:28:57.502Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "no-hours-20261028-copy-plan",
+          "revision": "9a25dd2d46cee1f8c484c6f78246525a1a206f46ed8eb794293c30bc54b24aa4"
+        },
+        {
+          "id": "no-hours-20261028-overlay-packet",
+          "revision": "4c11219236f7670095c11ff248298efeb40689b40de722057279f73c82522cd6"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "no-hours-20261028-brochure-jp-r13",
+      "variant": "class-hours-removed-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898",
+      "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13/4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898/no-hours-20261028-brochure-jp-r13.pdf",
+      "sha256": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898",
+      "size": 8654291,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T03:28:58.609Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-copy-20261028-brochure-jp-r13",
+          "revision": "3a1085aca24055e91ec493eac6ed07bd0ca94d9e87c5bab507db7fc4e1824c32"
+        },
+        {
+          "id": "no-hours-20261028-builder",
+          "revision": "3f5ab5c55e4043d0f7f956757d00caf34f0297f742efce97a7b04614f65843f6"
+        },
+        {
+          "id": "no-hours-20261028-overlay-packet",
+          "revision": "4c11219236f7670095c11ff248298efeb40689b40de722057279f73c82522cd6"
+        },
+        {
+          "id": "no-hours-20261028-copy-plan",
+          "revision": "9a25dd2d46cee1f8c484c6f78246525a1a206f46ed8eb794293c30bc54b24aa4"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "no-hours-20261028-page-04",
+      "variant": "class-hours-removed-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "35c2aa01c725a4a7b1c8865d3c3fa8049e14d70366204bb7c417047f5551a5dd",
+      "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-page-04/35c2aa01c725a4a7b1c8865d3c3fa8049e14d70366204bb7c417047f5551a5dd/no-hours-20261028-page-04.png",
+      "sha256": "35c2aa01c725a4a7b1c8865d3c3fa8049e14d70366204bb7c417047f5551a5dd",
+      "size": 1566177,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T03:29:00.258Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "no-hours-20261028-brochure-jp-r13",
+          "revision": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "no-hours-20261028-page-06",
+      "variant": "class-hours-removed-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "f94f88d32035b1ad461b12131967917ebecd1122f2df4f06537cdbe36aac1528",
+      "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-page-06/f94f88d32035b1ad461b12131967917ebecd1122f2df4f06537cdbe36aac1528/no-hours-20261028-page-06.png",
+      "sha256": "f94f88d32035b1ad461b12131967917ebecd1122f2df4f06537cdbe36aac1528",
+      "size": 1360495,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T03:29:01.983Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "no-hours-20261028-brochure-jp-r13",
+          "revision": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "no-hours-20261028-overview-01",
+      "variant": "class-hours-removed-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "6ae6b69161af6cdd0ed7b791f0263071532e12307fc669de8cf5dd8e7e60f5c9",
+      "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-overview-01/6ae6b69161af6cdd0ed7b791f0263071532e12307fc669de8cf5dd8e7e60f5c9/no-hours-20261028-overview-01.jpg",
+      "sha256": "6ae6b69161af6cdd0ed7b791f0263071532e12307fc669de8cf5dd8e7e60f5c9",
+      "size": 539866,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T03:29:03.812Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "no-hours-20261028-brochure-jp-r13",
+          "revision": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "no-hours-20261028-overview-05",
+      "variant": "class-hours-removed-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "a252ab7dbffdfb90f041565765bf6d357dfccc69bf8ac15391fcee826a3ec56b",
+      "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-overview-05/a252ab7dbffdfb90f041565765bf6d357dfccc69bf8ac15391fcee826a3ec56b/no-hours-20261028-overview-05.jpg",
+      "sha256": "a252ab7dbffdfb90f041565765bf6d357dfccc69bf8ac15391fcee826a3ec56b",
+      "size": 610627,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T03:29:05.722Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "no-hours-20261028-brochure-jp-r13",
+          "revision": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "no-hours-20261028-brochure-jp-r13-master",
+      "variant": "class-hours-removed-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d",
+      "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13-master/c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d/no-hours-20261028-brochure-jp-r13-master.pdf",
+      "sha256": "c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d",
+      "size": 127837868,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T03:29:07.887Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-copy-20261028-brochure-jp-r13-master",
+          "revision": "2eea9c8ebee052fd512b471e799ab593bee12a6f8d3ce20c7ce9d377edae16c2"
+        },
+        {
+          "id": "no-hours-20261028-builder",
+          "revision": "3f5ab5c55e4043d0f7f956757d00caf34f0297f742efce97a7b04614f65843f6"
+        },
+        {
+          "id": "no-hours-20261028-overlay-packet",
+          "revision": "4c11219236f7670095c11ff248298efeb40689b40de722057279f73c82522cd6"
+        },
+        {
+          "id": "no-hours-20261028-copy-plan",
+          "revision": "9a25dd2d46cee1f8c484c6f78246525a1a206f46ed8eb794293c30bc54b24aa4"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "no-hours-20261028-brochure-jp-r13-a3",
+      "variant": "class-hours-removed-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d",
+      "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13-a3/1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d/no-hours-20261028-brochure-jp-r13-a3.pdf",
+      "sha256": "1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d",
+      "size": 5963752,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T03:29:13.199Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-copy-20261028-brochure-jp-r13-a3",
+          "revision": "3872d068f8f23def7fbd87c8807bf2c4fdf38e1883d184478a542891c3659a31"
+        },
+        {
+          "id": "no-hours-20261028-builder",
+          "revision": "3f5ab5c55e4043d0f7f956757d00caf34f0297f742efce97a7b04614f65843f6"
+        },
+        {
+          "id": "no-hours-20261028-overlay-packet",
+          "revision": "4c11219236f7670095c11ff248298efeb40689b40de722057279f73c82522cd6"
+        },
+        {
+          "id": "no-hours-20261028-copy-plan",
+          "revision": "9a25dd2d46cee1f8c484c6f78246525a1a206f46ed8eb794293c30bc54b24aa4"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "no-hours-20261028-brochure-jp-r13-a4",
+      "variant": "class-hours-removed-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3",
+      "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13-a4/6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3/no-hours-20261028-brochure-jp-r13-a4.pdf",
+      "sha256": "6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3",
+      "size": 4561413,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T03:29:14.712Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "jp-copy-20261028-brochure-jp-r13-a4",
+          "revision": "a4a3bf96b1b1a919292838651ab1af04d097c08385edb3f9820d4c9e4647854a"
+        },
+        {
+          "id": "no-hours-20261028-builder",
+          "revision": "3f5ab5c55e4043d0f7f956757d00caf34f0297f742efce97a7b04614f65843f6"
+        },
+        {
+          "id": "no-hours-20261028-overlay-packet",
+          "revision": "4c11219236f7670095c11ff248298efeb40689b40de722057279f73c82522cd6"
+        },
+        {
+          "id": "no-hours-20261028-copy-plan",
+          "revision": "9a25dd2d46cee1f8c484c6f78246525a1a206f46ed8eb794293c30bc54b24aa4"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "no-hours-20261028-manifest",
+      "variant": "class-hours-removed-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "f8fa97391c96a025205e5a0cc81269df01ce77dd32e6b1c1bcc446f6371eda58",
+      "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-manifest/f8fa97391c96a025205e5a0cc81269df01ce77dd32e6b1c1bcc446f6371eda58/no-hours-20261028-manifest.json",
+      "sha256": "f8fa97391c96a025205e5a0cc81269df01ce77dd32e6b1c1bcc446f6371eda58",
+      "size": 9057,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T03:29:16.164Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "no-hours-20261028-brochure-jp-r13",
+          "revision": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898"
+        },
+        {
+          "id": "no-hours-20261028-brochure-jp-r13-master",
+          "revision": "c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d"
+        },
+        {
+          "id": "no-hours-20261028-brochure-jp-r13-a3",
+          "revision": "1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d"
+        },
+        {
+          "id": "no-hours-20261028-brochure-jp-r13-a4",
+          "revision": "6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "no-hours-20261028-verification",
+      "variant": "class-hours-removed-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "3e83c48cba07029c81ceb80c7bb20702d44398f9498ad47d998809df45812b06",
+      "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-verification/3e83c48cba07029c81ceb80c7bb20702d44398f9498ad47d998809df45812b06/no-hours-20261028-verification.json",
+      "sha256": "3e83c48cba07029c81ceb80c7bb20702d44398f9498ad47d998809df45812b06",
+      "size": 2223,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User instruction 2026-10-28: remove class-hours column from both department overview rows on PDF4/6. Reflow only these row interiors into duration and admission-capacity columns. No replacement attendance-day or annual-hours claim. Four current Japanese R13 PDFs only; preserve every pixel outside row interiors, all original native text/font/positions and image streams, current copy, cover, fee tables, no-furigana, QR, AI note and imposition. Old revisions retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T03:29:21.995Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "no-hours-20261028-brochure-jp-r13",
+          "revision": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898"
+        },
+        {
+          "id": "no-hours-20261028-brochure-jp-r13-master",
+          "revision": "c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d"
+        },
+        {
+          "id": "no-hours-20261028-brochure-jp-r13-a3",
+          "revision": "1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d"
+        },
+        {
+          "id": "no-hours-20261028-brochure-jp-r13-a4",
+          "revision": "6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3"
+        }
+      ]
+    }
+  }
+]

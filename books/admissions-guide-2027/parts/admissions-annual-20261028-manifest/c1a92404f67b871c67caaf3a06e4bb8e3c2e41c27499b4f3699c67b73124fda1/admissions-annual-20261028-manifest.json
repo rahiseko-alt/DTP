@@ -1,0 +1,207 @@
+{
+  "date": "2026-10-28",
+  "source_commit": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+  "outputs": [
+    {
+      "label": "admissions-photo",
+      "document": "admissions-guide-2027",
+      "kind": "reading",
+      "file": "downloads/admissions-annual-table-20261028/output/admissions-photo-approved-annual-table-20261028.pdf",
+      "sha256": "6e3dd678321c6a04cd8a0abbf4edc82bb48b571dbf69022a982fdb079119ab91",
+      "bytes": 14870978,
+      "pages": 24,
+      "changed_page": 6,
+      "table_rect_pt": [
+        192.75,
+        263.25,
+        552.75,
+        527.25
+      ],
+      "changed_rect_pt": [
+        191.75,
+        260.75,
+        553.75,
+        528.25
+      ],
+      "source": {
+        "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-photo/1939cbb99d1219071f1e3d0c9dfb2a52a9322a36d5cb6282e8891d7c781d60e1/admissions-five-columns-20261028-admissions-photo.pdf",
+        "id": "admissions-five-columns-20261028-admissions-photo",
+        "revision": "1939cbb99d1219071f1e3d0c9dfb2a52a9322a36d5cb6282e8891d7c781d60e1",
+        "sha256": "1939cbb99d1219071f1e3d0c9dfb2a52a9322a36d5cb6282e8891d7c781d60e1"
+      },
+      "registered": {
+        "document": "admissions-guide-2027",
+        "asset_id": "admissions-annual-20261028-admissions-photo",
+        "file": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-photo/6e3dd678321c6a04cd8a0abbf4edc82bb48b571dbf69022a982fdb079119ab91/admissions-annual-20261028-admissions-photo.pdf",
+        "sha256": "6e3dd678321c6a04cd8a0abbf4edc82bb48b571dbf69022a982fdb079119ab91",
+        "bytes": 14870978,
+        "download_file": "downloads/admissions-annual-table-20261028/output/admissions-photo-approved-annual-table-20261028.pdf",
+        "retrieval_mode": "saved"
+      }
+    },
+    {
+      "label": "admissions-plain",
+      "document": "admissions-guide-2027",
+      "kind": "reading",
+      "file": "downloads/admissions-annual-table-20261028/output/admissions-plain-approved-annual-table-20261028.pdf",
+      "sha256": "3493681e7785a5e2f24aa7886dec163073b6a2f0fd3f3bcef8bef316fcbca179",
+      "bytes": 3449606,
+      "pages": 24,
+      "changed_page": 6,
+      "table_rect_pt": [
+        192.75,
+        263.25,
+        552.75,
+        527.25
+      ],
+      "changed_rect_pt": [
+        191.75,
+        260.75,
+        553.75,
+        528.25
+      ],
+      "source": {
+        "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-plain/a9dad9170461d38af3e0b89b64a43d3247276afac47c48d7f8548e09d513998f/admissions-five-columns-20261028-admissions-plain.pdf",
+        "id": "admissions-five-columns-20261028-admissions-plain",
+        "revision": "a9dad9170461d38af3e0b89b64a43d3247276afac47c48d7f8548e09d513998f",
+        "sha256": "a9dad9170461d38af3e0b89b64a43d3247276afac47c48d7f8548e09d513998f"
+      },
+      "registered": {
+        "document": "admissions-guide-2027",
+        "asset_id": "admissions-annual-20261028-admissions-plain",
+        "file": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-plain/3493681e7785a5e2f24aa7886dec163073b6a2f0fd3f3bcef8bef316fcbca179/admissions-annual-20261028-admissions-plain.pdf",
+        "sha256": "3493681e7785a5e2f24aa7886dec163073b6a2f0fd3f3bcef8bef316fcbca179",
+        "bytes": 3449606,
+        "download_file": "downloads/admissions-annual-table-20261028/output/admissions-plain-approved-annual-table-20261028.pdf",
+        "retrieval_mode": "saved"
+      }
+    },
+    {
+      "label": "admissions-photo-old-cover-A3",
+      "document": "admissions-guide-2027",
+      "kind": "print",
+      "file": "downloads/admissions-annual-table-20261028/output/admissions-photo-old-cover-A3-approved-annual-table-20261028.pdf",
+      "sha256": "55c49e1176c02e66e2dfa57fd4561c923cda462c1e06fa28cd45d5078c7f5e11",
+      "bytes": 2458443,
+      "pages": 12,
+      "changed_page": 6,
+      "table_rect_pt": [
+        184.39586147661805,
+        254.72728203357326,
+        544.3693207521038,
+        518.7078188355962
+      ],
+      "changed_rect_pt": [
+        183.39593520085282,
+        252.22746634416018,
+        545.369247027869,
+        519.7077451113614
+      ],
+      "source": {
+        "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-photo-old-cover-a3/28b4919aa1ca0b5abbb2b7a7e3678b3545578dfaf22de9d30c7465ed3d76dea8/admissions-five-columns-20261028-admissions-photo-old-cover-a3.pdf",
+        "id": "admissions-five-columns-20261028-admissions-photo-old-cover-a3",
+        "revision": "28b4919aa1ca0b5abbb2b7a7e3678b3545578dfaf22de9d30c7465ed3d76dea8",
+        "sha256": "28b4919aa1ca0b5abbb2b7a7e3678b3545578dfaf22de9d30c7465ed3d76dea8"
+      },
+      "registered": {
+        "document": "admissions-guide-2027",
+        "asset_id": "admissions-annual-20261028-admissions-photo-old-cover-a3",
+        "file": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-photo-old-cover-a3/55c49e1176c02e66e2dfa57fd4561c923cda462c1e06fa28cd45d5078c7f5e11/admissions-annual-20261028-admissions-photo-old-cover-a3.pdf",
+        "sha256": "55c49e1176c02e66e2dfa57fd4561c923cda462c1e06fa28cd45d5078c7f5e11",
+        "bytes": 2458443,
+        "download_file": "downloads/admissions-annual-table-20261028/output/admissions-photo-old-cover-A3-approved-annual-table-20261028.pdf",
+        "retrieval_mode": "saved"
+      }
+    },
+    {
+      "label": "admissions-photo-old-cover-A4",
+      "document": "admissions-guide-2027",
+      "kind": "print",
+      "file": "downloads/admissions-annual-table-20261028/output/admissions-photo-old-cover-A4-approved-annual-table-20261028.pdf",
+      "sha256": "b5742d3b5c10f05d9f74e9b452281f4fd303794f8d34d053e1b60aa94ee287bb",
+      "bytes": 2008787,
+      "pages": 12,
+      "changed_page": 6,
+      "table_rect_pt": [
+        130.40207641921512,
+        180.11148876136664,
+        384.93058686020345,
+        366.7657297514248
+      ],
+      "changed_rect_pt": [
+        129.69505277910127,
+        178.343929661082,
+        385.6376105003173,
+        367.4727533915386
+      ],
+      "source": {
+        "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-photo-old-cover-a4/df033fb2989f5304e7ff79c9ac01b8f9db1a97584001803370a66ae6a8b38edb/admissions-five-columns-20261028-admissions-photo-old-cover-a4.pdf",
+        "id": "admissions-five-columns-20261028-admissions-photo-old-cover-a4",
+        "revision": "df033fb2989f5304e7ff79c9ac01b8f9db1a97584001803370a66ae6a8b38edb",
+        "sha256": "df033fb2989f5304e7ff79c9ac01b8f9db1a97584001803370a66ae6a8b38edb"
+      },
+      "registered": {
+        "document": "admissions-guide-2027",
+        "asset_id": "admissions-annual-20261028-admissions-photo-old-cover-a4",
+        "file": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-photo-old-cover-a4/b5742d3b5c10f05d9f74e9b452281f4fd303794f8d34d053e1b60aa94ee287bb/admissions-annual-20261028-admissions-photo-old-cover-a4.pdf",
+        "sha256": "b5742d3b5c10f05d9f74e9b452281f4fd303794f8d34d053e1b60aa94ee287bb",
+        "bytes": 2008787,
+        "download_file": "downloads/admissions-annual-table-20261028/output/admissions-photo-old-cover-A4-approved-annual-table-20261028.pdf",
+        "retrieval_mode": "saved"
+      }
+    },
+    {
+      "label": "admissions-plain-A3",
+      "document": "admissions-guide-2027",
+      "kind": "print",
+      "file": "downloads/admissions-annual-table-20261028/output/admissions-plain-A3-approved-annual-table-20261028.pdf",
+      "sha256": "75d60d6e1e27ce91599d29fec663339af1cbd2bc5f0907a0c3db14df47e8a654",
+      "bytes": 3482897,
+      "pages": 12,
+      "changed_page": 6,
+      "table_rect_pt": [
+        184.39616897389388,
+        254.7272081649245,
+        544.3695238602744,
+        518.7076684149368
+      ],
+      "changed_rect_pt": [
+        183.39624298809838,
+        252.22739320043573,
+        545.3694498460699,
+        519.7075944007323
+      ],
+      "source": {
+        "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-plain-a3/36dfff0d2143ad2b33e06f6f86317d69c8cbb4e93575797fb0f1d56fe17d579d/admissions-five-columns-20261028-admissions-plain-a3.pdf",
+        "id": "admissions-five-columns-20261028-admissions-plain-a3",
+        "revision": "36dfff0d2143ad2b33e06f6f86317d69c8cbb4e93575797fb0f1d56fe17d579d",
+        "sha256": "36dfff0d2143ad2b33e06f6f86317d69c8cbb4e93575797fb0f1d56fe17d579d"
+      },
+      "registered": {
+        "document": "admissions-guide-2027",
+        "asset_id": "admissions-annual-20261028-admissions-plain-a3",
+        "file": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-plain-a3/75d60d6e1e27ce91599d29fec663339af1cbd2bc5f0907a0c3db14df47e8a654/admissions-annual-20261028-admissions-plain-a3.pdf",
+        "sha256": "75d60d6e1e27ce91599d29fec663339af1cbd2bc5f0907a0c3db14df47e8a654",
+        "bytes": 3482897,
+        "download_file": "downloads/admissions-annual-table-20261028/output/admissions-plain-A3-approved-annual-table-20261028.pdf",
+        "retrieval_mode": "saved"
+      }
+    }
+  ],
+  "bundle": {
+    "file": "downloads/admissions-annual-table-20261028/output/print-pdfs-admissions-annual-20261028.zip",
+    "sha256": "e9a5104142c87a160eb3248094f2a18e794026045130702d2b516d2e9f639ccd",
+    "changed_entries": [
+      "admissions-A3.pdf",
+      "admissions-A4.pdf"
+    ],
+    "unchanged_entries": [
+      "brochure-A3.pdf",
+      "brochure-A4.pdf",
+      "flyer-A4.pdf",
+      "PRINTING.txt"
+    ]
+  },
+  "verification": "verification.json",
+  "release": false
+}

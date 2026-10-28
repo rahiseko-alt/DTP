@@ -1,0 +1,58 @@
+{
+  "verified": true,
+  "outputs": [
+    {
+      "label": "brochure-jp-r13",
+      "sha256": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898",
+      "page_faces": 16,
+      "copy_regions": 2,
+      "native_glyphs_added": 28,
+      "outside_copy_pixels_identical_150dpi": true,
+      "original_native_glyphs_fonts_positions_preserved": true,
+      "native_coordinate_max_delta_pt": 0,
+      "all_original_image_streams_identical": true,
+      "annual_fee_table_furigana_policy_cover_QR_AI_note_imposition_preserved": true
+    },
+    {
+      "label": "brochure-jp-r13-master",
+      "sha256": "c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d",
+      "page_faces": 16,
+      "copy_regions": 2,
+      "native_glyphs_added": 28,
+      "outside_copy_pixels_identical_150dpi": true,
+      "original_native_glyphs_fonts_positions_preserved": true,
+      "native_coordinate_max_delta_pt": 0,
+      "all_original_image_streams_identical": true,
+      "annual_fee_table_furigana_policy_cover_QR_AI_note_imposition_preserved": true
+    },
+    {
+      "label": "brochure-jp-r13-A3",
+      "sha256": "1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d",
+      "page_faces": 8,
+      "copy_regions": 2,
+      "native_glyphs_added": 28,
+      "outside_copy_pixels_identical_150dpi": true,
+      "original_native_glyphs_fonts_positions_preserved": true,
+      "native_coordinate_max_delta_pt": 0,
+      "all_original_image_streams_identical": true,
+      "annual_fee_table_furigana_policy_cover_QR_AI_note_imposition_preserved": true
+    },
+    {
+      "label": "brochure-jp-r13-A4",
+      "sha256": "6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3",
+      "page_faces": 8,
+      "copy_regions": 2,
+      "native_glyphs_added": 28,
+      "outside_copy_pixels_identical_150dpi": true,
+      "original_native_glyphs_fonts_positions_preserved": true,
+      "native_coordinate_max_delta_pt": 0,
+      "all_original_image_streams_identical": true,
+      "annual_fee_table_furigana_policy_cover_QR_AI_note_imposition_preserved": true
+    }
+  ],
+  "total_page_faces": 48,
+  "dom_overflow": false,
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false
+}

@@ -1,0 +1,284 @@
+{
+  "files": [
+    {
+      "label": "admissions-photo",
+      "file": "/workspace/設備費更新版/募集要項_写真入り_ページ順_設備費更新版_年額表改訂版.pdf",
+      "sha256": "6e3dd678321c6a04cd8a0abbf4edc82bb48b571dbf69022a982fdb079119ab91",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "9a0d0d0c83d68aa6dc8a441c744485721b530a2953ac41027ba283e966b537dc"
+        },
+        "document_id": "admissions-guide-2027",
+        "asset": {
+          "id": "admissions-annual-20261028-admissions-photo",
+          "variant": "approved-annual-table-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "6e3dd678321c6a04cd8a0abbf4edc82bb48b571dbf69022a982fdb079119ab91",
+          "file": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-photo/6e3dd678321c6a04cd8a0abbf4edc82bb48b571dbf69022a982fdb079119ab91/admissions-annual-20261028-admissions-photo.pdf",
+          "sha256": "6e3dd678321c6a04cd8a0abbf4edc82bb48b571dbf69022a982fdb079119ab91",
+          "size": 14870978,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: make admissions fee page match approved annual brochure table. Three columns: item,year1,year2. Separate miscellaneous and annual facility fee rows, annual tuition780000, expenses50000, facility50000; first year980000, second880000, two years1860000. Exact note:上記金額には検定料2万円は含みません。 No new allocation/deadline/refund changes. Only reading page6 fee table and note changed; outside pixels/native glyphs/fonts/positions/all original image streams/covers/forms/blank backs/QR/imposition preserved. Each current photo/plain PDF retained as source. Saved composition, not renderer freshness or release certification.",
+            "recorded_at": "2026-10-28T03:33:56.908Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "admissions-five-columns-20261028-admissions-photo",
+              "revision": "1939cbb99d1219071f1e3d0c9dfb2a52a9322a36d5cb6282e8891d7c781d60e1"
+            },
+            {
+              "id": "admissions-annual-20261028-panel",
+              "revision": "ad0f5cd1eae23d22f9f2d341a4b3984d5d500391c719a7b77837614f59c263a2"
+            },
+            {
+              "id": "admissions-annual-20261028-builder",
+              "revision": "ab18047e5f59a2546a4ae65107b1df686d89d348c96327aab198e28d08d6a148"
+            }
+          ]
+        },
+        "path": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-photo/6e3dd678321c6a04cd8a0abbf4edc82bb48b571dbf69022a982fdb079119ab91/admissions-annual-20261028-admissions-photo.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "admissions-plain",
+      "file": "/workspace/設備費更新版/募集要項_文字のみ_ページ順_設備費更新版_年額表改訂版.pdf",
+      "sha256": "3493681e7785a5e2f24aa7886dec163073b6a2f0fd3f3bcef8bef316fcbca179",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "9a0d0d0c83d68aa6dc8a441c744485721b530a2953ac41027ba283e966b537dc"
+        },
+        "document_id": "admissions-guide-2027",
+        "asset": {
+          "id": "admissions-annual-20261028-admissions-plain",
+          "variant": "approved-annual-table-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "3493681e7785a5e2f24aa7886dec163073b6a2f0fd3f3bcef8bef316fcbca179",
+          "file": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-plain/3493681e7785a5e2f24aa7886dec163073b6a2f0fd3f3bcef8bef316fcbca179/admissions-annual-20261028-admissions-plain.pdf",
+          "sha256": "3493681e7785a5e2f24aa7886dec163073b6a2f0fd3f3bcef8bef316fcbca179",
+          "size": 3449606,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: make admissions fee page match approved annual brochure table. Three columns: item,year1,year2. Separate miscellaneous and annual facility fee rows, annual tuition780000, expenses50000, facility50000; first year980000, second880000, two years1860000. Exact note:上記金額には検定料2万円は含みません。 No new allocation/deadline/refund changes. Only reading page6 fee table and note changed; outside pixels/native glyphs/fonts/positions/all original image streams/covers/forms/blank backs/QR/imposition preserved. Each current photo/plain PDF retained as source. Saved composition, not renderer freshness or release certification.",
+            "recorded_at": "2026-10-28T03:33:59.971Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "admissions-five-columns-20261028-admissions-plain",
+              "revision": "a9dad9170461d38af3e0b89b64a43d3247276afac47c48d7f8548e09d513998f"
+            },
+            {
+              "id": "admissions-annual-20261028-panel",
+              "revision": "ad0f5cd1eae23d22f9f2d341a4b3984d5d500391c719a7b77837614f59c263a2"
+            },
+            {
+              "id": "admissions-annual-20261028-builder",
+              "revision": "ab18047e5f59a2546a4ae65107b1df686d89d348c96327aab198e28d08d6a148"
+            }
+          ]
+        },
+        "path": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-plain/3493681e7785a5e2f24aa7886dec163073b6a2f0fd3f3bcef8bef316fcbca179/admissions-annual-20261028-admissions-plain.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "admissions-photo-old-cover-A3",
+      "file": "/workspace/設備費更新版/募集要項_写真入り_旧表紙_A3印刷用_設備費更新版_年額表改訂版.pdf",
+      "sha256": "55c49e1176c02e66e2dfa57fd4561c923cda462c1e06fa28cd45d5078c7f5e11",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "9a0d0d0c83d68aa6dc8a441c744485721b530a2953ac41027ba283e966b537dc"
+        },
+        "document_id": "admissions-guide-2027",
+        "asset": {
+          "id": "admissions-annual-20261028-admissions-photo-old-cover-a3",
+          "variant": "approved-annual-table-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "55c49e1176c02e66e2dfa57fd4561c923cda462c1e06fa28cd45d5078c7f5e11",
+          "file": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-photo-old-cover-a3/55c49e1176c02e66e2dfa57fd4561c923cda462c1e06fa28cd45d5078c7f5e11/admissions-annual-20261028-admissions-photo-old-cover-a3.pdf",
+          "sha256": "55c49e1176c02e66e2dfa57fd4561c923cda462c1e06fa28cd45d5078c7f5e11",
+          "size": 2458443,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: make admissions fee page match approved annual brochure table. Three columns: item,year1,year2. Separate miscellaneous and annual facility fee rows, annual tuition780000, expenses50000, facility50000; first year980000, second880000, two years1860000. Exact note:上記金額には検定料2万円は含みません。 No new allocation/deadline/refund changes. Only reading page6 fee table and note changed; outside pixels/native glyphs/fonts/positions/all original image streams/covers/forms/blank backs/QR/imposition preserved. Each current photo/plain PDF retained as source. Saved composition, not renderer freshness or release certification.",
+            "recorded_at": "2026-10-28T03:34:02.686Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "admissions-five-columns-20261028-admissions-photo-old-cover-a3",
+              "revision": "28b4919aa1ca0b5abbb2b7a7e3678b3545578dfaf22de9d30c7465ed3d76dea8"
+            },
+            {
+              "id": "admissions-annual-20261028-panel",
+              "revision": "ad0f5cd1eae23d22f9f2d341a4b3984d5d500391c719a7b77837614f59c263a2"
+            },
+            {
+              "id": "admissions-annual-20261028-builder",
+              "revision": "ab18047e5f59a2546a4ae65107b1df686d89d348c96327aab198e28d08d6a148"
+            }
+          ]
+        },
+        "path": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-photo-old-cover-a3/55c49e1176c02e66e2dfa57fd4561c923cda462c1e06fa28cd45d5078c7f5e11/admissions-annual-20261028-admissions-photo-old-cover-a3.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "admissions-photo-old-cover-A4",
+      "file": "/workspace/設備費更新版/募集要項_写真入り_旧表紙_A4印刷用_設備費更新版_年額表改訂版.pdf",
+      "sha256": "b5742d3b5c10f05d9f74e9b452281f4fd303794f8d34d053e1b60aa94ee287bb",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "9a0d0d0c83d68aa6dc8a441c744485721b530a2953ac41027ba283e966b537dc"
+        },
+        "document_id": "admissions-guide-2027",
+        "asset": {
+          "id": "admissions-annual-20261028-admissions-photo-old-cover-a4",
+          "variant": "approved-annual-table-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "b5742d3b5c10f05d9f74e9b452281f4fd303794f8d34d053e1b60aa94ee287bb",
+          "file": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-photo-old-cover-a4/b5742d3b5c10f05d9f74e9b452281f4fd303794f8d34d053e1b60aa94ee287bb/admissions-annual-20261028-admissions-photo-old-cover-a4.pdf",
+          "sha256": "b5742d3b5c10f05d9f74e9b452281f4fd303794f8d34d053e1b60aa94ee287bb",
+          "size": 2008787,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: make admissions fee page match approved annual brochure table. Three columns: item,year1,year2. Separate miscellaneous and annual facility fee rows, annual tuition780000, expenses50000, facility50000; first year980000, second880000, two years1860000. Exact note:上記金額には検定料2万円は含みません。 No new allocation/deadline/refund changes. Only reading page6 fee table and note changed; outside pixels/native glyphs/fonts/positions/all original image streams/covers/forms/blank backs/QR/imposition preserved. Each current photo/plain PDF retained as source. Saved composition, not renderer freshness or release certification.",
+            "recorded_at": "2026-10-28T03:34:05.340Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "admissions-five-columns-20261028-admissions-photo-old-cover-a4",
+              "revision": "df033fb2989f5304e7ff79c9ac01b8f9db1a97584001803370a66ae6a8b38edb"
+            },
+            {
+              "id": "admissions-annual-20261028-panel",
+              "revision": "ad0f5cd1eae23d22f9f2d341a4b3984d5d500391c719a7b77837614f59c263a2"
+            },
+            {
+              "id": "admissions-annual-20261028-builder",
+              "revision": "ab18047e5f59a2546a4ae65107b1df686d89d348c96327aab198e28d08d6a148"
+            }
+          ]
+        },
+        "path": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-photo-old-cover-a4/b5742d3b5c10f05d9f74e9b452281f4fd303794f8d34d053e1b60aa94ee287bb/admissions-annual-20261028-admissions-photo-old-cover-a4.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "admissions-plain-A3",
+      "file": "/workspace/設備費更新版/募集要項_文字のみ_A3印刷用_設備費更新版_年額表改訂版.pdf",
+      "sha256": "75d60d6e1e27ce91599d29fec663339af1cbd2bc5f0907a0c3db14df47e8a654",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "10557764b1d33c10fb3dc84bcd42bb0db2073881",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "9a0d0d0c83d68aa6dc8a441c744485721b530a2953ac41027ba283e966b537dc"
+        },
+        "document_id": "admissions-guide-2027",
+        "asset": {
+          "id": "admissions-annual-20261028-admissions-plain-a3",
+          "variant": "approved-annual-table-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "75d60d6e1e27ce91599d29fec663339af1cbd2bc5f0907a0c3db14df47e8a654",
+          "file": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-plain-a3/75d60d6e1e27ce91599d29fec663339af1cbd2bc5f0907a0c3db14df47e8a654/admissions-annual-20261028-admissions-plain-a3.pdf",
+          "sha256": "75d60d6e1e27ce91599d29fec663339af1cbd2bc5f0907a0c3db14df47e8a654",
+          "size": 3482897,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User instruction 2026-10-28: make admissions fee page match approved annual brochure table. Three columns: item,year1,year2. Separate miscellaneous and annual facility fee rows, annual tuition780000, expenses50000, facility50000; first year980000, second880000, two years1860000. Exact note:上記金額には検定料2万円は含みません。 No new allocation/deadline/refund changes. Only reading page6 fee table and note changed; outside pixels/native glyphs/fonts/positions/all original image streams/covers/forms/blank backs/QR/imposition preserved. Each current photo/plain PDF retained as source. Saved composition, not renderer freshness or release certification.",
+            "recorded_at": "2026-10-28T03:34:07.785Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "admissions-five-columns-20261028-admissions-plain-a3",
+              "revision": "36dfff0d2143ad2b33e06f6f86317d69c8cbb4e93575797fb0f1d56fe17d579d"
+            },
+            {
+              "id": "admissions-annual-20261028-panel",
+              "revision": "ad0f5cd1eae23d22f9f2d341a4b3984d5d500391c719a7b77837614f59c263a2"
+            },
+            {
+              "id": "admissions-annual-20261028-builder",
+              "revision": "ab18047e5f59a2546a4ae65107b1df686d89d348c96327aab198e28d08d6a148"
+            }
+          ]
+        },
+        "path": "books/admissions-guide-2027/parts/admissions-annual-20261028-admissions-plain-a3/75d60d6e1e27ce91599d29fec663339af1cbd2bc5f0907a0c3db14df47e8a654/admissions-annual-20261028-admissions-plain-a3.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    }
+  ],
+  "zip": "/workspace/設備費更新版/設備費更新版_配布用PDF一式_募集要項年額表改訂_パンフレット授業時間欄削除版.zip",
+  "zip_sha256": "bc9441aa6aef08b7635d7068c99c49f94103275dfc02d742ff37fc56c69db326",
+  "brochure_pdfs": "three preceding class-hours-removed PDFs byte-identical",
+  "changed_entries": [
+    "募集要項_写真入り_ページ順_設備費更新版_5列修正版_ゼロ表記統一.pdf",
+    "募集要項_写真入り_旧表紙_A3印刷用_設備費更新版_5列修正版_ゼロ表記統一.pdf",
+    "募集要項_写真入り_旧表紙_A4印刷用_設備費更新版_5列修正版_ゼロ表記統一.pdf",
+    "募集要項_文字のみ_ページ順_設備費更新版_5列修正版_ゼロ表記統一.pdf",
+    "募集要項_文字のみ_A3印刷用_設備費更新版_5列修正版_ゼロ表記統一.pdf"
+  ]
+}

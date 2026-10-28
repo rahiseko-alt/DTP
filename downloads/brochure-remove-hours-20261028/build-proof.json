@@ -1,0 +1,210 @@
+{
+  "outputs": [
+    {
+      "label": "brochure-jp-r13",
+      "kind": "reading",
+      "file": "downloads/brochure-remove-hours-20261028/output/brochure-jp-r13-remove-hours-20261028.pdf",
+      "sha256": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898",
+      "pages": 16,
+      "source": {
+        "id": "jp-copy-20261028-brochure-jp-r13",
+        "revision": "3a1085aca24055e91ec493eac6ed07bd0ca94d9e87c5bab507db7fc4e1824c32",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13/3a1085aca24055e91ec493eac6ed07bd0ca94d9e87c5bab507db7fc4e1824c32/jp-copy-20261028-brochure-jp-r13.pdf",
+        "sha256": "3a1085aca24055e91ec493eac6ed07bd0ca94d9e87c5bab507db7fc4e1824c32"
+      },
+      "regions": [
+        {
+          "id": "course-stats-p4",
+          "pdf_page": 4,
+          "reading_page": 4,
+          "rect": [
+            34.84209577498898,
+            598.2814173769108,
+            570.6894997627504,
+            647.0569706811328
+          ],
+          "scale": 1.0,
+          "source_rect_px": [
+            145,
+            2490,
+            2375,
+            2693
+          ]
+        },
+        {
+          "id": "course-stats-p6",
+          "pdf_page": 6,
+          "reading_page": 6,
+          "rect": [
+            38.44645051033266,
+            591.0732075289962,
+            574.2938544980941,
+            642.7320447723841
+          ],
+          "scale": 1.0,
+          "source_rect_px": [
+            160,
+            2460,
+            2390,
+            2675
+          ]
+        }
+      ]
+    },
+    {
+      "label": "brochure-jp-r13-master",
+      "kind": "master",
+      "file": "downloads/brochure-remove-hours-20261028/output/brochure-jp-r13-master-remove-hours-20261028.pdf",
+      "sha256": "c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d",
+      "pages": 16,
+      "source": {
+        "id": "jp-copy-20261028-brochure-jp-r13-master",
+        "revision": "2eea9c8ebee052fd512b471e799ab593bee12a6f8d3ce20c7ce9d377edae16c2",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13-master/2eea9c8ebee052fd512b471e799ab593bee12a6f8d3ce20c7ce9d377edae16c2/jp-copy-20261028-brochure-jp-r13-master.pdf",
+        "sha256": "2eea9c8ebee052fd512b471e799ab593bee12a6f8d3ce20c7ce9d377edae16c2"
+      },
+      "regions": [
+        {
+          "id": "course-stats-p4",
+          "pdf_page": 4,
+          "reading_page": 4,
+          "rect": [
+            34.84209577498898,
+            598.2814173769108,
+            570.6894997627504,
+            647.0569706811328
+          ],
+          "scale": 1.0,
+          "source_rect_px": [
+            145,
+            2490,
+            2375,
+            2693
+          ]
+        },
+        {
+          "id": "course-stats-p6",
+          "pdf_page": 6,
+          "reading_page": 6,
+          "rect": [
+            38.44645051033266,
+            591.0732075289962,
+            574.2938544980941,
+            642.7320447723841
+          ],
+          "scale": 1.0,
+          "source_rect_px": [
+            160,
+            2460,
+            2390,
+            2675
+          ]
+        }
+      ]
+    },
+    {
+      "label": "brochure-jp-r13-A3",
+      "kind": "print",
+      "file": "downloads/brochure-remove-hours-20261028/output/brochure-jp-r13-A3-remove-hours-20261028.pdf",
+      "sha256": "1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d",
+      "pages": 8,
+      "source": {
+        "id": "jp-copy-20261028-brochure-jp-r13-a3",
+        "revision": "3872d068f8f23def7fbd87c8807bf2c4fdf38e1883d184478a542891c3659a31",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13-a3/3872d068f8f23def7fbd87c8807bf2c4fdf38e1883d184478a542891c3659a31/jp-copy-20261028-brochure-jp-r13-a3.pdf",
+        "sha256": "3872d068f8f23def7fbd87c8807bf2c4fdf38e1883d184478a542891c3659a31"
+      },
+      "regions": [
+        {
+          "id": "course-stats-p4",
+          "pdf_page": 4,
+          "reading_page": 4,
+          "rect": [
+            34.828657132607916,
+            597.5787162128305,
+            570.0466907544928,
+            646.2969810285753
+          ],
+          "scale": 0.9988254671736903,
+          "source_rect_px": [
+            145,
+            2490,
+            2375,
+            2693
+          ]
+        },
+        {
+          "id": "course-stats-p6",
+          "pdf_page": 6,
+          "reading_page": 6,
+          "rect": [
+            38.42877843499728,
+            590.3789726440012,
+            573.6468120568823,
+            641.9771348872778
+          ],
+          "scale": 0.9988254671736903,
+          "source_rect_px": [
+            160,
+            2460,
+            2390,
+            2675
+          ]
+        }
+      ]
+    },
+    {
+      "label": "brochure-jp-r13-A4",
+      "kind": "print",
+      "file": "downloads/brochure-remove-hours-20261028/output/brochure-jp-r13-A4-remove-hours-20261028.pdf",
+      "sha256": "6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3",
+      "pages": 8,
+      "source": {
+        "id": "jp-copy-20261028-brochure-jp-r13-a4",
+        "revision": "a4a3bf96b1b1a919292838651ab1af04d097c08385edb3f9820d4c9e4647854a",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13-a4/a4a3bf96b1b1a919292838651ab1af04d097c08385edb3f9820d4c9e4647854a/jp-copy-20261028-brochure-jp-r13-a4.pdf",
+        "sha256": "a4a3bf96b1b1a919292838651ab1af04d097c08385edb3f9820d4c9e4647854a"
+      },
+      "regions": [
+        {
+          "id": "course-stats-p4",
+          "pdf_page": 4,
+          "reading_page": 4,
+          "rect": [
+            24.646730430305144,
+            422.53343014515923,
+            403.08643299370556,
+            456.9809346911301
+          ],
+          "scale": 0.7062452850327587,
+          "source_rect_px": [
+            145,
+            2490,
+            2375,
+            2693
+          ]
+        },
+        {
+          "id": "course-stats-p6",
+          "pdf_page": 6,
+          "reading_page": 6,
+          "rect": [
+            27.192288967727116,
+            417.44266592654293,
+            405.63199153112754,
+            453.9264761599603
+          ],
+          "scale": 0.7062452850327587,
+          "source_rect_px": [
+            160,
+            2460,
+            2390,
+            2675
+          ]
+        }
+      ]
+    }
+  ],
+  "patch_count": 2,
+  "release": false
+}
