@@ -1,0 +1,88 @@
+{
+  "verified": true,
+  "outputs": [
+    {
+      "label": "admissions-photo",
+      "sha256": "1939cbb99d1219071f1e3d0c9dfb2a52a9322a36d5cb6282e8891d7c781d60e1",
+      "page_faces": 24,
+      "outside_table_pixels_identical": true,
+      "outside_table_native_glyphs_fonts_positions_identical": true,
+      "all_original_image_streams_identical": true,
+      "columns": [
+        "年次・時期入学金1年次前期1年次後期1年次施設設備費（年額）1年次合計2年次前期2年次後期2年次施設設備費（年額）2年次合計総額",
+        "授業料ー390,000円390,000円ーー390,000円390,000円ーーー",
+        "諸経費ー50,000円ーーー50,000円ーーーー",
+        "施設設備費ーーー50,000円ーーー50,000円ーー",
+        "合計100,000円440,000円390,000円50,000円980,000円440,000円390,000円50,000円880,000円1,860,000円"
+      ],
+      "facility_fee_is_annual_not_assigned_to_terms": true
+    },
+    {
+      "label": "admissions-photo-old-cover-A3",
+      "sha256": "28b4919aa1ca0b5abbb2b7a7e3678b3545578dfaf22de9d30c7465ed3d76dea8",
+      "page_faces": 12,
+      "outside_table_pixels_identical": true,
+      "outside_table_native_glyphs_fonts_positions_identical": true,
+      "all_original_image_streams_identical": true,
+      "columns": [
+        "年次・時期入学金1年次前期1年次後期1年次施設設備費（年額）1年次合計2年次前期2年次後期2年次施設設備費（年額）2年次合計総額",
+        "授業料ー390,000円390,000円ーー390,000円390,000円ーーー",
+        "諸経費ー50,000円ーーー50,000円ーーーー",
+        "施設設備費ーーー50,000円ーーー50,000円ーー",
+        "合計100,000円440,000円390,000円50,000円980,000円440,000円390,000円50,000円880,000円1,860,000円"
+      ],
+      "facility_fee_is_annual_not_assigned_to_terms": true
+    },
+    {
+      "label": "admissions-photo-old-cover-A4",
+      "sha256": "df033fb2989f5304e7ff79c9ac01b8f9db1a97584001803370a66ae6a8b38edb",
+      "page_faces": 12,
+      "outside_table_pixels_identical": true,
+      "outside_table_native_glyphs_fonts_positions_identical": true,
+      "all_original_image_streams_identical": true,
+      "columns": [
+        "年次・時期入学金1年次前期1年次後期1年次施設設備費（年額）1年次合計2年次前期2年次後期2年次施設設備費（年額）2年次合計総額",
+        "授業料ー390,000円390,000円ーー390,000円390,000円ーーー",
+        "諸経費ー50,000円ーーー50,000円ーーーー",
+        "施設設備費ーーー50,000円ーーー50,000円ーー",
+        "合計100,000円440,000円390,000円50,000円980,000円440,000円390,000円50,000円880,000円1,860,000円"
+      ],
+      "facility_fee_is_annual_not_assigned_to_terms": true
+    },
+    {
+      "label": "admissions-plain",
+      "sha256": "a9dad9170461d38af3e0b89b64a43d3247276afac47c48d7f8548e09d513998f",
+      "page_faces": 24,
+      "outside_table_pixels_identical": true,
+      "outside_table_native_glyphs_fonts_positions_identical": true,
+      "all_original_image_streams_identical": true,
+      "columns": [
+        "年次・時期入学金1年次前期1年次後期1年次施設設備費（年額）1年次合計2年次前期2年次後期2年次施設設備費（年額）2年次合計総額",
+        "授業料ー390,000円390,000円ーー390,000円390,000円ーーー",
+        "諸経費ー50,000円ーーー50,000円ーーーー",
+        "施設設備費ーーー50,000円ーーー50,000円ーー",
+        "合計100,000円440,000円390,000円50,000円980,000円440,000円390,000円50,000円880,000円1,860,000円"
+      ],
+      "facility_fee_is_annual_not_assigned_to_terms": true
+    },
+    {
+      "label": "admissions-plain-A3",
+      "sha256": "36dfff0d2143ad2b33e06f6f86317d69c8cbb4e93575797fb0f1d56fe17d579d",
+      "page_faces": 12,
+      "outside_table_pixels_identical": true,
+      "outside_table_native_glyphs_fonts_positions_identical": true,
+      "all_original_image_streams_identical": true,
+      "columns": [
+        "年次・時期入学金1年次前期1年次後期1年次施設設備費（年額）1年次合計2年次前期2年次後期2年次施設設備費（年額）2年次合計総額",
+        "授業料ー390,000円390,000円ーー390,000円390,000円ーーー",
+        "諸経費ー50,000円ーーー50,000円ーーーー",
+        "施設設備費ーーー50,000円ーーー50,000円ーー",
+        "合計100,000円440,000円390,000円50,000円980,000円440,000円390,000円50,000円880,000円1,860,000円"
+      ],
+      "facility_fee_is_annual_not_assigned_to_terms": true
+    }
+  ],
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false
+}

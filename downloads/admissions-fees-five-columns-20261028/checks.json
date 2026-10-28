@@ -1,0 +1,23 @@
+{
+  "recorded_at_utc": "2026-10-28T00:37:54.336318+00:00",
+  "doctor": "same session: 10 OK, 1 WARN, 0 NG; /tmp/brochure-five-doctor.log",
+  "source_render": "passed admissions-guide-2027/page_007 PNG/PDF, Chromium154 preview",
+  "typecheck": "passed in same session; no TypeScript changes",
+  "pdf_verification": {
+    "passed": true,
+    "pdfs": 5,
+    "page_faces": 84,
+    "proof": "verification.json"
+  },
+  "visual_review": "parent self-review, all five tables enlarged, plain full fee page and photo natural spread",
+  "numerical_facts": "same SHA as pre-change tuition revision; no numerical changes",
+  "source_baseline_sync": "queued after save: combine previous brochure page_002 HTML and current admissions page_007 HTML/CSS; previous queue stopped before registry changes",
+  "whole_check": "queued after combined baseline; not yet passed",
+  "metadata_only": "pending final saved catalog check",
+  "github_required_asset_integrity": "unconfirmed; PR creation previously returned HTTP403 because api.github.com is outside current enforced network allowlist",
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false,
+  "saved_get": "passed: five registered PDFs retrieved with --saved and delivery SHA matched",
+  "distribution_zip": "passed: original ZIP changed admissions A3/A4 only; eight-PDF Japanese ZIP changed five admissions PDFs only"
+}

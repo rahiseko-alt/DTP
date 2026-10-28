@@ -585,3 +585,7 @@ PDF受渡し調査は人間の指示で保留。医専BOOKの地図第2案を画
 ### 2026-10-28 パンフレット・ゼロ表記統一（Codex）
 
 人間の「0をーで統一しろ」により、直前5列修正版7PDFの13P／印刷面4だけを別改訂。単独0を2セル、既存空欄記号を8セル、すべてー（U+30FC）へ統一。料金・他内容は維持。全80P/面と対象10セル以外の画素・文字/書体/位置・画像stream一致。保存物・取得証跡・SHA・確認画像は downloads/brochure-zero-dash-20261028/。制作元page_002の表示分岐も対応。作業ブランチ book/brochure-fees-five-columns-20261028、main未反映。baseline正規同期→全体checkは /tmp/brochure-zero-dash-baseline.log と /tmp/brochure-zero-dash-check.log、登録metadata検査は /tmp/brochure-zero-dash-metadata.json。最新状態は checks.json に区別。GitHub PRはapi.github.com通信制限403のため未作成、本文はPR.mdへ保管。マージ指示時に検査結果・baseline差分を取り込み、必須チェックを確認する。
+
+### 2026-10-28 募集要項・学費表5列統一（Codex）
+
+人間の「募集要項の方も同様の表に変えろ」により、写真入り新表紙のページ順、旧表紙配布A3/A4、文字のみのページ順/A3の5PDFを更新。読順6P／印刷面6の学費表だけを、年次・時期／授業料／諸経費／施設設備費／合計の5列へ。施設費年額50,000円×2、単独0・空欄はー。数値・制度・表外・画像・白紙裏・QR・面付け保持。全5PDF・84P/面比較合格。保存物は downloads/admissions-fees-five-columns-20261028/、日本語名の提供PDF/取得SHAはdelivery-files.json。元ZIPは募集要項2PDF、8PDF日本語ZIPは募集要項5PDFだけ差し替え、現行パンフレットを保持。制作元page_007 HTML/CSSを対応。ブランチ book/brochure-fees-five-columns-20261028、main未反映。前のbaseline/checkキューは新資料登録前に止め、保存後にパンフレットpage_002 HTMLと募集要項page_007 HTML/CSSの3ファイルを正規同期→全体check。ログ /tmp/admissions-five-columns-baseline.log、/tmp/admissions-five-columns-check.log、metadata /tmp/admissions-five-columns-metadata.json。PRは通信制限403で未作成、本文はPR.mdに保管。マージ指示時は検査結果とbaseline差分を取り込み、必須GitHubチェックを確認。

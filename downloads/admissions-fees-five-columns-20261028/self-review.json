@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-28",
+  "reviewer": "parent self-review",
+  "brief": "既存募集要項の6P料金表をパンフレット同様の5列へ。単独0・空欄はー。金額と他の紙面を保持。",
+  "purpose": "本人の行きたいと保護者の払える・払うを成立させ、入学手続きと入金につなげる。",
+  "audience": "日本の高校に通う外国ルーツの高校生と保護者を既定に、現行日本人向け募集要項の対象・記載を維持。",
+  "outputs": [
+    {
+      "label": "admissions-photo",
+      "sha256": "1939cbb99d1219071f1e3d0c9dfb2a52a9322a36d5cb6282e8891d7c781d60e1"
+    },
+    {
+      "label": "admissions-photo-old-cover-A3",
+      "sha256": "28b4919aa1ca0b5abbb2b7a7e3678b3545578dfaf22de9d30c7465ed3d76dea8"
+    },
+    {
+      "label": "admissions-photo-old-cover-A4",
+      "sha256": "df033fb2989f5304e7ff79c9ac01b8f9db1a97584001803370a66ae6a8b38edb"
+    },
+    {
+      "label": "admissions-plain",
+      "sha256": "a9dad9170461d38af3e0b89b64a43d3247276afac47c48d7f8548e09d513998f"
+    },
+    {
+      "label": "admissions-plain-A3",
+      "sha256": "36dfff0d2143ad2b33e06f6f86317d69c8cbb4e93575797fb0f1d56fe17d579d"
+    }
+  ],
+  "evidence": [
+    "all 5 tables enlarged: /tmp/admissions-five-columns-tables.jpg",
+    "previews/admissions-plain-page-06.png",
+    "previews/admissions-photo-spread-06.jpg",
+    "source render PNG/PDF /tmp/admissions-five-columns-source"
+  ],
+  "findings": "5列・全金額・年額施設費各50,000円・ー22セルが明瞭。文字切れ/重なりなし。表外の全84P/面の画素・文字/書体/位置・全画像stream一致。願書白紙裏のテキスト/画像なしも確認。",
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false
+}

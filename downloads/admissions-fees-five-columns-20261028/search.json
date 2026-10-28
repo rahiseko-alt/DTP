@@ -1,0 +1,203 @@
+{
+  "context": {
+    "root": "/workspace/DTP",
+    "head": "020bd8c7459c61ef844f59d36f450f7fb872301d",
+    "branch": "book/brochure-fees-five-columns-20261028",
+    "dirty": true,
+    "fingerprint": "9cd3998fb1449335553abcbab7b840a20a5aa03fe75056aa0196706923bcc507"
+  },
+  "matches": [
+    {
+      "asset_id": "tuition-20261027-facts",
+      "document_id": "admissions-guide-2027",
+      "title": "募集要項｜日本人向け｜2027年度",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "text",
+      "revision": "83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7",
+      "path": "books/admissions-guide-2027/parts/tuition-20261027-facts/83342af72ce1e4cda33e80cf2e636209907755e970d7419184226af2526d85e7/tuition-20261027-facts.yaml",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "tuition-20261027-panel-renderer",
+      "document_id": "admissions-guide-2027",
+      "title": "募集要項｜日本人向け｜2027年度",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "text",
+      "revision": "2a7eaf8d3572048e41f7f8f30cf7cb44a3a977bdec88f95e84532bca3d99c69b",
+      "path": "books/admissions-guide-2027/parts/tuition-20261027-panel-renderer/2a7eaf8d3572048e41f7f8f30cf7cb44a3a977bdec88f95e84532bca3d99c69b/tuition-20261027-panel-renderer.mjs",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "tuition-20261027-builder",
+      "document_id": "admissions-guide-2027",
+      "title": "募集要項｜日本人向け｜2027年度",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "text",
+      "revision": "ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd",
+      "path": "books/admissions-guide-2027/parts/tuition-20261027-builder/ac4f96245674f58a12853fd96ed4fc8f5529e2b368fa25e5f3c478c47cab1bdd/tuition-20261027-builder.py",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "tuition-20261027-panel-admissions",
+      "document_id": "admissions-guide-2027",
+      "title": "募集要項｜日本人向け｜2027年度",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "116ddeaf30a61989020e4f5206397d08dcadc53d3f261c25c6bdc3a57034ece1",
+      "path": "books/admissions-guide-2027/parts/tuition-20261027-panel-admissions/116ddeaf30a61989020e4f5206397d08dcadc53d3f261c25c6bdc3a57034ece1/tuition-20261027-panel-admissions.pdf",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "tuition-20261027-admissions-photo",
+      "document_id": "admissions-guide-2027",
+      "title": "募集要項｜日本人向け｜2027年度",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a",
+      "path": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo/ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a/tuition-20261027-admissions-photo.pdf",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "tuition-20261027-admissions-photo-page-06",
+      "document_id": "admissions-guide-2027",
+      "title": "募集要項｜日本人向け｜2027年度",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "3d73c586096ab83940002c010f56dac15aaa71b368f41ea241bdafbf55d66505",
+      "path": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo-page-06/3d73c586096ab83940002c010f56dac15aaa71b368f41ea241bdafbf55d66505/tuition-20261027-admissions-photo-page-06.png",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "tuition-20261027-admissions-photo-old-cover-a3",
+      "document_id": "admissions-guide-2027",
+      "title": "募集要項｜日本人向け｜2027年度",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "f69782b23511af89e8cd4e9971544b7c308157f6ce4837ac3671584e419159c9",
+      "path": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo-old-cover-a3/f69782b23511af89e8cd4e9971544b7c308157f6ce4837ac3671584e419159c9/tuition-20261027-admissions-photo-old-cover-a3.pdf",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "tuition-20261027-admissions-photo-old-cover-a3-page-06",
+      "document_id": "admissions-guide-2027",
+      "title": "募集要項｜日本人向け｜2027年度",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "9013fae59d0be6b213b0ad25a4627b1f20e59a54c09c468122ef121740e709ba",
+      "path": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo-old-cover-a3-page-06/9013fae59d0be6b213b0ad25a4627b1f20e59a54c09c468122ef121740e709ba/tuition-20261027-admissions-photo-old-cover-a3-page-06.png",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "tuition-20261027-admissions-photo-old-cover-a4",
+      "document_id": "admissions-guide-2027",
+      "title": "募集要項｜日本人向け｜2027年度",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "cb7fa7aaf85bb1499a7f00db0cec29f1a014788d196e54b0bfc22460449a255c",
+      "path": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo-old-cover-a4/cb7fa7aaf85bb1499a7f00db0cec29f1a014788d196e54b0bfc22460449a255c/tuition-20261027-admissions-photo-old-cover-a4.pdf",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "tuition-20261027-admissions-photo-old-cover-a4-page-06",
+      "document_id": "admissions-guide-2027",
+      "title": "募集要項｜日本人向け｜2027年度",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "a6c7192c82c45214efb9d22405773ec11aa6fe5f5fd8b9a6e12641b5da467ec0",
+      "path": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo-old-cover-a4-page-06/a6c7192c82c45214efb9d22405773ec11aa6fe5f5fd8b9a6e12641b5da467ec0/tuition-20261027-admissions-photo-old-cover-a4-page-06.png",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "tuition-20261027-admissions-plain",
+      "document_id": "admissions-guide-2027",
+      "title": "募集要項｜日本人向け｜2027年度",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1",
+      "path": "books/admissions-guide-2027/parts/tuition-20261027-admissions-plain/a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1/tuition-20261027-admissions-plain.pdf",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "tuition-20261027-admissions-plain-page-06",
+      "document_id": "admissions-guide-2027",
+      "title": "募集要項｜日本人向け｜2027年度",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "5723e868ac6b08c2be098efce7ec52643d7f040bd9c171c200b38e850ef46b8a",
+      "path": "books/admissions-guide-2027/parts/tuition-20261027-admissions-plain-page-06/5723e868ac6b08c2be098efce7ec52643d7f040bd9c171c200b38e850ef46b8a/tuition-20261027-admissions-plain-page-06.png",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "tuition-20261027-admissions-plain-a3",
+      "document_id": "admissions-guide-2027",
+      "title": "募集要項｜日本人向け｜2027年度",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "pdf",
+      "revision": "eb10f08c561b3dcd27880776677d3031b6c2dd6a1f7c8463f0ebcf990327651e",
+      "path": "books/admissions-guide-2027/parts/tuition-20261027-admissions-plain-a3/eb10f08c561b3dcd27880776677d3031b6c2dd6a1f7c8463f0ebcf990327651e/tuition-20261027-admissions-plain-a3.pdf",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "tuition-20261027-admissions-plain-a3-page-06",
+      "document_id": "admissions-guide-2027",
+      "title": "募集要項｜日本人向け｜2027年度",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "image",
+      "revision": "6792fcd579e9b8076346eef8b539231b443ddd446780b6b1c3b2be816fd6ba8b",
+      "path": "books/admissions-guide-2027/parts/tuition-20261027-admissions-plain-a3-page-06/6792fcd579e9b8076346eef8b539231b443ddd446780b6b1c3b2be816fd6ba8b/tuition-20261027-admissions-plain-a3-page-06.png",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "tuition-20261027-manifest",
+      "document_id": "admissions-guide-2027",
+      "title": "募集要項｜日本人向け｜2027年度",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "text",
+      "revision": "41458920603378f5dfbd5fdc5f2c44a058028ae2495f97601ee0f9c50faf58ae",
+      "path": "books/admissions-guide-2027/parts/tuition-20261027-manifest/41458920603378f5dfbd5fdc5f2c44a058028ae2495f97601ee0f9c50faf58ae/tuition-20261027-manifest.json",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    },
+    {
+      "asset_id": "tuition-20261027-verification",
+      "document_id": "admissions-guide-2027",
+      "title": "募集要項｜日本人向け｜2027年度",
+      "variant": "tuition-facility-20261027",
+      "role": "support",
+      "media": "text",
+      "revision": "4233581a2e5d2f33e11ec0aebd0fd814d24a416b0ee3e35de2948a0560f97c17",
+      "path": "books/admissions-guide-2027/parts/tuition-20261027-verification/4233581a2e5d2f33e11ec0aebd0fd814d24a416b0ee3e35de2948a0560f97c17/tuition-20261027-verification.json",
+      "relation": "authored",
+      "availability": "SAVED_OUTPUT"
+    }
+  ]
+}

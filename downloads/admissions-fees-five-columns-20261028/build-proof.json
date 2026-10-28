@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-28",
+  "columns": [
+    "年次・時期",
+    "授業料",
+    "諸経費",
+    "施設設備費",
+    "合計"
+  ],
+  "outputs": [
+    {
+      "label": "admissions-photo",
+      "document": "admissions-guide-2027",
+      "kind": "reading",
+      "file": "downloads/admissions-fees-five-columns-20261028/output/admissions-photo-five-columns-dash-20261028.pdf",
+      "sha256": "1939cbb99d1219071f1e3d0c9dfb2a52a9322a36d5cb6282e8891d7c781d60e1",
+      "bytes": 14791628,
+      "pages": 24,
+      "changed_page": 6,
+      "table_rect_pt": [
+        192.75,
+        263.25,
+        552.75,
+        495.75
+      ],
+      "changed_rect_pt": [
+        191.75,
+        260.75,
+        553.75,
+        496.75
+      ],
+      "source": {
+        "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo/ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a/tuition-20261027-admissions-photo.pdf",
+        "id": "tuition-20261027-admissions-photo",
+        "revision": "ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a",
+        "sha256": "ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a"
+      }
+    },
+    {
+      "label": "admissions-photo-old-cover-A3",
+      "document": "admissions-guide-2027",
+      "kind": "print",
+      "file": "downloads/admissions-fees-five-columns-20261028/output/admissions-photo-old-cover-A3-five-columns-dash-20261028.pdf",
+      "sha256": "28b4919aa1ca0b5abbb2b7a7e3678b3545578dfaf22de9d30c7465ed3d76dea8",
+      "bytes": 2375401,
+      "pages": 12,
+      "changed_page": 6,
+      "table_rect_pt": [
+        184.39586147661805,
+        254.72728203357326,
+        544.3693207521038,
+        487.2101411489911
+      ],
+      "changed_rect_pt": [
+        183.39593520085282,
+        252.22746634416018,
+        545.369247027869,
+        488.21006742475635
+      ],
+      "source": {
+        "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo-old-cover-a3/f69782b23511af89e8cd4e9971544b7c308157f6ce4837ac3671584e419159c9/tuition-20261027-admissions-photo-old-cover-a3.pdf",
+        "id": "tuition-20261027-admissions-photo-old-cover-a3",
+        "revision": "f69782b23511af89e8cd4e9971544b7c308157f6ce4837ac3671584e419159c9",
+        "sha256": "f69782b23511af89e8cd4e9971544b7c308157f6ce4837ac3671584e419159c9"
+      }
+    },
+    {
+      "label": "admissions-photo-old-cover-A4",
+      "document": "admissions-guide-2027",
+      "kind": "print",
+      "file": "downloads/admissions-fees-five-columns-20261028/output/admissions-photo-old-cover-A4-five-columns-dash-20261028.pdf",
+      "sha256": "df033fb2989f5304e7ff79c9ac01b8f9db1a97584001803370a66ae6a8b38edb",
+      "bytes": 1926010,
+      "pages": 12,
+      "changed_page": 6,
+      "table_rect_pt": [
+        130.40207641921512,
+        180.11148876136664,
+        384.93058686020345,
+        344.49448508783826
+      ],
+      "changed_rect_pt": [
+        129.69505277910127,
+        178.343929661082,
+        385.6376105003173,
+        345.2015087279521
+      ],
+      "source": {
+        "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo-old-cover-a4/cb7fa7aaf85bb1499a7f00db0cec29f1a014788d196e54b0bfc22460449a255c/tuition-20261027-admissions-photo-old-cover-a4.pdf",
+        "id": "tuition-20261027-admissions-photo-old-cover-a4",
+        "revision": "cb7fa7aaf85bb1499a7f00db0cec29f1a014788d196e54b0bfc22460449a255c",
+        "sha256": "cb7fa7aaf85bb1499a7f00db0cec29f1a014788d196e54b0bfc22460449a255c"
+      }
+    },
+    {
+      "label": "admissions-plain",
+      "document": "admissions-guide-2027",
+      "kind": "reading",
+      "file": "downloads/admissions-fees-five-columns-20261028/output/admissions-plain-five-columns-dash-20261028.pdf",
+      "sha256": "a9dad9170461d38af3e0b89b64a43d3247276afac47c48d7f8548e09d513998f",
+      "bytes": 3370390,
+      "pages": 24,
+      "changed_page": 6,
+      "table_rect_pt": [
+        192.75,
+        263.25,
+        552.75,
+        495.75
+      ],
+      "changed_rect_pt": [
+        191.75,
+        260.75,
+        553.75,
+        496.75
+      ],
+      "source": {
+        "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-plain/a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1/tuition-20261027-admissions-plain.pdf",
+        "id": "tuition-20261027-admissions-plain",
+        "revision": "a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1",
+        "sha256": "a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1"
+      }
+    },
+    {
+      "label": "admissions-plain-A3",
+      "document": "admissions-guide-2027",
+      "kind": "print",
+      "file": "downloads/admissions-fees-five-columns-20261028/output/admissions-plain-A3-five-columns-dash-20261028.pdf",
+      "sha256": "36dfff0d2143ad2b33e06f6f86317d69c8cbb4e93575797fb0f1d56fe17d579d",
+      "bytes": 3394684,
+      "pages": 12,
+      "changed_page": 6,
+      "table_rect_pt": [
+        184.39616897389388,
+        254.7272081649245,
+        544.3695238602744,
+        487.20999986237854
+      ],
+      "changed_rect_pt": [
+        183.39624298809838,
+        252.22739320043573,
+        545.3694498460699,
+        488.20992584817407
+      ],
+      "source": {
+        "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-plain-a3/eb10f08c561b3dcd27880776677d3031b6c2dd6a1f7c8463f0ebcf990327651e/tuition-20261027-admissions-plain-a3.pdf",
+        "id": "tuition-20261027-admissions-plain-a3",
+        "revision": "eb10f08c561b3dcd27880776677d3031b6c2dd6a1f7c8463f0ebcf990327651e",
+        "sha256": "eb10f08c561b3dcd27880776677d3031b6c2dd6a1f7c8463f0ebcf990327651e"
+      }
+    }
+  ],
+  "release": false
+}

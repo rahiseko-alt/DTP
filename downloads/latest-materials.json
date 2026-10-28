@@ -107,11 +107,11 @@
     },
     "admissions": {
       "document": "admissions-guide-2027",
-      "asset_id": "tuition-20261027-admissions-photo",
-      "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo/ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a/tuition-20261027-admissions-photo.pdf",
-      "sha256": "ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a",
+      "asset_id": "admissions-five-columns-20261028-admissions-photo",
+      "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-photo/1939cbb99d1219071f1e3d0c9dfb2a52a9322a36d5cb6282e8891d7c781d60e1/admissions-five-columns-20261028-admissions-photo.pdf",
+      "sha256": "1939cbb99d1219071f1e3d0c9dfb2a52a9322a36d5cb6282e8891d7c781d60e1",
       "pages": 24,
-      "bytes": 14719399,
+      "bytes": 14791628,
       "qr_decoded": {
         "23": [
           "https://kaihougakuen.my.canva.site/"
@@ -141,8 +141,8 @@
       "audience_status": "日本人向け原本に基づく。人物画像は未統一",
       "year_status": "2027年度。2028年度への自動繰上げ禁止",
       "retrieval_mode": "saved",
-      "freshness_status": "保存済み料金改定版。既存PDFの料金領域を編集した成果物。現入力の標準renderer全冊再生成という意味ではない。",
-      "download_file": "downloads/tuition-revision-20261027/output/admissions-photo-fees-20261027.pdf",
+      "freshness_status": "保存済みの局所修正版。標準renderer全冊再生成の保証ではない。",
+      "download_file": "downloads/admissions-fees-five-columns-20261028/output/admissions-photo-five-columns-dash-20261028.pdf",
       "previous_cover_edition": {
         "asset_id": "standard-rendered-pdf",
         "file": "books/admissions-guide-2027/output/standard-render/standard-rendered-pdf/17717fca804b78b43ce722dac6ec2a9c48516b52f5de9fec72efa8ce17696052/standard-rendered-pdf.pdf",
@@ -150,8 +150,8 @@
         "bytes": 19357455,
         "download_file": "downloads/english-name-20261023/output/admissions-2027-checked.pdf"
       },
-      "variant": "tuition-facility-20261027",
-      "version_policy": "2026-10-27料金改定。施設設備費は各年50,000円、年次合計980,000/880,000円、2年間1,860,000円。変更は料金欄のみ。元の表紙/写真/配色/料金以外の文章/納付期限/返還規定/ページ順を保持。旧版は別保管。",
+      "variant": "tuition-five-columns-dash-20261028",
+      "version_policy": "2026-10-28：学費表を年次・時期／授業料／諸経費／施設設備費／合計の5列へ。施設費は各年50,000円の年額行とし、期への配分や納付時期は追加しない。単独0と空欄はー（U+30FC）。金額・年次合計・総額・表外の全文/書体/位置/写真・表紙・願書/白紙裏・QR・面付けを保持。",
       "previews": [
         {
           "id": "navy-plain-cover",
@@ -169,12 +169,12 @@
           "sha256": "13ddabf4cc0c422da76988fb4fe74803a31c1c11bd8a052c0c97a04b7e65bc27"
         },
         {
-          "id": "tuition-20261027-admissions-photo-page-06",
-          "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo-page-06/3d73c586096ab83940002c010f56dac15aaa71b368f41ea241bdafbf55d66505/tuition-20261027-admissions-photo-page-06.png",
-          "sha256": "3d73c586096ab83940002c010f56dac15aaa71b368f41ea241bdafbf55d66505"
+          "id": "admissions-five-columns-20261028-admissions-photo-page-06",
+          "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-photo-page-06/00cb1b2c3fd408a8fd05a2d0e5d1ec45d845cf0073b80eda5760f6c9144efa36/admissions-five-columns-20261028-admissions-photo-page-06.png",
+          "sha256": "00cb1b2c3fd408a8fd05a2d0e5d1ec45d845cf0073b80eda5760f6c9144efa36"
         }
       ],
-      "review_status": "全ページ/印刷面を150dpi比較し、料金領域外の画素・文字・書体・位置と元の全画像ストリームを保持。QR・白紙裏面・新合計を検証。親の目視、独立審査/実物試し刷り/入稿承認なし。",
+      "review_status": "5PDF・84P/面を150dpi比較し、表外の画素・文字/書体/位置と全元画像stream一致。全5列と年額施設費、ー表記、合計を検証。親の自己点検。独立審査・実機試し刷り・入稿承認は未実施。",
       "cover_approval": {
         "date": "2026-10-25",
         "edition": "R04（文字のみ版）/写真入り表紙改訂R01",
@@ -192,33 +192,52 @@
       "print_outputs": [
         {
           "document": "admissions-guide-2027",
-          "asset_id": "tuition-20261027-admissions-photo-old-cover-a3",
-          "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo-old-cover-a3/f69782b23511af89e8cd4e9971544b7c308157f6ce4837ac3671584e419159c9/tuition-20261027-admissions-photo-old-cover-a3.pdf",
-          "sha256": "f69782b23511af89e8cd4e9971544b7c308157f6ce4837ac3671584e419159c9",
-          "bytes": 2299579,
-          "download_file": "downloads/tuition-revision-20261027/output/admissions-photo-old-cover-A3-fees-20261027.pdf",
+          "asset_id": "admissions-five-columns-20261028-admissions-photo-old-cover-a3",
+          "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-photo-old-cover-a3/28b4919aa1ca0b5abbb2b7a7e3678b3545578dfaf22de9d30c7465ed3d76dea8/admissions-five-columns-20261028-admissions-photo-old-cover-a3.pdf",
+          "sha256": "28b4919aa1ca0b5abbb2b7a7e3678b3545578dfaf22de9d30c7465ed3d76dea8",
+          "bytes": 2375401,
+          "download_file": "downloads/admissions-fees-five-columns-20261028/output/admissions-photo-old-cover-A3-five-columns-dash-20261028.pdf",
           "retrieval_mode": "saved",
           "paper": "A3",
           "faces": 12,
           "sheets": 6,
           "duplex": "短辺反転",
-          "cover_note": "旧表紙の配布用PDFの料金のみ改定。表紙は元PDFのまま。"
+          "cover_note": "旧表紙の配布版を保持し、学費表だけを5列・ー表記へ更新。"
         },
         {
           "document": "admissions-guide-2027",
-          "asset_id": "tuition-20261027-admissions-photo-old-cover-a4",
-          "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo-old-cover-a4/cb7fa7aaf85bb1499a7f00db0cec29f1a014788d196e54b0bfc22460449a255c/tuition-20261027-admissions-photo-old-cover-a4.pdf",
-          "sha256": "cb7fa7aaf85bb1499a7f00db0cec29f1a014788d196e54b0bfc22460449a255c",
-          "bytes": 1850425,
-          "download_file": "downloads/tuition-revision-20261027/output/admissions-photo-old-cover-A4-fees-20261027.pdf",
+          "asset_id": "admissions-five-columns-20261028-admissions-photo-old-cover-a4",
+          "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-photo-old-cover-a4/df033fb2989f5304e7ff79c9ac01b8f9db1a97584001803370a66ae6a8b38edb/admissions-five-columns-20261028-admissions-photo-old-cover-a4.pdf",
+          "sha256": "df033fb2989f5304e7ff79c9ac01b8f9db1a97584001803370a66ae6a8b38edb",
+          "bytes": 1926010,
+          "download_file": "downloads/admissions-fees-five-columns-20261028/output/admissions-photo-old-cover-A4-five-columns-dash-20261028.pdf",
           "retrieval_mode": "saved",
           "paper": "A4",
           "faces": 12,
           "sheets": 6,
           "duplex": "短辺反転",
-          "cover_note": "旧表紙の配布用PDFの料金のみ改定。表紙は元PDFのまま。"
+          "cover_note": "旧表紙の配布版を保持し、学費表だけを5列・ー表記へ更新。"
         }
-      ]
+      ],
+      "previous_layout_edition": {
+        "asset_id": "tuition-20261027-admissions-photo",
+        "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-photo/ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a/tuition-20261027-admissions-photo.pdf",
+        "sha256": "ead38aea70fc5d1ee2928bc7b6bd34c932cd925f3b49536959c7cf6586d56e8a",
+        "bytes": 14719399,
+        "download_file": "downloads/tuition-revision-20261027/output/admissions-photo-fees-20261027.pdf"
+      },
+      "table_revision": {
+        "date": "2026-10-28",
+        "columns": [
+          "年次・時期",
+          "授業料",
+          "諸経費",
+          "施設設備費",
+          "合計"
+        ],
+        "dash": "ー",
+        "manifest": "downloads/admissions-fees-five-columns-20261028/manifest.json"
+      }
     },
     "flyer": {
       "document": "oc-approved-20261017",
@@ -252,8 +271,8 @@
       "freshness_status": "保存済み配布版。登録実体の同一性は確認、現在の標準renderer入力による再生成保証なし"
     }
   },
-  "print_bundle": "downloads/brochure-zero-dash-20261028/output/print-pdfs-zero-dash-20261028.zip",
-  "bundle_sha256": "5911e5201c53ca0536c0fe40aba9c123758f9b128967ed1b3c1ff90130e3c607",
+  "print_bundle": "downloads/admissions-fees-five-columns-20261028/output/print-pdfs-admissions-five-columns-20261028.zip",
+  "bundle_sha256": "631a97dcc38a681ad534f9908613d1c3a7ff191dc2807dfe743bb5b3a87d96ba",
   "bundle_pdf_names": [
     "brochure-A3.pdf",
     "brochure-A4.pdf",
@@ -464,7 +483,7 @@
       "work_id": "ADM-JP-PLAIN-2027",
       "source_material_id": "ADM-JP-2027",
       "display_name": "募集要項_文字のみ版_日本人向け_2027年度_R05_料金改定_確認用",
-      "status": "R05・2026-10-27料金改定・確認用",
+      "status": "R05・設備費更新版・学費表5列／ー表記統一・確認用",
       "tags": [
         "種別:募集要項",
         "対象:日本人向け",
@@ -476,18 +495,18 @@
         "用途:ページ順PDF"
       ],
       "document": "admissions-guide-2027",
-      "variant": "tuition-facility-20261027",
-      "asset_id": "tuition-20261027-admissions-plain",
-      "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-plain/a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1/tuition-20261027-admissions-plain.pdf",
-      "sha256": "a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1",
-      "bytes": 3298294,
+      "variant": "tuition-five-columns-dash-20261028",
+      "asset_id": "admissions-five-columns-20261028-admissions-plain",
+      "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-plain/a9dad9170461d38af3e0b89b64a43d3247276afac47c48d7f8548e09d513998f/admissions-five-columns-20261028-admissions-plain.pdf",
+      "sha256": "a9dad9170461d38af3e0b89b64a43d3247276afac47c48d7f8548e09d513998f",
+      "bytes": 3370390,
       "pages": 24,
       "binding": "中綴じ・左綴じ・願書の裏面は白紙",
       "year_status": "2027年度。2028年度へ自動繰上げしない",
-      "version_policy": "2026-10-27料金改定。施設設備費は各年50,000円、年次合計980,000/880,000円、2年間1,860,000円。変更は料金欄のみ。元の表紙/写真/配色/料金以外の文章/納付期限/返還規定/ページ順を保持。旧版は別保管。",
+      "version_policy": "2026-10-28：学費表を年次・時期／授業料／諸経費／施設設備費／合計の5列へ。施設費は各年50,000円の年額行とし、期への配分や納付時期は追加しない。単独0と空欄はー（U+30FC）。金額・年次合計・総額・表外の全文/書体/位置/写真・表紙・願書/白紙裏・QR・面付けを保持。",
       "retrieval_mode": "saved",
-      "freshness_status": "保存済み料金改定版。既存PDFの料金領域を編集した成果物。現入力の標準renderer全冊再生成という意味ではない。",
-      "review_status": "全ページ/印刷面を150dpi比較し、料金領域外の画素・文字・書体・位置と元の全画像ストリームを保持。QR・白紙裏面・新合計を検証。親の目視、独立審査/実物試し刷り/入稿承認なし。",
+      "freshness_status": "保存済みの局所修正版。標準renderer全冊再生成の保証ではない。",
+      "review_status": "5PDF・84P/面を150dpi比較し、表外の画素・文字/書体/位置と全元画像stream一致。全5列と年額施設費、ー表記、合計を検証。親の自己点検。独立審査・実機試し刷り・入稿承認は未実施。",
       "qr_decoded": {
         "23": [
           "https://kaihougakuen.my.canva.site/"
@@ -502,20 +521,20 @@
         20,
         22
       ],
-      "download_file": "downloads/tuition-revision-20261027/output/admissions-plain-fees-20261027.pdf",
+      "download_file": "downloads/admissions-fees-five-columns-20261028/output/admissions-plain-five-columns-dash-20261028.pdf",
       "print_outputs": [
         {
           "paper": "A3",
           "document": "admissions-guide-2027",
-          "asset_id": "tuition-20261027-admissions-plain-a3",
-          "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-plain-a3/eb10f08c561b3dcd27880776677d3031b6c2dd6a1f7c8463f0ebcf990327651e/tuition-20261027-admissions-plain-a3.pdf",
-          "sha256": "eb10f08c561b3dcd27880776677d3031b6c2dd6a1f7c8463f0ebcf990327651e",
-          "bytes": 3313593,
+          "asset_id": "admissions-five-columns-20261028-admissions-plain-a3",
+          "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-plain-a3/36dfff0d2143ad2b33e06f6f86317d69c8cbb4e93575797fb0f1d56fe17d579d/admissions-five-columns-20261028-admissions-plain-a3.pdf",
+          "sha256": "36dfff0d2143ad2b33e06f6f86317d69c8cbb4e93575797fb0f1d56fe17d579d",
+          "bytes": 3394684,
           "faces": 12,
           "sheets": 6,
           "duplex": "短辺反転",
           "retrieval_mode": "saved",
-          "download_file": "downloads/tuition-revision-20261027/output/admissions-plain-A3-fees-20261027.pdf",
+          "download_file": "downloads/admissions-fees-five-columns-20261028/output/admissions-plain-A3-five-columns-dash-20261028.pdf",
           "use": "願書記入用・A4仕上がり・100%印刷"
         }
       ],
@@ -536,9 +555,9 @@
           "sha256": "8f3f33578e804c77d8f185c5231764bc59230d5d35186ac261e18e5e4f9996cd"
         },
         {
-          "id": "tuition-20261027-admissions-plain-page-06",
-          "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-plain-page-06/5723e868ac6b08c2be098efce7ec52643d7f040bd9c171c200b38e850ef46b8a/tuition-20261027-admissions-plain-page-06.png",
-          "sha256": "5723e868ac6b08c2be098efce7ec52643d7f040bd9c171c200b38e850ef46b8a"
+          "id": "admissions-five-columns-20261028-admissions-plain-page-06",
+          "file": "books/admissions-guide-2027/parts/admissions-five-columns-20261028-admissions-plain-page-06/c8d8ddbc994148b1679861ec1a81fde3e79d06ecd32891584280bfce2c79ba0a/admissions-five-columns-20261028-admissions-plain-page-06.png",
+          "sha256": "c8d8ddbc994148b1679861ec1a81fde3e79d06ecd32891584280bfce2c79ba0a"
         }
       ],
       "color_policy": "downloads/admissions-plain-20261025/r03-three-panels/color-policy.json",
@@ -602,6 +621,25 @@
         "edition": "R05",
         "manifest": "downloads/tuition-revision-20261027/manifest.json",
         "user_instruction": "PLEASE IMPLEMENT THIS PLAN: 料金改定。料金以外の変更禁止。"
+      },
+      "previous_layout_edition": {
+        "asset_id": "tuition-20261027-admissions-plain",
+        "file": "books/admissions-guide-2027/parts/tuition-20261027-admissions-plain/a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1/tuition-20261027-admissions-plain.pdf",
+        "sha256": "a78f89378835bdb31c429a887b1fd7adbb89cf30efc600469ecd6012edc2f9e1",
+        "bytes": 3298294,
+        "download_file": "downloads/tuition-revision-20261027/output/admissions-plain-fees-20261027.pdf"
+      },
+      "table_revision": {
+        "date": "2026-10-28",
+        "columns": [
+          "年次・時期",
+          "授業料",
+          "諸経費",
+          "施設設備費",
+          "合計"
+        ],
+        "dash": "ー",
+        "manifest": "downloads/admissions-fees-five-columns-20261028/manifest.json"
       }
     }
   ],
@@ -638,7 +676,7 @@
     }
   ],
   "previous_print_bundle": {
-    "file": "downloads/brochure-fees-five-columns-20261028/output/print-pdfs-five-columns-20261028.zip",
-    "sha256": "348d7151a81dc3a973f6aac36849b88f14238f5abe839d0b371773dc58e53133"
+    "file": "downloads/brochure-zero-dash-20261028/output/print-pdfs-zero-dash-20261028.zip",
+    "sha256": "5911e5201c53ca0536c0fe40aba9c123758f9b128967ed1b3c1ff90130e3c607"
   }
 }
