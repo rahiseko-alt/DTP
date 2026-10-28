@@ -1,0 +1,16 @@
+{
+  "recorded_at_utc": "2026-10-28T07:37:14.806825+00:00",
+  "pdf_verification": "passed:4PDF/48faces;notice areas only;outside150dpi pixels,all original glyphs/fonts/positions,image streams identical",
+  "approved_copy": "passed:exact approved notice6 times each PDF,expected pages/faces only",
+  "render": "passed:6 native footer panels,Chromium154 preview",
+  "visual_review": "parent enlarged six page footers;4/6 notes two lines avoid rules;9 below support rules",
+  "saved_get": "passed:4 registered PDFs retrieved --saved and Japanese delivery SHA matched",
+  "distribution_zip": "passed:Japanese8PDF ZIP brochure3 replaced;latest annual-table admissions5 byte-identical",
+  "source_baseline_sync": "no new legacy source edits;prior7 LEGACY_CHANGED remain",
+  "whole_check": "no whole-repository pass asserted;prior metadata check has7 pre-existing errors",
+  "github_required_asset_integrity": "unconfirmed;environment GitHub API403;not merged",
+  "printpack_preflight": "not ready:color setting,exactA4/bleed,Helvetica embedding,old printed folios,application classification;see printpack-preflight.json",
+  "physical_print_test": false,
+  "independent_review": false,
+  "release": false
+}

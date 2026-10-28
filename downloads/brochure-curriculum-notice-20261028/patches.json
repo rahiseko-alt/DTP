@@ -1,0 +1,108 @@
+{
+  "scope": "Append exact user-approved curriculum/target-qualification change notice to PDF pages3,4,5,6,7,9 in current Japanese brochure. Preserve all prior content, cover, fee table, no-furigana policy and imposition. Teacher credential page8 is not a student target-qualification page.",
+  "notice": "※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。",
+  "patches": [
+    {
+      "page": 3,
+      "id": "curriculum-notice-p3",
+      "rect_px": [
+        110,
+        3420,
+        2380,
+        3468
+      ],
+      "text": "※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。",
+      "font_px": 32,
+      "color": "#4b5964",
+      "weight": 400,
+      "align": "left",
+      "bg": "transparent",
+      "line_height": 1.25
+    },
+    {
+      "page": 4,
+      "id": "curriculum-notice-p4",
+      "rect_px": [
+        140,
+        3378,
+        1195,
+        3468
+      ],
+      "text": "※掲載しているカリキュラム・授業内容・\n目標とする資格・検定は、変更となる場合があります。",
+      "font_px": 32,
+      "color": "#4b5964",
+      "weight": 400,
+      "align": "left",
+      "bg": "transparent",
+      "line_height": 1.25
+    },
+    {
+      "page": 5,
+      "id": "curriculum-notice-p5",
+      "rect_px": [
+        110,
+        3420,
+        2380,
+        3468
+      ],
+      "text": "※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。",
+      "font_px": 32,
+      "color": "#4b5964",
+      "weight": 400,
+      "align": "left",
+      "bg": "transparent",
+      "line_height": 1.25
+    },
+    {
+      "page": 6,
+      "id": "curriculum-notice-p6",
+      "rect_px": [
+        140,
+        3378,
+        1195,
+        3468
+      ],
+      "text": "※掲載しているカリキュラム・授業内容・\n目標とする資格・検定は、変更となる場合があります。",
+      "font_px": 32,
+      "color": "#4b5964",
+      "weight": 400,
+      "align": "left",
+      "bg": "transparent",
+      "line_height": 1.25
+    },
+    {
+      "page": 7,
+      "id": "curriculum-notice-p7",
+      "rect_px": [
+        110,
+        3420,
+        2380,
+        3468
+      ],
+      "text": "※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。",
+      "font_px": 32,
+      "color": "#4b5964",
+      "weight": 400,
+      "align": "left",
+      "bg": "transparent",
+      "line_height": 1.25
+    },
+    {
+      "page": 9,
+      "id": "curriculum-notice-p9",
+      "rect_px": [
+        110,
+        3432,
+        2380,
+        3480
+      ],
+      "text": "※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。",
+      "font_px": 32,
+      "color": "#4b5964",
+      "weight": 400,
+      "align": "left",
+      "bg": "transparent",
+      "line_height": 1.25
+    }
+  ]
+}

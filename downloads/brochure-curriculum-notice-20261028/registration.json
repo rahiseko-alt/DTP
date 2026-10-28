@@ -1,0 +1,590 @@
+[
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-copy-plan",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "08f2ff61a3a37acb35ef39009bea4236859faf6968fc31d0ffb5688905fcf63b",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-copy-plan/08f2ff61a3a37acb35ef39009bea4236859faf6968fc31d0ffb5688905fcf63b/curriculum-notice-20261028-copy-plan.json",
+      "sha256": "08f2ff61a3a37acb35ef39009bea4236859faf6968fc31d0ffb5688905fcf63b",
+      "size": 3117,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:09.102Z"
+      },
+      "external_inputs": [],
+      "built_from": []
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-renderer",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "41a514ce4890a0247088cfbb8b7ac93f2de0b4b828f3f35d000a3a515463571c",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-renderer/41a514ce4890a0247088cfbb8b7ac93f2de0b4b828f3f35d000a3a515463571c/curriculum-notice-20261028-renderer.mjs",
+      "sha256": "41a514ce4890a0247088cfbb8b7ac93f2de0b4b828f3f35d000a3a515463571c",
+      "size": 5186,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:10.368Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "curriculum-notice-20261028-copy-plan",
+          "revision": "08f2ff61a3a37acb35ef39009bea4236859faf6968fc31d0ffb5688905fcf63b"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-overlay-packet",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "cc180ac75d95aa6916aa14c2ac3cb305cf3746e686b029cde9975afe3b2f2736",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-overlay-packet/cc180ac75d95aa6916aa14c2ac3cb305cf3746e686b029cde9975afe3b2f2736/curriculum-notice-20261028-overlay-packet.pdf",
+      "sha256": "cc180ac75d95aa6916aa14c2ac3cb305cf3746e686b029cde9975afe3b2f2736",
+      "size": 187161,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:11.568Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "curriculum-notice-20261028-copy-plan",
+          "revision": "08f2ff61a3a37acb35ef39009bea4236859faf6968fc31d0ffb5688905fcf63b"
+        },
+        {
+          "id": "curriculum-notice-20261028-renderer",
+          "revision": "41a514ce4890a0247088cfbb8b7ac93f2de0b4b828f3f35d000a3a515463571c"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-builder",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "61efdc80e8f646a8165e5f76835a0fc0af0ccb3a643f02d2f93637eef09a9e8a",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-builder/61efdc80e8f646a8165e5f76835a0fc0af0ccb3a643f02d2f93637eef09a9e8a/curriculum-notice-20261028-builder.py",
+      "sha256": "61efdc80e8f646a8165e5f76835a0fc0af0ccb3a643f02d2f93637eef09a9e8a",
+      "size": 2448,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:12.850Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "curriculum-notice-20261028-copy-plan",
+          "revision": "08f2ff61a3a37acb35ef39009bea4236859faf6968fc31d0ffb5688905fcf63b"
+        },
+        {
+          "id": "curriculum-notice-20261028-overlay-packet",
+          "revision": "cc180ac75d95aa6916aa14c2ac3cb305cf3746e686b029cde9975afe3b2f2736"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-brochure-jp-r13",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13/014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2/curriculum-notice-20261028-brochure-jp-r13.pdf",
+      "sha256": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2",
+      "size": 8843969,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:14.449Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "no-hours-20261028-brochure-jp-r13",
+          "revision": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898"
+        },
+        {
+          "id": "curriculum-notice-20261028-builder",
+          "revision": "61efdc80e8f646a8165e5f76835a0fc0af0ccb3a643f02d2f93637eef09a9e8a"
+        },
+        {
+          "id": "curriculum-notice-20261028-overlay-packet",
+          "revision": "cc180ac75d95aa6916aa14c2ac3cb305cf3746e686b029cde9975afe3b2f2736"
+        },
+        {
+          "id": "curriculum-notice-20261028-copy-plan",
+          "revision": "08f2ff61a3a37acb35ef39009bea4236859faf6968fc31d0ffb5688905fcf63b"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-page-03",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "eb7b94cdf06cde3279340d20eb6366e991cb241aea1331a6e517f678a9c2131a",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-03/eb7b94cdf06cde3279340d20eb6366e991cb241aea1331a6e517f678a9c2131a/curriculum-notice-20261028-page-03.png",
+      "sha256": "eb7b94cdf06cde3279340d20eb6366e991cb241aea1331a6e517f678a9c2131a",
+      "size": 1371854,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:16.532Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13",
+          "revision": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-page-04",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "0843e61b8dfbda4c04a270b86e9dfefbee4d9d1d660ceb0286ac9c24c6a55f47",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-04/0843e61b8dfbda4c04a270b86e9dfefbee4d9d1d660ceb0286ac9c24c6a55f47/curriculum-notice-20261028-page-04.png",
+      "sha256": "0843e61b8dfbda4c04a270b86e9dfefbee4d9d1d660ceb0286ac9c24c6a55f47",
+      "size": 1581508,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:18.074Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13",
+          "revision": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-page-05",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "f0e1522ec6776978de4f49e45aba52fa6bcfd1a729bd41a923f1ce09db2be503",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-05/f0e1522ec6776978de4f49e45aba52fa6bcfd1a729bd41a923f1ce09db2be503/curriculum-notice-20261028-page-05.png",
+      "sha256": "f0e1522ec6776978de4f49e45aba52fa6bcfd1a729bd41a923f1ce09db2be503",
+      "size": 1810171,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:19.689Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13",
+          "revision": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-page-06",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "851aac90c5b4d8206407ae0b9004fffb90f74832d785640d97b7e51d8f8db3db",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-06/851aac90c5b4d8206407ae0b9004fffb90f74832d785640d97b7e51d8f8db3db/curriculum-notice-20261028-page-06.png",
+      "sha256": "851aac90c5b4d8206407ae0b9004fffb90f74832d785640d97b7e51d8f8db3db",
+      "size": 1375570,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:22.306Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13",
+          "revision": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-page-07",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "5fe201703b45879580e6faa3a8c90e5d0935e3164659725920ce0241bc8690ea",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-07/5fe201703b45879580e6faa3a8c90e5d0935e3164659725920ce0241bc8690ea/curriculum-notice-20261028-page-07.png",
+      "sha256": "5fe201703b45879580e6faa3a8c90e5d0935e3164659725920ce0241bc8690ea",
+      "size": 1836270,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:24.027Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13",
+          "revision": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-page-09",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "6750e332a0eef1b9857a62af3db354b91f4a1c42801b51fa7d0ed38c5f16ccba",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-09/6750e332a0eef1b9857a62af3db354b91f4a1c42801b51fa7d0ed38c5f16ccba/curriculum-notice-20261028-page-09.png",
+      "sha256": "6750e332a0eef1b9857a62af3db354b91f4a1c42801b51fa7d0ed38c5f16ccba",
+      "size": 1609156,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:25.750Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13",
+          "revision": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-overview-01",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "ed2ef693a4d03fad69fff8866356744fee18e131e58184129657c40e9299d99b",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-overview-01/ed2ef693a4d03fad69fff8866356744fee18e131e58184129657c40e9299d99b/curriculum-notice-20261028-overview-01.jpg",
+      "sha256": "ed2ef693a4d03fad69fff8866356744fee18e131e58184129657c40e9299d99b",
+      "size": 544146,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:27.691Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13",
+          "revision": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-overview-05",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "b194986c678768fec318766552fe03de6d3bddc9665d755c07b800a4cef92a1d",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-overview-05/b194986c678768fec318766552fe03de6d3bddc9665d755c07b800a4cef92a1d/curriculum-notice-20261028-overview-05.jpg",
+      "sha256": "b194986c678768fec318766552fe03de6d3bddc9665d755c07b800a4cef92a1d",
+      "size": 616811,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:29.408Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13",
+          "revision": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-overview-09",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "image",
+      "revision": "6dc13cf045b9ab197c07528bed59f354c9632048c9d691f6ea53290b04eb7656",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-overview-09/6dc13cf045b9ab197c07528bed59f354c9632048c9d691f6ea53290b04eb7656/curriculum-notice-20261028-overview-09.jpg",
+      "sha256": "6dc13cf045b9ab197c07528bed59f354c9632048c9d691f6ea53290b04eb7656",
+      "size": 574081,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:30.994Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13",
+          "revision": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-brochure-jp-r13-master",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-master/a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74/curriculum-notice-20261028-brochure-jp-r13-master.pdf",
+      "sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+      "size": 128027546,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:32.991Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "no-hours-20261028-brochure-jp-r13-master",
+          "revision": "c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d"
+        },
+        {
+          "id": "curriculum-notice-20261028-builder",
+          "revision": "61efdc80e8f646a8165e5f76835a0fc0af0ccb3a643f02d2f93637eef09a9e8a"
+        },
+        {
+          "id": "curriculum-notice-20261028-overlay-packet",
+          "revision": "cc180ac75d95aa6916aa14c2ac3cb305cf3746e686b029cde9975afe3b2f2736"
+        },
+        {
+          "id": "curriculum-notice-20261028-copy-plan",
+          "revision": "08f2ff61a3a37acb35ef39009bea4236859faf6968fc31d0ffb5688905fcf63b"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-brochure-jp-r13-a3",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "5e3d2d2ec8a6268d74a058d22d98e3cf3217a69ade354e11d74b5ee96815d748",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-a3/5e3d2d2ec8a6268d74a058d22d98e3cf3217a69ade354e11d74b5ee96815d748/curriculum-notice-20261028-brochure-jp-r13-a3.pdf",
+      "sha256": "5e3d2d2ec8a6268d74a058d22d98e3cf3217a69ade354e11d74b5ee96815d748",
+      "size": 6153436,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:40.202Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "no-hours-20261028-brochure-jp-r13-a3",
+          "revision": "1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d"
+        },
+        {
+          "id": "curriculum-notice-20261028-builder",
+          "revision": "61efdc80e8f646a8165e5f76835a0fc0af0ccb3a643f02d2f93637eef09a9e8a"
+        },
+        {
+          "id": "curriculum-notice-20261028-overlay-packet",
+          "revision": "cc180ac75d95aa6916aa14c2ac3cb305cf3746e686b029cde9975afe3b2f2736"
+        },
+        {
+          "id": "curriculum-notice-20261028-copy-plan",
+          "revision": "08f2ff61a3a37acb35ef39009bea4236859faf6968fc31d0ffb5688905fcf63b"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-brochure-jp-r13-a4",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "pdf",
+      "revision": "b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-a4/b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad/curriculum-notice-20261028-brochure-jp-r13-a4.pdf",
+      "sha256": "b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad",
+      "size": 4751092,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:42.289Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "no-hours-20261028-brochure-jp-r13-a4",
+          "revision": "6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3"
+        },
+        {
+          "id": "curriculum-notice-20261028-builder",
+          "revision": "61efdc80e8f646a8165e5f76835a0fc0af0ccb3a643f02d2f93637eef09a9e8a"
+        },
+        {
+          "id": "curriculum-notice-20261028-overlay-packet",
+          "revision": "cc180ac75d95aa6916aa14c2ac3cb305cf3746e686b029cde9975afe3b2f2736"
+        },
+        {
+          "id": "curriculum-notice-20261028-copy-plan",
+          "revision": "08f2ff61a3a37acb35ef39009bea4236859faf6968fc31d0ffb5688905fcf63b"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-manifest",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "4922ee65359158012a5c5774bdbd77c4cb236876ec09d12b4437779e1a85dbe0",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-manifest/4922ee65359158012a5c5774bdbd77c4cb236876ec09d12b4437779e1a85dbe0/curriculum-notice-20261028-manifest.json",
+      "sha256": "4922ee65359158012a5c5774bdbd77c4cb236876ec09d12b4437779e1a85dbe0",
+      "size": 15941,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:43.935Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13",
+          "revision": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2"
+        },
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13-master",
+          "revision": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74"
+        },
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13-a3",
+          "revision": "5e3d2d2ec8a6268d74a058d22d98e3cf3217a69ade354e11d74b5ee96815d748"
+        },
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13-a4",
+          "revision": "b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad"
+        }
+      ]
+    }
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "asset": {
+      "id": "curriculum-notice-20261028-verification",
+      "variant": "curriculum-notice-20261028",
+      "role": "support",
+      "media": "text",
+      "revision": "173a9379211adc92841393b1316a90ec97e92d09a3cb5dd59693a360ce8e8ebf",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-verification/173a9379211adc92841393b1316a90ec97e92d09a3cb5dd59693a360ce8e8ebf/curriculum-notice-20261028-verification.json",
+      "sha256": "173a9379211adc92841393b1316a90ec97e92d09a3cb5dd59693a360ce8e8ebf",
+      "size": 2445,
+      "relation": "authored",
+      "storage": "canonical",
+      "confirmation": "verified",
+      "saved": {
+        "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+        "recorded_at": "2026-10-28T07:29:50.595Z"
+      },
+      "external_inputs": [],
+      "built_from": [
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13",
+          "revision": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2"
+        },
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13-master",
+          "revision": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74"
+        },
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13-a3",
+          "revision": "5e3d2d2ec8a6268d74a058d22d98e3cf3217a69ade354e11d74b5ee96815d748"
+        },
+        {
+          "id": "curriculum-notice-20261028-brochure-jp-r13-a4",
+          "revision": "b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,244 @@
+{
+  "files": [
+    {
+      "label": "brochure-jp-r13",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_ページ順_設備費更新版_カリキュラム資格注記追加版.pdf",
+      "sha256": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "403c109ed8fff7cd7f5701fe06f39938b7b70e1a",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "f54d461ac355cf66ebd25dc8722b4d7acedecb88335659306dd25a4b0a36b2a2"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "curriculum-notice-20261028-brochure-jp-r13",
+          "variant": "curriculum-notice-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2",
+          "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13/014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2/curriculum-notice-20261028-brochure-jp-r13.pdf",
+          "sha256": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2",
+          "size": 8843969,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+            "recorded_at": "2026-10-28T07:29:14.449Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "no-hours-20261028-brochure-jp-r13",
+              "revision": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898"
+            },
+            {
+              "id": "curriculum-notice-20261028-builder",
+              "revision": "61efdc80e8f646a8165e5f76835a0fc0af0ccb3a643f02d2f93637eef09a9e8a"
+            },
+            {
+              "id": "curriculum-notice-20261028-overlay-packet",
+              "revision": "cc180ac75d95aa6916aa14c2ac3cb305cf3746e686b029cde9975afe3b2f2736"
+            },
+            {
+              "id": "curriculum-notice-20261028-copy-plan",
+              "revision": "08f2ff61a3a37acb35ef39009bea4236859faf6968fc31d0ffb5688905fcf63b"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13/014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2/curriculum-notice-20261028-brochure-jp-r13.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13-master",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_制作マスター_設備費更新版_カリキュラム資格注記追加版.pdf",
+      "sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "403c109ed8fff7cd7f5701fe06f39938b7b70e1a",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "f54d461ac355cf66ebd25dc8722b4d7acedecb88335659306dd25a4b0a36b2a2"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "curriculum-notice-20261028-brochure-jp-r13-master",
+          "variant": "curriculum-notice-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+          "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-master/a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74/curriculum-notice-20261028-brochure-jp-r13-master.pdf",
+          "sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+          "size": 128027546,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+            "recorded_at": "2026-10-28T07:29:32.991Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "no-hours-20261028-brochure-jp-r13-master",
+              "revision": "c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d"
+            },
+            {
+              "id": "curriculum-notice-20261028-builder",
+              "revision": "61efdc80e8f646a8165e5f76835a0fc0af0ccb3a643f02d2f93637eef09a9e8a"
+            },
+            {
+              "id": "curriculum-notice-20261028-overlay-packet",
+              "revision": "cc180ac75d95aa6916aa14c2ac3cb305cf3746e686b029cde9975afe3b2f2736"
+            },
+            {
+              "id": "curriculum-notice-20261028-copy-plan",
+              "revision": "08f2ff61a3a37acb35ef39009bea4236859faf6968fc31d0ffb5688905fcf63b"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-master/a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74/curriculum-notice-20261028-brochure-jp-r13-master.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13-A3",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_A3印刷用_設備費更新版_カリキュラム資格注記追加版.pdf",
+      "sha256": "5e3d2d2ec8a6268d74a058d22d98e3cf3217a69ade354e11d74b5ee96815d748",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "403c109ed8fff7cd7f5701fe06f39938b7b70e1a",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "f54d461ac355cf66ebd25dc8722b4d7acedecb88335659306dd25a4b0a36b2a2"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "curriculum-notice-20261028-brochure-jp-r13-a3",
+          "variant": "curriculum-notice-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "5e3d2d2ec8a6268d74a058d22d98e3cf3217a69ade354e11d74b5ee96815d748",
+          "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-a3/5e3d2d2ec8a6268d74a058d22d98e3cf3217a69ade354e11d74b5ee96815d748/curriculum-notice-20261028-brochure-jp-r13-a3.pdf",
+          "sha256": "5e3d2d2ec8a6268d74a058d22d98e3cf3217a69ade354e11d74b5ee96815d748",
+          "size": 6153436,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+            "recorded_at": "2026-10-28T07:29:40.202Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "no-hours-20261028-brochure-jp-r13-a3",
+              "revision": "1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d"
+            },
+            {
+              "id": "curriculum-notice-20261028-builder",
+              "revision": "61efdc80e8f646a8165e5f76835a0fc0af0ccb3a643f02d2f93637eef09a9e8a"
+            },
+            {
+              "id": "curriculum-notice-20261028-overlay-packet",
+              "revision": "cc180ac75d95aa6916aa14c2ac3cb305cf3746e686b029cde9975afe3b2f2736"
+            },
+            {
+              "id": "curriculum-notice-20261028-copy-plan",
+              "revision": "08f2ff61a3a37acb35ef39009bea4236859faf6968fc31d0ffb5688905fcf63b"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-a3/5e3d2d2ec8a6268d74a058d22d98e3cf3217a69ade354e11d74b5ee96815d748/curriculum-notice-20261028-brochure-jp-r13-a3.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    },
+    {
+      "label": "brochure-jp-r13-A4",
+      "file": "/workspace/設備費更新版/医専パンフレット_日本人向け_R13_A4印刷用_設備費更新版_カリキュラム資格注記追加版.pdf",
+      "sha256": "b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad",
+      "get_receipt": {
+        "context": {
+          "root": "/workspace/DTP",
+          "head": "403c109ed8fff7cd7f5701fe06f39938b7b70e1a",
+          "branch": "book/brochure-fees-five-columns-20261028",
+          "dirty": true,
+          "fingerprint": "f54d461ac355cf66ebd25dc8722b4d7acedecb88335659306dd25a4b0a36b2a2"
+        },
+        "document_id": "prospectus-isen-trial-2028",
+        "asset": {
+          "id": "curriculum-notice-20261028-brochure-jp-r13-a4",
+          "variant": "curriculum-notice-20261028",
+          "role": "support",
+          "media": "pdf",
+          "revision": "b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad",
+          "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-a4/b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad/curriculum-notice-20261028-brochure-jp-r13-a4.pdf",
+          "sha256": "b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad",
+          "size": 4751092,
+          "relation": "authored",
+          "storage": "canonical",
+          "confirmation": "verified",
+          "saved": {
+            "reason": "User approved exact notice 2026-10-28:※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。 Append native footer note to current Japanese brochure PDF3,4,5,6,7,9 only. Two-line notes on4/6 avoid existing column dividers;9 below support rules. Four current PDFs, preserve all prior content/images, annual fees, cover, no-furigana, class-hours removal, QR, AI note and imposition. Every outside-area150dpi pixel and original native glyph/font/position/image stream verified. Archived originals retained. Saved composition, not release certification.",
+            "recorded_at": "2026-10-28T07:29:42.289Z"
+          },
+          "external_inputs": [],
+          "built_from": [
+            {
+              "id": "no-hours-20261028-brochure-jp-r13-a4",
+              "revision": "6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3"
+            },
+            {
+              "id": "curriculum-notice-20261028-builder",
+              "revision": "61efdc80e8f646a8165e5f76835a0fc0af0ccb3a643f02d2f93637eef09a9e8a"
+            },
+            {
+              "id": "curriculum-notice-20261028-overlay-packet",
+              "revision": "cc180ac75d95aa6916aa14c2ac3cb305cf3746e686b029cde9975afe3b2f2736"
+            },
+            {
+              "id": "curriculum-notice-20261028-copy-plan",
+              "revision": "08f2ff61a3a37acb35ef39009bea4236859faf6968fc31d0ffb5688905fcf63b"
+            }
+          ]
+        },
+        "path": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-a4/b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad/curriculum-notice-20261028-brochure-jp-r13-a4.pdf",
+        "retrieval": {
+          "mode": "saved",
+          "integrity": "verified",
+          "freshness": "not_checked",
+          "notice": "保存済み版。登録されたSHA・サイズと一致しています。最新版かは未確認です。"
+        }
+      }
+    }
+  ],
+  "zip": "/workspace/設備費更新版/設備費更新版_配布用PDF一式_カリキュラム資格注記追加版.zip",
+  "zip_sha256": "c3fe0e17b9490e5fecce25cb5675ec2e613f4007e68aa0d2c86b3d39a70ee154",
+  "changed_entries": {
+    "医専パンフレット_日本人向け_R13_ページ順_設備費更新版_年額表改訂版_ふりがな無し.pdf": "ページ順",
+    "医専パンフレット_日本人向け_R13_A3印刷用_設備費更新版_年額表改訂版_ふりがな無し.pdf": "A3印刷用",
+    "医専パンフレット_日本人向け_R13_A4印刷用_設備費更新版_年額表改訂版_ふりがな無し.pdf": "A4印刷用"
+  },
+  "other_entries_byte_identical": true
+}

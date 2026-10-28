@@ -300,7 +300,7 @@
       "work_id": "PAM-JP-ISEN",
       "source_material_id": "PAM-ISEN-2028",
       "display_name": "パンフレット_日本人向け_医専白版_2028表記_16P_確認用",
-      "status": "改稿13・設備費更新版・年額表改訂・ふりがな無し・日本人向け文面修正・授業時間欄削除版・確認用",
+      "status": "改稿13・設備費更新版・年額表改訂・ふりがな無し・日本人向け文面修正・授業時間欄削除・カリキュラム資格注記追加版・確認用",
       "tags": [
         "対象:日本人向け",
         "人物仕様:日本人イメージ",
@@ -310,63 +310,63 @@
         "種別:パンフレット",
         "表記年度:2028"
       ],
-      "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13/4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898/no-hours-20261028-brochure-jp-r13.pdf",
-      "version_policy": "2026-10-28：両学科の授業時間欄（週3日・1日100分×5限）を削除し、欄内を修業年限2年制／入学定員30名・29名の2項目へ。週5日や年間授業時間は新たに掲載しない。日本人向け文面・表紙・学費表・注記・ふりがな無し・画像・QR・面付けを保持。旧版保持。",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13/014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2/curriculum-notice-20261028-brochure-jp-r13.pdf",
+      "version_policy": "2026-10-28：カリキュラム・目標資格の掲載6ページ（PDF3/4/5/6/7/9）へ承認文言「※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。」を下部に追加。他の本文・写真・表紙・年額表・検定料別注記・ふりがな無し・授業時間欄削除・QR・AI注記・面付けを保持。旧版保持。",
       "document": "prospectus-isen-trial-2028",
-      "variant": "class-hours-removed-20261028",
-      "asset_id": "no-hours-20261028-brochure-jp-r13",
-      "sha256": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898",
-      "bytes": 8654291,
+      "variant": "curriculum-notice-20261028",
+      "asset_id": "curriculum-notice-20261028-brochure-jp-r13",
+      "sha256": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2",
+      "bytes": 8843969,
       "pages": 16,
       "year_status": "紙面は2028表記。掲載学費・入試の根拠は2027年度。2028年度確定版とは呼ばない",
       "ai_image_status": "人物加工画像を含む。生成/加工とパンフレット掲載について本人承諾取得済み（人間確認2026-10-24）。最終ページ右下に明記。実写真の在校生・教職員の国籍や所属を示すものではない。",
-      "review_status": "4PDF・48P/面の学科概要2行領域外150dpi画素一致。元の全文字/書体/位置と全画像stream一致。DOMはみ出しなし。変更2ページ拡大・全ページ/面一覧を親が自己点検。実機試し刷りと入稿承認は未実施。",
+      "review_status": "4PDF・48P/面で注記領域外150dpi画素、元のネイティブ全文字/書体/位置、全元画像stream一致。各PDFへ承認文言6回、指定頁だけに追加を検証。DOMはみ出しなし。親が変更6ページ下部を拡大自己点検。実機試し刷り・入稿承認未実施。",
       "print_outputs": [
         {
           "paper": "A3",
           "document": "prospectus-isen-trial-2028",
-          "asset_id": "no-hours-20261028-brochure-jp-r13-a3",
-          "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13-a3/1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d/no-hours-20261028-brochure-jp-r13-a3.pdf",
-          "sha256": "1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d",
-          "bytes": 5963752,
+          "asset_id": "curriculum-notice-20261028-brochure-jp-r13-a3",
+          "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-a3/5e3d2d2ec8a6268d74a058d22d98e3cf3217a69ade354e11d74b5ee96815d748/curriculum-notice-20261028-brochure-jp-r13-a3.pdf",
+          "sha256": "5e3d2d2ec8a6268d74a058d22d98e3cf3217a69ade354e11d74b5ee96815d748",
+          "bytes": 6153436,
           "faces": 8,
           "sheets": 4,
           "duplex": "短辺反転",
           "retrieval_mode": "saved",
-          "download_file": "downloads/brochure-remove-hours-20261028/output/brochure-jp-r13-A3-remove-hours-20261028.pdf"
+          "download_file": "downloads/brochure-curriculum-notice-20261028/output/brochure-jp-r13-A3-curriculum-notice-20261028.pdf"
         },
         {
           "paper": "A4",
           "document": "prospectus-isen-trial-2028",
-          "asset_id": "no-hours-20261028-brochure-jp-r13-a4",
-          "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13-a4/6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3/no-hours-20261028-brochure-jp-r13-a4.pdf",
-          "sha256": "6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3",
-          "bytes": 4561413,
+          "asset_id": "curriculum-notice-20261028-brochure-jp-r13-a4",
+          "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-a4/b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad/curriculum-notice-20261028-brochure-jp-r13-a4.pdf",
+          "sha256": "b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad",
+          "bytes": 4751092,
           "faces": 8,
           "sheets": 4,
           "duplex": "短辺反転",
           "retrieval_mode": "saved",
-          "download_file": "downloads/brochure-remove-hours-20261028/output/brochure-jp-r13-A4-remove-hours-20261028.pdf"
+          "download_file": "downloads/brochure-curriculum-notice-20261028/output/brochure-jp-r13-A4-curriculum-notice-20261028.pdf"
         }
       ],
       "retrieval_mode": "saved",
       "freshness_status": "保存済み局所修正版。標準renderer全冊再生成の保証ではない。",
-      "download_file": "downloads/brochure-remove-hours-20261028/output/brochure-jp-r13-remove-hours-20261028.pdf",
+      "download_file": "downloads/brochure-curriculum-notice-20261028/output/brochure-jp-r13-curriculum-notice-20261028.pdf",
       "previews": [
         {
-          "id": "no-hours-20261028-overview-01",
-          "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-overview-01/6ae6b69161af6cdd0ed7b791f0263071532e12307fc669de8cf5dd8e7e60f5c9/no-hours-20261028-overview-01.jpg",
-          "sha256": "6ae6b69161af6cdd0ed7b791f0263071532e12307fc669de8cf5dd8e7e60f5c9"
+          "id": "curriculum-notice-20261028-overview-01",
+          "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-overview-01/ed2ef693a4d03fad69fff8866356744fee18e131e58184129657c40e9299d99b/curriculum-notice-20261028-overview-01.jpg",
+          "sha256": "ed2ef693a4d03fad69fff8866356744fee18e131e58184129657c40e9299d99b"
         },
         {
-          "id": "no-hours-20261028-overview-05",
-          "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-overview-05/a252ab7dbffdfb90f041565765bf6d357dfccc69bf8ac15391fcee826a3ec56b/no-hours-20261028-overview-05.jpg",
-          "sha256": "a252ab7dbffdfb90f041565765bf6d357dfccc69bf8ac15391fcee826a3ec56b"
+          "id": "curriculum-notice-20261028-overview-05",
+          "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-overview-05/b194986c678768fec318766552fe03de6d3bddc9665d755c07b800a4cef92a1d/curriculum-notice-20261028-overview-05.jpg",
+          "sha256": "b194986c678768fec318766552fe03de6d3bddc9665d755c07b800a4cef92a1d"
         },
         {
-          "id": "jp-copy-20261028-overview-09",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-overview-09/5bf004842bbc3bd9fb2e53c3cfb44a9de5f568295c6fd54bba92fed97b2df59a/jp-copy-20261028-overview-09.jpg",
-          "sha256": "5bf004842bbc3bd9fb2e53c3cfb44a9de5f568295c6fd54bba92fed97b2df59a"
+          "id": "curriculum-notice-20261028-overview-09",
+          "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-overview-09/6dc13cf045b9ab197c07528bed59f354c9632048c9d691f6ea53290b04eb7656/curriculum-notice-20261028-overview-09.jpg",
+          "sha256": "6dc13cf045b9ab197c07528bed59f354c9632048c9d691f6ea53290b04eb7656"
         },
         {
           "id": "brochure-no-ruby-20261028-r13-overview-13",
@@ -399,34 +399,34 @@
           "sha256": "fd50e95964d6e074d54c51769eeedb1ca24bd8ef9b9a85da00f6bb618a0a9328"
         },
         {
-          "id": "jp-copy-20261028-page-03",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-03/9bef323c327dcc9f0171c5718bb7e0d952f5cc907509038ac40725210ea01e4c/jp-copy-20261028-page-03.png",
-          "sha256": "9bef323c327dcc9f0171c5718bb7e0d952f5cc907509038ac40725210ea01e4c"
+          "id": "curriculum-notice-20261028-page-03",
+          "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-03/eb7b94cdf06cde3279340d20eb6366e991cb241aea1331a6e517f678a9c2131a/curriculum-notice-20261028-page-03.png",
+          "sha256": "eb7b94cdf06cde3279340d20eb6366e991cb241aea1331a6e517f678a9c2131a"
         },
         {
-          "id": "jp-copy-20261028-page-04",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-04/327c6d6f208daa4411c0fafc1b717f95a8e5482630db06572ba6f93f6e01245a/jp-copy-20261028-page-04.png",
-          "sha256": "327c6d6f208daa4411c0fafc1b717f95a8e5482630db06572ba6f93f6e01245a"
+          "id": "curriculum-notice-20261028-page-04",
+          "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-04/0843e61b8dfbda4c04a270b86e9dfefbee4d9d1d660ceb0286ac9c24c6a55f47/curriculum-notice-20261028-page-04.png",
+          "sha256": "0843e61b8dfbda4c04a270b86e9dfefbee4d9d1d660ceb0286ac9c24c6a55f47"
         },
         {
-          "id": "jp-copy-20261028-page-05",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-05/2f8eff38a4a2a395a73f1b3c9af18081f91d9d34a303f5923f440f4d04be07db/jp-copy-20261028-page-05.png",
-          "sha256": "2f8eff38a4a2a395a73f1b3c9af18081f91d9d34a303f5923f440f4d04be07db"
+          "id": "curriculum-notice-20261028-page-05",
+          "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-05/f0e1522ec6776978de4f49e45aba52fa6bcfd1a729bd41a923f1ce09db2be503/curriculum-notice-20261028-page-05.png",
+          "sha256": "f0e1522ec6776978de4f49e45aba52fa6bcfd1a729bd41a923f1ce09db2be503"
         },
         {
-          "id": "jp-copy-20261028-page-06",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-06/241af9945cc4c4638ee03996b3ea713175231c45c9f18d358a9989d0582022c8/jp-copy-20261028-page-06.png",
-          "sha256": "241af9945cc4c4638ee03996b3ea713175231c45c9f18d358a9989d0582022c8"
+          "id": "curriculum-notice-20261028-page-06",
+          "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-06/851aac90c5b4d8206407ae0b9004fffb90f74832d785640d97b7e51d8f8db3db/curriculum-notice-20261028-page-06.png",
+          "sha256": "851aac90c5b4d8206407ae0b9004fffb90f74832d785640d97b7e51d8f8db3db"
         },
         {
-          "id": "jp-copy-20261028-page-07",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-07/1959bf40b67bd880421befb4a46264806eb6601ee01c92c70b673bc4dbc63484/jp-copy-20261028-page-07.png",
-          "sha256": "1959bf40b67bd880421befb4a46264806eb6601ee01c92c70b673bc4dbc63484"
+          "id": "curriculum-notice-20261028-page-07",
+          "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-07/5fe201703b45879580e6faa3a8c90e5d0935e3164659725920ce0241bc8690ea/curriculum-notice-20261028-page-07.png",
+          "sha256": "5fe201703b45879580e6faa3a8c90e5d0935e3164659725920ce0241bc8690ea"
         },
         {
-          "id": "jp-copy-20261028-page-09",
-          "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-09/921e7fbbb1d56759248ce09cfa0ec32ee791d78cf8e6d28a6b636654371bf195/jp-copy-20261028-page-09.png",
-          "sha256": "921e7fbbb1d56759248ce09cfa0ec32ee791d78cf8e6d28a6b636654371bf195"
+          "id": "curriculum-notice-20261028-page-09",
+          "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-page-09/6750e332a0eef1b9857a62af3db354b91f4a1c42801b51fa7d0ed38c5f16ccba/curriculum-notice-20261028-page-09.png",
+          "sha256": "6750e332a0eef1b9857a62af3db354b91f4a1c42801b51fa7d0ed38c5f16ccba"
         },
         {
           "id": "jp-copy-20261028-page-10",
@@ -437,16 +437,6 @@
           "id": "jp-copy-20261028-page-11",
           "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-11/d9501433ca1e3aa2d8de492cc48c674d3e74c6228f0ec9735b799f01ac20812a/jp-copy-20261028-page-11.png",
           "sha256": "d9501433ca1e3aa2d8de492cc48c674d3e74c6228f0ec9735b799f01ac20812a"
-        },
-        {
-          "id": "no-hours-20261028-page-04",
-          "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-page-04/35c2aa01c725a4a7b1c8865d3c3fa8049e14d70366204bb7c417047f5551a5dd/no-hours-20261028-page-04.png",
-          "sha256": "35c2aa01c725a4a7b1c8865d3c3fa8049e14d70366204bb7c417047f5551a5dd"
-        },
-        {
-          "id": "no-hours-20261028-page-06",
-          "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-page-06/f94f88d32035b1ad461b12131967917ebecd1122f2df4f06537cdbe36aac1528/no-hours-20261028-page-06.png",
-          "sha256": "f94f88d32035b1ad461b12131967917ebecd1122f2df4f06537cdbe36aac1528"
         }
       ],
       "previous_fee_edition": {
@@ -458,11 +448,11 @@
       },
       "master_output": {
         "document": "prospectus-isen-trial-2028",
-        "asset_id": "no-hours-20261028-brochure-jp-r13-master",
-        "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13-master/c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d/no-hours-20261028-brochure-jp-r13-master.pdf",
-        "sha256": "c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d",
-        "bytes": 127837868,
-        "download_file": "downloads/brochure-remove-hours-20261028/output/brochure-jp-r13-master-remove-hours-20261028.pdf",
+        "asset_id": "curriculum-notice-20261028-brochure-jp-r13-master",
+        "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-master/a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74/curriculum-notice-20261028-brochure-jp-r13-master.pdf",
+        "sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+        "bytes": 128027546,
+        "download_file": "downloads/brochure-curriculum-notice-20261028/output/brochure-jp-r13-master-curriculum-notice-20261028.pdf",
         "retrieval_mode": "saved"
       },
       "fee_revision": {
@@ -493,11 +483,11 @@
         "manifest": "downloads/brochure-no-furigana-20261028/manifest.json"
       },
       "previous_copy_edition": {
-        "asset_id": "jp-copy-20261028-brochure-jp-r13",
-        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13/3a1085aca24055e91ec493eac6ed07bd0ca94d9e87c5bab507db7fc4e1824c32/jp-copy-20261028-brochure-jp-r13.pdf",
-        "sha256": "3a1085aca24055e91ec493eac6ed07bd0ca94d9e87c5bab507db7fc4e1824c32",
-        "bytes": 8616215,
-        "download_file": "downloads/brochure-japanese-copy-20261028/output/brochure-jp-r13-japanese-copy-20261028.pdf"
+        "asset_id": "no-hours-20261028-brochure-jp-r13",
+        "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13/4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898/no-hours-20261028-brochure-jp-r13.pdf",
+        "sha256": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898",
+        "bytes": 8654291,
+        "download_file": "downloads/brochure-remove-hours-20261028/output/brochure-jp-r13-remove-hours-20261028.pdf"
       },
       "copy_revision": {
         "date": "2026-10-28",
@@ -508,6 +498,11 @@
         "date": "2026-10-28",
         "removed": "両学科の授業時間欄",
         "manifest": "downloads/brochure-remove-hours-20261028/manifest.json"
+      },
+      "curriculum_notice_revision": {
+        "date": "2026-10-28",
+        "added": "カリキュラム・目標資格の変更可能性注記",
+        "manifest": "downloads/brochure-curriculum-notice-20261028/manifest.json"
       }
     },
     {

@@ -1,0 +1,498 @@
+{
+  "outputs": [
+    {
+      "label": "brochure-jp-r13",
+      "kind": "reading",
+      "file": "downloads/brochure-curriculum-notice-20261028/output/brochure-jp-r13-curriculum-notice-20261028.pdf",
+      "sha256": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2",
+      "pages": 16,
+      "source": {
+        "id": "no-hours-20261028-brochure-jp-r13",
+        "revision": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898",
+        "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13/4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898/no-hours-20261028-brochure-jp-r13.pdf",
+        "sha256": "4a5d4484f2915ede828251d1cec2643074e134bc698236b4c1277283f3bcd898"
+      },
+      "regions": [
+        {
+          "id": "curriculum-notice-p3",
+          "pdf_page": 3,
+          "reading_page": 3,
+          "rect": [
+            26.431934725853704,
+            821.7359226622631,
+            571.8909513411984,
+            833.2690584189264
+          ],
+          "scale": 1.0,
+          "source_rect_px": [
+            110,
+            3420,
+            2380,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p4",
+          "pdf_page": 4,
+          "reading_page": 4,
+          "rect": [
+            33.64064419654108,
+            811.6444288751826,
+            287.14692724904705,
+            833.2690584189264
+          ],
+          "scale": 1.0,
+          "source_rect_px": [
+            140,
+            3378,
+            1195,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p5",
+          "pdf_page": 5,
+          "reading_page": 5,
+          "rect": [
+            26.431934725853704,
+            821.7359226622631,
+            571.8909513411984,
+            833.2690584189264
+          ],
+          "scale": 1.0,
+          "source_rect_px": [
+            110,
+            3420,
+            2380,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p6",
+          "pdf_page": 6,
+          "reading_page": 6,
+          "rect": [
+            33.64064419654108,
+            811.6444288751826,
+            287.14692724904705,
+            833.2690584189264
+          ],
+          "scale": 1.0,
+          "source_rect_px": [
+            140,
+            3378,
+            1195,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p7",
+          "pdf_page": 7,
+          "reading_page": 7,
+          "rect": [
+            26.431934725853704,
+            821.7359226622631,
+            571.8909513411984,
+            833.2690584189264
+          ],
+          "scale": 1.0,
+          "source_rect_px": [
+            110,
+            3420,
+            2380,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p9",
+          "pdf_page": 9,
+          "reading_page": 9,
+          "rect": [
+            26.431934725853704,
+            824.6192066014289,
+            571.8909513411984,
+            836.1523423580923
+          ],
+          "scale": 1.0,
+          "source_rect_px": [
+            110,
+            3432,
+            2380,
+            3480
+          ]
+        }
+      ]
+    },
+    {
+      "label": "brochure-jp-r13-master",
+      "kind": "master",
+      "file": "downloads/brochure-curriculum-notice-20261028/output/brochure-jp-r13-master-curriculum-notice-20261028.pdf",
+      "sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+      "pages": 16,
+      "source": {
+        "id": "no-hours-20261028-brochure-jp-r13-master",
+        "revision": "c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d",
+        "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13-master/c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d/no-hours-20261028-brochure-jp-r13-master.pdf",
+        "sha256": "c70b0ae38421259e54ba657b9a4de577696de327017856f5c3414df696c7a71d"
+      },
+      "regions": [
+        {
+          "id": "curriculum-notice-p3",
+          "pdf_page": 3,
+          "reading_page": 3,
+          "rect": [
+            26.431934725853704,
+            821.7359226622631,
+            571.8909513411984,
+            833.2690584189264
+          ],
+          "scale": 1.0,
+          "source_rect_px": [
+            110,
+            3420,
+            2380,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p4",
+          "pdf_page": 4,
+          "reading_page": 4,
+          "rect": [
+            33.64064419654108,
+            811.6444288751826,
+            287.14692724904705,
+            833.2690584189264
+          ],
+          "scale": 1.0,
+          "source_rect_px": [
+            140,
+            3378,
+            1195,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p5",
+          "pdf_page": 5,
+          "reading_page": 5,
+          "rect": [
+            26.431934725853704,
+            821.7359226622631,
+            571.8909513411984,
+            833.2690584189264
+          ],
+          "scale": 1.0,
+          "source_rect_px": [
+            110,
+            3420,
+            2380,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p6",
+          "pdf_page": 6,
+          "reading_page": 6,
+          "rect": [
+            33.64064419654108,
+            811.6444288751826,
+            287.14692724904705,
+            833.2690584189264
+          ],
+          "scale": 1.0,
+          "source_rect_px": [
+            140,
+            3378,
+            1195,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p7",
+          "pdf_page": 7,
+          "reading_page": 7,
+          "rect": [
+            26.431934725853704,
+            821.7359226622631,
+            571.8909513411984,
+            833.2690584189264
+          ],
+          "scale": 1.0,
+          "source_rect_px": [
+            110,
+            3420,
+            2380,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p9",
+          "pdf_page": 9,
+          "reading_page": 9,
+          "rect": [
+            26.431934725853704,
+            824.6192066014289,
+            571.8909513411984,
+            836.1523423580923
+          ],
+          "scale": 1.0,
+          "source_rect_px": [
+            110,
+            3432,
+            2380,
+            3480
+          ]
+        }
+      ]
+    },
+    {
+      "label": "brochure-jp-r13-A3",
+      "kind": "print",
+      "file": "downloads/brochure-curriculum-notice-20261028/output/brochure-jp-r13-A3-curriculum-notice-20261028.pdf",
+      "sha256": "5e3d2d2ec8a6268d74a058d22d98e3cf3217a69ade354e11d74b5ee96815d748",
+      "pages": 8,
+      "source": {
+        "id": "no-hours-20261028-brochure-jp-r13-a3",
+        "revision": "1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d",
+        "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13-a3/1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d/no-hours-20261028-brochure-jp-r13-a3.pdf",
+        "sha256": "1e4727f953b217b36dc7afcffb8f4ed3b6db9e9e8ff571226e699136644c912d"
+      },
+      "regions": [
+        {
+          "id": "curriculum-notice-p3",
+          "pdf_page": 3,
+          "reading_page": 3,
+          "rect": [
+            621.7033985077619,
+            820.7707668465383,
+            1166.5217556026853,
+            832.2903565566652
+          ],
+          "scale": 0.9988254671736903,
+          "source_rect_px": [
+            110,
+            3420,
+            2380,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p4",
+          "pdf_page": 4,
+          "reading_page": 4,
+          "rect": [
+            33.62861669847813,
+            810.6911258501773,
+            286.83714829986314,
+            832.2903565566652
+          ],
+          "scale": 0.9988254671736903,
+          "source_rect_px": [
+            140,
+            3378,
+            1195,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p5",
+          "pdf_page": 5,
+          "reading_page": 5,
+          "rect": [
+            621.7033985077619,
+            820.7707668465383,
+            1166.5217556026853,
+            832.2903565566652
+          ],
+          "scale": 0.9988254671736903,
+          "source_rect_px": [
+            110,
+            3420,
+            2380,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p6",
+          "pdf_page": 6,
+          "reading_page": 6,
+          "rect": [
+            33.62861669847813,
+            810.6911258501773,
+            286.83714829986314,
+            832.2903565566652
+          ],
+          "scale": 0.9988254671736903,
+          "source_rect_px": [
+            140,
+            3378,
+            1195,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p7",
+          "pdf_page": 7,
+          "reading_page": 7,
+          "rect": [
+            621.7033985077619,
+            820.7707668465383,
+            1166.5217556026853,
+            832.2903565566652
+          ],
+          "scale": 0.9988254671736903,
+          "source_rect_px": [
+            110,
+            3420,
+            2380,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p9",
+          "pdf_page": 8,
+          "reading_page": 9,
+          "rect": [
+            621.7033985077619,
+            823.65066427407,
+            1166.5217556026853,
+            835.1702539841968
+          ],
+          "scale": 0.9988254671736903,
+          "source_rect_px": [
+            110,
+            3432,
+            2380,
+            3480
+          ]
+        }
+      ]
+    },
+    {
+      "label": "brochure-jp-r13-A4",
+      "kind": "print",
+      "file": "downloads/brochure-curriculum-notice-20261028/output/brochure-jp-r13-A4-curriculum-notice-20261028.pdf",
+      "sha256": "b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad",
+      "pages": 8,
+      "source": {
+        "id": "no-hours-20261028-brochure-jp-r13-a4",
+        "revision": "6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3",
+        "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-brochure-jp-r13-a4/6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3/no-hours-20261028-brochure-jp-r13-a4.pdf",
+        "sha256": "6d4599e2bc128c7ddff60b03ef3f64e094f15f49008a0659a3dacb58b7ab41d3"
+      },
+      "regions": [
+        {
+          "id": "curriculum-notice-p3",
+          "pdf_page": 3,
+          "reading_page": 3,
+          "rect": [
+            439.65210116720596,
+            580.347120922267,
+            824.8799598303983,
+            588.4923436720532
+          ],
+          "scale": 0.7062452850327587,
+          "source_rect_px": [
+            110,
+            3420,
+            2380,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p4",
+          "pdf_page": 4,
+          "reading_page": 4,
+          "rect": [
+            23.798210917831152,
+            573.220051016204,
+            202.83582804984346,
+            588.4923436720532
+          ],
+          "scale": 0.7062452850327587,
+          "source_rect_px": [
+            140,
+            3378,
+            1195,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p5",
+          "pdf_page": 5,
+          "reading_page": 5,
+          "rect": [
+            439.65210116720596,
+            580.347120922267,
+            824.8799598303983,
+            588.4923436720532
+          ],
+          "scale": 0.7062452850327587,
+          "source_rect_px": [
+            110,
+            3420,
+            2380,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p6",
+          "pdf_page": 6,
+          "reading_page": 6,
+          "rect": [
+            23.798210917831152,
+            573.220051016204,
+            202.83582804984346,
+            588.4923436720532
+          ],
+          "scale": 0.7062452850327587,
+          "source_rect_px": [
+            140,
+            3378,
+            1195,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p7",
+          "pdf_page": 7,
+          "reading_page": 7,
+          "rect": [
+            439.65210116720596,
+            580.347120922267,
+            824.8799598303983,
+            588.4923436720532
+          ],
+          "scale": 0.7062452850327587,
+          "source_rect_px": [
+            110,
+            3420,
+            2380,
+            3468
+          ]
+        },
+        {
+          "id": "curriculum-notice-p9",
+          "pdf_page": 8,
+          "reading_page": 9,
+          "rect": [
+            439.65210116720596,
+            582.3834266097135,
+            824.8799598303983,
+            590.5286493594997
+          ],
+          "scale": 0.7062452850327587,
+          "source_rect_px": [
+            110,
+            3432,
+            2380,
+            3480
+          ]
+        }
+      ]
+    }
+  ],
+  "patch_count": 6,
+  "release": false
+}

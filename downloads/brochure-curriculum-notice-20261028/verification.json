@@ -1,0 +1,65 @@
+{
+  "verified": true,
+  "outputs": [
+    {
+      "label": "brochure-jp-r13",
+      "sha256": "014d87ed78a7ad0d61642aae1b3dc078fa825c83753e0128f4ea6ce5d471ada2",
+      "page_faces": 16,
+      "copy_regions": 6,
+      "native_glyphs_added": 264,
+      "outside_copy_pixels_identical_150dpi": true,
+      "original_native_glyphs_fonts_positions_preserved": true,
+      "native_coordinate_max_delta_pt": 0,
+      "all_original_image_streams_identical": true,
+      "annual_fee_table_furigana_policy_cover_QR_AI_note_imposition_preserved": true
+    },
+    {
+      "label": "brochure-jp-r13-master",
+      "sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+      "page_faces": 16,
+      "copy_regions": 6,
+      "native_glyphs_added": 264,
+      "outside_copy_pixels_identical_150dpi": true,
+      "original_native_glyphs_fonts_positions_preserved": true,
+      "native_coordinate_max_delta_pt": 0,
+      "all_original_image_streams_identical": true,
+      "annual_fee_table_furigana_policy_cover_QR_AI_note_imposition_preserved": true
+    },
+    {
+      "label": "brochure-jp-r13-A3",
+      "sha256": "5e3d2d2ec8a6268d74a058d22d98e3cf3217a69ade354e11d74b5ee96815d748",
+      "page_faces": 8,
+      "copy_regions": 6,
+      "native_glyphs_added": 264,
+      "outside_copy_pixels_identical_150dpi": true,
+      "original_native_glyphs_fonts_positions_preserved": true,
+      "native_coordinate_max_delta_pt": 0,
+      "all_original_image_streams_identical": true,
+      "annual_fee_table_furigana_policy_cover_QR_AI_note_imposition_preserved": true
+    },
+    {
+      "label": "brochure-jp-r13-A4",
+      "sha256": "b5c71f7523109f32bbdec9aff57dc627338799518b9adb368b77467d787ccaad",
+      "page_faces": 8,
+      "copy_regions": 6,
+      "native_glyphs_added": 264,
+      "outside_copy_pixels_identical_150dpi": true,
+      "original_native_glyphs_fonts_positions_preserved": true,
+      "native_coordinate_max_delta_pt": 0,
+      "all_original_image_streams_identical": true,
+      "annual_fee_table_furigana_policy_cover_QR_AI_note_imposition_preserved": true
+    }
+  ],
+  "total_page_faces": 48,
+  "dom_overflow": false,
+  "independent_review": false,
+  "physical_print_test": false,
+  "release": false,
+  "exact_approved_notice_count_each_pdf": {
+    "brochure-jp-r13": 6,
+    "brochure-jp-r13-master": 6,
+    "brochure-jp-r13-A3": 6,
+    "brochure-jp-r13-A4": 6
+  },
+  "notice_on_each_expected_page_or_face_only": true
+}

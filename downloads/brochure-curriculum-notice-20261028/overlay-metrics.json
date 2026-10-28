@@ -1,0 +1,90 @@
+{
+  "browser": "154.0.8037.57",
+  "release": false,
+  "pages": [
+    {
+      "page": 3,
+      "patches": [
+        {
+          "id": "curriculum-notice-p3",
+          "width": 727,
+          "height": 15,
+          "scrollWidth": 727,
+          "scrollHeight": 15,
+          "text": "※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "patches": [
+        {
+          "id": "curriculum-notice-p4",
+          "width": 338,
+          "height": 29,
+          "scrollWidth": 338,
+          "scrollHeight": 29,
+          "text": "※掲載しているカリキュラム・授業内容・\n目標とする資格・検定は、変更となる場合があります。",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "patches": [
+        {
+          "id": "curriculum-notice-p5",
+          "width": 727,
+          "height": 15,
+          "scrollWidth": 727,
+          "scrollHeight": 15,
+          "text": "※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "patches": [
+        {
+          "id": "curriculum-notice-p6",
+          "width": 338,
+          "height": 29,
+          "scrollWidth": 338,
+          "scrollHeight": 29,
+          "text": "※掲載しているカリキュラム・授業内容・\n目標とする資格・検定は、変更となる場合があります。",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "patches": [
+        {
+          "id": "curriculum-notice-p7",
+          "width": 727,
+          "height": 15,
+          "scrollWidth": 727,
+          "scrollHeight": 15,
+          "text": "※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "patches": [
+        {
+          "id": "curriculum-notice-p9",
+          "width": 727,
+          "height": 15,
+          "scrollWidth": 727,
+          "scrollHeight": 15,
+          "text": "※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。",
+          "overflow": false
+        }
+      ]
+    }
+  ]
+}

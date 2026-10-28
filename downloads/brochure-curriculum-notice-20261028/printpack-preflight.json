@@ -1,0 +1,4567 @@
+{
+  "file": "downloads/brochure-curriculum-notice-20261028/output/brochure-jp-r13-master-curriculum-notice-20261028.pdf",
+  "sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+  "pages": [
+    {
+      "page": 1,
+      "media_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "bleed_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "crop_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_mm": [
+        210.227,
+        297.349
+      ],
+      "raw_boxes": {
+        "MediaBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "TrimBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "BleedBox": [
+          "null",
+          "null"
+        ],
+        "CropBox": [
+          "null",
+          "null"
+        ]
+      }
+    },
+    {
+      "page": 2,
+      "media_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "bleed_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "crop_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_mm": [
+        210.227,
+        297.349
+      ],
+      "raw_boxes": {
+        "MediaBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "TrimBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "BleedBox": [
+          "null",
+          "null"
+        ],
+        "CropBox": [
+          "null",
+          "null"
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "media_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "bleed_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "crop_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_mm": [
+        210.227,
+        297.349
+      ],
+      "raw_boxes": {
+        "MediaBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "TrimBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "BleedBox": [
+          "null",
+          "null"
+        ],
+        "CropBox": [
+          "null",
+          "null"
+        ]
+      }
+    },
+    {
+      "page": 4,
+      "media_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "bleed_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "crop_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_mm": [
+        210.227,
+        297.349
+      ],
+      "raw_boxes": {
+        "MediaBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "TrimBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "BleedBox": [
+          "null",
+          "null"
+        ],
+        "CropBox": [
+          "null",
+          "null"
+        ]
+      }
+    },
+    {
+      "page": 5,
+      "media_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "bleed_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "crop_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_mm": [
+        210.227,
+        297.349
+      ],
+      "raw_boxes": {
+        "MediaBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "TrimBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "BleedBox": [
+          "null",
+          "null"
+        ],
+        "CropBox": [
+          "null",
+          "null"
+        ]
+      }
+    },
+    {
+      "page": 6,
+      "media_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "bleed_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "crop_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_mm": [
+        210.227,
+        297.349
+      ],
+      "raw_boxes": {
+        "MediaBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "TrimBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "BleedBox": [
+          "null",
+          "null"
+        ],
+        "CropBox": [
+          "null",
+          "null"
+        ]
+      }
+    },
+    {
+      "page": 7,
+      "media_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "bleed_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "crop_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_mm": [
+        210.227,
+        297.349
+      ],
+      "raw_boxes": {
+        "MediaBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "TrimBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "BleedBox": [
+          "null",
+          "null"
+        ],
+        "CropBox": [
+          "null",
+          "null"
+        ]
+      }
+    },
+    {
+      "page": 8,
+      "media_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "bleed_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "crop_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_mm": [
+        210.227,
+        297.349
+      ],
+      "raw_boxes": {
+        "MediaBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "TrimBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "BleedBox": [
+          "null",
+          "null"
+        ],
+        "CropBox": [
+          "null",
+          "null"
+        ]
+      }
+    },
+    {
+      "page": 9,
+      "media_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "bleed_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "crop_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_mm": [
+        210.227,
+        297.349
+      ],
+      "raw_boxes": {
+        "MediaBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "TrimBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "BleedBox": [
+          "null",
+          "null"
+        ],
+        "CropBox": [
+          "null",
+          "null"
+        ]
+      }
+    },
+    {
+      "page": 10,
+      "media_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "bleed_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "crop_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_mm": [
+        210.227,
+        297.349
+      ],
+      "raw_boxes": {
+        "MediaBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "TrimBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "BleedBox": [
+          "null",
+          "null"
+        ],
+        "CropBox": [
+          "null",
+          "null"
+        ]
+      }
+    },
+    {
+      "page": 11,
+      "media_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "bleed_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "crop_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_mm": [
+        210.227,
+        297.349
+      ],
+      "raw_boxes": {
+        "MediaBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "TrimBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "BleedBox": [
+          "null",
+          "null"
+        ],
+        "CropBox": [
+          "null",
+          "null"
+        ]
+      }
+    },
+    {
+      "page": 12,
+      "media_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "bleed_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "crop_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_mm": [
+        210.227,
+        297.349
+      ],
+      "raw_boxes": {
+        "MediaBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "TrimBox": [
+          "null",
+          "null"
+        ],
+        "BleedBox": [
+          "null",
+          "null"
+        ],
+        "CropBox": [
+          "null",
+          "null"
+        ]
+      }
+    },
+    {
+      "page": 13,
+      "media_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "bleed_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "crop_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_mm": [
+        210.227,
+        297.349
+      ],
+      "raw_boxes": {
+        "MediaBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "TrimBox": [
+          "null",
+          "null"
+        ],
+        "BleedBox": [
+          "null",
+          "null"
+        ],
+        "CropBox": [
+          "null",
+          "null"
+        ]
+      }
+    },
+    {
+      "page": 14,
+      "media_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "bleed_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "crop_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_mm": [
+        210.227,
+        297.349
+      ],
+      "raw_boxes": {
+        "MediaBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "TrimBox": [
+          "null",
+          "null"
+        ],
+        "BleedBox": [
+          "null",
+          "null"
+        ],
+        "CropBox": [
+          "null",
+          "null"
+        ]
+      }
+    },
+    {
+      "page": 15,
+      "media_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "bleed_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "crop_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_mm": [
+        210.227,
+        297.349
+      ],
+      "raw_boxes": {
+        "MediaBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "TrimBox": [
+          "null",
+          "null"
+        ],
+        "BleedBox": [
+          "null",
+          "null"
+        ],
+        "CropBox": [
+          "null",
+          "null"
+        ]
+      }
+    },
+    {
+      "page": 16,
+      "media_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "bleed_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "crop_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "trim_mm": [
+        210.227,
+        297.349
+      ],
+      "raw_boxes": {
+        "MediaBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "TrimBox": [
+          "array",
+          "[0 0 595.92 842.88]"
+        ],
+        "BleedBox": [
+          "null",
+          "null"
+        ],
+        "CropBox": [
+          "null",
+          "null"
+        ]
+      }
+    }
+  ],
+  "fonts": [
+    {
+      "basefont": "AAAAAA+NotoSerifJPExtraLight-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSerifJPExtraLight-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSerifJPExtraLight-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSerifJPExtraLight-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSerifJPExtraLight-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSerifJPExtraLight-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSerifJPExtraLight-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSerifJPExtraLight-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSerifJPExtraLight-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSerifJPExtraLight-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "MAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "MAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "MAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "NAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "MAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "NAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "OAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "MAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "NAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "Helvetica",
+      "type": "Type1",
+      "embedded": false
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "MAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "NAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "OAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "MAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "MAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "NAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "OAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "PAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "QAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "RAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "SAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "MAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "NAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "OAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "PAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "QAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "RAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "SAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "TAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "UAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "VAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "WAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "XAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "YAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ZAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ABAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BBAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CBAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LBAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IBAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JBAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "QBAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "RBAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "SBAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "MBAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "TBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "UBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "VBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "WBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "XBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "YBAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "PBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ZBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ACAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BCAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CCAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "MAAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "NAAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "OAAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "PAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "QAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "RAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "SAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "TAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "UAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "VAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "WAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "XAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "YAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ZAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ABAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DCAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ECAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FCAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "MAAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "NAAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "OAAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "PAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "QAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "RAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "SAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "TAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "UAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "VAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "WAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "XAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "YAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ZAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ABAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "PBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ZAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "VAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HCAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "UAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JBAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "XAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ABAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "YAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "NAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "QAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ECAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LBAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "OAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BBAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "WAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "PAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ICAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JCAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KCAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LCAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "MCAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "NCAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GBAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FBAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "OCAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HBAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "PCAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "QCAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "RCAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "VBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "WBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "TBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "XBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "SCAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "TCAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "UCAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "VCAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "WCAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "XCAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "MAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "YCAAAA+NotoSansJPThin-Medium",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ZCAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "UBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CBAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ADAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ZBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GCAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BDAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CDAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DDAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EDAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CCAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FDAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FCAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GDAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HDAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "KAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "TAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "VAAAAA+NotoSansJPThin-Black",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "XAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "PBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "WBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ZAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ZCAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "WAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GCAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "VBAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "LBAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BBAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "QAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "ECAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IDAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "MAAAAA+NotoSansJPThin-Bold",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "JDAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "Droid Sans Fallback Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "Nimbus Sans Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "AAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "BAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "CAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "DAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "EAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "FAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "GAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "HAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    },
+    {
+      "basefont": "IAAAAA+NotoSansJPThin-Regular",
+      "type": "Type0",
+      "embedded": true
+    }
+  ],
+  "image_colorspaces": [
+    "ICCBased"
+  ],
+  "pdf_metadata": {
+    "format": "PDF 1.7",
+    "title": "AIビジネス専門学校 医専日本人版 16P 確認用",
+    "author": "",
+    "subject": "既存医専版の写真差替。加工人物画像を含む。年度・学費・入試条件は制作元と同じ。",
+    "keywords": "",
+    "creator": "",
+    "producer": "",
+    "creationDate": "",
+    "modDate": "",
+    "trapped": "",
+    "encryption": null
+  },
+  "ordering": "reading order16P;printer imposes;do not use home A3/A4 imposed files",
+  "printer_template_or_official_submission_spec_reviewed": false,
+  "print_job_pasted": {
+    "size": "A4",
+    "pages": 16,
+    "colors": "両面スミ1色",
+    "paper": "コート90",
+    "method": "オンデマンド",
+    "binding": "中綴じ・左綴じ",
+    "quantity": 100
+  },
+  "actual_creation": "HTML/CSS via Chromium154 and native PyMuPDF composition,not Illustrator",
+  "unembedded_Helvetica_actual_usage": [
+    {
+      "page": 10,
+      "text": "Artificial Intelligence Business College",
+      "size": 7.5
+    },
+    {
+      "page": 11,
+      "text": "Artificial Intelligence Business College",
+      "size": 7.5
+    },
+    {
+      "page": 16,
+      "text": "Artificial Intelligence Business College",
+      "size": 10.5
+    }
+  ],
+  "raster_channel_colorspaces": [
+    [
+      3,
+      "ICCBased(RGB,Artifex Software sRGB ICC Profile)"
+    ],
+    [
+      3,
+      "ICCBased(RGB,Google/Skia/7C5FA2151397474A0486BBCC83733D59)"
+    ],
+    [
+      3,
+      "ICCBased(RGB,sRGB)"
+    ]
+  ],
+  "user_confirmed_print_color": "カラー・両面4色",
+  "observed_printed_folios": {
+    "PDF2": "5",
+    "PDF3": "6",
+    "PDF4": "3",
+    "PDF5": "4",
+    "PDF6": "5",
+    "PDF7": "6",
+    "PDF8": "7",
+    "PDF9": "8",
+    "PDF10": "17",
+    "PDF11": "19",
+    "PDF12": "16",
+    "PDF13": "21",
+    "PDF14": "22",
+    "PDF15": "23"
+  },
+  "print_submission_ready": false,
+  "issues": [
+    "current job form selected monochrome, user confirms color:change to両面4色",
+    "exact trim210.227x297.349mm instead of210x297mm",
+    "BleedBox absent and no artwork outside TrimBox",
+    "Helvetica used for English school name onPDF10/11/16 is unembedded",
+    "printed folios not sequential within16-page booklet",
+    "not authored/saved by Illustrator;submission application classification must match accepted generic PDF route"
+  ]
+}
