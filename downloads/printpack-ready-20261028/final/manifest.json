@@ -1,0 +1,18 @@
+{
+  "submission_files": [
+    {
+      "file": "冊子_正規版_クイック入稿用_A4_16P.pdf",
+      "source": "../output/brochure-printpack-CMYK-20261028_クイック入稿用_A4.pdf",
+      "sha256": "087e238d7ba637e0b3307c67398baf6f21203e00100e64ea8bf932b0f2054734",
+      "bytes": 140702114
+    },
+    {
+      "file": "チラシ_正規版_クイック入稿用_A4_2P.pdf",
+      "source": "../output/flyer-printpack-CMYK-20261028_クイック入稿用_A4_r04.pdf",
+      "sha256": "49851a63fe560070813724c77e748e5277791991ffcad0e28199436e9050f6fa",
+      "bytes": 20042006
+    }
+  ],
+  "older_versions": "All PDFs outside final/ are retained history; use only these two for this handoff.",
+  "printer_recheck_performed": false
+}
