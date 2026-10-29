@@ -1,0 +1,60 @@
+{
+  "output": "flyer-printpack-CMYK-20261028_クイック入稿用_A4_r03.pdf",
+  "sha256": "dfafeab874b709d8a43fac911e1c66b9cfd0eae529941af66a8a2b6a056a8d3d",
+  "method": "Both pages: outer 1.2mm edge extension at 300ppi with edge overlap; zero-origin exact A4; no content scaling; r02 back interior retained",
+  "checks": [
+    {
+      "page": 1,
+      "QR": [
+        {
+          "dpi": 150,
+          "decoded": [
+            "https://drive.google.com/file/d/1Flb0l-VlY3PrHbKhjS0bm99pg_OBdtXo/view?usp=drive_link",
+            "https://drive.google.com/file/d/1wfbfRXTMtNotX3-1zaVgLdGH7DXI5xDZ/view?usp=drive_link"
+          ]
+        },
+        {
+          "dpi": 300,
+          "decoded": [
+            "https://drive.google.com/file/d/1Flb0l-VlY3PrHbKhjS0bm99pg_OBdtXo/view?usp=drive_link",
+            "https://drive.google.com/file/d/1wfbfRXTMtNotX3-1zaVgLdGH7DXI5xDZ/view?usp=drive_link"
+          ]
+        }
+      ],
+      "layout_unscaled": true,
+      "interior_unchanged": true,
+      "interior_max_channel_delta": 0,
+      "interior_mean_channel_delta": 0.0,
+      "bottom_edge_white_pixels": 0
+    },
+    {
+      "page": 2,
+      "QR": [
+        {
+          "dpi": 150,
+          "decoded": [
+            "mailto:aibusiness.kaihougakuen@gmail.com"
+          ]
+        },
+        {
+          "dpi": 300,
+          "decoded": [
+            "mailto:aibusiness.kaihougakuen@gmail.com"
+          ]
+        }
+      ],
+      "layout_unscaled": true,
+      "interior_unchanged": true,
+      "interior_max_channel_delta": 0,
+      "interior_mean_channel_delta": 0.0,
+      "bottom_edge_white_pixels": 0
+    }
+  ],
+  "CMYK_ICC_preserved": true,
+  "visual_review": {
+    "status": "complete",
+    "scope": "Both full pages, all eight enlarged corners, front right edge and back bottom edge",
+    "reviewer": "primary self-review",
+    "independent_reviewer": false
+  }
+}
