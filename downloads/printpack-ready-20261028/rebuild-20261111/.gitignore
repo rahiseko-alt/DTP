@@ -1,0 +1,4 @@
+# Work-in-progress renders and partial PDFs are never submission files.
+inspection/
+*.pdf
+assets/

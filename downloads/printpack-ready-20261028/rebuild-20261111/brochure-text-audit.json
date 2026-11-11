@@ -1,0 +1,1688 @@
+{
+  "reviewer": "independent sub-agent /root/brochure_text_audit",
+  "scope": "All 16 pages, headings/body/tables/notes/folios/QR; original and image-suppressed diagnostic visually inspected",
+  "inputs": {
+    "source": {
+      "path": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-master/a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74/curriculum-notice-20261028-brochure-jp-r13-master.pdf",
+      "sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74"
+    },
+    "delivery": {
+      "path": "downloads/printpack-ready-20261028/output/brochure-printpack-CMYK-20261028_クイック入稿用_A4.pdf",
+      "sha256": "087e238d7ba637e0b3307c67398baf6f21203e00100e64ea8bf932b0f2054734"
+    }
+  },
+  "method": [
+    "Extract live text spans and image placement boxes from latest source and delivered PDF.",
+    "Open every delivered page as image.",
+    "Suppress only image XObjects in a separate diagnostic copy and visually compare all 16 pages; source/delivery originals unchanged.",
+    "Inspect extracted images on P12,P15,P16. Do not equate font count zero with vector text."
+  ],
+  "status_definitions": {
+    "raster": "visible publication glyphs are image pixels",
+    "native_font": "editable live PDF text with a font",
+    "vector_outline": "Vector glyph paths ONLY. Not live text and not editable text; fails the true-text production-master requirement.",
+    "mixed": "both raster publication text and native/outlined text occur in the category",
+    "not_present": "category not used on this page; not an uninspected pass",
+    "uninspected": "no evidence, never a pass"
+  },
+  "summary": {
+    "pages_with_raster_publication_text": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      15,
+      16
+    ],
+    "pages_without_observed_raster_publication_text": [
+      12,
+      13,
+      14
+    ],
+    "all_publication_text_vector": false,
+    "overall": "fail",
+    "notes": "P12-14 text-only structural result does not certify resolution, color, pagination or physical-print seam freedom.",
+    "delivery_live_text_pages": [],
+    "delivery_live_text_page_count": 0,
+    "delivery_all_pages_have_zero_live_text": true,
+    "delivery_paths_primary_pages": [
+      12,
+      13,
+      14
+    ],
+    "delivery_raster_and_paths_mixed_pages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      15,
+      16
+    ],
+    "delivery_raster_publication_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      15,
+      16
+    ],
+    "editable_text_master_gate": "fail: delivered PDF contains no live text on any page",
+    "required_master": "All deliberately placed publication copy must remain true text in the editable production master. Image copy and outlined glyph paths are not text."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "classification": {
+        "headings": "raster",
+        "body": "raster",
+        "tables_and_numeric_panels": "not_present",
+        "notes": "not_present",
+        "folio": "not_present",
+        "QR": "not_present"
+      },
+      "explanation": "表紙のAI BUSINESS’28、学校名、学科名、白いキャッチコピーは全面画像内。画像を非表示にすると白紙。",
+      "source_native_text_chars": 0,
+      "source_fonts": 0,
+      "delivery_live_fonts": 0,
+      "delivery_vector_drawings": 11,
+      "visible_primary_images": [
+        {
+          "xref": 75,
+          "size_px": [
+            2480,
+            3508
+          ],
+          "delivery_bbox_pt": [
+            -5.7220458984375e-05,
+            0.74468994140625,
+            594.85693359375,
+            842.009765625
+          ]
+        }
+      ],
+      "native_to_outline_examples": [],
+      "full_page_viewed": true,
+      "vector_only_diagnostic_viewed": true,
+      "source_live_text_status": "no_live_text",
+      "delivery_live_text_status": "no_live_text",
+      "delivery_live_text_chars": 0,
+      "editable_text_master_gate": "fail_no_live_text",
+      "prior_submission_gate": "fail_raster_publication_text",
+      "submission_gate": "fail_no_live_text_master"
+    },
+    {
+      "page": 2,
+      "classification": {
+        "headings": "mixed",
+        "body": "mixed",
+        "tables_and_numeric_panels": "raster",
+        "notes": "not_present",
+        "folio": "vector_outline",
+        "QR": "not_present"
+      },
+      "explanation": "ゼロから〜教育システム等の大見出し、59名カード、実践重視/AI活用教育/ITスキル等は画像。AIとビジネスを〜、ゼロから段階的に〜、伝える力の見出し/本文はベクター。",
+      "source_native_text_chars": 104,
+      "source_fonts": 29,
+      "delivery_live_fonts": 0,
+      "delivery_vector_drawings": 113,
+      "visible_primary_images": [
+        {
+          "xref": 81,
+          "size_px": [
+            2480,
+            3508
+          ],
+          "delivery_bbox_pt": [
+            -5.7220458984375e-05,
+            0.74468994140625,
+            594.85693359375,
+            842.009765625
+          ]
+        }
+      ],
+      "native_to_outline_examples": [
+        {
+          "text": "AIとビジネスを、",
+          "source_bbox_pt": [
+            29.79693031311035,
+            409.1229248046875,
+            146.4761962890625,
+            429.8116149902344
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "基礎から実践的に学び、",
+          "source_bbox_pt": [
+            29.79693031311035,
+            430.845947265625,
+            187.96664428710938,
+            451.5346374511719
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "将来の仕事につなげます。",
+          "source_bbox_pt": [
+            29.79693031311035,
+            452.5689697265625,
+            201.53216552734375,
+            473.2576599121094
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "AI活用・ビジネス基礎・ITスキルを、ゼロから段階的に学びます。",
+          "source_bbox_pt": [
+            38.2058219909668,
+            603.3212280273438,
+            416.05084228515625,
+            621.6192626953125
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "伝える力",
+          "source_bbox_pt": [
+            216.01800537109375,
+            639.2931518554688,
+            276.8820495605469,
+            661.58154296875
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "発表や対話を通して、相手に分か",
+          "source_bbox_pt": [
+            216.01800537109375,
+            665.5361328125,
+            387.4054870605469,
+            682.2470092773438
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        }
+      ],
+      "full_page_viewed": true,
+      "vector_only_diagnostic_viewed": true,
+      "source_live_text_status": "native_font_present_with_image_copy",
+      "delivery_live_text_status": "no_live_text",
+      "delivery_live_text_chars": 0,
+      "editable_text_master_gate": "fail_no_live_text",
+      "prior_submission_gate": "fail_raster_publication_text",
+      "submission_gate": "fail_no_live_text_master"
+    },
+    {
+      "page": 3,
+      "classification": {
+        "headings": "raster",
+        "body": "mixed",
+        "tables_and_numeric_panels": "mixed",
+        "notes": "vector_outline",
+        "folio": "vector_outline",
+        "QR": "not_present"
+      },
+      "explanation": "主見出し、59名、PBL等は画像。1年次は基礎〜、グループワーク写真キャプション、右下資格欄の本文とカリキュラム注記はベクター。",
+      "source_native_text_chars": 136,
+      "source_fonts": 31,
+      "delivery_live_fonts": 0,
+      "delivery_vector_drawings": 145,
+      "visible_primary_images": [
+        {
+          "xref": 84,
+          "size_px": [
+            2480,
+            3508
+          ],
+          "delivery_bbox_pt": [
+            -5.7220458984375e-05,
+            0.74468994140625,
+            594.85693359375,
+            842.009765625
+          ]
+        }
+      ],
+      "native_to_outline_examples": [
+        {
+          "text": "1年次は基礎、2年次は応用へ。",
+          "source_bbox_pt": [
+            18.983131408691406,
+            394.2851867675781,
+            198.6347198486328,
+            412.7356262207031
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "AI、ビジネス、実務、キャリアを",
+          "source_bbox_pt": [
+            18.983131408691406,
+            413.05657958984375,
+            208.70584106445312,
+            431.50701904296875
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "段階的に学びます。",
+          "source_bbox_pt": [
+            18.983131408691406,
+            431.82794189453125,
+            132.30010986328125,
+            450.27838134765625
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "仲間と学ぶグループワーク",
+          "source_bbox_pt": [
+            344.57623291015625,
+            449.35546875,
+            490.82196044921875,
+            467.4388732910156
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "ITパスポート／生成AIパスポート／",
+          "source_bbox_pt": [
+            338.56903076171875,
+            736.3989868164062,
+            516.8330078125,
+            752.8116455078125
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "グローバル人材ビジネス実務検定",
+          "source_bbox_pt": [
+            338.56903076171875,
+            754.4742431640625,
+            507.76922607421875,
+            770.8869018554688
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        }
+      ],
+      "full_page_viewed": true,
+      "vector_only_diagnostic_viewed": true,
+      "source_live_text_status": "native_font_present_with_image_copy",
+      "delivery_live_text_status": "no_live_text",
+      "delivery_live_text_chars": 0,
+      "editable_text_master_gate": "fail_no_live_text",
+      "prior_submission_gate": "fail_raster_publication_text",
+      "submission_gate": "fail_no_live_text_master"
+    },
+    {
+      "page": 4,
+      "classification": {
+        "headings": "mixed",
+        "body": "mixed",
+        "tables_and_numeric_panels": "mixed",
+        "notes": "vector_outline",
+        "folio": "vector_outline",
+        "QR": "not_present"
+      },
+      "explanation": "国際ビジネスAI科の主見出し/白い写真上コピー/推薦欄の多くは画像。中央の国際ビジネス説明、2年制/30名パネル、資格一覧、推薦項目の一部、注記はベクター。",
+      "source_native_text_chars": 157,
+      "source_fonts": 40,
+      "delivery_live_fonts": 0,
+      "delivery_vector_drawings": 169,
+      "visible_primary_images": [
+        {
+          "xref": 88,
+          "size_px": [
+            2480,
+            3508
+          ],
+          "delivery_bbox_pt": [
+            -5.7220458984375e-05,
+            0.74468994140625,
+            594.85693359375,
+            842.009765625
+          ]
+        }
+      ],
+      "native_to_outline_examples": [
+        {
+          "text": "国際ビジネス",
+          "source_bbox_pt": [
+            268.8878173828125,
+            520.3450927734375,
+            349.8086853027344,
+            540.0065307617188
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "海外マーケティング",
+          "source_bbox_pt": [
+            268.8878173828125,
+            541.4173583984375,
+            361.2864685058594,
+            556.5170288085938
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "海外取引・貿易実務",
+          "source_bbox_pt": [
+            268.8878173828125,
+            555.8059692382812,
+            362.11541748046875,
+            570.9056396484375
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "生成AIパスポート",
+          "source_bbox_pt": [
+            51.87668228149414,
+            706.5489501953125,
+            144.77630615234375,
+            723.5346069335938
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "ITパスポート",
+          "source_bbox_pt": [
+            51.87668228149414,
+            728.9780883789062,
+            121.15504455566406,
+            745.9637451171875
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "グローバル人材ビジネス実務検定",
+          "source_bbox_pt": [
+            51.87668228149414,
+            751.4071655273438,
+            228.1267547607422,
+            768.392822265625
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        }
+      ],
+      "full_page_viewed": true,
+      "vector_only_diagnostic_viewed": true,
+      "source_live_text_status": "native_font_present_with_image_copy",
+      "delivery_live_text_status": "no_live_text",
+      "delivery_live_text_chars": 0,
+      "editable_text_master_gate": "fail_no_live_text",
+      "prior_submission_gate": "fail_raster_publication_text",
+      "submission_gate": "fail_no_live_text_master"
+    },
+    {
+      "page": 5,
+      "classification": {
+        "headings": "mixed",
+        "body": "mixed",
+        "tables_and_numeric_panels": "not_present",
+        "notes": "vector_outline",
+        "folio": "vector_outline",
+        "QR": "not_present"
+      },
+      "explanation": "上部見出し・5つの学び・多くの小見出し/説明は画像。ビジネスコミュニケーション見出しと説明、相手と協力して取り組む力の見出し/本文、注記はベクター。",
+      "source_native_text_chars": 156,
+      "source_fonts": 38,
+      "delivery_live_fonts": 0,
+      "delivery_vector_drawings": 164,
+      "visible_primary_images": [
+        {
+          "xref": 92,
+          "size_px": [
+            2480,
+            3508
+          ],
+          "delivery_bbox_pt": [
+            -5.7220458984375e-05,
+            0.74468994140625,
+            594.85693359375,
+            842.009765625
+          ]
+        }
+      ],
+      "native_to_outline_examples": [
+        {
+          "text": "ビジネスコミュニケーション",
+          "source_bbox_pt": [
+            69.44204711914062,
+            343.0684814453125,
+            237.3992156982422,
+            361.8668212890625
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "相手の立場を考え、分かりやすく伝える力を、",
+          "source_bbox_pt": [
+            29.79454803466797,
+            493.25311279296875,
+            260.99578857421875,
+            509.42218017578125
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "発表や対話を通して身につけます。",
+          "source_bbox_pt": [
+            29.79454803466797,
+            509.93084716796875,
+            204.76771545410156,
+            526.0999145507812
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "相手と協力して",
+          "source_bbox_pt": [
+            262.8768615722656,
+            587.5115356445312,
+            348.187255859375,
+            605.0535278320312
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "取り組む力",
+          "source_bbox_pt": [
+            262.8768615722656,
+            603.83251953125,
+            324.0755615234375,
+            621.37451171875
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "考えや価値観の違いを受け止め、対",
+          "source_bbox_pt": [
+            228.0337677001953,
+            626.853515625,
+            396.7134094238281,
+            642.2810668945312
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        }
+      ],
+      "full_page_viewed": true,
+      "vector_only_diagnostic_viewed": true,
+      "source_live_text_status": "native_font_present_with_image_copy",
+      "delivery_live_text_status": "no_live_text",
+      "delivery_live_text_chars": 0,
+      "editable_text_master_gate": "fail_no_live_text",
+      "prior_submission_gate": "fail_raster_publication_text",
+      "submission_gate": "fail_no_live_text_master"
+    },
+    {
+      "page": 6,
+      "classification": {
+        "headings": "raster",
+        "body": "mixed",
+        "tables_and_numeric_panels": "mixed",
+        "notes": "vector_outline",
+        "folio": "vector_outline",
+        "QR": "not_present"
+      },
+      "explanation": "写真上の筆文字、総合ビジネス科大見出し、カード3項目、推薦欄の多くは画像。学科説明/2年制/29名/資格一覧/推薦項目の一部/注記はベクター。",
+      "source_native_text_chars": 233,
+      "source_fonts": 50,
+      "delivery_live_fonts": 0,
+      "delivery_vector_drawings": 242,
+      "visible_primary_images": [
+        {
+          "xref": 95,
+          "size_px": [
+            2480,
+            3508
+          ],
+          "delivery_bbox_pt": [
+            -5.7220458984375e-05,
+            0.74468994140625,
+            594.85693359375,
+            842.009765625
+          ]
+        }
+      ],
+      "native_to_outline_examples": [
+        {
+          "text": "販売・サービス・経営・事務・マーケティングなどを幅広く学び、",
+          "source_bbox_pt": [
+            38.205387115478516,
+            454.7462463378906,
+            447.50164794921875,
+            474.7792053222656
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "将来の仕事で役立つ実践力を身につける学科です。",
+          "source_bbox_pt": [
+            38.205387115478516,
+            475.2143249511719,
+            351.47021484375,
+            495.2472839355469
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "ITパスポート",
+          "source_bbox_pt": [
+            53.092708587646484,
+            693.0394287109375,
+            122.43485260009766,
+            710.0380249023438
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "Microsoft Office Specialist",
+          "source_bbox_pt": [
+            53.092708587646484,
+            712.4928588867188,
+            194.13925170898438,
+            729.491455078125
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "（Word／Excel／PowerPoint）",
+          "source_bbox_pt": [
+            53.092708587646484,
+            729.7015991210938,
+            220.64295959472656,
+            746.7001953125
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "日商簿記検定（3級）",
+          "source_bbox_pt": [
+            53.092708587646484,
+            749.155029296875,
+            165.5430450439453,
+            766.1536254882812
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        }
+      ],
+      "full_page_viewed": true,
+      "vector_only_diagnostic_viewed": true,
+      "source_live_text_status": "native_font_present_with_image_copy",
+      "delivery_live_text_status": "no_live_text",
+      "delivery_live_text_chars": 0,
+      "editable_text_master_gate": "fail_no_live_text",
+      "prior_submission_gate": "fail_raster_publication_text",
+      "submission_gate": "fail_no_live_text_master"
+    },
+    {
+      "page": 7,
+      "classification": {
+        "headings": "mixed",
+        "body": "mixed",
+        "tables_and_numeric_panels": "not_present",
+        "notes": "vector_outline",
+        "folio": "vector_outline",
+        "QR": "not_present"
+      },
+      "explanation": "主見出し・6つの学び・大半の小見出し/説明は画像。導入本文、POINT01見出し、POINT03本文、注記はベクター。",
+      "source_native_text_chars": 146,
+      "source_fonts": 43,
+      "delivery_live_fonts": 0,
+      "delivery_vector_drawings": 154,
+      "visible_primary_images": [
+        {
+          "xref": 98,
+          "size_px": [
+            2480,
+            3508
+          ],
+          "delivery_bbox_pt": [
+            -5.7220458984375e-05,
+            0.74468994140625,
+            594.85693359375,
+            842.009765625
+          ]
+        }
+      ],
+      "native_to_outline_examples": [
+        {
+          "text": "基本的なビジネススキルから専門知識まで、実践的に学びます。",
+          "source_bbox_pt": [
+            39.40771484375,
+            54.49614334106445,
+            420.6847229003906,
+            73.85162353515625
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "仕事で役立つ力を、段階的に身につけます。",
+          "source_bbox_pt": [
+            39.40771484375,
+            74.23169708251953,
+            302.3119201660156,
+            93.5871810913086
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "仕事の現場で役立つ",
+          "source_bbox_pt": [
+            74.24896240234375,
+            610.3386840820312,
+            184.40550231933594,
+            628.3179931640625
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "実践スキル",
+          "source_bbox_pt": [
+            74.24896240234375,
+            627.0665893554688,
+            135.4476776123047,
+            645.0458984375
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "資格取得の学習や就職活動を支",
+          "source_bbox_pt": [
+            419.06591796875,
+            653.7579345703125,
+            570.306640625,
+            669.4249877929688
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "え、卒業後の進路選びにつなげ",
+          "source_bbox_pt": [
+            419.06591796875,
+            669.52587890625,
+            570.306640625,
+            685.1929321289062
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        }
+      ],
+      "full_page_viewed": true,
+      "vector_only_diagnostic_viewed": true,
+      "source_live_text_status": "native_font_present_with_image_copy",
+      "delivery_live_text_status": "no_live_text",
+      "delivery_live_text_chars": 0,
+      "editable_text_master_gate": "fail_no_live_text",
+      "prior_submission_gate": "fail_raster_publication_text",
+      "submission_gate": "fail_no_live_text_master"
+    },
+    {
+      "page": 8,
+      "classification": {
+        "headings": "raster",
+        "body": "raster",
+        "tables_and_numeric_panels": "raster",
+        "notes": "not_present",
+        "folio": "vector_outline",
+        "QR": "not_present"
+      },
+      "explanation": "写真上コピー、Google認定見出し/本文、資格カード全文、ツール名/説明は全面画像。画像を除くとページ番号8だけ残る。",
+      "source_native_text_chars": 0,
+      "source_fonts": 0,
+      "delivery_live_fonts": 0,
+      "delivery_vector_drawings": 13,
+      "visible_primary_images": [
+        {
+          "xref": 101,
+          "size_px": [
+            2480,
+            3508
+          ],
+          "delivery_bbox_pt": [
+            -5.7220458984375e-05,
+            0.74468994140625,
+            594.85693359375,
+            842.009765625
+          ]
+        }
+      ],
+      "native_to_outline_examples": [],
+      "full_page_viewed": true,
+      "vector_only_diagnostic_viewed": true,
+      "source_live_text_status": "no_live_text",
+      "delivery_live_text_status": "no_live_text",
+      "delivery_live_text_chars": 0,
+      "editable_text_master_gate": "fail_no_live_text",
+      "prior_submission_gate": "fail_raster_publication_text",
+      "submission_gate": "fail_no_live_text_master"
+    },
+    {
+      "page": 9,
+      "classification": {
+        "headings": "mixed",
+        "body": "mixed",
+        "tables_and_numeric_panels": "not_present",
+        "notes": "vector_outline",
+        "folio": "vector_outline",
+        "QR": "not_present"
+      },
+      "explanation": "主見出し・導入文・Canva/実務課題の本文・活用例の説明4件・オンライン/相談欄などはベクター。ステップ名/多数の説明・他の小見出しは画像。",
+      "source_native_text_chars": 412,
+      "source_fonts": 113,
+      "delivery_live_fonts": 0,
+      "delivery_vector_drawings": 405,
+      "visible_primary_images": [
+        {
+          "xref": 105,
+          "size_px": [
+            2480,
+            3508
+          ],
+          "delivery_bbox_pt": [
+            -5.7220458984375e-05,
+            0.74468994140625,
+            594.85693359375,
+            842.009765625
+          ]
+        }
+      ],
+      "native_to_outline_examples": [
+        {
+          "text": "授業の中で、AIを使う。未来につながる6ステップ",
+          "source_bbox_pt": [
+            37.2358283996582,
+            4.859758377075195,
+            544.4212036132812,
+            37.42220687866211
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "基礎から応用まで、実際に手を動かしながら、AIを使って課題を解決する力を身につけます。",
+          "source_bbox_pt": [
+            39.408145904541016,
+            52.879844665527344,
+            470.3743591308594,
+            67.52570343017578
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "CanvaやGoogleスライドで、",
+          "source_bbox_pt": [
+            427.4787902832031,
+            236.68966674804688,
+            563.4259643554688,
+            251.73435974121094
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "ポスターや資料、SNS画像",
+          "source_bbox_pt": [
+            427.4787902832031,
+            251.78041076660156,
+            550.8182983398438,
+            266.8251037597656
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "などを制作します。",
+          "source_bbox_pt": [
+            427.4787902832031,
+            266.11663818359375,
+            519.6087036132812,
+            281.16131591796875
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "企画書・報告書づくりや",
+          "source_bbox_pt": [
+            428.6788330078125,
+            450.5328369140625,
+            542.3856201171875,
+            465.38043212890625
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        }
+      ],
+      "full_page_viewed": true,
+      "vector_only_diagnostic_viewed": true,
+      "source_live_text_status": "native_font_present_with_image_copy",
+      "delivery_live_text_status": "no_live_text",
+      "delivery_live_text_chars": 0,
+      "editable_text_master_gate": "fail_no_live_text",
+      "prior_submission_gate": "fail_raster_publication_text",
+      "submission_gate": "fail_no_live_text_master"
+    },
+    {
+      "page": 10,
+      "classification": {
+        "headings": "mixed",
+        "body": "mixed",
+        "tables_and_numeric_panels": "not_present",
+        "notes": "not_present",
+        "folio": "vector_outline",
+        "QR": "not_present"
+      },
+      "explanation": "教員・支援体制主見出し、写真上筆文字、多くのカード/保護者欄は画像。英文校名、導入本文、授業課題相談/一人ひとりに対応の見出し本文、写真内「学習相談」の後付け表示はベクター。",
+      "source_native_text_chars": 173,
+      "source_fonts": 44,
+      "delivery_live_fonts": 0,
+      "delivery_vector_drawings": 175,
+      "visible_primary_images": [
+        {
+          "xref": 108,
+          "size_px": [
+            2480,
+            3508
+          ],
+          "delivery_bbox_pt": [
+            -5.7220458984375e-05,
+            0.74468994140625,
+            594.85693359375,
+            842.009765625
+          ]
+        }
+      ],
+      "native_to_outline_examples": [
+        {
+          "text": "Artificial Intelligence Business College",
+          "source_bbox_pt": [
+            24.5,
+            11.63751220703125,
+            150.79246520996094,
+            21.94251251220703
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "専門的な学びはもちろん、学校",
+          "source_bbox_pt": [
+            22.589698791503906,
+            139.57171630859375,
+            174.27215576171875,
+            155.1899871826172
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "生活や将来の進路まで、教員と",
+          "source_bbox_pt": [
+            22.589698791503906,
+            154.54200744628906,
+            173.83868408203125,
+            170.1602783203125
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "支援スタッフが連携し、一人ひ",
+          "source_bbox_pt": [
+            22.589698791503906,
+            170.26083374023438,
+            174.27215576171875,
+            185.8791046142578
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "とりを支えます。",
+          "source_bbox_pt": [
+            22.589698791503906,
+            185.2311248779297,
+            108.18290710449219,
+            200.84939575195312
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "授業・課題の相談",
+          "source_bbox_pt": [
+            141.57180786132812,
+            426.225830078125,
+            226.15176391601562,
+            441.636962890625
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        }
+      ],
+      "full_page_viewed": true,
+      "vector_only_diagnostic_viewed": true,
+      "source_live_text_status": "native_font_present_with_image_copy",
+      "delivery_live_text_status": "no_live_text",
+      "delivery_live_text_chars": 0,
+      "editable_text_master_gate": "fail_no_live_text",
+      "prior_submission_gate": "fail_raster_publication_text",
+      "submission_gate": "fail_no_live_text_master"
+    },
+    {
+      "page": 11,
+      "classification": {
+        "headings": "mixed",
+        "body": "mixed",
+        "tables_and_numeric_panels": "not_present",
+        "notes": "not_present",
+        "folio": "vector_outline",
+        "QR": "not_present"
+      },
+      "explanation": "保護者の方へ主見出し、写真上筆文字、冒頭本文、支援/学習見出しの一部と最下部大見出し/本文は画像。質問4枠、支援本文3枠、選び方の見出しとカードの大部分はベクター。",
+      "source_native_text_chars": 417,
+      "source_fonts": 129,
+      "delivery_live_fonts": 0,
+      "delivery_vector_drawings": 407,
+      "visible_primary_images": [
+        {
+          "xref": 111,
+          "size_px": [
+            2480,
+            3508
+          ],
+          "delivery_bbox_pt": [
+            -5.7220458984375e-05,
+            0.74468994140625,
+            594.85693359375,
+            842.009765625
+          ]
+        }
+      ],
+      "native_to_outline_examples": [
+        {
+          "text": "Artificial Intelligence Business College",
+          "source_bbox_pt": [
+            18.0,
+            11.63751220703125,
+            144.29248046875,
+            21.94251251220703
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "授業についていける？",
+          "source_bbox_pt": [
+            46.42570495605469,
+            286.0307312011719,
+            141.82913208007812,
+            299.88409423828125
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "勉強が苦手でも",
+          "source_bbox_pt": [
+            60.64349365234375,
+            299.47418212890625,
+            127.62997436523438,
+            313.3275451660156
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "大丈夫かな？",
+          "source_bbox_pt": [
+            65.42169952392578,
+            312.1707458496094,
+            122.840087890625,
+            326.02410888671875
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "意欲を保って、",
+          "source_bbox_pt": [
+            199.93238830566406,
+            292.03863525390625,
+            266.08758544921875,
+            306.05657958984375
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "通い続けられる？",
+          "source_bbox_pt": [
+            194.6651153564453,
+            305.64178466796875,
+            271.3663635253906,
+            319.65972900390625
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        }
+      ],
+      "full_page_viewed": true,
+      "vector_only_diagnostic_viewed": true,
+      "source_live_text_status": "native_font_present_with_image_copy",
+      "delivery_live_text_status": "no_live_text",
+      "delivery_live_text_chars": 0,
+      "editable_text_master_gate": "fail_no_live_text",
+      "prior_submission_gate": "fail_raster_publication_text",
+      "submission_gate": "fail_no_live_text_master"
+    },
+    {
+      "page": 12,
+      "classification": {
+        "headings": "vector_outline",
+        "body": "vector_outline",
+        "tables_and_numeric_panels": "vector_outline",
+        "notes": "vector_outline",
+        "folio": "vector_outline",
+        "QR": "not_present"
+      },
+      "explanation": "学費ページの掲載見出し・表・金額・支払案内・問い合わせ・注記は画像非表示でも残る。2画像は教室写真で、掲載文字を焼き込んだ表ではない。",
+      "source_native_text_chars": 765,
+      "source_fonts": 80,
+      "delivery_live_fonts": 0,
+      "delivery_vector_drawings": 832,
+      "visible_primary_images": [
+        {
+          "xref": 112,
+          "size_px": [
+            4032,
+            3024
+          ],
+          "delivery_bbox_pt": [
+            327.6385498046875,
+            33.49127197265625,
+            563.892578125,
+            211.228271484375
+          ]
+        },
+        {
+          "xref": 113,
+          "size_px": [
+            1184,
+            485
+          ],
+          "delivery_bbox_pt": [
+            327.6385498046875,
+            53.74017333984375,
+            563.892578125,
+            150.4832763671875
+          ]
+        }
+      ],
+      "native_to_outline_examples": [
+        {
+          "text": "16",
+          "source_bbox_pt": [
+            37.00072479248047,
+            25.33577537536621,
+            47.974815368652344,
+            38.382110595703125
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "学費のご案内",
+          "source_bbox_pt": [
+            62.153358459472656,
+            25.33577537536621,
+            116.21310424804688,
+            38.382110595703125
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "AIビジネス専門学校",
+          "source_bbox_pt": [
+            484.0113830566406,
+            25.33577537536621,
+            564.8397216796875,
+            38.382110595703125
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "学ぶ費用と、納める時期を確認する",
+          "source_bbox_pt": [
+            42.6788330078125,
+            70.05070495605469,
+            170.37835693359375,
+            81.64019775390625
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "学費のご案内",
+          "source_bbox_pt": [
+            42.6788330078125,
+            87.57705688476562,
+            173.8698272705078,
+            119.46446990966797
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "初年度・2年次の納付金と納付期限。",
+          "source_bbox_pt": [
+            42.6788330078125,
+            121.27408599853516,
+            183.4888458251953,
+            133.5919952392578
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        }
+      ],
+      "full_page_viewed": true,
+      "vector_only_diagnostic_viewed": true,
+      "source_live_text_status": "native_font_present",
+      "delivery_live_text_status": "no_live_text",
+      "delivery_live_text_chars": 0,
+      "editable_text_master_gate": "fail_no_live_text",
+      "prior_submission_gate": "text_structure_only_pass_not_full_print_approval",
+      "submission_gate": "fail_no_live_text_master"
+    },
+    {
+      "page": 13,
+      "classification": {
+        "headings": "vector_outline",
+        "body": "vector_outline",
+        "tables_and_numeric_panels": "vector_outline",
+        "notes": "vector_outline",
+        "folio": "vector_outline",
+        "QR": "not_present"
+      },
+      "explanation": "画像0。支払時期、学費表、注意書き、問い合わせを含む掲載文字はベクター。",
+      "source_native_text_chars": 653,
+      "source_fonts": 80,
+      "delivery_live_fonts": 0,
+      "delivery_vector_drawings": 828,
+      "visible_primary_images": [],
+      "native_to_outline_examples": [
+        {
+          "text": "21",
+          "source_bbox_pt": [
+            37.00072479248047,
+            25.33574867248535,
+            47.974815368652344,
+            38.382083892822266
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "納付時期・確認事項",
+          "source_bbox_pt": [
+            62.153358459472656,
+            25.33574867248535,
+            143.24301147460938,
+            38.382083892822266
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "AIビジネス専門学校",
+          "source_bbox_pt": [
+            484.0113830566406,
+            25.33574867248535,
+            564.8397216796875,
+            38.382083892822266
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "入学前に、必要な金額と期日を確かめる",
+          "source_bbox_pt": [
+            34.16166687011719,
+            62.12621307373047,
+            196.07070922851562,
+            75.17254638671875
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "支払いの時期と確認事項",
+          "source_bbox_pt": [
+            34.16166687011719,
+            81.16291809082031,
+            287.54180908203125,
+            114.49629974365234
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "金額だけでなく、「何を・いつまでに納めるか」を確認しましょう。",
+          "source_bbox_pt": [
+            34.16166687011719,
+            121.44133758544922,
+            308.425048828125,
+            134.4876708984375
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        }
+      ],
+      "full_page_viewed": true,
+      "vector_only_diagnostic_viewed": true,
+      "source_live_text_status": "native_font_present",
+      "delivery_live_text_status": "no_live_text",
+      "delivery_live_text_chars": 0,
+      "editable_text_master_gate": "fail_no_live_text",
+      "prior_submission_gate": "text_structure_only_pass_not_full_print_approval",
+      "submission_gate": "fail_no_live_text_master"
+    },
+    {
+      "page": 14,
+      "classification": {
+        "headings": "vector_outline",
+        "body": "vector_outline",
+        "tables_and_numeric_panels": "vector_outline",
+        "notes": "vector_outline",
+        "folio": "vector_outline",
+        "QR": "not_present"
+      },
+      "explanation": "画像0。入試表、資格、提出書類、注意書き、問い合わせを含む掲載文字はベクター。",
+      "source_native_text_chars": 1363,
+      "source_fonts": 73,
+      "delivery_live_fonts": 0,
+      "delivery_vector_drawings": 1327,
+      "visible_primary_images": [],
+      "native_to_outline_examples": [
+        {
+          "text": "22",
+          "source_bbox_pt": [
+            37.00072479248047,
+            25.33587074279785,
+            47.974815368652344,
+            38.382205963134766
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "入試・出願方法",
+          "source_bbox_pt": [
+            62.153358459472656,
+            25.33587074279785,
+            125.22306823730469,
+            38.382205963134766
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "AIビジネス専門学校",
+          "source_bbox_pt": [
+            484.0113830566406,
+            25.33587074279785,
+            564.8397216796875,
+            38.382205963134766
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "入試・出願方法",
+          "source_bbox_pt": [
+            31.334341049194336,
+            57.13655090332031,
+            183.72853088378906,
+            90.46993255615234
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "入試区分ごとの条件を確かめ、必要な書類を準備してください。",
+          "source_bbox_pt": [
+            31.334341049194336,
+            94.9952163696289,
+            277.39990234375,
+            107.3131332397461
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "2027年度・日本人向け募集要項の参考情報",
+          "source_bbox_pt": [
+            42.84307861328125,
+            121.78467559814453,
+            236.5811004638672,
+            136.2769775390625
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        }
+      ],
+      "full_page_viewed": true,
+      "vector_only_diagnostic_viewed": true,
+      "source_live_text_status": "native_font_present",
+      "delivery_live_text_status": "no_live_text",
+      "delivery_live_text_chars": 0,
+      "editable_text_master_gate": "fail_no_live_text",
+      "prior_submission_gate": "text_structure_only_pass_not_full_print_approval",
+      "submission_gate": "fail_no_live_text_master"
+    },
+    {
+      "page": 15,
+      "classification": {
+        "headings": "mixed",
+        "body": "mixed",
+        "tables_and_numeric_panels": "not_present",
+        "notes": "mixed",
+        "folio": "vector_outline",
+        "QR": "vector_outline"
+      },
+      "explanation": "地図外の見出し・住所・電話・メール・URL等はベクター。地図の見出し・学校名・住所・駅名・交差点・道路名・手順・クレジットは3072×2048の地図画像内。公式サイトQRは画像非表示でも残るベクター。",
+      "source_native_text_chars": 277,
+      "source_fonts": 33,
+      "delivery_live_fonts": 0,
+      "delivery_vector_drawings": 277,
+      "visible_primary_images": [
+        {
+          "xref": 114,
+          "size_px": [
+            3072,
+            2048
+          ],
+          "delivery_bbox_pt": [
+            32.132545471191406,
+            232.97726440429688,
+            563.142578125,
+            586.9522705078125
+          ]
+        }
+      ],
+      "native_to_outline_examples": [
+        {
+          "text": "23",
+          "source_bbox_pt": [
+            37.00072479248047,
+            25.33562660217285,
+            47.974815368652344,
+            38.381961822509766
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "アクセス・お問い合わせ",
+          "source_bbox_pt": [
+            62.153358459472656,
+            25.33562660217285,
+            160.81243896484375,
+            38.381961822509766
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "AIビジネス専門学校",
+          "source_bbox_pt": [
+            484.0113830566406,
+            25.33562660217285,
+            564.8397216796875,
+            38.381961822509766
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "アクセス・お問い合わせ",
+          "source_bbox_pt": [
+            30.5056095123291,
+            56.38557434082031,
+            268.945068359375,
+            89.71895599365234
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "ご来校・入学相談の際は、下記の連絡先をご利用ください。",
+          "source_bbox_pt": [
+            31.334341049194336,
+            94.41155242919922,
+            274.6033935546875,
+            107.4578857421875
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "AIビジネス専門学校",
+          "source_bbox_pt": [
+            42.6788330078125,
+            127.31061553955078,
+            159.3957977294922,
+            146.1516876220703
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        }
+      ],
+      "full_page_viewed": true,
+      "vector_only_diagnostic_viewed": true,
+      "source_live_text_status": "native_font_present_with_image_copy",
+      "delivery_live_text_status": "no_live_text",
+      "delivery_live_text_chars": 0,
+      "editable_text_master_gate": "fail_no_live_text",
+      "prior_submission_gate": "fail_raster_publication_text",
+      "submission_gate": "fail_no_live_text_master"
+    },
+    {
+      "page": 16,
+      "classification": {
+        "headings": "raster",
+        "body": "mixed",
+        "tables_and_numeric_panels": "raster",
+        "notes": "vector_outline",
+        "folio": "not_present",
+        "QR": "not_present"
+      },
+      "explanation": "学校名/法人名/学科/問い合わせ見出し/電話/メール/サイトURL/標語は全面画像。英文校名、正しい住所、AI画像利用と同意の注記だけがベクター。元画像内の旧住所/旧英語校名は覆い隠されており、現に印字される文字とは区別。",
+      "source_native_text_chars": 160,
+      "source_fonts": 12,
+      "delivery_live_fonts": 0,
+      "delivery_vector_drawings": 165,
+      "visible_primary_images": [
+        {
+          "xref": 115,
+          "size_px": [
+            2480,
+            3508
+          ],
+          "delivery_bbox_pt": [
+            -5.7220458984375e-05,
+            0.74468994140625,
+            594.85693359375,
+            842.009765625
+          ]
+        }
+      ],
+      "native_to_outline_examples": [
+        {
+          "text": "〒",
+          "source_bbox_pt": [
+            92.0,
+            568.8356323242188,
+            100.19999694824219,
+            579.552978515625
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "453-0014 ",
+          "source_bbox_pt": [
+            100.19999694824219,
+            568.5650024414062,
+            137.12460327148438,
+            579.831787109375
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "愛知県名古屋市中村区則武",
+          "source_bbox_pt": [
+            137.12460327148438,
+            568.8356323242188,
+            235.5245819091797,
+            579.552978515625
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "1",
+          "source_bbox_pt": [
+            235.52459716796875,
+            568.5650024414062,
+            240.08380126953125,
+            579.831787109375
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "丁目",
+          "source_bbox_pt": [
+            240.08380126953125,
+            568.8356323242188,
+            256.4837951660156,
+            579.552978515625
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        },
+        {
+          "text": "30-17",
+          "source_bbox_pt": [
+            256.4837951660156,
+            568.5650024414062,
+            277.45123291015625,
+            579.831787109375
+          ],
+          "source_representation": "native_font",
+          "delivery_representation": "vector_outline"
+        }
+      ],
+      "full_page_viewed": true,
+      "vector_only_diagnostic_viewed": true,
+      "source_live_text_status": "native_font_present_with_image_copy",
+      "delivery_live_text_status": "no_live_text",
+      "delivery_live_text_chars": 0,
+      "editable_text_master_gate": "fail_no_live_text",
+      "prior_submission_gate": "fail_raster_publication_text",
+      "submission_gate": "fail_no_live_text_master"
+    }
+  ],
+  "evidence": [
+    "inspection/brochure-structure.json",
+    "inspection/brochure-audit-01.png through brochure-audit-16.png",
+    "inspection/DIAGNOSTIC-NOT-FOR-PRINT-vector-only.pdf",
+    "inspection/vector-only-overview-01.jpg",
+    "inspection/vector-only-overview-05.jpg",
+    "inspection/vector-only-overview-09.jpg",
+    "inspection/vector-only-overview-13.jpg"
+  ],
+  "existing_reconstruction_inputs": {
+    "source_pages12_15": "Latest a856ca source contains native text, but P15 map must be replaced by genuine SVG/HTML labels, not current flattened map image.",
+    "map_vector_candidates": [
+      "books/prospectus-isen-trial-2028/parts/access-route-svg/91d9705a30a9fd3ae7e0e15dd8d76d93da2bc4fe8359b3e845310dfcda126408/access-route-svg.svg",
+      "books/prospectus-isen-trial-2028/parts/access-map-research/map-preview.html",
+      "books/prospectus-isen-trial-2028/parts/access-map-research/map-labels.svg"
+    ],
+    "native_patch_sources": [
+      "jp-copy-20261028-copy-plan + native overlay packet + renderer",
+      "no-hours-20261028-copy-plan + overlay packet",
+      "curriculum-notice-20261028-copy-plan + overlay packet",
+      "fee-annual-approved-20261028 native HTML renderer/builder"
+    ],
+    "standard_HTML": "books/prospectus-isen-trial-2028/pages/page_001..004/page.html includes native fee/admissions/access pages; these four pages are not the native sources for all adopted first 11 pages.",
+    "image_assembly_entry": "books/prospectus-jp-isen-2028/build.py lines13-16 and27-31: per-page PNG replacement for P1-11. Native later patches coexist over those images."
+  },
+  "limitations": [
+    "No physical-print test conducted by this sub-agent.",
+    "Photo-internal natural writing (whiteboard, clothing, monitor content, classroom posters) is distinguished from deliberately placed publication copy; not all such natural writing is editable type.",
+    "This audit identifies problematic text; it is not a replacement PDF or an acceptance certificate.",
+    "Outlined paths are never counted as text. P12-14 only passed the earlier narrower no-raster-publication-text check; they do not pass the true-text master requirement."
+  ],
+  "critical_definition": "Text means live PDF text with font/character semantics. Vector outlines are paths, not text. An outlined print derivative must never be described as an editable-text master."
+}

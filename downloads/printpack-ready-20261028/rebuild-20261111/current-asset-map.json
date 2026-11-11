@@ -1,0 +1,327 @@
+[
+  {
+    "document": "oc-approved-20261017",
+    "revisions": 116,
+    "current_assets": 110,
+    "roles": {
+      "original": 1,
+      "source-page": 2,
+      "replacement-photo": 18,
+      "support": 77,
+      "copy": 1,
+      "layout": 2,
+      "extracted-image": 9
+    },
+    "editable_candidates": [
+      {
+        "id": "support-source-bind-copy-py",
+        "role": "support",
+        "media": "text",
+        "file": "books/oc-approved-20261017/source/bind-copy.py",
+        "revision": "0319503dc84bf999c4d88d937498f64957066daeab4fd2682fff9768e702f587",
+        "variant": "real-photo-rebuild"
+      },
+      {
+        "id": "editable-copy",
+        "role": "copy",
+        "media": "text",
+        "file": "books/oc-approved-20261017/text/content.json",
+        "revision": "5468d86e914d18b851543148820f703430db91269707c576ee5783465f514bcf",
+        "variant": "real-photo-rebuild"
+      },
+      {
+        "id": "layout-flyer-template",
+        "role": "layout",
+        "media": "text",
+        "file": "books/oc-approved-20261017/source/layout-flyer-template/a8f85668c53ff6f870274eb2ca0365cbbc7d8cf0847f424a80ce680c91e8c925/layout-flyer-template.html",
+        "revision": "a8f85668c53ff6f870274eb2ca0365cbbc7d8cf0847f424a80ce680c91e8c925",
+        "variant": "real-photo-rebuild"
+      },
+      {
+        "id": "layout-layout",
+        "role": "layout",
+        "media": "text",
+        "file": "books/oc-approved-20261017/source/layout-layout/e6f00f2d4e7c96b96aa7b01eee849008ad7a30b0752e66f35dcb08ce4578238b/layout-layout.css",
+        "revision": "e6f00f2d4e7c96b96aa7b01eee849008ad7a30b0752e66f35dcb08ce4578238b",
+        "variant": "real-photo-rebuild"
+      },
+      {
+        "id": "digital-cover-oc-draft-20261028-renderer",
+        "role": "support",
+        "media": "text",
+        "file": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-renderer/59c1014198a498dc3116dbc7f6149d510c01759b38e7c3b1c96869e39fbb216f/digital-cover-oc-draft-20261028-renderer.mjs",
+        "revision": "59c1014198a498dc3116dbc7f6149d510c01759b38e7c3b1c96869e39fbb216f",
+        "variant": "digital-cover-oc-draft-20261028"
+      }
+    ]
+  },
+  {
+    "document": "prospectus-isen-trial-2028",
+    "revisions": 370,
+    "current_assets": 269,
+    "roles": {
+      "replacement-photo": 1,
+      "support": 263,
+      "reconstructed-preview": 1,
+      "preview": 4
+    },
+    "editable_candidates": [
+      {
+        "id": "access-map-standalone-layout",
+        "role": "support",
+        "media": "text",
+        "file": "books/prospectus-isen-trial-2028/parts/access-map-research/map-preview.html",
+        "revision": "98ca5a5dd1aadc1a2754e15fee12acb577701da648d9fad816afb14e1fb93ea7",
+        "variant": "access-map-revised"
+      },
+      {
+        "id": "tuition-20261027-panel-renderer",
+        "role": "support",
+        "media": "text",
+        "file": "books/prospectus-isen-trial-2028/parts/tuition-20261027-panel-renderer/2a7eaf8d3572048e41f7f8f30cf7cb44a3a977bdec88f95e84532bca3d99c69b/tuition-20261027-panel-renderer.mjs",
+        "revision": "2a7eaf8d3572048e41f7f8f30cf7cb44a3a977bdec88f95e84532bca3d99c69b",
+        "variant": "tuition-facility-20261027"
+      },
+      {
+        "id": "jp-isen-ai-notice-copy",
+        "role": "support",
+        "media": "text",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-isen-ai-notice-copy/0ab0281a66cc3bb6c0987960137ca5875b666859476d16bc2ecf89d4f76a5265/jp-isen-ai-notice-copy.json",
+        "revision": "0ab0281a66cc3bb6c0987960137ca5875b666859476d16bc2ecf89d4f76a5265",
+        "variant": "japanese-people-edition"
+      },
+      {
+        "id": "fee-five-columns-20261028-renderer",
+        "role": "support",
+        "media": "text",
+        "file": "books/prospectus-isen-trial-2028/parts/fee-five-columns-20261028-renderer/7a87c8026a1d76db85eee03f138a656481c291aef21b041b1dc6c18535bec5ce/fee-five-columns-20261028-renderer.mjs",
+        "revision": "7a87c8026a1d76db85eee03f138a656481c291aef21b041b1dc6c18535bec5ce",
+        "variant": "facility-fee-five-columns-20261028"
+      },
+      {
+        "id": "fee-zero-dash-20261028-renderer",
+        "role": "support",
+        "media": "text",
+        "file": "books/prospectus-isen-trial-2028/parts/fee-zero-dash-20261028-renderer/a69bb2bfa5eb164d724c36715d32345843afa724bbdff1baf2f4965eb10607b9/fee-zero-dash-20261028-renderer.mjs",
+        "revision": "a69bb2bfa5eb164d724c36715d32345843afa724bbdff1baf2f4965eb10607b9",
+        "variant": "facility-fee-zero-dash-20261028"
+      },
+      {
+        "id": "fee-annual-approved-20261028-renderer",
+        "role": "support",
+        "media": "text",
+        "file": "books/prospectus-isen-trial-2028/parts/fee-annual-approved-20261028-renderer/307e7678c28f57d921b89495b71e0d6fdd35478fc585fbf3bde798663b6fad7c/fee-annual-approved-20261028-renderer.mjs",
+        "revision": "307e7678c28f57d921b89495b71e0d6fdd35478fc585fbf3bde798663b6fad7c",
+        "variant": "approved-annual-fee-table-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-copy-plan",
+        "role": "support",
+        "media": "text",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-copy-plan/c3169fd3b5e5ad1aa99df7d96492043d000818db0356aee7df403e94aa0f4b69/jp-copy-20261028-copy-plan.json",
+        "revision": "c3169fd3b5e5ad1aa99df7d96492043d000818db0356aee7df403e94aa0f4b69",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-renderer",
+        "role": "support",
+        "media": "text",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-renderer/985c70b8c5f8b07f2f1ecd717741e7b45cffcfe9974eb4110aa61d21a2fa4c38/jp-copy-20261028-renderer.mjs",
+        "revision": "985c70b8c5f8b07f2f1ecd717741e7b45cffcfe9974eb4110aa61d21a2fa4c38",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-overlay-packet",
+        "role": "support",
+        "media": "pdf",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-overlay-packet/b3c65532a86f7ec675a4199aaaa694586fb16bcc877bad937d1e077ea89c2c41/jp-copy-20261028-overlay-packet.pdf",
+        "revision": "b3c65532a86f7ec675a4199aaaa694586fb16bcc877bad937d1e077ea89c2c41",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-builder",
+        "role": "support",
+        "media": "text",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-builder/de5059b9c69485be85c4b36d47b4a4869edca59241758f93da0f5ac9bd105a7c/jp-copy-20261028-builder.py",
+        "revision": "de5059b9c69485be85c4b36d47b4a4869edca59241758f93da0f5ac9bd105a7c",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-brochure-jp-r13",
+        "role": "support",
+        "media": "pdf",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13/3a1085aca24055e91ec493eac6ed07bd0ca94d9e87c5bab507db7fc4e1824c32/jp-copy-20261028-brochure-jp-r13.pdf",
+        "revision": "3a1085aca24055e91ec493eac6ed07bd0ca94d9e87c5bab507db7fc4e1824c32",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-page-02",
+        "role": "support",
+        "media": "image",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-02/fd50e95964d6e074d54c51769eeedb1ca24bd8ef9b9a85da00f6bb618a0a9328/jp-copy-20261028-page-02.png",
+        "revision": "fd50e95964d6e074d54c51769eeedb1ca24bd8ef9b9a85da00f6bb618a0a9328",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-page-03",
+        "role": "support",
+        "media": "image",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-03/9bef323c327dcc9f0171c5718bb7e0d952f5cc907509038ac40725210ea01e4c/jp-copy-20261028-page-03.png",
+        "revision": "9bef323c327dcc9f0171c5718bb7e0d952f5cc907509038ac40725210ea01e4c",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-page-04",
+        "role": "support",
+        "media": "image",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-04/327c6d6f208daa4411c0fafc1b717f95a8e5482630db06572ba6f93f6e01245a/jp-copy-20261028-page-04.png",
+        "revision": "327c6d6f208daa4411c0fafc1b717f95a8e5482630db06572ba6f93f6e01245a",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-page-05",
+        "role": "support",
+        "media": "image",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-05/2f8eff38a4a2a395a73f1b3c9af18081f91d9d34a303f5923f440f4d04be07db/jp-copy-20261028-page-05.png",
+        "revision": "2f8eff38a4a2a395a73f1b3c9af18081f91d9d34a303f5923f440f4d04be07db",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-page-06",
+        "role": "support",
+        "media": "image",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-06/241af9945cc4c4638ee03996b3ea713175231c45c9f18d358a9989d0582022c8/jp-copy-20261028-page-06.png",
+        "revision": "241af9945cc4c4638ee03996b3ea713175231c45c9f18d358a9989d0582022c8",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-page-07",
+        "role": "support",
+        "media": "image",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-07/1959bf40b67bd880421befb4a46264806eb6601ee01c92c70b673bc4dbc63484/jp-copy-20261028-page-07.png",
+        "revision": "1959bf40b67bd880421befb4a46264806eb6601ee01c92c70b673bc4dbc63484",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-page-09",
+        "role": "support",
+        "media": "image",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-09/921e7fbbb1d56759248ce09cfa0ec32ee791d78cf8e6d28a6b636654371bf195/jp-copy-20261028-page-09.png",
+        "revision": "921e7fbbb1d56759248ce09cfa0ec32ee791d78cf8e6d28a6b636654371bf195",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-page-10",
+        "role": "support",
+        "media": "image",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-10/c90b4e51c1067ce497eb3c5cddfe9ccde4a78aba8fde737724f1e9c3bd4587c0/jp-copy-20261028-page-10.png",
+        "revision": "c90b4e51c1067ce497eb3c5cddfe9ccde4a78aba8fde737724f1e9c3bd4587c0",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-page-11",
+        "role": "support",
+        "media": "image",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-page-11/d9501433ca1e3aa2d8de492cc48c674d3e74c6228f0ec9735b799f01ac20812a/jp-copy-20261028-page-11.png",
+        "revision": "d9501433ca1e3aa2d8de492cc48c674d3e74c6228f0ec9735b799f01ac20812a",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-overview-01",
+        "role": "support",
+        "media": "image",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-overview-01/77f2cbd1f6f17a74b9892dad7db19cd9bff81058ba69df78845869637e56696a/jp-copy-20261028-overview-01.jpg",
+        "revision": "77f2cbd1f6f17a74b9892dad7db19cd9bff81058ba69df78845869637e56696a",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-overview-05",
+        "role": "support",
+        "media": "image",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-overview-05/265fc4eb1ff886d422b42a0fe55df4a0b1aea5eb839d3c177d30cfd87c6296fe/jp-copy-20261028-overview-05.jpg",
+        "revision": "265fc4eb1ff886d422b42a0fe55df4a0b1aea5eb839d3c177d30cfd87c6296fe",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-overview-09",
+        "role": "support",
+        "media": "image",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-overview-09/5bf004842bbc3bd9fb2e53c3cfb44a9de5f568295c6fd54bba92fed97b2df59a/jp-copy-20261028-overview-09.jpg",
+        "revision": "5bf004842bbc3bd9fb2e53c3cfb44a9de5f568295c6fd54bba92fed97b2df59a",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-brochure-jp-r13-master",
+        "role": "support",
+        "media": "pdf",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13-master/2eea9c8ebee052fd512b471e799ab593bee12a6f8d3ce20c7ce9d377edae16c2/jp-copy-20261028-brochure-jp-r13-master.pdf",
+        "revision": "2eea9c8ebee052fd512b471e799ab593bee12a6f8d3ce20c7ce9d377edae16c2",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-brochure-jp-r13-a3",
+        "role": "support",
+        "media": "pdf",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13-a3/3872d068f8f23def7fbd87c8807bf2c4fdf38e1883d184478a542891c3659a31/jp-copy-20261028-brochure-jp-r13-a3.pdf",
+        "revision": "3872d068f8f23def7fbd87c8807bf2c4fdf38e1883d184478a542891c3659a31",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-brochure-jp-r13-a4",
+        "role": "support",
+        "media": "pdf",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-brochure-jp-r13-a4/a4a3bf96b1b1a919292838651ab1af04d097c08385edb3f9820d4c9e4647854a/jp-copy-20261028-brochure-jp-r13-a4.pdf",
+        "revision": "a4a3bf96b1b1a919292838651ab1af04d097c08385edb3f9820d4c9e4647854a",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-manifest",
+        "role": "support",
+        "media": "text",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-manifest/45eb1115beae885690836c351d109ff17a4235597fa3aaf5a2fc0aca27fbfa04/jp-copy-20261028-manifest.json",
+        "revision": "45eb1115beae885690836c351d109ff17a4235597fa3aaf5a2fc0aca27fbfa04",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "jp-copy-20261028-verification",
+        "role": "support",
+        "media": "text",
+        "file": "books/prospectus-isen-trial-2028/parts/jp-copy-20261028-verification/a4858b1db9ce97d86ea62939adddca8745930cf3aba021cb361676a636fcf662/jp-copy-20261028-verification.json",
+        "revision": "a4858b1db9ce97d86ea62939adddca8745930cf3aba021cb361676a636fcf662",
+        "variant": "japanese-audience-copy-20261028"
+      },
+      {
+        "id": "no-hours-20261028-copy-plan",
+        "role": "support",
+        "media": "text",
+        "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-copy-plan/9a25dd2d46cee1f8c484c6f78246525a1a206f46ed8eb794293c30bc54b24aa4/no-hours-20261028-copy-plan.json",
+        "revision": "9a25dd2d46cee1f8c484c6f78246525a1a206f46ed8eb794293c30bc54b24aa4",
+        "variant": "class-hours-removed-20261028"
+      },
+      {
+        "id": "no-hours-20261028-renderer",
+        "role": "support",
+        "media": "text",
+        "file": "books/prospectus-isen-trial-2028/parts/no-hours-20261028-renderer/41a514ce4890a0247088cfbb8b7ac93f2de0b4b828f3f35d000a3a515463571c/no-hours-20261028-renderer.mjs",
+        "revision": "41a514ce4890a0247088cfbb8b7ac93f2de0b4b828f3f35d000a3a515463571c",
+        "variant": "class-hours-removed-20261028"
+      },
+      {
+        "id": "curriculum-notice-20261028-copy-plan",
+        "role": "support",
+        "media": "text",
+        "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-copy-plan/08f2ff61a3a37acb35ef39009bea4236859faf6968fc31d0ffb5688905fcf63b/curriculum-notice-20261028-copy-plan.json",
+        "revision": "08f2ff61a3a37acb35ef39009bea4236859faf6968fc31d0ffb5688905fcf63b",
+        "variant": "curriculum-notice-20261028"
+      },
+      {
+        "id": "curriculum-notice-20261028-renderer",
+        "role": "support",
+        "media": "text",
+        "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-renderer/41a514ce4890a0247088cfbb8b7ac93f2de0b4b828f3f35d000a3a515463571c/curriculum-notice-20261028-renderer.mjs",
+        "revision": "41a514ce4890a0247088cfbb8b7ac93f2de0b4b828f3f35d000a3a515463571c",
+        "variant": "curriculum-notice-20261028"
+      }
+    ]
+  }
+]

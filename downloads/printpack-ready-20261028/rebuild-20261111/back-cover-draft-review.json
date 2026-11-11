@@ -1,0 +1,104 @@
+{
+  "reviewer": "independent sub-agent /root/brochure_text_audit",
+  "reviewed_pdf_sha256": "fd5167dd8865dd2b1e0edba6fb7d38d0025db802a7cbdc768691c4fe54b46f21",
+  "current_pdf_sha256_at_report": "196c3377732ed956fe1bbc869aa70dec5d184f24ff77027ba0098ca805ba0843",
+  "review_current": false,
+  "source_pdf": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-master/a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74/curriculum-notice-20261028-brochure-jp-r13-master.pdf",
+  "source_sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+  "page": 16,
+  "mode": "RGB structural/layout draft, NOT FOR PRINT",
+  "checks": {
+    "publication_text_native": true,
+    "image_objects": 0,
+    "missing_copy_records": [],
+    "glyph_zero_or_replacement_count": 0,
+    "all_fonts_embedded": "pdffonts: Noto Sans CJK JP Bold/Regular emb yes, sub no, uni yes",
+    "geometry": "1 page,210x297mm",
+    "QR": "not_present_on_P16",
+    "corners": "parent changed squared rectangles to rounded; latest rounded PNG visually inspected",
+    "native_text_content": "extraction pass only; visibility FAIL",
+    "layout_exact_preservation": "fail: original native layer hides reconstructed content",
+    "CMYK_ICC": "unverified/not_present; RGB draft only",
+    "print_acceptance": "unrun"
+  },
+  "findings": [
+    {
+      "id": "P16-NATIVE-OVERLAY-OCCLUSION",
+      "severity": "blocking",
+      "region": "whole page",
+      "status": "fail",
+      "evidence": "inspection/native-page-16-draft.png at reviewed SHA; opened as image",
+      "observed": "Only original English school name, address and AI note remain visibly rendered. White paint in reused source page covers newly reconstructed Japanese school name, corporation, course panel, contact panel, phone/email/site/motto and rules. Extracted text still contains hidden objects, so normalized text inclusion and glyph0 checks falsely appear successful.",
+      "required_fix": "Reuse original native text with tight clipping per actual region or isolate text commands, excluding original full-page/background paint; then rerender and inspect all intended visible content."
+    },
+    {
+      "id": "P16-ADDRESS-VISIBLE-GLYPHS",
+      "severity": "blocking",
+      "region": "native address",
+      "status": "fail",
+      "observed": "Copied original Droid Sans Fallback address has correct extracted Unicode and no glyph0, but visible Japanese glyphs are incorrect/garbled in the new PDF.",
+      "required_fix": "Use a verified embedded font for the address with source size/position; inspect rendered Japanese glyphs, not only extraction or glyph0."
+    },
+    {
+      "id": "P16-ORIGINAL-NATIVE-GEOMETRY",
+      "severity": "info",
+      "status": "pass_structure_only",
+      "observed": "All 9 original source spans have exactly matching text, size and bbox in the new draft (English/address/AI note), but that does not cure the two visible blocking problems."
+    }
+  ],
+  "decision": "revise_not_submit",
+  "evidence": [
+    "inspection/native-page-16-draft.png",
+    "inspection/brochure-audit-16.png",
+    "inspection/p16-title-compare-0.png",
+    "inspection/p16-title-compare-1.png",
+    "inspection/p16-source-ocr.tsv",
+    "inspection/p16-draft-ocr.tsv"
+  ],
+  "notes": [
+    "主校名のOCR bboxが新字高20pt/旧31ptとなった初期推定は撤回。同一座標3倍描画では縦位置/字高はほぼ同じ。",
+    "画像0・glyph0無しは構造面の改善を示すだけで、元のサイズ/配置保持・CMYK/白線・入稿適合の合格を意味しない。",
+    "検査中にPDFが変わった場合はreview_current=falseとして、このレビューを新SHAの承認へ使わない。"
+  ],
+  "previous_review": {
+    "reviewed_pdf_sha256": "56ef52edbb29367b83beee50feb40169e9e07ab75fa53b57c5fba79b93f5e6bf",
+    "findings": [
+      {
+        "id": "P16-NOTICE-SIZE",
+        "severity": "major",
+        "region": "AI利用・本人同意注記",
+        "status": "fail",
+        "expected": "元最新制作源: NotoSansJPThin-Regular 9.3pt; first span bbox [264.2461,803.7120,559.4988,817.1784], second [78.8555,817.2120,559.5024,830.6784]",
+        "observed": "draft NotoSansCJKjp-Regular 8.2pt; first [306.23,804.66,567.0,816.54], second [142.23,814.09,567.0,825.97]",
+        "required_fix": "元nativeの同じフォント/サイズ/位置を保持して再利用するか、その実測値へ合わせる。単なる全文言一致で合格にしない。"
+      },
+      {
+        "id": "P16-ENGLISH-FONT",
+        "severity": "major",
+        "region": "英文校名",
+        "status": "fail",
+        "expected": "元latest source Helvetica10.5pt,bbox[209.233,152.7125,386.0427,167.1395]",
+        "observed": "draft NotoSansCJKjp-Regular10.8pt,bbox[202.83,152.92,392.17,168.56], width189.34pt vs original176.81pt (約7%増)",
+        "required_fix": "既存nativeを再利用し、元の書体・字幅を保持。"
+      },
+      {
+        "id": "P16-ADDRESS-Y",
+        "severity": "major",
+        "region": "住所",
+        "status": "fail",
+        "expected": "元native住所bbox y568.565〜579.832pt,8.2pt(和文Droid Sans Fallback/英数NimbusSans)",
+        "observed": "draft y573.72〜585.30pt,8.0pt,約5pt下移動、幅縮小",
+        "required_fix": "既存native住所を元位置で再利用。"
+      },
+      {
+        "id": "P16-RASTER-RETYPE-LAYOUT",
+        "severity": "minor",
+        "region": "学校名・交通文・URL・標語ほか",
+        "status": "needs_correction",
+        "expected": "元採用P16の視覚配置と字形/幅",
+        "observed": "学校名は縦位置/字高は近いが幅約3〜4%短い。交通文は目視/OCRで約7〜8pt下、URLは約4pt下かつ字幅増。OCR縦bboxは誤差があるため確定的な位置値はnative領域を優先。",
+        "required_fix": "原本と同一座標の拡大画像比較で字幅・行位置を調整。元の画像字形と新書体が完全一致したとは主張しない。"
+      }
+    ]
+  }
+}

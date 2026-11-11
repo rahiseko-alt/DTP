@@ -1,0 +1,64 @@
+{
+  "partial_only": true,
+  "not_for_submission": true,
+  "source": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-master/a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74/curriculum-notice-20261028-brochure-jp-r13-master.pdf",
+  "map_source": "books/prospectus-isen-trial-2028/parts/access-route-svg/91d9705a30a9fd3ae7e0e15dd8d76d93da2bc4fe8359b3e845310dfcda126408/access-route-svg.svg",
+  "map_source_sha256": "91d9705a30a9fd3ae7e0e15dd8d76d93da2bc4fe8359b3e845310dfcda126408",
+  "map_image_removed_xref": 689,
+  "map_rect_pt": [
+    32.16728973388672,
+    233.25424194335938,
+    563.7513427734375,
+    587.6436157226562
+  ],
+  "pages": [
+    {
+      "source_page": 12,
+      "chars": 765,
+      "fonts": 80,
+      "images": 2,
+      "size_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ]
+    },
+    {
+      "source_page": 13,
+      "chars": 653,
+      "fonts": 49,
+      "images": 0,
+      "size_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ]
+    },
+    {
+      "source_page": 14,
+      "chars": 1363,
+      "fonts": 73,
+      "images": 0,
+      "size_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ]
+    },
+    {
+      "source_page": 15,
+      "chars": 475,
+      "fonts": 35,
+      "images": 1,
+      "size_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "partial_only": true,
+  "not_for_submission": true,
+  "pages": [
+    {
+      "source_page": 12,
+      "vector_drawings": 823,
+      "live_fonts": 0,
+      "images": 2,
+      "full_page_images": 0
+    },
+    {
+      "source_page": 13,
+      "vector_drawings": 819,
+      "live_fonts": 0,
+      "images": 0,
+      "full_page_images": 0
+    },
+    {
+      "source_page": 14,
+      "vector_drawings": 1318,
+      "live_fonts": 0,
+      "images": 0,
+      "full_page_images": 0
+    },
+    {
+      "source_page": 15,
+      "vector_drawings": 268,
+      "live_fonts": 0,
+      "images": 1,
+      "full_page_images": 0
+    }
+  ]
+}

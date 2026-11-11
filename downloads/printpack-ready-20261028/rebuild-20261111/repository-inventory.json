@@ -1,0 +1,46 @@
+{
+  "tracked_files": 4484,
+  "book_page_templates": 61,
+  "asset_catalogs": [
+    {
+      "path": "books/admissions-guide-2027/parts/catalog.yaml",
+      "document": "admissions-guide-2027",
+      "revisions": 175,
+      "current": 144
+    },
+    {
+      "path": "books/avatar-oc-2028/parts/catalog.yaml",
+      "document": "avatar-oc-2028",
+      "revisions": 6,
+      "current": 6
+    },
+    {
+      "path": "books/oc-approved-20261017/parts/catalog.yaml",
+      "document": "oc-approved-20261017",
+      "revisions": 116,
+      "current": 110
+    },
+    {
+      "path": "books/prospectus-hal-2028/parts/catalog.yaml",
+      "document": "prospectus-hal-2028",
+      "revisions": 20,
+      "current": 20
+    },
+    {
+      "path": "books/prospectus-isen-trial-2028/parts/catalog.yaml",
+      "document": "prospectus-isen-trial-2028",
+      "revisions": 370,
+      "current": 269
+    }
+  ],
+  "layer_engine": [
+    "system/design-engine/src/compose.ts",
+    "system/design-engine/src/template.ts",
+    "system/scripts/lib/render.ts"
+  ],
+  "adopted_raster_routes": [
+    "books/prospectus-jp-isen-2028/build.py",
+    "books/oc-yellow-photo-soft-r03-20261022/build.py"
+  ],
+  "verified_remote_main": "6201a99de3ee82f7bf813580bddfb95e6b2d9c9f"
+}

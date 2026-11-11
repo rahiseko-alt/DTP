@@ -1,0 +1,1960 @@
+{
+  "date": "2026-11-11",
+  "scope": "Read-only source audit; existing PDFs and final files not modified",
+  "method": "PyMuPDF get_text(), get_fonts(full=True), get_texttrace(), get_drawings(), get_image_info(); SHA256 from actual file bytes",
+  "fullpage_image_definition": "visible image intersection with page >=80% of page area; area is bounding-box area, not proof of opaque coverage",
+  "sources": [
+    {
+      "label": "brochure_original_base",
+      "file": "books/prospectus-isen-trial-2028/parts/latest-prospectus-pdf/62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880/latest-prospectus-pdf.pdf",
+      "exists": true,
+      "bytes": 113453759,
+      "sha256": "62aa8e4415e5e6aa4523e1c14d024d8d45112d81dc92ce8db16db7718066f880",
+      "status": "inspected real PDF payload",
+      "page_count": 16,
+      "pages": [
+        {
+          "page": 1,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 0,
+          "font_resource_entries": 0,
+          "text_trace_spans": 0,
+          "vector_drawings": 2,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 2,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 0,
+          "font_resource_entries": 0,
+          "text_trace_spans": 0,
+          "vector_drawings": 2,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 3,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 0,
+          "font_resource_entries": 0,
+          "text_trace_spans": 0,
+          "vector_drawings": 2,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 4,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 0,
+          "font_resource_entries": 0,
+          "text_trace_spans": 0,
+          "vector_drawings": 2,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 5,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 0,
+          "font_resource_entries": 0,
+          "text_trace_spans": 0,
+          "vector_drawings": 2,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 6,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 0,
+          "font_resource_entries": 0,
+          "text_trace_spans": 0,
+          "vector_drawings": 2,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 7,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 0,
+          "font_resource_entries": 0,
+          "text_trace_spans": 0,
+          "vector_drawings": 2,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 8,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 0,
+          "font_resource_entries": 0,
+          "text_trace_spans": 0,
+          "vector_drawings": 2,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 9,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 0,
+          "font_resource_entries": 0,
+          "text_trace_spans": 0,
+          "vector_drawings": 2,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 10,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 0,
+          "font_resource_entries": 0,
+          "text_trace_spans": 0,
+          "vector_drawings": 2,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 11,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 0,
+          "font_resource_entries": 0,
+          "text_trace_spans": 0,
+          "vector_drawings": 2,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 12,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 909,
+          "font_resource_entries": 55,
+          "text_trace_spans": 479,
+          "vector_drawings": 53,
+          "images": [
+            {
+              "width_px": 4032,
+              "height_px": 3024,
+              "bbox_pt": [
+                327.9923095703125,
+                33.5347900390625,
+                564.502197265625,
+                211.48028564453125
+              ],
+              "bbox_area_pt2": 42085.86918153614,
+              "visible_area_pt2": 42085.86918153614,
+              "visible_page_coverage": 0.0837881498276533,
+              "fullpage_by_visible_coverage_80pct": false
+            }
+          ],
+          "fullpage_image_count": 0
+        },
+        {
+          "page": 13,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 869,
+          "font_resource_entries": 56,
+          "text_trace_spans": 456,
+          "vector_drawings": 49,
+          "images": [],
+          "fullpage_image_count": 0
+        },
+        {
+          "page": 14,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 1409,
+          "font_resource_entries": 73,
+          "text_trace_spans": 974,
+          "vector_drawings": 36,
+          "images": [],
+          "fullpage_image_count": 0
+        },
+        {
+          "page": 15,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 303,
+          "font_resource_entries": 33,
+          "text_trace_spans": 137,
+          "vector_drawings": 12,
+          "images": [
+            {
+              "width_px": 3072,
+              "height_px": 2048,
+              "bbox_pt": [
+                32.16728973388672,
+                233.25424194335938,
+                563.7513427734375,
+                587.6436157226562
+              ],
+              "bbox_area_pt2": 188387.73966774694,
+              "visible_area_pt2": 188387.73966774694,
+              "visible_page_coverage": 0.3750584332448373,
+              "fullpage_by_visible_coverage_80pct": false
+            }
+          ],
+          "fullpage_image_count": 0
+        },
+        {
+          "page": 16,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 31,
+          "font_resource_entries": 2,
+          "text_trace_spans": 6,
+          "vector_drawings": 3,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        }
+      ]
+    },
+    {
+      "label": "OC_original_underlay",
+      "file": "books/oc-approved-20261017/parts/latest-original-oc-pdf/2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1/latest-original-oc-pdf.pdf",
+      "exists": true,
+      "bytes": 7757553,
+      "sha256": "2c0bd3b6d91449666adf9ac73091e10f7cb37831384ebe807d2ff6117cd264d1",
+      "status": "inspected real PDF payload",
+      "page_count": 2,
+      "pages": [
+        {
+          "page": 1,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "page_area_pt2": 501156.41615685076,
+          "extracted_text_characters_including_linebreaks": 60,
+          "font_resource_entries": 7,
+          "text_trace_spans": 4,
+          "vector_drawings": 1,
+          "images": [
+            {
+              "width_px": 722,
+              "height_px": 1026,
+              "bbox_pt": [
+                3.4120728969573975,
+                2.8345947265625,
+                591.8634643554688,
+                839.0551147460938
+              ],
+              "bbox_area_pt2": 492075.1285716531,
+              "visible_area_pt2": 492075.1285716531,
+              "visible_page_coverage": 0.9818793348894183,
+              "fullpage_by_visible_coverage_80pct": true
+            },
+            {
+              "width_px": 600,
+              "height_px": 600,
+              "bbox_pt": [
+                524.409423828125,
+                773.8582763671875,
+                578.2677001953125,
+                827.716552734375
+              ],
+              "bbox_area_pt2": 2900.7139332443476,
+              "visible_area_pt2": 2900.7139332443476,
+              "visible_page_coverage": 0.005788041098004198,
+              "fullpage_by_visible_coverage_80pct": false
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 2,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "page_area_pt2": 501156.41615685076,
+          "extracted_text_characters_including_linebreaks": 205,
+          "font_resource_entries": 23,
+          "text_trace_spans": 23,
+          "vector_drawings": 0,
+          "images": [
+            {
+              "width_px": 724,
+              "height_px": 1026,
+              "bbox_pt": [
+                58.98762512207031,
+                8.2398681640625,
+                536.2857666015625,
+                684.6318969726562
+              ],
+              "bbox_area_pt2": 322840.65826188494,
+              "visible_area_pt2": 322840.65826188494,
+              "visible_page_coverage": 0.6441914098149409,
+              "fullpage_by_visible_coverage_80pct": false
+            },
+            {
+              "width_px": 3072,
+              "height_px": 2048,
+              "bbox_pt": [
+                8.503939628601074,
+                600.827392578125,
+                391.1829528808594,
+                855.94677734375
+              ],
+              "bbox_area_pt2": 97628.8344236326,
+              "visible_area_pt2": 92249.51291837578,
+              "visible_page_coverage": 0.18407329517158919,
+              "fullpage_by_visible_coverage_80pct": false
+            },
+            {
+              "width_px": 600,
+              "height_px": 600,
+              "bbox_pt": [
+                402.51971435546875,
+                748.346435546875,
+                459.2126159667969,
+                805.0393676757812
+              ],
+              "bbox_area_pt2": 3214.086823241785,
+              "visible_area_pt2": 3214.086823241785,
+              "visible_page_coverage": 0.006413340664954887,
+              "fullpage_by_visible_coverage_80pct": false
+            }
+          ],
+          "fullpage_image_count": 0
+        }
+      ]
+    },
+    {
+      "label": "old_final_brochure",
+      "file": "downloads/printpack-ready-20261028/final/冊子_正規版_クイック入稿用_A4_16P.pdf",
+      "exists": false
+    },
+    {
+      "label": "old_final_flyer",
+      "file": "downloads/printpack-ready-20261028/final/チラシ_正規版_クイック入稿用_A4_2P.pdf",
+      "exists": false
+    },
+    {
+      "label": "printpack_input_brochure",
+      "file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-master/a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74/curriculum-notice-20261028-brochure-jp-r13-master.pdf",
+      "exists": true,
+      "bytes": 128027546,
+      "sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+      "status": "inspected real PDF payload",
+      "page_count": 16,
+      "pages": [
+        {
+          "page": 1,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 0,
+          "font_resource_entries": 0,
+          "text_trace_spans": 0,
+          "vector_drawings": 2,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 2,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 104,
+          "font_resource_entries": 29,
+          "text_trace_spans": 54,
+          "vector_drawings": 5,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 3,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 136,
+          "font_resource_entries": 31,
+          "text_trace_spans": 69,
+          "vector_drawings": 5,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 4,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 157,
+          "font_resource_entries": 40,
+          "text_trace_spans": 80,
+          "vector_drawings": 15,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 5,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 156,
+          "font_resource_entries": 38,
+          "text_trace_spans": 86,
+          "vector_drawings": 6,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 6,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 233,
+          "font_resource_entries": 50,
+          "text_trace_spans": 115,
+          "vector_drawings": 17,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 7,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 146,
+          "font_resource_entries": 43,
+          "text_trace_spans": 87,
+          "vector_drawings": 5,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 8,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 0,
+          "font_resource_entries": 0,
+          "text_trace_spans": 0,
+          "vector_drawings": 2,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 9,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 412,
+          "font_resource_entries": 113,
+          "text_trace_spans": 218,
+          "vector_drawings": 14,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 10,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 173,
+          "font_resource_entries": 44,
+          "text_trace_spans": 80,
+          "vector_drawings": 7,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 11,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 417,
+          "font_resource_entries": 129,
+          "text_trace_spans": 220,
+          "vector_drawings": 19,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 12,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 765,
+          "font_resource_entries": 80,
+          "text_trace_spans": 450,
+          "vector_drawings": 122,
+          "images": [
+            {
+              "width_px": 4032,
+              "height_px": 3024,
+              "bbox_pt": [
+                327.9923095703125,
+                33.5347900390625,
+                564.502197265625,
+                211.48028564453125
+              ],
+              "bbox_area_pt2": 42085.86918153614,
+              "visible_area_pt2": 42085.86918153614,
+              "visible_page_coverage": 0.0837881498276533,
+              "fullpage_by_visible_coverage_80pct": false
+            },
+            {
+              "width_px": 1184,
+              "height_px": 485,
+              "bbox_pt": [
+                327.9923095703125,
+                53.80706787109375,
+                564.502197265625,
+                150.6634521484375
+              ],
+              "bbox_area_pt2": 22907.4925680086,
+              "visible_area_pt2": 22907.4925680086,
+              "visible_page_coverage": 0.04560619649281773,
+              "fullpage_by_visible_coverage_80pct": false
+            }
+          ],
+          "fullpage_image_count": 0
+        },
+        {
+          "page": 13,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 653,
+          "font_resource_entries": 80,
+          "text_trace_spans": 357,
+          "vector_drawings": 221,
+          "images": [],
+          "fullpage_image_count": 0
+        },
+        {
+          "page": 14,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 1363,
+          "font_resource_entries": 73,
+          "text_trace_spans": 967,
+          "vector_drawings": 36,
+          "images": [],
+          "fullpage_image_count": 0
+        },
+        {
+          "page": 15,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 277,
+          "font_resource_entries": 33,
+          "text_trace_spans": 132,
+          "vector_drawings": 12,
+          "images": [
+            {
+              "width_px": 3072,
+              "height_px": 2048,
+              "bbox_pt": [
+                32.16728973388672,
+                233.25424194335938,
+                563.7513427734375,
+                587.6436157226562
+              ],
+              "bbox_area_pt2": 188387.73966774694,
+              "visible_area_pt2": 188387.73966774694,
+              "visible_page_coverage": 0.3750584332448373,
+              "fullpage_by_visible_coverage_80pct": false
+            }
+          ],
+          "fullpage_image_count": 0
+        },
+        {
+          "page": 16,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_area_pt2": 502289.03810507804,
+          "extracted_text_characters_including_linebreaks": 160,
+          "font_resource_entries": 12,
+          "text_trace_spans": 55,
+          "vector_drawings": 4,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.75,
+                595.5,
+                843.0001220703125
+              ],
+              "bbox_area_pt2": 501559.9476928711,
+              "visible_area_pt2": 501488.41790771484,
+              "visible_page_coverage": 0.9984060567987237,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 1
+        }
+      ]
+    },
+    {
+      "label": "printpack_input_flyer",
+      "file": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-pdf/20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464/digital-cover-oc-draft-20261028-pdf.pdf",
+      "exists": true,
+      "bytes": 7783578,
+      "sha256": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464",
+      "status": "inspected real PDF payload",
+      "page_count": 2,
+      "pages": [
+        {
+          "page": 1,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "page_area_pt2": 501156.41615685076,
+          "extracted_text_characters_including_linebreaks": 102,
+          "font_resource_entries": 23,
+          "text_trace_spans": 53,
+          "vector_drawings": 10,
+          "images": [
+            {
+              "width_px": 2480,
+              "height_px": 3508,
+              "bbox_pt": [
+                0.0,
+                0.7451171875,
+                594.8568725585938,
+                842.0097045898438
+              ],
+              "bbox_area_pt2": 500432.02145645395,
+              "visible_area_pt2": 500360.67784350365,
+              "visible_page_coverage": 0.9984121956984023,
+              "fullpage_by_visible_coverage_80pct": true
+            },
+            {
+              "width_px": 1121,
+              "height_px": 274,
+              "bbox_pt": [
+                375.84661865234375,
+                697.896484375,
+                451.01971435546875,
+                716.2601928710938
+              ],
+              "bbox_area_pt2": 1380.4568162411451,
+              "visible_area_pt2": 1380.4568162411451,
+              "visible_page_coverage": 0.0027545428367998647,
+              "fullpage_by_visible_coverage_80pct": false
+            },
+            {
+              "width_px": 1121,
+              "height_px": 274,
+              "bbox_pt": [
+                503.4142150878906,
+                697.896484375,
+                578.5872802734375,
+                716.2601928710938
+              ],
+              "bbox_area_pt2": 1380.4562558252364,
+              "visible_area_pt2": 1380.4562558252364,
+              "visible_page_coverage": 0.0027545417185543615,
+              "fullpage_by_visible_coverage_80pct": false
+            }
+          ],
+          "fullpage_image_count": 1
+        },
+        {
+          "page": 2,
+          "page_box_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "page_area_pt2": 501156.41615685076,
+          "extracted_text_characters_including_linebreaks": 286,
+          "font_resource_entries": 20,
+          "text_trace_spans": 18,
+          "vector_drawings": 4058,
+          "images": [
+            {
+              "width_px": 722,
+              "height_px": 1026,
+              "bbox_pt": [
+                3.4120728969573975,
+                2.8345947265625,
+                591.8634643554688,
+                839.0551147460938
+              ],
+              "bbox_area_pt2": 492075.1285716531,
+              "visible_area_pt2": 492075.1285716531,
+              "visible_page_coverage": 0.9818793348894183,
+              "fullpage_by_visible_coverage_80pct": true
+            },
+            {
+              "width_px": 600,
+              "height_px": 600,
+              "bbox_pt": [
+                524.409423828125,
+                773.8582763671875,
+                578.2677001953125,
+                827.716552734375
+              ],
+              "bbox_area_pt2": 2900.7139332443476,
+              "visible_area_pt2": 2900.7139332443476,
+              "visible_page_coverage": 0.005788041098004198,
+              "fullpage_by_visible_coverage_80pct": false
+            },
+            {
+              "width_px": 1226,
+              "height_px": 713,
+              "bbox_pt": [
+                3.41204833984375,
+                63.961883544921875,
+                591.8634643554688,
+                406.27435302734375
+              ],
+              "bbox_area_pt2": 201434.25738673657,
+              "visible_area_pt2": 201434.25738673657,
+              "visible_page_coverage": 0.40193889750319417,
+              "fullpage_by_visible_coverage_80pct": false
+            },
+            {
+              "width_px": 1947,
+              "height_px": 808,
+              "bbox_pt": [
+                23.787811279296875,
+                657.303466796875,
+                189.23883056640625,
+                725.7659912109375
+              ],
+              "bbox_area_pt2": 11327.194447275251,
+              "visible_area_pt2": 11327.194447275251,
+              "visible_page_coverage": 0.02260211399494503,
+              "fullpage_by_visible_coverage_80pct": false
+            },
+            {
+              "width_px": 722,
+              "height_px": 1026,
+              "bbox_pt": [
+                -96.83655548095703,
+                2.8345947265625,
+                491.6148681640625,
+                839.0551147460938
+              ],
+              "bbox_area_pt2": 492075.1554866717,
+              "visible_area_pt2": 411098.44070548564,
+              "visible_page_coverage": 0.8202996658369052,
+              "fullpage_by_visible_coverage_80pct": true
+            },
+            {
+              "width_px": 1947,
+              "height_px": 808,
+              "bbox_pt": [
+                23.787811279296875,
+                657.303466796875,
+                189.23883056640625,
+                725.7659912109375
+              ],
+              "bbox_area_pt2": 11327.194447275251,
+              "visible_area_pt2": 11327.194447275251,
+              "visible_page_coverage": 0.02260211399494503,
+              "fullpage_by_visible_coverage_80pct": false
+            },
+            {
+              "width_px": 722,
+              "height_px": 1026,
+              "bbox_pt": [
+                3.4120728969573975,
+                2.8345947265625,
+                591.8634643554688,
+                839.0551147460938
+              ],
+              "bbox_area_pt2": 492075.1285716531,
+              "visible_area_pt2": 492075.1285716531,
+              "visible_page_coverage": 0.9818793348894183,
+              "fullpage_by_visible_coverage_80pct": true
+            },
+            {
+              "width_px": 722,
+              "height_px": 1026,
+              "bbox_pt": [
+                3.4120728969573975,
+                2.8345947265625,
+                591.8634643554688,
+                839.0551147460938
+              ],
+              "bbox_area_pt2": 492075.1285716531,
+              "visible_area_pt2": 492075.1285716531,
+              "visible_page_coverage": 0.9818793348894183,
+              "fullpage_by_visible_coverage_80pct": true
+            }
+          ],
+          "fullpage_image_count": 4
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "severity": "blocking",
+      "issue": "Original brochure base PDF pages1-11 have full-page raster images and no native text/fonts. Original building scripts replace image payloads for those pages and explicitly preserve printed glyph pixels. Re-conversion alone cannot restore native lettering."
+    },
+    {
+      "severity": "blocking",
+      "issue": "OC front underlay (used as current flyer back) contains full-page raster artwork. OC build.py explicitly preserves handwritten/white/large English copy as source pixels. Existing native overlays do not make remaining raster lettering compliant."
+    },
+    {
+      "severity": "major",
+      "issue": "HTML flyer template exists but represents an older different layout; blindly using it would violate approved layout/copy preservation."
+    }
+  ],
+  "source_code_evidence": [
+    "books/prospectus-jp-isen-2028/build.py:PAGES maps pages1-11 to 2480x3508 page PNGs; replace_image()",
+    "books/prospectus-jp-isen-2028/work/heroes/rebuild.py:printed text remains original pixels",
+    "books/prospectus-jp-isen-2028/work/support/compose.py:printed glyph pixel-protection masks",
+    "books/oc-yellow-photo-soft-r03-20261022/build.py:hero_composite preserves source lettering pixels",
+    "books/oc-approved-20261017/source/flyer.template.html:older separate design, not equivalent replacement"
+  ],
+  "required_independent_gates": [
+    {
+      "id": "TEXT_NOT_RASTER",
+      "requirement": "All published headings/body/numbers/contact text/captions/page numbers remain native PDF text with embedded fonts, or genuine vector glyph outlines. Scan every embedded image and visible placement for published text; distinguish incidental natural signage within photographs. Any published raster lettering fails even if the PDF also contains invisible text or path objects."
+    },
+    {
+      "id": "SOURCE_TRACEABILITY",
+      "requirement": "Record exact source payload paths and SHA256; LFS pointers are not inspected assets. Maintain text/copy and placement correspondence with approved version. The source PDF may itself be flattened; converting it or declaring fonts=0 does not repair this."
+    },
+    {
+      "id": "NO_FONT_ZERO_SHORTCUT",
+      "requirement": "Zero fonts is neither evidence of outlined letters nor a pass. Verify vector glyph coverage against every visible published text region, and exclude image traces or OCR overlays as substitutes."
+    },
+    {
+      "id": "NO_LAYOUT_OR_PHOTO_DRIFT",
+      "requirement": "Compare source and output page order, character content, glyph position and size, photographs, facial identity/expression, clothing, poses, composition, QR, brand colours, tuition and notes. No unapproved photo regeneration or layout redesign."
+    },
+    {
+      "id": "NO_SEAMS_OR_FRAMES",
+      "requirement": "Inspect all four full edges, all corners, clipping boundaries, adjacent image strips, coloured panels, footer junction and contact-panel underlay at 150/300/600dpi. Use at least two independent PDF renderers; white/light seams, offsets, underlay protrusion, halos or borders fail. An unperformed physical print check remains unperformed."
+    },
+    {
+      "id": "QR_VECTOR_AND_DECODE",
+      "requirement": "QR geometry remains vector, expected payloads exactly match, quiet zones/module sizes preserved. Decode final pages at 150 and 300dpi; successful decoding alone cannot excuse raster QR."
+    },
+    {
+      "id": "PRINT_STRUCTURE",
+      "requirement": "All MediaBox/CropBox are exact requested A4; brochure16/flyer2 pages, orientation/order unchanged. CMYK/output ICC preserved, image effective resolution checked, PDF syntax valid. No fake upsampling or page rasterisation used to meet dpi."
+    },
+    {
+      "id": "INDEPENDENT_DELIVERY_GATE",
+      "requirement": "Independent reviewer inspects final exact PDF SHA, all pages and detailed text/edges; explicit fail on any blocking/major issue. The producer cannot call self-review independent approval. Do not publish a final/delivery label before passing; replace files only after verifying replacement and preserve auditable history per user scope."
+    }
+  ],
+  "rebuild_ready": false,
+  "reason": "Preserving content, layout and photos while eliminating already baked lettering requires reconstruction; no final replacement audited yet.",
+  "independent_trials": {
+    "OC_text_removal_image": {
+      "source": "books/oc-yellow-photo-soft-r03-20261022/images/front-hero.png",
+      "source_sha256": "aa7d6836acc6cba0ceab5e15cbc41a5694e15740c38b3f4fde71011b46051a83",
+      "source_dimensions": [
+        1644,
+        957
+      ],
+      "trial": "/workspace/generated_images/exec-ca26149f-cd47-42ed-9533-ff634ecbcc79.png",
+      "trial_sha256": "89e8eca6061a75df111dd4b2f62d917dd38ccef972f7f8a74557f1306ba2c582",
+      "trial_dimensions": [
+        1645,
+        956
+      ],
+      "judgement": "fail for delivery under strict unchanged-photograph requirement",
+      "lettering_removal": "Main published raster lettering removed; no readable residual main copy seen in trial",
+      "visual_inspection": "Both complete images opened. Overall person arrangement is close, but entire image has been regenerated/resampled; source yellow brush and header logo removed as well. Face/mask textures and clothing/paper/table details are not proven preserved. Trial is not an unchanged original photograph.",
+      "metrics": [
+        {
+          "region": "standing_man_face",
+          "inspection_reference_rect_1644x958": [
+            890,
+            170,
+            1035,
+            340
+          ],
+          "mean_absolute_channel_difference": 4.356024340770791,
+          "fraction_any_channel_changed": 0.9988235294117647,
+          "fraction_max_channel_change_gt10": 0.12490872210953347
+        },
+        {
+          "region": "masked_woman_face",
+          "inspection_reference_rect_1644x958": [
+            1380,
+            170,
+            1530,
+            325
+          ],
+          "mean_absolute_channel_difference": 3.917146953405018,
+          "fraction_any_channel_changed": 0.9992258064516129,
+          "fraction_max_channel_change_gt10": 0.11311827956989247
+        },
+        {
+          "region": "smiling_woman_face",
+          "inspection_reference_rect_1644x958": [
+            1210,
+            410,
+            1390,
+            590
+          ],
+          "mean_absolute_channel_difference": 4.64216049382716,
+          "fraction_any_channel_changed": 0.996820987654321,
+          "fraction_max_channel_change_gt10": 0.17123456790123456
+        },
+        {
+          "region": "foreground_man_face",
+          "inspection_reference_rect_1644x958": [
+            600,
+            500,
+            795,
+            675
+          ],
+          "mean_absolute_channel_difference": 6.337133089133089,
+          "fraction_any_channel_changed": 0.9988864468864469,
+          "fraction_max_channel_change_gt10": 0.15085714285714286
+        },
+        {
+          "region": "woman_pink_mask",
+          "inspection_reference_rect_1644x958": [
+            305,
+            445,
+            450,
+            570
+          ],
+          "mean_absolute_channel_difference": 3.7895172413793103,
+          "fraction_any_channel_changed": 0.9990068965517241,
+          "fraction_max_channel_change_gt10": 0.09980689655172414
+        }
+      ],
+      "metric_limit": "Comparison is on normalized 1644x958 grids because dimensions differ; these differences alone do not distinguish regeneration from resampling/alignment. They demonstrate that exact protection of copy-free photo pixels was not verified; visual judgement and strict requirement determine failure.",
+      "allowed_use": "Draft hole-fill reference only; no direct delivery adoption without protected compositing and re-audit."
+    },
+    "native_brochure_pages12_15_partial": {
+      "file": "downloads/printpack-ready-20261028/rebuild-20261111/native-pages-12-15-CMYK-outlined.pdf",
+      "sha256": "1e82a68536c9c375b3ba98fd5f274dbc0bf3a1b6e7968afa301fccaed5164817",
+      "pages": [
+        {
+          "partial_page": 1,
+          "brochure_page": 12,
+          "page_size_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_size_mm": [
+            210.22732730441624,
+            297.34933505588106
+          ],
+          "fonts": 0,
+          "text_characters": 0,
+          "vector_drawings": 823,
+          "images": [
+            {
+              "pixels": [
+                4032,
+                3024
+              ],
+              "colourspace": "DeviceCMYK",
+              "visible_page_coverage": 0.08378795597433397
+            },
+            {
+              "pixels": [
+                1184,
+                485
+              ],
+              "colourspace": "DeviceCMYK",
+              "visible_page_coverage": 0.0456062308088635
+            }
+          ]
+        },
+        {
+          "partial_page": 2,
+          "brochure_page": 13,
+          "page_size_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_size_mm": [
+            210.22732730441624,
+            297.34933505588106
+          ],
+          "fonts": 0,
+          "text_characters": 0,
+          "vector_drawings": 819,
+          "images": []
+        },
+        {
+          "partial_page": 3,
+          "brochure_page": 14,
+          "page_size_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_size_mm": [
+            210.22732730441624,
+            297.34933505588106
+          ],
+          "fonts": 0,
+          "text_characters": 0,
+          "vector_drawings": 1318,
+          "images": []
+        },
+        {
+          "partial_page": 4,
+          "brochure_page": 15,
+          "page_size_pt": [
+            0.0,
+            0.0,
+            595.9199829101562,
+            842.8800048828125
+          ],
+          "page_size_mm": [
+            210.22732730441624,
+            297.34933505588106
+          ],
+          "fonts": 0,
+          "text_characters": 0,
+          "vector_drawings": 268,
+          "images": [
+            {
+              "pixels": [
+                3072,
+                2048
+              ],
+              "colourspace": "DeviceCMYK",
+              "visible_page_coverage": 0.37505799453778516
+            }
+          ]
+        }
+      ],
+      "syntax_warnings": [],
+      "output_intent_present": false,
+      "judgement": "fail for final delivery; partial prototype only",
+      "findings": [
+        {
+          "severity": "blocking",
+          "page": 15,
+          "issue": "3072x2048 map image contains published labels and instructions, visually inspected after image extraction: 名古屋駅から学校へ / AIビジネス専門学校 / JR名古屋駅 / address / north / route instructions. This is not incidental photographic text; must remain vectors."
+        },
+        {
+          "severity": "major",
+          "pages": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "issue": "595.92x842.88pt is approximately210.227x297.349mm, not exact A4; no OutputIntents ICC was present."
+        }
+      ],
+      "photo_image_inspection": "Partial page1 image1184x485 and4032x3024 were opened (latter as1000px thumbnail); both are classroom photos, not overlaid published text panels. Partial page4 map image was opened and contains raster published text.",
+      "possible_vector_map_sources": [
+        "books/prospectus-isen-trial-2028/parts/access-route-svg/91d9705a30a9fd3ae7e0e15dd8d76d93da2bc4fe8359b3e845310dfcda126408/access-route-svg.svg",
+        "books/prospectus-isen-trial-2028/parts/access-map-research/map-labels.svg"
+      ],
+      "next_gate": "Validate SVG embedded background has no baked labels before using its vector text layers. Validate all source text regions by path coverage, not aggregate path counts."
+    },
+    "native_brochure_pages12_15_map_restored_partial": {
+      "file": "downloads/printpack-ready-20261028/rebuild-20261111/native-pages-12-15-map-restored.pdf",
+      "sha256": "de367e2eb817e1576487c46db3f508e2d49b25c66a964e19993d7c57c7ba3355",
+      "pages": [
+        {
+          "brochure_page": 12,
+          "partial_page": 1,
+          "page_size_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "page_size_mm": [
+            209.9999940660265,
+            297.0000023735894
+          ],
+          "text_characters": 765,
+          "font_resource_entries": 80,
+          "vector_drawings": 122,
+          "images": [
+            {
+              "pixels": [
+                4032,
+                3024
+              ],
+              "colourspace": "ICCBased(RGB,sRGB)",
+              "bbox_pt": [
+                327.9923095703125,
+                33.5347900390625,
+                564.502197265625,
+                211.48028564453125
+              ],
+              "visible_page_coverage": 0.08397751245863368
+            },
+            {
+              "pixels": [
+                1184,
+                485
+              ],
+              "colourspace": "ICCBased(RGB,Artifex Software sRGB ICC Profile)",
+              "bbox_pt": [
+                327.9923095703125,
+                53.80706787109375,
+                564.502197265625,
+                150.6634521484375
+              ],
+              "visible_page_coverage": 0.04570926726564959
+            }
+          ]
+        },
+        {
+          "brochure_page": 13,
+          "partial_page": 2,
+          "page_size_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "page_size_mm": [
+            209.9999940660265,
+            297.0000023735894
+          ],
+          "text_characters": 653,
+          "font_resource_entries": 49,
+          "vector_drawings": 221,
+          "images": []
+        },
+        {
+          "brochure_page": 14,
+          "partial_page": 3,
+          "page_size_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "page_size_mm": [
+            209.9999940660265,
+            297.0000023735894
+          ],
+          "text_characters": 1363,
+          "font_resource_entries": 73,
+          "vector_drawings": 36,
+          "images": []
+        },
+        {
+          "brochure_page": 15,
+          "partial_page": 4,
+          "page_size_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "page_size_mm": [
+            209.9999940660265,
+            297.0000023735894
+          ],
+          "text_characters": 488,
+          "font_resource_entries": 38,
+          "vector_drawings": 53,
+          "images": [
+            {
+              "pixels": [
+                1536,
+                1024
+              ],
+              "colourspace": "ICCBased(RGB,Artifex Software sRGB ICC Profile)",
+              "bbox_pt": [
+                32.16733169555664,
+                233.2576904296875,
+                563.7462158203125,
+                587.6436157226562
+              ],
+              "visible_page_coverage": 0.37589875863785294
+            }
+          ]
+        }
+      ],
+      "syntax_warnings": [],
+      "output_intent_present": false,
+      "map_background_image_independently_seen": "inspection/map-base.png opened: road illustration with no published lettering seen",
+      "map_native_labels_restored": true,
+      "map_native_label_examples": [
+        "名古屋駅から学校へ",
+        "AIビジネス専門学校",
+        "JR名古屋駅",
+        "太閤通口",
+        "亀島交番",
+        "学校は通りの南側です。"
+      ],
+      "missing_glyphs": [
+        {
+          "brochure_page": 15,
+          "font": "NimbusSans-Regular",
+          "bbox_pt": [
+            69.89002227783203,
+            574.6145629882812,
+            71.81422424316406,
+            581.5361328125
+          ],
+          "characters": [
+            {
+              "unicode": 65533,
+              "glyph_id": 0
+            }
+          ],
+          "trace_text": "�"
+        },
+        {
+          "brochure_page": 15,
+          "font": "NimbusSans-Regular",
+          "bbox_pt": [
+            85.65742492675781,
+            574.6145629882812,
+            87.58162689208984,
+            581.5361328125
+          ],
+          "characters": [
+            {
+              "unicode": 65533,
+              "glyph_id": 0
+            }
+          ],
+          "trace_text": "�"
+        }
+      ],
+      "judgement": "partial improvement; FAIL for final delivery",
+      "findings": [
+        {
+          "severity": "blocking",
+          "page": 15,
+          "issue": "Map footer text contains two .notdef glyphs: long vowel mark in ルート and separator middle dot. get_texttrace reports NimbusSans-Regular U+FFFD/glyphID0 twice; text extraction contains NUL placeholders. Fix font fallback and verify every intended character before acceptance."
+        },
+        {
+          "severity": "major",
+          "pages": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "issue": "Source page numbers including23 remain; not the required reading-order numbering. CMYK conversion and output ICC are not completed; RGB image colourspaces and no OutputIntents observed."
+        }
+      ],
+      "unrun": [
+        "All-page image comparison with required final numbering",
+        "150/300/600dpi edge seam checks in two renderers",
+        "Final CMYK/output-intent verification",
+        "Physical print or printer-upload check"
+      ]
+    },
+    "native_map_explicit_CJK_8e84b5c3": {
+      "file": "downloads/printpack-ready-20261028/rebuild-20261111/native-pages-12-15-map-restored.pdf",
+      "sha256": "8e84b5c3a2a2b1c15e680c6e2043859a1bd45d14dc004a6dd6d3d076a9631a42",
+      "pages": [
+        {
+          "brochure_page": 12,
+          "page_size_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "text_characters": 765,
+          "fonts": 80,
+          "vector_drawings": 122,
+          "images": [
+            {
+              "pixels": [
+                4032,
+                3024
+              ],
+              "colourspace": "ICCBased(RGB,sRGB)"
+            },
+            {
+              "pixels": [
+                1184,
+                485
+              ],
+              "colourspace": "ICCBased(RGB,Artifex Software sRGB ICC Profile)"
+            }
+          ]
+        },
+        {
+          "brochure_page": 13,
+          "page_size_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "text_characters": 653,
+          "fonts": 49,
+          "vector_drawings": 221,
+          "images": []
+        },
+        {
+          "brochure_page": 14,
+          "page_size_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "text_characters": 1363,
+          "fonts": 73,
+          "vector_drawings": 36,
+          "images": []
+        },
+        {
+          "brochure_page": 15,
+          "page_size_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "text_characters": 475,
+          "fonts": 35,
+          "vector_drawings": 53,
+          "images": [
+            {
+              "pixels": [
+                1536,
+                1024
+              ],
+              "colourspace": "ICCBased(RGB,Artifex Software sRGB ICC Profile)"
+            }
+          ]
+        }
+      ],
+      "missing_glyphs": [],
+      "NFKC_expected_credit_present": true,
+      "SVG_expected_label_count": 19,
+      "SVG_labels_missing_after_NFKC_whitespace_normalization": [],
+      "text_restoration_gate": "pass for this checked prototype: explicit CJK font restores previously missing long vowel mark and middle dot",
+      "overall_delivery_gate": "fail",
+      "findings": [
+        {
+          "severity": "blocking",
+          "page": 15,
+          "issue": "Independent150dpi render opened: enormous white text-halo blobs around 亀島交番 and the rotated 線路沿いを北へ label obscure map roads, red route and station label frame. Fix stroke width scaling, regenerate, and view the actual PDF before acceptance.",
+          "evidence": "/tmp/audit-native-map-latest.png",
+          "suspected_cause": "native_map.py passes SVG stroke width * scale directly as insert_text border_width; native stroke width may be relative to font size."
+        },
+        {
+          "severity": "major",
+          "issue": "Partial remains not for submission: old page number23 etc and RGB/no final ICC checks outstanding."
+        }
+      ],
+      "independent_visual_check": "Latest PDF rendered directly with PyMuPDF at150dpi and full P15 opened; source map background previously opened and no published lettering seen."
+    },
+    "native_map_CJK_halo_corrected_53ba59db": {
+      "file": "downloads/printpack-ready-20261028/rebuild-20261111/native-pages-12-15-map-restored.pdf",
+      "sha256": "53ba59dba1d295c5927fdfd82d447ae6ace64932fc0737619dc1265ec8bd16a4",
+      "pages": [
+        {
+          "brochure_page": 12,
+          "page_size_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "text_characters": 765,
+          "fonts": 80,
+          "vector_drawings": 122,
+          "images": [
+            {
+              "pixels": [
+                4032,
+                3024
+              ],
+              "colourspace": "ICCBased(RGB,sRGB)"
+            },
+            {
+              "pixels": [
+                1184,
+                485
+              ],
+              "colourspace": "ICCBased(RGB,Artifex Software sRGB ICC Profile)"
+            }
+          ]
+        },
+        {
+          "brochure_page": 13,
+          "page_size_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "text_characters": 653,
+          "fonts": 49,
+          "vector_drawings": 221,
+          "images": []
+        },
+        {
+          "brochure_page": 14,
+          "page_size_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "text_characters": 1363,
+          "fonts": 73,
+          "vector_drawings": 36,
+          "images": []
+        },
+        {
+          "brochure_page": 15,
+          "page_size_pt": [
+            0.0,
+            0.0,
+            595.2755737304688,
+            841.8897705078125
+          ],
+          "text_characters": 475,
+          "fonts": 35,
+          "vector_drawings": 53,
+          "images": [
+            {
+              "pixels": [
+                1536,
+                1024
+              ],
+              "colourspace": "ICCBased(RGB,Artifex Software sRGB ICC Profile)"
+            }
+          ]
+        }
+      ],
+      "missing_glyphs": [],
+      "NFKC_expected_credit_present": true,
+      "SVG_expected_label_count": 19,
+      "SVG_labels_missing_after_NFKC_whitespace_normalization": [],
+      "text_restoration_gate": "pass for inspected map labels; glyph0/FFFD/NUL absent",
+      "overall_delivery_gate": "fail: partial only; page numbering/ICC/final all-page checks outstanding",
+      "findings": [
+        {
+          "severity": "major",
+          "issue": "Old page number23 etc and unfinished RGB/CMYK ICC conversion remain; four-page prototype is not a deliverable."
+        }
+      ],
+      "independent_visual_check": "SHA53ba59db full P15 rendered directly at150dpi and opened after halo border_width was divided by font size; no oversized white blobs seen.600dpi/two-renderer/physical-print checks remain unrun.",
+      "map_halo_visual_gate": "pass for150dpi full P15 inspection: oversized white halo blobs resolved, route and labels legible"
+    }
+  }
+}
