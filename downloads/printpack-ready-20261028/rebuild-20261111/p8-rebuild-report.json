@@ -1,7 +1,7 @@
 {
   "status": "incomplete_fidelity_review_required_not_for_submission",
   "pdf": "p8-native-draft.pdf",
-  "sha256": "8b9d75e9a910c8a66645a60b2e812d339061e72db3a54c352745b9d5da5c9ff6",
+  "sha256": "5ba77a1294a06898cb6b6b31626a8b17098b159d256f2326728abe3e4f15b0bd",
   "native_character_count": 700,
   "raster_publication_letters_intended": false,
   "known_issues": [
