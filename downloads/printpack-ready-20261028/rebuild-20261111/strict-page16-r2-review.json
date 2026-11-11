@@ -1,0 +1,451 @@
+{
+  "status": "FAIL_SEMANTIC_TEXT",
+  "reviewed_file": "native-page-16-draft.pdf",
+  "reviewed_sha256": "1c24aa021b3130713622cebb45d48687fc9a6e22f01398f1f29e2d581d5d046d",
+  "note": "This SHA was reviewed; same draft pathname has subsequently been replaced by parent. Does not review current file.",
+  "all21_ink_bbox_edge_max_delta_pt": 0.25,
+  "all_fonts_embedded": true,
+  "glyph_zero_count": 0,
+  "renderers": [
+    "MuPDF",
+    "Poppler"
+  ],
+  "findings": [
+    {
+      "severity": "blocking",
+      "issue": "Email address ai‑nyushi@jp‑academy.net uses U+2011 nonbreaking hyphen instead of ASCII U+002D. Actual text content not exact to facts; copy/paste would fail as email. Phone/address have same substitution."
+    },
+    {
+      "severity": "limitation",
+      "issue": "Native font glyph design differs from original raster text. Bbox fit does not establish identical typography."
+    }
+  ],
+  "measurements": {
+    "school_name": {
+      "source": [
+        200.25,
+        127.25,
+        394.75,
+        147.0
+      ],
+      "target": [
+        200.5,
+        127.25,
+        394.75,
+        147.0
+      ],
+      "delta": [
+        0.25,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "english_name": {
+      "source": [
+        209.5,
+        156.25,
+        385.75,
+        166.25
+      ],
+      "target": [
+        209.5,
+        156.25,
+        385.75,
+        166.25
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "corporation": {
+      "source": [
+        252.75,
+        188.25,
+        342.5,
+        198.75
+      ],
+      "target": [
+        252.75,
+        188.25,
+        342.5,
+        198.5
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.25
+      ]
+    },
+    "department_heading": {
+      "source": [
+        86.75,
+        275.5,
+        298.0,
+        287.75
+      ],
+      "target": [
+        86.75,
+        275.5,
+        298.0,
+        287.75
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "department_1": {
+      "source": [
+        87.25,
+        301.5,
+        183.5,
+        311.5
+      ],
+      "target": [
+        87.25,
+        301.5,
+        183.5,
+        311.5
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "description_1": {
+      "source": [
+        230.25,
+        303.0,
+        408.0,
+        312.0
+      ],
+      "target": [
+        230.25,
+        303.0,
+        408.0,
+        311.75
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.25
+      ]
+    },
+    "department_2": {
+      "source": [
+        87.25,
+        325.25,
+        173.25,
+        335.5
+      ],
+      "target": [
+        87.25,
+        325.25,
+        173.25,
+        335.5
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "description_2": {
+      "source": [
+        230.75,
+        327.0,
+        422.0,
+        336.0
+      ],
+      "target": [
+        230.75,
+        327.0,
+        422.0,
+        335.75
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.25
+      ]
+    },
+    "contact_header": {
+      "source": [
+        220.5,
+        394.0,
+        374.5,
+        405.25
+      ],
+      "target": [
+        220.5,
+        394.0,
+        374.5,
+        405.0
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.25
+      ]
+    },
+    "phone_label": {
+      "source": [
+        98.0,
+        435.75,
+        221.75,
+        446.0
+      ],
+      "target": [
+        98.25,
+        435.75,
+        221.5,
+        446.0
+      ],
+      "delta": [
+        0.25,
+        0.0,
+        -0.25,
+        0.0
+      ]
+    },
+    "phone": {
+      "source": [
+        91.75,
+        457.75,
+        260.0,
+        471.75
+      ],
+      "target": [
+        91.75,
+        457.75,
+        260.0,
+        471.75
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "email_label": {
+      "source": [
+        98.0,
+        495.75,
+        221.75,
+        506.0
+      ],
+      "target": [
+        98.25,
+        495.75,
+        221.5,
+        506.0
+      ],
+      "delta": [
+        0.25,
+        0.0,
+        -0.25,
+        0.0
+      ]
+    },
+    "email": {
+      "source": [
+        91.75,
+        516.5,
+        256.25,
+        529.5
+      ],
+      "target": [
+        91.75,
+        516.5,
+        256.25,
+        529.25
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.25
+      ]
+    },
+    "address_label": {
+      "source": [
+        98.0,
+        548.5,
+        231.75,
+        558.75
+      ],
+      "target": [
+        98.25,
+        548.5,
+        231.5,
+        558.75
+      ],
+      "delta": [
+        0.25,
+        0.0,
+        -0.25,
+        0.0
+      ]
+    },
+    "address": {
+      "source": [
+        93.25,
+        570.75,
+        277.25,
+        578.25
+      ],
+      "target": [
+        93.25,
+        570.75,
+        277.0,
+        578.25
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        -0.25,
+        0.0
+      ]
+    },
+    "traffic": {
+      "source": [
+        91.5,
+        590.0,
+        408.0,
+        599.75
+      ],
+      "target": [
+        91.5,
+        590.25,
+        408.0,
+        599.75
+      ],
+      "delta": [
+        0.0,
+        0.25,
+        0.0,
+        0.0
+      ]
+    },
+    "site_label": {
+      "source": [
+        198.75,
+        675.5,
+        396.0,
+        686.0
+      ],
+      "target": [
+        198.75,
+        675.75,
+        395.75,
+        686.0
+      ],
+      "delta": [
+        0.0,
+        0.25,
+        -0.25,
+        0.0
+      ]
+    },
+    "url": {
+      "source": [
+        218.25,
+        696.75,
+        377.75,
+        706.5
+      ],
+      "target": [
+        218.25,
+        696.75,
+        377.5,
+        706.5
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        -0.25,
+        0.0
+      ]
+    },
+    "slogan": {
+      "source": [
+        226.75,
+        757.5,
+        360.75,
+        770.5
+      ],
+      "target": [
+        226.75,
+        757.5,
+        360.75,
+        770.25
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.25
+      ]
+    },
+    "AI_notice_1": {
+      "source": [
+        264.75,
+        806.75,
+        553.5,
+        815.25
+      ],
+      "target": [
+        264.75,
+        806.75,
+        553.5,
+        815.25
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "AI_notice_2": {
+      "source": [
+        79.5,
+        820.25,
+        553.5,
+        828.75
+      ],
+      "target": [
+        79.5,
+        820.25,
+        553.5,
+        828.75
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "map_review": {
+    "file": "native-pages-12-15-map-restored.pdf",
+    "sha256": "e21855fa259d165bc0e3b24e63533059f8ad9b4b5fac99beead54dc233bd68c9",
+    "railway_dashes": "restored, visually confirmed",
+    "new_blocker": "All4 header/footer folios have incorrect baseline/fontsize after renumbering. Header source ink y29–35.75 -> target24–30pt. P15 footer source [553.5,804.75,564.25,812.5] -> target[558.25,799.25,566.5,805.5]pt."
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "method": "Source a856 P16 rendered MuPDF 288dpi. Actual ink pixels bounding box, pt top-left origin; tolerance approx0.25pt; raster font differs from reconstruction. Dark ink min<180 mean<220; contact_header white ink min>220. No photo or source modification.",
+  "source_sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+  "lines": {
+    "school_name": {
+      "crop_box_pt": [
+        180,
+        120,
+        420,
+        150
+      ],
+      "source_ink_bbox_pt": [
+        200.25,
+        127.25,
+        394.75,
+        147.0
+      ]
+    },
+    "english_name": {
+      "crop_box_pt": [
+        180,
+        151,
+        420,
+        170
+      ],
+      "source_ink_bbox_pt": [
+        209.5,
+        156.25,
+        385.75,
+        166.25
+      ]
+    },
+    "corporation": {
+      "crop_box_pt": [
+        220,
+        181,
+        385,
+        204
+      ],
+      "source_ink_bbox_pt": [
+        252.75,
+        188.25,
+        342.5,
+        198.75
+      ]
+    },
+    "department_heading": {
+      "crop_box_pt": [
+        85,
+        270,
+        450,
+        295
+      ],
+      "source_ink_bbox_pt": [
+        86.75,
+        275.5,
+        298.0,
+        287.75
+      ]
+    },
+    "department_1": {
+      "crop_box_pt": [
+        85,
+        298,
+        225,
+        319
+      ],
+      "source_ink_bbox_pt": [
+        87.25,
+        301.5,
+        183.5,
+        311.5
+      ]
+    },
+    "description_1": {
+      "crop_box_pt": [
+        227,
+        299,
+        510,
+        320
+      ],
+      "source_ink_bbox_pt": [
+        230.25,
+        303.0,
+        408.0,
+        312.0
+      ]
+    },
+    "department_2": {
+      "crop_box_pt": [
+        85,
+        323,
+        225,
+        344
+      ],
+      "source_ink_bbox_pt": [
+        87.25,
+        325.25,
+        173.25,
+        335.5
+      ]
+    },
+    "description_2": {
+      "crop_box_pt": [
+        227,
+        324,
+        510,
+        346
+      ],
+      "source_ink_bbox_pt": [
+        230.75,
+        327.0,
+        422.0,
+        336.0
+      ]
+    },
+    "contact_header": {
+      "crop_box_pt": [
+        160,
+        389,
+        450,
+        410
+      ],
+      "source_ink_bbox_pt": [
+        220.5,
+        394.0,
+        374.5,
+        405.25
+      ]
+    },
+    "phone_label": {
+      "crop_box_pt": [
+        90,
+        430,
+        400,
+        450
+      ],
+      "source_ink_bbox_pt": [
+        98.0,
+        435.75,
+        221.75,
+        446.0
+      ]
+    },
+    "phone": {
+      "crop_box_pt": [
+        85,
+        450,
+        300,
+        481
+      ],
+      "source_ink_bbox_pt": [
+        91.75,
+        457.75,
+        260.0,
+        471.75
+      ]
+    },
+    "email_label": {
+      "crop_box_pt": [
+        90,
+        489,
+        400,
+        510
+      ],
+      "source_ink_bbox_pt": [
+        98.0,
+        495.75,
+        221.75,
+        506.0
+      ]
+    },
+    "email": {
+      "crop_box_pt": [
+        85,
+        510,
+        320,
+        535
+      ],
+      "source_ink_bbox_pt": [
+        91.75,
+        516.5,
+        256.25,
+        529.5
+      ]
+    },
+    "address_label": {
+      "crop_box_pt": [
+        90,
+        542,
+        400,
+        564
+      ],
+      "source_ink_bbox_pt": [
+        98.0,
+        548.5,
+        231.75,
+        558.75
+      ]
+    },
+    "address": {
+      "crop_box_pt": [
+        90,
+        568,
+        515,
+        585
+      ],
+      "source_ink_bbox_pt": [
+        93.25,
+        570.75,
+        277.25,
+        578.25
+      ]
+    },
+    "traffic": {
+      "crop_box_pt": [
+        90,
+        588,
+        515,
+        610
+      ],
+      "source_ink_bbox_pt": [
+        91.5,
+        590.0,
+        408.0,
+        599.75
+      ]
+    },
+    "site_label": {
+      "crop_box_pt": [
+        190,
+        673,
+        430,
+        691
+      ],
+      "source_ink_bbox_pt": [
+        198.75,
+        675.5,
+        396.0,
+        686.0
+      ]
+    },
+    "url": {
+      "crop_box_pt": [
+        190,
+        694,
+        430,
+        712
+      ],
+      "source_ink_bbox_pt": [
+        218.25,
+        696.75,
+        377.75,
+        706.5
+      ]
+    },
+    "slogan": {
+      "crop_box_pt": [
+        180,
+        749,
+        430,
+        780
+      ],
+      "source_ink_bbox_pt": [
+        226.75,
+        757.5,
+        360.75,
+        770.5
+      ]
+    },
+    "AI_notice_1": {
+      "crop_box_pt": [
+        40,
+        803,
+        560,
+        817
+      ],
+      "source_ink_bbox_pt": [
+        264.75,
+        806.75,
+        553.5,
+        815.25
+      ]
+    },
+    "AI_notice_2": {
+      "crop_box_pt": [
+        40,
+        817,
+        560,
+        833
+      ],
+      "source_ink_bbox_pt": [
+        79.5,
+        820.25,
+        553.5,
+        828.75
+      ]
+    }
+  }
+}

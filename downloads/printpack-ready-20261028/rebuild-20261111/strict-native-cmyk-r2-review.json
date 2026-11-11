@@ -1,0 +1,713 @@
+{
+  "status": "PARTIAL_TECHNICAL_REVIEW_PASS_NOT_SUBMISSION_APPROVAL",
+  "reviewed_file": "native-pages-12-16-CMYK-font-embedded-working.pdf",
+  "sha256": "5f41378f6024b549484f5a90744b4c75454ec0a0f0956be993e4560fc1f4a56d",
+  "review_scope": "booklet P12–16 five-page CMYK/font-embedded partial",
+  "independent_review_complete_for_this_partial": true,
+  "full_book_complete": false,
+  "flyer_reviewed": false,
+  "printers_quick_check_performed": false,
+  "technical_details": {
+    "sha256": "5f41378f6024b549484f5a90744b4c75454ec0a0f0956be993e4560fc1f4a56d",
+    "page_count": 5,
+    "pages": [
+      {
+        "brochure_page": 12,
+        "MediaBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "live_text_characters": 704,
+        "live_text_sample": "学費のご案内\nAIビジネス専門学校\n学ぶ費用と、納める時期を確認する\n学費のご案内\n初年度・2年次の納付金と納付期限。\n2027年度の参考額\n2028年4月入学の学費・納付条件は未確定です。\n入学検定料\n出願時に納める費用。上の納付金とは別です。\n20,000円\n納付期限と支払い\n合格から10日以内",
+        "QR": [],
+        "images": [
+          {
+            "xref": 123,
+            "width": 4032,
+            "height": 3024,
+            "components": "DeviceCMYK"
+          },
+          {
+            "xref": 124,
+            "width": 1184,
+            "height": 485,
+            "components": "DeviceCMYK"
+          }
+        ]
+      },
+      {
+        "brochure_page": 13,
+        "MediaBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "live_text_characters": 598,
+        "live_text_sample": "納付時期・確認事項\nAIビジネス専門学校\n入学前に、必要な金額と期日を確かめる\n支払いの時期と確認事項\n金額だけでなく、「何を・いつまでに納めるか」を確認しましょう。\n2027年度募集要項をもとに掲載\n2028年4月入学の金額・納付条件は未確定です。\n入学前の納付\n出願時\n入学検定料\n20,000円",
+        "QR": [],
+        "images": []
+      },
+      {
+        "brochure_page": 14,
+        "MediaBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "live_text_characters": 1291,
+        "live_text_sample": "入試・出願方法\nAIビジネス専門学校\n入試・出願方法\n入試区分ごとの条件を確かめ、必要な書類を準備してください。\n2027年度・日本人向け募集要項の参考情報\n2028年4月入学の入試日程・出願条件は未確定です。\n3つの入試区分\n区分・主な条件\n受付開始・合格発表\n選考方法\nAO入試\n（総合型選抜）\n",
+        "QR": [],
+        "images": []
+      },
+      {
+        "brochure_page": 15,
+        "MediaBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "live_text_characters": 436,
+        "live_text_sample": "アクセス・お問い合わせ\nAIビジネス専門学校\nアクセス・お問い合わせ\nご来校・入学相談の際は、下記の連絡先をご利用ください。\nAIビジネス専門学校\n〒453-0014　愛知県名古屋市中村区則武1丁目30-17\nJR名古屋駅から徒歩10分\n案内地図\n入学相談・ご連絡\n入学事務局\n052-451-382",
+        "QR": [
+          "https://kaihougakuen.my.canva.site/"
+        ],
+        "images": [
+          {
+            "xref": 259,
+            "width": 1536,
+            "height": 1024,
+            "components": "DeviceCMYK"
+          }
+        ]
+      },
+      {
+        "brochure_page": 16,
+        "MediaBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "live_text_characters": 460,
+        "live_text_sample": "AIビジネス専門学校\n学校法人海鵬学園\n設置学科（2年制・商業実務専門課程）\n■ 国際ビジネスAI科\nAI活用 / データ分析 / グローバルビジネス実務\n■ 総合ビジネス科\n販売・サービス / 経営 / 事務 / マーケティング / IT\nお問い合わせ・入学相談窓口\n【お電話でのお問い合わせ】\nT",
+        "QR": [],
+        "images": []
+      }
+    ],
+    "raw_boxes": [
+      {
+        "MediaBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ],
+        "CropBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ]
+      },
+      {
+        "MediaBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ],
+        "CropBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ]
+      },
+      {
+        "MediaBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ],
+        "CropBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ]
+      },
+      {
+        "MediaBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ],
+        "CropBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ]
+      },
+      {
+        "MediaBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ],
+        "CropBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ]
+      }
+    ],
+    "OutputIntents": [
+      {
+        "OutputConditionIdentifier": "JapanColor2011Coated",
+        "N": 4,
+        "ICC_sha256": "73202ea802e57a63a0be05ed993fde8e4d51cc436120e6c47815ce785ff42916"
+      }
+    ],
+    "unembedded_fonts": []
+  },
+  "independent_rechecks": {
+    "P16_exact_fields": {
+      "email": true,
+      "tel": true,
+      "postal_code": true,
+      "address_line1": true,
+      "url": true
+    },
+    "NFKC_char_counts_equal_frozen_master": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "P16_bbox_measurements": {
+      "school_name": {
+        "source": [
+          200.25,
+          127.25,
+          394.75,
+          147.0
+        ],
+        "target": [
+          200.5,
+          127.5,
+          394.5,
+          147.25
+        ],
+        "delta": [
+          0.25,
+          0.25,
+          -0.25,
+          0.25
+        ]
+      },
+      "english_name": {
+        "source": [
+          209.5,
+          156.25,
+          385.75,
+          166.25
+        ],
+        "target": [
+          209.5,
+          156.25,
+          385.75,
+          166.25
+        ],
+        "delta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "corporation": {
+        "source": [
+          252.75,
+          188.25,
+          342.5,
+          198.75
+        ],
+        "target": [
+          252.75,
+          188.5,
+          342.25,
+          198.75
+        ],
+        "delta": [
+          0.0,
+          0.25,
+          -0.25,
+          0.0
+        ]
+      },
+      "department_heading": {
+        "source": [
+          86.75,
+          275.5,
+          298.0,
+          287.75
+        ],
+        "target": [
+          86.75,
+          275.5,
+          298.0,
+          287.75
+        ],
+        "delta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "department_1": {
+        "source": [
+          87.25,
+          301.5,
+          183.5,
+          311.5
+        ],
+        "target": [
+          87.25,
+          301.5,
+          183.5,
+          311.5
+        ],
+        "delta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "description_1": {
+        "source": [
+          230.25,
+          303.0,
+          408.0,
+          312.0
+        ],
+        "target": [
+          230.25,
+          303.0,
+          408.0,
+          311.75
+        ],
+        "delta": [
+          0.0,
+          0.0,
+          0.0,
+          -0.25
+        ]
+      },
+      "department_2": {
+        "source": [
+          87.25,
+          325.25,
+          173.25,
+          335.5
+        ],
+        "target": [
+          87.25,
+          325.25,
+          173.25,
+          335.5
+        ],
+        "delta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "description_2": {
+        "source": [
+          230.75,
+          327.0,
+          422.0,
+          336.0
+        ],
+        "target": [
+          230.75,
+          327.0,
+          422.0,
+          335.75
+        ],
+        "delta": [
+          0.0,
+          0.0,
+          0.0,
+          -0.25
+        ]
+      },
+      "contact_header": {
+        "source": [
+          220.5,
+          394.0,
+          374.5,
+          405.25
+        ],
+        "target": [
+          220.5,
+          394.0,
+          374.5,
+          405.0
+        ],
+        "delta": [
+          0.0,
+          0.0,
+          0.0,
+          -0.25
+        ]
+      },
+      "phone_label": {
+        "source": [
+          98.0,
+          435.75,
+          221.75,
+          446.0
+        ],
+        "target": [
+          98.25,
+          435.75,
+          221.5,
+          446.0
+        ],
+        "delta": [
+          0.25,
+          0.0,
+          -0.25,
+          0.0
+        ]
+      },
+      "phone": {
+        "source": [
+          91.75,
+          457.75,
+          260.0,
+          471.75
+        ],
+        "target": [
+          91.75,
+          457.75,
+          260.0,
+          471.75
+        ],
+        "delta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "email_label": {
+        "source": [
+          98.0,
+          495.75,
+          221.75,
+          506.0
+        ],
+        "target": [
+          98.25,
+          495.75,
+          221.5,
+          506.0
+        ],
+        "delta": [
+          0.25,
+          0.0,
+          -0.25,
+          0.0
+        ]
+      },
+      "email": {
+        "source": [
+          91.75,
+          516.5,
+          256.25,
+          529.5
+        ],
+        "target": [
+          91.75,
+          516.5,
+          256.25,
+          529.25
+        ],
+        "delta": [
+          0.0,
+          0.0,
+          0.0,
+          -0.25
+        ]
+      },
+      "address_label": {
+        "source": [
+          98.0,
+          548.5,
+          231.75,
+          558.75
+        ],
+        "target": [
+          98.25,
+          548.5,
+          231.5,
+          558.75
+        ],
+        "delta": [
+          0.25,
+          0.0,
+          -0.25,
+          0.0
+        ]
+      },
+      "address": {
+        "source": [
+          93.25,
+          570.75,
+          277.25,
+          578.25
+        ],
+        "target": [
+          93.25,
+          570.75,
+          277.0,
+          578.25
+        ],
+        "delta": [
+          0.0,
+          0.0,
+          -0.25,
+          0.0
+        ]
+      },
+      "traffic": {
+        "source": [
+          91.5,
+          590.0,
+          408.0,
+          599.75
+        ],
+        "target": [
+          91.5,
+          590.25,
+          408.0,
+          599.75
+        ],
+        "delta": [
+          0.0,
+          0.25,
+          0.0,
+          0.0
+        ]
+      },
+      "site_label": {
+        "source": [
+          198.75,
+          675.5,
+          396.0,
+          686.0
+        ],
+        "target": [
+          198.75,
+          675.5,
+          395.75,
+          685.75
+        ],
+        "delta": [
+          0.0,
+          0.0,
+          -0.25,
+          -0.25
+        ]
+      },
+      "url": {
+        "source": [
+          218.25,
+          696.75,
+          377.75,
+          706.5
+        ],
+        "target": [
+          218.25,
+          696.75,
+          377.75,
+          706.5
+        ],
+        "delta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "slogan": {
+        "source": [
+          226.75,
+          757.5,
+          360.75,
+          770.5
+        ],
+        "target": [
+          226.75,
+          757.5,
+          360.75,
+          770.25
+        ],
+        "delta": [
+          0.0,
+          0.0,
+          0.0,
+          -0.25
+        ]
+      },
+      "AI_notice_1": {
+        "source": [
+          264.75,
+          806.75,
+          553.5,
+          815.25
+        ],
+        "target": [
+          264.75,
+          806.75,
+          553.5,
+          815.25
+        ],
+        "delta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "AI_notice_2": {
+        "source": [
+          79.5,
+          820.25,
+          553.5,
+          828.75
+        ],
+        "target": [
+          79.5,
+          820.25,
+          553.5,
+          828.75
+        ],
+        "delta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "max_P16_bbox_delta_pt": 0.25,
+    "paint_color_operators": [
+      {
+        "g": 3,
+        "k": 59,
+        "K": 2
+      },
+      {
+        "g": 3,
+        "k": 57
+      },
+      {
+        "g": 3,
+        "k": 40
+      },
+      {
+        "g": 13,
+        "k": 27,
+        "K": 17,
+        "G": 13
+      },
+      {
+        "K": 4,
+        "k": 21,
+        "g": 1
+      }
+    ],
+    "frozen_master_sha256": "d7e545ad5a2700a96983a7ad0c20d6075bf5ea13a842f49d448e87095e93755d",
+    "zero_glyph_count": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_nearest_matching_char_origin_delta_pt": [
+      0.0017828639732639807,
+      0.0009236295135755345,
+      0.0012527084809432246,
+      0.0009719022179744982,
+      0.0012302029034879378
+    ]
+  },
+  "visual_review": {
+    "renderers": [
+      "MuPDF/PyMuPDF108dpi all5 pages",
+      "Poppler pdftoppm120dpi all5 pages"
+    ],
+    "all5_pages_visually_opened": true,
+    "P15_railway_dashed_line": "restored",
+    "P12to15_header_footer_folios": "restored to source font,size,baseline; correct new numbering12–15",
+    "P16_letter_clipping_or_missing_content": "not observed",
+    "unintended_white_seams_in_previews": "not observed",
+    "P16_font_blur": "no obvious raster-type blur observed in inspected previews; native text objects confirmed independently",
+    "P16_font_design_matches_original_raster": "no; source-identical glyph design not achieved"
+  },
+  "remaining_limitations": [
+    "P16 uses replacement native glyph designs; original raster typography not exactly reproduced.",
+    "Only5 pages, not full16-page booklet. No flyer inspection.",
+    "Font-embedded CMYK working copy; requested printer-outline derivative is separate and not reviewed here.",
+    "No physical print or printer quick-data-check verified.",
+    "No approval applies to a later changed SHA."
+  ]
+}

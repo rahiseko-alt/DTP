@@ -1,0 +1,564 @@
+{
+  "status": "FAIL_NOT_FOR_SUBMISSION",
+  "scope": "Independent check of 5-page partial booklet draft P12–16; not the full16-page booklet and not the flyer.",
+  "reviewed_file": "native-pages-12-16-CMYK-font-embedded-working.pdf",
+  "reviewed_sha256": "969c0a84ca5e8593d21e4aa106aa709147d5e2e516b21cade6503d5ea16abdec",
+  "source_sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+  "renderers": [
+    "MuPDF/PyMuPDF all5 pages,72dpi full-page visual and288dpi P16 ink analysis",
+    "Poppler pdftoppm all5 pages100dpi and P16 at1200px"
+  ],
+  "findings": [
+    {
+      "severity": "blocking",
+      "page": 16,
+      "issue": "Unembedded Helvetica (object261) used for English school name. File is not fully font embedded.",
+      "proof": "pdffonts: Helvetica Type1 WinAnsi emb=no sub=no uni=no; pikepdf font dictionary has no FontDescriptor embedded file."
+    },
+    {
+      "severity": "blocking",
+      "page": 16,
+      "issue": "Rebuilt typography position and size differ from original; source no-position/no-size-change requirement not met.",
+      "examples": [
+        "Corporation name width89.75pt ->82.75pt",
+        "TEL ink y457.75–471.75 ->460.25–474.75pt",
+        "Email width164.5 ->171.25pt; y516.5–529.5 ->519.75–533.25pt",
+        "Traffic line width316.5 ->298.25pt; y590–599.75 ->588–597.25pt",
+        "Slogan y757.5–770.5 ->761.25–774.5pt"
+      ],
+      "measurement_note": "Actual rendered ink bounds288dpi; tolerance approx0.25pt; font glyph design itself also differs. Fitting a bounding box cannot prove identical glyph shapes."
+    },
+    {
+      "severity": "blocking",
+      "page": 15,
+      "issue": "Railway dashed line in source map renders solid in rebuilt map. Map appearance changed.",
+      "location_pt": [
+        400,
+        280,
+        510,
+        523
+      ],
+      "note": "Raster background already has dashed railway. Native solid stroke overlaid over it appears to fill gaps."
+    }
+  ],
+  "technical_passes": {
+    "A4_all5": true,
+    "page_count5_as_partial": true,
+    "text_objects_all5": true,
+    "CMYK_or_DeviceGray_paint_only_in_recursive_stream_check": true,
+    "all_raster_images_DeviceCMYK": true,
+    "ICC_JapanColor2011Coated": true,
+    "P15_QR300dpi": "https://kaihougakuen.my.canva.site/",
+    "obvious_missing_content_or_clipping_P12to14_visual": "not observed in both renderers",
+    "unintended_white_seam_visual_all5": "not observed in the inspected raster previews; physical print not tested"
+  },
+  "technical_details": {
+    "sha256": "969c0a84ca5e8593d21e4aa106aa709147d5e2e516b21cade6503d5ea16abdec",
+    "page_count": 5,
+    "pages": [
+      {
+        "brochure_page": 12,
+        "MediaBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "live_text_characters": 704,
+        "live_text_sample": "学費のご案内\nAIビジネス専門学校\n学ぶ費用と、納める時期を確認する\n学費のご案内\n初年度・2年次の納付金と納付期限。\n2027年度の参考額\n2028年4月入学の学費・納付条件は未確定です。\n入学検定料\n出願時に納める費用。上の納付金とは別です。\n20,000円\n納付期限と支払い\n合格から10日以内",
+        "QR": [],
+        "images": [
+          {
+            "xref": 122,
+            "width": 4032,
+            "height": 3024,
+            "components": "DeviceCMYK"
+          },
+          {
+            "xref": 123,
+            "width": 1184,
+            "height": 485,
+            "components": "DeviceCMYK"
+          }
+        ]
+      },
+      {
+        "brochure_page": 13,
+        "MediaBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "live_text_characters": 598,
+        "live_text_sample": "納付時期・確認事項\nAIビジネス専門学校\n入学前に、必要な金額と期日を確かめる\n支払いの時期と確認事項\n金額だけでなく、「何を・いつまでに納めるか」を確認しましょう。\n2027年度募集要項をもとに掲載\n2028年4月入学の金額・納付条件は未確定です。\n入学前の納付\n出願時\n入学検定料\n20,000円",
+        "QR": [],
+        "images": []
+      },
+      {
+        "brochure_page": 14,
+        "MediaBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "live_text_characters": 1291,
+        "live_text_sample": "入試・出願方法\nAIビジネス専門学校\n入試・出願方法\n入試区分ごとの条件を確かめ、必要な書類を準備してください。\n2027年度・日本人向け募集要項の参考情報\n2028年4月入学の入試日程・出願条件は未確定です。\n3つの入試区分\n区分・主な条件\n受付開始・合格発表\n選考方法\nAO入試\n（総合型選抜）\n",
+        "QR": [],
+        "images": []
+      },
+      {
+        "brochure_page": 15,
+        "MediaBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "live_text_characters": 436,
+        "live_text_sample": "アクセス・お問い合わせ\nAIビジネス専門学校\nアクセス・お問い合わせ\nご来校・入学相談の際は、下記の連絡先をご利用ください。\nAIビジネス専門学校\n〒453-0014　愛知県名古屋市中村区則武1丁目30-17\nJR名古屋駅から徒歩10分\n案内地図\n入学相談・ご連絡\n入学事務局\n052-451-382",
+        "QR": [
+          "https://kaihougakuen.my.canva.site/"
+        ],
+        "images": [
+          {
+            "xref": 258,
+            "width": 1536,
+            "height": 1024,
+            "components": "DeviceCMYK"
+          }
+        ]
+      },
+      {
+        "brochure_page": 16,
+        "MediaBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          595.2755737304688,
+          841.8897705078125
+        ],
+        "live_text_characters": 460,
+        "live_text_sample": "AIビジネス専門学校\n学校法人海鵬学園\n設置学科（2年制・商業実務専門課程）\n■ 国際ビジネスAI科\nAI活用 / データ分析 / グローバルビジネス実務\n■ 総合ビジネス科\n販売・サービス / 経営 / 事務 / マーケティング / IT\nお問い合わせ・入学相談窓口\n【お電話でのお問い合わせ】\nT",
+        "QR": [],
+        "images": []
+      }
+    ],
+    "raw_boxes": [
+      {
+        "MediaBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ],
+        "CropBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ]
+      },
+      {
+        "MediaBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ],
+        "CropBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ]
+      },
+      {
+        "MediaBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ],
+        "CropBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ]
+      },
+      {
+        "MediaBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ],
+        "CropBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ]
+      },
+      {
+        "MediaBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ],
+        "CropBox": [
+          "0",
+          "0",
+          "595.275590551181",
+          "841.889763779528"
+        ]
+      }
+    ],
+    "OutputIntents": [
+      {
+        "OutputConditionIdentifier": "JapanColor2011Coated",
+        "N": 4,
+        "ICC_sha256": "73202ea802e57a63a0be05ed993fde8e4d51cc436120e6c47815ce785ff42916"
+      }
+    ],
+    "unembedded_fonts": [
+      {
+        "BaseFont": "/Helvetica",
+        "objgen": [
+          261,
+          0
+        ]
+      }
+    ]
+  },
+  "page16_measurements": {
+    "corporation": {
+      "source": {
+        "ink_bbox_pt": [
+          252.75,
+          188.25,
+          342.5,
+          198.75
+        ]
+      },
+      "target": {
+        "ink_bbox_pt": [
+          256.0,
+          189.25,
+          338.75,
+          199.25
+        ]
+      }
+    },
+    "department_heading": {
+      "source": {
+        "ink_bbox_pt": [
+          86.75,
+          275.5,
+          298.0,
+          287.75
+        ]
+      },
+      "target": {
+        "ink_bbox_pt": [
+          87.25,
+          275.25,
+          298.75,
+          287.25
+        ]
+      }
+    },
+    "department_1": {
+      "source": {
+        "ink_bbox_pt": [
+          87.25,
+          301.5,
+          183.5,
+          311.5
+        ]
+      },
+      "target": {
+        "ink_bbox_pt": [
+          88.0,
+          301.0,
+          187.75,
+          311.5
+        ]
+      }
+    },
+    "description_1": {
+      "source": {
+        "ink_bbox_pt": [
+          230.25,
+          303.0,
+          408.0,
+          312.0
+        ]
+      },
+      "target": {
+        "ink_bbox_pt": [
+          231.0,
+          302.0,
+          416.0,
+          311.5
+        ]
+      }
+    },
+    "department_2": {
+      "source": {
+        "ink_bbox_pt": [
+          87.25,
+          325.25,
+          173.25,
+          335.5
+        ]
+      },
+      "target": {
+        "ink_bbox_pt": [
+          88.0,
+          326.0,
+          177.25,
+          336.5
+        ]
+      }
+    },
+    "description_2": {
+      "source": {
+        "ink_bbox_pt": [
+          230.75,
+          327.0,
+          422.0,
+          336.0
+        ]
+      },
+      "target": {
+        "ink_bbox_pt": [
+          231.25,
+          327.25,
+          430.5,
+          336.5
+        ]
+      }
+    },
+    "phone_label": {
+      "source": {
+        "ink_bbox_pt": [
+          98.0,
+          435.75,
+          221.75,
+          446.0
+        ]
+      },
+      "target": {
+        "ink_bbox_pt": [
+          99.0,
+          437.25,
+          221.5,
+          447.25
+        ]
+      }
+    },
+    "phone": {
+      "source": {
+        "ink_bbox_pt": [
+          91.75,
+          457.75,
+          260.0,
+          471.75
+        ]
+      },
+      "target": {
+        "ink_bbox_pt": [
+          92.5,
+          460.25,
+          262.0,
+          474.75
+        ]
+      }
+    },
+    "email_label": {
+      "source": {
+        "ink_bbox_pt": [
+          98.0,
+          495.75,
+          221.75,
+          506.0
+        ]
+      },
+      "target": {
+        "ink_bbox_pt": [
+          99.0,
+          497.25,
+          221.5,
+          507.25
+        ]
+      }
+    },
+    "email": {
+      "source": {
+        "ink_bbox_pt": [
+          91.75,
+          516.5,
+          256.25,
+          529.5
+        ]
+      },
+      "target": {
+        "ink_bbox_pt": [
+          92.75,
+          519.75,
+          264.0,
+          533.25
+        ]
+      }
+    },
+    "address_label": {
+      "source": {
+        "ink_bbox_pt": [
+          98.0,
+          548.5,
+          231.75,
+          558.75
+        ]
+      },
+      "target": {
+        "ink_bbox_pt": [
+          99.0,
+          552.25,
+          232.0,
+          562.25
+        ]
+      }
+    },
+    "address": {
+      "source": {
+        "ink_bbox_pt": [
+          93.25,
+          570.75,
+          277.25,
+          578.25
+        ]
+      },
+      "target": {
+        "ink_bbox_pt": [
+          93.25,
+          571.25,
+          276.75,
+          579.0
+        ]
+      }
+    },
+    "traffic": {
+      "source": {
+        "ink_bbox_pt": [
+          91.5,
+          590.0,
+          408.0,
+          599.75
+        ]
+      },
+      "target": {
+        "ink_bbox_pt": [
+          92.25,
+          588.0,
+          390.5,
+          597.25
+        ]
+      }
+    },
+    "site_label": {
+      "source": {
+        "ink_bbox_pt": [
+          198.75,
+          675.5,
+          396.0,
+          686.0
+        ]
+      },
+      "target": {
+        "ink_bbox_pt": [
+          194.5,
+          677.25,
+          399.5,
+          688.0
+        ]
+      }
+    },
+    "url": {
+      "source": {
+        "ink_bbox_pt": [
+          218.25,
+          696.75,
+          377.75,
+          706.5
+        ]
+      },
+      "target": {
+        "ink_bbox_pt": [
+          212.75,
+          696.75,
+          382.75,
+          707.25
+        ]
+      }
+    },
+    "slogan": {
+      "source": {
+        "ink_bbox_pt": [
+          226.75,
+          757.5,
+          360.75,
+          770.5
+        ]
+      },
+      "target": {
+        "ink_bbox_pt": [
+          228.25,
+          761.25,
+          358.5,
+          774.5
+        ]
+      }
+    }
+  },
+  "limitations": [
+    "Not a full16-page booklet; no flyer inspection here.",
+    "Original raster typography cannot be made identical merely by fitting different native font ink bounds.",
+    "No physical print or printer quick-check performed.",
+    "No approval is given to later PDF revisions with different SHA."
+  ],
+  "reviewer_role": "independent subagent",
+  "date": "2026-11-11"
+}

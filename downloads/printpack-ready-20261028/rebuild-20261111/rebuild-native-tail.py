@@ -11,6 +11,30 @@ with pikepdf.open(source) as d:
  im.Type=pikepdf.Name('/XObject');im.Subtype=pikepdf.Name('/Form');im.BBox=pikepdf.Array([0,0,1,1]);d.save(B/'inspection/map-removed-source.pdf',compress_streams=True)
 src=fitz.open(B/'inspection/map-removed-source.pdf');from native_map import make_native_map
 mp=make_native_map(svg);src[14].show_pdf_page(rect,mp,0)
+# Correct only the old native header/folio numerals. Preserve all other text.
+folio_fonts={}
+for weight in ['Black','Bold']:
+ seen=set()
+ for page in src:
+  for info in page.get_fonts():
+   if info[0] in seen or not info[3].endswith('-'+weight):continue
+   seen.add(info[0]);data=src.extract_font(info[0])[3]
+   if not data:continue
+   font=fitz.Font(fontbuffer=data)
+   if all(font.has_glyph(ord(c)) for c in '12345'):
+    folio_fonts[weight]=(data,font);break
+  if weight in folio_fonts:break
+ assert weight in folio_fonts
+for pn,old_number in [(12,'16'),(13,'21'),(14,'22'),(15,'23')]:
+ pg=src[pn-1];spans=[s for b in pg.get_text('dict')['blocks'] for l in b.get('lines',[]) for s in l['spans'] if s['text']==old_number and (s['bbox'][1]<55 or s['bbox'][1]>790)]
+ areas=[fitz.Rect(s['bbox']) for s in spans];assert len(areas)==2,(pn,areas)
+ for area in areas:pg.add_redact_annot(area+(-.2,-.2,.2,.2),fill=None,cross_out=False)
+ pg.apply_redactions(images=0,graphics=0,text=0)
+ for span,area in zip(spans,areas):
+  weight='Black' if area.y0<55 else 'Bold';data,font=folio_fonts[weight];name='OriginalFolio'+weight
+  pg.insert_font(fontname=name,fontbuffer=data);origin=fitz.Point(span['origin']);size=span['size'];color=tuple((span['color']>>s&255)/255 for s in (16,8,0))
+  sx=area.width/font.text_length(str(pn),fontsize=size)
+  pg.insert_text(origin,str(pn),fontsize=size,fontname=name,color=color,morph=(origin,fitz.Matrix(sx,1)))
 out=fitz.open();W,H=210*72/25.4,297*72/25.4
 for pn in range(11,15):
  pg=out.new_page(width=W,height=H);pg.show_pdf_page(fitz.Rect(0,0,src[pn].rect.width,src[pn].rect.height),src,pn,keep_proportion=False)

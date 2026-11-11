@@ -1,0 +1,614 @@
+{
+  "status": "FAIL_SEMANTIC_TEXT",
+  "reviewed_sha256": "42ab65ab3a902207271d8049da26fac686ac51a17f461218ce1b4e9ed98b9ae2",
+  "reviewed_file": "native-page-16-draft.pdf",
+  "frozen_review_copy": ".cache/strict-page16-r3/frozen.pdf",
+  "bbox_all21_max_edge_delta_pt": 0.25,
+  "bbox_measurements": {
+    "school_name": {
+      "source": [
+        200.25,
+        127.25,
+        394.75,
+        147.0
+      ],
+      "target": [
+        200.5,
+        127.5,
+        394.5,
+        147.25
+      ],
+      "delta": [
+        0.25,
+        0.25,
+        -0.25,
+        0.25
+      ]
+    },
+    "english_name": {
+      "source": [
+        209.5,
+        156.25,
+        385.75,
+        166.25
+      ],
+      "target": [
+        209.5,
+        156.25,
+        385.75,
+        166.25
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "corporation": {
+      "source": [
+        252.75,
+        188.25,
+        342.5,
+        198.75
+      ],
+      "target": [
+        252.75,
+        188.5,
+        342.25,
+        198.75
+      ],
+      "delta": [
+        0.0,
+        0.25,
+        -0.25,
+        0.0
+      ]
+    },
+    "department_heading": {
+      "source": [
+        86.75,
+        275.5,
+        298.0,
+        287.75
+      ],
+      "target": [
+        86.75,
+        275.5,
+        298.0,
+        287.75
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "department_1": {
+      "source": [
+        87.25,
+        301.5,
+        183.5,
+        311.5
+      ],
+      "target": [
+        87.25,
+        301.5,
+        183.5,
+        311.5
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "description_1": {
+      "source": [
+        230.25,
+        303.0,
+        408.0,
+        312.0
+      ],
+      "target": [
+        230.25,
+        303.0,
+        408.0,
+        311.75
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.25
+      ]
+    },
+    "department_2": {
+      "source": [
+        87.25,
+        325.25,
+        173.25,
+        335.5
+      ],
+      "target": [
+        87.25,
+        325.25,
+        173.25,
+        335.5
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "description_2": {
+      "source": [
+        230.75,
+        327.0,
+        422.0,
+        336.0
+      ],
+      "target": [
+        230.75,
+        327.0,
+        422.0,
+        335.75
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.25
+      ]
+    },
+    "contact_header": {
+      "source": [
+        220.5,
+        394.0,
+        374.5,
+        405.25
+      ],
+      "target": [
+        220.5,
+        394.0,
+        374.5,
+        405.0
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.25
+      ]
+    },
+    "phone_label": {
+      "source": [
+        98.0,
+        435.75,
+        221.75,
+        446.0
+      ],
+      "target": [
+        98.25,
+        435.75,
+        221.5,
+        446.0
+      ],
+      "delta": [
+        0.25,
+        0.0,
+        -0.25,
+        0.0
+      ]
+    },
+    "phone": {
+      "source": [
+        91.75,
+        457.75,
+        260.0,
+        471.75
+      ],
+      "target": [
+        91.75,
+        457.75,
+        260.0,
+        471.75
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "email_label": {
+      "source": [
+        98.0,
+        495.75,
+        221.75,
+        506.0
+      ],
+      "target": [
+        98.25,
+        495.75,
+        221.5,
+        506.0
+      ],
+      "delta": [
+        0.25,
+        0.0,
+        -0.25,
+        0.0
+      ]
+    },
+    "email": {
+      "source": [
+        91.75,
+        516.5,
+        256.25,
+        529.5
+      ],
+      "target": [
+        91.75,
+        516.5,
+        256.25,
+        529.25
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.25
+      ]
+    },
+    "address_label": {
+      "source": [
+        98.0,
+        548.5,
+        231.75,
+        558.75
+      ],
+      "target": [
+        98.25,
+        548.5,
+        231.5,
+        558.75
+      ],
+      "delta": [
+        0.25,
+        0.0,
+        -0.25,
+        0.0
+      ]
+    },
+    "address": {
+      "source": [
+        93.25,
+        570.75,
+        277.25,
+        578.25
+      ],
+      "target": [
+        93.25,
+        570.75,
+        277.0,
+        578.25
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        -0.25,
+        0.0
+      ]
+    },
+    "traffic": {
+      "source": [
+        91.5,
+        590.0,
+        408.0,
+        599.75
+      ],
+      "target": [
+        91.5,
+        590.25,
+        408.0,
+        599.75
+      ],
+      "delta": [
+        0.0,
+        0.25,
+        0.0,
+        0.0
+      ]
+    },
+    "site_label": {
+      "source": [
+        198.75,
+        675.5,
+        396.0,
+        686.0
+      ],
+      "target": [
+        198.75,
+        675.5,
+        395.75,
+        685.75
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        -0.25,
+        -0.25
+      ]
+    },
+    "url": {
+      "source": [
+        218.25,
+        696.75,
+        377.75,
+        706.5
+      ],
+      "target": [
+        218.25,
+        696.75,
+        377.75,
+        706.5
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "slogan": {
+      "source": [
+        226.75,
+        757.5,
+        360.75,
+        770.5
+      ],
+      "target": [
+        226.75,
+        757.5,
+        360.75,
+        770.25
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        -0.25
+      ]
+    },
+    "AI_notice_1": {
+      "source": [
+        264.75,
+        806.75,
+        553.5,
+        815.25
+      ],
+      "target": [
+        264.75,
+        806.75,
+        553.5,
+        815.25
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "AI_notice_2": {
+      "source": [
+        79.5,
+        820.25,
+        553.5,
+        828.75
+      ],
+      "target": [
+        79.5,
+        820.25,
+        553.5,
+        828.75
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "all_fonts_embedded": true,
+  "font_count": 20,
+  "glyph_zero_count": 0,
+  "images": 0,
+  "semantic_fields": {
+    "email": {
+      "expected": "ai-nyushi@jp-academy.net",
+      "raw_exact_substring": false,
+      "NFKC_exact_substring": false
+    },
+    "tel": {
+      "expected": "052-451-3821",
+      "raw_exact_substring": false,
+      "NFKC_exact_substring": false
+    },
+    "postal_code": {
+      "expected": "453-0014",
+      "raw_exact_substring": false,
+      "NFKC_exact_substring": false
+    },
+    "address_line1": {
+      "expected": "則武1丁目30-17",
+      "raw_exact_substring": false,
+      "NFKC_exact_substring": false
+    },
+    "url": {
+      "expected": "https://kaihougakuen.my.canva.site/",
+      "raw_exact_substring": true,
+      "NFKC_exact_substring": true
+    }
+  },
+  "findings": [
+    {
+      "severity": "blocking",
+      "issue": "ASCII U+002D input still extracts as U+2011 from embedded Noto CJK font ToUnicode alias mapping. Email, phone and address fail exact text checks despite original ASCII input in script."
+    },
+    {
+      "severity": "limitation",
+      "issue": "Rebuilt native fonts are different glyph designs from original raster typography; exact visual glyph identity is not achieved by bbox fitting."
+    }
+  ],
+  "visual_checks": {
+    "MuPDF_P16": true,
+    "Poppler_P16": true,
+    "obvious_clipping_or_missing_characters": "not observed",
+    "P16_QR": "none in source/draft",
+    "CMYK_conversion": "not performed on this native draft"
+  },
+  "map_check": {
+    "sha256": "5de838cd388bd5c103afc7b16b9121f730ff8b1172bdc5e54bf9cf18d7addbf9",
+    "file": "native-pages-12-15-map-restored.pdf",
+    "railway_dash": "restored and MuPDF visually confirmed",
+    "folios": "all8 spans match source font,size,baseline,width within0.0004pt",
+    "folio_spans": [
+      [
+        {
+          "text": "12",
+          "size": 9.009899139404297,
+          "font": "NotoSansJPThin-Black",
+          "origin": [
+            37.000614166259766,
+            35.7872314453125
+          ],
+          "bbox": [
+            37.000614166259766,
+            25.33574867248535,
+            47.974674224853516,
+            38.382083892822266
+          ]
+        },
+        {
+          "text": "12",
+          "size": 10.008146286010742,
+          "font": "NotoSansJPThin-Bold",
+          "origin": [
+            553.0283813476562,
+            815.8943481445312
+          ],
+          "bbox": [
+            553.0283813476562,
+            804.2844848632812,
+            564.8375854492188,
+            818.7767944335938
+          ]
+        }
+      ],
+      [
+        {
+          "text": "13",
+          "size": 9.009899139404297,
+          "font": "NotoSansJPThin-Black",
+          "origin": [
+            37.000614166259766,
+            35.7872314453125
+          ],
+          "bbox": [
+            37.000614166259766,
+            25.33574867248535,
+            47.974674224853516,
+            38.382083892822266
+          ]
+        },
+        {
+          "text": "13",
+          "size": 10.008146286010742,
+          "font": "NotoSansJPThin-Bold",
+          "origin": [
+            553.0283813476562,
+            825.655029296875
+          ],
+          "bbox": [
+            553.0283813476562,
+            814.045166015625,
+            564.8375854492188,
+            828.5374755859375
+          ]
+        }
+      ],
+      [
+        {
+          "text": "14",
+          "size": 9.009899139404297,
+          "font": "NotoSansJPThin-Black",
+          "origin": [
+            37.000614166259766,
+            35.787353515625
+          ],
+          "bbox": [
+            37.000614166259766,
+            25.33587074279785,
+            47.974674224853516,
+            38.382205963134766
+          ]
+        },
+        {
+          "text": "14",
+          "size": 10.008146286010742,
+          "font": "NotoSansJPThin-Bold",
+          "origin": [
+            553.0283813476562,
+            824.904296875
+          ],
+          "bbox": [
+            553.0283813476562,
+            813.29443359375,
+            564.8375854492188,
+            827.7867431640625
+          ]
+        }
+      ],
+      [
+        {
+          "text": "15",
+          "size": 9.009899139404297,
+          "font": "NotoSansJPThin-Black",
+          "origin": [
+            37.000614166259766,
+            35.787109375
+          ],
+          "bbox": [
+            37.000614166259766,
+            25.33562660217285,
+            47.974674224853516,
+            38.381961822509766
+          ]
+        },
+        {
+          "text": "15",
+          "size": 10.008146286010742,
+          "font": "NotoSansJPThin-Bold",
+          "origin": [
+            553.0283813476562,
+            812.14013671875
+          ],
+          "bbox": [
+            553.0283813476562,
+            800.5302734375,
+            564.8375854492188,
+            815.0225830078125
+          ]
+        }
+      ]
+    ]
+  },
+  "not_final_submission": true
+}

@@ -1,0 +1,974 @@
+{
+  "status": "incomplete_fidelity_review_required_not_for_submission",
+  "pdf": "p8-native-draft.pdf",
+  "sha256": "8b9d75e9a910c8a66645a60b2e812d339061e72db3a54c352745b9d5da5c9ff6",
+  "native_character_count": 700,
+  "raster_publication_letters_intended": false,
+  "known_issues": [
+    "Handwritten source font unavailable; replacement shape differs.",
+    "All retypeset letters are Noto; source typeface shapes and weights may differ even with matched ink bounds.",
+    "Measured smooth native blue shading omits original small texture variations.",
+    "Formal logo-only crops retain raster symbol shapes; Canva includes official wordmark.",
+    "Photo decoded RGB samples are unchanged, but renderer interpolation/compositing differs from source precomposited PNG."
+  ],
+  "text": [
+    {
+      "text": "AIを使いこなす力で、",
+      "origin_pt": [
+        24.003048006096016,
+        73.44932689865381
+      ],
+      "font_pt": 21.122682245364494,
+      "horizontal_scale": 1,
+      "vertical_scale": 1,
+      "source_ink_bbox_px": null,
+      "native": true
+    },
+    {
+      "text": "学びも、仕事も、",
+      "origin_pt": [
+        24.003048006096016,
+        103.45313690627383
+      ],
+      "font_pt": 21.122682245364494,
+      "horizontal_scale": 1,
+      "vertical_scale": 1,
+      "source_ink_bbox_px": null,
+      "native": true
+    },
+    {
+      "text": "もっと広がる。",
+      "origin_pt": [
+        24.003048006096016,
+        133.45694691389383
+      ],
+      "font_pt": 21.122682245364494,
+      "horizontal_scale": 1,
+      "vertical_scale": 1,
+      "source_ink_bbox_px": null,
+      "native": true
+    },
+    {
+      "text": "Google認定資格を持つ講師から、",
+      "origin_pt": [
+        33.70437470732762,
+        366.50892613711835
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 1.5165876777251184,
+      "vertical_scale": 1.6697247706422018,
+      "source_ink_bbox_px": [
+        148,
+        1385,
+        2388,
+        1567
+      ],
+      "native": true
+    },
+    {
+      "text": "AIを実践的に学ぶ。",
+      "origin_pt": [
+        34.3243586487173,
+        422.4178956868552
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 2.2100840336134455,
+      "vertical_scale": 2.127659574468085,
+      "source_ink_bbox_px": [
+        143,
+        1579,
+        1984,
+        1779
+      ],
+      "native": true
+    },
+    {
+      "text": "AIビジネス専門学校では、Google認定資格を持つ講師が、",
+      "origin_pt": [
+        37.68478536957074,
+        450.8099729835824
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.6652310101801097,
+      "vertical_scale": 0.5545454545454546,
+      "source_ink_bbox_px": [
+        157,
+        1831,
+        1856,
+        1892
+      ],
+      "native": true
+    },
+    {
+      "text": "最新のAIツールとGoogleのサービスを使い、実践的に指導します。",
+      "origin_pt": [
+        37.38250969722279,
+        473.6572111676334
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.6518644067796611,
+      "vertical_scale": 0.5871559633027523,
+      "source_ink_bbox_px": [
+        159,
+        1924,
+        2082,
+        1988
+      ],
+      "native": true
+    },
+    {
+      "text": "学校で学んだことを、将来の仕事にそのまま活かせる力を育てます。",
+      "origin_pt": [
+        37.035696672912,
+        496.63349935395524
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.6173654671508749,
+      "vertical_scale": 0.6195652173913043,
+      "source_ink_bbox_px": [
+        158,
+        2017,
+        2028,
+        2074
+      ],
+      "native": true
+    },
+    {
+      "text": "Google認定資格を持つ講師が指導",
+      "origin_pt": [
+        26.76854872565402,
+        540.3929456507562
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.6957087126137841,
+      "vertical_scale": 0.6936936936936937,
+      "source_ink_bbox_px": [
+        115,
+        2191,
+        1185,
+        2268
+      ],
+      "native": true
+    },
+    {
+      "text": "教育の専門知識と最新のAI活用スキルを持つ講師が、",
+      "origin_pt": [
+        310.14046818791314,
+        532.4185764500561
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.4560723514211886,
+      "vertical_scale": 0.4838709677419355,
+      "source_ink_bbox_px": [
+        1293,
+        2177,
+        2352,
+        2222
+      ],
+      "native": true
+    },
+    {
+      "text": "基礎から実践まで丁寧に教えます。",
+      "origin_pt": [
+        309.9298329818084,
+        547.0920807059006
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.4474199869366427,
+      "vertical_scale": 0.4673913043478261,
+      "source_ink_bbox_px": [
+        1293,
+        2240,
+        1978,
+        2283
+      ],
+      "native": true
+    },
+    {
+      "text": "Google",
+      "origin_pt": [
+        96.11618149052323,
+        575.1130302260605
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.5133531157270029,
+      "vertical_scale": 0.5,
+      "source_ink_bbox_px": [
+        403,
+        2356,
+        576,
+        2408
+      ],
+      "native": true
+    },
+    {
+      "text": "認定教育者",
+      "origin_pt": [
+        96.09854445318648,
+        593.3374721004762
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.5467479674796748,
+      "vertical_scale": 0.5638297872340425,
+      "source_ink_bbox_px": [
+        402,
+        2424,
+        671,
+        2477
+      ],
+      "native": true
+    },
+    {
+      "text": "レベル1",
+      "origin_pt": [
+        95.67341026573946,
+        611.8552568812455
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.5705705705705706,
+      "vertical_scale": 0.5853658536585366,
+      "source_ink_bbox_px": [
+        410,
+        2504,
+        600,
+        2552
+      ],
+      "native": true
+    },
+    {
+      "text": "Google",
+      "origin_pt": [
+        291.2395940815621,
+        575.0576385768157
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.5311572700296736,
+      "vertical_scale": 0.5096153846153846,
+      "source_ink_bbox_px": [
+        1216,
+        2355,
+        1395,
+        2408
+      ],
+      "native": true
+    },
+    {
+      "text": "認定教育者",
+      "origin_pt": [
+        291.48042802183164,
+        593.3374721004762
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.5508130081300813,
+      "vertical_scale": 0.5638297872340425,
+      "source_ink_bbox_px": [
+        1216,
+        2424,
+        1487,
+        2477
+      ],
+      "native": true
+    },
+    {
+      "text": "レベル2",
+      "origin_pt": [
+        290.5389297604942,
+        612.066015351543
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.6287425149700598,
+      "vertical_scale": 0.6097560975609756,
+      "source_ink_bbox_px": [
+        1223,
+        2503,
+        1433,
+        2553
+      ],
+      "native": true
+    },
+    {
+      "text": "Gemini",
+      "origin_pt": [
+        487.3571807437733,
+        576.0702602128097
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.5205882352941177,
+      "vertical_scale": 0.5060240963855421,
+      "source_ink_bbox_px": [
+        2033,
+        2359,
+        2210,
+        2401
+      ],
+      "native": true
+    },
+    {
+      "text": "認定教育者",
+      "origin_pt": [
+        487.5867938321243,
+        594.29759402072
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.5487804878048781,
+      "vertical_scale": 0.5638297872340425,
+      "source_ink_bbox_px": [
+        2033,
+        2428,
+        2303,
+        2481
+      ],
+      "native": true
+    },
+    {
+      "text": "Google for Education",
+      "origin_pt": [
+        51.693499238391674,
+        632.5165459764883
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.43962848297213625,
+      "vertical_scale": 0.4339622641509434,
+      "source_ink_bbox_px": [
+        218,
+        2600,
+        644,
+        2646
+      ],
+      "native": true
+    },
+    {
+      "text": "Certified Educator",
+      "origin_pt": [
+        57.95582922126699,
+        644.3852413314584
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.4246737841043891,
+      "vertical_scale": 0.4024390243902439,
+      "source_ink_bbox_px": [
+        244,
+        2652,
+        602,
+        2685
+      ],
+      "native": true
+    },
+    {
+      "text": "Level 1",
+      "origin_pt": [
+        82.7620404100743,
+        656.1485056303447
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.4201954397394137,
+      "vertical_scale": 0.3950617283950617,
+      "source_ink_bbox_px": [
+        349,
+        2702,
+        478,
+        2734
+      ],
+      "native": true
+    },
+    {
+      "text": "Google for Education",
+      "origin_pt": [
+        243.1753995396536,
+        632.6999654942706
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.48297213622291024,
+      "vertical_scale": 0.44339622641509435,
+      "source_ink_bbox_px": [
+        1016,
+        2600,
+        1484,
+        2647
+      ],
+      "native": true
+    },
+    {
+      "text": "Certified Educator",
+      "origin_pt": [
+        252.33097441283854,
+        645.0994783696885
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.45907473309608543,
+      "vertical_scale": 0.4268292682926829,
+      "source_ink_bbox_px": [
+        1054,
+        2653,
+        1441,
+        2688
+      ],
+      "native": true
+    },
+    {
+      "text": "Level 2",
+      "origin_pt": [
+        281.40505436350685,
+        657.0997375328085
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.4627831715210356,
+      "vertical_scale": 0.43209876543209874,
+      "source_ink_bbox_px": [
+        1177,
+        2703,
+        1320,
+        2738
+      ],
+      "native": true
+    },
+    {
+      "text": "Google for Education",
+      "origin_pt": [
+        439.9989069327984,
+        634.5069874102013
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.4840041279669763,
+      "vertical_scale": 0.46226415094339623,
+      "source_ink_bbox_px": [
+        1836,
+        2606,
+        2305,
+        2655
+      ],
+      "native": true
+    },
+    {
+      "text": "Gemini Educator",
+      "origin_pt": [
+        445.9153870627329,
+        648.9209211751757
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.5425257731958762,
+      "vertical_scale": 0.5061728395061729,
+      "source_ink_bbox_px": [
+        1861,
+        2663,
+        2282,
+        2704
+      ],
+      "native": true
+    },
+    {
+      "text": "授業でGoogleツールを",
+      "origin_pt": [
+        21.252275056274254,
+        675.7034182875706
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.48669950738916257,
+      "vertical_scale": 0.47706422018348627,
+      "source_ink_bbox_px": [
+        90,
+        2775,
+        584,
+        2827
+      ],
+      "native": true
+    },
+    {
+      "text": "活用するための基礎知識と",
+      "origin_pt": [
+        21.025570677095555,
+        690.8494660467583
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.48091603053435117,
+      "vertical_scale": 0.4782608695652174,
+      "source_ink_bbox_px": [
+        90,
+        2838,
+        657,
+        2882
+      ],
+      "native": true
+    },
+    {
+      "text": "実践力を持つ教員の資格です。",
+      "origin_pt": [
+        20.90269945776912,
+        706.6706055151241
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.4860797592174567,
+      "vertical_scale": 0.4891304347826087,
+      "source_ink_bbox_px": [
+        90,
+        2903,
+        736,
+        2948
+      ],
+      "native": true
+    },
+    {
+      "text": "より高度なテクノロジー活用と",
+      "origin_pt": [
+        219.14275106449557,
+        677.1677286832836
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.46316557257476293,
+      "vertical_scale": 0.4782608695652174,
+      "source_ink_bbox_px": [
+        919,
+        2781,
+        1554,
+        2825
+      ],
+      "native": true
+    },
+    {
+      "text": "学習環境設計のスキルを持つ",
+      "origin_pt": [
+        219.6475026413088,
+        693.2080264160529
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.48638132295719844,
+      "vertical_scale": 0.5,
+      "source_ink_bbox_px": [
+        918,
+        2846,
+        1543,
+        2892
+      ],
+      "native": true
+    },
+    {
+      "text": "教員の資格です。",
+      "origin_pt": [
+        220.11482694179577,
+        708.3716910912084
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.48567530695770805,
+      "vertical_scale": 0.4782608695652174,
+      "source_ink_bbox_px": [
+        918,
+        2911,
+        1274,
+        2955
+      ],
+      "native": true
+    },
+    {
+      "text": "教育における生成AI(Gemini)の",
+      "origin_pt": [
+        417.42274519331653,
+        676.008919325531
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.4797101449275362,
+      "vertical_scale": 0.4326923076923077,
+      "source_ink_bbox_px": [
+        1740,
+        2780,
+        2402,
+        2825
+      ],
+      "native": true
+    },
+    {
+      "text": "効果的な活用能力を持つ",
+      "origin_pt": [
+        417.30887395598324,
+        692.9679959359919
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.47794117647058826,
+      "vertical_scale": 0.5,
+      "source_ink_bbox_px": [
+        1740,
+        2845,
+        2260,
+        2891
+      ],
+      "native": true
+    },
+    {
+      "text": "教員の資格です。",
+      "origin_pt": [
+        417.6631866633447,
+        708.3716910912084
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.47885402455661663,
+      "vertical_scale": 0.4782608695652174,
+      "source_ink_bbox_px": [
+        1741,
+        2911,
+        2092,
+        2955
+      ],
+      "native": true
+    },
+    {
+      "text": "主な使用ツール",
+      "origin_pt": [
+        29.379453267577055,
+        743.0143510287021
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.5202312138728323,
+      "vertical_scale": 0.5,
+      "source_ink_bbox_px": [
+        125,
+        3053,
+        485,
+        3100
+      ],
+      "native": true
+    },
+    {
+      "text": "授業・課題・発表・学校生活の中で、さまざまなツールを使い学びます。",
+      "origin_pt": [
+        142.95352411558784,
+        743.79129179311
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.4786509900990099,
+      "vertical_scale": 0.47368421052631576,
+      "source_ink_bbox_px": [
+        597,
+        3058,
+        2144,
+        3103
+      ],
+      "native": true
+    },
+    {
+      "text": "Gemini",
+      "origin_pt": [
+        40.01802283016331,
+        800.0476174446326
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.45588235294117646,
+      "vertical_scale": 0.4457831325301205,
+      "source_ink_bbox_px": [
+        169,
+        3297,
+        324,
+        3334
+      ],
+      "native": true
+    },
+    {
+      "text": "Google Workspace",
+      "origin_pt": [
+        131.92469025736278,
+        799.2830347199157
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.47671840354767187,
+      "vertical_scale": 0.46153846153846156,
+      "source_ink_bbox_px": [
+        552,
+        3293,
+        982,
+        3341
+      ],
+      "native": true
+    },
+    {
+      "text": "NotebookLM",
+      "origin_pt": [
+        275.6979130108342,
+        799.3132074069027
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.4893964110929853,
+      "vertical_scale": 0.47560975609756095,
+      "source_ink_bbox_px": [
+        1153,
+        3292,
+        1453,
+        3331
+      ],
+      "native": true
+    },
+    {
+      "text": "ChatGPT",
+      "origin_pt": [
+        507.8014638576448,
+        803.1536950878781
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.4858490566037736,
+      "vertical_scale": 0.47560975609756095,
+      "source_ink_bbox_px": [
+        2118,
+        3308,
+        2324,
+        3347
+      ],
+      "native": true
+    },
+    {
+      "text": "生成AI",
+      "origin_pt": [
+        42.43738887477775,
+        816.4688959812703
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.44,
+      "vertical_scale": 0.43478260869565216,
+      "source_ink_bbox_px": [
+        179,
+        3365,
+        300,
+        3405
+      ],
+      "native": true
+    },
+    {
+      "text": "文章・画像・分析",
+      "origin_pt": [
+        20.011025931142772,
+        831.5699440094533
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.4078282828282828,
+      "vertical_scale": 0.44565217391304346,
+      "source_ink_bbox_px": [
+        85,
+        3427,
+        408,
+        3468
+      ],
+      "native": true
+    },
+    {
+      "text": "文書作成・資料作成",
+      "origin_pt": [
+        136.1629407563748,
+        816.4480237656128
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.4316143497757848,
+      "vertical_scale": 0.44565217391304346,
+      "source_ink_bbox_px": [
+        569,
+        3364,
+        954,
+        3405
+      ],
+      "native": true
+    },
+    {
+      "text": "共同作業・データ管理",
+      "origin_pt": [
+        131.50379566888168,
+        831.5791457389367
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.4274193548387097,
+      "vertical_scale": 0.44086021505376344,
+      "source_ink_bbox_px": [
+        550,
+        3427,
+        974,
+        3468
+      ],
+      "native": true
+    },
+    {
+      "text": "調査・情報整理",
+      "origin_pt": [
+        276.5809222527536,
+        816.6880542456737
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.4314574314574315,
+      "vertical_scale": 0.44565217391304346,
+      "source_ink_bbox_px": [
+        1154,
+        3365,
+        1453,
+        3406
+      ],
+      "native": true
+    },
+    {
+      "text": "レポート作成",
+      "origin_pt": [
+        281.17605332771643,
+        831.5791457389367
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.4355400696864111,
+      "vertical_scale": 0.44086021505376344,
+      "source_ink_bbox_px": [
+        1181,
+        3427,
+        1431,
+        3468
+      ],
+      "native": true
+    },
+    {
+      "text": "デザイン・画像作成",
+      "origin_pt": [
+        378.2469502776844,
+        816.2171950150353
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.3963963963963964,
+      "vertical_scale": 0.44086021505376344,
+      "source_ink_bbox_px": [
+        1579,
+        3363,
+        1931,
+        3404
+      ],
+      "native": true
+    },
+    {
+      "text": "SNS・ポスター制作",
+      "origin_pt": [
+        377.3213906110712,
+        831.5791457389367
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.40543601359003395,
+      "vertical_scale": 0.44086021505376344,
+      "source_ink_bbox_px": [
+        1574,
+        3427,
+        1932,
+        3468
+      ],
+      "native": true
+    },
+    {
+      "text": "情報収集・アイデア出し",
+      "origin_pt": [
+        484.59658667247425,
+        818.3774693355839
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.36798528058877644,
+      "vertical_scale": 0.44086021505376344,
+      "source_ink_bbox_px": [
+        2020,
+        3372,
+        2420,
+        3413
+      ],
+      "native": true
+    },
+    {
+      "text": "文章作成・要約",
+      "origin_pt": [
+        501.51829355832626,
+        833.7302183300019
+      ],
+      "font_pt": 24.003048006096016,
+      "horizontal_scale": 0.40144927536231884,
+      "vertical_scale": 0.44565217391304346,
+      "source_ink_bbox_px": [
+        2091,
+        3436,
+        2368,
+        3477
+      ],
+      "native": true
+    },
+    {
+      "text": "8",
+      "source": "downloads/printpack-ready-20261028/build.py",
+      "rect_pt": [
+        14.173228346456694,
+        813.5433070866142,
+        39.68503937007874,
+        827.7165354330709
+      ],
+      "font_pt": 9,
+      "font": "NimbusSans-Bold",
+      "native": true
+    }
+  ],
+  "photo_validation": {
+    "native_image_checks": [
+      {
+        "source": "books/prospectus-jp-isen-2028/work/teacher/background-extended.png",
+        "source_decoded_pixel_sha256": "1e500589d397c014c4e78a61a2c55d7e7d8e296ba400be359530a85b343bb3f6",
+        "pdf_decoded_pixel_sha256": "1e500589d397c014c4e78a61a2c55d7e7d8e296ba400be359530a85b343bb3f6",
+        "shape_original": [
+          916,
+          1717,
+          3
+        ],
+        "shape_pdf": [
+          916,
+          1717,
+          3
+        ],
+        "decoded_pixels_identical": true
+      },
+      {
+        "source": "shared/generated-assets/jp-existing-photo-b-r01/B-PHOTO-R07-S02.png",
+        "source_decoded_pixel_sha256": "51eab97d38b7850b42aa41ba101ee11b28a608825308e020430dc445e2737dda",
+        "pdf_decoded_pixel_sha256": "51eab97d38b7850b42aa41ba101ee11b28a608825308e020430dc445e2737dda",
+        "shape_original": [
+          917,
+          1716,
+          3
+        ],
+        "shape_pdf": [
+          917,
+          1716,
+          3
+        ],
+        "decoded_pixels_identical": true
+      }
+    ],
+    "render_comparison": {
+      "mean_absolute_channel_error_outside_handwriting": 1.3701183877009169,
+      "p99_channel_error": 12.0,
+      "percent_exact_pixels": 15.389122471850955
+    },
+    "interpretation": "Source photographs retain identical decoded RGB samples; PDF renderer interpolation/compositing differs from precomposited source PNG. This is not exact rendered-pixel identity."
+  },
+  "improvement_round_2": {
+    "native_blue_shading": "17x9 measured blue samples; smooth native PDF sampled-function shading, no text-bearing background image",
+    "source_ink_bbox_fitting": "All non-handwritten publication lines fitted to measured source ink bounding boxes using independent x/y font transforms.",
+    "visual_review": "Main/lower text extents improved; original handwritten font unavailable. Typeface shapes differ despite matching ink extents.",
+    "final_acceptance": "FAIL_SOURCE_TYPEFACE_FIDELITY"
+  },
+  "native_text_validation": {
+    "chars": 700,
+    "fonts": 3,
+    "glyph_zero_count": 0,
+    "replacement_character_count": 0,
+    "missing_expected_text": [],
+    "font_embedding": "All three fonts embedded; final pdffonts listing verified.",
+    "page_count": 1,
+    "A4_mm": [
+      209.9999940660265,
+      297.0000023735894
+    ],
+    "CMYK": "pending; RGB draft not for submission"
+  },
+  "safety_and_folio": {
+    "folio": "Restored exact print-only build.py position/font/size/colour: A4 5mm left; 9pt NimbusSans-Bold; textbox 287–292mm from top. Latest brochure source P8 has no live text spans, so there is no original native folio span to copy.",
+    "lowest_tool_copy_source_ink_y_px": 3477,
+    "source_layout_height_px": 3508,
+    "bottom_clearance_mm": 2.624572405929304,
+    "source_margin_preserved": true,
+    "safe_margin_5mm": "NOT MET by original tool-copy row. Approx 2.62mm preserved to avoid forbidden repositioning. No visible clipping in both renderers.",
+    "copy_proofread": "All source headings/body/card/tool copy visually read against teacher/page-08.png; original card Gemini uses ASCII parentheses, restored as AI(Gemini). Font shapes remain different."
+  },
+  "multi_renderer": {
+    "MuPDF": "p8-assets/preview.png, visually checked",
+    "Poppler": "p8-assets/poppler-preview.png, visually checked",
+    "structural_fix": "PDF soft mask colour space normalized from ICCBased gray to DeviceGray; initial Poppler Bad image parameters rejected and corrected. Requires fresh render after any subsequent revision."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "status": "partial_not_for_submission",
+  "file": "native-pages-12-16-CMYK-font-embedded-working.pdf",
+  "sha256": "5f41378f6024b549484f5a90744b4c75454ec0a0f0956be993e4560fc1f4a56d",
+  "ghostscript_exit": 0,
+  "frozen_input_sha256": "d7e545ad5a2700a96983a7ad0c20d6075bf5ea13a842f49d448e87095e93755d",
+  "ICC_sha256": "73202ea802e57a63a0be05ed993fde8e4d51cc436120e6c47815ce785ff42916",
+  "ToUnicode_repairs_from_master": [
+    {
+      "font": "NotoSansCJKjp-Regular",
+      "CID": "412b",
+      "GS_unicode": "5D02",
+      "restored_source_unicode": "5E02",
+      "count": 1
+    },
+    {
+      "font": "DTPRebuiltSansJPRegular",
+      "CID": "412b",
+      "GS_unicode": "5D02",
+      "restored_source_unicode": "5E02",
+      "count": 1
+    }
+  ],
+  "pages": [
+    {
+      "page": 12,
+      "live_text_chars": 765,
+      "live_fonts": 81,
+      "zero_or_replacement_glyphs": 0,
+      "normalized_character_count_changes": {},
+      "largest_character_origin_delta_pt": 0.0017828639732639807,
+      "images": 2,
+      "image_components": [
+        4
+      ]
+    },
+    {
+      "page": 13,
+      "live_text_chars": 653,
+      "live_fonts": 81,
+      "zero_or_replacement_glyphs": 0,
+      "normalized_character_count_changes": {},
+      "largest_character_origin_delta_pt": 0.0009236295135755345,
+      "images": 0,
+      "image_components": []
+    },
+    {
+      "page": 14,
+      "live_text_chars": 1363,
+      "live_fonts": 74,
+      "zero_or_replacement_glyphs": 0,
+      "normalized_character_count_changes": {},
+      "largest_character_origin_delta_pt": 0.0012527084809432246,
+      "images": 0,
+      "image_components": []
+    },
+    {
+      "page": 15,
+      "live_text_chars": 475,
+      "live_fonts": 37,
+      "zero_or_replacement_glyphs": 0,
+      "normalized_character_count_changes": {},
+      "largest_character_origin_delta_pt": 0.0009719022179744982,
+      "images": 1,
+      "image_components": [
+        4
+      ]
+    },
+    {
+      "page": 16,
+      "live_text_chars": 481,
+      "live_fonts": 3,
+      "zero_or_replacement_glyphs": 0,
+      "normalized_character_count_changes": {},
+      "largest_character_origin_delta_pt": 0.0012302029034879378,
+      "images": 0,
+      "image_components": []
+    }
+  ],
+  "full_book_complete": false,
+  "independent_final_visual_review": "pending",
+  "printer_check": "not_performed"
+}

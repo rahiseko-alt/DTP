@@ -1,0 +1,41 @@
+{
+  "sha256": "e01cb0e8d991650157c6678d9cfd53a5f892fd7d9e364e972ed06e664f09c574",
+  "semantic_exact_checks": {
+    "email": true,
+    "tel": true,
+    "postal_code": true,
+    "address_line1": true,
+    "url": true
+  },
+  "paint_equal_to_r3_144dpi": true,
+  "glyph_positions_equal_to_r3": true,
+  "new_streams": [
+    {
+      "stream_header": "/CIDInit /ProcSet findresource begin\n12 dict ",
+      "count": 1
+    }
+  ],
+  "replaced_streams": [
+    {
+      "stream_header": "/CIDInit /ProcSet findresource begin\n12 dict ",
+      "count": 1
+    }
+  ],
+  "zero_glyphs": 0,
+  "status": "TECHNICAL_CHECK_PASS_WITH_SOURCE_FONT_FIDELITY_LIMITATION",
+  "reviewed_file": "native-page-16-draft.pdf",
+  "all_fonts_embedded": true,
+  "font_count": 3,
+  "image_count": 0,
+  "all21_source_ink_bbox_edge_max_delta_pt": 0.25,
+  "font_shape_identical_to_source": false,
+  "CMYK_converted": false,
+  "scope": "single-page native rebuild draft, not final full-book submission",
+  "rendered_page_check": "r3 MuPDF/Poppler full-page visual check retained because r4 bitmap/glyph painting is exactly identical; r4 explicitly rendered144dpi and compared byte-for-byte",
+  "limits": [
+    "Different native font designs from raster original. Source-identical typography not achieved by fitting ink bbox.",
+    "Font-embedded draft has not yet undergone CMYK conversion.",
+    "Not16-page booklet, not2-page flyer; no submission approval.",
+    "Later SHA must be separately checked."
+  ]
+}

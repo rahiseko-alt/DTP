@@ -1,208 +1,375 @@
 {
   "status": "draft_not_for_submission",
   "file": "native-page-16-draft.pdf",
-  "sha256": "c155e3f126e033394c77ced9fafbdfff54046beafc8dc5eef5f89c2ada29cb76",
+  "sha256": "e01cb0e8d991650157c6678d9cfd53a5f892fd7d9e364e972ed06e664f09c574",
   "images": 0,
-  "fonts": 30,
+  "fonts": 20,
   "glyph_zero": 0,
   "copy": [
     {
       "text": "AIビジネス専門学校",
       "bbox_pt": [
-        80.0,
-        125.0,
-        515.0,
-        151.0
+        200.25,
+        127.25,
+        394.75,
+        147.0
       ],
-      "font_pt": 21.6,
-      "kind": "native"
+      "font_pt_before_fit": 21.6,
+      "ink_scale": [
+        1.0038709677419355,
+        0.9634146341463414
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "school_name",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
     },
     {
       "text": "学校法人海鵬学園",
       "bbox_pt": [
-        160.0,
-        188.0,
-        435.0,
-        207.0
+        252.75,
+        188.25,
+        342.5,
+        198.75
       ],
-      "font_pt": 10.5,
-      "kind": "native"
+      "font_pt_before_fit": 11.39,
+      "ink_scale": [
+        0.9972222222222222,
+        0.9545454545454546
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "corporation",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
     },
     {
       "text": "設置学科（2年制・商業実務専門課程）",
       "bbox_pt": [
-        86.0,
-        274.0,
-        510.0,
-        294.0
+        86.75,
+        275.5,
+        298.0,
+        287.75
       ],
-      "font_pt": 12.5,
-      "kind": "native"
+      "font_pt_before_fit": 12.5,
+      "ink_scale": [
+        0.9988179669030733,
+        1.0208333333333333
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "department_heading",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
     },
     {
       "text": "■ 国際ビジネスAI科",
       "bbox_pt": [
-        86.0,
-        300.0,
-        250.0,
-        319.0
+        87.25,
+        301.5,
+        183.5,
+        311.5
       ],
-      "font_pt": 11,
-      "kind": "native"
+      "font_pt_before_fit": 11,
+      "ink_scale": [
+        0.9625,
+        0.9523809523809523
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "department_1",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
     },
     {
       "text": "AI活用 / データ分析 / グローバルビジネス実務",
       "bbox_pt": [
-        230.0,
-        301.0,
-        515.0,
-        321.0
+        230.25,
+        303.0,
+        408.0,
+        312.0
       ],
-      "font_pt": 9,
-      "kind": "native"
+      "font_pt_before_fit": 9,
+      "ink_scale": [
+        0.9608108108108108,
+        0.9473684210526315
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "description_1",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
     },
     {
       "text": "■ 総合ビジネス科",
       "bbox_pt": [
-        86.0,
-        325.0,
-        250.0,
-        344.0
+        87.25,
+        325.25,
+        173.25,
+        335.5
       ],
-      "font_pt": 11,
-      "kind": "native"
+      "font_pt_before_fit": 11,
+      "ink_scale": [
+        0.9635854341736695,
+        0.9761904761904762
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "department_2",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
     },
     {
       "text": "販売・サービス / 経営 / 事務 / マーケティング / IT",
       "bbox_pt": [
-        230.0,
-        326.0,
-        515.0,
-        346.0
+        230.75,
+        327.0,
+        422.0,
+        336.0
       ],
-      "font_pt": 9,
-      "kind": "native"
+      "font_pt_before_fit": 9,
+      "ink_scale": [
+        0.9574468085106383,
+        0.9473684210526315
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "description_2",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
     },
     {
       "text": "お問い合わせ・入学相談窓口",
       "bbox_pt": [
-        80.0,
-        392.0,
-        515.0,
-        411.0
+        220.5,
+        394.0,
+        374.5,
+        405.25
       ],
-      "font_pt": 12,
-      "kind": "native"
+      "font_pt_before_fit": 12,
+      "ink_scale": [
+        1.0016260162601627,
+        0.9782608695652174
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "contact_header",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
     },
     {
       "text": "【お電話でのお問い合わせ】",
       "bbox_pt": [
-        91.0,
-        436.0,
-        500.0,
-        453.0
+        98.0,
+        435.75,
+        221.75,
+        446.0
       ],
-      "font_pt": 10.5,
-      "kind": "native"
+      "font_pt_before_fit": 10.5,
+      "ink_scale": [
+        1.0060975609756098,
+        1.025
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "phone_label",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
     },
     {
       "text": "TEL. 052-451-3821",
       "bbox_pt": [
-        91.0,
-        457.0,
-        500.0,
-        483.0
+        91.75,
+        457.75,
+        260.0,
+        471.75
       ],
-      "font_pt": 19,
-      "kind": "native"
+      "font_pt_before_fit": 18.86,
+      "ink_scale": [
+        1.0,
+        0.9655172413793104
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "phone",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
     },
     {
       "text": "【メールでのお問い合わせ】",
       "bbox_pt": [
-        91.0,
-        496.0,
-        500.0,
-        513.0
+        98.0,
+        495.75,
+        221.75,
+        506.0
       ],
-      "font_pt": 10.5,
-      "kind": "native"
+      "font_pt_before_fit": 10.5,
+      "ink_scale": [
+        1.0060975609756098,
+        1.025
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "email_label",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
     },
     {
       "text": "ai-nyushi@jp-academy.net",
       "bbox_pt": [
-        91.0,
-        518.0,
-        510.0,
-        543.0
+        91.75,
+        516.5,
+        256.25,
+        529.5
       ],
-      "font_pt": 13,
-      "kind": "native"
+      "font_pt_before_fit": 12.47,
+      "ink_scale": [
+        0.9939577039274925,
+        0.9811320754716981
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "email",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
     },
     {
       "text": "【学校所在地・交通アクセス】",
       "bbox_pt": [
-        91.0,
-        551.0,
-        510.0,
-        570.0
+        98.0,
+        548.5,
+        231.75,
+        558.75
       ],
-      "font_pt": 10.5,
-      "kind": "native"
+      "font_pt_before_fit": 10.5,
+      "ink_scale": [
+        1.0018726591760299,
+        1.025
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "address_label",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
     },
     {
       "text": "〒453-0014 愛知県名古屋市中村区則武1丁目30-17",
       "bbox_pt": [
-        91.0,
-        570.0,
-        515.0,
-        588.0
+        93.25,
+        570.75,
+        277.25,
+        578.25
       ],
-      "font_pt": 8.2,
-      "kind": "native"
+      "font_pt_before_fit": 8.2,
+      "ink_scale": [
+        1.0013605442176872,
+        0.967741935483871
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "address",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
     },
     {
       "text": "JR・名鉄・近鉄・地下鉄「名古屋駅」太閤通口（西口）より徒歩10分",
       "bbox_pt": [
-        91.0,
-        587.0,
-        518.0,
-        612.0
+        91.5,
+        590.0,
+        408.0,
+        599.75
       ],
-      "font_pt": 9.5,
-      "kind": "native"
+      "font_pt_before_fit": 9.5,
+      "ink_scale": [
+        1.0611902766135792,
+        1.054054054054054
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "traffic",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
     },
     {
       "text": "学校公式サイト・最新募集要項はこちら",
       "bbox_pt": [
-        90.0,
-        676.0,
-        505.0,
-        697.0
+        198.75,
+        675.5,
+        396.0,
+        686.0
       ],
-      "font_pt": 11.5,
-      "kind": "native"
+      "font_pt_before_fit": 11.5,
+      "ink_scale": [
+        0.9610231425091352,
+        0.9333333333333333
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "site_label",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
     },
     {
       "text": "https://kaihougakuen.my.canva.site/",
       "bbox_pt": [
-        90.0,
-        695.0,
-        505.0,
-        714.0
+        218.25,
+        696.75,
+        377.75,
+        706.5
       ],
-      "font_pt": 10,
-      "kind": "native"
+      "font_pt_before_fit": 10,
+      "ink_scale": [
+        0.9273255813953488,
+        0.9285714285714286
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "url",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
     },
     {
       "text": "学びを、未来の力に。",
       "bbox_pt": [
-        90.0,
-        760.0,
-        505.0,
-        785.0
+        226.75,
+        757.5,
+        360.75,
+        770.5
       ],
-      "font_pt": 14,
-      "kind": "native"
+      "font_pt_before_fit": 14.4,
+      "ink_scale": [
+        1.0,
+        0.9454545454545454
+      ],
+      "kind": "native_type_fitted_to_measured_source_ink",
+      "source_line": "slogan",
+      "font_shape_fidelity": "replacement_font_not_identical_to_raster"
+    },
+    {
+      "text": "Artificial Intelligence Business College",
+      "bbox_pt": [
+        209.23304748535156,
+        152.71249389648438,
+        386.0426940917969,
+        167.13949584960938
+      ],
+      "font_pt": 10.5,
+      "kind": "native_source_values_retypeset",
+      "source_origin_pt": [
+        209.23304748535156,
+        164.0
+      ]
+    },
+    {
+      "text": "本パンフレットには、AIにより生成・加工した画像を使用しています。",
+      "bbox_pt": [
+        264.24609375,
+        803.7119750976562,
+        559.4988403320312,
+        817.1784057617188
+      ],
+      "font_pt": 9.299999237060547,
+      "kind": "native_source_values_retypeset",
+      "source_origin_pt": [
+        264.24609375,
+        814.5
+      ]
+    },
+    {
+      "text": "実在の人物の写真を参考にした画像については、ご本人からAIによる生成・加工および掲載への同意を得ています。",
+      "bbox_pt": [
+        78.85546875,
+        817.2119750976562,
+        559.5023803710938,
+        830.6784057617188
+      ],
+      "font_pt": 9.299999237060547,
+      "kind": "native_source_values_retypeset",
+      "source_origin_pt": [
+        78.85546875,
+        828.0
+      ]
+    }
+  ],
+  "ToUnicode_input_alias_repairs": [
+    {
+      "font": "/DTPRebuiltSansJPBold Bold",
+      "CID": "000e",
+      "alias": "2011",
+      "input_unicode": "002d"
+    },
+    {
+      "font": "/DTPRebuiltSansJPBold Bold",
+      "CID": "0001",
+      "alias": "00a0",
+      "input_unicode": "0020"
     }
   ],
   "source_facts": "company-data/facts/school.yaml",

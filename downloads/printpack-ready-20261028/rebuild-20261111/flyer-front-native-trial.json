@@ -1,0 +1,383 @@
+{
+  "status": "FAIL_NOT_FOR_SUBMISSION",
+  "source": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-pdf/20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464/digital-cover-oc-draft-20261028-pdf.pdf",
+  "source_sha256": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464",
+  "output": "flyer-front-native-trial.pdf",
+  "output_sha256": "5bd05d805e61c9e73bfd55f300b31f2190b963b27f1a9ac07a6f5a309870f98a",
+  "pages": 1,
+  "size_pt": [
+    595.2755905511812,
+    841.8897637795276
+  ],
+  "photo_extraction": {
+    "source_xref": 9,
+    "source_image_rect_pt": [
+      0.0,
+      0.7451171875,
+      594.8568725585938,
+      842.0097045898438
+    ],
+    "source_image_matrix": [
+      594.8568725585938,
+      0.0,
+      -0.0,
+      841.2645874023438,
+      0.0,
+      0.7451171875
+    ],
+    "right_shortfall_pt": 0.4187179925874034,
+    "right_shortfall_mm": 0.14771440294055618,
+    "crop_pixels": [
+      0,
+      640,
+      2480,
+      2597
+    ],
+    "placement_pt": [
+      0.0,
+      154.22554362350343,
+      594.8568725585938,
+      623.5399100848451
+    ],
+    "resampled": false,
+    "retouched": false,
+    "source_pixel_mode": "RGB",
+    "decoded_pixel_equal_to_original_crop": true
+  },
+  "native_header_copy": [
+    {
+      "text": "AI BUSINESS’28",
+      "origin_pt": [
+        15.93022854505619,
+        88.23972737777447
+      ],
+      "font_size_pt": 97.41308698285115,
+      "font": "TitleBold",
+      "horizontal_scale": 0.7471410797843402,
+      "source_ink_pixels": [
+        74,
+        64,
+        2418,
+        375
+      ],
+      "source_ink_bbox_pt": [
+        17.74976151989352,
+        16.093159831100344,
+        579.9854507446289,
+        90.67505455234576
+      ],
+      "source_color_median_RGB": [
+        3,
+        78,
+        146
+      ],
+      "font_unit_ink_bbox_pt": [
+        0.5,
+        -14.8125,
+        155.0,
+        0.5
+      ]
+    },
+    {
+      "text": "AIビジネス専門学校",
+      "origin_pt": [
+        21.191964457917308,
+        130.06910027274634
+      ],
+      "font_size_pt": 32.56410363527046,
+      "font": "JPBold",
+      "horizontal_scale": 0.8268240265151268,
+      "source_ink_pixels": [
+        88,
+        423,
+        1093,
+        552
+      ],
+      "source_ink_bbox_pt": [
+        21.10782451014365,
+        102.18608653504602,
+        262.1687748816706,
+        133.12198498855295
+      ],
+      "source_color_median_RGB": [
+        6,
+        82,
+        149
+      ],
+      "font_unit_ink_bbox_pt": [
+        -0.0625,
+        -17.125,
+        179.0,
+        1.875
+      ]
+    },
+    {
+      "text": "国際ビジネスAI科 ／ 総合ビジネス科",
+      "origin_pt": [
+        291.8297055751411,
+        114.51978884984322
+      ],
+      "font_size_pt": 14.738186644516894,
+      "font": "JPBold",
+      "horizontal_scale": 0.9420964538985438,
+      "source_ink_pixels": [
+        1221,
+        422,
+        2166,
+        480
+      ],
+      "source_ink_bbox_pt": [
+        292.87106507824313,
+        101.94627336873975,
+        519.5403169201267,
+        115.85543701450257
+      ],
+      "source_color_median_RGB": [
+        33,
+        92,
+        151
+      ],
+      "font_unit_ink_bbox_pt": [
+        1.5,
+        -17.0625,
+        328.0,
+        1.8125
+      ]
+    },
+    {
+      "text": "AI活用 / ビジネス実務 / データ分析 / グローバルビジネス / マーケティング / IT活用 /",
+      "origin_pt": [
+        292.6550703650165,
+        129.3577747531387
+      ],
+      "font_size_pt": 7.536985226768044,
+      "font": "JPBold",
+      "horizontal_scale": 1.013325226086284,
+      "source_ink_pixels": [
+        1220,
+        509,
+        2421,
+        542
+      ],
+      "source_ink_bbox_pt": [
+        292.6312034360824,
+        122.81001883738396,
+        580.7050356711111,
+        130.7238533254904
+      ],
+      "source_color_median_RGB": [
+        67,
+        111,
+        156
+      ],
+      "font_unit_ink_bbox_pt": [
+        -0.0625,
+        -17.375,
+        754.3125,
+        3.625
+      ]
+    },
+    {
+      "text": "プレゼンテーション / プロジェクト実習 / キャリア支援",
+      "origin_pt": [
+        292.05626207082685,
+        141.46518556483645
+      ],
+      "font_size_pt": 6.892833522575001,
+      "font": "JPBold",
+      "horizontal_scale": 1.1125662853064924,
+      "source_ink_pixels": [
+        1221,
+        562,
+        2006,
+        592
+      ],
+      "source_ink_bbox_pt": [
+        292.87106507824313,
+        135.5201166516155,
+        481.1624541744109,
+        142.71451164080315
+      ],
+      "source_color_median_RGB": [
+        71,
+        115,
+        160
+      ],
+      "font_unit_ink_bbox_pt": [
+        2.125,
+        -17.25,
+        493.1875,
+        3.625
+      ]
+    }
+  ],
+  "native_characters": 231,
+  "font_count": 26,
+  "blockers": [
+    "Source header typography and wall texture are fused in a raster image. This trial uses a flat grey field and approximate fonts/metrics, so it DOES NOT satisfy original design preservation.",
+    "Source photo mapping stops about 0.419pt short of right page edge. This trial does not stretch the photo and has not repaired that outer strip.",
+    "Independent visual comparison and full CMYK conversion pending."
+  ],
+  "cta_policy": "Original managed native overlay imported unchanged; no page screenshot used as background.",
+  "final_submission": false,
+  "verification": {
+    "photo_interior": {
+      "dpi": 144,
+      "different_channels": 1663525,
+      "max_channel_delta": 34,
+      "mean_channel_delta": 0.9940905288426566
+    },
+    "cta": {
+      "dpi": 144,
+      "different_channels": 4606,
+      "max_channel_delta": 82,
+      "mean_channel_delta": 0.030407265964266045
+    },
+    "qr": {
+      "150": [
+        "https://drive.google.com/file/d/1Flb0l-VlY3PrHbKhjS0bm99pg_OBdtXo/view?usp=drive_link",
+        "https://drive.google.com/file/d/1wfbfRXTMtNotX3-1zaVgLdGH7DXI5xDZ/view?usp=drive_link"
+      ],
+      "300": [
+        "https://drive.google.com/file/d/1Flb0l-VlY3PrHbKhjS0bm99pg_OBdtXo/view?usp=drive_link",
+        "https://drive.google.com/file/d/1wfbfRXTMtNotX3-1zaVgLdGH7DXI5xDZ/view?usp=drive_link"
+      ]
+    }
+  },
+  "visual_review": "Subagent viewed the full-page rendered trial. Native text is sharp; header title font and wall background differ from source. Not accepted.",
+  "glyph_zero": 0,
+  "header_ink_comparison": [
+    {
+      "text": "AI BUSINESS’28",
+      "source_ink_bbox_pt": [
+        17.74976151989352,
+        16.093159831100344,
+        579.9854507446289,
+        90.67505455234576
+      ],
+      "native_ink_bbox_pt": [
+        17.875,
+        16.0,
+        579.875,
+        90.5
+      ],
+      "edge_delta_pt": [
+        0.12523848010647853,
+        -0.09315983110034409,
+        -0.11045074462890625,
+        -0.17505455234575606
+      ],
+      "maximum_absolute_edge_delta_pt": 0.17505455234575606,
+      "measurement_dpi": 576
+    },
+    {
+      "text": "AIビジネス専門学校",
+      "source_ink_bbox_pt": [
+        21.10782451014365,
+        102.18608653504602,
+        262.1687748816706,
+        133.12198498855295
+      ],
+      "native_ink_bbox_pt": [
+        21.125,
+        102.25,
+        262.125,
+        133.125
+      ],
+      "edge_delta_pt": [
+        0.017175489856349202,
+        0.06391346495398409,
+        -0.043774881670572086,
+        0.0030150114470473
+      ],
+      "maximum_absolute_edge_delta_pt": 0.06391346495398409,
+      "measurement_dpi": 576
+    },
+    {
+      "text": "国際ビジネスAI科 ／ 総合ビジネス科",
+      "source_ink_bbox_pt": [
+        292.87106507824313,
+        101.94627336873975,
+        519.5403169201267,
+        115.85543701450257
+      ],
+      "native_ink_bbox_pt": [
+        292.875,
+        101.875,
+        519.5,
+        115.875
+      ],
+      "edge_delta_pt": [
+        0.003934921756865606,
+        -0.0712733687397531,
+        -0.04031692012665644,
+        0.019562985497429963
+      ],
+      "maximum_absolute_edge_delta_pt": 0.0712733687397531,
+      "measurement_dpi": 576
+    },
+    {
+      "text": "AI活用 / ビジネス実務 / データ分析 / グローバルビジネス / マーケティング / IT活用 /",
+      "source_ink_bbox_pt": [
+        292.6312034360824,
+        122.81001883738396,
+        580.7050356711111,
+        130.7238533254904
+      ],
+      "native_ink_bbox_pt": [
+        292.625,
+        122.875,
+        580.75,
+        130.75
+      ],
+      "edge_delta_pt": [
+        -0.00620343608238727,
+        0.0649811626160357,
+        0.04496432888890922,
+        0.026146674509590184
+      ],
+      "maximum_absolute_edge_delta_pt": 0.0649811626160357,
+      "measurement_dpi": 576
+    },
+    {
+      "text": "プレゼンテーション / プロジェクト実習 / キャリア支援",
+      "source_ink_bbox_pt": [
+        292.87106507824313,
+        135.5201166516155,
+        481.1624541744109,
+        142.71451164080315
+      ],
+      "native_ink_bbox_pt": [
+        292.875,
+        135.625,
+        481.0,
+        142.75
+      ],
+      "edge_delta_pt": [
+        0.003934921756865606,
+        0.10488334838450442,
+        -0.16245417441092513,
+        0.03548835919684734
+      ],
+      "maximum_absolute_edge_delta_pt": 0.16245417441092513,
+      "measurement_dpi": 576
+    }
+  ],
+  "header_ink_maximum_absolute_edge_delta_pt": 0.17505455234575606,
+  "right_edge_options": {
+    "adopted": "keep_original_photo_mapping_and_record_defect_only",
+    "original_transform": [
+      594.8568725585938,
+      0.0,
+      -0.0,
+      841.2645874023438,
+      0.0,
+      0.7451171875
+    ],
+    "not_authorized": [
+      "stretch or enlarge photograph",
+      "extend 0.1477mm outer photo strip with edge pixels"
+    ],
+    "required_scope_for_edge_extension": "User permission required before altering photograph edge; no extension applied."
+  }
+}
