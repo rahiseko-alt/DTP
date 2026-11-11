@@ -1,5 +1,8 @@
 {
-  "submission_files": [
+  "older_versions": "All PDFs outside final/ are retained history; use only these two for this handoff.",
+  "printer_recheck_performed": false,
+  "submission_files": [],
+  "withdrawn_files": [
     {
       "file": "冊子_正規版_クイック入稿用_A4_16P.pdf",
       "source": "../output/brochure-printpack-CMYK-20261028_クイック入稿用_A4.pdf",
@@ -13,6 +16,6 @@
       "bytes": 20042006
     }
   ],
-  "older_versions": "All PDFs outside final/ are retained history; use only these two for this handoff.",
-  "printer_recheck_performed": false
+  "status": "withdrawn_do_not_submit",
+  "reason": "Rasterized publication text and reported white seams in physical printing; replacements require native vector reconstruction and independent verification."
 }
