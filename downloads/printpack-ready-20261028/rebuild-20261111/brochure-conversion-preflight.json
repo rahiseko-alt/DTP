@@ -1,0 +1,1081 @@
+{
+  "status": "fixed_output_independent_review_pending",
+  "label": "brochure",
+  "native_master": "brochure-CMYK-text-master.pdf",
+  "native_sha256": "0334c032c278b3c77e485dd72a3313144c39a0aeea07b113a339dae40cd8bd73",
+  "outline_print": "brochure-CMYK-outline-print.pdf",
+  "outline_sha256": "decf8ed91965a033f3bd02b98fbc8843952f4ef6c299bd6ac440ea434ade33d2",
+  "frozen_source_sha256": "44f5611faabb146de6d1e3f0de51dbb342794a59e2189ac428ce7dc75990cc8b",
+  "GS_commands": [
+    [
+      "gs",
+      "-dSAFER",
+      "--permit-file-read=/workspace/DTP/downloads/printpack-ready-20261028/profiles/JapanColor2011Coated.icc",
+      "-dBATCH",
+      "-dNOPAUSE",
+      "-sDEVICE=pdfwrite",
+      "-dCompatibilityLevel=1.4",
+      "-dAutoRotatePages=/None",
+      "-dEmbedAllFonts=true",
+      "-dSubsetFonts=true",
+      "-dNoOutputFonts=false",
+      "-sColorConversionStrategy=CMYK",
+      "-dProcessColorModel=/DeviceCMYK",
+      "-sOutputICCProfile=/workspace/DTP/downloads/printpack-ready-20261028/profiles/JapanColor2011Coated.icc",
+      "-dDownsampleColorImages=false",
+      "-dDownsampleGrayImages=false",
+      "-dDownsampleMonoImages=false",
+      "-dAutoFilterColorImages=false",
+      "-dColorImageFilter=/FlateEncode",
+      "-dAutoFilterGrayImages=false",
+      "-dGrayImageFilter=/FlateEncode",
+      "-sOutputFile=/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/inspection/brochure-CMYK-raw.pdf",
+      "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/inspection/brochure-frozen-native.pdf"
+    ],
+    [
+      "gs",
+      "-dSAFER",
+      "--permit-file-read=/workspace/DTP/downloads/printpack-ready-20261028/profiles/JapanColor2011Coated.icc",
+      "-dBATCH",
+      "-dNOPAUSE",
+      "-sDEVICE=pdfwrite",
+      "-dCompatibilityLevel=1.4",
+      "-dAutoRotatePages=/None",
+      "-dEmbedAllFonts=true",
+      "-dSubsetFonts=true",
+      "-dNoOutputFonts=true",
+      "-sColorConversionStrategy=LeaveColorUnchanged",
+      "-dProcessColorModel=/DeviceCMYK",
+      "-sOutputICCProfile=/workspace/DTP/downloads/printpack-ready-20261028/profiles/JapanColor2011Coated.icc",
+      "-dDownsampleColorImages=false",
+      "-dDownsampleGrayImages=false",
+      "-dDownsampleMonoImages=false",
+      "-dAutoFilterColorImages=false",
+      "-dColorImageFilter=/FlateEncode",
+      "-dAutoFilterGrayImages=false",
+      "-dGrayImageFilter=/FlateEncode",
+      "-sOutputFile=/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/inspection/brochure-CMYK-outline-raw.pdf",
+      "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/brochure-CMYK-text-master.pdf"
+    ]
+  ],
+  "CMYK_master_CMap_source_restorations": [
+    {
+      "font": "DTPRebuiltSansJPRegular",
+      "CID_repairs": {
+        "412B": "5E02"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansJPThin-Regular",
+      "CID_repairs": {
+        "00DC": "006600660069"
+      }
+    },
+    {
+      "font": "NotoSansCJKjp-Regular",
+      "CID_repairs": {
+        "412B": "5E02"
+      }
+    }
+  ],
+  "ICC_sha256": "73202ea802e57a63a0be05ed993fde8e4d51cc436120e6c47815ce785ff42916",
+  "pages": [
+    {
+      "page": 1,
+      "native_chars": 148,
+      "origin_max_delta_pt": 0.0006488126106405426,
+      "images": 6
+    },
+    {
+      "page": 2,
+      "native_chars": 373,
+      "origin_max_delta_pt": 0.0010447535869521295,
+      "images": 3
+    },
+    {
+      "page": 3,
+      "native_chars": 590,
+      "origin_max_delta_pt": 0.0013737148054871555,
+      "images": 5
+    },
+    {
+      "page": 4,
+      "native_chars": 376,
+      "origin_max_delta_pt": 0.0011324447824267257,
+      "images": 4
+    },
+    {
+      "page": 5,
+      "native_chars": 685,
+      "origin_max_delta_pt": 0.0011137870844051916,
+      "images": 16
+    },
+    {
+      "page": 6,
+      "native_chars": 447,
+      "origin_max_delta_pt": 0.0008301678777304348,
+      "images": 4
+    },
+    {
+      "page": 7,
+      "native_chars": 689,
+      "origin_max_delta_pt": 0.0011137870844051916,
+      "images": 18
+    },
+    {
+      "page": 8,
+      "native_chars": 700,
+      "origin_max_delta_pt": 0.0027786083105688568,
+      "images": 14
+    },
+    {
+      "page": 9,
+      "native_chars": 818,
+      "origin_max_delta_pt": 0.0016480198597779061,
+      "images": 22
+    },
+    {
+      "page": 10,
+      "native_chars": 623,
+      "origin_max_delta_pt": 0.0011192090344782867,
+      "images": 20
+    },
+    {
+      "page": 11,
+      "native_chars": 908,
+      "origin_max_delta_pt": 0.001007080078125,
+      "images": 22
+    },
+    {
+      "page": 12,
+      "native_chars": 765,
+      "origin_max_delta_pt": 0.0017828639732639807,
+      "images": 2
+    },
+    {
+      "page": 13,
+      "native_chars": 653,
+      "origin_max_delta_pt": 0.0009236295135755345,
+      "images": 0
+    },
+    {
+      "page": 14,
+      "native_chars": 1363,
+      "origin_max_delta_pt": 0.0012527084809432246,
+      "images": 0
+    },
+    {
+      "page": 15,
+      "native_chars": 475,
+      "origin_max_delta_pt": 0.0009719022179744982,
+      "images": 1
+    },
+    {
+      "page": 16,
+      "native_chars": 481,
+      "origin_max_delta_pt": 0.0012302029034879378,
+      "images": 0
+    }
+  ],
+  "independent_final_visual_and_outline_comparison": "pending"
+}

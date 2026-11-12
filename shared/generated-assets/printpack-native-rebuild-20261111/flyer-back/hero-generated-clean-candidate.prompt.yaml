@@ -1,0 +1,14 @@
+purpose: printpack native publication rebuild; local background repair explicitly
+  authorized by user 2026-11-11
+tool: image_gen.imagegen
+edit: Remove added publication lettering/crest/paint only. Preserve exact people,
+  faces, masks, expressions, skin, clothes, hands, watch, poses and photographic lighting/composition.
+  Candidate used ONLY through continuous repair region alpha; never whole-photo replacement.
+reference_inputs:
+- path: /workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-back/hero-adopted.png
+  sha256: 4802d9284f19f787b0cd4d29a421877ac9eb4abcfeaa3a18a08c21abf271e7a9
+output_sha256: c981cb35bd4c8c7d78f979a0a8ae79185e4d154a2f9b7e00c30acf5e1b4d1b4c
+transparent_background: false
+photographic_constraints: all visible faces/hair/masks/hands/watch retained as original
+  decoded pixels in PDF; generated full photo not adopted
+not_for_whole_photo_substitution: true

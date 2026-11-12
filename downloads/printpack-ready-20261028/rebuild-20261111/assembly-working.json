@@ -1,0 +1,197 @@
+{
+  "status": "working_not_submission",
+  "outputs": [
+    {
+      "label": "brochure",
+      "file": "brochure-native-assembled.pdf",
+      "sha256": "44f5611faabb146de6d1e3f0de51dbb342794a59e2189ac428ce7dc75990cc8b",
+      "pages": [
+        {
+          "page": 1,
+          "input": "cover-native-draft.pdf",
+          "input_page": 1,
+          "sha256": "3651e3d90b86072a0b6306047fde22dac1c274fff9d961683b29fde5d8bd6668",
+          "native_chars": 148,
+          "image_count": 5
+        },
+        {
+          "page": 2,
+          "input": "even-native-draft.pdf",
+          "input_page": 1,
+          "sha256": "6e4240b583a5ab85ddaa4bf791450a260c256ebb2d11e28db88fd32e2f614b26",
+          "native_chars": 373,
+          "image_count": 3
+        },
+        {
+          "page": 3,
+          "input": "odd-native-pages-03-05-07-09.pdf",
+          "input_page": 1,
+          "sha256": "3b5fea71e64eabf37916139ff908c4cded286c70e530d83bfbe813eb1c273ad8",
+          "native_chars": 590,
+          "image_count": 3
+        },
+        {
+          "page": 4,
+          "input": "even-native-draft.pdf",
+          "input_page": 2,
+          "sha256": "6e4240b583a5ab85ddaa4bf791450a260c256ebb2d11e28db88fd32e2f614b26",
+          "native_chars": 376,
+          "image_count": 3
+        },
+        {
+          "page": 5,
+          "input": "odd-native-pages-03-05-07-09.pdf",
+          "input_page": 2,
+          "sha256": "3b5fea71e64eabf37916139ff908c4cded286c70e530d83bfbe813eb1c273ad8",
+          "native_chars": 685,
+          "image_count": 8
+        },
+        {
+          "page": 6,
+          "input": "even-native-draft.pdf",
+          "input_page": 3,
+          "sha256": "6e4240b583a5ab85ddaa4bf791450a260c256ebb2d11e28db88fd32e2f614b26",
+          "native_chars": 447,
+          "image_count": 3
+        },
+        {
+          "page": 7,
+          "input": "odd-native-pages-03-05-07-09.pdf",
+          "input_page": 3,
+          "sha256": "3b5fea71e64eabf37916139ff908c4cded286c70e530d83bfbe813eb1c273ad8",
+          "native_chars": 689,
+          "image_count": 9
+        },
+        {
+          "page": 8,
+          "input": "p8-native-draft.pdf",
+          "input_page": 1,
+          "sha256": "6acf78556f062c6c1ee99dc6f77fa6c2c38504a76dbe14e2038e2e846fcd37a2",
+          "native_chars": 700,
+          "image_count": 12
+        },
+        {
+          "page": 9,
+          "input": "odd-native-pages-03-05-07-09.pdf",
+          "input_page": 4,
+          "sha256": "3b5fea71e64eabf37916139ff908c4cded286c70e530d83bfbe813eb1c273ad8",
+          "native_chars": 818,
+          "image_count": 13
+        },
+        {
+          "page": 10,
+          "input": "support-p10-native-draft.pdf",
+          "input_page": 1,
+          "sha256": "edebb95bdb4d10c431fa1c7a0d69ded1e63d849a3eb3ccffea6b49e7eca1724e",
+          "native_chars": 623,
+          "image_count": 18
+        },
+        {
+          "page": 11,
+          "input": "support-p11-native-draft.pdf",
+          "input_page": 1,
+          "sha256": "be702da0239749642643351ebfc9179b87b857eb0560eaaae7a32785302eb37d",
+          "native_chars": 908,
+          "image_count": 24
+        },
+        {
+          "page": 12,
+          "input": "native-pages-12-16-working-master.pdf",
+          "input_page": 1,
+          "sha256": "d7e545ad5a2700a96983a7ad0c20d6075bf5ea13a842f49d448e87095e93755d",
+          "native_chars": 765,
+          "image_count": 2
+        },
+        {
+          "page": 13,
+          "input": "native-pages-12-16-working-master.pdf",
+          "input_page": 2,
+          "sha256": "d7e545ad5a2700a96983a7ad0c20d6075bf5ea13a842f49d448e87095e93755d",
+          "native_chars": 653,
+          "image_count": 0
+        },
+        {
+          "page": 14,
+          "input": "native-pages-12-16-working-master.pdf",
+          "input_page": 3,
+          "sha256": "d7e545ad5a2700a96983a7ad0c20d6075bf5ea13a842f49d448e87095e93755d",
+          "native_chars": 1363,
+          "image_count": 0
+        },
+        {
+          "page": 15,
+          "input": "native-pages-12-16-working-master.pdf",
+          "input_page": 4,
+          "sha256": "d7e545ad5a2700a96983a7ad0c20d6075bf5ea13a842f49d448e87095e93755d",
+          "native_chars": 475,
+          "image_count": 1
+        },
+        {
+          "page": 16,
+          "input": "native-pages-12-16-working-master.pdf",
+          "input_page": 5,
+          "sha256": "d7e545ad5a2700a96983a7ad0c20d6075bf5ea13a842f49d448e87095e93755d",
+          "native_chars": 481,
+          "image_count": 0
+        }
+      ],
+      "input_alias_repairs": [
+        {
+          "font": "/DTPRebuiltSansJPBold Bold",
+          "CID": "000e",
+          "alias": "2011",
+          "input_unicode": "002d"
+        },
+        {
+          "font": "/DTPRebuiltSansJPBold Bold",
+          "CID": "0001",
+          "alias": "00a0",
+          "input_unicode": "0020"
+        }
+      ]
+    },
+    {
+      "label": "flyer",
+      "file": "flyer-native-assembled.pdf",
+      "sha256": "59741a08bf6cab4ac9f798a1803413da244080f68ca2a118225f062cad463f05",
+      "pages": [
+        {
+          "page": 1,
+          "input": "flyer-front-native-trial.pdf",
+          "input_page": 1,
+          "sha256": "d150ad21ef3607329a5e024da862c306778172dc071287f69106e1cabbf3da01",
+          "native_chars": 231,
+          "image_count": 4
+        },
+        {
+          "page": 2,
+          "input": "flyer-back-native-candidate.pdf",
+          "input_page": 1,
+          "sha256": "fa3253ed8935c2b40db6fb60985b974f6723a22a9cddaa034d22e05428b29559",
+          "native_chars": 417,
+          "image_count": 11
+        }
+      ],
+      "input_alias_repairs": [
+        {
+          "font": "/DTPRebuiltSansJPBold Bold",
+          "CID": "000e",
+          "alias": "2011",
+          "input_unicode": "002d"
+        },
+        {
+          "font": "/DTPRebuiltSansJPBold Bold",
+          "CID": "0001",
+          "alias": "00a0",
+          "input_unicode": "0020"
+        },
+        {
+          "font": "/DTPRebuiltSansJPBold Bold",
+          "CID": "0001",
+          "alias": "00a0",
+          "input_unicode": "0020"
+        }
+      ]
+    }
+  ]
+}

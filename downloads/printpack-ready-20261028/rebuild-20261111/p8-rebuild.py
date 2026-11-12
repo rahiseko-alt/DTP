@@ -39,14 +39,21 @@ def text(x,y,t,px=48,bold=False,width=None,color=(.08,.1,.12),angle=0):
 def lines(x,y,items,px=48,step=65,**kw):
  for i,t in enumerate(items):text(x,y+i*step,t,px,**kw)
 # Layout images use the exact adopted component; publication text is never inserted as an image.
-p.insert_image(fitz.Rect(0,0,w,1322*s),filename=str(S/'background-extended.png'))
+p.insert_image(fitz.Rect(0,0,w,1322*s),filename=str(S/'background-extended.png'),keep_proportion=False)
 # Existing composite's measured placement and 70/50 px transition, applied as a PDF soft mask.
 photo=R/'shared/generated-assets/jp-existing-photo-b-r01/B-PHOTO-R07-S02.png'; pix=fitz.Pixmap(str(photo));pw,ph=pix.width,pix.height
 alpha=np.minimum(np.minimum(np.arange(pw)[None,:]/(70*pw/1960),np.ones((ph,1))),np.minimum(np.arange(ph)[:,None]/(50*pw/1960),np.ones((1,pw))));alpha=np.clip(alpha*255,0,255).astype('uint8')
 mask=fitz.Pixmap(fitz.csGRAY,pw,ph,alpha.tobytes(),False).tobytes('png')
-p.insert_image(fitz.Rect(520*s,275*s,2480*s,1322*s),filename=str(photo),mask=mask)
-# Handwritten source font is unavailable: explicit unresolved fidelity issue, not a passed match.
-lines(100,306,['AIを使いこなす力で、','学びも、仕事も、','もっと広がる。'],88,step=125,angle=12)
+p.insert_image(fitz.Rect(520*s,275*s,2480*s,1322*s),filename=str(photo),mask=mask,keep_proportion=False)
+# Preserve the independently measured ink bounds and angle of each handwritten
+# line. The embedded font is a substitute, never a claim of original font identity.
+hand=json.loads((B/'strict-p8-handwriting-ink.json').read_text())['rows']
+for row in hand:
+ temp=fitz.open();tp=temp.new_page(width=1500,height=700);tp.insert_font(fontname='Hand',fontfile=str(R/'shared/generated-assets/printpack-native-rebuild-20261111/fonts/Yomogi-Regular.ttf'));pt=fitz.Point(150,500)
+ tp.insert_text(pt,row['text'],fontsize=70,fontname='Hand',morph=(pt,fitz.Matrix(row['minimum_height_rect_angle_deg'])))
+ pix=tp.get_pixmap(matrix=fitz.Matrix(2,2),alpha=True);a=np.frombuffer(pix.samples,np.uint8).reshape(pix.height,pix.width,4);yy,xx=np.where(a[:,:,3]>30);ink=fitz.Rect(xx.min()/2,yy.min()/2,(xx.max()+1)/2,(yy.max()+1)/2)
+ target=fitz.Rect(row['source_ink_bbox_A4_pt']);mx,my=target.width/ink.width,target.height/ink.height;p.show_pdf_page(target+(-mx,-my,mx,my),temp,0,clip=ink+(-1,-1,1,1),keep_proportion=False)
+ records.append({'text':row['text'],'source_ink_bbox_px':row['source_ink_bbox_px'],'native':True,'source_angle_deg':row['minimum_height_rect_angle_deg'],'target_ink_pt':list(target),'font_identity':'Yomogi OFL substitute'})
 blue=(0,.31,.55) # Native sampled-function shading is installed after saving.
 text(136,1526,'Google認定資格を持つ講師から、',161,True,2215,(1,1,1))
 text(136,1767,'AIを実践的に学ぶ。',208,True,1870,(1,1,1))
@@ -60,7 +67,7 @@ for x in [57,847,1680]:
 icons=[('g1',[160,2380,342,2570]),('g2',[955,2380,1140,2570]),('gem',[1770,2380,1960,2570]),('small-gem',[167,3150,318,3290]),('workspace',[485,3150,1035,3285]),('notebook',[1225,3155,1370,3290]),('canva',[1660,3125,1840,3310]),('chatgpt',[2135,3125,2310,3310])]
 for name,r in icons:
  out=A/(name+'.png');subprocess.run(['magick',str(I),'-crop',f'{r[2]-r[0]}x{r[3]-r[1]}+{r[0]}+{r[1]}','+repage',str(out)],check=True)
- p.insert_image(fitz.Rect([v*s for v in r]),filename=str(out))
+ p.insert_image(fitz.Rect([v*s for v in r]),filename=str(out),keep_proportion=False)
 for x,title,level in [(400,'Google','レベル1'),(1210,'Google','レベル2'),(2030,'Gemini',None)]:
  lines(x,2409,[title,'認定教育者']+([level] if level else []),62,step=75,bold=True,color=blue)
 for x,level in [(213,'Level 1'),(1000,'Level 2')]:lines(x,2655,['Google for Education','Certified Educator',level],45,step=50)
@@ -71,11 +78,8 @@ for x in [449,1080,1530,1980]:p.draw_line((x*s,3165*s),(x*s,3468*s),color=(.7,.8
 for x,label,width in [(163,'Gemini',185),(545,'Google Workspace',490),(1150,'NotebookLM',290),(2140,'ChatGPT',260)]:text(x,3357,label,57,True,width,blue if label in ['Gemini','Google Workspace'] else (.08,.1,.12))
 for x,items,width in [(80,['生成AI','文章・画像・分析'],330),(490,['文書作成・資料作成','共同作業・データ管理'],540),(1120,['調査・情報整理','レポート作成'],360),(1575,['デザイン・画像作成','SNS・ポスター制作'],390),(2020,['情報収集・アイデア出し','文章作成・要約'],420)]:
  for i,t in enumerate(items):text(x,3420+i*65,t,46,width=width)
-# Adopt the print-only build.py folio font, A4 position, point size and colour.
-p.insert_font(fontname='PrintFolio',fontfile='/usr/share/fonts/opentype/urw-base35/NimbusSans-Bold.otf')
-folio_rect=fitz.Rect(5*72/25.4,h-10*72/25.4,14*72/25.4,h-5*72/25.4)
-assert p.insert_textbox(folio_rect,'8',fontsize=9,fontname='PrintFolio',color=(.25,.25,.25),align=0)>=0
-records.append({'text':'8','source':'downloads/printpack-ready-20261028/build.py','rect_pt':list(folio_rect),'font_pt':9,'font':'NimbusSans-Bold','native':True})
+# The page-number is added after artwork normalization to preserve its print
+# A4 position independently of the source image's original slightly inset matrix.
 file=B/'p8-native-draft.pdf';D.save(file,garbage=4,deflate=True);D.close()
 import pikepdf
 from decimal import Decimal
@@ -95,6 +99,27 @@ with pikepdf.open(file,allow_overwriting_input=True) as pdf:
  for xobject in page.Resources.XObject.values():
   if '/SMask' in xobject:xobject.SMask.ColorSpace=pikepdf.Name.DeviceGray
  page.Resources.Shading=pikepdf.Dictionary(P8Blue=shade);page.contents_add(pdf.make_stream(b'q /P8Blue sh Q\n'),prepend=True);pdf.save(file)
+old=fitz.open(file);normalized=fitz.open();p=normalized.new_page(width=w,height=h)
+placement=fitz.Rect(0,.7491188771555128,594.8560617855175,842.009739849697)
+# Fill only the old outer shortages from the nearest original edge; no
+# publication lettering is located in these tiny strips.
+for kind,dest,clip in [('top',fitz.Rect(0,0,w,placement.y0+.02),fitz.Rect(0,0,w-1,.5)),('right',fitz.Rect(placement.x1-.02,placement.y0,w,h),fitz.Rect(w-2,0,w-1.5,h))]:
+ edge=old[0].get_pixmap(matrix=fitz.Matrix(300/72,300/72),clip=clip,alpha=False)
+ if kind=='right':
+  # Rendering a clip at fractional A4's right boundary includes an outside
+  # white pixel. Sample one safely interior column, never that canvas pixel.
+  arr=np.frombuffer(edge.samples,np.uint8).reshape(edge.height,edge.width,3);edge=fitz.Pixmap(fitz.csRGB,1,edge.height,arr[:,:1,:].copy().tobytes(),False)
+ p.insert_image(dest,pixmap=edge,keep_proportion=False)
+p.show_pdf_page(placement,old,0,keep_proportion=False)
+p.insert_font(fontname='PrintFolio',fontfile='/usr/share/fonts/opentype/urw-base35/NimbusSans-Bold.otf');folio_rect=fitz.Rect(5*72/25.4,h-10*72/25.4,14*72/25.4,h-5*72/25.4)
+assert p.insert_textbox(folio_rect,'8',fontsize=9,fontname='PrintFolio',color=(.25,.25,.25),align=0)>=0
+records.append({'text':'8','source':'downloads/printpack-ready-20261028/build.py','rect_pt':list(folio_rect),'font_pt':9,'font':'NimbusSans-Bold','native':True})
+normalized.save(A/'normalized.pdf',garbage=4,deflate=True);old.close();normalized.close()
+import shutil
+shutil.copyfile(A/'normalized.pdf',file)
+with pikepdf.open(file,allow_overwriting_input=True) as pdf:
+ for box in ['/MediaBox','/CropBox','/TrimBox','/BleedBox','/ArtBox']:pdf.pages[0].obj[box]=a4
+ pdf.save(file)
 D=fitz.open(file);p=D[0];p.get_pixmap(matrix=fitz.Matrix(1.2,1.2)).save(A/'preview.png')
 report={'status':'incomplete_fidelity_review_required_not_for_submission','pdf':file.name,'sha256':hashlib.sha256(file.read_bytes()).hexdigest(),'native_character_count':len(p.get_text()),'raster_publication_letters_intended':False,'known_issues':['Source handwritten font unavailable: substituted Noto font is visibly different.','Typography widths/positions measured manually and require strict visual correction.','Blue background is rebuilt as smooth native sampled-function shading from measured text-free blue pixels; minor texture is not reproduced.','Formal logo crops retain raster official symbol shapes (Canva includes wordmark).','Soft mask composition uses original adopted photo and existing clean background; exact raster comparison pending.'],'text':records}
 (B/'p8-rebuild-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

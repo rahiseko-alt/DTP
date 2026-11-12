@@ -1,0 +1,418 @@
+{
+  "status": "draft_independent_review_pending",
+  "file": "cover-native-draft.pdf",
+  "sha256": "3651e3d90b86072a0b6306047fde22dac1c274fff9d961683b29fde5d8bd6668",
+  "source_sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+  "source_normalization": [
+    0.9989186595894499,
+    0.9988251695406838
+  ],
+  "source_image_matrix_A4": [
+    0.0,
+    0.7491188771555128,
+    594.8560617855175,
+    842.009739849697
+  ],
+  "photo_crop_pixels": [
+    0,
+    640,
+    2480,
+    2638
+  ],
+  "photo_decoded_equal": true,
+  "photo_regenerated": false,
+  "photo_retouched": false,
+  "photo_edge_extension_mm": 0.1480004256646939,
+  "header_background": {
+    "file": "shared/generated-assets/printpack-native-rebuild-20261111/cover-header-clean.png",
+    "sha256": "acf9900f9205f7a8d4e507f5f40063d40a02e7bb82dae336f3f5cf218634ce4c",
+    "method": "image_gen text removal, no people in input crop"
+  },
+  "floor_background": {
+    "file": "shared/generated-assets/printpack-native-rebuild-20261111/cover-floor-clean.png",
+    "sha256": "0752c086fda8d32258121f039fdadf6a2fc164a7f640b5fa5335b1385ac8b43b",
+    "method": "image_gen continuous people-free carpet repair; original top70px preserved, next65px feathered before first lettering; no glyph-shaped masks"
+  },
+  "publication_type": [
+    {
+      "text": "AI BUSINESS’28",
+      "source_ink_pixels": [
+        73,
+        64,
+        2418,
+        375
+      ],
+      "target_ink_pt": [
+        17.50987601223499,
+        16.09708915715627,
+        579.9846602408795,
+        90.67863223653494
+      ],
+      "font": "Title",
+      "native": true
+    },
+    {
+      "text": "AIビジネス専門学校",
+      "source_ink_pixels": [
+        88,
+        423,
+        1094,
+        552
+      ],
+      "target_ink_pt": [
+        21.107795740776425,
+        102.18960994653551,
+        262.40827886828873,
+        133.12536254216207
+      ],
+      "font": "JPB",
+      "native": true
+    },
+    {
+      "text": "国際ビジネスAI科 ／ 総合ビジネス科",
+      "source_ink_pixels": [
+        1221,
+        422,
+        2166,
+        480
+      ],
+      "target_ink_pt": [
+        292.8706659032729,
+        101.9497979109105,
+        519.5396088013833,
+        115.85889597716118
+      ],
+      "font": "JPB",
+      "native": true
+    },
+    {
+      "text": "AI活用 / ビジネス実務 / データ分析 / グローバルビジネス / マーケティング / IT活用 /",
+      "source_ink_pixels": [
+        1219,
+        509,
+        2422,
+        543
+      ],
+      "target_ink_pt": [
+        292.3909432728007,
+        122.81344501028651,
+        580.9441055018239,
+        130.96705422153696
+      ],
+      "font": "JPB",
+      "native": true
+    },
+    {
+      "text": "プレゼンテーション / プロジェクト実習 / キャリア支援",
+      "source_ink_pixels": [
+        1221,
+        562,
+        2007,
+        593
+      ],
+      "target_ink_pt": [
+        292.8706659032729,
+        135.52348289841217,
+        481.40165967884417,
+        142.95765600278753
+      ],
+      "font": "JPB",
+      "native": true
+    },
+    {
+      "text": "A",
+      "source_ink_pixels": [
+        94,
+        2793,
+        331,
+        3008
+      ],
+      "target_ink_pt": [
+        22.546963632193002,
+        670.5441343778135,
+        79.3940953431477,
+        722.1037220371911
+      ],
+      "font": "Serif",
+      "native": true
+    },
+    {
+      "text": "I",
+      "source_ink_pixels": [
+        385,
+        2794,
+        490,
+        3005
+      ],
+      "target_ink_pt": [
+        92.34660636589686,
+        670.7839464134386,
+        117.53204446568692,
+        721.384285930316
+      ],
+      "font": "Serif",
+      "native": true
+    },
+    {
+      "text": "を",
+      "source_ink_pixels": [
+        556,
+        2793,
+        722,
+        3003
+      ],
+      "target_ink_pt": [
+        133.36289127126923,
+        670.5441343778135,
+        173.17986960046113,
+        720.9046618590661
+      ],
+      "font": "Serif",
+      "native": true
+    },
+    {
+      "text": "使",
+      "source_ink_pixels": [
+        773,
+        2777,
+        1004,
+        3013
+      ],
+      "target_ink_pt": [
+        185.41279667750203,
+        666.7071418078133,
+        240.82076049704014,
+        723.3027822153161
+      ],
+      "font": "Serif",
+      "native": true
+    },
+    {
+      "text": "い",
+      "source_ink_pixels": [
+        1074,
+        2824,
+        1253,
+        2980
+      ],
+      "target_ink_pt": [
+        257.61105256356683,
+        677.9783074821889,
+        300.54622799082796,
+        715.3889850396907
+      ],
+      "font": "Serif",
+      "native": true
+    },
+    {
+      "text": "こ",
+      "source_ink_pixels": [
+        1336,
+        2814,
+        1474,
+        2993
+      ],
+      "target_ink_pt": [
+        320.4547171554239,
+        675.5801871259388,
+        353.5555786580052,
+        718.5065415028159
+      ],
+      "font": "Serif",
+      "native": true
+    },
+    {
+      "text": "な",
+      "source_ink_pixels": [
+        1561,
+        2791,
+        1742,
+        3005
+      ],
+      "target_ink_pt": [
+        374.42351308354546,
+        670.0645103065634,
+        417.83841114127875,
+        721.384285930316
+      ],
+      "font": "Serif",
+      "native": true
+    },
+    {
+      "text": "す",
+      "source_ink_pixels": [
+        1800,
+        2785,
+        1987,
+        3013
+      ],
+      "target_ink_pt": [
+        431.75036742497235,
+        668.6256380928133,
+        476.60443337412227,
+        723.3027822153161
+      ],
+      "font": "Serif",
+      "native": true
+    },
+    {
+      "text": "社",
+      "source_ink_pixels": [
+        53,
+        3074,
+        372,
+        3443
+      ],
+      "target_ink_pt": [
+        12.712649707513075,
+        737.9313163884418,
+        89.22840926782762,
+        826.4219575340712
+      ],
+      "font": "Serif",
+      "native": true
+    },
+    {
+      "text": "会",
+      "source_ink_pixels": [
+        380,
+        3068,
+        686,
+        3443
+      ],
+      "target_ink_pt": [
+        91.14729978971639,
+        736.4924441746917,
+        164.54486225196166,
+        826.4219575340712
+      ],
+      "font": "Serif",
+      "native": true
+    },
+    {
+      "text": "の",
+      "source_ink_pixels": [
+        697,
+        3186,
+        929,
+        3413
+      ],
+      "target_ink_pt": [
+        167.18333671955872,
+        764.7902643784432,
+        222.83116185433295,
+        819.227596465321
+      ],
+      "font": "Serif",
+      "native": true
+    },
+    {
+      "text": "主",
+      "source_ink_pixels": [
+        946,
+        3068,
+        1239,
+        3422
+      ],
+      "target_ink_pt": [
+        226.90880421334657,
+        736.4924441746917,
+        297.1881695775227,
+        821.385904785946
+      ],
+      "font": "Serif",
+      "native": true
+    },
+    {
+      "text": "役",
+      "source_ink_pixels": [
+        1248,
+        3070,
+        1567,
+        3443
+      ],
+      "target_ink_pt": [
+        299.34692141464745,
+        736.9720682459418,
+        375.862680974962,
+        826.4219575340712
+      ],
+      "font": "Serif",
+      "native": true
+    },
+    {
+      "text": "に",
+      "source_ink_pixels": [
+        1615,
+        3160,
+        1833,
+        3407
+      ],
+      "target_ink_pt": [
+        387.37602410629466,
+        758.5551514521928,
+        439.6657908277635,
+        817.7887242515708
+      ],
+      "font": "Serif",
+      "native": true
+    },
+    {
+      "text": "な",
+      "source_ink_pixels": [
+        1881,
+        3141,
+        2097,
+        3421
+      ],
+      "target_ink_pt": [
+        451.1791339590961,
+        753.9987227753177,
+        502.98917805009273,
+        821.1460927503209
+      ],
+      "font": "Serif",
+      "native": true
+    },
+    {
+      "text": "る",
+      "source_ink_pixels": [
+        2145,
+        3157,
+        2339,
+        3415
+      ],
+      "target_ink_pt": [
+        514.5025211814254,
+        757.8357153453179,
+        561.0356163372279,
+        819.7072205365708
+      ],
+      "font": "Serif",
+      "native": true
+    },
+    {
+      "text": "！",
+      "source_ink_pixels": [
+        2400,
+        3135,
+        2456,
+        3423
+      ],
+      "target_ink_pt": [
+        575.6671565666298,
+        752.5598505615676,
+        589.0993902198511,
+        821.625716821571
+      ],
+      "font": "Serif",
+      "native": true
+    }
+  ],
+  "live_text_chars": 148,
+  "glyph_zero": 0,
+  "limitations": [
+    "New embedded fonts reproduce measured ink bounds; exact raster letterform equivalence cannot be guaranteed.",
+    "RGB working master; CMYK conversion and final independent print preflight pending."
+  ]
+}

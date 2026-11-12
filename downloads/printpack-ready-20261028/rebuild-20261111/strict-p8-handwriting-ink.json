@@ -1,0 +1,76 @@
+{
+  "source": "books/prospectus-jp-isen-2028/work/teacher/page-08.png",
+  "mask": "books/prospectus-jp-isen-2028/work/teacher/copy-mask.png",
+  "method": "Actual source glyph mask threshold128. Three lines separated using y+x*tan(12deg), bands350/477px; minimum projected-height rectangle searched8..18deg in0.01deg increments. No photo or source mutation.",
+  "rows": [
+    {
+      "text": "AIを使いこなす力で、",
+      "source_ink_bbox_px": [
+        103,
+        96,
+        837,
+        323
+      ],
+      "source_ink_bbox_A4_pt": [
+        24.723139446278893,
+        23.042926085852173,
+        200.90551181102364,
+        77.52984505969013
+      ],
+      "minimum_height_rect_angle_deg": 13.03,
+      "deskewed_ink_bounds_px": [
+        28.651308772801286,
+        247.96389367466475,
+        782.7829206438643,
+        339.2996831451324
+      ],
+      "rotation_note": "Positive angle means line rises to the right in source, matching fitz text rotation angle. Angle from minimum ink-height rectangle is an approximation; hand-drawn letters do not share a perfect baseline."
+    },
+    {
+      "text": "学びも、仕事も、",
+      "source_ink_bbox_px": [
+        134,
+        242,
+        708,
+        442
+      ],
+      "source_ink_bbox_A4_pt": [
+        32.164084328168656,
+        58.08737617475235,
+        169.9415798831598,
+        106.09347218694438
+      ],
+      "minimum_height_rect_angle_deg": 14.39,
+      "deskewed_ink_bounds_px": [
+        28.896499334667965,
+        379.58865878760184,
+        612.5053255722779,
+        473.9271556482919
+      ],
+      "rotation_note": "Positive angle means line rises to the right in source, matching fitz text rotation angle. Angle from minimum ink-height rectangle is an approximation; hand-drawn letters do not share a perfect baseline."
+    },
+    {
+      "text": "もっと広がる。",
+      "source_ink_bbox_px": [
+        159,
+        382,
+        632,
+        555
+      ],
+      "source_ink_bbox_A4_pt": [
+        38.164846329692665,
+        91.69164338328677,
+        151.69926339852682,
+        133.21691643383286
+      ],
+      "minimum_height_rect_angle_deg": 13.09,
+      "deskewed_ink_bounds_px": [
+        36.19225810889418,
+        468.04266338584193,
+        519.5757104043289,
+        583.4095610282345
+      ],
+      "rotation_note": "Positive angle means line rises to the right in source, matching fitz text rotation angle. Angle from minimum ink-height rectangle is an approximation; hand-drawn letters do not share a perfect baseline."
+    }
+  ]
+}

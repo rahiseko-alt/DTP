@@ -1,0 +1,19 @@
+{
+  "status": "managed_get_dependency_unavailable_source_itself_verified",
+  "document_id": "prospectus-isen-trial-2028",
+  "asset_id": "curriculum-notice-20261028-brochure-jp-r13-master",
+  "source_sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+  "source_path": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-master/a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74/curriculum-notice-20261028-brochure-jp-r13-master.pdf",
+  "attempted_commands": [
+    "asset:resolve --name prospectus-isen-trial-2028",
+    "asset:search --document prospectus-isen-trial-2028 --variant curriculum-notice-20261028 --role support",
+    "asset:get --document prospectus-isen-trial-2028 --id curriculum-notice-20261028-brochure-jp-r13-master --role support --saved"
+  ],
+  "managed_get_error": "LFS_UNAVAILABLE in dependency jp-copy-20261028-brochure-jp-r13-master/2eea9c8ebee052fd512b471e799ab593bee12a6f8d3ce20c7ce9d377edae16c2",
+  "source_selection": "Exact fixed source specified by parent existing receipts.json, hash asserted before use. No substitute source was selected.",
+  "legacy_geometry": [
+    "books/prospectus-jp-isen-2028/work/learning-a/layout.json",
+    "books/prospectus-jp-isen-2028/work/learning-b/geometry.json"
+  ],
+  "geometry_policy": "Existing legacy coordinates identify photographic regions of the fixed source raster. Actual photograph samples extracted from that fixed original, never replaced by similar assets."
+}

@@ -1,9 +1,9 @@
 {
-  "status": "FAIL_NOT_FOR_SUBMISSION",
+  "status": "DRAFT_PENDING_INDEPENDENT_REVIEW",
   "source": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-pdf/20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464/digital-cover-oc-draft-20261028-pdf.pdf",
   "source_sha256": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464",
   "output": "flyer-front-native-trial.pdf",
-  "output_sha256": "5bd05d805e61c9e73bfd55f300b31f2190b963b27f1a9ac07a6f5a309870f98a",
+  "output_sha256": "d150ad21ef3607329a5e024da862c306778172dc071287f69106e1cabbf3da01",
   "pages": 1,
   "size_pt": [
     595.2755905511812,
@@ -42,7 +42,9 @@
     "resampled": false,
     "retouched": false,
     "source_pixel_mode": "RGB",
-    "decoded_pixel_equal_to_original_crop": true
+    "decoded_pixel_equal_to_original_crop": true,
+    "source_and_new_ICC_sha256": "eddaf344b5edea13269e0d20055f335610e5e0b6e33e6e536f2701bc18c5f7d5",
+    "render_comparison_note": "Decoded photo pixel equality and ICC-byte equality are exact. Rendered pixel values are not exact because extracting the photo changes interpolation sampling context; source geometry is retained. 144dpi render mean channel delta ~1/255 is recorded, not described as zero."
   },
   "native_header_copy": [
     {
@@ -214,8 +216,7 @@
   "native_characters": 231,
   "font_count": 26,
   "blockers": [
-    "Source header typography and wall texture are fused in a raster image. This trial uses a flat grey field and approximate fonts/metrics, so it DOES NOT satisfy original design preservation.",
-    "Source photo mapping stops about 0.419pt short of right page edge. This trial does not stretch the photo and has not repaired that outer strip.",
+    "Original raster glyph shapes cannot be identically reproduced by the replacement fonts; header ink bounds are fitted to source.",
     "Independent visual comparison and full CMYK conversion pending."
   ],
   "cta_policy": "Original managed native overlay imported unchanged; no page screenshot used as background.",
@@ -244,7 +245,7 @@
       ]
     }
   },
-  "visual_review": "Subagent viewed the full-page rendered trial. Native text is sharp; header title font and wall background differ from source. Not accepted.",
+  "visual_review": "Self-review of MuPDF and Poppler full-page renders after wall repair and right-strip extension: faces, clothing, body poses, placement and photo framing match source; no visible internal right white strip or top gap. Photo/header boundary and native CTA/QR remain aligned. Original raster typography has different glyph shapes; fitted ink bounds max edge difference 0.1751pt. Final independent review is pending.",
   "glyph_zero": 0,
   "header_ink_comparison": [
     {
@@ -302,18 +303,18 @@
         115.85543701450257
       ],
       "native_ink_bbox_pt": [
-        292.875,
-        101.875,
+        293.0,
+        102.0,
         519.5,
         115.875
       ],
       "edge_delta_pt": [
-        0.003934921756865606,
-        -0.0712733687397531,
+        0.1289349217568656,
+        0.053726631260246904,
         -0.04031692012665644,
         0.019562985497429963
       ],
-      "maximum_absolute_edge_delta_pt": 0.0712733687397531,
+      "maximum_absolute_edge_delta_pt": 0.1289349217568656,
       "measurement_dpi": 576
     },
     {
@@ -365,7 +366,7 @@
   ],
   "header_ink_maximum_absolute_edge_delta_pt": 0.17505455234575606,
   "right_edge_options": {
-    "adopted": "keep_original_photo_mapping_and_record_defect_only",
+    "adopted": "keep_original_photo_mapping_and_extend_last_source_pixel_column_only",
     "original_transform": [
       594.8568725585938,
       0.0,
@@ -374,10 +375,67 @@
       0.0,
       0.7451171875
     ],
-    "not_authorized": [
+    "not_performed": [
       "stretch or enlarge photograph",
-      "extend 0.1477mm outer photo strip with edge pixels"
+      "regenerate people"
     ],
-    "required_scope_for_edge_extension": "User permission required before altering photograph edge; no extension applied."
+    "authorization": "User explicitly authorized local background repair while preserving photographs faithfully.",
+    "extension_width_pt": 0.4187179925874034,
+    "extension_source": "Extracted original final pixel column, painted underneath the unscaled photograph. Overscan 0.1pt outside photo/page prevents coordinate-rounding hairlines.",
+    "photo_body_scaled": false
+  },
+  "header_repair": {
+    "method": "imagegen background repair, people-free header crop only",
+    "input_crop": "downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-front/header-original.png",
+    "input_sha256": "5e04b401bc4973c17f4bc8adf7fa22d0284028ca4b8f7fcdeb978986fce2db1f",
+    "generated_original": "downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-front/header-clean-generated-original.png",
+    "generated_original_sha256": "4ba731873ebf0e21fbcedcff57419377594a44c88f894ee4f23cfac6d55941f6",
+    "placed_asset": "downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-front/header-clean.png",
+    "placed_asset_sha256": "bc6ef81eff3c6e9d3b7262a1c937cababd34903a53e044db47d18abddf7195f7",
+    "generation_crop_pixels": [
+      0,
+      80,
+      2172,
+      638
+    ],
+    "people_pixels_sent_to_generator": false,
+    "wall_not_pixel_identical": "Local texture reconstruction was authorized; visible original wall seam and tonal gradient were requested and retained.",
+    "placed_background_effective_ppi_x": 262.70857142857136
+  },
+  "boxes_pt": {
+    "/MediaBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ],
+    "/CropBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ],
+    "/TrimBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ],
+    "/BleedBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ],
+    "/ArtBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ]
+  },
+  "renderers": {
+    "MuPDF": "full page and header seen after repair",
+    "Poppler": "full page and enlarged right edge seen after repair; stderr empty"
   }
 }

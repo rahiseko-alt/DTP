@@ -1,0 +1,11 @@
+{
+  "status": "FAIL_GLYPH_SHAPED_RASTER_GHOSTS",
+  "sha256": "8ac9fe0ebe513c5c12cad6a5ea7b07695d19ca597564d78474411db30d462f89",
+  "target": "cover-native-draft.pdf",
+  "source_sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+  "finding": "Native text-showing operators were suppressed in an independent diagnostic copy. Floor image still visibly spells AIを使いこなす and 社会の主役になる in different carpet texture/brightness, caused by glyph-shaped mask compositing. These are raster letter ghosts and may appear as blurred/doubled type after native letters are overlaid.",
+  "evidence": ".cache/strict-cover/floor-no-type.png",
+  "photo_visual": "People scene looked faithful in MuPDF and Poppler; this does not approve the floor reconstruction.",
+  "requested_repair": "Continuous text-free floor repair rather than exact old glyph-shaped mask; preserve all person pixels independently.",
+  "final_submission_approved": false
+}

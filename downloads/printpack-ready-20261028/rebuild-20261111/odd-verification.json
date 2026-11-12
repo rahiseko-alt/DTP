@@ -1,0 +1,311 @@
+{
+  "file": "odd-native-pages-03-05-07-09.pdf",
+  "sha256": "3b5fea71e64eabf37916139ff908c4cded286c70e530d83bfbe813eb1c273ad8",
+  "status": "technical_checks_pass_visual_fidelity_limitations",
+  "pages": [
+    {
+      "book_page": 3,
+      "native_characters": 590,
+      "glyph_zero_or_replacement": 0,
+      "missing_expected_lines": [],
+      "source_crop_verification": [
+        {
+          "xref": 344,
+          "RGB_sha256": "ac5c94cd35b4e1d98e172683b93acaf0b3f05c687c39300e820297a1f0aa92cd",
+          "matches_source_crop": true,
+          "placement_delta_pt": 4.532748818064647e-05
+        },
+        {
+          "xref": 345,
+          "RGB_sha256": "939584d5eac687f4967a44f4fad146ed6ca7781e49795bcce8e8ff2f633f424f",
+          "matches_source_crop": true,
+          "placement_delta_pt": 4.532748818064647e-05
+        },
+        {
+          "xref": 346,
+          "RGB_sha256": "e3b5c7c7f838f3ce97ded821893daccefae4edbdf8be3bdfc50e35d08b2cf79b",
+          "matches_source_crop": true,
+          "placement_delta_pt": 4.532748818064647e-05
+        }
+      ],
+      "photograph_count": 3,
+      "text_free_symbol_count": 0,
+      "image_count": 3,
+      "font_count": 3,
+      "MediaBox_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "CropBox_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ]
+    },
+    {
+      "book_page": 5,
+      "native_characters": 685,
+      "glyph_zero_or_replacement": 0,
+      "missing_expected_lines": [],
+      "source_crop_verification": [
+        {
+          "xref": 355,
+          "RGB_sha256": "302f06141d6c95cae0aeecedcc3d37973e0f69d37ed6878cf9a14a225d2578ca",
+          "matches_source_crop": true,
+          "placement_delta_pt": 2.3491539622000346e-05
+        },
+        {
+          "xref": 356,
+          "RGB_sha256": "c7c3ccea7d4e295b674704c16b16fa8fc17f3b37d667320b60700c0dd15090ba",
+          "matches_source_crop": true,
+          "placement_delta_pt": 2.397590850478082e-05
+        },
+        {
+          "xref": 357,
+          "RGB_sha256": "5e08927d462fdc2bb5520d2cbbff95071cca15dea14b094f3435dd57fcf73fa9",
+          "matches_source_crop": true,
+          "placement_delta_pt": 2.3491539622000346e-05
+        },
+        {
+          "xref": 358,
+          "RGB_sha256": "64ed9a20147305ad556fe78375c4f6039b337e4af117ca669dc9c52b45b6f698",
+          "matches_source_crop": true,
+          "placement_delta_pt": 1.1582211946858934e-05
+        },
+        {
+          "xref": 359,
+          "RGB_sha256": "56eb05500fd03ec7418bb792f7759c0f6f2ccdb8cb7df8cacf25fdda7d7d1b13",
+          "matches_source_crop": true,
+          "placement_delta_pt": 1.2686261129601917e-05
+        },
+        {
+          "xref": 360,
+          "RGB_sha256": "0e068b793bb61785643d0b7fc8528cb6c48ff7578fa8349fe76c23ff41f1744b",
+          "matches_source_crop": true,
+          "placement_delta_pt": 2.7553434847504832e-05
+        },
+        {
+          "xref": 361,
+          "RGB_sha256": "bca93ff509a859d504906269aad8cfaadae99585517c159ece032ab2e6e39d45",
+          "matches_source_crop": true,
+          "placement_delta_pt": 2.7553434847504832e-05
+        },
+        {
+          "xref": 362,
+          "RGB_sha256": "50938d2a36a5950a315e0aa653899fad1d697c4f5bd0538988cabcc3db8b1bb9",
+          "matches_source_crop": true,
+          "placement_delta_pt": 2.7553434847504832e-05
+        }
+      ],
+      "photograph_count": 8,
+      "text_free_symbol_count": 0,
+      "image_count": 8,
+      "font_count": 3,
+      "MediaBox_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "CropBox_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ]
+    },
+    {
+      "book_page": 7,
+      "native_characters": 689,
+      "glyph_zero_or_replacement": 0,
+      "missing_expected_lines": [],
+      "source_crop_verification": [
+        {
+          "xref": 372,
+          "RGB_sha256": "ec97ab02cc25fbec25d0a2b6f58736c50118825af3e63c70b7103fc4bd348371",
+          "matches_source_crop": true,
+          "placement_delta_pt": 6.113283012609827e-05
+        },
+        {
+          "xref": 373,
+          "RGB_sha256": "ae237d79ed85e4939bdd3d82b969ee80f00d43b74a39d988ef5fda07aaad1f2b",
+          "matches_source_crop": true,
+          "placement_delta_pt": 6.113283012609827e-05
+        },
+        {
+          "xref": 374,
+          "RGB_sha256": "2c1285cb83205d8fc3f630a384f7107acf63f80014649555716407aa01c88fe5",
+          "matches_source_crop": true,
+          "placement_delta_pt": 6.113283012609827e-05
+        },
+        {
+          "xref": 375,
+          "RGB_sha256": "24ebf92e07f04cddacb966e443119fe8c0d3d4a62d84a9d78e87d97470458dc8",
+          "matches_source_crop": true,
+          "placement_delta_pt": 8.140398392697534e-06
+        },
+        {
+          "xref": 376,
+          "RGB_sha256": "e53db0a997a08fc65b277a5bf6cc5cb2298d5611e21673c3cac2bd505182aad2",
+          "matches_source_crop": true,
+          "placement_delta_pt": 2.397590850478082e-05
+        },
+        {
+          "xref": 377,
+          "RGB_sha256": "f4866c097f75253c6c5913d29be09025448fe7b2313bb3972e9725723356a386",
+          "matches_source_crop": true,
+          "placement_delta_pt": 1.6107482338156842e-05
+        },
+        {
+          "xref": 378,
+          "RGB_sha256": "963284c18c4604c9974245cfeabd2c2e0ccd7df2e608866ac3b9e661c72e2962",
+          "matches_source_crop": true,
+          "placement_delta_pt": 1.8149070797335298e-05
+        },
+        {
+          "xref": 379,
+          "RGB_sha256": "57885ba6de88f960e46861f51a4937ff34b8257bf2ec685eb7c690c55fb8c684",
+          "matches_source_crop": true,
+          "placement_delta_pt": 2.397590850478082e-05
+        },
+        {
+          "xref": 380,
+          "RGB_sha256": "a139bfcd383633fac44ae711b43303a555e58b2702031e52de493e849af45db9",
+          "matches_source_crop": true,
+          "placement_delta_pt": 2.9805135113747383e-05
+        }
+      ],
+      "photograph_count": 9,
+      "text_free_symbol_count": 0,
+      "image_count": 9,
+      "font_count": 3,
+      "MediaBox_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "CropBox_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ]
+    },
+    {
+      "book_page": 9,
+      "native_characters": 818,
+      "glyph_zero_or_replacement": 0,
+      "missing_expected_lines": [],
+      "source_crop_verification": [
+        {
+          "xref": 390,
+          "RGB_sha256": "52f4b7da4b316a138bdea1c441d1d5a33aa89785460754cceb1175e0361fc2bd",
+          "matches_source_crop": true,
+          "placement_delta_pt": 1.9547804754438403e-05
+        },
+        {
+          "xref": 391,
+          "RGB_sha256": "702a6b46cb4779ab0ae41023065c90be5a70423e006cfc7dab353179e2f9518b",
+          "matches_source_crop": true,
+          "placement_delta_pt": 1.6356101127712463e-05
+        },
+        {
+          "xref": 392,
+          "RGB_sha256": "e1922a154cd7a7aac475ab5b2c8505f266a3641808b7f44a83802059e10538fa",
+          "matches_source_crop": true,
+          "placement_delta_pt": 3.7866172306166845e-05
+        },
+        {
+          "xref": 393,
+          "RGB_sha256": "a144bea1377f57a7f8ac4578535fd6a11c8023e75b14e6f4ac44e238346fc9b8",
+          "matches_source_crop": true,
+          "placement_delta_pt": 2.835374527876411e-05
+        },
+        {
+          "xref": 394,
+          "RGB_sha256": "368251214642a866516045db88752b86e70391abd9df56d66bae5ad15d46ca0c",
+          "matches_source_crop": true,
+          "placement_delta_pt": 2.4675780878169462e-05
+        },
+        {
+          "xref": 395,
+          "RGB_sha256": "ac66a59e92a27c2c6508a7d542ea662dd97a2641eadff95d6bbe996c35eba4a7",
+          "matches_source_crop": true,
+          "placement_delta_pt": 2.892172631163703e-05
+        },
+        {
+          "xref": 396,
+          "RGB_sha256": "61c58397f86e2cfa0a7b53352ee303f3b057a2a7cc260e8579faebc4329b6a86",
+          "matches_source_crop": true,
+          "placement_delta_pt": 1.4165129954335498e-05
+        },
+        {
+          "xref": 397,
+          "RGB_sha256": "d689da1f337a2b3a71beb37d607a7ad3b1cb3f501d898ff9a49df4dc51081c86",
+          "matches_source_crop": true,
+          "placement_delta_pt": 2.3978567483595725e-05
+        },
+        {
+          "xref": 398,
+          "RGB_sha256": "866be97a048537e1d171f7a87328b78705979dd60f42798ec4120e09cbf80d86",
+          "matches_source_crop": true,
+          "placement_delta_pt": 8.992044249112041e-05
+        },
+        {
+          "xref": 399,
+          "RGB_sha256": "4063afc37605720beb9182350e1077f864f2b070f8cb671c6bb098aa0c8e7f0a",
+          "matches_source_crop": true,
+          "placement_delta_pt": 8.730636011478055e-06
+        },
+        {
+          "xref": 400,
+          "RGB_sha256": "e6e33ca25fae4fe98bac932bfade1ffb8160d86b63e44f66361dbbd32e939367",
+          "matches_source_crop": true,
+          "placement_delta_pt": 7.145951030906872e-06
+        },
+        {
+          "xref": 401,
+          "RGB_sha256": "754fde51c3878963fb6607870836fb260b658f59f06b244713b23aa6c57647ff",
+          "matches_source_crop": true,
+          "placement_delta_pt": 4.523219848806548e-05
+        },
+        {
+          "xref": 402,
+          "RGB_sha256": "2c6a7b807b1625ad0d8f4f03063a9bb1ef9027557647c5e04ef50f47debf9207",
+          "matches_source_crop": true,
+          "placement_delta_pt": 2.4675780878169462e-05
+        }
+      ],
+      "photograph_count": 10,
+      "text_free_symbol_count": 3,
+      "image_count": 13,
+      "font_count": 3,
+      "MediaBox_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "CropBox_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ]
+    }
+  ],
+  "poppler_exit": 0,
+  "poppler_stderr": "",
+  "all_font_descriptors_embedded": true,
+  "scope": "Four pages only. RGB master, CMYK and printer outline derivative not checked here.",
+  "visual_review": "Parent/subagent must independently review final frozen SHA.",
+  "remaining_limitations": [
+    "Native replacement font glyph shapes differ from source raster typography.",
+    "Color-field gradients are native sampled shadings from source colors; faint paper texture is not reproduced.",
+    "Source photograph pixel arrays and normalized placement are preserved exactly; no person regeneration or retouching."
+  ]
+}

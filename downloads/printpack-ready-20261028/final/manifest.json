@@ -1,7 +1,51 @@
 {
-  "older_versions": "All PDFs outside final/ are retained history; use only these two for this handoff.",
-  "printer_recheck_performed": false,
-  "submission_files": [],
+  "status": "reconstructed_revision_20261112",
+  "submission_files": [
+    {
+      "label": "brochure",
+      "file": "final/冊子_クイック入稿用_A4_16P.pdf",
+      "sha256": "decf8ed91965a033f3bd02b98fbc8843952f4ef6c299bd6ac440ea434ade33d2",
+      "bytes": 113018472,
+      "pages": 16,
+      "MediaBox_mm": [
+        210,
+        297
+      ],
+      "CropBox_mm": [
+        210,
+        297
+      ],
+      "color": "CMYK / Japan Color 2011 Coated, Gray permitted",
+      "publication_type": "vector outlines derived from separately saved live-text master; not a flattened page image",
+      "editable_master": {
+        "file": "final/文字保持原稿/冊子_A4_16P_文字保持.pdf",
+        "sha256": "0334c032c278b3c77e485dd72a3313144c39a0aeea07b113a339dae40cd8bd73"
+      },
+      "technical_report": "rebuild-20261111/brochure-final-technical-check.json"
+    },
+    {
+      "label": "flyer",
+      "file": "final/チラシ_クイック入稿用_A4_2P.pdf",
+      "sha256": "9c83619be024e54edb3b042d47acc96f0d8e3377ddd83899b26addec740c72fa",
+      "bytes": 17025307,
+      "pages": 2,
+      "MediaBox_mm": [
+        210,
+        297
+      ],
+      "CropBox_mm": [
+        210,
+        297
+      ],
+      "color": "CMYK / Japan Color 2011 Coated, Gray permitted",
+      "publication_type": "vector outlines derived from separately saved live-text master; not a flattened page image",
+      "editable_master": {
+        "file": "final/文字保持原稿/チラシ_A4_2P_文字保持.pdf",
+        "sha256": "c55b79b0a63171987fd46bdd38e5bbf8f5a1e7f0bef585af669e68cae5d701b9"
+      },
+      "technical_report": "rebuild-20261111/flyer-final-technical-check.json"
+    }
+  ],
   "withdrawn_files": [
     {
       "file": "冊子_正規版_クイック入稿用_A4_16P.pdf",
@@ -16,6 +60,12 @@
       "bytes": 20042006
     }
   ],
-  "status": "withdrawn_do_not_submit",
-  "reason": "Rasterized publication text and reported white seams in physical printing; replacements require native vector reconstruction and independent verification."
+  "original_print_PDFs_preserved": true,
+  "scope_limitations": [
+    "Raster publication type was reconstructed using embedded replacement fonts; original handwritten letterforms and some fine typographic details differ.",
+    "Photo background repair was authorized; people were protected and original photo pixels were retained outside designated repair regions.",
+    "Final full-document independent review unavailable because subagent quota was exhausted; parent final review and part-level independent reviews are recorded.",
+    "Physical printing and PrintPack upload/data-check have not been performed."
+  ],
+  "main_merge": false
 }

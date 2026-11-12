@@ -1,0 +1,1628 @@
+{
+  "status": "DRAFT_REQUIRES_INDEPENDENT_REVIEW",
+  "source_sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+  "file": "even-native-draft.pdf",
+  "sha256": "6e4240b583a5ab85ddaa4bf791450a260c256ebb2d11e28db88fd32e2f614b26",
+  "pages": [
+    {
+      "source_page": 2,
+      "native_copy": [
+        {
+          "text": "ゼロから",
+          "target_ink_box_px": [
+            151,
+            878,
+            720,
+            1019
+          ],
+          "native": true,
+          "font": "S",
+          "photo_handwritten_approximation": true
+        },
+        {
+          "text": "AIを使いこなす",
+          "target_ink_box_px": [
+            133,
+            1068,
+            1199,
+            1225
+          ],
+          "native": true,
+          "font": "S",
+          "photo_handwritten_approximation": true
+        },
+        {
+          "text": "社会の主役にする。",
+          "target_ink_box_px": [
+            137,
+            1270,
+            1490,
+            1450
+          ],
+          "native": true,
+          "font": "S",
+          "photo_handwritten_approximation": true
+        },
+        {
+          "text": "教育システム。",
+          "target_ink_box_px": [
+            136,
+            1482,
+            1170,
+            1650
+          ],
+          "native": true,
+          "font": "S",
+          "photo_handwritten_approximation": true
+        },
+        {
+          "text": "2026年4月開校",
+          "target_ink_box_px": [
+            1772,
+            1445,
+            2322,
+            1545
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "2学科・2年制",
+          "target_ink_box_px": [
+            1773,
+            1550,
+            2245,
+            1617
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "商業実務専門課程",
+          "target_ink_box_px": [
+            1770,
+            1650,
+            2340,
+            1718
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "年間入学定員",
+          "target_ink_box_px": [
+            1782,
+            1810,
+            2119,
+            1880
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "59",
+          "target_ink_box_px": [
+            1776,
+            1885,
+            2180,
+            2150
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "名",
+          "target_ink_box_px": [
+            2190,
+            2060,
+            2316,
+            2143
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "AI人材としての「基礎」を育てる",
+          "target_ink_box_px": [
+            145,
+            2380,
+            1645,
+            2500
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "実践重視の学び",
+          "target_ink_box_px": [
+            135,
+            2700,
+            628,
+            2751
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "AI活用教育",
+          "target_ink_box_px": [
+            1785,
+            2700,
+            2122,
+            2757
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "PBL・発表・アウトプット中心",
+          "target_ink_box_px": [
+            138,
+            2800,
+            781,
+            2844
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "の授業で、学んだことを形に",
+          "target_ink_box_px": [
+            139,
+            2880,
+            774,
+            2925
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "します。",
+          "target_ink_box_px": [
+            142,
+            2960,
+            295,
+            3003
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "生成AIの基本利用から、",
+          "target_ink_box_px": [
+            1785,
+            2804,
+            2315,
+            2854
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "画像生成・データ分析・",
+          "target_ink_box_px": [
+            1785,
+            2887,
+            2300,
+            2937
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "業務での活用まで学びます。",
+          "target_ink_box_px": [
+            1785,
+            2970,
+            2369,
+            3020
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "ITスキル",
+          "target_ink_box_px": [
+            141,
+            3110,
+            429,
+            3176
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "キャリア支援",
+          "target_ink_box_px": [
+            1176,
+            3111,
+            1573,
+            3181
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "ITスキルⅠ・ITで、ITパスポート",
+          "target_ink_box_px": [
+            144,
+            3217,
+            869,
+            3263
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "やOffice活用につながる",
+          "target_ink_box_px": [
+            143,
+            3297,
+            769,
+            3346
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "基礎を学びます。",
+          "target_ink_box_px": [
+            142,
+            3378,
+            539,
+            3426
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "就職指導・キャリアガイダンスにより、",
+          "target_ink_box_px": [
+            1185,
+            3230,
+            2114,
+            3279
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "卒業後の進路づくりを支えます。",
+          "target_ink_box_px": [
+            1186,
+            3312,
+            1964,
+            3362
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        }
+      ],
+      "original_image_rect_source_pt": [
+        0.0,
+        0.75,
+        595.5,
+        843.0001220703125
+      ],
+      "source_page_size_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "normalization": [
+        0.9989186595894499,
+        0.9988251695406838
+      ],
+      "photo_pixel_matrix_to_A4": [
+        0.23986131523609575,
+        0.23981203562501183,
+        0.0,
+        0.7491188771555128
+      ],
+      "original_tiles": [
+        {
+          "box_px": [
+            0,
+            0,
+            90,
+            850
+          ],
+          "decoded_rgb_sha256": "133de1dbafa2af78d99ea76b1d38f6a799a49eb10508630da86843f4a62dd0e0"
+        },
+        {
+          "box_px": [
+            90,
+            0,
+            1100,
+            850
+          ],
+          "decoded_rgb_sha256": "7a2a18791d1bc976f2d1b15a7fb6e6e024e9b14ce850785ae2c2075a5f493e81"
+        },
+        {
+          "box_px": [
+            1100,
+            0,
+            1160,
+            850
+          ],
+          "decoded_rgb_sha256": "9dadad4bb6f8ec9a15a1906d01ba5eef3eed79e3e593da7a30b93d4474966edc"
+        },
+        {
+          "box_px": [
+            1160,
+            0,
+            1470,
+            850
+          ],
+          "decoded_rgb_sha256": "98ab3c6989eb818eeadb4b25a97499ebe7bd654de7a8a1f178aed12320094fc4"
+        },
+        {
+          "box_px": [
+            1470,
+            0,
+            1700,
+            850
+          ],
+          "decoded_rgb_sha256": "75bb0ba3b475cb51a2069ea4139e959a331d183c2ec8412991be6dea6f5f8d4b"
+        },
+        {
+          "box_px": [
+            1700,
+            0,
+            2420,
+            850
+          ],
+          "decoded_rgb_sha256": "9039f67e79d118c12dad574db804fea3a32cec9af956b163af3d03195864e7fd"
+        },
+        {
+          "box_px": [
+            2420,
+            0,
+            2480,
+            850
+          ],
+          "decoded_rgb_sha256": "8cf3df6cff722af8ef2da0b44dc8b4d1a09d536c6b5703c25665d05ab5f3d454"
+        },
+        {
+          "box_px": [
+            0,
+            850,
+            90,
+            1400
+          ],
+          "decoded_rgb_sha256": "9b4bf552d591aa9ef0227582b1b7c53ef50236b217cd39e42a7abf31cae6a477"
+        },
+        {
+          "box_px": [
+            1470,
+            850,
+            1700,
+            1400
+          ],
+          "decoded_rgb_sha256": "b4b064a1e98bbd26bd4edd3c45ab19d83e57af27e7296aa86884734618e94b85"
+        },
+        {
+          "box_px": [
+            1700,
+            850,
+            2420,
+            1400
+          ],
+          "decoded_rgb_sha256": "0f020e40b796cdc017dce9cdb63a7bc2013acc6d68d23ced213f2d16925130be"
+        },
+        {
+          "box_px": [
+            2420,
+            850,
+            2480,
+            1400
+          ],
+          "decoded_rgb_sha256": "31f46beaeb7b91995fdacaec5e814782e930415a2cfac56aec0a28a322887c5b"
+        },
+        {
+          "box_px": [
+            0,
+            1400,
+            90,
+            1450
+          ],
+          "decoded_rgb_sha256": "9a14b12f679488ff24bccc010a8c68aa656c55466f5783d76af9f637ebbf159a"
+        },
+        {
+          "box_px": [
+            1470,
+            1400,
+            1700,
+            1450
+          ],
+          "decoded_rgb_sha256": "8216e187e077f757c6def511634fa855488c863b99fe69e1e9f5d7d92dbe91e7"
+        },
+        {
+          "box_px": [
+            2420,
+            1400,
+            2480,
+            1450
+          ],
+          "decoded_rgb_sha256": "4967800971f2372259d592350cbd4e1111b8c331af4a9af8a39757509a5cf8b8"
+        },
+        {
+          "box_px": [
+            0,
+            1450,
+            90,
+            1490
+          ],
+          "decoded_rgb_sha256": "4836e374c7220561e8b301e1573205ca76ecea9d88bb0a0ead9bd33c8bc9447a"
+        },
+        {
+          "box_px": [
+            1470,
+            1450,
+            1700,
+            1490
+          ],
+          "decoded_rgb_sha256": "0f23b0e0c82dcb2936c24d6a4da0b29ad4616feb53a41a809335aa34cb54297b"
+        },
+        {
+          "box_px": [
+            2420,
+            1450,
+            2480,
+            1490
+          ],
+          "decoded_rgb_sha256": "dd5972436a54790f9e980acf36c8e9a3b96a675988a247027dc06afa57c5954d"
+        },
+        {
+          "box_px": [
+            0,
+            1490,
+            90,
+            1680
+          ],
+          "decoded_rgb_sha256": "2f5bbabfead93c45dd7f8eb8b90d40108bae0d8418716746f9dfeab6129902e0"
+        },
+        {
+          "box_px": [
+            1160,
+            1490,
+            1470,
+            1680
+          ],
+          "decoded_rgb_sha256": "ddc8e380b16f55f046de04053948666a96ffe412c22f69d11e1404da41941e7d"
+        },
+        {
+          "box_px": [
+            1470,
+            1490,
+            1700,
+            1680
+          ],
+          "decoded_rgb_sha256": "1a8f315b13059080f500a46bd542d883c26ded70e7ef2e7266d6a6255857c67d"
+        },
+        {
+          "box_px": [
+            2420,
+            1490,
+            2480,
+            1680
+          ],
+          "decoded_rgb_sha256": "c5e31b326ea13dc7bb45ecbda077aaceab5eeeff9ea5229964fc8389e455e538"
+        },
+        {
+          "box_px": [
+            0,
+            1680,
+            90,
+            1720
+          ],
+          "decoded_rgb_sha256": "b6be5f08f3d4b337662171aac67c631528916797ebb605c565ca38db16db6ca9"
+        },
+        {
+          "box_px": [
+            1160,
+            1680,
+            1470,
+            1720
+          ],
+          "decoded_rgb_sha256": "0d423f63b20efdbbc7dfd76ad5f9624a4c9ad698efa5029e0ba49c45145cea46"
+        },
+        {
+          "box_px": [
+            1470,
+            1680,
+            1700,
+            1720
+          ],
+          "decoded_rgb_sha256": "07acfd0dde03f74c64d9a3968250f925d9a05d9125c231e5353a320a5f08b3ad"
+        },
+        {
+          "box_px": [
+            2420,
+            1680,
+            2480,
+            1720
+          ],
+          "decoded_rgb_sha256": "3cf554559895297a1977c0ec5fec33ae97c430b84cb13df16c9d315bbc43eb80"
+        },
+        {
+          "box_px": [
+            0,
+            1720,
+            90,
+            2300
+          ],
+          "decoded_rgb_sha256": "0ee67223f176a2d7e2b28fad212200e2ee7a708c87b5d22f23f23b28098585ad"
+        },
+        {
+          "box_px": [
+            1100,
+            1720,
+            1160,
+            2300
+          ],
+          "decoded_rgb_sha256": "8443c4124a4e3bb4e22a2ec8c70243096b59a89d5ddfa53b262fd46f0be9370a"
+        },
+        {
+          "box_px": [
+            1160,
+            1720,
+            1470,
+            2300
+          ],
+          "decoded_rgb_sha256": "b481a6add71a159a369c6ecc8474d38538299aaa59a8edb565ec5fa65d6869be"
+        },
+        {
+          "box_px": [
+            1470,
+            1720,
+            1700,
+            2300
+          ],
+          "decoded_rgb_sha256": "51dfd8aed96f93c8f2acfab49c893ca16fb8e20a41f8145489b7c6686d97cb2b"
+        },
+        {
+          "box_px": [
+            2420,
+            1720,
+            2480,
+            2300
+          ],
+          "decoded_rgb_sha256": "93cd23a9904342f5c4e6f2cee0dd0beb3cb8be6320bdf3e31ce565a5468fe55a"
+        }
+      ],
+      "photo_cache": "downloads/printpack-ready-20261028/rebuild-20261111/assets/even/clean-photo-02.png",
+      "original_photo_pixels_outside_restoration_unchanged": true,
+      "changed_original_photo_pixels": 2343152,
+      "repair_image": "/workspace/generated_images/exec-160de168-baaf-4583-8d74-71f69e2bcc9f.png",
+      "repair_coordinates_px": [
+        0,
+        0,
+        2480,
+        2300
+      ],
+      "repair_visible_areas_px": [
+        [
+          90,
+          850,
+          1470,
+          1490
+        ],
+        [
+          90,
+          1450,
+          1160,
+          1720
+        ],
+        [
+          90,
+          1680,
+          1100,
+          2300
+        ],
+        [
+          1700,
+          1400,
+          2420,
+          2300
+        ]
+      ],
+      "source_faces_outside_repair_regions_original_pixels": true,
+      "limitations": [
+        "Handwritten and other image glyph shapes are approximated with embedded fonts.",
+        "Restoration patches require independent photo-fidelity and seam review.",
+        "CMYK conversion and complete-book integration not yet performed."
+      ],
+      "native_text_chars": 373,
+      "image_count": 3,
+      "fonts": 33
+    },
+    {
+      "source_page": 4,
+      "native_copy": [
+        {
+          "text": "2年制",
+          "target_ink_box_px": [
+            260,
+            22,
+            580,
+            124
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "国際ビジネスAI科",
+          "target_ink_box_px": [
+            195,
+            197,
+            649,
+            249
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "AIで、",
+          "target_ink_box_px": [
+            130,
+            720,
+            550,
+            850
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": true
+        },
+        {
+          "text": "世界とつながる。",
+          "target_ink_box_px": [
+            100,
+            880,
+            1000,
+            1030
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": true
+        },
+        {
+          "text": "もっと広い",
+          "target_ink_box_px": [
+            140,
+            1050,
+            800,
+            1210
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": true
+        },
+        {
+          "text": "未来へ。",
+          "target_ink_box_px": [
+            140,
+            1240,
+            630,
+            1420
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": true
+        },
+        {
+          "text": "ビジネス分野",
+          "target_ink_box_px": [
+            1005,
+            1627,
+            1415,
+            1679
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "国際ビジネスAI科",
+          "target_ink_box_px": [
+            152,
+            1727,
+            2310,
+            1970
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "AIを活用し、国際ビジネスの現場で活躍できる力を身につける学科です。",
+          "target_ink_box_px": [
+            159,
+            2042,
+            2321,
+            2095
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "AI",
+          "target_ink_box_px": [
+            175,
+            2250,
+            265,
+            2315
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "AI活用",
+          "target_ink_box_px": [
+            355,
+            2200,
+            533,
+            2255
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "生成AI・画像生成",
+          "target_ink_box_px": [
+            355,
+            2279,
+            741,
+            2323
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "データ分析・AIツール",
+          "target_ink_box_px": [
+            356,
+            2341,
+            755,
+            2385
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "異文化理解",
+          "target_ink_box_px": [
+            1970,
+            2200,
+            2248,
+            2254
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "多文化共生",
+          "target_ink_box_px": [
+            1970,
+            2279,
+            2193,
+            2322
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "グローバルマインド",
+          "target_ink_box_px": [
+            1970,
+            2341,
+            2355,
+            2383
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "目指せる資格・検定",
+          "target_ink_box_px": [
+            164,
+            2829,
+            741,
+            2895
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "こんな人におすすめ",
+          "target_ink_box_px": [
+            1368,
+            2831,
+            1949,
+            2894
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "AIを使って仕事がしたい",
+          "target_ink_box_px": [
+            1484,
+            2968,
+            2081,
+            3020
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "海外と関わる仕事に興味がある",
+          "target_ink_box_px": [
+            1484,
+            3060,
+            2249,
+            3110
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "いろいろな国の人と働きたい",
+          "target_ink_box_px": [
+            1488,
+            3151,
+            2193,
+            3201
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "グローバルに活躍したい",
+          "target_ink_box_px": [
+            1488,
+            3333,
+            2084,
+            3384
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        }
+      ],
+      "original_image_rect_source_pt": [
+        0.0,
+        0.75,
+        595.5,
+        843.0001220703125
+      ],
+      "source_page_size_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "normalization": [
+        0.9989186595894499,
+        0.9988251695406838
+      ],
+      "photo_pixel_matrix_to_A4": [
+        0.23986131523609575,
+        0.23981203562501183,
+        0.0,
+        0.7491188771555128
+      ],
+      "original_tiles": [
+        {
+          "box_px": [
+            0,
+            0,
+            70,
+            280
+          ],
+          "decoded_rgb_sha256": "2cd0937718df3897f10dad233e34d6948b02ff52e2115f70ec0fd5346c9bf81d"
+        },
+        {
+          "box_px": [
+            770,
+            0,
+            1030,
+            280
+          ],
+          "decoded_rgb_sha256": "3b2bdc7858081a95044a2b8d5b54db8dc0f1460d1cf160ad7ba753f04085428d"
+        },
+        {
+          "box_px": [
+            1030,
+            0,
+            2480,
+            280
+          ],
+          "decoded_rgb_sha256": "b3755f1d949ef585caf316aa4277c561197c892db29b36526a2edb6791d0ba3b"
+        },
+        {
+          "box_px": [
+            0,
+            280,
+            70,
+            730
+          ],
+          "decoded_rgb_sha256": "c8d54dcf9c4c4a00e99847cfad522b66dd6a5b75dbee543460e4a541493f8f69"
+        },
+        {
+          "box_px": [
+            70,
+            280,
+            80,
+            730
+          ],
+          "decoded_rgb_sha256": "4ed09e2ae20eba789d119fe6ea0305d4c824e61f035d4f9cc032edd0ac288c42"
+        },
+        {
+          "box_px": [
+            80,
+            280,
+            770,
+            730
+          ],
+          "decoded_rgb_sha256": "5fe15cfaea9576df62d459df3925f5e4a1e9f38aa65ab16a73f5d1cfc976473c"
+        },
+        {
+          "box_px": [
+            770,
+            280,
+            1030,
+            730
+          ],
+          "decoded_rgb_sha256": "e436a20c67e875c0fb92311f66e3438c510c92a2726ec3784b71ecb49c25d38e"
+        },
+        {
+          "box_px": [
+            1030,
+            280,
+            2480,
+            730
+          ],
+          "decoded_rgb_sha256": "9b93cda61cefd5ec228227ce8cda56ebc34221392c2e533ddd8f280adc461c86"
+        },
+        {
+          "box_px": [
+            0,
+            730,
+            70,
+            1450
+          ],
+          "decoded_rgb_sha256": "8995545b1526af099a1e430211a48b0efad089cb74cd31bd152f6af64ba9a4e2"
+        },
+        {
+          "box_px": [
+            70,
+            730,
+            80,
+            1450
+          ],
+          "decoded_rgb_sha256": "1e3eae4ea5fdba70933ec101450d3a3ea35c45eea54e8b045f0eebf89fcb0955"
+        },
+        {
+          "box_px": [
+            1030,
+            730,
+            2480,
+            1450
+          ],
+          "decoded_rgb_sha256": "4bfbe9507069485fe12935da4f4874000b9281bfd57b3087baf4c2cbf9eb6229"
+        },
+        {
+          "box_px": [
+            0,
+            1450,
+            70,
+            1580
+          ],
+          "decoded_rgb_sha256": "ecb7cd0a16fea81a4679c3f899a9e977d5eed08058f14cdf90866ce8b8fb8e3d"
+        },
+        {
+          "box_px": [
+            70,
+            1450,
+            80,
+            1580
+          ],
+          "decoded_rgb_sha256": "2ba6d9cf9ed980d42fa2c319f73238aa3f2c447d34e9232a8b84e235e55abf12"
+        },
+        {
+          "box_px": [
+            80,
+            1450,
+            770,
+            1580
+          ],
+          "decoded_rgb_sha256": "ea7b824fb4946659b0a6cf7f8ae69b34836fde8c385a05189a5e3fc4c2c13af3"
+        },
+        {
+          "box_px": [
+            770,
+            1450,
+            1030,
+            1580
+          ],
+          "decoded_rgb_sha256": "5b85d064b302789eb4b9f7c8dfba002f0c7aacc2a06a7133edc7d4f63d757693"
+        },
+        {
+          "box_px": [
+            1030,
+            1450,
+            2480,
+            1580
+          ],
+          "decoded_rgb_sha256": "e3e60d6e5d3ed5301fbdccf73f60f8e067f8252574b3131ff9e99e6fecad69b9"
+        }
+      ],
+      "photo_cache": "downloads/printpack-ready-20261028/rebuild-20261111/assets/even/clean-photo-04.png",
+      "original_photo_pixels_outside_restoration_unchanged": true,
+      "changed_original_photo_pixels": 872596,
+      "repair_image": "/workspace/generated_images/exec-f6c0d795-433c-4782-b19d-0cf494dc578f.png",
+      "repair_coordinates_px": [
+        0,
+        590,
+        1070,
+        1470
+      ],
+      "repair_visible_areas_px": [
+        [
+          80,
+          730,
+          1030,
+          1450
+        ],
+        [
+          70,
+          0,
+          770,
+          280
+        ]
+      ],
+      "source_faces_outside_repair_regions_original_pixels": true,
+      "limitations": [
+        "Handwritten and other image glyph shapes are approximated with embedded fonts.",
+        "Restoration patches require independent photo-fidelity and seam review.",
+        "CMYK conversion and complete-book integration not yet performed."
+      ],
+      "native_text_chars": 376,
+      "image_count": 3,
+      "fonts": 44
+    },
+    {
+      "source_page": 6,
+      "native_copy": [
+        {
+          "text": "2年制",
+          "target_ink_box_px": [
+            264,
+            23,
+            583,
+            124
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "総合ビジネス科",
+          "target_ink_box_px": [
+            206,
+            199,
+            639,
+            250
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "学んだスキルで",
+          "target_ink_box_px": [
+            180,
+            590,
+            930,
+            740
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": true
+        },
+        {
+          "text": "仕事ができる。",
+          "target_ink_box_px": [
+            180,
+            780,
+            930,
+            920
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": true
+        },
+        {
+          "text": "自分の未来が",
+          "target_ink_box_px": [
+            180,
+            960,
+            900,
+            1110
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": true
+        },
+        {
+          "text": "見えてくる。",
+          "target_ink_box_px": [
+            180,
+            1140,
+            800,
+            1290
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": true
+        },
+        {
+          "text": "ビジネス分野",
+          "target_ink_box_px": [
+            1028,
+            1539,
+            1426,
+            1586
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "総合ビジネス科",
+          "target_ink_box_px": [
+            165,
+            1630,
+            2035,
+            1864
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "販売・サービス",
+          "target_ink_box_px": [
+            413,
+            2174,
+            803,
+            2230
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "接客・店舗運営",
+          "target_ink_box_px": [
+            415,
+            2257,
+            779,
+            2304
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "顧客対応",
+          "target_ink_box_px": [
+            414,
+            2326,
+            633,
+            2374
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "経営",
+          "target_ink_box_px": [
+            1213,
+            2174,
+            1329,
+            2230
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "ビジネス基礎",
+          "target_ink_box_px": [
+            1220,
+            2257,
+            1536,
+            2303
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "経営の考え方",
+          "target_ink_box_px": [
+            1214,
+            2326,
+            1538,
+            2373
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "事務",
+          "target_ink_box_px": [
+            2020,
+            2174,
+            2131,
+            2230
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "PC・書類作成",
+          "target_ink_box_px": [
+            2020,
+            2256,
+            2345,
+            2303
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "ビジネス実務",
+          "target_ink_box_px": [
+            2020,
+            2326,
+            2337,
+            2373
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "目指せる資格・検定",
+          "target_ink_box_px": [
+            165,
+            2787,
+            747,
+            2853
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "こんな人におすすめ",
+          "target_ink_box_px": [
+            1344,
+            2788,
+            1941,
+            2852
+          ],
+          "native": true,
+          "font": "B",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "販売・サービスの仕事に興味がある",
+          "target_ink_box_px": [
+            1445,
+            2995,
+            2280,
+            3043
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "事務やパソコンスキルを学びたい",
+          "target_ink_box_px": [
+            1448,
+            3080,
+            2241,
+            3128
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "将来、自分のお店や会社をつくりたい",
+          "target_ink_box_px": [
+            1445,
+            3165,
+            2327,
+            3213
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "さまざまな分野を広く学びたい",
+          "target_ink_box_px": [
+            1448,
+            3251,
+            2184,
+            3300
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        },
+        {
+          "text": "安定した就職を目指したい",
+          "target_ink_box_px": [
+            1445,
+            3337,
+            2090,
+            3385
+          ],
+          "native": true,
+          "font": "R",
+          "photo_handwritten_approximation": false
+        }
+      ],
+      "original_image_rect_source_pt": [
+        0.0,
+        0.75,
+        595.5,
+        843.0001220703125
+      ],
+      "source_page_size_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "normalization": [
+        0.9989186595894499,
+        0.9988251695406838
+      ],
+      "photo_pixel_matrix_to_A4": [
+        0.23986131523609575,
+        0.23981203562501183,
+        0.0,
+        0.7491188771555128
+      ],
+      "original_tiles": [
+        {
+          "box_px": [
+            0,
+            0,
+            80,
+            280
+          ],
+          "decoded_rgb_sha256": "04829e9193f5121af635012a9596d22235547abd9348e3b5389511c5d195d029"
+        },
+        {
+          "box_px": [
+            770,
+            0,
+            970,
+            280
+          ],
+          "decoded_rgb_sha256": "fa2be682bd98b1751cad0974c234aa3120190eee9cf53a39c4993924c4d4636e"
+        },
+        {
+          "box_px": [
+            970,
+            0,
+            2480,
+            280
+          ],
+          "decoded_rgb_sha256": "ccb3991acc00876801697224f41e803d94eb5c25fb683a309c484c67f3e777f5"
+        },
+        {
+          "box_px": [
+            0,
+            280,
+            80,
+            500
+          ],
+          "decoded_rgb_sha256": "9d89df40006821644a9f70c9d984cae3dc9eff83b1f122ee3f848bb990695483"
+        },
+        {
+          "box_px": [
+            80,
+            280,
+            130,
+            500
+          ],
+          "decoded_rgb_sha256": "d7d669d0b9bdc342c4898f15940a0faa8eaf2d8ed7a1ef4ab19a0d9b7b9530eb"
+        },
+        {
+          "box_px": [
+            130,
+            280,
+            770,
+            500
+          ],
+          "decoded_rgb_sha256": "d60826abfafada37f345b0fb96a4d7576a605c3543a37cbef72d1481e61ff8da"
+        },
+        {
+          "box_px": [
+            770,
+            280,
+            970,
+            500
+          ],
+          "decoded_rgb_sha256": "9b0982de84a2dcf3bddb37f1c46eb1eb03f19d70f218b34c8c4af8d48c9efd93"
+        },
+        {
+          "box_px": [
+            970,
+            280,
+            2480,
+            500
+          ],
+          "decoded_rgb_sha256": "88a041c446045596c6f1a41d7762e036d38aa9508d996287ff53d08b42e4679b"
+        },
+        {
+          "box_px": [
+            0,
+            500,
+            80,
+            1300
+          ],
+          "decoded_rgb_sha256": "e8969debc86263cf8b50b432d07061192c805b913ed3a549ca33fd7c130a521b"
+        },
+        {
+          "box_px": [
+            80,
+            500,
+            130,
+            1300
+          ],
+          "decoded_rgb_sha256": "f06541d5eaf3e4cae387becff9812ec9d070ea5f9f68ba8f23376a9bc9a0a04e"
+        },
+        {
+          "box_px": [
+            970,
+            500,
+            2480,
+            1300
+          ],
+          "decoded_rgb_sha256": "264bf3ae04d2ceb0f6d0186fd3a9b51f9ca6d84e150c7577ff61f293b6cc2245"
+        },
+        {
+          "box_px": [
+            0,
+            1300,
+            80,
+            1500
+          ],
+          "decoded_rgb_sha256": "9de945b13114c0d3bfa3c5841c73bb0a9c4e36236dab29ec11fd1a2bc42fdbd1"
+        },
+        {
+          "box_px": [
+            80,
+            1300,
+            130,
+            1500
+          ],
+          "decoded_rgb_sha256": "072e90aa7cf295d90b1f6e3ec68a404f669057815eb8aa86cfa6095dd778fa77"
+        },
+        {
+          "box_px": [
+            130,
+            1300,
+            770,
+            1500
+          ],
+          "decoded_rgb_sha256": "d58cbe8d9c5031d4a6c5f2f3407dd21f320106007201c2eba65505743501bf79"
+        },
+        {
+          "box_px": [
+            770,
+            1300,
+            970,
+            1500
+          ],
+          "decoded_rgb_sha256": "bf58de396eab26c9c4c0b9f2d0def4dd2797aec2b47b768e4e9b29e85d34c13c"
+        },
+        {
+          "box_px": [
+            970,
+            1300,
+            2480,
+            1500
+          ],
+          "decoded_rgb_sha256": "e67884901fb544cd42c7beb5a69e3c33605165c2ae8ed2e26a62950c132b4756"
+        }
+      ],
+      "photo_cache": "downloads/printpack-ready-20261028/rebuild-20261111/assets/even/clean-photo-06.png",
+      "original_photo_pixels_outside_restoration_unchanged": true,
+      "changed_original_photo_pixels": 860352,
+      "repair_image": "/workspace/generated_images/exec-0c06ff34-796c-4282-8125-9c9906933b9f.png",
+      "repair_coordinates_px": [
+        0,
+        350,
+        970,
+        1300
+      ],
+      "repair_visible_areas_px": [
+        [
+          130,
+          500,
+          970,
+          1300
+        ],
+        [
+          80,
+          0,
+          770,
+          280
+        ]
+      ],
+      "source_faces_outside_repair_regions_original_pixels": true,
+      "limitations": [
+        "Handwritten and other image glyph shapes are approximated with embedded fonts.",
+        "Restoration patches require independent photo-fidelity and seam review.",
+        "CMYK conversion and complete-book integration not yet performed."
+      ],
+      "native_text_chars": 447,
+      "image_count": 3,
+      "fonts": 54
+    }
+  ]
+}

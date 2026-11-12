@@ -1,0 +1,56 @@
+{
+  "status": "technical_checks_pass_parent_visual_review_completed",
+  "label": "flyer",
+  "print_file": "flyer-CMYK-outline-print.pdf",
+  "print_sha256": "9c83619be024e54edb3b042d47acc96f0d8e3377ddd83899b26addec740c72fa",
+  "native_file": "flyer-CMYK-text-master.pdf",
+  "native_sha256": "c55b79b0a63171987fd46bdd38e5bbf8f5a1e7f0bef585af669e68cae5d701b9",
+  "pages": [
+    {
+      "page": 1,
+      "native_characters": 231,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 0.33096278763922743,
+      "outline_vs_native_channels_delta_over20_fraction": 0.0057043169964757275,
+      "QR": {
+        "150": [
+          "https://drive.google.com/file/d/1Flb0l-VlY3PrHbKhjS0bm99pg_OBdtXo/view?usp=drive_link",
+          "https://drive.google.com/file/d/1wfbfRXTMtNotX3-1zaVgLdGH7DXI5xDZ/view?usp=drive_link"
+        ],
+        "300": [
+          "https://drive.google.com/file/d/1Flb0l-VlY3PrHbKhjS0bm99pg_OBdtXo/view?usp=drive_link",
+          "https://drive.google.com/file/d/1wfbfRXTMtNotX3-1zaVgLdGH7DXI5xDZ/view?usp=drive_link"
+        ]
+      }
+    },
+    {
+      "page": 2,
+      "native_characters": 417,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 0.9971832159239417,
+      "outline_vs_native_channels_delta_over20_fraction": 0.014846690929538746,
+      "QR": {
+        "150": [
+          "mailto:aibusiness.kaihougakuen@gmail.com"
+        ],
+        "300": [
+          "mailto:aibusiness.kaihougakuen@gmail.com"
+        ]
+      }
+    }
+  ],
+  "Poppler_exit": 0,
+  "Poppler_stderr": "",
+  "independent_review_scope": "See strict-* files for individual part SHA reviews; no claim of independent final-file review when quota prevented it.",
+  "physical_printer_check": "not_performed",
+  "font_shape_fidelity": "Replacement live fonts reproduce original measured layout; source raster handwriting and some glyph shapes differ.",
+  "parent_visual_review": "All 18 final outline pages viewed in Poppler; detailed restored parts and joins also viewed in MuPDF. No new missing text/QR/photo or unwanted white seam found.",
+  "final_independent_whole_document_review": false,
+  "independent_review_limit": "Subagent part reviews and their corrections are preserved in strict-* reports. Usage quota prevented an independent review of every final assembled page."
+}

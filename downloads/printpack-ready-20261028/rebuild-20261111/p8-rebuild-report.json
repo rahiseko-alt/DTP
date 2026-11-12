@@ -1,52 +1,70 @@
 {
   "status": "incomplete_fidelity_review_required_not_for_submission",
   "pdf": "p8-native-draft.pdf",
-  "sha256": "5ba77a1294a06898cb6b6b31626a8b17098b159d256f2326728abe3e4f15b0bd",
+  "sha256": "6acf78556f062c6c1ee99dc6f77fa6c2c38504a76dbe14e2038e2e846fcd37a2",
   "native_character_count": 700,
   "raster_publication_letters_intended": false,
   "known_issues": [
-    "Handwritten source font unavailable; replacement shape differs.",
-    "All retypeset letters are Noto; source typeface shapes and weights may differ even with matched ink bounds.",
-    "Measured smooth native blue shading omits original small texture variations.",
-    "Formal logo-only crops retain raster symbol shapes; Canva includes official wordmark.",
-    "Photo decoded RGB samples are unchanged, but renderer interpolation/compositing differs from source precomposited PNG."
+    "Source handwritten font unavailable: substituted Noto font is visibly different.",
+    "Typography widths/positions measured manually and require strict visual correction.",
+    "Blue background is rebuilt as smooth native sampled-function shading from measured text-free blue pixels; minor texture is not reproduced.",
+    "Formal logo crops retain raster official symbol shapes (Canva includes wordmark).",
+    "Soft mask composition uses original adopted photo and existing clean background; exact raster comparison pending."
   ],
   "text": [
     {
       "text": "AIを使いこなす力で、",
-      "origin_pt": [
-        24.003048006096016,
-        73.44932689865381
+      "source_ink_bbox_px": [
+        103,
+        96,
+        837,
+        323
       ],
-      "font_pt": 21.122682245364494,
-      "horizontal_scale": 1,
-      "vertical_scale": 1,
-      "source_ink_bbox_px": null,
-      "native": true
+      "native": true,
+      "source_angle_deg": 13.03,
+      "target_ink_pt": [
+        24.723139446278893,
+        23.042926085852173,
+        200.90551181102364,
+        77.52984505969013
+      ],
+      "font_identity": "Yomogi OFL substitute"
     },
     {
       "text": "学びも、仕事も、",
-      "origin_pt": [
-        24.003048006096016,
-        103.45313690627383
+      "source_ink_bbox_px": [
+        134,
+        242,
+        708,
+        442
       ],
-      "font_pt": 21.122682245364494,
-      "horizontal_scale": 1,
-      "vertical_scale": 1,
-      "source_ink_bbox_px": null,
-      "native": true
+      "native": true,
+      "source_angle_deg": 14.39,
+      "target_ink_pt": [
+        32.164084328168656,
+        58.08737617475235,
+        169.9415798831598,
+        106.09347218694438
+      ],
+      "font_identity": "Yomogi OFL substitute"
     },
     {
       "text": "もっと広がる。",
-      "origin_pt": [
-        24.003048006096016,
-        133.45694691389383
+      "source_ink_bbox_px": [
+        159,
+        382,
+        632,
+        555
       ],
-      "font_pt": 21.122682245364494,
-      "horizontal_scale": 1,
-      "vertical_scale": 1,
-      "source_ink_bbox_px": null,
-      "native": true
+      "native": true,
+      "source_angle_deg": 13.09,
+      "target_ink_pt": [
+        38.164846329692665,
+        91.69164338328677,
+        151.69926339852682,
+        133.21691643383286
+      ],
+      "font_identity": "Yomogi OFL substitute"
     },
     {
       "text": "Google認定資格を持つ講師から、",
@@ -894,81 +912,5 @@
       "font": "NimbusSans-Bold",
       "native": true
     }
-  ],
-  "photo_validation": {
-    "native_image_checks": [
-      {
-        "source": "books/prospectus-jp-isen-2028/work/teacher/background-extended.png",
-        "source_decoded_pixel_sha256": "1e500589d397c014c4e78a61a2c55d7e7d8e296ba400be359530a85b343bb3f6",
-        "pdf_decoded_pixel_sha256": "1e500589d397c014c4e78a61a2c55d7e7d8e296ba400be359530a85b343bb3f6",
-        "shape_original": [
-          916,
-          1717,
-          3
-        ],
-        "shape_pdf": [
-          916,
-          1717,
-          3
-        ],
-        "decoded_pixels_identical": true
-      },
-      {
-        "source": "shared/generated-assets/jp-existing-photo-b-r01/B-PHOTO-R07-S02.png",
-        "source_decoded_pixel_sha256": "51eab97d38b7850b42aa41ba101ee11b28a608825308e020430dc445e2737dda",
-        "pdf_decoded_pixel_sha256": "51eab97d38b7850b42aa41ba101ee11b28a608825308e020430dc445e2737dda",
-        "shape_original": [
-          917,
-          1716,
-          3
-        ],
-        "shape_pdf": [
-          917,
-          1716,
-          3
-        ],
-        "decoded_pixels_identical": true
-      }
-    ],
-    "render_comparison": {
-      "mean_absolute_channel_error_outside_handwriting": 1.3701183877009169,
-      "p99_channel_error": 12.0,
-      "percent_exact_pixels": 15.389122471850955
-    },
-    "interpretation": "Source photographs retain identical decoded RGB samples; PDF renderer interpolation/compositing differs from precomposited source PNG. This is not exact rendered-pixel identity."
-  },
-  "improvement_round_2": {
-    "native_blue_shading": "17x9 measured blue samples; smooth native PDF sampled-function shading, no text-bearing background image",
-    "source_ink_bbox_fitting": "All non-handwritten publication lines fitted to measured source ink bounding boxes using independent x/y font transforms.",
-    "visual_review": "Main/lower text extents improved; original handwritten font unavailable. Typeface shapes differ despite matching ink extents.",
-    "final_acceptance": "FAIL_SOURCE_TYPEFACE_FIDELITY"
-  },
-  "native_text_validation": {
-    "chars": 700,
-    "fonts": 3,
-    "glyph_zero_count": 0,
-    "replacement_character_count": 0,
-    "missing_expected_text": [],
-    "font_embedding": "All three fonts embedded; final pdffonts listing verified.",
-    "page_count": 1,
-    "A4_mm": [
-      209.9999940660265,
-      297.0000023735894
-    ],
-    "CMYK": "pending; RGB draft not for submission"
-  },
-  "safety_and_folio": {
-    "folio": "Restored exact print-only build.py position/font/size/colour: A4 5mm left; 9pt NimbusSans-Bold; textbox 287–292mm from top. Latest brochure source P8 has no live text spans, so there is no original native folio span to copy.",
-    "lowest_tool_copy_source_ink_y_px": 3477,
-    "source_layout_height_px": 3508,
-    "bottom_clearance_mm": 2.624572405929304,
-    "source_margin_preserved": true,
-    "safe_margin_5mm": "NOT MET by original tool-copy row. Approx 2.62mm preserved to avoid forbidden repositioning. No visible clipping in both renderers.",
-    "copy_proofread": "All source headings/body/card/tool copy visually read against teacher/page-08.png; original card Gemini uses ASCII parentheses, restored as AI(Gemini). Font shapes remain different."
-  },
-  "multi_renderer": {
-    "MuPDF": "p8-assets/preview.png, visually checked",
-    "Poppler": "p8-assets/poppler-preview.png, visually checked",
-    "structural_fix": "PDF soft mask colour space normalized from ICCBased gray to DeviceGray; initial Poppler Bad image parameters rejected and corrected. Requires fresh render after any subsequent revision."
-  }
+  ]
 }

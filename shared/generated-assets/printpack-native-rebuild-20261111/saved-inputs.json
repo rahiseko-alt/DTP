@@ -1,0 +1,106 @@
+{
+  "role": "separated_background_and_font_working_assets",
+  "not_a_flattened_page": true,
+  "assets": [
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/even/repair-02-wide.png",
+      "sha256": "dedf4bb310974315c725e728ac0ae5f904ae79ea30fb4fcc72ff3ac3d45927b9",
+      "source_work_file": "/workspace/generated_images/exec-160de168-baaf-4583-8d74-71f69e2bcc9f.png"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/even/repair-02-left.png",
+      "sha256": "32a23c1618990553dc23cf25a74eaa298543d3ca4f8e39c9e272939dedf48b8b",
+      "source_work_file": "/workspace/generated_images/exec-e7a52a62-36fd-4467-a9f4-95108596ab2b.png"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/even/repair-04.png",
+      "sha256": "89b2b39a1beb106e9bd64873909fddc59bc44f16c3f18559411c1b2e7dda469b",
+      "source_work_file": "/workspace/generated_images/exec-f6c0d795-433c-4782-b19d-0cf494dc578f.png"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/even/repair-06.png",
+      "sha256": "8fc5b8d83b26a4cda17bb19519fcfeb1b3cb96757653a14ab989369f1310e862",
+      "source_work_file": "/workspace/generated_images/exec-0c06ff34-796c-4282-8125-9c9906933b9f.png"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/support/footer10-clean-generated.png",
+      "sha256": "5cc282a291dd9f3dc90910776a793f30c17cbc5abf0aca664233ea3822751921",
+      "source_work_file": "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/support-assets/footer10-clean-generated.png"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/support/footer11-clean-generated.png",
+      "sha256": "9aaa91453b55ffba4c78079eb47f7cc64ef8e2900c2989e1656aec3de79b22a8",
+      "source_work_file": "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/support-assets/footer11-clean-generated.png"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/support/p10-upper-clean-generated.png",
+      "sha256": "b3120712fa24259e60181b01e3d2b7a9fbc46b291f9fe69379bdf88250d1681f",
+      "source_work_file": "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/support-assets/p10-upper-clean-generated.png"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/support/p11-upper-clean-generated.png",
+      "sha256": "904073b8a28028d7de7856d2b1ccef61c36f2abcca5bbf37edb5fce6a2aaee59",
+      "source_work_file": "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/support-assets/p11-upper-clean-generated.png"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/flyer-front/header-clean.png",
+      "sha256": "bc6ef81eff3c6e9d3b7262a1c937cababd34903a53e044db47d18abddf7195f7",
+      "source_work_file": "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-front/header-clean.png"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/flyer-front/header-clean-generated-original.png",
+      "sha256": "4ba731873ebf0e21fbcedcff57419377594a44c88f894ee4f23cfac6d55941f6",
+      "source_work_file": "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-front/header-clean-generated-original.png"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/flyer-back/hero-generated-clean-candidate.png",
+      "sha256": "c981cb35bd4c8c7d78f979a0a8ae79185e4d154a2f9b7e00c30acf5e1b4d1b4c",
+      "source_work_file": "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-back/hero-generated-clean-candidate.png"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/flyer-back/brush-restored-textless.png",
+      "sha256": "241d218625111814f878cf981c1852afb7632847badc651eac7e7e96b83e5d26",
+      "source_work_file": "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-back/brush-restored-textless.png"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/flyer-back/hero-generated-clean-candidate.prompt.yaml",
+      "sha256": "33f2c17eed5cae55a15ac89a011aaa5ef5846b72d7d0401757886d1827737aff",
+      "source_work_file": "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-back/hero-generated-clean-candidate.prompt.yaml"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/flyer-back/brush-restored-textless.prompt.yaml",
+      "sha256": "bf1d4f3de787e1392f9b4b7250452275b4d0910fbbb1223d49bc4becb8e6219f",
+      "source_work_file": "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-back/brush-restored-textless.prompt.yaml"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/flyer-back/fonts/Knewave-Regular.ttf",
+      "sha256": "ed3bac761d755b89ab3082c844d4a623d63c7d6eef85d22ba1fb6c680e6a4436",
+      "source_work_file": "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-back/fonts/Knewave-Regular.ttf"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/flyer-back/fonts/CaveatBrush-Regular.ttf",
+      "sha256": "e565bd7bffd895ca64f8d1cb77c816b9b38d9c010246386a07c9648592f6f282",
+      "source_work_file": "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-back/fonts/CaveatBrush-Regular.ttf"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/flyer-back/fonts/Knewave-OFL.txt",
+      "sha256": "63bc8755f3f37a29f55a7d598d49a84d59443567a8aa05ef8a00bd775c667e9f",
+      "source_work_file": "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-back/fonts/Knewave-OFL.txt"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/flyer-back/fonts/CaveatBrush-OFL.txt",
+      "sha256": "d7746b9695f8d4676eeab5ab3c512aef85a2c66bd6230f54c15ea2c8ee67fd12",
+      "source_work_file": "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-back/fonts/CaveatBrush-OFL.txt"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/flyer-back/fonts/Yomogi-Regular.ttf",
+      "sha256": "ec280f473a03187292905618f24fdb08a6dcbf8620b52637e3b589fe745259b9",
+      "source_work_file": "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-back/fonts/Yomogi-Regular.ttf"
+    },
+    {
+      "file": "shared/generated-assets/printpack-native-rebuild-20261111/flyer-back/fonts/Yomogi-OFL.txt",
+      "sha256": "bc0330d5973ab1f200553f51b4cb4ef11b81187fdcd0249f7f83992726c02a48",
+      "source_work_file": "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-back/fonts/Yomogi-OFL.txt"
+    }
+  ]
+}

@@ -1,0 +1,596 @@
+{
+  "status": "REVIEW_CANDIDATE_NOT_APPROVED",
+  "file": "flyer-back-native-candidate.pdf",
+  "sha256": "fa3253ed8935c2b40db6fb60985b974f6723a22a9cddaa034d22e05428b29559",
+  "source": "books/oc-approved-20261017/parts/digital-cover-oc-draft-20261028-pdf/20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464/digital-cover-oc-draft-20261028-pdf.pdf",
+  "source_sha256": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464",
+  "page_count": 1,
+  "native_chars": 417,
+  "font_count": 6,
+  "zero_glyphs": 0,
+  "native_copy": [
+    {
+      "text": "学校法人 海鵬学園",
+      "ink_target_pt": [
+        94.0,
+        18.0,
+        202.0,
+        29.0
+      ],
+      "font": "B",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "AIビジネス専門学校",
+      "ink_target_pt": [
+        94.0,
+        35.0,
+        367.0,
+        61.0
+      ],
+      "font": "B",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "A",
+      "ink_target_pt": [
+        28.370835968565203,
+        99.00930328155133,
+        48.04988006044173,
+        131.65621481704176
+      ],
+      "font": "Hand",
+      "angle": 7,
+      "native": true
+    },
+    {
+      "text": "I",
+      "ink_target_pt": [
+        56.20948370829298,
+        99.48940492177913,
+        61.96920393030562,
+        126.37509677453596
+      ],
+      "font": "Hand",
+      "angle": 7,
+      "native": true
+    },
+    {
+      "text": "を",
+      "ink_target_pt": [
+        71.08876094849231,
+        99.96950656200693,
+        84.04813144802075,
+        122.05418201248575
+      ],
+      "font": "Hand",
+      "angle": 7,
+      "native": true
+    },
+    {
+      "text": "学",
+      "ink_target_pt": [
+        94.12764183654286,
+        91.32767703790651,
+        116.20656935425801,
+        121.57408037225795
+      ],
+      "font": "Hand",
+      "angle": 7,
+      "native": true
+    },
+    {
+      "text": "び",
+      "ink_target_pt": [
+        121.0063362059352,
+        97.08889672064012,
+        141.16535698297946,
+        113.89245412861314
+      ],
+      "font": "Hand",
+      "angle": 7,
+      "native": true
+    },
+    {
+      "text": "、",
+      "ink_target_pt": [
+        149.3249606308307,
+        106.21082788496832,
+        154.6047041676756,
+        112.45214920792975
+      ],
+      "font": "Hand",
+      "angle": 7,
+      "native": true
+    },
+    {
+      "text": "未",
+      "ink_target_pt": [
+        37.490392986751885,
+        135.97712957909198,
+        59.569320504467015,
+        165.26332963298782
+      ],
+      "font": "Hand",
+      "angle": 8,
+      "native": true
+    },
+    {
+      "text": "来",
+      "ink_target_pt": [
+        66.76897078198282,
+        132.6164180974974,
+        87.8879449293625,
+        160.94241487093763
+      ],
+      "font": "Hand",
+      "angle": 8,
+      "native": true
+    },
+    {
+      "text": "の",
+      "ink_target_pt": [
+        93.64766515137515,
+        137.41743449977537,
+        106.12705896573588,
+        150.8602804261538
+      ],
+      "font": "Hand",
+      "angle": 8,
+      "native": true
+    },
+    {
+      "text": "仕",
+      "ink_target_pt": [
+        110.44684913224536,
+        128.29550333544717,
+        134.44568339063136,
+        152.30058534683718
+      ],
+      "font": "Hand",
+      "angle": 8,
+      "native": true
+    },
+    {
+      "text": "事",
+      "ink_target_pt": [
+        138.76547355714087,
+        120.61387709180235,
+        157.96454096384966,
+        151.3403820663816
+      ],
+      "font": "Hand",
+      "angle": 8,
+      "native": true
+    },
+    {
+      "text": "に",
+      "ink_target_pt": [
+        163.24428450069456,
+        127.81540169521936,
+        177.16360837055848,
+        143.17865418250898
+      ],
+      "font": "Hand",
+      "angle": 8,
+      "native": true
+    },
+    {
+      "text": "つ",
+      "ink_target_pt": [
+        182.92332859257112,
+        125.89499513430816,
+        196.842652462435,
+        139.33784106068657
+      ],
+      "font": "Hand",
+      "angle": 8,
+      "native": true
+    },
+    {
+      "text": "な",
+      "ink_target_pt": [
+        202.12239599927992,
+        119.65367381134675,
+        218.9215799801501,
+        138.85773942045876
+      ],
+      "font": "Hand",
+      "angle": 8,
+      "native": true
+    },
+    {
+      "text": "げ",
+      "ink_target_pt": [
+        224.6813002021628,
+        116.77306396997994,
+        240.04055412752984,
+        135.97712957909198
+      ],
+      "font": "Hand",
+      "angle": 8,
+      "native": true
+    },
+    {
+      "text": "よ",
+      "ink_target_pt": [
+        245.80027434954246,
+        114.37255576884095,
+        258.27966816390324,
+        133.09651973772517
+      ],
+      "font": "Hand",
+      "angle": 8,
+      "native": true
+    },
+    {
+      "text": "う",
+      "ink_target_pt": [
+        264.51936507108354,
+        115.81286068952434,
+        275.0788521447734,
+        132.6164180974974
+      ],
+      "font": "Hand",
+      "angle": 8,
+      "native": true
+    },
+    {
+      "text": "！",
+      "ink_target_pt": [
+        284.19840916296005,
+        106.21082788496832,
+        289.47815269980504,
+        122.53428365271355
+      ],
+      "font": "Hand",
+      "angle": 8,
+      "native": true
+    },
+    {
+      "text": "いっしょに学び、",
+      "ink_target_pt": [
+        437.3109717314628,
+        313.6147364633782,
+        570.744490208089,
+        356.34378244365246
+      ],
+      "font": "Hand",
+      "angle": 12,
+      "native": true
+    },
+    {
+      "text": "いっしょに成長する。",
+      "ink_target_pt": [
+        440.6708085276369,
+        340.50042831613507,
+        583.2238840224497,
+        382.7493726561815
+      ],
+      "font": "Hand",
+      "angle": 10,
+      "native": true
+    },
+    {
+      "text": "O",
+      "ink_target_pt": [
+        23.7878135984294,
+        349.2221866515865,
+        114.25610231296508,
+        461.696275323712
+      ],
+      "font": "Brush",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "P",
+      "ink_target_pt": [
+        104.47574677625852,
+        369.5979273530585,
+        172.93823553320445,
+        455.9910679272998
+      ],
+      "font": "Brush",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "E",
+      "ink_target_pt": [
+        164.78793925261564,
+        375.30313474947064,
+        223.470072472855,
+        448.6558012747699
+      ],
+      "font": "Brush",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "N",
+      "ink_target_pt": [
+        212.87468730808956,
+        373.6730754933529,
+        287.0423834614476,
+        448.6558012747699
+      ],
+      "font": "Brush",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "C",
+      "ink_target_pt": [
+        298.45279825427195,
+        372.0430162372351,
+        358.7649907306291,
+        451.1008901589465
+      ],
+      "font": "Brush",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "A",
+      "ink_target_pt": [
+        353.8748129622758,
+        382.63840140200057,
+        402.7765906458086,
+        448.6558012747699
+      ],
+      "font": "Brush",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "M",
+      "ink_target_pt": [
+        401.14653138969084,
+        385.8985199142361,
+        460.6436942379891,
+        445.39568276253436
+      ],
+      "font": "Brush",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "P",
+      "ink_target_pt": [
+        453.3084275854592,
+        384.26846065811833,
+        503.8402645251097,
+        458.43615681147645
+      ],
+      "font": "Brush",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "U",
+      "ink_target_pt": [
+        503.02523489705084,
+        387.52857917035385,
+        545.4067755561126,
+        441.32053462223996
+      ],
+      "font": "Brush",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "S",
+      "ink_target_pt": [
+        535.626420019406,
+        380.1933125178239,
+        582.0831088187622,
+        451.1008901589465
+      ],
+      "font": "Brush",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "オープンキャンパス",
+      "ink_target_pt": [
+        301.0,
+        452.0,
+        462.0,
+        469.0
+      ],
+      "font": "B",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "10:00〜12:30",
+      "ink_target_pt": [
+        454.0,
+        492.0,
+        570.0,
+        510.0
+      ],
+      "font": "B",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "（受付9:30〜）",
+      "ink_target_pt": [
+        468.0,
+        517.0,
+        558.0,
+        531.0
+      ],
+      "font": "B",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "学校法人 海鵬学園",
+      "ink_target_pt": [
+        79.0,
+        782.0,
+        174.0,
+        791.0
+      ],
+      "font": "B",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "AIビジネス専門学校",
+      "ink_target_pt": [
+        78.0,
+        795.0,
+        287.0,
+        815.0
+      ],
+      "font": "B",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "Artificial Intelligence Business College",
+      "kind": "source_English_origin_size_width_preserved_embedded_Nimbus",
+      "origin_pt": [
+        94.19999694824219,
+        74.5
+      ],
+      "font_pt": 9.5,
+      "horizontal_scale": 0.9999997479376362
+    },
+    {
+      "text": "Artificial Intelligence Business College",
+      "kind": "source_English_origin_size_width_preserved_embedded_Nimbus",
+      "origin_pt": [
+        79.0,
+        827.2999877929688
+      ],
+      "font_pt": 9.199999809265137,
+      "horizontal_scale": 1.0000005690744203
+    },
+    {
+      "text": "入学事務局へのお問い合わせ",
+      "ink_target_pt": [
+        316.0,
+        776.0,
+        428.0,
+        784.0
+      ],
+      "font": "R",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "052-451-3821",
+      "ink_target_pt": [
+        316.0,
+        793.0,
+        400.0,
+        804.0
+      ],
+      "font": "R",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "aibusiness.kaihougakuen@gmail.com",
+      "ink_target_pt": [
+        316.0,
+        814.0,
+        464.0,
+        820.0
+      ],
+      "font": "R",
+      "angle": 0,
+      "native": true
+    },
+    {
+      "text": "メールでお問い合わせ",
+      "ink_target_pt": [
+        513.0,
+        831.0,
+        590.0,
+        836.0
+      ],
+      "font": "R",
+      "angle": 0,
+      "native": true
+    }
+  ],
+  "hero": {
+    "source_xref": 162,
+    "source_decoded_rgb_sha256": "67f064635715b9565763e252f169a355c61c40e20f5784b2f4a0387cde8a1e82",
+    "generated_candidate_sha256": "c981cb35bd4c8c7d78f979a0a8ae79185e4d154a2f9b7e00c30acf5e1b4d1b4c",
+    "only_masked_publication_regions_repaired": true,
+    "protected_source_rectangles_px": [
+      [
+        0,
+        257,
+        163,
+        587
+      ],
+      [
+        152,
+        246,
+        340,
+        493
+      ],
+      [
+        400,
+        235,
+        640,
+        512
+      ],
+      [
+        620,
+        0,
+        838,
+        267
+      ],
+      [
+        887,
+        68,
+        1039,
+        281
+      ],
+      [
+        1010,
+        75,
+        1226,
+        365
+      ],
+      [
+        881,
+        239,
+        1130,
+        520
+      ],
+      [
+        604,
+        417,
+        876,
+        591
+      ]
+    ],
+    "repair_mask_pixels": 327985,
+    "total_pixels": 874138,
+    "original_hero_rect_pt": [
+      3.41204833984375,
+      63.961883544921875,
+      591.8634643554688,
+      406.27435302734375
+    ],
+    "main_photo_scaled_or_shifted": false
+  },
+  "limits": [
+    "Handwritten and brush type is retypeset in local OFL Yomogi/CaveatBrush; exact source letterforms not available.",
+    "Generation is confined to publication-ink selections; source persons remain protected. Independent visual inspection required.",
+    "RGB master only. CMYK/outline derivative and final combined two-page review pending."
+  ],
+  "final_submission": false
+}

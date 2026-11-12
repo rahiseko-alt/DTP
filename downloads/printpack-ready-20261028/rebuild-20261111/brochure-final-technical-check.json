@@ -1,0 +1,201 @@
+{
+  "status": "technical_checks_pass_parent_visual_review_completed",
+  "label": "brochure",
+  "print_file": "brochure-CMYK-outline-print.pdf",
+  "print_sha256": "decf8ed91965a033f3bd02b98fbc8843952f4ef6c299bd6ac440ea434ade33d2",
+  "native_file": "brochure-CMYK-text-master.pdf",
+  "native_sha256": "0334c032c278b3c77e485dd72a3313144c39a0aeea07b113a339dae40cd8bd73",
+  "pages": [
+    {
+      "page": 1,
+      "native_characters": 148,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 0.37604465569048884,
+      "outline_vs_native_channels_delta_over20_fraction": 0.006936602603741236,
+      "QR": {}
+    },
+    {
+      "page": 2,
+      "native_characters": 373,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 1.076851008752949,
+      "outline_vs_native_channels_delta_over20_fraction": 0.019282735352462475,
+      "QR": {}
+    },
+    {
+      "page": 3,
+      "native_characters": 590,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 1.755124467431183,
+      "outline_vs_native_channels_delta_over20_fraction": 0.029179304217274295,
+      "QR": {}
+    },
+    {
+      "page": 4,
+      "native_characters": 376,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 0.8883923197994775,
+      "outline_vs_native_channels_delta_over20_fraction": 0.015898735433318295,
+      "QR": {}
+    },
+    {
+      "page": 5,
+      "native_characters": 685,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 1.0502453086012524,
+      "outline_vs_native_channels_delta_over20_fraction": 0.019001118199267336,
+      "QR": {}
+    },
+    {
+      "page": 6,
+      "native_characters": 447,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 1.3088459638396837,
+      "outline_vs_native_channels_delta_over20_fraction": 0.022229838187285973,
+      "QR": {}
+    },
+    {
+      "page": 7,
+      "native_characters": 689,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 1.1730513670299971,
+      "outline_vs_native_channels_delta_over20_fraction": 0.02138605867988782,
+      "QR": {}
+    },
+    {
+      "page": 8,
+      "native_characters": 700,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 1.7069399103419192,
+      "outline_vs_native_channels_delta_over20_fraction": 0.028759711503976482,
+      "QR": {}
+    },
+    {
+      "page": 9,
+      "native_characters": 818,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 1.2540169876857195,
+      "outline_vs_native_channels_delta_over20_fraction": 0.022729214770521068,
+      "QR": {}
+    },
+    {
+      "page": 10,
+      "native_characters": 623,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 1.0521778852588504,
+      "outline_vs_native_channels_delta_over20_fraction": 0.018202207547707232,
+      "QR": {}
+    },
+    {
+      "page": 11,
+      "native_characters": 908,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 1.3547454251377689,
+      "outline_vs_native_channels_delta_over20_fraction": 0.023756144965913453,
+      "QR": {}
+    },
+    {
+      "page": 12,
+      "native_characters": 765,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 1.0521725254979142,
+      "outline_vs_native_channels_delta_over20_fraction": 0.018966662593248355,
+      "QR": {}
+    },
+    {
+      "page": 13,
+      "native_characters": 653,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 1.252551629045739,
+      "outline_vs_native_channels_delta_over20_fraction": 0.02151484607838543,
+      "QR": {}
+    },
+    {
+      "page": 14,
+      "native_characters": 1363,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 1.955818265513981,
+      "outline_vs_native_channels_delta_over20_fraction": 0.03432436844405527,
+      "QR": {}
+    },
+    {
+      "page": 15,
+      "native_characters": 475,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 0.8780217949318713,
+      "outline_vs_native_channels_delta_over20_fraction": 0.015130605123135148,
+      "QR": {
+        "150": [
+          "https://kaihougakuen.my.canva.site/"
+        ],
+        "300": [
+          "https://kaihougakuen.my.canva.site/"
+        ]
+      }
+    },
+    {
+      "page": 16,
+      "native_characters": 481,
+      "print_fonts": 0,
+      "CMYK_or_Gray_images": true,
+      "raster_inventory_matches_native": true,
+      "decoded_photo_pixels_unchanged_by_outlining": true,
+      "outline_vs_native_150dpi_mean_channel_delta": 0.5537253248091696,
+      "outline_vs_native_channels_delta_over20_fraction": 0.010348013871673847,
+      "QR": {}
+    }
+  ],
+  "Poppler_exit": 0,
+  "Poppler_stderr": "",
+  "independent_review_scope": "See strict-* files for individual part SHA reviews; no claim of independent final-file review when quota prevented it.",
+  "physical_printer_check": "not_performed",
+  "font_shape_fidelity": "Replacement live fonts reproduce original measured layout; source raster handwriting and some glyph shapes differ.",
+  "parent_visual_review": "All 18 final outline pages viewed in Poppler; detailed restored parts and joins also viewed in MuPDF. No new missing text/QR/photo or unwanted white seam found.",
+  "final_independent_whole_document_review": false,
+  "independent_review_limit": "Subagent part reviews and their corrections are preserved in strict-* reports. Usage quota prevented an independent review of every final assembled page."
+}

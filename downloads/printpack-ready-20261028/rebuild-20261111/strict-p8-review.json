@@ -1,0 +1,222 @@
+{
+  "status": "FAIL_EDGE_COVERAGE_AND_HANDWRITING_FIDELITY_NOT_FOR_SUBMISSION",
+  "reviewer": "independent strict_photo_audit",
+  "target_file": "p8-native-draft.pdf",
+  "sha256": "5ba77a1294a06898cb6b6b31626a8b17098b159d256f2326728abe3e4f15b0bd",
+  "input_file_sha256_after_review": "5ba77a1294a06898cb6b6b31626a8b17098b159d256f2326728abe3e4f15b0bd",
+  "reference": {
+    "source_file": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-master/a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74/curriculum-notice-20261028-brochure-jp-r13-master.pdf",
+    "source_sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+    "page": 8,
+    "source_rect_pt": [
+      0.0,
+      0.0,
+      595.9199829101562,
+      842.8800048828125
+    ],
+    "source_embedded_image_equals_teacher_page08_decoded_samples": true,
+    "teacher_page08_decoded_sha256": "7509f788d8307df46f5c0191d522d23cf4f124e769f292db1e5006cc97482b10",
+    "comparison_geometry": "Source raster normalized to A4 width; existing print-only folio 8 compared separately. Raw source P8 size is not exact A4."
+  },
+  "technical": {
+    "pages": 1,
+    "boxes_pt": {
+      "/MediaBox": [
+        "0",
+        "0",
+        "595.275590551181",
+        "841.889763779528"
+      ],
+      "/CropBox": [
+        "0",
+        "0",
+        "595.275590551181",
+        "841.889763779528"
+      ],
+      "/TrimBox": [
+        "0",
+        "0",
+        "595.275590551181",
+        "841.889763779528"
+      ],
+      "/BleedBox": [
+        "0",
+        "0",
+        "595.275590551181",
+        "841.889763779528"
+      ],
+      "/ArtBox": [
+        "0",
+        "0",
+        "595.275590551181",
+        "841.889763779528"
+      ]
+    },
+    "text_characters": 700,
+    "fonts": [
+      "name                                 type              encoding         emb sub uni object ID",
+      "------------------------------------ ----------------- ---------------- --- --- --- ---------",
+      "DTPRebuiltSansJPBold Bold            CID Type 0C (OT)  Identity-H       yes no  yes     79  0",
+      "DTPRebuiltSansJPRegular Regular      CID Type 0C (OT)  Identity-H       yes no  yes     80  0",
+      "Nimbus Sans Bold                     CID Type 0C (OT)  Identity-H       yes no  yes     81  0"
+    ],
+    "all_fonts_embedded": true,
+    "glyph_zero_count": 0,
+    "replacement_unicode_count": 0,
+    "image_count": 10,
+    "image_components": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "CMYK": "NOT DONE: images/colour operators remain RGB in this draft",
+    "QR": "not present on this page",
+    "publication_text": "All visible headings/body/card/tool captions are live text; Canva formal wordmark remains in raster official-logo crop. This is distinguished from body text.",
+    "CJK_compatibility_aliases": [
+      "力",
+      "寧",
+      "料",
+      "理",
+      "識",
+      "度"
+    ],
+    "NBSP_alias_count": 12,
+    "text_alias_note": "Noto font ToUnicode uses compatibility Han and NBSP for some ordinary input characters. NFKC recovers expected copy; exact Unicode canonicalization is recommended for editable master."
+  },
+  "photo_validation": {
+    "component_checks": [
+      {
+        "path": "books/prospectus-jp-isen-2028/work/teacher/background-extended.png",
+        "image_xref": 83,
+        "decoded_samples_identical": true,
+        "source_sample_sha256": "1e500589d397c014c4e78a61a2c55d7e7d8e296ba400be359530a85b343bb3f6",
+        "pdf_sample_sha256": "1e500589d397c014c4e78a61a2c55d7e7d8e296ba400be359530a85b343bb3f6",
+        "actual_placement_pt": [
+          [
+            0.236602783203125,
+            0.0,
+            595.0389404296875,
+            317.3203125
+          ]
+        ]
+      },
+      {
+        "path": "shared/generated-assets/jp-existing-photo-b-r01/B-PHOTO-R07-S02.png",
+        "image_xref": 84,
+        "decoded_samples_identical": true,
+        "source_sample_sha256": "51eab97d38b7850b42aa41ba101ee11b28a608825308e020430dc445e2737dda",
+        "pdf_sample_sha256": "51eab97d38b7850b42aa41ba101ee11b28a608825308e020430dc445e2737dda",
+        "actual_placement_pt": [
+          [
+            124.90322875976562,
+            66.00836181640625,
+            595.188232421875,
+            317.3203125
+          ]
+        ]
+      }
+    ],
+    "render_comparison_outside_handwriting": {
+      "mean_absolute_channel_error": 1.3701183877009169,
+      "p99_channel_error": 12.0,
+      "exact_pixel_percent": 15.389122471850955
+    },
+    "face_regions": {
+      "student_left": {
+        "source_pixels_roi": [
+          570,
+          420,
+          850,
+          790
+        ],
+        "mean_absolute_channel_error": 4.331476833976834,
+        "p99_absolute_channel_error": 92.0
+      },
+      "instructor": {
+        "source_pixels_roi": [
+          1110,
+          300,
+          1460,
+          700
+        ],
+        "mean_absolute_channel_error": 4.183290476190476,
+        "p99_absolute_channel_error": 52.0
+      },
+      "student_center_right": {
+        "source_pixels_roi": [
+          1800,
+          430,
+          2120,
+          820
+        ],
+        "mean_absolute_channel_error": 2.80681891025641,
+        "p99_absolute_channel_error": 26.0
+      },
+      "student_far_right": {
+        "source_pixels_roi": [
+          2100,
+          430,
+          2470,
+          850
+        ],
+        "mean_absolute_channel_error": 1.7463148863148863,
+        "p99_absolute_channel_error": 12.0
+      }
+    },
+    "visual_result": "All four faces, expressions, hair, clothes, hand/arm positions, laptops, paper and room layout visually faithful in MuPDF and Poppler. No lettering ghosts seen in photo. Component samples identical, but interpolation/compositing makes rendered pixels differ from precomposited original.",
+    "rendered_exact_pixel_identity": false
+  },
+  "renderer_checks": {
+    "MuPDF": "whole page150dpi plus small overview/edge600dpi crop visually inspected",
+    "Poppler": "whole page150dpi plus join crop visually inspected",
+    "Poppler_stderr": "",
+    "photo_blue_join": "No white seam seen in either renderer at photo/blue boundary.",
+    "actual_print": "not tested"
+  },
+  "findings": [
+    {
+      "severity": "major",
+      "id": "P8_WHITE_OUTER_STRIPS",
+      "location_pt": [
+        0,
+        0,
+        0.236603,
+        317.320313
+      ],
+      "description": "Background photo inserted with default keep_proportion=True is letterboxed. Actual bounds [0.236603,0,595.038940,317.320313] leave A4 left and right strips uncovered. Left outer600dpi pixel column is white(255) for every sampled row y130..300pt; source same column is nonwhite. Foreground adopted photo also stops at595.188232pt vs A4 width595.275591.",
+      "required_fix": "Place using intended source matrix/rectangle without aspect-letterboxing, or extend only the tiny external edge strip while preserving picture content. Re-render both engines after repair."
+    },
+    {
+      "severity": "major",
+      "id": "P8_HANDWRITING_GEOMETRY",
+      "location_pt": [
+        20,
+        15,
+        220,
+        135
+      ],
+      "description": "Three rotated handwritten lines use a visibly different ordinary Noto font. First-line right edge is visibly about13pt farther right than original; whole handwritten area has not received per-line measured ink-bound fitting.",
+      "required_fix": "Match each rotated source line ink extent, baseline and size, and use the closest faithful handwritten font available. Do not label original typeface fidelity as passed."
+    },
+    {
+      "severity": "material_fidelity_limit",
+      "id": "P8_TYPE_SHAPE",
+      "description": "All retyped source headings/body/card letters have replacement font shapes/weights. Overall line bounds are close, but matching bounds does not prove identical typography."
+    },
+    {
+      "severity": "source_condition",
+      "id": "P8_BOTTOM_SAFETY",
+      "description": "Bottom tool captions end roughly2.62mm from trim, following source layout. Both renderers show complete copy, but original5mm safe margin is not met. Do not move without layout authorization."
+    }
+  ],
+  "copy_review": "Read source and output whole-page image: all visible publication wording/headings/Google levels/tool captions retained with same line grouping; card Gemini ASCII parentheses retained. Folio changed from old embedded7 to current print folio8. No text truncation/omission visually observed.",
+  "final_submission_approved": false
+}

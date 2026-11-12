@@ -1,0 +1,11 @@
+method: image_gen_edit
+purpose: Background restoration only; not an adopted whole-photo replacement
+reference_inputs:
+- file: downloads/printpack-ready-20261028/receipts.json
+  note: Brochure source SHA a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74;
+    crop/protection geometry in even-rebuild.py or support-rebuild.py
+prompt_summary: Remove raster publication lettering and reconstruct the existing background
+  faithfully. Preserve original people through the source-photo protection masks.
+output_sha256: 8fc5b8d83b26a4cda17bb19519fcfeb1b3cb96757653a14ab989369f1310e862
+use_limit: Use only through documented continuous restoration masks; full generation
+  candidate is not an approved whole photo.

@@ -1,0 +1,14 @@
+purpose: printpack native publication rebuild; local background repair explicitly
+  authorized by user 2026-11-11
+tool: image_gen.imagegen
+edit: Isolate original yellow painted brush decoration on transparent background.
+  Remove all lettering/photo/dates and restore continuous yellow paint without letter-shaped
+  holes. Reconstruct as native vector paint geometry.
+reference_inputs:
+- path: /workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-back/brush-source-extraction.png
+  sha256: b7490d52425626b76634277f1d5f25617280872f090907f2822a261befed84da
+output_sha256: 241d218625111814f878cf981c1852afb7632847badc651eac7e7e96b83e5d26
+transparent_background: true
+photographic_constraints: all visible faces/hair/masks/hands/watch retained as original
+  decoded pixels in PDF; generated full photo not adopted
+not_for_whole_photo_substitution: true

@@ -1,0 +1,18 @@
+purpose: 冊子表紙下部の白い出版文字跡を補修するカーペット背景板
+method: image_gen_edit
+generated_at: 2026-11-11
+reference_inputs:
+  - file: books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-master/a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74/curriculum-notice-20261028-brochure-jp-r13-master.pdf
+    sha256: a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74
+    page: 1
+    image_crop_pixels: [0, 2638, 2480, 3508]
+prompt: >-
+  Remove all white Japanese and English publication lettering and punctuation.
+  Reconstruct only carpet hidden beneath the lettering, preserving grey stripe
+  directions, tile borders, perspective, grain, lighting and camera geometry.
+  No new objects, lettering, graphics or redesign.
+photo_policy: >-
+  人物を含まない床部分だけを入力。字形maskは文字ghostを作るため不採用。
+  文字のある連続した床領域を補修し、文字のない上端70pxは元画像を保持、
+  次の65pxで補修床へつなぐ。中央集合写真は生成・補修しない。
+review: 背景板は親が目視。文字跡と継ぎ目は組み込み後に独立点検する

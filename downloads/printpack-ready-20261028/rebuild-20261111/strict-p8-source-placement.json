@@ -1,0 +1,30 @@
+{
+  "source_page_rect_pt": [
+    0.0,
+    0.0,
+    595.9199829101562,
+    842.8800048828125
+  ],
+  "source_image_rect_pt": [
+    0.0,
+    0.75,
+    595.5,
+    843.0001220703125
+  ],
+  "source_image_rect_A4_pt": [
+    0.0,
+    0.7491188771555128,
+    594.8560617855175,
+    842.009739849697
+  ],
+  "existing_layout_pixel_to_pt": 0.24003048006096014,
+  "common_affine_from_current_p8_base_coordinates": [
+    0.9992952360682633,
+    0,
+    0,
+    0.9990899304292818,
+    0.0,
+    0.7491188771555128
+  ],
+  "note": "Apply to source-derived artwork only. Keep folio8 at approved print-build A4 position. Fill outside artwork frame by faithful edge extension, not by moving source content. Handwriting target JSON used old uniform pixel scale and must use same source image matrix too."
+}

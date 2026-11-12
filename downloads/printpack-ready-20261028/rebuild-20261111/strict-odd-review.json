@@ -1,0 +1,739 @@
+{
+  "target_file": "odd-native-pages-03-05-07-09.pdf",
+  "sha256": "382f72a3994a65036ddabf4b446758fe2edcfabb4c42889510b4ddae1867ba7c",
+  "source_sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+  "source_normalization": "Each original page fitted to exact A4, keep_proportion=False, matching existing print build.",
+  "pages": [
+    {
+      "page": 3,
+      "source_size_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "size_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "fonts": [
+        {
+          "name": "Nimbus Sans Bold",
+          "embedded": true
+        },
+        {
+          "name": "DTPRebuiltSansJPBold Bold",
+          "embedded": true
+        },
+        {
+          "name": "DTPRebuiltSansJPRegular Regular",
+          "embedded": true
+        }
+      ],
+      "glyph0_or_FFFD": 0,
+      "visible_characters": 590,
+      "image_count": 3,
+      "photo_checks": [
+        {
+          "source_crop": [
+            1446,
+            984,
+            2400,
+            1387
+          ],
+          "matched_pdf_image": 354,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 4.532748818064647e-05,
+          "expected_rect_pt": [
+            346.83946183139443,
+            236.72416193216716,
+            575.6671565666297,
+            333.3684122890469
+          ]
+        },
+        {
+          "source_crop": [
+            1446,
+            1487,
+            2400,
+            1892
+          ],
+          "matched_pdf_image": 355,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 4.532748818064647e-05,
+          "expected_rect_pt": [
+            346.83946183139443,
+            357.34961585154804,
+            575.6671565666297,
+            454.4734902796779
+          ]
+        },
+        {
+          "source_crop": [
+            1446,
+            1998,
+            2400,
+            2406
+          ],
+          "matched_pdf_image": 356,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 4.532748818064647e-05,
+          "expected_rect_pt": [
+            346.83946183139443,
+            479.89356605592917,
+            575.6671565666297,
+            577.736876590934
+          ]
+        }
+      ],
+      "declared_text_absent_from_extraction": [],
+      "extracted_text": "AI人材としての「実践力」を育てる\nAIを使うだけでなく、ビジネスに活かす力を身につけるため、実務を意識した教育を行います。\n2026年4月開校\n名古屋駅徒歩圏\n2学科で学ぶ\nAI×ビジネス専門教育\n商業実務専門課程の2学科\n国際ビジネスAI科と総合ビジネス科の\n2学科で、AI活用とビジネス実務を学びます。\n年間入学定員59名\n国際ビジネスAI科30名、総合ビジネス科29名。\n少人数に近い環境で学べます。\n2年制で段階的に学ぶ\n1年次は基礎、2年次は応用へ。\nAI、ビジネス、実務、キャリアを\n段階的に学びます。\nPBL・発表・アウトプット重視\nディスカッション、プレゼンテーション、\n成果物制作を通じて実践力を高めます。\nAIを使った実務学習\n仲間と学ぶグループワーク\nプレゼンテーションと発表\nAI人材の成長を支える学習サポート\n学び直し、資格学習、就職準備まで、学校生活を支える基礎科目と実践科目を用意しています。\n主な学び\n目指せる資格・学習接続\nビジネス演習I・II / ビジネスプレゼンテーション /\nビジネスライティング / AI演習I・II /\nITスキルI・II / 異文化コミュニケーション\nITパスポート／生成AIパスポート／\nグローバル人材ビジネス実務検定\n※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。\n3\n"
+    },
+    {
+      "page": 5,
+      "source_size_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "size_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "fonts": [
+        {
+          "name": "Nimbus Sans Bold",
+          "embedded": true
+        },
+        {
+          "name": "DTPRebuiltSansJPBold Bold",
+          "embedded": true
+        },
+        {
+          "name": "DTPRebuiltSansJPRegular Regular",
+          "embedded": true
+        }
+      ],
+      "glyph0_or_FFFD": 0,
+      "visible_characters": 685,
+      "image_count": 8,
+      "photo_checks": [
+        {
+          "source_crop": [
+            122,
+            769,
+            868,
+            1215
+          ],
+          "matched_pdf_image": 365,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 2.3491539622000346e-05,
+          "expected_rect_pt": [
+            29.263080458803678,
+            185.16457427278962,
+            208.1996216249311,
+            292.12074216154485
+          ]
+        },
+        {
+          "source_crop": [
+            921,
+            769,
+            1663,
+            1215
+          ],
+          "matched_pdf_image": 366,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 2.39759084479374e-05,
+          "expected_rect_pt": [
+            220.91227133244416,
+            185.16457427278962,
+            398.8893672376272,
+            292.12074216154485
+          ]
+        },
+        {
+          "source_crop": [
+            1714,
+            769,
+            2458,
+            1215
+          ],
+          "matched_pdf_image": 367,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 2.3491539622000346e-05,
+          "expected_rect_pt": [
+            411.12229431466807,
+            185.16457427278962,
+            589.5791128503233,
+            292.12074216154485
+          ]
+        },
+        {
+          "source_crop": [
+            122,
+            1566,
+            1334,
+            2029
+          ],
+          "matched_pdf_image": 368,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 1.1582211946858934e-05,
+          "expected_rect_pt": [
+            29.263080458803678,
+            376.29476666592404,
+            319.9749945249517,
+            487.32773916030453
+          ]
+        },
+        {
+          "source_crop": [
+            1401,
+            1566,
+            2458,
+            2029
+          ],
+          "matched_pdf_image": 369,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 1.2686261186445336e-05,
+          "expected_rect_pt": [
+            336.04570264577006,
+            376.29476666592404,
+            589.5791128503233,
+            487.32773916030453
+          ]
+        },
+        {
+          "source_crop": [
+            126,
+            2923,
+            864,
+            3351
+          ],
+          "matched_pdf_image": 370,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 2.755343496119167e-05,
+          "expected_rect_pt": [
+            30.22252571974806,
+            701.719699009065,
+            207.2401763639867,
+            804.3592502565701
+          ]
+        },
+        {
+          "source_crop": [
+            949,
+            2923,
+            1666,
+            3351
+          ],
+          "matched_pdf_image": 371,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 2.755343496119167e-05,
+          "expected_rect_pt": [
+            227.62838815905482,
+            701.719699009065,
+            399.6089511833355,
+            804.3592502565701
+          ]
+        },
+        {
+          "source_crop": [
+            1756,
+            2923,
+            2458,
+            3351
+          ],
+          "matched_pdf_image": 372,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 2.755343496119167e-05,
+          "expected_rect_pt": [
+            421.1964695545841,
+            701.719699009065,
+            589.5791128503233,
+            804.3592502565701
+          ]
+        }
+      ],
+      "declared_text_absent_from_extraction": [],
+      "extracted_text": "AI×国際ビジネスで、世界で活躍する力を育てる\nAIを使いこなす力と、国際ビジネスの知識・コミュニケーション力を組み合わせ、\nグローバルな視点で活躍できる人材を育てます。\n5つの学び\nAIと国際ビジネスに必要な力を、実践的に学びます。\n1\n生成AI活用\n2\n国際ビジネス\n3 マーケティング\n4\nビジネスコミュニケーション\n5\nプレゼン・ビジネス実務\n教育の特長\n学んだことを「使える力」に変えるための、実践的な教育を行います。\n文章・画像・データ分析など、\n仕事で使えるAIの活用スキルを学びます。\n海外とのやり取り、貿易・マーケティングなど、\n国際ビジネスの基礎を学びます。\nSNSやWebを使った集客・販売戦略を\n実践的に学びます。\n相手の立場を考え、分かりやすく伝える力を、\n発表や対話を通して身につけます。\n企画・資料作成・プレゼンテーションなど、\n仕事で必要な実務スキルを身につけます。\nPOINT\n01\nAIを仕事で使う実践力\nPOINT\n02\n相手と協力して\n取り組む力\nPOINT\n03\n発表・制作・PBL中心の\n実践授業\n生成AIを使った企画・企画書作成・\n画像制作・データ分析など、実際の\nビジネスを想定した課題で学び、\n仕事で使える力を身につけます。\n考えや価値観の違いを受け止め、対\n話を重ねながら、一緒に課題へ取り\n組む力を育てます。\n個人・グループでの企画・制作・\n発表を通じて、考える力・伝える力・\n行動する力を身につけ、実践力を\n高めます。\n※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。\n5\n"
+    },
+    {
+      "page": 7,
+      "source_size_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "size_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "fonts": [
+        {
+          "name": "Nimbus Sans Bold",
+          "embedded": true
+        },
+        {
+          "name": "DTPRebuiltSansJPBold Bold",
+          "embedded": true
+        },
+        {
+          "name": "DTPRebuiltSansJPRegular Regular",
+          "embedded": true
+        }
+      ],
+      "glyph0_or_FFFD": 0,
+      "visible_characters": 689,
+      "image_count": 9,
+      "photo_checks": [
+        {
+          "source_crop": [
+            124,
+            769,
+            868,
+            1212
+          ],
+          "matched_pdf_image": 382,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 6.113283012609827e-05,
+          "expected_rect_pt": [
+            29.74280308927587,
+            185.16457427278962,
+            208.1996216249311,
+            291.4013060546699
+          ]
+        },
+        {
+          "source_crop": [
+            920,
+            769,
+            1663,
+            1212
+          ],
+          "matched_pdf_image": 383,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 6.113283012609827e-05,
+          "expected_rect_pt": [
+            220.67241001720805,
+            185.16457427278962,
+            398.8893672376272,
+            291.4013060546699
+          ]
+        },
+        {
+          "source_crop": [
+            1720,
+            769,
+            2462,
+            1212
+          ],
+          "matched_pdf_image": 384,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 6.113283012609827e-05,
+          "expected_rect_pt": [
+            412.5614622060846,
+            185.16457427278962,
+            590.5385581112677,
+            291.4013060546699
+          ]
+        },
+        {
+          "source_crop": [
+            124,
+            1603,
+            868,
+            2050
+          ],
+          "matched_pdf_image": 385,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 8.140398392697534e-06,
+          "expected_rect_pt": [
+            29.74280308927587,
+            385.1678119840494,
+            208.1996216249311,
+            492.36379190842973
+          ]
+        },
+        {
+          "source_crop": [
+            920,
+            1603,
+            1663,
+            2050
+          ],
+          "matched_pdf_image": 386,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 2.39759084479374e-05,
+          "expected_rect_pt": [
+            220.67241001720805,
+            385.1678119840494,
+            398.8893672376272,
+            492.36379190842973
+          ]
+        },
+        {
+          "source_crop": [
+            1720,
+            1603,
+            2462,
+            2050
+          ],
+          "matched_pdf_image": 387,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 1.6107482338156842e-05,
+          "expected_rect_pt": [
+            412.5614622060846,
+            385.1678119840494,
+            590.5385581112677,
+            492.36379190842973
+          ]
+        },
+        {
+          "source_crop": [
+            124,
+            2957,
+            863,
+            3405
+          ],
+          "matched_pdf_image": 388,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 1.8149070797335298e-05,
+          "expected_rect_pt": [
+            29.74280308927587,
+            709.8733082203155,
+            207.00031504875062,
+            817.3091001803208
+          ]
+        },
+        {
+          "source_crop": [
+            937,
+            2957,
+            1663,
+            3405
+          ],
+          "matched_pdf_image": 389,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 2.39759084479374e-05,
+          "expected_rect_pt": [
+            224.7500523762217,
+            709.8733082203155,
+            398.8893672376272,
+            817.3091001803208
+          ]
+        },
+        {
+          "source_crop": [
+            1738,
+            2957,
+            2464,
+            3405
+          ],
+          "matched_pdf_image": 390,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 2.9805135113747383e-05,
+          "expected_rect_pt": [
+            416.87896588033436,
+            709.8733082203155,
+            591.0182807417399,
+            817.3091001803208
+          ]
+        }
+      ],
+      "declared_text_absent_from_extraction": [],
+      "extracted_text": "さまざまなビジネスの現場で活躍する力を育てる\n基本的なビジネススキルから専門知識まで、実践的に学びます。\n仕事で役立つ力を、段階的に身につけます。\n6つの学び\n幅広い分野をバランスよく学び、実社会で使える力を身につけます。\n1\n販売・サービス\n2\n経営\n3\n事務\n4\nマーケティング\n5\nコンピュータ\n6\n実務演習\n教育の特長\n学んだことを「仕事につなげる力」に変えるための、実践的な教育を行います。\n接客の基本、顧客対応、店舗運営など、\nサービス業で必要なスキルを学びます。\nビジネスの仕組みや経営の考え方を\n学び、将来の起業にもつなげます。\n書類作成、データ管理、ビジネスマナー\nなど、オフィスで必要なスキルを習得\nします。\nSNS・広告・市場調査など、商品や\nサービスを多くの人に届ける方法を\n学びます。\nPCの基本操作から、Officeソフト、\nインターネット活用まで、仕事に必要\nなITスキルを身につけます。\n企業を想定した課題に取り組み、\nチームで解決する実践的な授業を\n行います。\nPOINT\n01\n仕事の現場で役立つ\n実践スキル\nPOINT\n02\n幅広い選択肢に対応\nできるカリキュラム\nPOINT\n03\n資格取得・就職支援\n接客・事務・PCスキルなど、すぐに\n仕事で使える実践的なスキルを\n身につけます。\n販売・事務・経営・ITなど、さまざま\nな分野を学ぶことで、将来の進路の\n選択肢を広げます。\n資格取得の学習や就職活動を支\nえ、卒業後の進路選びにつなげ\nます。\n※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。\n7\n"
+    },
+    {
+      "page": 9,
+      "source_size_pt": [
+        0.0,
+        0.0,
+        595.9199829101562,
+        842.8800048828125
+      ],
+      "size_pt": [
+        0.0,
+        0.0,
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "fonts": [
+        {
+          "name": "Nimbus Sans Bold",
+          "embedded": true
+        },
+        {
+          "name": "DTPRebuiltSansJPBold Bold",
+          "embedded": true
+        },
+        {
+          "name": "DTPRebuiltSansJPRegular Regular",
+          "embedded": true
+        }
+      ],
+      "glyph0_or_FFFD": 0,
+      "visible_characters": 818,
+      "image_count": 10,
+      "photo_checks": [
+        {
+          "source_crop": [
+            120,
+            481,
+            855,
+            861
+          ],
+          "matched_pdf_image": 400,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 1.4165129954335498e-05,
+          "expected_rect_pt": [
+            28.783357828331486,
+            116.0987080127862,
+            205.08142452686184,
+            207.2272815502907
+          ]
+        },
+        {
+          "source_crop": [
+            940,
+            483,
+            1671,
+            862
+          ],
+          "matched_pdf_image": 401,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 2.3978567483595725e-05,
+          "expected_rect_pt": [
+            225.46963632192995,
+            116.57833208403623,
+            400.8082577595159,
+            207.4670935859157
+          ]
+        },
+        {
+          "source_crop": [
+            1759,
+            484,
+            2479,
+            866
+          ],
+          "matched_pdf_image": 402,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 8.992044249112041e-05,
+          "expected_rect_pt": [
+            421.9160535002924,
+            116.81814411966124,
+            594.6162004702813,
+            208.42634172841574
+          ]
+        },
+        {
+          "source_crop": [
+            115,
+            1372,
+            853,
+            1770
+          ],
+          "matched_pdf_image": 403,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 8.730636068321473e-06,
+          "expected_rect_pt": [
+            27.584051252151006,
+            329.7712317546717,
+            204.60170189638964,
+            425.21642193342643
+          ]
+        },
+        {
+          "source_crop": [
+            941,
+            1374,
+            1672,
+            1773
+          ],
+          "matched_pdf_image": 404,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 7.145951030906872e-06,
+          "expected_rect_pt": [
+            225.7094976371661,
+            330.25085582592175,
+            401.0481190747521,
+            425.93585804030147
+          ]
+        },
+        {
+          "source_crop": [
+            1759,
+            1376,
+            2479,
+            1775
+          ],
+          "matched_pdf_image": 405,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 4.523219848806548e-05,
+          "expected_rect_pt": [
+            421.9160535002924,
+            330.73047989717185,
+            594.6162004702813,
+            426.4154821115515
+          ]
+        },
+        {
+          "source_crop": [
+            107,
+            2299,
+            661,
+            2737
+          ],
+          "matched_pdf_image": 406,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 2.4675780878169462e-05,
+          "expected_rect_pt": [
+            25.66516073026224,
+            552.0769887790577,
+            158.54832937105928,
+            657.1146603828129
+          ]
+        },
+        {
+          "source_crop": [
+            711,
+            2300,
+            1271,
+            2738
+          ],
+          "matched_pdf_image": 407,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 3.7866172306166845e-05,
+          "expected_rect_pt": [
+            170.54139513286404,
+            552.3168008146827,
+            304.8637316650777,
+            657.3544724184379
+          ]
+        },
+        {
+          "source_crop": [
+            1324,
+            2300,
+            1883,
+            2738
+          ],
+          "matched_pdf_image": 408,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 2.835374516507727e-05,
+          "expected_rect_pt": [
+            317.57638137259073,
+            552.3168008146827,
+            451.6588565895682,
+            657.3544724184379
+          ]
+        },
+        {
+          "source_crop": [
+            1935,
+            2302,
+            2479,
+            2737
+          ],
+          "matched_pdf_image": 409,
+          "decoded_pixel_equal": true,
+          "placement_max_edge_delta_pt": 2.4675780878169462e-05,
+          "expected_rect_pt": [
+            464.1316449818452,
+            552.7964248859328,
+            594.6162004702813,
+            657.1146603828129
+          ]
+        }
+      ],
+      "declared_text_absent_from_extraction": [],
+      "extracted_text": "授業の中で、AIを使う。未来につながる6ステップ\n基礎から応用まで、実際に手を動かしながら、AIを使って課題を解決する力を身につけます。\n1\n使う\n2\n調べる\n3\n作る\n4\n分析する\n5\n発表する\n6\n仕事で使う\n生成AIを使う\n情報を整理する\n画像・資料を作る\nデータを活用する\nプレゼンテーション\n実務に活かす\nGeminiやChatGPTを使って、\n文章作成・アイデア出し・情報収集\nなどを行います。\nNotebookLMで資料を分析し、\n必要な情報をまとめて、レポート\nや企画に活用します。\nCanvaやGoogleスライドで、\nポスターや資料、SNS画像\nなどを制作します。\nGoogleスプレッドシートで\nデータを整理・分析し、表やグラフ\nを作成します。\nGoogleスライドを使って、\n学んだ内容や企画を発表します。\nプレゼン力も身につきます。\n企画書・報告書づくりや\nマーケティングなど、仕事を\n想定した課題に取り組みます。\n授業での活用例\nAIを使って、さまざまなテーマで課題に取り組みます。\nマーケティング企画\nWebサイト制作\nビジネスレポート\n動画コンテンツ制作\nAIで市場を調べ、\nSNS投稿や広告画像を\n作成します。\nGoogleサイトや画像生成AIで、\n学校や企業のWebサイトを\n制作します。\nAIで情報を整理し、\nレポートや企画書を\n作成します。\nAIで映像や音声を作成。\n発表用の動画などを\n制作します。\n学習サポート\n初めての人でも安心して学べるサポート体制があります。\n少人数・段階的な指導\n基礎から丁寧に教えるので、\nAIが初めての人でも安心です。\nオンラインを積極的に導入\n教材共有や課題提出に、\nGoogle Classroomなども活用。\n学びの相談\n授業や課題の疑問を\n教員に相談できます。\n※掲載しているカリキュラム・授業内容・目標とする資格・検定は、変更となる場合があります。\n9\n"
+    }
+  ],
+  "photo_count_verified": 30,
+  "live_target_sha_unchanged": true,
+  "renderer": "MuPDF and Poppler 150dpi all four full-page images plus original comparison",
+  "status": "FAIL_NOT_FOR_SUBMISSION",
+  "independent_reviewer": "repair_flyer_front_background (not an odd-page author)",
+  "visual_review": {
+    "MuPDF": "All four source/new full-page side-by-side renders opened and read at 150dpi; originals and output compared.",
+    "Poppler": "All four new full-page renders opened; same P5 label stretching and P9 support icon shape differences observed. stderr empty.",
+    "manual_copy_check": "Read the full displayed source/new headings, captions and body paragraphs on all four pages. No new word/sentence omission found in this pass; technical expected-row extraction is supplemental, not a substitute for visual copy proof.",
+    "photographs": "All 30 decoded photo crops independently matched source image pixels and normalized source placement. Faces, poses, clothing, composition and displayed scene unchanged in side-by-side review.",
+    "raster_publication_type": "No visible publication paragraph/headline remaining inside photo crops found. P9 official Canva wordmark and natural computer displays, P7 garment lettering are retained photographic content.",
+    "white_edges_overlap": "No new interior white seam/photo crop loss/paragraph overlap seen on P3/7; P5 label stretching is a size defect within title bands. P9 icon approximation is a geometry defect. Intentional page outer white margins were not called white-edge errors."
+  },
+  "issues": [
+    {
+      "id": "ODD-01",
+      "severity": "blocking",
+      "page": 5,
+      "location": "5つの学び、1「生成AI活用」と3「マーケティング」",
+      "problem": "Both labels are vertically enlarged to about1.6x source ink height while source widths are retained. Measurement included dark photograph pixels at y766, so this is source-region contamination, not merely replacement-font shape.",
+      "independent_measurements": [
+        {
+          "text": "生成AI活用",
+          "source_ink_bbox_reference_pixels": [
+            281,
+            667,
+            615,
+            729
+          ],
+          "new_ink_bbox_reference_pixels": [
+            281,
+            668,
+            615,
+            766
+          ]
+        },
+        {
+          "text": "マーケティング",
+          "source_ink_bbox_reference_pixels": [
+            1866,
+            666,
+            2273,
+            728
+          ],
+          "new_ink_bbox_reference_pixels": [
+            1866,
+            667,
+            2273,
+            766
+          ]
+        }
+      ],
+      "reference_grid": [
+        2480,
+        3508
+      ],
+      "estimated_height_change_pt": [
+        14.88,
+        23.52
+      ],
+      "required_fix": "Exclude all photographic pixels from these two source ROI measurements. Fit to independently measured source bounds [281,667,615,729] and [1866,666,2273,728], then freeze a new SHA and repeat visual/bounds checks."
+    },
+    {
+      "id": "ODD-02",
+      "severity": "blocking_fidelity",
+      "page": 9,
+      "location": "Bottom 学習サポート: three small support icons",
+      "problem": "Native redraw changes the diagram shapes. Left source is three human head/shoulder outlines; new icon is overlapping head/body ellipses. Right source is a rounded speech bubble with tail; new icon is circular outline plus angular triangle. Middle computer differs in screen/stand proportions.",
+      "required_fix": "Redraw the original outlines faithfully as native paths at their original bounds or retrieve the exact registered vector icon. Do not restore raster paragraph/icon screenshots as a substitute."
+    }
+  ],
+  "limits": [
+    "Original raster glyph shapes and replacement Noto font are not identical. Weight, thin body appearance, spacing and paper texture differences remain; do not equate matching text or ink bounds with typographic identity.",
+    "Body text is visibly thinner/lighter in several P5/P7/P9 paragraphs than blurred source; this is recorded separately from found content omission (none found).",
+    "RGB four-page master only. No CMYK derivative, output ICC, outline derivative, printer quick check or full16-page review is claimed.",
+    "Printed folio output 3/5/7/9 follows existing print build; original a856 includes old other folio values/positions, so those pre-existing corrective changes are not counted as new body-layout defects."
+  ]
+}

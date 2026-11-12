@@ -1,0 +1,985 @@
+{
+  "status": "NO_NEW_TECHNICAL_OR_PERSON_PHOTO_DEFECT_FOUND_RGB_SINGLE_PAGE_NOT_FINAL_SUBMISSION",
+  "target": "p8-native-draft.pdf",
+  "sha256": "6acf78556f062c6c1ee99dc6f77fa6c2c38504a76dbe14e2038e2e846fcd37a2",
+  "current_sha_after_review": "6acf78556f062c6c1ee99dc6f77fa6c2c38504a76dbe14e2038e2e846fcd37a2",
+  "source_sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+  "reviewer": "independent strict_photo_audit",
+  "source_A4_image_rect_pt": [
+    0.0,
+    0.7491188771555128,
+    594.8560617855175,
+    842.009739849697
+  ],
+  "source_placement": "Source-derived artwork mapped with .9992952361/.9990899304 +y.7491189 affine; folio8 separately retained at approved A4 print location.",
+  "photo_validation": [
+    {
+      "source": "books/prospectus-jp-isen-2028/work/teacher/background-extended.png",
+      "xref": 28,
+      "decoded_pixels_identical": true,
+      "source_decoded_sha256": "1e500589d397c014c4e78a61a2c55d7e7d8e296ba400be359530a85b343bb3f6",
+      "pdf_decoded_sha256": "1e500589d397c014c4e78a61a2c55d7e7d8e296ba400be359530a85b343bb3f6",
+      "placement_pt": [
+        0.0,
+        0.751434326171875,
+        594.85888671875,
+        317.833740234375
+      ]
+    },
+    {
+      "source": "shared/generated-assets/jp-existing-photo-b-r01/B-PHOTO-R07-S02.png",
+      "xref": 29,
+      "decoded_pixels_identical": true,
+      "source_decoded_sha256": "51eab97d38b7850b42aa41ba101ee11b28a608825308e020430dc445e2737dda",
+      "pdf_decoded_sha256": "51eab97d38b7850b42aa41ba101ee11b28a608825308e020430dc445e2737dda",
+      "placement_pt": [
+        124.72848510742188,
+        66.71028137207031,
+        594.85888671875,
+        317.833740234375
+      ]
+    }
+  ],
+  "photo_visual": "Four faces/expressions/hair/clothes/hands/desk/computers and scene arrangement faithfully retained in MuPDF and Poppler; image samples identical. Rendered interpolation/composition differs from source raster.",
+  "normal_type_ink_measurements": [
+    {
+      "text": "Google認定資格を持つ講師から、",
+      "reference_ink_pt": [
+        35.49947465494217,
+        332.8887882177969,
+        572.7888207837966,
+        376.53457870154904
+      ],
+      "output_ink_pt": [
+        35.625,
+        333.0,
+        572.875,
+        376.625
+      ],
+      "largest_edge_delta_pt": 0.12552534505783086
+    },
+    {
+      "text": "AIを実践的に学ぶ。",
+      "reference_ink_pt": [
+        34.30016807876169,
+        379.4123231290492,
+        475.884849428414,
+        427.3747302540516
+      ],
+      "output_ink_pt": [
+        34.125,
+        379.25,
+        475.625,
+        427.5
+      ],
+      "largest_edge_delta_pt": 0.25984942841398606
+    },
+    {
+      "text": "AIビジネス専門学校では、Google認定資格を持つ講師が、",
+      "reference_ink_pt": [
+        37.65822649206704,
+        439.84495610655216,
+        445.1826010781937,
+        454.4734902796779
+      ],
+      "output_ink_pt": [
+        37.75,
+        440.125,
+        445.25,
+        454.5
+      ],
+      "largest_edge_delta_pt": 0.2800438934478393
+    },
+    {
+      "text": "最新のAIツールとGoogleのサービスを使い、実践的に指導します。",
+      "reference_ink_pt": [
+        38.137949122539226,
+        462.14747541967824,
+        499.39125832155133,
+        477.49544569967907
+      ],
+      "output_ink_pt": [
+        38.25,
+        462.125,
+        499.375,
+        477.5
+      ],
+      "largest_edge_delta_pt": 0.11205087746077425
+    },
+    {
+      "text": "学校で学んだことを、将来の仕事にそのまま活かせる力を育てます。",
+      "reference_ink_pt": [
+        37.89808780730313,
+        484.4499947328044,
+        486.4387472988022,
+        498.11928076342997
+      ],
+      "output_ink_pt": [
+        37.875,
+        484.5,
+        486.375,
+        498.125
+      ],
+      "largest_edge_delta_pt": 0.0637472988021841
+    },
+    {
+      "text": "Google認定資格を持つ講師が指導",
+      "reference_ink_pt": [
+        27.58405125215101,
+        526.1772889315564,
+        284.23565855477347,
+        544.6428156746823
+      ],
+      "output_ink_pt": [
+        27.625,
+        526.375,
+        284.375,
+        544.75
+      ],
+      "largest_edge_delta_pt": 0.19771106844359565
+    },
+    {
+      "text": "教育の専門知識と最新のAI活用スキルを持つ講師が、",
+      "reference_ink_pt": [
+        310.1406806002718,
+        522.8199204328063,
+        564.1538134352971,
+        533.6114620359317
+      ],
+      "output_ink_pt": [
+        310.125,
+        523.0,
+        564.25,
+        533.75
+      ],
+      "largest_edge_delta_pt": 0.18007956719372942
+    },
+    {
+      "text": "基礎から実践まで丁寧に教えます。",
+      "reference_ink_pt": [
+        310.1406806002718,
+        537.9280786771819,
+        474.4456815369974,
+        548.2399962090575
+      ],
+      "output_ink_pt": [
+        310.125,
+        538.0,
+        474.5,
+        548.25
+      ],
+      "largest_edge_delta_pt": 0.07192132281807062
+    },
+    {
+      "text": "Google",
+      "reference_ink_pt": [
+        96.6641100401466,
+        565.7462748096833,
+        138.16011757599117,
+        578.216500662184
+      ],
+      "output_ink_pt": [
+        96.625,
+        565.75,
+        138.125,
+        578.25
+      ],
+      "largest_edge_delta_pt": 0.03911004014659625
+    },
+    {
+      "text": "認定教育者",
+      "reference_ink_pt": [
+        96.4242487249105,
+        582.0534932321842,
+        160.94694252342026,
+        594.7635311203097
+      ],
+      "output_ink_pt": [
+        96.375,
+        582.125,
+        161.0,
+        594.875
+      ],
+      "largest_edge_delta_pt": 0.1114688796902783
+    },
+    {
+      "text": "レベル1",
+      "reference_ink_pt": [
+        98.34313924679925,
+        601.238456082185,
+        143.91678914165746,
+        612.7494337921856
+      ],
+      "output_ink_pt": [
+        98.25,
+        601.375,
+        143.875,
+        612.75
+      ],
+      "largest_edge_delta_pt": 0.13654391781494724
+    },
+    {
+      "text": "Google",
+      "reference_ink_pt": [
+        291.67135932709243,
+        565.5064627740584,
+        334.60653475435356,
+        578.216500662184
+      ],
+      "output_ink_pt": [
+        291.625,
+        565.625,
+        334.625,
+        578.375
+      ],
+      "largest_edge_delta_pt": 0.15849933781601067
+    },
+    {
+      "text": "認定教育者",
+      "reference_ink_pt": [
+        291.67135932709243,
+        582.0534932321842,
+        356.6737757560744,
+        594.7635311203097
+      ],
+      "output_ink_pt": [
+        291.625,
+        582.125,
+        356.625,
+        594.875
+      ],
+      "largest_edge_delta_pt": 0.1114688796902783
+    },
+    {
+      "text": "レベル2",
+      "reference_ink_pt": [
+        293.3503885337451,
+        600.9986440465601,
+        343.72126473332526,
+        612.9892458278107
+      ],
+      "output_ink_pt": [
+        293.375,
+        601.125,
+        343.75,
+        613.0
+      ],
+      "largest_edge_delta_pt": 0.1263559534398837
+    },
+    {
+      "text": "Gemini",
+      "reference_ink_pt": [
+        487.63805387498263,
+        566.4657109165584,
+        530.0935066717716,
+        576.537816412809
+      ],
+      "output_ink_pt": [
+        487.625,
+        566.5,
+        530.125,
+        576.5
+      ],
+      "largest_edge_delta_pt": 0.037816412808979294
+    },
+    {
+      "text": "認定教育者",
+      "reference_ink_pt": [
+        487.63805387498263,
+        583.0127413746842,
+        552.4006089887284,
+        595.7227792628099
+      ],
+      "output_ink_pt": [
+        487.625,
+        583.125,
+        552.375,
+        595.875
+      ],
+      "largest_edge_delta_pt": 0.15222073719007767
+    },
+    {
+      "text": "Google for Education",
+      "reference_ink_pt": [
+        52.28976672146887,
+        624.2604115021862,
+        154.4706870120457,
+        635.2917651409368
+      ],
+      "output_ink_pt": [
+        52.25,
+        624.375,
+        154.375,
+        635.375
+      ],
+      "largest_edge_delta_pt": 0.11458849781377012
+    },
+    {
+      "text": "Certified Educator",
+      "reference_ink_pt": [
+        58.52616091760736,
+        636.7306373546869,
+        144.39651177212963,
+        644.6444345303122
+      ],
+      "output_ink_pt": [
+        58.5,
+        636.875,
+        144.5,
+        644.75
+      ],
+      "largest_edge_delta_pt": 0.14436264531309462
+    },
+    {
+      "text": "Level 1",
+      "reference_ink_pt": [
+        83.7115990173974,
+        648.7212391359375,
+        114.65370868285378,
+        656.3952242759378
+      ],
+      "output_ink_pt": [
+        83.75,
+        648.875,
+        114.75,
+        656.5
+      ],
+      "largest_edge_delta_pt": 0.15376086406251943
+    },
+    {
+      "text": "Google for Education",
+      "reference_ink_pt": [
+        243.6990962798733,
+        624.2604115021862,
+        355.95419181036607,
+        635.5315771765619
+      ],
+      "output_ink_pt": [
+        243.625,
+        624.375,
+        355.875,
+        635.625
+      ],
+      "largest_edge_delta_pt": 0.11458849781377012
+    },
+    {
+      "text": "Certified Educator",
+      "reference_ink_pt": [
+        252.8138262588449,
+        636.9704493903118,
+        345.640155255214,
+        645.3638706371873
+      ],
+      "output_ink_pt": [
+        252.75,
+        637.125,
+        345.625,
+        645.5
+      ],
+      "largest_edge_delta_pt": 0.15455060968815815
+    },
+    {
+      "text": "Level 2",
+      "reference_ink_pt": [
+        282.3167680328847,
+        648.9610511715624,
+        316.6169361116464,
+        657.3544724184379
+      ],
+      "output_ink_pt": [
+        282.375,
+        649.125,
+        316.625,
+        657.5
+      ],
+      "largest_edge_delta_pt": 0.16394882843758296
+    },
+    {
+      "text": "Google for Education",
+      "reference_ink_pt": [
+        440.3853747734718,
+        625.6992837159363,
+        552.8803316192007,
+        637.4500734615618
+      ],
+      "output_ink_pt": [
+        440.375,
+        625.75,
+        552.875,
+        637.5
+      ],
+      "largest_edge_delta_pt": 0.05071628406369655
+    },
+    {
+      "text": "Gemini Educator",
+      "reference_ink_pt": [
+        446.3819076543742,
+        639.368569746562,
+        547.3635213687705,
+        649.2008632071875
+      ],
+      "output_ink_pt": [
+        446.375,
+        639.5,
+        547.375,
+        649.25
+      ],
+      "largest_edge_delta_pt": 0.13143025343799764
+    },
+    {
+      "text": "授業でGoogleツールを",
+      "reference_ink_pt": [
+        21.58751837124862,
+        666.2275177365634,
+        140.07900809787992,
+        678.697743589064
+      ],
+      "output_ink_pt": [
+        21.625,
+        666.375,
+        140.125,
+        678.875
+      ],
+      "largest_edge_delta_pt": 0.17725641093602462
+    },
+    {
+      "text": "活用するための基礎知識と",
+      "reference_ink_pt": [
+        21.58751837124862,
+        681.3356759809391,
+        157.5888841101149,
+        691.8874055484396
+      ],
+      "output_ink_pt": [
+        21.5,
+        681.5,
+        157.625,
+        692.125
+      ],
+      "largest_edge_delta_pt": 0.23759445156042602
+    },
+    {
+      "text": "実践力を持つ教員の資格です。",
+      "reference_ink_pt": [
+        21.58751837124862,
+        696.9234582965648,
+        176.53792801376645,
+        707.7149998996904
+      ],
+      "output_ink_pt": [
+        21.5,
+        697.0,
+        176.5,
+        707.875
+      ],
+      "largest_edge_delta_pt": 0.16000010030961676
+    },
+    {
+      "text": "より高度なテクノロジー活用と",
+      "reference_ink_pt": [
+        220.43254870197197,
+        667.6663899503134,
+        372.7444838768928,
+        678.218119517814
+      ],
+      "output_ink_pt": [
+        220.375,
+        667.75,
+        372.75,
+        678.25
+      ],
+      "largest_edge_delta_pt": 0.08361004968662655
+    },
+    {
+      "text": "学習環境設計のスキルを持つ",
+      "reference_ink_pt": [
+        220.1926873867359,
+        683.2541722659391,
+        370.1060094092957,
+        694.2855259046896
+      ],
+      "output_ink_pt": [
+        220.25,
+        683.375,
+        370.125,
+        694.5
+      ],
+      "largest_edge_delta_pt": 0.2144740953103792
+    },
+    {
+      "text": "教員の資格です。",
+      "reference_ink_pt": [
+        220.1926873867359,
+        698.8419545815649,
+        305.583315610786,
+        709.3936841490655
+      ],
+      "output_ink_pt": [
+        220.25,
+        699.0,
+        305.5,
+        709.625
+      ],
+      "largest_edge_delta_pt": 0.23131585093449303
+    },
+    {
+      "text": "教育における生成AI(Gemini)の",
+      "reference_ink_pt": [
+        417.35868851080664,
+        667.4265779146883,
+        576.146879197102,
+        678.218119517814
+      ],
+      "output_ink_pt": [
+        417.375,
+        667.5,
+        576.125,
+        678.25
+      ],
+      "largest_edge_delta_pt": 0.07342208531167671
+    },
+    {
+      "text": "効果的な活用能力を持つ",
+      "reference_ink_pt": [
+        417.35868851080664,
+        683.0143602303142,
+        542.0865724335764,
+        694.0457138690647
+      ],
+      "output_ink_pt": [
+        417.375,
+        683.125,
+        542.0,
+        694.25
+      ],
+      "largest_edge_delta_pt": 0.20428613093531567
+    },
+    {
+      "text": "教員の資格です。",
+      "reference_ink_pt": [
+        417.5985498260427,
+        698.8419545815649,
+        501.7898714739123,
+        709.3936841490655
+      ],
+      "output_ink_pt": [
+        417.625,
+        699.0,
+        501.75,
+        709.5
+      ],
+      "largest_edge_delta_pt": 0.15804541843510833
+    },
+    {
+      "text": "主な使用ツール",
+      "reference_ink_pt": [
+        29.982664404511965,
+        732.8952636403167,
+        116.33273788950643,
+        744.1664293146922
+      ],
+      "output_ink_pt": [
+        30.125,
+        733.125,
+        116.25,
+        744.25
+      ],
+      "largest_edge_delta_pt": 0.22973635968332928
+    },
+    {
+      "text": "授業・課題・発表・学校生活の中で、さまざまなツールを使い学びます。",
+      "reference_ink_pt": [
+        143.19720519594915,
+        734.0943238184416,
+        514.2626598661893,
+        744.8858654215672
+      ],
+      "output_ink_pt": [
+        143.25,
+        734.25,
+        514.25,
+        745.0
+      ],
+      "largest_edge_delta_pt": 0.15567618155841956
+    },
+    {
+      "text": "Gemini",
+      "reference_ink_pt": [
+        40.536562274900184,
+        791.4094003328195,
+        77.71506613649503,
+        800.2824456509449
+      ],
+      "output_ink_pt": [
+        40.625,
+        791.625,
+        77.625,
+        800.375
+      ],
+      "largest_edge_delta_pt": 0.21559966718052692
+    },
+    {
+      "text": "Google Workspace",
+      "reference_ink_pt": [
+        132.40344601032487,
+        790.4501521903194,
+        235.54381156184604,
+        801.96112990032
+      ],
+      "output_ink_pt": [
+        132.5,
+        790.5,
+        235.5,
+        802.125
+      ],
+      "largest_edge_delta_pt": 0.1638700996800253
+    },
+    {
+      "text": "NotebookLM",
+      "reference_ink_pt": [
+        276.5600964672184,
+        790.2103401546944,
+        348.51849103804716,
+        799.5630095440699
+      ],
+      "output_ink_pt": [
+        276.625,
+        790.375,
+        348.5,
+        799.625
+      ],
+      "largest_edge_delta_pt": 0.16465984530555033
+    },
+    {
+      "text": "ChatGPT",
+      "reference_ink_pt": [
+        508.0262656700508,
+        794.0473327246947,
+        557.4376966086866,
+        803.4000021140702
+      ],
+      "output_ink_pt": [
+        508.125,
+        794.125,
+        557.375,
+        803.375
+      ],
+      "largest_edge_delta_pt": 0.0987343299491954
+    },
+    {
+      "text": "生成AI",
+      "reference_ink_pt": [
+        42.935175427261136,
+        807.7166187553203,
+        71.95839457082873,
+        817.3091001803208
+      ],
+      "output_ink_pt": [
+        43.0,
+        807.875,
+        71.875,
+        817.5
+      ],
+      "largest_edge_delta_pt": 0.19089981967920266
+    },
+    {
+      "text": "文章・画像・分析",
+      "reference_ink_pt": [
+        20.388211795068138,
+        822.584964964071,
+        97.86341661632707,
+        832.4172584246966
+      ],
+      "output_ink_pt": [
+        20.5,
+        822.75,
+        97.875,
+        832.625
+      ],
+      "largest_edge_delta_pt": 0.20774157530343018
+    },
+    {
+      "text": "文書作成・資料作成",
+      "reference_ink_pt": [
+        136.48108836933847,
+        807.4768067196952,
+        228.82769473523535,
+        817.3091001803208
+      ],
+      "output_ink_pt": [
+        136.625,
+        807.625,
+        228.75,
+        817.5
+      ],
+      "largest_edge_delta_pt": 0.19089981967920266
+    },
+    {
+      "text": "共同作業・データ管理",
+      "reference_ink_pt": [
+        131.92372337985265,
+        822.584964964071,
+        233.62492103995726,
+        832.4172584246966
+      ],
+      "output_ink_pt": [
+        131.875,
+        822.75,
+        233.5,
+        832.625
+      ],
+      "largest_edge_delta_pt": 0.20774157530343018
+    },
+    {
+      "text": "調査・情報整理",
+      "reference_ink_pt": [
+        276.7999577824545,
+        807.7166187553203,
+        348.51849103804716,
+        817.5489122159458
+      ],
+      "output_ink_pt": [
+        276.75,
+        807.875,
+        348.5,
+        817.75
+      ],
+      "largest_edge_delta_pt": 0.2010877840541525
+    },
+    {
+      "text": "レポート作成",
+      "reference_ink_pt": [
+        283.2762132938291,
+        822.584964964071,
+        343.24154210285303,
+        832.4172584246966
+      ],
+      "output_ink_pt": [
+        283.375,
+        822.75,
+        343.25,
+        832.625
+      ],
+      "largest_edge_delta_pt": 0.20774157530343018
+    },
+    {
+      "text": "デザイン・画像作成",
+      "reference_ink_pt": [
+        378.7410167577952,
+        807.2369946840703,
+        463.1721997209009,
+        817.0692881446957
+      ],
+      "output_ink_pt": [
+        378.75,
+        807.375,
+        463.125,
+        817.25
+      ],
+      "largest_edge_delta_pt": 0.18071185530425282
+    },
+    {
+      "text": "SNS・ポスター制作",
+      "reference_ink_pt": [
+        377.5417101816147,
+        822.584964964071,
+        463.412061036137,
+        832.4172584246966
+      ],
+      "output_ink_pt": [
+        377.5,
+        822.75,
+        463.375,
+        832.625
+      ],
+      "largest_edge_delta_pt": 0.20774157530343018
+    },
+    {
+      "text": "情報収集・アイデア出し",
+      "reference_ink_pt": [
+        484.51985677691346,
+        809.3953030046954,
+        580.4643828713517,
+        819.2275964653209
+      ],
+      "output_ink_pt": [
+        484.5,
+        809.5,
+        580.375,
+        819.375
+      ],
+      "largest_edge_delta_pt": 0.14740353467914247
+    },
+    {
+      "text": "文章作成・要約",
+      "reference_ink_pt": [
+        501.55001015867623,
+        824.7432732846962,
+        567.9915944790747,
+        834.5755667453217
+      ],
+      "output_ink_pt": [
+        501.5,
+        824.875,
+        568.0,
+        834.75
+      ],
+      "largest_edge_delta_pt": 0.17443325467831983
+    }
+  ],
+  "normal_type_largest_edge_delta_pt": 0.2800438934478393,
+  "handwriting_ink_measurements": [
+    {
+      "text": "AIを使いこなす力で、",
+      "reference_ink_pt": [
+        24.705715469317862,
+        23.771074297156648,
+        200.76392085261216,
+        78.20840638403432
+      ],
+      "output_ink_pt": [
+        24.625,
+        23.75,
+        200.625,
+        78.25
+      ],
+      "largest_edge_delta_pt": 0.13892085261215925
+    },
+    {
+      "text": "学びも、仕事も、",
+      "reference_ink_pt": [
+        32.14141624163683,
+        58.78363149840836,
+        169.8218111871558,
+        106.74603862341073
+      ],
+      "output_ink_pt": [
+        32.125,
+        58.75,
+        169.875,
+        106.375
+      ],
+      "largest_edge_delta_pt": 0.37103862341072613
+    },
+    {
+      "text": "もっと広がる。",
+      "reference_ink_pt": [
+        38.137949122539226,
+        92.35731648591002,
+        151.5923512292125,
+        133.84479864903707
+      ],
+      "output_ink_pt": [
+        38.125,
+        92.5,
+        151.625,
+        134.0
+      ],
+      "largest_edge_delta_pt": 0.1552013509629262
+    }
+  ],
+  "handwriting_largest_edge_delta_pt": 0.37103862341072613,
+  "font_fidelity": "Yomogi approximates original handwriting but stroke shape/weight differ; retyped Noto body shapes also differ despite matching extents. This is not original glyph identity.",
+  "white_edge_checks_600dpi": {
+    "left": {
+      "white_pixel_count_y0_508pt": 1,
+      "sample_photo_y130": [
+        219,
+        226,
+        237
+      ],
+      "sample_blue_y400": [
+        0,
+        85,
+        159
+      ]
+    },
+    "right": {
+      "white_pixel_count_y0_508pt": 69,
+      "sample_photo_y130": [
+        59,
+        43,
+        39
+      ],
+      "sample_blue_y400": [
+        0,
+        83,
+        156
+      ],
+      "white_runs_pt": [
+        [
+          39.12,
+          45.36
+        ],
+        [
+          46.32,
+          46.56
+        ],
+        [
+          47.28,
+          48.96
+        ],
+        [
+          507.84,
+          507.96
+        ]
+      ],
+      "white_pixels_blue_y318_507": 0
+    }
+  },
+  "r3_white_pixel_issue": "Final white sample in3px right edge replaced with safe inner nonwhite column; prior x595.2/y400 white is nowblue.",
+  "boxes_pt": {
+    "/MediaBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ],
+    "/CropBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ],
+    "/TrimBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ],
+    "/BleedBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ],
+    "/ArtBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ]
+  },
+  "native_characters": 700,
+  "unique_fonts": 4,
+  "all_fonts_embedded": true,
+  "glyph_zero_count": 0,
+  "replacement_character_count": 0,
+  "QR": "not present",
+  "raster_publication_text": "Photo/background text-free;8formal logo crops including Canva official wordmark retained; publication headings/body are live type.",
+  "copy_review": "Visually reread full original and output. No missing source wording, changed line grouping or clipping found. Folio8 restored separately.",
+  "renderers": {
+    "MuPDF": "whole page150dpi and600/1440dpi outer edge samples",
+    "Poppler": "whole page150dpi inspected",
+    "Poppler_stderr": "",
+    "joins": "No unwanted white line at photo/blue boundary, no glyph ghosts in photo or blue backdrop.",
+    "actual_print": "not checked"
+  },
+  "limitations": [
+    "RGB単ページ稿: final CMYK/ICC変換・16頁結合後は新SHAで再検査。",
+    "原本字体の完全一致ではない。",
+    "最下段の原本約2.62mm余白を保持。5mm安全域は元が未達、本文移動はしていない。",
+    "Noto ToUnicodeの互換漢字aliasはNFKCで原稿と一致するが編集時Unicode正規化を推奨。"
+  ],
+  "final_submission_approved": false
+}

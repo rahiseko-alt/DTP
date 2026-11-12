@@ -1,0 +1,30 @@
+tool: image_gen.imagegen
+purpose: Remove fused publication type only from the people-free wall/header crop;
+  retain wall tone, subtle texture, seam and lighting. Native type is separately typeset.
+authorization: '2026-11-11 user: 触れて良いけど、写真部分は忠実に再現しろよ。'
+reference_inputs:
+- path: downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-front/header-original.png
+  sha256: 5e04b401bc4973c17f4bc8adf7fa22d0284028ca4b8f7fcdeb978986fce2db1f
+  crop_pixels:
+  - 0
+  - 0
+  - 2480
+  - 640
+  people_present: false
+output:
+  path: downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-front/header-clean-generated-original.png
+  sha256: 4ba731873ebf0e21fbcedcff57419377594a44c88f894ee4f23cfac6d55941f6
+  dimensions:
+  - 2172
+  - 724
+postprocessing: 'Remove imagegen white letterbox only: extract x0,y80,width2172,height558.
+  No person pixels are ever sent to imagegen, altered or regenerated.'
+placed_asset:
+  path: downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-front/header-clean.png
+  sha256: bc6ef81eff3c6e9d3b7262a1c937cababd34903a53e044db47d18abddf7195f7
+  dimensions:
+  - 2172
+  - 558
+preservation: The central photograph uses an unresampled 2480x1957 crop from source
+  decoded pixels and its original placement. The microscopic right gap is filled only
+  with its final source pixel column, underneath the original photograph.

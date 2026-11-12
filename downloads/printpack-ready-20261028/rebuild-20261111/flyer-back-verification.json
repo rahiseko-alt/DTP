@@ -1,0 +1,182 @@
+{
+  "file": "flyer-back-native-candidate.pdf",
+  "sha256": "fa3253ed8935c2b40db6fb60985b974f6723a22a9cddaa034d22e05428b29559",
+  "source_sha256": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464",
+  "pages": 1,
+  "boxes": {
+    "mediabox": [
+      0.0,
+      0.0,
+      595.2755737304688,
+      841.8897705078125
+    ],
+    "cropbox": [
+      0.0,
+      0.0,
+      595.2755737304688,
+      841.8897705078125
+    ],
+    "trimbox": [
+      0.0,
+      0.0,
+      595.2755737304688,
+      841.8897705078125
+    ],
+    "bleedbox": [
+      0.0,
+      0.0,
+      595.2755737304688,
+      841.8897705078125
+    ],
+    "artbox": [
+      0.0,
+      0.0,
+      595.2755737304688,
+      841.8897705078125
+    ]
+  },
+  "text": "11/21\n12/5\n12/19\nオープンキャンパスでできること\n1\nAI・ビジネスの授業を体験\n授業を体験\n進路を相談できる\n実際の授業を体験できます。\n入試・学費・就職について\n個別に相談できます。\n保護者の参加も歓迎\nお子さまと一緒に\nご参加いただけます。\n学校法人 海鵬学園\nAIビジネス専門学校\nA\nI\nを学\nび\n、\n未来の仕事につなげよう\n！\nいっしょに学び、\nいっしょに成長する。\nOPEN CAMPUS\nオープンキャンパス\n10:00～12:30\n（受付9:30～）\n学校法人 海鵬学園\nAIビジネス専門学校\nArtificial Intelligence Business College\nArtificial Intelligence Business College\n入学事務局へのお問い合わせ\n052-451-3821\naibusiness.kaihougakuen@gmail.com\nメールでお問い合わせ\n",
+  "native_characters": 417,
+  "glyph_zero": 0,
+  "QR": {
+    "150": [
+      "mailto:aibusiness.kaihougakuen@gmail.com"
+    ],
+    "300": [
+      "mailto:aibusiness.kaihougakuen@gmail.com"
+    ]
+  },
+  "embedded_fonts": [
+    {
+      "name": "/DTPRebuiltSansJPBold",
+      "embedded": true
+    },
+    {
+      "name": "/Knewave-Regular",
+      "embedded": true
+    },
+    {
+      "name": "/Yomogi-Regular",
+      "embedded": true
+    },
+    {
+      "name": "/DTPRebuiltSansJPRegular",
+      "embedded": true
+    },
+    {
+      "name": "/NimbusSans-Regular",
+      "embedded": true
+    },
+    {
+      "name": "/NotoSansCJKjp-Bold",
+      "embedded": true
+    },
+    {
+      "name": "/NotoSansCJKjp-Regular",
+      "embedded": true
+    }
+  ],
+  "protected_photographic_regions": [
+    {
+      "region": "standing_man_face",
+      "page_rect_pt": [
+        315.3968936988619,
+        80.76544095289489,
+        384.99351304818134,
+        171.98475259617703
+      ],
+      "dpi": 288,
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "nonzero_channels": 0
+    },
+    {
+      "region": "front_man_face",
+      "page_rect_pt": [
+        214.60178981364066,
+        207.99237561326208,
+        296.1978262921531,
+        289.6096544519882
+      ],
+      "dpi": 288,
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "nonzero_channels": 0
+    },
+    {
+      "region": "left_masked_face",
+      "page_rect_pt": [
+        92.207735095872,
+        207.99237561326208,
+        152.204820741837,
+        275.20660524515415
+      ],
+      "dpi": 288,
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "nonzero_channels": 0
+    },
+    {
+      "region": "front_woman_face",
+      "page_rect_pt": [
+        449.7903655458236,
+        193.58932640642806,
+        521.7868683209816,
+        275.20660524515415
+      ],
+      "dpi": 288,
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "nonzero_channels": 0
+    },
+    {
+      "region": "back_woman_face",
+      "page_rect_pt": [
+        449.7903655458236,
+        116.77306396997994,
+        488.1885003592412,
+        176.78576899845504
+      ],
+      "dpi": 288,
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "nonzero_channels": 0
+    },
+    {
+      "region": "back_masked_face",
+      "page_rect_pt": [
+        507.38756776595,
+        133.57662137795296,
+        567.384653411915,
+        207.99237561326208
+      ],
+      "dpi": 288,
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "nonzero_channels": 0
+    },
+    {
+      "region": "hands_watch",
+      "page_rect_pt": [
+        315.3968936988619,
+        280.0076216474322,
+        411.39223073240595,
+        330.41829387135124
+      ],
+      "dpi": 288,
+      "max_channel_delta": 0,
+      "mean_channel_delta": 0.0,
+      "nonzero_channels": 0
+    }
+  ],
+  "poppler_returncode": 0,
+  "poppler_stderr": "",
+  "poppler_PDF_errors": [],
+  "environment_cache_warning_only": false,
+  "status": "TECHNICAL_CHECKS_PASS_VISUAL_APPROVAL_PENDING",
+  "limitations": [
+    "RGB candidate; full CMYK/outline derivative/combined flyer pending.",
+    "Publication type uses replacement fonts with measured source glyph bounds; exact original handwritten shapes unavailable.",
+    "Photo repair is confined to annotation-covered backgrounds/sleeve/paint regions; protected visible people compared explicitly."
+  ]
+}

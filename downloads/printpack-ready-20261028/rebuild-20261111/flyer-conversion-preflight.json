@@ -1,0 +1,78 @@
+{
+  "status": "fixed_output_independent_review_pending",
+  "label": "flyer",
+  "native_master": "flyer-CMYK-text-master.pdf",
+  "native_sha256": "c55b79b0a63171987fd46bdd38e5bbf8f5a1e7f0bef585af669e68cae5d701b9",
+  "outline_print": "flyer-CMYK-outline-print.pdf",
+  "outline_sha256": "9c83619be024e54edb3b042d47acc96f0d8e3377ddd83899b26addec740c72fa",
+  "frozen_source_sha256": "59741a08bf6cab4ac9f798a1803413da244080f68ca2a118225f062cad463f05",
+  "GS_commands": [
+    [
+      "gs",
+      "-dSAFER",
+      "--permit-file-read=/workspace/DTP/downloads/printpack-ready-20261028/profiles/JapanColor2011Coated.icc",
+      "-dBATCH",
+      "-dNOPAUSE",
+      "-sDEVICE=pdfwrite",
+      "-dCompatibilityLevel=1.4",
+      "-dAutoRotatePages=/None",
+      "-dEmbedAllFonts=true",
+      "-dSubsetFonts=true",
+      "-dNoOutputFonts=false",
+      "-sColorConversionStrategy=CMYK",
+      "-dProcessColorModel=/DeviceCMYK",
+      "-sOutputICCProfile=/workspace/DTP/downloads/printpack-ready-20261028/profiles/JapanColor2011Coated.icc",
+      "-dDownsampleColorImages=false",
+      "-dDownsampleGrayImages=false",
+      "-dDownsampleMonoImages=false",
+      "-dAutoFilterColorImages=false",
+      "-dColorImageFilter=/FlateEncode",
+      "-dAutoFilterGrayImages=false",
+      "-dGrayImageFilter=/FlateEncode",
+      "-sOutputFile=/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/inspection/flyer-CMYK-raw.pdf",
+      "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/inspection/flyer-frozen-native.pdf"
+    ],
+    [
+      "gs",
+      "-dSAFER",
+      "--permit-file-read=/workspace/DTP/downloads/printpack-ready-20261028/profiles/JapanColor2011Coated.icc",
+      "-dBATCH",
+      "-dNOPAUSE",
+      "-sDEVICE=pdfwrite",
+      "-dCompatibilityLevel=1.4",
+      "-dAutoRotatePages=/None",
+      "-dEmbedAllFonts=true",
+      "-dSubsetFonts=true",
+      "-dNoOutputFonts=true",
+      "-sColorConversionStrategy=LeaveColorUnchanged",
+      "-dProcessColorModel=/DeviceCMYK",
+      "-sOutputICCProfile=/workspace/DTP/downloads/printpack-ready-20261028/profiles/JapanColor2011Coated.icc",
+      "-dDownsampleColorImages=false",
+      "-dDownsampleGrayImages=false",
+      "-dDownsampleMonoImages=false",
+      "-dAutoFilterColorImages=false",
+      "-dColorImageFilter=/FlateEncode",
+      "-dAutoFilterGrayImages=false",
+      "-dGrayImageFilter=/FlateEncode",
+      "-sOutputFile=/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/inspection/flyer-CMYK-outline-raw.pdf",
+      "/workspace/DTP/downloads/printpack-ready-20261028/rebuild-20261111/flyer-CMYK-text-master.pdf"
+    ]
+  ],
+  "CMYK_master_CMap_source_restorations": [],
+  "ICC_sha256": "73202ea802e57a63a0be05ed993fde8e4d51cc436120e6c47815ce785ff42916",
+  "pages": [
+    {
+      "page": 1,
+      "native_chars": 231,
+      "origin_max_delta_pt": 0.0005925441845381958,
+      "images": 4
+    },
+    {
+      "page": 2,
+      "native_chars": 417,
+      "origin_max_delta_pt": 0.0009558386086038712,
+      "images": 9
+    }
+  ],
+  "independent_final_visual_and_outline_comparison": "pending"
+}

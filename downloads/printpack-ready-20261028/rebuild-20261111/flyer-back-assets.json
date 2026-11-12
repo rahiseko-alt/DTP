@@ -1,0 +1,48 @@
+{
+  "current_ignored_asset_dir": "downloads/printpack-ready-20261028/rebuild-20261111/assets/flyer-back",
+  "recommended_persistent_dir": "shared/generated-assets/printpack-native-rebuild-20261111/flyer-back",
+  "files": [
+    {
+      "file": "hero-generated-clean-candidate.png",
+      "sha256": "c981cb35bd4c8c7d78f979a0a8ae79185e4d154a2f9b7e00c30acf5e1b4d1b4c",
+      "bytes": 2246918
+    },
+    {
+      "file": "hero-generated-clean-candidate.prompt.yaml",
+      "sha256": "33f2c17eed5cae55a15ac89a011aaa5ef5846b72d7d0401757886d1827737aff",
+      "bytes": 915
+    },
+    {
+      "file": "brush-restored-textless.png",
+      "sha256": "241d218625111814f878cf981c1852afb7632847badc651eac7e7e96b83e5d26",
+      "bytes": 1521525
+    },
+    {
+      "file": "brush-restored-textless.prompt.yaml",
+      "sha256": "bf1d4f3de787e1392f9b4b7250452275b4d0910fbbb1223d49bc4becb8e6219f",
+      "bytes": 876
+    },
+    {
+      "file": "fonts/Yomogi-Regular.ttf",
+      "sha256": "ec280f473a03187292905618f24fdb08a6dcbf8620b52637e3b589fe745259b9",
+      "bytes": 4045904
+    },
+    {
+      "file": "fonts/Yomogi-OFL.txt",
+      "sha256": "bc0330d5973ab1f200553f51b4cb4ef11b81187fdcd0249f7f83992726c02a48",
+      "bytes": 4409
+    },
+    {
+      "file": "fonts/Knewave-Regular.ttf",
+      "sha256": "ed3bac761d755b89ab3082c844d4a623d63c7d6eef85d22ba1fb6c680e6a4436",
+      "bytes": 32460
+    },
+    {
+      "file": "fonts/Knewave-OFL.txt",
+      "sha256": "14b3fbd06078a869cf2ba96e6dacb852d373703c86ca7ad54a4cdd6e20fbab19",
+      "bytes": 4419
+    }
+  ],
+  "script_prefers_persistent_dir_when_present": true,
+  "source_extractions_are_reproducible_from_original_PDF": true
+}

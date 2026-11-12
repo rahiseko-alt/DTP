@@ -1,0 +1,247 @@
+{
+  "status": "NO_NEW_TECHNICAL_OR_PHOTO_DEFECT_FOUND_RGB_SINGLE_PAGE_NOT_FINAL_SUBMISSION",
+  "reviewer": "independent strict_photo_audit",
+  "target": "flyer-front-native-trial.pdf",
+  "sha256": "d150ad21ef3607329a5e024da862c306778172dc071287f69106e1cabbf3da01",
+  "unchanged_sha256_after_review": "d150ad21ef3607329a5e024da862c306778172dc071287f69106e1cabbf3da01",
+  "source_sha256": "20d2c38ea4b640d2a3bc8dd246e63d6be306389b5639f06adeba3fcddaf43464",
+  "source_page": 1,
+  "pages": 1,
+  "boxes_pt": {
+    "/MediaBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ],
+    "/CropBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ],
+    "/TrimBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ],
+    "/BleedBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ],
+    "/ArtBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ]
+  },
+  "native_characters": 231,
+  "font_count": 26,
+  "all_fonts_embedded": true,
+  "pdffonts": [
+    "name                                 type              encoding         emb sub uni object ID",
+    "------------------------------------ ----------------- ---------------- --- --- --- ---------",
+    "DTPRebuiltSansJPBold Bold            CID Type 0C (OT)  Identity-H       yes no  yes     15  0",
+    "DTPRebuiltSansJPRegular Regular      CID Type 0C (OT)  Identity-H       yes no  yes     16  0",
+    "Nimbus Sans Bold                     CID Type 0C (OT)  Identity-H       yes no  yes     17  0",
+    "GAAAAA+NotoSansJPThin-Bold           CID TrueType      Identity-H       yes yes yes     36  0",
+    "HAAAAA+NotoSansJPThin-Bold           CID TrueType      Identity-H       yes yes yes     37  0",
+    "IAAAAA+NotoSansJPThin-Bold           CID TrueType      Identity-H       yes yes yes     38  0",
+    "JAAAAA+NotoSansJPThin-Bold           CID TrueType      Identity-H       yes yes yes     39  0",
+    "KAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes     40  0",
+    "LAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes     41  0",
+    "MAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes     42  0",
+    "NAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes     43  0",
+    "OAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes     44  0",
+    "PAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes     45  0",
+    "QAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes     46  0",
+    "RAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes     47  0",
+    "SAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes     48  0",
+    "TAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes     49  0",
+    "UAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes     50  0",
+    "VAAAAA+NotoSansJPThin-Bold           CID TrueType      Identity-H       yes yes yes     51  0",
+    "WAAAAA+NotoSansJPThin-Regular        CID TrueType      Identity-H       yes yes yes     52  0",
+    "AAAAAA+NotoSansJPThin-Bold           CID TrueType      Identity-H       yes yes yes     53  0",
+    "BAAAAA+NotoSansJPThin-Bold           CID TrueType      Identity-H       yes yes yes     54  0",
+    "CAAAAA+NotoSansJPThin-Bold           CID TrueType      Identity-H       yes yes yes     55  0",
+    "DAAAAA+NotoSansJPThin-Bold           CID TrueType      Identity-H       yes yes yes     56  0",
+    "EAAAAA+NotoSansJPThin-Bold           CID TrueType      Identity-H       yes yes yes     57  0",
+    "FAAAAA+NotoSansJPThin-Bold           CID TrueType      Identity-H       yes yes yes     58  0"
+  ],
+  "glyph_zero_count": 0,
+  "replacement_character_count": 0,
+  "photo_validation": {
+    "source_size_px": [
+      2480,
+      3508
+    ],
+    "crop_px": [
+      0,
+      640,
+      2480,
+      2597
+    ],
+    "embedded_photo_size_px": [
+      2480,
+      1957
+    ],
+    "decoded_photo_equals_original_crop": true,
+    "source_photo_sample_sha256": "e00e851568e92cdaffe65b2f97037303f0ba4eed47d06b39f9fe6d0b97cfb6ef",
+    "new_photo_sample_sha256": "e00e851568e92cdaffe65b2f97037303f0ba4eed47d06b39f9fe6d0b97cfb6ef",
+    "source_ICC_sha256": "eddaf344b5edea13269e0d20055f335610e5e0b6e33e6e536f2701bc18c5f7d5",
+    "new_photo_ICC_sha256": "eddaf344b5edea13269e0d20055f335610e5e0b6e33e6e536f2701bc18c5f7d5",
+    "ICC_identical": true,
+    "visual": "Every person face/expression/hair/skin/clothes/hand position and group arrangement visually faithful in both renderers; no regeneration of people. Original carpet and room retained.",
+    "rendered_photo_identity": "Not pixel exact: sampling context of cropped image differs, see numeric144dpi metrics.",
+    "outer_extension": "Single original rightmost photo column repeated into only0.147714mm missing outer area, with overlap to avoid seams; no main photo scaling."
+  },
+  "header_geometry": [
+    {
+      "line": "AI BUSINESS’28",
+      "reference_ink_bbox_pt": [
+        17.74976151989352,
+        16.093159831100344,
+        579.9854507446289,
+        90.67505455234576
+      ],
+      "output_ink_bbox_pt": [
+        17.875,
+        16.0,
+        579.875,
+        90.5
+      ],
+      "largest_edge_delta_pt": 0.17505455234575606
+    },
+    {
+      "line": "AIビジネス専門学校",
+      "reference_ink_bbox_pt": [
+        21.10782451014365,
+        102.18608653504602,
+        262.1687748816706,
+        133.12198498855295
+      ],
+      "output_ink_bbox_pt": [
+        21.125,
+        102.25,
+        262.125,
+        133.125
+      ],
+      "largest_edge_delta_pt": 0.06391346495398409
+    },
+    {
+      "line": "国際ビジネスAI科 ／ 総合ビジネス科",
+      "reference_ink_bbox_pt": [
+        292.87106507824313,
+        101.94627336873975,
+        519.5403169201267,
+        115.85543701450257
+      ],
+      "output_ink_bbox_pt": [
+        293.0,
+        102.0,
+        519.5,
+        115.875
+      ],
+      "largest_edge_delta_pt": 0.1289349217568656
+    },
+    {
+      "line": "科目上段",
+      "reference_ink_bbox_pt": [
+        292.6312034360824,
+        122.81001883738396,
+        580.7050356711111,
+        130.7238533254904
+      ],
+      "output_ink_bbox_pt": [
+        292.625,
+        122.875,
+        580.75,
+        130.75
+      ],
+      "largest_edge_delta_pt": 0.0649811626160357
+    },
+    {
+      "line": "科目下段",
+      "reference_ink_bbox_pt": [
+        292.87106507824313,
+        135.5201166516155,
+        481.1624541744109,
+        142.71451164080315
+      ],
+      "output_ink_bbox_pt": [
+        292.875,
+        135.625,
+        481.0,
+        142.75
+      ],
+      "largest_edge_delta_pt": 0.16245417441092513
+    }
+  ],
+  "header_max_edge_delta_pt": 0.17505455234575606,
+  "renderer_metrics": {
+    "photo_interior": {
+      "dpi": 144,
+      "mean_absolute_channel_delta": 0.5495959724545961,
+      "max_absolute_channel_delta": 28,
+      "different_channels": 1008541,
+      "total_channels": 3299280
+    },
+    "native_CTA": {
+      "dpi": 144,
+      "mean_absolute_channel_delta": 0.030407265964266045,
+      "max_absolute_channel_delta": 82,
+      "different_channels": 4606,
+      "total_channels": 1550682
+    }
+  },
+  "QR": {
+    "150": [
+      "https://drive.google.com/file/d/1Flb0l-VlY3PrHbKhjS0bm99pg_OBdtXo/view?usp=drive_link",
+      "https://drive.google.com/file/d/1wfbfRXTMtNotX3-1zaVgLdGH7DXI5xDZ/view?usp=drive_link"
+    ],
+    "300": [
+      "https://drive.google.com/file/d/1Flb0l-VlY3PrHbKhjS0bm99pg_OBdtXo/view?usp=drive_link",
+      "https://drive.google.com/file/d/1wfbfRXTMtNotX3-1zaVgLdGH7DXI5xDZ/view?usp=drive_link"
+    ]
+  },
+  "visual_copy_review": "All5 header lines, school/course/subject names, original native CTA/captions and2QR present, no missing/reordered visible content. Source title glyphs and new Nimbus title differ; position/size measured separately.",
+  "white_edges": {
+    "method": "600dpi full height outer-column scan; contiguous nearwhite(minRGB>250) runs longer3pixels",
+    "source_left_white_run_pt": [
+      [
+        0,
+        0.72
+      ]
+    ],
+    "source_right_white_run_pt": [
+      [
+        0,
+        623.16
+      ]
+    ],
+    "output_left_white_runs": [],
+    "output_right_white_runs": [],
+    "top_and_bottom_visual": "No unwanted white border or seam seen. Header/photo and photo/CTA joins viewed at150dpi/600dpi crops in both renderers."
+  },
+  "renderers": {
+    "MuPDF": "full page150dpi, whole page small,600dpi outer edges inspected",
+    "Poppler": "full page150dpi inspected",
+    "Poppler_stderr": ""
+  },
+  "limitations": [
+    "RGB single-page intermediate: CMYK/ICC print conversion and final2page order not reviewed.",
+    "Header wall texture was repaired with image generation; exact wall pixel identity not claimed. Main people photo preserved independently.",
+    "Replacement font shapes differ from source raster glyphs, despite matching5 line extents.",
+    "No actual printer upload or physical proof checked."
+  ],
+  "final_submission_approved": false,
+  "native_CTA_character_check": {
+    "reference_native_nonspace_glyphs": 94,
+    "missing_characters": [],
+    "maximum_nearest_same_Unicode_origin_delta_pt": 0.0
+  }
+}

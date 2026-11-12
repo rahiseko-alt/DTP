@@ -1,0 +1,95 @@
+{
+  "status": "NO_NEW_TECHNICAL_OR_PERSON_PHOTO_DEFECT_FOUND_RGB_SINGLE_PAGE_NOT_FINAL_SUBMISSION",
+  "reviewer": "independent strict_photo_audit",
+  "target": "cover-native-draft.pdf",
+  "sha256": "3651e3d90b86072a0b6306047fde22dac1c274fff9d961683b29fde5d8bd6668",
+  "current_sha_after_review": "3651e3d90b86072a0b6306047fde22dac1c274fff9d961683b29fde5d8bd6668",
+  "reference_source": "books/prospectus-isen-trial-2028/parts/curriculum-notice-20261028-brochure-jp-r13-master/a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74/curriculum-notice-20261028-brochure-jp-r13-master.pdf",
+  "source_sha256": "a856ca0aa6fef7099f47e9a3d81c679b8640a190f2d97577d03ece7561a1ab74",
+  "source_page": 1,
+  "pages": 1,
+  "boxes_pt": {
+    "/MediaBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ],
+    "/CropBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ],
+    "/TrimBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ],
+    "/BleedBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ],
+    "/ArtBox": [
+      "0",
+      "0",
+      "595.275590551181",
+      "841.889763779528"
+    ]
+  },
+  "native_chars": 148,
+  "unique_fonts": 4,
+  "all_fonts_embedded": true,
+  "glyph_zero_count": 0,
+  "replacement_character_count": 0,
+  "photo_validation": {
+    "source_crop_px": [
+      0,
+      640,
+      2480,
+      2638
+    ],
+    "new_photo_size_px": [
+      2480,
+      1998
+    ],
+    "RGB_sample_equals_source_crop": true,
+    "source_sample_sha256": "d174e34a7e26d36ab75e8b3dc1780d0cd87c6311daeb5bb76fee54376e803f62",
+    "new_photo_sample_sha256": "d174e34a7e26d36ab75e8b3dc1780d0cd87c6311daeb5bb76fee54376e803f62",
+    "source_ICC_sha256": "eddaf344b5edea13269e0d20055f335610e5e0b6e33e6e536f2701bc18c5f7d5",
+    "new_ICC_sha256": "eddaf344b5edea13269e0d20055f335610e5e0b6e33e6e536f2701bc18c5f7d5",
+    "ICC_identical": true,
+    "visual": "Every visible person face, expression, skin tone, clothing, hands, group arrangement and foreground body region faithfully retained in MuPDF and Poppler. Main scene is original pixels.",
+    "outer_strip": "Original rightmost photo column repeated across0.148mm missing edge, main photograph not enlarged.",
+    "source_normalization": "Original page595.91998x842.88000pt normalized to A4, original picture matrix retained with that normalization."
+  },
+  "ghost_validation": {
+    "method": "Independent diagnostic copy suppressed all native Tj/TJ text-show operators, preserving images. Viewed people-free floor at144dpi2x and compared r1.",
+    "r1_issue": "Glyph-shaped texture masks visibly spelled original slogan in floor.",
+    "r2_result": "No original letter-shaped ghosts visible after continuous floor repair. Diagnostic floor shows continuous carpet pattern.",
+    "diagnostic": ".cache/strict-cover-r2/floor-no-type.png",
+    "floor_limit": "Carpet texture/tiles reconstructed with image generation; exact source tile pixels outside people are not identical. Original top70px and65px feather preserve continuity, replacing remainder before original lettering begins."
+  },
+  "white_outer_strip_runs600dpi_pt": {
+    "left": [],
+    "right": []
+  },
+  "visual_copy": "All5 blue header lines and full white slogan AIを使いこなす／社会の主役になる！ retained, no letter clipping or missing text seen. Individual slogan glyphs are live embedded-font text. Replacement serif/sans letterforms differ from source raster.",
+  "renderers": {
+    "MuPDF": "full page150dpi and no-type diagnostic floor2x",
+    "Poppler": "full page150dpi inspected",
+    "Poppler_stderr": "Syntax Error (1416): Bad image parameters\n",
+    "join_result": "No unintended white seam seen at header/photo or photo/floor repair joins.",
+    "actual_print": "not checked"
+  },
+  "limitations": [
+    "RGB単ページ途中稿。CMYK/ICC入稿変換と全16頁結合後の新SHA再検査が必要。",
+    "代替字体の字形差は残る。",
+    "人のいない文字跡の床と壁面は生成補修。写真人物は原画素を保持するが床模様の完全一致ではない。",
+    "物理試し刷り未確認。"
+  ],
+  "final_submission_approved": false
+}
