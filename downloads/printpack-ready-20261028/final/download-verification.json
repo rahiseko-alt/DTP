@@ -1,0 +1,21 @@
+{
+  "remote_commit": "372a49063949becfb682b0e9b4d90b5a18ccd48e",
+  "method": "Fresh git-lfs fetch into a separate empty LFS object store, then full-byte SHA256 and PDF header validation",
+  "objects": [
+    {
+      "file": "final/冊子_クイック入稿用_A4_16P.pdf",
+      "bytes": 113018472,
+      "sha256": "decf8ed91965a033f3bd02b98fbc8843952f4ef6c299bd6ac440ea434ade33d2",
+      "PDF_magic": true,
+      "pointer_not_substituted": true
+    },
+    {
+      "file": "final/チラシ_クイック入稿用_A4_2P.pdf",
+      "bytes": 17025307,
+      "sha256": "9c83619be024e54edb3b042d47acc96f0d8e3377ddd83899b26addec740c72fa",
+      "PDF_magic": true,
+      "pointer_not_substituted": true
+    }
+  ],
+  "HTTPS_frontend_range_test": "Cloud proxy rejected the redirect tunnel with HTTP403; frontend URL GET was not declared verified. Remote LFS actual object download and checksums succeeded."
+}
